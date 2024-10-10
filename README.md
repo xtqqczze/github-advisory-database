@@ -46,6 +46,15 @@ From any individual advisory on [github.com/advisories](https://github.com/advis
 
 Alternatively, you can submit a pull request directly against a file in this repository. To do so, follow the [contribution guidelines](https://github.com/github/advisory-database/blob/main/CONTRIBUTING.md). 
 
+### References
+
+Advisory references are intended to be supplemental, relevant information for the reader. We aim to include primary source references provided by the CVE or GHSA authors, supplement with relevant code or documentation when applicable, and focus on concision and relevance for any additional references. We generally avoid including secondary source write ups on advisories unless they are provided by the upstream source.
+    
+### Fix commits
+
+Advisories are about specific build artifacts, and not about the project more generally. A reference to the commit that fixes a given vulnerability is helpful for downstream readers to determine impact, and we welcome contributions adding these details when missing. If the advisory already includes the relevant fix commit(s), we do not accept contributions that are duplicative, as adding irrelevant duplicate content creates an unnecessary burden on the reader of an advisory.
+
+
 ## Supported ecosystems 
 
 Unfortunately, we cannot accept community contributions to advisories outside of our supported ecosystems. Our curation team reviews each community contribution thoroughly and needs to be able to assess each change. 
