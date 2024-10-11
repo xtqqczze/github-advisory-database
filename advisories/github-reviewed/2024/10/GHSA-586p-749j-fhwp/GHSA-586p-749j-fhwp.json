@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-586p-749j-fhwp",
-  "modified": "2024-10-09T19:15:02Z",
+  "modified": "2024-10-11T16:51:47Z",
   "published": "2024-10-09T15:32:21Z",
   "aliases": [
     "CVE-2024-9675"
@@ -46,6 +46,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/containers/buildah/commit/aa67e5d71ee7ec07122a210baa3b13966a9e086c"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2024-9675"
     },
     {
@@ -55,6 +59,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/containers/buildah"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2024-3186"
     }
   ],
   "database_specific": {
