@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm3j-qgpw-pj98",
-  "modified": "2024-10-09T18:31:42Z",
+  "modified": "2024-10-11T15:30:32Z",
   "published": "2024-10-09T15:32:18Z",
   "aliases": [
     "CVE-2024-9680"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2024-51"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2024-52"
     }
   ],
   "database_specific": {
