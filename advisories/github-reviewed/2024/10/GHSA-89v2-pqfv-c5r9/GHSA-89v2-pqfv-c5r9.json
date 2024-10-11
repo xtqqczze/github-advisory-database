@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89v2-pqfv-c5r9",
-  "modified": "2024-10-10T21:36:36Z",
+  "modified": "2024-10-11T15:34:03Z",
   "published": "2024-10-10T21:36:36Z",
   "aliases": [
     "CVE-2024-47165"
@@ -45,17 +45,22 @@
       "url": "https://github.com/gradio-app/gradio/security/advisories/GHSA-89v2-pqfv-c5r9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47165"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/gradio-app/gradio"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-285",
       "CWE-346"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-10T21:36:36Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-10T22:15:10Z"
   }
 }

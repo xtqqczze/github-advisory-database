@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3c67-5hwx-f6wx",
-  "modified": "2024-10-10T21:20:06Z",
+  "modified": "2024-10-11T15:33:52Z",
   "published": "2024-10-10T21:20:06Z",
   "aliases": [
     "CVE-2024-47084"
@@ -45,17 +45,22 @@
       "url": "https://github.com/gradio-app/gradio/security/advisories/GHSA-3c67-5hwx-f6wx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47084"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/gradio-app/gradio"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-285",
       "CWE-346"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-10T21:20:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-10T22:15:10Z"
   }
 }
