@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpg4-rc92-vx8v",
-  "modified": "2024-10-07T19:56:52Z",
+  "modified": "2024-10-11T14:13:07Z",
   "published": "2024-07-29T17:46:16Z",
   "aliases": [
     "CVE-2024-41818"
@@ -29,7 +29,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.3.5"
             },
             {
               "fixed": "4.4.1"
@@ -47,6 +47,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-41818"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NaturalIntelligence/fast-xml-parser/commit/ba5f35e7680468acd7906eaabb2f69e28ed8b2aa"
     },
     {
       "type": "WEB",
