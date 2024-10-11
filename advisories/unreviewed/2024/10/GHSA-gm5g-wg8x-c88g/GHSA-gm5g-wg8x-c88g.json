@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gm5g-wg8x-c88g",
+  "modified": "2024-10-11T18:32:50Z",
+  "published": "2024-10-11T18:32:50Z",
+  "aliases": [
+    "CVE-2024-44414"
+  ],
+  "details": "A vulnerability was discovered in FBM_292W-21.03.10V, which has been classified as critical. This issue affects the sub_4901E0 function in the msp_info.htm file. Manipulation of the path parameter can lead to command injection.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44414"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/IotChan/cve/blob/main/wayos/FBM_292W/CVE-2024-44414"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/IotChan/cve/blob/main/wayos/FBM_292W/wayos%20FBM_292W.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-11T17:15:03Z"
+  }
+}
