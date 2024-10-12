@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfc7-gwmc-9vvr",
-  "modified": "2023-11-08T15:30:32Z",
+  "modified": "2024-10-12T00:30:46Z",
   "published": "2023-10-27T06:31:02Z",
   "aliases": [
     "CVE-2023-46818"
