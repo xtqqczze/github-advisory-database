@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5rxp-2rhr-qwqv",
+  "modified": "2024-10-14T20:55:49Z",
+  "published": "2024-10-14T20:55:49Z",
+  "aliases": [
+
+  ],
+  "summary": "Session fixation in Elytron SAML adapters",
+  "details": "A session fixation issue was discovered in the SAML adapters provided by Keycloak. The session ID and JSESSIONID cookie are not changed at login time, even when the turnOffChangeSessionIdOnLogin option is configured. This flaw allows an attacker who hijacks the current session before authentication to trigger session fixation.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-services"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "22.0.12"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 22.0.11"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-services"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "23.0.0"
+            },
+            {
+              "fixed": "24.0.7"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 24.0.6"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-services"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "25.0.0"
+            },
+            {
+              "fixed": "25.0.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/security/advisories/GHSA-5rxp-2rhr-qwqv"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/keycloak/keycloak"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-384"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-10-14T20:55:49Z",
+    "nvd_published_at": null
+  }
+}
