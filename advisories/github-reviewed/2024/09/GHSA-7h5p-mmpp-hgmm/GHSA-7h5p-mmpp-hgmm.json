@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7h5p-mmpp-hgmm",
-  "modified": "2024-09-04T20:24:42Z",
+  "modified": "2024-10-14T14:19:19Z",
   "published": "2024-09-04T17:38:24Z",
   "aliases": [
     "CVE-2024-43405"
@@ -22,7 +22,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/projectdiscovery/nuclei"
+        "name": "github.com/projectdiscovery/nuclei/v3"
       },
       "ranges": [
         {
@@ -55,13 +55,17 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/projectdiscovery/nuclei"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2024-3114"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-78"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-04T17:38:24Z",
     "nvd_published_at": "2024-09-04T16:15:06Z"
