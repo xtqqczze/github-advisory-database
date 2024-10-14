@@ -76,7 +76,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1333"
+      "CWE-1333",
+      "CWE-606"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

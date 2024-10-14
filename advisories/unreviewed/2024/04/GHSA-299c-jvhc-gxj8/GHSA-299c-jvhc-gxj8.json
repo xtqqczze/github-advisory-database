@@ -49,7 +49,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-1325"
     ],
     "severity": null,
     "github_reviewed": false,
