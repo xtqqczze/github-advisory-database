@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vppr-7254-jpr7",
-  "modified": "2024-04-04T05:48:43Z",
+  "modified": "2024-10-14T06:30:42Z",
   "published": "2023-07-06T21:15:07Z",
   "aliases": [
     "CVE-2023-30603"
@@ -28,6 +28,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1392",
       "CWE-287"
     ],
     "severity": "CRITICAL",
