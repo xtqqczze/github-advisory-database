@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8wj-7hcm-8qpr",
-  "modified": "2024-10-11T21:31:34Z",
+  "modified": "2024-10-15T21:30:37Z",
   "published": "2024-10-11T21:31:34Z",
   "aliases": [
     "CVE-2024-48769"
   ],
   "details": "An issue in BURG-WCHTER KG de.burgwachter.keyapp.app 4.5.0 allows a remote attacker to obtain sensitve information via the firmware update process.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-863"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-11T20:15:05Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8x2-fpjj-2hvp",
-  "modified": "2024-10-11T18:32:50Z",
+  "modified": "2024-10-15T21:30:36Z",
   "published": "2024-10-11T18:32:50Z",
   "aliases": [
     "CVE-2024-9859"
   ],
   "details": "Type confusion in WebAssembly in Google Chrome prior to 126.0.6478.126 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
       "CWE-843"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-11T17:15:04Z"

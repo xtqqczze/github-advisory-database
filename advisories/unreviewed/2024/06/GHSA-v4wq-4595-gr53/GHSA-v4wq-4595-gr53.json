@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4wq-4595-gr53",
-  "modified": "2024-06-06T21:30:36Z",
+  "modified": "2024-10-15T21:30:34Z",
   "published": "2024-06-06T21:30:36Z",
   "aliases": [
     "CVE-2024-36735"
   ],
   "details": "OneFlow-Inc. Oneflow v0.9.1 does not display an error or warning when the oneflow.eye parameter is floating.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-06T19:15:58Z"
