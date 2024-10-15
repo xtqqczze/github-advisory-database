@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cx95-q6gx-w4qp",
+  "modified": "2024-10-15T14:04:27Z",
+  "published": "2024-10-15T14:04:27Z",
+  "aliases": [
+    "CVE-2024-47876"
+  ],
+  "summary": "SAK-50571 Sakai Kernel users created with type roleview can login as a normal user",
+  "details": "### Impact\nIllegal access can be granted to the system.\n\n### References\nsee https://sakaiproject.atlassian.net/browse/SAK-50571",
+  "severity": [
+
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.sakaiproject.kernel:sakai-kernel-impl"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "23.0"
+            },
+            {
+              "fixed": "23.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/sakaiproject/sakai/security/advisories/GHSA-cx95-q6gx-w4qp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sakaiproject/sakai/commit/a9aadd9347cfb204515e89ac0163e1be9e56cc41"
+    },
+    {
+      "type": "WEB",
+      "url": "https://central.sonatype.com/artifact/org.sakaiproject.kernel/sakai-kernel-impl"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/sakaiproject/sakai"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-285"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-10-15T14:04:27Z",
+    "nvd_published_at": null
+  }
+}
