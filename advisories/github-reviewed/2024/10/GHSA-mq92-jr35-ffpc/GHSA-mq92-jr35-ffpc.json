@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq92-jr35-ffpc",
-  "modified": "2024-10-09T22:09:43Z",
+  "modified": "2024-10-15T23:34:36Z",
   "published": "2024-10-09T21:31:08Z",
   "aliases": [
     "CVE-2024-7038"
@@ -59,7 +59,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-209"
     ],
     "severity": "LOW",
     "github_reviewed": true,
