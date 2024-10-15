@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5645-gr78-qx8w",
-  "modified": "2024-10-04T18:31:11Z",
+  "modified": "2024-10-15T15:30:45Z",
   "published": "2024-10-04T18:31:11Z",
   "aliases": [
     "CVE-2024-38039"
@@ -28,6 +28,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-79",
       "CWE-80"
     ],
     "severity": "MODERATE",

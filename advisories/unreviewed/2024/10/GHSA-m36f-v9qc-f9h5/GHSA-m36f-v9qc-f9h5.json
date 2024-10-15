@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m36f-v9qc-f9h5",
-  "modified": "2024-10-15T09:30:32Z",
+  "modified": "2024-10-15T15:30:53Z",
   "published": "2024-10-15T09:30:31Z",
   "aliases": [
     "CVE-2024-47944"
   ],
   "details": "The device directly executes .patch firmware upgrade files on a USB stick without any prior authentication in the admin interface. This leads to an unauthenticated code execution via the firmware upgrade function.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
       "CWE-1299"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-15T09:15:03Z"
