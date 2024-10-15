@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-434g-2637-qmqr",
-  "modified": "2024-10-10T21:00:04Z",
+  "modified": "2024-10-15T17:14:02Z",
   "published": "2024-10-10T03:30:44Z",
   "aliases": [
     "CVE-2024-48949"
   ],
-  "summary": "Elliptic's verify function omits validation",
+  "summary": "Elliptic's verify function omits uniqueness validation",
   "details": "The Elliptic package 6.5.5 for Node.js for EDDSA implementation does not perform the required check if the signature proof(s) is within the bounds of the order n of the base point of the elliptic curve, leading to signature malleability. Namely, the `verify` function in `lib/elliptic/eddsa/index.js` omits `sig.S().gte(sig.eddsa.curve.n) || sig.S().isNeg()` validation.\n\nThis vulnerability could have a security-relevant impact if an application relies on the uniqueness of a signature.",
   "severity": [
     {
