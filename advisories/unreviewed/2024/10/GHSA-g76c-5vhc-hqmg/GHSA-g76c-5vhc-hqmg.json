@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g76c-5vhc-hqmg",
-  "modified": "2024-10-01T18:31:19Z",
+  "modified": "2024-10-15T18:30:49Z",
   "published": "2024-10-01T18:31:19Z",
   "aliases": [
     "CVE-2024-9399"
   ],
   "details": "A website configured to initiate a specially crafted WebTransport session could crash the Firefox process leading to a denial of service condition. This vulnerability affects Firefox < 131, Firefox ESR < 128.3, Thunderbird < 128.3, and Thunderbird < 131.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -43,7 +46,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-01T16:15:10Z"

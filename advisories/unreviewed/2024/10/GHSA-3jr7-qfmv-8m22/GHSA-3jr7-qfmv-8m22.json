@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jr7-qfmv-8m22",
-  "modified": "2024-10-14T18:30:26Z",
+  "modified": "2024-10-15T18:30:49Z",
   "published": "2024-10-14T18:30:26Z",
   "aliases": [
     "CVE-2024-48798"
   ],
   "details": "An issue in Hubble Connected (com.hubbleconnected.vervelife) 2.00.81 allows a remote attacker to obtain sensitive information via the firmware update process.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-14T17:15:13Z"
