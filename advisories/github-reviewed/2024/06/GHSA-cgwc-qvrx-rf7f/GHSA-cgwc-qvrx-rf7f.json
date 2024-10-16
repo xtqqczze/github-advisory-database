@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgwc-qvrx-rf7f",
-  "modified": "2024-10-16T18:04:32Z",
+  "modified": "2024-10-16T18:32:25Z",
   "published": "2024-06-06T18:30:58Z",
   "aliases": [
     "CVE-2024-5452"
@@ -42,7 +42,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/Lightning-AI/pytorch-lightning/issues/20032"
+      "url": "https://github.com/Lightning-AI/pytorch-lightning/issues/20038"
     },
     {
       "type": "WEB",
