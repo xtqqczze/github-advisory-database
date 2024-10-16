@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pppg-cpfq-h7wr",
-  "modified": "2024-10-14T16:27:22Z",
+  "modified": "2024-10-16T17:05:07Z",
   "published": "2024-10-11T15:30:32Z",
   "aliases": [
     "CVE-2024-21534"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/JSONPath-Plus/JSONPath"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-8185019"
     },
     {
       "type": "WEB",

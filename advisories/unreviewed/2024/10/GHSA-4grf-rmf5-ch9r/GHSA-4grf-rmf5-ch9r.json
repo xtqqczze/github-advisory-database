@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4grf-rmf5-ch9r",
-  "modified": "2024-10-11T18:32:50Z",
+  "modified": "2024-10-16T21:31:07Z",
   "published": "2024-10-11T18:32:50Z",
   "aliases": [
     "CVE-2024-44734"
   ],
   "details": "Incorrect access control in Mirotalk before commit 9de226 allows attackers to arbitrarily change usernames via sending a crafted roomAction request to the server.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-346"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-11T17:15:04Z"

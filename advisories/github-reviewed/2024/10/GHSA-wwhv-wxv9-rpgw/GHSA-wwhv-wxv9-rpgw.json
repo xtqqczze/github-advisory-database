@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwhv-wxv9-rpgw",
-  "modified": "2024-10-15T23:35:36Z",
+  "modified": "2024-10-16T19:32:54Z",
   "published": "2024-10-15T23:35:36Z",
   "aliases": [
     "CVE-2024-47888"
@@ -97,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rails/rails"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actiontext/CVE-2024-47888.yml"
     }
   ],
   "database_specific": {

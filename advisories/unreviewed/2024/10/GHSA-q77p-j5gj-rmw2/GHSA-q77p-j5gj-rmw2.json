@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q77p-j5gj-rmw2",
-  "modified": "2024-10-15T21:30:39Z",
+  "modified": "2024-10-16T21:31:08Z",
   "published": "2024-10-15T21:30:39Z",
   "aliases": [
     "CVE-2024-44775"
   ],
   "details": "An issue in kmqtt v0.2.7 allows attackers to cause a Denial of Service(DoS) via a crafted request.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-444"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-15T21:15:10Z"

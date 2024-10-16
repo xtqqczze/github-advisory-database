@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3x7w-vvg2-w6r8",
-  "modified": "2024-04-04T05:51:15Z",
+  "modified": "2024-10-16T12:30:47Z",
   "published": "2023-07-10T18:30:47Z",
   "aliases": [
     "CVE-2021-42082"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://csirt.divd.nl/CVE-2021-42082"
+    },
+    {
+      "type": "WEB",
+      "url": "https://csirt.divd.nl/DIVD-2021-00020"
     },
     {
       "type": "WEB",

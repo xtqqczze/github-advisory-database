@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfg9-r3fq-jvx4",
-  "modified": "2024-10-15T23:35:35Z",
+  "modified": "2024-10-16T19:33:03Z",
   "published": "2024-10-15T23:35:35Z",
   "aliases": [
     "CVE-2024-47887"
@@ -97,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rails/rails"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2024-47887.yml"
     }
   ],
   "database_specific": {
