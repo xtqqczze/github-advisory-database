@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h47h-mwp9-c6q6",
-  "modified": "2024-10-15T23:35:38Z",
+  "modified": "2024-10-16T19:32:41Z",
   "published": "2024-10-15T23:35:38Z",
   "aliases": [
     "CVE-2024-47889"
@@ -97,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rails/rails"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionmailer/CVE-2024-47889.yml"
     }
   ],
   "database_specific": {
