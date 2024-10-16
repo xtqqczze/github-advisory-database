@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-37gm-h5wr-pf25",
+  "modified": "2024-10-16T21:31:09Z",
+  "published": "2024-10-16T21:31:09Z",
+  "aliases": [
+    "CVE-2024-46212"
+  ],
+  "details": "An issue in the component /index.php?page=backup/export of REDAXO CMS v5.17.1 allows attackers to execute a directory traversal.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46212"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Purposex7/Vulns4Study/blob/main/REDAXO%20File%20Download%20Exploit.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-16T21:15:12Z"
+  }
+}
