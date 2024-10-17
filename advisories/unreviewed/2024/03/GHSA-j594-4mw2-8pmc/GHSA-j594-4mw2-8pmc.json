@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j594-4mw2-8pmc",
-  "modified": "2024-09-30T12:30:32Z",
+  "modified": "2024-10-17T12:30:51Z",
   "published": "2024-03-05T12:30:31Z",
   "aliases": [
     "CVE-2023-45593"
