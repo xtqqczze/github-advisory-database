@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f2c-45xq-c486",
-  "modified": "2024-10-15T15:30:45Z",
+  "modified": "2024-10-17T06:30:32Z",
   "published": "2024-10-09T18:31:43Z",
   "aliases": [
     "CVE-2024-9465"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://security.paloaltonetworks.com/PAN-SA-2024-0010"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.horizon3.ai/attack-research/palo-alto-expedition-from-n-day-to-full-compromise"
     }
   ],
   "database_specific": {
