@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf5v-pqfv-x8jj",
-  "modified": "2024-10-14T22:24:07Z",
+  "modified": "2024-10-17T21:33:14Z",
   "published": "2024-10-14T21:16:12Z",
   "aliases": [
     "CVE-2024-48911"
@@ -9,6 +9,10 @@
   "summary": "OpenCanary Executes Commands From Potentially Writable Config File",
   "details": "### Impact\n\nOpenCanary directly executed commands taken from its config file. Where the config file is stored in an unprivileged user directory but the daemon is executed by root, it’s possible for the unprivileged user to change the config file and escalate permissions when root later runs the daemon.\n\nThanks to the folks at [Whirlylabs](https://whirlylabs.com/) for finding and fixing this.\n\n### Patches\n\nUpgrade to 0.9.4 or higher.\n\n",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:N/VC:L/VI:H/VA:L/SC:N/SI:N/SA:N"
