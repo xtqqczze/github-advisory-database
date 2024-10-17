@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5ggj-j87m-p7xh",
-  "modified": "2024-09-26T21:31:11Z",
+  "modified": "2024-10-17T03:31:31Z",
   "published": "2024-09-26T09:31:42Z",
   "aliases": [
     "CVE-2024-47044"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/jp/JVN78356367"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web116.jp/ced/support/news/contents/2024/20240930.html"
     },
     {
       "type": "WEB",
