@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7gc-73mm-jqxm",
-  "modified": "2024-09-30T15:30:43Z",
+  "modified": "2024-10-17T15:31:07Z",
   "published": "2024-07-29T09:36:14Z",
   "aliases": [
     "CVE-2024-41016"
@@ -20,7 +20,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/57a3d89831fcaa2cdbe024b47c7c36d5a56c3637"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/af77c4fc1871847b528d58b7fdafb4aa1f6a9262"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c031d286eceb82f72f8623b7f4abd2aa491bfb5e"
     },
     {
       "type": "WEB",

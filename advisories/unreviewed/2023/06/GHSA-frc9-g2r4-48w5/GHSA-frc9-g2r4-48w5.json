@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frc9-g2r4-48w5",
-  "modified": "2024-04-04T05:01:28Z",
+  "modified": "2024-10-17T15:31:06Z",
   "published": "2023-06-22T21:30:48Z",
   "aliases": [
     "CVE-2023-28799"
@@ -48,6 +48,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1287",
       "CWE-20",
       "CWE-601"
     ],

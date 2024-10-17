@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5v6g-vfrc-9w8p",
-  "modified": "2024-09-10T09:31:11Z",
+  "modified": "2024-10-17T15:31:07Z",
   "published": "2024-06-25T15:31:09Z",
   "aliases": [
     "CVE-2024-39463"
@@ -20,6 +20,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39463"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3bb6763a8319170c2d41c4232c8e7e4c37dcacfb"
     },
     {
       "type": "WEB",

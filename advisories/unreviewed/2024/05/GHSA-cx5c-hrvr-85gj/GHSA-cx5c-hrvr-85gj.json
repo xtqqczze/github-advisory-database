@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx5c-hrvr-85gj",
-  "modified": "2024-10-10T12:31:11Z",
+  "modified": "2024-10-17T15:31:07Z",
   "published": "2024-05-01T15:30:36Z",
   "aliases": [
     "CVE-2024-27072"
@@ -24,7 +24,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4ec4641df57cbdfdc51bb4959afcdbcf5003ddb9"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/65e6a2773d655172143cc0b927cdc89549842895"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bdd82c47b22a8befd617b723098b2a41b77373c7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d5ed208d04acf06781d63d30f9fa991e8d609ebd"
     },
     {
       "type": "WEB",
