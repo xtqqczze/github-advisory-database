@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qr97-x53q-9m8f",
-  "modified": "2024-10-09T21:31:08Z",
+  "modified": "2024-10-17T00:32:35Z",
   "published": "2024-10-09T21:31:08Z",
   "aliases": [
     "CVE-2024-39516"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://supportportal.juniper.net/JSA88100"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.juniper.net/documentation/us/en/software/junos/cli-reference/topics/ref/statement/traceoptions-edit-protocols-bgp.html"
     }
   ],
   "database_specific": {
