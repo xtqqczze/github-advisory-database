@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-255w-87rh-rg44",
-  "modified": "2024-10-03T18:25:40Z",
+  "modified": "2024-10-18T14:42:40Z",
   "published": "2024-10-03T18:25:40Z",
   "aliases": [
     "CVE-2024-47618"
@@ -30,6 +30,25 @@
           "events": [
             {
               "introduced": "2.0.0-RC1"
+            },
+            {
+              "fixed": "2.5.21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "sulu/sulu"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.6.0-RC1"
             },
             {
               "fixed": "2.6.5"
