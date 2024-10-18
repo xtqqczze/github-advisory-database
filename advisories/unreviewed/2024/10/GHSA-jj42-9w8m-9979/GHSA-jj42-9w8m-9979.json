@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj42-9w8m-9979",
-  "modified": "2024-10-18T00:31:15Z",
+  "modified": "2024-10-18T21:32:18Z",
   "published": "2024-10-18T00:31:15Z",
   "aliases": [
     "CVE-2023-26785"
   ],
   "details": "MariaDB v10.5 was discovered to contain a remote code execution (RCE) vulnerability.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-94"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-17T22:15:02Z"

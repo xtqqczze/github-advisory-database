@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qm34-9r78-66cq",
-  "modified": "2024-10-18T15:31:20Z",
+  "modified": "2024-10-18T21:32:18Z",
   "published": "2024-10-18T15:31:20Z",
   "aliases": [
     "CVE-2024-9537"
@@ -31,6 +31,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://community.sciencelogic.com/blog/latest-kb-articles-and-known-issues-blog-board/week-of-september-30-2024---latest-kb-articles-and-known-issues-part-1-of-2/1690"
+    },
+    {
+      "type": "WEB",
       "url": "https://rackspace.service-now.com/system_status?id=detailed_status&service=4dafca5a87f41610568b206f8bbb35a6"
     },
     {
@@ -56,7 +60,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-829"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,
