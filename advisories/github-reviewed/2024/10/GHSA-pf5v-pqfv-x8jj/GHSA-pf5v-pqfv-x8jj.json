@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf5v-pqfv-x8jj",
-  "modified": "2024-10-17T21:33:14Z",
+  "modified": "2024-10-18T16:28:03Z",
   "published": "2024-10-14T21:16:12Z",
   "aliases": [
     "CVE-2024-48911"
@@ -32,7 +32,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.9.4"
+              "fixed": "0.9.5"
             }
           ]
         }
