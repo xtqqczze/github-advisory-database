@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jj42-9w8m-9979",
+  "modified": "2024-10-18T00:31:15Z",
+  "published": "2024-10-18T00:31:15Z",
+  "aliases": [
+    "CVE-2023-26785"
+  ],
+  "details": "MariaDB v10.5 was discovered to contain a remote code execution (RCE) vulnerability.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-26785"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Ant1sec-ops/CVE-2023-26785"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-17T22:15:02Z"
+  }
+}

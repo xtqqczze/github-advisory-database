@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x834-53jc-rjr9",
-  "modified": "2024-10-07T21:33:31Z",
+  "modified": "2024-10-18T00:31:15Z",
   "published": "2024-10-07T21:33:30Z",
   "aliases": [
     "CVE-2024-47976"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://https://www.solidigm.com/support-page/support-security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.solidigm.com/support-page/support-security.html"
     }
   ],
   "database_specific": {
