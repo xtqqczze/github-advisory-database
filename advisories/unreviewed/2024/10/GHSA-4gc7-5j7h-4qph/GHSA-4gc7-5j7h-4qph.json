@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4gc7-5j7h-4qph",
+  "modified": "2024-10-18T06:30:33Z",
+  "published": "2024-10-18T06:30:32Z",
+  "aliases": [
+    "CVE-2024-38820"
+  ],
+  "details": "The fix for CVE-2022-22968 made disallowedFields patterns in DataBinder case insensitive. However, String.toLowerCase() has some Locale dependent exceptions that could potentially result in fields not protected as expected.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38820"
+    },
+    {
+      "type": "WEB",
+      "url": "https://spring.io/security/cve-2024-38820"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-18T06:15:03Z"
+  }
+}
