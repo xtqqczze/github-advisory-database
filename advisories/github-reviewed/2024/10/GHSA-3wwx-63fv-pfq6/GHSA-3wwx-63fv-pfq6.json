@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wwx-63fv-pfq6",
-  "modified": "2024-10-21T19:03:47Z",
+  "modified": "2024-10-21T21:41:15Z",
   "published": "2024-10-21T19:03:47Z",
   "aliases": [
     "CVE-2024-47825"
@@ -60,6 +60,10 @@
       "url": "https://github.com/cilium/cilium/security/advisories/GHSA-3wwx-63fv-pfq6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47825"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/cilium/cilium/commit/02d28d9ac9afcaddd301fae6fb4d6cda8c2d0c45"
     },
@@ -74,11 +78,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1038"
+      "CWE-1038",
+      "CWE-276"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-21T19:03:47Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-21T19:15:03Z"
   }
 }
