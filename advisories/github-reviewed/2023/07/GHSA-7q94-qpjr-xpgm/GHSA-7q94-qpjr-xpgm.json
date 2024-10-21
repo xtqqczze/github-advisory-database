@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q94-qpjr-xpgm",
-  "modified": "2024-09-27T18:24:39Z",
+  "modified": "2024-10-21T20:57:24Z",
   "published": "2023-07-06T15:30:33Z",
   "aliases": [
     "CVE-2023-36189"
@@ -74,7 +74,7 @@
     },
     {
       "type": "PACKAGE",
-      "url": "https://github.com/hwchase17/langchain"
+      "url": "https://github.com/langchain-ai/langchain"
     },
     {
       "type": "WEB",
