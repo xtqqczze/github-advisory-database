@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vmp-cwhr-32wm",
-  "modified": "2022-05-14T03:19:32Z",
+  "modified": "2024-10-21T15:32:15Z",
   "published": "2022-05-14T03:19:32Z",
   "aliases": [
     "CVE-2016-5257"

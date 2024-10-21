@@ -29,6 +29,7 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-703",
+      "CWE-754",
       "CWE-755"
     ],
     "severity": "HIGH",
