@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9vv-8xcq-rpqg",
-  "modified": "2024-10-18T18:30:36Z",
+  "modified": "2024-10-21T00:30:54Z",
   "published": "2024-10-18T00:31:16Z",
   "aliases": [
     "CVE-2024-27766"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Ant1sec-ops/CVE-2024-27766"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/fulldisclosure/2012/Dec/39"
     }
   ],
   "database_specific": {

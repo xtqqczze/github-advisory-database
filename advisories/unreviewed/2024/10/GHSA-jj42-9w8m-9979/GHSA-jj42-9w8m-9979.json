@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj42-9w8m-9979",
-  "modified": "2024-10-18T21:32:18Z",
+  "modified": "2024-10-21T00:30:54Z",
   "published": "2024-10-18T00:31:15Z",
   "aliases": [
     "CVE-2023-26785"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Ant1sec-ops/CVE-2023-26785"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/fulldisclosure/2012/Dec/39"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmcv-mjv9-gjcv",
-  "modified": "2024-10-09T18:31:42Z",
+  "modified": "2024-10-21T00:30:54Z",
   "published": "2024-10-09T18:31:42Z",
   "aliases": [
     "CVE-2024-46292"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/yoloflz101/yoloflz/blob/main/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://modsecurity.org/20241011/about-cve-2024-46292-2024-october"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr59-q2m8-w439",
-  "modified": "2024-10-18T21:32:18Z",
+  "modified": "2024-10-21T00:30:54Z",
   "published": "2024-10-18T00:31:15Z",
   "aliases": [
     "CVE-2023-39593"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Ant1sec-ops/CVE-2023-39593"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/fulldisclosure/2012/Dec/39"
     }
   ],
   "database_specific": {
