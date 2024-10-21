@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qjwp-794r-6x7v",
-  "modified": "2024-10-18T15:31:11Z",
+  "modified": "2024-10-21T18:30:45Z",
   "published": "2024-10-15T12:30:37Z",
   "aliases": [
     "CVE-2024-47674"
@@ -40,6 +40,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a95a24fcaee1b892e47d5e6dcc403f713874ee80"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/366053091"
     }
   ],
   "database_specific": {
