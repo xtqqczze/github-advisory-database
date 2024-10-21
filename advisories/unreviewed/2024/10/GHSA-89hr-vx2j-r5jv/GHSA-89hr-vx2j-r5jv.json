@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-89hr-vx2j-r5jv",
+  "modified": "2024-10-21T21:30:54Z",
+  "published": "2024-10-21T21:30:54Z",
+  "aliases": [
+    "CVE-2024-35286"
+  ],
+  "details": "A vulnerability in NuPoint Messenger (NPM) of Mitel MiCollab through 9.8.0.33 allows an unauthenticated attacker to conduct a SQL injection attack due to insufficient sanitization of user input. A successful exploit could allow an attacker to access sensitive information and execute arbitrary database and management operations.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35286"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-24-0014"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-21T21:15:05Z"
+  }
+}

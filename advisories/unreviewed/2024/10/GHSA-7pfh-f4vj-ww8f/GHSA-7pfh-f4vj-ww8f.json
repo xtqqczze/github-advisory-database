@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pfh-f4vj-ww8f",
-  "modified": "2024-10-16T18:31:36Z",
+  "modified": "2024-10-21T21:30:48Z",
   "published": "2024-10-09T15:32:19Z",
   "aliases": [
     "CVE-2024-46237"
@@ -20,6 +20,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46237"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/anoncoder01/PHP_Gurukul_Hospital_Management_System_XSS/blob/master/vulnerabilities/XSS1.md"
     },
     {
       "type": "WEB",

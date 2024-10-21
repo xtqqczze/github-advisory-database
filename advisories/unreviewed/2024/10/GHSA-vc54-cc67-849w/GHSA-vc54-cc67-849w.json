@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vc54-cc67-849w",
+  "modified": "2024-10-21T21:30:54Z",
+  "published": "2024-10-21T21:30:54Z",
+  "aliases": [
+    "CVE-2024-41712"
+  ],
+  "details": "A vulnerability in the Web Conferencing Component of Mitel MiCollab through 9.8.1.5 could allow an authenticated attacker to conduct a command injection attack, due to insufficient validation of user input. A successful exploit could allow an attacker to execute arbitrary commands on the system within the context of the user.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-41712"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-24-0022"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-21T21:15:06Z"
+  }
+}
