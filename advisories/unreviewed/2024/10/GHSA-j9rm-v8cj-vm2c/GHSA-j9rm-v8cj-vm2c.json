@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9rm-v8cj-vm2c",
-  "modified": "2024-10-21T21:30:52Z",
+  "modified": "2024-10-22T00:31:58Z",
   "published": "2024-10-21T21:30:52Z",
   "aliases": [
     "CVE-2024-31007"
   ],
   "details": "Buffer Overflow vulnerability in IrfanView 32bit v.4.66 allows a local attacker to cause a denial of service via a crafted file. Affected component is IrfanView 32bit 4.66 with plugin formats.dll.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-120"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:14Z"
