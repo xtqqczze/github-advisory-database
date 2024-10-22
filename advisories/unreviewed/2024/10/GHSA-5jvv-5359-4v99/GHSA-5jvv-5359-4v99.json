@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jvv-5359-4v99",
-  "modified": "2024-10-21T12:30:54Z",
+  "modified": "2024-10-22T18:32:09Z",
   "published": "2024-10-21T12:30:54Z",
   "aliases": [
     "CVE-2024-47681"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mt76: mt7996: fix NULL pointer dereference in mt7996_mcu_sta_bfer_he\n\nFix the NULL pointer dereference in mt7996_mcu_sta_bfer_he\nroutine adding an sta interface to the mt7996 driver.\n\nFound by code review.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T12:15:05Z"

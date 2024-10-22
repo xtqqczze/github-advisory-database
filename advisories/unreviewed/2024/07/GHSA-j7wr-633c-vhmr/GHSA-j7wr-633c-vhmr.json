@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7wr-633c-vhmr",
-  "modified": "2024-07-12T15:31:28Z",
+  "modified": "2024-10-22T18:32:04Z",
   "published": "2024-07-12T15:31:28Z",
   "aliases": [
     "CVE-2024-40953"
@@ -21,6 +21,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/49f683b41f28918df3e51ddc0d928cb2e934ccdb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/71fbc3af3dacb26c3aa2f30bb3ab05c44d082c84"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/82bd728a06e55f5b5f93d10ce67f4fe7e689853a"
     },
     {
       "type": "WEB",

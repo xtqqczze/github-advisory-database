@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qvf9-958h-6h8p",
-  "modified": "2024-10-21T15:32:27Z",
+  "modified": "2024-10-22T18:32:10Z",
   "published": "2024-10-21T15:32:27Z",
   "aliases": [
     "CVE-2024-49850"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: correctly handle malformed BPF_CORE_TYPE_ID_LOCAL relos\n\nIn case of malformed relocation record of kind BPF_CORE_TYPE_ID_LOCAL\nreferencing a non-existing BTF type, function bpf_core_calc_relo_insn\nwould cause a null pointer deference.\n\nFix this by adding a proper check upper in call stack, as malformed\nrelocation records could be passed from user space.\n\nSimplest reproducer is a program:\n\n    r0 = 0\n    exit\n\nWith a single relocation record:\n\n    .insn_off = 0,          /* patch first instruction */\n    .type_id = 100500,      /* this type id does not exist */\n    .access_str_off = 6,    /* offset of string \"0\" */\n    .kind = BPF_CORE_TYPE_ID_LOCAL,\n\nSee the link for original reproducer or next commit for a test case.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T13:15:05Z"
