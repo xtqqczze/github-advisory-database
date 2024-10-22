@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4gc7-5j7h-4qph",
-  "modified": "2024-10-18T20:19:18Z",
+  "modified": "2024-10-22T19:08:21Z",
   "published": "2024-10-18T06:30:32Z",
   "aliases": [
     "CVE-2024-38820"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
     }
   ],
   "affected": [
@@ -95,7 +95,7 @@
     "cwe_ids": [
       "CWE-178"
     ],
-    "severity": "LOW",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-18T20:19:18Z",
     "nvd_published_at": "2024-10-18T06:15:03Z"
