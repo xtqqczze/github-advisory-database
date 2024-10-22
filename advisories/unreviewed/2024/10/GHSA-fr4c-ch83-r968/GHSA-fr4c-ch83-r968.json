@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr4c-ch83-r968",
-  "modified": "2024-10-03T00:30:41Z",
+  "modified": "2024-10-22T21:30:36Z",
   "published": "2024-10-03T00:30:41Z",
   "aliases": [
     "CVE-2024-45519"
@@ -24,6 +24,22 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Security_Center"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wiki.zimbra.com/wiki/Zimbra_Releases/10.0.9#Security_Fixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wiki.zimbra.com/wiki/Zimbra_Releases/10.1.1#Security_Fixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wiki.zimbra.com/wiki/Zimbra_Releases/8.8.15/P46#Security_Fixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wiki.zimbra.com/wiki/Zimbra_Releases/9.0.0/P41#Security_Fixes"
     },
     {
       "type": "WEB",
