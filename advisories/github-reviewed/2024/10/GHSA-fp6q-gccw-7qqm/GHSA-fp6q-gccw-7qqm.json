@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp6q-gccw-7qqm",
-  "modified": "2024-10-22T17:55:01Z",
+  "modified": "2024-10-22T19:22:29Z",
   "published": "2024-10-22T17:55:01Z",
   "aliases": [
     "CVE-2024-48926"
@@ -79,6 +79,10 @@
       "url": "https://github.com/umbraco/Umbraco-CMS/security/advisories/GHSA-fp6q-gccw-7qqm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48926"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/umbraco/Umbraco-CMS"
     }
@@ -90,6 +94,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-22T17:55:01Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-22T16:15:08Z"
   }
 }
