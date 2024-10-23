@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjr6-8999-vr65",
-  "modified": "2024-10-21T21:30:52Z",
+  "modified": "2024-10-23T15:31:07Z",
   "published": "2024-10-21T21:30:52Z",
   "aliases": [
     "CVE-2022-49006"
