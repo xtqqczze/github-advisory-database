@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9298-29xj-7998",
-  "modified": "2024-10-21T15:32:26Z",
+  "modified": "2024-10-23T18:33:07Z",
   "published": "2024-10-21T15:32:26Z",
   "aliases": [
     "CVE-2024-47731"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrivers/perf: Fix ali_drw_pmu driver interrupt status clearing\n\nThe alibaba_uncore_pmu driver forgot to clear all interrupt status\nin the interrupt processing function. After the PMU counter overflow\ninterrupt occurred, an interrupt storm occurred, causing the system\nto hang.\n\nTherefore, clear the correct interrupt status in the interrupt handling\nfunction to fix it.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-459"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T13:15:03Z"

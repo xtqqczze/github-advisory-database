@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccgr-xwcc-r26p",
-  "modified": "2024-10-09T15:32:20Z",
+  "modified": "2024-10-23T18:33:06Z",
   "published": "2024-10-09T15:32:20Z",
   "aliases": [
     "CVE-2024-47660"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfsnotify: clear PARENT_WATCHED flags lazily\n\nIn some setups directories can have many (usually negative) dentries.\nHence __fsnotify_update_child_dentry_flags() function can take a\nsignificant amount of time. Since the bulk of this function happens\nunder inode->i_lock this causes a significant contention on the lock\nwhen we remove the watch from the directory as the\n__fsnotify_update_child_dentry_flags() call from fsnotify_recalc_mask()\nraces with __fsnotify_update_child_dentry_flags() calls from\n__fsnotify_parent() happening on children. This can lead upto softlockup\nreports reported by users.\n\nFix the problem by calling fsnotify_update_children_dentry_flags() to\nset PARENT_WATCHED flags only when parent starts watching children.\n\nWhen parent stops watching children, clear false positive PARENT_WATCHED\nflags lazily in __fsnotify_parent() for each accessed child.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -45,9 +48,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-362"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-09T14:15:07Z"

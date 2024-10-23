@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhxx-xgp6-7rvh",
-  "modified": "2024-10-21T15:32:27Z",
+  "modified": "2024-10-23T18:33:07Z",
   "published": "2024-10-21T15:32:27Z",
   "aliases": [
     "CVE-2024-47750"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/hns: Fix Use-After-Free of rsv_qp on HIP08\n\nCurrently rsv_qp is freed before ib_unregister_device() is called\non HIP08. During the time interval, users can still dereg MR and\nrsv_qp will be used in this process, leading to a UAF. Move the\nrelease of rsv_qp after calling ib_unregister_device() to fix it.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T13:15:05Z"

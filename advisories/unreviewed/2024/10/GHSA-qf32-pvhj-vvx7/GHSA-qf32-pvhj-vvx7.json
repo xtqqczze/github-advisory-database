@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf32-pvhj-vvx7",
-  "modified": "2024-10-09T15:32:19Z",
+  "modified": "2024-10-23T18:33:06Z",
   "published": "2024-10-09T15:32:19Z",
   "aliases": [
     "CVE-2024-46871"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Correct the defined value for AMDGPU_DMUB_NOTIFICATION_MAX\n\n[Why & How]\nIt actually exposes '6' types in enum dmub_notification_type. Not 5. Using smaller\nnumber to create array dmub_callback & dmub_thread_offload has potential to access\nitem out of array bound. Fix it.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-129"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-09T14:15:07Z"

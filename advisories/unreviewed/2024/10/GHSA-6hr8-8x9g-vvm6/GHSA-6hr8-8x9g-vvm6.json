@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hr8-8x9g-vvm6",
-  "modified": "2024-10-21T15:32:26Z",
+  "modified": "2024-10-23T18:33:07Z",
   "published": "2024-10-21T15:32:26Z",
   "aliases": [
     "CVE-2024-47737"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfsd: call cache_put if xdr_reserve_space returns NULL\n\nIf not enough buffer space available, but idmap_lookup has triggered\nlookup_fn which calls cache_get and returns successfully. Then we\nmissed to call cache_put here which pairs with cache_get.\n\nReviwed-by: Jeff Layton <jlayton@kernel.org>",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T13:15:03Z"

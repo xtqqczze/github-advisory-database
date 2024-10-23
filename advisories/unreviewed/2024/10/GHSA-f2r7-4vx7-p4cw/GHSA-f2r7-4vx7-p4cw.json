@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2r7-4vx7-p4cw",
-  "modified": "2024-10-09T15:32:20Z",
+  "modified": "2024-10-23T18:33:06Z",
   "published": "2024-10-09T15:32:20Z",
   "aliases": [
     "CVE-2024-47663"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nstaging: iio: frequency: ad9834: Validate frequency parameter value\n\nIn ad9834_write_frequency() clk_get_rate() can return 0. In such case\nad9834_calc_freqreg() call will lead to division by zero. Checking\n'if (fout > (clk_freq / 2))' doesn't protect in case of 'fout' is 0.\nad9834_write_frequency() is called from ad9834_write(), where fout is\ntaken from text buffer, which can contain any value.\n\nModify parameters checking.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-369"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-09T15:15:15Z"

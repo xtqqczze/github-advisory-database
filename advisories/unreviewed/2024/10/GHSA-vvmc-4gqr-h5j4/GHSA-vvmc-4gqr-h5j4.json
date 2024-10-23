@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvmc-4gqr-h5j4",
-  "modified": "2024-10-21T12:30:55Z",
+  "modified": "2024-10-23T18:33:07Z",
   "published": "2024-10-21T12:30:54Z",
   "aliases": [
     "CVE-2024-47686"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nep93xx: clock: Fix off by one in ep93xx_div_recalc_rate()\n\nThe psc->div[] array has psc->num_div elements.  These values come from\nwhen we call clk_hw_register_div().  It's adc_divisors and\nARRAY_SIZE(adc_divisors)) and so on.  So this condition needs to be >=\ninstead of > to prevent an out of bounds read.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-193"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T12:15:05Z"

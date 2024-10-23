@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wccr-cp5j-5ggc",
-  "modified": "2024-10-09T15:32:20Z",
+  "modified": "2024-10-23T18:33:06Z",
   "published": "2024-10-09T15:32:20Z",
   "aliases": [
     "CVE-2024-47664"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: hisi-kunpeng: Add verification for the max_frequency provided by the firmware\n\nIf the value of max_speed_hz is 0, it may cause a division by zero\nerror in hisi_calc_effective_speed().\nThe value of max_speed_hz is provided by firmware.\nFirmware is generally considered as a trusted domain. However, as\ndivision by zero errors can cause system failure, for defense measure,\nthe value of max_speed is validated here. So 0 is regarded as invalid\nand an error code is returned.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-369"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-09T15:15:15Z"

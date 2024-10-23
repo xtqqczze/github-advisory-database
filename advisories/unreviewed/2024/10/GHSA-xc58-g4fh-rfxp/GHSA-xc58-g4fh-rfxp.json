@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xc58-g4fh-rfxp",
-  "modified": "2024-10-23T00:31:43Z",
+  "modified": "2024-10-23T18:33:07Z",
   "published": "2024-10-23T00:31:43Z",
   "aliases": [
     "CVE-2024-26519"
   ],
   "details": "An issue in Casa Systems NTC-221 version 2.0.99.0 and before allows a remote attacker to execute arbitrary code via a crafted payload to the /www/cgi-bin/nas.cgi component.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-306"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-22T22:15:04Z"

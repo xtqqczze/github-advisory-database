@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrc3-47r8-p9qm",
-  "modified": "2024-10-21T15:32:27Z",
+  "modified": "2024-10-23T18:33:07Z",
   "published": "2024-10-21T15:32:27Z",
   "aliases": [
     "CVE-2024-49860"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nACPI: sysfs: validate return type of _STR method\n\nOnly buffer objects are valid return values of _STR.\n\nIf something else is returned description_show() will access invalid\nmemory.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-843"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T13:15:06Z"

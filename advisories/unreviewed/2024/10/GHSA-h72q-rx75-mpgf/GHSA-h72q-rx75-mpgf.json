@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h72q-rx75-mpgf",
-  "modified": "2024-10-09T15:32:20Z",
+  "modified": "2024-10-23T18:33:06Z",
   "published": "2024-10-09T15:32:20Z",
   "aliases": [
     "CVE-2024-47665"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni3c: mipi-i3c-hci: Error out instead on BUG_ON() in IBI DMA setup\n\nDefinitely condition dma_get_cache_alignment * defined value > 256\nduring driver initialization is not reason to BUG_ON(). Turn that to\ngraceful error out with -EINVAL.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -43,7 +46,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-09T15:15:15Z"
