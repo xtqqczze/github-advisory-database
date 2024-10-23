@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hf59-7rwq-785m",
-  "modified": "2024-10-23T17:22:30Z",
+  "modified": "2024-10-23T18:41:20Z",
   "published": "2024-10-23T17:22:30Z",
   "aliases": [
     "CVE-2024-49756"
@@ -41,6 +41,10 @@
       "url": "https://github.com/ash-project/ash_postgres/security/advisories/GHSA-hf59-7rwq-785m"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49756"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ash-project/ash_postgres/commit/1228fcd851f29a68609e236f7d6a2622a4b5c4ba"
     },
@@ -64,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-23T17:22:30Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-23T17:15:19Z"
   }
 }
