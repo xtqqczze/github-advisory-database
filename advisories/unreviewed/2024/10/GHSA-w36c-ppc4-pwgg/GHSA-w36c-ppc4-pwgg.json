@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w36c-ppc4-pwgg",
-  "modified": "2024-10-21T15:32:26Z",
+  "modified": "2024-10-23T21:30:28Z",
   "published": "2024-10-21T15:32:26Z",
   "aliases": [
     "CVE-2024-47727"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/tdx: Fix \"in-kernel MMIO\" check\n\nTDX only supports kernel-initiated MMIO operations. The handle_mmio()\nfunction checks if the #VE exception occurred in the kernel and rejects\nthe operation if it did not.\n\nHowever, userspace can deceive the kernel into performing MMIO on its\nbehalf. For example, if userspace can point a syscall to an MMIO address,\nsyscall does get_user() or put_user() on it, triggering MMIO #VE. The\nkernel will treat the #VE as in-kernel MMIO.\n\nEnsure that the target MMIO address is within the kernel before decoding\ninstruction.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-754"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T13:15:02Z"

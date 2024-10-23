@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf37-jm23-c22c",
-  "modified": "2024-10-21T12:30:55Z",
+  "modified": "2024-10-23T21:30:28Z",
   "published": "2024-10-21T12:30:55Z",
   "aliases": [
     "CVE-2024-47698"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrivers: media: dvb-frontends/rtl2832: fix an out-of-bounds write error\n\nEnsure index in rtl2832_pid_filter does not exceed 31 to prevent\nout-of-bounds access.\n\ndev->filters is a 32-bit value, so set_bit and clear_bit functions should\nonly operate on indices from 0 to 31. If index is 32, it will attempt to\naccess a non-existent 33rd bit, leading to out-of-bounds access.\nChange the boundary check from index > 32 to index >= 32 to resolve this\nissue.\n\n[hverkuil: added fixes tag, rtl2830_pid_filter -> rtl2832_pid_filter in logmsg]",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-787"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T12:15:06Z"

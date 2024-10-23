@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qvvj-m5ww-3hcj",
-  "modified": "2024-10-17T15:31:08Z",
+  "modified": "2024-10-23T21:30:27Z",
   "published": "2024-10-09T15:32:21Z",
   "aliases": [
     "CVE-2024-47670"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocfs2: add bounds checking to ocfs2_xattr_find_entry()\n\nAdd a paranoia check to make sure it doesn't stray beyond valid memory\nregion containing ocfs2 xattr entries when scanning for a match.  It will\nprevent out-of-bound access in case of crafted images.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -45,9 +48,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-787"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-09T15:15:15Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6rr-r6cw-c7wh",
-  "modified": "2024-10-17T15:31:08Z",
+  "modified": "2024-10-23T21:30:27Z",
   "published": "2024-10-09T15:32:21Z",
   "aliases": [
     "CVE-2024-47671"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nUSB: usbtmc: prevent kernel-usb-infoleak\n\nThe syzbot reported a kernel-usb-infoleak in usbtmc_write,\nwe need to clear the structure before filling fields.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -51,7 +54,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-09T15:15:15Z"

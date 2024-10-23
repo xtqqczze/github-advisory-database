@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2w3-xrch-w38j",
-  "modified": "2024-04-04T06:21:17Z",
+  "modified": "2024-10-23T21:30:27Z",
   "published": "2023-07-25T21:31:32Z",
   "aliases": [
     "CVE-2020-35698"
