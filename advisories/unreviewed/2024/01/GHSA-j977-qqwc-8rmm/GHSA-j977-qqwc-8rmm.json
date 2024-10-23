@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j977-qqwc-8rmm",
-  "modified": "2024-01-23T21:30:20Z",
+  "modified": "2024-10-23T18:33:06Z",
   "published": "2024-01-16T18:31:08Z",
   "aliases": [
     "CVE-2021-24566"
@@ -32,7 +32,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-22"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
