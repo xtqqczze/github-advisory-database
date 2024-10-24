@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5ph-x8j2-r7vg",
-  "modified": "2024-10-21T12:30:55Z",
+  "modified": "2024-10-24T15:31:08Z",
   "published": "2024-10-21T12:30:55Z",
   "aliases": [
     "CVE-2024-47703"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf, lsm: Add check for BPF LSM return value\n\nA bpf prog returning a positive number attached to file_alloc_security\nhook makes kernel panic.\n\nThis happens because file system can not filter out the positive number\nreturned by the LSM prog using IS_ERR, and misinterprets this positive\nnumber as a file pointer.\n\nGiven that hook file_alloc_security never returned positive number\nbefore the introduction of BPF LSM, and other BPF LSM hooks may\nencounter similar issues, this patch adds LSM return value check\nin verifier, to ensure no unexpected value is returned.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -35,7 +38,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T12:15:06Z"

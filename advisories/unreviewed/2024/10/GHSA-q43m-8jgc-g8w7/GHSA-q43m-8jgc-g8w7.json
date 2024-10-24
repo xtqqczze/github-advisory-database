@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q43m-8jgc-g8w7",
-  "modified": "2024-10-21T18:30:57Z",
+  "modified": "2024-10-24T15:31:08Z",
   "published": "2024-10-21T18:30:57Z",
   "aliases": [
     "CVE-2024-49913"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Add null check for top_pipe_to_program in commit_planes_for_stream\n\nThis commit addresses a null pointer dereference issue in the\n`commit_planes_for_stream` function at line 4140. The issue could occur\nwhen `top_pipe_to_program` is null.\n\nThe fix adds a check to ensure `top_pipe_to_program` is not null before\naccessing its stream_res. This prevents a null pointer dereference.\n\nReported by smatch:\ndrivers/gpu/drm/amd/amdgpu/../display/dc/core/dc.c:4140 commit_planes_for_stream() error: we previously assumed 'top_pipe_to_program' could be null (see line 3906)",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:13Z"

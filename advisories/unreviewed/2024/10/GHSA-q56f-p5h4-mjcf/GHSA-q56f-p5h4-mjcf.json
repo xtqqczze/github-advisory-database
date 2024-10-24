@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q56f-p5h4-mjcf",
-  "modified": "2024-10-21T12:30:55Z",
+  "modified": "2024-10-24T15:31:08Z",
   "published": "2024-10-21T12:30:55Z",
   "aliases": [
     "CVE-2024-47704"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check link_res->hpo_dp_link_enc before using it\n\n[WHAT & HOW]\nFunctions dp_enable_link_phy and dp_disable_link_phy can pass link_res\nwithout initializing hpo_dp_link_enc and it is necessary to check for\nnull before dereferencing.\n\nThis fixes 2 FORWARD_NULL issues reported by Coverity.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T12:15:06Z"
