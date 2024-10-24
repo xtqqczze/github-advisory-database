@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjx8-96cx-2pjw",
-  "modified": "2024-10-21T21:30:54Z",
+  "modified": "2024-10-24T00:33:36Z",
   "published": "2024-10-21T21:30:54Z",
   "aliases": [
     "CVE-2024-50049"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check null pointer before dereferencing se\n\n[WHAT & HOW]\nse is null checked previously in the same function, indicating\nit might be null; therefore, it must be checked when used again.\n\nThis fixes 1 FORWARD_NULL issue reported by Coverity.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -45,9 +48,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:17Z"
