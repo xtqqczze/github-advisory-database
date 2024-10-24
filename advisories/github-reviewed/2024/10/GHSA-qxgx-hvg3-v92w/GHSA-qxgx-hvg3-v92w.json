@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxgx-hvg3-v92w",
-  "modified": "2024-10-24T17:48:40Z",
+  "modified": "2024-10-24T21:45:39Z",
   "published": "2024-10-24T17:48:40Z",
   "aliases": [
     "CVE-2024-47173"
@@ -41,6 +41,10 @@
       "url": "https://github.com/aimeos/ai-admin-graphql/security/advisories/GHSA-qxgx-hvg3-v92w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47173"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/aimeos/ai-admin-graphql"
     }
@@ -52,6 +56,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-24T17:48:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-24T19:15:14Z"
   }
 }
