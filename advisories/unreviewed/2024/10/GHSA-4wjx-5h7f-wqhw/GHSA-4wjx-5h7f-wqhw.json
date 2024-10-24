@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4wjx-5h7f-wqhw",
-  "modified": "2024-10-21T18:30:56Z",
+  "modified": "2024-10-24T21:31:02Z",
   "published": "2024-10-21T18:30:56Z",
   "aliases": [
     "CVE-2024-49879"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: omapdrm: Add missing check for alloc_ordered_workqueue\n\nAs it may return NULL pointer and cause NULL pointer dereference. Add check\nfor the return value of alloc_ordered_workqueue.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:10Z"

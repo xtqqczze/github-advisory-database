@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75vm-7626-f557",
-  "modified": "2024-10-21T21:30:53Z",
+  "modified": "2024-10-24T21:31:02Z",
   "published": "2024-10-21T21:30:52Z",
   "aliases": [
     "CVE-2022-49030"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nlibbpf: Handle size overflow for ringbuf mmap\n\nThe maximum size of ringbuf is 2GB on x86-64 host, so 2 * max_entries\nwill overflow u32 when mapping producer page and data pages. Only\ncasting max_entries to size_t is not enough, because for 32-bits\napplication on 64-bits kernel the size of read-only mmap region\nalso could overflow size_t.\n\nSo fixing it by casting the size of read-only mmap region into a __u64\nand checking whether or not there will be overflow during mmap.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-190"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:13Z"

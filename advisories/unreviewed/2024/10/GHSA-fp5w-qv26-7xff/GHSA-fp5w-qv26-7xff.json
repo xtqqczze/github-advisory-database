@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp5w-qv26-7xff",
-  "modified": "2024-10-21T21:30:52Z",
+  "modified": "2024-10-24T21:31:02Z",
   "published": "2024-10-21T21:30:52Z",
   "aliases": [
     "CVE-2022-49012"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nafs: Fix server->active leak in afs_put_server\n\nThe atomic_read was accidentally replaced with atomic_inc_return,\nwhich prevents the server from getting cleaned up and causes rmmod\nto hang with a warning:\n\n    Can't purge s=00000001",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-459"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:12Z"

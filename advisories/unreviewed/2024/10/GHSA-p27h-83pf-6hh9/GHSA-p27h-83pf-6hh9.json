@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p27h-83pf-6hh9",
-  "modified": "2024-10-23T18:33:09Z",
+  "modified": "2024-10-24T21:31:03Z",
   "published": "2024-10-23T18:33:08Z",
   "aliases": [
     "CVE-2024-50382"
   ],
   "details": "Botan before 3.6.0, when certain LLVM versions are used, has compiler-induced secret-dependent control flow in lib/utils/ghash/ghash.cpp in GHASH in AES-GCM. There is a branch instead of an XOR with carry. This was observed for Clang in LLVM 15 on RISC-V.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-203"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-23T17:15:19Z"

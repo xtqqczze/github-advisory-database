@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3fc-5gx3-j98r",
-  "modified": "2024-10-21T18:30:56Z",
+  "modified": "2024-10-24T21:31:01Z",
   "published": "2024-10-21T18:30:56Z",
   "aliases": [
     "CVE-2024-49871"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nInput: adp5589-keys - fix NULL pointer dereference\n\nWe register a devm action to call adp5589_clear_config() and then pass\nthe i2c client as argument so that we can call i2c_get_clientdata() in\norder to get our device object. However, i2c_set_clientdata() is only\nbeing set at the end of the probe function which means that we'll get a\nNULL pointer dereference in case the probe function fails early.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -45,9 +48,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:08Z"

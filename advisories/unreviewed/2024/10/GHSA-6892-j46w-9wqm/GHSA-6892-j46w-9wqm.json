@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6892-j46w-9wqm",
-  "modified": "2024-10-21T21:30:50Z",
+  "modified": "2024-10-24T21:31:02Z",
   "published": "2024-10-21T21:30:50Z",
   "aliases": [
     "CVE-2022-48958"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nethernet: aeroflex: fix potential skb leak in greth_init_rings()\n\nThe greth_init_rings() function won't free the newly allocated skb when\ndma_mapping_error() returns error, so add dev_kfree_skb() to fix it.\n\nCompile tested only.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-401"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:07Z"
