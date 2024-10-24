@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rwv-chpw-9fvf",
-  "modified": "2024-10-21T18:30:57Z",
+  "modified": "2024-10-24T18:30:41Z",
   "published": "2024-10-21T18:30:57Z",
   "aliases": [
     "CVE-2024-49912"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Handle null 'stream_status' in 'planes_changed_for_existing_stream'\n\nThis commit adds a null check for 'stream_status' in the function\n'planes_changed_for_existing_stream'. Previously, the code assumed\n'stream_status' could be null, but did not handle the case where it was\nactually null. This could lead to a null pointer dereference.\n\nReported by smatch:\ndrivers/gpu/drm/amd/amdgpu/../display/dc/core/dc_resource.c:3784 planes_changed_for_existing_stream() error: we previously assumed 'stream_status' could be null (see line 3774)",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:13Z"

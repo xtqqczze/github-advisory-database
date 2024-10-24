@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-396g-xc2g-5qhm",
-  "modified": "2024-07-11T15:30:44Z",
+  "modified": "2024-10-24T18:30:40Z",
   "published": "2024-07-09T18:30:53Z",
   "aliases": [
     "CVE-2023-48194"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/zt20xx/CVE-2023-48194"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tenda.com.cn/download/detail-3683.html"
     },
     {
       "type": "WEB",

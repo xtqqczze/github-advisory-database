@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-g8v9-c8m3-942v",
+  "modified": "2024-10-24T18:30:44Z",
+  "published": "2024-10-24T18:30:44Z",
+  "aliases": [
+    "CVE-2024-48514"
+  ],
+  "details": "php-heic-to-jpg <= 1.0.5 is vulnerable to remote code execution. An attacker who can upload heic images is able to execute code on the remote server via the file name. As a result, the CIA is no longer guaranteed. This affects php-heic-to-jpg 1.0.5 and below.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48514"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MaestroError/php-heic-to-jpg"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/marcoris/CVEs/tree/master/CVE-2024-48514"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-24T18:15:10Z"
+  }
+}

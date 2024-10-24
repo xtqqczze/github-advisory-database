@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-992g-jf7j-f3wc",
-  "modified": "2024-10-21T12:30:56Z",
+  "modified": "2024-10-24T18:30:41Z",
   "published": "2024-10-21T12:30:55Z",
   "aliases": [
     "CVE-2024-47718"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: rtw88: always wait for both firmware loading attempts\n\nIn 'rtw_wait_firmware_completion()', always wait for both (regular and\nwowlan) firmware loading attempts. Otherwise if 'rtw_usb_intf_init()'\nhas failed in 'rtw_usb_probe()', 'rtw_usb_disconnect()' may issue\n'ieee80211_free_hw()' when one of 'rtw_load_firmware_cb()' (usually\nthe wowlan one) is still in progress, causing UAF detected by KASAN.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T12:15:08Z"
