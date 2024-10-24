@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffxc-rwg8-qgjw",
-  "modified": "2024-10-21T18:30:57Z",
+  "modified": "2024-10-24T06:30:29Z",
   "published": "2024-10-21T18:30:57Z",
   "aliases": [
     "CVE-2024-49906"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check null pointer before try to access it\n\n[why & how]\nChange the order of the pipe_ctx->plane_state check to ensure that\nplane_state is not null before accessing it.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:13Z"

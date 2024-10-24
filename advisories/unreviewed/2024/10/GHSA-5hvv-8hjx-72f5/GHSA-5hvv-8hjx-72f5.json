@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hvv-8hjx-72f5",
-  "modified": "2024-10-22T09:33:54Z",
+  "modified": "2024-10-24T06:30:29Z",
   "published": "2024-10-22T09:33:54Z",
   "aliases": [
     "CVE-2023-52919"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfc: nci: fix possible NULL pointer dereference in send_acknowledge()\n\nHandle memory allocation failure from nci_skb_alloc() (calling\nalloc_skb()) to avoid possible NULL pointer dereference.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-22T08:15:02Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83jf-v646-gp24",
-  "modified": "2024-10-21T21:30:52Z",
+  "modified": "2024-10-24T06:30:29Z",
   "published": "2024-10-21T21:30:52Z",
   "aliases": [
     "CVE-2022-49025"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/mlx5e: Fix use-after-free when reverting termination table\n\nWhen having multiple dests with termination tables and second one\nor afterwards fails the driver reverts usage of term tables but\ndoesn't reset the assignment in attr->dests[num_vport_dests].termtbl\nwhich case a use-after-free when releasing the rule.\nFix by resetting the assignment of termtbl to null.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:13Z"

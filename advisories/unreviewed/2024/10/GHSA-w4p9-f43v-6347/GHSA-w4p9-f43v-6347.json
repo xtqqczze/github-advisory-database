@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4p9-f43v-6347",
-  "modified": "2024-10-22T09:33:54Z",
+  "modified": "2024-10-24T06:30:29Z",
   "published": "2024-10-22T09:33:54Z",
   "aliases": [
     "CVE-2023-52918"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: pci: cx23885: check cx23885_vdev_init() return\n\ncx23885_vdev_init() can return a NULL pointer, but that pointer\nis used in the next line without a check.\n\nAdd a NULL pointer check and go to the error unwind if it is NULL.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-22T08:15:02Z"

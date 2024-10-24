@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grf9-28h9-xvhf",
-  "modified": "2024-10-21T21:30:54Z",
+  "modified": "2024-10-24T06:30:29Z",
   "published": "2024-10-21T21:30:54Z",
   "aliases": [
     "CVE-2024-50059"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nntb: ntb_hw_switchtec: Fix use after free vulnerability in switchtec_ntb_remove due to race condition\n\nIn the switchtec_ntb_add function, it can call switchtec_ntb_init_sndev\nfunction, then &sndev->check_link_status_work is bound with\ncheck_link_status_work. switchtec_ntb_link_notification may be called\nto start the work.\n\nIf we remove the module which will call switchtec_ntb_remove to make\ncleanup, it will free sndev through kfree(sndev), while the work\nmentioned above will be used. The sequence of operations that may lead\nto a UAF bug is as follows:\n\nCPU0                                 CPU1\n\n                        | check_link_status_work\nswitchtec_ntb_remove    |\nkfree(sndev);           |\n                        | if (sndev->link_force_down)\n                        | // use sndev\n\nFix it by ensuring that the work is canceled before proceeding with\nthe cleanup in switchtec_ntb_remove.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -45,9 +48,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:18Z"
