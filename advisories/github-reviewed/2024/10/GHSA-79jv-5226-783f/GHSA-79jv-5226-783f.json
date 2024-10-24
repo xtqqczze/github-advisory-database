@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79jv-5226-783f",
-  "modified": "2024-10-24T18:00:06Z",
+  "modified": "2024-10-24T21:46:02Z",
   "published": "2024-10-24T18:00:06Z",
   "aliases": [
     "CVE-2024-47880"
@@ -41,6 +41,10 @@
       "url": "https://github.com/OpenRefine/OpenRefine/security/advisories/GHSA-79jv-5226-783f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47880"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/OpenRefine/OpenRefine/commit/8060477fa53842ebabf43b63e039745932fa629d"
     },
@@ -57,6 +61,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-24T18:00:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-24T21:15:12Z"
   }
 }

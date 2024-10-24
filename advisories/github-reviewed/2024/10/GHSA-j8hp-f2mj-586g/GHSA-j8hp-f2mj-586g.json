@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8hp-f2mj-586g",
-  "modified": "2024-10-24T18:13:04Z",
+  "modified": "2024-10-24T21:46:03Z",
   "published": "2024-10-24T18:13:04Z",
   "aliases": [
     "CVE-2024-47882"
@@ -41,12 +41,20 @@
       "url": "https://github.com/OpenRefine/OpenRefine/security/advisories/GHSA-j8hp-f2mj-586g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47882"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/OpenRefine/OpenRefine/commit/85594e75e7b36025f7b6a67dcd3ec253c5dff8c2"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/OpenRefine/OpenRefine"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenRefine/OpenRefine/blob/master/main/webapp/modules/core/error.vt#L52-L53"
     }
   ],
   "database_specific": {
@@ -57,6 +65,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-24T18:13:04Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-24T21:15:13Z"
   }
 }
