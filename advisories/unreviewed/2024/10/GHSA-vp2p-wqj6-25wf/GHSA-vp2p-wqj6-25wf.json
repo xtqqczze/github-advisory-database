@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp2p-wqj6-25wf",
-  "modified": "2024-10-21T18:30:58Z",
+  "modified": "2024-10-25T15:31:25Z",
   "published": "2024-10-21T18:30:58Z",
   "aliases": [
     "CVE-2024-49936"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/xen-netback: prevent UAF in xenvif_flush_hash()\n\nDuring the list_for_each_entry_rcu iteration call of xenvif_flush_hash,\nkfree_rcu does not exist inside the rcu read critical section, so if\nkfree_rcu is called when the rcu grace period ends during the iteration,\nUAF occurs when accessing head->next after the entry becomes free.\n\nTherefore, to solve this, you need to change it to list_for_each_entry_safe.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:15Z"

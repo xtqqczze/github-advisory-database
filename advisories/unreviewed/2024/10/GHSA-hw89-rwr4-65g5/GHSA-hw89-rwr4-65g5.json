@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw89-rwr4-65g5",
-  "modified": "2024-10-21T21:30:53Z",
+  "modified": "2024-10-25T15:31:26Z",
   "published": "2024-10-21T21:30:53Z",
   "aliases": [
     "CVE-2024-50026"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: wd33c93: Don't use stale scsi_pointer value\n\nA regression was introduced with commit dbb2da557a6a (\"scsi: wd33c93:\nMove the SCSI pointer to private command data\") which results in an oops\nin wd33c93_intr(). That commit added the scsi_pointer variable and\ninitialized it from hostdata->connected. However, during selection,\nhostdata->connected is not yet valid. Fix this by getting the current\nscsi_pointer from hostdata->selecting.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -39,7 +42,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:15Z"

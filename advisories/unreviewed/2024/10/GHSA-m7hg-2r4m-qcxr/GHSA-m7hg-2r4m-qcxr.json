@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7hg-2r4m-qcxr",
-  "modified": "2024-10-21T18:30:59Z",
+  "modified": "2024-10-25T15:31:26Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49992"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/stm: Avoid use-after-free issues with crtc and plane\n\nltdc_load() calls functions drm_crtc_init_with_planes(),\ndrm_universal_plane_init() and drm_encoder_init(). These functions\nshould not be called with parameters allocated with devm_kzalloc()\nto avoid use-after-free issues [1].\n\nUse allocations managed by the DRM framework.\n\nFound by Linux Verification Center (linuxtesting.org).\n\n[1]\nhttps://lore.kernel.org/lkml/u366i76e3qhh3ra5oxrtngjtm2u5lterkekcz6y2jkndhuxzli@diujon4h7qwb/",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:19Z"

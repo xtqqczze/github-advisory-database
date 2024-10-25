@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-74w9-c64j-qmcw",
-  "modified": "2024-10-21T18:30:57Z",
+  "modified": "2024-10-25T15:31:25Z",
   "published": "2024-10-21T18:30:57Z",
   "aliases": [
     "CVE-2024-49893"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check stream_status before it is used\n\n[WHAT & HOW]\ndc_state_get_stream_status can return null, and therefore null must be\nchecked before stream_status is used.\n\nThis fixes 1 NULL_RETURNS issue reported by Coverity.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:11Z"

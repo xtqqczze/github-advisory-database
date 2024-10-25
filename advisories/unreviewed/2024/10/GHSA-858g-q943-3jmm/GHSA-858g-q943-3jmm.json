@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-858g-q943-3jmm",
-  "modified": "2024-10-21T18:30:58Z",
+  "modified": "2024-10-25T15:31:25Z",
   "published": "2024-10-21T18:30:57Z",
   "aliases": [
     "CVE-2024-49920"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check null pointers before multiple uses\n\n[WHAT & HOW]\nPoniters, such as stream_enc and dc->bw_vbios, are null checked previously\nin the same function, so Coverity warns \"implies that stream_enc and\ndc->bw_vbios might be null\". They are used multiple times in the\nsubsequent code and need to be checked.\n\nThis fixes 10 FORWARD_NULL issues reported by Coverity.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:14Z"
