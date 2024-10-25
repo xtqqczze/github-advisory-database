@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f754-p36j-5c6r",
-  "modified": "2024-10-21T21:30:51Z",
+  "modified": "2024-10-25T21:31:27Z",
   "published": "2024-10-21T21:30:51Z",
   "aliases": [
     "CVE-2022-48981"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/shmem-helper: Remove errant put in error path\n\ndrm_gem_shmem_mmap() doesn't own this reference, resulting in the GEM\nobject getting prematurely freed leading to a later use-after-free.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:10Z"

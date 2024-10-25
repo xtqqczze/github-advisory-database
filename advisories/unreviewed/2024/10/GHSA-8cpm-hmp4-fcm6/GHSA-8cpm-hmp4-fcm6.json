@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cpm-hmp4-fcm6",
-  "modified": "2024-10-21T18:30:59Z",
+  "modified": "2024-10-25T21:31:26Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49977"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: stmmac: Fix zero-division error when disabling tc cbs\n\nThe commit b8c43360f6e4 (\"net: stmmac: No need to calculate speed divider\nwhen offload is disabled\") allows the \"port_transmit_rate_kbps\" to be\nset to a value of 0, which is then passed to the \"div_s64\" function when\ntc-cbs is disabled. This leads to a zero-division error.\n\nWhen tc-cbs is disabled, the idleslope, sendslope, and credit values the\ncredit values are not required to be configured. Therefore, adding a return\nstatement after setting the txQ mode to DCB when tc-cbs is disabled would\nprevent a zero-division error.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-369"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:18Z"

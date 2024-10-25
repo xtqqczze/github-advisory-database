@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24vf-v4v3-xgmr",
-  "modified": "2024-10-21T18:30:59Z",
+  "modified": "2024-10-25T21:31:26Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49975"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nuprobes: fix kernel info leak via \"[uprobes]\" vma\n\nxol_add_vma() maps the uninitialized page allocated by __create_xol_area()\ninto userspace. On some architectures (x86) this memory is readable even\nwithout VM_READ, VM_EXEC results in the same pgprot_t as VM_EXEC|VM_READ,\nalthough this doesn't really matter, debugger can read this memory anyway.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-401"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:18Z"

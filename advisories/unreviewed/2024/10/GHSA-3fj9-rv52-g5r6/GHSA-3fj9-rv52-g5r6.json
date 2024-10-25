@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fj9-rv52-g5r6",
-  "modified": "2024-10-21T21:30:50Z",
+  "modified": "2024-10-25T21:31:26Z",
   "published": "2024-10-21T21:30:50Z",
   "aliases": [
     "CVE-2022-48946"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nudf: Fix preallocation discarding at indirect extent boundary\n\nWhen preallocation extent is the first one in the extent block, the\ncode would corrupt extent tree header instead. Fix the problem and use\nudf_delete_aext() for deleting extent to avoid some code duplication.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -59,7 +62,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:06Z"

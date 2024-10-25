@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-x2fr-vj74-5h35",
+  "modified": "2024-10-25T21:31:27Z",
+  "published": "2024-10-25T21:31:27Z",
+  "aliases": [
+    "CVE-2024-48223"
+  ],
+  "details": "Funadmin v5.0.2 has a SQL injection vulnerability in /curd/table/fieldlist.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48223"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/funadmin/funadmin/issues/23"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-25T21:15:03Z"
+  }
+}

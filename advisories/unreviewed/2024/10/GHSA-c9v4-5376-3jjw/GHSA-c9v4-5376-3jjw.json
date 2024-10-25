@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c9v4-5376-3jjw",
+  "modified": "2024-10-25T21:31:27Z",
+  "published": "2024-10-25T21:31:27Z",
+  "aliases": [
+    "CVE-2024-37847"
+  ],
+  "details": "An arbitrary file upload vulnerability in MangoOS before 5.1.4 and Mango API before 4.5.5 allows attackers to execute arbitrary code via a crafted file.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-37847"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/herombey/Disclosures/blob/main/CVE-2024-37847%20File%20Upload%20Path%20Traversal.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/herombey/Disclosures/tree/main"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-25T19:15:04Z"
+  }
+}

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2645-7hqp-7qr7",
-  "modified": "2024-10-21T21:30:51Z",
+  "modified": "2024-10-25T21:31:27Z",
   "published": "2024-10-21T21:30:51Z",
   "aliases": [
     "CVE-2022-48967"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFC: nci: Bounds check struct nfc_target arrays\n\nWhile running under CONFIG_FORTIFY_SOURCE=y, syzkaller reported:\n\n  memcpy: detected field-spanning write (size 129) of single field \"target->sensf_res\" at net/nfc/nci/ntf.c:260 (size 18)\n\nThis appears to be a legitimate lack of bounds checking in\nnci_add_new_protocol(). Add the missing checks.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-129"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:08Z"

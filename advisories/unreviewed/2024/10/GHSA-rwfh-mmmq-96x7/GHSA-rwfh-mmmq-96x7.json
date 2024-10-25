@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwfh-mmmq-96x7",
-  "modified": "2024-10-21T21:30:51Z",
+  "modified": "2024-10-25T21:31:26Z",
   "published": "2024-10-21T21:30:51Z",
   "aliases": [
     "CVE-2022-48965"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngpio/rockchip: fix refcount leak in rockchip_gpiolib_register()\n\nThe node returned by of_get_parent() with refcount incremented,\nof_node_put() needs be called when finish using it. So add it in the\nend of of_pinctrl_get().",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -35,7 +38,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:08Z"
