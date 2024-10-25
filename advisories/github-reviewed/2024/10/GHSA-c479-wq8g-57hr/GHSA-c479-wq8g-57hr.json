@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c479-wq8g-57hr",
-  "modified": "2024-10-24T19:07:03Z",
+  "modified": "2024-10-25T16:47:19Z",
   "published": "2024-10-24T19:07:03Z",
   "aliases": [
     "CVE-2024-49762"
@@ -41,6 +41,10 @@
       "url": "https://github.com/pterodactyl/panel/security/advisories/GHSA-c479-wq8g-57hr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49762"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/pterodactyl/panel/commit/75b59080e2812ced677dab516222b2a3bb34e3a4"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-24T19:07:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-24T22:15:04Z"
   }
 }
