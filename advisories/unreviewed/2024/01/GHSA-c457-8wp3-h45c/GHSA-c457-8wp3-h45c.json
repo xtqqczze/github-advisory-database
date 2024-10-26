@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c457-8wp3-h45c",
-  "modified": "2024-01-22T21:31:05Z",
+  "modified": "2024-10-26T00:32:28Z",
   "published": "2024-01-12T18:30:20Z",
   "aliases": [
     "CVE-2023-28899"
@@ -28,7 +28,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-770"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
