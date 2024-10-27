@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65c3-6x9j-29cg",
-  "modified": "2024-06-12T15:31:45Z",
+  "modified": "2024-10-27T18:30:45Z",
   "published": "2024-06-12T15:31:45Z",
   "aliases": [
     "CVE-2024-2300"
   ],
   "details": "HP Advance Mobile Applications for iOS and Android are potentially vulnerable to information disclosure when using an outdated version of the application via mobile devices.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-12T15:15:51Z"
