@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q557-m5m4-m7pc",
-  "modified": "2024-10-11T18:32:50Z",
+  "modified": "2024-10-27T03:30:25Z",
   "published": "2024-10-11T18:32:50Z",
   "aliases": [
     "CVE-2024-44157"
   ],
   "details": "A stack buffer overflow was addressed through improved input validation. This issue is fixed in Apple TV 1.5.0.152 for Windows, iTunes 12.13.3 for Windows. Parsing a maliciously crafted video file may lead to unexpected system termination.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-120"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-11T18:15:08Z"
