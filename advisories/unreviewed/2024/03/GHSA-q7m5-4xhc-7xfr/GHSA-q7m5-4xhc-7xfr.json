@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7m5-4xhc-7xfr",
-  "modified": "2024-03-25T06:30:24Z",
+  "modified": "2024-10-27T06:30:46Z",
   "published": "2024-03-25T06:30:24Z",
   "aliases": [
     "CVE-2024-21865"
   ],
   "details": "HGW BL1500HM Ver 002.001.013 and earlier contains a use of week credentials issue. A network-adjacent unauthenticated attacker may connect to the product via SSH and use a shell.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-521"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-25T05:15:50Z"
