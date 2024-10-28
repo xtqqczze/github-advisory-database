@@ -1,20 +1,39 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmvv-57rg-5g86",
-  "modified": "2024-10-26T21:30:46Z",
+  "modified": "2024-10-28T14:44:58Z",
   "published": "2024-10-26T21:30:46Z",
   "aliases": [
     "CVE-2020-26305"
   ],
+  "summary": "CommonRegexJS Regular Expression Denial of Service vulnerability",
   "details": "CommonRegexJS is a CommonRegex port for JavaScript. All available versions contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, no known patches are available.",
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:Green"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:U/U:Green"
     }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "commonregex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.3.1"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -26,6 +45,10 @@
       "url": "https://github.com/talyssonoc/CommonRegexJS/issues/4"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/talyssonoc/CommonRegexJS"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://securitylab.github.com/advisories/GHSL-2020-291-redos-CommonRegexJS"
     }
@@ -34,9 +57,9 @@
     "cwe_ids": [
       "CWE-1333"
     ],
-    "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-10-28T14:44:58Z",
     "nvd_published_at": "2024-10-26T21:15:13Z"
   }
 }
