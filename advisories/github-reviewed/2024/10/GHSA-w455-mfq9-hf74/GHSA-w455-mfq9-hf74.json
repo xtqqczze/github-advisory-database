@@ -1,20 +1,39 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w455-mfq9-hf74",
-  "modified": "2024-10-26T21:30:46Z",
+  "modified": "2024-10-28T14:40:03Z",
   "published": "2024-10-26T21:30:46Z",
   "aliases": [
     "CVE-2020-26303"
   ],
+  "summary": "insane vulnerable to Regular Expression Denial of Service",
   "details": "insane is a whitelist-oriented HTML sanitizer. Versions 2.6.2 and prior contain one or more regular expressions that are vulnerable to Regular Expression Denial of Service (ReDoS). As of time of publication, no known patches are available.",
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:Green"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:U/U:Green"
     }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "insane"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.6.2"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -26,6 +45,10 @@
       "url": "https://github.com/bevacqua/insane/issues/19"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/bevacqua/insane"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://securitylab.github.com/advisories/GHSL-2020-289-redos-insane"
     }
@@ -34,9 +57,9 @@
     "cwe_ids": [
       "CWE-1333"
     ],
-    "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-10-28T14:40:03Z",
     "nvd_published_at": "2024-10-26T21:15:13Z"
   }
 }
