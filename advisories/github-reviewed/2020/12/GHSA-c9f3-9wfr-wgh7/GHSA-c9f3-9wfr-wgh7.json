@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9f3-9wfr-wgh7",
-  "modified": "2024-10-28T20:00:10Z",
+  "modified": "2024-10-28T20:02:35Z",
   "published": "2020-12-10T19:07:26Z",
   "aliases": [
     "CVE-2020-26267"
@@ -15,7 +15,7 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:L/SA:N"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -339,7 +339,7 @@
     "cwe_ids": [
       "CWE-125"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2020-12-10T19:05:08Z",
     "nvd_published_at": "2020-12-10T23:15:00Z"
