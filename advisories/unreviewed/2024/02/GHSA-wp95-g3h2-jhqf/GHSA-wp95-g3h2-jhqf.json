@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp95-g3h2-jhqf",
-  "modified": "2024-02-27T09:31:17Z",
+  "modified": "2024-10-28T03:30:39Z",
   "published": "2024-02-27T09:31:17Z",
   "aliases": [
     "CVE-2023-7202"
   ],
   "details": "The Fatal Error Notify WordPress plugin before 1.5.3 does not have authorisation and CSRF checks in its test_error AJAX action, allowing any authenticated users, such as subscriber to call it and spam the admin email address with error messages. The issue is also exploitable via CSRF",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-352"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-27T09:15:37Z"

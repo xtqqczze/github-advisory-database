@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7j74-rq7m-gr5m",
-  "modified": "2024-02-29T03:33:14Z",
+  "modified": "2024-10-28T03:30:39Z",
   "published": "2024-02-29T03:33:14Z",
   "aliases": [
     "CVE-2023-6247"
   ],
   "details": "The PKCS#7 parser in OpenVPN 3 Core Library versions through 3.8.3 did not properly validate the parsed data, which would result in the application crashing.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
       "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-29T01:42:34Z"
