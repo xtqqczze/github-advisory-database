@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7hq-f2pj-c53g",
-  "modified": "2024-10-28T12:23:29Z",
+  "modified": "2024-10-28T12:24:45Z",
   "published": "2024-10-28T12:23:29Z",
   "aliases": [
     "CVE-2024-47821"
@@ -29,7 +29,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0.5.0a0"
+              "introduced": "0"
             },
             {
               "fixed": "0.5.0b3.dev87"
