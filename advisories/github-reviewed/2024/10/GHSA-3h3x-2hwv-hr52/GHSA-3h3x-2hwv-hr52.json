@@ -22,25 +22,6 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/golang-fips/openssl/v2"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "last_affected": "2.0.3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
         "name": "github.com/golang-fips/openssl"
       },
       "ranges": [
@@ -49,9 +30,6 @@
           "events": [
             {
               "introduced": "0"
-            },
-            {
-              "last_affected": "2.0.3"
             }
           ]
         }
