@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4q5-6c82-3qpw",
-  "modified": "2024-10-28T15:19:32Z",
+  "modified": "2024-10-28T17:59:29Z",
   "published": "2024-10-28T09:30:53Z",
   "aliases": [
     "CVE-2024-38821"
@@ -158,7 +158,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-285"
+      "CWE-285",
+      "CWE-770"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
