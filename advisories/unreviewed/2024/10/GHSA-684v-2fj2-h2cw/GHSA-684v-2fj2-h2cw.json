@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-684v-2fj2-h2cw",
+  "modified": "2024-10-28T21:30:35Z",
+  "published": "2024-10-28T21:30:35Z",
+  "aliases": [
+    "CVE-2024-44263"
+  ],
+  "details": "A logic issue was addressed with improved state management. This issue is fixed in iOS 18.1 and iPadOS 18.1. An app may be able to access user-sensitive data.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44263"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/121563"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-28T21:15:07Z"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xr7f-32j7-5fh9",
+  "modified": "2024-10-28T21:30:35Z",
+  "published": "2024-10-28T21:30:35Z",
+  "aliases": [
+    "CVE-2024-44262"
+  ],
+  "details": "This issue was addressed with improved redaction of sensitive information. This issue is fixed in visionOS 2.1. A user may be able to view sensitive user information.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44262"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/121566"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-28T21:15:07Z"
+  }
+}
