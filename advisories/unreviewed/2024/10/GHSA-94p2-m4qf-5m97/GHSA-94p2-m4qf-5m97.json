@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94p2-m4qf-5m97",
-  "modified": "2024-10-21T18:30:59Z",
+  "modified": "2024-10-28T18:31:39Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49988"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: add refcnt to ksmbd_conn struct\n\nWhen sending an oplock break request, opinfo->conn is used,\nBut freed ->conn can be used on multichannel.\nThis patch add a reference count to the ksmbd_conn struct\nso that it can be freed when it is no longer used.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:19Z"

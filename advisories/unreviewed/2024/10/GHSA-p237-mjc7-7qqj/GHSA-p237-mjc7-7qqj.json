@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p237-mjc7-7qqj",
-  "modified": "2024-10-21T18:30:59Z",
+  "modified": "2024-10-28T18:31:39Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49962"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nACPICA: check null return of ACPI_ALLOCATE_ZEROED() in acpi_db_convert_to_package()\n\nACPICA commit 4d4547cf13cca820ff7e0f859ba83e1a610b9fd0\n\nACPI_ALLOCATE_ZEROED() may fail, elements might be NULL and will cause\nNULL pointer dereference later.\n\n[ rjw: Subject and changelog edits ]",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:17Z"
