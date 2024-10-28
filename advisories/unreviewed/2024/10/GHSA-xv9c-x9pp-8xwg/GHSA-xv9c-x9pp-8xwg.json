@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xv9c-x9pp-8xwg",
+  "modified": "2024-10-28T12:30:54Z",
+  "published": "2024-10-28T12:30:54Z",
+  "aliases": [
+    "CVE-2024-48074"
+  ],
+  "details": "An authorized RCE vulnerability exists in the DrayTek Vigor2960 router version 1.4.4, where an attacker can place a malicious command into the table parameter of the doPPPoE function in the cgi-bin/mainfunction.cgi route, and finally the command is executed by the system function.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Giles-one/Vigor2960Crack"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-28T12:15:15Z"
+  }
+}
