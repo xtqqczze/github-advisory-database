@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3422-7r3j-w49g",
+  "modified": "2024-10-29T15:32:05Z",
+  "published": "2024-10-29T15:32:05Z",
+  "aliases": [
+    "CVE-2024-51181"
+  ],
+  "details": "A Reflected Cross Site Scripting (XSS) vulnerability was found in /ifscfinder/admin/profile.php in PHPGurukul IFSC Code Finder Project v1.0, which allows remote attackers to execute arbitrary code via \" searchifsccode\" parameter.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51181"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Santoshcyber1/CVE-wirteup/blob/main/Phpgurukul/IFSC%20Code%20Finder/IFSC%20Code%20Finder%20Admin.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-29T13:15:07Z"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q2x2-wjjv-pmmp",
+  "modified": "2024-10-29T15:32:05Z",
+  "published": "2024-10-29T15:32:05Z",
+  "aliases": [
+    "CVE-2024-51180"
+  ],
+  "details": "A Reflected Cross Site Scripting (XSS) vulnerability was found in /ifscfinder/index.php in PHPGurukul IFSC Code Finder Project v1.0, which allows remote attackers to execute arbitrary code via the \"searchifsccode\" parameter.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51180"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Santoshcyber1/CVE-wirteup/blob/main/Phpgurukul/IFSC%20Code%20Finder/IFSC%20Code%20Finder%20do.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-29T13:15:07Z"
+  }
+}

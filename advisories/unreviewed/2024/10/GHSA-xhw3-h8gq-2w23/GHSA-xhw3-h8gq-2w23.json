@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xhw3-h8gq-2w23",
+  "modified": "2024-10-29T15:32:04Z",
+  "published": "2024-10-29T15:32:04Z",
+  "aliases": [
+    "CVE-2024-10468"
+  ],
+  "details": "Potential race conditions in IndexedDB could have caused memory corruption, leading to a potentially exploitable crash. This vulnerability affects Firefox < 132 and Thunderbird < 132.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10468"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1914982"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2024-55"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2024-59"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-29T13:15:04Z"
+  }
+}
