@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9298-4cf8-g4wj",
-  "modified": "2024-10-29T14:45:03Z",
+  "modified": "2024-10-29T20:00:21Z",
   "published": "2024-10-29T14:45:03Z",
   "aliases": [
     "CVE-2024-49768"
@@ -45,6 +45,10 @@
       "url": "https://github.com/Pylons/waitress/security/advisories/GHSA-9298-4cf8-g4wj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49768"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Pylons/waitress/commit/e4359018537af376cf24bd13616d861e2fb76f65"
     },
@@ -61,6 +65,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-29T14:45:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-29T15:15:11Z"
   }
 }
