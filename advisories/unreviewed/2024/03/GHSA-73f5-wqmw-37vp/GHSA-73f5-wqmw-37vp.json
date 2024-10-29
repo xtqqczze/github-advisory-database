@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73f5-wqmw-37vp",
-  "modified": "2024-06-27T12:30:43Z",
+  "modified": "2024-10-29T18:30:34Z",
   "published": "2024-03-03T00:30:30Z",
   "aliases": [
     "CVE-2022-48627"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvt: fix memory overlapping when deleting chars in the buffer\n\nA memory overlapping copy occurs when deleting a long line. This memory\noverlapping copy can cause data corruption when scr_memcpyw is optimized\nto memcpy because memcpy does not ensure its behavior if the destination\nbuffer overlaps with the source buffer. The line buffer is not always\nbroken, because the memcpy utilizes the hardware acceleration, whose\nresult is not deterministic.\n\nFix this problem by using replacing the scr_memcpyw with scr_memmovew.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -51,7 +54,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-02T22:15:46Z"

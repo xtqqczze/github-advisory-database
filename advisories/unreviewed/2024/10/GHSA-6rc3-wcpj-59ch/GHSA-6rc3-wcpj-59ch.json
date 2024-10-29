@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rc3-wcpj-59ch",
-  "modified": "2024-10-29T15:32:04Z",
+  "modified": "2024-10-29T18:30:36Z",
   "published": "2024-10-29T15:32:04Z",
   "aliases": [
     "CVE-2024-10462"
   ],
   "details": "Truncation of a long URL could have allowed origin spoofing in a permission prompt. This vulnerability affects Firefox < 132, Firefox ESR < 128.4, Thunderbird < 128.4, and Thunderbird < 132.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-290"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-29T13:15:03Z"

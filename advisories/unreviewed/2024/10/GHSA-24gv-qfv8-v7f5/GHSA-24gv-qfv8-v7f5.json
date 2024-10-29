@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24gv-qfv8-v7f5",
-  "modified": "2024-10-21T18:30:59Z",
+  "modified": "2024-10-29T18:30:35Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49983"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: drop ppath from ext4_ext_replay_update_ex() to avoid double-free\n\nWhen calling ext4_force_split_extent_at() in ext4_ext_replay_update_ex(),\nthe 'ppath' is updated but it is the 'path' that is freed, thus potentially\ntriggering a double-free in the following process:\n\next4_ext_replay_update_ex\n  ppath = path\n  ext4_force_split_extent_at(&ppath)\n    ext4_split_extent_at\n      ext4_ext_insert_extent\n        ext4_ext_create_new_leaf\n          ext4_ext_grow_indepth\n            ext4_find_extent\n              if (depth > path[0].p_maxdepth)\n                kfree(path)                 ---> path First freed\n                *orig_path = path = NULL    ---> null ppath\n  kfree(path)                               ---> path double-free !!!\n\nSo drop the unnecessary ppath and use path directly to avoid this problem.\nAnd use ext4_find_extent() directly to update path, avoiding unnecessary\nmemory allocation and freeing. Also, propagate the error returned by\next4_find_extent() instead of using strange error codes.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-415"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:18Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcpv-8j4p-29jp",
-  "modified": "2024-03-21T03:33:11Z",
+  "modified": "2024-10-29T18:30:32Z",
   "published": "2022-05-17T04:14:52Z",
   "aliases": [
     "CVE-2014-9426"
   ],
   "details": "** DISPUTED ** The apprentice_load function in libmagic/apprentice.c in the Fileinfo component in PHP through 5.6.4 attempts to perform a free operation on a stack-based character array, which allows remote attackers to cause a denial of service (memory corruption or application crash) or possibly have unspecified other impact via unknown vectors.  NOTE: this is disputed by the vendor because the standard erealloc behavior makes the free operation unreachable.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 

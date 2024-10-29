@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57xc-4245-hh9c",
-  "modified": "2024-10-21T18:30:56Z",
+  "modified": "2024-10-29T18:30:35Z",
   "published": "2024-10-21T18:30:56Z",
   "aliases": [
     "CVE-2024-40746"
   ],
   "details": "A stored cross-site scripting (XSS) vulnerability in HikaShop Joomla Component < 5.1.1 allows remote attackers to execute arbitrary JavaScript in the web browser of a user, by including a malicious payload in the `description` parameter of any product. The `description `parameter is not sanitised in the backend.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T17:15:03Z"

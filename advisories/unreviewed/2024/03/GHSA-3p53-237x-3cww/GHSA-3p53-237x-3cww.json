@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p53-237x-3cww",
-  "modified": "2024-05-01T18:30:36Z",
+  "modified": "2024-10-29T18:30:34Z",
   "published": "2024-03-15T18:30:38Z",
   "aliases": [
     "CVE-2024-2193"
   ],
   "details": "A Speculative Race Condition (SRC) vulnerability that impacts modern CPU architectures supporting speculative execution (related to Spectre V1) has been disclosed. An unauthenticated attacker can exploit this vulnerability to disclose arbitrary data from the CPU using race conditions to access the speculative executable code paths.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -69,9 +72,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-362"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-15T18:15:08Z"

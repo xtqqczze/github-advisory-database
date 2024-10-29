@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c83g-cgfm-hc33",
-  "modified": "2024-10-28T21:30:35Z",
+  "modified": "2024-10-29T18:30:36Z",
   "published": "2024-10-28T21:30:35Z",
   "aliases": [
     "CVE-2024-44159"
   ],
   "details": "A path deletion vulnerability was addressed by preventing vulnerable code from running with privileges. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. An app may be able to bypass Privacy preferences.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-28T21:15:05Z"
