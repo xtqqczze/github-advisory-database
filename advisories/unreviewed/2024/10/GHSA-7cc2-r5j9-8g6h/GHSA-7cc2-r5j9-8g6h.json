@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cc2-r5j9-8g6h",
-  "modified": "2024-10-28T21:30:35Z",
+  "modified": "2024-10-29T21:30:51Z",
   "published": "2024-10-28T21:30:35Z",
   "aliases": [
     "CVE-2024-44294"
   ],
   "details": "A path deletion vulnerability was addressed by preventing vulnerable code from running with privileges. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. An attacker with root privileges may be able to delete protected system files.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-28T21:15:08Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x467-hf2h-75gq",
-  "modified": "2024-10-26T00:32:28Z",
+  "modified": "2024-10-29T21:30:48Z",
   "published": "2024-10-26T00:32:28Z",
   "aliases": [
     "CVE-2024-48236"
   ],
   "details": "An issue in ofcms 1.1.2 allows a remote attacker to execute arbitrary code via the FileOutputStream function in the write String method of the ofcms-admin\\src\\main\\java\\com\\ofsoft\\cms\\core\\uitle\\FileUtils.java file",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-94"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-25T22:15:02Z"

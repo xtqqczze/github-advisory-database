@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g774-vx5r-x2vg",
-  "modified": "2024-10-28T21:30:35Z",
+  "modified": "2024-10-29T21:30:51Z",
   "published": "2024-10-28T21:30:35Z",
   "aliases": [
     "CVE-2024-44222"
   ],
   "details": "This issue was addressed with improved redaction of sensitive information. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. An app may be able to read sensitive location information.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-922"
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-28T21:15:06Z"

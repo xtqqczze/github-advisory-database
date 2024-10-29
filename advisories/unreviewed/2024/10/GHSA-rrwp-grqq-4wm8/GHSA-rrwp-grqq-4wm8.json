@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrwp-grqq-4wm8",
-  "modified": "2024-10-25T18:30:49Z",
+  "modified": "2024-10-29T21:30:48Z",
   "published": "2024-10-25T18:30:49Z",
   "aliases": [
     "CVE-2024-48343"
   ],
   "details": "A SQL Injection vulnerability in ESAFENET CDG 5 and earlier allows an attacker to execute arbitrary code via the id parameter of the dataSearch.jsp page.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-89"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-25T18:15:04Z"

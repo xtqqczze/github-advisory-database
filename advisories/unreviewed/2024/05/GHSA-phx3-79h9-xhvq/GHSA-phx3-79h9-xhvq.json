@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phx3-79h9-xhvq",
-  "modified": "2024-06-26T00:31:43Z",
+  "modified": "2024-10-29T21:30:45Z",
   "published": "2024-05-17T15:31:10Z",
   "aliases": [
     "CVE-2024-35833"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: fsl-qdma: Fix a memory leak related to the queue command DMA\n\nThis dma_alloc_coherent() is undone neither in the remove function, nor in\nthe error handling path of fsl_qdma_probe().\n\nSwitch to the managed version to fix both issues.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -55,7 +58,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T14:15:19Z"

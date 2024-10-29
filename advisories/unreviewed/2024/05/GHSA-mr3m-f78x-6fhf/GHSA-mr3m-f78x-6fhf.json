@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr3m-f78x-6fhf",
-  "modified": "2024-06-26T00:31:42Z",
+  "modified": "2024-10-29T21:30:45Z",
   "published": "2024-05-17T15:31:09Z",
   "aliases": [
     "CVE-2024-35796"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ll_temac: platform_get_resource replaced by wrong function\n\nThe function platform_get_resource was replaced with\ndevm_platform_ioremap_resource_byname and is called using 0 as name.\n\nThis eventually ends up in platform_get_resource_byname in the call\nstack, where it causes a null pointer in strcmp.\n\n\tif (type == resource_type(r) && !strcmp(r->name, name))\n\nIt should have been replaced with devm_platform_ioremap_resource.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -55,7 +58,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T14:15:11Z"

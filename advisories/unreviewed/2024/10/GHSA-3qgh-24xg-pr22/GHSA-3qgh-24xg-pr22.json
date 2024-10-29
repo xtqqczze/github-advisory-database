@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qgh-24xg-pr22",
-  "modified": "2024-10-29T00:31:15Z",
+  "modified": "2024-10-29T21:30:52Z",
   "published": "2024-10-29T00:31:15Z",
   "aliases": [
     "CVE-2024-51507"
   ],
   "details": "Tiki through 27.0 allows users who have certain permissions to insert a \"Create/Edit External Wiki\" stored XSS payload in the Name.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-28T23:15:02Z"

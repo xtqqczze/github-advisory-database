@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65xp-45wv-pvw6",
-  "modified": "2024-10-26T00:32:28Z",
+  "modified": "2024-10-29T21:30:49Z",
   "published": "2024-10-26T00:32:28Z",
   "aliases": [
     "CVE-2024-48239"
   ],
   "details": "An issue was discovered in WTCMS 1.0. In the plupload method in \\AssetController.class.php, the app parameters aren't processed, resulting in Cross Site Scripting (XSS).",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-25T22:15:02Z"

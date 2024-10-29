@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpjj-rrr4-p36v",
-  "modified": "2023-11-08T15:30:33Z",
+  "modified": "2024-10-29T21:30:43Z",
   "published": "2023-10-30T06:30:31Z",
   "aliases": [
     "CVE-2023-45746"

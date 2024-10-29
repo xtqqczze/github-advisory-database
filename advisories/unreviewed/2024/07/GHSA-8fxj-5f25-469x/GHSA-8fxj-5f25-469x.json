@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8fxj-5f25-469x",
-  "modified": "2024-07-30T18:32:07Z",
+  "modified": "2024-10-29T21:30:48Z",
   "published": "2024-07-30T18:32:06Z",
   "aliases": [
     "CVE-2024-7208"
   ],
   "details": "Hosted services do not verify the sender of an email against authenticated users, allowing an attacker to spoof the identify of another user's email address.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-30T17:15:14Z"

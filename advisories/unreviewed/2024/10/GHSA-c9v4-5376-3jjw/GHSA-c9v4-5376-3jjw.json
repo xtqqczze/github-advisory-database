@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9v4-5376-3jjw",
-  "modified": "2024-10-25T21:31:27Z",
+  "modified": "2024-10-29T21:30:48Z",
   "published": "2024-10-25T21:31:27Z",
   "aliases": [
     "CVE-2024-37847"
   ],
   "details": "An arbitrary file upload vulnerability in MangoOS before 5.1.4 and Mango API before 4.5.5 allows attackers to execute arbitrary code via a crafted file.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-22"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-25T19:15:04Z"
