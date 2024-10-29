@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rxp-v6pw-ch6m",
-  "modified": "2024-10-28T17:59:46Z",
+  "modified": "2024-10-29T14:59:27Z",
   "published": "2024-10-28T14:10:18Z",
   "aliases": [
     "CVE-2024-49761"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ruby/rexml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rexml/CVE-2024-49761.yml"
     },
     {
       "type": "WEB",
