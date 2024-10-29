@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vw6x-c5rg-jmjp",
-  "modified": "2024-10-25T21:47:29Z",
+  "modified": "2024-10-29T14:40:03Z",
   "published": "2024-10-25T21:31:27Z",
   "aliases": [
     "CVE-2024-48225"
@@ -9,7 +9,14 @@
   "summary": "SQL injection in funadmin",
   "details": "Funadmin v5.0.2 has an arbitrary file deletion vulnerability in /curd/index/delfile.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
+    }
   ],
   "affected": [
     {

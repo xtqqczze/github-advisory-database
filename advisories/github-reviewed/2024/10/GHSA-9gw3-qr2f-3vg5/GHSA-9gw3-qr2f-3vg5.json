@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gw3-qr2f-3vg5",
-  "modified": "2024-10-25T21:47:44Z",
+  "modified": "2024-10-29T14:40:19Z",
   "published": "2024-10-25T21:31:27Z",
   "aliases": [
     "CVE-2024-48226"
@@ -9,7 +9,14 @@
   "summary": "SQL injection in funadmin",
   "details": "Funadmin 5.0.2 is vulnerable to SQL Injection in curd/table/savefield.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
+    }
   ],
   "affected": [
     {
