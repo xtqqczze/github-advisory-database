@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq2p-5pc6-wpgf",
-  "modified": "2024-10-15T21:30:37Z",
+  "modified": "2024-10-30T09:30:47Z",
   "published": "2024-10-15T18:30:50Z",
   "aliases": [
     "CVE-2024-9676"
@@ -20,6 +20,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9676"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8418"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8437"
     },
     {
       "type": "WEB",
