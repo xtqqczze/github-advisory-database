@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4v4-w9pv-6fph",
-  "modified": "2024-07-08T19:04:07Z",
+  "modified": "2024-10-30T21:37:00Z",
   "published": "2024-07-05T03:30:42Z",
   "aliases": [
     "CVE-2024-32498"
@@ -120,14 +120,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://security.openstack.org/ossa/OSSA-2024-001.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2024/07/02/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/07/02/2"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-552"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-07-08T19:04:07Z",
     "nvd_published_at": "2024-07-05T02:15:09Z"
