@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f7rc-79mv-v26v",
+  "modified": "2024-10-30T21:30:40Z",
+  "published": "2024-10-30T21:30:40Z",
+  "aliases": [
+    "CVE-2024-51243"
+  ],
+  "details": "The eladmin v2.7 and before contains a remote code execution (RCE) vulnerability that can control all application deployment servers of this management system via DeployController.java.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51243"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/shadia0/Patienc/blob/main/eladmin_rce.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-30T21:15:14Z"
+  }
+}

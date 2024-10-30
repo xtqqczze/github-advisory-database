@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cr4-w78w-p2qr",
-  "modified": "2024-06-10T21:30:35Z",
+  "modified": "2024-10-30T21:30:37Z",
   "published": "2024-05-14T15:32:52Z",
   "aliases": [
     "CVE-2024-23229"
   ],
   "details": "This issue was addressed with improved redaction of sensitive information. This issue is fixed in macOS Monterey 12.7.5, macOS Ventura 13.6.5, macOS Sonoma 14.4. A malicious application may be able to access Find My data.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-922"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-14T14:58:46Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2gv-fj8v-x2rx",
-  "modified": "2024-10-29T21:30:53Z",
+  "modified": "2024-10-30T21:30:39Z",
   "published": "2024-10-29T21:30:53Z",
   "aliases": [
     "CVE-2024-48461"
   ],
   "details": "Cross Site Scripting vulnerability in TeslaLogger Admin Panel before v.1.59.6 allows a remote attacker to execute arbitrary code via the New Journey field.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-29T21:15:04Z"
