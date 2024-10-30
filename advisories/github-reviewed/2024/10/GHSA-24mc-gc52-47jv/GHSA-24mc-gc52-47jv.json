@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24mc-gc52-47jv",
-  "modified": "2024-10-30T14:40:58Z",
+  "modified": "2024-10-30T16:12:38Z",
   "published": "2024-10-30T14:40:58Z",
   "aliases": [
     "CVE-2024-50353"
@@ -45,6 +45,10 @@
       "url": "https://github.com/IowaComputerGurus/aspnetcore.utilities.cloudstorage/security/advisories/GHSA-24mc-gc52-47jv"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50353"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/IowaComputerGurus/aspnetcore.utilities.cloudstorage/commit/8ea534481181a063175f457082662fdcad9a41ff"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-30T14:40:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-30T14:15:07Z"
   }
 }
