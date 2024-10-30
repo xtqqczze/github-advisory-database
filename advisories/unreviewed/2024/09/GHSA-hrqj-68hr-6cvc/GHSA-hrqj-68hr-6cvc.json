@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrqj-68hr-6cvc",
-  "modified": "2024-09-30T18:31:36Z",
+  "modified": "2024-10-30T18:30:46Z",
   "published": "2024-09-30T18:31:36Z",
   "aliases": [
     "CVE-2024-35495"
   ],
   "details": "An Information Disclosure vulnerability in the Telemetry component in TP-Link Kasa KP125M V1.0.0 and Tapo P125M 1.0.0 Build 220930 Rel.143947 allows attackers to observe device state via observing network traffic.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-319"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-09-30T18:15:05Z"

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v4pp-cm3w-w8gh",
+  "modified": "2024-10-30T18:30:49Z",
+  "published": "2024-10-30T18:30:49Z",
+  "aliases": [
+    "CVE-2024-48569"
+  ],
+  "details": "Proactive Risk Manager version 9.1.1.0 is affected by multiple Cross-Site Scripting (XSS) vulnerabilities in the add/edit form fields, at the urls starting with the subpaths: /ar/config/configuation/ and /ar/config/risk-strategy-control/",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48569"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarioTesoro/CVE-2024-48569"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-30T18:15:07Z"
+  }
+}

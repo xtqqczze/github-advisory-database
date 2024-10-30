@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x3v-348q-cc5h",
-  "modified": "2024-10-29T03:31:06Z",
+  "modified": "2024-10-30T18:30:48Z",
   "published": "2024-10-29T03:31:06Z",
   "aliases": [
     "CVE-2024-50081"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nblk-mq: setup queue ->tag_set before initializing hctx\n\nCommit 7b815817aa58 (\"blk-mq: add helper for checking if one CPU is mapped to specified hctx\")\nneeds to check queue mapping via tag set in hctx's cpuhp handler.\n\nHowever, q->tag_set may not be setup yet when the cpuhp handler is\nenabled, then kernel oops is triggered.\n\nFix the issue by setup queue tag_set before initializing hctx.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-29T01:15:05Z"

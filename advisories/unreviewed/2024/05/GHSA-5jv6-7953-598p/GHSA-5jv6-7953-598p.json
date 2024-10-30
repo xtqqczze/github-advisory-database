@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jv6-7953-598p",
-  "modified": "2024-05-03T18:30:36Z",
+  "modified": "2024-10-30T18:30:45Z",
   "published": "2024-05-03T18:30:36Z",
   "aliases": [
     "CVE-2022-48698"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: fix memory leak when using debugfs_lookup()\n\nWhen calling debugfs_lookup() the result must have dput() called on it,\notherwise the memory will leak over time.  Fix this up by properly\ncalling dput().",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -35,7 +38,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-03T16:15:08Z"

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3x5w-67jh-3785",
+  "modified": "2024-10-30T18:30:49Z",
+  "published": "2024-10-30T18:30:49Z",
+  "aliases": [
+    "CVE-2024-31975"
+  ],
+  "details": "EnGenius ESR580 devices through 1.1.30 allow a remote attacker to conduct stored XSS attacks via the Wi-Fi SSID parameters. JavaScript embedded into a vulnerable field is executed when the user clicks the SSID field's corresponding EDIT button.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-31975"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/actuator/cve/blob/main/Engenius/CVE-2024-31975"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-10-30T18:15:06Z"
+  }
+}

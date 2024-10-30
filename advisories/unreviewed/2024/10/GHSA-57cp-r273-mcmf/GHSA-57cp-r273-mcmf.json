@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57cp-r273-mcmf",
-  "modified": "2024-10-28T21:30:35Z",
+  "modified": "2024-10-30T18:30:47Z",
   "published": "2024-10-28T21:30:35Z",
   "aliases": [
     "CVE-2024-44251"
   ],
   "details": "This issue was addressed through improved state management. This issue is fixed in iOS 18.1 and iPadOS 18.1. An attacker may be able to view restricted content from the lock screen.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-28T21:15:06Z"

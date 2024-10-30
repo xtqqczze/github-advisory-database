@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ggqq-32pw-pm22",
-  "modified": "2024-04-28T15:30:29Z",
+  "modified": "2024-10-30T18:30:45Z",
   "published": "2024-04-28T15:30:29Z",
   "aliases": [
     "CVE-2022-48638"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncgroup: cgroup_get_from_id() must check the looked-up kn is a directory\n\ncgroup has to be one kernfs dir, otherwise kernel panic is caused,\nespecially cgroup id is provide from userspace.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -35,7 +38,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-28T13:15:06Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grqq-hcc7-crmr",
-  "modified": "2024-10-22T18:32:12Z",
+  "modified": "2024-10-30T18:30:46Z",
   "published": "2024-10-22T18:32:12Z",
   "aliases": [
     "CVE-2024-9287"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/pull/124712"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483"
     },
     {
       "type": "WEB",

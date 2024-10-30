@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww69-c6p5-r54m",
-  "modified": "2024-03-19T12:30:41Z",
+  "modified": "2024-10-30T18:30:44Z",
   "published": "2024-03-19T12:30:41Z",
   "aliases": [
     "CVE-2024-2606"
   ],
   "details": "Passing invalid data could have led to invalid wasm values being created, such as arbitrary integers turning into pointer values. This vulnerability affects Firefox < 124.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-19T12:15:08Z"
