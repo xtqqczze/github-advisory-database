@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrqc-c2jx-6jgv",
-  "modified": "2024-10-08T21:17:01Z",
+  "modified": "2024-10-30T19:02:43Z",
   "published": "2024-10-08T18:33:13Z",
   "aliases": [
     "CVE-2024-45231"
@@ -113,6 +113,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-203",
       "CWE-204"
     ],
     "severity": "MODERATE",

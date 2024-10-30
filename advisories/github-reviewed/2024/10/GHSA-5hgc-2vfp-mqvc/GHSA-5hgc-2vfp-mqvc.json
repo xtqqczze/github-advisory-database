@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hgc-2vfp-mqvc",
-  "modified": "2024-10-09T19:22:14Z",
+  "modified": "2024-10-30T19:03:34Z",
   "published": "2024-10-08T18:33:13Z",
   "aliases": [
     "CVE-2024-45230"
@@ -117,6 +117,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-120",
       "CWE-400"
     ],
     "severity": "MODERATE",
