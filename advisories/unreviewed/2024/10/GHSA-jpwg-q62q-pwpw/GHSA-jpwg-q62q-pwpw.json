@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpwg-q62q-pwpw",
-  "modified": "2024-10-28T21:30:35Z",
+  "modified": "2024-10-30T00:31:04Z",
   "published": "2024-10-28T21:30:35Z",
   "aliases": [
     "CVE-2024-44244"
@@ -24,6 +24,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://support.apple.com/en-us/121564"
+    },
+    {
+      "type": "WEB",
       "url": "https://support.apple.com/en-us/121565"
     },
     {
@@ -33,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/121569"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/121571"
     }
   ],
   "database_specific": {

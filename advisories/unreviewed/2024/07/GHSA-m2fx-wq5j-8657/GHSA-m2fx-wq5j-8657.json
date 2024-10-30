@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2fx-wq5j-8657",
-  "modified": "2024-07-10T21:30:39Z",
+  "modified": "2024-10-30T00:31:04Z",
   "published": "2024-07-10T21:30:39Z",
   "aliases": [
     "CVE-2024-6149"
@@ -28,7 +28,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-601"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

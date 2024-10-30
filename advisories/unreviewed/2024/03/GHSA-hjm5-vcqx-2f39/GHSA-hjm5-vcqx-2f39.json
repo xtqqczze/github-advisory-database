@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjm5-vcqx-2f39",
-  "modified": "2024-03-03T09:30:37Z",
+  "modified": "2024-10-30T00:31:03Z",
   "published": "2024-03-03T09:30:37Z",
   "aliases": [
     "CVE-2024-25551"
   ],
   "details": "Cross Site Scripting (XSS) vulnerability in sourcecodester Simple Student Attendance System v1.0 allows attackers to execute arbitrary code via crafted GET request to web application URL.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-03T08:15:08Z"

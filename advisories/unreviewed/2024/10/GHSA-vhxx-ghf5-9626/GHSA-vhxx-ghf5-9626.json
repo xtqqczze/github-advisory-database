@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhxx-ghf5-9626",
-  "modified": "2024-10-29T21:30:51Z",
+  "modified": "2024-10-30T00:31:04Z",
   "published": "2024-10-28T21:30:35Z",
   "aliases": [
     "CVE-2024-44229"
@@ -27,7 +27,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://support.apple.com/en-us/121564"
+    },
+    {
+      "type": "WEB",
       "url": "https://support.apple.com/en-us/121566"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/121571"
     }
   ],
   "database_specific": {

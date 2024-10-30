@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f555-wmcp-xf56",
-  "modified": "2024-10-29T00:31:15Z",
+  "modified": "2024-10-30T00:31:04Z",
   "published": "2024-10-29T00:31:15Z",
   "aliases": [
     "CVE-2024-44283"
   ],
   "details": "An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. Parsing a maliciously crafted file may lead to an unexpected app termination.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-125"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-28T22:15:03Z"
