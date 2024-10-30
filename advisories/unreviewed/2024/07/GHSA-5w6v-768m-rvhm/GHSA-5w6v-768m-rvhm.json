@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w6v-768m-rvhm",
-  "modified": "2024-08-21T06:32:18Z",
+  "modified": "2024-10-30T15:30:44Z",
   "published": "2024-07-16T03:31:00Z",
   "aliases": [
     "CVE-2024-6780"
   ],
   "details": "Improper permission control in the mobile application (com.android.server.telecom) may lead to user information security risks.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -35,7 +38,7 @@
     "cwe_ids": [
       "CWE-732"
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-16T02:15:12Z"

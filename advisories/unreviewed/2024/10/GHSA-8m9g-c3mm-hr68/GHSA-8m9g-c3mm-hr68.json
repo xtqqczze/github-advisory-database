@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8m9g-c3mm-hr68",
-  "modified": "2024-10-03T18:30:36Z",
+  "modified": "2024-10-30T15:30:44Z",
   "published": "2024-10-03T18:30:36Z",
   "aliases": [
     "CVE-2024-7825"
   ],
   "details": "Access of Resource Using Incompatible Type ('Type Confusion') vulnerability in Webroot SecureAnywhere - Web Shield on Windows, ARM, 64 bit, 32 bit (wrUrl.Dll modules) allows Functionality Misuse.This issue affects SecureAnywhere - Web Shield: before 2.1.2.3.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 

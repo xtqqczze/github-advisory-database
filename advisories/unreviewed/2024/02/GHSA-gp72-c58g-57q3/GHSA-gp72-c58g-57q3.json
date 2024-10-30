@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp72-c58g-57q3",
-  "modified": "2024-02-22T18:30:30Z",
+  "modified": "2024-10-30T15:30:44Z",
   "published": "2024-02-22T18:30:30Z",
   "aliases": [
     "CVE-2024-25802"
   ],
   "details": "SKINsoft S-Museum 7.02.3 allows Unrestricted File Upload via the Add Media function. Unlike in CVE-2024-25801, the attack payload is the file content.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-434"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-22T18:15:48Z"

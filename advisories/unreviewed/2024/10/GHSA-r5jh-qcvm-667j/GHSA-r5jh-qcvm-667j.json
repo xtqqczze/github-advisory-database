@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r5jh-qcvm-667j",
-  "modified": "2024-10-29T03:31:06Z",
+  "modified": "2024-10-30T15:30:46Z",
   "published": "2024-10-29T03:31:06Z",
   "aliases": [
     "CVE-2024-50086"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix user-after-free from session log off\n\nThere is racy issue between smb2 session log off and smb2 session setup.\nIt will cause user-after-free from session log off.\nThis add session_lock when setting SMB2_SESSION_EXPIRED and referece\ncount to session struct not to free session while it is being used.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-29T01:15:05Z"
