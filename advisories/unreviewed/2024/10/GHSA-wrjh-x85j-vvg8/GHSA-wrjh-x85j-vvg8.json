@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrjh-x85j-vvg8",
-  "modified": "2024-10-30T18:30:49Z",
+  "modified": "2024-10-31T21:31:45Z",
   "published": "2024-10-30T18:30:49Z",
   "aliases": [
     "CVE-2024-48647"
   ],
   "details": "A file disclosure vulnerability exists in Sage 1000 v7.0.0. This vulnerability allows remote attackers to retrieve arbitrary files from the server's file system by manipulating the URL parameter in HTTP requests. The attacker can exploit this flaw to access sensitive information, including configuration files that may contain credentials and system settings, which could lead to further compromise of the server.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-552"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-30T18:15:07Z"
