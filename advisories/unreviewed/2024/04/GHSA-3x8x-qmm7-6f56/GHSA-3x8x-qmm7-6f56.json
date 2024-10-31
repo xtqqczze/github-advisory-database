@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3x8x-qmm7-6f56",
-  "modified": "2024-06-27T12:30:45Z",
+  "modified": "2024-10-31T18:31:16Z",
   "published": "2024-04-17T12:32:05Z",
   "aliases": [
     "CVE-2024-26889"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: hci_core: Fix possible buffer overflow\n\nstruct hci_dev_info has a fixed size name[8] field so in the event that\nhdev->name is bigger than that strcpy would attempt to write past its\nsize, so this fixes this problem by switching to use strscpy.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -65,9 +68,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-120"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-17T11:15:10Z"

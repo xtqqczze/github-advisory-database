@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r92r-c64c-j7jx",
-  "modified": "2024-05-21T18:31:17Z",
+  "modified": "2024-10-31T18:31:16Z",
   "published": "2024-05-21T18:31:17Z",
   "aliases": [
     "CVE-2021-47432"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nlib/generic-radix-tree.c: Don't overflow in peek()\n\nWhen we started spreading new inode numbers throughout most of the 64\nbit inode space, that triggered some corner case bugs, in particular\nsome integer overflows related to the radix tree code. Oops.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -39,7 +42,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:12Z"

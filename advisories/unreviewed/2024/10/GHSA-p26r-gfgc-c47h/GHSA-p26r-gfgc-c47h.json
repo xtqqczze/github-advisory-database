@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p26r-gfgc-c47h",
-  "modified": "2024-10-15T18:30:49Z",
+  "modified": "2024-10-31T18:31:17Z",
   "published": "2024-10-14T18:30:26Z",
   "aliases": [
     "CVE-2024-46528"
@@ -20,6 +20,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46528"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kubesphere/kubesphere/issues/6227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kubesphere.io"
     },
     {
       "type": "WEB",

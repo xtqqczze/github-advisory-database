@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73jw-m44p-r46h",
-  "modified": "2024-04-11T18:30:54Z",
+  "modified": "2024-10-31T18:31:16Z",
   "published": "2024-04-11T18:30:54Z",
   "aliases": [
     "CVE-2024-0881"
   ],
   "details": "The Post Grid, Form Maker, Popup Maker, WooCommerce Blocks, Post Blocks, Post Carousel  WordPress plugin before 2.2.76 does not prevent password protected posts from being displayed in the result of some unauthenticated AJAX actions, allowing unauthenticated users to read such posts",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-11T16:15:24Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg9r-m2qr-hvvj",
-  "modified": "2024-04-08T09:31:13Z",
+  "modified": "2024-10-31T18:31:16Z",
   "published": "2024-04-08T09:31:13Z",
   "aliases": [
     "CVE-2023-52541"
   ],
   "details": "Authentication vulnerability in the API for app pre-loading.\nImpact: Successful exploitation of this vulnerability may affect service confidentiality.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-08T09:15:08Z"

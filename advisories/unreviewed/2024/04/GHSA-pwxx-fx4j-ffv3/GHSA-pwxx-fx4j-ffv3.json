@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwxx-fx4j-ffv3",
-  "modified": "2024-04-02T09:30:40Z",
+  "modified": "2024-10-31T18:31:16Z",
   "published": "2024-04-02T09:30:40Z",
   "aliases": [
     "CVE-2023-52631"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/ntfs3: Fix an NULL dereference bug\n\nThe issue here is when this is called from ntfs_load_attr_list().  The\n\"size\" comes from le32_to_cpu(attr->res.data_size) so it can't overflow\non a 64bit systems but on 32bit systems the \"+ 1023\" can overflow and\nthe result is zero.  This means that the kmalloc will succeed by\nreturning the ZERO_SIZE_PTR and then the memcpy() will crash with an\nOops on the next line.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-02T07:15:40Z"

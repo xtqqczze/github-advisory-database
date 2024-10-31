@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrqj-j85r-f7h4",
-  "modified": "2024-04-15T06:30:34Z",
+  "modified": "2024-10-31T18:31:16Z",
   "published": "2024-04-15T06:30:34Z",
   "aliases": [
     "CVE-2024-1310"
   ],
   "details": "The WooCommerce WordPress plugin before 8.6 does not prevent users with at least the contributor role from leaking products they shouldn't have access to. (e.g. private, draft and trashed products)",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-15T05:15:14Z"
