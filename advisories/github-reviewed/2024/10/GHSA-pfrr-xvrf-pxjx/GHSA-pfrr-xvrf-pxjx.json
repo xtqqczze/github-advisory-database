@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfrr-xvrf-pxjx",
-  "modified": "2024-10-31T18:03:11Z",
+  "modified": "2024-10-31T19:36:22Z",
   "published": "2024-10-31T18:03:11Z",
   "aliases": [
     "CVE-2024-50347"
@@ -41,6 +41,10 @@
       "url": "https://github.com/laravel/reverb/security/advisories/GHSA-pfrr-xvrf-pxjx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50347"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/laravel/reverb/pull/252"
     },
@@ -59,11 +63,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-345"
+      "CWE-345",
+      "CWE-347"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-31T18:03:11Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-10-31T18:15:05Z"
   }
 }
