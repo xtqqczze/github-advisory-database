@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mv8-jjm5-f3hr",
-  "modified": "2024-10-28T21:51:21Z",
+  "modified": "2024-10-31T19:33:08Z",
   "published": "2024-10-25T21:31:28Z",
   "aliases": [
     "CVE-2024-48230"
   ],
   "summary": "SQL injection in funadmin",
-  "details": "funadmin 5.0.2 is vulnerable to SQL Injection via the parentField parameter in the index method of \\backend\\controller\\auth\\Auth.php.",
+  "details": "funadmin 5.0.2 is vulnerable to SQL Injection via the parentField parameter in the index method of `\\backend\\controller\\auth\\Auth.php`.",
   "severity": [
     {
       "type": "CVSS_V3",

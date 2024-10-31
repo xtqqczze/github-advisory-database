@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc5w-c9f8-9cc4",
-  "modified": "2024-10-29T19:40:07Z",
+  "modified": "2024-10-31T19:33:22Z",
   "published": "2024-10-29T15:32:05Z",
   "aliases": [
     "CVE-2024-7774"
@@ -37,6 +37,22 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "langchain"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -54,11 +70,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/langchain/PYSEC-2024-111.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://huntr.com/bounties/8fe40685-b714-4191-af7a-3de5e5628cee"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-22",
       "CWE-29"
     ],
     "severity": "MODERATE",
