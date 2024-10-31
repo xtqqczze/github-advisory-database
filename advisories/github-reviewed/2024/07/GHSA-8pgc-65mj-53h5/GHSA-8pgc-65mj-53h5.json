@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pgc-65mj-53h5",
-  "modified": "2024-09-06T22:05:52Z",
+  "modified": "2024-10-31T17:02:51Z",
   "published": "2024-07-19T06:31:13Z",
   "aliases": [
     "CVE-2024-21583"
@@ -91,7 +91,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-15"
+      "CWE-15",
+      "CWE-565"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
