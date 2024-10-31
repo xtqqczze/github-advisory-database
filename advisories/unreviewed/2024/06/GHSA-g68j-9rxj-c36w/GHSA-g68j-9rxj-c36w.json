@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g68j-9rxj-c36w",
-  "modified": "2024-06-19T15:30:55Z",
+  "modified": "2024-10-31T15:30:58Z",
   "published": "2024-06-19T15:30:55Z",
   "aliases": [
     "CVE-2021-47602"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmac80211: track only QoS data frames for admission control\n\nFor admission control, obviously all of that only works for\nQoS data frames, otherwise we cannot even access the QoS\nfield in the header.\n\nSyzbot reported (see below) an uninitialized value here due\nto a status of a non-QoS nullfunc packet, which isn't even\nlong enough to contain the QoS header.\n\nFix this to only do anything for QoS data packets.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-824"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-19T15:15:54Z"

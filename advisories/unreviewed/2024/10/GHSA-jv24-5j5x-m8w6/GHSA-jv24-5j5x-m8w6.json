@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jv24-5j5x-m8w6",
-  "modified": "2024-10-29T15:32:03Z",
+  "modified": "2024-10-31T15:30:58Z",
   "published": "2024-10-29T15:32:03Z",
   "aliases": [
     "CVE-2024-10460"
   ],
   "details": "The origin of an external protocol handler prompt could have been obscured using a data: URL within an `iframe`. This vulnerability affects Firefox < 132, Firefox ESR < 128.4, Thunderbird < 128.4, and Thunderbird < 132.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -43,7 +46,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-29T13:15:03Z"

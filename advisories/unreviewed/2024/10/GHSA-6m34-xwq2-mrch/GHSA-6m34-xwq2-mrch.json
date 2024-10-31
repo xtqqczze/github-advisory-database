@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6m34-xwq2-mrch",
-  "modified": "2024-10-21T21:30:52Z",
+  "modified": "2024-10-31T15:30:58Z",
   "published": "2024-10-21T21:30:52Z",
   "aliases": [
     "CVE-2022-48999"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv4: Handle attempt to delete multipath route when fib_info contains an nh reference\n\nGwangun Jung reported a slab-out-of-bounds access in fib_nh_match:\n    fib_nh_match+0xf98/0x1130 linux-6.0-rc7/net/ipv4/fib_semantics.c:961\n    fib_table_delete+0x5f3/0xa40 linux-6.0-rc7/net/ipv4/fib_trie.c:1753\n    inet_rtm_delroute+0x2b3/0x380 linux-6.0-rc7/net/ipv4/fib_frontend.c:874\n\nSeparate nexthop objects are mutually exclusive with the legacy\nmultipath spec. Fix fib_nh_match to return if the config for the\nto be deleted route contains a multipath spec while the fib_info\nis using a nexthop object.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-125"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:11Z"

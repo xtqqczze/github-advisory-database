@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmh5-6rg4-ggmq",
-  "modified": "2024-06-27T12:30:44Z",
+  "modified": "2024-10-31T15:30:57Z",
   "published": "2024-04-03T18:30:41Z",
   "aliases": [
     "CVE-2024-26735"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: sr: fix possible use-after-free and null-ptr-deref\n\nThe pernet operations structure for the subsystem must be registered\nbefore registering the generic netlink family.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -61,9 +64,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T17:15:51Z"
