@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffcv-v6pw-qhrp",
-  "modified": "2024-10-28T17:59:42Z",
+  "modified": "2024-10-31T19:31:10Z",
   "published": "2024-10-08T22:18:27Z",
   "aliases": [
     "CVE-2024-34537"
@@ -124,6 +124,10 @@
     {
       "type": "WEB",
       "url": "https://typo3.org/security/advisory/typo3-core-sa-2024-011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mgm-sp.com/cve/denial-of-service-in-typo3-bookmark-toolbar"
     }
   ],
   "database_specific": {
