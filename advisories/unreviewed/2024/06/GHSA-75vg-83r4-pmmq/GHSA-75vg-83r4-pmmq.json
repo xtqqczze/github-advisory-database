@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75vg-83r4-pmmq",
-  "modified": "2024-06-19T15:30:55Z",
+  "modified": "2024-10-31T00:30:36Z",
   "published": "2024-06-19T15:30:55Z",
   "aliases": [
     "CVE-2021-47609"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfirmware: arm_scpi: Fix string overflow in SCPI genpd driver\n\nWithout the bound checks for scpi_pd->name, it could result in the buffer\noverflow when copying the SCPI device name from the corresponding device\ntree node as the name string is set at maximum size of 30.\n\nLet us fix it by using devm_kasprintf so that the string buffer is\nallocated dynamically.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-120"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-19T15:15:55Z"

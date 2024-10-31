@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-586p-749j-fhwp",
-  "modified": "2024-10-30T18:30:46Z",
+  "modified": "2024-10-31T00:30:36Z",
   "published": "2024-10-09T15:32:21Z",
   "aliases": [
     "CVE-2024-9675"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2024:8675"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8679"
     },
     {
       "type": "WEB",

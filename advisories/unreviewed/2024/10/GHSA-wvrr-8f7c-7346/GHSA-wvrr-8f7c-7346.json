@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvrr-8f7c-7346",
-  "modified": "2024-10-28T00:30:49Z",
+  "modified": "2024-10-31T00:30:36Z",
   "published": "2024-10-28T00:30:49Z",
   "aliases": [
     "CVE-2024-50624"
   ],
   "details": "ispdbservice.cpp in KDE Kmail before 6.2.0 allows man-in-the-middle attackers to trigger use of an attacker-controlled mail server because cleartext HTTP is used for a URL such as http://autoconfig.example.com or http://example.com/.well-known/autoconfig for retrieving the configuration. This is related to kmail-account-wizard.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-319"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-28T00:15:03Z"
