@@ -1,11 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j42f-wc6v-5xpq",
-  "modified": "2024-11-01T21:31:46Z",
+  "modified": "2024-11-01T21:47:02Z",
   "published": "2024-10-17T18:31:37Z",
+  "withdrawn": "2024-11-01T21:47:02Z",
   "aliases": [
-    "CVE-2024-49400"
+
   ],
+  "summary": "Duplicate Advisory: Permissive Regular Expression in tacquito",
   "details": "Tacquito prior to commit 07b49d1358e6ec0b5aa482fcd284f509191119e2 was not properly performing regex matches on authorized commands and arguments. Configured allowed commands/arguments were intended to require a match on the entire string, but instead only enforced a match on a sub-string. That would have potentially allowed unauthorized commands to be executed.",
   "severity": [
     {
@@ -14,7 +16,25 @@
     }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/tacquito/tacquito"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.0-20241011192817-07b49d1358e6"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -31,8 +51,8 @@
 
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-01T21:47:02Z",
     "nvd_published_at": "2024-10-17T18:15:15Z"
   }
 }

@@ -1,20 +1,43 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cm59-8rmv-f2cj",
-  "modified": "2024-10-29T15:32:05Z",
+  "modified": "2024-11-01T22:03:33Z",
   "published": "2024-10-29T15:32:05Z",
   "aliases": [
     "CVE-2024-6581"
   ],
+  "summary": "Lollms vulnerable to Cross-site Scripting",
   "details": "A vulnerability in the discussion image upload function of the Lollms application, version v9.9, allows for the uploading of SVG files. Due to incomplete filtering in the sanitize_svg function, this can lead to cross-site scripting (XSS) vulnerabilities, which in turn pose a risk of remote code execution. The sanitize_svg function only removes script elements and 'on*' event attributes, but does not account for other potential vectors for XSS within SVG files. This vulnerability can be exploited when authorized users access a malicious URL containing the crafted SVG file.",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:L"
     }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "lollms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "9.5.1"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -26,6 +49,10 @@
       "url": "https://github.com/parisneo/lollms/commit/328b960a0de2097e13654ac752253e9541521ddd"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/parisneo/lollms"
+    },
+    {
       "type": "WEB",
       "url": "https://huntr.com/bounties/ad68ecd6-44e2-449b-8e7e-f2b71b1b43c7"
     }
@@ -35,8 +62,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-01T22:03:33Z",
     "nvd_published_at": "2024-10-29T13:15:07Z"
   }
 }
