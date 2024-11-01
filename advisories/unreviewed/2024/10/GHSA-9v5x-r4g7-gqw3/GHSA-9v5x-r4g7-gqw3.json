@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v5x-r4g7-gqw3",
-  "modified": "2024-10-30T18:30:48Z",
+  "modified": "2024-11-01T15:31:51Z",
   "published": "2024-10-29T21:30:52Z",
   "aliases": [
     "CVE-2024-48063"
@@ -23,7 +23,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pytorch/pytorch/issues/129228"
+    },
+    {
+      "type": "WEB",
       "url": "https://gist.github.com/hexian2001/c046c066895a963ecc0a2cf9e1180065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pytorch/pytorch/security/policy#using-distributed-features"
     },
     {
       "type": "WEB",

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w6fg-43jh-g466",
-  "modified": "2024-10-21T21:30:51Z",
+  "modified": "2024-11-01T15:31:46Z",
   "published": "2024-10-21T21:30:51Z",
   "aliases": [
     "CVE-2022-48987"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: v4l2-dv-timings.c: fix too strict blanking sanity checks\n\nSanity checks were added to verify the v4l2_bt_timings blanking fields\nin order to avoid integer overflows when userspace passes weird values.\n\nBut that assumed that userspace would correctly fill in the front porch,\nbackporch and sync values, but sometimes all you know is the total\nblanking, which is then assigned to just one of these fields.\n\nAnd that can fail with these checks.\n\nSo instead set a maximum for the total horizontal and vertical\nblanking and check that each field remains below that.\n\nThat is still sufficient to avoid integer overflows, but it also\nallows for more flexibility in how userspace fills in these fields.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-190"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:10Z"

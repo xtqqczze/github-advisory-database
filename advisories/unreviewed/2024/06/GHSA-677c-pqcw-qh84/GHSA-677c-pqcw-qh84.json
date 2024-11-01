@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-677c-pqcw-qh84",
-  "modified": "2024-06-19T15:30:55Z",
+  "modified": "2024-11-01T15:31:45Z",
   "published": "2024-06-19T15:30:55Z",
   "aliases": [
     "CVE-2021-47593"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmptcp: clear 'kern' flag from fallback sockets\n\nThe mptcp ULP extension relies on sk->sk_sock_kern being set correctly:\nIt prevents setsockopt(fd, IPPROTO_TCP, TCP_ULP, \"mptcp\", 6); from\nworking for plain tcp sockets (any userspace-exposed socket).\n\nBut in case of fallback, accept() can return a plain tcp sk.\nIn such case, sk is still tagged as 'kernel' and setsockopt will work.\n\nThis will crash the kernel, The subflow extension has a NULL ctx->conn\nmptcp socket:\n\nBUG: KASAN: null-ptr-deref in subflow_data_ready+0x181/0x2b0\nCall Trace:\n tcp_data_ready+0xf8/0x370\n [..]",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-19T15:15:53Z"
