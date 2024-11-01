@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8336-h83v-jppm",
-  "modified": "2024-10-29T12:30:57Z",
+  "modified": "2024-11-01T21:31:47Z",
   "published": "2024-10-29T12:30:57Z",
   "aliases": [
     "CVE-2024-49663"

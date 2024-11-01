@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j42f-wc6v-5xpq",
-  "modified": "2024-10-17T18:31:37Z",
+  "modified": "2024-11-01T21:31:46Z",
   "published": "2024-10-17T18:31:37Z",
   "aliases": [
     "CVE-2024-49400"
   ],
   "details": "Tacquito prior to commit 07b49d1358e6ec0b5aa482fcd284f509191119e2 was not properly performing regex matches on authorized commands and arguments. Configured allowed commands/arguments were intended to require a match on the entire string, but instead only enforced a match on a sub-string. That would have potentially allowed unauthorized commands to be executed.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-17T18:15:15Z"

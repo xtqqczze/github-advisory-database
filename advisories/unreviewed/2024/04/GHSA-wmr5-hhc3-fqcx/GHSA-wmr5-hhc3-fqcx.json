@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmr5-hhc3-fqcx",
-  "modified": "2024-04-03T18:30:40Z",
+  "modified": "2024-11-01T21:31:46Z",
   "published": "2024-04-03T18:30:40Z",
   "aliases": [
     "CVE-2023-44038"
   ],
   "details": "In VeridiumID before 3.5.0, the identity provider page allows an unauthenticated attacker to discover information about registered users via an LDAP injection attack.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T17:15:47Z"
