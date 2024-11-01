@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc5w-c9f8-9cc4",
-  "modified": "2024-10-31T19:33:22Z",
+  "modified": "2024-11-01T15:24:38Z",
   "published": "2024-10-29T15:32:05Z",
   "aliases": [
     "CVE-2024-7774"
@@ -33,22 +33,6 @@
             },
             {
               "fixed": "0.2.19"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "PyPI",
-        "name": "langchain"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
             }
           ]
         }
