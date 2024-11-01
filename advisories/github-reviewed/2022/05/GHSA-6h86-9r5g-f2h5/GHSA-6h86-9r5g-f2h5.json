@@ -1,17 +1,55 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6h86-9r5g-f2h5",
-  "modified": "2022-05-17T04:07:54Z",
+  "modified": "2024-11-01T23:10:24Z",
   "published": "2022-05-17T04:07:54Z",
   "aliases": [
     "CVE-2014-2853"
   ],
+  "summary": "Cross-site scripting vulnerability in includes/actions/InfoAction.php",
   "details": "Cross-site scripting (XSS) vulnerability in includes/actions/InfoAction.php in MediaWiki before 1.21.9 and 1.22.x before 1.22.6 allows remote attackers to inject arbitrary web script or HTML via the sort key in an info action.",
   "severity": [
 
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "mediawiki/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.21.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "mediawiki/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.22.0"
+            },
+            {
+              "fixed": "1.22.6"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -29,6 +67,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.wikimedia.org/show_bug.cgi?id=63251"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/wikimedia/mediawiki"
     },
     {
       "type": "WEB",
@@ -60,8 +102,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-01T23:10:24Z",
     "nvd_published_at": "2014-04-29T18:55:00Z"
   }
 }
