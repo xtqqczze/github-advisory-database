@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h4v-fjx7-95cq",
-  "modified": "2024-04-04T04:28:24Z",
+  "modified": "2024-11-01T00:31:59Z",
   "published": "2023-06-02T06:30:36Z",
   "aliases": [
     "CVE-2023-2062"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/vu/JVNVU92908006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-23-157-02"
     },
     {
       "type": "WEB",
