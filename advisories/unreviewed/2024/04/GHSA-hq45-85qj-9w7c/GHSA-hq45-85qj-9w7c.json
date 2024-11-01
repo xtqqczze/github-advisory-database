@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hq45-85qj-9w7c",
-  "modified": "2024-04-03T18:30:43Z",
+  "modified": "2024-11-01T18:31:25Z",
   "published": "2024-04-03T18:30:43Z",
   "aliases": [
     "CVE-2024-26769"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvmet-fc: avoid deadlock on delete association path\n\nWhen deleting an association the shutdown path is deadlocking because we\ntry to flush the nvmet_wq nested. Avoid this by deadlock by deferring\nthe put work into its own work item.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -43,7 +46,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T17:15:52Z"

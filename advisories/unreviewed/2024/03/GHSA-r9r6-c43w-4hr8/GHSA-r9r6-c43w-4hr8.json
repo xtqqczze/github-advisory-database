@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9r6-c43w-4hr8",
-  "modified": "2024-03-03T00:30:32Z",
+  "modified": "2024-11-01T18:31:24Z",
   "published": "2024-03-03T00:30:32Z",
   "aliases": [
     "CVE-2023-52529"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: sony: Fix a potential memory leak in sony_probe()\n\nIf an error occurs after a successful usb_alloc_urb() call, usb_free_urb()\nshould be called.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-770"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-02T22:15:48Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj48-3v62-2vf9",
-  "modified": "2024-03-03T00:30:32Z",
+  "modified": "2024-11-01T18:31:25Z",
   "published": "2024-03-03T00:30:32Z",
   "aliases": [
     "CVE-2023-52576"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/mm, kexec, ima: Use memblock_free_late() from ima_free_kexec_buffer()\n\nThe code calling ima_free_kexec_buffer() runs long after the memblock\nallocator has already been torn down, potentially resulting in a use\nafter free in memblock_isolate_range().\n\nWith KASAN or KFENCE, this use after free will result in a BUG\nfrom the idle task, and a subsequent kernel panic.\n\nSwitch ima_free_kexec_buffer() over to memblock_free_late() to avoid\nthat bug.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-02T22:15:49Z"

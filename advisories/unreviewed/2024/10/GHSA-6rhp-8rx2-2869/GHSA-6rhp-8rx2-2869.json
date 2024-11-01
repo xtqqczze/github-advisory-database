@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rhp-8rx2-2869",
-  "modified": "2024-10-21T21:30:49Z",
+  "modified": "2024-11-01T18:31:27Z",
   "published": "2024-10-21T21:30:49Z",
   "aliases": [
     "CVE-2024-50006"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: fix i_data_sem unlock order in ext4_ind_migrate()\n\nFuzzing reports a possible deadlock in jbd2_log_wait_commit.\n\nThis issue is triggered when an EXT4_IOC_MIGRATE ioctl is set to require\nsynchronous updates because the file descriptor is opened with O_SYNC.\nThis can lead to the jbd2_journal_stop() function calling\njbd2_might_wait_for_commit(), potentially causing a deadlock if the\nEXT4_IOC_MIGRATE call races with a write(2) system call.\n\nThis problem only arises when CONFIG_PROVE_LOCKING is enabled. In this\ncase, the jbd2_might_wait_for_commit macro locks jbd2_handle in the\njbd2_journal_stop function while i_data_sem is locked. This triggers\nlockdep because the jbd2_journal_start function might also lock the same\njbd2_handle simultaneously.\n\nFound by Linux Verification Center (linuxtesting.org) with syzkaller.\n\nRule: add",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-667"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T19:15:04Z"

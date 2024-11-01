@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x22r-xgr5-23hh",
-  "modified": "2024-10-16T18:31:34Z",
+  "modified": "2024-11-01T18:31:26Z",
   "published": "2024-10-04T21:31:29Z",
   "aliases": [
     "CVE-2024-43683"
@@ -32,6 +32,10 @@
     {
       "type": "WEB",
       "url": "https://www.microchip.com/en-us/solutions/technologies/embedded-security/how-to-report-potential-product-security-vulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.microchip.com/en-us/solutions/technologies/embedded-security/how-to-report-potential-product-security-vulnerabilities/timeprovider-4100-grandmaster-improper-verification-of-host-header"
     }
   ],
   "database_specific": {

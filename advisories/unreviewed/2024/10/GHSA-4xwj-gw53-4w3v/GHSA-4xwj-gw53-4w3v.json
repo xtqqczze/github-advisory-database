@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xwj-gw53-4w3v",
-  "modified": "2024-10-21T18:30:59Z",
+  "modified": "2024-11-01T18:31:26Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49974"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFSD: Limit the number of concurrent async COPY operations\n\nNothing appears to limit the number of concurrent async COPY\noperations that clients can start. In addition, AFAICT each async\nCOPY can copy an unlimited number of 4MB chunks, so can run for a\nlong time. Thus IMO async COPY can become a DoS vector.\n\nAdd a restriction mechanism that bounds the number of concurrent\nbackground COPY operations. Start simple and try to be fair -- this\npatch implements a per-namespace limit.\n\nAn async COPY request that occurs while this limit is exceeded gets\nNFS4ERR_DELAY. The requesting client can choose to send the request\nagain after a delay or fall back to a traditional read/write style\ncopy.\n\nIf there is need to make the mechanism more sophisticated, we can\nvisit that in future patches.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -35,7 +38,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:18Z"

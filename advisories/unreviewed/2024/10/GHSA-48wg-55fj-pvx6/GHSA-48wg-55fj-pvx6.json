@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48wg-55fj-pvx6",
-  "modified": "2024-10-21T21:30:49Z",
+  "modified": "2024-11-01T18:31:27Z",
   "published": "2024-10-21T21:30:49Z",
   "aliases": [
     "CVE-2024-50007"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: asihpi: Fix potential OOB array access\n\nASIHPI driver stores some values in the static array upon a response\nfrom the driver, and its index depends on the firmware.  We shouldn't\ntrust it blindly.\n\nThis patch adds a sanity check of the array index to fit in the array\nsize.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-129"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T19:15:04Z"
