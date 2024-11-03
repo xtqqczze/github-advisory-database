@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7rq-f88g-ghwx",
-  "modified": "2024-06-06T21:30:37Z",
+  "modified": "2024-11-03T18:30:30Z",
   "published": "2024-06-06T21:30:37Z",
   "aliases": [
     "CVE-2024-5248"
@@ -20,6 +20,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-5248"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/lunary-ai/lunary/commit/7f24ec1c3588992a07fd70573c43a0897eb523a2"
     },
     {
       "type": "WEB",
