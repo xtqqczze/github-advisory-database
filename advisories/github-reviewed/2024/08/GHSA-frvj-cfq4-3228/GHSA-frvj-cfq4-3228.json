@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frvj-cfq4-3228",
-  "modified": "2024-08-02T21:32:26Z",
+  "modified": "2024-11-04T13:53:13Z",
   "published": "2024-08-02T21:13:13Z",
   "aliases": [
     "CVE-2024-36116"

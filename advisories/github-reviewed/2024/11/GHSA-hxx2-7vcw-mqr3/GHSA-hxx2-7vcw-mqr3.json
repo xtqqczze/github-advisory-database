@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxx2-7vcw-mqr3",
-  "modified": "2024-11-01T21:37:42Z",
+  "modified": "2024-11-04T13:52:38Z",
   "published": "2024-11-01T06:30:34Z",
   "aliases": [
     "CVE-2024-21510"
@@ -47,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/sinatra/sinatra/pull/2010"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-hxx2-7vcw-mqr3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/sinatra/CVE-2024-21510.yml"
     },
     {
       "type": "PACKAGE",
