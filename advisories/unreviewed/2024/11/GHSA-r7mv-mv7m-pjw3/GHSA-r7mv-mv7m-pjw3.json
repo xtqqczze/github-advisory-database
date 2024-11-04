@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-r7mv-mv7m-pjw3",
+  "modified": "2024-11-04T18:31:23Z",
+  "published": "2024-11-04T18:31:23Z",
+  "aliases": [
+    "CVE-2024-51127"
+  ],
+  "details": "An issue in the createTempFile method of hornetq v2.4.9 allows attackers to arbitrarily overwrite files or access sensitive information.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51127"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/JAckLosingHeart/CWE-378/blob/main/CVE-2024-51127.md"
+    },
+    {
+      "type": "WEB",
+      "url": "http://hornetq.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-04T18:15:05Z"
+  }
+}

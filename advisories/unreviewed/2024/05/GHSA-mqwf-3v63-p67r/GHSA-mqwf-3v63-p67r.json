@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqwf-3v63-p67r",
-  "modified": "2024-06-27T15:30:39Z",
+  "modified": "2024-11-04T18:31:18Z",
   "published": "2024-05-19T12:30:39Z",
   "aliases": [
     "CVE-2024-35947"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndyndbg: fix old BUG_ON in >control parser\n\nFix a BUG_ON from 2009.  Even if it looks \"unreachable\" (I didn't\nreally look), lets make sure by removing it, doing pr_err and return\n-EINVAL instead.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -67,7 +70,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-19T12:15:08Z"

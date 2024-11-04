@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pp7w-98jh-p48w",
-  "modified": "2024-08-13T18:31:15Z",
+  "modified": "2024-11-04T18:31:18Z",
   "published": "2024-08-13T18:31:15Z",
   "aliases": [
     "CVE-2023-31304"
@@ -28,7 +28,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-1284"
     ],
     "severity": "LOW",
     "github_reviewed": false,

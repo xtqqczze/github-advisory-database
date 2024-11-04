@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27fr-v43j-r34m",
-  "modified": "2024-05-01T18:30:37Z",
+  "modified": "2024-11-04T18:31:17Z",
   "published": "2024-03-25T15:30:43Z",
   "aliases": [
     "CVE-2024-30204"
   ],
   "details": "In Emacs before 29.3, LaTeX preview is enabled by default for e-mail attachments.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L"
+    }
   ],
   "affected": [
 
@@ -77,9 +80,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-276"
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-25T15:15:52Z"

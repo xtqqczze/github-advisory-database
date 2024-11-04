@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x632-g56x-qcm8",
-  "modified": "2024-06-27T12:30:45Z",
+  "modified": "2024-11-04T18:31:17Z",
   "published": "2024-05-01T06:31:43Z",
   "aliases": [
     "CVE-2024-26994"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspeakup: Avoid crash on very long word\n\nIn case a console is set up really large and contains a really long word\n(> 256 characters), we have to stop before the length of the word buffer.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -75,7 +78,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T06:15:17Z"

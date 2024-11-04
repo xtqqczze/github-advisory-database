@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grqq-hcc7-crmr",
-  "modified": "2024-10-30T18:30:46Z",
+  "modified": "2024-11-04T18:31:18Z",
   "published": "2024-10-22T18:32:12Z",
   "aliases": [
     "CVE-2024-9287"
@@ -28,6 +28,22 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/pull/124712"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97"
     },
     {
       "type": "WEB",
