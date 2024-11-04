@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r9r-m8vg-chxf",
-  "modified": "2024-11-04T03:30:40Z",
+  "modified": "2024-11-04T12:32:55Z",
   "published": "2024-11-04T03:30:40Z",
   "aliases": [
     "CVE-2024-20117"
   ],
   "details": "In vdec, there is a possible out of bounds read due to improper structure design. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS09008925; Issue ID: MSV-1681.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
       "CWE-125"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-04T02:15:17Z"
