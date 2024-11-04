@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpjq-433p-ppw9",
-  "modified": "2024-10-07T18:31:02Z",
+  "modified": "2024-11-04T21:30:26Z",
   "published": "2024-09-29T09:30:46Z",
   "aliases": [
     "CVE-2024-9324"
@@ -27,6 +27,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://backend.intelbras.com/sites/default/files/2024-10/Aviso%20de%20Seguran%C3%A7a%20-%20Incontrol%202.21.56%20e%202.21.57.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://download.cronos.intelbras.com.br/download/INCONTROL/INCONTROL-WEB/prod/INCONTROL-WEB-2.21.58-233dfd1ac1e2ca3eabb71c854005c78b.exe"
+    },
+    {
+      "type": "WEB",
       "url": "https://vuldb.com/?ctiid.278828"
     },
     {
@@ -44,6 +52,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-707",
       "CWE-94"
     ],
     "severity": "MODERATE",

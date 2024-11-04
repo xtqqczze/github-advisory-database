@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hfr-246f-6fxv",
-  "modified": "2024-03-05T18:31:14Z",
+  "modified": "2024-11-04T21:30:26Z",
   "published": "2024-03-05T18:31:14Z",
   "aliases": [
     "CVE-2024-22255"
@@ -28,7 +28,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-770"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

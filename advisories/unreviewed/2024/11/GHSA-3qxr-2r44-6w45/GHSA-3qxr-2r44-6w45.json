@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qxr-2r44-6w45",
-  "modified": "2024-11-01T15:31:53Z",
+  "modified": "2024-11-04T21:30:27Z",
   "published": "2024-11-01T15:31:53Z",
   "aliases": [
     "CVE-2024-48270"
   ],
   "details": "An issue in the component /logins of oasys v1.1 allows attackers to access sensitive information via a burst attack.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-01T14:15:06Z"
