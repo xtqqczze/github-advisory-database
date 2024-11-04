@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4gmq-m9vp-jrwg",
-  "modified": "2024-11-04T06:30:30Z",
+  "modified": "2024-11-04T23:22:46Z",
   "published": "2024-11-04T06:30:30Z",
   "aliases": [
     "CVE-2024-10761"
   ],
+  "summary": "Umbraco CMS Cross-site Scripting vulnerability",
   "details": "A vulnerability was found in Umbraco CMS 12.3.6. It has been classified as problematic. Affected is an unknown function of the file /Umbraco/preview/frame?id{} of the component Dashboard. The manipulation of the argument culture leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
   "severity": [
     {
@@ -14,16 +15,38 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:U"
     }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "NuGet",
+        "name": "Umbraco.Cms.Core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "12.3.6"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10761"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/umbraco/Umbraco-CMS"
     },
     {
       "type": "WEB",
@@ -43,9 +66,9 @@
       "CWE-707",
       "CWE-79"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-04T23:22:46Z",
     "nvd_published_at": "2024-11-04T05:15:04Z"
   }
 }
