@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w73r-8mm4-cfvf",
-  "modified": "2024-09-19T21:46:15Z",
+  "modified": "2024-11-04T15:27:42Z",
   "published": "2024-09-13T18:31:48Z",
   "aliases": [
     "CVE-2024-6582"
@@ -62,7 +62,7 @@
       "CWE-287",
       "CWE-306"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-13T19:29:14Z",
     "nvd_published_at": "2024-09-13T17:15:13Z"
