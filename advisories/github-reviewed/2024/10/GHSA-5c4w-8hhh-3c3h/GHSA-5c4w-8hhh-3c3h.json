@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5c4w-8hhh-3c3h",
-  "modified": "2024-10-31T14:49:32Z",
+  "modified": "2024-11-04T21:28:36Z",
   "published": "2024-10-31T00:30:36Z",
   "aliases": [
     "CVE-2024-10006"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://discuss.hashicorp.com/t/hcsec-2024-23-consul-l7-intentions-vulnerable-to-headers-bypass"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-5c4w-8hhh-3c3h"
     },
     {
       "type": "PACKAGE",
