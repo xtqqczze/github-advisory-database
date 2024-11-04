@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vhv-rmg8-wc9v",
-  "modified": "2024-10-30T15:30:44Z",
+  "modified": "2024-11-04T15:31:54Z",
   "published": "2024-10-11T15:30:33Z",
   "aliases": [
     "CVE-2024-6657"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://community.silabs.com/068Vm00000FPVg0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://community.silabs.com/068Vm00000FfVNN"
     },
     {
       "type": "WEB",
