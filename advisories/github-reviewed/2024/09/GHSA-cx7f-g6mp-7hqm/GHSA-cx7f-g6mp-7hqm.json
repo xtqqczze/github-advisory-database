@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx7f-g6mp-7hqm",
-  "modified": "2024-11-05T17:06:53Z",
+  "modified": "2024-11-05T22:02:17Z",
   "published": "2024-09-13T06:30:42Z",
   "aliases": [
     "CVE-2024-38816"
@@ -25,64 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "6.1.0"
-            },
-            {
-              "fixed": "6.1.13"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.springframework:spring-webmvc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "6.0.0"
-            },
-            {
-              "fixed": "6.0.24"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.springframework:spring-webmvc"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
               "introduced": "0"
-            },
-            {
-              "fixed": "5.3.40"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.springframework:spring-webflux"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "6.1.0"
             },
             {
               "fixed": "6.1.13"
@@ -101,29 +44,10 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "6.0.0"
-            },
-            {
-              "fixed": "6.0.24"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.springframework:spring-webflux"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
               "introduced": "0"
             },
             {
-              "fixed": "5.3.40"
+              "fixed": "6.1.13"
             }
           ]
         }
