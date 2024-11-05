@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4273-ccpv-pfm8",
-  "modified": "2024-10-09T06:30:23Z",
+  "modified": "2024-11-05T00:31:27Z",
   "published": "2024-10-09T06:30:23Z",
   "aliases": [
     "CVE-2023-36325"
   ],
   "details": "i2p before 2.3.0 (Java) allows de-anonymizing the public IPv4 and IPv6 addresses of i2p hidden services (aka eepsites) via a correlation attack across the IPv4 and IPv6 addresses that occurs when a tunneled, replayed message has a behavior discrepancy (it may be dropped, or may result in a Wrong Destination response). An attack would take days to complete.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-203"
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-09T06:15:11Z"
