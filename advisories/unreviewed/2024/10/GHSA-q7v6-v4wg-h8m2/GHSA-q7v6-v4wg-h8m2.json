@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7v6-v4wg-h8m2",
-  "modified": "2024-10-17T15:31:08Z",
+  "modified": "2024-11-05T21:30:32Z",
   "published": "2024-10-17T15:31:08Z",
   "aliases": [
     "CVE-2023-6728"
   ],
   "details": "Nokia SR OS bof.cfg file encryption is vulnerable to a brute force attack. This weakness allows an attacker in possession of the encrypted file to decrypt the bof.cfg file and obtain the BOF configuration content.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-326"
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-17T13:15:12Z"

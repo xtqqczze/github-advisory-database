@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcx3-jx8c-54gq",
-  "modified": "2024-11-01T18:31:32Z",
+  "modified": "2024-11-05T21:30:40Z",
   "published": "2024-11-01T18:31:32Z",
   "aliases": [
     "CVE-2024-51398"
   ],
   "details": "Altai Technologies Ltd Altai X500 Indoor 22 802.11ac Wave 2 AP web Management Weak password leakage in the background may lead to unauthorized access, data theft, and network attacks, seriously threatening network security.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-521"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-01T16:15:09Z"

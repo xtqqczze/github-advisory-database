@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-528v-fv7h-v892",
-  "modified": "2024-02-29T03:33:12Z",
+  "modified": "2024-11-05T21:30:31Z",
   "published": "2024-02-29T03:33:12Z",
   "aliases": [
     "CVE-2023-37495"
@@ -28,7 +28,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-306"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
