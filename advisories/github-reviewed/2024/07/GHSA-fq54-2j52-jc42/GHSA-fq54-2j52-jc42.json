@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq54-2j52-jc42",
-  "modified": "2024-07-10T21:32:34Z",
+  "modified": "2024-11-05T14:40:26Z",
   "published": "2024-07-10T16:03:06Z",
   "aliases": [
     "CVE-2024-39693"
@@ -29,7 +29,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "13.4.0"
+              "introduced": "13.3.1"
             },
             {
               "fixed": "13.5.0"

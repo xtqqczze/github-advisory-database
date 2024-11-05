@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5vw-3h65-2q3v",
-  "modified": "2024-11-04T23:23:35Z",
+  "modified": "2024-11-05T14:39:51Z",
   "published": "2024-11-04T23:23:35Z",
   "aliases": [
     "CVE-2024-51734"
@@ -64,6 +64,10 @@
       "url": "https://github.com/zopefoundation/AccessControl/security/advisories/GHSA-g5vw-3h65-2q3v"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51734"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/zopefoundation/AccessControl/issues/159"
     },
@@ -74,11 +78,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-269"
+      "CWE-269",
+      "CWE-284"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-04T23:23:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-11-04T23:15:05Z"
   }
 }

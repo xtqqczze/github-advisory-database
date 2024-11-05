@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hxg-fxwm-8gf7",
-  "modified": "2024-11-04T23:23:17Z",
+  "modified": "2024-11-05T14:39:45Z",
   "published": "2024-11-04T23:23:17Z",
   "aliases": [
     "CVE-2024-51501"
@@ -45,6 +45,10 @@
       "url": "https://github.com/reactiveui/refit/security/advisories/GHSA-3hxg-fxwm-8gf7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51501"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/reactiveui/refit/commit/483b1d8df18098f137ca0eca056b7e9ec19f70dd"
     },
@@ -64,6 +68,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-04T23:23:17Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-11-04T23:15:04Z"
   }
 }
