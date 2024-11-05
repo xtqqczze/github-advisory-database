@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx7f-g6mp-7hqm",
-  "modified": "2024-09-13T19:32:23Z",
+  "modified": "2024-11-05T17:06:53Z",
   "published": "2024-09-13T06:30:42Z",
   "aliases": [
     "CVE-2024-38816"
@@ -71,6 +71,63 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework:spring-webflux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.1.0"
+            },
+            {
+              "fixed": "6.1.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework:spring-webflux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.0"
+            },
+            {
+              "fixed": "6.0.24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework:spring-webflux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.3.40"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -93,7 +150,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-22"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
