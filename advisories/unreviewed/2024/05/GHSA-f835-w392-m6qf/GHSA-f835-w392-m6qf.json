@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f835-w392-m6qf",
-  "modified": "2024-07-03T18:43:25Z",
+  "modified": "2024-11-05T12:31:02Z",
   "published": "2024-05-23T09:30:28Z",
   "aliases": [
     "CVE-2024-36013"
