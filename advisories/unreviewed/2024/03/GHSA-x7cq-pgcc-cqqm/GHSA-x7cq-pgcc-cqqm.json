@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7cq-pgcc-cqqm",
-  "modified": "2024-03-25T09:32:35Z",
+  "modified": "2024-11-05T18:31:58Z",
   "published": "2024-03-25T09:32:35Z",
   "aliases": [
     "CVE-2021-47137"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: lantiq: fix memory corruption in RX ring\n\nIn a situation where memory allocation or dma mapping fails, an\ninvalid address is programmed into the descriptor. This can lead\nto memory corruption. If the memory allocation fails, DMA should\nreuse the previous skb and mapping and drop the packet. This patch\nalso increments rx drop counter.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-770"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-25T09:15:08Z"

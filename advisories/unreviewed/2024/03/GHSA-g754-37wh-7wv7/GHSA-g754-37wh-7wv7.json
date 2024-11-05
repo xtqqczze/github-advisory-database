@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g754-37wh-7wv7",
-  "modified": "2024-03-03T00:30:30Z",
+  "modified": "2024-11-05T18:31:58Z",
   "published": "2024-03-03T00:30:30Z",
   "aliases": [
     "CVE-2023-52502"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: nfc: fix races in nfc_llcp_sock_get() and nfc_llcp_sock_get_sn()\n\nSili Luo reported a race in nfc_llcp_sock_get(), leading to UAF.\n\nGetting a reference on the socket found in a lookup while\nholding a lock should happen before releasing the lock.\n\nnfc_llcp_sock_get_sn() has a similar problem.\n\nFinally nfc_llcp_recv_snl() needs to make sure the socket\nfound by nfc_llcp_sock_from_sn() does not disappear.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -51,7 +54,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-02T22:15:47Z"

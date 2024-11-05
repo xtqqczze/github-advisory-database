@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cm8-rv8m-x9gf",
-  "modified": "2024-04-03T18:30:40Z",
+  "modified": "2024-11-05T18:31:58Z",
   "published": "2024-04-03T18:30:40Z",
   "aliases": [
     "CVE-2023-44040"
   ],
   "details": "In VeridiumID before 3.5.0, the identity provider page is susceptible to a cross-site scripting (XSS) vulnerability that can be exploited by an internal unauthenticated attacker for JavaScript execution in the context of the user trying to authenticate.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T17:15:47Z"

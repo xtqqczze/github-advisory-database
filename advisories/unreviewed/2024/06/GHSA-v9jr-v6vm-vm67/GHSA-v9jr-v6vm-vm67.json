@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9jr-v6vm-vm67",
-  "modified": "2024-06-24T15:31:44Z",
+  "modified": "2024-11-05T18:31:59Z",
   "published": "2024-06-24T15:31:44Z",
   "aliases": [
     "CVE-2024-34027"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: compress: fix to cover {reserve,release}_compress_blocks() w/ cp_rwsem lock\n\nIt needs to cover {reserve,release}_compress_blocks() w/ cp_rwsem lock\nto avoid racing with checkpoint, otherwise, filesystem metadata including\nblkaddr in dnode, inode fields and .total_valid_block_count may be\ncorrupted after SPO case.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -45,9 +48,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-770"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-24T14:15:11Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m9gp-fqr3-w459",
-  "modified": "2024-05-21T18:31:22Z",
+  "modified": "2024-11-05T18:31:59Z",
   "published": "2024-05-21T18:31:22Z",
   "aliases": [
     "CVE-2023-52825"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdkfd: Fix a race condition of vram buffer unref in svm code\n\nprange->svm_bo unref can happen in both mmu callback and a callback after\nmigrate to system ram. Both are async call in different tasks. Sync svm_bo\nunref operation to avoid random \"use-after-free\".",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-362"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:20Z"
