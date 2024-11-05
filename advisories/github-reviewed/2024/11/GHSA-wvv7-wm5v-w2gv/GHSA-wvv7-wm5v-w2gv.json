@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvv7-wm5v-w2gv",
-  "modified": "2024-11-05T15:18:05Z",
+  "modified": "2024-11-05T21:36:54Z",
   "published": "2024-11-05T15:18:05Z",
   "aliases": [
     "CVE-2024-51735"
@@ -41,6 +41,10 @@
       "url": "https://github.com/j3ssie/osmedeus/security/advisories/GHSA-wvv7-wm5v-w2gv"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51735"
+    },
+    {
       "type": "WEB",
       "url": "https://drive.google.com/file/d/1u-YowfzFV1tUqLaZk4s4Y1DykFhJZ8gR/view?usp=sharing"
     },
@@ -57,6 +61,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-05T15:18:05Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-11-05T19:15:07Z"
   }
 }
