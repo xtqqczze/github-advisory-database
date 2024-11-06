@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhm9-gp5p-5248",
-  "modified": "2024-11-06T16:29:57Z",
+  "modified": "2024-11-06T19:50:54Z",
   "published": "2024-11-06T16:29:57Z",
   "aliases": [
     "CVE-2024-51751"
@@ -29,16 +29,13 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "5.4.0"
+              "introduced": "5.0.0"
             },
             {
               "fixed": "5.5.0"
             }
           ]
         }
-      ],
-      "versions": [
-        "5.4.0"
       ]
     }
   ],
