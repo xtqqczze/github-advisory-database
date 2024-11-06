@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vq2-rrj2-6jjh",
-  "modified": "2024-05-22T09:31:46Z",
+  "modified": "2024-11-06T21:30:54Z",
   "published": "2024-05-22T09:31:46Z",
   "aliases": [
     "CVE-2021-47477"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncomedi: dt9812: fix DMA buffers on stack\n\nUSB transfer buffers are typically mapped for DMA and must not be\nallocated on the stack or transfers will fail.\n\nAllocate proper transfer buffers in the various command helpers and\nreturn an error on short transfers instead of acting on random stack\ndata.\n\nNote that this also fixes a stack info leak on systems where DMA is not\nused as 32 bytes are always sent to the device regardless of how short\nthe command is.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    }
   ],
   "affected": [
 
@@ -59,7 +62,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-22T09:15:09Z"

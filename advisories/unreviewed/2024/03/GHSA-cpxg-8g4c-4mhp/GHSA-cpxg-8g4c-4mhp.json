@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpxg-8g4c-4mhp",
-  "modified": "2024-03-11T21:31:24Z",
+  "modified": "2024-11-06T21:30:53Z",
   "published": "2024-03-11T21:31:24Z",
   "aliases": [
     "CVE-2024-22006"
   ],
   "details": "Android kernel allows Information disclosure.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-11T19:15:47Z"

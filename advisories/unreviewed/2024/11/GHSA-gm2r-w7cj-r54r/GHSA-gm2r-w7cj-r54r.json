@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gm2r-w7cj-r54r",
-  "modified": "2024-11-05T18:32:11Z",
+  "modified": "2024-11-06T21:30:55Z",
   "published": "2024-11-05T18:32:11Z",
   "aliases": [
     "CVE-2024-51362"
   ],
   "details": "The LSC Smart Connect Indoor IP Camera V7.6.32 is vulnerable to an information disclosure issue where live camera footage can be accessed through the RTSP protocol on port 8554 without requiring authentication. This allows unauthorized users with network access to view the camera's feed, potentially compromising user privacy and security. No credentials or special permissions are required, and access can be gained remotely over the network.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-306"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-05T17:15:07Z"

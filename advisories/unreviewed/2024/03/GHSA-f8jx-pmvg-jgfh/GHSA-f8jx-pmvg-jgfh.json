@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8jx-pmvg-jgfh",
-  "modified": "2024-03-03T00:30:32Z",
+  "modified": "2024-11-06T21:30:53Z",
   "published": "2024-03-03T00:30:32Z",
   "aliases": [
     "CVE-2023-52522"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: fix possible store tearing in neigh_periodic_work()\n\nWhile looking at a related syzbot report involving neigh_periodic_work(),\nI found that I forgot to add an annotation when deleting an\nRCU protected item from a list.\n\nReaders use rcu_deference(*np), we need to use either\nrcu_assign_pointer() or WRITE_ONCE() on writer side\nto prevent store tearing.\n\nI use rcu_assign_pointer() to have lockdep support,\nthis was the choice made in neigh_flush_dev().",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -47,7 +50,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-02T22:15:48Z"

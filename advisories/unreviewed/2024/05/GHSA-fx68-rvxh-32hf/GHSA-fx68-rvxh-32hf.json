@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx68-rvxh-32hf",
-  "modified": "2024-05-01T15:30:35Z",
+  "modified": "2024-11-06T21:30:54Z",
   "published": "2024-05-01T15:30:35Z",
   "aliases": [
     "CVE-2024-27032"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: fix to avoid potential panic during recovery\n\nDuring recovery, if FAULT_BLOCK is on, it is possible that\nf2fs_reserve_new_block() will return -ENOSPC during recovery,\nthen it may trigger panic.\n\nAlso, if fault injection rate is 1 and only FAULT_BLOCK fault\ntype is on, it may encounter deadloop in loop of block reservation.\n\nLet's change as below to fix these issues:\n- remove bug_on() to avoid panic.\n- limit the loop count of block reservation to avoid potential\ndeadloop.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -43,7 +46,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T13:15:49Z"

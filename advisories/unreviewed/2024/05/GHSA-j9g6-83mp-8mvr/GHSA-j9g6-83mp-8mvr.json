@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9g6-83mp-8mvr",
-  "modified": "2024-06-26T00:31:41Z",
+  "modified": "2024-11-06T21:30:54Z",
   "published": "2024-05-01T15:30:36Z",
   "aliases": [
     "CVE-2024-27073"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: ttpci: fix two memleaks in budget_av_attach\n\nWhen saa7146_register_device and saa7146_vv_init fails, budget_av_attach\nshould free the resources it allocates, like the error-handling of\nttpci_budget_init does. Besides, there are two fixme comment refers to\nsuch deallocations.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -59,7 +62,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T13:15:51Z"

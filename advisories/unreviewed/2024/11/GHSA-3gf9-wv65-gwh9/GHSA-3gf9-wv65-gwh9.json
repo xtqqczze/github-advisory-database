@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gf9-wv65-gwh9",
-  "modified": "2024-11-05T00:31:28Z",
+  "modified": "2024-11-06T21:30:55Z",
   "published": "2024-11-05T00:31:28Z",
   "aliases": [
     "CVE-2024-48052"
   ],
   "details": "In gradio <=4.42.0, the gr.DownloadButton function has a hidden server-side request forgery (SSRF) vulnerability. The reason is that within the save_url_to_cache function, there are no restrictions on the URL, which allows access to local target resources. This can lead to the download of local resources and sensitive information.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-918"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-04T23:15:04Z"
