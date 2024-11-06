@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pj33-75x5-32j4",
-  "modified": "2024-11-06T19:55:13Z",
+  "modified": "2024-11-06T23:38:44Z",
   "published": "2024-11-06T19:55:13Z",
   "aliases": [
     "CVE-2024-51988"
@@ -45,6 +45,10 @@
       "url": "https://github.com/rabbitmq/rabbitmq-server/security/advisories/GHSA-pj33-75x5-32j4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51988"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/rabbitmq/rabbitmq-server"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-06T19:55:13Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-11-06T20:15:06Z"
   }
 }
