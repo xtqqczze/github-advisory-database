@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqww-45ww-cw2p",
-  "modified": "2024-11-04T15:31:57Z",
+  "modified": "2024-11-06T18:31:05Z",
   "published": "2024-11-04T15:31:57Z",
   "aliases": [
     "CVE-2024-45164"
   ],
   "details": "Akamai SIA (Secure Internet Access Enterprise) ThreatAvert, in SPS (Security and Personalization Services) before the latest 19.2.0 patch and Apps Portal before 19.2.0.3 or 19.2.0.20240814, has incorrect authorization controls for the Admin functionality on the ThreatAvert Policy page. An authenticated user can navigate directly to the /#app/intelligence/threatAvertPolicies URI and disable policy enforcement.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,10 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-732",
+      "CWE-863"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-04T14:15:14Z"

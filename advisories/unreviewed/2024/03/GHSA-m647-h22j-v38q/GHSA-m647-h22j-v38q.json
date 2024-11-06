@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m647-h22j-v38q",
-  "modified": "2024-03-01T00:30:28Z",
+  "modified": "2024-11-06T18:31:03Z",
   "published": "2024-03-01T00:30:28Z",
   "aliases": [
     "CVE-2021-47057"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: sun8i-ss - Fix memory leak of object d when dma_iv fails to map\n\nIn the case where the dma_iv mapping fails, the return error path leaks\nthe memory allocated to object d.  Fix this by adding a new error return\nlabel and jumping to this to ensure d is free'd before the return.\n\nAddresses-Coverity: (\"Resource leak\")",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-770"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-29T23:15:07Z"

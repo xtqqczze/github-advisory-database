@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vpfj-63v7-3qcq",
-  "modified": "2024-03-06T00:31:26Z",
+  "modified": "2024-11-06T18:31:03Z",
   "published": "2024-03-06T00:31:26Z",
   "aliases": [
     "CVE-2024-1901"
   ],
   "details": "Denial of service in PAM password rotation during the check-in process in Devolutions Server 2023.3.14.0 allows an authenticated user with specific PAM permissions to make PAM credentials unavailable.\n\n\n",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-05T22:15:47Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwgv-8256-p54x",
-  "modified": "2024-04-17T18:31:32Z",
+  "modified": "2024-11-06T18:31:04Z",
   "published": "2024-04-17T18:31:32Z",
   "aliases": [
     "CVE-2024-26915"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: Reset IH OVERFLOW_CLEAR bit\n\nAllows us to detect subsequent IH ring buffer overflows as well.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -43,7 +46,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-17T16:15:08Z"

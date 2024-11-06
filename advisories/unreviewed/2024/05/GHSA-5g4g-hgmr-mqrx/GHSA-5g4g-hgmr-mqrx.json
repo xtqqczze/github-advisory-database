@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g4g-hgmr-mqrx",
-  "modified": "2024-05-22T09:31:45Z",
+  "modified": "2024-11-06T18:31:04Z",
   "published": "2024-05-22T09:31:45Z",
   "aliases": [
     "CVE-2021-47443"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFC: digital: fix possible memory leak in digital_tg_listen_mdaa()\n\n'params' is allocated in digital_tg_listen_mdaa(), but not free when\ndigital_send_cmd() failed, which will cause memory leak. Fix it by\nfreeing 'params' if digital_send_cmd() return failed.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -55,7 +58,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-22T07:15:09Z"
