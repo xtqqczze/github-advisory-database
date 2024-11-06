@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq54-2j52-jc42",
-  "modified": "2024-11-05T14:40:26Z",
+  "modified": "2024-11-06T14:30:33Z",
   "published": "2024-07-10T16:03:06Z",
   "aliases": [
     "CVE-2024-39693"
   ],
   "summary": "Next.js Denial of Service (DoS) condition",
-  "details": "### Impact\nA Denial of Service (DoS) condition was identified in Next.js. Exploitation of the bug can trigger a crash, affecting the availability of the server.\n\n**This vulnerability can affect all Next.js deployments on the affected versions.**\n\n### Patches\nThis vulnerability was resolved in Next.js 13.5 and later. We recommend that users upgrade to a safe version.\n\n### Workarounds\nThere are no official workarounds for this vulnerability.\n\n#### Credit\nWe'd like to thank Thai Vu of [flyseccorp.com](http://flyseccorp.com/) for responsible disclosure of this vulnerability.",
+  "details": "### Impact\nA Denial of Service (DoS) condition was identified in Next.js. Exploitation of the bug can trigger a crash, affecting the availability of the server.\n\n**This vulnerability can affect all Next.js deployments on the affected versions.**\n\n### Patches\nThis vulnerability was resolved in Next.js 13.5 and later. We recommend that users upgrade to a safe version.\n\n### Workarounds\nThere are no official workarounds for this vulnerability.\n\n#### Credit\n* Thai Vu of [flyseccorp.com](http://flyseccorp.com/)\n* Aonan Guan (@0dd), Senior Cloud Security Engineer",
   "severity": [
     {
       "type": "CVSS_V3",
