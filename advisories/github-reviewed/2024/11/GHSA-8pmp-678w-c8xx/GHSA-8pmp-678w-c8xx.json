@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pmp-678w-c8xx",
-  "modified": "2024-11-05T21:37:08Z",
+  "modified": "2024-11-06T19:55:44Z",
   "published": "2024-11-05T15:26:57Z",
   "aliases": [
     "CVE-2024-51746"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:P"
+      "score": "CVSS:4.0/AV:L/AC:H/AT:P/PR:N/UI:A/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -54,7 +54,7 @@
       "CWE-287",
       "CWE-706"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-05T15:26:57Z",
     "nvd_published_at": "2024-11-05T19:15:08Z"

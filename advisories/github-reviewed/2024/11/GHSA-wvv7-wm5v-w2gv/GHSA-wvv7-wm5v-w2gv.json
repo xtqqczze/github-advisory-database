@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvv7-wm5v-w2gv",
-  "modified": "2024-11-05T21:36:54Z",
+  "modified": "2024-11-06T19:55:13Z",
   "published": "2024-11-05T15:18:05Z",
   "aliases": [
     "CVE-2024-51735"
