@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6847-vh78-7f9c",
-  "modified": "2024-03-07T09:30:31Z",
+  "modified": "2024-11-06T00:31:53Z",
   "published": "2024-03-07T09:30:31Z",
   "aliases": [
     "CVE-2023-41015"
   ],
   "details": "code-projects.org Online Job Portal 1.0 is vulnerable to SQL Injection via /Employer/DeleteJob.php?JobId=1.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-89"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-07T09:15:38Z"

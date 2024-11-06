@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cjhr-gw79-v8fh",
+  "modified": "2024-11-06T00:31:55Z",
+  "published": "2024-11-06T00:31:55Z",
+  "aliases": [
+    "CVE-2024-48176"
+  ],
+  "details": "Lylme Spage v1.9.5 is vulnerable to Incorrect Access Control. There is no limit on the number of login attempts, and the verification code will not be refreshed after a failed login, which allows attackers to blast the username and password and log into the system backend.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48176"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Gryffinbit/c0b37c6caae4844d4f59368e454d3e46"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-05T23:15:04Z"
+  }
+}

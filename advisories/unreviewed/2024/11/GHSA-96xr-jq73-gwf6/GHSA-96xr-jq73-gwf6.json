@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96xr-jq73-gwf6",
-  "modified": "2024-11-05T00:31:28Z",
+  "modified": "2024-11-06T00:31:55Z",
   "published": "2024-11-05T00:31:28Z",
   "aliases": [
     "CVE-2024-48059"
   ],
   "details": "gaizhenbiao/chuanhuchatgpt project, version <=20240802 is vulnerable to stored Cross-Site Scripting (XSS) in WebSocket session transmission. An attacker can inject malicious content into a WebSocket message. When a victim accesses this session, the malicious JavaScript is executed in the victim's browser.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-04T23:15:04Z"
