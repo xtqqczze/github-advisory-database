@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfwq-6jh6-8xx4",
-  "modified": "2024-10-25T16:47:17Z",
+  "modified": "2024-11-06T15:46:32Z",
   "published": "2024-10-24T18:32:40Z",
   "aliases": [
     "CVE-2024-49760"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:H/VA:N/SC:H/SI:H/SA:N"
     }
   ],
   "affected": [
