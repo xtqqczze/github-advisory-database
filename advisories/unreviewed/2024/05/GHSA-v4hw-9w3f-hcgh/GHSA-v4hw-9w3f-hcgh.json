@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4hw-9w3f-hcgh",
-  "modified": "2024-05-14T18:30:48Z",
+  "modified": "2024-11-07T03:30:31Z",
   "published": "2024-05-14T18:30:48Z",
   "aliases": [
     "CVE-2024-33250"
   ],
   "details": "An issue in Open-Source Technology Committee SRS real-time video server RS/4.0.268(Leo) and SRS/4.0.195(Leo) allows a remote attacker to execute arbitrary code via a crafted request.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-918"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-14T15:37:30Z"
