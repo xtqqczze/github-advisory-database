@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vggp-p864-ph99",
-  "modified": "2024-03-27T06:30:32Z",
+  "modified": "2024-11-07T00:30:35Z",
   "published": "2024-03-27T06:30:32Z",
   "aliases": [
     "CVE-2023-46049"
   ],
   "details": "LLVM 15.0.0 has a NULL pointer dereference in the parseOneMetadata() function via a crafted pdflatex.fmt file (or perhaps a crafted .o file) to llvm-lto. NOTE: this is disputed because the relationship between pdflatex.fmt and any LLVM language front end is not explained, and because a crash of the llvm-lto application should be categorized as a usability problem.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-27T06:15:10Z"

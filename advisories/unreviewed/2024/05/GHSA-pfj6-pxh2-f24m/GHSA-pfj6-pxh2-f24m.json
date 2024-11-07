@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfj6-pxh2-f24m",
-  "modified": "2024-05-17T15:31:11Z",
+  "modified": "2024-11-07T00:30:35Z",
   "published": "2024-05-17T15:31:11Z",
   "aliases": [
     "CVE-2023-52684"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfirmware: qcom: qseecom: fix memory leaks in error paths\n\nFix instances of returning error codes directly instead of jumping to\nthe relevant labels where memory allocated for the SCM calls would be\nfreed.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T15:15:19Z"

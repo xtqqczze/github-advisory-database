@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6fgh-7mr7-wp6p",
-  "modified": "2024-06-27T15:30:38Z",
+  "modified": "2024-11-07T00:30:35Z",
   "published": "2024-04-03T18:30:43Z",
   "aliases": [
     "CVE-2024-26779"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mac80211: fix race condition on enabling fast-xmit\n\nfast-xmit must only be enabled after the sta has been uploaded to the driver,\notherwise it could end up passing the not-yet-uploaded sta via drv_tx calls\nto the driver, leading to potential crashes because of uninitialized drv_priv\ndata.\nAdd a missing sta->uploaded check and re-check fast xmit after inserting a sta.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -61,9 +64,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-362"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T17:15:53Z"
