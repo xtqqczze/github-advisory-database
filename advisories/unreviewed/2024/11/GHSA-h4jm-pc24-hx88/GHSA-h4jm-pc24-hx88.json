@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4jm-pc24-hx88",
-  "modified": "2024-11-07T18:31:24Z",
+  "modified": "2024-11-07T21:31:43Z",
   "published": "2024-11-07T18:31:23Z",
   "aliases": [
     "CVE-2024-48952"
   ],
   "details": "An issue was discovered in Logpoint before 7.5.0. SOAR uses a static JWT secret key to generate tokens that allow access to SOAR API endpoints without authentication. This static key vulnerability enables attackers to create custom JWT secret keys for unauthorized access to these endpoints.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-306"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-07T17:15:08Z"

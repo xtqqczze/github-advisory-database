@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g27r-g335-q65p",
-  "modified": "2024-02-23T15:30:36Z",
+  "modified": "2024-11-07T21:31:37Z",
   "published": "2024-02-23T15:30:36Z",
   "aliases": [
     "CVE-2023-52461"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/sched: Fix bounds limiting when given a malformed entity\n\nIf we're given a malformed entity in drm_sched_entity_init()--shouldn't\nhappen, but we verify--with out-of-bounds priority value, we set it to an\nallowed value. Fix the expression which sets this limit.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-23T15:15:08Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp4c-qw43-fgxp",
-  "modified": "2024-10-21T21:30:49Z",
+  "modified": "2024-11-07T21:31:38Z",
   "published": "2024-10-21T21:30:49Z",
   "aliases": [
     "CVE-2024-50004"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: update DML2 policy EnhancedPrefetchScheduleAccelerationFinal DCN35\n\n[WHY & HOW]\nMismatch in DCN35 DML2 cause bw validation failed to acquire unexpected DPP pipe to cause\ngrey screen and system hang. Remove EnhancedPrefetchScheduleAccelerationFinal value override\nto match HW spec.\n\n(cherry picked from commit 9dad21f910fcea2bdcff4af46159101d7f9cd8ba)",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -35,7 +38,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T19:15:04Z"

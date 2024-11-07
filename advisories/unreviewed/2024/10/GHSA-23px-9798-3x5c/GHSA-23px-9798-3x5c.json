@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23px-9798-3x5c",
-  "modified": "2024-10-21T18:30:59Z",
+  "modified": "2024-11-07T21:31:38Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49965"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocfs2: remove unreasonable unlock in ocfs2_read_blocks\n\nPatch series \"Misc fixes for ocfs2_read_blocks\", v5.\n\nThis series contains 2 fixes for ocfs2_read_blocks().  The first patch fix\nthe issue reported by syzbot, which detects bad unlock balance in\nocfs2_read_blocks().  The second patch fixes an issue reported by Heming\nZhao when reviewing above fix.\n\n\nThis patch (of 2):\n\nThere was a lock release before exiting, so remove the unreasonable unlock.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-667"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:17Z"

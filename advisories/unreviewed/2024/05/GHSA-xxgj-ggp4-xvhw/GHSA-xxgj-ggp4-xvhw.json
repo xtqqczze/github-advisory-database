@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxgj-ggp4-xvhw",
-  "modified": "2024-05-01T15:30:35Z",
+  "modified": "2024-11-07T21:31:37Z",
   "published": "2024-05-01T15:30:35Z",
   "aliases": [
     "CVE-2024-27037"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: zynq: Prevent null pointer dereference caused by kmalloc failure\n\nThe kmalloc() in zynq_clk_setup() will return null if the\nphysical memory has run out. As a result, if we use snprintf()\nto write data to the null address, the null pointer dereference\nbug will happen.\n\nThis patch uses a stack variable to replace the kmalloc().",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -47,7 +50,7 @@
     "cwe_ids": [
       "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T13:15:49Z"

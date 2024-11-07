@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7q5-3vqr-jj47",
-  "modified": "2024-10-21T21:30:49Z",
+  "modified": "2024-11-07T21:31:38Z",
   "published": "2024-10-21T21:30:49Z",
   "aliases": [
     "CVE-2024-50008"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mwifiex: Fix memcpy() field-spanning write warning in mwifiex_cmd_802_11_scan_ext()\n\nReplace one-element array with a flexible-array member in\n`struct host_cmd_ds_802_11_scan_ext`.\n\nWith this, fix the following warning:\n\nelo 16 17:51:58 surfacebook kernel: ------------[ cut here ]------------\nelo 16 17:51:58 surfacebook kernel: memcpy: detected field-spanning write (size 243) of single field \"ext_scan->tlv_buffer\" at drivers/net/wireless/marvell/mwifiex/scan.c:2239 (size 1)\nelo 16 17:51:58 surfacebook kernel: WARNING: CPU: 0 PID: 498 at drivers/net/wireless/marvell/mwifiex/scan.c:2239 mwifiex_cmd_802_11_scan_ext+0x83/0x90 [mwifiex]",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -51,7 +54,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T19:15:04Z"
