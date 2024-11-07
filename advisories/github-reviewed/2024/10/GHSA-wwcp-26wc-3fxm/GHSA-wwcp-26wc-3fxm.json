@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwcp-26wc-3fxm",
-  "modified": "2024-10-04T18:51:45Z",
+  "modified": "2024-11-07T21:43:53Z",
   "published": "2024-10-04T06:30:45Z",
   "aliases": [
     "CVE-2024-47855"
@@ -9,7 +9,14 @@
   "summary": "JSON-lib mishandles an unbalanced comment string",
   "details": "util/JSONTokener.java in JSON-lib before 3.1.0 mishandles an unbalanced comment string.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
+    }
   ],
   "affected": [
     {

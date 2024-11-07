@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h27c-6xm3-mcqp",
-  "modified": "2024-08-21T17:56:34Z",
+  "modified": "2024-11-07T21:42:58Z",
   "published": "2024-08-20T22:13:02Z",
   "aliases": [
     "CVE-2024-43403"
@@ -65,7 +65,7 @@
     "cwe_ids": [
       "CWE-269"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-20T22:13:02Z",
     "nvd_published_at": "2024-08-20T22:15:04Z"
