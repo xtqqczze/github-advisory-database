@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p55-qr3j-mpgq",
-  "modified": "2024-11-05T16:10:10Z",
+  "modified": "2024-11-07T17:10:05Z",
   "published": "2024-11-05T00:31:28Z",
   "aliases": [
     "CVE-2024-48050"
@@ -9,6 +9,10 @@
   "summary": "AgentScope uses `eval`",
   "details": "In agentscope <=v0.0.4, the file `agentscope\\web\\workstation\\workflow_utils.py` has the function `is_callable_expression`. Within this function, the line `result = eval(s)` poses a security risk as it can directly execute user-provided commands.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
@@ -59,6 +63,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-94",
       "CWE-95"
     ],
     "severity": "HIGH",
