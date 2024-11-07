@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwrq-vxvw-537r",
-  "modified": "2024-10-01T18:10:26Z",
+  "modified": "2024-11-07T18:36:33Z",
   "published": "2024-10-01T06:30:47Z",
   "aliases": [
     "CVE-2024-21531"
   ],
-  "summary": "git-shallow-clone OS Command Injection vulnerability",
-  "details": "All versions of the package git-shallow-clone are vulnerable to Command injection due to missing sanitization or mitigation flags in the process variable of the gitShallowClone function.",
+  "summary": "git-shallow-clone Argument Injection vulnerability",
+  "details": "All versions of the package git-shallow-clone are vulnerable to Argument injection due to missing sanitization or mitigation flags in the process variable of the gitShallowClone function.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -59,7 +59,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-78"
+      "CWE-88"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
