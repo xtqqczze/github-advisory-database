@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w69w-gv35-vqjh",
-  "modified": "2024-06-19T15:30:53Z",
+  "modified": "2024-11-07T18:31:21Z",
   "published": "2024-06-19T15:30:53Z",
   "aliases": [
     "CVE-2024-38548"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: bridge: cdns-mhdp8546: Fix possible null pointer dereference\n\nIn cdns_mhdp_atomic_enable(), the return value of drm_mode_duplicate() is\nassigned to mhdp_state->current_mode, and there is a dereference of it in\ndrm_mode_set_name(), which will lead to a NULL pointer dereference on\nfailure of drm_mode_duplicate().\n\nFix this bug add a check of mhdp_state->current_mode.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -51,7 +54,7 @@
     "cwe_ids": [
       "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-19T14:15:15Z"

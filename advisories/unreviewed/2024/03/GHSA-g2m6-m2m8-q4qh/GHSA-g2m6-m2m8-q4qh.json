@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2m6-m2m8-q4qh",
-  "modified": "2024-03-25T09:32:34Z",
+  "modified": "2024-11-07T18:31:20Z",
   "published": "2024-03-25T09:32:34Z",
   "aliases": [
     "CVE-2024-29216"
   ],
   "details": "Exposed IOCTL with insufficient access control issue exists in cg6kwin2k.sys prior to 2.1.7.0. By sending a specific IOCTL request, a user without the administrator privilege may perform I/O to arbitrary hardware port or physical address, resulting in erasing or altering the firmware.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-522"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-25T07:15:50Z"

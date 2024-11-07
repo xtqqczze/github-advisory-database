@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rfw-9cwj-2c6f",
-  "modified": "2024-02-21T09:31:01Z",
+  "modified": "2024-11-07T18:31:19Z",
   "published": "2024-02-21T09:31:01Z",
   "aliases": [
     "CVE-2023-42953"
   ],
   "details": "A permissions issue was addressed with additional restrictions. This issue is fixed in tvOS 17.1, watchOS 10.1, macOS Sonoma 14.1, iOS 17.1 and iPadOS 17.1. An app may be able to access sensitive user data.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -39,7 +42,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-21T07:15:51Z"

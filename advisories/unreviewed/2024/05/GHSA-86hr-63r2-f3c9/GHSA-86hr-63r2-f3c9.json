@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86hr-63r2-f3c9",
-  "modified": "2024-05-22T09:31:46Z",
+  "modified": "2024-11-07T18:31:20Z",
   "published": "2024-05-22T09:31:46Z",
   "aliases": [
     "CVE-2021-47484"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocteontx2-af: Fix possible null pointer dereference.\n\nThis patch fixes possible null pointer dereference in files\n\"rvu_debugfs.c\" and \"rvu_nix.c\"",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-22T09:15:10Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xjp-m233-hj66",
-  "modified": "2024-06-25T21:31:16Z",
+  "modified": "2024-11-07T18:31:21Z",
   "published": "2024-06-25T21:31:16Z",
   "aliases": [
     "CVE-2024-21739"
   ],
   "details": "Geehy APM32F103CCT6, APM32F103RCT6, APM32F103RCT7, and APM32F103VCT6 devices have Incorrect Access Control.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-25T21:15:57Z"
