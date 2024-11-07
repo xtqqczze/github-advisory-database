@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qw5j-33ph-5px7",
-  "modified": "2024-11-05T12:31:03Z",
+  "modified": "2024-11-07T12:30:34Z",
   "published": "2024-11-05T12:31:03Z",
   "aliases": [
     "CVE-2024-47253"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://www.2n.com/en-GB/about-2n/cybersecurity"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.2n.com/en-GB/download/Access-Commander-Security-Advisory-2024-11"
     }
   ],
   "database_specific": {
