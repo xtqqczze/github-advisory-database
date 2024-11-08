@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7m4-f9h5-gr79",
-  "modified": "2024-10-14T21:07:29Z",
+  "modified": "2024-11-08T22:17:54Z",
   "published": "2024-10-14T21:07:29Z",
   "aliases": [
     "CVE-2024-6762"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -118,7 +122,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-400"
+      "CWE-400",
+      "CWE-770"
     ],
     "severity": "LOW",
     "github_reviewed": true,
