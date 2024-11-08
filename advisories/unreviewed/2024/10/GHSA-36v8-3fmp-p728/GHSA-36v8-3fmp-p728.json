@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36v8-3fmp-p728",
-  "modified": "2024-10-24T00:33:35Z",
+  "modified": "2024-11-08T18:30:44Z",
   "published": "2024-10-21T12:30:55Z",
   "aliases": [
     "CVE-2024-47696"
@@ -20,6 +20,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47696"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/29b3bbd912b8db86df7a3c180b910ccb621f5635"
     },
     {
       "type": "WEB",
@@ -48,6 +52,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/da0392698c62397c19deb1b9e9bdf2fbb5a9420e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/da2708a19f45b4a7278adf523837c8db21d1e2b5"
     }
   ],
   "database_specific": {

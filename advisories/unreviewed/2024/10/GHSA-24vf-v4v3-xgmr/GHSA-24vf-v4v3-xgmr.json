@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24vf-v4v3-xgmr",
-  "modified": "2024-10-25T21:31:26Z",
+  "modified": "2024-11-08T18:30:46Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49975"
@@ -47,7 +47,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f31f92107e5a8ecc8902705122c594e979a351fe"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/f561b48d633ac2e7d0d667020fc634a96ade33a0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/fe5e9182d3e227476642ae2b312e2356c4d326a3"
     }
   ],
   "database_specific": {

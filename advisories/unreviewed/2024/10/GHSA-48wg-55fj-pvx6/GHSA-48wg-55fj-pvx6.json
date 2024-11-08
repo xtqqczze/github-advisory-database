@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48wg-55fj-pvx6",
-  "modified": "2024-11-01T18:31:27Z",
+  "modified": "2024-11-08T18:30:46Z",
   "published": "2024-10-21T21:30:49Z",
   "aliases": [
     "CVE-2024-50007"
@@ -43,7 +43,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a6bdb691cf7b66dcd929de1a253c5c42edd2e522"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ad7248a5e92587b9266c62db8bcc4e58de53e372"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ce2953e44829ec54bcbb57e9d890fc8af0900c80"
     },
     {
       "type": "WEB",

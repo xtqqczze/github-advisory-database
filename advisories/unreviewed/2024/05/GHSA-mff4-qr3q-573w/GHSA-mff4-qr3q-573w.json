@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mff4-qr3q-573w",
-  "modified": "2024-05-23T18:30:55Z",
+  "modified": "2024-11-08T18:30:42Z",
   "published": "2024-05-23T18:30:55Z",
   "aliases": [
     "CVE-2024-35082"
   ],
   "details": "J2EEFAST v2.7.0 was discovered to contain a SQL injection vulnerability via the findPage function in SysOperLogMapper.xml.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-89"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-23T17:15:30Z"

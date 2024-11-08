@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjgv-4grg-pfrr",
-  "modified": "2024-11-05T18:32:12Z",
+  "modified": "2024-11-08T18:30:48Z",
   "published": "2024-11-05T18:32:12Z",
   "aliases": [
     "CVE-2024-50115"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6876793907cbe19d42e9edc8c3315a21e06c32ae"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/76ce386feb14ec9a460784fcd495d8432acce7a5"
     },
     {
       "type": "WEB",

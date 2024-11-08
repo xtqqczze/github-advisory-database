@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fppf-cv6v-hqcp",
-  "modified": "2024-11-07T21:31:43Z",
+  "modified": "2024-11-08T18:30:49Z",
   "published": "2024-11-07T21:31:43Z",
   "aliases": [
     "CVE-2019-20472"
   ],
   "details": "An issue was discovered on One2Track 2019-12-08 devices. Any SIM card used with the device cannot have a PIN configured. If a PIN is configured, the device simply produces a \"Remove PIN and restart!\" message, and cannot be used. This makes it easier for an attacker to use the SIM card by stealing the device.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-07T21:15:05Z"

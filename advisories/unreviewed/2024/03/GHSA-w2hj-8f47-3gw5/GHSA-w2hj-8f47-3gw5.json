@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2hj-8f47-3gw5",
-  "modified": "2024-10-22T18:32:04Z",
+  "modified": "2024-11-08T18:30:42Z",
   "published": "2024-03-03T00:30:32Z",
   "aliases": [
     "CVE-2023-52530"
@@ -17,6 +17,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52530"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2408f491ff998d674707725eadc47d8930aced09"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfc2-q3p4-2qjv",
-  "modified": "2024-10-25T18:30:48Z",
+  "modified": "2024-11-08T18:30:46Z",
   "published": "2024-10-21T21:30:53Z",
   "aliases": [
     "CVE-2024-50039"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1edf039ee01788ffc25625fe58a903ae2efa213e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2acbb9539bc2284e30d2aeb789c3d96287014264"
     },
     {
       "type": "WEB",

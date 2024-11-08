@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m87c-pc83-wrfv",
-  "modified": "2024-11-07T12:30:35Z",
+  "modified": "2024-11-08T18:30:49Z",
   "published": "2024-11-07T12:30:35Z",
   "aliases": [
     "CVE-2024-50167"
@@ -28,7 +28,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6b7ce8ee01c33c380aaa5077ff25215492e7eb0e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/77bc881d370e850b7f3cd2b5eae67d596b40efbc"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/919ab6e2370289a2748780f44a43333cd3878aa7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/941026023c256939943a47d1c66671526befbb26"
     },
     {
       "type": "WEB",

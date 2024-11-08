@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grf9-28h9-xvhf",
-  "modified": "2024-10-24T06:30:29Z",
+  "modified": "2024-11-08T18:30:47Z",
   "published": "2024-10-21T21:30:54Z",
   "aliases": [
     "CVE-2024-50059"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3ae45be8492460a35b5aebf6acac1f1d32708946"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5126d8f5567f49b52e21fca320eaa97977055099"
     },
     {
       "type": "WEB",

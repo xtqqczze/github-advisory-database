@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4947-vm3r-mmm2",
-  "modified": "2024-10-23T18:33:07Z",
+  "modified": "2024-11-08T18:30:44Z",
   "published": "2024-10-21T15:32:27Z",
   "aliases": [
     "CVE-2024-49851"
@@ -32,6 +32,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/82478cb8a23bd4f97935bbe60d64528c6d9918b4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/87e8134c18977b566f4ec248c8a147244da69402"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpwf-qxpx-v6qh",
-  "modified": "2024-11-08T06:30:49Z",
+  "modified": "2024-11-08T18:30:50Z",
   "published": "2024-11-08T06:30:49Z",
   "aliases": [
     "CVE-2024-50205"
@@ -28,6 +28,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5e431f85c87bbffd93a9830d5a576586f9855291"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/72cafe63b35d06b5cfbaf807e90ae657907858da"
     },
     {
@@ -37,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d2826873db70a6719cdd9212a6739f3e6234cfc4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d575414361630b8b0523912532fcd7c79e43468c"
     }
   ],
   "database_specific": {

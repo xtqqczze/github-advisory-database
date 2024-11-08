@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgpc-54gc-3694",
-  "modified": "2024-10-24T15:31:08Z",
+  "modified": "2024-11-08T18:30:44Z",
   "published": "2024-10-21T12:30:55Z",
   "aliases": [
     "CVE-2024-47712"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/557418e1704605a81c9e26732449f71b1d40ba1e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5a24cedc243ace5ed7c1016f52a7bfc8f5b07815"
     },
     {
       "type": "WEB",
