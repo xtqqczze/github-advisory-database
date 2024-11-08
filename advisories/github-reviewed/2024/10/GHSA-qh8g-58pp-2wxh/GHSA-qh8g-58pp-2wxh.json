@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh8g-58pp-2wxh",
-  "modified": "2024-10-14T21:11:43Z",
+  "modified": "2024-11-08T22:17:08Z",
   "published": "2024-10-14T21:11:43Z",
   "aliases": [
     "CVE-2024-6763"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -64,7 +68,7 @@
     "cwe_ids": [
       "CWE-1286"
     ],
-    "severity": "LOW",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-14T21:11:43Z",
     "nvd_published_at": "2024-10-14T16:15:04Z"
