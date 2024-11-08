@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp44-cqrx-8mr2",
-  "modified": "2024-11-05T18:32:12Z",
+  "modified": "2024-11-08T21:33:53Z",
   "published": "2024-11-05T18:32:12Z",
   "aliases": [
     "CVE-2024-50125"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: SCO: Fix UAF on sco_sock_timeout\n\nconn->sk maybe have been unlinked/freed while waiting for sco_conn_lock\nso this checks if the conn->sk is still valid by checking if it part of\nsco_sk_list.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-05T18:15:15Z"
