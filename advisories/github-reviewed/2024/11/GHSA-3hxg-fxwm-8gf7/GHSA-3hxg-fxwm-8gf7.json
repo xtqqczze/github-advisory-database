@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hxg-fxwm-8gf7",
-  "modified": "2024-11-05T14:39:45Z",
+  "modified": "2024-11-08T15:19:17Z",
   "published": "2024-11-04T23:23:17Z",
   "aliases": [
     "CVE-2024-51501"
@@ -11,11 +11,11 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N/E:P"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H"
     }
   ],
   "affected": [
@@ -32,7 +32,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "8.0.0"
+              "fixed": "7.2.22"
             }
           ]
         }
@@ -65,7 +65,7 @@
     "cwe_ids": [
       "CWE-93"
     ],
-    "severity": "HIGH",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-04T23:23:17Z",
     "nvd_published_at": "2024-11-04T23:15:04Z"
