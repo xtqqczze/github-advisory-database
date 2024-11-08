@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wr5h-8pg2-5j9q",
-  "modified": "2024-11-05T18:32:12Z",
+  "modified": "2024-11-08T00:30:45Z",
   "published": "2024-11-05T18:32:12Z",
   "aliases": [
     "CVE-2024-50129"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: pse-pd: Fix out of bound for loop\n\nAdjust the loop limit to prevent out-of-bounds access when iterating over\nPI structures. The loop should not reach the index pcdev->nr_lines since\nwe allocate exactly pcdev->nr_lines number of PI structures. This fix\nensures proper bounds are maintained during iterations.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-787"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-05T18:15:15Z"

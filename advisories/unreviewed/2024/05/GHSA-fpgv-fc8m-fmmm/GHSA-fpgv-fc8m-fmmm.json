@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpgv-fc8m-fmmm",
-  "modified": "2024-05-17T15:31:12Z",
+  "modified": "2024-11-08T00:30:45Z",
   "published": "2024-05-17T15:31:12Z",
   "aliases": [
     "CVE-2024-35857"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nicmp: prevent possible NULL dereferences from icmp_build_probe()\n\nFirst problem is a double call to __in_dev_get_rcu(), because\nthe second one could return NULL.\n\nif (__in_dev_get_rcu(dev) && __in_dev_get_rcu(dev)->ifa_list)\n\nSecond problem is a read from dev->ip6_ptr with no NULL check:\n\nif (!list_empty(&rcu_dereference(dev->ip6_ptr)->addr_list))\n\nUse the correct RCU API to fix these.\n\nv2: add missing include <net/addrconf.h>",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T15:15:23Z"
