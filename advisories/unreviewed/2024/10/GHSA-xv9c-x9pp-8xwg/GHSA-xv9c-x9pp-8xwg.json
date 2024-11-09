@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv9c-x9pp-8xwg",
-  "modified": "2024-10-29T21:30:50Z",
+  "modified": "2024-11-09T00:30:42Z",
   "published": "2024-10-28T12:30:54Z",
   "aliases": [
     "CVE-2024-48074"
@@ -20,6 +20,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Giles-one/6425e97dcd1ec97a722a1e20da25fad7"
     },
     {
       "type": "WEB",
