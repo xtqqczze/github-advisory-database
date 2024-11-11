@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-974p-hhmc-6h46",
-  "modified": "2024-09-13T21:31:22Z",
+  "modified": "2024-11-11T21:31:47Z",
   "published": "2024-09-13T18:31:48Z",
   "aliases": [
     "CVE-2024-39924"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/dani-garcia/vaultwarden/releases/tag/1.32.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mgm-sp.com/cve/missing-authentication-check-for-emergency-access"
     }
   ],
   "database_specific": {

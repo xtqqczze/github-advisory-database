@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qpj8-6r97-qxq6",
+  "modified": "2024-11-11T21:31:49Z",
+  "published": "2024-11-11T21:31:49Z",
+  "aliases": [
+    "CVE-2024-46966"
+  ],
+  "details": "The Ikhgur mn.ikhgur.khotoch (aka Video Downloader Pro & Browser) application through 1.0.42 for Android allows an attacker to execute arbitrary JavaScript code via the mn.ikhgur.khotoch.MainActivity component.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46966"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/actuator/mn.ikhgur.khotoch/blob/main/CVE-2024-46966"
+    },
+    {
+      "type": "WEB",
+      "url": "https://play.google.com/store/apps/details?id=mn.ikhgur.khotoch"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-11T21:15:06Z"
+  }
+}

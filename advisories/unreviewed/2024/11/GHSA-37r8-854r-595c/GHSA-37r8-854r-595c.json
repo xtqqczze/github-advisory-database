@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-37r8-854r-595c",
+  "modified": "2024-11-11T21:31:49Z",
+  "published": "2024-11-11T21:31:49Z",
+  "aliases": [
+    "CVE-2024-52530"
+  ],
+  "details": "GNOME libsoup before 3.6.0 allows HTTP request smuggling in some configurations because '\\0' characters at the end of header names are ignored, i.e., a \"Transfer-Encoding\\0: chunked\" header is treated the same as a \"Transfer-Encoding: chunked\" header.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52530"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libsoup/-/issues/377"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libsoup/-/merge_requests/402"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-11T20:15:20Z"
+  }
+}
