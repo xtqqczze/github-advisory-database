@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v24h-h5qr-mqm8",
+  "modified": "2024-11-12T00:30:36Z",
+  "published": "2024-11-12T00:30:36Z",
+  "aliases": [
+    "CVE-2024-25253"
+  ],
+  "details": "Driver Booster v10.6 was discovered to contain a buffer overflow via the Host parameter under the Customize proxy module.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-25253"
+    },
+    {
+      "type": "WEB",
+      "url": "https://exploitart.ist/exploit/2023/09/10/driver-booster-buffer-overflow.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-11T23:15:05Z"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5rq6-q8gw-qqpr",
+  "modified": "2024-11-12T00:30:36Z",
+  "published": "2024-11-12T00:30:36Z",
+  "aliases": [
+    "CVE-2024-52533"
+  ],
+  "details": "gio/gsocks4aproxy.c in GNOME GLib before 2.82.1 has an off-by-one error and resultant buffer overflow because SOCKS4_CONN_MSG_LEN is not sufficient for a trailing '\\0' character.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52533"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/glib/-/issues/3461"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-11T23:15:05Z"
+  }
+}

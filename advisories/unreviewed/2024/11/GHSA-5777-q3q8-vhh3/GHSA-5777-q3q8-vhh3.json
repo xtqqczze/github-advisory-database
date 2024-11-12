@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5777-q3q8-vhh3",
+  "modified": "2024-11-12T00:30:36Z",
+  "published": "2024-11-12T00:30:36Z",
+  "aliases": [
+    "CVE-2024-50601"
+  ],
+  "details": "Persistent and reflected XSS vulnerabilities in the themeMode cookie and _h URL parameter of Axigen Mail Server up to version 10.5.28 allow attackers to execute arbitrary Javascript. Exploitation could lead to session hijacking, data leakage, and further exploitation via a multi-stage attack. Fixed in versions 10.3.3.67, 10.4.42, and 10.5.29.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.axigen.com/knowledgebase/Axigen-WebMail-Persistent-and-Reflected-XSS-Vulnerabilities-CVE-2024-50601-_403.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-11T23:15:05Z"
+  }
+}

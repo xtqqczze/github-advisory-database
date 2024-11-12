@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9p47-x6rm-qgxw",
-  "modified": "2024-08-01T15:32:13Z",
+  "modified": "2024-11-12T00:30:35Z",
   "published": "2024-07-26T21:31:16Z",
   "aliases": [
     "CVE-2024-40117"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nepenthe0320/cve_poc/blob/master/Solar-Log%201000%20-%20Incorrect%20Access%20Control"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.solar-log.com/en/support/firmware-database-1"
     }
   ],
   "database_specific": {

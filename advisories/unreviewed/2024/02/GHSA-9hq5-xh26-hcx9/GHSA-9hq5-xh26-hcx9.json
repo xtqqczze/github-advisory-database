@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hq5-xh26-hcx9",
-  "modified": "2024-02-09T21:30:57Z",
+  "modified": "2024-11-12T00:30:35Z",
   "published": "2024-02-02T03:30:32Z",
   "aliases": [
     "CVE-2023-46344"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/vinnie1717/CVE-2023-46344/blob/main/Solar-Log%20XSS"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.solar-log.com/en/support/firmware-database-1"
     },
     {
       "type": "WEB",

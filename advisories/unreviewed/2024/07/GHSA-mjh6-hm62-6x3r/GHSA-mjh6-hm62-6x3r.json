@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjh6-hm62-6x3r",
-  "modified": "2024-07-26T21:31:16Z",
+  "modified": "2024-11-12T00:30:35Z",
   "published": "2024-07-26T21:31:16Z",
   "aliases": [
     "CVE-2024-40116"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nepenthe0320/cve_poc/blob/master/Solar-Log%201000%20-%20Unprotected%20Storage%20of%20Credentials"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.solar-log.com/en/support/firmware-database-1"
     }
   ],
   "database_specific": {
