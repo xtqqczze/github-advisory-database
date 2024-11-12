@@ -1,20 +1,43 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99w6-3xph-cx78",
-  "modified": "2024-11-12T00:30:36Z",
+  "modified": "2024-11-12T21:35:36Z",
   "published": "2024-11-12T00:30:36Z",
   "aliases": [
     "CVE-2024-11079"
   ],
+  "summary": "Ansible-Core vulnerable to content protections bypass",
   "details": "A flaw was found in Ansible-Core. This vulnerability allows attackers to bypass unsafe content protections using the hostvars object to reference and execute templated content. This issue can lead to arbitrary code execution if remote data or module outputs are improperly templated within playbooks.",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:L/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:P/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L/E:P"
     }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "ansible-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.18.0"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -23,20 +46,28 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/ansible/ansible/pull/84299"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2024-11079"
     },
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2325171"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/ansible/ansible"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-20"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-12T21:35:36Z",
     "nvd_published_at": "2024-11-12T00:15:15Z"
   }
 }
