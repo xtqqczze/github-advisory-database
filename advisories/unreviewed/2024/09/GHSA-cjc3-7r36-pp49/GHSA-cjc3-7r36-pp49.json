@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjc3-7r36-pp49",
-  "modified": "2024-09-19T15:30:50Z",
+  "modified": "2024-11-12T18:30:51Z",
   "published": "2024-09-19T09:36:03Z",
   "aliases": [
     "CVE-2024-45770"
@@ -52,6 +52,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2024:6848"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:9452"
     },
     {
       "type": "WEB",

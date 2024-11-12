@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc4h-7j78-49pj",
-  "modified": "2024-08-16T18:30:56Z",
+  "modified": "2024-11-12T18:30:50Z",
   "published": "2024-06-21T15:31:06Z",
   "aliases": [
     "CVE-2024-6239"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2024:5305"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:9167"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94ch-6cfh-xxgc",
-  "modified": "2024-08-30T18:30:40Z",
+  "modified": "2024-11-12T18:30:50Z",
   "published": "2024-08-30T18:30:40Z",
   "aliases": [
     "CVE-2024-8235"
@@ -20,6 +20,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8235"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:9128"
     },
     {
       "type": "WEB",

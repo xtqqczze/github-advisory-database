@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9ffw-88h4-2w7x",
-  "modified": "2024-11-08T18:30:48Z",
+  "modified": "2024-11-12T18:30:51Z",
   "published": "2024-11-05T18:32:11Z",
   "aliases": [
     "CVE-2024-50096"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnouveau/dmem: Fix vulnerability in migrate_to_ram upon copy error\n\nThe `nouveau_dmem_copy_one` function ensures that the copy push command is\nsent to the device firmware but does not track whether it was executed\nsuccessfully.\n\nIn the case of a copy error (e.g., firmware or hardware failure), the\ncopy push command will be sent via the firmware channel, and\n`nouveau_dmem_copy_one` will likely report success, leading to the\n`migrate_to_ram` function returning a dirty HIGH_USER page to the user.\n\nThis can result in a security vulnerability, as a HIGH_USER page that may\ncontain sensitive or corrupted data could be returned to the user.\n\nTo prevent this vulnerability, we allocate a zero page. Thus, in case of\nan error, a non-dirty (zero) page will be returned to the user.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -51,7 +54,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-05T17:15:06Z"
