@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gppm-hq3p-h4rp",
-  "modified": "2024-11-08T20:35:58Z",
+  "modified": "2024-11-12T19:23:19Z",
   "published": "2024-11-08T19:03:35Z",
   "aliases": [
     "CVE-2024-52009"
@@ -41,12 +41,20 @@
       "url": "https://github.com/runatlantis/atlantis/security/advisories/GHSA-gppm-hq3p-h4rp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52009"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/runatlantis/atlantis/issues/4060"
     },
     {
       "type": "WEB",
       "url": "https://github.com/runatlantis/atlantis/pull/4667"
+    },
+    {
+      "type": "WEB",
+      "url": "https://argo-cd.readthedocs.io/en/stable/operator-manual/security"
     },
     {
       "type": "PACKAGE",
@@ -64,6 +72,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-08T19:03:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-11-08T23:15:05Z"
   }
 }
