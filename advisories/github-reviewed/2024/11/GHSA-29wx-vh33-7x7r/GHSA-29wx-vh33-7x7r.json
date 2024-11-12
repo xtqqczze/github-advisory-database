@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29wx-vh33-7x7r",
-  "modified": "2024-11-05T14:39:39Z",
+  "modified": "2024-11-12T21:32:34Z",
   "published": "2024-11-04T23:22:41Z",
   "aliases": [
     "CVE-2024-51744"
@@ -36,10 +36,7 @@
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 4.5.0"
-      }
+      ]
     }
   ],
   "references": [
