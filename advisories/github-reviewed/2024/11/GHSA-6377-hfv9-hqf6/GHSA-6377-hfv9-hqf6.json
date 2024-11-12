@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6377-hfv9-hqf6",
-  "modified": "2024-11-06T23:31:50Z",
+  "modified": "2024-11-12T19:42:25Z",
   "published": "2024-11-06T19:52:31Z",
   "aliases": [
     "CVE-2024-51754"
   ],
   "summary": "Twig has unguarded calls to `__toString()` when nesting an object into an array",
-  "details": "### Description\n\nIn a sandbox, an attacker can call `__toString()` on an object even if the `__toString()` method is not allowed by the security policy when the object is part of an array or an argument list (arguments to a function or a filter for instance).\n\n### Resolution\n\nThe sandbox mode now checks the `__toString()` method call on all objects.\n\nThe patch for this issue is available [here](https://github.com/twigphp/twig/commit/407647c1036518c90b0188bb31b55f19ca84c328) for branch 3.x.\n\n### Credits\n\nWe would like to thank Jamie Schouten for reporting the issue and Fabien Potencier for providing the fix.\n",
+  "details": "### Description\n\nIn a sandbox, an attacker can call `__toString()` on an object even if the `__toString()` method is not allowed by the security policy when the object is part of an array or an argument list (arguments to a function or a filter for instance).\n\n### Resolution\n\nThe sandbox mode now checks the `__toString()` method call on all objects.\n\nThe patch for this issue is available [here](https://github.com/twigphp/Twig/commit/cafc608ece310e62a35a76f17e25c04ab9ed05cc) for the 3.11.x branch, and [here](https://github.com/twigphp/Twig/commit/d4a302681bca9f7c6ce2835470d53609cdf3e23e) for the 3.x branch.\n\n### Credits\n\nWe would like to thank Jamie Schouten for reporting the issue and Fabien Potencier for providing the fix.\n",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -29,7 +29,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.0.0"
+              "introduced": "0"
             },
             {
               "fixed": "3.11.2"
@@ -48,7 +48,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "3.12.0"
+              "introduced": "3.12"
             },
             {
               "fixed": "3.14.1"
