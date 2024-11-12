@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6352-5p2f-gv84",
-  "modified": "2024-11-05T18:32:12Z",
+  "modified": "2024-11-12T15:30:32Z",
   "published": "2024-11-05T18:32:12Z",
   "aliases": [
     "CVE-2024-50101"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niommu/vt-d: Fix incorrect pci_for_each_dma_alias() for non-PCI devices\n\nPreviously, the domain_context_clear() function incorrectly called\npci_for_each_dma_alias() to set up context entries for non-PCI devices.\nThis could lead to kernel hangs or other unexpected behavior.\n\nAdd a check to only call pci_for_each_dma_alias() for PCI devices. For\nnon-PCI devices, domain_context_clear_one() is called directly.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -43,7 +46,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-05T18:15:13Z"

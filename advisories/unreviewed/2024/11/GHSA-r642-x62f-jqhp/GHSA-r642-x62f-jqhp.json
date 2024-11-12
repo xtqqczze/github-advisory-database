@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-r642-x62f-jqhp",
+  "modified": "2024-11-12T15:30:44Z",
+  "published": "2024-11-12T15:30:44Z",
+  "aliases": [
+    "CVE-2024-51566"
+  ],
+  "details": "The NVMe driver queue processing is vulernable to guest-induced infinite loops.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51566"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.freebsd.org/advisories/FreeBSD-SA-24:17.bhyve.asc"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1285"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-12T15:15:11Z"
+  }
+}
