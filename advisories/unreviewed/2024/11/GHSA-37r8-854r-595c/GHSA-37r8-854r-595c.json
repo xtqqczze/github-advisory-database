@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37r8-854r-595c",
-  "modified": "2024-11-11T21:31:49Z",
+  "modified": "2024-11-12T21:30:51Z",
   "published": "2024-11-11T21:31:49Z",
   "aliases": [
     "CVE-2024-52530"
   ],
   "details": "GNOME libsoup before 3.6.0 allows HTTP request smuggling in some configurations because '\\0' characters at the end of header names are ignored, i.e., a \"Transfer-Encoding\\0: chunked\" header is treated the same as a \"Transfer-Encoding: chunked\" header.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-444"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-11T20:15:20Z"

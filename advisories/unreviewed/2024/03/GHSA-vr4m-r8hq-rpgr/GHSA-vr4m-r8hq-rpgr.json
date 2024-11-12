@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vr4m-r8hq-rpgr",
-  "modified": "2024-06-27T12:30:44Z",
+  "modified": "2024-11-12T21:30:49Z",
   "published": "2024-03-06T09:30:28Z",
   "aliases": [
     "CVE-2023-52601"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\njfs: fix array-index-out-of-bounds in dbAdjTree\n\nCurrently there is a bound check missing in the dbAdjTree while\naccessing the dmt_stree. To add the required check added the bool is_ctl\nwhich is required to determine the size as suggest in the following\ncommit.\nhttps://lore.kernel.org/linux-kernel-mentees/f9475918-2186-49b8-b801-6f0f9e75f4fa@oracle.com/",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -61,9 +64,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-129"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-06T07:15:10Z"

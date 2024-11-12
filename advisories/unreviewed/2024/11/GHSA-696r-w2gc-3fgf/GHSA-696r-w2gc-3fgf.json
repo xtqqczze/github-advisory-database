@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-696r-w2gc-3fgf",
-  "modified": "2024-11-11T15:31:02Z",
+  "modified": "2024-11-12T21:30:51Z",
   "published": "2024-11-11T15:31:02Z",
   "aliases": [
     "CVE-2024-51054"
   ],
   "details": "A Cross Site Scriptng (XSS) vulnerability was found in /omrs/admin/search.php in PHPGurukul Online Marriage Registration System 1.0, which allows remote attackers to execute arbitrary code via the \"searchdata\" POST request parameter.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-11T15:15:06Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x652-w4xg-69jh",
-  "modified": "2024-10-21T18:30:58Z",
+  "modified": "2024-11-12T21:30:50Z",
   "published": "2024-10-21T18:30:58Z",
   "aliases": [
     "CVE-2024-49951"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: MGMT: Fix possible crash on mgmt_index_removed\n\nIf mgmt_index_removed is called while there are commands queued on\ncmd_sync it could lead to crashes like the bellow trace:\n\n0x0000053D: __list_del_entry_valid_or_report+0x98/0xdc\n0x0000053D: mgmt_pending_remove+0x18/0x58 [bluetooth]\n0x0000053E: mgmt_remove_adv_monitor_complete+0x80/0x108 [bluetooth]\n0x0000053E: hci_cmd_sync_work+0xbc/0x164 [bluetooth]\n\nSo while handling mgmt_index_removed this attempts to dequeue\ncommands passed as user_data to cmd_sync.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -39,7 +42,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:16Z"
