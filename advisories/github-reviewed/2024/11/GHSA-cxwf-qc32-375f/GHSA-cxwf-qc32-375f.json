@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxwf-qc32-375f",
-  "modified": "2024-11-13T18:57:16Z",
+  "modified": "2024-11-13T23:24:27Z",
   "published": "2024-11-12T19:52:22Z",
   "aliases": [
     "CVE-2024-43415"
@@ -74,6 +74,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/decidim-ice/decidim-module-decidim_awesome"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/decidim-decidim_awesome/CVE-2024-43415.yml"
     },
     {
       "type": "WEB",
