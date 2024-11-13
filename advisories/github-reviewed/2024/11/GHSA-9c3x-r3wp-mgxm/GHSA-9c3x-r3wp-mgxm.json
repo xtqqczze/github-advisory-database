@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c3x-r3wp-mgxm",
-  "modified": "2024-11-06T23:40:04Z",
+  "modified": "2024-11-13T16:27:48Z",
   "published": "2024-11-06T15:16:09Z",
   "aliases": [
     "CVE-2024-50342"
   ],
   "summary": "Symfony allows internal address and port enumeration by NoPrivateNetworkHttpClient",
-  "details": "### Description\n\nWhen using the `NoPrivateNetworkHttpClient`, some internal information is still leaking during host resolution, which leads to possible IP/port enumeration.\n\n### Resolution\n\nThe `NoPrivateNetworkHttpClient` now filters blocked IPs earlier to prevent such leaks.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/296d4b34a33b1a6ca5475c6040b3203622520f5b) for branch 5.4.\n\n### Credits\n\nWe would like to thank Linus Karlsson for reporting the issue and Nicolas Grekas for providing the fix.",
+  "details": "### Description\n\nWhen using the `NoPrivateNetworkHttpClient`, some internal information is still leaking during host resolution, which leads to possible IP/port enumeration.\n\n### Resolution\n\nThe `NoPrivateNetworkHttpClient` now filters blocked IPs earlier to prevent such leaks.\n\nThe fisrt patch for this issue is available [here](https://github.com/symfony/symfony/commit/296d4b34a33b1a6ca5475c6040b3203622520f5b) for branch 5.4.\n\nThe second one is available [here](https://github.com/symfony/symfony/commit/b4bf5afdbdcb2fd03da513ee03beeabeb551e5fa) for branch 5.4 also.\n\n### Credits\n\nWe would like to thank Linus Karlsson and Chris Smith for reporting the issue and Nicolas Grekas for providing the fix.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -32,7 +32,7 @@
               "introduced": "4.3.0"
             },
             {
-              "fixed": "5.4.46"
+              "fixed": "5.4.47"
             }
           ]
         }
@@ -51,7 +51,7 @@
               "introduced": "6.0.0"
             },
             {
-              "fixed": "6.4.14"
+              "fixed": "6.4.15"
             }
           ]
         }
@@ -70,64 +70,7 @@
               "introduced": "7.0.0"
             },
             {
-              "fixed": "7.1.7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "symfony/symfony"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "4.3.0"
-            },
-            {
-              "fixed": "5.4.46"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "symfony/symfony"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "6.0.0"
-            },
-            {
-              "fixed": "6.4.14"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "symfony/symfony"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "7.0.0"
-            },
-            {
-              "fixed": "7.1.7"
+              "fixed": "7.1.8"
             }
           ]
         }
