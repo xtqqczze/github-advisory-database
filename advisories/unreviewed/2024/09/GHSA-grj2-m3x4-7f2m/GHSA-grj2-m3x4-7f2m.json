@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grj2-m3x4-7f2m",
-  "modified": "2024-09-30T18:31:36Z",
+  "modified": "2024-11-13T15:31:36Z",
   "published": "2024-09-30T18:31:36Z",
   "aliases": [
     "CVE-2024-46869"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btintel_pcie: Allocate memory for driver private data\n\nFix driver not allocating memory for struct btintel_data which is used\nto store internal data.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -35,7 +38,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-09-30T16:15:09Z"

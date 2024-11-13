@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2x4-35qf-p4qw",
-  "modified": "2024-11-08T18:30:45Z",
+  "modified": "2024-11-13T15:31:37Z",
   "published": "2024-10-21T18:30:57Z",
   "aliases": [
     "CVE-2024-49902"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\njfs: check if leafidx greater than num leaves per dmap tree\n\nsyzbot report a out of bounds in dbSplit, it because dmt_leafidx greater\nthan num leaves per dmap tree, add a checking for dmt_leafidx in dbFindLeaf.\n\nShaggy:\nModified sanity check to apply to control pages as well as leaf pages.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -59,7 +62,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T18:15:12Z"

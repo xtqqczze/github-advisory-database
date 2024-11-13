@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfp4-pv53-rv88",
-  "modified": "2024-11-08T21:33:57Z",
+  "modified": "2024-11-13T15:31:37Z",
   "published": "2024-11-07T12:30:35Z",
   "aliases": [
     "CVE-2024-50152"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix possible double free in smb2_set_ea()\n\nClang static checker(scan-build) warning：\nfs/smb/client/smb2ops.c:1304:2: Attempt to free released memory.\n 1304 |         kfree(ea);\n      |         ^~~~~~~~~\n\nThere is a double free in such case:\n'ea is initialized to NULL' -> 'first successful memory allocation for\nea' -> 'something failed, goto sea_exit' -> 'first memory release for ea'\n-> 'goto replay_again' -> 'second goto sea_exit before allocate memory\nfor ea' -> 'second memory release for ea resulted in double free'.\n\nRe-initialie 'ea' to NULL near to the replay_again label, it can fix this\ndouble free problem.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-415"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-07T10:15:06Z"
