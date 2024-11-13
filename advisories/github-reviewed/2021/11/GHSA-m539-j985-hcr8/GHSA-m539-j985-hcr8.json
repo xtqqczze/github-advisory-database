@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m539-j985-hcr8",
-  "modified": "2024-11-13T21:28:26Z",
+  "modified": "2024-11-13T21:46:28Z",
   "published": "2021-11-10T19:36:21Z",
   "aliases": [
     "CVE-2021-41196"
@@ -185,63 +185,6 @@
             },
             {
               "fixed": "2.4.4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "PyPI",
-        "name": "tensorflow-cpu"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.7.0rc0"
-            },
-            {
-              "fixed": "2.7.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "PyPI",
-        "name": "tensorflow-gpu"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.7.0rc0"
-            },
-            {
-              "fixed": "2.7.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "PyPI",
-        "name": "tensorflow"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.7.0rc0"
-            },
-            {
-              "fixed": "2.7.0"
             }
           ]
         }
