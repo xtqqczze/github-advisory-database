@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c4g-crqm-xrxw",
-  "modified": "2024-08-29T21:52:28Z",
+  "modified": "2024-11-13T21:16:22Z",
   "published": "2021-08-25T14:40:32Z",
   "aliases": [
     "CVE-2021-37682"
@@ -220,6 +220,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/tensorflow/tensorflow/commit/8933b8a21280696ab119b63263babdb54c298538"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow-cpu/PYSEC-2021-595.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow-gpu/PYSEC-2021-793.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/tensorflow/PYSEC-2021-304.yaml"
     },
     {
       "type": "PACKAGE",
