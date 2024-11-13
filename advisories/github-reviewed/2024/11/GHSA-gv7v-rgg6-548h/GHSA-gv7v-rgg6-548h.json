@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv7v-rgg6-548h",
-  "modified": "2024-11-12T22:08:42Z",
+  "modified": "2024-11-13T18:56:31Z",
   "published": "2024-11-12T22:08:42Z",
   "aliases": [
     "CVE-2024-52301"
@@ -9,6 +9,10 @@
   "summary": "Laravel environment manipulation via query string",
   "details": "## Description\n\nWhen the `register_argc_argv php` directive is set to `on` , and users call any URL with a special crafted query string, they are able to change the environment used by the framework when handling the request.\n\n## Resolution\n\nThe framework now ignores argv values for environment detection on non-cli SAPIs.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
