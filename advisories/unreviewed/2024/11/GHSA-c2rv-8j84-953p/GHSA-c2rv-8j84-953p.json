@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2rv-8j84-953p",
-  "modified": "2024-11-08T18:30:49Z",
+  "modified": "2024-11-13T21:30:31Z",
   "published": "2024-11-07T12:30:35Z",
   "aliases": [
     "CVE-2024-50171"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: systemport: fix potential memory leak in bcm_sysport_xmit()\n\nThe bcm_sysport_xmit() returns NETDEV_TX_OK without freeing skb\nin case of dma_map_single() fails, add dev_kfree_skb() to fix it.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-401"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-07T10:15:08Z"

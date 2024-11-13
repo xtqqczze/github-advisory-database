@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrh2-c3xg-pf82",
-  "modified": "2024-11-11T03:30:45Z",
+  "modified": "2024-11-13T21:30:32Z",
   "published": "2024-11-11T03:30:45Z",
   "aliases": [
     "CVE-2024-48939"
@@ -17,6 +17,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48939"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gitaware/CVE/blob/main/CVE-2024-48939/20241020_vuln_discl_paxton_API_license.pdf"
     },
     {
       "type": "WEB",

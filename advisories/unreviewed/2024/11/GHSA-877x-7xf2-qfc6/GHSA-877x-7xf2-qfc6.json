@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-877x-7xf2-qfc6",
-  "modified": "2024-11-08T18:30:50Z",
+  "modified": "2024-11-13T21:30:31Z",
   "published": "2024-11-08T18:30:50Z",
   "aliases": [
     "CVE-2024-51031"
   ],
   "details": "A Cross-site Scripting (XSS) vulnerability in manage_account.php in Sourcecodester Cab Management System 1.0 allows remote authenticated users to inject arbitrary web scripts via the \"First Name,\" \"Middle Name,\" and \"Last Name\" fields.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-08T18:15:17Z"

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7845-crfj-phc4",
+  "modified": "2024-11-13T21:30:38Z",
+  "published": "2024-11-13T21:30:38Z",
+  "aliases": [
+    "CVE-2024-52554"
+  ],
+  "details": "Jenkins Shared Library Version Override Plugin 17.v786074c9fce7 and earlier declares folder-scoped library overrides as trusted, so that they're not executed in the Script Security sandbox, allowing attackers with Item/Configure permission on a folder to configure a folder-scoped library override that runs without sandbox protection.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52554"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.jenkins.io/security/advisory/2024-11-13/#SECURITY-3466"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-13T21:15:29Z"
+  }
+}
