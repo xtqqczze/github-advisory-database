@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-595x-6cv8-fp75",
-  "modified": "2024-11-12T21:30:55Z",
+  "modified": "2024-11-13T00:30:48Z",
   "published": "2024-11-12T21:30:55Z",
   "aliases": [
     "CVE-2024-11113"
   ],
   "details": "Use after free in Accessibility in Google Chrome prior to 131.0.6778.69 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
       "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-12T21:15:11Z"

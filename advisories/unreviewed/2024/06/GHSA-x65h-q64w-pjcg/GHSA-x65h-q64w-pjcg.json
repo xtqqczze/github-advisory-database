@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x65h-q64w-pjcg",
-  "modified": "2024-06-16T00:30:40Z",
+  "modified": "2024-11-13T00:30:47Z",
   "published": "2024-06-16T00:30:40Z",
   "aliases": [
     "CVE-2024-38394"
   ],
   "details": "Mismatches in interpreting USB authorization policy between GNOME Settings Daemon (GSD) through 46.0 and the Linux kernel's underlying device matching logic allow a physically proximate attacker to access some unintended Linux kernel USB functionality, such as USB device-specific kernel modules and filesystem implementations. NOTE: the GSD supplier indicates that consideration of a mitigation for this within GSD would be in the context of \"a new feature, not a CVE.\"",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -39,7 +42,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-16T00:15:49Z"
