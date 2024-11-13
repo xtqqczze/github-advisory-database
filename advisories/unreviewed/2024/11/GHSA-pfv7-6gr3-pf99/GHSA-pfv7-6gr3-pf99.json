@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfv7-6gr3-pf99",
-  "modified": "2024-11-08T18:30:49Z",
+  "modified": "2024-11-13T18:31:53Z",
   "published": "2024-11-07T12:30:35Z",
   "aliases": [
     "CVE-2024-50168"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sun3_82586: fix potential memory leak in sun3_82586_send_packet()\n\nThe sun3_82586_send_packet() returns NETDEV_TX_OK without freeing skb\nin case of skb->len being too long, add dev_kfree_skb() to fix it.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-401"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-07T10:15:07Z"

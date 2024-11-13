@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frfw-f98c-6jvj",
-  "modified": "2024-11-09T12:30:47Z",
+  "modified": "2024-11-13T18:31:53Z",
   "published": "2024-11-09T12:30:47Z",
   "aliases": [
     "CVE-2024-50215"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvmet-auth: assign dh_key to NULL after kfree_sensitive\n\nctrl->dh_key might be used across multiple calls to nvmet_setup_dhgroup()\nfor the same controller. So it's better to nullify it after release on\nerror path in order to avoid double free later in nvmet_destroy_auth().\n\nFound by Linux Verification Center (linuxtesting.org) with Svace.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-415"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-09T11:15:06Z"

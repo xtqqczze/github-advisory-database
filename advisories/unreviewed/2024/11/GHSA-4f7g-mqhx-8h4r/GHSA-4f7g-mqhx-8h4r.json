@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4f7g-mqhx-8h4r",
-  "modified": "2024-11-07T12:30:35Z",
+  "modified": "2024-11-13T18:31:53Z",
   "published": "2024-11-07T12:30:35Z",
   "aliases": [
     "CVE-2024-50172"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/bnxt_re: Fix a possible memory leak\n\nIn bnxt_re_setup_chip_ctx() when bnxt_qplib_map_db_bar() fails\ndriver is not freeing the memory allocated for \"rdev->chip_ctx\".",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-401"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-07T10:15:08Z"

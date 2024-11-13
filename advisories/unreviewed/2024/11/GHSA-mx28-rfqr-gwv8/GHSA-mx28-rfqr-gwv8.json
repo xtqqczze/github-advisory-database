@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mx28-rfqr-gwv8",
-  "modified": "2024-11-08T18:30:48Z",
+  "modified": "2024-11-13T18:31:52Z",
   "published": "2024-11-05T18:32:11Z",
   "aliases": [
     "CVE-2024-50089"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nunicode: Don't special case ignorable code points\n\nWe don't need to handle them separately. Instead, just let them\ndecompose/casefold to themselves.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -51,7 +54,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-05T17:15:06Z"

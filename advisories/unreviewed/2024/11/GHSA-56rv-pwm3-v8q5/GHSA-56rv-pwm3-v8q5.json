@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56rv-pwm3-v8q5",
-  "modified": "2024-11-09T12:30:49Z",
+  "modified": "2024-11-13T18:31:54Z",
   "published": "2024-11-09T12:30:49Z",
   "aliases": [
     "CVE-2024-50233"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nstaging: iio: frequency: ad9832: fix division by zero in ad9832_calc_freqreg()\n\nIn the ad9832_write_frequency() function, clk_get_rate() might return 0.\nThis can lead to a division by zero when calling ad9832_calc_freqreg().\nThe check if (fout > (clk_get_rate(st->mclk) / 2)) does not protect\nagainst the case when fout is 0. The ad9832_write_frequency() function\nis called from ad9832_write(), and fout is derived from a text buffer,\nwhich can contain any value.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-369"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-09T11:15:09Z"

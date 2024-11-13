@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q37-6mpp-rv7v",
-  "modified": "2024-03-13T21:31:03Z",
+  "modified": "2024-11-13T18:31:51Z",
   "published": "2024-03-13T21:31:03Z",
   "aliases": [
     "CVE-2024-28662"
   ],
   "details": "A Cross Site Scripting vulnerability exists in Piwigo before 14.3.0 script because of missing sanitization in create_tag in admin/include/functions.php.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-13T21:16:01Z"
