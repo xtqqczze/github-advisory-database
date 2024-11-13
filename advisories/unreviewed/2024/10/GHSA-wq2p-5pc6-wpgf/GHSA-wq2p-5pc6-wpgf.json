@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq2p-5pc6-wpgf",
-  "modified": "2024-11-12T18:30:51Z",
+  "modified": "2024-11-13T09:30:56Z",
   "published": "2024-10-15T18:30:50Z",
   "aliases": [
     "CVE-2024-9676"
@@ -48,6 +48,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2024:8700"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8984"
     },
     {
       "type": "WEB",
