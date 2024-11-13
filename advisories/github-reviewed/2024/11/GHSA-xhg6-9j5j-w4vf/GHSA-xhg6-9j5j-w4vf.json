@@ -1,17 +1,39 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhg6-9j5j-w4vf",
-  "modified": "2024-11-13T15:31:37Z",
+  "modified": "2024-11-13T18:38:01Z",
   "published": "2024-11-13T15:31:37Z",
   "aliases": [
     "CVE-2024-48510"
   ],
+  "summary": "DotNetZip Directory Traversal vulnerability",
   "details": "Directory Traversal vulnerability in DotNetZip v.1.16.0 and before allows a remote attacker to execute arbitrary code via the src/Zip.Shared/ZipEntry.Extract.cs component NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
   "severity": [
-
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+    }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "NuGet",
+        "name": "DotNetZip"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.10.1"
+            },
+            {
+              "last_affected": "1.16.0"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -23,7 +45,7 @@
       "url": "https://gist.github.com/thomas-chauchefoin-bentley-systems/855218959116f870f08857cce2aec731"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/haf/DotNetZip.Semverd"
     },
     {
@@ -37,11 +59,11 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-22"
     ],
-    "severity": null,
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-13T18:38:01Z",
     "nvd_published_at": "2024-11-13T15:15:07Z"
   }
 }
