@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-534c-hcr7-67jg",
-  "modified": "2024-09-17T18:36:50Z",
+  "modified": "2024-11-14T17:45:16Z",
   "published": "2024-09-17T18:36:50Z",
   "aliases": [
 
@@ -65,7 +65,7 @@
       "CWE-1395",
       "CWE-611"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-17T18:36:50Z",
     "nvd_published_at": null
