@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhg6-9j5j-w4vf",
-  "modified": "2024-11-13T18:38:01Z",
+  "modified": "2024-11-14T17:58:03Z",
   "published": "2024-11-13T15:31:37Z",
   "aliases": [
     "CVE-2024-48510"
@@ -9,6 +9,10 @@
   "summary": "DotNetZip Directory Traversal vulnerability",
   "details": "Directory Traversal vulnerability in DotNetZip v.1.16.0 and before allows a remote attacker to execute arbitrary code via the src/Zip.Shared/ZipEntry.Extract.cs component NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
