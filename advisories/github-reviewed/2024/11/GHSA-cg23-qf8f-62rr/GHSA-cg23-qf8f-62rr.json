@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg23-qf8f-62rr",
-  "modified": "2024-11-13T18:58:39Z",
+  "modified": "2024-11-14T23:55:43Z",
   "published": "2024-11-13T18:29:04Z",
   "aliases": [
     "CVE-2024-51996"
   ],
-  "summary": "Symphony has an Authentication Bypass via RememberMe",
-  "details": "### Description\n\nWhan consuming a persisted remember-me cookie, symfony does not check if the username persisted in the database matches the username attached with the cookie, leading to authentication bypass.\n\n### Resolution\n\nThe `PersistentRememberMeHandler` class now ensures the submitted username is the cookie owner.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/81354d392c5f0b7a52bcbd729d6f82501e94135a) for branch 5.4.\n\n### Credits\n\nWe would like to thank Moritz Rauch - Pentryx AG for reporting the issue and Jérémy Derussé for providing the fix.",
+  "summary": "Symfony has an Authentication Bypass via RememberMe",
+  "details": "### Description\n\nWhen consuming a persisted remember-me cookie, Symfony does not check if the username persisted in the database matches the username attached with the cookie, leading to authentication bypass.\n\n### Resolution\n\nThe `PersistentRememberMeHandler` class now ensures the submitted username is the cookie owner.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/81354d392c5f0b7a52bcbd729d6f82501e94135a) for branch 5.4.\n\n### Credits\n\nWe would like to thank Moritz Rauch - Pentryx AG for reporting the issue and Jérémy Derussé for providing the fix.",
   "severity": [
     {
       "type": "CVSS_V3",
