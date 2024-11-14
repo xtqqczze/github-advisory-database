@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gcc-j58h-xmv8",
-  "modified": "2024-05-21T15:31:43Z",
+  "modified": "2024-11-14T00:31:10Z",
   "published": "2024-05-21T15:31:43Z",
   "aliases": [
     "CVE-2021-47347"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwl1251: Fix possible buffer overflow in wl1251_cmd_scan\n\nFunction wl1251_cmd_scan calls memcpy without checking the length.\nHarden by checking the length is within the maximum allowed size.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -57,9 +60,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-120"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:21Z"
