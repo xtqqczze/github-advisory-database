@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46q5-wp2g-gv63",
-  "modified": "2024-08-29T03:30:48Z",
+  "modified": "2024-11-14T18:30:31Z",
   "published": "2024-06-19T15:30:52Z",
   "aliases": [
     "CVE-2024-38538"
@@ -36,6 +36,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8bd67ebb50c0145fd2ca8681ab65eb7e8cde1afc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c964429ef53f42098a6545a5dabeb1441c1e821d"
     },
     {
       "type": "WEB",

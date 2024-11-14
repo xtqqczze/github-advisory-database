@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8ww9-xwc2-p9cc",
-  "modified": "2024-11-09T18:30:30Z",
+  "modified": "2024-11-14T18:30:33Z",
   "published": "2024-11-09T18:30:30Z",
   "aliases": [
     "CVE-2024-36250"
@@ -28,6 +28,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-294",
       "CWE-303"
     ],
     "severity": "LOW",
