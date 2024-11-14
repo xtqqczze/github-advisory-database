@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wr4c-gwg7-p734",
-  "modified": "2024-07-30T03:30:51Z",
+  "modified": "2024-11-14T21:31:57Z",
   "published": "2024-03-27T09:30:41Z",
   "aliases": [
     "CVE-2024-2379"
   ],
   "details": "libcurl skips the certificate verification for a QUIC connection under certain conditions, when built to use wolfSSL. If told to use an unknown/bad cipher or curve, the error path accidentally skips the verification and returns OK, thus ignoring any certificate problems.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -67,7 +70,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-27T08:15:41Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p9x-p7rw-9vc6",
-  "modified": "2022-05-24T00:01:16Z",
+  "modified": "2024-11-14T21:31:51Z",
   "published": "2022-01-12T00:00:40Z",
   "aliases": [
     "CVE-2022-21906"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nu11secur1ty/Windows10Exploits/tree/master/2022/CVE-2022-21906"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-21906"
     },
     {
       "type": "WEB",
