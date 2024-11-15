@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9hg-9q36-xm67",
-  "modified": "2024-11-15T09:32:29Z",
+  "modified": "2024-11-15T21:30:46Z",
   "published": "2024-11-15T09:32:29Z",
   "aliases": [
     "CVE-2024-9529"
   ],
   "details": "The Secure Custom Fields WordPress plugin before 6.3.9, Secure Custom Fields WordPress plugin before 6.3.6.3, Advanced Custom Fields Pro WordPress plugin before 6.3.9 does not prevent users from running arbitrary functions through its setting import functionalities, which could allow high privilege users such as admin to run arbitrary PHP functions.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-15T07:15:17Z"
