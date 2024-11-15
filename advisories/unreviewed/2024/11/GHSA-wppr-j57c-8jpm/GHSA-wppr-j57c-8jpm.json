@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wppr-j57c-8jpm",
+  "modified": "2024-11-15T12:31:44Z",
+  "published": "2024-11-15T12:31:44Z",
+  "aliases": [
+    "CVE-2021-3991"
+  ],
+  "details": "An Improper Authorization vulnerability exists in Dolibarr versions prior to the 'develop' branch. A user with restricted permissions in the 'Reception' section is able to access specific reception details via direct URL access, bypassing the intended permission restrictions.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"
+    }
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3991"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dolibarr/dolibarr/commit/63cd06394f39d60784d6e6a0ccf4867a71a6568f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://huntr.com/bounties/58ddbd8a-0faf-4b3f-aec9-5850bb19ab67"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-285"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-15T11:15:07Z"
+  }
+}
