@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2hf-9hjx-2rxj",
-  "modified": "2024-03-25T18:30:57Z",
+  "modified": "2024-11-15T00:31:50Z",
   "published": "2024-03-19T12:30:41Z",
   "aliases": [
     "CVE-2023-5388"
   ],
   "details": "NSS was susceptible to a timing side-channel attack when performing RSA decryption. This attack could potentially allow an attacker to recover the private data. This vulnerability affects Firefox < 124, Firefox ESR < 115.9, and Thunderbird < 115.9.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L"
+    }
   ],
   "affected": [
 
@@ -47,7 +50,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-19T12:15:07Z"

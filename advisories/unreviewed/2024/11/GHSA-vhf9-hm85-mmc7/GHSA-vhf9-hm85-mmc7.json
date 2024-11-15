@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vhf9-hm85-mmc7",
+  "modified": "2024-11-15T00:31:50Z",
+  "published": "2024-11-15T00:31:50Z",
+  "aliases": [
+    "CVE-2024-40579"
+  ],
+  "details": "Cross Site Scripting vulnerability in Virtuozzo Hybrid Server for WHMCS Open Source v.1.7.1 allows a remote attacker to obtain sensitive information via modification of the hostname parameter.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-40579"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vxcyber.com/cve-2024-40579.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-14T22:15:16Z"
+  }
+}
