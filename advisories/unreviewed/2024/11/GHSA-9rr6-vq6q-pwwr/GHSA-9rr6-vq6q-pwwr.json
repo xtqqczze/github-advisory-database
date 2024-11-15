@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9rr6-vq6q-pwwr",
+  "modified": "2024-11-15T18:30:51Z",
+  "published": "2024-11-15T18:30:51Z",
+  "aliases": [
+    "CVE-2024-46383"
+  ],
+  "details": "Hathway Skyworth Router CM5100-511 v4.1.1.24 was discovered to store sensitive information about USB and Wifi connected devices in plaintext.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46383"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nitinronge91/Sensitive-Information-disclosure-via-SPI-flash-firmware-for-Hathway-router-CVE-2024-46383"
+    },
+    {
+      "type": "WEB",
+      "url": "http://skyworth.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-15T18:15:27Z"
+  }
+}

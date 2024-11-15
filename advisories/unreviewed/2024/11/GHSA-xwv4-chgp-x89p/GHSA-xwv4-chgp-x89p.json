@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwv4-chgp-x89p",
-  "modified": "2024-11-11T09:30:41Z",
+  "modified": "2024-11-15T18:30:48Z",
   "published": "2024-11-11T09:30:41Z",
   "aliases": [
     "CVE-2024-52355"

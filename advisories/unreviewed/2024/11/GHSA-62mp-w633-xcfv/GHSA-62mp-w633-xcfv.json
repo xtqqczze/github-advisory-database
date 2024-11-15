@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-62mp-w633-xcfv",
+  "modified": "2024-11-15T18:30:51Z",
+  "published": "2024-11-15T18:30:51Z",
+  "aliases": [
+    "CVE-2024-24450"
+  ],
+  "details": "Stack-based memcpy buffer overflow in the ngap_handle_pdu_session_resource_setup_response routine in OpenAirInterface CN5G AMF <= 2.0.0 allows a remote attacker with access to the N2 interface to carry out denial of service against the AMF and potentially execute code by sending a PDU Session Resource Setup Response with a suffciently large FailedToSetupList IE.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-24450"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cellularsecurity.org/ransacked"
+    },
+    {
+      "type": "WEB",
+      "url": "https://openairinterface.org"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-15T18:15:27Z"
+  }
+}
