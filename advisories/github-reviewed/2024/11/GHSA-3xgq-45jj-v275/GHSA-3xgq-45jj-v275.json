@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xgq-45jj-v275",
-  "modified": "2024-11-08T06:30:47Z",
+  "modified": "2024-11-15T22:25:53Z",
   "published": "2024-11-08T06:30:47Z",
   "aliases": [
     "CVE-2024-21538"
   ],
+  "summary": "Regular Expression Denial of Service (ReDoS) in cross-spawn",
   "details": "Versions of the package cross-spawn before 7.0.5 are vulnerable to Regular Expression Denial of Service (ReDoS) due to improper input sanitization. An attacker can increase the CPU usage and crash the program by crafting a very large and well crafted string.",
   "severity": [
     {
@@ -14,7 +15,25 @@
     }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "cross-spawn"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.0.5"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -34,6 +53,10 @@
       "url": "https://github.com/moxystudio/node-cross-spawn/commit/640d391fde65388548601d95abedccc12943374f"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/moxystudio/node-cross-spawn"
+    },
+    {
       "type": "WEB",
       "url": "https://security.snyk.io/vuln/SNYK-JS-CROSSSPAWN-8303230"
     }
@@ -43,8 +66,8 @@
       "CWE-1333"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-15T22:25:53Z",
     "nvd_published_at": "2024-11-08T05:15:06Z"
   }
 }
