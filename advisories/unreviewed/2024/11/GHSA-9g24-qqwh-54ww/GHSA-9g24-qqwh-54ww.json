@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g24-qqwh-54ww",
-  "modified": "2024-11-08T18:30:49Z",
+  "modified": "2024-11-16T00:31:49Z",
   "published": "2024-11-07T12:30:34Z",
   "aliases": [
     "CVE-2024-50143"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nudf: fix uninit-value use in udf_get_fileshortad\n\nCheck for overflow when computing alen in udf_current_aext to mitigate\nlater uninit-value use in udf_get_fileshortad KMSAN bug[1].\nAfter applying the patch reproducer did not trigger any issue[2].\n\n[1] https://syzkaller.appspot.com/bug?extid=8901c4560b7ab5c2f9df\n[2] https://syzkaller.appspot.com/x/log.txt?x=10242227980000",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -49,9 +52,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-908"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-07T10:15:06Z"
