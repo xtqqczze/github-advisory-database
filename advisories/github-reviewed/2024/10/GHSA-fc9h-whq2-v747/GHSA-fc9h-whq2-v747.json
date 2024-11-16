@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc9h-whq2-v747",
-  "modified": "2024-11-05T21:34:30Z",
+  "modified": "2024-11-05T21:34:50Z",
   "published": "2024-10-15T15:30:56Z",
   "aliases": [
     "CVE-2024-48948"
@@ -15,7 +15,7 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:P/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
