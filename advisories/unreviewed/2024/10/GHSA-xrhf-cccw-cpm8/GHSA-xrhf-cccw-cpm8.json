@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrhf-cccw-cpm8",
-  "modified": "2024-10-28T18:31:39Z",
+  "modified": "2024-11-17T15:30:45Z",
   "published": "2024-10-21T18:30:58Z",
   "aliases": [
     "CVE-2024-49960"
@@ -32,6 +32,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b85569585d0154d4db1e4f9e3e6a4731d407feb0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cf3196e5e2f36cd80dab91ffae402e13935724bc"
     },
     {
       "type": "WEB",

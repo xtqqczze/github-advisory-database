@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrv9-xfv2-43m6",
-  "modified": "2024-11-13T18:31:54Z",
+  "modified": "2024-11-17T15:30:45Z",
   "published": "2024-11-09T12:30:49Z",
   "aliases": [
     "CVE-2024-50243"
@@ -20,6 +20,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50243"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/509c1c6b499a4d9026b58c6e1c3a10ed8db1839f"
     },
     {
       "type": "WEB",

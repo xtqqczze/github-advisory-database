@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qjwp-794r-6x7v",
-  "modified": "2024-11-08T18:30:43Z",
+  "modified": "2024-11-17T15:30:45Z",
   "published": "2024-10-15T12:30:37Z",
   "aliases": [
     "CVE-2024-47674"
@@ -20,6 +20,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47674"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3213fdcab961026203dd587a4533600c70b3336b"
     },
     {
       "type": "WEB",
