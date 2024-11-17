@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h7wq-jj8r-qm7p",
+  "modified": "2024-11-17T12:30:30Z",
+  "published": "2024-11-17T12:30:29Z",
+  "aliases": [
+    "CVE-2024-0793"
+  ],
+  "details": "A flaw was found in kube-controller-manager. This issue occurs when the initial application of a HPA config YAML lacking a .spec.behavior.scaleUp block causes a denial of service due to KCM pods going into restart churn.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0793"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openshift/kubernetes/pull/1876"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:0741"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:1267"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2024-0793"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2214402"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-17T11:15:06Z"
+  }
+}
