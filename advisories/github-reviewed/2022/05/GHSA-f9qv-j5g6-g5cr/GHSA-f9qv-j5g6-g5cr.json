@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9qv-j5g6-g5cr",
-  "modified": "2024-04-29T14:39:46Z",
+  "modified": "2024-11-18T21:04:24Z",
   "published": "2022-05-02T03:54:25Z",
   "aliases": [
     "CVE-2009-4405"
@@ -44,6 +44,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/54983"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/trac/PYSEC-2009-7.yaml"
     },
     {
       "type": "WEB",
