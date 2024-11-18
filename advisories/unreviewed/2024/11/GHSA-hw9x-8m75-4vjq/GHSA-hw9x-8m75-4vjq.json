@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw9x-8m75-4vjq",
-  "modified": "2024-11-12T21:30:55Z",
+  "modified": "2024-11-18T18:30:48Z",
   "published": "2024-11-12T21:30:55Z",
   "aliases": [
     "CVE-2024-51093"
   ],
   "details": "Cross Site Scripting vulnerability in Snipe-IT v.7.0.13 allows a remote attacker to escalate privileges via an unknown part of the file /users/{{user-id}}/#files.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-12T21:15:14Z"
