@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjcc-r94c-wxr8",
-  "modified": "2024-07-12T15:31:25Z",
+  "modified": "2024-11-18T09:31:12Z",
   "published": "2024-07-01T21:31:14Z",
   "aliases": [
     "CVE-2024-38472"
