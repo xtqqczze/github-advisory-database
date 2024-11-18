@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xgq-45jj-v275",
-  "modified": "2024-11-15T22:25:53Z",
+  "modified": "2024-11-18T20:16:05Z",
   "published": "2024-11-08T06:30:47Z",
   "aliases": [
     "CVE-2024-21538"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "7.0.0"
             },
             {
               "fixed": "7.0.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "cross-spawn"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.6"
             }
           ]
         }
@@ -42,6 +61,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/moxystudio/node-cross-spawn/issues/165"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/moxystudio/node-cross-spawn/pull/160"
     },
     {
@@ -51,6 +74,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/moxystudio/node-cross-spawn/commit/640d391fde65388548601d95abedccc12943374f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moxystudio/node-cross-spawn/commit/d35c865b877d2f9ded7c1ed87521c2fdb689c8dd"
     },
     {
       "type": "PACKAGE",
