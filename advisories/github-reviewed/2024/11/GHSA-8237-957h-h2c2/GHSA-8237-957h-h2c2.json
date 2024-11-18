@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8237-957h-h2c2",
-  "modified": "2024-11-13T18:43:02Z",
+  "modified": "2024-11-18T20:35:06Z",
   "published": "2024-11-13T18:43:02Z",
   "aliases": [
     "CVE-2024-52306"
   ],
   "summary": "FileManager Deserialization of Untrusted Data vulnerability",
-  "details": "### Impact\nDeserialization of untrusted data from the `mimes` parameter could lead to remote code execution.\n\n### Patches\nFixed in 3.0.9\n\n### Workarounds\nNot needed, a `composer update` will solve it in a non-breaking way.\n\n### References\nReported responsibly Vladislav Gladkiy at [Positive Technologies](https://www.ptsecurity.com/ww-en/).",
+  "details": "### Impact\nDeserialization of untrusted data from the `mimes` parameter could lead to remote code execution.\n\n### Patches\nFixed in 3.0.9\n\n### Workarounds\nNot needed, a `composer update` will solve it in a non-breaking way.\n\n### References\nReported responsibly [Vladislav Gladkiy](https://github.com/catferq) at [Positive Technologies](https://www.ptsecurity.com/ww-en/).",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -29,10 +29,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.0"
             },
             {
               "fixed": "3.0.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "backpack/filemanager"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.2"
             }
           ]
         }
