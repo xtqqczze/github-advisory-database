@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjjp-7863-326g",
-  "modified": "2024-11-08T21:33:57Z",
+  "modified": "2024-11-18T15:33:19Z",
   "published": "2024-11-08T21:33:57Z",
   "aliases": [
     "CVE-2024-50809"
   ],
   "details": "The theme.php file in SDCMS 2.8 has a command execution vulnerability that allows for the execution of system commands",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-78"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-08T21:15:20Z"
