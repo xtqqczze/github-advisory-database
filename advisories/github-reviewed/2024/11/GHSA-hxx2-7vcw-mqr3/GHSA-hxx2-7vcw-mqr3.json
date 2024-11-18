@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxx2-7vcw-mqr3",
-  "modified": "2024-11-04T13:52:38Z",
+  "modified": "2024-11-18T20:17:32Z",
   "published": "2024-11-01T06:30:34Z",
   "aliases": [
     "CVE-2024-21510"
@@ -32,7 +32,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "4.0.0"
+              "fixed": "4.1.0"
             }
           ]
         }
@@ -67,6 +67,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sinatra/sinatra/blob/b626e2d82c23b4fde0b51782fd32ca27ccde1d1a/lib/sinatra/base.rb#L323C1-L343C17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sinatra/sinatra/blob/main/CHANGELOG.md#410--2024-11-18"
     },
     {
       "type": "WEB",
