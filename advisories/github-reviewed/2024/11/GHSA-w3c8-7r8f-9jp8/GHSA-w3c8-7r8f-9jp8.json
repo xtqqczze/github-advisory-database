@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3c8-7r8f-9jp8",
-  "modified": "2024-11-18T06:30:35Z",
+  "modified": "2024-11-18T20:05:11Z",
   "published": "2024-11-18T06:30:35Z",
   "aliases": [
     "CVE-2024-38828"
   ],
+  "summary": "Spring MVC controller vulnerable to a DoS attack",
   "details": "Spring MVC controller methods with an @RequestBody byte[] method parameter are vulnerable to a DoS attack.",
   "severity": [
     {
@@ -14,12 +15,34 @@
     }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework:spring-webmvc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.0"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38828"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/spring-projects/spring-framework"
     },
     {
       "type": "WEB",
@@ -31,8 +54,8 @@
 
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-18T20:05:11Z",
     "nvd_published_at": "2024-11-18T04:15:04Z"
   }
 }
