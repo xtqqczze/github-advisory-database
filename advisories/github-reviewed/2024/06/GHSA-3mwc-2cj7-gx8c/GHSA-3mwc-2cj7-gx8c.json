@@ -1,13 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mwc-2cj7-gx8c",
-  "modified": "2024-09-11T18:23:12Z",
+  "modified": "2024-11-18T19:40:41Z",
   "published": "2024-06-10T00:30:39Z",
+  "withdrawn": "2024-11-18T19:40:41Z",
   "aliases": [
     "CVE-2024-5389"
   ],
   "summary": "lunary-ai/lunary Access Control Vulnerability in Prompt Variation Management",
-  "details": "In lunary-ai/lunary version 1.2.13, an insufficient granularity of access control vulnerability allows users to create, update, get, and delete prompt variations for datasets not owned by their organization. This issue arises due to the application not properly validating the ownership of dataset prompts and their variations against the organization or project of the requesting user. As a result, unauthorized modifications to dataset prompts can occur, leading to altered or removed dataset prompts without proper authorization. This vulnerability impacts the integrity and consistency of dataset information, potentially affecting the results of experiments.",
+  "details": "Withdrawn: This advisory was incorrectly linked the the npm package `lunary`. The advisory is valid, but not for that packlage.\n\nIn lunary-ai/lunary version 1.2.13, an insufficient granularity of access control vulnerability allows users to create, update, get, and delete prompt variations for datasets not owned by their organization. This issue arises due to the application not properly validating the ownership of dataset prompts and their variations against the organization or project of the requesting user. As a result, unauthorized modifications to dataset prompts can occur, leading to altered or removed dataset prompts without proper authorization. This vulnerability impacts the integrity and consistency of dataset information, potentially affecting the results of experiments.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -50,7 +51,7 @@
     },
     {
       "type": "PACKAGE",
-      "url": "https://github.com/lunary-ai/lunary-py"
+      "url": "https://github.com/lunary-ai/lunary"
     },
     {
       "type": "WEB",
@@ -61,7 +62,7 @@
     "cwe_ids": [
       "CWE-1220"
     ],
-    "severity": "CRITICAL",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-06-10T18:36:36Z",
     "nvd_published_at": "2024-06-09T23:15:50Z"
