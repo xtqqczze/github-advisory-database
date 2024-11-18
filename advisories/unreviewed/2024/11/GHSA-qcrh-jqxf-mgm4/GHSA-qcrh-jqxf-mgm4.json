@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qcrh-jqxf-mgm4",
+  "modified": "2024-11-18T06:30:36Z",
+  "published": "2024-11-18T06:30:36Z",
+  "aliases": [
+    "CVE-2024-52926"
+  ],
+  "details": "Delinea Privilege Manager before 12.0.2 mishandles the security of the Windows agent.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52926"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.delinea.com/online-help/privilege-manager/release-notes/12.0.2-combined.htm"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-18T04:15:05Z"
+  }
+}

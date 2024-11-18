@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-425w-xhjg-hfcm",
+  "modified": "2024-11-18T06:30:36Z",
+  "published": "2024-11-18T06:30:36Z",
+  "aliases": [
+    "CVE-2024-52947"
+  ],
+  "details": "A cross-site scripting (XSS) vulnerability in LemonLDAP::NG before 2.20.1 allows remote attackers to inject arbitrary web script or HTML via the url parameter of the upgrade session confirmation page (upgradeSession / forceUpgrade) if the \"Upgrade session\" plugin has been enabled by an admin",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.ow2.org/lemonldap-ng/lemonldap-ng/-/issues/3257"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-18T06:15:06Z"
+  }
+}
