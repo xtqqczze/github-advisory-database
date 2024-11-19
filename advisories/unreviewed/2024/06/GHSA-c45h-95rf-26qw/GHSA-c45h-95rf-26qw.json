@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c45h-95rf-26qw",
-  "modified": "2024-09-19T18:30:49Z",
+  "modified": "2024-11-18T16:26:47Z",
   "published": "2024-06-22T12:30:37Z",
   "aliases": [
     "CVE-2024-6252"
@@ -46,7 +46,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": "LOW",
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-22T12:15:11Z"
