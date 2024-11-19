@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxwh-jpp2-84pm",
-  "modified": "2024-09-17T17:51:38Z",
+  "modified": "2024-11-19T22:29:15Z",
   "published": "2024-08-18T21:31:07Z",
   "aliases": [
     "CVE-2024-6221"
