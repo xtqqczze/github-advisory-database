@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jchm-fm4q-c2fp",
-  "modified": "2024-09-11T17:00:41Z",
+  "modified": "2024-11-19T20:06:06Z",
   "published": "2023-05-08T12:30:29Z",
   "aliases": [
     "CVE-2023-25754"
@@ -70,7 +70,7 @@
     },
     {
       "type": "WEB",
-      "url": "http://www.openwall.com/lists/oss-security/2023/05/08/2"
+      "url": "https://www.openwall.com/lists/oss-security/2023/05/08/2"
     }
   ],
   "database_specific": {
