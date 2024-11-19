@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q7g-4xm8-89cq",
-  "modified": "2024-11-18T20:49:16Z",
+  "modified": "2024-11-19T15:47:27Z",
   "published": "2024-11-15T20:47:31Z",
   "aliases": [
     "CVE-2024-21539"
@@ -41,12 +41,20 @@
       "url": "https://github.com/eslint/rewrite/security/advisories/GHSA-7q7g-4xm8-89cq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21539"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/eslint/rewrite/commit/071be842f0bd58de4863cdf2ab86d60f49912abf"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/eslint/rewrite"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.snyk.io/vuln/SNYK-JS-ESLINTPLUGINKIT-8340627"
     }
   ],
   "database_specific": {
@@ -56,6 +64,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-15T20:47:31Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-11-19T05:15:16Z"
   }
 }
