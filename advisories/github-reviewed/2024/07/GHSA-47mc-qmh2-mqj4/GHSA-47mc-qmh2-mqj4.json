@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47mc-qmh2-mqj4",
-  "modified": "2024-08-19T21:03:26Z",
+  "modified": "2024-11-18T16:26:54Z",
   "published": "2024-07-19T21:31:11Z",
   "aliases": [
     "CVE-2024-40400"
@@ -61,7 +61,7 @@
     "cwe_ids": [
       "CWE-434"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-07-19T22:39:49Z",
     "nvd_published_at": "2024-07-19T19:15:09Z"
