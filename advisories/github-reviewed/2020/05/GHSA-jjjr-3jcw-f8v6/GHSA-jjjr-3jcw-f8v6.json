@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjjr-3jcw-f8v6",
-  "modified": "2024-11-19T15:42:22Z",
+  "modified": "2024-11-19T19:19:46Z",
   "published": "2020-05-07T18:04:53Z",
   "aliases": [
     "CVE-2020-11037"
@@ -116,11 +116,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-208"
+      "CWE-208",
+      "CWE-362"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2020-05-07T18:04:33Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2020-04-30T23:15:11Z"
   }
 }
