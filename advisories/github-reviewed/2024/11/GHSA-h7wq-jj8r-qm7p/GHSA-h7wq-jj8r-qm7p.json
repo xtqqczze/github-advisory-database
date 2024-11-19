@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7wq-jj8r-qm7p",
-  "modified": "2024-11-18T20:08:13Z",
+  "modified": "2024-11-19T20:25:29Z",
   "published": "2024-11-17T12:30:29Z",
   "aliases": [
     "CVE-2024-0793"
@@ -67,6 +67,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/kubernetes/kubernetes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2024-3277"
     }
   ],
   "database_specific": {
