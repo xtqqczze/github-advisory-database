@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr28-569j-53c4",
-  "modified": "2024-09-20T15:37:24Z",
+  "modified": "2024-11-18T16:26:10Z",
   "published": "2021-03-18T20:30:01Z",
   "aliases": [
     "CVE-2020-24584"
@@ -159,7 +159,7 @@
     "cwe_ids": [
       "CWE-276"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2021-03-13T00:36:35Z",
     "nvd_published_at": "2020-09-01T13:15:00Z"

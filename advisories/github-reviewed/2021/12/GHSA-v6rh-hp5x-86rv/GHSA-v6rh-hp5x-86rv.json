@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v6rh-hp5x-86rv",
-  "modified": "2024-09-20T15:44:56Z",
+  "modified": "2024-11-18T16:26:18Z",
   "published": "2021-12-09T19:09:37Z",
   "aliases": [
     "CVE-2021-44420"
@@ -127,7 +127,7 @@
     "cwe_ids": [
       "CWE-287"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2021-12-09T17:35:08Z",
     "nvd_published_at": "2021-12-08T00:15:00Z"
