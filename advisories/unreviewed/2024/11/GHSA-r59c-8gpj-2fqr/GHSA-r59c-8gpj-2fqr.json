@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r59c-8gpj-2fqr",
-  "modified": "2024-11-18T18:30:59Z",
+  "modified": "2024-11-19T18:30:58Z",
   "published": "2024-11-18T18:30:59Z",
   "aliases": [
     "CVE-2024-48292"
   ],
   "details": "An issue in the wssrvc.exe service of QuickHeal Antivirus Pro Version v24.0 and Quick Heal Total Security v24.0 allows authenticated attackers to escalate privileges.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-276"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-18T18:15:06Z"

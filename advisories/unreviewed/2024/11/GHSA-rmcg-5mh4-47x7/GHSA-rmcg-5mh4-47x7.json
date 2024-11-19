@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmcg-5mh4-47x7",
-  "modified": "2024-11-12T21:30:55Z",
+  "modified": "2024-11-19T18:30:54Z",
   "published": "2024-11-12T21:30:55Z",
   "aliases": [
     "CVE-2024-51094"
   ],
   "details": "An issue in Snipe-IT v.7.0.13 build 15514 allows a remote attacker to escalate privileges via the file /account/profile of the component \"Name\" field value under \"Edit Your Profile\".",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-1236"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-12T21:15:14Z"

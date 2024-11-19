@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vhp-r544-3wrg",
-  "modified": "2024-11-16T00:31:51Z",
+  "modified": "2024-11-19T18:30:57Z",
   "published": "2024-11-16T00:31:50Z",
   "aliases": [
     "CVE-2017-13310"
   ],
   "details": "In createFromParcel of ViewPager.java, there is a possible read/write serialization issue leading to a permissions bypass. This could lead to local escalation of privilege where an app can start an activity with system privileges with no additional execution privileges needed. User interaction is not needed for exploitation.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-276"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-15T22:15:14Z"

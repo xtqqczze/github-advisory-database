@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-975c-w82q-mxhv",
-  "modified": "2024-11-08T18:30:50Z",
+  "modified": "2024-11-19T18:30:54Z",
   "published": "2024-11-08T06:30:49Z",
   "aliases": [
     "CVE-2024-50210"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nposix-clock: posix-clock: Fix unbalanced locking in pc_clock_settime()\n\nIf get_clock_desc() succeeds, it calls fget() for the clockid's fd,\nand get the clk->rwsem read lock, so the error path should release\nthe lock to make the lock balance and fput the clockid's fd to make\nthe refcount balance and release the fd related resource.\n\nHowever the below commit left the error path locked behind resulting in\nunbalanced locking. Check timespec64_valid_strict() before\nget_clock_desc() to fix it, because the \"ts\" is not changed\nafter that.\n\n[pabeni@redhat.com: fixed commit message typo]",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-667"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-08T06:15:17Z"
