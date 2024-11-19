@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r2g-59px-3q9w",
-  "modified": "2024-11-19T16:22:31Z",
+  "modified": "2024-11-19T20:24:11Z",
   "published": "2024-11-15T12:31:45Z",
   "aliases": [
     "CVE-2023-0109"
@@ -43,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/usememos/memos/commit/46c13a4b7f675b92d297df6dabb4441f13c7cd9c"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-5r2g-59px-3q9w"
     },
     {
       "type": "PACKAGE",
