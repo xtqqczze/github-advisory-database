@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99w8-c5f6-96pp",
-  "modified": "2024-11-15T21:01:05Z",
+  "modified": "2024-11-19T16:23:05Z",
   "published": "2024-11-15T12:31:45Z",
   "aliases": [
     "CVE-2023-0737"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N"
     }
   ],
   "affected": [
