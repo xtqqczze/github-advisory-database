@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r735-9gc6-2hvq",
-  "modified": "2024-11-15T20:52:00Z",
+  "modified": "2024-11-19T20:47:47Z",
   "published": "2024-11-15T12:31:44Z",
   "aliases": [
     "CVE-2021-3988"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
   "affected": [
