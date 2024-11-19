@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hf2-chq7-2mhh",
-  "modified": "2024-06-27T21:32:08Z",
+  "modified": "2024-11-19T00:32:42Z",
   "published": "2024-06-27T21:32:08Z",
   "aliases": [
     "CVE-2024-31802"
   ],
   "details": "DESIGNA ABACUS v.18 and before allows an attacker to bypass the payment process via a crafted QR code.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-290"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-27T20:15:21Z"
