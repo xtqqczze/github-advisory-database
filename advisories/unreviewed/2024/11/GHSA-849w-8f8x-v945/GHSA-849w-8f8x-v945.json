@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-849w-8f8x-v945",
+  "modified": "2024-11-19T21:31:32Z",
+  "published": "2024-11-19T21:31:32Z",
+  "aliases": [
+    "CVE-2018-9341"
+  ],
+  "details": "In impeg2d_mc_fullx_fully of impeg2d_mc.c there is a possible out of bound write due to missing bounds check. This could lead to remote arbitrary code execution with no additional execution privileges needed. User interaction is needed for exploitation.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-9341"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/security/bulletin/2018-06-01"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-19T19:15:05Z"
+  }
+}

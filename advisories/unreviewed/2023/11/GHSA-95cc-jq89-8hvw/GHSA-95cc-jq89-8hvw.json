@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95cc-jq89-8hvw",
-  "modified": "2023-11-02T18:30:25Z",
+  "modified": "2024-11-19T21:31:30Z",
   "published": "2023-11-02T18:30:25Z",
   "aliases": [
     "CVE-2022-4900"
