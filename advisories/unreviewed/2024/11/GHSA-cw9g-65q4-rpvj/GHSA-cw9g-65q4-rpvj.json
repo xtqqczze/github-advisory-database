@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cw9g-65q4-rpvj",
-  "modified": "2024-11-19T18:31:02Z",
+  "modified": "2024-11-20T00:32:10Z",
   "published": "2024-11-19T18:31:02Z",
   "aliases": [
     "CVE-2024-51814"

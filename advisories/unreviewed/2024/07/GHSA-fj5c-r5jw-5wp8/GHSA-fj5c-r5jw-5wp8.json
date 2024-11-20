@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj5c-r5jw-5wp8",
-  "modified": "2024-07-16T18:31:42Z",
+  "modified": "2024-11-20T00:32:09Z",
   "published": "2024-07-09T15:30:54Z",
   "aliases": [
     "CVE-2024-6613"
   ],
   "details": "The frame iterator could get stuck in a loop when encountering certain wasm frames leading to incorrect stack traces. This vulnerability affects Firefox < 128.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -35,7 +38,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-09T15:15:13Z"

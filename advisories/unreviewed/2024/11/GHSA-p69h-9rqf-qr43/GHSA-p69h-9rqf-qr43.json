@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p69h-9rqf-qr43",
+  "modified": "2024-11-20T00:32:14Z",
+  "published": "2024-11-20T00:32:14Z",
+  "aliases": [
+    "CVE-2018-9467"
+  ],
+  "details": "In the getHost() function of UriTest.java, there is the possibility of incorrect web origin determination. This could lead to incorrect security decisions with no additional execution privileges needed. User interaction is not needed for exploitation.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-9467"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/security/bulletin/2018-09-01"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-20T00:15:16Z"
+  }
+}
