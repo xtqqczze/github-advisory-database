@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffp2-8p2h-4m5j",
-  "modified": "2024-11-20T18:24:28Z",
+  "modified": "2024-11-20T19:36:11Z",
   "published": "2024-11-20T18:24:28Z",
   "aliases": [
     "CVE-2024-52796"
@@ -41,17 +41,29 @@
       "url": "https://github.com/pglombardo/PasswordPusher/security/advisories/GHSA-ffp2-8p2h-4m5j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52796"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.pwpush.com/docs/proxies/#trusted-proxies"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/pglombardo/PasswordPusher"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pglombardo/PasswordPusher/releases/tag/v1.49.0"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-770"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-20T18:24:28Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-11-20T17:15:20Z"
   }
 }

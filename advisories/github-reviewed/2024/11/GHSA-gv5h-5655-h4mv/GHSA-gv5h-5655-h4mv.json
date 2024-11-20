@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv5h-5655-h4mv",
-  "modified": "2024-11-18T20:03:53Z",
+  "modified": "2024-11-20T19:35:50Z",
   "published": "2024-11-18T12:30:43Z",
   "aliases": [
     "CVE-2024-11319"
@@ -11,11 +11,11 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N"
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:A/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -73,6 +73,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/django-cms/PYSEC-2024-124.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://iltosec.com/blog/post/django-cms-413-stored-xss-vulnerability-exploiting-the-page-title-field"
     },
     {
@@ -88,7 +92,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": "CRITICAL",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-18T20:03:53Z",
     "nvd_published_at": "2024-11-18T12:15:17Z"
