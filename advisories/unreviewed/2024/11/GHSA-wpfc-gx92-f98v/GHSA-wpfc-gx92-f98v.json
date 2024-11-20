@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpfc-gx92-f98v",
-  "modified": "2024-11-07T12:30:35Z",
+  "modified": "2024-11-20T15:30:49Z",
   "published": "2024-11-07T12:30:35Z",
   "aliases": [
     "CVE-2024-50156"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/msm: Avoid NULL dereference in msm_disp_state_print_regs()\n\nIf the allocation in msm_disp_state_dump_regs() failed then\n`block->state` can be NULL. The msm_disp_state_print_regs() function\n_does_ have code to try to handle it with:\n\n  if (*reg)\n    dump_addr = *reg;\n\n...but since \"dump_addr\" is initialized to NULL the above is actually\na noop. The code then goes on to dereference `dump_addr`.\n\nMake the function print \"Registers not stored\" when it sees a NULL to\nsolve this. Since we're touching the code, fix\nmsm_disp_state_print_regs() not to pointlessly take a double-pointer\nand properly mark the pointer as `const`.\n\nPatchwork: https://patchwork.freedesktop.org/patch/619657/",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -41,9 +44,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-07T10:15:07Z"

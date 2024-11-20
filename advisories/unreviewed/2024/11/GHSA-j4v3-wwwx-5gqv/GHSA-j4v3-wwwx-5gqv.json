@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4v3-wwwx-5gqv",
-  "modified": "2024-11-20T12:30:35Z",
+  "modified": "2024-11-20T15:30:52Z",
   "published": "2024-11-20T12:30:35Z",
   "aliases": [
     "CVE-2024-11404"
@@ -20,6 +20,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11404"
+    },
+    {
+      "type": "WEB",
+      "url": "https://iltosec.com/blog/post/cve-2024-11404-medium-severity-file-upload-vulnerabilities-in-django-filer-323"
     },
     {
       "type": "WEB",

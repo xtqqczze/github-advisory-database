@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crmh-vcgf-prwv",
-  "modified": "2024-11-18T18:30:58Z",
+  "modified": "2024-11-20T15:30:51Z",
   "published": "2024-11-18T18:30:58Z",
   "aliases": [
     "CVE-2024-52425"
