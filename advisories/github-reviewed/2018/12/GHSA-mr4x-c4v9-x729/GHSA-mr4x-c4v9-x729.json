@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr4x-c4v9-x729",
-  "modified": "2024-08-30T21:52:58Z",
+  "modified": "2024-11-18T16:26:08Z",
   "published": "2018-12-20T22:01:46Z",
   "aliases": [
     "CVE-2018-1000814"
@@ -76,7 +76,7 @@
     "cwe_ids": [
       "CWE-613"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2020-06-16T21:47:02Z",
     "nvd_published_at": null
