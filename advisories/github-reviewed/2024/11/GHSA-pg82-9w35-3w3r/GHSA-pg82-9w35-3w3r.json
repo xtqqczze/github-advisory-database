@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pg82-9w35-3w3r",
-  "modified": "2024-11-15T06:30:33Z",
+  "modified": "2024-11-20T18:29:39Z",
   "published": "2024-11-15T06:30:33Z",
   "aliases": [
     "CVE-2024-39610"
   ],
+  "summary": "FitNesse Cross-site scripting",
   "details": "Cross-site scripting vulnerability exists in FitNesse releases prior to 20241026. If this vulnerability is exploited, an arbitrary script may be executed on the web browser of the user who is using the product.",
   "severity": [
     {
@@ -14,7 +15,25 @@
     }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.fitnesse:fitnesse"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20241026"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -24,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://fitnesse.org/FitNesseDownload"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/unclebob/fitnesse"
     },
     {
       "type": "WEB",
@@ -39,8 +62,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-20T18:29:39Z",
     "nvd_published_at": "2024-11-15T06:15:04Z"
   }
 }
