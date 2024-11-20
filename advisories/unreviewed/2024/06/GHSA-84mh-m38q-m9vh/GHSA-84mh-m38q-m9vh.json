@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84mh-m38q-m9vh",
-  "modified": "2024-09-20T21:31:37Z",
+  "modified": "2024-11-18T16:26:45Z",
   "published": "2024-06-18T21:30:36Z",
   "aliases": [
     "CVE-2024-6129"
@@ -47,7 +47,7 @@
       "CWE-203",
       "CWE-205"
     ],
-    "severity": "LOW",
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-18T21:15:57Z"
