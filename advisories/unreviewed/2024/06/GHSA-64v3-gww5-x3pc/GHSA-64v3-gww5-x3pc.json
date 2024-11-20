@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64v3-gww5-x3pc",
-  "modified": "2024-08-20T15:32:12Z",
+  "modified": "2024-11-18T16:26:48Z",
   "published": "2024-06-27T15:30:45Z",
   "aliases": [
     "CVE-2024-6373"
@@ -46,7 +46,7 @@
     "cwe_ids": [
       "CWE-434"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-27T13:16:02Z"
