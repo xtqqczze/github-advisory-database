@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6qv-frqj-63r6",
-  "modified": "2024-05-02T06:30:31Z",
+  "modified": "2024-11-20T21:30:43Z",
   "published": "2024-05-02T06:30:31Z",
   "aliases": [
     "CVE-2024-3471"
   ],
   "details": "The Button Generator  WordPress plugin before 3.0 does not have CSRF check in place when bulk deleting, which could allow attackers to make a logged in admin delete buttons via a CSRF attack",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:N/I:L/A:N"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-02T06:15:50Z"

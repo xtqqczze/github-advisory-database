@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxvr-wp2h-6jcm",
-  "modified": "2024-11-20T18:32:17Z",
+  "modified": "2024-11-20T21:30:49Z",
   "published": "2024-11-20T18:32:17Z",
   "aliases": [
     "CVE-2018-9487"
   ],
   "details": "In setVpnForcedLocked of Vpn.java, there is a possible blocking of internet traffic through vpn due to a bad uid check. This could lead to local denial of service with no additional execution privileges needed. User interaction is needed for exploitation.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-20T18:15:20Z"

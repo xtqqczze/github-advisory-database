@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j27h-7c89-c3c6",
+  "modified": "2024-11-20T21:30:50Z",
+  "published": "2024-11-20T21:30:50Z",
+  "aliases": [
+    "CVE-2024-52677"
+  ],
+  "details": "HkCms <= v2.3.2.240702 is vulnerable to file upload in the getFileName method in /app/common/library/Upload.php.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52677"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/J-0k3r/CVE-2024-52677"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/J-0k3r/test/blob/main/upload.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-20T21:15:08Z"
+  }
+}

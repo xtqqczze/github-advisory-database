@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgpm-9vqg-rgrr",
-  "modified": "2024-04-04T15:30:34Z",
+  "modified": "2024-11-20T21:30:42Z",
   "published": "2024-04-04T15:30:34Z",
   "aliases": [
     "CVE-2024-2759"
   ],
   "details": "Improper access control vulnerability in Apaczka plugin for PrestaShop allows information gathering from saved templates without authentication.This issue affects Apaczka plugin for PrestaShop from v1 through v4.\n\n",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -32,7 +35,7 @@
       "CWE-284",
       "CWE-552"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-04T14:15:10Z"

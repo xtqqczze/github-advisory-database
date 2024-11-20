@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7683-mrww-rjhc",
-  "modified": "2024-10-21T21:30:54Z",
+  "modified": "2024-11-20T21:30:48Z",
   "published": "2024-10-21T21:30:54Z",
   "aliases": [
     "CVE-2024-50065"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nntfs3: Change to non-blocking allocation in ntfs_d_hash\n\nd_hash is done while under \"rcu-walk\" and should not sleep.\n__get_name() allocates using GFP_KERNEL, having the possibility\nto sleep when under memory pressure. Change the allocation to\nGFP_NOWAIT.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -35,7 +38,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-21T20:15:18Z"

@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g42-h44f-r666",
-  "modified": "2024-11-20T18:32:17Z",
+  "modified": "2024-11-20T21:30:49Z",
   "published": "2024-11-20T18:32:17Z",
   "aliases": [
     "CVE-2018-9470"
   ],
   "details": "In bff_Scanner_addOutPos of Scanner.c, there is a possible out-of-bounds write due to an incorrect bounds check. This could lead to remote escalation of privilege in an unprivileged app with no additional execution privileges needed. User interaction is needed for exploitation.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-787"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-20T18:15:19Z"
