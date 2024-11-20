@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4xr-m393-778m",
-  "modified": "2024-11-20T18:25:30Z",
+  "modified": "2024-11-20T21:45:14Z",
   "published": "2024-11-20T12:30:35Z",
   "aliases": [
     "CVE-2024-48899"
@@ -9,6 +9,10 @@
   "summary": "Moodle IDOR when accessing list of course badges",
   "details": "A vulnerability was found in Moodle. Additional checks are required to ensure users can only fetch the list of course badges for courses that they are intended to have access to.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
