@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r96-8889-qg2x",
-  "modified": "2024-09-20T21:58:44Z",
+  "modified": "2024-11-18T16:26:33Z",
   "published": "2023-11-16T18:30:31Z",
   "aliases": [
     "CVE-2023-48052"
@@ -70,7 +70,7 @@
       "CWE-295",
       "CWE-599"
     ],
-    "severity": "HIGH",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2023-11-16T22:16:44Z",
     "nvd_published_at": "2023-11-16T18:15:07Z"

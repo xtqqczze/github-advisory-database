@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78m5-jpmf-ch7v",
-  "modified": "2024-09-20T21:35:08Z",
+  "modified": "2024-11-18T16:26:28Z",
   "published": "2022-12-05T23:34:43Z",
   "aliases": [
     "CVE-2022-23530"
@@ -72,7 +72,7 @@
     "cwe_ids": [
       "CWE-22"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2022-12-05T23:34:43Z",
     "nvd_published_at": "2022-12-16T23:15:00Z"
