@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcmc-c59m-pqq8",
-  "modified": "2024-08-30T18:50:00Z",
+  "modified": "2024-11-18T16:27:08Z",
   "published": "2024-08-30T18:50:00Z",
   "aliases": [
     "CVE-2023-26043"
@@ -65,7 +65,7 @@
     "cwe_ids": [
       "CWE-611"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-30T18:50:00Z",
     "nvd_published_at": "2023-02-27T21:15:12Z"
