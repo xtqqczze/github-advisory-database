@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q5xg-cgpw-7479",
-  "modified": "2024-09-18T09:30:37Z",
+  "modified": "2024-11-20T18:32:15Z",
   "published": "2024-09-18T09:30:37Z",
   "aliases": [
     "CVE-2024-46778"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check UnboundedRequestEnabled's value\n\nCalculateSwathAndDETConfiguration_params_st's UnboundedRequestEnabled\nis a pointer (i.e. dml_bool_t *UnboundedRequestEnabled), and thus\nif (p->UnboundedRequestEnabled) checks its address, not bool value.\n\nThis fixes 1 REVERSE_INULL issue reported by Coverity.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-09-18T08:15:05Z"

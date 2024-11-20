@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq8p-83c5-pghx",
-  "modified": "2024-04-28T15:30:29Z",
+  "modified": "2024-11-20T18:32:14Z",
   "published": "2024-04-28T15:30:29Z",
   "aliases": [
     "CVE-2022-48646"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsfc/siena: fix null pointer dereference in efx_hard_start_xmit\n\nLike in previous patch for sfc, prevent potential (but unlikely) NULL\npointer dereference.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
       "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-28T13:15:07Z"

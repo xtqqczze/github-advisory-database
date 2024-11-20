@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxcf-gm2j-7vh5",
-  "modified": "2024-09-27T15:30:33Z",
+  "modified": "2024-11-20T18:32:15Z",
   "published": "2024-09-27T15:30:33Z",
   "aliases": [
     "CVE-2024-46815"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check num_valid_sets before accessing reader_wm_sets[]\n\n[WHY & HOW]\nnum_valid_sets needs to be checked to avoid a negative index when\naccessing reader_wm_sets[num_valid_sets - 1].\n\nThis fixes an OVERRUN issue reported by Coverity.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -51,7 +54,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-09-27T13:15:14Z"

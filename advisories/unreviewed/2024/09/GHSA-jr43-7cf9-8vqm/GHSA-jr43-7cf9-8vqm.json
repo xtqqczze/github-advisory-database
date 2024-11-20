@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jr43-7cf9-8vqm",
-  "modified": "2024-09-27T15:30:34Z",
+  "modified": "2024-11-20T18:32:15Z",
   "published": "2024-09-27T15:30:33Z",
   "aliases": [
     "CVE-2024-46826"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nELF: fix kernel.randomize_va_space double read\n\nELF loader uses \"randomize_va_space\" twice. It is sysctl and can change\nat any moment, so 2 loads could see 2 different values in theory with\nunpredictable consequences.\n\nIssue exactly one load for consistent value across one exec.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -39,7 +42,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-09-27T13:15:15Z"

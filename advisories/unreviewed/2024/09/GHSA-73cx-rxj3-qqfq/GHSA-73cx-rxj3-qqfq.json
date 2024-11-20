@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73cx-rxj3-qqfq",
-  "modified": "2024-09-27T15:30:34Z",
+  "modified": "2024-11-20T18:32:15Z",
   "published": "2024-09-27T15:30:33Z",
   "aliases": [
     "CVE-2024-46817"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Stop amdgpu_dm initialize when stream nums greater than 6\n\n[Why]\nCoverity reports OVERRUN warning. Should abort amdgpu_dm\ninitialize.\n\n[How]\nReturn failure to amdgpu_dm_init.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -51,7 +54,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-09-27T13:15:14Z"

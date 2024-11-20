@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-924c-rx43-2mjr",
-  "modified": "2024-09-27T15:30:33Z",
+  "modified": "2024-11-20T18:32:15Z",
   "published": "2024-09-27T15:30:33Z",
   "aliases": [
     "CVE-2024-46816"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Stop amdgpu_dm initialize when link nums greater than max_links\n\n[Why]\nCoverity report OVERRUN warning. There are\nonly max_links elements within dc->links. link\ncount could up to AMDGPU_DM_MAX_DISPLAY_INDEX 31.\n\n[How]\nMake sure link count less than max_links.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-09-27T13:15:14Z"
