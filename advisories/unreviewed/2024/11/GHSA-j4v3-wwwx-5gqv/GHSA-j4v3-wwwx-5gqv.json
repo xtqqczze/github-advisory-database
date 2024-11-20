@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j4v3-wwwx-5gqv",
+  "modified": "2024-11-20T12:30:35Z",
+  "published": "2024-11-20T12:30:35Z",
+  "aliases": [
+    "CVE-2024-11404"
+  ],
+  "details": "Unrestricted Upload of File with Dangerous Type, Improper Input Validation, Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in django CMS Association django Filer allows Input Data Manipulation, Stored XSS.This issue affects django Filer: from 3 before 3.3.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L"
+    }
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11404"
+    },
+    {
+      "type": "WEB",
+      "url": "https://iltosec.com/blog/post/djangocms-attributes-field-300-stored-xss-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pypi.org/project/django-filer"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.django-cms.org/en/blog/2024/11/19/security-updates-for-django-filer-and-django-cms-attributes-field"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.usom.gov.tr/bildirim/tr-24-1864"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-20T12:15:18Z"
+  }
+}
