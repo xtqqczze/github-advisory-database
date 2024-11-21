@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44wm-f244-xhp3",
-  "modified": "2024-08-21T14:26:16Z",
+  "modified": "2024-11-18T16:26:39Z",
   "published": "2024-04-03T03:30:30Z",
   "aliases": [
     "CVE-2024-28219"
@@ -71,7 +71,7 @@
       "CWE-676",
       "CWE-680"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-04-03T14:53:39Z",
     "nvd_published_at": "2024-04-03T03:15:09Z"
