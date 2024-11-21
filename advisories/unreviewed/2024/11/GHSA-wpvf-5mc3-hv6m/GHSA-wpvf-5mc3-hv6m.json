@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpvf-5mc3-hv6m",
-  "modified": "2024-11-20T21:30:50Z",
+  "modified": "2024-11-21T21:33:31Z",
   "published": "2024-11-20T21:30:50Z",
   "aliases": [
     "CVE-2024-49203"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/querydsl/querydsl/issues/3757"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenFeign/querydsl"
     },
     {
       "type": "WEB",

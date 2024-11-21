@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vxc-ww8x-mxp8",
-  "modified": "2024-11-19T03:31:07Z",
+  "modified": "2024-11-21T21:33:31Z",
   "published": "2024-11-19T03:31:07Z",
   "aliases": [
     "CVE-2024-50264"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvsock/virtio: Initialization of the dangling pointer occurring in vsk->trans\n\nDuring loopback communication, a dangling pointer can be created in\nvsk->trans, potentially leading to a Use-After-Free condition.  This\nissue is resolved by initializing vsk->trans to NULL.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T02:16:28Z"

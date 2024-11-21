@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f655-5h7w-g749",
-  "modified": "2024-11-19T03:31:08Z",
+  "modified": "2024-11-21T21:33:31Z",
   "published": "2024-11-19T03:31:08Z",
   "aliases": [
     "CVE-2024-50300"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nregulator: rtq2208: Fix uninitialized use of regulator_config\n\nFix rtq2208 driver uninitialized use to cause kernel error.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -33,9 +36,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-908"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T02:16:32Z"

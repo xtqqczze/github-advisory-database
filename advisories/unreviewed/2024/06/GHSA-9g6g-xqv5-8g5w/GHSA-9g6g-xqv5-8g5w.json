@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g6g-xqv5-8g5w",
-  "modified": "2024-07-16T00:31:42Z",
+  "modified": "2024-11-21T21:33:30Z",
   "published": "2024-06-25T21:31:15Z",
   "aliases": [
     "CVE-2024-37820"
   ],
   "details": "A nil pointer dereference in PingCAP TiDB v8.2.0-alpha-216-gfe5858b allows attackers to crash the application via expression.inferCollation.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-25T19:15:11Z"

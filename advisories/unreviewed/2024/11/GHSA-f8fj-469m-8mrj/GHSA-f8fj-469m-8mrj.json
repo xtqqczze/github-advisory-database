@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8fj-469m-8mrj",
-  "modified": "2024-11-19T03:31:08Z",
+  "modified": "2024-11-21T21:33:31Z",
   "published": "2024-11-19T03:31:08Z",
   "aliases": [
     "CVE-2024-50287"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: v4l2-tpg: prevent the risk of a division by zero\n\nAs reported by Coverity, the logic at tpg_precalculate_line()\nblindly rescales the buffer even when scaled_witdh is equal to\nzero. If this ever happens, this will cause a division by zero.\n\nInstead, add a WARN_ON_ONCE() to trigger such cases and return\nwithout doing any precalculation.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-369"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T02:16:30Z"

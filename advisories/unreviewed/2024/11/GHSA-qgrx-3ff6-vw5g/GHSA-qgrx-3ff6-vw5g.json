@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgrx-3ff6-vw5g",
-  "modified": "2024-11-15T18:30:50Z",
+  "modified": "2024-11-21T21:33:31Z",
   "published": "2024-11-15T18:30:50Z",
   "aliases": [
     "CVE-2024-50652"
   ],
   "details": "A file upload vulnerability in java_shop 1.0 allows attackers to upload arbitrary files by modifying the avatar function.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-434"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-15T16:15:36Z"
