@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwr9-9f8v-vp5m",
-  "modified": "2024-01-12T20:28:42Z",
+  "modified": "2024-11-21T21:49:01Z",
   "published": "2022-05-17T01:39:26Z",
   "aliases": [
     "CVE-2012-5482"
@@ -56,6 +56,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/openstack/glance"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/glance/PYSEC-2012-30.yaml"
     },
     {
       "type": "WEB",

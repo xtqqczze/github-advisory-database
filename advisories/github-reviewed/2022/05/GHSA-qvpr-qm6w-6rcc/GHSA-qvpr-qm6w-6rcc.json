@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qvpr-qm6w-6rcc",
-  "modified": "2024-01-12T20:22:36Z",
+  "modified": "2024-11-21T21:48:41Z",
   "published": "2022-05-17T01:39:21Z",
   "aliases": [
     "CVE-2012-5571"
@@ -26,6 +26,22 @@
             },
             {
               "fixed": "8.0.0a0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "keystone"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
             }
           ]
         }
@@ -60,6 +76,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/openstack/keystone"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/keystone/PYSEC-2012-35.yaml"
     },
     {
       "type": "WEB",
