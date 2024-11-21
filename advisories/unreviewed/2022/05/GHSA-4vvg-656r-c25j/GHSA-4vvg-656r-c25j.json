@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vvg-656r-c25j",
-  "modified": "2024-09-10T12:30:32Z",
+  "modified": "2024-11-18T16:26:20Z",
   "published": "2022-05-13T01:02:38Z",
   "aliases": [
     "CVE-2017-2680"
@@ -70,7 +70,7 @@
     "cwe_ids": [
       "CWE-400"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2017-05-11T01:29:00Z"
