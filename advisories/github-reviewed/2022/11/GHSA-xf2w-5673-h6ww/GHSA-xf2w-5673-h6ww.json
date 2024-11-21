@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xf2w-5673-h6ww",
-  "modified": "2022-11-07T12:00:35Z",
+  "modified": "2024-11-21T22:14:21Z",
   "published": "2022-11-04T19:01:09Z",
   "aliases": [
     "CVE-2021-39432"
   ],
+  "summary": "diplib Double Free",
   "details": "diplib v3.0.0 is vulnerable to Double Free.",
   "severity": [
     {
@@ -14,7 +15,25 @@
     }
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "diplib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.1.0"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -28,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/DIPlib/diplib/commit/8b9a2670ce66ff2fd5addf592f7825e1f5adb5b5"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/DIPlib/diplib"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/diplib/PYSEC-2022-43131.yaml"
     }
   ],
   "database_specific": {
@@ -35,8 +62,8 @@
       "CWE-415"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-21T22:14:21Z",
     "nvd_published_at": "2022-11-04T17:15:00Z"
   }
 }
