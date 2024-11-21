@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv2m-x4pc-hcv2",
-  "modified": "2024-08-01T15:31:50Z",
+  "modified": "2024-11-18T16:26:46Z",
   "published": "2024-06-20T18:34:08Z",
   "aliases": [
     "CVE-2024-6193"
@@ -46,7 +46,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-20T16:15:15Z"
