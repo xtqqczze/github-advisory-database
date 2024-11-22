@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm68-fpmr-8j2g",
-  "modified": "2024-11-22T18:15:33Z",
+  "modified": "2024-11-22T18:18:26Z",
   "published": "2024-01-03T09:30:32Z",
   "aliases": [
     "CVE-2023-38675"
@@ -19,25 +19,6 @@
       "package": {
         "ecosystem": "PyPI",
         "name": "PaddlePaddle"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "2.6.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "PyPI",
-        "name": "paddlepaddle"
       },
       "ranges": [
         {
