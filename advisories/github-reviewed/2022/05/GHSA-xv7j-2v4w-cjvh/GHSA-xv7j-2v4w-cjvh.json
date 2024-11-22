@@ -1,17 +1,36 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv7j-2v4w-cjvh",
-  "modified": "2022-05-05T02:48:35Z",
+  "modified": "2024-11-22T20:19:01Z",
   "published": "2022-05-05T02:48:35Z",
   "aliases": [
     "CVE-2013-0212"
   ],
+  "summary": "OpenStack Glance logs user name and password in cleartext ",
   "details": "store/swift.py in OpenStack Glance Essex (2012.1), Folsom (2012.2) before 2012.2.3, and Grizzly, when in Swift single tenant mode, logs the Swift endpoint's user name and password in cleartext when the endpoint is misconfigured or unusable, allows remote authenticated users to obtain sensitive information by reading the error messages.",
   "severity": [
 
   ],
   "affected": [
-
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "glance"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2012.1"
+            },
+            {
+              "fixed": "2012.2.3"
+            }
+          ]
+        }
+      ]
+    }
   ],
   "references": [
     {
@@ -47,6 +66,14 @@
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=902964"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/openstack/glance"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/glance/PYSEC-2013-37.yaml"
+    },
+    {
       "type": "WEB",
       "url": "https://launchpad.net/glance/+milestone/2012.2.3"
     },
@@ -57,14 +84,6 @@
     {
       "type": "WEB",
       "url": "http://rhn.redhat.com/errata/RHSA-2013-0209.html"
-    },
-    {
-      "type": "WEB",
-      "url": "http://secunia.com/advisories/51957"
-    },
-    {
-      "type": "WEB",
-      "url": "http://secunia.com/advisories/51990"
     },
     {
       "type": "WEB",
@@ -80,8 +99,8 @@
       "CWE-200"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-11-22T20:19:01Z",
     "nvd_published_at": "2013-02-24T21:55:00Z"
   }
 }
