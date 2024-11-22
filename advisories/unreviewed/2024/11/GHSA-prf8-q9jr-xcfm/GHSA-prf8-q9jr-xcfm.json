@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prf8-q9jr-xcfm",
-  "modified": "2024-11-19T21:31:33Z",
+  "modified": "2024-11-22T21:32:13Z",
   "published": "2024-11-19T21:31:33Z",
   "aliases": [
     "CVE-2018-9369"
   ],
   "details": "In bootloader there is fastboot command allowing user specified kernel command line arguments. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is needed for exploitation.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -25,9 +28,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-276"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T20:15:27Z"

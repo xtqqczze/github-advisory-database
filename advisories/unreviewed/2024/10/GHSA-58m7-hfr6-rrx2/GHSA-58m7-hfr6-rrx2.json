@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58m7-hfr6-rrx2",
-  "modified": "2024-11-05T21:30:32Z",
+  "modified": "2024-11-22T21:32:12Z",
   "published": "2024-10-23T06:31:19Z",
   "aliases": [
     "CVE-2024-50066"
@@ -32,6 +32,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6fa1066fc5d00cb9f1b0e83b7ff6ef98d26ba2aa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/371047675"
     }
   ],
   "database_specific": {

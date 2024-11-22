@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78xf-x743-mmc6",
-  "modified": "2024-11-19T18:31:07Z",
+  "modified": "2024-11-22T21:32:13Z",
   "published": "2024-11-19T18:31:07Z",
   "aliases": [
     "CVE-2024-53061"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: s5p-jpeg: prevent buffer overflows\n\nThe current logic allows word to be less than 2. If this happens,\nthere will be buffer overflows, as reported by smatch. Add extra\nchecks to prevent it.\n\nWhile here, remove an unused word = 0 assignment.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-191"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T18:15:25Z"

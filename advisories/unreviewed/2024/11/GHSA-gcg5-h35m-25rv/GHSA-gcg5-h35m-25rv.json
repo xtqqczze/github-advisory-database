@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcg5-h35m-25rv",
-  "modified": "2024-11-13T00:30:48Z",
+  "modified": "2024-11-22T21:32:12Z",
   "published": "2024-11-12T21:30:54Z",
   "aliases": [
     "CVE-2024-10218"
@@ -32,7 +32,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-611"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,
