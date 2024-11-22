@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3p6-qcrr-6pv2",
-  "modified": "2024-11-01T15:31:45Z",
+  "modified": "2024-11-18T16:26:43Z",
   "published": "2024-06-08T12:30:47Z",
   "aliases": [
     "CVE-2024-5766"
@@ -42,7 +42,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": "LOW",
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-08T12:15:10Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmqp-mvv2-54c6",
-  "modified": "2024-08-02T10:45:18Z",
+  "modified": "2024-11-18T16:26:36Z",
   "published": "2024-02-22T12:30:56Z",
   "aliases": [
     "CVE-2024-22393"
@@ -61,7 +61,7 @@
     "cwe_ids": [
       "CWE-434"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-02-22T19:31:41Z",
     "nvd_published_at": "2024-02-22T10:15:08Z"
