@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hvj-2783-34x2",
-  "modified": "2024-08-02T16:01:47Z",
+  "modified": "2024-11-18T16:26:42Z",
   "published": "2024-05-16T18:30:31Z",
   "aliases": [
     "CVE-2024-34273"
@@ -65,7 +65,7 @@
     "cwe_ids": [
       "CWE-1321"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-02T16:01:47Z",
     "nvd_published_at": "2024-05-16T16:15:08Z"
