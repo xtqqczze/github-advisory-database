@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffp2-8p2h-4m5j",
-  "modified": "2024-11-20T19:36:11Z",
+  "modified": "2024-11-22T20:49:20Z",
   "published": "2024-11-20T18:24:28Z",
   "aliases": [
     "CVE-2024-52796"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pglombardo/PasswordPusher/releases/tag/v1.49.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/pwpush/CVE-2024-52796.yml"
     }
   ],
   "database_specific": {

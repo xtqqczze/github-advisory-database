@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4pg-vg54-wxx4",
-  "modified": "2024-11-20T20:48:11Z",
+  "modified": "2024-11-22T20:50:10Z",
   "published": "2024-11-20T20:48:11Z",
   "aliases": [
 
@@ -101,6 +101,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/cert-manager/cert-manager"
+    },
+    {
+      "type": "WEB",
+      "url": "https://go.dev/issue/50116"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2024-3282"
     }
   ],
   "database_specific": {
