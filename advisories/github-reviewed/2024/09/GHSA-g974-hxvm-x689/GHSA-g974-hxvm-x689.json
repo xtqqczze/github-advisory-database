@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g974-hxvm-x689",
-  "modified": "2024-09-10T15:52:57Z",
+  "modified": "2024-11-18T16:27:11Z",
   "published": "2024-09-10T06:30:48Z",
   "aliases": [
     "CVE-2024-21528"
@@ -61,7 +61,7 @@
     "cwe_ids": [
       "CWE-1321"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-10T15:52:56Z",
     "nvd_published_at": "2024-09-10T05:15:10Z"
