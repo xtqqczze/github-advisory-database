@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4952-p58q-6crx",
-  "modified": "2024-09-23T17:08:09Z",
+  "modified": "2024-11-18T16:26:15Z",
   "published": "2021-08-23T19:40:22Z",
   "aliases": [
     "CVE-2021-32797"
@@ -181,7 +181,7 @@
       "CWE-79",
       "CWE-87"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2021-08-23T16:41:37Z",
     "nvd_published_at": "2021-08-09T21:15:00Z"
