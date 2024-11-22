@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q793-mj5v-wh68",
-  "modified": "2024-09-07T18:30:23Z",
+  "modified": "2024-11-22T12:39:08Z",
   "published": "2024-09-07T18:30:23Z",
   "aliases": [
     "CVE-2024-36137"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://nodejs.org/en/blog/vulnerability/july-2024-security-releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241122-0005"
     }
   ],
   "database_specific": {

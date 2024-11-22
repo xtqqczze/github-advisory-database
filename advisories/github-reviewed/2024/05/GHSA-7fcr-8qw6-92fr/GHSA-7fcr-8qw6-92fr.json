@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fcr-8qw6-92fr",
-  "modified": "2024-07-30T21:26:08Z",
+  "modified": "2024-11-22T12:39:09Z",
   "published": "2024-05-14T20:30:57Z",
   "aliases": [
     "CVE-2024-30045"
@@ -568,6 +568,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30045"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241122-0001"
     }
   ],
   "database_specific": {

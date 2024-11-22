@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwxf-wjq7-j3hm",
-  "modified": "2024-05-22T18:30:38Z",
+  "modified": "2024-11-22T12:39:07Z",
   "published": "2023-12-23T15:30:17Z",
   "aliases": [
     "CVE-2023-7008"
@@ -52,6 +52,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241122-0004"
     }
   ],
   "database_specific": {

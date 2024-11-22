@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m9gf-397r-hwpg",
-  "modified": "2024-09-09T20:19:45Z",
+  "modified": "2024-11-22T12:39:08Z",
   "published": "2024-09-09T15:30:41Z",
   "aliases": [
     "CVE-2024-8372"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/angular/angular.js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241122-0002"
     },
     {
       "type": "WEB",
