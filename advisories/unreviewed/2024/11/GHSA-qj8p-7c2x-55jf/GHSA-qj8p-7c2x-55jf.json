@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qj8p-7c2x-55jf",
-  "modified": "2024-11-18T15:33:20Z",
+  "modified": "2024-11-22T04:25:02Z",
   "published": "2024-11-18T15:33:20Z",
   "aliases": [
     "CVE-2024-11303"
@@ -24,6 +24,10 @@
     {
       "type": "WEB",
       "url": "https://cyberdanube.com/en/en-st-polten-uas-path-traversal-in-korenix-jetport"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Nov/8"
     }
   ],
   "database_specific": {
