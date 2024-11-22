@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qmj-7962-cjq8",
-  "modified": "2024-09-27T21:41:39Z",
+  "modified": "2024-11-22T22:42:14Z",
   "published": "2023-07-03T21:30:57Z",
   "aliases": [
     "CVE-2023-36258"
@@ -23,11 +23,6 @@
       "package": {
         "ecosystem": "PyPI",
         "name": "langchain"
-      },
-      "ecosystem_specific": {
-        "affected_functions": [
-          "langchain.chains.PALChain"
-        ]
       },
       "ranges": [
         {
@@ -92,7 +87,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-94"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
