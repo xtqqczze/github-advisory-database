@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cm22-4g7w-348p",
-  "modified": "2024-09-10T19:42:33Z",
+  "modified": "2024-11-18T16:27:11Z",
   "published": "2024-09-10T19:42:33Z",
   "aliases": [
     "CVE-2024-43800"
@@ -84,7 +84,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-10T19:42:33Z",
     "nvd_published_at": "2024-09-10T15:15:17Z"
