@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpfr-3m35-5vx5",
-  "modified": "2024-08-22T16:41:08Z",
+  "modified": "2024-11-18T16:27:06Z",
   "published": "2024-08-22T16:41:08Z",
   "aliases": [
     "CVE-2024-43787"
@@ -65,7 +65,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-22T16:41:08Z",
     "nvd_published_at": "2024-08-22T15:15:16Z"

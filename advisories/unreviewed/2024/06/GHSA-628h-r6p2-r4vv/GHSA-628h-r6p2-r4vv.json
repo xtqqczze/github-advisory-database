@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-628h-r6p2-r4vv",
-  "modified": "2024-08-23T03:30:59Z",
+  "modified": "2024-11-18T16:26:47Z",
   "published": "2024-06-21T03:30:33Z",
   "aliases": [
     "CVE-2024-6213"
@@ -46,7 +46,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-21T01:16:02Z"
