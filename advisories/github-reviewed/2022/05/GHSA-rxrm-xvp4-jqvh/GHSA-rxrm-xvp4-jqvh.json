@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxrm-xvp4-jqvh",
-  "modified": "2024-05-14T21:17:02Z",
+  "modified": "2024-11-22T17:51:18Z",
   "published": "2022-05-17T04:44:52Z",
   "aliases": [
     "CVE-2013-2006"
@@ -56,6 +56,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/openstack/keystone"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/keystone/PYSEC-2013-40.yaml"
     },
     {
       "type": "WEB",
