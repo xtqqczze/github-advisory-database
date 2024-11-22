@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf7j-cmrj-pmmm",
-  "modified": "2024-08-02T10:46:44Z",
+  "modified": "2024-11-18T16:26:37Z",
   "published": "2024-02-27T15:30:33Z",
   "aliases": [
     "CVE-2024-25723"
@@ -129,7 +129,7 @@
     "cwe_ids": [
       "CWE-284"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-02-27T21:54:56Z",
     "nvd_published_at": "2024-02-27T15:15:07Z"
