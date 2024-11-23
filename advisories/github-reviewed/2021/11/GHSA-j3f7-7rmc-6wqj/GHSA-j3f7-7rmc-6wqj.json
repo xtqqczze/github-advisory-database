@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3f7-7rmc-6wqj",
-  "modified": "2024-09-12T20:52:09Z",
+  "modified": "2024-11-18T16:26:17Z",
   "published": "2021-11-24T20:35:03Z",
   "aliases": [
     "CVE-2021-40831"
@@ -127,7 +127,7 @@
     "cwe_ids": [
       "CWE-295"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2021-11-24T20:23:57Z",
     "nvd_published_at": "2021-11-23T00:15:00Z"
