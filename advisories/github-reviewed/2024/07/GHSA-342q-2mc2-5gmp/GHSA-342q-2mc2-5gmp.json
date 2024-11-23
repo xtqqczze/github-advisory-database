@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-342q-2mc2-5gmp",
-  "modified": "2024-07-15T21:38:46Z",
+  "modified": "2024-11-18T16:26:52Z",
   "published": "2024-07-15T17:47:00Z",
   "aliases": [
     "CVE-2024-39919"
@@ -61,7 +61,7 @@
     "cwe_ids": [
       "CWE-200"
     ],
-    "severity": "LOW",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-07-15T17:47:00Z",
     "nvd_published_at": "2024-07-15T20:15:04Z"

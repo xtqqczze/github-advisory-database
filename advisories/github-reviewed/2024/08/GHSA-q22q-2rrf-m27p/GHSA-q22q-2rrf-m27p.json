@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q22q-2rrf-m27p",
-  "modified": "2024-08-23T18:51:06Z",
+  "modified": "2024-11-18T16:26:58Z",
   "published": "2024-08-01T15:32:23Z",
   "aliases": [
     "CVE-2024-39777"
@@ -114,7 +114,7 @@
     "cwe_ids": [
       "CWE-284"
     ],
-    "severity": "HIGH",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-23T18:51:05Z",
     "nvd_published_at": "2024-08-01T15:15:12Z"
