@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vrj-cvff-5p56",
-  "modified": "2024-11-19T18:31:07Z",
+  "modified": "2024-11-23T03:31:57Z",
   "published": "2024-11-19T18:31:07Z",
   "aliases": [
     "CVE-2024-53069"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfirmware: qcom: scm: fix a NULL-pointer dereference\n\nSome SCM calls can be invoked with __scm being NULL (the driver may not\nhave been and will not be probed as there's no SCM entry in device-tree).\nMake sure we don't dereference a NULL pointer.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-476"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T18:15:26Z"

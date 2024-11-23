@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcqh-96hr-hv69",
-  "modified": "2024-11-19T03:31:07Z",
+  "modified": "2024-11-23T03:31:57Z",
   "published": "2024-11-19T03:31:07Z",
   "aliases": [
     "CVE-2024-50268"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: fix potential out of bounds in ucsi_ccg_update_set_new_cam_cmd()\n\nThe \"*cmd\" variable can be controlled by the user via debugfs.  That means\n\"new_cam\" can be as high as 255 while the size of the uc->updated[] array\nis UCSI_MAX_ALTMODES (30).\n\nThe call tree is:\nucsi_cmd() // val comes from simple_attr_write_xsigned()\n-> ucsi_send_command()\n   -> ucsi_send_command_common()\n      -> ucsi_run_command() // calls ucsi->ops->sync_control()\n         -> ucsi_ccg_sync_control()",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -45,9 +48,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-125"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T02:16:28Z"
