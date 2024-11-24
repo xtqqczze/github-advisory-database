@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x29-qqmq-v6qc",
-  "modified": "2024-08-14T20:53:47Z",
+  "modified": "2024-11-18T16:27:04Z",
   "published": "2024-08-14T20:53:47Z",
   "aliases": [
 
@@ -60,7 +60,7 @@
     "cwe_ids": [
       "CWE-94"
     ],
-    "severity": "CRITICAL",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-14T20:53:47Z",
     "nvd_published_at": null
