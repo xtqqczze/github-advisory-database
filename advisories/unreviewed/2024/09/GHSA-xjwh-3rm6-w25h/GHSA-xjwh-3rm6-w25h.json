@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjwh-3rm6-w25h",
-  "modified": "2024-09-16T18:31:20Z",
+  "modified": "2024-11-24T00:33:46Z",
   "published": "2024-09-02T18:31:25Z",
   "aliases": [
     "CVE-2024-44947"
@@ -52,6 +52,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ac42e0f0eb66af966015ee33fd355bc6f5d80cd6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/42451729"
     }
   ],
   "database_specific": {
