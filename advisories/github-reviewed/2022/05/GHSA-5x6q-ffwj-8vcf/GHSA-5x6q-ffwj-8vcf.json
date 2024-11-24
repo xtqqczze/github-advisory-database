@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5x6q-ffwj-8vcf",
-  "modified": "2024-09-12T20:52:47Z",
+  "modified": "2024-11-18T16:26:22Z",
   "published": "2022-05-17T01:57:32Z",
   "aliases": [
     "CVE-2015-4082"
@@ -77,7 +77,7 @@
     "cwe_ids": [
 
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-05-01T10:59:36Z",
     "nvd_published_at": "2017-08-18T16:29:00Z"

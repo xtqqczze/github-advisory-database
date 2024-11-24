@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7x6-xfcm-3mxv",
-  "modified": "2024-09-12T20:08:48Z",
+  "modified": "2024-11-18T16:26:33Z",
   "published": "2023-11-12T15:30:20Z",
   "aliases": [
     "CVE-2023-42781"
@@ -73,7 +73,7 @@
     "cwe_ids": [
       "CWE-200"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2023-11-14T20:35:47Z",
     "nvd_published_at": "2023-11-12T14:15:25Z"

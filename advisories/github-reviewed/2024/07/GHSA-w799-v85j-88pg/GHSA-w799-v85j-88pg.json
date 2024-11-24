@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w799-v85j-88pg",
-  "modified": "2024-07-25T18:32:34Z",
+  "modified": "2024-11-18T16:26:52Z",
   "published": "2024-07-17T03:31:38Z",
   "aliases": [
     "CVE-2024-6535"
@@ -74,7 +74,7 @@
       "CWE-1392",
       "CWE-287"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-07-17T16:01:10Z",
     "nvd_published_at": "2024-07-17T03:15:01Z"
