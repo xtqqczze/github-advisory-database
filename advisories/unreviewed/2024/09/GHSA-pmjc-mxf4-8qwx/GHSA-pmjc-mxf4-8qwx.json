@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmjc-mxf4-8qwx",
-  "modified": "2024-09-04T18:30:57Z",
+  "modified": "2024-11-24T21:30:46Z",
   "published": "2024-09-04T15:30:35Z",
   "aliases": [
     "CVE-2024-7923"
@@ -32,6 +32,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2024:6337"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8906"
     },
     {
       "type": "WEB",
