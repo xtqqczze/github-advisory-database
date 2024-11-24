@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgvw-jh5j-mgq3",
-  "modified": "2024-11-19T18:30:59Z",
+  "modified": "2024-11-24T15:31:38Z",
   "published": "2024-11-18T18:30:58Z",
   "aliases": [
     "CVE-2024-9474"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://security.paloaltonetworks.com/CVE-2024-9474"
+    },
+    {
+      "type": "WEB",
+      "url": "https://unit42.paloaltonetworks.com/cve-2024-0012-cve-2024-9474"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qp96-9hxv-3xx4",
-  "modified": "2024-11-06T15:30:40Z",
+  "modified": "2024-11-24T15:31:37Z",
   "published": "2024-11-06T15:30:40Z",
   "aliases": [
     "CVE-2024-10914"
@@ -43,12 +43,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.bleepingcomputer.com/news/security/d-link-wont-fix-critical-flaw-affecting-60-000-older-nas-devices"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.dlink.com"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-707"
+      "CWE-707",
+      "CWE-74"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,
