@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65rm-h285-5cc5",
-  "modified": "2024-11-18T22:12:13Z",
+  "modified": "2024-11-25T18:33:21Z",
   "published": "2019-08-16T14:02:35Z",
   "aliases": [
     "CVE-2019-12855"
@@ -59,6 +59,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/twisted/twisted"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PLTZDMFBNFSJMBXYJNGJHENJA4H2TSMZ"
     },
     {
       "type": "WEB",
