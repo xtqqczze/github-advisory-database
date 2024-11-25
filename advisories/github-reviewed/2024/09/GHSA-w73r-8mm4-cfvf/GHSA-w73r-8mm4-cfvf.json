@@ -1,13 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w73r-8mm4-cfvf",
-  "modified": "2024-11-04T15:27:42Z",
+  "modified": "2024-11-25T16:00:57Z",
   "published": "2024-09-13T18:31:48Z",
+  "withdrawn": "2024-11-25T16:00:57Z",
   "aliases": [
     "CVE-2024-6582"
   ],
-  "summary": "Lunary Improper Authentication vulnerability",
-  "details": "A broken access control vulnerability exists prior to commit 1f043d8798ad87346dfe378eea723bff78ad7433 of lunary-ai/lunary. The `saml.ts` file allows a user from one organization to update the Identity Provider (IDP) settings and view the SSO metadata of another organization. This vulnerability can lead to unauthorized access and potential account takeover if the email of a user in the target organization is known.",
+  "summary": "Withdrawn Advisory: Lunary Improper Authentication vulnerability",
+  "details": "# Withdrawn Advisory\n\nThis advisory was incorrectly linked the the npm package `lunary`. The advisory is valid, but not for that package.\n\n# Original Advisory\n\nA broken access control vulnerability exists prior to commit 1f043d8798ad87346dfe378eea723bff78ad7433 of lunary-ai/lunary. The `saml.ts` file allows a user from one organization to update the Identity Provider (IDP) settings and view the SSO metadata of another organization. This vulnerability can lead to unauthorized access and potential account takeover if the email of a user in the target organization is known.",
   "severity": [
     {
       "type": "CVSS_V3",
