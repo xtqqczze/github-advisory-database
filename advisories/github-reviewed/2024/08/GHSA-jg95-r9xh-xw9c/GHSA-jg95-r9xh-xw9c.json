@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jg95-r9xh-xw9c",
-  "modified": "2024-08-23T22:51:28Z",
+  "modified": "2024-11-25T19:30:13Z",
   "published": "2024-08-23T21:30:42Z",
   "aliases": [
     "CVE-2024-45187"
@@ -55,7 +55,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-266"
+      "CWE-266",
+      "CWE-613"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
