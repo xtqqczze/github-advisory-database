@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32p4-gm2c-wmch",
-  "modified": "2024-11-06T21:30:55Z",
+  "modified": "2024-11-25T00:31:54Z",
   "published": "2024-11-06T12:31:32Z",
   "aliases": [
     "CVE-2024-9902"
@@ -143,6 +143,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2024:8969"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:9894"
     },
     {
       "type": "WEB",
