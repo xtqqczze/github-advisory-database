@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w89j-rfr2-3vwq",
-  "modified": "2024-08-21T15:30:54Z",
+  "modified": "2024-11-25T06:34:57Z",
   "published": "2024-08-21T15:30:54Z",
   "aliases": [
     "CVE-2024-8007"
@@ -20,6 +20,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8007"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:9990"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:9991"
     },
     {
       "type": "WEB",
