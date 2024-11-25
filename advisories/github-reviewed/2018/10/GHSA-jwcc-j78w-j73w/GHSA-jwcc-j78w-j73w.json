@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jwcc-j78w-j73w",
-  "modified": "2024-09-04T18:58:44Z",
+  "modified": "2024-11-18T16:26:08Z",
   "published": "2018-10-10T17:23:20Z",
   "aliases": [
     "CVE-2018-10855"
@@ -124,7 +124,7 @@
     "cwe_ids": [
       "CWE-532"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2020-06-16T21:44:13Z",
     "nvd_published_at": "2018-07-03T01:29:00Z"

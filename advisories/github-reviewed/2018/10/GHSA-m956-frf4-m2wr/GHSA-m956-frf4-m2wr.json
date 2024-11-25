@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m956-frf4-m2wr",
-  "modified": "2024-09-04T18:50:33Z",
+  "modified": "2024-11-18T16:26:08Z",
   "published": "2018-10-10T17:22:53Z",
   "aliases": [
     "CVE-2016-9587"
@@ -122,7 +122,7 @@
     "cwe_ids": [
       "CWE-20"
     ],
-    "severity": "HIGH",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2020-06-16T21:45:38Z",
     "nvd_published_at": "2018-04-24T16:29:00Z"
