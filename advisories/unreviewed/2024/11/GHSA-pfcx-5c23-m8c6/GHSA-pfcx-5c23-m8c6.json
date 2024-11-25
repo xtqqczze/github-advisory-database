@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfcx-5c23-m8c6",
-  "modified": "2024-11-22T21:32:15Z",
+  "modified": "2024-11-25T21:30:49Z",
   "published": "2024-11-22T21:32:15Z",
   "aliases": [
     "CVE-2024-51074"
   ],
   "details": "Incorrect access control in Instrument Cluster KIA Seltos Software v1.0, Hardware v1.0 allows attackers to arbitrarily change odometer readings in the vehicle.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:H"
+    }
   ],
   "affected": [
 
@@ -31,7 +34,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-22T16:15:33Z"

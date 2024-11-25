@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-363w-4gjr-hxxf",
-  "modified": "2024-11-19T18:31:07Z",
+  "modified": "2024-11-25T21:30:49Z",
   "published": "2024-11-19T18:31:07Z",
   "aliases": [
     "CVE-2024-53070"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: dwc3: fix fault at system suspend if device was already runtime suspended\n\nIf the device was already runtime suspended then during system suspend\nwe cannot access the device registers else it will crash.\n\nAlso we cannot access any registers after dwc3_core_exit() on some\nplatforms so move the dwc3_enable_susphy() call to the top.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -43,7 +46,7 @@
     "cwe_ids": [
 
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T18:15:26Z"
