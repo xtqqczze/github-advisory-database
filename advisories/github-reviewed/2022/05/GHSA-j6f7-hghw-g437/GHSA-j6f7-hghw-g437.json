@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6f7-hghw-g437",
-  "modified": "2024-09-13T14:23:26Z",
+  "modified": "2024-11-18T16:26:23Z",
   "published": "2022-05-17T03:05:15Z",
   "aliases": [
     "CVE-2016-9964"
@@ -81,7 +81,7 @@
     "cwe_ids": [
       "CWE-93"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2022-05-31T15:43:48Z",
     "nvd_published_at": "2016-12-16T09:59:00Z"

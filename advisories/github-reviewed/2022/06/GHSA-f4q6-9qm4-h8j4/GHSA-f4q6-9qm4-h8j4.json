@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4q6-9qm4-h8j4",
-  "modified": "2024-09-13T18:10:22Z",
+  "modified": "2024-11-18T16:26:26Z",
   "published": "2022-06-09T23:48:49Z",
   "aliases": [
     "CVE-2022-24065"
@@ -81,7 +81,7 @@
     "cwe_ids": [
       "CWE-78"
     ],
-    "severity": "HIGH",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2022-06-09T23:48:49Z",
     "nvd_published_at": "2022-06-08T08:15:00Z"
