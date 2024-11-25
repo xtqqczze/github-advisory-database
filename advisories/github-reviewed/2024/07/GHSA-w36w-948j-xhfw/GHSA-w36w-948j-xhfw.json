@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w36w-948j-xhfw",
-  "modified": "2024-07-22T14:42:24Z",
+  "modified": "2024-11-25T19:28:45Z",
   "published": "2024-07-21T12:30:48Z",
   "aliases": [
     "CVE-2024-6960"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/h2oai/h2o-3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mvnrepository.com/artifact/ai.h2o/h2o-core"
     },
     {
       "type": "WEB",
