@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqwr-j9mm-fhw6",
-  "modified": "2024-11-25T19:34:24Z",
+  "modified": "2024-11-25T21:46:50Z",
   "published": "2024-11-25T19:34:24Z",
   "aliases": [
     "CVE-2024-32468"
@@ -45,6 +45,10 @@
       "url": "https://github.com/denoland/deno/security/advisories/GHSA-qqwr-j9mm-fhw6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-32468"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/denoland/deno_doc/commit/0f1ef3efbf16194730a29d93dcb9c02f6c490942"
     },
@@ -64,6 +68,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-25T19:34:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-11-25T19:15:09Z"
   }
 }
