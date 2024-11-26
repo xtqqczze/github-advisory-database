@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2php-gcq2-fxqp",
-  "modified": "2024-11-26T09:30:49Z",
+  "modified": "2024-11-26T12:41:36Z",
   "published": "2024-11-26T09:30:49Z",
   "aliases": [
     "CVE-2024-33605"
   ],
   "details": "Improper processing of some parameters of installed_emanual_list.html leads to a path traversal vulnerability. As for the details of affected product names, model numbers, and versions, refer to the information provided by the respective vendors listed under [References].",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
   "affected": [
 
@@ -47,7 +50,7 @@
     "cwe_ids": [
       "CWE-22"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-26T08:15:05Z"

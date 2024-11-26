@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq4w-jf35-7pmx",
-  "modified": "2024-11-20T18:32:17Z",
+  "modified": "2024-11-26T12:41:33Z",
   "published": "2024-11-20T12:30:35Z",
   "aliases": [
     "CVE-2024-10382"
