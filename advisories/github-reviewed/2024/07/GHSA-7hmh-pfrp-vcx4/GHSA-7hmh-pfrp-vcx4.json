@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hmh-pfrp-vcx4",
-  "modified": "2024-07-08T18:41:00Z",
+  "modified": "2024-11-18T16:26:50Z",
   "published": "2024-07-08T18:41:00Z",
   "aliases": [
     "CVE-2024-39895"
@@ -61,7 +61,7 @@
     "cwe_ids": [
       "CWE-400"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-07-08T18:41:00Z",
     "nvd_published_at": "2024-07-08T17:15:11Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x744-mm8v-vpgr",
-  "modified": "2024-07-08T20:50:03Z",
+  "modified": "2024-11-18T16:26:42Z",
   "published": "2024-05-14T22:29:41Z",
   "aliases": [
     "CVE-2022-39201"
@@ -88,7 +88,7 @@
     "cwe_ids": [
       "CWE-200"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-05-14T22:29:41Z",
     "nvd_published_at": "2022-10-13T23:15:00Z"
