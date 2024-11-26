@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxc6-q6r3-h584",
-  "modified": "2024-11-12T15:30:44Z",
+  "modified": "2024-11-26T21:32:22Z",
   "published": "2024-11-12T15:30:43Z",
   "aliases": [
     "CVE-2024-51563"
   ],
   "details": "The virtio_vq_recordon function is subject to a time-of-check to time-of-use (TOCTOU) race condition.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L"
+    }
   ],
   "affected": [
 
@@ -27,7 +30,7 @@
     "cwe_ids": [
       "CWE-367"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-12T15:15:10Z"

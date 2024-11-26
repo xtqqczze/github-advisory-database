@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j27h-7c89-c3c6",
-  "modified": "2024-11-22T21:32:13Z",
+  "modified": "2024-11-26T21:32:23Z",
   "published": "2024-11-20T21:30:50Z",
   "aliases": [
     "CVE-2024-52677"
@@ -28,6 +28,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/J-0k3r/test/blob/main/upload.pdf"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/ghsa-j27h-7c89-c3c6"
     }
   ],
   "database_specific": {

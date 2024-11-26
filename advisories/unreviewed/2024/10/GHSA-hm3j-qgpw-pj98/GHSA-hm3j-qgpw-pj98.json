@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm3j-qgpw-pj98",
-  "modified": "2024-11-18T21:30:43Z",
+  "modified": "2024-11-26T21:32:22Z",
   "published": "2024-10-09T15:32:18Z",
   "aliases": [
     "CVE-2024-9680"
@@ -23,7 +23,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=281992"
+    },
+    {
+      "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1923344"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00005.html"
     },
     {
       "type": "WEB",
