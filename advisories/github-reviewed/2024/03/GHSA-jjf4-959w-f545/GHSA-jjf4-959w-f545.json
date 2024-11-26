@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjf4-959w-f545",
-  "modified": "2024-09-04T20:20:08Z",
+  "modified": "2024-11-18T16:26:38Z",
   "published": "2024-03-28T00:31:37Z",
   "aliases": [
     "CVE-2023-47438"
@@ -57,7 +57,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-04T20:20:07Z",
     "nvd_published_at": "2024-03-27T22:15:07Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhr7-8jx4-r9cp",
-  "modified": "2024-09-16T17:19:18Z",
+  "modified": "2024-11-18T16:26:34Z",
   "published": "2023-12-30T00:30:23Z",
   "aliases": [
     "CVE-2023-3628"
@@ -96,7 +96,7 @@
     "cwe_ids": [
       "CWE-304"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-16T17:19:18Z",
     "nvd_published_at": "2023-12-18T14:15:08Z"
