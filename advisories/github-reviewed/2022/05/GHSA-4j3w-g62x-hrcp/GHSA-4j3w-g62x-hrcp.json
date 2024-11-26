@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j3w-g62x-hrcp",
-  "modified": "2024-11-22T20:13:55Z",
+  "modified": "2024-11-26T16:50:55Z",
   "published": "2022-05-01T23:28:05Z",
   "aliases": [
     "CVE-2008-0164"
@@ -9,7 +9,14 @@
   "summary": "Plone Cross-site request forgery (CSRF)",
   "details": "Multiple cross-site request forgery (CSRF) vulnerabilities in Plone CMS before 3.1 allow remote attackers to (1) add arbitrary accounts via the join_form page and (2) change the privileges of arbitrary groups via the prefs_groups_overview page.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
+    }
   ],
   "affected": [
     {
@@ -59,10 +66,6 @@
     },
     {
       "type": "WEB",
-      "url": "http://securityreason.com/securityalert/3754"
-    },
-    {
-      "type": "WEB",
       "url": "http://www.procheckup.com/Hacking_Plone_CMS.pdf"
     }
   ],
@@ -70,7 +73,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-05-14T17:23:26Z",
     "nvd_published_at": "2008-03-20T00:44:00Z"
