@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc6v-g3xw-grmx",
-  "modified": "2024-07-08T19:27:27Z",
+  "modified": "2024-11-18T16:26:34Z",
   "published": "2024-01-03T16:13:33Z",
   "aliases": [
     "CVE-2023-46738"
@@ -61,7 +61,7 @@
     "cwe_ids": [
       "CWE-770"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-01-03T16:13:33Z",
     "nvd_published_at": "2024-01-03T16:15:08Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhxj-gh46-jvw8",
-  "modified": "2024-07-08T20:44:52Z",
+  "modified": "2024-11-18T16:26:41Z",
   "published": "2024-05-14T22:22:57Z",
   "aliases": [
     "CVE-2022-31123"
@@ -84,7 +84,7 @@
     "cwe_ids": [
       "CWE-347"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-05-14T22:22:57Z",
     "nvd_published_at": "2022-10-13T22:15:00Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp43-vprh-c3w5",
-  "modified": "2024-07-08T21:03:14Z",
+  "modified": "2024-11-18T16:26:39Z",
   "published": "2024-04-05T09:30:39Z",
   "aliases": [
     "CVE-2024-2447"
@@ -114,7 +114,7 @@
     "cwe_ids": [
       "CWE-284"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-04-05T17:07:26Z",
     "nvd_published_at": "2024-04-05T09:15:09Z"
