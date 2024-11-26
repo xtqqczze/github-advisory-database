@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j36m-hv43-7w7m",
-  "modified": "2024-11-21T21:47:27Z",
+  "modified": "2024-11-26T16:57:13Z",
   "published": "2022-05-13T01:07:31Z",
   "aliases": [
     "CVE-2017-2673"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -127,6 +131,10 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/oss-sec/2017/q2/125"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/bid/98032"
     }
   ],
   "database_specific": {
