@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6vm-3ch8-c6jq",
-  "modified": "2024-11-21T21:06:23Z",
+  "modified": "2024-11-26T15:49:56Z",
   "published": "2022-09-06T00:00:27Z",
   "aliases": [
     "CVE-2022-38369"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U"
     }
   ],
   "affected": [
@@ -80,7 +84,7 @@
     "cwe_ids": [
       "CWE-384"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2022-09-15T03:32:13Z",
     "nvd_published_at": "2022-09-05T10:15:00Z"
