@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77vc-rj32-2r33",
-  "modified": "2024-07-18T15:01:24Z",
+  "modified": "2024-11-18T16:26:51Z",
   "published": "2024-07-10T16:04:08Z",
   "aliases": [
     "CVE-2024-39901"
@@ -66,7 +66,7 @@
       "CWE-285",
       "CWE-639"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2024-07-10T16:04:08Z",
     "nvd_published_at": "2024-07-09T22:15:03Z"

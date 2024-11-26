@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69p6-gp5x-j269",
-  "modified": "2024-08-26T19:33:21Z",
+  "modified": "2024-11-18T16:26:55Z",
   "published": "2024-07-25T21:31:20Z",
   "aliases": [
     "CVE-2024-29069"
@@ -66,7 +66,7 @@
       "CWE-59",
       "CWE-610"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2024-07-26T16:39:29Z",
     "nvd_published_at": "2024-07-25T20:15:04Z"
