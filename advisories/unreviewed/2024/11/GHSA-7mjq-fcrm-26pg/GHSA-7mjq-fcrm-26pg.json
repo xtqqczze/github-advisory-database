@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mjq-fcrm-26pg",
-  "modified": "2024-11-26T12:41:37Z",
+  "modified": "2024-11-26T15:31:01Z",
   "published": "2024-11-26T12:41:37Z",
   "aliases": [
     "CVE-2024-38831"
@@ -28,7 +28,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-77"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

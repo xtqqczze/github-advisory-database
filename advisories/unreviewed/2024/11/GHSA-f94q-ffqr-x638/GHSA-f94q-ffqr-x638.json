@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f94q-ffqr-x638",
-  "modified": "2024-11-26T12:41:37Z",
+  "modified": "2024-11-26T15:31:01Z",
   "published": "2024-11-26T12:41:37Z",
   "aliases": [
     "CVE-2024-47248"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/z8m7jqh54xybf9kz8q2l3tz92zsj7tmz"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/26/2"
     }
   ],
   "database_specific": {
