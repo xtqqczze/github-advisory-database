@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v784-fjjh-f8r4",
-  "modified": "2024-08-06T18:20:42Z",
+  "modified": "2024-11-18T16:27:00Z",
   "published": "2024-08-05T19:49:45Z",
   "aliases": [
     "CVE-2024-34344"
@@ -66,7 +66,7 @@
       "CWE-706",
       "CWE-94"
     ],
-    "severity": "HIGH",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-05T19:49:45Z",
     "nvd_published_at": "2024-08-05T21:15:38Z"

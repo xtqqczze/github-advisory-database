@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2v35-wj4r-rcmv",
-  "modified": "2024-07-08T20:40:04Z",
+  "modified": "2024-11-18T16:26:25Z",
   "published": "2022-05-24T17:40:02Z",
   "aliases": [
     "CVE-2020-8567"
@@ -107,7 +107,7 @@
     "cwe_ids": [
       "CWE-22"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2024-04-24T20:07:30Z",
     "nvd_published_at": "2021-01-21T17:15:00Z"

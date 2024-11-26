@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m25m-5778-fm22",
-  "modified": "2024-07-08T20:01:05Z",
+  "modified": "2024-11-18T16:26:25Z",
   "published": "2022-05-24T17:16:52Z",
   "aliases": [
     "CVE-2020-12459"
@@ -90,7 +90,7 @@
       "CWE-200",
       "CWE-732"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-02-01T21:46:14Z",
     "nvd_published_at": "2020-04-29T16:15:00Z"
