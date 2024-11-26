@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hfmf-v8jm-fcm9",
+  "modified": "2024-11-26T00:33:31Z",
+  "published": "2024-11-26T00:33:31Z",
+  "aliases": [
+    "CVE-2024-53597"
+  ],
+  "details": "masterstack_imgcap v0.0.1 was discovered to contain a SQL injection vulnerability via the endpoint /submit.",
+  "severity": [
+
+  ],
+  "affected": [
+
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53597"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NoPurposeInLife/vulnerability_research/tree/main/CVE-2024-53597"
+    },
+    {
+      "type": "WEB",
+      "url": "http://masterstackimgcap.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-11-25T22:15:19Z"
+  }
+}

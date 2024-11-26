@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8xm-x824-w6gf",
-  "modified": "2024-10-07T21:33:30Z",
+  "modified": "2024-11-26T00:33:31Z",
   "published": "2024-10-07T21:33:30Z",
   "aliases": [
     "CVE-2024-45894"
   ],
   "details": "BlueCMS 1.6 suffers from Arbitrary File Deletion via the file_name parameter in an /admin/database.php?act=del request.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-552"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-07T19:15:09Z"
