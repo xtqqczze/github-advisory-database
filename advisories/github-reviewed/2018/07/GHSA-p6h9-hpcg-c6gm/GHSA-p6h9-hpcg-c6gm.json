@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6h9-hpcg-c6gm",
-  "modified": "2024-11-22T20:04:51Z",
+  "modified": "2024-11-26T15:51:27Z",
   "published": "2018-07-23T19:52:02Z",
   "aliases": [
     "CVE-2011-2528"
@@ -89,19 +89,19 @@
     },
     {
       "type": "WEB",
-      "url": "http://plone.org/products/plone-hotfix/releases/20110622"
+      "url": "https://plone.org/products/plone-hotfix/releases/20110622"
     },
     {
       "type": "WEB",
-      "url": "http://plone.org/products/plone/security/advisories/20110622"
+      "url": "https://plone.org/products/plone/security/advisories/20110622"
     },
     {
       "type": "WEB",
-      "url": "http://www.openwall.com/lists/oss-security/2011/07/04/6"
+      "url": "https://www.openwall.com/lists/oss-security/2011/07/04/6"
     },
     {
       "type": "WEB",
-      "url": "http://www.openwall.com/lists/oss-security/2011/07/12/9"
+      "url": "https://www.openwall.com/lists/oss-security/2011/07/12/9"
     }
   ],
   "database_specific": {
