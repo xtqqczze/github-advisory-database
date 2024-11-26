@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4xm-6fjc-5f6w",
-  "modified": "2024-11-26T16:38:18Z",
+  "modified": "2024-11-26T21:43:36Z",
   "published": "2024-11-26T16:38:18Z",
   "aliases": [
     "CVE-2024-53267"
@@ -48,6 +48,10 @@
       "url": "https://github.com/sigstore/sigstore-java/security/advisories/GHSA-q4xm-6fjc-5f6w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53267"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/sigstore/sigstore-conformance/pull/166"
     },
@@ -62,11 +66,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-345"
+      "CWE-345",
+      "CWE-347"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-26T16:38:18Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-11-26T19:15:30Z"
   }
 }
