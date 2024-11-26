@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9pp-gjxr-78jp",
-  "modified": "2024-11-11T00:30:44Z",
+  "modified": "2024-11-26T18:38:51Z",
   "published": "2024-11-11T00:30:44Z",
   "aliases": [
     "CVE-2020-10369"
   ],
   "details": "Certain Cypress (and Broadcom) Wireless Combo chips, when a January 2021 firmware update is not present, allow inferences about memory content via a \"Spectra\" attack.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
   ],
   "affected": [
 
@@ -37,9 +40,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-203"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-10T23:15:04Z"
