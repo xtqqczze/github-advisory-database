@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq2p-5pc6-wpgf",
-  "modified": "2024-11-24T21:30:46Z",
+  "modified": "2024-11-26T09:30:48Z",
   "published": "2024-10-15T18:30:50Z",
   "aliases": [
     "CVE-2024-9676"
@@ -22,52 +22,12 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9676"
     },
     {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:8418"
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-wq2p-5pc6-wpgf"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:8428"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:8437"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:8686"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:8690"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:8694"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:8700"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:8984"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:9051"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:9454"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:9459"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2024:9926"
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2317467"
     },
     {
       "type": "WEB",
@@ -75,11 +35,55 @@
     },
     {
       "type": "WEB",
-      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2317467"
+      "url": "https://access.redhat.com/errata/RHSA-2024:9926"
     },
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-wq2p-5pc6-wpgf"
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:9459"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:9454"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:9051"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8984"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8700"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8694"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8690"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8686"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8437"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8428"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8418"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:10289"
     }
   ],
   "database_specific": {
