@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pcj-3m26-w633",
-  "modified": "2024-11-22T20:26:19Z",
+  "modified": "2024-11-26T18:48:31Z",
   "published": "2022-12-20T00:30:29Z",
   "aliases": [
     "CVE-2022-44940"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:H/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -33,25 +37,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "PyPI",
-        "name": "pypatchelf"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            }
-          ]
-        }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 0.16.0"
-      }
     }
   ],
   "references": [
@@ -76,7 +61,7 @@
     "cwe_ids": [
       "CWE-125"
     ],
-    "severity": "CRITICAL",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-22T20:26:19Z",
     "nvd_published_at": "2022-12-19T22:15:00Z"
