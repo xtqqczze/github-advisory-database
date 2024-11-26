@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xq2-w6j4-c99r",
-  "modified": "2024-09-16T20:19:35Z",
+  "modified": "2024-11-18T16:27:12Z",
   "published": "2024-09-16T14:37:28Z",
   "aliases": [
     "CVE-2024-22399"
@@ -79,7 +79,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": "HIGH",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-16T20:18:41Z",
     "nvd_published_at": "2024-09-16T12:15:02Z"

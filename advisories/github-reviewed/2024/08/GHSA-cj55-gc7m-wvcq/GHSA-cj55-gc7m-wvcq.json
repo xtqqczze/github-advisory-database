@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj55-gc7m-wvcq",
-  "modified": "2024-09-16T16:05:30Z",
+  "modified": "2024-11-18T16:27:07Z",
   "published": "2024-08-26T00:30:54Z",
   "aliases": [
     "CVE-2024-45258"
@@ -105,7 +105,7 @@
       "CWE-918",
       "CWE-94"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-26T15:54:18Z",
     "nvd_published_at": "2024-08-25T22:15:05Z"
