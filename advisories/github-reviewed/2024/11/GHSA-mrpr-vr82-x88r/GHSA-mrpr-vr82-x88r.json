@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrpr-vr82-x88r",
-  "modified": "2024-11-14T15:41:46Z",
+  "modified": "2024-11-26T19:00:12Z",
   "published": "2024-11-13T21:30:38Z",
   "aliases": [
     "CVE-2024-52550"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
     }
   ],
   "affected": [
@@ -51,7 +55,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-285"
+      "CWE-285",
+      "CWE-354"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
