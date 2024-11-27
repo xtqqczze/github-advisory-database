@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4jcv-vp96-94xr",
-  "modified": "2024-09-05T18:39:00Z",
+  "modified": "2024-11-18T16:27:10Z",
   "published": "2024-09-05T16:37:56Z",
   "aliases": [
     "CVE-2024-24759"
@@ -62,7 +62,7 @@
       "CWE-350",
       "CWE-918"
     ],
-    "severity": "CRITICAL",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-05T16:37:56Z",
     "nvd_published_at": "2024-09-05T17:15:12Z"
