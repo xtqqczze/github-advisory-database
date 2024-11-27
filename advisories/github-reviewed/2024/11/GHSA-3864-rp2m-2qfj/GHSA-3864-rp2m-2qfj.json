@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3864-rp2m-2qfj",
-  "modified": "2024-11-25T19:43:23Z",
+  "modified": "2024-11-27T19:32:37Z",
   "published": "2024-11-25T18:33:26Z",
   "aliases": [
     "CVE-2024-52787"
@@ -9,6 +9,10 @@
   "summary": "libre-chat Path Traversal vulnerability",
   "details": "An issue in the upload_documents method of libre-chat v0.0.6 allows attackers to execute a path traversal via supplying a crafted filename in an uploaded file.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:U"
