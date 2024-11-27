@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h68-q459-xxm7",
-  "modified": "2024-11-19T03:31:08Z",
+  "modified": "2024-11-27T15:31:45Z",
   "published": "2024-11-19T03:31:08Z",
   "aliases": [
     "CVE-2024-50291"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: dvb-core: add missing buffer index check\n\ndvb_vb2_expbuf() didn't check if the given buffer index was\nfor a valid buffer. Add this check.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    }
   ],
   "affected": [
 
@@ -29,9 +32,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-129"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T02:16:31Z"

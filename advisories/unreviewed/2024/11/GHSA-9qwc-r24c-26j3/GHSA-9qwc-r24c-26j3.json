@@ -1,14 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qwc-r24c-26j3",
-  "modified": "2024-11-19T03:31:09Z",
+  "modified": "2024-11-27T15:31:45Z",
   "published": "2024-11-19T03:31:09Z",
   "aliases": [
     "CVE-2024-50302"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: core: zero-initialize the report buffer\n\nSince the report buffer is used by all kinds of drivers in various ways, let's\nzero-initialize it during allocation to make sure that it can't be ever used\nto leak kernel memory via specially-crafted report.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
   "affected": [
 
@@ -53,9 +56,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-908"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T02:16:32Z"
