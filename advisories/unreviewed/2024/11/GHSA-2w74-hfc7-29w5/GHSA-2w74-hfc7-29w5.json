@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w74-hfc7-29w5",
-  "modified": "2024-11-08T06:30:48Z",
+  "modified": "2024-11-27T21:32:43Z",
   "published": "2024-11-08T06:30:48Z",
   "aliases": [
     "CVE-2024-50173"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/panthor: Fix access to uninitialized variable in tick_ctx_cleanup()\n\nThe group variable can't be used to retrieve ptdev in our second loop,\nbecause it points to the previously iterated list_head, not a valid\ngroup. Get the ptdev object from the scheduler instead.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -33,9 +34,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-908"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-08T06:15:14Z"
