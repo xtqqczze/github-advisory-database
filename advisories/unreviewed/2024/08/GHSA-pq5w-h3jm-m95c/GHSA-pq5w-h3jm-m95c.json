@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq5w-h3jm-m95c",
-  "modified": "2024-08-22T15:31:18Z",
+  "modified": "2024-11-27T18:34:00Z",
   "published": "2024-08-21T21:30:46Z",
   "aliases": [
     "CVE-2024-7971"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://issues.chromium.org/issues/360700873"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.microsoft.com/en-us/security/blog/2024/08/30/north-korean-threat-actor-citrine-sleet-exploiting-chromium-zero-day"
     }
   ],
   "database_specific": {

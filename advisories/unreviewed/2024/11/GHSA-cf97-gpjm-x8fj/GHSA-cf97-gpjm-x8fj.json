@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cf97-gpjm-x8fj",
-  "modified": "2024-11-19T03:31:08Z",
+  "modified": "2024-11-27T18:34:01Z",
   "published": "2024-11-19T03:31:08Z",
   "aliases": [
     "CVE-2024-50284"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: Fix the missing xa_store error check\n\nxa_store() can fail, it return xa_err(-EINVAL) if the entry cannot\nbe stored in an XArray, or xa_err(-ENOMEM) if memory allocation failed,\nso check error for xa_store() to fix it.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -37,9 +38,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-754"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T02:16:30Z"

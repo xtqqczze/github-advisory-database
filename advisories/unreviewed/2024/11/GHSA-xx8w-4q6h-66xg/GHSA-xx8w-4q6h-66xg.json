@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xx8w-4q6h-66xg",
-  "modified": "2024-11-20T18:32:17Z",
+  "modified": "2024-11-27T18:34:01Z",
   "published": "2024-11-20T18:32:17Z",
   "aliases": [
     "CVE-2024-52771"
   ],
   "details": "DedeBIZ v6.3.0 was discovered to contain an arbitrary file deletion vulnerability via the component /admin/file_manage_view.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -29,9 +30,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-22"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-20T17:15:20Z"

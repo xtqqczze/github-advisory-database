@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3xg-2r2p-7rm4",
-  "modified": "2024-11-19T18:31:07Z",
+  "modified": "2024-11-27T18:34:01Z",
   "published": "2024-11-19T18:31:07Z",
   "aliases": [
     "CVE-2024-53081"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: ar0521: don't overflow when checking PLL values\n\nThe PLL checks are comparing 64 bit integers with 32 bit\nones, as reported by Coverity. Depending on the values of\nthe variables, this may underflow.\n\nFix it ensuring that both sides of the expression are u64.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -37,9 +38,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-191"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T18:15:27Z"

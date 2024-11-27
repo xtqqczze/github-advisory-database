@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh22-rcv2-42x3",
-  "modified": "2024-11-26T15:31:02Z",
+  "modified": "2024-11-27T18:34:03Z",
   "published": "2024-11-26T15:31:02Z",
   "aliases": [
     "CVE-2024-11695"
   ],
   "details": "A crafted URL containing Arabic script and whitespace characters could have hidden the true origin of the page, resulting in a potential spoofing attack. This vulnerability affects Firefox < 133, Firefox ESR < 128.5, Thunderbird < 133, and Thunderbird < 128.5.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -41,9 +42,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-1021"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-26T14:15:19Z"

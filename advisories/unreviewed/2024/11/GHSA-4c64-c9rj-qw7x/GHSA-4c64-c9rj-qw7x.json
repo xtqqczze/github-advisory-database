@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c64-c9rj-qw7x",
-  "modified": "2024-11-25T21:30:50Z",
+  "modified": "2024-11-27T18:34:03Z",
   "published": "2024-11-25T21:30:50Z",
   "aliases": [
     "CVE-2024-53556"
   ],
   "details": "An Open Redirect vulnerability in Taiga v6.8.1 allows attackers to redirect users to arbitrary websites via appending a crafted link to /login?next= in the login page URL.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -29,9 +30,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-25T21:15:21Z"

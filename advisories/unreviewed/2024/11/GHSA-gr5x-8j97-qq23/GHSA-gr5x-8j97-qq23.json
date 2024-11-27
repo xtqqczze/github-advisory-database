@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr5x-8j97-qq23",
-  "modified": "2024-11-22T21:32:15Z",
+  "modified": "2024-11-27T18:34:02Z",
   "published": "2024-11-22T21:32:15Z",
   "aliases": [
     "CVE-2024-53438"
   ],
   "details": "EventAttendance.php in ChurchCRM 5.7.0 is vulnerable to SQL injection. An attacker can exploit this vulnerability by manipulating the 'Event' parameter, which is directly interpolated into the SQL query without proper sanitization or validation, allowing attackers to execute arbitrary SQL commands.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -25,9 +26,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-89"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-22T17:15:10Z"
