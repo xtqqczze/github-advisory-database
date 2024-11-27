@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfvp-7x6p-h2pv",
-  "modified": "2024-09-05T14:04:56Z",
+  "modified": "2024-11-18T16:27:09Z",
   "published": "2024-09-03T19:49:32Z",
   "aliases": [
     "CVE-2024-45310"
@@ -93,7 +93,7 @@
       "CWE-363",
       "CWE-61"
     ],
-    "severity": "LOW",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-03T19:49:32Z",
     "nvd_published_at": "2024-09-03T19:15:15Z"
