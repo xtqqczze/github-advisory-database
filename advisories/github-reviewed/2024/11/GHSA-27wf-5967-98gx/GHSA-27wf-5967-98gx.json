@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27wf-5967-98gx",
-  "modified": "2024-11-22T22:50:21Z",
+  "modified": "2024-11-27T21:57:06Z",
   "published": "2024-11-22T21:32:15Z",
   "aliases": [
     "CVE-2024-10220"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -85,6 +89,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/kubernetes/kubernetes/commit/1ab06efe92d8e898ca1931471c9533ce94aba29b"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-27wf-5967-98gx"
     },
     {
       "type": "PACKAGE",
