@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgmw-9cww-qq99",
-  "modified": "2024-09-06T15:50:21Z",
+  "modified": "2024-11-18T16:26:18Z",
   "published": "2022-01-31T00:00:29Z",
   "aliases": [
     "CVE-2022-0273"
@@ -66,7 +66,7 @@
       "CWE-284",
       "CWE-863"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2022-02-07T21:14:46Z",
     "nvd_published_at": "2022-01-30T14:15:00Z"
