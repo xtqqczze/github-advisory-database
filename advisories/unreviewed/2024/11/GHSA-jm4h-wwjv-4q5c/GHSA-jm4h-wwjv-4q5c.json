@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm4h-wwjv-4q5c",
-  "modified": "2024-11-19T15:31:53Z",
+  "modified": "2024-11-27T00:31:41Z",
   "published": "2024-11-13T15:31:37Z",
   "aliases": [
     "CVE-2024-11159"
@@ -27,6 +27,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00017.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2024-61"
     },
     {
@@ -36,7 +40,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-203"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
