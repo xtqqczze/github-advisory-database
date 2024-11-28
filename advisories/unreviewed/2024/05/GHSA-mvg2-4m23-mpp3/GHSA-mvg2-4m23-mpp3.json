@@ -7,12 +7,8 @@
     "CVE-2023-52655"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: aqc111: check packet for fixup for true limit\n\nIf a device sends a packet that is inbetween 0\nand sizeof(u64) the value passed to skb_trim()\nas length will wrap around ending up as some very\nlarge value.\n\nThe driver will then proceed to parse the header\nlocated at that position, which will either oops or\nprocess some random value.\n\nThe fix is to check against sizeof(u64) rather than\n0, which the driver currently does. The issue exists\nsince the introduction of the driver.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
