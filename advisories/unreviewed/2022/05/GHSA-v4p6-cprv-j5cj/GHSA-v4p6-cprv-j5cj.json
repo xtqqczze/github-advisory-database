@@ -7,12 +7,8 @@
     "CVE-2018-20335"
   ],
   "details": "An issue was discovered in ASUSWRT 3.0.0.4.384.20308. An unauthenticated user can trigger a DoS of the httpd service via the /APP_Installation.asp?= URI.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

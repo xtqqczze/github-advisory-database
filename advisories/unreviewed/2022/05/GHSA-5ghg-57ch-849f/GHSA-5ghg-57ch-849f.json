@@ -7,12 +7,8 @@
     "CVE-2019-5648"
   ],
   "details": "Authenticated, administrative access to a Barracuda Load Balancer ADC running unpatched firmware <= v6.4 allows one to edit the LDAP service configuration of the balancer and change the LDAP server to an attacker-controlled system, without having to re-enter LDAP credentials. These steps can be used by any authenticated administrative user to expose the LDAP credentials configured in the LDAP connector over the network.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

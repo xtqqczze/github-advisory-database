@@ -7,12 +7,8 @@
     "CVE-2015-7968"
   ],
   "details": "nwbc_ext2int in SAP NetWeaver Application Server before Security Note 2183189 allows XXE attacks for local file inclusion via the sap/bc/ui2/nwbc/nwbc_ext2int/ URI.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

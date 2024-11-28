@@ -7,12 +7,8 @@
     "CVE-2019-14512"
   ],
   "details": "LimeSurvey 3.17.7+190627 has XSS via Boxes in application/extensions/PanelBoxWidget/views/box.php or a label title in application/views/admin/labels/labelview_view.php.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2017-20190"
   ],
   "details": "Some Microsoft technologies as used in Windows 8 through 11 allow a temporary client-side performance degradation during processing of multiple Unicode combining characters, aka a \"Zalgo text\" attack. NOTE: third parties dispute whether the computational cost of interpreting Unicode data should be considered a vulnerability.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

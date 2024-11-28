@@ -7,12 +7,8 @@
     "CVE-2020-10667"
   ],
   "details": "The web application exposed by the Canon Oce Colorwave 500 4.0.0.0 printer is vulnerable to Stored XSS in /TemplateManager/indexExternalLocation.jsp. The vulnerable parameter is map(template_name). NOTE: this is fixed in the latest version.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
