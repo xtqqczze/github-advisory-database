@@ -7,12 +7,8 @@
     "CVE-2024-4774"
   ],
   "details": "The `ShmemCharMapHashEntry()` code was susceptible to potentially undefined behavior by bypassing the move semantics for one of its data members. This vulnerability affects Firefox < 126.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
