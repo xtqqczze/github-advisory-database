@@ -7,12 +7,8 @@
     "CVE-2019-15824"
   ],
   "details": "The wps-hide-login plugin before 1.5.3 for WordPress has an adminhash protection bypass.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

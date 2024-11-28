@@ -7,12 +7,8 @@
     "CVE-2024-28816"
   ],
   "details": "Student Information Chatbot a0196ab allows SQL injection via the username to the login function in index.php.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

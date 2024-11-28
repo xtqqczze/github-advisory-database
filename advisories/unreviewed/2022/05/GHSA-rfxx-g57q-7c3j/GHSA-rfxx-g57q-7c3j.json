@@ -7,12 +7,8 @@
     "CVE-2019-17067"
   ],
   "details": "PuTTY before 0.73 on Windows improperly opens port-forwarding listening sockets, which allows attackers to listen on the same port to steal an incoming connection.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
