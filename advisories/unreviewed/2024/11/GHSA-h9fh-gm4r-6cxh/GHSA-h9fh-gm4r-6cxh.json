@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9fh-gm4r-6cxh",
-  "modified": "2024-11-27T12:31:53Z",
+  "modified": "2024-11-28T06:32:41Z",
   "published": "2024-11-27T12:31:53Z",
   "aliases": [
     "CVE-2024-11667"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-protecting-against-recent-firewall-threats-11-21-2024"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-protecting-against-recent-firewall-threats-11-27-2024"
     }
   ],
   "database_specific": {
