@@ -7,12 +7,8 @@
     "CVE-2019-7481"
   ],
   "details": "Vulnerability in SonicWall SMA100 allow unauthenticated user to gain read-only access to unauthorized resources. This vulnerablity impacted SMA100 version 9.0.0.3 and earlier.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

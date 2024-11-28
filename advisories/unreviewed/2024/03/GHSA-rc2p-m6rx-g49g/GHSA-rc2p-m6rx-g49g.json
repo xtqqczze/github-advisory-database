@@ -7,12 +7,8 @@
     "CVE-2024-27692"
   ],
   "details": "Rejected reason: * REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2024-22939. Reason: This candidate is a duplicate of CVE-2024-22939. Notes: All CVE users should reference CVE-2024-22939 instead of this candidate.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -20,9 +16,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

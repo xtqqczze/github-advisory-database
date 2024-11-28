@@ -7,12 +7,8 @@
     "CVE-2007-3576"
   ],
   "details": "** DISPUTED **  Microsoft Internet Explorer 6 executes web script from URIs of arbitrary scheme names ending with the \"script\" character sequence, using the (1) vbscript: handler for scheme names with 7 through 9 characters, and the (2) javascript: handler for scheme names with 10 or more characters, which might allow remote attackers to bypass certain XSS protection schemes.  NOTE: other researchers dispute the significance of this issue, stating \"this only works when typed in the address bar.\"",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

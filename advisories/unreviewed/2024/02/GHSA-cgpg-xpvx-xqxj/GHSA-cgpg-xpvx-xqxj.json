@@ -7,12 +7,8 @@
     "CVE-2024-25249"
   ],
   "details": "An issue in He3 App for macOS version 2.0.17, allows remote attackers to execute arbitrary code via the RunAsNode and enableNodeClilnspectArguments settings.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
