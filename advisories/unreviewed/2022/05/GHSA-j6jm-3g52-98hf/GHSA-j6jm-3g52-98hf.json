@@ -7,12 +7,8 @@
     "CVE-2019-12934"
   ],
   "details": "An issue was discovered in the wp-code-highlightjs plugin through 0.6.2 for WordPress. wp-admin/options-general.php?page=wp-code-highlight-js allows CSRF, as demonstrated by an XSS payload in the hljs_additional_css parameter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
