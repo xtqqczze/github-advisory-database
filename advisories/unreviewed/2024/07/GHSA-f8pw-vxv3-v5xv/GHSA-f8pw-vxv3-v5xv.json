@@ -7,12 +7,8 @@
     "CVE-2024-41044"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nppp: reject claimed-as-LCP but actually malformed packets\n\nSince 'ppp_async_encode()' assumes valid LCP packets (with code\nfrom 1 to 7 inclusive), add 'ppp_check_packet()' to ensure that\nLCP packet has an actual body beyond PPP_LCP header bytes, and\nreject claimed-as-LCP but actually malformed data otherwise.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

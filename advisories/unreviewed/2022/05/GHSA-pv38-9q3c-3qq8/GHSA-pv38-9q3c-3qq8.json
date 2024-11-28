@@ -7,12 +7,8 @@
     "CVE-2019-5636"
   ],
   "details": "When a Beckhoff TwinCAT Runtime receives a malformed UDP packet, the ADS Discovery Service shuts down. Note that the TwinCAT devices are still performing as normal.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

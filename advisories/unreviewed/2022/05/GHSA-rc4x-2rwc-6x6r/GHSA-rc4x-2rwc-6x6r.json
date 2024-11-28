@@ -7,12 +7,8 @@
     "CVE-2019-5637"
   ],
   "details": "When Beckhoff TwinCAT is configured to use the Profinet driver, a denial of service of the controller could be reached by sending a malformed UDP packet to the device.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

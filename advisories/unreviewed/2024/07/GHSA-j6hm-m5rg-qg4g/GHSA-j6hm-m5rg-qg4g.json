@@ -7,12 +7,8 @@
     "CVE-2024-41029"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvmem: core: limit cell sysfs permissions to main attribute ones\n\nThe cell sysfs attribute should not provide more access to the nvmem\ndata than the main attribute itself.\nFor example if nvme_config::root_only was set, the cell attribute\nwould still provide read access to everybody.\n\nMask out permissions not available on the main attribute.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

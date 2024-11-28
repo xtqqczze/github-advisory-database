@@ -7,12 +7,8 @@
     "CVE-2024-41043"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nfnetlink_queue: drop bogus WARN_ON\n\nHappens when rules get flushed/deleted while packet is out, so remove\nthis WARN_ON.\n\nThis WARN exists in one form or another since v4.14, no need to backport\nthis to older releases, hence use a more recent fixes tag.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
