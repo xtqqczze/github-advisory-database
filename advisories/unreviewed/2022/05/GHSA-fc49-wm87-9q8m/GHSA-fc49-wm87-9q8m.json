@@ -7,12 +7,8 @@
     "CVE-2019-17387"
   ],
   "details": "An authentication flaw in the AVPNC_RP service in Aviatrix VPN Client through 2.2.10 allows an attacker to gain elevated privileges through arbitrary code execution on Windows, Linux, and macOS.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

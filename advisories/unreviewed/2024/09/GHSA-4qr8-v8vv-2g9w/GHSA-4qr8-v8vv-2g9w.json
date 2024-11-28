@@ -7,12 +7,8 @@
     "CVE-2024-46716"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: altera-msgdma: properly free descriptor in msgdma_free_descriptor\n\nRemove list_del call in msgdma_chan_desc_cleanup, this should be the role\nof msgdma_free_descriptor. In consequence replace list_add_tail with\nlist_move_tail in msgdma_free_descriptor.\n\nThis fixes the path:\n   msgdma_free_chan_resources -> msgdma_free_descriptors ->\n   msgdma_free_desc_list -> msgdma_free_descriptor\n\nwhich does not correctly free the descriptors as first nodes were not\nremoved from the list.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

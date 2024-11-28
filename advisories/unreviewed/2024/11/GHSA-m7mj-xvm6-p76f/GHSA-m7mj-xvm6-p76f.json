@@ -7,12 +7,8 @@
     "CVE-2024-36062"
   ],
   "details": "The com.callassistant.android (aka AI Call Assistant & Screener) application 1.174 for Android enables any installed application (with no permissions) to place phone calls without user interaction by sending a crafted intent via the com.callassistant.android.ui.call.incall.InCallActivity component.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2019-7193"
   ],
   "details": "This improper input validation vulnerability allows remote attackers to inject arbitrary code to the system. To fix the vulnerability, QNAP recommend updating QTS to their latest versions.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

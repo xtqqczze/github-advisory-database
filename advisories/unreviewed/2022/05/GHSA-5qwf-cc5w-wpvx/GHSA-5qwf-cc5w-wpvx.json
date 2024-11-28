@@ -7,12 +7,8 @@
     "CVE-2019-13724"
   ],
   "details": "Out of bounds memory access in WebBluetooth in Google Chrome prior to 78.0.3904.108 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

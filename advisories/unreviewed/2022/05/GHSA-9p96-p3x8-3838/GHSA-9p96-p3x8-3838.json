@@ -7,12 +7,8 @@
     "CVE-2006-6165"
   ],
   "details": "** DISPUTED **  ld.so in FreeBSD, NetBSD, and possibly other BSD distributions does not remove certain harmful environment variables, which allows local users to gain privileges by passing certain environment variables to loading processes.  NOTE: this issue has been disputed by a third party, stating that it is the responsibility of the application to properly sanitize the environment.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

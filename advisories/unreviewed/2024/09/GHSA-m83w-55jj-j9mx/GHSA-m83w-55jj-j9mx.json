@@ -7,12 +7,8 @@
     "CVE-2024-46752"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: replace BUG_ON() with error handling at update_ref_for_cow()\n\nInstead of a BUG_ON() just return an error, log an error message and\nabort the transaction in case we find an extent buffer belonging to the\nrelocation tree that doesn't have the full backref flag set. This is\nunexpected and should never happen (save for bugs or a potential bad\nmemory).",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

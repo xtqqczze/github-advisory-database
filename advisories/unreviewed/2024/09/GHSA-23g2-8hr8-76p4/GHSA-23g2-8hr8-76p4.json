@@ -7,12 +7,8 @@
     "CVE-2024-46745"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nInput: uinput - reject requests with unreasonable number of slots\n\n\nWhen exercising uinput interface syzkaller may try setting up device\nwith a really large number of slots, which causes memory allocation\nfailure in input_mt_init_slots(). While this allocation failure is\nhandled properly and request is rejected, it results in syzkaller\nreports. Additionally, such request may put undue burden on the\nsystem which will try to free a lot of memory for a bogus request.\n\nFix it by limiting allowed number of slots to 100. This can easily\nbe extended if we see devices that can track more than 100 contacts.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
