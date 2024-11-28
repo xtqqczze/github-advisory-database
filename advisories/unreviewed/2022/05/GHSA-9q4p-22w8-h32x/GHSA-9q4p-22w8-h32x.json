@@ -7,12 +7,8 @@
     "CVE-2019-12989"
   ],
   "details": "Citrix SD-WAN 10.2.x before 10.2.3 and NetScaler SD-WAN 10.0.x before 10.0.8 allow SQL Injection.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

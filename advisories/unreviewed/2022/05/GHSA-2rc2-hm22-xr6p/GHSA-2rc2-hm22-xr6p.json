@@ -7,12 +7,8 @@
     "CVE-2018-12715"
   ],
   "details": "DIGISOL DG-HR3400 devices have XSS via a modified SSID when the apssid value is unchanged.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
