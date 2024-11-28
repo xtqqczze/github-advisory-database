@@ -7,12 +7,8 @@
     "CVE-2019-14733"
   ],
   "details": "AdPlug 2.3.1 has multiple heap-based buffer overflows in CradLoader::load() in rad.cpp.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,12 +7,8 @@
     "CVE-2019-5503"
   ],
   "details": "OnCommand Workflow Automation versions prior to 5.0 shipped without certain HTTP Security headers configured which could allow an attacker to obtain sensitive information via unspecified vectors.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

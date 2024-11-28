@@ -7,12 +7,8 @@
     "CVE-2019-15116"
   ],
   "details": "The easy-digital-downloads plugin before 2.9.16 for WordPress has XSS related to IP address logging.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

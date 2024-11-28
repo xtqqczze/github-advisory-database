@@ -7,12 +7,8 @@
     "CVE-2019-13511"
   ],
   "details": "Rockwell Automation Arena Simulation Software versions 16.00.00 and earlier contain an INFORMATION EXPOSURE CWE-200. A maliciously crafted Arena file opened by an unsuspecting user may result in the limited exposure of information related to the targeted workstation.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

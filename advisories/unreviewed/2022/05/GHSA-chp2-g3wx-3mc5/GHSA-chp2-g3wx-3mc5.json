@@ -7,12 +7,8 @@
     "CVE-2019-6969"
   ],
   "details": "The web interface of the D-Link DVA-5592 20180823 is vulnerable to an authentication bypass that allows an unauthenticated user to have access to sensitive information such as the Wi-Fi password and the phone number (if VoIP is in use).",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
