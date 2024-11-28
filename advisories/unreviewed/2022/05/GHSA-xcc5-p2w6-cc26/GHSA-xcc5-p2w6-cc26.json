@@ -7,12 +7,8 @@
     "CVE-2019-12432"
   ],
   "details": "An issue was discovered in GitLab Community and Enterprise Edition 8.13 through 11.11. Non-member users who subscribed to issue notifications could access the title of confidential issues through the unsubscription page. It allows Information Disclosure.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2019-12428"
   ],
   "details": "An issue was discovered in GitLab Community and Enterprise Edition 6.8 through 11.11. Users could bypass the mandatory external authentication provider sign-in restrictions by sending a specially crafted request. It has Improper Authorization.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
