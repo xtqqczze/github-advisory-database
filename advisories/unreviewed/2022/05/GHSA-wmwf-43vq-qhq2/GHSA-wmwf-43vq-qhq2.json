@@ -7,12 +7,8 @@
     "CVE-2019-17539"
   ],
   "details": "In FFmpeg before 4.2, avcodec_open2 in libavcodec/utils.c allows a NULL pointer dereference and possibly unspecified other impact when there is no valid close function pointer.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

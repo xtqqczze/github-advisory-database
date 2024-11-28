@@ -7,12 +7,8 @@
     "CVE-2024-24681"
   ],
   "details": "Insecure AES key in Yealink Configuration Encrypt Tool below verrsion 1.2. A single, vendorwide, hardcoded AES key in the configuration tool used to encrypt provisioning documents was leaked leading to a compromise of confidentiality of provisioning documents.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2019-17668"
   ],
   "details": "Samsung Galaxy S10 and Note10 devices allow unlock operations via unregistered fingerprints in certain situations involving a third-party screen protector.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

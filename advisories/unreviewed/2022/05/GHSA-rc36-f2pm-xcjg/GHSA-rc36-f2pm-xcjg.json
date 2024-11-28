@@ -7,12 +7,8 @@
     "CVE-2005-3170"
   ],
   "details": "The LDAP client on Microsoft Windows 2000 before Update Rollup 1 for SP4 accepts certificates using LDAP Secure Sockets Layer (LDAPS) even when the Certificate Authority (CA) is not trusted, which could allow attackers to trick users into believing that they are accessing a trusted site.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

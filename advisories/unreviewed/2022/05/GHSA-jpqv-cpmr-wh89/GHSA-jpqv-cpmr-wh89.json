@@ -7,12 +7,8 @@
     "CVE-2019-6844"
   ],
   "details": "A CWE-248: Uncaught Exception vulnerability exists in Modicon M580, Modicon M340, Modicon BMxCRA and 140CRA modules (all firmware versions), which could cause a Denial of Service atack on the PLC when upgrading the controller with a firmware package containing an invalid web server image using FTP protocol.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

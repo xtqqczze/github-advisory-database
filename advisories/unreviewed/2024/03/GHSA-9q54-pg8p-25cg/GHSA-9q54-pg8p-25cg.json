@@ -7,12 +7,8 @@
     "CVE-2024-0677"
   ],
   "details": "The Pz-LinkCard WordPress plugin through 2.5.1 does not prevent users from pinging arbitrary hosts via some of its shortcodes, which could allow high privilege users such as contributors to perform SSRF attacks.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

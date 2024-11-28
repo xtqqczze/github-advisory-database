@@ -7,12 +7,8 @@
     "CVE-2016-11015"
   ],
   "details": "NETGEAR JNR1010 devices before 1.0.0.32 allow cgi-bin/webproc CSRF via the :InternetGatewayDevice.X_TWSZ-COM_URL_Filter.BlackList.1.URL parameter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

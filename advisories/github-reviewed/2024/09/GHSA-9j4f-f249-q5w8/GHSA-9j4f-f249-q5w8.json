@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j4f-f249-q5w8",
-  "modified": "2024-09-06T21:37:02Z",
+  "modified": "2024-11-18T16:27:10Z",
   "published": "2024-09-06T21:37:02Z",
   "aliases": [
     "CVE-2022-46156"
@@ -101,7 +101,7 @@
       "CWE-489",
       "CWE-749"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-06T21:37:02Z",
     "nvd_published_at": "2022-11-30T22:15:00Z"

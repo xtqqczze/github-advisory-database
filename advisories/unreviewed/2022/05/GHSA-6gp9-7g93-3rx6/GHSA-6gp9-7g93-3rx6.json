@@ -7,12 +7,8 @@
     "CVE-2019-18229"
   ],
   "details": "Advantech WISE-PaaS/RMM, Versions 3.3.29 and prior. Lack of sanitization of user-supplied input cause SQL injection vulnerabilities. An attacker can leverage these vulnerabilities to disclose information.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
