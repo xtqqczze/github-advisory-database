@@ -7,12 +7,8 @@
     "CVE-2020-9323"
   ],
   "details": "Aquaforest TIFF Server 4.0 allows Unauthenticated File and Directory Enumeration via tiffserver/tssp.aspx.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

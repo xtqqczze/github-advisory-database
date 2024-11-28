@@ -7,12 +7,8 @@
     "CVE-2020-7474"
   ],
   "details": "A CWE-427: Uncontrolled Search Path Element vulnerability exists in ProSoft Configurator (v1.002 and prior), for the PMEPXM0100 (H) module, which could cause the execution of untrusted code when using double click to open a project file which may trigger execution of a malicious DLL.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

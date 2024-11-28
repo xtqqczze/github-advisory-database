@@ -7,12 +7,8 @@
     "CVE-2019-12365"
   ],
   "details": "The Newton application through 10.0.23 for Android allows XSS via an event attribute and arbitrary file loading via a src attribute, if the application has the READ_EXTERNAL_STORAGE permission.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

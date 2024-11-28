@@ -7,12 +7,8 @@
     "CVE-2020-6581"
   ],
   "details": "Nagios NRPE 3.2.1 has Insufficient Filtering because, for example, nasty_metachars interprets \\n as the character \\ and the character n (not as the \\n newline sequence). This can cause command injection.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

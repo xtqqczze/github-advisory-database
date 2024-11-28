@@ -7,12 +7,8 @@
     "CVE-2019-20452"
   ],
   "details": "A problem was found in Pydio Core before 8.2.4 and Pydio Enterprise before 8.2.4. A PHP object injection is present in the page plugins/core.access/src/RecycleBinManager.php. An authenticated user with basic privileges can inject objects and achieve remote code execution.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
