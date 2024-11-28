@@ -7,12 +7,8 @@
     "CVE-2024-41017"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\njfs: don't walk off the end of ealist\n\nAdd a check before visiting the members of ea to\nmake sure each ea stays within the ealist.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-41072"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: cfg80211: wext: add extra SIOCSIWSCAN data check\n\nIn 'cfg80211_wext_siwscan()', add extra check whether number of\nchannels passed via 'ioctl(sock, SIOCSIWSCAN, ...)' doesn't exceed\nIW_MAX_FREQUENCIES and reject invalid request with -EINVAL otherwise.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

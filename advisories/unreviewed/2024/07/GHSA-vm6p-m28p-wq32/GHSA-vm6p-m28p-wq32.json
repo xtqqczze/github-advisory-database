@@ -7,12 +7,8 @@
     "CVE-2024-41026"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmmc: davinci_mmc: Prevent transmitted data size from exceeding sgm's length\n\nNo check is done on the size of the data to be transmiited. This causes\na kernel panic when this size exceeds the sg_miter's length.\n\nLimit the number of transmitted bytes to sgm->length.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

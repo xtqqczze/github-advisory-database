@@ -7,12 +7,8 @@
     "CVE-2024-41069"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: topology: Fix references to freed memory\n\nMost users after parsing a topology file, release memory used by it, so\nhaving pointer references directly into topology file contents is wrong.\nUse devm_kmemdup(), to allocate memory as needed.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

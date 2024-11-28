@@ -7,12 +7,8 @@
     "CVE-2019-18200"
   ],
   "details": "An issue was discovered on Fujitsu Wireless Keyboard Set LX390 GK381 devices. Because of the lack of proper encryption of 2.4 GHz communication, they are prone to keystroke injection attacks.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

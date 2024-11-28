@@ -7,12 +7,8 @@
     "CVE-2024-42095"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nserial: 8250_omap: Implementation of Errata i2310\n\nAs per Errata i2310[0], Erroneous timeout can be triggered,\nif this Erroneous interrupt is not cleared then it may leads\nto storm of interrupts, therefore apply Errata i2310 solution.\n\n[0] https://www.ti.com/lit/pdf/sprz536 page 23",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

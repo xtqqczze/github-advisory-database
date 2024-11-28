@@ -7,12 +7,8 @@
     "CVE-2024-34473"
   ],
   "details": "An issue was discovered in appmgr in O-RAN Near-RT RIC I-Release. An attacker could register an unintended RMR message type during xApp registration to disrupt other service components.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

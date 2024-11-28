@@ -7,12 +7,8 @@
     "CVE-2024-41056"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfirmware: cs_dsp: Use strnlen() on name fields in V1 wmfw files\n\nUse strnlen() instead of strlen() on the algorithm and coefficient name\nstring arrays in V1 wmfw files.\n\nIn V1 wmfw files the name is a NUL-terminated string in a fixed-size\narray. cs_dsp should protect against overrunning the array if the NUL\nterminator is missing.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
