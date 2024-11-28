@@ -3,9 +3,7 @@
   "id": "GHSA-qm9f-c3v9-wphv",
   "modified": "2024-10-18T20:04:51Z",
   "published": "2024-10-18T20:04:51Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Security Update for the OPC UA .NET Standard Stack",
   "details": "This security update resolves a vulnerability in the OPC UA .NET Standard Stack that enables an unauthorized attacker to trigger a rapid increase in memory consumption.",
   "severity": [

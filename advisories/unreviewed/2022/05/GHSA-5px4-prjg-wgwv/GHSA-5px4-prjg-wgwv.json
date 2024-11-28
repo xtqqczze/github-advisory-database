@@ -7,12 +7,8 @@
     "CVE-2019-20146"
   ],
   "details": "An issue was discovered in GitLab Community Edition (CE) and Enterprise Edition (EE) 11.0 through 12.6. It allows Uncontrolled Resource Consumption.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
