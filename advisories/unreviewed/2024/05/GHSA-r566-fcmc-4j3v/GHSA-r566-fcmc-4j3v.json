@@ -7,12 +7,8 @@
     "CVE-2024-2441"
   ],
   "details": "The VikBooking Hotel Booking Engine & PMS WordPress plugin before 1.6.8 allows direct access to menus, allowing an authenticated user with subscriber privileges or above, to bypass authorization and access settings of the VikBooking Hotel Booking Engine & PMS WordPress plugin before 1.6.8's they shouldn't be allowed to.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

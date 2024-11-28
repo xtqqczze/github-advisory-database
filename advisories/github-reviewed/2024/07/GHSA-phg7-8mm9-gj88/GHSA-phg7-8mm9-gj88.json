@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phg7-8mm9-gj88",
-  "modified": "2024-07-10T17:28:12Z",
+  "modified": "2024-11-18T16:26:49Z",
   "published": "2024-07-07T15:31:12Z",
   "aliases": [
     "CVE-2024-40614"
@@ -81,7 +81,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-07-08T15:00:36Z",
     "nvd_published_at": "2024-07-07T15:15:09Z"
