@@ -7,12 +7,8 @@
     "CVE-2019-15581"
   ],
   "details": "An IDOR exists in < 12.3.2, < 12.2.6, and < 12.1.12 for GitLab Community Edition (CE) and Enterprise Edition (EE) that allowed a project owner or maintainer to see the members of any private group via merge request approval rules.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

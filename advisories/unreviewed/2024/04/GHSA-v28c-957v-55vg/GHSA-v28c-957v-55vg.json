@@ -7,12 +7,8 @@
     "CVE-2024-33247"
   ],
   "details": "Sourcecodester Employee Task Management System v1.0 is vulnerable to SQL Injection via admin-manage-user.php.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

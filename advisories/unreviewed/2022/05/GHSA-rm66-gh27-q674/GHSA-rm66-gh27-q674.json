@@ -7,12 +7,8 @@
     "CVE-2020-6833"
   ],
   "details": "An issue was discovered in GitLab EE 11.3 and later. A GitLab Workhorse bypass could lead to package and file disclosure via request smuggling.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

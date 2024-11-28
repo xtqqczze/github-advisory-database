@@ -7,12 +7,8 @@
     "CVE-2020-7905"
   ],
   "details": "Ports listened to by JetBrains IntelliJ IDEA before 2019.3 were exposed to the network.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

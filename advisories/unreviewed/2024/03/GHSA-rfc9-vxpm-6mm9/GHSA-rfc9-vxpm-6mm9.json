@@ -7,12 +7,8 @@
     "CVE-2021-47079"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86: ideapad-laptop: fix a NULL pointer dereference\n\nThe third parameter of dytc_cql_command should not be NULL since it will\nbe dereferenced immediately.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

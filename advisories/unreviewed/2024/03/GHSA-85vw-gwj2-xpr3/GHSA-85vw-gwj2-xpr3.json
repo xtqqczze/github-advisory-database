@@ -7,12 +7,8 @@
     "CVE-2023-52575"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/srso: Fix SBPB enablement for spec_rstack_overflow=off\n\nIf the user has requested no SRSO mitigation, other mitigations can use\nthe lighter-weight SBPB instead of IBPB.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

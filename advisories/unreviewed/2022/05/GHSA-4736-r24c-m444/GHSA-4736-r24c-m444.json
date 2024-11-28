@@ -7,12 +7,8 @@
     "CVE-2019-5464"
   ],
   "details": "A flawed DNS rebinding protection issue was discovered in GitLab CE/EE 10.2 and later in the `url_blocker.rb` which could result in SSRF where the library is utilized.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
