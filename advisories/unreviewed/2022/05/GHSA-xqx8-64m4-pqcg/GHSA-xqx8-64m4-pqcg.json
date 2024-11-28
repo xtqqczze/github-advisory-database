@@ -7,12 +7,8 @@
     "CVE-2020-10649"
   ],
   "details": "DevActSvc.exe in ASUS Device Activation before 1.0.7.0 for Windows 10 notebooks and PCs could lead to unsigned code execution with no additional restrictions when a user puts an application at a particular path with a particular file name.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
