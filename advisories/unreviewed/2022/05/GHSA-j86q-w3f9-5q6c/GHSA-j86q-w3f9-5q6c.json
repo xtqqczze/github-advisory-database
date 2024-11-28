@@ -7,12 +7,8 @@
     "CVE-2015-1571"
   ],
   "details": "** DISPUTED ** The CAPWAP DTLS protocol implementation in Fortinet FortiOS 5.0 Patch 7 build 4457 uses the same certificate and private key across different customers' installations, which makes it easier for man-in-the-middle attackers to spoof SSL servers by leveraging the Fortinet_Factory certificate and private key.  NOTE: FG-IR-15-002 says \"The Fortinet_Factory certificate is unique to each device ... An attacker cannot therefore stage a MitM attack.\"",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

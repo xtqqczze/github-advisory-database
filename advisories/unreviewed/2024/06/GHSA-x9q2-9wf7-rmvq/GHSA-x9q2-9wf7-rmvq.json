@@ -7,12 +7,8 @@
     "CVE-2024-2462"
   ],
   "details": "Allow attackers to intercept or falsify data exchanges between the client \nand the server",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

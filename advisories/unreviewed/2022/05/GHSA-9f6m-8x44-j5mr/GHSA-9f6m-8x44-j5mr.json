@@ -7,12 +7,8 @@
     "CVE-2020-7047"
   ],
   "details": "The WordPress plugin, WP Database Reset through 3.1, contains a flaw that gave any authenticated user, with minimal permissions, the ability (with a simple wp-admin/admin.php?db-reset-tables[]=users request) to escalate their privileges to administrator while dropping all other users from the table.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2020-5519"
   ],
   "details": "The WebAdmin Console in OpenLiteSpeed before v1.6.5 does not strictly check request URLs, as demonstrated by the \"Server Configuration > External App\" screen.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
