@@ -7,12 +7,8 @@
     "CVE-2020-8795"
   ],
   "details": "In GitLab Enterprise Edition (EE) 12.5.0 through 12.7.5, sharing a group with a group could grant project access to unauthorized users.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
