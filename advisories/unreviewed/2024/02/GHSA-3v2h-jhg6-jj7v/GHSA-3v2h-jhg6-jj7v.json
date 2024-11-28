@@ -7,12 +7,8 @@
     "CVE-2023-42952"
   ],
   "details": "The issue was addressed with improved checks. This issue is fixed in iOS 17.1 and iPadOS 17.1, macOS Ventura 13.6.3, macOS Sonoma 14.1, macOS Monterey 12.7.1. An app with root privileges may be able to access private information.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2007-2020"
   ],
   "details": "** DISPUTED **  Unspecified vulnerability in administration.php in xodagallery allows remote attackers to execute arbitrary code via the cmd parameter. NOTE: CVE disputes this vulnerability because administration.php does not use the cmd parameter for inclusion.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

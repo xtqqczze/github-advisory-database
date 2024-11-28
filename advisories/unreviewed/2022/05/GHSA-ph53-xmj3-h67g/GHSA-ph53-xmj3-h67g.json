@@ -7,12 +7,8 @@
     "CVE-2007-0769"
   ],
   "details": "** DISPUTED **  Cross-site scripting (XSS) vulnerability in register.php in Phorum 5.1.18 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.  NOTE: the vendor disputes this vulnerability, stating that \"The characters are escaped properly.\"",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

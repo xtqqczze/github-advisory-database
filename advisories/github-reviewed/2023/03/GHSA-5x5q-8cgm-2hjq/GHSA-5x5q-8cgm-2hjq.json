@@ -3,9 +3,7 @@
   "id": "GHSA-5x5q-8cgm-2hjq",
   "modified": "2024-10-28T17:50:02Z",
   "published": "2023-03-31T22:44:09Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Karate has vulnerable dependency on json-smart package (CVE-2023-1370)",
   "details": "### Summary\nThe CVE \n![image](https://user-images.githubusercontent.com/2663049/229081854-1155c041-56fa-48ca-a7ff-f2f085b845fd.png)\n\n\n### How to fix it\nVery simple, just upgrade json-path package to 2.8.0 (from 2.7.0) inside karate-core pom.xml ;)\n",
   "severity": [

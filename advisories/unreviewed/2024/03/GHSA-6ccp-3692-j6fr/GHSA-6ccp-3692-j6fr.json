@@ -7,12 +7,8 @@
     "CVE-2021-47074"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvme-loop: fix memory leak in nvme_loop_create_ctrl()\n\nWhen creating loop ctrl in nvme_loop_create_ctrl(), if nvme_init_ctrl()\nfails, the loop ctrl should be freed before jumping to the \"out\" label.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

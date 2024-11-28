@@ -7,12 +7,8 @@
     "CVE-2007-3786"
   ],
   "details": "** DISPUTED **  Cross-site request forgery (CSRF) vulnerability on the eSoft InstaGate EX2 UTM device before firmware 3.1.20070615 allows remote attackers to perform privileged actions as administrators.  NOTE: the vendor disputes the distribution of the vulnerable software, stating that it was a custom build for a former customer.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

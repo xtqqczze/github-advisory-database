@@ -7,12 +7,8 @@
     "CVE-2024-25898"
   ],
   "details": "A XSS vulnerability was found in the ChurchCRM v.5.5.0 functionality, edit your event, where malicious JS or HTML code can be inserted in the Event Sermon field in EventEditor.php.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

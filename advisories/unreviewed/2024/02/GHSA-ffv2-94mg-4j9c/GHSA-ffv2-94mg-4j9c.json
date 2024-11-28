@@ -7,12 +7,8 @@
     "CVE-2023-42835"
   ],
   "details": "A logic issue was addressed with improved checks. This issue is fixed in macOS Sonoma 14.1. An attacker may be able to access user data.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

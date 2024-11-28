@@ -7,12 +7,8 @@
     "CVE-2007-2422"
   ],
   "details": "** DISPUTED **  Multiple PHP remote file inclusion vulnerabilities in Modules Builder (modbuild) 4.1 for Comdev One Admin allow remote attackers to execute arbitrary PHP code via a URL in the path[docroot] parameter to (1) config-bak.php or (2) config.php.  NOTE: CVE disputes this vulnerability because the unmodified scripts set the applicable variable to the empty string; reasonable modified copies would use a fixed pathname string.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
