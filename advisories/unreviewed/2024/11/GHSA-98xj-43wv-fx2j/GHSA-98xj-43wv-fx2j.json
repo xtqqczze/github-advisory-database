@@ -7,12 +7,8 @@
     "CVE-2024-50179"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nceph: remove the incorrect Fw reference check when dirtying pages\n\nWhen doing the direct-io reads it will also try to mark pages dirty,\nbut for the read path it won't hold the Fw caps and there is case\nwill it get the Fw reference.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

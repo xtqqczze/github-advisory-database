@@ -7,12 +7,8 @@
     "CVE-2024-50810"
   ],
   "details": "hopetree izone lts c011b48 contains a Cross Site Scripting (XSS) vulnerability in the article comment function. In \\apps\\comment\\views.py, AddCommintView() does not securely filter user input and renders it directly to the frontend page through templates.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

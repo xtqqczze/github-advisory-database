@@ -4,9 +4,7 @@
   "modified": "2024-11-08T17:25:16Z",
   "published": "2024-10-28T15:12:22Z",
   "withdrawn": "2024-11-08T17:25:16Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Withdrawn Advisory: go-mysql affected by go.uuid's Predictable UUID Identifiers",
   "details": "## Withdrawn Advisory\n\nThis advisory has been withdrawn because the vulnerability does not affect a released version of the `github.com/go-mysql-org/go-mysql` package.  For more information, see https://github.com/github/advisory-database/pull/4990.\n\n## Original Advisory\n\nAffected by CVE-2021-3538",
   "severity": [

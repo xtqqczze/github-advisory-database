@@ -7,12 +7,8 @@
     "CVE-2024-39497"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/shmem-helper: Fix BUG_ON() on mmap(PROT_WRITE, MAP_PRIVATE)\n\nLack of check for copy-on-write (COW) mapping in drm_gem_shmem_mmap\nallows users to call mmap with PROT_WRITE and MAP_PRIVATE flag\ncausing a kernel panic due to BUG_ON in vmf_insert_pfn_prot:\nBUG_ON((vma->vm_flags & VM_PFNMAP) && is_cow_mapping(vma->vm_flags));\n\nReturn -EINVAL early if COW mapping is detected.\n\nThis bug affects all drm drivers using default shmem helpers.\nIt can be reproduced by this simple example:\nvoid *ptr = mmap(0, size, PROT_WRITE, MAP_PRIVATE, fd, mmap_offset);\nptr[0] = 0;",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
