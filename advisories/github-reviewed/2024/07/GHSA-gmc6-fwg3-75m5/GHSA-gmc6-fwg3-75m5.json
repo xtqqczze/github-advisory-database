@@ -3,9 +3,7 @@
   "id": "GHSA-gmc6-fwg3-75m5",
   "modified": "2024-07-11T17:42:20Z",
   "published": "2024-07-11T17:42:20Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Mimekit has vulnerable dependency that can lead to denial of service",
   "details": "### Summary\nDenial of service vulnerability.\n\n### Details\nSee: https://github.com/advisories/GHSA-447r-wph3-92pm and https://github.com/dotnet/announcements/issues/312\n\n### PoC\nUpdate System.Security.Cryptography.Pkcs to 8.0.1 so that the transitive dependency with the issue gets updated\n\n### Impact\nDenial of service vulnerability. Affects MimeKit (>= v3.0.0 and <= v4.7.0) when used to decrypt or verify incoming S/MIME messages as well as importing 3rd-party X.509 certificates for use with encrypting outgoing S/MIME messages.\n",
   "severity": [
