@@ -7,12 +7,8 @@
     "CVE-2024-42127"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/lima: fix shared irq handling on driver remove\n\nlima uses a shared interrupt, so the interrupt handlers must be prepared\nto be called at any time. At driver removal time, the clocks are\ndisabled early and the interrupts stay registered until the very end of\nthe remove process due to the devm usage.\nThis is potentially a bug as the interrupts access device registers\nwhich assumes clocks are enabled. A crash can be triggered by removing\nthe driver in a kernel with CONFIG_DEBUG_SHIRQ enabled.\nThis patch frees the interrupts at each lima device finishing callback\nso that the handlers are already unregistered by the time we fully\ndisable clocks.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

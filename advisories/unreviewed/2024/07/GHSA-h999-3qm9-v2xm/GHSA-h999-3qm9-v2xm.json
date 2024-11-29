@@ -7,12 +7,8 @@
     "CVE-2024-42112"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: txgbe: free isb resources at the right time\n\nWhen using MSI/INTx interrupt, the shared interrupts are still being\nhandled in the device remove routine, before free IRQs. So isb memory\nis still read after it is freed. Thus move wx_free_isb_resources()\nfrom txgbe_close() to txgbe_remove(). And fix the improper isb free\naction in txgbe_open() error handling path.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

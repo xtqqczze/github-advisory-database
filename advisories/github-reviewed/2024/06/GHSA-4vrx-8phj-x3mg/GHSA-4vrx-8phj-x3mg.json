@@ -4,9 +4,7 @@
   "modified": "2024-07-30T23:52:52Z",
   "published": "2024-06-03T18:30:50Z",
   "withdrawn": "2024-07-30T23:52:52Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Duplicate Advisory: Keycloak exposes sensitive information in Pushed Authorization Requests (PAR)",
   "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-69fp-7c8p-crjr. This link is maintained to preserve external references.\n\n## Original Description\nA flaw was found in Keycloak in OAuth 2.0 Pushed Authorization Requests (PAR). Client-provided parameters were found to be included in plain text in the KC_RESTART cookie returned by the authorization server's HTTP response to a `request_uri` authorization request, possibly leading to an information disclosure vulnerability.",
   "severity": [

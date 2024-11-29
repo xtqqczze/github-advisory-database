@@ -7,12 +7,8 @@
     "CVE-2024-42132"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbluetooth/hci: disallow setting handle bigger than HCI_CONN_HANDLE_MAX\n\nSyzbot hit warning in hci_conn_del() caused by freeing handle that was\nnot allocated using ida allocator.\n\nThis is caused by handle bigger than HCI_CONN_HANDLE_MAX passed by\nhci_le_big_sync_established_evt(), which makes code think it's unset\nconnection.\n\nAdd same check for handle upper bound as in hci_conn_set_handle() to\nprevent warning.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

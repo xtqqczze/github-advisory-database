@@ -7,12 +7,8 @@
     "CVE-2024-50198"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: light: veml6030: fix IIO device retrieval from embedded device\n\nThe dev pointer that is received as an argument in the\nin_illuminance_period_available_show function references the device\nembedded in the IIO device, not in the i2c client.\n\ndev_to_iio_dev() must be used to accessthe right data. The current\nimplementation leads to a segmentation fault on every attempt to read\nthe attribute because indio_dev gets a NULL assignment.\n\nThis bug has been present since the first appearance of the driver,\napparently since the last version (V6) before getting applied. A\nconstant attribute was used until then, and the last modifications might\nhave not been tested again.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
