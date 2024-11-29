@@ -7,12 +7,8 @@
     "CVE-2024-4622"
   ],
   "details": "If misconfigured, alpitronic Hypercharger EV charging devices can expose a web interface \nprotected by authentication. If the default credentials are not changed,\n an attacker can use public knowledge to access the device as an \nadministrator.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,12 +7,8 @@
     "CVE-2024-3631"
   ],
   "details": "The HL Twitter WordPress plugin through 2014.1.18 does not have CSRF check when unlinking twitter accounts, which could allow attackers to make logged in admins perform such actions via a CSRF attack",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
