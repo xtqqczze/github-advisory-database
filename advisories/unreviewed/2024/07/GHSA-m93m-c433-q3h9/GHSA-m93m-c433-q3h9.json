@@ -7,12 +7,8 @@
     "CVE-2024-42125"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: rtw89: fw: scan offload prohibit all 6 GHz channel if no 6 GHz sband\n\nWe have some policy via BIOS to block uses of 6 GHz. In this case, 6 GHz\nsband will be NULL even if it is WiFi 7 chip. So, add NULL handling here\nto avoid crash.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

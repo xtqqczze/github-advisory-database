@@ -7,12 +7,8 @@
     "CVE-2024-42120"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Check pipe offset before setting vblank\n\npipe_ctx has a size of MAX_PIPES so checking its index before accessing\nthe array.\n\nThis fixes an OVERRUN issue reported by Coverity.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
