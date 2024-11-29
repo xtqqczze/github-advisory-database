@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmwr-mc7x-5vc3",
-  "modified": "2024-08-28T20:08:14Z",
+  "modified": "2024-11-18T16:27:06Z",
   "published": "2024-08-22T16:40:46Z",
   "aliases": [
     "CVE-2024-43398"
@@ -73,7 +73,7 @@
     "cwe_ids": [
       "CWE-776"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-22T16:40:46Z",
     "nvd_published_at": "2024-08-22T15:15:16Z"
