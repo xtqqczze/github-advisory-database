@@ -7,12 +7,8 @@
     "CVE-2024-26856"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: sparx5: Fix use after free inside sparx5_del_mact_entry\n\nBased on the static analyzis of the code it looks like when an entry\nfrom the MAC table was removed, the entry was still used after being\nfreed. More precise the vid of the mac_entry was used after calling\ndevm_kfree on the mac_entry.\nThe fix consists in first using the vid of the mac_entry to delete the\nentry from the HW and after that to free it.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

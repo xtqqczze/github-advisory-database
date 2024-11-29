@@ -7,12 +7,8 @@
     "CVE-2024-42292"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nkobject_uevent: Fix OOB access within zap_modalias_env()\n\nzap_modalias_env() wrongly calculates size of memory block to move, so\nwill cause OOB memory access issue if variable MODALIAS is not the last\none within its @env parameter, fixed by correcting size to memmove.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

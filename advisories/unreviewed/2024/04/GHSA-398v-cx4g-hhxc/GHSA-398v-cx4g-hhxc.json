@@ -7,12 +7,8 @@
     "CVE-2024-26888"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: msft: Fix memory leak\n\nFix leaking buffer allocated to send MSFT_OP_LE_MONITOR_ADVERTISEMENT.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-42267"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nriscv/mm: Add handling for VM_FAULT_SIGSEGV in mm_fault_error()\n\nHandle VM_FAULT_SIGSEGV in the page fault path so that we correctly\nkill the process and we don't BUG() the kernel.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

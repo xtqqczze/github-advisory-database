@@ -7,12 +7,8 @@
     "CVE-2024-43826"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfs: pass explicit offset/count to trace events\n\nnfs_folio_length is unsafe to use without having the folio locked and a\ncheck for a NULL ->f_mapping that protects against truncations and can\nlead to kernel crashes.  E.g. when running xfstests generic/065 with\nall nfs trace points enabled.\n\nFollow the model of the XFS trace points and pass in an explіcit offset\nand length.  This has the additional benefit that these values can\nbe more accurate as some of the users touch partial folio ranges.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

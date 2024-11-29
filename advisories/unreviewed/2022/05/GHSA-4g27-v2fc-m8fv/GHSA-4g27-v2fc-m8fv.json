@@ -7,12 +7,8 @@
     "CVE-2021-25371"
   ],
   "details": "A vulnerability in DSP driver prior to SMR Mar-2021 Release 1 allows attackers load arbitrary ELF libraries inside DSP.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

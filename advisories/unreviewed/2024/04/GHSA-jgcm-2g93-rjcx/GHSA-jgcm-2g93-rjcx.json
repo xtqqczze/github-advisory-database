@@ -7,12 +7,8 @@
     "CVE-2024-26887"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btusb: Fix memory leak\n\nThis checks if CONFIG_DEV_COREDUMP is enabled before attempting to clone\nthe skb and also make sure btmtk_process_coredump frees the skb passed\nfollowing the same logic.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

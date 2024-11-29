@@ -7,12 +7,8 @@
     "CVE-2024-26860"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndm-integrity: fix a memory leak when rechecking the data\n\nMemory for the \"checksums\" pointer will leak if the data is rechecked\nafter checksum failure (because the associated kfree won't happen due\nto 'goto skip_io').\n\nFix this by freeing the checksums memory before recheck, and just use\nthe \"checksum_onstack\" memory for storing checksum during recheck.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

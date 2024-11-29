@@ -7,12 +7,8 @@
     "CVE-2024-42276"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvme-pci: add missing condition check for existence of mapped data\n\nnvme_map_data() is called when request has physical segments, hence\nthe nvme_unmap_data() should have same condition to avoid dereference.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
