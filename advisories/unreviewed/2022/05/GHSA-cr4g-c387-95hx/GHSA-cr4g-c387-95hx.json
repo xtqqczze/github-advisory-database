@@ -7,12 +7,8 @@
     "CVE-2020-24723"
   ],
   "details": "Cross Site Scripting (XSS) vulnerability in the Registration page of the admin panel in PHPGurukul User Registration & Login and User Management System With admin panel 2.1.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

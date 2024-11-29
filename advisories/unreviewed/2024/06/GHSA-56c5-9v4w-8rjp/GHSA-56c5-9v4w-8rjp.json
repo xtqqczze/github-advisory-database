@@ -7,12 +7,8 @@
     "CVE-2024-3468"
   ],
   "details": "There is a vulnerability in AVEVA PI Web API that could allow malicious code to execute on the PI Web API environment under the privileges of an interactive user that was socially engineered to use API XML import functionality with content supplied by an attacker.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

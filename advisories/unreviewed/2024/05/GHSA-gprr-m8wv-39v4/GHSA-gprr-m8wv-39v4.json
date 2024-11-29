@@ -7,12 +7,8 @@
     "CVE-2023-52666"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix potential circular locking issue in smb2_set_ea()\n\nsmb2_set_ea() can be called in parent inode lock range.\nSo add get_write argument to smb2_set_ea() not to call nested\nmnt_want_write().",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
