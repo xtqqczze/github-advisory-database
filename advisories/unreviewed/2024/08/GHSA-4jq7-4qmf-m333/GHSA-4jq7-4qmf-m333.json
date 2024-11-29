@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4jq7-4qmf-m333",
-  "modified": "2024-08-22T00:31:03Z",
+  "modified": "2024-11-29T18:34:01Z",
   "published": "2024-08-22T00:31:03Z",
   "aliases": [
     "CVE-2024-28987"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2024-28987"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.theregister.com/2024/08/22/hardcoded_credentials_bug_solarwinds_whd"
     }
   ],
   "database_specific": {

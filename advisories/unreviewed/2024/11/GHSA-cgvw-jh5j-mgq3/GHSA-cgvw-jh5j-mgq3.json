@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgvw-jh5j-mgq3",
-  "modified": "2024-11-24T15:31:38Z",
+  "modified": "2024-11-29T18:34:01Z",
   "published": "2024-11-18T18:30:58Z",
   "aliases": [
     "CVE-2024-9474"
@@ -17,13 +17,19 @@
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:N/R:U/V:C/RE:H/U:Red"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9474"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/k4nfr3/CVE-2024-9474"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/pots-and-pans-aka-an-sslvpn-palo-alto-pan-os-cve-2024-0012-and-cve-2024-9474"
     },
     {
       "type": "WEB",
