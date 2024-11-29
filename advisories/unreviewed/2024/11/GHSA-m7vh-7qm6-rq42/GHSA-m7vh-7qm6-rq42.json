@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7vh-7qm6-rq42",
-  "modified": "2024-11-27T18:34:04Z",
+  "modified": "2024-11-29T21:31:03Z",
   "published": "2024-11-27T18:34:04Z",
   "aliases": [
     "CVE-2024-31976"
   ],
   "details": "EnGenius EWS356-FIR 1.1.30 and earlier devices allow a remote attacker to execute arbitrary OS commands via the Controller connectivity parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-78"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-27T17:15:10Z"

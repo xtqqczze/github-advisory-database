@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49pw-2xfg-hw49",
-  "modified": "2024-11-29T18:34:03Z",
+  "modified": "2024-11-29T21:31:03Z",
   "published": "2024-11-29T18:34:03Z",
   "aliases": [
     "CVE-2024-36624"
   ],
   "details": "Zulip 8.3 is vulnerable to Cross Site Scripting (XSS) via the construct_copy_div function in copy_and_paste.js.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-29T18:15:08Z"

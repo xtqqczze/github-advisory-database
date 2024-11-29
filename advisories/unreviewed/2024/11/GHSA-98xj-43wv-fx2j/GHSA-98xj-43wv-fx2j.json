@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98xj-43wv-fx2j",
-  "modified": "2024-11-08T18:30:49Z",
+  "modified": "2024-11-29T21:31:01Z",
   "published": "2024-11-08T06:30:48Z",
   "aliases": [
     "CVE-2024-50179"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nceph: remove the incorrect Fw reference check when dirtying pages\n\nWhen doing the direct-io reads it will also try to mark pages dirty,\nbut for the read path it won't hold the Fw caps and there is case\nwill it get the Fw reference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-08T06:15:15Z"
