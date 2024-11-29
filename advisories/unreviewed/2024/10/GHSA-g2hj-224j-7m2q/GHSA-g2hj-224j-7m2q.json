@@ -7,12 +7,8 @@
     "CVE-2024-44081"
   ],
   "details": "In Jitsi Meet before 2.0.9779, the functionality to share a video file was implemented in an insecure way, resulting in clients loading videos from an arbitrary URL if a message from another participant contains a URL encoded in the expected format.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
