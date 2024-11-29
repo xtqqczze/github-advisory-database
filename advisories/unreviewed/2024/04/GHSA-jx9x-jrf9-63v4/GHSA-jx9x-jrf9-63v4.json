@@ -7,12 +7,8 @@
     "CVE-2024-30729"
   ],
   "details": "An OS command injection vulnerability has been discovered in ROS Kinetic Kame in ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows remote attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via the External Command Execution Modules, System Call Handlers, and Interface Scripts.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

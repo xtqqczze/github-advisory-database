@@ -7,12 +7,8 @@
     "CVE-2024-35820"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring: fix io_queue_proc modifying req->flags\n\nWith multiple poll entries __io_queue_proc() might be running in\nparallel with poll handlers and possibly task_work, we should not be\ncarelessly modifying req->flags there. io_poll_double_prepare() handles\na similar case with locking but it's much easier to move it into\n__io_arm_poll_handler().",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

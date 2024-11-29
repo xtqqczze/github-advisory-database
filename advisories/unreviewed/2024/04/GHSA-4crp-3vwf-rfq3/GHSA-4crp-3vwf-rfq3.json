@@ -7,12 +7,8 @@
     "CVE-2024-30662"
   ],
   "details": "An issue was discovered in ROS (Robot Operating System) Melodic Morenia in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, where the system transmits messages in plaintext. This flaw exposes sensitive information, making it vulnerable to man-in-the-middle (MitM) attacks, and allowing attackers to easily intercept and access this data.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

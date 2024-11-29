@@ -7,12 +7,8 @@
     "CVE-2024-30681"
   ],
   "details": "An OS command injection vulnerability has been discovered in ROS2 Iron Irwini version ROS_VERSION 2 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code, escalate privileges, and obtain sensitive information via the command processing or system call components in ROS2.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

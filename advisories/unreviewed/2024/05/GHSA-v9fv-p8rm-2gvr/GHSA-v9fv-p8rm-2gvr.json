@@ -7,12 +7,8 @@
     "CVE-2023-52758"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni2c: dev: copy userspace array safely\n\ni2c-dev.c utilizes memdup_user() to copy a userspace array. This is done\nwithout an overflow check.\n\nUse the new wrapper memdup_array_user() to copy the array more safely.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-30733"
   ],
   "details": "A buffer overflow vulnerability has been discovered in the C++ components of ROS Kinetic Kame in ROS_VERSION 1 and ROS_ PYTHON_VERSION 3, allows attackers to execute arbitrary code or cause a denial of service (DoS) via improper handling of arrays or strings within these components.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

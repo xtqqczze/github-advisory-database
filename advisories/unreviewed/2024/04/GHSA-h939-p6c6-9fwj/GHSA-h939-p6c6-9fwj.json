@@ -7,12 +7,8 @@
     "CVE-2024-30736"
   ],
   "details": "An insecure deserialization vulnerability has been identified in ROS Kinetic Kame in ROS_VERSION 1 and ROS_PYTHON_VERSION 3, allows attackers to execute arbitrary code and obtain sensitive information via the Data Serialization and Deserialization Components, Inter-Process Communication Mechanisms, and Network Communication Interfaces.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
