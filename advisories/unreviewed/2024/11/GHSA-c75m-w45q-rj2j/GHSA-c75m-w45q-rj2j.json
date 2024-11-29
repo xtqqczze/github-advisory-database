@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c75m-w45q-rj2j",
-  "modified": "2024-11-29T06:35:29Z",
+  "modified": "2024-11-29T15:37:53Z",
   "published": "2024-11-29T06:35:29Z",
   "aliases": [
     "CVE-2024-10980"
   ],
   "details": "The Element Pack Elementor Addons (Header Footer, Template Library, Dynamic Grid, Carousel and Remote Arrows) WordPress plugin before 5.10.3 does not validate and escape some of its Cookie Consent block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-29T06:15:06Z"
