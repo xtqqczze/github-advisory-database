@@ -7,12 +7,8 @@
     "CVE-2024-44757"
   ],
   "details": "An arbitrary file download vulnerability in the component /Basics/DownloadInpFile of NUS-M9 ERP Management Software v3.0.0 allows attackers to download arbitrary files and access sensitive information via a crafted interface request.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

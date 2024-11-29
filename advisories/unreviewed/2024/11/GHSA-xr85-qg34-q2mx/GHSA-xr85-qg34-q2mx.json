@@ -7,12 +7,8 @@
     "CVE-2024-50295"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: arc: fix the device for dma_map_single/dma_unmap_single\n\nThe ndev->dev and pdev->dev aren't the same device, use ndev->dev.parent\nwhich has dma_mask, ndev->dev.parent is just pdev->dev.\nOr it would cause the following issue:\n\n[   39.933526] ------------[ cut here ]------------\n[   39.938414] WARNING: CPU: 1 PID: 501 at kernel/dma/mapping.c:149 dma_map_page_attrs+0x90/0x1f8",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
