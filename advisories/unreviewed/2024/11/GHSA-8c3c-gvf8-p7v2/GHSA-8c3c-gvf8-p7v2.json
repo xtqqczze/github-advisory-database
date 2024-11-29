@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8c3c-gvf8-p7v2",
-  "modified": "2024-11-26T21:32:24Z",
+  "modified": "2024-11-29T06:35:29Z",
   "published": "2024-11-26T18:38:52Z",
   "aliases": [
     "CVE-2024-52337"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2324541"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.opensuse.org/2024/11/26/tuned-instance-create.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2024/11/28/2"
     }
   ],
   "database_specific": {

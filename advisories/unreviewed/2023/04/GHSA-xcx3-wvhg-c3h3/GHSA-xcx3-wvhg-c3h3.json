@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcx3-wvhg-c3h3",
-  "modified": "2024-04-04T03:35:18Z",
+  "modified": "2024-11-29T06:35:28Z",
   "published": "2023-04-19T15:30:21Z",
   "aliases": [
     "CVE-2023-29586"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://securityandstuff.com/posts/teracopy_arbitrary_read"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.codesector.com/en/articles/10088479-cve-2023-29586"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.youtube.com/watch?v=mrOHtWWFhJI"
     }
   ],
   "database_specific": {

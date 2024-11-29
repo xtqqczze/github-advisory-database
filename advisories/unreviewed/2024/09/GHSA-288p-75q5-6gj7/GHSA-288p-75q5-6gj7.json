@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-288p-75q5-6gj7",
-  "modified": "2024-09-10T06:30:49Z",
+  "modified": "2024-11-29T06:35:28Z",
   "published": "2024-09-10T06:30:49Z",
   "aliases": [
     "CVE-2024-6173"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.axis.com/dam/public/33/0c/c8/cve-2024-6173-en-US-448995.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.axis.com/dam/public/5a/87/a2/cve-2024-6173-en-US-458042.pdf"
     }
   ],
   "database_specific": {
