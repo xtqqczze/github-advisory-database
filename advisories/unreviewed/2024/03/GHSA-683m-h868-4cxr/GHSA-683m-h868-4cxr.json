@@ -7,12 +7,8 @@
     "CVE-2024-1279"
   ],
   "details": "The Paid Memberships Pro WordPress plugin before 2.12.9 does not prevent user with at least the contributor role from leaking other users' sensitive metadata.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

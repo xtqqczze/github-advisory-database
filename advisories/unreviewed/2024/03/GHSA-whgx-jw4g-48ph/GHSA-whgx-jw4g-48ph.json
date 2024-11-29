@@ -7,12 +7,8 @@
     "CVE-2023-52495"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsoc: qcom: pmic_glink_altmode: fix port sanity check\n\nThe PMIC GLINK altmode driver currently supports at most two ports.\n\nFix the incomplete port sanity check on notifications to avoid\naccessing and corrupting memory beyond the port array if we ever get a\nnotification for an unsupported port.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

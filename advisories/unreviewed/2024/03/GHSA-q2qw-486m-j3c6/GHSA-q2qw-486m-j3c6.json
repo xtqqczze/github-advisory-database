@@ -7,12 +7,8 @@
     "CVE-2024-26619"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nriscv: Fix module loading free order\n\nReverse order of kfree calls to resolve use-after-free error.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

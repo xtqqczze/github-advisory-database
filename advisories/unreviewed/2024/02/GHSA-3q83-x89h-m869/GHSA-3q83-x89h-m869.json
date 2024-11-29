@@ -7,12 +7,8 @@
     "CVE-2024-26284"
   ],
   "details": "Utilizing a 302 redirect, an attacker could have conducted a Universal Cross-Site Scripting (UXSS) on a victim website, if the victim had a link to the attacker's website. This vulnerability affects Focus for iOS < 123.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

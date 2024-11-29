@@ -7,12 +7,8 @@
     "CVE-2023-52573"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: rds: Fix possible NULL-pointer dereference\n\nIn rds_rdma_cm_event_handler_cmn() check, if conn pointer exists\nbefore dereferencing it as rdma_set_service_type() argument\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
