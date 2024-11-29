@@ -7,12 +7,8 @@
     "CVE-2024-33328"
   ],
   "details": "A cross-site scripting (XSS) vulnerability in the component main.jsp of Lumisxp v15.0.x to v16.1.x allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the pageId parameter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
