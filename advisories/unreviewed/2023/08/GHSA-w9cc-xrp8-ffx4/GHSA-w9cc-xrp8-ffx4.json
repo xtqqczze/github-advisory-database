@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9cc-xrp8-ffx4",
-  "modified": "2024-04-04T07:08:10Z",
+  "modified": "2024-11-29T12:31:47Z",
   "published": "2023-08-22T21:30:27Z",
   "aliases": [
     "CVE-2022-48174"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.busybox.net/show_bug.cgi?id=15216"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241129-0001"
     }
   ],
   "database_specific": {

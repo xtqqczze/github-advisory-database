@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9442-gm4v-r222",
-  "modified": "2024-10-17T14:08:20Z",
+  "modified": "2024-11-29T12:31:48Z",
   "published": "2024-06-20T15:31:19Z",
   "aliases": [
     "CVE-2024-6162"
@@ -109,6 +109,10 @@
     {
       "type": "WEB",
       "url": "https://issues.redhat.com/browse/UNDERTOW-2334"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241129-0009"
     }
   ],
   "database_specific": {

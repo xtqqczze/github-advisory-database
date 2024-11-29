@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3h8-3mf2-v794",
-  "modified": "2024-08-01T15:32:07Z",
+  "modified": "2024-11-29T12:31:48Z",
   "published": "2024-07-24T09:30:40Z",
   "aliases": [
     "CVE-2024-6197"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -35,6 +33,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241129-0008"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2024/07/24/1"
     },
     {
@@ -43,9 +45,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
