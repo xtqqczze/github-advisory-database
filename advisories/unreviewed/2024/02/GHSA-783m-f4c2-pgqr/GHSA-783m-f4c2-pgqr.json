@@ -7,12 +7,8 @@
     "CVE-2024-1563"
   ],
   "details": "An attacker could have executed unauthorized scripts on top origin sites using a JavaScript URI when opening an external URL with a custom Firefox scheme and a timeout race condition. This vulnerability affects Focus for iOS < 122.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

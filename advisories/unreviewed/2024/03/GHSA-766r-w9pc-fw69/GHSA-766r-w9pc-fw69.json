@@ -7,12 +7,8 @@
     "CVE-2023-52514"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/reboot: VMCLEAR active VMCSes before emergency reboot\n\nVMCLEAR active VMCSes before any emergency reboot, not just if the kernel\nmay kexec into a new kernel after a crash.  Per Intel's SDM, the VMX\narchitecture doesn't require the CPU to flush the VMCS cache on INIT.  If\nan emergency reboot doesn't RESET CPUs, cached VMCSes could theoretically\nbe kept and only be written back to memory after the new kernel is booted,\ni.e. could effectively corrupt memory after reboot.\n\nOpportunistically remove the setting of the global pointer to NULL to make\ncheckpatch happy.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

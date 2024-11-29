@@ -7,12 +7,8 @@
     "CVE-2023-52565"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: uvcvideo: Fix OOB read\n\nIf the index provided by the user is bigger than the mask size, we might do\nan out of bound read.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

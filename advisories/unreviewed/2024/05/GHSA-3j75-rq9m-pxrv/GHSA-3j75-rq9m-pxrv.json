@@ -7,12 +7,8 @@
     "CVE-2024-20060"
   ],
   "details": "In da, there is a possible escalation of privilege due to an incorrect status check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS08541749; Issue ID: ALPS08541754.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

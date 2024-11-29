@@ -7,12 +7,8 @@
     "CVE-2023-32871"
   ],
   "details": "In DA, there is a possible permission bypass due to an incorrect status check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS08355514; Issue ID: ALPS08355514.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
