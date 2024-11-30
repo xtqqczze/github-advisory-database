@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4696-66c4-2gvx",
-  "modified": "2024-11-26T21:32:23Z",
+  "modified": "2024-11-30T15:30:41Z",
   "published": "2024-11-19T18:31:06Z",
   "aliases": [
     "CVE-2024-48991"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,12 +34,14 @@
     {
       "type": "WEB",
       "url": "https://www.qualys.com/2024/11/19/needrestart/needrestart.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/30/4"
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
