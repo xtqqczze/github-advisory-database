@@ -7,12 +7,8 @@
     "CVE-2012-1661"
   ],
   "details": "ESRI ArcMap 9 and ArcGIS 10.0.2.3200 and earlier does not properly prompt users before executing embedded VBA macros, which allows user-assisted remote attackers to execute arbitrary VBA code via a crafted map (.mxd) file.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

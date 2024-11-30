@@ -7,12 +7,8 @@
     "CVE-2023-49837"
   ],
   "details": "Uncontrolled Resource Consumption vulnerability in David Artiss Code Embed.This issue affects Code Embed: from n/a through 2.3.6.\n\n",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
