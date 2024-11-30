@@ -7,12 +7,8 @@
     "CVE-2024-26306"
   ],
   "details": "iPerf3 before 3.17, when used with OpenSSL before 3.2.0 as a server with RSA authentication, allows a timing side channel in RSA decryption operations. This side channel could be sufficient for an attacker to recover credential plaintext. It requires the attacker to send a large number of messages for decryption, as described in \"Everlasting ROBOT: the Marvin Attack\" by Hubert Kario.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
