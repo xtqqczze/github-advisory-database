@@ -7,12 +7,8 @@
     "CVE-2021-25487"
   ],
   "details": "Lack of boundary checking of a buffer in set_skb_priv() of modem interface driver prior to SMR Oct-2021 Release 1 allows OOB read and it results in arbitrary code execution by dereference of invalid function pointer.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

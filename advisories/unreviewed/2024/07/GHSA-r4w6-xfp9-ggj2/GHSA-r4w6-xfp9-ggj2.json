@@ -7,12 +7,8 @@
     "CVE-2024-40928"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ethtool: fix the error condition in ethtool_get_phy_stats_ethtool()\n\nClang static checker (scan-build) warning:\nnet/ethtool/ioctl.c:line 2233, column 2\nCalled function pointer is null (null dereference).\n\nReturn '-EOPNOTSUPP' when 'ops->get_ethtool_phy_stats' is NULL to fix\nthis typo error.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

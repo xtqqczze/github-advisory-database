@@ -7,12 +7,8 @@
     "CVE-2024-40926"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/nouveau: don't attempt to schedule hpd_work on headless cards\n\nIf the card doesn't have display hardware, hpd_work and hpd_lock are\nleft uninitialized which causes BUG when attempting to schedule hpd_work\non runtime PM resume.\n\nFix it by adding headless flag to DRM and skip any hpd if it's set.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
