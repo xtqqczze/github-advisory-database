@@ -3,9 +3,7 @@
   "id": "GHSA-55p7-v223-x366",
   "modified": "2024-07-31T19:57:33Z",
   "published": "2024-07-31T19:57:33Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "IdentityServer Open Redirect vulnerability",
   "details": "### Impact\nIt is possible for an attacker to craft malicious Urls that certain functions in IdentityServer will incorrectly treat as local and trusted. If such a Url is returned as a redirect, some browsers will follow it to a third-party, untrusted site.\n\n### Affected Methods\n- In the `DefaultIdentityServerInteractionService`, the `GetAuthorizationContextAsync` method may return non-null and the `IsValidReturnUrl` method may return true for malicious Urls, indicating incorrectly that they can be safely redirected to.\n\n   _UI code calling these two methods is the most commonly used code path that will expose the vulnerability. The default UI templates rely on this behavior in the Login, Challenge, and Consent pages. Customized user interface code might also rely on this behavior. The following uncommonly used APIs are also vulnerable:_\n\n- The `ServerUrlExtensions.GetIdentityServerRelativeUrl`, `ReturnUrlParser.ParseAsync` and `OidcReturnUrlParser.ParseAsync`  methods may incorrectly return non-null, and the `ReturnUrlParser.IsValidReturnUrl` and `OidcReturnUrlParser.IsValidReturnUrl` methods may incorrectly return true for malicious Urls.\n\n### Patches\nIdentityServer4 is no longer supported and will not be receiving updates. Please consider updating to [Duende.IdentityServer](https://duendesoftware.com).\n",
   "severity": [

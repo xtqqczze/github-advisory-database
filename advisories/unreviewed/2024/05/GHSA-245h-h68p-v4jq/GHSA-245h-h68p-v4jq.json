@@ -7,12 +7,8 @@
     "CVE-2024-33117"
   ],
   "details": "crmeb_java v1.3.4 was discovered to contain a Server-Side Request Forgery (SSRF) via the mergeList method in class com.zbkj.front.pub.ImageMergeController.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

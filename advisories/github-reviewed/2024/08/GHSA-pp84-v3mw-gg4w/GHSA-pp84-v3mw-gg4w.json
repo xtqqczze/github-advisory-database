@@ -3,14 +3,10 @@
   "id": "GHSA-pp84-v3mw-gg4w",
   "modified": "2024-10-10T18:46:20Z",
   "published": "2024-08-27T19:50:54Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Taipy 3.1.1 affected by CVEs on flask-core and pymongo",
   "details": "### Summary\nIndirect CVEs affect Taipy 3.1.1\n\n### Details\nTaipy 3.1.1 is affected by two existing CVEs:\nCVE-2024-1681 affects flask-core <4.0.1 and taipy 3.1.1 needs <=4.0.0\nCVE-2024-5629 affects pymongo <4.6.3 and taipy 3.1.1 needs <=4.6.1\n\nPlease see References for further details.\n\n### Patch\nplease upgrade to the following versions:\n\nFixed on patch versions: >=3.1.2\nand on major releases: >=4.0.0\n\n### Impact\npre-commit breaks when using dependency Taipy 3.1.1",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -62,9 +58,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-27T19:50:54Z",

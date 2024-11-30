@@ -7,12 +7,8 @@
     "CVE-2024-26836"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86: think-lmi: Fix password opcode ordering for workstations\n\nThe Lenovo workstations require the password opcode to be run before\nthe attribute value is changed (if Admin password is enabled).\n\nTested on some Thinkpads to confirm they are OK with this order too.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

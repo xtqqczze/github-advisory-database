@@ -7,12 +7,8 @@
     "CVE-2024-41262"
   ],
   "details": "mmudb v1.9.3 was discovered to use the HTTP protocol in the ShowMetricsRaw and ShowMetricsAsText functions, possibly allowing attackers to intercept communications via a man-in-the-middle attack.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
