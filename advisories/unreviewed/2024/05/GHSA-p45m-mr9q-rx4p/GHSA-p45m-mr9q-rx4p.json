@@ -7,12 +7,8 @@
     "CVE-2024-3918"
   ],
   "details": "The Pet Manager WordPress plugin through 1.4 does not sanitise and escape some of its Pet settings, which could allow high privilege users such as Contributor to perform Stored Cross-Site Scripting attacks.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

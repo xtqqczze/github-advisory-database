@@ -7,12 +7,8 @@
     "CVE-2024-36011"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: HCI: Fix potential null-ptr-deref\n\nFix potential null-ptr-deref in hci_le_big_sync_established_evt().",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

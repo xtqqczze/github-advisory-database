@@ -7,12 +7,8 @@
     "CVE-2024-41024"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmisc: fastrpc: Restrict untrusted app to attach to privileged PD\n\nUntrusted application with access to only non-secure fastrpc device\nnode can attach to root_pd or static PDs if it can make the respective\ninit request. This can cause problems as the untrusted application\ncan send bad requests to root_pd or static PDs. Add changes to reject\nattach to privileged PDs if the request is being made using non-secure\nfastrpc device node.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
