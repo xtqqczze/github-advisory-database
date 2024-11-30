@@ -7,12 +7,8 @@
     "CVE-2023-52890"
   ],
   "details": "NTFS-3G before 75dcdc2 has a use-after-free in ntfs_uppercase_mbs in libntfs-3g/unistr.c. NOTE: discussion suggests that exploitation would be challenging.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
