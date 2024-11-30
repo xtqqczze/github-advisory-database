@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwq5-xwx7-85wm",
-  "modified": "2024-11-25T21:30:48Z",
+  "modified": "2024-11-30T12:30:37Z",
   "published": "2024-09-06T06:31:41Z",
   "aliases": [
     "CVE-2024-45751"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/fujita/tgt/compare/v1.0.92...v1.0.93"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00033.html"
     },
     {
       "type": "WEB",

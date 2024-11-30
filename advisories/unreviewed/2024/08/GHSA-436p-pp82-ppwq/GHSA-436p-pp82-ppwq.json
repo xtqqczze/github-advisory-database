@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-436p-pp82-ppwq",
-  "modified": "2024-08-29T21:31:03Z",
+  "modified": "2024-11-30T12:30:36Z",
   "published": "2024-08-29T12:31:04Z",
   "aliases": [
     "CVE-2024-43700"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/vu/JVNVU96498690"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00034.html"
     }
   ],
   "database_specific": {
