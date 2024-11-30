@@ -3,14 +3,10 @@
   "id": "GHSA-5grr-72f9-678v",
   "modified": "2024-07-12T21:01:13Z",
   "published": "2024-07-12T21:01:13Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Malware package cipherbcrypt",
   "details": "Malicious package. Exfiltrated secrets to a target server.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-07-12T21:01:13Z",

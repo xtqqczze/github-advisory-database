@@ -7,12 +7,8 @@
     "CVE-2024-40991"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: ti: k3-udma-glue: Fix of_k3_udma_glue_parse_chn_by_id()\n\nThe of_k3_udma_glue_parse_chn_by_id() helper function erroneously\ninvokes \"of_node_put()\" on the \"udmax_np\" device-node passed to it,\nwithout having incremented its reference count at any point. Fix it.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
