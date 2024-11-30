@@ -7,12 +7,8 @@
     "CVE-2024-38282"
   ],
   "details": "Utilizing default credentials, an attacker is able to log into the camera's operating system which could allow changes to be made to the operations or shutdown the camera requiring a physical reboot of the system.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
