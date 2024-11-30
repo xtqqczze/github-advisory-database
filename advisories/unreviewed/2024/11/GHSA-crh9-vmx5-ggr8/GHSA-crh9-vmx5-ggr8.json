@@ -7,12 +7,8 @@
     "CVE-2024-52675"
   ],
   "details": "SourceCodester Sentiment Based Movie Rating System 1.0 is vulnerable to SQL Injection in /msrps/movies.php.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

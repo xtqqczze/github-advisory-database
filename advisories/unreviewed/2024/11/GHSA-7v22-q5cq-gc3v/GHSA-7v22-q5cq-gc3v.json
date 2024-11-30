@@ -7,12 +7,8 @@
     "CVE-2024-1271"
   ],
   "details": "Rejected reason: This CVE was previously published at https://bugzilla.redhat.com/show_bug.cgi?id=2262978 but later rejected for the following reason: The flaw requires an attacker to have superuser credentials which is a condition that already permits all impacts, hence not constituing a security vulnerability.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -20,9 +16,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
