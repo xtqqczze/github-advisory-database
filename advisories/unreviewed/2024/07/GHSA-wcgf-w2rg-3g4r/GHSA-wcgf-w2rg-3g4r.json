@@ -7,12 +7,8 @@
     "CVE-2024-40937"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngve: Clear napi->skb before dev_kfree_skb_any()\n\ngve_rx_free_skb incorrectly leaves napi->skb referencing an skb after it\nis freed with dev_kfree_skb_any(). This can result in a subsequent call\nto napi_get_frags returning a dangling pointer.\n\nFix this by clearing napi->skb before the skb is freed.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

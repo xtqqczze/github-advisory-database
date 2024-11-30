@@ -7,12 +7,8 @@
     "CVE-2024-39505"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/komeda: check for error-valued pointer\n\nkomeda_pipeline_get_state() may return an error-valued pointer, thus\ncheck the pointer for negative or null value before dereferencing.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
