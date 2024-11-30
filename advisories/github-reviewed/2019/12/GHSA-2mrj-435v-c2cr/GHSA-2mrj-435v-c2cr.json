@@ -4,14 +4,10 @@
   "modified": "2024-09-20T16:46:32Z",
   "published": "2019-12-02T18:15:31Z",
   "withdrawn": "2020-06-16T20:15:24Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Duplicate Advisory: possible DoS caused by malformed signature decoding in Pure-Python ECDSA",
   "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-pwfw-mgfj-7g3g. This link is maintained to preserve external references.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -68,9 +64,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2019-12-02T01:15:50Z",
