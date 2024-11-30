@@ -7,12 +7,8 @@
     "CVE-2024-43875"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI: endpoint: Clean up error handling in vpci_scan_bus()\n\nSmatch complains about inconsistent NULL checking in vpci_scan_bus():\n\n    drivers/pci/endpoint/functions/pci-epf-vntb.c:1024 vpci_scan_bus() error: we previously assumed 'vpci_bus' could be null (see line 1021)\n\nInstead of printing an error message and then crashing we should return\nan error code and clean up.\n\nAlso the NULL check is reversed so it prints an error for success\ninstead of failure.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

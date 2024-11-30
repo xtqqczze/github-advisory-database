@@ -7,12 +7,8 @@
     "CVE-2024-27186"
   ],
   "details": "The mail template feature lacks an escaping mechanism, causing XSS vectors in multiple extensions.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
