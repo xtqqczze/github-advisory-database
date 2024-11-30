@@ -7,12 +7,8 @@
     "CVE-2024-40986"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: xilinx: xdma: Fix data synchronisation in xdma_channel_isr()\n\nRequests the vchan lock before using xdma->stop_request.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
