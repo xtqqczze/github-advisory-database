@@ -7,12 +7,8 @@
     "CVE-2022-48880"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/surface: aggregator: Add missing call to ssam_request_sync_free()\n\nAlthough rare, ssam_request_sync_init() can fail. In that case, the\nrequest should be freed via ssam_request_sync_free(). Currently it is\nleaked instead. Fix this.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

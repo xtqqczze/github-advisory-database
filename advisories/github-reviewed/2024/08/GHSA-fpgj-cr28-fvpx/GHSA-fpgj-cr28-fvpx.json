@@ -3,14 +3,10 @@
   "id": "GHSA-fpgj-cr28-fvpx",
   "modified": "2024-08-21T18:33:17Z",
   "published": "2024-08-21T18:33:17Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "CWA-2024-006: wasmd non-deterministic module_query_safe query",
   "details": "**Component:** wasmd\n**Criticality:** Medium ([ACMv1](https://github.com/interchainio/security/blob/main/resources/CLASSIFICATION_MATRIX.md): I:Moderate; L:Likely)\n**Patched versions:** wasmd 0.53.0\n\nSee [CWA-2024-006](https://github.com/CosmWasm/advisories/blob/main/CWAs/CWA-2024-006.md) for more details.\n",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
