@@ -7,12 +7,8 @@
     "CVE-2024-26760"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: target: pscsi: Fix bio_put() for error case\n\nAs of commit 066ff571011d (\"block: turn bio_kmalloc into a simple kmalloc\nwrapper\"), a bio allocated by bio_kmalloc() must be freed by bio_uninit()\nand kfree(). That is not done properly for the error case, hitting WARN and\nNULL pointer dereference in bio_free().",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

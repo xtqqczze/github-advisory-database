@@ -7,12 +7,8 @@
     "CVE-2024-26774"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: avoid dividing by 0 in mb_update_avg_fragment_size() when block bitmap corrupt\n\nDetermine if bb_fragments is 0 instead of determining bb_free to eliminate\nthe risk of dividing by zero when the block bitmap is corrupted.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

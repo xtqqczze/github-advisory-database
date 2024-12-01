@@ -7,12 +7,8 @@
     "CVE-2024-26767"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: fixed integer types and null check locations\n\n[why]:\nissues fixed:\n- comparison with wider integer type in loop condition which can cause\ninfinite loops\n- pointer dereference before null check",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
