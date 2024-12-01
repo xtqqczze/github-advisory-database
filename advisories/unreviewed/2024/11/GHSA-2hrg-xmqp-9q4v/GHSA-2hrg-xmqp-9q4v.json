@@ -7,12 +7,8 @@
     "CVE-2024-52702"
   ],
   "details": "A stored cross-site scripting (XSS) vulnerability in the component install\\index.php of MyBB v1.8.38 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Website Name parameter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

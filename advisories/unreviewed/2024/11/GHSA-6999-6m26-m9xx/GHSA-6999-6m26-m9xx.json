@@ -7,12 +7,8 @@
     "CVE-2024-48069"
   ],
   "details": "A remote code execution (RCE) vulnerability in the component /inventory/doCptimpoptInventory of Weaver Ecology v9.* allows attackers to execute arbitrary code via injecting a crafted payload into the name of an uploaded file.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
