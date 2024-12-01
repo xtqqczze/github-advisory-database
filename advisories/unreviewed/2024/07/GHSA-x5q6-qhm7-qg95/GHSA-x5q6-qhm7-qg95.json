@@ -7,12 +7,8 @@
     "CVE-2024-42143"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\norangefs: fix out-of-bounds fsid access\n\nArnd Bergmann sent a patch to fsdevel, he says:\n\n\"orangefs_statfs() copies two consecutive fields of the superblock into\nthe statfs structure, which triggers a warning from the string fortification\nhelpers\"\n\nJan Kara suggested an alternate way to do the patch to make it more readable.\n\nI ran both ideas through xfstests and both seem fine. This patch\nis based on Jan Kara's suggestion.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
