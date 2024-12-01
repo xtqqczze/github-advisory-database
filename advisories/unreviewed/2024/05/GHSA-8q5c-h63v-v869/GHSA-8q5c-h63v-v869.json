@@ -7,12 +7,8 @@
     "CVE-2024-1076"
   ],
   "details": "The SSL Zen  WordPress plugin before 4.6.0 only relies on the use of .htaccess to prevent visitors from accessing the site's generated private keys, which allows an attacker to read them if the site runs on a server who doesn't support .htaccess files, like NGINX.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
