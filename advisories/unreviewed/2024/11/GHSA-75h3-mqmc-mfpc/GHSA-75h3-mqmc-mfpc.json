@@ -7,12 +7,8 @@
     "CVE-2024-48534"
   ],
   "details": "A reflected cross-site scripting (XSS) vulnerability on the Camp Details module of eSoft Planner 3.24.08271-USA allows attackers to execute arbitrary code in the context of a user's browser via injecting a crafted payload.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
