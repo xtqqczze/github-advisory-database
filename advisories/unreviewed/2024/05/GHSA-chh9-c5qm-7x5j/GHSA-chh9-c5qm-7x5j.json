@@ -7,12 +7,8 @@
     "CVE-2024-35039"
   ],
   "details": "idccms V1.35 was discovered to contain a Cross-Site Request Forgery (CSRF) via admin/tplSys_deal.php?mudi=area.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

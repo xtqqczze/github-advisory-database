@@ -7,12 +7,8 @@
     "CVE-2024-35560"
   ],
   "details": "idccms v1.35 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component /admin/ca_deal.php?mudi=del&dataType=&dataTypeCN.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
