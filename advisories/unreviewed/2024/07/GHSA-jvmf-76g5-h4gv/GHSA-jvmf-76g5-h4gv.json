@@ -7,12 +7,8 @@
     "CVE-2024-38344"
   ],
   "details": "A cross-site request forgery vulnerability exists in WP Tweet Walls versions prior to 1.0.4. If this vulnerability is exploited, an attacker allows a user who logs in to the WordPress site where the affected plugin is enabled to access a malicious page. As a result, the user may perform unintended operations on the WordPress site.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
