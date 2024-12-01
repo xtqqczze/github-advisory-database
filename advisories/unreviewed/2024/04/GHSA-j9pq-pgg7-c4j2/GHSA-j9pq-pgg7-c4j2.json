@@ -7,12 +7,8 @@
     "CVE-2024-30989"
   ],
   "details": "Cross Site Scripting vulnerability in /edit-client-details.php of phpgurukul Client Management System using PHP & MySQL 1.1 allows attackers to execute arbitrary code via the \"cname\", \"comname\", \"state\" and \"city\" parameter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

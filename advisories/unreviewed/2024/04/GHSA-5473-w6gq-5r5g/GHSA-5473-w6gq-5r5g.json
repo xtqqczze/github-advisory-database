@@ -7,12 +7,8 @@
     "CVE-2023-52722"
   ],
   "details": "An issue was discovered in Artifex Ghostscript through 10.01.0. psi/zmisc1.c, when SAFER mode is used, allows eexec seeds other than the Type 1 standard.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

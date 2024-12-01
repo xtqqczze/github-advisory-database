@@ -7,12 +7,8 @@
     "CVE-2024-29291"
   ],
   "details": "An issue in Laravel Framework 8 through 11 might allow a remote attacker to discover database credentials in storage/logs/laravel.log.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

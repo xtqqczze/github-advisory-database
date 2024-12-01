@@ -7,12 +7,8 @@
     "CVE-2019-19751"
   ],
   "details": "easyMINE before 2019-12-05 ships with SSH host keys baked into the installation image, which allows man-in-the-middle attacks and makes identification of all public IPv4 nodes trivial with Shodan.io.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

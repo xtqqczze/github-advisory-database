@@ -7,12 +7,8 @@
     "CVE-2024-30981"
   ],
   "details": "SQL Injection vulnerability in /edit-computer-detail.php in phpgurukul Cyber Cafe Management System Using PHP & MySQL v1.0 allows attackers to run arbitrary SQL commands via editid in the application URL.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

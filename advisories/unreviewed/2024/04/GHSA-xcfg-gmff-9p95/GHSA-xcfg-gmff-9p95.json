@@ -7,12 +7,8 @@
     "CVE-2024-33401"
   ],
   "details": "Cross Site Scripting vulnerability in DedeCMS v.5.7.113 allows a remote attacker to run arbitrary code via the mnum parameter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
