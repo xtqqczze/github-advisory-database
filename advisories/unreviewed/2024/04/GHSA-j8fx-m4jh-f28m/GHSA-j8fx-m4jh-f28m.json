@@ -7,12 +7,8 @@
     "CVE-2022-48642"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_tables: fix percpu memory leak at nf_tables_addchain()\n\nIt seems to me that percpu memory for chain stats started leaking since\ncommit 3bc158f8d0330f0a (\"netfilter: nf_tables: map basechain priority to\nhardware priority\") when nft_chain_offload_priority() returned an error.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

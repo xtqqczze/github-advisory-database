@@ -7,12 +7,8 @@
     "CVE-2022-48667"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb3: fix temporary data corruption in insert range\n\ninsert range doesn't discard the affected cached region\nso can risk temporarily corrupting file data.\n\nAlso includes some minor cleanup (avoiding rereading\ninode size repeatedly unnecessarily) to make it clearer.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

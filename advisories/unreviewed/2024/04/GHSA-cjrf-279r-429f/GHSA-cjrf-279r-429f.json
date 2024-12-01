@@ -7,12 +7,8 @@
     "CVE-2022-48665"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nexfat: fix overflow for large capacity partition\n\nUsing int type for sector index, there will be overflow in a large\ncapacity partition.\n\nFor example, if storage with sector size of 512 bytes and partition\ncapacity is larger than 2TB, there will be overflow.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

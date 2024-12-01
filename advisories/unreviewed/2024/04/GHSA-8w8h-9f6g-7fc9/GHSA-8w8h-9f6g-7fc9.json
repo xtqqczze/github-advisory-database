@@ -7,12 +7,8 @@
     "CVE-2022-48639"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: sched: fix possible refcount leak in tc_new_tfilter()\n\ntfilter_put need to be called to put the refount got by tp->ops->get to\navoid possible refcount leak when chain->tmplt_ops != NULL and\nchain->tmplt_ops != tp->ops.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

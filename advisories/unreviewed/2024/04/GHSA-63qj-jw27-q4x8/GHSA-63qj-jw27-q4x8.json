@@ -7,12 +7,8 @@
     "CVE-2022-48656"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: ti: k3-udma-private: Fix refcount leak bug in of_xudma_dev_get()\n\nWe should call of_node_put() for the reference returned by\nof_parse_phandle() in fail path or when it is not used anymore.\nHere we only need to move the of_node_put() before the check.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
