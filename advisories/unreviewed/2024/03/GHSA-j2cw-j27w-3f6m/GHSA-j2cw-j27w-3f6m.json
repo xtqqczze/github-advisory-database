@@ -7,12 +7,8 @@
     "CVE-2024-23249"
   ],
   "details": "The issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.4. Processing a file may lead to a denial-of-service or potentially disclose memory contents.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

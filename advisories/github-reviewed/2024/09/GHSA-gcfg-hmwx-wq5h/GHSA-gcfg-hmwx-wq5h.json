@@ -3,9 +3,7 @@
   "id": "GHSA-gcfg-hmwx-wq5h",
   "modified": "2024-09-09T18:18:15Z",
   "published": "2024-09-09T18:18:15Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Httpful is Missing Certificate Validation",
   "details": "Httpful has Insecure HTTPS Connections due to Missing Default Certificate Validation",
   "severity": [

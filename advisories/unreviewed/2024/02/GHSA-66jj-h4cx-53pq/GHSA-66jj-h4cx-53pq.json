@@ -7,12 +7,8 @@
     "CVE-2024-21728"
   ],
   "details": "An Open Redirect vulnerability was found in osTicky2 below 2.2.8. osTicky (osTicket Bridge) by SmartCalc is a Joomla 3.x extension that provides Joomla fronted integration with osTicket, a popular Support ticket system. The Open Redirect vulnerability allows attackers to control the return parameter in the URL to a base64 malicious URL.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
