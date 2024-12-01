@@ -3,14 +3,10 @@
   "id": "GHSA-2r6g-7r83-jg72",
   "modified": "2024-08-30T23:37:36Z",
   "published": "2024-08-30T23:37:36Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "`spam` project on PyPI compromised, malicious releases made",
   "details": "The `spam` project on PyPI was taken over via user account compromise via a phishing attack and a new malicious release made which contained code which some environment variables and downloaded and ran malware at install time",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -42,9 +38,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-08-30T23:37:36Z",

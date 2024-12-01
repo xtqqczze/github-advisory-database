@@ -3,9 +3,7 @@
   "id": "GHSA-q445-7m23-qrmw",
   "modified": "2024-07-22T17:34:53Z",
   "published": "2024-07-22T17:34:53Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "openssl's `MemBio::get_buf` has undefined behavior with empty buffers",
   "details": "Previously, `MemBio::get_buf` called `slice::from_raw_parts` with a null-pointer, which violates the functions invariants, leading to undefined behavior. In debug builds this would produce an assertion failure. This is now fixed.\n",
   "severity": [
