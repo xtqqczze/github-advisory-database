@@ -8,9 +8,7 @@
   ],
   "summary": "RPLY Predictable Tmpfile Names Allows Cache Spoofing",
   "details": "The parser cache functionality in parsergenerator.py in RPLY (aka python-rply) before 0.7.1 allows local users to spoof cache data by pre-creating a temporary rply-*.json file with a predictable name.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {

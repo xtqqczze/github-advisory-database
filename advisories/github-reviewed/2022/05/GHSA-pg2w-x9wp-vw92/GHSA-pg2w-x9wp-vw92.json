@@ -8,9 +8,7 @@
   ],
   "summary": "Python Requests Session Fixation",
   "details": "The `resolve_redirects` function in sessions.py in requests 2.1.0 through 2.5.3 allows remote attackers to conduct session fixation attacks via a cookie without a host value in a redirect.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -83,9 +81,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2023-07-31T23:49:22Z",
