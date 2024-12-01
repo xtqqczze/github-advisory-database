@@ -7,12 +7,8 @@
     "CVE-2024-29466"
   ],
   "details": "Directory Traversal vulnerability in lsgwr spring boot online exam v.0.9 allows an attacker to execute arbitrary code via the FileTransUtil.java component.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

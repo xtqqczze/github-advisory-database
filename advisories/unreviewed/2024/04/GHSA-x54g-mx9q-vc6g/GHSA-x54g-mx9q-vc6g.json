@@ -7,12 +7,8 @@
     "CVE-2024-33332"
   ],
   "details": "An issue discovered in SpringBlade 3.7.1 allows attackers to obtain sensitive information via crafted GET request to api/blade-system/tenant.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
