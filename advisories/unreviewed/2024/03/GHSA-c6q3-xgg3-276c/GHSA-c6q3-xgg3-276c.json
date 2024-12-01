@@ -7,12 +7,8 @@
     "CVE-2021-47091"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmac80211: fix locking in ieee80211_start_ap error path\n\nWe need to hold the local->mtx to release the channel context,\nas even encoded by the lockdep_assert_held() there. Fix it.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
