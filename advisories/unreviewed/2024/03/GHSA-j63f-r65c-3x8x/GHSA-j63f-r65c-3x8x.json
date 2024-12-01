@@ -7,12 +7,8 @@
     "CVE-2024-1319"
   ],
   "details": "The Events Tickets Plus WordPress plugin before 5.9.1 does not prevent users with at least the contributor role from leaking the attendees list on any post type regardless of status. (e.g. draft, private, pending review, password-protected, and trashed posts).",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
