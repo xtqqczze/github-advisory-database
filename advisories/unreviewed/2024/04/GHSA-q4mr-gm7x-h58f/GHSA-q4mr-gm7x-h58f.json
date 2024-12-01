@@ -7,12 +7,8 @@
     "CVE-2024-26730"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhwmon: (nct6775) Fix access to temperature configuration registers\n\nThe number of temperature configuration registers does\nnot always match the total number of temperature registers.\nThis can result in access errors reported if KASAN is enabled.\n\nBUG: KASAN: global-out-of-bounds in nct6775_probe+0x5654/0x6fe9 nct6775_core",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

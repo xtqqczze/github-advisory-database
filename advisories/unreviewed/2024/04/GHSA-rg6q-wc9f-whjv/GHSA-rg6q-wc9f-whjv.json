@@ -7,12 +7,8 @@
     "CVE-2023-45552"
   ],
   "details": "In VeridiumID before 3.5.0, a stored cross-site scripting (XSS) vulnerability has been discovered in the admin portal that allows an authenticated attacker to take over all accounts by sending malicious input via the self-service portal.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
