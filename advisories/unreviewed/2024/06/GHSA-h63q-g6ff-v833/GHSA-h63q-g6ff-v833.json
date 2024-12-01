@@ -7,12 +7,8 @@
     "CVE-2024-37369"
   ],
   "details": "A privilege escalation vulnerability exists in the affected product. The vulnerability allows low-privilege users to edit scripts, bypassing Access Control Lists, and potentially gaining further access within the system.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
