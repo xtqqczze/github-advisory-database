@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35qp-2m3w-q656",
-  "modified": "2024-06-21T12:31:19Z",
+  "modified": "2024-12-02T09:39:11Z",
   "published": "2024-06-21T12:31:19Z",
   "aliases": [
     "CVE-2024-36244"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36244"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/34d83c3e6e97867ae061d14eb52123404aab1cbc"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87f6-7cww-rh98",
-  "modified": "2024-07-30T09:32:01Z",
+  "modified": "2024-12-02T09:39:11Z",
   "published": "2024-07-30T09:32:01Z",
   "aliases": [
     "CVE-2024-42129"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42129"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/172ffd26a5af13e951d0e82df7cfc5a95b04fa80"
     },
     {
       "type": "WEB",

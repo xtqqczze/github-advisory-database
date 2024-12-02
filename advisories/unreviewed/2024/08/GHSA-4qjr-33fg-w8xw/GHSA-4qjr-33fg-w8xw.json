@@ -1,18 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qjr-33fg-w8xw",
-  "modified": "2024-08-17T09:30:25Z",
+  "modified": "2024-12-02T09:39:12Z",
   "published": "2024-08-17T09:30:25Z",
   "aliases": [
     "CVE-2024-42322"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nipvs: properly dereference pe in ip_vs_add_service\n\nUse pe directly to resolve sparse warning:\n\n  net/netfilter/ipvs/ip_vs_ctl.c:1471:27: warning: dereference of noderef expression",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,6 +20,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b2c664df3bb46aabac6a5fd78aaa5bd614cfad97"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c420cd5d5bc6797f3a8824e7d74f38f0c286fca5"
     },
     {
@@ -32,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

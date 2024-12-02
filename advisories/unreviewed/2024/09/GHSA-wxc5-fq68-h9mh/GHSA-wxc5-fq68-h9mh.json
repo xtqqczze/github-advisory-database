@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxc5-fq68-h9mh",
-  "modified": "2024-10-09T15:32:18Z",
+  "modified": "2024-12-02T09:39:12Z",
   "published": "2024-09-04T21:30:31Z",
   "aliases": [
     "CVE-2024-44949"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44949"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/00baca74fb5879e5f9034b6156671301f500f8ee"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xwj-gw53-4w3v",
-  "modified": "2024-11-01T18:31:26Z",
+  "modified": "2024-12-02T09:39:12Z",
   "published": "2024-10-21T18:30:59Z",
   "aliases": [
     "CVE-2024-49974"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7ea9260874b779637aff6d24c344b8ef4ac862a0"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/aadc3bbea163b6caaaebfdd2b6c4667fbc726752"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ae267989b7b7933dfedcd26468d0a88fc3a9da9e"
     },
     {
       "type": "WEB",

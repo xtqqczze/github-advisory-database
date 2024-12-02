@@ -1,18 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2r6r-v6fp-6x6r",
-  "modified": "2024-05-21T18:31:21Z",
+  "modified": "2024-12-02T09:39:11Z",
   "published": "2024-05-21T18:31:21Z",
   "aliases": [
     "CVE-2023-52812"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd: check num of link levels when update pcie param\n\nIn SR-IOV environment, the value of pcie_table->num_of_link_levels will\nbe 0, and num_of_levels - 1 will cause array index out of bounds",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,6 +20,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2f2d48b6247ae3001f83c98730b3cce475cb2927"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/406e8845356d18bdf3d3a23b347faf67706472ec"
     },
     {
@@ -32,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

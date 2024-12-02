@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hgc-w527-6cxw",
-  "modified": "2024-08-27T21:31:12Z",
+  "modified": "2024-12-02T09:39:11Z",
   "published": "2024-06-19T15:30:53Z",
   "aliases": [
     "CVE-2024-38553"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d38625f71950e79e254515c5fc585552dad4b33e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e2348d8c61d03feece1de4c05f72e6e99f74c650"
     }
   ],
   "database_specific": {

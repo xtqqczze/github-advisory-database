@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66hj-w2gx-rg6c",
-  "modified": "2024-10-10T12:31:11Z",
+  "modified": "2024-12-02T09:39:11Z",
   "published": "2024-06-21T12:31:20Z",
   "aliases": [
     "CVE-2024-36478"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36478"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1d4c8baef435c98e8d5aa7027dc5a9f70834ba16"
     },
     {
       "type": "WEB",
