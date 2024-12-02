@@ -7,12 +7,8 @@
     "CVE-2023-45196"
   ],
   "details": "Adminer and AdminerEvo allow an unauthenticated remote attacker to cause a denial of service by connecting to an attacker-controlled service that responds with HTTP redirects. The denial of service is subject to PHP configuration limits. Adminer is no longer supported, but this issue was fixed in AdminerEvo version 4.8.4.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

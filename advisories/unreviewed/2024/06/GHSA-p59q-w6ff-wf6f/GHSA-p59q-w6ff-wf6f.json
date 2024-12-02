@@ -7,12 +7,8 @@
     "CVE-2023-45195"
   ],
   "details": "Adminer and AdminerEvo are vulnerable to SSRF via database connection fields. This could allow an unauthenticated remote attacker to enumerate or access systems the attacker would not otherwise have access to. Adminer is no longer supported, but this issue was fixed in AdminerEvo version 4.8.4.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,12 +7,8 @@
     "CVE-2024-24554"
   ],
   "details": "Bludit uses predictable methods in combination with the MD5 hashing algorithm to generate sensitive tokens such as the API token and the user token. This allows attackers to authenticate against the Bludit API.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

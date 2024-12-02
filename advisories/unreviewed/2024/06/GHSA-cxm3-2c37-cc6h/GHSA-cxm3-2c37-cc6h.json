@@ -7,12 +7,8 @@
     "CVE-2024-24553"
   ],
   "details": "Bludit uses the SHA-1 hashing algorithm to compute password hashes. Thus, attackers could determine cleartext passwords with brute-force attacks due to the inherent speed of SHA-1. In addition, the salt that is computed by Bludit is generated with a non-cryptographically secure function.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

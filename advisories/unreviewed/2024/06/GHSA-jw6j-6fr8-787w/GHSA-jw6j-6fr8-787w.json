@@ -7,12 +7,8 @@
     "CVE-2024-38663"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nblk-cgroup: fix list corruption from resetting io stat\n\nSince commit 3b8cc6298724 (\"blk-cgroup: Optimize blkcg_rstat_flush()\"),\neach iostat instance is added to blkcg percpu list, so blkcg_reset_stats()\ncan't reset the stat instance by memset(), otherwise the llist may be\ncorrupted.\n\nFix the issue by only resetting the counter part.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

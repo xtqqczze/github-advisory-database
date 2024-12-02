@@ -7,12 +7,8 @@
     "CVE-2024-24552"
   ],
   "details": "A session fixation vulnerability in Bludit allows an attacker to bypass the server's authentication if they can trick an administrator or any other user into authorizing a session ID of their choosing.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
