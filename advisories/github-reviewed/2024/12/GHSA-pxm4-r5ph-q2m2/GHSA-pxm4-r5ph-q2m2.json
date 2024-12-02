@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxm4-r5ph-q2m2",
-  "modified": "2024-12-02T17:25:43Z",
+  "modified": "2024-12-02T19:46:12Z",
   "published": "2024-12-02T17:25:43Z",
   "aliases": [
     "CVE-2024-52806"
@@ -124,6 +124,10 @@
       "url": "https://github.com/simplesamlphp/saml2/security/advisories/GHSA-pxm4-r5ph-q2m2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52806"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/simplesamlphp/saml2/commit/5fd4ce4596656fb0c1278f15b8305825412e89f7"
     },
@@ -139,6 +143,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-02T17:25:43Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-12-02T17:15:12Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x65-fpch-2fcm",
-  "modified": "2024-12-02T17:14:30Z",
+  "modified": "2024-12-02T19:46:13Z",
   "published": "2024-12-02T17:14:30Z",
   "aliases": [
     "CVE-2024-52596"
@@ -101,12 +101,20 @@
       "url": "https://github.com/simplesamlphp/xml-common/security/advisories/GHSA-2x65-fpch-2fcm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52596"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/simplesamlphp/xml-common/commit/fa4ade391c3194466acf5fbfd5d2ecdbf5e831f5"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/simplesamlphp/xml-common"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00001.html"
     }
   ],
   "database_specific": {
@@ -116,6 +124,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-02T17:14:30Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-12-02T17:15:12Z"
   }
 }
