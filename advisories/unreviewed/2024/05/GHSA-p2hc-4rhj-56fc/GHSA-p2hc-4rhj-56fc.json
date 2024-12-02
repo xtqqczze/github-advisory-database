@@ -7,12 +7,8 @@
     "CVE-2023-52657"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRevert \"drm/amd/pm: resolve reboot exception for si oland\"\n\nThis reverts commit e490d60a2f76bff636c68ce4fe34c1b6c34bbd86.\n\nThis causes hangs on SI when DC is enabled and errors on driver\nreboot and power off cycles.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

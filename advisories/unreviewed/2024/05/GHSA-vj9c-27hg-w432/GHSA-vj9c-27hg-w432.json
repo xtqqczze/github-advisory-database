@@ -7,12 +7,8 @@
     "CVE-2024-27433"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: mediatek: mt7622-apmixedsys: Fix an error handling path in clk_mt8135_apmixed_probe()\n\n'clk_data' is allocated with mtk_devm_alloc_clk_data(). So calling\nmtk_free_clk_data() explicitly in the remove function would lead to a\ndouble-free.\n\nRemove the redundant call.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-35788"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix bounds check for dcn35 DcfClocks\n\n[Why]\nNumFclkLevelsEnabled is used for DcfClocks bounds check\ninstead of designated NumDcfClkLevelsEnabled.\nThat can cause array index out-of-bounds access.\n\n[How]\nUse designated variable for dcn35 DcfClocks bounds check.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

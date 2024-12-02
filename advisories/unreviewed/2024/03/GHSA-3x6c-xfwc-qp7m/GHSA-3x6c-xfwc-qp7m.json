@@ -7,12 +7,8 @@
     "CVE-2023-49234"
   ],
   "details": "An XML external entity (XXE) vulnerability was found in Stilog Visual Planning 8. It allows an authenticated attacker to access local server files and exfiltrate data to an external server.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

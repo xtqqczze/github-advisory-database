@@ -7,12 +7,8 @@
     "CVE-2024-27434"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: mvm: don't set the MFP flag for the GTK\n\nThe firmware doesn't need the MFP flag for the GTK, it can even make the\nfirmware crash. in case the AP is configured with: group cipher TKIP and\nMFPC. We would send the GTK with cipher = TKIP and MFP which is of course\nnot possible.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2023-52688"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: ath12k: fix the error handler of rfkill config\n\nWhen the core rfkill config throws error, it should free the\nallocated resources. Currently it is not freeing the core pdev\ncreate resources. Avoid this issue by calling the core pdev\ndestroy in the error handler of core rfkill config.\n\nFound this issue in the code review and it is compile tested only.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

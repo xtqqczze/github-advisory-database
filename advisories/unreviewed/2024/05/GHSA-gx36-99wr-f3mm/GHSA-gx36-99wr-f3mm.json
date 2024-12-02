@@ -7,12 +7,8 @@
     "CVE-2023-52658"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRevert \"net/mlx5: Block entering switchdev mode with ns inconsistency\"\n\nThis reverts commit 662404b24a4c4d839839ed25e3097571f5938b9b.\nThe revert is required due to the suspicion it is not good for anything\nand cause crash.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

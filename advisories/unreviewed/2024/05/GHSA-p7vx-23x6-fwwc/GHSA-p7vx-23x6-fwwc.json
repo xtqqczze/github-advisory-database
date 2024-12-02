@@ -7,12 +7,8 @@
     "CVE-2024-27408"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: dw-edma: eDMA: Add sync read before starting the DMA transfer in remote setup\n\nThe Linked list element and pointer are not stored in the same memory as\nthe eDMA controller register. If the doorbell register is toggled before\nthe full write of the linked list a race condition error will occur.\nIn remote setup we can only use a readl to the memory to assure the full\nwrite has occurred.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

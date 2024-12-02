@@ -7,12 +7,8 @@
     "CVE-2024-27432"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ethernet: mtk_eth_soc: fix PPE hanging issue\n\nA patch to resolve an issue was found in MediaTek's GPL-licensed SDK:\nIn the mtk_ppe_stop() function, the PPE scan mode is not disabled before\ndisabling the PPE. This can potentially lead to a hang during the process\nof disabling the PPE.\n\nWithout this patch, the PPE may experience a hang during the reboot test.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

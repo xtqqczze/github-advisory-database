@@ -7,12 +7,8 @@
     "CVE-2024-35826"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock: Fix page refcounts for unaligned buffers in __bio_release_pages()\n\nFix an incorrect number of pages being released for buffers that do not\nstart at the beginning of a page.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
