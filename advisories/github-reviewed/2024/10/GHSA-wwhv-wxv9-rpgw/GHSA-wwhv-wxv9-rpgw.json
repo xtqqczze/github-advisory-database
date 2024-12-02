@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwhv-wxv9-rpgw",
-  "modified": "2024-10-31T19:34:36Z",
+  "modified": "2024-12-02T19:53:42Z",
   "published": "2024-10-15T23:35:36Z",
   "aliases": [
     "CVE-2024-47888"
