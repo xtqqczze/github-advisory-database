@@ -7,12 +7,8 @@
     "CVE-2023-52677"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nriscv: Check if the code to patch lies in the exit section\n\nOtherwise we fall through to vmalloc_to_page() which panics since the\naddress does not lie in the vmalloc region.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

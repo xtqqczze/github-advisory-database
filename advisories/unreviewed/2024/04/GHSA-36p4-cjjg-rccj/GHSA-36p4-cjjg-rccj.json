@@ -7,12 +7,8 @@
     "CVE-2024-31950"
   ],
   "details": "In FRRouting (FRR) through 9.1, there can be a buffer overflow and daemon crash in ospf_te_parse_ri for OSPF LSA packets during an attempt to read Segment Routing subTLVs (their size is not validated).",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

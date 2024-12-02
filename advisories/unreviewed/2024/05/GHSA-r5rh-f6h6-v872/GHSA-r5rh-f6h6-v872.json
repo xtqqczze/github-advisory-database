@@ -7,12 +7,8 @@
     "CVE-2024-35817"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: amdgpu_ttm_gart_bind set gtt bound flag\n\nOtherwise after the GTT bo is released, the GTT and gart space is freed\nbut amdgpu_ttm_backend_unbind will not clear the gart page table entry\nand leave valid mapping entry pointing to the stale system page. Then\nif GPU access the gart address mistakely, it will read undefined value\ninstead page fault, harder to debug and reproduce the real issue.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

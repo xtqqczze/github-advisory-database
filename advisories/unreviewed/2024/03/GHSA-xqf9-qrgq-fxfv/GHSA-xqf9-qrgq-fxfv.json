@@ -7,12 +7,8 @@
     "CVE-2023-52525"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mwifiex: Fix oob check condition in mwifiex_process_rx_packet\n\nOnly skip the code path trying to access the rfc1042 headers when the\nbuffer is too small, so the driver can still process packets without\nrfc1042 headers.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

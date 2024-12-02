@@ -7,12 +7,8 @@
     "CVE-2023-52681"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nefivarfs: Free s_fs_info on unmount\n\nNow that we allocate a s_fs_info struct on fs context creation, we\nshould ensure that we free it again when the superblock goes away.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

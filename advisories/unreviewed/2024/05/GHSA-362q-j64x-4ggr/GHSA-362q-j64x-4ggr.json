@@ -7,12 +7,8 @@
     "CVE-2024-35856"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btusb: mediatek: Fix double free of skb in coredump\n\nhci_devcd_append() would free the skb on error so the caller don't\nhave to free it again otherwise it would cause the double free of skb.\n\nReported-by : Dan Carpenter <dan.carpenter@linaro.org>",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

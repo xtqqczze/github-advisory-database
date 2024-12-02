@@ -7,12 +7,8 @@
     "CVE-2023-52662"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vmwgfx: fix a memleak in vmw_gmrid_man_get_node\n\nWhen ida_alloc_max fails, resources allocated before should be freed,\nincluding *res allocated by kmalloc and ttm_resource_init.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

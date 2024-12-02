@@ -7,12 +7,8 @@
     "CVE-2024-35808"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmd/dm-raid: don't call md_reap_sync_thread() directly\n\nCurrently md_reap_sync_thread() is called from raid_message() directly\nwithout holding 'reconfig_mutex', this is definitely unsafe because\nmd_reap_sync_thread() can change many fields that is protected by\n'reconfig_mutex'.\n\nHowever, hold 'reconfig_mutex' here is still problematic because this\nwill cause deadlock, for example, commit 130443d60b1b (\"md: refactor\nidle/frozen_sync_thread() to fix deadlock\").\n\nFix this problem by using stop_sync_thread() to unregister sync_thread,\nlike md/raid did.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
