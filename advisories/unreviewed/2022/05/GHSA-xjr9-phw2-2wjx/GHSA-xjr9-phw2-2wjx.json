@@ -7,12 +7,8 @@
     "CVE-2007-5659"
   ],
   "details": "Multiple buffer overflows in Adobe Reader and Acrobat 8.1.1 and earlier allow remote attackers to execute arbitrary code via a PDF file with long arguments to unspecified JavaScript methods.  NOTE: this issue might be subsumed by CVE-2008-0655.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
