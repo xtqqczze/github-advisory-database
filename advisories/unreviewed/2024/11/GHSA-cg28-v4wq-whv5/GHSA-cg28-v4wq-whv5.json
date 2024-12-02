@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg28-v4wq-whv5",
-  "modified": "2024-11-29T21:31:04Z",
+  "modified": "2024-12-02T18:31:55Z",
   "published": "2024-11-29T21:31:04Z",
   "aliases": [
     "CVE-2024-36610"
   ],
   "details": "A deserialization vulnerability exists in the Stub class of the VarDumper module in Symfony v7.0.3. The vulnerability stems from deficiencies in the original implementation when handling properties with null or uninitialized values. An attacker could construct specific serialized data and use this vulnerability to execute unauthorized code.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-29T20:15:20Z"

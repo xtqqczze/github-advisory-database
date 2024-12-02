@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq96-59xw-28wj",
-  "modified": "2024-11-29T21:31:04Z",
+  "modified": "2024-12-02T18:31:55Z",
   "published": "2024-11-29T21:31:04Z",
   "aliases": [
     "CVE-2024-35366"
   ],
   "details": "FFmpeg n6.1.1 is Integer Overflow. The vulnerability exists in the parse_options function of sbgdec.c within the libavformat module. When parsing certain options, the software does not adequately validate the input. This allows for negative duration values to be accepted without proper bounds checking.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-29T20:15:19Z"
