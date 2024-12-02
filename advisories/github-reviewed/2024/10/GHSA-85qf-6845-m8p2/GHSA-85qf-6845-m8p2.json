@@ -4,9 +4,7 @@
   "modified": "2024-10-02T21:55:50Z",
   "published": "2024-10-02T12:30:33Z",
   "withdrawn": "2024-10-02T21:55:50Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Duplicate Advisory: Juju Unprotected Alternate Channel vulnerability",
   "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-xwgj-vpm9-q2rq. This link is maintained to preserve external references.\n\n## Original Description\nVulnerable juju introspection abstract UNIX domain socket. An abstract UNIX domain socket responsible for introspection is available without authentication locally to network namespace users. This enables denial of service attacks.",
   "severity": [

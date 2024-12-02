@@ -4,9 +4,7 @@
   "modified": "2024-10-02T21:55:47Z",
   "published": "2024-10-02T12:30:33Z",
   "withdrawn": "2024-10-02T21:55:47Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Duplicate Advisory: Vulnerable juju hook tool abstract UNIX domain socket",
   "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-8v4w-f4r9-7h6x. This link is maintained to preserve external references.\n\n## Original Description\nVulnerable juju hook tool abstract UNIX domain socket. When combined with an attack of JUJU_CONTEXT_ID, any user on the local system with access to the default network namespace may connect to the @/var/lib/juju/agents/unit-xxxx-yyyy/agent.socket and perform actions that are normally reserved to a juju charm.",
   "severity": [
@@ -51,9 +49,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-02T21:55:47Z",

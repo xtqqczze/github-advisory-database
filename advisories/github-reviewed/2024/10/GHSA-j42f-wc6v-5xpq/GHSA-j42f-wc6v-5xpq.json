@@ -4,9 +4,7 @@
   "modified": "2024-11-01T21:47:02Z",
   "published": "2024-10-17T18:31:37Z",
   "withdrawn": "2024-11-01T21:47:02Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Duplicate Advisory: Permissive Regular Expression in tacquito",
   "details": "Tacquito prior to commit 07b49d1358e6ec0b5aa482fcd284f509191119e2 was not properly performing regex matches on authorized commands and arguments. Configured allowed commands/arguments were intended to require a match on the entire string, but instead only enforced a match on a sub-string. That would have potentially allowed unauthorized commands to be executed.",
   "severity": [
@@ -47,9 +45,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-01T21:47:02Z",
