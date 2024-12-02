@@ -7,12 +7,8 @@
     "CVE-2023-52727"
   ],
   "details": "Open Networking Foundation SD-RAN ONOS onos-lib-go 0.10.25 allows an index out-of-range condition in parseAlignBits.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2022-48900"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxen/netfront: react properly to failing gnttab_end_foreign_access_ref()\n\nWhen calling gnttab_end_foreign_access_ref() the returned value must\nbe tested and the reaction to that value should be appropriate.\n\nIn case of failure in xennet_get_responses() the reaction should not be\nto crash the system, but to disable the network device.\n\nThe calls in setup_netfront() can be replaced by calls of\ngnttab_end_foreign_access(). While at it avoid double free of ring\npages and grant references via xennet_disconnect_backend() in this case.\n\nThis is CVE-2022-23042 / part of XSA-396.\n\n---\nV2:\n- avoid double free\nV3:\n- remove pointless initializer (Jan Beulich)",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
