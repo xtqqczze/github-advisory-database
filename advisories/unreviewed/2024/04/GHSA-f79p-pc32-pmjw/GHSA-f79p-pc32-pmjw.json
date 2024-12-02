@@ -7,12 +7,8 @@
     "CVE-2021-47184"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni40e: Fix NULL ptr dereference on VSI filter sync\n\nRemove the reason of null pointer dereference in sync VSI filters.\nAdded new I40E_VSI_RELEASING flag to signalize deleting and releasing\nof VSI resources to sync this thread with sync filters subtask.\nWithout this patch it is possible to start update the VSI filter list\nafter VSI is removed, that's causing a kernel oops.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

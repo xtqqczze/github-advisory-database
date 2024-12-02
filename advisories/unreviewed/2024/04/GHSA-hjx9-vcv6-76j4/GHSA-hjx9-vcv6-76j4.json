@@ -7,12 +7,8 @@
     "CVE-2024-28345"
   ],
   "details": "An issue discovered in Sipwise C5 NGCP Dashboard below mr11.5.1 allows a low privileged user to access the Journal endpoint by directly visit the URL.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

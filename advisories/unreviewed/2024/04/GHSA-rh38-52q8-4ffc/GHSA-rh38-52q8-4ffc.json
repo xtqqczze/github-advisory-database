@@ -7,12 +7,8 @@
     "CVE-2021-47206"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: host: ohci-tmio: check return value after calling platform_get_resource()\n\nIt will cause null-ptr-deref if platform_get_resource() returns NULL,\nwe need check the return value.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2021-47210"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: tipd: Remove WARN_ON in tps6598x_block_read\n\nCalling tps6598x_block_read with a higher than allowed len can be\nhandled by just returning an error. There's no need to crash systems\nwith panic-on-warn enabled.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
