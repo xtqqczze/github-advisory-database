@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfjc-m7fv-63xj",
-  "modified": "2024-11-29T06:35:29Z",
+  "modified": "2024-12-02T15:31:37Z",
   "published": "2024-11-26T18:38:52Z",
   "aliases": [
     "CVE-2024-52336"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.opensuse.org/2024/11/26/tuned-instance-create.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2024/11/28/1"
     },
     {
       "type": "WEB",
