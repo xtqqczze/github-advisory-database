@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2x65-fpch-2fcm",
+  "modified": "2024-12-02T17:14:30Z",
+  "published": "2024-12-02T17:14:30Z",
+  "aliases": [
+    "CVE-2024-52596"
+  ],
+  "summary": "SimpleSAMLphp xml-common XXE vulnerability",
+  "details": "# Summary\nWhen loading an (untrusted) XML document, for example the SAMLResponse, it's possible to induce an XXE.\n\n## Mitigation:\n\nRemove the `LIBXML_DTDLOAD | LIBXML_DTDATTR` options from `$options` is in: https://github.com/simplesamlphp/saml2/blob/717c0adc4877ebd58428637e5626345e59fa0109/src/SAML2/DOMDocumentFactory.php#L41\n\n## Background / details\n\nTo be published on Dec 8.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:H/SC:L/SI:L/SA:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "simplesamlphp/xml-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.20.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.20"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "simplesamlphp/saml2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6.14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "simplesamlphp/saml2-legacy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.6.14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "simplesamlphp/xml-security"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/simplesamlphp/xml-common/security/advisories/GHSA-2x65-fpch-2fcm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/simplesamlphp/xml-common/commit/fa4ade391c3194466acf5fbfd5d2ecdbf5e831f5"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/simplesamlphp/xml-common"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-611"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-12-02T17:14:30Z",
+    "nvd_published_at": null
+  }
+}
