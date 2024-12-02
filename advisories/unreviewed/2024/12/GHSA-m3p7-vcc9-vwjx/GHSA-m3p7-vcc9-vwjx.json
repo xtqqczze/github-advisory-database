@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-m3p7-vcc9-vwjx",
+  "modified": "2024-12-02T21:31:19Z",
+  "published": "2024-12-02T21:31:19Z",
+  "aliases": [
+    "CVE-2024-52724"
+  ],
+  "details": "ZZCMS 2023 was discovered to contain a SQL injection vulnerability in /q/show.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52724"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/npubaishao/768b638ab16b7da6478d028aeb25bbbc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/npubaishao/zzcms_sql_injection/blob/main/zzcms_sql_injection.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-02T19:15:10Z"
+  }
+}
