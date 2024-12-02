@@ -7,12 +7,8 @@
     "CVE-2024-25527"
   ],
   "details": "RuvarOA v6.01 and v12.01 were discovered to contain a SQL injection vulnerability via the id parameter at /PersonalAffair/worklog_template_show.aspx.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
