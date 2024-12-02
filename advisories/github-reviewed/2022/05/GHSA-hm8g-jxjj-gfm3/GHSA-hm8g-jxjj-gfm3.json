@@ -8,9 +8,7 @@
   ],
   "summary": "Zope allows remote attackers to read arbitrary files",
   "details": "The docutils module in Zope (Zope2) 2.7.0 through 2.7.9 and 2.8.0 through 2.8.8 does not properly handle web pages with reStructuredText (reST) markup, which allows remote attackers to read arbitrary files via a csv_table directive, a different vulnerability than CVE-2006-3458.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -78,9 +76,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-21T23:19:22Z",

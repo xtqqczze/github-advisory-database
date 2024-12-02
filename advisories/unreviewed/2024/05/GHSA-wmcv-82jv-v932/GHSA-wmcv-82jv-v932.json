@@ -7,12 +7,8 @@
     "CVE-2024-1275"
   ],
   "details": "Use of Default Cryptographic Key vulnerability in Baxter Welch Ally Connex Spot Monitor may allow Configuration/Environment Manipulation.This issue affects Welch Ally Connex Spot Monitor in all versions prior to 1.52.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

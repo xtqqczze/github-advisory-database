@@ -7,12 +7,8 @@
     "CVE-2024-28065"
   ],
   "details": "In Unify CP IP Phone firmware 1.10.4.3, files are not encrypted and contain sensitive information such as the root password hash.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

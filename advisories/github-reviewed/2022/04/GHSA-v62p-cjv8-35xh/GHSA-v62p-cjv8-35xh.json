@@ -8,9 +8,7 @@
   ],
   "summary": "Tahoe-LAFS fails to ensure integrity",
   "details": "Tahoe-LAFS 1.9.0 fails to ensure integrity which allows remote attackers to corrupt mutable files or directories upon retrieval.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -61,9 +59,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-21T23:19:17Z",
