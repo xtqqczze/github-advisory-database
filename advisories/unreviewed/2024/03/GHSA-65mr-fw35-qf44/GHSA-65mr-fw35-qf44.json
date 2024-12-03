@@ -7,12 +7,8 @@
     "CVE-2024-26475"
   ],
   "details": "An issue in radareorg radare2 v.0.9.7 through v.5.8.6 and fixed in v.5.8.8 allows a local attacker to cause a denial of service via the grub_sfs_read_extent function.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
