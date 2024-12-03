@@ -7,12 +7,8 @@
     "CVE-2024-23081"
   ],
   "details": "ThreeTen Backport v1.6.8 was discovered to contain a NullPointerException via the component org.threeten.bp.LocalDate::compareTo(ChronoLocalDate).",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
