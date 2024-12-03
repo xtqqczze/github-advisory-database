@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcpx-x4rg-25pv",
-  "modified": "2024-03-18T18:32:21Z",
+  "modified": "2024-12-03T00:31:29Z",
   "published": "2024-03-18T18:32:21Z",
   "aliases": [
     "CVE-2024-26050"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
