@@ -7,12 +7,8 @@
     "CVE-2024-22397"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in the SonicOS SSLVPN portal allows a remote authenticated attacker as a firewall 'admin' user to store and execute arbitrary JavaScript code.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

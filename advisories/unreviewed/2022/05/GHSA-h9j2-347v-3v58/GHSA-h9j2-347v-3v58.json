@@ -7,12 +7,8 @@
     "CVE-2005-2491"
   ],
   "details": "Integer overflow in pcre_compile.c in Perl Compatible Regular Expressions (PCRE) before 6.2, as used in multiple products such as Python, Ethereal, and PHP, allows attackers to execute arbitrary code via quantifier values in regular expressions, which leads to a heap-based buffer overflow.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -280,9 +276,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
