@@ -7,12 +7,8 @@
     "CVE-2024-38560"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: bfa: Ensure the copied buf is NUL terminated\n\nCurrently, we allocate a nbytes-sized kernel buffer and copy nbytes from\nuserspace to that buffer. Later, we use sscanf on this buffer but we don't\nensure that the string is terminated inside the buffer, this can lead to\nOOB read when using sscanf. Fix this issue by using memdup_user_nul instead\nof memdup_user.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
