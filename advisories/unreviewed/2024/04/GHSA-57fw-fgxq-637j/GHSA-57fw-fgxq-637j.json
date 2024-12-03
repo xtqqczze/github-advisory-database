@@ -7,12 +7,8 @@
     "CVE-2023-48906"
   ],
   "details": "Stack Overflow vulnerability in Btstack 1.6 and earlier allows attackers to cause a denial of service via crafted input to the char_for_nibble function.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
