@@ -3,9 +3,7 @@
   "id": "GHSA-7jjx-3qw9-j6h6",
   "modified": "2024-11-12T20:53:00Z",
   "published": "2024-11-12T20:53:00Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "cggmp21-keygen has ambiguous challenge derivation",
   "details": "Challenge derivation in non-interactive ZK proofs was ambiguous and that could lead to security vulnerability (however, it's unknown if it could be exploited).\n",
   "severity": [

@@ -3,9 +3,7 @@
   "id": "GHSA-rm66-9gh4-4gp8",
   "modified": "2024-11-12T20:54:58Z",
   "published": "2024-11-12T20:54:58Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "cggmp21 vulnerable to ambiguous challenge derivation",
   "details": "Challenge derivation in non-interactive ZK proofs was ambiguous and that could lead to security vulnerability (however, it's unknown if it could be exploited).\n",
   "severity": [

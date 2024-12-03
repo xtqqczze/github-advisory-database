@@ -7,12 +7,8 @@
     "CVE-2023-42286"
   ],
   "details": "There is a PHP file inclusion vulnerability in the template configuration of eyoucms v1.6.4, allowing attackers to execute code or system commands through a carefully crafted malicious payload.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

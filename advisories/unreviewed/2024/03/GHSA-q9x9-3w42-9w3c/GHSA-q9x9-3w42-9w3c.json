@@ -7,12 +7,8 @@
     "CVE-2024-1764"
   ],
   "details": "Improper privilege management in Just-in-time (JIT) elevation module in Devolutions Server 2023.3.14.0 and earlier allows a user to continue using the elevated privilege even after the expiration under specific circumstances\n\n\n",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

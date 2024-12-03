@@ -4,9 +4,7 @@
   "modified": "2024-11-12T23:01:43Z",
   "published": "2024-11-12T18:30:58Z",
   "withdrawn": "2024-11-12T23:01:43Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Duplicate Advisory: .NET and Visual Studio Remote Code Execution Vulnerability",
   "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-6x36-qxmj-rv4p. This link is maintained to preserve external references.\n\n## Original Description\n.NET and Visual Studio Remote Code Execution Vulnerability",
   "severity": [

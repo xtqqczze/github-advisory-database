@@ -7,12 +7,8 @@
     "CVE-2024-10971"
   ],
   "details": "Improper access control in the Password History feature in Devolutions DVLS 2024.3.6 and earlier allows a malicious authenticated user to obtain sensitive data via faulty permission.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
