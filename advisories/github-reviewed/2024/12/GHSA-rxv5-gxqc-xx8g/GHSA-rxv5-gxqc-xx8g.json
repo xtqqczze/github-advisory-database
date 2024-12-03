@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxv5-gxqc-xx8g",
-  "modified": "2024-12-03T18:08:11Z",
+  "modified": "2024-12-03T18:50:35Z",
   "published": "2024-12-02T22:18:27Z",
   "aliases": [
     "CVE-2024-53989"
@@ -54,6 +54,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rails/rails-html-sanitizer"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rails-html-sanitizer/CVE-2024-53989.yml"
     }
   ],
   "database_specific": {
