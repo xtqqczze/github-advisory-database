@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfjx-w229-hgx5",
-  "modified": "2024-12-02T22:16:32Z",
+  "modified": "2024-12-03T00:36:51Z",
   "published": "2024-12-02T21:48:42Z",
   "aliases": [
     "CVE-2024-53988"
@@ -44,6 +44,14 @@
       "url": "https://github.com/rails/rails-html-sanitizer/security/advisories/GHSA-cfjx-w229-hgx5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53988"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rails/rails-html-sanitizer/commit/a0a3e8b76b696446ffc6bffcff3bc7b7c6393c72"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/rails/rails-html-sanitizer"
     }
@@ -55,6 +63,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-02T21:48:42Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-12-02T22:15:11Z"
   }
 }
