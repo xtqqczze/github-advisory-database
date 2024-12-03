@@ -8,9 +8,7 @@
   ],
   "summary": "Regular expression denial of service in jquery-validation",
   "details": "An exponential ReDoS (Regular Expression Denial of Service) can be triggered in the jquery-validation npm package, when an attacker is able to supply arbitrary input to the url2 method",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
