@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q22-x757-cmgc",
-  "modified": "2024-12-03T18:54:00Z",
+  "modified": "2024-12-03T21:36:47Z",
   "published": "2024-11-29T21:31:03Z",
   "withdrawn": "2024-12-03T16:07:27Z",
   "aliases": [
@@ -44,6 +44,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36611"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/symfony/symfony/issues/59077#issuecomment-2513935018"
     },
     {
       "type": "WEB",

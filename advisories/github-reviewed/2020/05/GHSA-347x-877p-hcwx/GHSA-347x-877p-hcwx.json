@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-347x-877p-hcwx",
-  "modified": "2024-12-03T13:26:07Z",
+  "modified": "2024-12-03T21:36:01Z",
   "published": "2020-05-13T22:19:21Z",
   "aliases": [
     "CVE-2020-11063"
@@ -57,6 +57,10 @@
   "references": [
     {
       "type": "WEB",
+      "url": "https://github.com/TYPO3/TYPO3.CMS/security/advisories/GHSA-347x-877p-hcwx"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/TYPO3/typo3/security/advisories/GHSA-347x-877p-hcwx"
     },
     {
@@ -86,11 +90,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-203",
       "CWE-204"
     ],
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2020-05-13T22:16:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2020-05-13T23:15:11Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg28-v4wq-whv5",
-  "modified": "2024-12-03T16:07:34Z",
+  "modified": "2024-12-03T21:36:50Z",
   "published": "2024-11-29T21:31:04Z",
   "withdrawn": "2024-12-03T16:07:34Z",
   "aliases": [
@@ -63,6 +63,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-36610"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/symfony/symfony/issues/59077#issuecomment-2513935018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/github/advisory-database/pull/5046"
     },
     {
       "type": "WEB",
