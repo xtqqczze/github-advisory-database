@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xmgx-2283-p55h",
-  "modified": "2024-11-19T18:31:06Z",
+  "modified": "2024-12-03T15:31:22Z",
   "published": "2024-11-19T18:31:06Z",
   "aliases": [
     "CVE-2024-48992"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.cve.org/CVERecord?id=CVE-2024-48992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2024/11/19/1"
     },
     {
       "type": "WEB",
