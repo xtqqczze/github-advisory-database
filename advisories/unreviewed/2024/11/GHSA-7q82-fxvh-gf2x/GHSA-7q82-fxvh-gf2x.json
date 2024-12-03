@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q82-fxvh-gf2x",
-  "modified": "2024-11-15T18:30:50Z",
+  "modified": "2024-12-03T18:31:02Z",
   "published": "2024-11-15T18:30:50Z",
   "aliases": [
     "CVE-2024-51164"
   ],
   "details": "Multiple parameters have SQL injection vulnerability in JEPaaS 7.2.8 via /je/login/btnLog/insertBtnLog, which could allow a remote user to submit a specially crafted query, allowing an attacker to retrieve all the information stored in the DB.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -29,9 +30,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-89"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-15T16:15:37Z"

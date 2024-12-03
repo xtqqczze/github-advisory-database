@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj3p-4jrq-mg7x",
-  "modified": "2024-10-17T15:31:09Z",
+  "modified": "2024-12-03T18:31:02Z",
   "published": "2024-10-17T15:31:09Z",
   "aliases": [
     "CVE-2024-9683"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-287",
       "CWE-305"
     ],
     "severity": "MODERATE",

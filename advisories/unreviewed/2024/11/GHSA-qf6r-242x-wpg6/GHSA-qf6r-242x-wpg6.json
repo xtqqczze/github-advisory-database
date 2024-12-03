@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf6r-242x-wpg6",
-  "modified": "2024-11-15T18:30:50Z",
+  "modified": "2024-12-03T18:31:02Z",
   "published": "2024-11-15T18:30:50Z",
   "aliases": [
     "CVE-2024-50650"
   ],
   "details": "python_book V1.0 is vulnerable to Incorrect Access Control, which allows attackers to obtain sensitive information of users with different IDs by modifying the ID parameter.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -29,9 +30,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-863"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-15T16:15:36Z"

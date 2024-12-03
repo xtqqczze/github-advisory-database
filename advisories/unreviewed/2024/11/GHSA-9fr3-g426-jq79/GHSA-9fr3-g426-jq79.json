@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fr3-g426-jq79",
-  "modified": "2024-11-29T21:31:03Z",
+  "modified": "2024-12-03T18:31:03Z",
   "published": "2024-11-29T21:31:03Z",
   "aliases": [
     "CVE-2024-36615"
   ],
   "details": "FFmpeg n7.0 has a race condition vulnerability in the VP9 decoder. This could lead to a data race if video encoding parameters were being exported, as the side data would be attached in the decoder thread while being read in the output thread.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-29T19:15:07Z"

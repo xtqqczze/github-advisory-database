@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27rm-pvpp-228f",
-  "modified": "2024-09-12T21:32:00Z",
+  "modified": "2024-12-03T18:31:01Z",
   "published": "2024-08-23T21:30:42Z",
   "aliases": [
     "CVE-2024-37392"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.smseagle.eu/2024/08/21/resolved-xss-in-smseagle-software-cve-2024-37392"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.smseagle.eu/security-advisory/resolved-xss-in-smseagle-software-cve-2024-37392"
     }
   ],
   "database_specific": {
