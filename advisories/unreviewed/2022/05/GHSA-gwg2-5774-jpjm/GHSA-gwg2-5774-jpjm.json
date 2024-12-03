@@ -7,12 +7,8 @@
     "CVE-2013-5704"
   ],
   "details": "The mod_headers module in the Apache HTTP Server 2.2.22 allows remote attackers to bypass \"RequestHeader unset\" directives by placing a header in the trailer portion of data sent with chunked transfer coding.  NOTE: the vendor states \"this is not a security issue in httpd as such.\"",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -208,9 +204,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

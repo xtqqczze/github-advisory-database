@@ -3,9 +3,7 @@
   "id": "GHSA-2wq5-g96f-mv3v",
   "modified": "2024-09-23T20:47:27Z",
   "published": "2024-09-23T20:47:27Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Ouch! allows a segmentation fault due to use of uninitialized memory",
   "details": "When trying to decompress a file using \"ouch\", we can reach the function \"ouch::archive::zip::convert_zip_date_time\". In the function, there is a unsafe function, \"transmute\". Once the \"transmute\" function is called to convert the type of \"month\" object, the address of the object is changed to the uninitialized memory region. After that, when other function tries to dereference \"month\", segmentation fault occurs.",
   "severity": [
@@ -50,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-09-23T20:47:27Z",
