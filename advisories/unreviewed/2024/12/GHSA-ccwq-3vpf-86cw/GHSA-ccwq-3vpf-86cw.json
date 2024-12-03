@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccwq-3vpf-86cw",
-  "modified": "2024-12-03T15:31:23Z",
+  "modified": "2024-12-03T21:31:21Z",
   "published": "2024-12-02T18:31:56Z",
   "aliases": [
     "CVE-2024-53564"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/hyp164D1/490732de230edf97423f6d95b0d2f903"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/hyp164D1/d419bdf3e7e352088a21631d0f452a8c"
     }
   ],
   "database_specific": {

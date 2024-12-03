@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wx8m-vcrx-w4p5",
-  "modified": "2024-12-03T00:31:31Z",
+  "modified": "2024-12-03T21:31:21Z",
   "published": "2024-12-03T00:31:31Z",
   "aliases": [
     "CVE-2024-53375"
   ],
   "details": "Authenticated remote code execution (RCE) vulnerabilities affect TP-Link Archer, Deco, and Tapo series routers. A vulnerability exists in the \"tmp_get_sites\" function of the HomeShield functionality provided by TP-Link. This vulnerability is still exploitable without the installation or activation of the HomeShield functionality.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-78"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-02T22:15:10Z"

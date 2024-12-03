@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxg5-mcmp-m3m9",
-  "modified": "2024-11-13T00:30:48Z",
+  "modified": "2024-12-03T21:31:21Z",
   "published": "2024-11-13T00:30:48Z",
   "aliases": [
     "CVE-2024-11168"
@@ -13,9 +13,7 @@
       "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:L/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:N/R:X/V:X/RE:X/U:X"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -35,7 +33,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/634ded45545ce8cbd6fd5d49785613dd7fa9b89e"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/python/cpython/commit/b2171a2fd41416cf68afd67460578631d755a550"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/ddca2953191c67a12b1f19d6bca41016c6ae7132"
     },
     {
       "type": "WEB",

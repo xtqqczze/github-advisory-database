@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chvj-r97v-jv3h",
-  "modified": "2024-12-03T00:31:32Z",
+  "modified": "2024-12-03T21:31:22Z",
   "published": "2024-12-03T00:31:32Z",
   "aliases": [
     "CVE-2024-53937"
   ],
   "details": "An issue was discovered on Victure RX1800 WiFi 6 Router (software EN_V1.0.0_r12_110933, hardware 1.0) devices. The TELNET service is enabled by default with admin/admin as default credentials and is exposed over the LAN. The allows attackers to execute arbitrary commands with root-level permissions. Device setup does not require this password to be changed during setup in order to utilize the device. (However, the TELNET password is dictated by the current GUI password.)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-02T23:15:05Z"

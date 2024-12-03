@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c537-pf3w-23p5",
-  "modified": "2024-02-21T09:31:01Z",
+  "modified": "2024-12-03T21:31:20Z",
   "published": "2024-02-21T09:31:01Z",
   "aliases": [
     "CVE-2023-42939"
   ],
   "details": "A logic issue was addressed with improved checks. This issue is fixed in iOS 17.1 and iPadOS 17.1. A user's private browsing activity may be unexpectedly saved in the App Privacy Report.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-21T07:15:50Z"

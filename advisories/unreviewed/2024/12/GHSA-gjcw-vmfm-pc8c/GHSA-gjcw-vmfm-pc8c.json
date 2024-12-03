@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjcw-vmfm-pc8c",
-  "modified": "2024-12-03T18:31:04Z",
+  "modified": "2024-12-03T21:31:22Z",
   "published": "2024-12-03T18:31:04Z",
   "aliases": [
     "CVE-2024-52546"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sfewer-r7/LorexExploit"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.rapid7.com/blog/post/2024/12/03/lorex-2k-indoor-wi-fi-security-camera-multiple-vulnerabilities-fixed"
     }
   ],
   "database_specific": {
