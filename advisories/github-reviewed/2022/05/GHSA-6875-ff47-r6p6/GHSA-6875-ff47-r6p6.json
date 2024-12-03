@@ -8,9 +8,7 @@
   ],
   "summary": "Ipsilon denial of service via a duplicate SP name",
   "details": "providers/saml2/admin.py in the Identity Provider (IdP) server in Ipsilon 0.1.0 before 1.0.1 does not properly check permissions to update the SAML2 Service Provider (SP) owner, which allows remote authenticated users to cause a denial of service via a duplicate SP name.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -66,9 +64,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-22T20:20:12Z",

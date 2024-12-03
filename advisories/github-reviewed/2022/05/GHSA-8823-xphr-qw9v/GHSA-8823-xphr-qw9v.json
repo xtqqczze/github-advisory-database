@@ -8,9 +8,7 @@
   ],
   "summary": "Gentoo Portage does not verify X.509 certificates from SSL servers",
   "details": "The urlopen function in pym/portage/util/_urlopen.py in Gentoo Portage 2.1.12, when using HTTPS, does not verify X.509 certificates from SSL servers, which allows man-in-the-middle attackers to spoof servers and modify binary package lists via a crafted certificate.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -67,9 +65,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-22T20:12:21Z",

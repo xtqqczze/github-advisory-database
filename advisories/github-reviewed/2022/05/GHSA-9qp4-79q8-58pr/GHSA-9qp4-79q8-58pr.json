@@ -8,9 +8,7 @@
   ],
   "summary": "Ipsilon denial of service by deleting a SAML2 Service Provider (SP)",
   "details": "providers/saml2/admin.py in the Identity Provider (IdP) server in Ipsilon 0.1.0 before 1.0.2 and 1.1.x before 1.1.1 does not properly check permissions, which allows remote authenticated users to cause a denial of service by deleting a SAML2 Service Provider (SP).",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -89,9 +87,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-22T20:20:08Z",

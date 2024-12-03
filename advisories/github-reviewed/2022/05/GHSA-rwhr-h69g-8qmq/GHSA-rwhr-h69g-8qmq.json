@@ -8,9 +8,7 @@
   ],
   "summary": "OpenStack Nova Information leak in libvirt LVM-backed instances",
   "details": "OpenStack Compute (Nova) Folsom before 2012.2.2 and Grizzly, when using libvirt and LVM backed instances, does not properly clear physical volume (PV) content when reallocating for instances, which allows attackers to obtain sensitive information by reading the memory of the previous logical volume (LV).",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
