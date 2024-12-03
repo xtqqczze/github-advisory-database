@@ -7,12 +7,8 @@
     "CVE-2010-0481"
   ],
   "details": "The kernel in Microsoft Windows Vista Gold, SP1, and SP2, Windows Server 2008 Gold, SP2, and R2, and Windows 7 does not properly translate a registry key's virtual path to its real path, which allows local users to cause a denial of service (reboot) via a crafted application, aka \"Windows Virtual Path Parsing Vulnerability.\"",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
