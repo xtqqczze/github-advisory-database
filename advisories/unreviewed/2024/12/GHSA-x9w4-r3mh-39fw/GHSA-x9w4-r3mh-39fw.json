@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9w4-r3mh-39fw",
-  "modified": "2024-12-04T06:31:02Z",
+  "modified": "2024-12-04T15:31:52Z",
   "published": "2024-12-04T06:31:02Z",
   "aliases": [
     "CVE-2024-54661"
   ],
   "details": "readline.sh in socat through 1.8.0.1 relies on the /tmp/$USER/stderr2 file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-04T05:15:07Z"
