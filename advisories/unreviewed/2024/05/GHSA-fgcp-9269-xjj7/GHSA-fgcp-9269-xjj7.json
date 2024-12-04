@@ -7,12 +7,8 @@
     "CVE-2024-35891"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: phy: micrel: Fix potential null pointer dereference\n\nIn lan8814_get_sig_rx() and lan8814_get_sig_tx() ptp_parse_header() may\nreturn NULL as ptp_header due to abnormal packet type or corrupted packet.\nFix this bug by adding ptp_header check.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

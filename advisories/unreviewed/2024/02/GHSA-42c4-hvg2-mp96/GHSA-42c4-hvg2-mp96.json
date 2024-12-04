@@ -7,12 +7,8 @@
     "CVE-2024-24402"
   ],
   "details": "An issue in Nagios XI 2024R1.01 allows a remote attacker to escalate privileges via a crafted script to the /usr/local/nagios/bin/npcd component.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

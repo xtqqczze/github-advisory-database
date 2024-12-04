@@ -3,9 +3,7 @@
   "id": "GHSA-mmwx-rj87-vfgr",
   "modified": "2024-11-18T16:26:54Z",
   "published": "2024-07-22T14:46:59Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "DNSJava affected by KeyTrap - NSEC3 closest encloser proof can exhaust CPU resources",
   "details": "### Impact\nUsers using the `ValidatingResolver` for DNSSEC validation can run into CPU exhaustion with specially crafted DNSSEC-signed zones.\n\n### Patches\nUsers should upgrade to dnsjava v3.6.0\n\n### Workarounds\nAlthough not recommended, only using a non-validating resolver, will remove the vulnerability.\n\n### References\nhttps://www.athene-center.de/en/keytrap\n",
   "severity": [

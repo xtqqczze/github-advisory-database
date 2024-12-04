@@ -7,12 +7,8 @@
     "CVE-2024-25248"
   ],
   "details": "SQL Injection vulnerability in the orderGoodsDelivery() function in Niushop B2B2C V5 allows attackers to run arbitrary SQL commands via the order_id parameter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-35924"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: ucsi: Limit read size on v1.2\n\nBetween UCSI 1.2 and UCSI 2.0, the size of the MESSAGE_IN region was\nincreased from 16 to 256. In order to avoid overflowing reads for older\nsystems, add a mechanism to use the read UCSI version to truncate read\nsizes on UCSI v1.2.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

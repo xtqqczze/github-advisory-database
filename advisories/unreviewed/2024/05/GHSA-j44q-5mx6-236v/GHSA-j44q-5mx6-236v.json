@@ -7,12 +7,8 @@
     "CVE-2024-35945"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: phy: phy_device: Prevent nullptr exceptions on ISR\n\nIf phydev->irq is set unconditionally, check\nfor valid interrupt handler or fall back to polling mode to prevent\nnullptr exceptions in interrupt service routine.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
