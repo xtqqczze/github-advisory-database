@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7xq-9374-9rvx",
-  "modified": "2024-12-03T18:54:33Z",
+  "modified": "2024-12-04T16:41:00Z",
   "published": "2024-12-02T21:31:20Z",
   "aliases": [
     "CVE-2024-53900"
   ],
   "summary": "Mongoose search injection vulnerability",
-  "details": "Mongoose before 8.8.3 can improperly use $where in match.",
+  "details": "Mongoose versions prior to 8.8.3, 7.8.3, and 6.13.5 are vulnerable to improper use of the $where operator. This vulnerability arises from the ability of the $where clause to execute arbitrary JavaScript code in MongoDB queries, potentially leading to code injection attacks and unauthorized access or manipulation of database data.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -29,10 +29,48 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "8.0.0-rc0"
             },
             {
               "fixed": "8.8.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "mongoose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.0.0-rc0"
+            },
+            {
+              "fixed": "7.8.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "mongoose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.13.5"
             }
           ]
         }
@@ -46,6 +84,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/Automattic/mongoose/commit/33679bcf8ca43d74e3e8ecd4cc224826772d805b"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/Automattic/mongoose/commit/c9e86bff7eef477da75a29af62a06d41a835a156"
     },
     {
@@ -55,6 +97,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/Automattic/mongoose/blob/master/CHANGELOG.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Automattic/mongoose/compare/6.13.4...6.13.5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Automattic/mongoose/compare/7.8.2...7.8.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Automattic/mongoose/compare/8.8.2...8.8.3"
     },
     {
       "type": "WEB",
