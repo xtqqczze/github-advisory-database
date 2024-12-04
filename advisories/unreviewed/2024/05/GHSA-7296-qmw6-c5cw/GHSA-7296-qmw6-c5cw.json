@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7296-qmw6-c5cw",
-  "modified": "2024-05-21T18:31:22Z",
+  "modified": "2024-12-04T21:30:51Z",
   "published": "2024-05-21T18:31:22Z",
   "aliases": [
     "CVE-2023-52829"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: ath12k: fix possible out-of-bound write in ath12k_wmi_ext_hal_reg_caps()\n\nreg_cap.phy_id is extracted from WMI event and could be an unexpected value\nin case some errors happen. As a result out-of-bound write may occur to\nsoc->hal_reg_cap. Fix it by validating reg_cap.phy_id before using it.\n\nThis is found during code review.\n\nCompile tested only.",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -33,9 +34,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-787"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:20Z"

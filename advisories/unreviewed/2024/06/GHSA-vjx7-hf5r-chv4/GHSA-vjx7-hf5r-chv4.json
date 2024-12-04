@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjx7-hf5r-chv4",
-  "modified": "2024-06-24T06:30:55Z",
+  "modified": "2024-12-04T21:30:51Z",
   "published": "2024-06-24T06:30:55Z",
   "aliases": [
     "CVE-2024-4900"
   ],
   "details": "The SEOPress  WordPress plugin before 7.8 does not validate and escape one of its Post settings, which could allow contributor and above role to perform Open redirect attacks against any user viewing a malicious post",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-24T06:15:11Z"
