@@ -7,12 +7,8 @@
     "CVE-2021-35247"
   ],
   "details": "Serv-U web login screen was allowing characters that were not sanitized by the authentication mechanism. SolarWinds has updated the authentication mechanism to remedy this issue and prevent unauthorized parameters to be used in the Serv-U login screen With the Log4j issue in the wild, input fields across the internet have been tested for vulnerability. Although Serv-U was not affected by the log4j issue, It was discovered that better input validation could be implemented.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
