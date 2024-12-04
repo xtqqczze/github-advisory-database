@@ -7,12 +7,8 @@
     "CVE-2024-43883"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: vhci-hcd: Do not drop references before new references are gained\n\nAt a few places the driver carries stale pointers\nto references that can still be used. Make sure that does not happen.\nThis strictly speaking closes ZDI-CAN-22273, though there may be\nsimilar races in the driver.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
