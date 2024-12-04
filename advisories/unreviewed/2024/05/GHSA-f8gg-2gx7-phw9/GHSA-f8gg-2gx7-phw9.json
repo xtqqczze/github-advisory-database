@@ -1,18 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8gg-2gx7-phw9",
-  "modified": "2024-05-21T18:31:22Z",
+  "modified": "2024-12-04T18:32:34Z",
   "published": "2024-05-21T18:31:22Z",
   "aliases": [
     "CVE-2023-52838"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbdev: imsttfb: fix a resource leak in probe\n\nI've re-written the error handling but the bug is that if init_imstt()\nfails we need to call iounmap(par->cmap_regs).",
   "severity": [
-
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -53,9 +54,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-416"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:21Z"

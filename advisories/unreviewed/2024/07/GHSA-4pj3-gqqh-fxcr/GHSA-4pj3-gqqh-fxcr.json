@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4pj3-gqqh-fxcr",
-  "modified": "2024-08-01T15:31:52Z",
+  "modified": "2024-12-04T18:32:35Z",
   "published": "2024-07-04T15:30:40Z",
   "aliases": [
     "CVE-2024-39165"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39165"
+    },
+    {
+      "type": "WEB",
+      "url": "https://synacktiv.com/en/advisories/jpgraph-professional-version-pre-authenticated-remote-code-execution"
     },
     {
       "type": "WEB",

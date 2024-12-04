@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7453-c947-w47g",
-  "modified": "2024-12-04T00:31:32Z",
+  "modified": "2024-12-04T18:32:35Z",
   "published": "2024-12-04T00:31:32Z",
   "aliases": [
     "CVE-2024-53502"
   ],
   "details": "Seecms v4.8 was discovered to contain a SQL injection vulnerability in the SEMCMS_SeoAndTag.php page.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-03T22:15:05Z"

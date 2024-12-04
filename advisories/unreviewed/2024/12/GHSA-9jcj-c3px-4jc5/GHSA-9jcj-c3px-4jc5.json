@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9jcj-c3px-4jc5",
-  "modified": "2024-12-02T15:31:41Z",
+  "modified": "2024-12-04T18:32:35Z",
   "published": "2024-12-02T15:31:41Z",
   "aliases": [
     "CVE-2024-10905"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.sailpoint.com/security-advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sailpoint.com/security-advisories/identityiq-improper-access-control-vulnerability-cve-2024-10905"
     }
   ],
   "database_specific": {
