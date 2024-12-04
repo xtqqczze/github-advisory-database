@@ -7,12 +7,8 @@
     "CVE-2024-29434"
   ],
   "details": "An issue in the system image upload interface of Alldata v0.4.6 allows attackers to execute a directory traversal when uploading a file.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
