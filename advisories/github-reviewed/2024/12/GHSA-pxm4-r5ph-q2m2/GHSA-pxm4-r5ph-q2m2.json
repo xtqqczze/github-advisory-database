@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxm4-r5ph-q2m2",
-  "modified": "2024-12-02T19:46:12Z",
+  "modified": "2024-12-04T22:24:22Z",
   "published": "2024-12-02T17:25:43Z",
   "aliases": [
     "CVE-2024-52806"
@@ -41,47 +41,6 @@
     {
       "package": {
         "ecosystem": "Packagist",
-        "name": "simplesamlphp/xml-common"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.20.0"
-            }
-          ]
-        }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 1.20"
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "simplesamlphp/xml-security"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "1.10.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
         "name": "simplesamlphp/saml2-legacy"
       },
       "ranges": [
@@ -93,25 +52,6 @@
             },
             {
               "fixed": "4.6.14"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "simplesamlphp/saml2"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "5.0.0-alpha.1"
-            },
-            {
-              "fixed": "5.0.0-alpha.18"
             }
           ]
         }
