@@ -7,12 +7,8 @@
     "CVE-2022-48816"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nSUNRPC: lock against ->sock changing during sysfs read\n\n->sock can be set to NULL asynchronously unless ->recv_mutex is held.\nSo it is important to hold that mutex.  Otherwise a sysfs read can\ntrigger an oops.\nCommit 17f09d3f619a (\"SUNRPC: Check if the xprt is connected before\nhandling sysfs reads\") appears to attempt to fix this problem, but it\nonly narrows the race window.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
