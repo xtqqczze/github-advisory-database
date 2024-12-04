@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cjh5-vw7v-698x",
+  "modified": "2024-12-04T00:31:32Z",
+  "published": "2024-12-04T00:31:32Z",
+  "aliases": [
+    "CVE-2024-51363"
+  ],
+  "details": "Insecure deserialization in Hodoku v2.3.0 to v2.3.2 allows attackers to execute arbitrary code.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51363"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Gelcon/PoC-of-Hodoku-V2.3.0-RCE"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-03T22:15:05Z"
+  }
+}
