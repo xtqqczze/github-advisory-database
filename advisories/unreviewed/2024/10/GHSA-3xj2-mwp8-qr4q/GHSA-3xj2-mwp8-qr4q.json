@@ -7,12 +7,8 @@
     "CVE-2024-48261"
   ],
   "details": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2024-48251. Reason: This candidate is a reservation duplicate of CVE-2024-48251. Notes: All CVE users should reference CVE-2024-48251 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -20,9 +16,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

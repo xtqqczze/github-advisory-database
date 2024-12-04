@@ -7,12 +7,8 @@
     "CVE-2024-47913"
   ],
   "details": "An issue was discovered in the AbuseFilter extension for MediaWiki before 1.39.9, 1.40.x and 1.41.x before 1.41.3, and 1.42.x before 1.42.2. An API caller can match a filter condition against AbuseFilter logs even if the caller is not authorized to view the log details for the filter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
