@@ -7,12 +7,8 @@
     "CVE-2024-1671"
   ],
   "details": "Inappropriate implementation in Site Isolation in Google Chrome prior to 122.0.6261.57 allowed a remote attacker to bypass content security policy via a crafted HTML page. (Chromium security severity: Medium)",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

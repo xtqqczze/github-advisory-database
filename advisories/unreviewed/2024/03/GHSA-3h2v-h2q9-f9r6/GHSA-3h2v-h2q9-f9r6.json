@@ -7,12 +7,8 @@
     "CVE-2023-52593"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: wfx: fix possible NULL pointer dereference in wfx_set_mfp_ap()\n\nSince 'ieee80211_beacon_get()' can return NULL, 'wfx_set_mfp_ap()'\nshould check the return value before examining skb data. So convert\nthe latter to return an appropriate error code and propagate it to\nreturn from 'wfx_start_ap()' as well. Compile tested only.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

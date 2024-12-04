@@ -7,12 +7,8 @@
     "CVE-2023-52357"
   ],
   "details": "Vulnerability of serialization/deserialization mismatch in the vibration framework.Successful exploitation of this vulnerability may affect availability.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

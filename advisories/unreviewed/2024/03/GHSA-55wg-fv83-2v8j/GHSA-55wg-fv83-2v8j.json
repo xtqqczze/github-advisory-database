@@ -7,12 +7,8 @@
     "CVE-2023-52590"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocfs2: Avoid touching renamed directory if parent does not change\n\nThe VFS will not be locking moved directory if its parent does not\nchange. Change ocfs2 rename code to avoid touching renamed directory if\nits parent does not change as without locking that can corrupt the\nfilesystem.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

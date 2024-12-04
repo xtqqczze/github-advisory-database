@@ -7,12 +7,8 @@
     "CVE-2024-25468"
   ],
   "details": "An issue in TOTOLINK X5000R V.9.1.0u.6369_B20230113 allows a remote attacker to cause a denial of service via the host_time parameter of the NTPSyncWithHost component.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
