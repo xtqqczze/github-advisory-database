@@ -7,12 +7,8 @@
     "CVE-2021-47111"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxen-netback: take a reference to the RX task thread\n\nDo this in order to prevent the task from being freed if the thread\nreturns (which can be triggered by the frontend) before the call to\nkthread_stop done as part of the backend tear down. Not taking the\nreference will lead to a use-after-free in that scenario. Such\nreference was taken before but dropped as part of the rework done in\n2ac061ce97f4.\n\nReintroduce the reference taking and add a comment this time\nexplaining why it's needed.\n\nThis is XSA-374 / CVE-2021-28691.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2021-47121"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: caif: fix memory leak in cfusbl_device_notify\n\nIn case of caif_enroll_dev() fail, allocated\nlink_support won't be assigned to the corresponding\nstructure. So simply free allocated pointer in case\nof error.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

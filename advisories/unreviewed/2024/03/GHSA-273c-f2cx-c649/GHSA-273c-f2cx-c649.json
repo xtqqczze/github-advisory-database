@@ -7,12 +7,8 @@
     "CVE-2021-47134"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nefi/fdt: fix panic when no valid fdt found\n\nsetup_arch() would invoke efi_init()->efi_get_fdt_params(). If no\nvalid fdt found then initial_boot_params will be null. So we\nshould stop further fdt processing here. I encountered this\nissue on risc-v.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

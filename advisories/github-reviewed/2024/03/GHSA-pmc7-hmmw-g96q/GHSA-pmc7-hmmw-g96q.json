@@ -8,9 +8,7 @@
   ],
   "summary": "Bagisto vulnerable to Insecure Direct Object Reference (IDOR)",
   "details": "Insecure Direct Object Reference (IDOR) in Bagisto v.1.5.0 allows an attacker to obtain sensitive information via the invoice ID parameter.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -55,9 +53,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-03-15T21:03:01Z",

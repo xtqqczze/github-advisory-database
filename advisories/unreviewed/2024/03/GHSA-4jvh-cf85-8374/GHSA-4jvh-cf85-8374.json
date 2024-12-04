@@ -7,12 +7,8 @@
     "CVE-2021-47109"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nneighbour: allow NUD_NOARP entries to be forced GCed\n\nIFF_POINTOPOINT interfaces use NUD_NOARP entries for IPv6. It's possible to\nfill up the neighbour table with enough entries that it will overflow for\nvalid connections after that.\n\nThis behaviour is more prevalent after commit 58956317c8de (\"neighbor:\nImprove garbage collection\") is applied, as it prevents removal from\nentries that are not NUD_FAILED, unless they are more than 5s old.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

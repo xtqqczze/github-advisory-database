@@ -7,12 +7,8 @@
     "CVE-2024-28403"
   ],
   "details": "TOTOLINK X2000R before V1.0.0-B20231213.1013 is vulnerable to Cross Site Scripting (XSS) via the VPN Page.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
