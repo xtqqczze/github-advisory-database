@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq3w-v528-46rv",
-  "modified": "2024-11-12T19:53:17Z",
+  "modified": "2024-12-04T18:06:16Z",
   "published": "2024-11-12T19:53:17Z",
   "aliases": [
     "CVE-2024-47535"
@@ -15,7 +15,7 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:H/SI:H/SA:L/E:P"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:P"
     }
   ],
   "affected": [
@@ -64,7 +64,7 @@
     "cwe_ids": [
       "CWE-400"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-12T19:53:17Z",
     "nvd_published_at": "2024-11-12T16:15:22Z"
