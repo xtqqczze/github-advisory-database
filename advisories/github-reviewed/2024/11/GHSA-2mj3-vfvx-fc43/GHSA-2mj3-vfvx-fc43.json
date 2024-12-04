@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mj3-vfvx-fc43",
-  "modified": "2024-12-02T21:38:01Z",
+  "modified": "2024-12-04T22:17:00Z",
   "published": "2024-11-29T18:34:03Z",
   "aliases": [
     "CVE-2024-36621"
@@ -9,6 +9,10 @@
   "summary": "Moby Race Condition vulnerability",
   "details": "moby v25.0.5 is affected by a Race Condition in builder/builder-next/adapters/snapshot/layer.go. The vulnerability could be used to trigger concurrent builds that call the EnsureLayer function resulting in resource leaks/exhaustion.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
@@ -49,6 +53,10 @@
       "url": "https://gist.github.com/1047524396/5d44459edab5fafcdf86b43909b81135"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-2mj3-vfvx-fc43"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/moby/moby"
     },
@@ -58,7 +66,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-362"
+    ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-02T21:38:01Z",
