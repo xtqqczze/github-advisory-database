@@ -7,12 +7,8 @@
     "CVE-2024-26495"
   ],
   "details": "Cross Site Scripting (XSS) vulnerability in Friendica versions after v.2023.12, allows a remote attacker to execute arbitrary code and obtain sensitive information via the BBCode tags in the post content and post comments function.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

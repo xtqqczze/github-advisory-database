@@ -7,12 +7,8 @@
     "CVE-2024-26677"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nrxrpc: Fix delayed ACKs to not set the reference serial number\n\nFix the construction of delayed ACKs to not set the reference serial number\nas they can't be used as an RTT reference.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
