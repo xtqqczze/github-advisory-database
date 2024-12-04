@@ -7,12 +7,8 @@
     "CVE-2021-44207"
   ],
   "details": "Acclaim USAHERDS through 7.4.0.1 uses hard-coded credentials.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
