@@ -7,12 +7,8 @@
     "CVE-2023-52614"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nPM / devfreq: Fix buffer overflow in trans_stat_show\n\nFix buffer overflow in trans_stat_show().\n\nConvert simple snprintf to the more secure scnprintf with size of\nPAGE_SIZE.\n\nAdd condition checking if we are exceeding PAGE_SIZE and exit early from\nloop. Also add at the end a warning that we exceeded PAGE_SIZE and that\nstats is disabled.\n\nReturn -EFBIG in the case where we don't have enough space to write the\nfull transition table.\n\nAlso document in the ABI that this function can return -EFBIG error.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

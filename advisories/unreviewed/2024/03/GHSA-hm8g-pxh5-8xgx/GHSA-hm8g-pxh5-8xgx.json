@@ -7,12 +7,8 @@
     "CVE-2023-52600"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\njfs: fix uaf in jfs_evict_inode\n\nWhen the execution of diMount(ipimap) fails, the object ipimap that has been\nreleased may be accessed in diFreeSpecial(). Asynchronous ipimap release occurs\nwhen rcu_core() calls jfs_free_node().\n\nTherefore, when diMount(ipimap) fails, sbi->ipimap should not be initialized as\nipimap.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

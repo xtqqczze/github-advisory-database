@@ -7,12 +7,8 @@
     "CVE-2023-52691"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/pm: fix a double-free in si_dpm_init\n\nWhen the allocation of\nadev->pm.dpm.dyn_state.vddc_dependency_on_dispclk.entries fails,\namdgpu_free_extended_power_table is called to free some fields of adev.\nHowever, when the control flow returns to si_dpm_sw_init, it goes to\nlabel dpm_failed and calls si_dpm_fini, which calls\namdgpu_free_extended_power_table again and free those fields again. Thus\na double-free is triggered.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

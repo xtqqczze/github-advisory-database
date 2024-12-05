@@ -7,12 +7,8 @@
     "CVE-2023-52616"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: lib/mpi - Fix unexpected pointer access in mpi_ec_init\n\nWhen the mpi_ec_ctx structure is initialized, some fields are not\ncleared, causing a crash when referencing the field when the\nstructure was released. Initially, this issue was ignored because\nmemory for mpi_ec_ctx is allocated with the __GFP_ZERO flag.\nFor example, this error will be triggered when calculating the\nZa value for SM2 separately.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

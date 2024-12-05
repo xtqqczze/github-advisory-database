@@ -7,12 +7,8 @@
     "CVE-2023-52615"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhwrng: core - Fix page fault dead lock on mmap-ed hwrng\n\nThere is a dead-lock in the hwrng device read path.  This triggers\nwhen the user reads from /dev/hwrng into memory also mmap-ed from\n/dev/hwrng.  The resulting page fault triggers a recursive read\nwhich then dead-locks.\n\nFix this by using a stack buffer when calling copy_to_user.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

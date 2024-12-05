@@ -7,12 +7,8 @@
     "CVE-2023-52669"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: s390/aes - Fix buffer overread in CTR mode\n\nWhen processing the last block, the s390 ctr code will always read\na whole block, even if there isn't a whole block of data left.  Fix\nthis by using the actual length left and copy it into a buffer first\nfor processing.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

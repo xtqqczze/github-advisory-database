@@ -4,14 +4,10 @@
   "modified": "2024-10-25T20:48:46Z",
   "published": "2020-03-13T20:05:10Z",
   "withdrawn": "2020-06-16T20:25:44Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Duplicate Advisory: python-gnupg allows context-dependent attackers to trick gnupg to decrypt other ciphertext than intended",
   "details": "**Withdrawn:** Duplicate of GHSA-2fch-jvg5-crf6",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -104,9 +100,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2020-03-13T20:04:45Z",

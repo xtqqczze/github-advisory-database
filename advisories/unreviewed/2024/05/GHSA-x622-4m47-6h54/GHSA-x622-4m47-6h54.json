@@ -7,12 +7,8 @@
     "CVE-2023-52690"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npowerpc/powernv: Add a null pointer check to scom_debug_init_one()\n\nkasprintf() returns a pointer to dynamically allocated memory\nwhich can be NULL upon failure.\nAdd a null pointer check, and release 'ent' to avoid memory leaks.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

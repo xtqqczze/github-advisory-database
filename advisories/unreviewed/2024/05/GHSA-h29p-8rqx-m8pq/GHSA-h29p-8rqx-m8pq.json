@@ -7,12 +7,8 @@
     "CVE-2023-52683"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nACPI: LPIT: Avoid u32 multiplication overflow\n\nIn lpit_update_residency() there is a possibility of overflow\nin multiplication, if tsc_khz is large enough (> UINT_MAX/1000).\n\nChange multiplication to mul_u32_u32().\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
