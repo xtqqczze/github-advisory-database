@@ -4,9 +4,7 @@
   "modified": "2024-11-12T22:59:42Z",
   "published": "2024-11-12T18:30:58Z",
   "withdrawn": "2024-11-12T22:59:42Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Duplicate Advisory: .NET and Visual Studio Denial of Service Vulnerability",
   "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-6x36-qxmj-rv4p. This link is maintained to preserve external references.\n\n## Original Description\n.NET and Visual Studio Denial of Service Vulnerability",
   "severity": [
