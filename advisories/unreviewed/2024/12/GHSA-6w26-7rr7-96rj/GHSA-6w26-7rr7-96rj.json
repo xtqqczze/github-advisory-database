@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w26-7rr7-96rj",
-  "modified": "2024-12-04T18:32:36Z",
+  "modified": "2024-12-05T18:31:02Z",
   "published": "2024-12-04T18:32:36Z",
   "aliases": [
     "CVE-2018-9395"
   ],
   "details": "In mtk_cfg80211_vendor_packet_keep_alive_start and mtk_cfg80211_vendor_set_config of drivers/misc/mediatek/connectivity/wlan/gen2/os/linux/gl_vendor.c, there is a possible OOB write due to a missing bounds check. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-04T18:15:10Z"
