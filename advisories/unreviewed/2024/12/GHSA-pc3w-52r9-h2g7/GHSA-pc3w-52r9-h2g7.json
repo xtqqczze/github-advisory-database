@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc3w-52r9-h2g7",
-  "modified": "2024-12-04T15:31:53Z",
+  "modified": "2024-12-05T12:31:28Z",
   "published": "2024-12-04T15:31:52Z",
   "aliases": [
     "CVE-2024-53140"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53140"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/114a61d8d94ae3a43b82446cf737fd757021b834"
     },
     {
       "type": "WEB",

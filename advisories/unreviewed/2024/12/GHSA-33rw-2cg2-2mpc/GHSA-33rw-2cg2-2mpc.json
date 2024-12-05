@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33rw-2cg2-2mpc",
-  "modified": "2024-12-04T15:31:53Z",
+  "modified": "2024-12-05T12:31:28Z",
   "published": "2024-12-04T15:31:52Z",
   "aliases": [
     "CVE-2024-53136"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53136"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/36b537e8f302f670c7cf35d88a3a294443e32d52"
     },
     {
       "type": "WEB",
