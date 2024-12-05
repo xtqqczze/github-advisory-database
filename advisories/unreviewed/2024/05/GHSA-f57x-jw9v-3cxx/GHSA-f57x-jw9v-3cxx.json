@@ -7,12 +7,8 @@
     "CVE-2024-27048"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: brcm80211: handle pmk_op allocation failure\n\nThe kzalloc() in brcmf_pmksa_v3_op() will return null if the\nphysical memory has run out. As a result, if we dereference\nthe null value, the null pointer dereference bug will happen.\n\nReturn -ENOMEM from brcmf_pmksa_v3_op() if kzalloc() fails\nfor pmk_op.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

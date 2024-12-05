@@ -7,12 +7,8 @@
     "CVE-2024-26694"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: fix double-free bug\n\nThe storage for the TLV PC register data wasn't done like all\nthe other storage in the drv->fw area, which is cleared at the\nend of deallocation. Therefore, the freeing must also be done\ndifferently, explicitly NULL'ing it out after the free, since\notherwise there's a nasty double-free bug here if a file fails\nto load after this has been parsed, and we get another free\nlater (e.g. because no other file exists.) Fix that by adding\nthe missing NULL assignment.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

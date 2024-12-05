@@ -7,12 +7,8 @@
     "CVE-2024-27068"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nthermal/drivers/mediatek/lvts_thermal: Fix a memory leak in an error handling path\n\nIf devm_krealloc() fails, then 'efuse' is leaking.\nSo free it to avoid a leak.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
