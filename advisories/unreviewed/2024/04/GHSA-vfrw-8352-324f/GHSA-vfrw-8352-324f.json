@@ -7,12 +7,8 @@
     "CVE-2024-26714"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ninterconnect: qcom: sc8180x: Mark CO0 BCM keepalive\n\nThe CO0 BCM needs to be up at all times, otherwise some hardware (like\nthe UFS controller) loses its connection to the rest of the SoC,\nresulting in a hang of the platform, accompanied by a spectacular\nlogspam.\n\nMark it as keepalive to prevent such cases.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
