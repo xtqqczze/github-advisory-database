@@ -7,12 +7,8 @@
     "CVE-2022-30354"
   ],
   "details": "OvalEdge 5.2.8.0 and earlier is affected by a Sensitive Data Exposure vulnerability via a GET request to /user/getUserWithTeam. Authentication is required. The information disclosed is associated with all registered user ID numbers.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
