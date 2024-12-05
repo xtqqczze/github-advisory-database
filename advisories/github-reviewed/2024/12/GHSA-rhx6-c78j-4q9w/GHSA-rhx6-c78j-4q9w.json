@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rhx6-c78j-4q9w",
+  "modified": "2024-12-05T22:41:17Z",
+  "published": "2024-12-05T22:40:47Z",
+  "aliases": [
+    "CVE-2024-52798"
+  ],
+  "summary": "Unpatched `path-to-regexp` ReDoS in 0.1.x",
+  "details": "### Impact\n\nThe regular expression that is vulnerable to backtracking can be generated in the 0.1.x release of `path-to-regexp`, originally reported here: https://github.com/advisories/GHSA-9wv6-86v2-598j\n\n### Patches\n\nUpgrade to 0.1.12.\n\n### Workarounds\n\nAvoid using two parameters within a single path segment, when the separator is not `.` (e.g. no `/:a-:b`). Alternatively, you can define the regex used for both parameters and ensure they do not overlap to allow backtracking.\n\n### References\n\n- https://github.com/advisories/GHSA-9wv6-86v2-598j\n- https://blakeembrey.com/posts/2024-09-web-redos/",
+  "severity": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "path-to-regexp"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.1.12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/pillarjs/path-to-regexp/security/advisories/GHSA-rhx6-c78j-4q9w"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blakeembrey.com/posts/2024-09-web-redos"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/pillarjs/path-to-regexp"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1333"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-12-05T22:40:47Z",
+    "nvd_published_at": null
+  }
+}
