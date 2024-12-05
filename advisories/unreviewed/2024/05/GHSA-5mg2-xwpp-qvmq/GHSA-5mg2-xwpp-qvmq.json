@@ -7,12 +7,8 @@
     "CVE-2024-27064"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_tables: Fix a memory leak in nf_tables_updchain\n\nIf nft_netdev_register_hooks() fails, the memory associated with\nnft_stats is not freed, causing a memory leak.\n\nThis patch fixes it by moving nft_stats_alloc() down after\nnft_netdev_register_hooks() succeeds.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

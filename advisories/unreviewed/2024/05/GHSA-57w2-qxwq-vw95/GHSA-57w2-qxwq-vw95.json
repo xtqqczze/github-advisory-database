@@ -7,12 +7,8 @@
     "CVE-2024-27035"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: compress: fix to guarantee persisting compressed blocks by CP\n\nIf data block in compressed cluster is not persisted with metadata\nduring checkpoint, after SPOR, the data may be corrupted, let's\nguarantee to write compressed page by checkpoint.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

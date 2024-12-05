@@ -7,12 +7,8 @@
     "CVE-2024-27067"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxen/evtchn: avoid WARN() when unbinding an event channel\n\nWhen unbinding a user event channel, the related handler might be\ncalled a last time in case the kernel was built with\nCONFIG_DEBUG_SHIRQ. This might cause a WARN() in the handler.\n\nAvoid that by adding an \"unbinding\" flag to struct user_event which\nwill short circuit the handler.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

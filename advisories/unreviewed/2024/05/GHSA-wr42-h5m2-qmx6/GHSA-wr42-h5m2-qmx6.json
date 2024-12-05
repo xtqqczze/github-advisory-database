@@ -7,12 +7,8 @@
     "CVE-2024-27071"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbacklight: hx8357: Fix potential NULL pointer dereference\n\nThe \"im\" pins are optional. Add missing check in the hx8357_probe().",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

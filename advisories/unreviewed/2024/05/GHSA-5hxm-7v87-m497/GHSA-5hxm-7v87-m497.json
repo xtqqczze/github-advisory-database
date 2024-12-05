@@ -7,12 +7,8 @@
     "CVE-2024-27392"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvme: host: fix double-free of struct nvme_id_ns in ns_update_nuse()\n\nWhen nvme_identify_ns() fails, it frees the pointer to the struct\nnvme_id_ns before it returns. However, ns_update_nuse() calls kfree()\nfor the pointer even when nvme_identify_ns() fails. This results in\nKASAN double-free, which was observed with blktests nvme/045 with\nproposed patches [1] on the kernel v6.8-rc7. Fix the double-free by\nskipping kfree() when nvme_identify_ns() fails.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
