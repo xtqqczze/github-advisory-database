@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7c7-4h8w-p4x9",
-  "modified": "2024-02-18T03:30:24Z",
+  "modified": "2024-12-05T21:31:51Z",
   "published": "2024-02-18T03:30:24Z",
   "aliases": [
     "CVE-2023-52357"
   ],
   "details": "Vulnerability of serialization/deserialization mismatch in the vibration framework.Successful exploitation of this vulnerability may affect availability.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-18T03:15:08Z"

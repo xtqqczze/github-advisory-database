@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjgw-3ffm-c33h",
-  "modified": "2024-12-03T21:31:22Z",
+  "modified": "2024-12-05T21:31:52Z",
   "published": "2024-12-03T21:31:22Z",
   "aliases": [
     "CVE-2024-51114"
   ],
   "details": "An issue in Beijing Digital China Yunke Information Technology Co.Ltd v.7.2.6.120 allows a remote attacker to execute arbitrary code via the code/function/dpi/web_auth/customizable.php file",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-77"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-03T20:15:15Z"
