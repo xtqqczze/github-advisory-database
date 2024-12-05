@@ -7,12 +7,8 @@
     "CVE-2021-46962"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmmc: uniphier-sd: Fix a resource leak in the remove function\n\nA 'tmio_mmc_host_free()' call is missing in the remove function, in order\nto balance a 'tmio_mmc_host_alloc()' call in the probe.\nThis is done in the error handling path of the probe, but not in the remove\nfunction.\n\nAdd the missing call.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

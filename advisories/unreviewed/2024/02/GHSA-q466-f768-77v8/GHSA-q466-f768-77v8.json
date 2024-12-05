@@ -7,12 +7,8 @@
     "CVE-2021-46965"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmtd: physmap: physmap-bt1-rom: Fix unintentional stack access\n\nCast &data to (char *) in order to avoid unintentionally accessing\nthe stack.\n\nNotice that data is of type u32, so any increment to &data\nwill be in the order of 4-byte chunks, and this piece of code\nis actually intended to be a byte offset.\n\nAddresses-Coverity-ID: 1497765 (\"Out-of-bounds access\")",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
