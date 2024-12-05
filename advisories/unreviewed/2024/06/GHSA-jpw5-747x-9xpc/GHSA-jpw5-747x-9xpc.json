@@ -7,12 +7,8 @@
     "CVE-2024-39129"
   ],
   "details": "Heap Buffer Overflow vulnerability in DumpTS v0.1.0-nightly allows attackers to cause a denial of service via the function PushTSBuf() at /src/PayloadBuf.cpp.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

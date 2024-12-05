@@ -7,12 +7,8 @@
     "CVE-2024-2882"
   ],
   "details": "SDG Technologies PnPSCADA allows a remote attacker to attach various entities without requiring system authentication. This breach could potentially lead to unauthorized control, data manipulation, and access to sensitive information within the SCADA system.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

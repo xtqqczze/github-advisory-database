@@ -7,12 +7,8 @@
     "CVE-2021-46974"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Fix masking negation logic upon negative dst register\n\nThe negation logic for the case where the off_reg is sitting in the\ndst register is not correct given then we cannot just invert the add\nto a sub or vice versa. As a fix, perform the final bitwise and-op\nunconditionally into AX from the off_reg, then move the pointer from\nthe src to dst and finally use AX as the source for the original\npointer arithmetic operation such that the inversion yields a correct\nresult. The single non-AX mov in between is possible given constant\nblinding is retaining it as it's not an immediate based operation.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
