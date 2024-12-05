@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fw3-pvfm-qmmq",
-  "modified": "2024-12-05T12:31:28Z",
+  "modified": "2024-12-05T15:31:01Z",
   "published": "2024-12-05T12:31:28Z",
   "aliases": [
     "CVE-2024-52270"
@@ -21,11 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://app.hellosign.com"
+    },
+    {
+      "type": "WEB",
       "url": "https://drive.proton.me/urls/Z6DHXNRZQC#jkfO38rjOiOj"
     },
     {
       "type": "WEB",
       "url": "https://new.space/s/ZuHoujvkjdzfY7Uihah7Yg#SKWLU_g2Cihfj4qsq9XNy6F4saxVAzD876PujiDOYfs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sign.dropbox.com"
     },
     {
       "type": "WEB",

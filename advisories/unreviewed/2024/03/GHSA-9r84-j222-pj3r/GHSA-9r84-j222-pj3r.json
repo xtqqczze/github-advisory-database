@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r84-j222-pj3r",
-  "modified": "2024-03-14T00:31:04Z",
+  "modified": "2024-12-05T15:30:56Z",
   "published": "2024-03-08T03:31:24Z",
   "aliases": [
     "CVE-2023-28826"
   ],
   "details": "This issue was addressed with improved redaction of sensitive information. This issue is fixed in iOS 16.7.6 and iPadOS 16.7.6, macOS Monterey 12.7.4, macOS Sonoma 14.1, macOS Ventura 13.6.5. An app may be able to access sensitive user data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-08T02:15:47Z"
