@@ -7,12 +7,8 @@
     "CVE-2024-27033"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: fix to remove unnecessary f2fs_bug_on() to avoid panic\n\nverify_blkaddr() will trigger panic once we inject fault into\nf2fs_is_valid_blkaddr(), fix to remove this unnecessary f2fs_bug_on().",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

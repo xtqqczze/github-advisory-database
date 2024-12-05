@@ -7,12 +7,8 @@
     "CVE-2022-48829"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFSD: Fix NFSv3 SETATTR/CREATE's handling of large file sizes\n\niattr::ia_size is a loff_t, so these NFSv3 procedures must be\ncareful to deal with incoming client size values that are larger\nthan s64_max without corrupting the value.\n\nSilently capping the value results in storing a different value\nthan the client passed in which is unexpected behavior, so remove\nthe min_t() check in decode_sattr3().\n\nNote that RFC 1813 permits only the WRITE procedure to return\nNFS3ERR_FBIG. We believe that NFSv3 reference implementations\nalso return NFS3ERR_FBIG when ia_size is too large.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

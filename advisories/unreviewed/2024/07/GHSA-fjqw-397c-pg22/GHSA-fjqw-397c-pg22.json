@@ -7,12 +7,8 @@
     "CVE-2022-48776"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmtd: parsers: qcom: Fix missing free for pparts in cleanup\n\nMtdpart doesn't free pparts when a cleanup function is declared.\nAdd missing free for pparts in cleanup function for smem to fix the\nleak.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

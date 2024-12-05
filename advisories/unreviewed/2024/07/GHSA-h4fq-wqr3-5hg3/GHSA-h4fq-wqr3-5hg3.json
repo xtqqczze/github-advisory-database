@@ -7,12 +7,8 @@
     "CVE-2022-48798"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/cio: verify the driver availability for path_event call\n\nIf no driver is attached to a device or the driver does not provide the\npath_event function, an FCES path-event on this device could end up in a\nkernel-panic. Verify the driver availability before the path_event\nfunction call.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
