@@ -7,12 +7,8 @@
     "CVE-2023-41014"
   ],
   "details": "code-projects.org Online Job Portal 1.0 is vulnerable to SQL Injection via the Username parameter for \"Employer.\"",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

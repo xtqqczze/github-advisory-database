@@ -7,12 +7,8 @@
     "CVE-2024-34952"
   ],
   "details": "taurusxin ncmdump v1.3.2 was discovered to contain a segmentation violation via the NeteaseCrypt::FixMetadata() function at /src/ncmcrypt.cpp. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted .ncm file.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

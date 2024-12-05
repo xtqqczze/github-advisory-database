@@ -7,12 +7,8 @@
     "CVE-2019-25161"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: prevent memory leak\n\nIn dcn*_create_resource_pool the allocated memory should be released if\nconstruct pool fails.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

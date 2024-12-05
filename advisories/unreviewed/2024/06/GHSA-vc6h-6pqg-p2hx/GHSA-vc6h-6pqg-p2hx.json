@@ -7,12 +7,8 @@
     "CVE-2024-36970"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: Use request_module_nowait\n\nThis appears to work around a deadlock regression that came in\nwith the LED merge in 6.9.\n\nThe deadlock happens on my system with 24 iwlwifi radios, so maybe\nit something like all worker threads are busy and some work that needs\nto complete cannot complete.\n\n[also remove unnecessary \"load_module\" var and now-wrong comment]",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
