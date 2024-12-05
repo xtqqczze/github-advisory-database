@@ -7,12 +7,8 @@
     "CVE-2021-47151"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ninterconnect: qcom: bcm-voter: add a missing of_node_put()\n\nAdd a missing of_node_put() in of_bcm_voter_get() to avoid the\nreference leak.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2021-47167"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFS: Fix an Oopsable condition in __nfs_pageio_add_request()\n\nEnsure that nfs_pageio_error_cleanup() resets the mirror array contents,\nso that the structure reflects the fact that it is now empty.\nAlso change the test in nfs_pageio_do_add_request() to be more robust by\nchecking whether or not the list is empty rather than relying on the\nvalue of pg_count.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

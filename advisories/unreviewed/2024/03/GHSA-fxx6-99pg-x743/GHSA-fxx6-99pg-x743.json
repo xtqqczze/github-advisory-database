@@ -7,12 +7,8 @@
     "CVE-2021-47143"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/smc: remove device from smcd_dev_list after failed device_add()\n\nIf the device_add() for a smcd_dev fails, there's no cleanup step that\nrolls back the earlier list_add(). The device subsequently gets freed,\nand we end up with a corrupted list.\n\nAdd some error handling that removes the device from the list.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
