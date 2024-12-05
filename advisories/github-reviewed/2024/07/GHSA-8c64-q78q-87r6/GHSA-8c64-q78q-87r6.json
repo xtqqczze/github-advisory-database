@@ -4,9 +4,7 @@
   "modified": "2024-08-05T17:18:32Z",
   "published": "2024-07-29T15:30:38Z",
   "withdrawn": "2024-08-05T17:18:32Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Duplicate Advisory: Juju leaks of the sensitive context ID",
   "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-6vjm-54vp-mxhx. This link has been maintained to preserve external references.\n\n## Original Description\n\nAn issue was discovered in Juju that resulted in the leak of the sensitive context ID, which allows a local unprivileged attacker to access other sensitive data or relation accessible to the local charm.",
   "severity": [
