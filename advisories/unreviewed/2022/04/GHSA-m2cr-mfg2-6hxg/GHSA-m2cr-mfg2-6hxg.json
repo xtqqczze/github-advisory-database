@@ -7,12 +7,8 @@
     "CVE-2011-4125"
   ],
   "details": "A untrusted search path issue was found in Calibre at devices/linux_mount_helper.c leading to the ability of unprivileged users to execute any program as root.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
