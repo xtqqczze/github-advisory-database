@@ -7,12 +7,8 @@
     "CVE-2023-52679"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nof: Fix double free in of_parse_phandle_with_args_map\n\nIn of_parse_phandle_with_args_map() the inner loop that\niterates through the map entries calls of_node_put(new)\nto free the reference acquired by the previous iteration\nof the inner loop. This assumes that the value of \"new\" is\nNULL on the first iteration of the inner loop.\n\nMake sure that this is true in all iterations of the outer\nloop by setting \"new\" to NULL after its value is assigned to \"cur\".\n\nExtend the unittest to detect the double free and add an additional\ntest case that actually triggers this path.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2023-52650"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/tegra: dsi: Add missing check for of_find_device_by_node\n\nAdd check for the return value of of_find_device_by_node() and return\nthe error if it fails in order to avoid NULL pointer dereference.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -64,9 +60,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
