@@ -7,12 +7,8 @@
     "CVE-2021-47149"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: fujitsu: fix potential null-ptr-deref\n\nIn fmvj18x_get_hwinfo(), if ioremap fails there will be NULL pointer\nderef. To fix this, check the return value of ioremap and return -1\nto the caller in case of failure.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
