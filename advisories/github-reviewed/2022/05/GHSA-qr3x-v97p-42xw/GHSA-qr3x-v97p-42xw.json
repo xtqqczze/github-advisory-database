@@ -8,9 +8,7 @@
   ],
   "summary": "SaltStack insecurely uses /tmp",
   "details": "Unspecified vulnerability in salt-ssh in Salt (aka SaltStack) 0.17.0 has unspecified impact and vectors related to \"insecure Usage of /tmp.\"",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -58,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-04-30T14:39:51Z",

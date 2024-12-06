@@ -7,12 +7,8 @@
     "CVE-2024-21724"
   ],
   "details": "Inadequate input validation for media selection fields lead to XSS vulnerabilities in various extensions.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
