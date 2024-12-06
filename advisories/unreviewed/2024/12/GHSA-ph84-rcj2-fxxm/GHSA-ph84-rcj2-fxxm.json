@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ph84-rcj2-fxxm",
-  "modified": "2024-12-06T18:30:45Z",
+  "modified": "2024-12-06T21:30:39Z",
   "published": "2024-12-06T18:30:45Z",
   "aliases": [
     "CVE-2024-12254"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/12/06/1"
     }
   ],
   "database_specific": {

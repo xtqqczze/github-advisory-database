@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mff4-qp47-8h8q",
-  "modified": "2024-11-26T12:41:37Z",
+  "modified": "2024-12-06T21:30:37Z",
   "published": "2024-11-26T12:41:37Z",
   "aliases": [
     "CVE-2024-38833"
@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:L/A:L"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-
+      "CWE-79"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

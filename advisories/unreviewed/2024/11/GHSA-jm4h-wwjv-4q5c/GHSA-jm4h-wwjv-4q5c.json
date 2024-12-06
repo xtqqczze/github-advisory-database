@@ -13,9 +13,7 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,7 +38,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-203"
+      "CWE-203",
+      "CWE-312"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

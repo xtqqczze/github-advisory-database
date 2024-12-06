@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjx9-vcv6-76j4",
-  "modified": "2024-04-10T21:30:32Z",
+  "modified": "2024-12-06T21:30:35Z",
   "published": "2024-04-10T21:30:32Z",
   "aliases": [
     "CVE-2024-28345"
   ],
   "details": "An issue discovered in Sipwise C5 NGCP Dashboard below mr11.5.1 allows a low privileged user to access the Journal endpoint by directly visit the URL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-10T19:15:49Z"
