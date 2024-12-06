@@ -7,12 +7,8 @@
     "CVE-2023-52857"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/mediatek: Fix coverity issue with unintentional integer overflow\n\n1. Instead of multiplying 2 variable of different types. Change to\nassign a value of one variable and then multiply the other variable.\n\n2. Add a int variable for multiplier calculation instead of calculating\ndifferent types multiplier with dma_addr_t variable directly.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

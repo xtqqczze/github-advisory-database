@@ -7,12 +7,8 @@
     "CVE-2021-47037"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: q6afe-clocks: fix reprobing of the driver\n\nQ6afe-clocks driver can get reprobed. For example if the APR services\nare restarted after the firmware crash. However currently Q6afe-clocks\ndriver will oops because hw.init will get cleared during first _probe\ncall. Rewrite the driver to fill the clock data at runtime rather than\nusing big static array of clocks.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2021-47048"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: spi-zynqmp-gqspi: fix use-after-free in zynqmp_qspi_exec_op\n\nWhen handling op->addr, it is using the buffer \"tmpbuf\" which has been\nfreed. This will trigger a use-after-free KASAN warning. Let's use\ntemporary variables to store op->addr.val and op->cmd.opcode to fix\nthis issue.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2023-41165"
   ],
   "details": "An issue was discovered in Stormshield Network Security (SNS) 3.7.0 through 3.7.38 before 3.7.39, 3.10.0 through 3.11.26 before 3.11.27, 4.0 through 4.3.21 before 4.3.22, and 4.4.0 through 4.6.8 before 4.6.9. An administrator with write access to the SNS firewall can configure a login disclaimer with malicious JavaScript elements that can result in data theft.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

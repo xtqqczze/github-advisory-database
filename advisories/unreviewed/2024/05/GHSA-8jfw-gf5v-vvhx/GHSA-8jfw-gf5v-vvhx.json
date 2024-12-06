@@ -7,12 +7,8 @@
     "CVE-2023-52868"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nthermal: core: prevent potential string overflow\n\nThe dev->id value comes from ida_alloc() so it's a number between zero\nand INT_MAX.  If it's too high then these sprintf()s will overflow.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

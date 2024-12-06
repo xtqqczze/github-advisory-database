@@ -7,12 +7,8 @@
     "CVE-2021-47050"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmemory: renesas-rpc-if: fix possible NULL pointer dereference of resource\n\nThe platform_get_resource_byname() can return NULL which would be\nimmediately dereferenced by resource_size().  Instead dereference it\nafter validating the resource.\n\nAddresses-Coverity: Dereference null return value",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

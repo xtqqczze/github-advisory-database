@@ -7,12 +7,8 @@
     "CVE-2021-47022"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmt76: mt7615: fix memleak when mt7615_unregister_device()\n\nmt7615_tx_token_put() should get call before mt76_free_pending_txwi().",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

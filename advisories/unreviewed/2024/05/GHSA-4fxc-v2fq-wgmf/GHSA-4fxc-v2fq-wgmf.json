@@ -7,12 +7,8 @@
     "CVE-2021-47417"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nlibbpf: Fix memory leak in strset\n\nFree struct strset itself, not just its internal parts.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

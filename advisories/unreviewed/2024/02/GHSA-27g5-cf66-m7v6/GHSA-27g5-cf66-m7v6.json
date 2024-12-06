@@ -7,12 +7,8 @@
     "CVE-2021-47052"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: sa2ul - Fix memory leak of rxd\n\nThere are two error return paths that are not freeing rxd and causing\nmemory leaks.  Fix these.\n\nAddresses-Coverity: (\"Resource leak\")",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

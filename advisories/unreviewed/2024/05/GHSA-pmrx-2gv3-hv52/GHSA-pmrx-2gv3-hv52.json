@@ -7,12 +7,8 @@
     "CVE-2021-47332"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: usx2y: Don't call free_pages_exact() with NULL address\n\nUnlike some other functions, we can't pass NULL pointer to\nfree_pages_exact().  Add a proper NULL check for avoiding possible\nOops.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

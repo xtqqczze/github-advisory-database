@@ -7,12 +7,8 @@
     "CVE-2023-52846"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhsr: Prevent use after free in prp_create_tagged_frame()\n\nThe prp_fill_rct() function can fail.  In that situation, it frees the\nskb and returns NULL.  Meanwhile on the success path, it returns the\noriginal skb.  So it's straight forward to fix bug by using the returned\nvalue.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
