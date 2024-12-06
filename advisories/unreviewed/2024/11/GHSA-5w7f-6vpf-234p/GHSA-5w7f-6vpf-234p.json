@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w7f-6vpf-234p",
-  "modified": "2024-11-23T06:32:47Z",
+  "modified": "2024-12-06T03:31:09Z",
   "published": "2024-11-23T06:32:47Z",
   "aliases": [
     "CVE-2024-10961"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10961"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3201046"
     },
     {
       "type": "WEB",
