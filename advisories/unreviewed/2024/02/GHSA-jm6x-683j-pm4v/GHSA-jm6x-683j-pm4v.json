@@ -7,12 +7,8 @@
     "CVE-2020-36781"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni2c: imx: fix reference leak when pm_runtime_get_sync fails\n\nIn i2c_imx_xfer() and i2c_imx_remove(), the pm reference count\nis not expected to be incremented on return.\n\nHowever, pm_runtime_get_sync will increment pm reference count\neven failed. Forgetting to putting operation will result in a\nreference leak here.\n\nReplace it with pm_runtime_resume_and_get to keep usage\ncounter balanced.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
