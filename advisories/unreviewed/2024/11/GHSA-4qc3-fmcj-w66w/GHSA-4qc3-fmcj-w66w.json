@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qc3-fmcj-w66w",
-  "modified": "2024-11-26T18:38:52Z",
+  "modified": "2024-12-06T12:30:47Z",
   "published": "2024-11-26T12:41:37Z",
   "aliases": [
     "CVE-2024-47250"
@@ -13,13 +13,19 @@
       "score": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47250"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/mynewt-nimble/commit/23d61150ddae4bc8356356d7ef09d816fb89da45"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/mynewt-nimble/commit/3b7a32ea09a3bffaab831ee0ab193a2375fc4df6"
     },
     {
       "type": "WEB",

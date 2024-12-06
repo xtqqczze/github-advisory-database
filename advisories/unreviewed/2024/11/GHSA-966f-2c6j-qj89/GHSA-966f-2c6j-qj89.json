@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-966f-2c6j-qj89",
-  "modified": "2024-11-26T18:38:52Z",
+  "modified": "2024-12-06T12:30:47Z",
   "published": "2024-11-26T12:41:37Z",
   "aliases": [
     "CVE-2024-51569"
@@ -13,13 +13,15 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [
-
-  ],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51569"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/mynewt-nimble/commit/4e3ac5b6e7c7df63a594c4ff6839e266b4ccfed9"
     },
     {
       "type": "WEB",
