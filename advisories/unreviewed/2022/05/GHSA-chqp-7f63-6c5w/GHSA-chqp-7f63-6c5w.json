@@ -7,12 +7,8 @@
     "CVE-2009-1308"
   ],
   "details": "Cross-site scripting (XSS) vulnerability in Mozilla Firefox before 3.0.9, Thunderbird, and SeaMonkey allows remote attackers to inject arbitrary web script or HTML via vectors involving XBL JavaScript bindings and remote stylesheets, as exploited in the wild by a March 2009 eBay listing.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
