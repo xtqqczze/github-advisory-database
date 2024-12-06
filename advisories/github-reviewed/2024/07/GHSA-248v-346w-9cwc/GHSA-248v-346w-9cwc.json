@@ -8,9 +8,7 @@
   ],
   "summary": "Certifi removes GLOBALTRUST root certificate",
   "details": "Certifi 2024.07.04 removes root certificates from \"GLOBALTRUST\" from the root store. These are in the process of being removed from Mozilla's trust store.\n\nGLOBALTRUST's root certificates are being removed pursuant to an investigation which identified \"long-running and unresolved compliance issues\". Conclusions of Mozilla's investigation can be found [here]( https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/XpknYMPO8dI).",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {

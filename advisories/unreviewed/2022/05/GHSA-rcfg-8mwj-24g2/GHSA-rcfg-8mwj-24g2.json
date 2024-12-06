@@ -7,12 +7,8 @@
     "CVE-2005-1268"
   ],
   "details": "Off-by-one error in the mod_ssl Certificate Revocation List (CRL) verification callback in Apache, when configured to use a CRL, allows remote attackers to cause a denial of service (child process crash) via a CRL that causes a buffer overflow of one null byte.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

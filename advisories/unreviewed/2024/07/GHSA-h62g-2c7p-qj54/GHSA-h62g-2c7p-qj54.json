@@ -7,12 +7,8 @@
     "CVE-2024-34786"
   ],
   "details": "UniFi iOS app 10.15.0 introduces a misconfiguration on 2nd Generation UniFi Access Points configured as standalone (not using UniFi Network Application) that could cause the SSID name to change and/or the WiFi Password to be removed on the 5GHz Radio.\n\nThis vulnerability is fixed in UniFi iOS app 10.15.2 and later.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

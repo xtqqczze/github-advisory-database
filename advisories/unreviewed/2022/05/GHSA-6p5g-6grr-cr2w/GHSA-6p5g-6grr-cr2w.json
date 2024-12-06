@@ -7,12 +7,8 @@
     "CVE-2014-1300"
   ],
   "details": "Unspecified vulnerability in Apple Safari 7.0.2 on OS X allows remote attackers to execute arbitrary code with root privileges via unknown vectors, as demonstrated by Google during a Pwn4Fun competition at CanSecWest 2014.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
