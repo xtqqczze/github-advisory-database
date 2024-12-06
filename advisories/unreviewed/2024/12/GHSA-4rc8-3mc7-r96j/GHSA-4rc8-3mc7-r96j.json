@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4rc8-3mc7-r96j",
+  "modified": "2024-12-06T06:30:57Z",
+  "published": "2024-12-06T06:30:57Z",
+  "aliases": [
+    "CVE-2024-10480"
+  ],
+  "details": "The 3DPrint Lite WordPress plugin before 2.1 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10480"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/725ac766-c849-49d6-a968-58fcc2e134c8"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-06T06:15:19Z"
+  }
+}

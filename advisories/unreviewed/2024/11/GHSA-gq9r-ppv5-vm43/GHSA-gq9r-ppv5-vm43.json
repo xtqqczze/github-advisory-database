@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq9r-ppv5-vm43",
-  "modified": "2024-11-29T03:31:04Z",
+  "modified": "2024-12-06T06:30:57Z",
   "published": "2024-11-29T03:31:04Z",
   "aliases": [
     "CVE-2024-8300"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/vu/JVNVU93891820"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-24-338-04"
     },
     {
       "type": "WEB",
