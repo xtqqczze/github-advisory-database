@@ -7,12 +7,8 @@
     "CVE-2015-7901"
   ],
   "details": "Infinite Automation Mango Automation 2.5.x and 2.6.x through 2.6.0 build 430 allows remote authenticated users to execute arbitrary OS commands via unspecified vectors.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
