@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7ww5-chp8-5mwj",
-  "modified": "2024-02-28T09:30:36Z",
+  "modified": "2024-12-06T18:30:44Z",
   "published": "2024-02-28T09:30:36Z",
   "aliases": [
     "CVE-2020-36785"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: atomisp: Fix use after free in atomisp_alloc_css_stat_bufs()\n\nThe \"s3a_buf\" is freed along with all the other items on the\n\"asd->s3a_stats\" list.  It leads to a double free and a use after free.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-28T09:15:36Z"

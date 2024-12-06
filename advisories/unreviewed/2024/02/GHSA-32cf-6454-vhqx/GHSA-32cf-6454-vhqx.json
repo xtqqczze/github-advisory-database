@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32cf-6454-vhqx",
-  "modified": "2024-02-28T09:30:36Z",
+  "modified": "2024-12-06T18:30:44Z",
   "published": "2024-02-28T09:30:36Z",
   "aliases": [
     "CVE-2020-36786"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: [next] staging: media: atomisp: fix memory leak of object flash\n\nIn the case where the call to lm3554_platform_data_func returns an\nerror there is a memory leak on the error return path of object\nflash.  Fix this by adding an error return path that will free\nflash and rename labels fail2 to fail3 and fail1 to fail2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-28T09:15:36Z"

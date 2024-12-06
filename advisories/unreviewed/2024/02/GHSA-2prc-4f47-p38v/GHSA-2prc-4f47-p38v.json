@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2prc-4f47-p38v",
-  "modified": "2024-02-27T21:31:27Z",
+  "modified": "2024-12-06T18:30:44Z",
   "published": "2024-02-27T21:31:27Z",
   "aliases": [
     "CVE-2021-46967"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvhost-vdpa: fix vm_flags for virtqueue doorbell mapping\n\nThe virtqueue doorbell is usually implemented via registeres but we\ndon't provide the necessary vma->flags like VM_PFNMAP. This may cause\nseveral issues e.g when userspace tries to map the doorbell via vhost\nIOTLB, kernel may panic due to the page is not backed by page\nstructure. This patch fixes this by setting the necessary\nvm_flags. With this patch, try to map doorbell via IOTLB will fail\nwith bad address.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-27T19:04:07Z"
