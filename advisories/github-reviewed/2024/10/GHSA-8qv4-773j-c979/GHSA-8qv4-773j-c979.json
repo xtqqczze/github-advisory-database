@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qv4-773j-c979",
-  "modified": "2024-11-05T17:56:52Z",
+  "modified": "2024-12-06T18:22:23Z",
   "published": "2024-10-17T15:31:08Z",
   "aliases": [
     "CVE-2024-49580"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "3.0.0"
+              "fixed": "2.3.13"
             }
           ]
         }
@@ -59,6 +59,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ktorio/ktor"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ktorio/ktor/releases/tag/2.3.13"
     },
     {
       "type": "WEB",
