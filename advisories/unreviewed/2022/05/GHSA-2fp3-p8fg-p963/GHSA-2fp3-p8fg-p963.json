@@ -7,12 +7,8 @@
     "CVE-2015-4067"
   ],
   "details": "Integer overflow in the libnv6 module in Dell NetVault Backup before 10.0.5 allows remote attackers to execute arbitrary code via crafted template string specifiers in a serialized object, which triggers a heap-based buffer overflow.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
