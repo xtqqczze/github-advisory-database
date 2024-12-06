@@ -7,12 +7,8 @@
     "CVE-2021-47373"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nirqchip/gic-v3-its: Fix potential VPE leak on error\n\nIn its_vpe_irq_domain_alloc, when its_vpe_init() returns an error,\nthere is an off-by-one in the number of VPEs to be freed.\n\nFix it by simply passing the number of VPEs allocated, which is the\nindex of the loop iterating over the VPEs.\n\n[maz: fixed commit message]",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

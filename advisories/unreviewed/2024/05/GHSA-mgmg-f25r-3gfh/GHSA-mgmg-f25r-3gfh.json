@@ -7,12 +7,8 @@
     "CVE-2021-47431"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: fix gart.bo pin_count leak\n\ngmc_v{9,10}_0_gart_disable() isn't called matched with\ncorrespoding gart_enbale function in SRIOV case. This will\nlead to gart.bo pin_count leak on driver unload.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

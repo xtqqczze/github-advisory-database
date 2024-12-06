@@ -7,12 +7,8 @@
     "CVE-2021-47322"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFSv4: Fix an Oops in pnfs_mark_request_commit() when doing O_DIRECT\n\nFix an Oopsable condition in pnfs_mark_request_commit() when we're\nputting a set of writes on the commit list to reschedule them after a\nfailed pNFS attempt.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

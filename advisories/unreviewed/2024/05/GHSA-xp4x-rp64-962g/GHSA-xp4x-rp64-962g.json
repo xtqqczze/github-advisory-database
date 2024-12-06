@@ -7,12 +7,8 @@
     "CVE-2021-47358"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nstaging: greybus: uart: fix tty use after free\n\nUser space can hold a tty open indefinitely and tty drivers must not\nrelease the underlying structures until the last user is gone.\n\nSwitch to using the tty-port reference counter to manage the life time\nof the greybus tty state to avoid use after free after a disconnect.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

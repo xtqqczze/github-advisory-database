@@ -7,12 +7,8 @@
     "CVE-2021-47311"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: qcom/emac: fix UAF in emac_remove\n\nadpt is netdev private data and it cannot be\nused after free_netdev() call. Using adpt after free_netdev()\ncan cause UAF bug. Fix it by moving free_netdev() at the end of the\nfunction.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

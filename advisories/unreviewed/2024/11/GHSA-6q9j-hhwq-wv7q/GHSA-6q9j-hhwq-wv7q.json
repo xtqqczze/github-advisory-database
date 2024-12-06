@@ -7,12 +7,8 @@
     "CVE-2024-24426"
   ],
   "details": "Reachable assertions in the NGAP_FIND_PROTOCOLIE_BY_ID function of OpenAirInterface Magma v1.8.0 and OAI EPC Federation v1.2.0 allow attackers to cause a Denial of Service (DoS) via a crafted NGAP packet.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

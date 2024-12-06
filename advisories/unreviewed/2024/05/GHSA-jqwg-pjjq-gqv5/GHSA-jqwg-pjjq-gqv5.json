@@ -7,12 +7,8 @@
     "CVE-2021-47423"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/nouveau/debugfs: fix file release memory leak\n\nWhen using single_open() for opening, single_release() should be\ncalled, otherwise the 'op' allocated in single_open() will be leaked.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-24425"
   ],
   "details": "Magma v1.8.0 and OAI EPC Federation v1.20 were discovered to contain an out-of-bounds read in the amf_as_establish_req function at /tasks/amf/amf_as.cpp. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted NAS packet.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2011-5131"
   ],
   "details": "Cross-site request forgery (CSRF) vulnerability in global.php in MyBB before 1.6.5 allows remote attackers to hijack the authentication of a user for requests that change the user's language via the language parameter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
