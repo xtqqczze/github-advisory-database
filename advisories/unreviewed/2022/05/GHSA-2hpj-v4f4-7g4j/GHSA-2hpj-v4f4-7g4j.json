@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hpj-v4f4-7g4j",
-  "modified": "2024-04-04T00:55:12Z",
+  "modified": "2024-12-06T15:31:17Z",
   "published": "2022-05-24T16:47:45Z",
   "aliases": [
     "CVE-2019-12749"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201909-08"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241206-0010"
     },
     {
       "type": "WEB",

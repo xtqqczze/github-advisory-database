@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35r4-377q-pc5v",
-  "modified": "2024-12-05T15:31:02Z",
+  "modified": "2024-12-06T15:31:19Z",
   "published": "2024-12-05T15:31:02Z",
   "aliases": [
     "CVE-2024-54679"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cyberpanel.net"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hotplugin0x01/CVE-2024-54679"
     }
   ],
   "database_specific": {
