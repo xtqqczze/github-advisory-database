@@ -7,12 +7,8 @@
     "CVE-2021-47253"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix potential memory leak in DMUB hw_init\n\n[Why]\nOn resume we perform DMUB hw_init which allocates memory:\ndm_resume->dm_dmub_hw_init->dc_dmub_srv_create->kzalloc\nThat results in memory leak in suspend/resume scenarios.\n\n[How]\nAllocate memory for the DC wrapper to DMUB only if it was not\nallocated before.\nNo need to reallocate it on suspend/resume.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2021-47287"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndriver core: auxiliary bus: Fix memory leak when driver_register() fail\n\nIf driver_register() returns with error we need to free the memory\nallocated for auxdrv->driver.name before returning from\n__auxiliary_driver_register()",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

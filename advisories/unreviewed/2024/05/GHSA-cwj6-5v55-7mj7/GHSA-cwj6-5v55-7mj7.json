@@ -7,12 +7,8 @@
     "CVE-2021-47252"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbatman-adv: Avoid WARN_ON timing related checks\n\nThe soft/batadv interface for a queued OGM can be changed during the time\nthe OGM was queued for transmission and when the OGM is actually\ntransmitted by the worker.\n\nBut WARN_ON must be used to denote kernel bugs and not to print simple\nwarnings. A warning can simply be printed using pr_warn.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

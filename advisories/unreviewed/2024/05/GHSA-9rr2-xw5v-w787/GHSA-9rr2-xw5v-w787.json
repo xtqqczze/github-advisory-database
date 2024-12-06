@@ -7,12 +7,8 @@
     "CVE-2021-47359"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncifs: Fix soft lockup during fsstress\n\nBelow traces are observed during fsstress and system got hung.\n[  130.698396] watchdog: BUG: soft lockup - CPU#6 stuck for 26s!",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

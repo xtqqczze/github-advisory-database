@@ -7,12 +7,8 @@
     "CVE-2021-47306"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: fddi: fix UAF in fza_probe\n\nfp is netdev private data and it cannot be\nused after free_netdev() call. Using fp after free_netdev()\ncan cause UAF bug. Fix it by moving free_netdev() after error message.\n\nTURBOchannel adapter\")",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

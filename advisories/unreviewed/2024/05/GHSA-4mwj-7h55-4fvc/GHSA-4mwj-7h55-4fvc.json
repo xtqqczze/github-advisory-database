@@ -7,12 +7,8 @@
     "CVE-2021-47263"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngpio: wcd934x: Fix shift-out-of-bounds error\n\nbit-mask for pins 0 to 4 is BIT(0) to BIT(4) however we ended up with BIT(n - 1)\nwhich is not right, and this was caught by below usban check\n\nUBSAN: shift-out-of-bounds in drivers/gpio/gpio-wcd934x.c:34:14",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

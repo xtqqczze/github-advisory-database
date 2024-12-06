@@ -7,12 +7,8 @@
     "CVE-2021-47286"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbus: mhi: core: Validate channel ID when processing command completions\n\nMHI reads the channel ID from the event ring element sent by the\ndevice which can be any value between 0 and 255. In order to\nprevent any out of bound accesses, add a check against the maximum\nnumber of channels supported by the controller and those channels\nnot configured yet so as to skip processing of that event ring\nelement.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

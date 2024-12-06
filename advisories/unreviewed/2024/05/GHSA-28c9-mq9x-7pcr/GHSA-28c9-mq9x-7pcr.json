@@ -7,12 +7,8 @@
     "CVE-2021-47296"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: PPC: Fix kvm_arch_vcpu_ioctl vcpu_load leak\n\nvcpu_put is not called if the user copy fails. This can result in preempt\nnotifier corruption and crashes, among other issues.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
