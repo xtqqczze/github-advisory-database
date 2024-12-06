@@ -7,12 +7,8 @@
     "CVE-2023-52651"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: ath10k: fix NULL pointer dereference in ath10k_wmi_tlv_op_pull_mgmt_tx_compl_ev()\n\nWe should check whether the WMI_TLV_TAG_STRUCT_MGMT_TX_COMPL_EVENT tlv is\npresent before accessing it, otherwise a null pointer deference error will\noccur.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

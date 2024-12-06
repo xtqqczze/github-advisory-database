@@ -7,12 +7,8 @@
     "CVE-2011-2598"
   ],
   "details": "The WebGL implementation in Mozilla Firefox 4.x allows remote attackers to obtain screenshots of the windows of arbitrary desktop applications via vectors involving an SVG filter, an IFRAME element, and uninitialized data in graphics memory.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

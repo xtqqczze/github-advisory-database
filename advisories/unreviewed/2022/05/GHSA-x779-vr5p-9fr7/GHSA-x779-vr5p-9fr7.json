@@ -7,12 +7,8 @@
     "CVE-2010-4049"
   ],
   "details": "Opera before 10.63 allows remote attackers to cause a denial of service (application crash) via a Flash movie with a transparent Window Mode (aka wmode) property, which is not properly handled during navigation away from the containing HTML document.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

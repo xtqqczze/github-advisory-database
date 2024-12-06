@@ -7,12 +7,8 @@
     "CVE-2014-9741"
   ],
   "details": "Multiple cross-site scripting (XSS) vulnerabilities in ESRI ArcGIS for Desktop, ArcGIS for Engine, and ArcGIS for Server 10.2.2 and earlier allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

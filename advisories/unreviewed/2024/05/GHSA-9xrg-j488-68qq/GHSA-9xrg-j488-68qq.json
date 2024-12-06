@@ -7,12 +7,8 @@
     "CVE-2024-4059"
   ],
   "details": "Out of bounds read in V8 API in Google Chrome prior to 124.0.6367.78 allowed a remote attacker to leak cross-site data via a crafted HTML page. (Chromium security severity: High)",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

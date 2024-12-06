@@ -7,12 +7,8 @@
     "CVE-2010-3019"
   ],
   "details": "Heap-based buffer overflow in Opera before 10.61 allows remote attackers to execute arbitrary code or cause a denial of service (application crash or hang) via vectors related to HTML5 canvas painting operations that occur during the application of transformations.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
