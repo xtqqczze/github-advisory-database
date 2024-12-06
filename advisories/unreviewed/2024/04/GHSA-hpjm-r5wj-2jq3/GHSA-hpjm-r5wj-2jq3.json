@@ -7,12 +7,8 @@
     "CVE-2024-26922"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: validate the parameters of bo mapping operations more clearly\n\nVerify the parameters of\namdgpu_vm_bo_(map/replace_map/clearing_mappings) in one common place.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -72,9 +68,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

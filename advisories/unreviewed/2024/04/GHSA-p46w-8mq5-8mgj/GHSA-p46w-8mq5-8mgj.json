@@ -7,12 +7,8 @@
     "CVE-2024-26722"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: rt5645: Fix deadlock in rt5645_jack_detect_work()\n\nThere is a path in rt5645_jack_detect_work(), where rt5645->jd_mutex\nis left locked forever. That may lead to deadlock\nwhen rt5645_jack_detect_work() is called for the second time.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

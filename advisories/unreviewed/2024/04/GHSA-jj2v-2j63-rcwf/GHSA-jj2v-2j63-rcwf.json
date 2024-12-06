@@ -7,12 +7,8 @@
     "CVE-2024-26835"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_tables: set dormant flag on hook register failure\n\nWe need to set the dormant flag again if we fail to register\nthe hooks.\n\nDuring memory pressure hook registration can fail and we end up\nwith a table marked as active but no registered hooks.\n\nOn table/base chain deletion, nf_tables will attempt to unregister\nthe hook again which yields a warn splat from the nftables core.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

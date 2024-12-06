@@ -7,12 +7,8 @@
     "CVE-2024-26790"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: fsl-qdma: fix SoC may hang on 16 byte unaligned read\n\nThere is chip (ls1028a) errata:\n\nThe SoC may hang on 16 byte unaligned read transactions by QDMA.\n\nUnaligned read transactions initiated by QDMA may stall in the NOC\n(Network On-Chip), causing a deadlock condition. Stalled transactions will\ntrigger completion timeouts in PCIe controller.\n\nWorkaround:\nEnable prefetch by setting the source descriptor prefetchable bit\n( SD[PF] = 1 ).\n\nImplement this workaround.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

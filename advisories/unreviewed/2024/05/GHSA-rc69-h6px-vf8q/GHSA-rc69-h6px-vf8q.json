@@ -7,12 +7,8 @@
     "CVE-2023-52840"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nInput: synaptics-rmi4 - fix use after free in rmi_unregister_function()\n\nThe put_device() calls rmi_release_function() which frees \"fn\" so the\ndereference on the next line \"fn->num_of_irqs\" is a use after free.\nMove the put_device() to the end to fix this.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

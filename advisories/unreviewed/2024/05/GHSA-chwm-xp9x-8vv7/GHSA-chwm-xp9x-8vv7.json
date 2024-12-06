@@ -7,12 +7,8 @@
     "CVE-2023-52789"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntty: vcc: Add check for kstrdup() in vcc_probe()\n\nAdd check for the return value of kstrdup() and return the error, if it\nfails in order to avoid NULL pointer dereference.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -4,14 +4,10 @@
   "modified": "2024-10-26T22:38:04Z",
   "published": "2019-11-20T01:35:53Z",
   "withdrawn": "2021-02-17T19:44:50Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "Duplicate Advisory: Possible remote code execution via a remote procedure call",
   "details": "Withdrawn: duplicate of GHSA-pj4g-4488-wmxm\n\n## Original Description\n\nIn RPyC 4.1.x through 4.1.1, a remote attacker can dynamically modify object attributes to construct a remote procedure call that executes code for an RPyC service with default configuration settings.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -68,9 +64,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2019-11-19T03:15:00Z",

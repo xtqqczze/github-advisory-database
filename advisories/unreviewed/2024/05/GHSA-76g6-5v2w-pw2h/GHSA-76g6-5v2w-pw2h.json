@@ -7,12 +7,8 @@
     "CVE-2023-52795"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvhost-vdpa: fix use after free in vhost_vdpa_probe()\n\nThe put_device() calls vhost_vdpa_release_dev() which calls\nida_simple_remove() and frees \"v\".  So this call to\nida_simple_remove() is a use after free and a double free.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

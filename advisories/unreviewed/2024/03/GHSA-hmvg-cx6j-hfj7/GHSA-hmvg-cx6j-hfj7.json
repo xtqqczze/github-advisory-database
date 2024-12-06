@@ -7,12 +7,8 @@
     "CVE-2024-26622"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntomoyo: fix UAF write bug in tomoyo_write_control()\n\nSince tomoyo_write_control() updates head->write_buf when write()\nof long lines is requested, we need to fetch head->write_buf after\nhead->io_sem is held.  Otherwise, concurrent write() requests can\ncause use-after-free-write and double-free problems.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

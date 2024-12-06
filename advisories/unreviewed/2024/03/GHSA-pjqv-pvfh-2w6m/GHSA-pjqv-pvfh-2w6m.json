@@ -7,12 +7,8 @@
     "CVE-2024-26651"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsr9800: Add check for usbnet_get_endpoints\n\nAdd check for usbnet_get_endpoints() and return the error if it fails\nin order to transfer the error.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -72,9 +68,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

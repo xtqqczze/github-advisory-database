@@ -7,12 +7,8 @@
     "CVE-2023-52766"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni3c: mipi-i3c-hci: Fix out of bounds access in hci_dma_irq_handler\n\nDo not loop over ring headers in hci_dma_irq_handler() that are not\nallocated and enabled in hci_dma_init(). Otherwise out of bounds access\nwill occur from rings->headers[i] access when i >= number of allocated\nring headers.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

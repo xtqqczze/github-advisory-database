@@ -7,12 +7,8 @@
     "CVE-2024-26610"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: fix a memory corruption\n\niwl_fw_ini_trigger_tlv::data is a pointer to a __le32, which means that\nif we copy to iwl_fw_ini_trigger_tlv::data + offset while offset is in\nbytes, we'll write past the buffer.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

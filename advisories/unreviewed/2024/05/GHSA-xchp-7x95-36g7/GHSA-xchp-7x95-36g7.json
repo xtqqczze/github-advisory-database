@@ -7,12 +7,8 @@
     "CVE-2021-47407"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: Handle SRCU initialization failure during page track init\n\nCheck the return of init_srcu_struct(), which can fail due to OOM, when\ninitializing the page track mechanism.  Lack of checking leads to a NULL\npointer deref found by a modified syzkaller.\n\n[Move the call towards the beginning of kvm_arch_init_vm. - Paolo]",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

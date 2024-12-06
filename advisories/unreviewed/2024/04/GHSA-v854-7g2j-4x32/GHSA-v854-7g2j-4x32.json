@@ -7,12 +7,8 @@
     "CVE-2024-26673"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nft_ct: sanitize layer 3 and 4 protocol number in custom expectations\n\n- Disallow families other than NFPROTO_{IPV4,IPV6,INET}.\n- Disallow layer 4 protocol with no ports, since destination port is a\n  mandatory attribute for this object.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

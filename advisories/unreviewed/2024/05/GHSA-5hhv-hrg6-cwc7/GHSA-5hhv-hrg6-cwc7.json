@@ -7,12 +7,8 @@
     "CVE-2024-27008"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: nv04: Fix out of bounds access\n\nWhen Output Resource (dcb->or) value is assigned in\nfabricate_dcb_output(), there may be out of bounds access to\ndac_users array in case dcb->or is zero because ffs(dcb->or) is\nused as index there.\nThe 'or' argument of fabricate_dcb_output() must be interpreted as a\nnumber of bit to set, not value.\n\nUtilize macros from 'enum nouveau_or' in calls instead of hardcoding.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -72,9 +68,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

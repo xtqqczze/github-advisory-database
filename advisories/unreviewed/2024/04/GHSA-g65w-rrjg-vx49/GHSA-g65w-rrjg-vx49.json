@@ -7,12 +7,8 @@
     "CVE-2024-26664"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhwmon: (coretemp) Fix out-of-bounds memory access\n\nFix a bug that pdata->cpu_map[] is set before out-of-bounds check.\nThe problem might be triggered on systems with more than 128 cores per\npackage.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

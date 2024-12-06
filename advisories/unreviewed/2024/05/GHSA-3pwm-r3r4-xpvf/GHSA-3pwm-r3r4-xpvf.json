@@ -7,12 +7,8 @@
     "CVE-2023-52781"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: config: fix iteration issue in 'usb_get_bos_descriptor()'\n\nThe BOS descriptor defines a root descriptor and is the base descriptor for\naccessing a family of related descriptors.\n\nFunction 'usb_get_bos_descriptor()' encounters an iteration issue when\nskipping the 'USB_DT_DEVICE_CAPABILITY' descriptor type. This results in\nthe same descriptor being read repeatedly.\n\nTo address this issue, a 'goto' statement is introduced to ensure that the\npointer and the amount read is updated correctly. This ensures that the\nfunction iterates to the next descriptor instead of reading the same\ndescriptor repeatedly.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-26809"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nft_set_pipapo: release elements in clone only from destroy path\n\nClone already always provides a current view of the lookup table, use it\nto destroy the set, otherwise it is possible to destroy elements twice.\n\nThis fix requires:\n\n 212ed75dc5fb (\"netfilter: nf_tables: integrate pipapo into commit protocol\")\n\nwhich came after:\n\n 9827a0e6e23b (\"netfilter: nft_set_pipapo: release elements in clone from abort path\").",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

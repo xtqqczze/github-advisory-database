@@ -7,12 +7,8 @@
     "CVE-2024-26817"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\namdkfd: use calloc instead of kzalloc to avoid integer overflow\n\nThis uses calloc instead of doing the multiplication which might\noverflow.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -64,9 +60,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

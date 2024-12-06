@@ -7,12 +7,8 @@
     "CVE-2024-26997"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: dwc2: host: Fix dereference issue in DDMA completion flow.\n\nFixed variable dereference issue in DDMA completion flow.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

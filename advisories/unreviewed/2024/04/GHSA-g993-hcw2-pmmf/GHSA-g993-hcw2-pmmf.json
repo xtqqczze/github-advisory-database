@@ -7,12 +7,8 @@
     "CVE-2024-26926"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbinder: check offset alignment in binder_get_object()\n\nCommit 6d98eb95b450 (\"binder: avoid potential data leakage when copying\ntxn\") introduced changes to how binder objects are copied. In doing so,\nit unintentionally removed an offset alignment check done through calls\nto binder_alloc_copy_from_buffer() -> check_buffer().\n\nThese calls were replaced in binder_get_object() with copy_from_user(),\nso now an explicit offset alignment check is needed here. This avoids\nlater complications when unwinding the objects gets harder.\n\nIt is worth noting this check existed prior to commit 7a67a39320df\n(\"binder: add function to copy binder object from buffer\"), likely\nremoved due to redundancy at the time.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

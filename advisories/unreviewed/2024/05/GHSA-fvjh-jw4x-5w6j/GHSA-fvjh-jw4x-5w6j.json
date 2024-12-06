@@ -7,12 +7,8 @@
     "CVE-2024-27030"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocteontx2-af: Use separate handlers for interrupts\n\nFor PF to AF interrupt vector and VF to AF vector same\ninterrupt handler is registered which is causing race condition.\nWhen two interrupts are raised to two CPUs at same time\nthen two cores serve same event corrupting the data.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

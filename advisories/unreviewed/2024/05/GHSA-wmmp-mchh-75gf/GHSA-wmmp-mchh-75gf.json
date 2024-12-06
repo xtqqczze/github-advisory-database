@@ -7,12 +7,8 @@
     "CVE-2024-27401"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfirewire: nosy: ensure user_length is taken into account when fetching packet contents\n\nEnsure that packet_buffer_get respects the user_length provided. If\nthe length of the head packet exceeds the user_length, packet_buffer_get\nwill now return 0 to signify to the user that no data were read\nand a larger buffer size is required. Helps prevent user space overflows.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -68,9 +64,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

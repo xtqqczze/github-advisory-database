@@ -7,12 +7,8 @@
     "CVE-2024-26751"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nARM: ep93xx: Add terminator to gpiod_lookup_table\n\nWithout the terminator, if a con_id is passed to gpio_find() that\ndoes not exist in the lookup table the function will not stop looping\ncorrectly, and eventually cause an oops.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
