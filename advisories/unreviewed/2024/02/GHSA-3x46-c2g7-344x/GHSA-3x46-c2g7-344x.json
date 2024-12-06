@@ -7,12 +7,8 @@
     "CVE-2024-25832"
   ],
   "details": "F-logic DataCube3 v1.0 is vulnerable to unrestricted file upload, which could allow an authenticated malicious actor to upload a file of dangerous type by manipulating the filename extension.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

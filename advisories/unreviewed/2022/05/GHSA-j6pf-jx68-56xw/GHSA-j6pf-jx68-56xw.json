@@ -7,12 +7,8 @@
     "CVE-2008-5801"
   ],
   "details": "Unspecified vulnerability in the Dictionary (rtgdictionary) extension 0.1.9 and earlier for TYPO3 allows attackers to execute arbitrary code via unknown vectors.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
