@@ -7,12 +7,8 @@
     "CVE-2015-7007"
   ],
   "details": "Script Editor in Apple OS X before 10.11.1 allows remote attackers to bypass an intended user-confirmation requirement for AppleScript execution via unspecified vectors.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

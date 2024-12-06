@@ -7,12 +7,8 @@
     "CVE-2013-2205"
   ],
   "details": "The default configuration of SWFUpload in WordPress before 3.5.2 has an unrestrictive security.allowDomain setting, which allows remote attackers to bypass the Same Origin Policy and conduct cross-site scripting (XSS) attacks via a crafted web site.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
