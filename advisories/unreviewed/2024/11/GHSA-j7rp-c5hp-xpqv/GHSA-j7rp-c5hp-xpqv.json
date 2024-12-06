@@ -7,12 +7,8 @@
     "CVE-2024-53098"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/xe/ufence: Prefetch ufence addr to catch bogus address\n\naccess_ok() only checks for addr overflow so also try to read the addr\nto catch invalid addr sent from userspace.\n\n(cherry picked from commit 9408c4508483ffc60811e910a93d6425b8e63928)",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

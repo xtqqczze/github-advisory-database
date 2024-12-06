@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65rm-h285-5cc5",
-  "modified": "2024-11-25T19:23:20Z",
+  "modified": "2024-11-25T19:24:13Z",
   "published": "2019-08-16T14:02:35Z",
   "aliases": [
     "CVE-2019-12855"
@@ -22,7 +22,7 @@
     {
       "package": {
         "ecosystem": "PyPI",
-        "name": "twisted"
+        "name": "Twisted"
       },
       "ranges": [
         {

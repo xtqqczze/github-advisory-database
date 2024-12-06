@@ -3,9 +3,7 @@
   "id": "GHSA-486g-47cc-8wxf",
   "modified": "2024-11-25T22:08:57Z",
   "published": "2024-11-25T22:08:57Z",
-  "aliases": [
-
-  ],
+  "aliases": [],
   "summary": "aiocpa contains credential harvesting code",
   "details": "aiocpa is a user-facing library for generating color gradients of text. Version 0.1.13 introduced obfuscated, malicious code targeting Crypto Pay users, forwarding client credentials to a remote Telegram bot. All versions have been removed from PyPI.\n",
   "severity": [
@@ -50,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-25T22:08:57Z",
