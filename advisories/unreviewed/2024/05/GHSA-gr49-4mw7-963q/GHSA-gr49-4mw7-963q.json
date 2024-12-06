@@ -7,12 +7,8 @@
     "CVE-2024-35848"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\neeprom: at24: fix memory corruption race condition\n\nIf the eeprom is not accessible, an nvmem device will be registered, the\nread will fail, and the device will be torn down. If another driver\naccesses the nvmem device after the teardown, it will reference\ninvalid memory.\n\nMove the failure point before registering the nvmem device.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

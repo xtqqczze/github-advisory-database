@@ -7,12 +7,8 @@
     "CVE-2024-27388"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nSUNRPC: fix some memleaks in gssx_dec_option_array\n\nThe creds and oa->data need to be freed in the error-handling paths after\ntheir allocation. So this patch add these deallocations in the\ncorresponding paths.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -64,9 +60,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

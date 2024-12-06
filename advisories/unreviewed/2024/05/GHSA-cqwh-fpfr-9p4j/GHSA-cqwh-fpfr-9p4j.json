@@ -7,12 +7,8 @@
     "CVE-2024-35988"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nriscv: Fix TASK_SIZE on 64-bit NOMMU\n\nOn NOMMU, userspace memory can come from anywhere in physical RAM. The\ncurrent definition of TASK_SIZE is wrong if any RAM exists above 4G,\ncausing spurious failures in the userspace access routines.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

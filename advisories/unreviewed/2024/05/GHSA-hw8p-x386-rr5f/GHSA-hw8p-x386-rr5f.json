@@ -7,12 +7,8 @@
     "CVE-2024-35922"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbmon: prevent division by zero in fb_videomode_from_videomode()\n\nThe expression htotal * vtotal can have a zero value on\noverflow. It is necessary to prevent division by zero like in\nfb_var_to_videomode().\n\nFound by Linux Verification Center (linuxtesting.org) with Svace.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

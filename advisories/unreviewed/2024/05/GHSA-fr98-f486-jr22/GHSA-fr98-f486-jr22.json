@@ -7,12 +7,8 @@
     "CVE-2024-35830"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: tc358743: register v4l2 async device only after successful setup\n\nEnsure the device has been setup correctly before registering the v4l2\nasync device, thus allowing userspace to access.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -64,9 +60,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

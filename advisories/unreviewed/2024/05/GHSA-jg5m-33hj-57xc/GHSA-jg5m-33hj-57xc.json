@@ -7,12 +7,8 @@
     "CVE-2024-35837"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: mvpp2: clear BM pool before initialization\n\nRegister value persist after booting the kernel using\nkexec which results in kernel panic. Thus clear the\nBM pool registers before initialisation to fix the issue.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

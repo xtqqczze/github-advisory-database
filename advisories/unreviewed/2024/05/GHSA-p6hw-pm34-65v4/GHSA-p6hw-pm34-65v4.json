@@ -7,12 +7,8 @@
     "CVE-2024-35925"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock: prevent division by zero in blk_rq_stat_sum()\n\nThe expression dst->nr_samples + src->nr_samples may\nhave zero value on overflow. It is necessary to add\na check to avoid division by zero.\n\nFound by Linux Verification Center (linuxtesting.org) with Svace.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-35935"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: send: handle path ref underflow in header iterate_inode_ref()\n\nChange BUG_ON to proper error handling if building the path buffer\nfails. The pointers are not printed so we don't accidentally leak kernel\naddresses.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

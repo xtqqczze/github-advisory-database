@@ -7,12 +7,8 @@
     "CVE-2024-27419"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetrom: Fix data-races around sysctl_net_busy_read\n\nWe need to protect the reader reading the sysctl value because the\nvalue can be changed concurrently.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

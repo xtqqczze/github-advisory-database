@@ -7,12 +7,8 @@
     "CVE-2024-27076"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: imx: csc/scaler: fix v4l2_ctrl_handler memory leak\n\nFree the memory allocated in v4l2_ctrl_handler_init on release.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

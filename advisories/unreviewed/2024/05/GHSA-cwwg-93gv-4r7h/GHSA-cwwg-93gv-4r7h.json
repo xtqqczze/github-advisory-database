@@ -7,12 +7,8 @@
     "CVE-2024-35806"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsoc: fsl: qbman: Always disable interrupts when taking cgr_lock\n\nsmp_call_function_single disables IRQs when executing the callback. To\nprevent deadlocks, we must disable IRQs when taking cgr_lock elsewhere.\nThis is already done by qman_update_cgr and qman_delete_cgr; fix the\nother lockers.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -64,9 +60,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

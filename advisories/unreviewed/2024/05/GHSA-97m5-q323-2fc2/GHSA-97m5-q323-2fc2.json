@@ -7,12 +7,8 @@
     "CVE-2024-35829"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/lima: fix a memleak in lima_heap_alloc\n\nWhen lima_vm_map_bo fails, the resources need to be deallocated, or\nthere will be memleaks.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-35828"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: libertas: fix some memleaks in lbs_allocate_cmd_buffer()\n\nIn the for statement of lbs_allocate_cmd_buffer(), if the allocation of\ncmdarray[i].cmdbuf fails, both cmdarray and cmdarray[i].cmdbuf needs to\nbe freed. Otherwise, there will be memleaks in lbs_allocate_cmd_buffer().",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -64,9 +60,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

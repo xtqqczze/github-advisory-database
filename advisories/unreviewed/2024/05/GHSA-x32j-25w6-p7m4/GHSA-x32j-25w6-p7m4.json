@@ -7,12 +7,8 @@
     "CVE-2024-35904"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nselinux: avoid dereference of garbage after mount failure\n\nIn case kern_mount() fails and returns an error pointer return in the\nerror branch instead of continuing and dereferencing the error pointer.\n\nWhile on it drop the never read static variable selinuxfs_mount.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

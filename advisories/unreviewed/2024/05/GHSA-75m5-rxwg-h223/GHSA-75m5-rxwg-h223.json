@@ -7,12 +7,8 @@
     "CVE-2024-27077"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: v4l2-mem2mem: fix a memleak in v4l2_m2m_register_entity\n\nThe entity->name (i.e. name) is allocated in v4l2_m2m_register_entity\nbut isn't freed in its following error-handling paths. This patch\nadds such deallocation to prevent memleak of entity->name.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -64,9 +60,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

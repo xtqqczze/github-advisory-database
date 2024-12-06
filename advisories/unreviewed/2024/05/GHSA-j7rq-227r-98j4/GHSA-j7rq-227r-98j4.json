@@ -7,12 +7,8 @@
     "CVE-2024-35962"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: complete validation of user input\n\nIn my recent commit, I missed that do_replace() handlers\nuse copy_from_sockptr() (which I fixed), followed\nby unsafe copy_from_sockptr_offset() calls.\n\nIn all functions, we can perform the @optlen validation\nbefore even calling xt_alloc_table_info() with the following\ncheck:\n\nif ((u64)optlen < (u64)tmp.size + sizeof(tmp))\n        return -EINVAL;",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

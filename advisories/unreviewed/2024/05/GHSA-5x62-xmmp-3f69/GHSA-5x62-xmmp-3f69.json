@@ -7,12 +7,8 @@
     "CVE-2024-35933"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btintel: Fix null ptr deref in btintel_read_version\n\nIf hci_cmd_sync_complete() is triggered and skb is NULL, then\nhdev->req_skb is NULL, which will cause this issue.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -60,9 +56,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
