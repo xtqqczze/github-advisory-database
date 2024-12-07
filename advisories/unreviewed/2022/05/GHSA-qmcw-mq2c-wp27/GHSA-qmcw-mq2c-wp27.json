@@ -7,12 +7,8 @@
     "CVE-2014-1635"
   ],
   "details": "Buffer overflow in login.cgi in MiniHttpd in Belkin N750 Router with firmware before F9K1103_WW_1.10.17m allows remote attackers to execute arbitrary code via a long string in the jump parameter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
