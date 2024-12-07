@@ -7,12 +7,8 @@
     "CVE-2024-0780"
   ],
   "details": "The Enjoy Social Feed plugin for WordPress website WordPress plugin through 6.2.2 does not have authorisation when resetting its database, allowing any authenticated users, such as subscriber to perform such action",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

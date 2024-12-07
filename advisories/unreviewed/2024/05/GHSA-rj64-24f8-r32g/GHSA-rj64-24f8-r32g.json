@@ -7,12 +7,8 @@
     "CVE-2021-47495"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusbnet: sanity check for maxpacket\n\nmaxpacket of 0 makes no sense and oopses as we need to divide\nby it. Give up.\n\nV2: fixed typo in log and stylistic issues",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

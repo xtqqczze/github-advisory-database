@@ -7,12 +7,8 @@
     "CVE-2024-25654"
   ],
   "details": "Insecure permissions for log files of AVSystem Unified Management Platform (UMP) 23.07.0.16567~LTS allow members (with local access to the UMP application server) to access credentials to authenticate to all services, and to decrypt sensitive data stored in the database.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
