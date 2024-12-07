@@ -7,12 +7,8 @@
     "CVE-2024-5176"
   ],
   "details": "Insufficiently Protected Credentials vulnerability in Baxter Welch Allyn Configuration Tool may allow Remote Services with Stolen Credentials.This issue affects Welch Allyn Configuration Tool: versions 1.9.4.1 and prior.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

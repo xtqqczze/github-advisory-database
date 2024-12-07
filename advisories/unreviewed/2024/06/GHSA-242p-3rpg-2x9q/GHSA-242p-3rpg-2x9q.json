@@ -7,12 +7,8 @@
     "CVE-2024-38585"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntools/nolibc/stdlib: fix memory error in realloc()\n\nPass user_p_len to memcpy() instead of heap->len to prevent realloc()\nfrom copying an extra sizeof(heap) bytes from beyond the allocated\nregion.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

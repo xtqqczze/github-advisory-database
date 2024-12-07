@@ -7,12 +7,8 @@
     "CVE-2024-38614"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nopenrisc: traps: Don't send signals to kernel mode threads\n\nOpenRISC exception handling sends signals to user processes on floating\npoint exceptions and trap instructions (for debugging) among others.\nThere is a bug where the trap handling logic may send signals to kernel\nthreads, we should not send these signals to kernel threads, if that\nhappens we treat it as an error.\n\nThis patch adds conditions to die if the kernel receives these\nexceptions in kernel mode code.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

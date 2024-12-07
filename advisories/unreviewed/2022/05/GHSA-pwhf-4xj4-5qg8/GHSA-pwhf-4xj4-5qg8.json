@@ -7,12 +7,8 @@
     "CVE-2013-6976"
   ],
   "details": "Cross-site request forgery (CSRF) vulnerability in goform/Quick_setup on Cisco EPC3925 devices allows remote attackers to hijack the authentication of administrators for requests that change a password via the Password and PasswordReEnter parameters, aka Bug ID CSCuh37496.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

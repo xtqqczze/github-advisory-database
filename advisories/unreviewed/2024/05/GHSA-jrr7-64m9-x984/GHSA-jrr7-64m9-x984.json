@@ -7,12 +7,8 @@
     "CVE-2024-5138"
   ],
   "details": "The snapctl component within snapd allows a confined snap to interact with the snapd daemon to take certain privileged actions on behalf of the snap. It was found that snapctl did not properly parse command-line arguments, allowing an unprivileged user to trigger an authorised action on behalf of the snap that would normally require administrator privileges to perform. This could possibly allow an unprivileged user to perform a denial of service or similar.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "WEB",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

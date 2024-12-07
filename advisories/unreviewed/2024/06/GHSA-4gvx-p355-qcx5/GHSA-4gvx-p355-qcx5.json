@@ -7,12 +7,8 @@
     "CVE-2024-38607"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmacintosh/via-macii: Fix \"BUG: sleeping function called from invalid context\"\n\nThe via-macii ADB driver calls request_irq() after disabling hard\ninterrupts. But disabling interrupts isn't necessary here because the\nVIA shift register interrupt was masked during VIA1 initialization.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -56,9 +52,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
