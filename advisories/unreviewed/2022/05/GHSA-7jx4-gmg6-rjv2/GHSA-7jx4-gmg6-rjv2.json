@@ -7,12 +7,8 @@
     "CVE-2013-6271"
   ],
   "details": "Android 4.0 through 4.3 allows attackers to bypass intended access restrictions and remove device locks via a crafted application that invokes the updateUnlockMethodAndFinish method in the com.android.settings.ChooseLockGeneric class with the PASSWORD_QUALITY_UNSPECIFIED option.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-1756"
   ],
   "details": "The WooCommerce Customers Manager WordPress plugin before 29.8 does not have authorisation and CSRF in an AJAX action, allowing any authenticated users, such as subscriber, to call it and retrieve the list of customer email addresses along with their id, first name and last name",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

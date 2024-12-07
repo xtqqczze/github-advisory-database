@@ -7,12 +7,8 @@
     "CVE-2024-28613"
   ],
   "details": "SQL Injection vulnerability in PHP Task Management System v.1.0 allows a remote attacker to escalate privileges and obtain sensitive information via the task_id parameter of the task-details.php, and edit-task.php component.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
