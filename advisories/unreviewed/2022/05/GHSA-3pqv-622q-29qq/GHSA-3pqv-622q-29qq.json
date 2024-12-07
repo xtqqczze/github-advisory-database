@@ -7,12 +7,8 @@
     "CVE-2011-5080"
   ],
   "details": "Cross-site scripting (XSS) vulnerability in lib/class.tx_jftcaforms_tceFunc.php in the Additional TCA Forms (jftcaforms) extension before 0.2.1 for TYPO3 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

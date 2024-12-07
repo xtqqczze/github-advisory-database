@@ -7,12 +7,8 @@
     "CVE-2011-4337"
   ],
   "details": "Static code injection vulnerability in translate.php in Support Incident Tracker (aka SiT!) 3.45 through 3.65 allows remote attackers to inject arbitrary PHP code into an executable language file in the i18n directory via the lang variable.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
