@@ -7,12 +7,8 @@
     "CVE-2014-8508"
   ],
   "details": "Cross-site scripting (XSS) vulnerability in s_network.asp in the Denon AVR-3313CI audio/video receiver allows remote attackers to inject arbitrary web script or HTML via unspecified parameters, related to Friendlyname.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

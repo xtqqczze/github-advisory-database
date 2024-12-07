@@ -7,12 +7,8 @@
     "CVE-2013-7181"
   ],
   "details": "Cross-site scripting (XSS) vulnerability in user/ldap_user/add in Fortinet FortiOS 5.0.3 allows remote attackers to inject arbitrary web script or HTML via the filter parameter.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

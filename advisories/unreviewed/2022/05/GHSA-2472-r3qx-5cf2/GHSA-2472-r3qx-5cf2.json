@@ -7,12 +7,8 @@
     "CVE-2015-5685"
   ],
   "details": "The lazy_bdecode function in BitTorrent DHT bootstrap server (bootstrap-dht ) allows remote attackers to execute arbitrary code via a crafted packet, related to \"improper indexing.\"",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
