@@ -7,12 +7,8 @@
     "CVE-2024-38566"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Fix verifier assumptions about socket->sk\n\nThe verifier assumes that 'sk' field in 'struct socket' is valid\nand non-NULL when 'socket' pointer itself is trusted and non-NULL.\nThat may not be the case when socket was just created and\npassed to LSM socket_accept hook.\nFix this verifier assumption and adjust tests.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

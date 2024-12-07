@@ -7,12 +7,8 @@
     "CVE-2024-27632"
   ],
   "details": "An issue in GNU Savane v.3.12 and before allows a remote attacker to escalate privileges via the form_id in the form_header() function.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
