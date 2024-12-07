@@ -7,12 +7,8 @@
     "CVE-2011-4247"
   ],
   "details": "RealNetworks RealPlayer before 15.0.0 allows remote attackers to execute arbitrary code via a crafted QCELP stream.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

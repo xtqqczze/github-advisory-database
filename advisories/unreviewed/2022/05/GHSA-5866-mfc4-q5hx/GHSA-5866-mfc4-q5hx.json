@@ -7,12 +7,8 @@
     "CVE-2012-3557"
   ],
   "details": "Opera before 11.65 does not properly restrict the reading of JSON strings, which allows remote attackers to perform cross-domain loading of JSON resources and consequently obtain sensitive information via a crafted web site.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

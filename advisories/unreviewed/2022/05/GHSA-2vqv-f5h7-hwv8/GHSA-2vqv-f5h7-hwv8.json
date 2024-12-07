@@ -7,12 +7,8 @@
     "CVE-2011-4258"
   ],
   "details": "RealNetworks RealPlayer before 15.0.0 allows remote attackers to execute arbitrary code via a crafted length of an MLTI chunk in an IVR file.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
