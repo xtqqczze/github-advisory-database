@@ -7,12 +7,8 @@
     "CVE-2021-47020"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsoundwire: stream: fix memory leak in stream config error path\n\nWhen stream config is failed, master runtime will release all\nslave runtime in the slave_rt_list, but slave runtime is not\nadded to the list at this time. This patch frees slave runtime\nin the config error path to fix the memory leak.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -44,9 +40,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

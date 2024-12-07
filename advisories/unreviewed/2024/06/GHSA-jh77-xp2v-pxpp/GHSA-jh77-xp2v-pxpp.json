@@ -7,12 +7,8 @@
     "CVE-2024-35305"
   ],
   "details": "Unauth Time-Based SQL Injection in API allows to exploit HTTP request Authorization header. This issue affects Pandora FMS: from 700 through <777.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
