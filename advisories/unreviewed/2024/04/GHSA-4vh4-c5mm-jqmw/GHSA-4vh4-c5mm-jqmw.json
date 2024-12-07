@@ -7,12 +7,8 @@
     "CVE-2023-52342"
   ],
   "details": "In modem-ps-nas-ngmm, there is a possible undefined behavior due to incorrect error handling. This could lead to remote information disclosure no additional execution privileges needed",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
