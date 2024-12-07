@@ -7,12 +7,8 @@
     "CVE-2013-5034"
   ],
   "details": "Unspecified vulnerability in Atmail before 6.6.4, and 7.x before 7.1.2, has unknown impact and attack vectors, a different vulnerability than CVE-2013-5031, CVE-2013-5032, and CVE-2013-5033.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
