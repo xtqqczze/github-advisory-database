@@ -7,12 +7,8 @@
     "CVE-2021-47485"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nIB/qib: Protect from buffer overflow in struct qib_user_sdma_pkt fields\n\nOverflowing either addrlimit or bytes_togo can allow userspace to trigger\na buffer overflow of kernel memory. Check for overflows in all the places\ndoing math on user controlled buffers.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

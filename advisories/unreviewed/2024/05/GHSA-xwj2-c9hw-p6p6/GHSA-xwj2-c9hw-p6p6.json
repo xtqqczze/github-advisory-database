@@ -7,12 +7,8 @@
     "CVE-2021-47466"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm, slub: fix potential memoryleak in kmem_cache_open()\n\nIn error path, the random_seq of slub cache might be leaked.  Fix this\nby using __kmem_cache_release() to release all the relevant resources.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-5421"
   ],
   "details": "Missing input validation and OS command integration of the input in the utnserver Pro, utnserver ProMAX, INU-100 web-interface allows authenticated command injection.This issue affects utnserver Pro, utnserver ProMAX, INU-100 version 20.1.22 and below.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

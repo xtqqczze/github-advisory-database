@@ -7,12 +7,8 @@
     "CVE-2024-35362"
   ],
   "details": "Ecshop 3.6 is vulnerable to Cross Site Scripting (XSS) via ecshop/article_cat.php.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

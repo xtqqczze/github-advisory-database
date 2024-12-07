@@ -120,9 +120,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-02-23T21:38:57Z",

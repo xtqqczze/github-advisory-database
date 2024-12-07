@@ -7,12 +7,8 @@
     "CVE-2024-35963"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: hci_sock: Fix not validating setsockopt user input\n\nCheck user input length before copying data.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
