@@ -7,12 +7,8 @@
     "CVE-2011-5053"
   ],
   "details": "The Wi-Fi Protected Setup (WPS) protocol, when the \"external registrar\" authentication method is used, does not properly inform clients about failed PIN authentication, which makes it easier for remote attackers to discover the PIN value, and consequently discover the Wi-Fi network password or reconfigure an access point, by reading EAP-NACK messages.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
