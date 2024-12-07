@@ -7,12 +7,8 @@
     "CVE-2024-30192"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in GS Plugins GS Pins for Pinterest allows Stored XSS.This issue affects GS Pins for Pinterest: from n/a through 1.8.2.\n\n",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
