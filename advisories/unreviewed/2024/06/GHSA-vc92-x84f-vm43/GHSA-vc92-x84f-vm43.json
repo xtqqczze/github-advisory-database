@@ -7,12 +7,8 @@
     "CVE-2024-38617"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nkunit/fortify: Fix mismatched kvalloc()/vfree() usage\n\nThe kv*() family of tests were accidentally freeing with vfree() instead\nof kvfree(). Use kvfree() instead.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
