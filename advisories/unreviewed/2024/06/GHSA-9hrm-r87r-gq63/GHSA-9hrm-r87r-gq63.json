@@ -7,12 +7,8 @@
     "CVE-2024-35307"
   ],
   "details": "Argument Injection Leading to Remote Code Execution in Realtime Graph Extension, allowing unauthenticated attackers to execute arbitrary code on the server. This issue affects Pandora FMS: from 700 through <777.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

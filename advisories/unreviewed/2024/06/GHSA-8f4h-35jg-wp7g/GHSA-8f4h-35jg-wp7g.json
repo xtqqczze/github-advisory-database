@@ -7,12 +7,8 @@
     "CVE-2024-35306"
   ],
   "details": "OS Command injection in Ajax PHP files via HTTP Request, allows to execute system commands by exploiting variables. This issue affects Pandora FMS: from 700 through <777.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
