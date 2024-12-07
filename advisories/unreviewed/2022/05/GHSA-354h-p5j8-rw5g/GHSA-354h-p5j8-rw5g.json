@@ -7,12 +7,8 @@
     "CVE-2014-7861"
   ],
   "details": "The IOHIDSecurePromptClient function in Apple OS X does not properly validate pointer values, which allows remote attackers to execute arbitrary code or cause a denial of service (system crash) via a crafted web site.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

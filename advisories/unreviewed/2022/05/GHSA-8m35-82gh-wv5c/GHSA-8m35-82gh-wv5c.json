@@ -7,12 +7,8 @@
     "CVE-2014-5503"
   ],
   "details": "SQL injection vulnerability in the Guest Login Portal in the Sophos Cyberoam appliances with CyberoamOS before 10.6.1 GA allows remote attackers to execute arbitrary SQL commands via the add_guest_user opcode.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

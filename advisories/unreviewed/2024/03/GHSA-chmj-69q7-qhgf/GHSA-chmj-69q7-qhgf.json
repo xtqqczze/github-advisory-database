@@ -7,12 +7,8 @@
     "CVE-2024-26637"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: ath11k: rely on mac80211 debugfs handling for vif\n\nmac80211 started to delete debugfs entries in certain cases, causing a\nath11k to crash when it tried to delete the entries later. Fix this by\nrelying on mac80211 to delete the entries when appropriate and adding\nthem from the vif_add_debugfs handler.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2024-26632"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nblock: Fix iterating over an empty bio with bio_for_each_folio_all\n\nIf the bio contains no data, bio_first_folio() calls page_folio() on a\nNULL pointer and oopses.  Move the test that we've reached the end of\nthe bio from bio_next_folio() to bio_first_folio().\n\n[axboe: add unlikely() to error case]",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
