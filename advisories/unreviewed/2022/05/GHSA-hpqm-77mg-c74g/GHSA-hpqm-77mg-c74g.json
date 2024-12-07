@@ -7,12 +7,8 @@
     "CVE-2014-9461"
   ],
   "details": "Directory traversal vulnerability in models/Cart66.php in the Cart66 Lite plugin before 1.5.4 for WordPress allows remote authenticated users to read arbitrary files via a .. (dot dot) in the member_download action to wp-admin/admin-ajax.php.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

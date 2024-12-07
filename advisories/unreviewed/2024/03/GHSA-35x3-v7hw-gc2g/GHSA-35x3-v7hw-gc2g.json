@@ -7,12 +7,8 @@
     "CVE-2023-31854"
   ],
   "details": "std::bad_alloc is mishandled in Precomp 0.4.8. NOTE: this is disputed because it should be categorized as a usability problem.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

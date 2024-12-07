@@ -7,12 +7,8 @@
     "CVE-2014-9510"
   ],
   "details": "Cross-site request forgery (CSRF) vulnerability in the administration console in TP-Link TL-WR840N (V1) router with firmware before 3.13.27 build 141120 allows remote attackers to hijack the authentication of administrators for requests that change router settings via a configuration file import.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
