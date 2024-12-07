@@ -7,12 +7,8 @@
     "CVE-2013-4604"
   ],
   "details": "Fortinet FortiOS before 5.0.3 on FortiGate devices does not properly restrict Guest capabilities, which allows remote authenticated users to read, modify, or delete the records of arbitrary users by leveraging the Guest role.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

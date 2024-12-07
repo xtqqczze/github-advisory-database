@@ -7,12 +7,8 @@
     "CVE-2013-1638"
   ],
   "details": "Opera before 12.13 allows remote attackers to execute arbitrary code via crafted clipPaths in an SVG document.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
