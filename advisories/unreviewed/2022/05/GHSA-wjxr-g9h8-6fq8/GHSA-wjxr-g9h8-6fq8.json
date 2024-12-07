@@ -7,12 +7,8 @@
     "CVE-2010-5254"
   ],
   "details": "Untrusted search path vulnerability in GFI Backup 3.1 Build 20100730 2009 Home Edition allows local users to gain privileges via a Trojan horse ArmAccess.dll file in the current working directory, as demonstrated by a directory that contains a .gbc or .gbt file.  NOTE: some of these details are obtained from third party information.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

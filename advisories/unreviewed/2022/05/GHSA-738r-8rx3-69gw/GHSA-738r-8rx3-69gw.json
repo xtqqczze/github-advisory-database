@@ -7,12 +7,8 @@
     "CVE-2012-3477"
   ],
   "details": "SQL injection vulnerability in signup_check.php in NeoInvoice allows remote attackers to execute arbitrary SQL commands via the value parameter in a username action.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

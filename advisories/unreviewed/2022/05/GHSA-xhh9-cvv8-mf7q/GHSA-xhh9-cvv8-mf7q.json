@@ -7,12 +7,8 @@
     "CVE-2010-5198"
   ],
   "details": "Multiple untrusted search path vulnerabilities in Intuit QuickBooks 2010 allow local users to gain privileges via a Trojan horse (1) dbicudtx11.dll, (2) mfc90enu.dll, or (3) mfc90loc.dll file in the current working directory, as demonstrated by a directory that contains a .des, .qbo, or .qpg file.  NOTE: some of these details are obtained from third party information.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
