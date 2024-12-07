@@ -7,12 +7,8 @@
     "CVE-2022-48699"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsched/debug: fix dentry leak in update_sched_domain_debugfs\n\nKuyo reports that the pattern of using debugfs_remove(debugfs_lookup())\nleaks a dentry and with a hotplug stress test, the machine eventually\nruns out of memory.\n\nFix this up by using the newly created debugfs_lookup_and_remove() call\ninstead which properly handles the dentry reference counting logic.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
