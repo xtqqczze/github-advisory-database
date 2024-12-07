@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vx9-2ch5-m6r6",
-  "modified": "2024-06-18T03:34:26Z",
+  "modified": "2024-12-07T00:31:03Z",
   "published": "2024-04-17T00:30:56Z",
   "aliases": [
     "CVE-2024-21096"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-21096"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00034.html"
     },
     {
       "type": "WEB",
