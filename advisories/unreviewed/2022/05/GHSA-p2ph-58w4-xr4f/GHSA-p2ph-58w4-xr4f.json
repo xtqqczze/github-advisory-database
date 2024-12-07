@@ -7,12 +7,8 @@
     "CVE-2013-2203"
   ],
   "details": "WordPress before 3.5.2, when the uploads directory forbids write access, allows remote attackers to obtain sensitive information via an invalid upload request, which reveals the absolute path in an XMLHttpRequest error message.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
