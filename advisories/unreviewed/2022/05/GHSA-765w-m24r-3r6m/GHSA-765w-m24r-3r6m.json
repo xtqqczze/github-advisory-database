@@ -7,12 +7,8 @@
     "CVE-2019-13208"
   ],
   "details": "WavesSysSvc in Waves MAXX Audio allows privilege escalation because the General registry key has Full Control access for the Users group, leading to DLL side loading. This affects WavesSysSvc64.exe 1.9.29.0.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

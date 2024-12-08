@@ -7,12 +7,8 @@
     "CVE-2019-10104"
   ],
   "details": "In several JetBrains IntelliJ IDEA Ultimate versions, an Application Server run configuration (for Tomcat, Jetty, Resin, or CloudBees) with the default setting allowed a remote attacker to execute code when the configuration is running, because a JMX server listened on all interfaces instead of localhost only. The issue has been fixed in the following versions: 2018.3.4, 2018.2.8, 2018.1.8, and 2017.3.7.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2019-8283"
   ],
   "details": "Hasplm cookie in Gemalto Admin Control Center, all versions prior to 7.92, does not have 'HttpOnly' flag. This allows malicious javascript to steal it.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
