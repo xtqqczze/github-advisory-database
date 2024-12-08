@@ -8,9 +8,7 @@
   ],
   "summary": "Libcloud does not properly scrub data when destroying a DigitalOcean node",
   "details": "Libcloud 0.12.3 through 0.13.2 does not set the `scrub_data parameter` for the destroy DigitalOcean API, which allows local users to obtain sensitive information by leveraging a new VM.",
-  "severity": [
-
-  ],
+  "severity": [],
   "affected": [
     {
       "package": {

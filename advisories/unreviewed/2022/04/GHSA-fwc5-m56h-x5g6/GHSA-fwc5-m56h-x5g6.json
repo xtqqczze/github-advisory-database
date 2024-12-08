@@ -7,12 +7,8 @@
     "CVE-2004-2144"
   ],
   "details": "Baal Smart Forms before 3.2 allows remote attackers to bypass authentication and obtain system access via a direct request to regadmin.php.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
