@@ -7,12 +7,8 @@
     "CVE-2024-42275"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/client: Fix error code in drm_client_buffer_vmap_local()\n\nThis function accidentally returns zero/success on the failure path.\nIt leads to locking issues and an uninitialized *map_copy in the\ncaller.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

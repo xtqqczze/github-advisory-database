@@ -7,12 +7,8 @@
     "CVE-2024-42260"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/v3d: Validate passed in drm syncobj handles in the performance extension\n\nIf userspace provides an unknown or invalid handle anywhere in the handle\narray the rest of the driver will not handle that well.\n\nFix it by checking handle was looked up successfully or otherwise fail the\nextension by jumping into the existing unwind.\n\n(cherry picked from commit a546b7e4d73c23838d7e4d2c92882b3ca902d213)",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
