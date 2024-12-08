@@ -7,12 +7,8 @@
     "CVE-2019-11353"
   ],
   "details": "The EnGenius EWS660AP router with firmware 2.0.284 allows an attacker to execute arbitrary commands using the built-in ping and traceroute utilities by using different payloads and injecting multiple parameters. This vulnerability is fixed in a later firmware version.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

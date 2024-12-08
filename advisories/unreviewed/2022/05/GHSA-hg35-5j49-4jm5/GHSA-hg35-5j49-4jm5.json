@@ -7,12 +7,8 @@
     "CVE-2019-8282"
   ],
   "details": "Gemalto Admin Control Center, all versions prior to 7.92, uses cleartext HTTP to communicate with www3.safenet-inc.com to obtain language packs. This allows attacker to do man-in-the-middle (MITM) attack and replace original language pack by malicious one.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

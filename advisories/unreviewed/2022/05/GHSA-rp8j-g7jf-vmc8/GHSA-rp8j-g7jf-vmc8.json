@@ -7,12 +7,8 @@
     "CVE-2019-12212"
   ],
   "details": "When FreeImage 3.18.0 reads a special JXR file, the StreamCalcIFDSize function of JXRMeta.c repeatedly calls itself due to improper processing of the file, eventually causing stack exhaustion. An attacker can achieve a remote denial of service attack by sending a specially constructed file.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,9 +20,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

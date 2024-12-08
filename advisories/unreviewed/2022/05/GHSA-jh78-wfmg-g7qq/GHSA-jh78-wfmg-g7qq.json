@@ -7,12 +7,8 @@
     "CVE-2019-12373"
   ],
   "details": "Improper access control and open directories in Ivanti LANDESK Management Suite (LDMS, aka Endpoint Manager) 10.0.1.168 Service Update 5 may lead to remote disclosure of administrator passwords.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,9 +24,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

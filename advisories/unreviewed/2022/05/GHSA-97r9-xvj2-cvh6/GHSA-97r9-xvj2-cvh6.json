@@ -7,12 +7,8 @@
     "CVE-2019-6790"
   ],
   "details": "An Incorrect Access Control (issue 2 of 3) issue was discovered in GitLab Community and Enterprise Edition 8.14 and later but before 11.5.8, 11.6.x before 11.6.6, and 11.7.x before 11.7.1. Guest users were able to view the list of a group's merge requests.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,9 +28,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
