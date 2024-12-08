@@ -7,12 +7,8 @@
     "CVE-2022-48722"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ieee802154: ca8210: Stop leaking skb's\n\nUpon error the ieee802154_xmit_complete() helper is not called. Only\nieee802154_wake_queue() is called manually. We then leak the skb\nstructure.\n\nFree the skb structure upon error before returning.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -48,9 +44,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

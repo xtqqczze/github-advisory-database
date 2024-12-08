@@ -7,12 +7,8 @@
     "CVE-2014-3445"
   ],
   "details": "backup.php in HandsomeWeb SOS Webpages before 1.1.12 does not require knowledge of the cleartext password, which allows remote attackers to bypass authentication by leveraging knowledge of the administrator password hash.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,9 +36,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

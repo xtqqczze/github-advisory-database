@@ -7,12 +7,8 @@
     "CVE-2009-3168"
   ],
   "details": "Mevin Productions Basic PHP Events Lister 2.0 does not properly restrict access to (1) admin/reset.php and (2) admin/user_add.php, which allows remote authenticated users to reset administrative passwords or add administrators via a direct request.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",

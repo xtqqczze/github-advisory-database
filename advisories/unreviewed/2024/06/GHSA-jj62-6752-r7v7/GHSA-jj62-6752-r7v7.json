@@ -7,12 +7,8 @@
     "CVE-2021-47573"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxen/blkfront: harden blkfront against event channel storms\n\nThe Xen blkfront driver is still vulnerable for an attack via excessive\nnumber of events sent by the backend. Fix that by using lateeoi event\nchannels.\n\nThis is part of XSA-391",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,9 +48,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -7,12 +7,8 @@
     "CVE-2022-48730"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndma-buf: heaps: Fix potential spectre v1 gadget\n\nIt appears like nr could be a Spectre v1 gadget as it's supplied by a\nuser and used as an array index. Prevent the contents\nof kernel memory from being leaked to userspace via speculative\nexecution by using array_index_nospec.\n\n [sumits: added fixes and cc: stable tags]",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
@@ -36,9 +32,7 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-
-    ],
+    "cwe_ids": [],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
