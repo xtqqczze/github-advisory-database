@@ -7,12 +7,8 @@
     "CVE-2008-6463"
   ],
   "details": "SQL injection vulnerability in the Diocese of Portsmouth Church Search (pd_churchsearch) extension before 0.1.1, and 0.2.10 and earlier 0.2.x versions, an extension for TYPO3, allows remote attackers to execute arbitrary SQL commands via unspecified vectors.",
-  "severity": [
-
-  ],
-  "affected": [
-
-  ],
+  "severity": [],
+  "affected": [],
   "references": [
     {
       "type": "ADVISORY",
