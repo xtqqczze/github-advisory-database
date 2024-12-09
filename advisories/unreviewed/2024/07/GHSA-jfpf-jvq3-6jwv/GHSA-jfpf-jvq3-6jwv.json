@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfpf-jvq3-6jwv",
-  "modified": "2024-07-29T09:36:13Z",
+  "modified": "2024-12-09T15:31:32Z",
   "published": "2024-07-29T09:36:13Z",
   "aliases": [
     "CVE-2024-41014"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-41014"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7cd9f0a33e738cd58876f1bc8d6c1aa5bc4fc8c1"
     },
     {
       "type": "WEB",

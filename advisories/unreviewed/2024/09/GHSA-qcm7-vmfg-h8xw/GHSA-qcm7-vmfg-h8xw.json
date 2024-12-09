@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qcm7-vmfg-h8xw",
-  "modified": "2024-10-10T18:31:08Z",
+  "modified": "2024-12-09T15:31:33Z",
   "published": "2024-09-04T21:30:31Z",
   "aliases": [
     "CVE-2024-44955"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/39b217193729aa45eded8de24d9245468a0c0263"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c7e65cab54a89f4df54110f0b44c4ade93d1a911"
     },
     {
       "type": "WEB",

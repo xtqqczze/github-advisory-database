@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73xg-5c69-2755",
-  "modified": "2024-12-06T12:30:47Z",
+  "modified": "2024-12-09T15:31:33Z",
   "published": "2024-12-06T12:30:47Z",
   "aliases": [
     "CVE-2024-53142"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53142"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1a423bbbeaf9e3e20c4686501efd9b661fe834db"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw6f-2v4x-m477",
-  "modified": "2024-10-09T15:32:18Z",
+  "modified": "2024-12-09T15:31:33Z",
   "published": "2024-09-04T21:30:31Z",
   "aliases": [
     "CVE-2024-44950"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7d3b793faaab1305994ce568b59d61927235f57b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/dc5ead0e8fc5ef53b8553394d4aab60c277976b3"
     }
   ],
   "database_specific": {

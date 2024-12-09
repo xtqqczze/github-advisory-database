@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8m3-vwhc-qqmc",
-  "modified": "2024-10-25T15:31:25Z",
+  "modified": "2024-12-09T15:31:33Z",
   "published": "2024-10-21T18:30:57Z",
   "aliases": [
     "CVE-2024-49891"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49891"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/232a138bd843d48cb2368f604646d990db7640f3"
     },
     {
       "type": "WEB",
