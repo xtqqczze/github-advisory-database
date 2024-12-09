@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vx4-v2jw-qwqh",
-  "modified": "2024-12-09T20:38:42Z",
+  "modified": "2024-12-09T21:53:54Z",
   "published": "2024-12-09T20:38:42Z",
   "aliases": [
     "CVE-2024-53847"
@@ -60,6 +60,10 @@
       "url": "https://github.com/basecamp/trix/security/advisories/GHSA-6vx4-v2jw-qwqh"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53847"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/basecamp/trix/commit/272c7e27e722608732a67108ad3fe7870e233ac8"
     },
@@ -75,6 +79,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-09T20:38:42Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-12-09T19:15:14Z"
   }
 }
