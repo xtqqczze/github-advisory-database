@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66ww-hh28-59jg",
-  "modified": "2024-02-28T09:30:38Z",
+  "modified": "2024-12-09T18:31:18Z",
   "published": "2024-02-28T09:30:37Z",
   "aliases": [
     "CVE-2021-47017"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nath10k: Fix a use after free in ath10k_htc_send_bundle\n\nIn ath10k_htc_send_bundle, the bundle_skb could be freed by\ndev_kfree_skb_any(bundle_skb). But the bundle_skb is used later\nby bundle_skb->len.\n\nAs skb_len = bundle_skb->len, my patch replaces bundle_skb->len to\nskb_len after the bundle_skb was freed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-28T09:15:38Z"

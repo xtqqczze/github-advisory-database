@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52q6-f4x4-49j2",
-  "modified": "2024-12-09T00:31:40Z",
+  "modified": "2024-12-09T18:31:19Z",
   "published": "2024-12-09T00:31:40Z",
   "aliases": [
     "CVE-2024-55560"
   ],
   "details": "MailCleaner before 28d913e has default values of ssh_host_dsa_key, ssh_host_rsa_key, and ssh_host_ed25519_key that persist after installation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-08T23:15:05Z"
