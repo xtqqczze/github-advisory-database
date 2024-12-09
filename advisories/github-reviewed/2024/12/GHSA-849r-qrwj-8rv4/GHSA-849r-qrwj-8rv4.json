@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-849r-qrwj-8rv4",
-  "modified": "2024-12-09T20:40:54Z",
+  "modified": "2024-12-09T21:24:38Z",
   "published": "2024-12-09T20:40:54Z",
   "aliases": [
     "CVE-2024-54151"
@@ -33,12 +33,35 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@directus/api"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "22.2.0"
+            },
+            {
+              "fixed": "23.2.0"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
     {
       "type": "WEB",
       "url": "https://github.com/directus/directus/security/advisories/GHSA-849r-qrwj-8rv4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/directus/directus/commit/ce0397d16cf767b5293cd57f626c5349b5732a21"
     },
     {
       "type": "PACKAGE",
