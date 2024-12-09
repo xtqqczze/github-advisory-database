@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m36-66x4-phpf",
-  "modified": "2024-02-28T09:30:38Z",
+  "modified": "2024-12-09T21:31:00Z",
   "published": "2024-02-28T09:30:38Z",
   "aliases": [
     "CVE-2021-47051"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: fsl-lpspi: Fix PM reference leak in lpspi_prepare_xfer_hardware()\n\npm_runtime_get_sync will increment pm usage counter even it failed.\nForgetting to putting operation will result in reference leak here.\nFix it by replacing it with pm_runtime_resume_and_get to keep usage\ncounter balanced.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-28T09:15:40Z"

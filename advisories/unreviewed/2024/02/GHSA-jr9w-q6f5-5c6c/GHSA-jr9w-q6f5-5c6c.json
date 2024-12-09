@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jr9w-q6f5-5c6c",
-  "modified": "2024-02-29T06:30:32Z",
+  "modified": "2024-12-09T21:31:00Z",
   "published": "2024-02-29T06:30:32Z",
   "aliases": [
     "CVE-2023-52475"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nInput: powermate - fix use-after-free in powermate_config_complete\n\nsyzbot has found a use-after-free bug [1] in the powermate driver. This\nhappens when the device is disconnected, which leads to a memory free from\nthe powermate_device struct.  When an asynchronous control message\ncompletes after the kfree and its callback is invoked, the lock does not\nexist anymore and hence the bug.\n\nUse usb_kill_urb() on pm->config to cancel any in-progress requests upon\ndevice disconnection.\n\n[1] https://syzkaller.appspot.com/bug?extid=0434ac83f907a1dbdd1e",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-29T06:15:45Z"
