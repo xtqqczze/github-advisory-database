@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32r8-54hf-c9p3",
-  "modified": "2024-12-09T22:40:50Z",
+  "modified": "2024-12-10T19:18:15Z",
   "published": "2024-12-09T21:31:02Z",
   "aliases": [
     "CVE-2024-46455"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/Unstructured-IO/unstructured"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tenable.com/cve/CVE-2024-46455"
     }
   ],
   "database_specific": {
