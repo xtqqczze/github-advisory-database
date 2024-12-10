@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9567-2gw8-p4p5",
-  "modified": "2024-12-09T15:31:33Z",
+  "modified": "2024-12-10T21:30:52Z",
   "published": "2024-12-06T12:30:47Z",
   "aliases": [
     "CVE-2024-53141"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: ipset: add missing range check in bitmap_ip_uadt\n\nWhen tb[IPSET_ATTR_IP_TO] is not present but tb[IPSET_ATTR_CIDR] exists,\nthe values of ip and ip_to are slightly swapped. Therefore, the range check\nfor ip should be done later, but this part is missing and it seems that the\nvulnerability occurs.\n\nSo we should add missing range checks and remove unnecessary range checks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-06T10:15:06Z"
