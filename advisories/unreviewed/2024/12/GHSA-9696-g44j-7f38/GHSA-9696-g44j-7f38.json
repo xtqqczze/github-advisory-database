@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9696-g44j-7f38",
-  "modified": "2024-12-09T18:31:20Z",
+  "modified": "2024-12-10T18:31:06Z",
   "published": "2024-12-09T18:31:20Z",
   "aliases": [
     "CVE-2024-54935"
   ],
   "details": "A Stored Cross-Site Scripting (XSS) vulnerability was found in /send_message_teacher_to_student.php of kashipara E-learning Management System v1.0. This vulnerability allows remote attackers to execute arbitrary scripts via the my_message parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-09T18:15:24Z"

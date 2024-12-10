@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69w7-5x2m-p8cp",
-  "modified": "2024-03-01T00:30:28Z",
+  "modified": "2024-12-10T18:31:06Z",
   "published": "2024-03-01T00:30:28Z",
   "aliases": [
     "CVE-2021-47058"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nregmap: set debugfs_name to NULL after it is freed\n\nThere is a upstream commit cffa4b2122f5(\"regmap:debugfs:\nFix a memory leak when calling regmap_attach_dev\") that\nadds a if condition when create name for debugfs_name.\nWith below function invoking logical, debugfs_name is\nfreed in regmap_debugfs_exit(), but it is not created again\nbecause of the if condition introduced by above commit.\nregmap_reinit_cache()\n\tregmap_debugfs_exit()\n\t...\n\tregmap_debugfs_init()\nSo, set debugfs_name to NULL after it is freed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-29T23:15:07Z"

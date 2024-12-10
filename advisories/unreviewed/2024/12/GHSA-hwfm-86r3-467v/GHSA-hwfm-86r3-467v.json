@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hwfm-86r3-467v",
+  "modified": "2024-12-10T18:31:07Z",
+  "published": "2024-12-10T18:31:07Z",
+  "aliases": [
+    "CVE-2024-45494"
+  ],
+  "details": "An issue was discovered in MSA Safety FieldServer Gateways and Embedded Modules with build revisions before 7.0.0. The FieldServer Gateway has an internally used shared administrative user account on all devices. The authentication for this user is implemented through an unsafe shared secret that is static in all affected firmware versions.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45494"
+    },
+    {
+      "type": "WEB",
+      "url": "https://us.msasafety.com/fieldserver"
+    },
+    {
+      "type": "WEB",
+      "url": "https://us.msasafety.com/security-notices"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-10T17:15:10Z"
+  }
+}

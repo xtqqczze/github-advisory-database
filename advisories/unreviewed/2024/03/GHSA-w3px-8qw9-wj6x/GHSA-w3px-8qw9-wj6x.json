@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3px-8qw9-wj6x",
-  "modified": "2024-03-01T00:30:27Z",
+  "modified": "2024-12-10T18:31:06Z",
   "published": "2024-03-01T00:30:27Z",
   "aliases": [
     "CVE-2021-47020"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsoundwire: stream: fix memory leak in stream config error path\n\nWhen stream config is failed, master runtime will release all\nslave runtime in the slave_rt_list, but slave runtime is not\nadded to the list at this time. This patch frees slave runtime\nin the config error path to fix the memory leak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-29T23:15:07Z"
