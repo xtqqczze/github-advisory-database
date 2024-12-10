@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9qp-272q-mvf9",
-  "modified": "2024-11-08T18:30:50Z",
+  "modified": "2024-12-10T00:31:26Z",
   "published": "2024-11-08T06:30:48Z",
   "aliases": [
     "CVE-2024-50184"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvirtio_pmem: Check device status before requesting flush\n\nIf a pmem device is in a bad status, the driver side could wait for\nhost ack forever in virtio_pmem_flush(), causing the system to hang.\n\nSo add a status check in the beginning of virtio_pmem_flush() to return\nearly if the device is not activated.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-754"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-08T06:15:15Z"

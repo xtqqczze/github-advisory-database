@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-938f-5r4f-h65v",
+  "modified": "2024-12-10T00:31:27Z",
+  "published": "2024-12-10T00:31:27Z",
+  "aliases": [
+    "CVE-2024-55636"
+  ],
+  "details": "Deserialization of Untrusted Data vulnerability in Drupal Core allows Object Injection.This issue affects Drupal Core: from 8.0.0 before 10.2.11, from 10.3.0 before 10.3.9, from 11.0.0 before 11.0.8.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-55636"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.drupal.org/sa-core-2024-006"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-915"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-10T00:15:22Z"
+  }
+}

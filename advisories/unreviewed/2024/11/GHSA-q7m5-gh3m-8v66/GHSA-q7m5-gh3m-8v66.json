@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7m5-gh3m-8v66",
-  "modified": "2024-11-08T06:30:48Z",
+  "modified": "2024-12-10T00:31:26Z",
   "published": "2024-11-08T06:30:48Z",
   "aliases": [
     "CVE-2024-50185"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmptcp: handle consistently DSS corruption\n\nBugged peer implementation can send corrupted DSS options, consistently\nhitting a few warning in the data path. Use DEBUG_NET assertions, to\navoid the splat on some builds and handle consistently the error, dumping\nrelated MIBs and performing fallback and/or reset according to the\nsubflow type.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-08T06:15:15Z"
