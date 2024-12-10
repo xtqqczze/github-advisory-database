@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx7f-g6mp-7hqm",
-  "modified": "2024-11-05T22:02:17Z",
+  "modified": "2024-12-10T19:47:12Z",
   "published": "2024-09-13T06:30:42Z",
   "aliases": [
     "CVE-2024-38816"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.1.0"
             },
             {
               "fixed": "6.1.13"
@@ -44,10 +44,86 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.1.0"
             },
             {
               "fixed": "6.1.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework:spring-webmvc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.0"
+            },
+            {
+              "last_affected": "6.0.23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework:spring-webflux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.0"
+            },
+            {
+              "last_affected": "6.0.23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework:spring-webmvc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.3.0"
+            },
+            {
+              "last_affected": "5.3.39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework:spring-webflux"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.3.0"
+            },
+            {
+              "last_affected": "5.3.39"
             }
           ]
         }
