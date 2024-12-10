@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvr2-rrr8-q8r2",
-  "modified": "2024-08-13T06:30:47Z",
+  "modified": "2024-12-10T09:31:18Z",
   "published": "2024-08-13T06:30:47Z",
   "aliases": [
     "CVE-2024-41731"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://me.sap.com/notes/3433545"
+    },
+    {
+      "type": "WEB",
+      "url": "https://me.sap.com/notes/3515653"
     },
     {
       "type": "WEB",
