@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qch-vj6m-2694",
-  "modified": "2024-12-10T06:31:40Z",
+  "modified": "2024-12-10T17:02:23Z",
   "published": "2024-12-10T06:31:40Z",
   "aliases": [
     "CVE-2024-21542"
   ],
+  "summary": "luigi Arbitrary File Write via Archive Extraction (Zip Slip)",
   "details": "Versions of the package luigi before 3.6.0 are vulnerable to Arbitrary File Write via Archive Extraction (Zip Slip) due to improper destination file path validation in the _extract_packages_archive function.",
   "severity": [
     {
@@ -17,7 +18,27 @@
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:H/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "luigi"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.6.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -30,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/spotify/luigi/commit/b5d1b965ead7d9f777a3216369b5baf23ec08999"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/spotify/luigi"
     },
     {
       "type": "WEB",
@@ -45,8 +70,8 @@
       "CWE-29"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-12-10T17:02:23Z",
     "nvd_published_at": "2024-12-10T05:15:07Z"
   }
 }
