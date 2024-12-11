@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h32q-4pph-8pgm",
-  "modified": "2024-12-10T15:32:31Z",
+  "modified": "2024-12-11T00:31:24Z",
   "published": "2024-12-10T15:32:31Z",
   "aliases": [
     "CVE-2024-5660"
   ],
   "details": "Use of Hardware Page Aggregation (HPA) and Stage-1 and/or Stage-2 translation on A77, A78, A78C, A78AE, A710, V1, V2, V3, V3AE, X1, X1C, X2, X3, X4, N2, X925 & Travis may permit bypass of Stage-2 translation and/or GPT protection",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-668"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-10T14:30:47Z"
