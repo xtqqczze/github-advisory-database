@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h288-5fq8-5pfw",
-  "modified": "2024-12-11T09:32:03Z",
+  "modified": "2024-12-11T12:32:26Z",
   "published": "2024-12-11T09:32:03Z",
   "aliases": [
     "CVE-2024-11053"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://curl.se/docs/CVE-2024-11053.json"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/12/11/1"
     }
   ],
   "database_specific": {
