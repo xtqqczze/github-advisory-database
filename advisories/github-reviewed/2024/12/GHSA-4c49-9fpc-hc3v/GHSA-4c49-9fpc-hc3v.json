@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c49-9fpc-hc3v",
-  "modified": "2024-12-09T23:26:16Z",
+  "modified": "2024-12-11T21:16:17Z",
   "published": "2024-12-09T23:26:16Z",
   "aliases": [
     "CVE-2024-6156"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/canonical/lxd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2024-3312"
     },
     {
       "type": "WEB",
