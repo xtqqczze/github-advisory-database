@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wwr-qqmw-x5rf",
-  "modified": "2024-12-09T18:31:19Z",
+  "modified": "2024-12-11T18:30:41Z",
   "published": "2024-12-09T18:31:19Z",
   "aliases": [
     "CVE-2022-38946"
   ],
   "details": "Arbitrary File Upload vulnerability in Doctor-Appointment version 1.0 in /Frontend/signup_com.php, allows attackers to execute arbitrary code.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-09T17:15:05Z"

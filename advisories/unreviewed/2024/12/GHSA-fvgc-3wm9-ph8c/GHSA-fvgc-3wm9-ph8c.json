@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvgc-3wm9-ph8c",
-  "modified": "2024-12-10T09:31:18Z",
+  "modified": "2024-12-11T18:30:42Z",
   "published": "2024-12-10T09:31:18Z",
   "aliases": [
     "CVE-2024-28138"
   ],
   "details": "An unauthenticated attacker with network access to the affected device's web interface can execute any system command via the \"msg_events.php\" script as the www-data user. The HTTP GET parameter \"data\" is not properly sanitized.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-78"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-10T08:15:18Z"

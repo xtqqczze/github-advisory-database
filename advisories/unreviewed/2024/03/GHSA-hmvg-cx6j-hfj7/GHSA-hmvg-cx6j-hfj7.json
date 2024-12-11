@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmvg-cx6j-hfj7",
-  "modified": "2024-06-26T00:31:35Z",
+  "modified": "2024-12-11T18:30:36Z",
   "published": "2024-03-04T09:30:29Z",
   "aliases": [
     "CVE-2024-26622"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntomoyo: fix UAF write bug in tomoyo_write_control()\n\nSince tomoyo_write_control() updates head->write_buf when write()\nof long lines is requested, we need to fetch head->write_buf after\nhead->io_sem is held.  Otherwise, concurrent write() requests can\ncause use-after-free-write and double-free problems.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-04T07:15:11Z"

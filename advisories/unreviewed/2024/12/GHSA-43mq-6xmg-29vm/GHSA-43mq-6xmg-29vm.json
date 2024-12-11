@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-43mq-6xmg-29vm",
+  "modified": "2024-12-11T18:30:42Z",
+  "published": "2024-12-11T18:30:42Z",
+  "aliases": [
+    "CVE-2024-53677"
+  ],
+  "details": "File upload logic is flawed vulnerability in Apache Struts.\n\nThis issue affects Apache Struts: from 2.0.0 before 6.4.0.\n\nUsers are recommended to upgrade to version 6.4.0, which fixes the issue.\n\nYou can find more details in  https://cwiki.apache.org/confluence/display/WW/S2-067",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:N/AU:Y/R:A/V:C/RE:L/U:Red"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53677"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cwiki.apache.org/confluence/display/WW/S2-067"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-11T16:15:14Z"
+  }
+}

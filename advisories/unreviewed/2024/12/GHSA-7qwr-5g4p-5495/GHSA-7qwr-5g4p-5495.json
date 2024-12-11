@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7qwr-5g4p-5495",
-  "modified": "2024-12-05T21:31:52Z",
+  "modified": "2024-12-11T18:30:40Z",
   "published": "2024-12-05T21:31:52Z",
   "aliases": [
     "CVE-2024-53523"
   ],
   "details": "JSFinder commit d70ab9bc5221e016c08cffaf0d9ac79646c90645 is vulnerable to Directory Traversal in the find_by_file function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-05T21:15:08Z"

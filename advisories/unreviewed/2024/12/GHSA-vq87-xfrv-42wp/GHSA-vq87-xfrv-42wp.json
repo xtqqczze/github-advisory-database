@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq87-xfrv-42wp",
-  "modified": "2024-12-10T00:31:26Z",
+  "modified": "2024-12-11T18:30:41Z",
   "published": "2024-12-10T00:31:26Z",
   "aliases": [
     "CVE-2024-50627"
   ],
   "details": "An issue was discovered in Digi ConnectPort LTS before 1.4.12. A Privilege Escalation vulnerability exists in the file upload feature. It allows an attacker on the local area network (with specific permissions) to upload and execute malicious files, potentially leading to unauthorized system access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-552"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-09T22:15:22Z"

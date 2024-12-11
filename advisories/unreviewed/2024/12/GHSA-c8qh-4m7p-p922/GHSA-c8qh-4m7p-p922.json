@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c8qh-4m7p-p922",
-  "modified": "2024-12-09T18:31:19Z",
+  "modified": "2024-12-11T18:30:41Z",
   "published": "2024-12-09T18:31:19Z",
   "aliases": [
     "CVE-2024-53450"
   ],
   "details": "RAGFlow 0.13.0 suffers from improper access control in document-hooks.ts, allowing unauthorized access to user documents.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-09T17:15:09Z"

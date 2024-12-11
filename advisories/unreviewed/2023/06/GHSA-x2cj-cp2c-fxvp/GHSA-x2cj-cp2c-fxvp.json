@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2cj-cp2c-fxvp",
-  "modified": "2024-04-04T04:56:23Z",
+  "modified": "2024-12-11T18:30:35Z",
   "published": "2023-06-19T12:30:21Z",
   "aliases": [
     "CVE-2023-29531"
