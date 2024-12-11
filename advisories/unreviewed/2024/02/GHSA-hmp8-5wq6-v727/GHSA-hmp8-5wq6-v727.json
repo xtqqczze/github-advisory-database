@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmp8-5wq6-v727",
-  "modified": "2024-02-27T21:31:27Z",
+  "modified": "2024-12-11T15:31:14Z",
   "published": "2024-02-27T21:31:27Z",
   "aliases": [
     "CVE-2021-46962"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmmc: uniphier-sd: Fix a resource leak in the remove function\n\nA 'tmio_mmc_host_free()' call is missing in the remove function, in order\nto balance a 'tmio_mmc_host_alloc()' call in the probe.\nThis is done in the error handling path of the probe, but not in the remove\nfunction.\n\nAdd the missing call.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-27T19:04:06Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg92-6xpx-v2x4",
-  "modified": "2024-12-02T09:39:12Z",
+  "modified": "2024-12-11T15:31:16Z",
   "published": "2024-12-02T09:39:12Z",
   "aliases": [
     "CVE-2024-53104"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format\n\nThis can lead to out of bounds writes since frames of this type were not\ntaken into account when calculating the size of the frames buffer in\nuvc_parse_streaming.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-02T08:15:08Z"

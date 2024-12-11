@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p85v-4hp9-vq4r",
-  "modified": "2024-12-05T12:31:28Z",
+  "modified": "2024-12-11T15:31:16Z",
   "published": "2024-12-04T15:31:52Z",
   "aliases": [
     "CVE-2024-53131"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnilfs2: fix null-ptr-deref in block_touch_buffer tracepoint\n\nPatch series \"nilfs2: fix null-ptr-deref bugs on block tracepoints\".\n\nThis series fixes null pointer dereference bugs that occur when using\nnilfs2 and two block-related tracepoints.\n\n\nThis patch (of 2):\n\nIt has been reported that when using \"block:block_touch_buffer\"\ntracepoint, touch_buffer() called from __nilfs_get_folio_block() causes a\nNULL pointer dereference, or a general protection fault when KASAN is\nenabled.\n\nThis happens because since the tracepoint was added in touch_buffer(), it\nreferences the dev_t member bh->b_bdev->bd_dev regardless of whether the\nbuffer head has a pointer to a block_device structure.  In the current\nimplementation, the block_device structure is set after the function\nreturns to the caller.\n\nHere, touch_buffer() is used to mark the folio/page that owns the buffer\nhead as accessed, but the common search helper for folio/page used by the\ncaller function was optimized to mark the folio/page as accessed when it\nwas reimplemented a long time ago, eliminating the need to call\ntouch_buffer() here in the first place.\n\nSo this solves the issue by eliminating the touch_buffer() call itself.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-04T15:15:13Z"
