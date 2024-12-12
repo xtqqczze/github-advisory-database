@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xx7-2cx3-x473",
-  "modified": "2024-11-18T16:27:15Z",
+  "modified": "2024-12-12T22:28:41Z",
   "published": "2024-09-19T18:30:52Z",
   "aliases": [
     "CVE-2024-8698"
@@ -47,10 +47,6 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/releases/tag/25.0.6"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/keycloak/keycloak/blob/main/saml-core/src/main/java/org/keycloak/saml/processing/core/util/XMLSignatureUtil.java#L415"
     },
     {
       "type": "PACKAGE",
