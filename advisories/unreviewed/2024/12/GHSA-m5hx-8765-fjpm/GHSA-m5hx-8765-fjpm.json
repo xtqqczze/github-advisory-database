@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m5hx-8765-fjpm",
-  "modified": "2024-12-08T00:31:20Z",
+  "modified": "2024-12-12T03:33:00Z",
   "published": "2024-12-08T00:31:20Z",
   "aliases": [
     "CVE-2024-53473"
   ],
   "details": "WeGIA 3.2.0 before 3998672 does not verify permission to change a password.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-07T23:15:34Z"

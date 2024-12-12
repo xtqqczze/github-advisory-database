@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3j7g-922g-j6r3",
-  "modified": "2024-04-19T15:30:45Z",
+  "modified": "2024-12-12T03:32:57Z",
   "published": "2023-01-12T21:30:30Z",
   "aliases": [
     "CVE-2023-23456"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2160381"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00013.html"
     },
     {
       "type": "WEB",

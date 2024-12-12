@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9q2-q6gv-w438",
-  "modified": "2024-12-10T00:31:26Z",
+  "modified": "2024-12-12T03:33:01Z",
   "published": "2024-12-10T00:31:26Z",
   "aliases": [
     "CVE-2024-50626"
   ],
   "details": "An issue was discovered in Digi ConnectPort LTS before 1.4.12. A Directory Traversal vulnerability exists in WebFS. This allows an attacker on the local area network to manipulate URLs to include traversal sequences, potentially leading to unauthorized access to data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-09T22:15:22Z"
