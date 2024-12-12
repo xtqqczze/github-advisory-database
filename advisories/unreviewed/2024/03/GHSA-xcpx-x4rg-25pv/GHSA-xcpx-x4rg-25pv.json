@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcpx-x4rg-25pv",
-  "modified": "2024-12-03T00:31:29Z",
+  "modified": "2024-12-12T18:30:50Z",
   "published": "2024-03-18T18:32:21Z",
   "aliases": [
     "CVE-2024-26050"

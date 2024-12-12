@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qqm-68gx-7hgc",
-  "modified": "2024-03-13T18:31:33Z",
+  "modified": "2024-12-12T18:30:50Z",
   "published": "2024-03-13T18:31:33Z",
   "aliases": [
     "CVE-2024-1541"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

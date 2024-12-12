@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99xq-gh8h-93m3",
-  "modified": "2024-12-12T15:31:07Z",
+  "modified": "2024-12-12T18:30:55Z",
   "published": "2024-12-12T15:31:07Z",
   "aliases": [
     "CVE-2024-36494"
   ],
   "details": "Due to missing input sanitization, an attacker can perform cross-site-scripting attacks and run arbitrary Javascript in the browser of other users. The login page at /cgi/slogin.cgi suffers from XSS due to improper input filtering of the -tsetup+-uuser parameter, which can only be exploited if the target user is not already logged in. This makes it ideal for login form phishing attempts.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-12T13:15:10Z"

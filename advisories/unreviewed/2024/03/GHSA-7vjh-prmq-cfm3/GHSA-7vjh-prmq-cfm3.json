@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vjh-prmq-cfm3",
-  "modified": "2024-06-26T00:31:35Z",
+  "modified": "2024-12-12T18:30:50Z",
   "published": "2024-03-11T18:31:09Z",
   "aliases": [
     "CVE-2023-52493"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbus: mhi: host: Drop chan lock before queuing buffers\n\nEnsure read and write locks for the channel are not taken in succession by\ndropping the read lock from parse_xfer_event() such that a callback given\nto client can potentially queue buffers and acquire the write lock in that\nprocess. Any queueing of buffers should be done without channel read lock\nacquired as it can result in multiple locks and a soft lockup.\n\n[mani: added fixes tag and cc'ed stable]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-11T18:15:16Z"
