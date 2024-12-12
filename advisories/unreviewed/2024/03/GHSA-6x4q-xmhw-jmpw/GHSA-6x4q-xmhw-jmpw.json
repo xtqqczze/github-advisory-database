@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x4q-xmhw-jmpw",
-  "modified": "2024-03-25T09:32:35Z",
+  "modified": "2024-12-12T15:31:06Z",
   "published": "2024-03-25T09:32:35Z",
   "aliases": [
     "CVE-2021-47148"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocteontx2-pf: fix a buffer overflow in otx2_set_rxfh_context()\n\nThis function is called from ethtool_set_rxfh() and \"*rss_context\"\ncomes from the user.  Add some bounds checking to prevent memory\ncorruption.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-25T09:15:09Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79hf-9rwh-4gv8",
-  "modified": "2024-06-26T00:31:35Z",
+  "modified": "2024-12-12T15:31:05Z",
   "published": "2024-03-06T09:30:28Z",
   "aliases": [
     "CVE-2023-52595"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: rt2x00: restart beacon queue when hardware reset\n\nWhen a hardware reset is triggered, all registers are reset, so all\nqueues are forced to stop in hardware interface. However, mac80211\nwill not automatically stop the queue. If we don't manually stop the\nbeacon queue, the queue will be deadlocked and unable to start again.\nThis patch fixes the issue where Apple devices cannot connect to the\nAP after calling ieee80211_restart_hw().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-06T07:15:09Z"
