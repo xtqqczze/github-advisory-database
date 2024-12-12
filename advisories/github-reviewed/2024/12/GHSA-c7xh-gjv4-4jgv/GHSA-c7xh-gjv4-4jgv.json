@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7xh-gjv4-4jgv",
-  "modified": "2024-12-11T18:42:30Z",
+  "modified": "2024-12-12T19:33:14Z",
   "published": "2024-12-11T18:42:30Z",
   "aliases": [],
   "summary": "kcp's impersonation allows access to global administrative groups",
@@ -52,6 +52,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/kcp-dev/kcp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2024-3325"
     }
   ],
   "database_specific": {
