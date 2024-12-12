@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rw7h-3g54-j855",
-  "modified": "2024-12-12T06:30:50Z",
+  "modified": "2024-12-12T21:30:46Z",
   "published": "2024-12-12T06:30:50Z",
   "aliases": [
     "CVE-2024-10637"
   ],
   "details": "The Gutenberg Blocks with AI by Kadence WP  WordPress plugin before 3.2.54 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-12T06:15:20Z"

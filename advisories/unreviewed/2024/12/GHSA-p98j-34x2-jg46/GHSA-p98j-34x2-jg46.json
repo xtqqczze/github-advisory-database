@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p98j-34x2-jg46",
-  "modified": "2024-12-12T03:33:06Z",
+  "modified": "2024-12-12T21:30:46Z",
   "published": "2024-12-12T03:33:06Z",
   "aliases": [
     "CVE-2024-44299"
   ],
   "details": "The issue was addressed with improved bounds checks. This issue is fixed in iOS 18.1 and iPadOS 18.1. An attacker may be able to cause unexpected system termination or arbitrary code execution in DCP firmware.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-12T02:15:24Z"
