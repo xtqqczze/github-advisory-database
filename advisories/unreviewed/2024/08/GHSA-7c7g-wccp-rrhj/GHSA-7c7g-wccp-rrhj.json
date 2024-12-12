@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c7g-wccp-rrhj",
-  "modified": "2024-12-04T12:31:44Z",
+  "modified": "2024-12-12T06:30:48Z",
   "published": "2024-08-05T15:30:53Z",
   "aliases": [
     "CVE-2024-7409"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2024:10528"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:10813"
     },
     {
       "type": "WEB",
