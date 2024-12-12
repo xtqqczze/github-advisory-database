@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r864-28pw-8682",
-  "modified": "2024-11-14T18:33:49Z",
+  "modified": "2024-12-12T19:15:24Z",
   "published": "2024-11-14T12:31:02Z",
   "aliases": [
     "CVE-2022-31668"
@@ -85,6 +85,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/goharbor/harbor"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2024-3268"
     }
   ],
   "database_specific": {
