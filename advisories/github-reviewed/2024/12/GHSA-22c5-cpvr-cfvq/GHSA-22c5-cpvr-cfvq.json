@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-22c5-cpvr-cfvq",
-  "modified": "2024-12-12T09:31:36Z",
+  "modified": "2024-12-12T19:20:14Z",
   "published": "2024-12-12T09:31:36Z",
   "aliases": [
     "CVE-2024-4109"
   ],
+  "summary": "undertow: information leakage via HTTP/2 request header reuse",
   "details": "A flaw was found in Undertow. An HTTP request header value from a previous stream may be incorrectly reused for a request associated with a subsequent stream on the same HTTP/2 connection. This issue can potentially lead to information leakage between requests.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.undertow:undertow-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.3.18.Final"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2272325"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/undertow-io/undertow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/undertow-io/undertow/blob/6ae61c6af88d2a8341922ccd0de98926e8349543/core/src/main/java/io/undertow/protocols/http2/HpackDecoder.java#L250-L259"
     }
   ],
   "database_specific": {
@@ -33,8 +62,8 @@
       "CWE-200"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-12-12T19:20:14Z",
     "nvd_published_at": "2024-12-12T09:15:06Z"
   }
 }
