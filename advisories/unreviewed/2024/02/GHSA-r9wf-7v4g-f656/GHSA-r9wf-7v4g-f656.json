@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9wf-7v4g-f656",
-  "modified": "2024-11-05T00:31:25Z",
+  "modified": "2024-12-13T12:31:46Z",
   "published": "2024-02-29T03:33:17Z",
   "aliases": [
     "CVE-2024-21726"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://developer.joomla.org/security-centre/929-20240205-core-inadequate-content-filtering-within-the-filter-code.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sonarsource.com/blog/joomla-multiple-xss-vulnerabilities"
     }
   ],
   "database_specific": {
