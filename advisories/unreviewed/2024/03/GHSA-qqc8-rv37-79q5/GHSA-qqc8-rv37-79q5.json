@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqc8-rv37-79q5",
-  "modified": "2024-03-15T09:30:37Z",
+  "modified": "2024-12-13T18:31:55Z",
   "published": "2024-03-15T09:30:37Z",
   "aliases": [
     "CVE-2024-28053"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-400"
+      "CWE-400",
+      "CWE-770"
     ],
     "severity": "LOW",
     "github_reviewed": false,

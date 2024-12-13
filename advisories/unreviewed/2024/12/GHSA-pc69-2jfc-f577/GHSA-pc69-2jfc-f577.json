@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc69-2jfc-f577",
-  "modified": "2024-12-12T15:31:08Z",
+  "modified": "2024-12-13T18:31:56Z",
   "published": "2024-12-12T15:31:08Z",
   "aliases": [
     "CVE-2024-28145"
   ],
   "details": "An unauthenticated attacker can perform an SQL injection by accessing the /class/dbconnect.php file and supplying malicious GET parameters. The HTTP GET parameters search, table, field, and value are vulnerable. For example, one SQL injection can be performed on the parameter \"field\" with the UNION keyword.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-12T14:15:22Z"

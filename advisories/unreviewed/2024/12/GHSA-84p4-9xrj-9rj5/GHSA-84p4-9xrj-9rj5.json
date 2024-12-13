@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84p4-9xrj-9rj5",
-  "modified": "2024-12-12T15:31:08Z",
+  "modified": "2024-12-13T18:31:56Z",
   "published": "2024-12-12T15:31:08Z",
   "aliases": [
     "CVE-2024-28146"
   ],
   "details": "The application uses several hard-coded credentials to encrypt config files during backup, to decrypt the new firmware during an update and some passwords allow a direct connection to the database server of the affected device.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-798"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-12T14:15:22Z"

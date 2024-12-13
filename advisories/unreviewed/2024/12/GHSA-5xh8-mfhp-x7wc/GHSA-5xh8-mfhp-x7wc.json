@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xh8-mfhp-x7wc",
-  "modified": "2024-12-11T18:30:42Z",
+  "modified": "2024-12-13T18:31:55Z",
   "published": "2024-12-10T18:31:07Z",
   "aliases": [
     "CVE-2024-45493"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://us.msasafety.com/fieldserver"
+    },
+    {
+      "type": "WEB",
+      "url": "https://us.msasafety.com/security-notices"
     },
     {
       "type": "WEB",
