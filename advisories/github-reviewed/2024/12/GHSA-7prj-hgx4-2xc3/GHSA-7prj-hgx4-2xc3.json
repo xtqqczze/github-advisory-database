@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7prj-hgx4-2xc3",
-  "modified": "2024-12-12T19:20:26Z",
+  "modified": "2024-12-13T21:46:53Z",
   "published": "2024-12-12T19:20:26Z",
   "aliases": [],
   "summary": "Potential Vulnerabilities Due to Outdated golang.org/x/crypto Dependency in NanoProxy",
@@ -40,6 +40,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ryanbekhen/nanoproxy"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2024-3330"
     }
   ],
   "database_specific": {
