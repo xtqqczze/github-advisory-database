@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9c2-w942-7r95",
-  "modified": "2024-12-12T03:33:06Z",
+  "modified": "2024-12-13T00:30:50Z",
   "published": "2024-12-12T03:33:06Z",
   "aliases": [
     "CVE-2024-54490"
   ],
   "details": "This issue was addressed by enabling hardened runtime. This issue is fixed in macOS Sequoia 15.2. A local attacker may gain access to user's Keychain items.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-346"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-12T02:15:30Z"
