@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v87c-pw6c-99w6",
+  "modified": "2024-12-13T21:30:36Z",
+  "published": "2024-12-13T21:30:36Z",
+  "aliases": [
+    "CVE-2024-55956"
+  ],
+  "details": "In Cleo Harmony before 5.8.0.24, VLTrader before 5.8.0.24, and LexiCom before 5.8.0.24, an unauthenticated user can import and execute arbitrary Bash or PowerShell commands on the host system by leveraging the default settings of the Autorun directory.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-55956"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.cleo.com/hc/en-us/articles/28408134019735-Cleo-Product-Security-Advisory-CVE-Pending"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-13T21:15:13Z"
+  }
+}
