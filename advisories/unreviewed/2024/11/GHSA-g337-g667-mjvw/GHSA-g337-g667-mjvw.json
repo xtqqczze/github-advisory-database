@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g337-g667-mjvw",
-  "modified": "2024-11-25T21:30:48Z",
+  "modified": "2024-12-13T15:30:38Z",
   "published": "2024-11-06T09:31:21Z",
   "aliases": [
     "CVE-2024-9681"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://curl.se/docs/CVE-2024-9681.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241213-0006"
     },
     {
       "type": "WEB",

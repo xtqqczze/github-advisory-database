@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53mx-8hhc-gmp3",
-  "modified": "2024-11-27T18:34:03Z",
+  "modified": "2024-12-13T15:30:38Z",
   "published": "2024-11-26T15:31:01Z",
   "aliases": [
     "CVE-2024-11691"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2024-68"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2024-70"
     }
   ],
   "database_specific": {

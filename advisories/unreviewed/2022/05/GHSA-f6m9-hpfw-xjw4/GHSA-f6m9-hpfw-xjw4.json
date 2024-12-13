@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6m9-hpfw-xjw4",
-  "modified": "2022-05-13T01:27:48Z",
+  "modified": "2024-12-13T15:30:38Z",
   "published": "2022-05-13T01:27:48Z",
   "aliases": [
     "CVE-2018-12123"
@@ -30,10 +30,15 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202003-48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241213-0008"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-115",
       "CWE-20"
     ],
     "severity": "MODERATE",

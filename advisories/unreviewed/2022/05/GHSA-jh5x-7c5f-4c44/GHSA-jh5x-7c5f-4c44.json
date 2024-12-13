@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jh5x-7c5f-4c44",
-  "modified": "2022-05-13T01:16:06Z",
+  "modified": "2024-12-13T15:30:38Z",
   "published": "2022-05-13T01:16:06Z",
   "aliases": [
     "CVE-2018-7738"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.debian.org/892179"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241213-0002"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9hr-fvm9-7c49",
-  "modified": "2024-04-04T04:02:38Z",
+  "modified": "2024-12-13T15:30:38Z",
   "published": "2023-05-11T18:30:17Z",
   "aliases": [
     "CVE-2023-29400"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2023-1753"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241213-0005"
     }
   ],
   "database_specific": {

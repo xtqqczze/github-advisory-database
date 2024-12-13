@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-735f-pc8j-v9w8",
-  "modified": "2024-09-23T20:07:08Z",
+  "modified": "2024-12-13T15:30:39Z",
   "published": "2024-09-19T16:06:03Z",
   "aliases": [
     "CVE-2024-7254"
@@ -345,6 +345,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/google-protobuf/CVE-2024-7254.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241213-0010"
     }
   ],
   "database_specific": {
