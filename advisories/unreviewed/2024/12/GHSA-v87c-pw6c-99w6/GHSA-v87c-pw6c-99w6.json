@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v87c-pw6c-99w6",
-  "modified": "2024-12-13T21:30:36Z",
+  "modified": "2024-12-14T00:31:11Z",
   "published": "2024-12-13T21:30:36Z",
   "aliases": [
     "CVE-2024-55956"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://support.cleo.com/hc/en-us/articles/28408134019735-Cleo-Product-Security-Advisory-CVE-Pending"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.cleo.com/hc/en-us/articles/28408134019735-Cleo-Product-Security-Update"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.huntress.com/blog/threat-advisory-oh-no-cleo-cleo-software-actively-being-exploited-in-the-wild"
     }
   ],
   "database_specific": {
