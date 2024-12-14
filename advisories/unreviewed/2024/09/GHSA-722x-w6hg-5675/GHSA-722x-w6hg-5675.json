@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-722x-w6hg-5675",
-  "modified": "2024-09-06T09:32:31Z",
+  "modified": "2024-12-14T21:31:31Z",
   "published": "2024-09-06T09:32:31Z",
   "aliases": [
     "CVE-2023-52916"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52916"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4c823e4027dd1d6e88c31028dec13dd19bc7b02d"
     },
     {
       "type": "WEB",

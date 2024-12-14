@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmfq-rg8w-w57m",
-  "modified": "2024-12-02T09:39:12Z",
+  "modified": "2024-12-14T21:31:33Z",
   "published": "2024-11-26T00:33:31Z",
   "aliases": [
     "CVE-2024-53096"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53096"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/43323a4e5b3f8ccc08e2f835abfdc7ee9da8f6ed"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/44f48eb9a6051826227bbd375446064fb2a43c6c"
     },
     {
       "type": "WEB",

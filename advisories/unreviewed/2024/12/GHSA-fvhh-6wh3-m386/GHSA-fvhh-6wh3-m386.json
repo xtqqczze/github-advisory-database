@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvhh-6wh3-m386",
-  "modified": "2024-12-11T21:31:57Z",
+  "modified": "2024-12-14T21:31:33Z",
   "published": "2024-12-02T15:31:39Z",
   "aliases": [
     "CVE-2024-53120"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6030f8bd7902e9e276a0edc09bf11979e4e2bc2e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/882f392d9e3649557e71efd78ae20c86039ffb7c"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf32-pvhj-vvx7",
-  "modified": "2024-10-23T18:33:06Z",
+  "modified": "2024-12-14T21:31:32Z",
   "published": "2024-10-09T15:32:19Z",
   "aliases": [
     "CVE-2024-46871"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c592b6355b9b57b8e59fc5978ce1e14f64488a98"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e1896f381d27466c26cb44b4450eae05cd59dfd0"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8m3-vwhc-qqmc",
-  "modified": "2024-12-09T15:31:33Z",
+  "modified": "2024-12-14T21:31:32Z",
   "published": "2024-10-21T18:30:57Z",
   "aliases": [
     "CVE-2024-49891"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2be1d4f11944cd6283cb97268b3e17c4424945ca"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5873aa7f814754085d418848b2089ef406a02dd0"
     },
     {
       "type": "WEB",

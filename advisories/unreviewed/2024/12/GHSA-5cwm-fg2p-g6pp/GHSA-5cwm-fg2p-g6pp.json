@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cwm-fg2p-g6pp",
-  "modified": "2024-12-11T18:30:38Z",
+  "modified": "2024-12-14T21:31:33Z",
   "published": "2024-12-04T15:31:52Z",
   "aliases": [
     "CVE-2024-53127"
@@ -29,6 +29,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/47693ba35bccaa16efa465159a1c12d78258349e"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/56de724c58c07a7ca3aac027cfd2ccb184ed9e4e"
     },
     {
@@ -37,7 +41,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/938c13740f8b555986e53c0fcbaf00dcd1fabd4c"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a4685366f07448420badb710ff5c12aaaadf63ad"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f701eb601470bfc0a551913ce5f6ebaa770f0ce0"
     }
   ],
   "database_specific": {

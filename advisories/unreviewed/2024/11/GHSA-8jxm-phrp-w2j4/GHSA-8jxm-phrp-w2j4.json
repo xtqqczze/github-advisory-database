@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jxm-phrp-w2j4",
-  "modified": "2024-11-21T21:33:31Z",
+  "modified": "2024-12-14T21:31:33Z",
   "published": "2024-11-19T03:31:08Z",
   "aliases": [
     "CVE-2024-50283"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c6cdc08c25a868a08068dfc319fa9fce982b8e7f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cb645064e0811053c94e86677f2e58ed29359d62"
     },
     {
       "type": "WEB",

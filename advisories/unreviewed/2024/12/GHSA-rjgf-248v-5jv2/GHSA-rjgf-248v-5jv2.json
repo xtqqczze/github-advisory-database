@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjgf-248v-5jv2",
-  "modified": "2024-12-13T18:31:55Z",
+  "modified": "2024-12-14T21:31:34Z",
   "published": "2024-12-04T15:31:52Z",
   "aliases": [
     "CVE-2024-53129"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1e53059729691ca4d905118258b9fbd17d854174"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4e47b99a7764b23a431bff6a3f91dfe77d294765"
     },
     {
       "type": "WEB",

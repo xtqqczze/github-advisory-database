@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jg5-5799-v5w6",
-  "modified": "2024-04-17T21:30:44Z",
+  "modified": "2024-12-14T21:31:31Z",
   "published": "2024-02-23T15:30:37Z",
   "aliases": [
     "CVE-2024-26595"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26595"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/75fa2d8b3c0175b519c99ace54ab8474cfd0077e"
     },
     {
       "type": "WEB",
