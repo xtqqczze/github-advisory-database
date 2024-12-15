@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vwvq-gh67-jhjv",
+  "modified": "2024-12-15T03:30:42Z",
+  "published": "2024-12-15T03:30:42Z",
+  "aliases": [
+    "CVE-2024-56073"
+  ],
+  "details": "An issue was discovered in FastNetMon Community Edition through 1.2.7. Zero-length templates for Netflow v9 allow remote attackers to cause a denial of service (divide-by-zero error and application crash).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56073"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pavel-odintsov/fastnetmon/commit/a36718525e08ad0f2a809363001bf105efc5fe1c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cwe.mitre.org/data/definitions/369.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-15T03:15:16Z"
+  }
+}
