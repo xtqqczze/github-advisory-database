@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cpf-jmmc-8jm3",
-  "modified": "2024-08-08T14:59:47Z",
+  "modified": "2024-12-16T21:46:50Z",
   "published": "2024-08-01T21:31:40Z",
   "aliases": [
     "CVE-2024-4353"
@@ -63,7 +63,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-79"
     ],
     "severity": "LOW",
     "github_reviewed": true,

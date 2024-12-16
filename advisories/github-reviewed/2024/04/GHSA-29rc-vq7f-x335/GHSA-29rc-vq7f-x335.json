@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29rc-vq7f-x335",
-  "modified": "2024-08-02T15:40:38Z",
+  "modified": "2024-12-16T21:46:45Z",
   "published": "2024-04-22T15:30:41Z",
   "aliases": [
     "CVE-2024-27348"
@@ -78,6 +78,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/nx6g6htyhpgtzsocybm242781o8w5kq9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/remote-code-execution-vulnerability-in-apache-hugegraph-server-cve-2024-27348"
     },
     {
       "type": "WEB",
