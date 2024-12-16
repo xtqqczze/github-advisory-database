@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mm54-vj99-7qc8",
+  "modified": "2024-12-16T21:30:57Z",
+  "published": "2024-12-16T21:30:56Z",
+  "aliases": [
+    "CVE-2024-55103"
+  ],
+  "details": "Online Nurse Hiring System v1.0 was discovered to contain a SQL injection vulnerability in the component /admin/profile.php via the fullname parameter.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-55103"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kuzgunaka/test1/blob/main/CVE-2024-55103-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://phpgurukul.com/online-nurse-hiring-system-using-php-and-mysql"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-16T21:15:08Z"
+  }
+}

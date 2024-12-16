@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p9v-2c3q-cf4v",
-  "modified": "2024-12-12T18:30:55Z",
+  "modified": "2024-12-16T21:30:55Z",
   "published": "2024-12-12T18:30:55Z",
   "aliases": [
     "CVE-2024-55099"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/achchhelalchauhan/phpgurukul/blob/main/SQL%20injection%20ONHP-username.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kuzgunaka/CVE-2024-55099-Online-Nurse-Hiring-System-v1.0-SQL-Injection-Vulnerability-"
     }
   ],
   "database_specific": {
