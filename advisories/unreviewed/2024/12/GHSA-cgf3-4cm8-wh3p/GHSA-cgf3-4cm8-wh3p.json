@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cgf3-4cm8-wh3p",
+  "modified": "2024-12-16T06:30:44Z",
+  "published": "2024-12-16T06:30:44Z",
+  "aliases": [
+    "CVE-2024-56086"
+  ],
+  "details": "An issue was discovered in Logpoint before 7.5.0. Authenticated users can inject payloads in Report Templates. These are executed when the backup process is initiated, leading to Remote Code Execution.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://servicedesk.logpoint.com/hc/en-us/articles/22136886421277-Remote-Code-Execution-while-creating-Report-Templates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-16T06:15:07Z"
+  }
+}

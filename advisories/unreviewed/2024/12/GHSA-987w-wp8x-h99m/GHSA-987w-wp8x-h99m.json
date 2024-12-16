@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-987w-wp8x-h99m",
+  "modified": "2024-12-16T06:30:44Z",
+  "published": "2024-12-16T06:30:44Z",
+  "aliases": [
+    "CVE-2024-56112"
+  ],
+  "details": "CyberPanel (aka Cyber Panel) before f0cf648 allows XSS via token or username to plogical/phpmyadminsignin.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56112"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/usmannasir/cyberpanel/commit/f0cf648c7851c96c36bb0c390d13e60931f45900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cyberpanel.net"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-16T06:15:07Z"
+  }
+}
