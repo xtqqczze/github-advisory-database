@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h32q-4pph-8pgm",
-  "modified": "2024-12-11T00:31:24Z",
+  "modified": "2024-12-16T15:31:34Z",
   "published": "2024-12-10T15:32:31Z",
   "aliases": [
     "CVE-2024-5660"
