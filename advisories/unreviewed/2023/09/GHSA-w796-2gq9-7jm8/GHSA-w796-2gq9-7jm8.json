@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w796-2gq9-7jm8",
-  "modified": "2024-04-04T07:44:31Z",
+  "modified": "2024-12-16T12:30:29Z",
   "published": "2023-09-19T18:30:16Z",
   "aliases": [
     "CVE-2023-42793"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.securityweek.com/recently-patched-teamcity-vulnerability-exploited-to-hack-servers"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sonarsource.com/blog/teamcity-vulnerability"
     },
     {
       "type": "WEB",
