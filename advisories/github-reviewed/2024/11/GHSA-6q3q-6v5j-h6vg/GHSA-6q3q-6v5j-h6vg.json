@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q3q-6v5j-h6vg",
-  "modified": "2024-12-16T15:51:09Z",
+  "modified": "2024-12-16T21:26:12Z",
   "published": "2024-11-27T19:00:53Z",
   "aliases": [
     "CVE-2024-49203"
@@ -29,7 +29,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.0.0.M1"
             },
             {
               "fixed": "6.10.1"
@@ -48,10 +48,48 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.0.0.M1"
             },
             {
               "fixed": "6.10.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.github.openfeign.querydsl:querydsl-jpa"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.github.openfeign.querydsl:querydsl-apt"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.6.1"
             }
           ]
         }
@@ -70,7 +108,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.6.1"
+              "last_affected": "5.1.0"
             }
           ]
         }
@@ -89,7 +127,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "5.6.1"
+              "last_affected": "5.1.0"
             }
           ]
         }
