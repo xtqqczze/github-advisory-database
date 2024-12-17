@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j33-cvvr-w245",
-  "modified": "2024-12-17T16:39:38Z",
+  "modified": "2024-12-17T20:07:20Z",
   "published": "2024-12-17T15:31:43Z",
   "aliases": [
     "CVE-2024-50379"
@@ -9,6 +9,10 @@
   "summary": "Apache Tomcat Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability",
   "details": "Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability during JSP compilation in Apache Tomcat permits an RCE on case insensitive file systems when the default servlet is enabled for write (non-default configuration).\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.1, from 10.1.0-M1 through 10.1.33, from 9.0.0.M1 through 9.0.97.\n\nUsers are recommended to upgrade to version 11.0.2, 10.1.34 or 9.0.98, which fixes the issue.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U"
@@ -121,6 +125,10 @@
     {
       "type": "WEB",
       "url": "https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.98"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/12/17/4"
     }
   ],
   "database_specific": {
