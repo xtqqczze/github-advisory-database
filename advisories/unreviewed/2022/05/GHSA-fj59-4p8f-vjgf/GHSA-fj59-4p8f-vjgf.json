@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj59-4p8f-vjgf",
-  "modified": "2022-05-24T16:53:41Z",
+  "modified": "2024-12-17T18:33:39Z",
   "published": "2022-05-24T16:53:41Z",
   "aliases": [
     "CVE-2019-13510"
   ],
   "details": "Rockwell Automation Arena Simulation Software versions 16.00.00 and earlier contain a USE AFTER FREE CWE-416. A maliciously crafted Arena file opened by an unsuspecting user may result in the application crashing or the execution of arbitrary code.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -68,7 +73,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-416"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

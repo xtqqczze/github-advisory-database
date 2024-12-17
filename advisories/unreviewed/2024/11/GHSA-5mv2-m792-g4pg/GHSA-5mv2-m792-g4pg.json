@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mv2-m792-g4pg",
-  "modified": "2024-11-26T21:32:24Z",
+  "modified": "2024-12-17T18:33:44Z",
   "published": "2024-11-26T21:32:24Z",
   "aliases": [
     "CVE-2019-17082"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-306"
+      "CWE-306",
+      "CWE-522"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,
