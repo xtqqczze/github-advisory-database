@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7cv-x9wx-38gx",
-  "modified": "2024-10-03T18:30:36Z",
+  "modified": "2024-12-17T21:30:34Z",
   "published": "2024-10-03T18:30:36Z",
   "aliases": [
     "CVE-2024-8508"
@@ -21,11 +21,20 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/11/msg00009.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.nlnetlabs.nl/downloads/unbound/CVE-2024-8508.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/10/04/5"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1284",
       "CWE-606"
     ],
     "severity": "MODERATE",
