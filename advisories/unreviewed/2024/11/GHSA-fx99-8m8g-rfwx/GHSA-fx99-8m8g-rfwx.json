@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx99-8m8g-rfwx",
-  "modified": "2024-11-27T18:34:01Z",
+  "modified": "2024-12-17T09:31:05Z",
   "published": "2024-11-19T18:31:07Z",
   "aliases": [
     "CVE-2024-53080"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/444fa5b100e5c90550d6bccfe4476efb0391b3ca"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/377500597"
     }
   ],
   "database_specific": {
