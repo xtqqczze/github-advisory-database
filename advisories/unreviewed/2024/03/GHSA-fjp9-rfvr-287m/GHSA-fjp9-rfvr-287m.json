@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjp9-rfvr-287m",
-  "modified": "2024-03-25T09:32:35Z",
+  "modified": "2024-12-17T15:31:43Z",
   "published": "2024-03-25T09:32:35Z",
   "aliases": [
     "CVE-2021-47144"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/amdgpu: fix refcount leak\n\n[Why]\nthe gem object rfb->base.obj[0] is get according to num_planes\nin amdgpufb_create, but is not put according to num_planes\n\n[How]\nput rfb->base.obj[0] in amdgpu_fbdev_destroy according to num_planes",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-25T09:15:08Z"
