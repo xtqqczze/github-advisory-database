@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pfc-w86r-54q6",
-  "modified": "2024-12-16T22:18:29Z",
+  "modified": "2024-12-17T14:38:08Z",
   "published": "2024-12-16T22:18:29Z",
   "aliases": [
     "CVE-2024-35230"
@@ -60,8 +60,20 @@
       "url": "https://github.com/geoserver/geoserver/security/advisories/GHSA-6pfc-w86r-54q6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35230"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/geoserver/geoserver/commit/5fd5f35ae176eff3cc4667a5cf48e4bf5dc4ea99"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/geoserver/geoserver/commit/74fdab745a5deff20ac99abca24d8695fe1a52f8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/geoserver/geoserver/commit/8cd1590a604a10875de67b04995f1952f631f920"
     },
     {
       "type": "PACKAGE",
@@ -75,6 +87,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-16T22:18:29Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-12-16T23:15:06Z"
   }
 }
