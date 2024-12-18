@@ -1,23 +1,13 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-xrh7-2gfq-4rcq",
-  "modified": "2024-12-18T22:03:16Z",
-  "published": "2024-07-17T21:31:38Z",
-  "aliases": [
-    "CVE-2024-36694"
-  ],
-  "summary": "openCart Server-Side Template Injection (SSTI) vulnerability",
-  "details": "A Server-Side Template Injection (SSTI) vulnerability in the Theme Editor Function of openCart project v4.0.2.3 allows attackers to execute arbitrary code via injecting a crafted payload.",
-  "severity": [
-    {
-      "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H"
-    },
-    {
-      "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:H/UI:N/VC:N/VI:N/VA:N/SC:H/SI:H/SA:H"
-    }
-  ],
+  "id": "GHSA-j2v2-3784-vr44",
+  "modified": "2024-12-18T22:02:19Z",
+  "published": "2024-12-18T21:30:56Z",
+  "withdrawn": "2024-12-18T22:02:19Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: openCart Server-Side Template Injection (SSTI) vulnerability",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-xrh7-2gfq-4rcq. This link is maintained to preserve external references.\n\n## Original Description\nOpenCart 4.0.2.3 is vulnerable to Server-Side Template Injection (SSTI) via the Theme Editor Function.",
+  "severity": [],
   "affected": [
     {
       "package": {
@@ -53,10 +43,6 @@
       "url": "https://github.com/A3h1nt/CVEs/blob/main/OpenCart/Readme.md"
     },
     {
-      "type": "PACKAGE",
-      "url": "https://github.com/opencart/opencart"
-    },
-    {
       "type": "WEB",
       "url": "https://github.com/opencart/opencart/releases/tag/4.0.2.3"
     },
@@ -66,13 +52,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [
-      "CWE-1336",
-      "CWE-94"
-    ],
+    "cwe_ids": [],
     "severity": "MODERATE",
     "github_reviewed": true,
-    "github_reviewed_at": "2024-07-17T23:36:49Z",
-    "nvd_published_at": "2024-07-17T19:15:11Z"
+    "github_reviewed_at": "2024-12-18T22:02:19Z",
+    "nvd_published_at": "2024-12-18T20:15:22Z"
   }
 }
