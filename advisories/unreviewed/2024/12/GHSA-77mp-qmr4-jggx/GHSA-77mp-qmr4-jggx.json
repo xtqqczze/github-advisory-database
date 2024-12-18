@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-77mp-qmr4-jggx",
+  "modified": "2024-12-18T21:30:55Z",
+  "published": "2024-12-18T21:30:55Z",
+  "aliases": [
+    "CVE-2024-49201"
+  ],
+  "details": "Keyfactor Remote File Orchestrator (aka remote-file-orchestrator) 2.8 before 2.8.1 allows Information Disclosure: sensitive information could be exposed at the debug logging level.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49201"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Keyfactor/remote-file-orchestrator/releases/tag/2.8.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://keyfactor.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-18T19:15:11Z"
+  }
+}

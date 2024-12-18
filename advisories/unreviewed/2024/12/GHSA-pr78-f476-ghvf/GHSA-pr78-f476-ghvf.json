@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pr78-f476-ghvf",
-  "modified": "2024-12-03T18:31:03Z",
+  "modified": "2024-12-18T21:30:52Z",
   "published": "2024-12-02T21:31:20Z",
   "aliases": [
     "CVE-2018-9414"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m923-5xpw-m3wf",
-  "modified": "2024-11-12T18:30:57Z",
+  "modified": "2024-12-18T21:30:49Z",
   "published": "2024-11-12T18:30:57Z",
   "aliases": [
     "CVE-2024-21938"

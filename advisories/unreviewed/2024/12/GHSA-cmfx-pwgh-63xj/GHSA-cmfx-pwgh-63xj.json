@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmfx-pwgh-63xj",
-  "modified": "2024-12-03T21:31:21Z",
+  "modified": "2024-12-18T21:30:52Z",
   "published": "2024-12-02T21:31:20Z",
   "aliases": [
     "CVE-2018-9413"
