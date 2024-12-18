@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j33-cvvr-w245",
-  "modified": "2024-12-17T20:07:20Z",
+  "modified": "2024-12-18T19:32:49Z",
   "published": "2024-12-17T15:31:43Z",
   "aliases": [
     "CVE-2024-50379"
@@ -129,6 +129,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2024/12/17/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/12/18/2"
     }
   ],
   "database_specific": {
