@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmfq-rg8w-w57m",
-  "modified": "2024-12-14T21:31:33Z",
+  "modified": "2024-12-18T09:31:34Z",
   "published": "2024-11-26T00:33:31Z",
   "aliases": [
     "CVE-2024-53096"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bdc136e2b05fabcd780fe5f165d154eb779dfcb0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/374117290"
     }
   ],
   "database_specific": {

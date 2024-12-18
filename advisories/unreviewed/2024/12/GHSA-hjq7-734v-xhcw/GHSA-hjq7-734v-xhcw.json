@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjq7-734v-xhcw",
-  "modified": "2024-12-17T18:33:49Z",
+  "modified": "2024-12-18T09:31:35Z",
   "published": "2024-12-17T18:33:49Z",
   "aliases": [
     "CVE-2024-53144"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d17c631ba04e960eb6f8728b10d585de20ac4f71"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zerodayinitiative.com/advisories/ZDI-24-1229"
     }
   ],
   "database_specific": {
