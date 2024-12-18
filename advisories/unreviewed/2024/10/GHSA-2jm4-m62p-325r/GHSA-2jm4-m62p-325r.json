@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2jm4-m62p-325r",
-  "modified": "2024-10-03T18:30:36Z",
+  "modified": "2024-12-18T15:32:58Z",
   "published": "2024-10-03T18:30:36Z",
   "aliases": [
     "CVE-2024-39755"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2024-2060"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-2060"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5922-vxrc-h3gf",
-  "modified": "2024-12-18T12:30:55Z",
+  "modified": "2024-12-18T15:32:59Z",
   "published": "2024-12-18T12:30:55Z",
   "aliases": [
     "CVE-2024-4995"

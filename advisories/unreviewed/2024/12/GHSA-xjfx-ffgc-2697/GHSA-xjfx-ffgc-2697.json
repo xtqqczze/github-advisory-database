@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjfx-ffgc-2697",
-  "modified": "2024-12-18T06:30:50Z",
+  "modified": "2024-12-18T15:32:59Z",
   "published": "2024-12-18T06:30:50Z",
   "aliases": [
     "CVE-2024-56175"
   ],
   "details": "In Optimizely Configured Commerce before 5.2.2408, malicious payloads can be stored and subsequently executed in users' browsers under specific conditions: XSS from client-side template injection in list item names.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-18T06:15:24Z"
