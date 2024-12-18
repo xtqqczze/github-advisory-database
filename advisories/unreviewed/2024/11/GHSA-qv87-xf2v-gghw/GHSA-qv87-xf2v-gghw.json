@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv87-xf2v-gghw",
-  "modified": "2024-11-30T00:32:14Z",
+  "modified": "2024-12-18T18:30:50Z",
   "published": "2024-11-28T00:39:26Z",
   "aliases": [
     "CVE-2018-9354"

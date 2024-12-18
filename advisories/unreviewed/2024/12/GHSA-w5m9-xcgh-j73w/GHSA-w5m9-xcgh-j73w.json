@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w5m9-xcgh-j73w",
-  "modified": "2024-12-17T21:30:34Z",
+  "modified": "2024-12-18T18:30:51Z",
   "published": "2024-12-17T21:30:34Z",
   "aliases": [
     "CVE-2024-55513"
   ],
   "details": "A vulnerability was found in Raisecom MSG1200, MSG2100E, MSG2200, and MSG2300 3.90. The component affected by this issue is /upload_netaction.php on the web interface. By crafting a suitable form name, arbitrary files can be uploaded, potentially leading to unauthorized access to server permissions.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-17T20:15:22Z"

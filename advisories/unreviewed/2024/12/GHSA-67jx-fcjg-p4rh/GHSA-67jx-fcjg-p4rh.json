@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67jx-fcjg-p4rh",
-  "modified": "2024-12-12T03:33:06Z",
+  "modified": "2024-12-18T18:30:50Z",
   "published": "2024-12-12T03:33:06Z",
   "aliases": [
     "CVE-2024-44245"
   ],
   "details": "The issue was addressed with improved memory handling. This issue is fixed in iPadOS 17.7.3, visionOS 2.2, macOS Sequoia 15.2, iOS 18.2 and iPadOS 18.2, macOS Sonoma 14.7.2. An app may be able to cause unexpected system termination or corrupt kernel memory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-12T02:15:24Z"
