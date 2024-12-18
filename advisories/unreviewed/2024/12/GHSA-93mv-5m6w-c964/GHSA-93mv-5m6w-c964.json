@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-93mv-5m6w-c964",
+  "modified": "2024-12-18T00:31:23Z",
+  "published": "2024-12-18T00:31:23Z",
+  "aliases": [
+    "CVE-2024-51175"
+  ],
+  "details": "An issue in H3C switch h3c-S1526 allows a remote attacker to obtain sensitive information via the S1526.cfg component.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51175"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/a1drewlong/h3c-S1526/blob/main/Vulnerability%20Cases.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-17T22:15:06Z"
+  }
+}
