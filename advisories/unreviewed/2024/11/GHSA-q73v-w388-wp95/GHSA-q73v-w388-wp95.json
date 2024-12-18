@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q73v-w388-wp95",
-  "modified": "2024-11-25T06:34:57Z",
+  "modified": "2024-12-18T06:30:48Z",
   "published": "2024-11-25T06:34:57Z",
   "aliases": [
     "CVE-2024-11483"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ansible/django-ansible-base/commit/845b3e1838cc0762a7f9f3e0379c5274519d9a44"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:11145"
     },
     {
       "type": "WEB",

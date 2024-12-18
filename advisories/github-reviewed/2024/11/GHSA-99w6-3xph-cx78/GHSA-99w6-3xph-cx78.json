@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99w6-3xph-cx78",
-  "modified": "2024-12-04T03:31:14Z",
+  "modified": "2024-12-18T06:30:48Z",
   "published": "2024-11-12T00:30:36Z",
   "aliases": [
     "CVE-2024-11079"
@@ -105,6 +105,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2024:10770"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:11145"
     },
     {
       "type": "WEB",
