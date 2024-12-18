@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2p6p-9rc9-62j9",
+  "modified": "2024-12-18T19:47:26Z",
+  "published": "2024-12-18T19:47:26Z",
+  "aliases": [
+    "CVE-2024-56145"
+  ],
+  "summary": "Craft CMS has potential RCE when PHP `register_argc_argv` config setting is enabled",
+  "details": "### Impact\nYou are affected if your php.ini configuration has `register_argc_argv` enabled.\n\n### Patches\nUpdate to 4.13.2 or 5.5.2.\n\n### Workarounds\nIf you can't upgrade yet, and `register_argc_argv` is enabled, you can disable it to mitigate the issue.",
+  "severity": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "craftcms/cms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0.0-RC1"
+            },
+            {
+              "fixed": "5.5.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "craftcms/cms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.0.0-RC1"
+            },
+            {
+              "fixed": "4.13.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/craftcms/cms/security/advisories/GHSA-2p6p-9rc9-62j9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/craftcms/cms/commit/82e893fb794d30563da296bca31379c0df0079b3"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/craftcms/cms"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-78"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-12-18T19:47:26Z",
+    "nvd_published_at": null
+  }
+}
