@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96gv-mmp8-mqx5",
-  "modified": "2024-12-11T21:31:57Z",
+  "modified": "2024-12-19T21:31:10Z",
   "published": "2024-12-02T15:31:39Z",
   "aliases": [
     "CVE-2024-53119"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4310902c766e371359e6c6311056ae80b5beeac9"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/897617a413e0bf1c6380e3b34b2f28f450508549"
     },
     {
@@ -34,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d7b0ff5a866724c3ad21f2628c22a63336deec3f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e26fa236758e8baa61a82cfd9fd4388d2e8d6a4c"
     }
   ],
   "database_specific": {

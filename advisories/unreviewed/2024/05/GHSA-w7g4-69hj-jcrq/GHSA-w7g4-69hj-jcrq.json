@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7g4-69hj-jcrq",
-  "modified": "2024-06-10T18:31:03Z",
+  "modified": "2024-12-19T21:31:08Z",
   "published": "2024-05-22T18:30:41Z",
   "aliases": [
     "CVE-2024-5157"
   ],
   "details": "Use after free in Scheduling in Google Chrome prior to 125.0.6422.76 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -35,7 +40,7 @@
     "cwe_ids": [
       "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-22T16:15:10Z"

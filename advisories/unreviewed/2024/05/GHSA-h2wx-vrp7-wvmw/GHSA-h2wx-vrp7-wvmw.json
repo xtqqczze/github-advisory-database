@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2wx-vrp7-wvmw",
-  "modified": "2024-10-27T15:30:43Z",
+  "modified": "2024-12-19T21:31:08Z",
   "published": "2024-05-19T09:34:46Z",
   "aliases": [
     "CVE-2024-35870"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6202996a1c1887e83d0b3b0fcd86d0e5e6910ea0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/755fe68cd4b59e1d2a2dd3286177fd4404f57fed"
     }
   ],
   "database_specific": {
