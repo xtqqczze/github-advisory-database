@@ -1,14 +1,23 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8v9-c8m3-942v",
-  "modified": "2024-10-24T21:45:54Z",
+  "modified": "2024-12-19T20:17:18Z",
   "published": "2024-10-24T18:30:44Z",
   "aliases": [
     "CVE-2024-48514"
   ],
   "summary": "Remote code execution in php-heic-to-jpg",
-  "details": "php-heic-to-jpg <= 1.0.5 is vulnerable to remote code execution. An attacker who can upload heic images is able to execute code on the remote server via the file name. As a result, the CIA is no longer guaranteed. This affects php-heic-to-jpg 1.0.5 and below.",
-  "severity": [],
+  "details": "php-heic-to-jpg < 1.0.5 is vulnerable to remote code execution. An attacker who can upload heic images is able to execute code on the remote server via the file name. As a result, the CIA is no longer guaranteed. This affects php-heic-to-jpg below 1.0.5.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -40,8 +49,16 @@
       "url": "https://github.com/MaestroError/php-heic-to-jpg/pull/34"
     },
     {
+      "type": "WEB",
+      "url": "https://advisories.gitlab.com/pkg/composer/maestroerror/php-heic-to-jpg/CVE-2024-48514"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/MaestroError/php-heic-to-jpg"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-g8v9-c8m3-942v"
     },
     {
       "type": "WEB",
