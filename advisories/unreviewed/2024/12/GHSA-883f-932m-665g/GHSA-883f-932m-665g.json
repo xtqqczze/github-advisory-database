@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-883f-932m-665g",
-  "modified": "2024-12-17T15:31:43Z",
+  "modified": "2024-12-19T06:30:43Z",
   "published": "2024-12-17T06:30:33Z",
   "aliases": [
     "CVE-2024-38499"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/25284"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Dec/16"
     }
   ],
   "database_specific": {
