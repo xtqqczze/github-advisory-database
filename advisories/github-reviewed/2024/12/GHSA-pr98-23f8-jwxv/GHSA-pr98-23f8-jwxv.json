@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pr98-23f8-jwxv",
-  "modified": "2024-12-19T22:22:09Z",
+  "modified": "2024-12-20T15:13:23Z",
   "published": "2024-12-19T18:31:37Z",
   "aliases": [
     "CVE-2024-12798"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.15.13"
+              "fixed": "1.5.13"
             }
           ]
         }

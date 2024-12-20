@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6v67-2wr5-gvf4",
-  "modified": "2024-12-19T22:22:44Z",
+  "modified": "2024-12-20T15:12:53Z",
   "published": "2024-12-19T18:31:37Z",
   "aliases": [
     "CVE-2024-12801"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.15.13"
+              "fixed": "1.5.13"
             }
           ]
         }
