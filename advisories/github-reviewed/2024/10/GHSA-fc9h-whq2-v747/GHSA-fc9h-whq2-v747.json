@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc9h-whq2-v747",
-  "modified": "2024-11-05T21:34:50Z",
+  "modified": "2024-12-20T15:30:47Z",
   "published": "2024-10-15T15:30:56Z",
   "aliases": [
     "CVE-2024-48948"
@@ -59,6 +59,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/indutny/elliptic"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241220-0004"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4828-5p9m-g4ff",
-  "modified": "2024-07-10T18:32:17Z",
+  "modified": "2024-12-20T15:30:44Z",
   "published": "2024-02-08T15:30:27Z",
   "aliases": [
     "CVE-2024-0985"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://saites.dev/projects/personal/postgres-cve-2024-0985"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241220-0005"
     },
     {
       "type": "WEB",

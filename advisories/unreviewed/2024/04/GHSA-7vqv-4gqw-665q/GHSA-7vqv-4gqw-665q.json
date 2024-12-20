@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vqv-4gqw-665q",
-  "modified": "2024-06-27T15:30:38Z",
+  "modified": "2024-12-20T15:30:44Z",
   "published": "2024-04-04T09:30:35Z",
   "aliases": [
     "CVE-2024-26791"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: dev-replace: properly validate device names\n\nThere's a syzbot report that device name buffers passed to device\nreplace are not properly checked for string termination which could lead\nto a read out of bounds in getname_kernel().\n\nAdd a helper that validates both source and target device name buffers.\nFor devid as the source initialize the buffer to empty string in case\nsomething tries to read it later.\n\nThis was originally analyzed and fixed in a different way by Edward Adam\nDavis (see links).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-04T09:15:08Z"

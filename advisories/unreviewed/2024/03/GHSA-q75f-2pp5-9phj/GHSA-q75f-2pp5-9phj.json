@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q75f-2pp5-9phj",
-  "modified": "2024-07-03T18:33:49Z",
+  "modified": "2024-12-20T15:30:44Z",
   "published": "2024-03-26T21:30:48Z",
   "aliases": [
     "CVE-2024-2887"
@@ -38,10 +38,16 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IQMRHKDEG4J7TMRRRGUGW6GS4MVBX5IT"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zerodayinitiative.com/blog/2024/5/2/cve-2024-2887-a-pwn2own-winning-bug-in-google-chrome"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-843"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfrv-7m84-m2v2",
-  "modified": "2024-12-10T18:31:06Z",
+  "modified": "2024-12-20T15:30:47Z",
   "published": "2024-12-10T18:31:06Z",
   "aliases": [
     "CVE-2024-45663"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45663"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241220-0003"
     },
     {
       "type": "WEB",
