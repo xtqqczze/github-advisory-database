@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmx6-8gph-wm9j",
-  "modified": "2024-12-12T03:33:06Z",
+  "modified": "2024-12-20T21:30:45Z",
   "published": "2024-12-12T03:33:06Z",
   "aliases": [
     "CVE-2024-54491"
   ],
   "details": "The issue was resolved by sanitizing logging This issue is fixed in macOS Sequoia 15.2. A malicious application may be able to determine a user's current location.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-12T02:15:30Z"
