@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j76j-rqwj-jmvv",
-  "modified": "2024-09-27T14:09:09Z",
+  "modified": "2024-12-20T17:50:21Z",
   "published": "2024-09-09T21:31:22Z",
-  "aliases": [
-    "CVE-2024-7341"
-  ],
-  "summary": "Keycloak Session Fixation vulnerability",
-  "details": "A session fixation issue was discovered in the SAML adapters provided by Keycloak. The session ID and JSESSIONID cookie are not changed at login time, even when `the turnOffChangeSessionIdOnLogin` option is configured. This flaw allows an attacker who hijacks the current session before authentication to trigger session fixation.",
+  "withdrawn": "2024-12-20T17:50:21Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Keycloak Session Fixation vulnerability",
+  "details": "# Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-5rxp-2rhr-qwqv. This link is maintained to preserve external references.\n\n# Original Description\nA session fixation issue was discovered in the SAML adapters provided by Keycloak. The session ID and JSESSIONID cookie are not changed at login time, even when `the turnOffChangeSessionIdOnLogin` option is configured. This flaw allows an attacker who hijacks the current session before authentication to trigger session fixation.",
   "severity": [
     {
       "type": "CVSS_V3",
