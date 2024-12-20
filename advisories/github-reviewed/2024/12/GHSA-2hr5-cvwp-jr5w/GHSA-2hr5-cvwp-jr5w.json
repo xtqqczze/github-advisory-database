@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hr5-cvwp-jr5w",
-  "modified": "2024-12-20T19:41:42Z",
+  "modified": "2024-12-20T21:37:23Z",
   "published": "2024-12-20T18:31:32Z",
   "aliases": [
     "CVE-2024-55186"
@@ -10,8 +10,12 @@
   "details": "An IDOR (Insecure Direct Object Reference) vulnerability exists in Oqtane Framework 6.0.0, allowing a logged-in user to access inbox messages of other users by manipulating the notification ID in the request URL. By changing the notification ID, an attacker can view sensitive mail details belonging to other users.",
   "severity": [
     {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    },
+    {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:P"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:P"
     }
   ],
   "affected": [
@@ -115,7 +119,7 @@
       "CWE-639",
       "CWE-863"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-20T19:40:59Z",
     "nvd_published_at": "2024-12-20T16:15:23Z"

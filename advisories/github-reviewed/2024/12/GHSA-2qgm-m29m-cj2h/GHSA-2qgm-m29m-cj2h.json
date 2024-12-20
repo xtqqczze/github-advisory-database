@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qgm-m29m-cj2h",
-  "modified": "2024-12-20T18:00:22Z",
+  "modified": "2024-12-20T21:36:55Z",
   "published": "2024-12-20T15:10:46Z",
   "aliases": [
     "CVE-2024-56331"
@@ -63,6 +63,10 @@
       "url": "https://github.com/louislam/uptime-kuma/security/advisories/GHSA-2qgm-m29m-cj2h"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56331"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/louislam/uptime-kuma/commit/6cfae01a0d3727c517afe512fc8fec1d99acf875"
     },
@@ -82,6 +86,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-20T15:10:46Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-12-20T20:15:24Z"
   }
 }
