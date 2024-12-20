@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr4c-ch83-r968",
-  "modified": "2024-10-22T21:30:36Z",
+  "modified": "2024-12-20T18:31:30Z",
   "published": "2024-10-03T00:30:41Z",
   "aliases": [
     "CVE-2024-45519"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45519"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.projectdiscovery.io/zimbra-remote-code-execution"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp2r-34c8-48xq",
-  "modified": "2024-08-06T15:30:50Z",
+  "modified": "2024-12-20T18:31:30Z",
   "published": "2024-08-05T09:30:26Z",
   "aliases": [
     "CVE-2024-38856"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://ofbiz.apache.org/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/08/04/1"
     }
   ],
   "database_specific": {

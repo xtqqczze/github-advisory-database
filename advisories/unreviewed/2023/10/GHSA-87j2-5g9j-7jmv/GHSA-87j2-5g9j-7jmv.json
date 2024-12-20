@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87j2-5g9j-7jmv",
-  "modified": "2024-07-03T18:33:10Z",
+  "modified": "2024-12-20T18:31:28Z",
   "published": "2023-10-25T18:32:21Z",
   "aliases": [
     "CVE-2023-34048"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34048"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/understanding-cve-2023-34048-a-zero-day-out-of-bound-write-in-vcenter-server"
     },
     {
       "type": "WEB",
