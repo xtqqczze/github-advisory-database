@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32gq-x56h-299c",
-  "modified": "2024-12-18T18:23:06Z",
+  "modified": "2024-12-20T21:41:09Z",
   "published": "2024-12-18T18:23:06Z",
   "aliases": [],
   "summary": "age vulnerable to malicious plugin names, recipients, or identities causing arbitrary binary execution",
@@ -32,6 +32,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/FiloSottile/age/security/advisories/GHSA-32gq-x56h-299c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/str4d/rage/security/advisories/GHSA-4fg7-vxc8-qx5w"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pf6-cq2v-23ww",
-  "modified": "2024-12-19T15:22:43Z",
+  "modified": "2024-12-20T21:41:36Z",
   "published": "2024-12-19T15:22:43Z",
   "aliases": [],
   "summary": "WhoDB Allows Unbounded Memory Consumption in Authentication Middleware Can Lead to Denial of Service",
