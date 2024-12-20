@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w64p-pvrc-c5w3",
-  "modified": "2022-05-14T01:02:27Z",
+  "modified": "2024-12-20T06:30:45Z",
   "published": "2022-05-14T01:02:27Z",
   "aliases": [
     "CVE-2014-6332"

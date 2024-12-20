@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hj2-5cwp-2349",
-  "modified": "2022-05-17T01:59:36Z",
+  "modified": "2024-12-20T06:30:44Z",
   "published": "2022-05-17T01:59:36Z",
   "aliases": [
     "CVE-2011-1823"
   ],
   "details": "The vold volume manager daemon on Android 3.0 and 2.x before 2.3.4 trusts messages that are received from a PF_NETLINK socket, which allows local users to execute arbitrary code and gain root privileges via a negative index that bypasses a maximum-only signed integer check in the DirectVolume::handlePartitionAdded method, which triggers memory corruption, as demonstrated by Gingerbreak.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,11 +25,23 @@
     },
     {
       "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/system/core.git%3Ba=commit%3Bh=b620a0b1c7ae486e979826200e8e441605b0a5d6"
+    },
+    {
+      "type": "WEB",
       "url": "http://android.git.kernel.org/?p=platform/system/core.git;a=commit;h=b620a0b1c7ae486e979826200e8e441605b0a5d6"
     },
     {
       "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/system/netd.git%3Ba=commit%3Bh=79b579c92afc08ab12c0a5788d61f2dd2934836f"
+    },
+    {
+      "type": "WEB",
       "url": "http://android.git.kernel.org/?p=platform/system/netd.git;a=commit;h=79b579c92afc08ab12c0a5788d61f2dd2934836f"
+    },
+    {
+      "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/system/vold.git%3Ba=commit%3Bh=c51920c82463b240e2be0430849837d6fdc5352e"
     },
     {
       "type": "WEB",
@@ -52,7 +69,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-190"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
