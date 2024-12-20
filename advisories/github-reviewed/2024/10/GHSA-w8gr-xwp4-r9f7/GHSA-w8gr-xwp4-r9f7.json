@@ -1,10 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8gr-xwp4-r9f7",
-  "modified": "2024-10-14T20:55:22Z",
+  "modified": "2024-12-20T17:55:01Z",
   "published": "2024-10-14T20:55:22Z",
-  "aliases": [],
-  "summary": "Vulnerable Redirect URI Validation Results in Open Redirect",
+  "aliases": [
+    "CVE-2024-8883"
+  ],
+  "summary": "Keycloak has Vulnerable Redirect URI Validation Results in Open Redirect",
   "details": "A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http://localhost/ or http://127.0.0.1/, enabling sensitive information such as authorization codes to be exposed to the attacker, potentially leading to session hijacking.",
   "severity": [
     {
@@ -86,8 +88,84 @@
       "url": "https://github.com/keycloak/keycloak/security/advisories/GHSA-w8gr-xwp4-r9f7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8883"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/releases/tag/25.0.6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/blob/main/services/src/main/java/org/keycloak/protocol/oidc/utils/RedirectUtils.java"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/keycloak/keycloak"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2312511"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2024-8883"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8826"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8824"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:8823"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6890"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6889"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6887"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6886"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6882"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6880"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6879"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6878"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:10386"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:10385"
     }
   ],
   "database_specific": {
