@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv7v-rgg6-548h",
-  "modified": "2024-11-15T01:00:32Z",
+  "modified": "2024-12-21T18:30:49Z",
   "published": "2024-11-12T22:08:42Z",
   "aliases": [
     "CVE-2024-52301"
@@ -154,6 +154,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/laravel/framework"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00019.html"
     }
   ],
   "database_specific": {
