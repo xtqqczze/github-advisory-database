@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp3c-h68x-v9g8",
-  "modified": "2024-12-18T21:30:55Z",
+  "modified": "2024-12-21T00:33:04Z",
   "published": "2024-12-18T21:30:55Z",
   "aliases": [
     "CVE-2024-49202"
   ],
   "details": "Keyfactor Command before 12.5.0 has Incorrect Access Control: access tokens are over permissioned, aka 64099. The fixed versions are 11.5.1.1, 11.5.2.1, 11.5.3.1, 11.5.4.5, 11.5.6.1, 11.6.0, 12.2.0.1, 12.3.0.1, 12.4.0.1, 12.5.0, and 24.4.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-276"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-18T19:15:11Z"
