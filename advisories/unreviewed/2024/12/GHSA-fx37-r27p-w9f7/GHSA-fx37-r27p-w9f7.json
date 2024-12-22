@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx37-r27p-w9f7",
-  "modified": "2024-12-19T18:31:37Z",
+  "modified": "2024-12-22T09:30:42Z",
   "published": "2024-12-19T18:31:37Z",
   "aliases": [
     "CVE-2024-9154"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cyberdanube.com/security-research/authenticated-remote-code-execution-in-ewon-flexy-205"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Dec/18"
     }
   ],
   "database_specific": {
