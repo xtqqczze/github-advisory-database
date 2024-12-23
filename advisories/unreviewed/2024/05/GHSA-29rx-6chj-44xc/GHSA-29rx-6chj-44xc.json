@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29rx-6chj-44xc",
-  "modified": "2024-05-21T15:31:41Z",
+  "modified": "2024-12-23T18:30:47Z",
   "published": "2024-05-21T15:31:41Z",
   "aliases": [
     "CVE-2021-47291"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: fix another slab-out-of-bounds in fib6_nh_flush_exceptions\n\nWhile running the self-tests on a KASAN enabled kernel, I observed a\nslab-out-of-bounds splat very similar to the one reported in\ncommit 821bbf79fe46 (\"ipv6: Fix KASAN: slab-out-of-bounds Read in\n fib6_nh_flush_exceptions\").\n\nWe additionally need to take care of fib6_metrics initialization\nfailure when the caller provides an nh.\n\nThe fix is similar, explicitly free the route instead of calling\nfib6_info_release on a half-initialized object.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:17Z"

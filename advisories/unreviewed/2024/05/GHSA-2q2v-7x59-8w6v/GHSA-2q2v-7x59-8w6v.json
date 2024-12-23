@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2q2v-7x59-8w6v",
-  "modified": "2024-06-27T12:30:45Z",
+  "modified": "2024-12-23T18:30:47Z",
   "published": "2024-05-01T15:30:35Z",
   "aliases": [
     "CVE-2024-27046"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfp: flower: handle acti_netdevs allocation failure\n\nThe kmalloc_array() in nfp_fl_lag_do_work() will return null, if\nthe physical memory has run out. As a result, if we dereference\nthe acti_netdevs, the null pointer dereference bugs will happen.\n\nThis patch adds a check to judge whether allocation failure occurs.\nIf it happens, the delayed work will be rescheduled and try again.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T13:15:49Z"
