@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-crw4-8858-pw4f",
+  "modified": "2024-12-23T00:30:53Z",
+  "published": "2024-12-23T00:30:53Z",
+  "aliases": [
+    "CVE-2024-56312"
+  ],
+  "details": "A stored cross-site scripting (XSS) vulnerability in the Project Dashboard name of REDCap through 15.0.0 allows authenticated users to inject malicious scripts into the name field of a Project Dashboard. When a user clicks on the project Dashboard name, the crafted payload is executed, potentially enabling the execution of arbitrary web scripts.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56312"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ping-oui-no/Vulnerability-Research-CVESS/tree/main/RedCap"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.evms.edu/research/resources_services/redcap/redcap_change_log"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-22T22:15:05Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-58gj-55xv-pwhg",
+  "modified": "2024-12-23T00:30:54Z",
+  "published": "2024-12-23T00:30:54Z",
+  "aliases": [
+    "CVE-2024-56313"
+  ],
+  "details": "A stored cross-site scripting (XSS) vulnerability in the Calendar feature of REDCap through 15.0.0 allows authenticated users to inject malicious scripts into the Notes field of a calendar event. When the event is viewed, the crafted payload is executed, potentially enabling the execution of arbitrary web scripts.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56313"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ping-oui-no/Vulnerability-Research-CVESS/tree/main/RedCap"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.evms.edu/research/resources_services/redcap/redcap_change_log"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-22T22:15:06Z"
+  }
+}
