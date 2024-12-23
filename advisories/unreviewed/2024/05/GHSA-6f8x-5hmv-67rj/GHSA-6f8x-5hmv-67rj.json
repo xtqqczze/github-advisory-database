@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f8x-5hmv-67rj",
-  "modified": "2024-06-25T21:31:12Z",
+  "modified": "2024-12-23T15:30:47Z",
   "published": "2024-05-01T15:30:35Z",
   "aliases": [
     "CVE-2024-27038"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: Fix clk_core_get NULL dereference\n\nIt is possible for clk_core_get to dereference a NULL in the following\nsequence:\n\nclk_core_get()\n    of_clk_get_hw_from_clkspec()\n        __of_clk_get_hw_from_provider()\n            __clk_get_hw()\n\n__clk_get_hw() can return NULL which is dereferenced by clk_core_get() at\nhw->core.\n\nPrior to commit dde4eff47c82 (\"clk: Look for parents with clkdev based\nclk_lookups\") the check IS_ERR_OR_NULL() was performed which would have\ncaught the NULL.\n\nReading the description of this function it talks about returning NULL but\nthat cannot be so at the moment.\n\nUpdate the function to check for hw before dereferencing it and return NULL\nif hw is NULL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T13:15:49Z"

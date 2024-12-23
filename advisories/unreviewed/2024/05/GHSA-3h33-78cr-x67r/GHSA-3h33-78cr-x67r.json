@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3h33-78cr-x67r",
-  "modified": "2024-05-01T06:31:42Z",
+  "modified": "2024-12-23T15:30:46Z",
   "published": "2024-05-01T06:31:42Z",
   "aliases": [
     "CVE-2024-26964"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: xhci: Add error handling in xhci_map_urb_for_dma\n\nCurrently xhci_map_urb_for_dma() creates a temporary buffer and copies\nthe SG list to the new linear buffer. But if the kzalloc_node() fails,\nthen the following sg_pcopy_to_buffer() can lead to crash since it\ntries to memcpy to NULL pointer.\n\nSo return -ENOMEM if kzalloc returns null pointer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T06:15:12Z"
