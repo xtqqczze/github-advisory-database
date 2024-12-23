@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmch-28qm-wpc4",
-  "modified": "2024-06-26T00:31:40Z",
+  "modified": "2024-12-23T21:30:50Z",
   "published": "2024-05-01T15:30:35Z",
   "aliases": [
     "CVE-2024-27045"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix a potential buffer overflow in 'dp_dsc_clock_en_read()'\n\nTell snprintf() to store at most 10 bytes in the output buffer\ninstead of 30.\n\nFixes the below:\ndrivers/gpu/drm/amd/amdgpu/../display/amdgpu_dm/amdgpu_dm_debugfs.c:1508 dp_dsc_clock_en_read() error: snprintf() is printing too much 30 vs 10",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T13:15:49Z"

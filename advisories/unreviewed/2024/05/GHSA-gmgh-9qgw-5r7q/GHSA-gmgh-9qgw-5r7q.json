@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmgh-9qgw-5r7q",
-  "modified": "2024-06-26T00:31:40Z",
+  "modified": "2024-12-23T21:30:50Z",
   "published": "2024-05-01T15:30:34Z",
   "aliases": [
     "CVE-2024-27025"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnbd: null check for nla_nest_start\n\nnla_nest_start() may fail and return NULL. Insert a check and set errno\nbased on other call sites within the same source code.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T13:15:48Z"

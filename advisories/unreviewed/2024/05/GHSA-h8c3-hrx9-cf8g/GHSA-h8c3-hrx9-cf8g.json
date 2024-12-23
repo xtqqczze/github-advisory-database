@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8c3-hrx9-cf8g",
-  "modified": "2024-06-27T12:30:45Z",
+  "modified": "2024-12-23T21:30:49Z",
   "published": "2024-05-01T06:31:42Z",
   "aliases": [
     "CVE-2024-26981"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnilfs2: fix OOB in nilfs_set_de_type\n\nThe size of the nilfs_type_by_mode array in the fs/nilfs2/dir.c file is\ndefined as \"S_IFMT >> S_SHIFT\", but the nilfs_set_de_type() function,\nwhich uses this array, specifies the index to read from the array in the\nsame way as \"(mode & S_IFMT) >> S_SHIFT\".\n\nstatic void nilfs_set_de_type(struct nilfs_dir_entry *de, struct inode\n *inode)\n{\n\tumode_t mode = inode->i_mode;\n\n\tde->file_type = nilfs_type_by_mode[(mode & S_IFMT)>>S_SHIFT]; // oob\n}\n\nHowever, when the index is determined this way, an out-of-bounds (OOB)\nerror occurs by referring to an index that is 1 larger than the array size\nwhen the condition \"mode & S_IFMT == S_IFMT\" is satisfied.  Therefore, a\npatch to resize the nilfs_type_by_mode array should be applied to prevent\nOOB errors.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -68,8 +73,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T06:15:15Z"

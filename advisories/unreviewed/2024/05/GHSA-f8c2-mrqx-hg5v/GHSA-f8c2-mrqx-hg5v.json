@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8c2-mrqx-hg5v",
-  "modified": "2024-05-01T15:30:35Z",
+  "modified": "2024-12-23T21:30:50Z",
   "published": "2024-05-01T15:30:35Z",
   "aliases": [
     "CVE-2024-27033"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: fix to remove unnecessary f2fs_bug_on() to avoid panic\n\nverify_blkaddr() will trigger panic once we inject fault into\nf2fs_is_valid_blkaddr(), fix to remove this unnecessary f2fs_bug_on().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T13:15:49Z"

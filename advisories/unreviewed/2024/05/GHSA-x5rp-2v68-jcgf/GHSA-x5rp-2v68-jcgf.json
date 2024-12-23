@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x5rp-2v68-jcgf",
-  "modified": "2024-06-27T15:30:38Z",
+  "modified": "2024-12-23T21:30:49Z",
   "published": "2024-05-01T06:31:43Z",
   "aliases": [
     "CVE-2024-26993"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs: sysfs: Fix reference leak in sysfs_break_active_protection()\n\nThe sysfs_break_active_protection() routine has an obvious reference\nleak in its error path.  If the call to kernfs_find_and_get() fails then\nkn will be NULL, so the companion sysfs_unbreak_active_protection()\nroutine won't get called (and would only cause an access violation by\ntrying to dereference kn->parent if it was called).  As a result, the\nreference to kobj acquired at the start of the function will never be\nreleased.\n\nFix the leak by adding an explicit kobject_put() call when kn is NULL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -69,7 +74,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-01T06:15:17Z"
