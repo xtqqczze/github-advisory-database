@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cx5-89vm-833x",
-  "modified": "2024-12-02T17:15:24Z",
+  "modified": "2024-12-23T17:13:27Z",
   "published": "2024-12-02T17:15:24Z",
   "aliases": [
     "CVE-2024-52800"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.26.1"
+              "fixed": "1.26.2"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.26.1"
+      }
     },
     {
       "package": {
@@ -47,11 +50,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.26.1"
+              "fixed": "1.26.2"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.26.1"
+      }
     },
     {
       "package": {
@@ -66,11 +72,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.26.1"
+              "fixed": "1.26.2"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.26.1"
+      }
     },
     {
       "package": {
@@ -85,11 +94,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.26.1"
+              "fixed": "1.26.2"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.26.1"
+      }
     },
     {
       "package": {
@@ -104,11 +116,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.26.1"
+              "fixed": "1.26.2"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.26.1"
+      }
     },
     {
       "package": {
@@ -123,11 +138,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.26.1"
+              "fixed": "1.26.2"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 1.26.1"
+      }
     }
   ],
   "references": [
