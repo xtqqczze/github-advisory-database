@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f697-gm3h-xrf9",
-  "modified": "2024-12-24T12:30:42Z",
+  "modified": "2024-12-24T18:30:49Z",
   "published": "2024-12-24T12:30:42Z",
   "aliases": [
     "CVE-2024-43441"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/h2607yv32wgcrywov960jpxhvsmmlf12"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/12/24/2"
     }
   ],
   "database_specific": {

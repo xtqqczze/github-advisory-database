@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-325m-pvh6-hvj7",
-  "modified": "2024-12-23T00:30:54Z",
+  "modified": "2024-12-24T18:30:49Z",
   "published": "2024-12-23T00:30:54Z",
   "aliases": [
     "CVE-2024-12896"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12896"
+    },
+    {
+      "type": "WEB",
+      "url": "https://netsecfish.notion.site/IntelBras-IP-Camera-Information-Disclosure-15e6b683e67c80a89f89daf59daa9ea8"
     },
     {
       "type": "WEB",

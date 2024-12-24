@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xq8-m4f5-h82h",
-  "modified": "2024-05-21T15:31:41Z",
+  "modified": "2024-12-24T18:30:48Z",
   "published": "2024-05-21T15:31:41Z",
   "aliases": [
     "CVE-2021-47270"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: fix various gadgets null ptr deref on 10gbps cabling.\n\nThis avoids a null pointer dereference in\nf_{ecm,eem,hid,loopback,printer,rndis,serial,sourcesink,subset,tcm}\nby simply reusing the 5gbps config for 10gbps.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:15Z"
