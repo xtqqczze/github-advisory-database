@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c2p-rqx3-w4px",
-  "modified": "2024-12-23T18:30:47Z",
+  "modified": "2024-12-24T03:30:46Z",
   "published": "2024-12-23T18:30:47Z",
   "aliases": [
     "CVE-2024-40896"
   ],
   "details": "In libxml2 2.11 before 2.11.9, 2.12 before 2.12.9, and 2.13 before 2.13.3, the SAX parser can produce events for external entities even if custom SAX handlers try to override entity content (by setting \"checked\"). This makes classic XXE attacks possible.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-611"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-23T17:15:08Z"
