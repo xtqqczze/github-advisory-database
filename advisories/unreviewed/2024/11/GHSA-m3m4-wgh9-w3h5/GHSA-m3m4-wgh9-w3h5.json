@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3m4-wgh9-w3h5",
-  "modified": "2024-11-19T18:30:54Z",
+  "modified": "2024-12-24T06:30:42Z",
   "published": "2024-11-12T00:30:36Z",
   "aliases": [
     "CVE-2024-25255"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://exploitart.ist/exploit/2023/09/17/sublime-text-os-command-injection.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://forum.sublimetext.com/t/cve-2024-25255-critical/74906/3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sublimetext.com/docs/build_systems.html#exec-target-options"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sublimetext.com/docs/build_systems.html#shell_cmd."
     }
   ],
   "database_specific": {
