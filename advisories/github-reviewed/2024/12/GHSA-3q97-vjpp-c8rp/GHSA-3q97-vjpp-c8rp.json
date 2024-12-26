@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3q97-vjpp-c8rp",
-  "modified": "2024-12-20T21:36:51Z",
+  "modified": "2024-12-26T17:28:31Z",
   "published": "2024-12-20T15:01:20Z",
   "aliases": [
     "CVE-2024-56329"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.0.0"
             },
             {
               "fixed": "6.2.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "joelbutcher/socialstream"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.6.0"
             }
           ]
         }
