@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x52f-h5g4-8qv5",
-  "modified": "2024-12-26T20:37:38Z",
+  "modified": "2024-12-26T21:45:58Z",
   "published": "2024-12-26T18:25:25Z",
   "aliases": [
     "CVE-2024-56510"
@@ -66,6 +66,10 @@
       "url": "https://github.com/marp-team/marp-core/security/advisories/GHSA-x52f-h5g4-8qv5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56510"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/marp-team/marp-core/pull/282"
     },
@@ -93,6 +97,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-26T18:25:25Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-12-26T21:15:06Z"
   }
 }
