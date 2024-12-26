@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77pm-w3hx-f8mj",
-  "modified": "2024-12-23T21:14:54Z",
+  "modified": "2024-12-26T20:09:20Z",
   "published": "2024-12-23T18:30:47Z",
   "aliases": [
     "CVE-2024-23945"
@@ -9,6 +9,10 @@
   "summary": "Apache Hive and Spark: CookieSigner exposes the correct signature when message verification fails",
   "details": "Signing cookies is an application security feature that adds a digital signature to cookie data to verify its authenticity and integrity. The signature helps prevent malicious actors from modifying the cookie value, which can lead to security vulnerabilities and exploitation. Apache Hive’s service component accidentally exposes the signed cookie to the end user when there is a mismatch in signature between the current and expected cookie. Exposing the correct cookie signature can lead to further exploitation.\n\nThe vulnerable CookieSigner logic was introduced in Apache Hive by HIVE-9710 (1.2.0) and in Apache Spark by SPARK-14987 (2.0.0). The affected components are the following:\n* org.apache.hive:hive-service\n* org.apache.spark:spark-hive-thriftserver_2.11\n* org.apache.spark:spark-hive-thriftserver_2.12",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
