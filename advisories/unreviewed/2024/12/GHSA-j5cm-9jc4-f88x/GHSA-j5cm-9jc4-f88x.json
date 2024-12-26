@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5cm-9jc4-f88x",
-  "modified": "2024-12-20T21:30:46Z",
+  "modified": "2024-12-26T21:30:36Z",
   "published": "2024-12-20T21:30:46Z",
   "aliases": [
     "CVE-2024-55509"
   ],
   "details": "SQL injection vulnerability in CodeAstro Complaint Management System v.1.0 allows a remote attacker to execute arbitrary code and escalate privileges via the id parameter of the delete.php component.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-20T21:15:09Z"

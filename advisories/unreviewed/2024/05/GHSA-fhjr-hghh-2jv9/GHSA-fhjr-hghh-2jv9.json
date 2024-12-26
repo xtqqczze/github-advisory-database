@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhjr-hghh-2jv9",
-  "modified": "2024-05-21T15:31:42Z",
+  "modified": "2024-12-26T21:30:36Z",
   "published": "2024-05-21T15:31:42Z",
   "aliases": [
     "CVE-2021-47321"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwatchdog: Fix possible use-after-free by calling del_timer_sync()\n\nThis driver's remove path calls del_timer(). However, that function\ndoes not wait until the timer handler finishes. This means that the\ntimer handler may still be running after the driver's remove function\nhas finished, which would result in a use-after-free.\n\nFix by calling del_timer_sync(), which makes sure the timer handler\nhas finished, and unable to re-schedule itself.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:19Z"

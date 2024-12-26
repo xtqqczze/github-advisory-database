@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvc3-6gh7-chwx",
-  "modified": "2024-05-03T18:30:37Z",
+  "modified": "2024-12-26T21:30:35Z",
   "published": "2024-05-03T18:30:37Z",
   "aliases": [
     "CVE-2022-48695"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: mpt3sas: Fix use-after-free warning\n\nFix the following use-after-free warning which is observed during\ncontroller reset:\n\nrefcount_t: underflow; use-after-free.\nWARNING: CPU: 23 PID: 5399 at lib/refcount.c:28 refcount_warn_saturate+0xa6/0xf0",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-03T18:15:08Z"
