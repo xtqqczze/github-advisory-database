@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfwh-77j4-h2hh",
-  "modified": "2024-12-26T03:30:58Z",
+  "modified": "2024-12-26T18:30:35Z",
   "published": "2024-12-26T03:30:58Z",
   "aliases": [
     "CVE-2024-12932"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://code-projects.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code-projects.org/simple-admin-panel-in-php-with-source-code"
     },
     {
       "type": "WEB",
