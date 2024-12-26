@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-533g-7w58-g89m",
-  "modified": "2024-12-24T03:30:46Z",
+  "modified": "2024-12-26T06:30:47Z",
   "published": "2024-12-23T00:30:54Z",
   "aliases": [
     "CVE-2024-56375"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56375"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NICMx/FORT-validator/issues/154"
     },
     {
       "type": "WEB",
