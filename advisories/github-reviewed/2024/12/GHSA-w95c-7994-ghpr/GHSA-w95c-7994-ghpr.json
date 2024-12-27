@@ -1,14 +1,35 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w95c-7994-ghpr",
-  "modified": "2024-12-27T06:30:48Z",
+  "modified": "2024-12-27T21:07:22Z",
   "published": "2024-12-27T06:30:48Z",
   "aliases": [
     "CVE-2024-56522"
   ],
+  "summary": "TCPDF has incorrect comparison",
   "details": "An issue was discovered in TCPDF before 6.8.0. unserializeTCPDFtag uses != (aka loose comparison) and does not use a constant-time function to compare TCPDF tag hashes.",
   "severity": [],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "tecnickcom/tcpdf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.8.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -17,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/tecnickcom/TCPDF/commit/d54b97cec33f4f1a5ad81119a82085cad93cec89"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/tecnickcom/TCPDF"
     },
     {
       "type": "WEB",
@@ -32,10 +57,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "cwe_ids": [
+      "CWE-697"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-12-27T21:07:22Z",
     "nvd_published_at": "2024-12-27T05:15:08Z"
   }
 }
