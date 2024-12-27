@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-74gf-m3p3-28x4",
+  "modified": "2024-12-27T21:30:31Z",
+  "published": "2024-12-27T21:30:31Z",
+  "aliases": [
+    "CVE-2024-50713"
+  ],
+  "details": "SmartAgent v1.1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /tests/interface.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50713"
+    },
+    {
+      "type": "WEB",
+      "url": "https://packetstorm.news/files/id/182449"
+    },
+    {
+      "type": "WEB",
+      "url": "https://smarts-srl.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2024-12-27T21:15:07Z"
+  }
+}
