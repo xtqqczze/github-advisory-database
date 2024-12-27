@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q34m-jh98-gwm2",
-  "modified": "2024-12-27T19:50:24Z",
+  "modified": "2024-12-27T21:10:18Z",
   "published": "2024-10-25T19:44:43Z",
   "aliases": [
     "CVE-2024-49767"
@@ -15,7 +15,7 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:U"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
