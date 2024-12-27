@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xx95-62h6-h7v3",
-  "modified": "2024-12-26T20:20:12Z",
+  "modified": "2024-12-27T00:32:07Z",
   "published": "2024-12-26T20:20:12Z",
   "aliases": [
     "CVE-2024-56361"
@@ -51,6 +51,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-26T20:20:12Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2024-12-26T22:15:19Z"
   }
 }
