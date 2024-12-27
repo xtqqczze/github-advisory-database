@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2427-hr93-cgp6",
-  "modified": "2024-12-26T12:30:44Z",
+  "modified": "2024-12-27T15:31:50Z",
   "published": "2024-12-26T12:30:44Z",
   "aliases": [
     "CVE-2024-12949"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://code-projects.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code-projects.org/travel-management-system-using-php-source-code"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx95-cwh6-9mvq",
-  "modified": "2024-12-27T06:30:48Z",
+  "modified": "2024-12-27T15:31:50Z",
   "published": "2024-12-27T06:30:48Z",
   "aliases": [
     "CVE-2024-56527"
@@ -20,6 +20,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://andrea0.medium.com/analysis-of-cve-2024-56527-dbdab6962add"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/tecnickcom/TCPDF/compare/6.7.8...6.8.0"
     },
     {
@@ -28,7 +32,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": null,
     "github_reviewed": false,
     "github_reviewed_at": null,
