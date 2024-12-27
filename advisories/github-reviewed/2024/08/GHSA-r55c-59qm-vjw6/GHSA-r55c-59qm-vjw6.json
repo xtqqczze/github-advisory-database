@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r55c-59qm-vjw6",
-  "modified": "2024-09-05T18:38:26Z",
+  "modified": "2024-12-27T18:30:26Z",
   "published": "2024-08-01T22:05:10Z",
   "aliases": [
     "CVE-2024-41123"
@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rexml/CVE-2024-41123.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241227-0005"
     },
     {
       "type": "WEB",

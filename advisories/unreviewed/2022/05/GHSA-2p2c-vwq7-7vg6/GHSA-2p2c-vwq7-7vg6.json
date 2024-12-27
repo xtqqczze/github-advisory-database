@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p2c-vwq7-7vg6",
-  "modified": "2022-05-13T01:27:48Z",
+  "modified": "2024-12-27T18:30:25Z",
   "published": "2022-05-13T01:27:48Z",
   "aliases": [
     "CVE-2018-12121"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202003-48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241227-0008"
     },
     {
       "type": "WEB",
