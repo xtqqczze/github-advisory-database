@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcr5-v468-562j",
-  "modified": "2024-05-21T15:31:40Z",
+  "modified": "2024-12-30T21:30:45Z",
   "published": "2024-05-21T15:31:40Z",
   "aliases": [
     "CVE-2021-47235"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: ethernet: fix potential use-after-free in ec_bhf_remove\n\nstatic void ec_bhf_remove(struct pci_dev *dev)\n{\n...\n\tstruct ec_bhf_priv *priv = netdev_priv(net_dev);\n\n\tunregister_netdev(net_dev);\n\tfree_netdev(net_dev);\n\n\tpci_iounmap(dev, priv->dma_io);\n\tpci_iounmap(dev, priv->io);\n...\n}\n\npriv is netdev private data, but it is used\nafter free_netdev(). It can cause use-after-free when accessing priv\npointer. So, fix it by moving free_netdev() after pci_iounmap()\ncalls.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:12Z"

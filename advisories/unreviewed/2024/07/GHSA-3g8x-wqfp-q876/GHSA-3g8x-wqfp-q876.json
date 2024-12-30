@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3g8x-wqfp-q876",
-  "modified": "2024-07-23T09:30:39Z",
+  "modified": "2024-12-30T21:30:46Z",
   "published": "2024-07-09T12:30:58Z",
   "aliases": [
     "CVE-2024-3596"
   ],
   "details": "RADIUS Protocol under RFC 2865 is susceptible to forgery attacks by a local attacker who can modify any valid Response (Access-Accept, Access-Reject, or Access-Challenge) to any other response using a chosen-prefix collision attack against MD5 Response Authenticator signature.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,6 +37,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240822-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://today.ucsd.edu/story/computer-scientists-discover-vulnerabilities-in-a-popular-security-protocol"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.blastradius.fail"
     },
     {
@@ -40,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-354"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-09T12:15:20Z"

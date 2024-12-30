@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-747f-wh5x-mp2p",
-  "modified": "2024-05-21T15:31:40Z",
+  "modified": "2024-12-30T21:30:46Z",
   "published": "2024-05-21T15:31:40Z",
   "aliases": [
     "CVE-2021-47239"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: usb: fix possible use-after-free in smsc75xx_bind\n\nThe commit 46a8b29c6306 (\"net: usb: fix memory leak in smsc75xx_bind\")\nfails to clean up the work scheduled in smsc75xx_reset->\nsmsc75xx_set_multicast, which leads to use-after-free if the work is\nscheduled to start after the deallocation. In addition, this patch\nalso removes a dangling pointer - dev->data[0].\n\nThis patch calls cancel_work_sync to cancel the scheduled work and set\nthe dangling pointer to NULL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:13Z"

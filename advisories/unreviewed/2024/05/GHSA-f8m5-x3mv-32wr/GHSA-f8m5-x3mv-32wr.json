@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8m5-x3mv-32wr",
-  "modified": "2024-05-21T18:31:22Z",
+  "modified": "2024-12-30T21:30:46Z",
   "published": "2024-05-21T18:31:22Z",
   "aliases": [
     "CVE-2023-52850"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: hantro: Check whether reset op is defined before use\n\nThe i.MX8MM/N/P does not define the .reset op since reset of the VPU is\ndone by genpd. Check whether the .reset op is defined before calling it\nto avoid NULL pointer dereference.\n\nNote that the Fixes tag is set to the commit which removed the reset op\nfrom i.MX8M Hantro G2 implementation, this is because before this commit\nall the implementations did define the .reset op.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:22Z"
