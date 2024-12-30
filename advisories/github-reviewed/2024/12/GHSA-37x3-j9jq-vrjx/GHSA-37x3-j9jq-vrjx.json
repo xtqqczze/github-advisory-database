@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37x3-j9jq-vrjx",
-  "modified": "2024-12-28T18:30:47Z",
+  "modified": "2024-12-30T16:51:40Z",
   "published": "2024-12-28T00:30:43Z",
   "aliases": [
     "CVE-2024-54775"
   ],
+  "summary": "Dcat-Admin Cross-Site Scripting (XSS) vulnerability",
   "details": "Dcat-Admin v2.2.0-beta and v2.2.2-beta contains a Cross-Site Scripting (XSS) vulnerability via /admin/auth/menu and /admin/auth/extensions.",
   "severity": [
     {
@@ -13,7 +14,26 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "dcat/laravel-admin"
+      },
+      "versions": [
+        "2.2.0-beta"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "dcat/laravel-admin"
+      },
+      "versions": [
+        "2.2.2-beta"
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/taynes-llllzt/taynes/issues/5"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/jqhph/dcat-admin"
     }
   ],
   "database_specific": {
@@ -29,8 +53,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2024-12-30T16:51:40Z",
     "nvd_published_at": "2024-12-27T22:15:12Z"
   }
 }
