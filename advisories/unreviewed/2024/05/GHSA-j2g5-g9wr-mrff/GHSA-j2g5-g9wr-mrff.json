@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2g5-g9wr-mrff",
-  "modified": "2024-05-19T09:34:46Z",
+  "modified": "2024-12-30T18:30:40Z",
   "published": "2024-05-19T09:34:46Z",
   "aliases": [
     "CVE-2024-35866"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix potential UAF in cifs_dump_full_key()\n\nSkip sessions that are being teared down (status == SES_EXITING) to\navoid UAF.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-19T09:15:08Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x8f-vpgx-h5h9",
-  "modified": "2024-05-17T15:31:12Z",
+  "modified": "2024-12-30T18:30:40Z",
   "published": "2024-05-17T15:31:12Z",
   "aliases": [
     "CVE-2024-35850"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: qca: fix NULL-deref on non-serdev setup\n\nQualcomm ROME controllers can be registered from the Bluetooth line\ndiscipline and in this case the HCI UART serdev pointer is NULL.\n\nAdd the missing sanity check to prevent a NULL-pointer dereference when\nsetup() is called for a non-serdev controller.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T15:15:21Z"
