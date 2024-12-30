@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gp8-m3mx-fm5q",
-  "modified": "2024-12-27T18:30:26Z",
+  "modified": "2024-12-30T15:31:58Z",
   "published": "2024-12-27T18:30:26Z",
   "aliases": [
     "CVE-2024-12986"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12986"
+    },
+    {
+      "type": "WEB",
+      "url": "https://netsecfish.notion.site/Command-Injection-in-apmcfgupptim-endpoint-for-DrayTek-Gateway-Devices-1676b683e67c80b9ad8cc37b93273bf6"
     },
     {
       "type": "WEB",
