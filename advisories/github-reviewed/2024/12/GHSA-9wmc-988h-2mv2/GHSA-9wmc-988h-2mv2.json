@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9wmc-988h-2mv2",
-  "modified": "2024-12-30T18:06:34Z",
+  "modified": "2024-12-30T18:45:42Z",
   "published": "2024-12-30T15:31:59Z",
   "aliases": [
     "CVE-2024-50703"
@@ -9,6 +9,10 @@
   "summary": "TeamPass privileges issue",
   "details": "TeamPass before 3.1.3.1 does not properly prevent a user from acting with the privileges of a different user_id.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
@@ -59,6 +63,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-472",
       "CWE-639"
     ],
     "severity": "CRITICAL",
