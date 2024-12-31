@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8498-2h75-472j",
-  "modified": "2024-12-06T20:35:00Z",
+  "modified": "2024-12-31T18:30:50Z",
   "published": "2024-12-06T12:30:47Z",
   "aliases": [
     "CVE-2024-53907"
@@ -93,6 +93,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/g/django-announce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/12/msg00028.html"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cghh-45gx-84f7",
-  "modified": "2024-02-28T09:30:36Z",
+  "modified": "2024-12-31T18:30:50Z",
   "published": "2024-02-28T09:30:36Z",
   "aliases": [
     "CVE-2021-46979"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: core: fix ioctl handlers removal\n\nCurrently ioctl handlers are removed twice. For the first time during\niio_device_unregister() then later on inside\niio_device_unregister_eventset() and iio_buffers_free_sysfs_and_mask().\nDouble free leads to kernel panic.\n\nFix this by not touching ioctl handlers list directly but rather\nletting code responsible for registration call the matching cleanup\nroutine itself.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-28T09:15:37Z"
