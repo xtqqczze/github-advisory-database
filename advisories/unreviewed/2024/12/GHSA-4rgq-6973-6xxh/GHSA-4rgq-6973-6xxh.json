@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rgq-6973-6xxh",
-  "modified": "2024-12-19T12:32:40Z",
+  "modified": "2024-12-31T21:30:45Z",
   "published": "2024-12-19T12:32:40Z",
   "aliases": [
     "CVE-2024-45819"
   ],
   "details": "PVH guests have their ACPI tables constructed by the toolstack.  The\nconstruction involves building the tables in local memory, which are\nthen copied into guest memory.  While actually used parts of the local\nmemory are filled in correctly, excess space that is being allocated is\nleft with its prior contents.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-276"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-19T12:15:16Z"

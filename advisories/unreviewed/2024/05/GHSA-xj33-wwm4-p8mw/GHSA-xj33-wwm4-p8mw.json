@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xj33-wwm4-p8mw",
-  "modified": "2024-05-21T15:31:45Z",
+  "modified": "2024-12-31T21:30:44Z",
   "published": "2024-05-21T15:31:45Z",
   "aliases": [
     "CVE-2021-47426"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf, s390: Fix potential memory leak about jit_data\n\nMake sure to free jit_data through kfree() in the error path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:28Z"

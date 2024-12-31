@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x5p-m4v2-w5xp",
-  "modified": "2024-12-20T00:31:17Z",
+  "modified": "2024-12-31T21:30:45Z",
   "published": "2024-12-20T00:31:17Z",
   "aliases": [
     "CVE-2024-54984"
   ],
   "details": "An issue in Quectel BG96 BG96MAR02A08M1G allows attackers to bypass authentication via a crafted NAS message.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-306"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-19T22:15:06Z"
