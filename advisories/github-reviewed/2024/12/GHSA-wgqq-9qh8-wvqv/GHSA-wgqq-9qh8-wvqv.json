@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgqq-9qh8-wvqv",
-  "modified": "2024-12-31T15:30:46Z",
+  "modified": "2025-01-02T12:53:17Z",
   "published": "2024-12-31T15:30:46Z",
   "aliases": [
     "CVE-2024-25133"
   ],
+  "summary": "OpenShift Hive RCE through AWS/Kubernetes client configuration leads to privilege escalation",
   "details": "A flaw was found in the Hive ClusterDeployments resource in OpenShift Dedicated. In certain conditions, this issue may allow a developer account on a Hive-enabled cluster to obtain cluster-admin privileges by executing arbitrary commands on the hive/hive-controllers pod.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/openshift/hive"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.1.16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -25,7 +46,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/openshift/hive/commit/5ba846620f9dbf49301dabb0d40cc980aabef4e0"
+    },
+    {
+      "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2260372"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/openshift/hive"
     }
   ],
   "database_specific": {
@@ -33,8 +62,8 @@
       "CWE-284"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-01-02T12:53:17Z",
     "nvd_published_at": "2024-12-31T15:15:08Z"
   }
 }
