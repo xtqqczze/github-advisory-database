@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrcm-3w95-9w36",
-  "modified": "2024-11-08T18:30:48Z",
+  "modified": "2025-01-02T15:31:57Z",
   "published": "2024-11-05T18:32:12Z",
   "aliases": [
     "CVE-2024-50121"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/36775f42e039b01d4abe8998bf66771a37d3cdcc"
     },
     {
       "type": "WEB",
