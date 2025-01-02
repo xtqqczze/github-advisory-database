@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f697-gm3h-xrf9",
-  "modified": "2024-12-26T20:23:58Z",
+  "modified": "2025-01-02T16:09:32Z",
   "published": "2024-12-24T12:30:42Z",
   "aliases": [
     "CVE-2024-43441"
   ],
   "summary": "Apache HugeGraph-Server: Fixed JWT Token (Secret)",
   "details": "Authentication Bypass by Assumed-Immutable Data vulnerability in Apache HugeGraph-Server.\n\nThis issue affects Apache HugeGraph-Server: from 1.0.0 before 1.5.0.\n\nUsers are recommended to upgrade to version 1.5.0, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -56,7 +61,7 @@
     "cwe_ids": [
       "CWE-302"
     ],
-    "severity": "MODERATE",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-26T20:23:58Z",
     "nvd_published_at": "2024-12-24T12:15:21Z"
