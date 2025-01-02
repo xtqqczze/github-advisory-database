@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-947f-4jcv-7q83",
-  "modified": "2022-05-11T00:00:44Z",
+  "modified": "2025-01-02T21:31:35Z",
   "published": "2022-05-11T00:00:44Z",
   "aliases": [
     "CVE-2022-30129"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nu11secur1ty/Windows11Exploits/tree/main/CVE-2022-30129"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-30129"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-562q-xfhg-99cf",
-  "modified": "2022-05-11T00:00:53Z",
+  "modified": "2025-01-02T21:31:33Z",
   "published": "2022-05-11T00:00:53Z",
   "aliases": [
     "CVE-2022-29109"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nu11secur1ty/CVE-mitre/tree/main/2022/CVE-2022-29109"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-29109"
     },
     {
       "type": "WEB",

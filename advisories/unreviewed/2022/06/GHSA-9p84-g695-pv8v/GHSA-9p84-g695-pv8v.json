@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9p84-g695-pv8v",
-  "modified": "2022-06-30T00:00:35Z",
+  "modified": "2025-01-02T21:31:39Z",
   "published": "2022-06-30T00:00:35Z",
   "aliases": [
     "CVE-2022-33638"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-33638"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-33638"
     },
     {
       "type": "WEB",

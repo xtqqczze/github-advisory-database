@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mfg-j7q8-363c",
-  "modified": "2022-06-16T00:00:17Z",
+  "modified": "2025-01-02T21:31:38Z",
   "published": "2022-06-16T00:00:17Z",
   "aliases": [
     "CVE-2022-30168"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nu11secur1ty/CVE-mitre/tree/main/2022/CVE-2022-30168"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-30168"
     },
     {
       "type": "WEB",

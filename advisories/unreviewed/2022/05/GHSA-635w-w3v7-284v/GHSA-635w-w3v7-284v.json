@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-635w-w3v7-284v",
-  "modified": "2022-05-11T00:00:50Z",
+  "modified": "2025-01-02T21:31:35Z",
   "published": "2022-05-11T00:00:50Z",
   "aliases": [
     "CVE-2022-29128"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29128"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2022-29128"
     },
     {
       "type": "WEB",
