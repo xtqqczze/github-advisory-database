@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2xg-cjcx-4677",
-  "modified": "2025-01-03T17:06:51Z",
+  "modified": "2025-01-03T19:17:18Z",
   "published": "2025-01-03T17:06:51Z",
   "aliases": [
     "CVE-2024-56409"
@@ -111,6 +111,10 @@
       "url": "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-j2xg-cjcx-4677"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56409"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/PHPOffice/PhpSpreadsheet/commit/700a80346be269af668914172bc6f4521982d0b4"
     },
@@ -126,6 +130,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-03T17:06:51Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-03T17:15:08Z"
   }
 }
