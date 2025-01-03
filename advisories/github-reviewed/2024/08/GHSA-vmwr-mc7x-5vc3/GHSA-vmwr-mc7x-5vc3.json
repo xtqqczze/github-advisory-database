@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmwr-mc7x-5vc3",
-  "modified": "2024-11-18T16:27:06Z",
+  "modified": "2025-01-03T12:30:31Z",
   "published": "2024-08-22T16:40:46Z",
   "aliases": [
     "CVE-2024-43398"
@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rexml/CVE-2024-43398.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250103-0006"
     },
     {
       "type": "WEB",

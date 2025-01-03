@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q34m-jh98-gwm2",
-  "modified": "2024-12-27T21:53:29Z",
+  "modified": "2025-01-03T12:30:30Z",
   "published": "2024-10-25T19:44:43Z",
   "aliases": [
     "CVE-2024-49767"
@@ -89,6 +89,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pallets/werkzeug/releases/tag/3.0.6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250103-0007"
     }
   ],
   "database_specific": {

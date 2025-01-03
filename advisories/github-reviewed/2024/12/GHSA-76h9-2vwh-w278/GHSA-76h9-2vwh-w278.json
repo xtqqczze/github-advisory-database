@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76h9-2vwh-w278",
-  "modified": "2024-12-26T17:02:47Z",
+  "modified": "2025-01-03T12:30:31Z",
   "published": "2024-12-25T12:30:45Z",
   "aliases": [
     "CVE-2024-52046"
@@ -85,6 +85,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/4wxktgjpggdbto15d515wdctohb0qmv8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250103-0001"
     },
     {
       "type": "WEB",
