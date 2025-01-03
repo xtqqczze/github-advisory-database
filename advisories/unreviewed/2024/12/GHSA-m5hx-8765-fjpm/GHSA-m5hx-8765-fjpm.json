@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m5hx-8765-fjpm",
-  "modified": "2024-12-12T03:33:00Z",
+  "modified": "2025-01-03T18:30:33Z",
   "published": "2024-12-08T00:31:20Z",
   "aliases": [
     "CVE-2024-53473"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nilsonLazarin/WeGIA/commit/3998672f1b86db58eab2808a640903d73b37bd2d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nmmorette/vulnerability-research/blob/main/CVE-2024-53473/README.md"
     },
     {
       "type": "WEB",
