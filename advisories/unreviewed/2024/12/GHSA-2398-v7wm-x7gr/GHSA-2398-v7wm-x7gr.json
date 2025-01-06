@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2398-v7wm-x7gr",
-  "modified": "2024-12-29T12:30:41Z",
+  "modified": "2025-01-06T21:30:51Z",
   "published": "2024-12-29T12:30:41Z",
   "aliases": [
     "CVE-2024-56756"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvme-pci: fix freeing of the HMB descriptor table\n\nThe HMB descriptor table is sized to the maximum number of descriptors\nthat could be used for a given device, but __nvme_alloc_host_mem could\nbreak out of the loop earlier on memory allocation failure and end up\nusing less descriptors than planned for, which leads to an incorrect\nsize passed to dma_free_coherent.\n\nIn practice this was not showing up because the number of descriptors\ntends to be low and the dma coherent allocator always allocates and\nfrees at least a page.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-29T12:15:09Z"

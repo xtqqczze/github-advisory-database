@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j77f-79w9-rghc",
-  "modified": "2025-01-02T06:30:47Z",
+  "modified": "2025-01-06T21:30:51Z",
   "published": "2025-01-02T06:30:47Z",
   "aliases": [
     "CVE-2024-11184"
   ],
   "details": "The wp-enable-svg WordPress plugin through 0.7 does not sanitize SVG files when uploaded, allowing for authors and above to upload SVGs containing malicious scripts",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-02T06:15:06Z"

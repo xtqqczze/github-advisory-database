@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48x4-xr25-pcvw",
-  "modified": "2024-12-27T15:31:56Z",
+  "modified": "2025-01-06T21:30:50Z",
   "published": "2024-12-27T15:31:56Z",
   "aliases": [
     "CVE-2024-56662"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nacpi: nfit: vmalloc-out-of-bounds Read in acpi_nfit_ctl\n\nFix an issue detected by syzbot with KASAN:\n\nBUG: KASAN: vmalloc-out-of-bounds in cmd_to_func drivers/acpi/nfit/\ncore.c:416 [inline]\nBUG: KASAN: vmalloc-out-of-bounds in acpi_nfit_ctl+0x20e8/0x24a0\ndrivers/acpi/nfit/core.c:459\n\nThe issue occurs in cmd_to_func when the call_pkg->nd_reserved2\narray is accessed without verifying that call_pkg points to a buffer\nthat is appropriately sized as a struct nd_cmd_pkg. This can lead\nto out-of-bounds access and undefined behavior if the buffer does not\nhave sufficient space.\n\nTo address this, a check was added in acpi_nfit_ctl() to ensure that\nbuf is not NULL and that buf_len is less than sizeof(*call_pkg)\nbefore accessing it. This ensures safe access to the members of\ncall_pkg, including the nd_reserved2 array.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T15:15:26Z"
