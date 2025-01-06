@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-394m-vxwj-363j",
-  "modified": "2024-02-16T09:30:25Z",
+  "modified": "2025-01-06T12:30:31Z",
   "published": "2024-02-16T09:30:25Z",
   "aliases": [
     "CVE-2023-49508"
   ],
   "details": "Directory Traversal vulnerability in YetiForceCompany YetiForceCRM versions 6.4.0 and before allows a remote authenticated attacker to obtain sensitive information via the license parameter in the LibraryLicense.php component.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-16T08:15:39Z"
