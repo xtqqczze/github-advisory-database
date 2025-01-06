@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9px-m959-cxf4",
-  "modified": "2025-01-06T16:20:28Z",
+  "modified": "2025-01-06T18:42:42Z",
   "published": "2025-01-06T16:20:28Z",
   "aliases": [
     "CVE-2025-21614"
@@ -79,17 +79,23 @@
       "url": "https://github.com/go-git/go-git/security/advisories/GHSA-r9px-m959-cxf4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21614"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/go-git/go-git"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-400",
+      "CWE-770"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-06T16:20:28Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-06T17:15:47Z"
   }
 }
