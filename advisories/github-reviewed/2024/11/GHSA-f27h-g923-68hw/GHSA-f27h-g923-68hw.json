@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f27h-g923-68hw",
-  "modified": "2024-12-05T00:45:36Z",
+  "modified": "2025-01-06T18:36:10Z",
   "published": "2024-11-25T00:31:55Z",
   "aliases": [
     "CVE-2024-53916"
@@ -71,7 +71,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-345"
+      "CWE-345",
+      "CWE-754"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
