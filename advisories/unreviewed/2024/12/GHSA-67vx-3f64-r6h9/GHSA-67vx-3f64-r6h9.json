@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67vx-3f64-r6h9",
-  "modified": "2024-12-27T15:31:56Z",
+  "modified": "2025-01-06T18:31:00Z",
   "published": "2024-12-27T15:31:56Z",
   "aliases": [
     "CVE-2024-56666"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdkfd: Dereference null return value\n\nIn the function pqm_uninit there is a call-assignment of \"pdd =\nkfd_get_process_device_data\" which could be null, and this value was\nlater dereferenced without checking.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T15:15:26Z"

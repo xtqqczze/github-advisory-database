@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qcg2-98h8-485j",
-  "modified": "2025-01-06T15:31:00Z",
+  "modified": "2025-01-06T18:31:02Z",
   "published": "2025-01-06T15:31:00Z",
   "aliases": [
     "CVE-2024-8474"
   ],
   "details": "OpenVPN Connect before version 3.5.0 can contain the configuration profile's clear-text private key which is logged in the application log, which an unauthorized actor can use to decrypt the VPN traffic",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-212"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-06T15:15:14Z"

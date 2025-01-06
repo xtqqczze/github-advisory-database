@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6h2p-g88j-gcm9",
-  "modified": "2024-12-27T15:31:56Z",
+  "modified": "2025-01-06T18:31:00Z",
   "published": "2024-12-27T15:31:56Z",
   "aliases": [
     "CVE-2024-56667"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915: Fix NULL pointer dereference in capture_engine\n\nWhen the intel_context structure contains NULL,\nit raises a NULL pointer dereference error in drm_info().\n\n(cherry picked from commit 754302a5bc1bd8fd3b7d85c168b0a1af6d4bba4d)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T15:15:26Z"

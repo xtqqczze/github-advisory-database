@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j8h-rq7h-37cq",
-  "modified": "2024-12-27T15:31:52Z",
+  "modified": "2025-01-06T18:31:00Z",
   "published": "2024-12-27T15:31:52Z",
   "aliases": [
     "CVE-2024-53231"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncpufreq: CPPC: Fix possible null-ptr-deref for cpufreq_cpu_get_raw()\n\ncpufreq_cpu_get_raw() may return NULL if the cpu is not in\npolicy->cpus cpu mask and it will cause null pointer dereference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T14:15:31Z"

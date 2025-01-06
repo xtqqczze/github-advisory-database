@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-92hg-q4w2-pmcv",
+  "modified": "2025-01-06T18:31:02Z",
+  "published": "2025-01-06T18:31:02Z",
+  "aliases": [
+    "CVE-2024-51112"
+  ],
+  "details": "Open Redirect vulnerability in Pnetlab 5.3.11 allows an attacker to manipulate URLs to redirect users to arbitrary external websites via a crafted script",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51112"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Zehraakmanlar/Bortecine-s_CVEs/blob/main/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "http://pnetlab.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-06T16:15:28Z"
+  }
+}

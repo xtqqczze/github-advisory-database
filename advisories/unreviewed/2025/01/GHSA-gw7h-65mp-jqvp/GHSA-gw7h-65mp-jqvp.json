@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gw7h-65mp-jqvp",
+  "modified": "2025-01-06T18:31:03Z",
+  "published": "2025-01-06T18:31:03Z",
+  "aliases": [
+    "CVE-2024-56757"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: btusb: mediatek: add intf release flow when usb disconnect\n\nMediaTek claim an special usb intr interface for ISO data transmission.\nThe interface need to be released before unregistering hci device when\nusb disconnect. Removing BT usb dongle without properly releasing the\ninterface may cause Kernel panic while unregister hci device.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56757"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/489304e67087abddc2666c5af0159cb95afdcf59"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cc569d791ab2a0de74f76e470515d25d24c9b84b"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-06T17:15:40Z"
+  }
+}
