@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpj7-7mg7-x95j",
-  "modified": "2024-12-30T16:52:08Z",
+  "modified": "2025-01-06T18:12:06Z",
   "published": "2024-12-28T18:30:48Z",
   "aliases": [
     "CVE-2024-56512"
@@ -18,102 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.nifi:nifi-client-dto"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.10.0"
-            },
-            {
-              "fixed": "2.1.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
         "name": "org.apache.nifi:nifi-web-api"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.10.0"
-            },
-            {
-              "fixed": "2.1.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.nifi:nifi-system-test-suite"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.10.0"
-            },
-            {
-              "fixed": "2.1.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.nifi:nifi-framework-cluster"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.10.0"
-            },
-            {
-              "fixed": "2.1.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.nifi:nifi-framework-components"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.10.0"
-            },
-            {
-              "fixed": "2.1.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.nifi:nifi-framework-core"
       },
       "ranges": [
         {
