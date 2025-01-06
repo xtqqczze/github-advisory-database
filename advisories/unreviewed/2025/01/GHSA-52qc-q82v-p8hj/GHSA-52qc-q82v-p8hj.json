@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52qc-q82v-p8hj",
-  "modified": "2025-01-04T03:33:08Z",
+  "modified": "2025-01-06T15:30:59Z",
   "published": "2025-01-04T03:33:08Z",
   "aliases": [
     "CVE-2025-22388"
   ],
   "details": "An issue was discovered in Optimizely EPiServer.CMS.Core before 12.22.0. A high-severity Stored Cross-Site Scripting (XSS) vulnerability exists in the CMS, allowing malicious actors to inject and execute arbitrary JavaScript code, potentially compromising user data, escalating privileges, or executing unauthorized actions. The issue exists in multiple areas, including content editing, link management, and file uploads.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-04T02:15:07Z"

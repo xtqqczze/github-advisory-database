@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppp3-73jm-5rm6",
-  "modified": "2024-12-27T15:31:56Z",
+  "modified": "2025-01-06T15:30:59Z",
   "published": "2024-12-27T15:31:56Z",
   "aliases": [
     "CVE-2024-56675"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors\n\nUprobes always use bpf_prog_run_array_uprobe() under tasks-trace-RCU\nprotection. But it is possible to attach a non-sleepable BPF program to a\nuprobe, and non-sleepable BPF programs are freed via normal RCU (see\n__bpf_prog_put_noref()). This leads to UAF of the bpf_prog because a normal\nRCU grace period does not imply a tasks-trace-RCU grace period.\n\nFix it by explicitly waiting for a tasks-trace-RCU grace period after\nremoving the attachment of a bpf_prog to a perf_event.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T15:15:27Z"

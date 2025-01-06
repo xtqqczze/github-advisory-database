@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frjj-4mjw-3gmf",
-  "modified": "2022-05-24T16:55:32Z",
+  "modified": "2025-01-06T15:30:58Z",
   "published": "2022-05-24T16:55:32Z",
   "aliases": [
     "CVE-2019-10891"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Kirin-say/Vulnerabilities/blob/master/DIR-806_Code_Injection.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10282"
     }
   ],
   "database_specific": {

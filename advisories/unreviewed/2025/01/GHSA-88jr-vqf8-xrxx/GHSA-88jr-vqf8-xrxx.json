@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88jr-vqf8-xrxx",
-  "modified": "2025-01-06T06:30:45Z",
+  "modified": "2025-01-06T15:30:59Z",
   "published": "2025-01-06T06:30:45Z",
   "aliases": [
     "CVE-2024-20152"
   ],
   "details": "In wlan STA driver, there is a possible reachable assertion due to improper exception handling. This could lead to local denial of service if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: WCNCR00389047 / ALPS09136505; Issue ID: MSV-1798.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-617"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-06T04:15:07Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45v7-mh84-5f9p",
-  "modified": "2022-09-02T00:01:10Z",
+  "modified": "2025-01-06T15:30:58Z",
   "published": "2022-08-29T00:00:33Z",
   "aliases": [
     "CVE-2022-37055"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://drive.google.com/file/d/1hmIk0jQoex4QDyjIUg_6yxi-J6ROCh8S/view?usp=sharing"
+    },
+    {
+      "type": "WEB",
+      "url": "https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10308"
     },
     {
       "type": "WEB",
