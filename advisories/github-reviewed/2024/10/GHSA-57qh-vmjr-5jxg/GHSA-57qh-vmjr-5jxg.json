@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57qh-vmjr-5jxg",
-  "modified": "2024-10-11T17:47:51Z",
+  "modified": "2025-01-07T18:36:18Z",
   "published": "2024-10-11T15:30:32Z",
   "aliases": [
     "CVE-2024-48987"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://snipe-it.readme.io/docs/key-rotation"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.synacktiv.com/advisories/snipe-it-unauthenticated-remote-command-execution-when-appkey-known"
     }
   ],
   "database_specific": {
