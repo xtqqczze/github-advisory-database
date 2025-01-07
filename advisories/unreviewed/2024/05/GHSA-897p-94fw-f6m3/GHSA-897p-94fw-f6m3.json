@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-897p-94fw-f6m3",
-  "modified": "2024-05-23T09:30:28Z",
+  "modified": "2025-01-07T00:31:38Z",
   "published": "2024-05-23T09:30:28Z",
   "aliases": [
     "CVE-2024-36011"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: HCI: Fix potential null-ptr-deref\n\nFix potential null-ptr-deref in hci_le_big_sync_established_evt().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-23T07:15:08Z"

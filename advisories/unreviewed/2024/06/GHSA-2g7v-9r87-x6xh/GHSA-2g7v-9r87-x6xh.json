@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g7v-9r87-x6xh",
-  "modified": "2024-06-20T12:31:22Z",
+  "modified": "2025-01-07T00:31:39Z",
   "published": "2024-06-20T12:31:22Z",
   "aliases": [
     "CVE-2022-48766"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Wrap dcn301_calculate_wm_and_dlg for FPU.\n\nMirrors the logic for dcn30. Cue lots of WARNs and some\nkernel panics without this fix.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-20T12:15:14Z"
