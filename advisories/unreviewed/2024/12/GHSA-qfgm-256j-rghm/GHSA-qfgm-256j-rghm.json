@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfgm-256j-rghm",
-  "modified": "2024-12-24T12:30:42Z",
+  "modified": "2025-01-07T18:30:46Z",
   "published": "2024-12-24T12:30:42Z",
   "aliases": [
     "CVE-2024-53149"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: ucsi: glink: fix off-by-one in connector_status\n\nUCSI connector's indices start from 1 up to 3, PMIC_GLINK_MAX_PORTS.\nCorrect the condition in the pmic_glink_ucsi_connector_status()\ncallback, fixing Type-C orientation reporting for the third USB-C\nconnector.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-193"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-24T12:15:23Z"

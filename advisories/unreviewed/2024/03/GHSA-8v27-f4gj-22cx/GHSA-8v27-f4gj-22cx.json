@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8v27-f4gj-22cx",
-  "modified": "2024-03-15T21:30:44Z",
+  "modified": "2025-01-07T18:30:38Z",
   "published": "2024-03-15T21:30:44Z",
   "aliases": [
     "CVE-2021-47120"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: magicmouse: fix NULL-deref on disconnect\n\nCommit 9d7b18668956 (\"HID: magicmouse: add support for Apple Magic\nTrackpad 2\") added a sanity check for an Apple trackpad but returned\nsuccess instead of -ENODEV when the check failed. This means that the\nremove callback will dereference the never-initialised driver data\npointer when the driver is later unbound (e.g. on USB disconnect).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-15T21:15:07Z"

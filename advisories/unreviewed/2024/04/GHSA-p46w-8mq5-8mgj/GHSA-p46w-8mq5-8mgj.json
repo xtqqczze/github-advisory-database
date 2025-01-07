@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p46w-8mq5-8mgj",
-  "modified": "2024-06-27T15:30:38Z",
+  "modified": "2025-01-07T18:30:40Z",
   "published": "2024-04-03T15:30:43Z",
   "aliases": [
     "CVE-2024-26722"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: rt5645: Fix deadlock in rt5645_jack_detect_work()\n\nThere is a path in rt5645_jack_detect_work(), where rt5645->jd_mutex\nis left locked forever. That may lead to deadlock\nwhen rt5645_jack_detect_work() is called for the second time.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T15:15:54Z"

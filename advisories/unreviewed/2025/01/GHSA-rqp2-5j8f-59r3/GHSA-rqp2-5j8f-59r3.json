@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rqp2-5j8f-59r3",
-  "modified": "2025-01-06T18:31:04Z",
+  "modified": "2025-01-07T18:30:47Z",
   "published": "2025-01-06T18:31:04Z",
   "aliases": [
     "CVE-2024-46622"
   ],
   "details": "An Escalation of Privilege security vulnerability was found in SecureAge Security Suite software 7.0.x before 7.0.38, 7.1.x before 7.1.11, 8.0.x before 8.0.18, and 8.1.x before 8.1.18 that allows arbitrary file creation, modification and deletion.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-281"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-06T18:15:19Z"

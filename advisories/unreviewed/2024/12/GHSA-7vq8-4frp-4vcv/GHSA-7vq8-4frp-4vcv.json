@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vq8-4frp-4vcv",
-  "modified": "2024-12-24T12:30:43Z",
+  "modified": "2025-01-07T18:30:46Z",
   "published": "2024-12-24T12:30:42Z",
   "aliases": [
     "CVE-2024-53150"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: usb-audio: Fix out of bounds reads when finding clock sources\n\nThe current USB-audio driver code doesn't check bLength of each\ndescriptor at traversing for clock descriptors.  That is, when a\ndevice provides a bogus descriptor with a shorter bLength, the driver\nmight hit out-of-bounds reads.\n\nFor addressing it, this patch adds sanity checks to the validator\nfunctions for the clock descriptor traversal.  When the descriptor\nlength is shorter than expected, it's skipped in the loop.\n\nFor the clock source and clock multiplier descriptors, we can just\ncheck bLength against the sizeof() of each descriptor type.\nOTOH, the clock selector descriptor of UAC2 and UAC3 has an array\nof bNrInPins elements and two more fields at its tail, hence those\nhave to be checked in addition to the sizeof() check.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-24T12:15:23Z"

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8rg4-cvw3-v3c2",
+  "modified": "2025-01-07T18:30:49Z",
+  "published": "2025-01-07T18:30:49Z",
+  "aliases": [
+    "CVE-2024-46242"
+  ],
+  "details": "An issue in the validate_email function in CTFd/utils/validators/__init__.py of CTFd 3.7.3 allows attackers to cause a Regular expression Denial of Service (ReDoS) via supplying a crafted string as e-mail address during registration.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46242"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/salvatore-abello/4f01f3fa54672febc0a492a11a26592c"
+    },
+    {
+      "type": "WEB",
+      "url": "http://ctfd.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-07T16:15:33Z"
+  }
+}

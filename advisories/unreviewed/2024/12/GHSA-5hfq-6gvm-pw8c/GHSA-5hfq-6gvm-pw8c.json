@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hfq-6gvm-pw8c",
-  "modified": "2024-12-24T12:30:42Z",
+  "modified": "2025-01-07T18:30:46Z",
   "published": "2024-12-24T12:30:42Z",
   "aliases": [
     "CVE-2024-53145"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\num: Fix potential integer overflow during physmem setup\n\nThis issue happens when the real map size is greater than LONG_MAX,\nwhich can be easily triggered on UML/i386.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-24T12:15:22Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5px-p7wm-gqpv",
-  "modified": "2024-04-17T12:32:04Z",
+  "modified": "2025-01-07T18:30:42Z",
   "published": "2024-04-17T12:32:04Z",
   "aliases": [
     "CVE-2024-26860"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndm-integrity: fix a memory leak when rechecking the data\n\nMemory for the \"checksums\" pointer will leak if the data is rechecked\nafter checksum failure (because the associated kfree won't happen due\nto 'goto skip_io').\n\nFix this by freeing the checksums memory before recheck, and just use\nthe \"checksum_onstack\" memory for storing checksum during recheck.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-17T11:15:08Z"

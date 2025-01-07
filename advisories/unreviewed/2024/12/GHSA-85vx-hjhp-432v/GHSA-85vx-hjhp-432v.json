@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85vx-hjhp-432v",
-  "modified": "2024-12-13T09:31:13Z",
+  "modified": "2025-01-07T18:30:45Z",
   "published": "2024-12-13T09:31:13Z",
   "aliases": [
     "CVE-2024-11832"

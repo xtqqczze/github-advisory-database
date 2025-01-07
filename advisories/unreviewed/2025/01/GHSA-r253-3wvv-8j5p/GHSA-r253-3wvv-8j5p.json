@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-r253-3wvv-8j5p",
+  "modified": "2025-01-07T18:30:49Z",
+  "published": "2025-01-07T18:30:49Z",
+  "aliases": [
+    "CVE-2024-48245"
+  ],
+  "details": "Vehicle Management System 1.0 is vulnerable to SQL Injection. A guest user can exploit vulnerable POST parameters in various administrative actions, such as booking a vehicle or confirming a booking. The affected parameters include \"Booking ID\", \"Action Name\", and \"Payment Confirmation ID\", which are present in /newvehicle.php and /newdriver.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48245"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ShadowByte1/CVE-2024-48245"
+    },
+    {
+      "type": "WEB",
+      "url": "http://vehicle.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-07T16:15:34Z"
+  }
+}
