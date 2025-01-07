@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9w4-r3mh-39fw",
-  "modified": "2024-12-04T15:31:52Z",
+  "modified": "2025-01-07T03:31:35Z",
   "published": "2024-12-04T06:31:02Z",
   "aliases": [
     "CVE-2024-54661"
@@ -22,10 +22,16 @@
     {
       "type": "WEB",
       "url": "https://repo.or.cz/socat.git/blob/6ff391324d2d3b9f6bfb58e7d16a20be43b47af7:/readline.sh#l29"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.dest-unreach.org/socat/contrib/socat-secadv9.html"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-61"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
