@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjh5-2jj8-8xpj",
-  "modified": "2022-09-18T00:00:31Z",
+  "modified": "2025-01-07T21:30:53Z",
   "published": "2022-09-16T00:00:38Z",
   "aliases": [
     "CVE-2022-40663"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-40663"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.software-dl.microscope.healthcare.nikon.com/vuln/index.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.software-dl.microscope.healthcare.nikon.com/vuln/pdf/Vulnerabilities_on_NIS-Elements_Freeware_and_L_en_240917_02.pdf"
     },
     {
       "type": "WEB",

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3wv8-q6g7-7frh",
+  "modified": "2025-01-07T21:30:55Z",
+  "published": "2025-01-07T21:30:55Z",
+  "aliases": [
+    "CVE-2022-41572"
+  ],
+  "details": "An issue was discovered in EyesOfNetwork (EON) through 5.3.11. Privilege escalation can be accomplished on the server because nmap can be run as root. The attacker achieves total control over the server.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-41572"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/EyesOfNetworkCommunity/eonweb/issues/120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Orange-Cyberdefense/CVE-repository"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-07T20:15:27Z"
+  }
+}

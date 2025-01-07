@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vhh-8wwm-whvg",
-  "modified": "2024-04-03T18:30:41Z",
+  "modified": "2025-01-07T21:30:54Z",
   "published": "2024-04-03T18:30:41Z",
   "aliases": [
     "CVE-2023-52641"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/ntfs3: Add NULL ptr dereference checking at the end of attr_allocate_frame()\n\nIt is preferable to exit through the out: label because\ninternal debugging functions are located there.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T17:15:47Z"

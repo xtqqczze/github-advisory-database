@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9w8w-fgjg-w972",
+  "modified": "2025-01-07T21:30:55Z",
+  "published": "2025-01-07T21:30:55Z",
+  "aliases": [
+    "CVE-2024-54819"
+  ],
+  "details": "I, Librarian before and including 5.11.1 is vulnerable to Server-Side Request Forgery (SSRF) due to improper input validation in classes/security/validation.php",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-54819"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mkucej/i-librarian-free/commit/ed36f6f258392fa2ec72f9820661ded75d91accc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/partywavesec/CVE-2024-55557"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-07T20:15:30Z"
+  }
+}
