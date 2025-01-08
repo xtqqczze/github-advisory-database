@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3rh-8hj6-wv7f",
-  "modified": "2024-11-13T12:32:12Z",
+  "modified": "2025-01-08T09:30:36Z",
   "published": "2024-11-13T12:32:12Z",
   "aliases": [
     "CVE-2024-8001"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?id.284352"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.scip.ch/?news.20241203"
     }
   ],
   "database_specific": {
