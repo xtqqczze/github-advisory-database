@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vj55-2cxj-5mrc",
-  "modified": "2025-01-06T18:31:04Z",
+  "modified": "2025-01-08T00:30:49Z",
   "published": "2025-01-06T18:31:04Z",
   "aliases": [
     "CVE-2024-56763"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntracing: Prevent bad count for tracing_cpumask_write\n\nIf a large count is provided, it will trigger a warning in bitmap_parse_user.\nAlso check zero for it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-06T17:15:42Z"

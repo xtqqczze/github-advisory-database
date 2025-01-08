@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84j2-855v-3f6q",
-  "modified": "2024-12-29T12:30:41Z",
+  "modified": "2025-01-08T00:30:48Z",
   "published": "2024-12-29T12:30:41Z",
   "aliases": [
     "CVE-2024-56746"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbdev: sh7760fb: Fix a possible memory leak in sh7760fb_alloc_mem()\n\nWhen information such as info->screen_base is not ready, calling\nsh7760fb_free_mem() does not release memory correctly. Call\ndma_free_coherent() instead.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-29T12:15:08Z"

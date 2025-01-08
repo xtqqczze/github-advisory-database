@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxx5-v8qw-45p6",
-  "modified": "2024-12-29T12:30:41Z",
+  "modified": "2025-01-08T00:30:48Z",
   "published": "2024-12-29T12:30:41Z",
   "aliases": [
     "CVE-2024-56745"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI: Fix reset_method_store() memory leak\n\nIn reset_method_store(), a string is allocated via kstrndup() and assigned\nto the local \"options\". options is then used in with strsep() to find\nspaces:\n\n  while ((name = strsep(&options, \" \")) != NULL) {\n\nIf there are no remaining spaces, then options is set to NULL by strsep(),\nso the subsequent kfree(options) doesn't free the memory allocated via\nkstrndup().\n\nFix by using a separate tmp_options to iterate with strsep() so options is\npreserved.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-29T12:15:07Z"

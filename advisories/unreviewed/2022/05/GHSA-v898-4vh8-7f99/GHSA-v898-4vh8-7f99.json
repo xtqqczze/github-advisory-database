@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v898-4vh8-7f99",
-  "modified": "2022-05-13T01:47:48Z",
+  "modified": "2025-01-08T00:30:45Z",
   "published": "2022-05-13T01:47:48Z",
   "aliases": [
     "CVE-2017-9117"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-9117"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.com/libtiff/libtiff/-/issues/89"
     },
     {
       "type": "WEB",

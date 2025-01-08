@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmwc-7qq9-mj6g",
-  "modified": "2024-12-29T12:30:41Z",
+  "modified": "2025-01-08T00:30:48Z",
   "published": "2024-12-29T12:30:40Z",
   "aliases": [
     "CVE-2024-56742"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfio/mlx5: Fix an unwind issue in mlx5vf_add_migration_pages()\n\nFix an unwind issue in mlx5vf_add_migration_pages().\n\nIf a set of pages is allocated but fails to be added to the SG table,\nthey need to be freed to prevent a memory leak.\n\nAny pages successfully added to the SG table will be freed as part of\nmlx5vf_free_data_buffer().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-29T12:15:07Z"
