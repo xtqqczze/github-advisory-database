@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23fx-r767-q5g7",
-  "modified": "2025-01-07T21:30:55Z",
+  "modified": "2025-01-08T18:30:48Z",
   "published": "2025-01-07T21:30:55Z",
   "aliases": [
     "CVE-2022-45186"
   ],
   "details": "An issue was discovered in SuiteCRM 7.12.7. Authenticated users can recover an arbitrary field of a database.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-07T20:15:28Z"

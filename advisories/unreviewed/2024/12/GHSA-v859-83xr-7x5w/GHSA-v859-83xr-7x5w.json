@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v859-83xr-7x5w",
-  "modified": "2024-12-28T12:30:47Z",
+  "modified": "2025-01-08T18:30:47Z",
   "published": "2024-12-28T12:30:47Z",
   "aliases": [
     "CVE-2024-56688"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsunrpc: clear XPRT_SOCK_UPD_TIMEOUT when reset transport\n\nSince transport->sock has been set to NULL during reset transport,\nXPRT_SOCK_UPD_TIMEOUT also needs to be cleared. Otherwise, the\nxs_tcp_set_socket_timeouts() may be triggered in xs_tcp_send_request()\nto dereference the transport->sock that has been set to NULL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-28T10:15:12Z"

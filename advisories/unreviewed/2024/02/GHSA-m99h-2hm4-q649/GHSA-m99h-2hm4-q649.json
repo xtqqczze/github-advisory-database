@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m99h-2hm4-q649",
-  "modified": "2024-02-28T09:30:36Z",
+  "modified": "2025-01-08T18:30:40Z",
   "published": "2024-02-28T09:30:36Z",
   "aliases": [
     "CVE-2021-46977"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: VMX: Disable preemption when probing user return MSRs\n\nDisable preemption when probing a user return MSR via RDSMR/WRMSR.  If\nthe MSR holds a different value per logical CPU, the WRMSR could corrupt\nthe host's value if KVM is preempted between the RDMSR and WRMSR, and\nthen rescheduled on a different CPU.\n\nOpportunistically land the helper in common x86, SVM will use the helper\nin a future commit.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-28T09:15:37Z"

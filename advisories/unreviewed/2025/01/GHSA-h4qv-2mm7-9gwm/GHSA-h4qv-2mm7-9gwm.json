@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h4qv-2mm7-9gwm",
+  "modified": "2025-01-08T18:30:48Z",
+  "published": "2025-01-08T18:30:48Z",
+  "aliases": [
+    "CVE-2024-51442"
+  ],
+  "details": "Command Injection in Minidlna version v1.3.3 and before allows an attacker to execute arbitrary OS commands via a specially crafted minidlna.conf configuration file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51442"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mselbrede/CVE-2024-51442"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceforge.net/p/minidlna/bugs/364"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceforge.net/p/minidlna/git/ci/master/tree/minidlna.c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceforge.net/projects/minidlna"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-08T18:15:16Z"
+  }
+}

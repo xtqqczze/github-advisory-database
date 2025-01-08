@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm4v-3pg5-6f5c",
-  "modified": "2024-12-27T15:31:53Z",
+  "modified": "2025-01-08T18:30:47Z",
   "published": "2024-12-27T15:31:53Z",
   "aliases": [
     "CVE-2024-56549"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncachefiles: Fix NULL pointer dereference in object->file\n\nAt present, the object->file has the NULL pointer dereference problem in\nondemand-mode. The root cause is that the allocated fd and object->file\nlifetime are inconsistent, and the user-space invocation to anon_fd uses\nobject->file. Following is the process that triggers the issue:\n\n\t  [write fd]\t\t\t\t[umount]\ncachefiles_ondemand_fd_write_iter\n\t\t\t\t       fscache_cookie_state_machine\n\t\t\t\t\t cachefiles_withdraw_cookie\n  if (!file) return -ENOBUFS\n\t\t\t\t\t   cachefiles_clean_up_object\n\t\t\t\t\t     cachefiles_unmark_inode_in_use\n\t\t\t\t\t     fput(object->file)\n\t\t\t\t\t     object->file = NULL\n  // file NULL pointer dereference!\n  __cachefiles_write(..., file, ...)\n\nFix this issue by add an additional reference count to the object->file\nbefore write/llseek, and decrement after it finished.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T14:15:34Z"

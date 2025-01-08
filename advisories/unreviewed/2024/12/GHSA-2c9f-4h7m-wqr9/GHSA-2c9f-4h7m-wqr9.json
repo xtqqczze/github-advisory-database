@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c9f-4h7m-wqr9",
-  "modified": "2024-12-28T12:30:48Z",
+  "modified": "2025-01-08T18:30:48Z",
   "published": "2024-12-28T12:30:48Z",
   "aliases": [
     "CVE-2024-56708"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nEDAC/igen6: Avoid segmentation fault on module unload\n\nThe segmentation fault happens because:\n\nDuring modprobe:\n1. In igen6_probe(), igen6_pvt will be allocated with kzalloc()\n2. In igen6_register_mci(), mci->pvt_info will point to\n   &igen6_pvt->imc[mc]\n\nDuring rmmod:\n1. In mci_release() in edac_mc.c, it will kfree(mci->pvt_info)\n2. In igen6_remove(), it will kfree(igen6_pvt);\n\nFix this issue by setting mci->pvt_info to NULL to avoid the double\nkfree.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-28T10:15:20Z"

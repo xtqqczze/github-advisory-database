@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j3fj-gjrj-c97q",
+  "modified": "2025-01-08T18:30:49Z",
+  "published": "2025-01-08T18:30:49Z",
+  "aliases": [
+    "CVE-2024-56784"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Adding array index check to prevent memory corruption\n\n[Why & How]\nArray indices out of bound caused memory corruption. Adding checks to\nensure that array index stays in bound.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56784"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2c437d9a0b496168e1a1defd17b531f0a526dbe9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/dff526dc3e27f5484f5ba11471b9fbbe681467f2"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-08T18:15:19Z"
+  }
+}
