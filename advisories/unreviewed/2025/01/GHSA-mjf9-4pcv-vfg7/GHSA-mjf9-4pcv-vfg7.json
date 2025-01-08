@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjf9-4pcv-vfg7",
-  "modified": "2025-01-08T09:30:39Z",
+  "modified": "2025-01-08T15:31:11Z",
   "published": "2025-01-08T09:30:39Z",
   "aliases": [
     "CVE-2024-54676"
   ],
   "details": "Vendor: The Apache Software Foundation\n\nVersions Affected: Apache OpenMeetings from 2.1.0 before 8.0.0\n\nDescription: Default clustering instructions at  https://openmeetings.apache.org/Clustering.html  doesn't specify white/black lists for OpenJPA this leads to possible deserialisation of untrusted data.\nUsers are recommended to upgrade to version 8.0.0 and update their startup scripts to include the relevant 'openjpa.serialization.class.blacklist' and 'openjpa.serialization.class.whitelist' configurations as shown in the documentation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-08T09:15:07Z"

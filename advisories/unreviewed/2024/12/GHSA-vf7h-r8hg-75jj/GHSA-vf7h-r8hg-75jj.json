@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf7h-r8hg-75jj",
-  "modified": "2025-01-06T18:31:01Z",
+  "modified": "2025-01-08T15:31:09Z",
   "published": "2024-12-31T12:30:44Z",
   "aliases": [
     "CVE-2024-12105"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.progress.com/network-monitoring"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-2089"
     }
   ],
   "database_specific": {

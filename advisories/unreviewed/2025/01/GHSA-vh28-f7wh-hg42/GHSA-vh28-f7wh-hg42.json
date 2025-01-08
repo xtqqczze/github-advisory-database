@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vh28-f7wh-hg42",
-  "modified": "2025-01-07T21:30:55Z",
+  "modified": "2025-01-08T15:31:10Z",
   "published": "2025-01-07T21:30:55Z",
   "aliases": [
     "CVE-2022-41573"
   ],
   "details": "An issue was discovered in Ovidentia 8.3. The file upload feature does not prevent the uploading of executable files. A user can upload a .png file containing PHP code and then rename it to have the .php extension. It will then be accessible at an images/common/ URI for remote code execution.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-434"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-07T20:15:28Z"
