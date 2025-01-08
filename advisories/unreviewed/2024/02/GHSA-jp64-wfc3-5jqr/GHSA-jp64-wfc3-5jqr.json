@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jp64-wfc3-5jqr",
-  "modified": "2024-02-29T03:33:17Z",
+  "modified": "2025-01-08T21:32:20Z",
   "published": "2024-02-29T03:33:17Z",
   "aliases": [
     "CVE-2024-1448"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
