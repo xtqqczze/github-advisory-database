@@ -1,31 +1,52 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjgq-5qmw-rcj6",
-  "modified": "2025-01-08T18:30:48Z",
+  "modified": "2025-01-08T19:48:35Z",
   "published": "2025-01-08T18:30:48Z",
   "aliases": [
     "CVE-2024-55459"
   ],
+  "summary": "keras Path Traversal vulnerability",
   "details": "An issue in keras 3.7.0 allows attackers to write arbitrary files to the user's machine via downloading a crafted tar file through the get_file function.",
   "severity": [
     {
-      "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "keras"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "3.7.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-55459"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/keras-team/keras"
     },
     {
       "type": "WEB",
-      "url": "https://github.com/mselbrede/CVE-2024-51442"
+      "url": "https://github.com/keras-team/keras/blob/8f5592bcb61ff48c96560c8923e482db1076b54a/keras/src/utils/file_utils.py#L115"
     },
     {
       "type": "WEB",
@@ -41,8 +62,8 @@
       "CWE-22"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-01-08T19:48:35Z",
     "nvd_published_at": "2025-01-08T17:15:15Z"
   }
 }
