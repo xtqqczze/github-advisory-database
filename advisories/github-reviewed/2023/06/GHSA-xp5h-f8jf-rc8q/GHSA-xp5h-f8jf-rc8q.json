@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp5h-f8jf-rc8q",
-  "modified": "2023-06-09T22:41:16Z",
+  "modified": "2025-01-09T15:37:19Z",
   "published": "2023-06-09T22:41:16Z",
   "aliases": [
     "CVE-2023-23913"
@@ -51,12 +51,20 @@
   ],
   "references": [
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-23913"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rails/rails/commit/5037a13614d71727af8a175063bcf6ba1a74bdbd"
     },
     {
       "type": "WEB",
       "url": "https://github.com/rails/rails/commit/73009ea59a811b28e8ec2a9c9bc24635aa891214"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1033263"
     },
     {
       "type": "WEB",
@@ -69,6 +77,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionview/CVE-2023-23913.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240605-0007"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.debian.org/security/2023/dsa-5389"
     }
   ],
   "database_specific": {
@@ -78,6 +94,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2023-06-09T22:41:16Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-09T01:15:07Z"
   }
 }
