@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3jp-95q8-wv48",
-  "modified": "2025-01-08T18:30:48Z",
+  "modified": "2025-01-09T18:32:13Z",
   "published": "2025-01-07T21:30:55Z",
   "aliases": [
     "CVE-2024-53522"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "http://hosxp.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://hosxp.net"
     }
   ],
   "database_specific": {

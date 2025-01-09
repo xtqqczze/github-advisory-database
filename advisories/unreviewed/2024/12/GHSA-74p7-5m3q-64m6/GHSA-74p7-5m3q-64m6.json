@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-74p7-5m3q-64m6",
-  "modified": "2024-12-27T15:31:54Z",
+  "modified": "2025-01-09T18:32:13Z",
   "published": "2024-12-27T15:31:54Z",
   "aliases": [
     "CVE-2024-56609"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56609"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3d94c4b21966b49c3e26ceeefacaa11ff7ee6d68"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4vc-rr66-6355",
-  "modified": "2024-12-27T15:31:55Z",
+  "modified": "2025-01-09T18:32:13Z",
   "published": "2024-12-27T15:31:55Z",
   "aliases": [
     "CVE-2024-56626"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/164d3597d26d9acff5d5b8bc3208bdcca942dd6a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1aea5c9470be2c7129704fb1b9562b1e3e0576f8"
     },
     {
       "type": "WEB",

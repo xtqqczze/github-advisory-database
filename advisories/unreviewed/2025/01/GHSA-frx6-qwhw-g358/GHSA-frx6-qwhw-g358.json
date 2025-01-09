@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frx6-qwhw-g358",
-  "modified": "2025-01-07T21:30:55Z",
+  "modified": "2025-01-09T18:32:13Z",
   "published": "2025-01-07T18:30:49Z",
   "aliases": [
     "CVE-2024-46602"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46602"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.elspec-ltd.com/support/security-advisories."
     },
     {
       "type": "WEB",

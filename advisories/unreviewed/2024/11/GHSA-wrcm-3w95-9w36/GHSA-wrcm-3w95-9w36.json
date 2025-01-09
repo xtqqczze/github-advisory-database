@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrcm-3w95-9w36",
-  "modified": "2025-01-02T15:31:57Z",
+  "modified": "2025-01-09T18:32:12Z",
   "published": "2024-11-05T18:32:12Z",
   "aliases": [
     "CVE-2024-50121"
@@ -25,11 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5ade4382de16c34d9259cb548f36ec5c4555913c"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/add1df5eba163a3a6ece11cb85890e2e410baaea"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d5ff2fb2e7167e9483846e34148e60c0c016a1f6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f67138dd338cb564ade7d3755c8cd4f68b46d397"
     },
     {
       "type": "WEB",

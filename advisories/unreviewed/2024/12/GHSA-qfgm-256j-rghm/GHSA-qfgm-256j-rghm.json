@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfgm-256j-rghm",
-  "modified": "2025-01-07T18:30:46Z",
+  "modified": "2025-01-09T18:32:13Z",
   "published": "2024-12-24T12:30:42Z",
   "aliases": [
     "CVE-2024-53149"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6ba6f7f29e0dff47a2799e60dcd1b5c29cd811a5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8a2273e5c1beb285729aa001422967b4711c53fe"
     },
     {
       "type": "WEB",
