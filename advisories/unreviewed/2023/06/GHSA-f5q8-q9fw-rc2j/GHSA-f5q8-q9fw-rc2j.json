@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5q8-q9fw-rc2j",
-  "modified": "2024-04-04T04:30:12Z",
+  "modified": "2025-01-09T21:31:26Z",
   "published": "2023-06-02T18:30:18Z",
   "aliases": [
     "CVE-2023-25745"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1688592%2C1797186%2C1804998%2C1806521%2C1813284"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1804998"
     },
     {
       "type": "WEB",

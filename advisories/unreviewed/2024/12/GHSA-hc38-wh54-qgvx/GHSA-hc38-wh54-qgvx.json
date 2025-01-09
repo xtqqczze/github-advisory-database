@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc38-wh54-qgvx",
-  "modified": "2025-01-09T18:32:13Z",
+  "modified": "2025-01-09T21:31:28Z",
   "published": "2024-12-18T09:31:35Z",
   "aliases": [
     "CVE-2024-11614"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:0210"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:0211"
     },
     {
       "type": "WEB",

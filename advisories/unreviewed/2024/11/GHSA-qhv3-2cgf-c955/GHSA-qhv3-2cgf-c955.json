@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhv3-2cgf-c955",
-  "modified": "2024-11-22T21:32:13Z",
+  "modified": "2025-01-09T21:31:27Z",
   "published": "2024-11-20T18:32:17Z",
   "aliases": [
     "CVE-2024-51162"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Cameleon037/CVEs/blob/main/CVE-2024-51162/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2024-51162"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hrg-cvr4-ff8f",
-  "modified": "2024-12-29T12:30:40Z",
+  "modified": "2025-01-09T21:31:28Z",
   "published": "2024-12-29T12:30:40Z",
   "aliases": [
     "CVE-2024-56721"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/CPU/AMD: Terminate the erratum_1386_microcode array\n\nThe erratum_1386_microcode array requires an empty entry at the end.\nOtherwise x86_match_cpu_with_stepping() will continue iterate the array after\nit ended.\n\nAdd an empty entry to erratum_1386_microcode to its end.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-29T12:15:06Z"

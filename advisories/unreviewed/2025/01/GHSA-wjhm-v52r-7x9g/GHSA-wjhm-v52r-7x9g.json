@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wjhm-v52r-7x9g",
+  "modified": "2025-01-09T21:31:30Z",
+  "published": "2025-01-09T21:31:30Z",
+  "aliases": [
+    "CVE-2024-13254"
+  ],
+  "details": "Insertion of Sensitive Information Into Sent Data vulnerability in Drupal REST Views allows Forceful Browsing.This issue affects REST Views: from 0.0.0 before 3.0.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13254"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.drupal.org/sa-contrib-2024-018"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-201"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-09T19:15:19Z"
+  }
+}

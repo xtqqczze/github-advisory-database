@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p9jg-5w2m-vgg8",
+  "modified": "2025-01-09T21:31:32Z",
+  "published": "2025-01-09T21:31:32Z",
+  "aliases": [
+    "CVE-2024-13309"
+  ],
+  "details": "Improper Authentication vulnerability in Drupal Login Disable allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Login Disable: from 2.0.0 before 2.1.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13309"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.drupal.org/sa-contrib-2024-073"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-287"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-09T21:15:28Z"
+  }
+}

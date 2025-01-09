@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w993-3vv8-hxp8",
-  "modified": "2025-01-08T18:30:48Z",
+  "modified": "2025-01-09T21:31:29Z",
   "published": "2025-01-08T18:30:48Z",
   "aliases": [
     "CVE-2024-56773"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nkunit: Fix potential null dereference in kunit_device_driver_test()\n\nkunit_kzalloc() may return a NULL pointer, dereferencing it without\nNULL check may lead to NULL dereference.\nAdd a NULL check for test_state.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-08T18:15:18Z"

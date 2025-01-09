@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-439r-vwp4-cgfr",
-  "modified": "2024-12-29T12:30:40Z",
+  "modified": "2025-01-09T21:31:28Z",
   "published": "2024-12-29T12:30:40Z",
   "aliases": [
     "CVE-2024-56722"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/hns: Fix cpu stuck caused by printings during reset\n\nDuring reset, cmd to destroy resources such as qp, cq, and mr may fail,\nand error logs will be printed. When a large number of resources are\ndestroyed, there will be lots of printings, and it may lead to a cpu\nstuck.\n\nDelete some unnecessary printings and replace other printing functions\nin these paths with the ratelimited version.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-770"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-29T12:15:06Z"

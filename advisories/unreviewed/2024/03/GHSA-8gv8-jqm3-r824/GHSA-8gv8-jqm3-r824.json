@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gv8-jqm3-r824",
-  "modified": "2024-03-01T00:30:27Z",
+  "modified": "2025-01-09T21:31:26Z",
   "published": "2024-03-01T00:30:27Z",
   "aliases": [
     "CVE-2021-47016"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nm68k: mvme147,mvme16x: Don't wipe PCC timer config bits\n\nDon't clear the timer 1 configuration bits when clearing the interrupt flag\nand counter overflow. As Michael reported, \"This results in no timer\ninterrupts being delivered after the first. Initialization then hangs\nin calibrate_delay as the jiffies counter is not updated.\"\n\nOn mvme16x, enable the timer after requesting the irq, consistent with\nmvme147.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-29T23:15:07Z"

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p3jr-34v8-m9x2",
+  "modified": "2025-01-09T21:31:31Z",
+  "published": "2025-01-09T21:31:31Z",
+  "aliases": [
+    "CVE-2024-13260"
+  ],
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Drupal Migrate queue importer allows Cross Site Request Forgery.This issue affects Migrate queue importer: from 0.0.0 before 2.1.1.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13260"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.drupal.org/sa-contrib-2024-024"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-09T20:15:34Z"
+  }
+}
