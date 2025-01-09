@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7rgp-4j56-fm79",
+  "modified": "2025-01-09T09:31:42Z",
+  "published": "2025-01-09T09:31:42Z",
+  "aliases": [
+    "CVE-2025-22445"
+  ],
+  "details": "Mattermost versions 10.x <= 10.2 fail to accurately reflect missing settings, which allows confusion for admins regarding a Calls security-sensitive configuration via incorrect UI reporting.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22445"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-754"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-09T07:15:28Z"
+  }
+}

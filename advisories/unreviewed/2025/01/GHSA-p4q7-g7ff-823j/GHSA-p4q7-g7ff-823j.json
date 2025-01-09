@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4q7-g7ff-823j",
-  "modified": "2025-01-08T18:30:48Z",
+  "modified": "2025-01-09T09:31:40Z",
   "published": "2025-01-07T18:30:49Z",
   "aliases": [
     "CVE-2025-0239"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2025-02"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-04"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-05"
     }
   ],
   "database_specific": {

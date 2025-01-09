@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q8fg-cp3q-5jwm",
+  "modified": "2025-01-09T09:31:42Z",
+  "published": "2025-01-09T09:31:42Z",
+  "aliases": [
+    "CVE-2025-22449"
+  ],
+  "details": "Mattermost versions 9.11.x <= 9.11.5 fail to enforce invite permissions, which allows team admins, with no permission to invite users to their team, to invite users by updating the \"allow_open_invite\" field via making their team public.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22449"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-09T07:15:28Z"
+  }
+}

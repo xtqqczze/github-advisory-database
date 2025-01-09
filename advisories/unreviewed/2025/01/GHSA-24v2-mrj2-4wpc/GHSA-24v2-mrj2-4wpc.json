@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24v2-mrj2-4wpc",
-  "modified": "2025-01-08T15:31:09Z",
+  "modified": "2025-01-09T09:31:41Z",
   "published": "2025-01-07T18:30:50Z",
   "aliases": [
     "CVE-2025-0247"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2025-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-04"
     }
   ],
   "database_specific": {

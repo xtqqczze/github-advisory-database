@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cpr8-m35v-9vv2",
+  "modified": "2025-01-09T09:31:41Z",
+  "published": "2025-01-09T09:31:41Z",
+  "aliases": [
+    "CVE-2024-40762"
+  ],
+  "details": "Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG) in the SonicOS SSLVPN authentication token generator that, in certain cases, can be predicted by an attacker potentially resulting in authentication bypass.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-40762"
+    },
+    {
+      "type": "WEB",
+      "url": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2025-0003"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-338"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-09T07:15:26Z"
+  }
+}
