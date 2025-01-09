@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-675f-rq2r-jw82",
-  "modified": "2025-01-09T17:23:43Z",
+  "modified": "2025-01-09T18:57:32Z",
   "published": "2025-01-09T17:23:43Z",
   "aliases": [
     "CVE-2025-22149"
@@ -44,6 +44,10 @@
       "url": "https://github.com/MicahParks/jwkset/security/advisories/GHSA-675f-rq2r-jw82"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22149"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/MicahParks/jwkset/issues/40"
     },
@@ -52,15 +56,21 @@
       "url": "https://github.com/MicahParks/jwkset/pull/41"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/MicahParks/jwkset/commit/01db49a90f7f20c7fb39a699a2f19a7a5f379ed3"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/MicahParks/jwkset"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-672"
+    ],
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-09T17:23:43Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-09T18:15:30Z"
   }
 }
