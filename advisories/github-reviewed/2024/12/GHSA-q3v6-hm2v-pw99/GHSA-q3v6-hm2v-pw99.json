@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3v6-hm2v-pw99",
-  "modified": "2024-12-02T20:04:17Z",
+  "modified": "2025-01-10T15:59:23Z",
   "published": "2024-12-02T15:31:41Z",
   "aliases": [
     "CVE-2024-38827"
@@ -22,7 +22,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework:spring-beans"
+        "name": "org.springframework.security:spring-security-core"
       },
       "ranges": [
         {
@@ -32,7 +32,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "6.1.14"
+              "fixed": "5.7.14"
             }
           ]
         }
@@ -41,17 +41,17 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework:spring-context"
+        "name": "org.springframework.security:spring-security-core"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "5.8.0"
             },
             {
-              "fixed": "6.1.14"
+              "fixed": "5.8.16"
             }
           ]
         }
@@ -60,17 +60,17 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework:spring-core"
+        "name": "org.springframework.security:spring-security-core"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.0.0"
             },
             {
-              "fixed": "6.1.14"
+              "fixed": "6.0.14"
             }
           ]
         }
@@ -79,17 +79,17 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework:spring-expression"
+        "name": "org.springframework.security:spring-security-core"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.1.0"
             },
             {
-              "fixed": "6.1.14"
+              "fixed": "6.1.12"
             }
           ]
         }
@@ -98,17 +98,36 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework:spring-jdbc"
+        "name": "org.springframework.security:spring-security-core"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.2.0"
             },
             {
-              "fixed": "6.1.14"
+              "fixed": "6.2.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework.security:spring-security-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.3.0"
+            },
+            {
+              "fixed": "6.3.5"
             }
           ]
         }
@@ -126,11 +145,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/spring-projects/spring-framework/issues/34232"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/spring-projects/spring-framework/commit/11d4272ff48b4a4dabc4b28dfbff0364a4204bc9"
     },
     {
       "type": "PACKAGE",
-      "url": "https://github.com/spring-projects/spring-framework"
+      "url": "https://github.com/spring-projects/spring-security"
     },
     {
       "type": "WEB",
