@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93c4-8fxm-4wq3",
-  "modified": "2025-01-08T18:30:48Z",
+  "modified": "2025-01-10T00:30:35Z",
   "published": "2025-01-08T18:30:48Z",
   "aliases": [
     "CVE-2024-56776"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/sti: avoid potential dereference of error pointers\n\nThe return value of drm_atomic_get_crtc_state() needs to be\nchecked. To avoid use of error pointer 'crtc_state' in case\nof the failure.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-754"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-08T18:15:18Z"

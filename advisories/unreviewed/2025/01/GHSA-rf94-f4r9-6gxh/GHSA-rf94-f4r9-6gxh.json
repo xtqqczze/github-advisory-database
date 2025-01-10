@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf94-f4r9-6gxh",
-  "modified": "2025-01-09T00:31:34Z",
+  "modified": "2025-01-10T00:30:36Z",
   "published": "2025-01-09T00:31:34Z",
   "aliases": [
     "CVE-2025-0282"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/ivanti-connect-secure-vpn-zero-day"
+    },
+    {
+      "type": "WEB",
       "url": "https://forums.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-Policy-Secure-ZTA-Gateways-CVE-2025-0282-CVE-2025-0283"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/cisa-mitigation-instructions-cve-2025-0282"
     }
   ],
   "database_specific": {
