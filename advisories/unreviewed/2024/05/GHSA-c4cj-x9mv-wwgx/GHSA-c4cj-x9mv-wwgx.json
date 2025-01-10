@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4cj-x9mv-wwgx",
-  "modified": "2024-05-20T12:30:30Z",
+  "modified": "2025-01-10T18:31:37Z",
   "published": "2024-05-20T12:30:30Z",
   "aliases": [
     "CVE-2024-35998"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb3: fix lock ordering potential deadlock in cifs_sync_mid_result\n\nCoverity spotted that the cifs_sync_mid_result function could deadlock\n\n\"Thread deadlock (ORDER_REVERSAL) lock_order: Calling spin_lock acquires\nlock TCP_Server_Info.srv_lock while holding lock TCP_Server_Info.mid_lock\"\n\nAddresses-Coverity: 1590401 (\"Thread deadlock (ORDER_REVERSAL)\")",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-20T10:15:14Z"

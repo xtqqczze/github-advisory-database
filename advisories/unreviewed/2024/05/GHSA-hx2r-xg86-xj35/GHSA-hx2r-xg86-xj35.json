@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx2r-xg86-xj35",
-  "modified": "2024-11-17T15:30:44Z",
+  "modified": "2025-01-10T18:31:37Z",
   "published": "2024-05-22T09:31:45Z",
   "aliases": [
     "CVE-2021-47469"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: Fix deadlock when adding SPI controllers on SPI buses\n\nCurrently we have a global spi_add_lock which we take when adding new\ndevices so that we can check that we're not trying to reuse a chip\nselect that's already controlled.  This means that if the SPI device is\nitself a SPI controller and triggers the instantiation of further SPI\ndevices we trigger a deadlock as we try to register and instantiate\nthose devices while in the process of doing so for the parent controller\nand hence already holding the global spi_add_lock.  Since we only care\nabout concurrency within a single SPI bus move the lock to be per\ncontroller, avoiding the deadlock.\n\nThis can be easily triggered in the case of spi-mux.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-22T07:15:11Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmp7-8h7w-9h3x",
-  "modified": "2024-04-04T05:47:54Z",
+  "modified": "2025-01-10T18:31:30Z",
   "published": "2023-07-06T21:15:06Z",
   "aliases": [
     "CVE-2023-33508"
