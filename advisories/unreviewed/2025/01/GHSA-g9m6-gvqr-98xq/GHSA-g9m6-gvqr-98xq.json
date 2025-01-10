@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9m6-gvqr-98xq",
-  "modified": "2025-01-09T21:31:31Z",
+  "modified": "2025-01-10T21:31:27Z",
   "published": "2025-01-09T21:31:31Z",
   "aliases": [
     "CVE-2024-56113"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://smarttoilet.pratt.duke.edu"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.motius.com"
     }
   ],
   "database_specific": {
