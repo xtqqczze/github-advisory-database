@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-22mx-7hxm-5fcw",
-  "modified": "2024-12-19T18:31:38Z",
+  "modified": "2025-01-10T15:31:33Z",
   "published": "2024-12-19T18:31:38Z",
   "aliases": [
     "CVE-2024-52897"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.ibm.com/support/pages/node/7178086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ibm.com/support/pages/node/7179151"
     }
   ],
   "database_specific": {
