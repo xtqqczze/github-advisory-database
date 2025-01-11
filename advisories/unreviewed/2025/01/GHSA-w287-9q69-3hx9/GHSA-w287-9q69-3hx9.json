@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-w287-9q69-3hx9",
+  "modified": "2025-01-11T00:32:04Z",
+  "published": "2025-01-04T00:33:40Z",
+  "aliases": [
+    "CVE-2025-22376"
+  ],
+  "details": "In Net::OAuth::Client in the Net::OAuth package before 0.29 for Perl, the default nonce is a 32-bit integer generated from the built-in rand() function, which is not cryptographically strong.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22376"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/release/KGRENNAN/Net-OAuth-0.28/source/lib/Net/OAuth/Client.pm#L260"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/release/RRWO/Net-OAuth-0.29/changes"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-338"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-03T22:15:07Z"
+  }
+}
