@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfr4-95g9-6vf3",
-  "modified": "2024-12-13T15:30:38Z",
+  "modified": "2025-01-11T15:30:27Z",
   "published": "2024-12-07T09:30:23Z",
   "aliases": [
     "CVE-2024-53143"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/83af1cfa10d9aafdabd06b3655e07727f373b434"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/379667898"
     }
   ],
   "database_specific": {

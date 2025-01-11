@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87qc-q3w7-7m8w",
-  "modified": "2024-09-04T21:30:31Z",
+  "modified": "2025-01-11T15:30:27Z",
   "published": "2024-08-01T15:32:20Z",
   "aliases": [
     "CVE-2024-6923"
@@ -53,7 +53,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00005.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240926-0003"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/08/01/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/08/02/2"
     }
   ],
   "database_specific": {
