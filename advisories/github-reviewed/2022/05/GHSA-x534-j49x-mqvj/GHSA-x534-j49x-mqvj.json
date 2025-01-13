@@ -1,19 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x534-j49x-mqvj",
-  "modified": "2023-03-01T18:30:58Z",
+  "modified": "2025-01-13T15:21:40Z",
   "published": "2022-05-24T16:57:50Z",
   "aliases": [
     "CVE-2019-11932"
   ],
-  "details": "A double free vulnerability in the DDGifSlurp function in decoding.c in libpl_droidsonroids_gif before 1.2.15, as used in WhatsApp for Android before 2.19.244, allows remote attackers to execute arbitrary code or cause a denial of service.",
+  "summary": "android-gif-drawable Double Free vulnerability",
+  "details": "A double free vulnerability in the DDGifSlurp function in decoding.c in the android-gif-drawable library before version 1.2.18, as used in WhatsApp for Android before version 2.19.244 and many other Android applications, allows remote attackers to execute arbitrary code or cause a denial of service when the library is used to parse a specially crafted GIF image.",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "pl.droidsonroids.gif:android-gif-drawable"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.18"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,6 +61,10 @@
       "url": "https://gist.github.com/wdormann/874198c1bd29c7dd2157d9fc1d858263"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/koral--/android-gif-drawable"
+    },
+    {
       "type": "WEB",
       "url": "https://www.facebook.com/security/advisories/cve-2019-11932"
     },
@@ -61,8 +86,8 @@
       "CWE-415"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-01-13T15:21:40Z",
     "nvd_published_at": "2019-10-03T22:15:00Z"
   }
 }
