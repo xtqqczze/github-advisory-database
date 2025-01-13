@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h6pf-2cgw-xppm",
-  "modified": "2025-01-13T15:30:50Z",
+  "modified": "2025-01-13T18:31:55Z",
   "published": "2025-01-13T15:30:50Z",
   "aliases": [
     "CVE-2025-22777"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/plugin/give/vulnerability/wordpress-givewp-plugin-3-19-3-php-object-injection-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
+      "url": "https://securityonline.info/cve-2025-22777-cvss-9-8-critical-security-alert-for-givewp-plugin-with-100000-active-installations"
     }
   ],
   "database_specific": {

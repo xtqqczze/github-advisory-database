@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2j2-ph6r-wrg9",
-  "modified": "2024-02-29T06:30:32Z",
+  "modified": "2025-01-13T18:31:55Z",
   "published": "2024-02-29T06:30:32Z",
   "aliases": [
     "CVE-2023-52480"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix race condition between session lookup and expire\n\n Thread A                        +  Thread B\n ksmbd_session_lookup            |  smb2_sess_setup\n   sess = xa_load                |\n                                 |\n                                 |    xa_erase(&conn->sessions, sess->id);\n                                 |\n                                 |    ksmbd_session_destroy(sess) --> kfree(sess)\n                                 |\n   // UAF!                       |\n   sess->last_active = jiffies   |\n                                 +\n\nThis patch add rwsem to fix race condition between ksmbd_session_lookup\nand ksmbd_expire_session.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-29T06:15:46Z"

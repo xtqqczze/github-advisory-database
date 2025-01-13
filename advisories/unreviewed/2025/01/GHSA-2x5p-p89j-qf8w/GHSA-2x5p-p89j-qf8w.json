@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x5p-p89j-qf8w",
-  "modified": "2025-01-10T21:31:27Z",
+  "modified": "2025-01-13T18:31:55Z",
   "published": "2025-01-10T21:31:27Z",
   "aliases": [
     "CVE-2025-23079"
   ],
   "details": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - ArticleFeedbackv5 extension allows Cross-Site Scripting (XSS).This issue affects Mediawiki - ArticleFeedbackv5 extension: from 1.42.X before 1.42.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-10T19:15:38Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cjx-9vhp-m267",
-  "modified": "2025-01-13T12:31:59Z",
+  "modified": "2025-01-13T18:31:55Z",
   "published": "2025-01-13T12:31:59Z",
   "aliases": [
     "CVE-2024-47897"
   ],
   "details": "Software installed and run as a non-privileged user may conduct improper GPU system calls resulting in platform instability and reboots.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-787"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-13T11:15:08Z"

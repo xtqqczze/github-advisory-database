@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hmqc-m95c-6fjw",
+  "modified": "2025-01-13T18:31:55Z",
+  "published": "2025-01-13T18:31:55Z",
+  "aliases": [
+    "CVE-2024-54999"
+  ],
+  "details": "MonicaHQ v4.1.2 was discovered to contain a Client-Side Injection vulnerability via the last_name parameter the General Information module.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-54999"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/p314dO/CVEs/tree/main/CVE-2024-54999"
+    },
+    {
+      "type": "WEB",
+      "url": "http://monicahq.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-13T17:15:17Z"
+  }
+}

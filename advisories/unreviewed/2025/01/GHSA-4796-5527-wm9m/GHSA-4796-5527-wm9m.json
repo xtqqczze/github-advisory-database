@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4796-5527-wm9m",
-  "modified": "2025-01-13T15:30:50Z",
+  "modified": "2025-01-13T18:31:55Z",
   "published": "2025-01-13T15:30:50Z",
   "aliases": [
     "CVE-2024-47796"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2024-2122"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-2122"
     }
   ],
   "database_specific": {

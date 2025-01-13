@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhhc-7vg8-h992",
-  "modified": "2025-01-13T12:31:59Z",
+  "modified": "2025-01-13T18:31:55Z",
   "published": "2025-01-13T12:31:59Z",
   "aliases": [
     "CVE-2024-52937"
   ],
   "details": "Kernel software installed and running inside a Guest VM may exploit memory shared with the GPU Firmware to write data outside the Guest's virtualised GPU memory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-823"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-13T11:15:09Z"
