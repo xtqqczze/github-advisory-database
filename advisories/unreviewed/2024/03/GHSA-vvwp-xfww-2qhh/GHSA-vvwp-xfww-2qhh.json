@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvwp-xfww-2qhh",
-  "modified": "2024-03-03T00:30:32Z",
+  "modified": "2025-01-13T21:30:47Z",
   "published": "2024-03-03T00:30:32Z",
   "aliases": [
     "CVE-2023-52519"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: intel-ish-hid: ipc: Disable and reenable ACPI GPE bit\n\nThe EHL (Elkhart Lake) based platforms provide a OOB (Out of band)\nservice, which allows to wakup device when the system is in S5 (Soft-Off\nstate). This OOB service can be enabled/disabled from BIOS settings. When\nenabled, the ISH device gets PME wake capability. To enable PME wakeup,\ndriver also needs to enable ACPI GPE bit.\n\nOn resume, BIOS will clear the wakeup bit. So driver need to re-enable it\nin resume function to keep the next wakeup capability. But this BIOS\nclearing of wakeup bit doesn't decrement internal OS GPE reference count,\nso this reenabling on every resume will cause reference count to overflow.\n\nSo first disable and reenable ACPI GPE bit using acpi_disable_gpe().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-02T22:15:48Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66jf-c5vq-qxfv",
-  "modified": "2025-01-10T18:31:41Z",
+  "modified": "2025-01-13T21:30:52Z",
   "published": "2025-01-10T18:31:41Z",
   "aliases": [
     "CVE-2024-54687"
   ],
   "details": "Vtiger CRM v.6.1 and before is vulnerable to Cross Site Scripting (XSS) via the Documents module and function uploadAndSaveFile in CRMEntity.php.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-10T18:15:22Z"

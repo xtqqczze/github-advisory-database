@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx4w-f43c-ww54",
-  "modified": "2024-03-03T00:30:30Z",
+  "modified": "2025-01-13T21:30:46Z",
   "published": "2024-03-03T00:30:30Z",
   "aliases": [
     "CVE-2023-52500"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: pm80xx: Avoid leaking tags when processing OPC_INB_SET_CONTROLLER_CONFIG command\n\nTags allocated for OPC_INB_SET_CONTROLLER_CONFIG command need to be freed\nwhen we receive the response.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-02T22:15:47Z"

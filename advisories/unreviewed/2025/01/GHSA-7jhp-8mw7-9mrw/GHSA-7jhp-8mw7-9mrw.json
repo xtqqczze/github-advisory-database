@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jhp-8mw7-9mrw",
-  "modified": "2025-01-13T18:31:55Z",
+  "modified": "2025-01-13T21:30:52Z",
   "published": "2025-01-13T15:30:49Z",
   "aliases": [
     "CVE-2025-22828"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/bbsm9fdwrgfyostzojh6ghpocgdmx8rs"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/01/13/1"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4wjp-4mm4-3wrh",
-  "modified": "2024-08-12T15:30:53Z",
+  "modified": "2025-01-13T21:30:47Z",
   "published": "2024-08-12T15:30:53Z",
   "aliases": [
     "CVE-2024-7658"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.385000"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kiyell.com/private-files-from-projectsend-idor"
     }
   ],
   "database_specific": {

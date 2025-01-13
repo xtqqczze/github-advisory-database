@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fx2w-48wv-h9qv",
+  "modified": "2025-01-13T21:30:53Z",
+  "published": "2025-01-13T21:30:53Z",
+  "aliases": [
+    "CVE-2024-46310"
+  ],
+  "details": "Incorrect Access Control in Cfx.re FXServer v9601 and earlier allows unauthenticated users to modify and read arbitrary user data via exposed API endpoint",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46310"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/PRX5Y/CVE-2024-46310"
+    },
+    {
+      "type": "WEB",
+      "url": "http://cfxre.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-13T19:15:10Z"
+  }
+}
