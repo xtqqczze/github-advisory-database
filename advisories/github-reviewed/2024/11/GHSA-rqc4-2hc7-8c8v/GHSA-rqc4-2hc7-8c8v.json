@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rqc4-2hc7-8c8v",
-  "modified": "2024-11-24T21:30:46Z",
+  "modified": "2025-01-13T17:01:51Z",
   "published": "2024-11-24T18:31:39Z",
   "aliases": [
     "CVE-2024-53899"
   ],
+  "summary": "virtualenv allows command injection through activation scripts for a virtual environment",
   "details": "virtualenv before 20.26.6 allows command injection through the activation scripts for a virtual environment. Magic template strings are not quoted correctly when replacing. NOTE: this is not the same as CVE-2024-9287.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "virtualenv"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "20.26.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,6 +49,10 @@
       "url": "https://github.com/pypa/virtualenv/pull/2771"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/pypa/virtualenv"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/pypa/virtualenv/releases/tag/20.26.6"
     }
@@ -38,8 +63,8 @@
       "CWE-78"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-01-13T17:01:51Z",
     "nvd_published_at": "2024-11-24T16:15:06Z"
   }
 }
