@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-38x7-cc6w-j27q",
-  "modified": "2025-01-14T15:23:41Z",
+  "modified": "2025-01-14T22:00:23Z",
   "published": "2025-01-14T15:23:41Z",
   "aliases": [
     "CVE-2024-55891"
@@ -44,6 +44,10 @@
       "url": "https://github.com/TYPO3/typo3/security/advisories/GHSA-38x7-cc6w-j27q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-55891"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/TYPO3-CMS/install/commit/baa8089b1baf5552fab213a5761081608b0afc51"
     },
@@ -63,6 +67,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-14T15:23:41Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-14T20:15:28Z"
   }
 }

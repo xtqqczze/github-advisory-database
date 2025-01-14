@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86c2-4x57-wc8g",
-  "modified": "2025-01-14T19:40:54Z",
+  "modified": "2025-01-14T21:59:51Z",
   "published": "2025-01-14T19:40:54Z",
   "aliases": [
     "CVE-2024-50338"
@@ -44,8 +44,24 @@
       "url": "https://github.com/git-ecosystem/git-credential-manager/security/advisories/GHSA-86c2-4x57-wc8g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50338"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git-scm.com/docs/git-credential#IOFMT"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/dotnet/runtime/blob/e476b43b5cb42eb44ce23b1c7b793aa361624cf6/src/libraries/System.Private.CoreLib/src/System/IO/StreamReader.cs#L926"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/git-ecosystem/git-credential-manager"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/git-ecosystem/git-credential-manager/blob/ae009e11a0fbef804ad9f78816d84a0bc7e052fe/src/shared/Core/StreamExtensions.cs#L138-L141"
     },
     {
       "type": "WEB",
@@ -54,15 +70,24 @@
     {
       "type": "WEB",
       "url": "https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.6.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/git/git/blob/6a11438f43469f3815f2f0fc997bd45792ff04c0/credential.c#L311"
+    },
+    {
+      "type": "WEB",
+      "url": "https://learn.microsoft.com/en-us/dotnet/api/system.io.streamreader?view=net-8.0"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-200",
       "CWE-436"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-14T19:40:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-14T19:15:31Z"
   }
 }

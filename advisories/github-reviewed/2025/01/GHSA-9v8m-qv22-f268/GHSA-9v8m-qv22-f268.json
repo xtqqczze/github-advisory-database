@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9v8m-qv22-f268",
-  "modified": "2025-01-14T19:41:48Z",
+  "modified": "2025-01-14T22:00:02Z",
   "published": "2025-01-14T19:41:48Z",
   "aliases": [
     "CVE-2025-23041"
@@ -99,15 +99,20 @@
     {
       "type": "WEB",
       "url": "https://github.com/umbraco/Umbraco.Forms.Issues/security/advisories/GHSA-9v8m-qv22-f268"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23041"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-20",
       "CWE-602"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-14T19:41:48Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-14T19:15:44Z"
   }
 }
