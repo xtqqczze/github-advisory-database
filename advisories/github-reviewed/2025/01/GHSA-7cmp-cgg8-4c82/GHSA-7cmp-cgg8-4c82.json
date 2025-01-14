@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cmp-cgg8-4c82",
-  "modified": "2025-01-14T22:18:53Z",
+  "modified": "2025-01-14T23:04:40Z",
   "published": "2025-01-14T22:18:52Z",
   "aliases": [
     "CVE-2024-47605"
   ],
   "summary": "Silverstripe Framework has a XSS via insert media remote file oembed",
-  "details": "### Impact\n\nWhen using the \"insert media\" functionality, the linked oEmbed JSON includes an HTML attribute which will replace the embed shortcode. The HTML is not sanitized before replacing the shortcode, allowing a script payload to be executed on both the CMS and the front-end of the website.\n\n## References\n\n- https://www.silverstripe.org/download/security-releases/cve-2024-47605\n\n\n",
+  "details": "### Impact\n\nWhen using the \"insert media\" functionality, the linked oEmbed JSON includes an HTML attribute which will replace the embed shortcode. The HTML is not sanitized before replacing the shortcode, allowing a script payload to be executed on both the CMS and the front-end of the website.\n\n## References\n\n- https://www.silverstripe.org/download/security-releases/cve-2024-47605\n\n## Reported by\n\nJames Nicoll from [Fujitsu Cyber Security Services](https://www.fujitsu.com/nz/services/security/)",
   "severity": [
     {
       "type": "CVSS_V3",
