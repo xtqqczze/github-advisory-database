@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jfw-gq64-q45f",
-  "modified": "2024-11-20T16:44:28Z",
+  "modified": "2025-01-14T16:37:30Z",
   "published": "2024-11-19T21:07:59Z",
   "aliases": [
     "CVE-2024-52595"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/fedora-python/lxml_html_clean"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/lxml-html-clean/PYSEC-2024-160.yaml"
     }
   ],
   "database_specific": {
