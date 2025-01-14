@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmm7-r7wr-xpfg",
-  "modified": "2025-01-14T16:00:36Z",
+  "modified": "2025-01-14T21:20:22Z",
   "published": "2025-01-14T16:00:36Z",
   "aliases": [
     "CVE-2025-23025"
@@ -79,6 +79,18 @@
       "url": "https://github.com/xwiki/xwiki-platform/security/advisories/GHSA-rmm7-r7wr-xpfg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23025"
+    },
+    {
+      "type": "WEB",
+      "url": "https://extensions.xwiki.org/xwiki/bin/view/Extension/CKEditor+Integration#HAdministrationSection"
+    },
+    {
+      "type": "WEB",
+      "url": "https://extensions.xwiki.org/xwiki/bin/view/Extension/Realtime%20WYSIWYG%20Editor"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/xwiki/xwiki-platform"
     },
@@ -94,6 +106,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-14T16:00:36Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-14T18:16:05Z"
   }
 }
