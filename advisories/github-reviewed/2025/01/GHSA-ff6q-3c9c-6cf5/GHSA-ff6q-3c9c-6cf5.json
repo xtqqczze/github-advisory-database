@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ff6q-3c9c-6cf5",
-  "modified": "2025-01-14T22:18:59Z",
+  "modified": "2025-01-14T22:58:37Z",
   "published": "2025-01-14T22:18:59Z",
   "aliases": [
     "CVE-2024-53277"
   ],
   "summary": "Silverstripe Framework has a XSS in form messages",
-  "details": "In some cases, form messages can contain HTML markup. This is an intentional feature, allowing links and other relevant HTML markup for the given message.\n\nSome form messages include content that the user can provide. There are scenarios in the CMS where that content doesn't get correctly sanitised prior to being included in the form message, resulting in an XSS vulnerability.\n\n### References\n\n- https://www.silverstripe.org/download/security-releases/cve-2024-53277\n",
+  "details": "In some cases, form messages can contain HTML markup. This is an intentional feature, allowing links and other relevant HTML markup for the given message.\n\nSome form messages include content that the user can provide. There are scenarios in the CMS where that content doesn't get correctly sanitised prior to being included in the form message, resulting in an XSS vulnerability.\n\n### References\n\n- https://www.silverstripe.org/download/security-releases/cve-2024-53277\n\n## Reported by\n\nLeo Diamat from [Bastion Security Group](http://www.bastionsecurity.co.nz/)",
   "severity": [
     {
       "type": "CVSS_V3",
