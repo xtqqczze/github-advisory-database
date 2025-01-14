@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q43x-m6x8-fxgx",
-  "modified": "2024-03-28T03:30:58Z",
+  "modified": "2025-01-14T03:31:40Z",
   "published": "2024-03-28T03:30:58Z",
   "aliases": [
     "CVE-2024-28006"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://https://jpn.nec.com/security-info/secinfo/nv24-001_en.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jpn.nec.com/security-info/secinfo/nv24-001_en.html"
     }
   ],
   "database_specific": {
