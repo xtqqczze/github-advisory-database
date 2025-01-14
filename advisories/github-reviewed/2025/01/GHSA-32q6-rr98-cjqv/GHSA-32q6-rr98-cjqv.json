@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32q6-rr98-cjqv",
-  "modified": "2025-01-14T15:57:56Z",
+  "modified": "2025-01-14T21:08:16Z",
   "published": "2025-01-13T19:59:24Z",
   "aliases": [
     "CVE-2024-56323"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/openfga/openfga"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3384"
     }
   ],
   "database_specific": {
