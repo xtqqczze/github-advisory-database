@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vr9g-qp6c-282r",
-  "modified": "2024-05-22T09:31:45Z",
+  "modified": "2025-01-14T18:31:50Z",
   "published": "2024-05-22T09:31:45Z",
   "aliases": [
     "CVE-2021-47470"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm, slub: fix potential use-after-free in slab_debugfs_fops\n\nWhen sysfs_slab_add failed, we shouldn't call debugfs_slab_add() for s\nbecause s will be freed soon.  And slab_debugfs_fops will use s later\nleading to a use-after-free.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-22T07:15:11Z"

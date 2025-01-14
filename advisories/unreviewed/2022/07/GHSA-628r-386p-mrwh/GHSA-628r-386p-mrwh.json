@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-628r-386p-mrwh",
-  "modified": "2022-07-27T00:00:38Z",
+  "modified": "2025-01-14T18:31:46Z",
   "published": "2022-07-21T00:00:33Z",
   "aliases": [
     "CVE-2022-2488"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?id.204539"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-1999"
     }
   ],
   "database_specific": {

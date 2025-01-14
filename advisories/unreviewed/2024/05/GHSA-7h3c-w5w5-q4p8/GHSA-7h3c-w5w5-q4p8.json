@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7h3c-w5w5-q4p8",
-  "modified": "2024-05-20T12:30:29Z",
+  "modified": "2025-01-14T18:31:49Z",
   "published": "2024-05-20T12:30:28Z",
   "aliases": [
     "CVE-2024-35975"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nocteontx2-pf: Fix transmit scheduler resource leak\n\nInorder to support shaping and scheduling, Upon class creation\nNetdev driver allocates trasmit schedulers.\n\nThe previous patch which added support for Round robin scheduling has\na bug due to which driver is not freeing transmit schedulers post\nclass deletion.\n\nThis patch fixes the same.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-20T10:15:12Z"

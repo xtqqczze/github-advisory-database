@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5f2f-22g2-g2gq",
-  "modified": "2024-05-21T18:31:23Z",
+  "modified": "2025-01-14T18:31:50Z",
   "published": "2024-05-21T18:31:23Z",
   "aliases": [
     "CVE-2023-52863"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhwmon: (axi-fan-control) Fix possible NULL pointer dereference\n\naxi_fan_control_irq_handler(), dependent on the private\naxi_fan_control_data structure, might be called before the hwmon\ndevice is registered. That will cause an \"Unable to handle kernel\nNULL pointer dereference\" error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:23Z"

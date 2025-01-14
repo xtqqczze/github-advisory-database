@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79fx-6w6m-964r",
-  "modified": "2024-12-27T15:31:50Z",
+  "modified": "2025-01-14T18:31:53Z",
   "published": "2024-12-27T15:31:50Z",
   "aliases": [
     "CVE-2024-53173"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFSv4.0: Fix a use-after-free problem in the asynchronous open()\n\nYang Erkun reports that when two threads are opening files at the same\ntime, and are forced to abort before a reply is seen, then the call to\nnfs_release_seqid() in nfs4_opendata_free() can result in a\nuse-after-free of the pointer to the defunct rpc task of the other\nthread.\nThe fix is to ensure that if the RPC call is aborted before the call to\nnfs_wait_on_sequence() is complete, then we must call nfs_release_seqid()\nin nfs4_open_release() before the rpc_task is freed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T14:15:24Z"

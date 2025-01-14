@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f79p-pc32-pmjw",
-  "modified": "2024-04-10T21:30:30Z",
+  "modified": "2025-01-14T18:31:49Z",
   "published": "2024-04-10T21:30:30Z",
   "aliases": [
     "CVE-2021-47184"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni40e: Fix NULL ptr dereference on VSI filter sync\n\nRemove the reason of null pointer dereference in sync VSI filters.\nAdded new I40E_VSI_RELEASING flag to signalize deleting and releasing\nof VSI resources to sync this thread with sync filters subtask.\nWithout this patch it is possible to start update the VSI filter list\nafter VSI is removed, that's causing a kernel oops.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-10T19:15:47Z"

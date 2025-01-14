@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpf7-2hg3-3g3h",
-  "modified": "2025-01-14T15:30:54Z",
+  "modified": "2025-01-14T18:31:56Z",
   "published": "2025-01-14T15:30:54Z",
   "aliases": [
     "CVE-2024-21797"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2024-2028"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-2028"
     }
   ],
   "database_specific": {

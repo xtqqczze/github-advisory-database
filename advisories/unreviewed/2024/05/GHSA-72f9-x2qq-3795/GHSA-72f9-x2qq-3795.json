@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-72f9-x2qq-3795",
-  "modified": "2024-05-21T18:31:23Z",
+  "modified": "2025-01-14T18:31:50Z",
   "published": "2024-05-21T18:31:22Z",
   "aliases": [
     "CVE-2023-52859"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nperf: hisi: Fix use-after-free when register pmu fails\n\nWhen we fail to register the uncore pmu, the pmu context may not been\nallocated. The error handing will call cpuhp_state_remove_instance()\nto call uncore pmu offline callback, which migrate the pmu context.\nSince that's liable to lead to some kind of use-after-free.\n\nUse cpuhp_state_remove_instance_nocalls() instead of\ncpuhp_state_remove_instance() so that the notifiers don't execute after\nthe PMU device has been failed to register.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:22Z"
