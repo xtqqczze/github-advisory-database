@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-875c-9gcv-8c6h",
-  "modified": "2024-12-04T18:32:37Z",
+  "modified": "2025-01-14T15:30:50Z",
   "published": "2024-12-04T18:32:37Z",
   "aliases": [
     "CVE-2024-12147"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://www.netgear.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netgear.com/about/eos"
     }
   ],
   "database_specific": {

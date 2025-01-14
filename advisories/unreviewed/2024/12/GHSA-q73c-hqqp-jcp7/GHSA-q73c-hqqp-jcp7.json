@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q73c-hqqp-jcp7",
-  "modified": "2024-12-27T15:31:53Z",
+  "modified": "2025-01-14T15:30:50Z",
   "published": "2024-12-27T15:31:53Z",
   "aliases": [
     "CVE-2024-56561"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nPCI: endpoint: Fix PCI domain ID release in pci_epc_destroy()\n\npci_epc_destroy() invokes pci_bus_release_domain_nr() to release the PCI\ndomain ID, but there are two issues:\n\n  - 'epc->dev' is passed to pci_bus_release_domain_nr() which was already\n    freed by device_unregister(), leading to a use-after-free issue.\n\n  - Domain ID corresponds to the EPC device parent, so passing 'epc->dev'\n    is also wrong.\n\nFix these issues by passing 'epc->dev.parent' to\npci_bus_release_domain_nr() and also do it before device_unregister().\n\n[mani: reworded subject and description]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T15:15:14Z"

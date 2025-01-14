@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7f25-p8gc-hxqh",
-  "modified": "2024-10-22T18:32:11Z",
+  "modified": "2025-01-14T15:30:50Z",
   "published": "2024-10-22T18:32:11Z",
   "aliases": [
     "CVE-2024-50312"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openshift/console/pull/14409/files"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:0115"
     },
     {
       "type": "WEB",

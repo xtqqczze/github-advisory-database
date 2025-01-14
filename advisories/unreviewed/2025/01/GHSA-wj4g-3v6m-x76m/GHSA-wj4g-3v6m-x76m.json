@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj4g-3v6m-x76m",
-  "modified": "2025-01-10T18:31:41Z",
+  "modified": "2025-01-14T15:30:51Z",
   "published": "2025-01-10T18:31:41Z",
   "aliases": [
     "CVE-2024-25371"
   ],
   "details": "Gramine before a390e33e16ed374a40de2344562a937f289be2e1 suffers from an Interface vulnerability due to mismatching SW signals vs HW exceptions.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-10T16:15:28Z"

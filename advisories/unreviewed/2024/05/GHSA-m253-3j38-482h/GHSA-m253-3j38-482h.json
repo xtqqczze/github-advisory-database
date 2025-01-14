@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m253-3j38-482h",
-  "modified": "2024-06-27T15:30:39Z",
+  "modified": "2025-01-14T15:30:49Z",
   "published": "2024-05-17T15:31:09Z",
   "aliases": [
     "CVE-2024-35811"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: brcmfmac: Fix use-after-free bug in brcmf_cfg80211_detach\n\nThis is the candidate patch of CVE-2023-47233 :\nhttps://nvd.nist.gov/vuln/detail/CVE-2023-47233\n\nIn brcm80211 driver,it starts with the following invoking chain\nto start init a timeout worker:\n\n->brcmf_usb_probe\n  ->brcmf_usb_probe_cb\n    ->brcmf_attach\n      ->brcmf_bus_started\n        ->brcmf_cfg80211_attach\n          ->wl_init_priv\n            ->brcmf_init_escan\n              ->INIT_WORK(&cfg->escan_timeout_work,\n\t\t  brcmf_cfg80211_escan_timeout_worker);\n\nIf we disconnect the USB by hotplug, it will call\nbrcmf_usb_disconnect to make cleanup. The invoking chain is :\n\nbrcmf_usb_disconnect\n  ->brcmf_usb_disconnect_cb\n    ->brcmf_detach\n      ->brcmf_cfg80211_detach\n        ->kfree(cfg);\n\nWhile the timeout woker may still be running. This will cause\na use-after-free bug on cfg in brcmf_cfg80211_escan_timeout_worker.\n\nFix it by deleting the timer and canceling the worker in\nbrcmf_cfg80211_detach.\n\n[arend.vanspriel@broadcom.com: keep timer delete as is and cancel work just before free]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T14:15:15Z"

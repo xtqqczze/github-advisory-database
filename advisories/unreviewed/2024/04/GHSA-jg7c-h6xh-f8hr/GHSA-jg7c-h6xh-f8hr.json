@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jg7c-h6xh-f8hr",
-  "modified": "2024-06-27T12:30:45Z",
+  "modified": "2025-01-14T15:30:48Z",
   "published": "2024-04-17T12:32:05Z",
   "aliases": [
     "CVE-2024-26878"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nquota: Fix potential NULL pointer dereference\n\nBelow race may cause NULL pointer dereference\n\nP1\t\t\t\t\tP2\ndquot_free_inode\t\t\tquota_off\n\t\t\t\t\t  drop_dquot_ref\n\t\t\t\t\t   remove_dquot_ref\n\t\t\t\t\t   dquots = i_dquot(inode)\n  dquots = i_dquot(inode)\n  srcu_read_lock\n  dquots[cnt]) != NULL (1)\n\t\t\t\t\t     dquots[type] = NULL (2)\n  spin_lock(&dquots[cnt]->dq_dqb_lock) (3)\n   ....\n\nIf dquot_free_inode(or other routines) checks inode's quota pointers (1)\nbefore quota_off sets it to NULL(2) and use it (3) after that, NULL pointer\ndereference will be triggered.\n\nSo let's fix it by using a temporary pointer to avoid this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-17T11:15:09Z"
