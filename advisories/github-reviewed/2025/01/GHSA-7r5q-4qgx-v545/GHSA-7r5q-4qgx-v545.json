@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7r5q-4qgx-v545",
-  "modified": "2025-01-14T15:40:59Z",
+  "modified": "2025-01-14T22:01:47Z",
   "published": "2025-01-14T15:40:59Z",
   "aliases": [
     "CVE-2024-55923"
@@ -110,6 +110,10 @@
       "url": "https://github.com/TYPO3/typo3/security/advisories/GHSA-7r5q-4qgx-v545"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-55923"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/TYPO3-CMS/indexed_search/commit/cfda3f1edeea3c50034bce5c25393e297408c2b4"
     },
@@ -130,6 +134,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-14T15:40:59Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-14T20:15:30Z"
   }
 }
