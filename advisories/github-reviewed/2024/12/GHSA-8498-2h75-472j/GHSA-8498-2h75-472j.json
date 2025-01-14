@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8498-2h75-472j",
-  "modified": "2024-12-31T18:30:50Z",
+  "modified": "2025-01-14T15:59:58Z",
   "published": "2024-12-06T12:30:47Z",
   "aliases": [
     "CVE-2024-53907"
@@ -75,6 +75,63 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "django"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.1"
+            },
+            {
+              "fixed": "5.1.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "django"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0"
+            },
+            {
+              "fixed": "5.0.10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "django"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.2"
+            },
+            {
+              "fixed": "4.2.17"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -89,6 +146,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/django/django"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/django/PYSEC-2024-156.yaml"
     },
     {
       "type": "WEB",
