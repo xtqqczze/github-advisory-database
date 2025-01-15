@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp7r-m4cc-qhwq",
-  "modified": "2025-01-14T18:32:00Z",
+  "modified": "2025-01-15T00:30:40Z",
   "published": "2025-01-14T18:32:00Z",
   "aliases": [
     "CVE-2024-12747"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2332968"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.cert.org/vuls/id/952657"
     }
   ],
   "database_specific": {

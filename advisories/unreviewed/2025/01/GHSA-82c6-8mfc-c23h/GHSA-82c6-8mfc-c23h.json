@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82c6-8mfc-c23h",
-  "modified": "2025-01-14T18:32:00Z",
+  "modified": "2025-01-15T00:30:40Z",
   "published": "2025-01-14T18:32:00Z",
   "aliases": [
     "CVE-2024-12086"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2330577"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kb.cert.org/vuls/id/952657"
     }
   ],
   "database_specific": {
