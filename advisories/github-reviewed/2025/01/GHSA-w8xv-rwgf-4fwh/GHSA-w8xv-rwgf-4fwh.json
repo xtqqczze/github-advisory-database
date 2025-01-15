@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8xv-rwgf-4fwh",
-  "modified": "2025-01-14T16:32:07Z",
+  "modified": "2025-01-15T15:26:01Z",
   "published": "2025-01-14T16:32:07Z",
   "aliases": [
     "CVE-2025-0343"
@@ -39,6 +39,10 @@
       "url": "https://github.com/apple/swift-asn1/security/advisories/GHSA-w8xv-rwgf-4fwh"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0343"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/apple/swift-asn1/commit/ae33e5941bb88d88538d0a6b19ca0b01e6c76dcf"
     },
@@ -54,6 +58,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-14T16:32:07Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-15T01:15:13Z"
   }
 }
