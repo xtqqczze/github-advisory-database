@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrmh-v64j-mjm9",
-  "modified": "2023-03-02T19:56:37Z",
+  "modified": "2025-01-15T17:26:18Z",
   "published": "2023-02-18T00:31:59Z",
   "aliases": [
     "CVE-2023-0482"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.jboss.resteasy:resteasy-undertow"
+        "name": "org.jboss.resteasy:resteasy-core"
       },
       "ranges": [
         {
@@ -28,7 +28,102 @@
               "introduced": "0"
             },
             {
-              "last_affected": "6.2.2.Final"
+              "fixed": "4.7.8.Final"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jboss.resteasy:resteasy-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0.0.Alpha1"
+            },
+            {
+              "fixed": "5.0.6.Final"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jboss.resteasy:resteasy-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.0.Beta1"
+            },
+            {
+              "fixed": "6.2.3.Final"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jboss.resteasy:resteasy-multipart-provider"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.7.8.Final"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jboss.resteasy:resteasy-multipart-provider"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0.0.Alpha1"
+            },
+            {
+              "fixed": "5.0.6.Final"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jboss.resteasy:resteasy-multipart-provider"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.0.Beta1"
+            },
+            {
+              "fixed": "6.2.3.Final"
             }
           ]
         }
@@ -43,6 +138,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/resteasy/resteasy/pull/3409/commits/807d7456f2137cde8ef7c316707211bf4e542d56"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/orgs/resteasy/discussions/3415"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/orgs/resteasy/discussions/3504"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/orgs/resteasy/discussions/3506"
     },
     {
       "type": "PACKAGE",
