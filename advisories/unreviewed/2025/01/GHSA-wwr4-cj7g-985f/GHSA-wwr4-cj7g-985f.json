@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwr4-cj7g-985f",
-  "modified": "2025-01-15T15:31:23Z",
+  "modified": "2025-01-16T09:30:36Z",
   "published": "2025-01-15T06:30:49Z",
   "aliases": [
     "CVE-2025-23013"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/01/15/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/01/16/2"
     }
   ],
   "database_specific": {
