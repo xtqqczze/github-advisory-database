@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr25-mcg8-cfvp",
-  "modified": "2025-01-11T15:30:29Z",
+  "modified": "2025-01-16T15:32:09Z",
   "published": "2025-01-11T15:30:29Z",
   "aliases": [
     "CVE-2024-57807"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: megaraid_sas: Fix for a potential deadlock\n\nThis fixes a 'possible circular locking dependency detected' warning\n      CPU0                    CPU1\n      ----                    ----\n lock(&instance->reset_mutex);\n                              lock(&shost->scan_mutex);\n                              lock(&instance->reset_mutex);\n lock(&shost->scan_mutex);\n\nFix this by temporarily releasing the reset_mutex.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-11T13:15:30Z"

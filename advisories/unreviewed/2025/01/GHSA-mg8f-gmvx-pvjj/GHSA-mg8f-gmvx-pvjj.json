@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg8f-gmvx-pvjj",
-  "modified": "2025-01-11T15:30:29Z",
+  "modified": "2025-01-16T15:32:09Z",
   "published": "2025-01-11T15:30:29Z",
   "aliases": [
     "CVE-2024-56369"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/modes: Avoid divide by zero harder in drm_mode_vrefresh()\n\ndrm_mode_vrefresh() is trying to avoid divide by zero\nby checking whether htotal or vtotal are zero. But we may\nstill end up with a div-by-zero of vtotal*htotal*...",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-11T13:15:28Z"
