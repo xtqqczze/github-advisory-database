@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wjw-h8x5-v65m",
-  "modified": "2025-01-14T22:02:40Z",
+  "modified": "2025-01-16T19:05:32Z",
   "published": "2025-01-14T18:32:06Z",
-  "aliases": [
-    "CVE-2025-23366"
-  ],
-  "summary": " Wildfly HAL Console Cross-Site Scripting",
-  "details": "A flaw was found in the HAL Console in the Wildfly component, which does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output used as a web page that is served to other users. The attacker must be authenticated as a user that belongs to management groups “SuperUser”, “Admin”, or “Maintainer”.",
+  "withdrawn": "2025-01-16T19:05:32Z",
+  "aliases": [],
+  "summary": " Duplicate Advisory: Wildfly HAL Console Cross-Site Scripting",
+  "details": "# Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-jhvj-f397-8w6q. This link is maintained to preserve external references.\n\n# Original Description\nA flaw was found in the HAL Console in the Wildfly component, which does not neutralize or incorrectly neutralizes user-controllable input before it is placed in output used as a web page that is served to other users. The attacker must be authenticated as a user that belongs to management groups “SuperUser”, “Admin”, or “Maintainer”.",
   "severity": [
     {
       "type": "CVSS_V3",
