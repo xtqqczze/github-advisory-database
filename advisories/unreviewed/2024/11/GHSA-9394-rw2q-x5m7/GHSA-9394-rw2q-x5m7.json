@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9394-rw2q-x5m7",
-  "modified": "2024-11-06T21:30:55Z",
+  "modified": "2025-01-16T06:31:10Z",
   "published": "2024-11-04T21:30:32Z",
   "aliases": [
     "CVE-2024-48463"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.usebruno.com/changelog"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jan/6"
     }
   ],
   "database_specific": {
