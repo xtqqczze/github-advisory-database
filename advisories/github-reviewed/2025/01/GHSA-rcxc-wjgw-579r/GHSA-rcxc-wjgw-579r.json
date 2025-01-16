@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcxc-wjgw-579r",
-  "modified": "2025-01-16T19:35:09Z",
+  "modified": "2025-01-16T22:36:15Z",
   "published": "2025-01-16T19:35:09Z",
   "aliases": [
     "CVE-2024-56515"
@@ -44,6 +44,10 @@
       "url": "https://github.com/t2bot/matrix-media-repo/security/advisories/GHSA-rcxc-wjgw-579r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56515"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/t2bot/matrix-media-repo"
     },
@@ -54,11 +58,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-434"
+      "CWE-434",
+      "CWE-502"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-16T19:35:09Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-16T20:15:33Z"
   }
 }
