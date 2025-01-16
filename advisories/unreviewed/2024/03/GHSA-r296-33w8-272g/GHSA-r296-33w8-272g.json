@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r296-33w8-272g",
-  "modified": "2024-03-04T18:30:36Z",
+  "modified": "2025-01-16T18:30:57Z",
   "published": "2024-03-04T18:30:36Z",
   "aliases": [
     "CVE-2021-47083"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npinctrl: mediatek: fix global-out-of-bounds issue\n\nWhen eint virtual eint number is greater than gpio number,\nit maybe produce 'desc[eint_n]' size globle-out-of-bounds issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-04T18:15:07Z"

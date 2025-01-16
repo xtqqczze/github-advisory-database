@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mhq-jqrv-fc88",
-  "modified": "2024-03-04T18:30:37Z",
+  "modified": "2025-01-16T18:30:57Z",
   "published": "2024-03-04T18:30:37Z",
   "aliases": [
     "CVE-2021-47087"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ntee: optee: Fix incorrect page free bug\n\nPointer to the allocated pages (struct page *page) has already\nprogressed towards the end of allocation. It is incorrect to perform\n__free_pages(page, order) using this pointer as we would free any\narbitrary pages. Fix this by stop modifying the page pointer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-763"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-04T18:15:07Z"

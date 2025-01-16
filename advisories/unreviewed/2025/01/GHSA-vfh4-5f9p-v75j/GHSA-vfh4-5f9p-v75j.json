@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfh4-5f9p-v75j",
-  "modified": "2025-01-15T21:31:41Z",
+  "modified": "2025-01-16T18:31:00Z",
   "published": "2025-01-15T21:31:41Z",
   "aliases": [
     "CVE-2024-40771"
   ],
   "details": "The issue was addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.5, iOS 16.7.8 and iPadOS 16.7.8, iOS 17.5 and iPadOS 17.5, macOS Monterey 12.7.5, watchOS 10.5, tvOS 17.5, macOS Ventura 13.6.7, visionOS 1.2. An app may be able to execute arbitrary code with kernel privileges.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-15T20:15:27Z"
