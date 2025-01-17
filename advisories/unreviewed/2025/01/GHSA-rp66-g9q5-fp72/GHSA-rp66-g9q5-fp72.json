@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp66-g9q5-fp72",
-  "modified": "2025-01-07T06:32:15Z",
+  "modified": "2025-01-17T18:31:14Z",
   "published": "2025-01-07T06:32:15Z",
   "aliases": [
     "CVE-2024-12208"
