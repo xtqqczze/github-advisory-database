@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v623-92c3-f29p",
+  "modified": "2025-01-17T21:31:40Z",
+  "published": "2025-01-17T21:31:39Z",
+  "aliases": [
+    "CVE-2024-57252"
+  ],
+  "details": "OtCMS <=V7.46 is vulnerable to Server-Side Request Forgery (SSRF) in /admin/read.php, which can Read system files arbitrarily.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57252"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/J-0k3r/CVE-2024-57252"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/J-0k3r/some/blob/main/ssrf.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-17T21:15:10Z"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fpv2-wmww-mxc8",
+  "modified": "2025-01-17T21:31:39Z",
+  "published": "2025-01-17T21:31:39Z",
+  "aliases": [
+    "CVE-2024-57031"
+  ],
+  "details": "WeGIA < 3.2.0 is vulnerable to SQL Injection in /funcionario/remuneracao.php via the id_funcionario parameter.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57031"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nmmorette/vulnerability-research/tree/main/CVE-2024-57031"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wegia.org"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-17T20:15:28Z"
+  }
+}

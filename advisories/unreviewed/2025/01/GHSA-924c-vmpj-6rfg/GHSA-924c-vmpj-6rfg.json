@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-924c-vmpj-6rfg",
-  "modified": "2025-01-08T06:30:55Z",
+  "modified": "2025-01-17T21:31:39Z",
   "published": "2025-01-08T06:30:55Z",
   "aliases": [
     "CVE-2024-11271"

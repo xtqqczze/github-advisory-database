@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cj3-x93g-gj76",
-  "modified": "2024-11-18T16:27:07Z",
+  "modified": "2025-01-17T21:31:39Z",
   "published": "2024-08-23T09:30:35Z",
   "aliases": [
     "CVE-2024-38807"
@@ -248,6 +248,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/spring-projects/spring-boot"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250117-0006"
     },
     {
       "type": "WEB",
