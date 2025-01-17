@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hr74-5gwv-789v",
+  "modified": "2025-01-17T00:30:49Z",
+  "published": "2025-01-17T00:30:49Z",
+  "aliases": [
+    "CVE-2024-53553"
+  ],
+  "details": "An issue in OPEXUS FOIAXPRESS PUBLIC ACCESS LINK v11.1.0 allows attackers to bypass authentication via crafted web requests.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53553"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Turbul3nce/Vulnerability.Research/tree/main/CVE-2024-53553"
+    },
+    {
+      "type": "WEB",
+      "url": "https://infosecwriteups.com/exploiting-execute-after-redirect-ear-vulnerability-in-htb-previse-92ea3f1dbf3d"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-16T23:15:07Z"
+  }
+}
