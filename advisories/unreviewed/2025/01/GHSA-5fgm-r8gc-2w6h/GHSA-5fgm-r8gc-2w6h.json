@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fgm-r8gc-2w6h",
-  "modified": "2025-01-15T15:31:24Z",
+  "modified": "2025-01-17T15:32:32Z",
   "published": "2025-01-15T15:31:24Z",
   "aliases": [
     "CVE-2024-57888"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1fd2a57dcb4de3cb40844a29c71b5d7b46a84334"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5pq-336c-xh85",
-  "modified": "2024-03-21T03:32:48Z",
+  "modified": "2025-01-17T15:32:30Z",
   "published": "2022-05-01T07:25:29Z",
   "aliases": [
     "CVE-2006-5160"
   ],
   "details": "** DISPUTED **  Multiple unspecified vulnerabilities in Mozilla Firefox have unspecified vectors and impact, as claimed during ToorCon 2006.  NOTE: the vendor and original researchers have released a follow-up comment disputing this issue, in which one researcher states that \"I have no undisclosed Firefox vulnerabilities. The person who was speaking with me made this claim, and I honestly have no idea if he has them or not.\"",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

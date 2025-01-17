@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfq7-73fv-24h8",
-  "modified": "2024-06-19T09:31:16Z",
+  "modified": "2025-01-17T15:32:31Z",
   "published": "2024-06-19T09:31:16Z",
   "aliases": [
     "CVE-2024-1407"
@@ -41,7 +41,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-352"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc8x-jh6x-8jfr",
-  "modified": "2024-07-12T15:31:27Z",
+  "modified": "2025-01-17T15:32:32Z",
   "published": "2024-07-12T15:31:27Z",
   "aliases": [
     "CVE-2024-40917"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/22f742b8f738918f683198a18ec3c691acda14c4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4ddb7f966f3d06fcf1ba5ee298af6714b593584b"
     },
     {
       "type": "WEB",
