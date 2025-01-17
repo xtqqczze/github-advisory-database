@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c66p-64fj-jmc2",
-  "modified": "2025-01-16T18:08:17Z",
+  "modified": "2025-01-17T15:52:30Z",
   "published": "2025-01-16T17:32:55Z",
   "aliases": [
     "CVE-2025-23200"
@@ -44,6 +44,10 @@
       "url": "https://github.com/librenms/librenms/security/advisories/GHSA-c66p-64fj-jmc2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23200"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/librenms/librenms/pull/16722"
     },
@@ -63,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-16T17:32:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-16T23:15:08Z"
   }
 }

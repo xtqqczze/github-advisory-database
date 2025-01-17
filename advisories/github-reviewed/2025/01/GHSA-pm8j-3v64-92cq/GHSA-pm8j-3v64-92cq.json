@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm8j-3v64-92cq",
-  "modified": "2025-01-16T18:08:04Z",
+  "modified": "2025-01-17T15:52:21Z",
   "published": "2025-01-16T17:21:20Z",
   "aliases": [
     "CVE-2025-23198"
@@ -44,6 +44,10 @@
       "url": "https://github.com/librenms/librenms/security/advisories/GHSA-pm8j-3v64-92cq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23198"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/librenms/librenms/commit/afe92dbf4321f107012690d476685603d1ccb013"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-16T17:21:20Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-16T23:15:08Z"
   }
 }
