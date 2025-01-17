@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5hh-282x-jrgh",
-  "modified": "2024-10-14T09:30:54Z",
+  "modified": "2025-01-17T09:30:38Z",
   "published": "2024-10-14T09:30:54Z",
   "aliases": [
     "CVE-2024-9137"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.moxa.com/en/support/product-support/security-advisory/mpsa-241154-missing-authentication-and-os-command-injection-vulnerabilities-in-routers-and-network-security-appliances"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.moxa.com/en/support/product-support/security-advisory/mpsa-241156-cve-2024-9137-missing-authentication-vulnerability-in-ethernet-switches"
     }
   ],
   "database_specific": {
