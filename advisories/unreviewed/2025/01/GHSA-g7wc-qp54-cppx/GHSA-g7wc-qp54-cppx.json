@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7wc-qp54-cppx",
-  "modified": "2025-01-17T21:31:39Z",
+  "modified": "2025-01-18T09:30:22Z",
   "published": "2025-01-17T21:31:39Z",
   "aliases": [
     "CVE-2025-0537"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://code-projects.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/aaryan-11-x/My-CVEs/blob/main/CVE-2025-0537.md"
     },
     {
       "type": "WEB",

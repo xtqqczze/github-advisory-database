@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4p2h-h982-8v2v",
-  "modified": "2025-01-17T21:31:40Z",
+  "modified": "2025-01-18T09:30:22Z",
   "published": "2025-01-17T21:31:40Z",
   "aliases": [
     "CVE-2025-0538"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://code-projects.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/aaryan-11-x/My-CVEs/blob/main/CVE-2025-0538.md"
     },
     {
       "type": "WEB",
