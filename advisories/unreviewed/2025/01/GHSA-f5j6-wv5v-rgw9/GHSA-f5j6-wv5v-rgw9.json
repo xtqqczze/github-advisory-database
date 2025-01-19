@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f5j6-wv5v-rgw9",
+  "modified": "2025-01-19T12:31:26Z",
+  "published": "2025-01-19T12:31:26Z",
+  "aliases": [
+    "CVE-2024-57908"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: imu: kmx61: fix information leak in triggered buffer\n\nThe 'buffer' local array is used to push data to user space from a\ntriggered buffer, but it does not set values for inactive channels, as\nit only uses iio_for_each_active_channel() to assign new values.\n\nInitialize the array to zero before using it to avoid pushing\nuninitialized information to userspace.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57908"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/565814cbbaa674d2901428796801de49a611e59d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6985ba4467e4b15b809043fa7740d1fb23a1897b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6ae053113f6a226a2303caa4936a4c37f3bfff7b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cde312e257b59ecaa0fad3af9ec7e2370bb24639"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-19T12:15:24Z"
+  }
+}

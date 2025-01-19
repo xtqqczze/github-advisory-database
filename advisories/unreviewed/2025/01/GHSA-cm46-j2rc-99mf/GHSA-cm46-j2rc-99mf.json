@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cm46-j2rc-99mf",
+  "modified": "2025-01-19T12:31:26Z",
+  "published": "2025-01-19T12:31:26Z",
+  "aliases": [
+    "CVE-2024-57905"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: adc: ti-ads1119: fix information leak in triggered buffer\n\nThe 'scan' local struct is used to push data to user space from a\ntriggered buffer, but it has a hole between the sample (unsigned int)\nand the timestamp. This hole is never initialized.\n\nInitialize the struct to zero before using it to avoid pushing\nuninitialized information to userspace.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57905"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2f1687cca911a2f294313c762e0646cd9e7be8cc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/75f339d3ecd38cb1ce05357d647189d4a7f7ed08"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-19T12:15:24Z"
+  }
+}
