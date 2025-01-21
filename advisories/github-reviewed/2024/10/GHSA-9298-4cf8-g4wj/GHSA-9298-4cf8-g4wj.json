@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9298-4cf8-g4wj",
-  "modified": "2024-10-29T20:00:21Z",
+  "modified": "2025-01-21T17:53:26Z",
   "published": "2024-10-29T14:45:03Z",
   "aliases": [
     "CVE-2024-49768"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/Pylons/waitress"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/waitress/PYSEC-2024-210.yaml"
     }
   ],
   "database_specific": {
