@@ -1,14 +1,35 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cv2-4hjh-77rx",
-  "modified": "2025-01-21T21:30:53Z",
+  "modified": "2025-01-21T22:47:39Z",
   "published": "2025-01-21T21:30:53Z",
   "aliases": [
     "CVE-2024-51417"
   ],
+  "summary": "Property reflection in System.Linq.Dynamic.Core",
   "details": "An issue in System.Linq.Dynamic.Core Latest version v.1.4.6 allows remote access to properties on reflection types and static properties/fields.",
   "severity": [],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "NuGet",
+        "name": "System.Linq.Dynamic.Core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.5.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -23,15 +44,19 @@
       "url": "https://dynamic-linq.net/expression-language#operators"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/zzzprojects/System.Linq.Dynamic.Core"
+    },
+    {
       "type": "WEB",
       "url": "https://zzzprojects.com"
     }
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-01-21T22:47:39Z",
     "nvd_published_at": "2025-01-21T19:15:10Z"
   }
 }
