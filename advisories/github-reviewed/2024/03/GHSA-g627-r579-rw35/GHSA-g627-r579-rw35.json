@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g627-r579-rw35",
-  "modified": "2024-05-02T18:44:43Z",
+  "modified": "2025-01-21T18:19:07Z",
   "published": "2024-03-12T21:30:59Z",
   "aliases": [
     "CVE-2024-28098"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
     }
   ],
   "affected": [

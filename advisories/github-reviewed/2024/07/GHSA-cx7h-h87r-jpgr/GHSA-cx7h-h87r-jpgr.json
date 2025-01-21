@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx7h-h87r-jpgr",
-  "modified": "2024-07-25T16:38:42Z",
+  "modified": "2025-01-21T18:18:40Z",
   "published": "2024-07-25T16:38:42Z",
   "aliases": [],
   "summary": "The kstring integration in gix-attributes is unsound",
@@ -32,6 +32,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Byron/gitoxide/issues/1460"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/GitoxideLabs/gitoxide/issues/1460"
     },
     {
       "type": "WEB",
