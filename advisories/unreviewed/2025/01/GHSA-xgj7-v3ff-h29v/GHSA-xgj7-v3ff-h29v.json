@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xgj7-v3ff-h29v",
+  "modified": "2025-01-21T18:31:07Z",
+  "published": "2025-01-21T18:31:07Z",
+  "aliases": [
+    "CVE-2024-57036"
+  ],
+  "details": "TOTOLINK A810R V4.1.2cu.5032_B20200407 was found to contain a command insertion vulnerability in downloadFile.cgi main function. This vulnerability allows an attacker to execute arbitrary commands by sending HTTP request.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57036"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/luckysmallbird/Totolink-A810R-Vulnerability-1/blob/main/3.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-21T16:15:14Z"
+  }
+}
