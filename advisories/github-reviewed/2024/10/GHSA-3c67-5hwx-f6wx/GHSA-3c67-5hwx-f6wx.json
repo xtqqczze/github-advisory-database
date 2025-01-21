@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3c67-5hwx-f6wx",
-  "modified": "2024-10-11T15:33:52Z",
+  "modified": "2025-01-21T17:57:09Z",
   "published": "2024-10-10T21:20:06Z",
   "aliases": [
     "CVE-2024-47084"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/gradio-app/gradio"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/gradio/PYSEC-2024-196.yaml"
     }
   ],
   "database_specific": {

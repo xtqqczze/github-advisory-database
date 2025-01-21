@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9x4q-3gxw-849f",
-  "modified": "2024-08-08T16:59:54Z",
+  "modified": "2025-01-21T17:56:40Z",
   "published": "2024-08-08T14:37:06Z",
   "aliases": [
     "CVE-2024-41942"
@@ -78,6 +78,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/jupyterhub/jupyterhub"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/jupyterhub/PYSEC-2024-200.yaml"
     }
   ],
   "database_specific": {
