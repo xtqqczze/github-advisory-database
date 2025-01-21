@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46c3-5xc5-wwhv",
-  "modified": "2024-11-15T21:42:58Z",
+  "modified": "2025-01-21T17:59:27Z",
   "published": "2024-11-15T09:32:29Z",
   "aliases": [
     "CVE-2024-45784"
@@ -50,7 +50,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2024-182.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread/k2jm55jztlbmk4zrlh10syvq3n57hl4h"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/15/1"
     }
   ],
   "database_specific": {

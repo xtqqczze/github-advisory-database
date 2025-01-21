@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpm5-2wcj-vfr7",
-  "modified": "2024-11-06T15:57:57Z",
+  "modified": "2025-01-21T17:59:36Z",
   "published": "2024-11-06T15:57:57Z",
   "aliases": [
     "CVE-2024-10082"
@@ -58,6 +58,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/Ericsson/codechecker"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/codechecker/PYSEC-2024-183.yaml"
     }
   ],
   "database_specific": {
