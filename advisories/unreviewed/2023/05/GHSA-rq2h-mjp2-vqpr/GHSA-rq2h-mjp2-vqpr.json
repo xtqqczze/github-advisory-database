@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rq2h-mjp2-vqpr",
-  "modified": "2024-04-04T04:19:21Z",
+  "modified": "2025-01-21T21:30:43Z",
   "published": "2023-05-24T00:30:25Z",
   "aliases": [
     "CVE-2023-31726"
@@ -26,10 +26,16 @@
     {
       "type": "WEB",
       "url": "https://github.com/J6451/CVE-2023-31726"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/J6451/CVE-2023-31726/blob/main/CVE-2023-31726.py"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-863"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

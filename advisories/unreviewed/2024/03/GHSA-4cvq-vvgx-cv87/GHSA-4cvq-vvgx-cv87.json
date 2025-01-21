@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cvq-vvgx-cv87",
-  "modified": "2024-03-13T15:31:05Z",
+  "modified": "2025-01-21T21:30:48Z",
   "published": "2024-03-13T15:31:05Z",
   "aliases": [
     "CVE-2024-25153"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-472"
+      "CWE-472",
+      "CWE-668"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

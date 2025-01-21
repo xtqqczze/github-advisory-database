@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83ff-cpf7-ghwf",
-  "modified": "2024-02-20T03:30:57Z",
+  "modified": "2025-01-21T21:30:45Z",
   "published": "2024-02-20T03:30:57Z",
   "aliases": [
     "CVE-2023-6764"

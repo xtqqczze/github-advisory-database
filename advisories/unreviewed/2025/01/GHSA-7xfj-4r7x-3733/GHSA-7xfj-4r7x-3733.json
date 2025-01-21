@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xfj-4r7x-3733",
-  "modified": "2025-01-14T18:31:56Z",
+  "modified": "2025-01-21T21:30:50Z",
   "published": "2025-01-14T15:30:54Z",
   "aliases": [
     "CVE-2024-7344"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.kb.cert.org/vuls/id/529659"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.welivesecurity.com/en/eset-research/under-cloak-uefi-secure-boot-introducing-cve-2024-7344"
     }
   ],
   "database_specific": {
