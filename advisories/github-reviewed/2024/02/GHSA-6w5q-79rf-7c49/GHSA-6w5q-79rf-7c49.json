@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w5q-79rf-7c49",
-  "modified": "2024-08-02T16:04:10Z",
+  "modified": "2025-01-21T22:37:20Z",
   "published": "2024-02-28T06:30:28Z",
   "aliases": [
     "CVE-2024-22723"
@@ -55,6 +55,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-22",
       "CWE-31"
     ],
     "severity": "MODERATE",
