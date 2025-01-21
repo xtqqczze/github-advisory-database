@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg3v-6m49-jhp3",
-  "modified": "2024-08-14T22:17:04Z",
+  "modified": "2025-01-21T18:00:40Z",
   "published": "2024-08-14T17:48:06Z",
   "aliases": [
     "CVE-2024-42353"
@@ -58,6 +58,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/Pylons/webob"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/webob/PYSEC-2024-188.yaml"
     }
   ],
   "database_specific": {
