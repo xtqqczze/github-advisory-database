@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g359-p277-83p3",
-  "modified": "2025-01-22T00:33:36Z",
+  "modified": "2025-01-22T15:32:33Z",
   "published": "2025-01-22T00:33:36Z",
   "aliases": [
     "CVE-2024-51941"
   ],
   "details": "A remote code injection vulnerability exists in the Ambari Metrics and \nAMS Alerts feature, allowing authenticated users to inject and execute \narbitrary code. The vulnerability occurs when processing alert \ndefinitions, where malicious input can be injected into the alert script\n execution path. An attacker with authenticated access can exploit this \nvulnerability to execute arbitrary commands on the server. The issue has\n been fixed in the latest versions of Ambari.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-75"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-21T22:15:12Z"
