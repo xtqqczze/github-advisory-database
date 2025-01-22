@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h78m-j95m-5356",
-  "modified": "2025-01-22T18:09:27Z",
+  "modified": "2025-01-22T18:44:37Z",
   "published": "2025-01-22T18:09:27Z",
   "aliases": [
     "CVE-2025-23047"
@@ -79,6 +79,10 @@
       "url": "https://github.com/cilium/cilium/security/advisories/GHSA-h78m-j95m-5356"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23047"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/cilium/cilium/commit/a3489f190ba6e87b5336ee685fb6c80b1270d06d"
     },
@@ -88,10 +92,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-200"
+    ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-22T18:09:27Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-22T18:15:21Z"
   }
 }
