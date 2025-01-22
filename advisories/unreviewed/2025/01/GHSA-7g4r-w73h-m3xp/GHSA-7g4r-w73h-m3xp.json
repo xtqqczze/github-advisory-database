@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7g4r-w73h-m3xp",
+  "modified": "2025-01-22T00:33:35Z",
+  "published": "2025-01-22T00:33:35Z",
+  "aliases": [
+    "CVE-2024-24442"
+  ],
+  "details": "A NULL pointer dereference in the ngap_app::handle_receive routine of OpenAirInterface CN5G AMF (oai-cn5g-amf) up to v2.0.0 allows attackers to cause a Denial of Service (DoS) via a crafted NGAP message.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-24442"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cellularsecurity.org/ransacked"
+    },
+    {
+      "type": "WEB",
+      "url": "http://openairinterface.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-21T22:15:11Z"
+  }
+}
