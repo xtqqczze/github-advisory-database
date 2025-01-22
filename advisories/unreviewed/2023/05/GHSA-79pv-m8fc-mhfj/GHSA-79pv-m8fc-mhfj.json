@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79pv-m8fc-mhfj",
-  "modified": "2024-04-04T04:12:47Z",
+  "modified": "2025-01-22T21:30:54Z",
   "published": "2023-05-17T03:30:16Z",
   "aliases": [
     "CVE-2022-42336"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://xenbits.xenproject.org/xsa/advisory-431.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-431.html"
     }
   ],
   "database_specific": {
