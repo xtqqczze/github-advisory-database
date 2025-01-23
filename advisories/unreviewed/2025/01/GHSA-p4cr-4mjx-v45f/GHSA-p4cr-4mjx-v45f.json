@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4cr-4mjx-v45f",
-  "modified": "2025-01-09T21:31:31Z",
+  "modified": "2025-01-23T18:31:14Z",
   "published": "2025-01-09T21:31:31Z",
   "aliases": [
     "CVE-2024-46505"
   ],
   "details": "Infoblox BloxOne v2.4 was discovered to contain a business logic flaw due to thick client vulnerabilities.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-276"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-09T20:15:38Z"

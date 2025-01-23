@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3g8x-9wgw-w22x",
-  "modified": "2025-01-22T21:30:57Z",
+  "modified": "2025-01-23T18:31:19Z",
   "published": "2025-01-22T21:30:57Z",
   "aliases": [
     "CVE-2024-56914"
   ],
   "details": "D-Link DSL-3782 v1.01 is vulnerable to Buffer Overflow in /New_GUI/ParentalControl.asp.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-22T20:15:30Z"

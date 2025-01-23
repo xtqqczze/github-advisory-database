@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24v3-p69g-7cx6",
-  "modified": "2025-01-19T12:31:25Z",
+  "modified": "2025-01-23T18:31:17Z",
   "published": "2025-01-19T12:31:25Z",
   "aliases": [
     "CVE-2025-21636"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21636"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1dc5da6c4178f3e4b95c631418f72de9f86c0449"
     },
     {
       "type": "WEB",

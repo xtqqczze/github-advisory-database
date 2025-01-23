@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cxr-76pm-j3wf",
-  "modified": "2025-01-23T09:31:17Z",
+  "modified": "2025-01-23T18:31:19Z",
   "published": "2025-01-23T09:31:17Z",
   "aliases": [
     "CVE-2024-53299"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/gyp2ht00c62827y0379lxh5dbx3hhho5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/01/22/12"
     }
   ],
   "database_specific": {

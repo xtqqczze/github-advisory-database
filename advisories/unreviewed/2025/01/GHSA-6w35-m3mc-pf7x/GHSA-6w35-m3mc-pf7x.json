@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w35-m3mc-pf7x",
-  "modified": "2025-01-19T12:31:26Z",
+  "modified": "2025-01-23T18:31:18Z",
   "published": "2025-01-19T12:31:26Z",
   "aliases": [
     "CVE-2024-57917"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57917"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1c7818e2746e747838a3de1687e89eac7b947f08"
     },
     {
       "type": "WEB",
