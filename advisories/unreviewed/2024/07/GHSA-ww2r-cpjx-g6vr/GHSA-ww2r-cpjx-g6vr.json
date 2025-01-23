@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww2r-cpjx-g6vr",
-  "modified": "2024-07-21T09:30:32Z",
+  "modified": "2025-01-23T00:33:58Z",
   "published": "2024-07-21T09:30:32Z",
   "aliases": [
     "CVE-2024-37512"

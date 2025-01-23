@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frp4-f42v-g8xw",
-  "modified": "2025-01-21T12:30:48Z",
+  "modified": "2025-01-23T00:33:59Z",
   "published": "2025-01-21T12:30:48Z",
   "aliases": [
     "CVE-2024-57938"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sctp: Prevent autoclose integer overflow in sctp_association_init()\n\nWhile by default max_autoclose equals to INT_MAX / HZ, one may set\nnet.sctp.max_autoclose to UINT_MAX. There is code in\nsctp_association_init() that can consequently trigger overflow.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-21T12:15:27Z"
