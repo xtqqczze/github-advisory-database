@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36gq-35j3-p9r9",
-  "modified": "2025-01-21T20:24:02Z",
+  "modified": "2025-01-23T23:14:08Z",
   "published": "2025-01-21T20:24:02Z",
   "aliases": [
     "CVE-2024-10846"
@@ -41,6 +41,10 @@
       "url": "https://github.com/compose-spec/compose-go/security/advisories/GHSA-36gq-35j3-p9r9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10846"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/docker/compose/issues/12235"
     },
@@ -63,11 +67,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-20",
       "CWE-400"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-21T20:24:02Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-23T16:15:33Z"
   }
 }
