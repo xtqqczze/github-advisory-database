@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ff6q-3c9c-6cf5",
-  "modified": "2025-01-15T15:25:53Z",
+  "modified": "2025-01-23T17:11:55Z",
   "published": "2025-01-14T22:18:59Z",
   "aliases": [
     "CVE-2024-53277"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/silverstripe/silverstripe-framework/commit/74904f539347b7d1f8c5b5fb9e28d62ff251ee00"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/silverstripe/framework/CVE-2024-53277.yaml"
     },
     {
       "type": "PACKAGE",

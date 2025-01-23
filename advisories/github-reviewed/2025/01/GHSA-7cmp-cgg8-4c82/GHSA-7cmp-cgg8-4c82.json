@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cmp-cgg8-4c82",
-  "modified": "2025-01-15T15:25:45Z",
+  "modified": "2025-01-23T17:11:53Z",
   "published": "2025-01-14T22:18:52Z",
   "aliases": [
     "CVE-2024-47605"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/silverstripe/silverstripe-framework/commit/09b5052c86932f273e0d733428c9aade70ff2a4a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/silverstripe/framework/CVE-2024-47605.yaml"
     },
     {
       "type": "PACKAGE",
