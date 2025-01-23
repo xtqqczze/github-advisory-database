@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9cm-88jx-3vfw",
-  "modified": "2025-01-22T19:23:59Z",
+  "modified": "2025-01-23T22:24:30Z",
   "published": "2025-01-22T18:31:55Z",
   "aliases": [
     "CVE-2025-24399"
@@ -55,7 +55,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-178"
+      "CWE-178",
+      "CWE-276"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
