@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27c6-mcxv-x3fh",
-  "modified": "2025-01-23T18:02:07Z",
+  "modified": "2025-01-23T23:17:17Z",
   "published": "2025-01-23T18:02:07Z",
   "aliases": [
     "CVE-2025-24033"
@@ -63,6 +63,10 @@
       "url": "https://github.com/fastify/fastify-multipart/security/advisories/GHSA-27c6-mcxv-x3fh"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24033"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/fastify/fastify-multipart/issues/546"
     },
@@ -82,6 +86,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-23T18:02:07Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-23T18:15:33Z"
   }
 }
