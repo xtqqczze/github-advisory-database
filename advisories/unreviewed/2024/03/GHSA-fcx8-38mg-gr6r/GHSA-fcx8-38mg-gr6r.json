@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcx8-38mg-gr6r",
-  "modified": "2024-03-12T09:30:42Z",
+  "modified": "2025-01-23T21:31:48Z",
   "published": "2024-03-12T09:30:42Z",
   "aliases": [
     "CVE-2024-25998"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-77"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
