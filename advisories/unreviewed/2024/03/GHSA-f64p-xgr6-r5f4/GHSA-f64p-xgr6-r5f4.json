@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f64p-xgr6-r5f4",
-  "modified": "2024-03-21T15:31:53Z",
+  "modified": "2025-01-24T18:31:08Z",
   "published": "2024-03-21T15:31:53Z",
   "aliases": [
     "CVE-2024-29877"

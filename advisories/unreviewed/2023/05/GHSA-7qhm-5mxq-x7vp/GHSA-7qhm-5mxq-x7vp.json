@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7qhm-5mxq-x7vp",
-  "modified": "2024-04-04T04:02:39Z",
+  "modified": "2025-01-24T18:31:05Z",
   "published": "2023-05-11T18:30:17Z",
   "aliases": [
     "CVE-2023-24540"
@@ -34,11 +34,16 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2023-1752"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241115-0008"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-74"
+      "CWE-74",
+      "CWE-77"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,
