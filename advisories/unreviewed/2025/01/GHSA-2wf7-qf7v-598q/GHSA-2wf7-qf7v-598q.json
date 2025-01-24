@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2wf7-qf7v-598q",
-  "modified": "2025-01-22T03:30:44Z",
+  "modified": "2025-01-24T00:31:46Z",
   "published": "2025-01-22T03:30:44Z",
   "aliases": [
     "CVE-2025-23088"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23088"
+    },
+    {
+      "type": "WEB",
+      "url": "https://endoflife.date/nodejs"
     },
     {
       "type": "WEB",

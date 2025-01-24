@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-97m5-q323-2fc2",
-  "modified": "2024-06-26T00:31:42Z",
+  "modified": "2025-01-24T00:31:46Z",
   "published": "2024-05-17T15:31:10Z",
   "aliases": [
     "CVE-2024-35829"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/lima: fix a memleak in lima_heap_alloc\n\nWhen lima_vm_map_bo fails, the resources need to be deallocated, or\nthere will be memleaks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T14:15:19Z"

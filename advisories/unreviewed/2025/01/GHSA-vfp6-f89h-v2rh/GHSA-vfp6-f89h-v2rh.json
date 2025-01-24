@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfp6-f89h-v2rh",
-  "modified": "2025-01-14T18:32:06Z",
+  "modified": "2025-01-24T00:31:46Z",
   "published": "2025-01-14T18:32:06Z",
   "aliases": [
     "CVE-2025-23052"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-77"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

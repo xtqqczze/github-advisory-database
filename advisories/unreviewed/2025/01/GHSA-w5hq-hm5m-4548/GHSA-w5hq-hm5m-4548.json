@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-w5hq-hm5m-4548",
+  "modified": "2025-01-24T00:31:47Z",
+  "published": "2025-01-24T00:31:47Z",
+  "aliases": [
+    "CVE-2024-57556"
+  ],
+  "details": "Cross Site Scripting vulnerability in nbubna store v.2.14.2 and before allows a remote attacker to execute arbitrary code via the store.deep.js component",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57556"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nbubna/store/issues/127"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-23T22:15:15Z"
+  }
+}
