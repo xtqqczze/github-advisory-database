@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wr93-5pfw-4c2v",
-  "modified": "2024-10-15T12:30:37Z",
+  "modified": "2025-01-24T09:30:44Z",
   "published": "2024-10-15T12:30:37Z",
   "aliases": [
     "CVE-2024-45276"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert.vde.com/en/advisories/VDE-2024-066"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-065.txt"
     }
   ],
   "database_specific": {
