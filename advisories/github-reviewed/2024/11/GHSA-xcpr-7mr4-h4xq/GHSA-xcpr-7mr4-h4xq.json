@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcpr-7mr4-h4xq",
-  "modified": "2024-11-18T23:48:03Z",
+  "modified": "2025-01-24T21:41:16Z",
   "published": "2024-11-18T12:30:43Z",
   "aliases": [
     "CVE-2024-52316"
@@ -100,6 +100,14 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/lopzlqh91jj9n334g02om08sbysdb928"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250124-0003"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/18/2"
     }
   ],
   "database_specific": {
