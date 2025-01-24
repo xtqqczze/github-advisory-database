@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jp33-53rj-cx8p",
+  "modified": "2025-01-24T21:31:27Z",
+  "published": "2025-01-24T21:31:27Z",
+  "aliases": [
+    "CVE-2024-57095"
+  ],
+  "details": "SQL injection vulnerability in Go-CMS v.1.1.10 allows a remote attacker to execute arbitrary code via a crafted payload.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57095"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Xi-Yuer/GO-CMS/issues/6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/wjlin0/ff3ee8afb8f8001faff89bbc03805605"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-24T20:15:33Z"
+  }
+}
