@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2j93-2wmq-74fv",
+  "modified": "2025-01-25T00:33:10Z",
+  "published": "2025-01-25T00:33:09Z",
+  "aliases": [
+    "CVE-2024-50690"
+  ],
+  "details": "SunGrow WiNet-SV200.001.00.P027 and earlier versions contains a hardcoded password that can be used to decrypt all firmware updates.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50690"
+    },
+    {
+      "type": "WEB",
+      "url": "https://en.sungrowpower.com/security-notice-detail-2/5961"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-24T23:15:08Z"
+  }
+}
