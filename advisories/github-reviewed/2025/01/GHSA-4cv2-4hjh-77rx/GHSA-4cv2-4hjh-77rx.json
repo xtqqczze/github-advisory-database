@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cv2-4hjh-77rx",
-  "modified": "2025-01-21T22:47:39Z",
+  "modified": "2025-01-27T18:47:05Z",
   "published": "2025-01-21T21:30:53Z",
   "aliases": [
     "CVE-2024-51417"
   ],
   "summary": "Property reflection in System.Linq.Dynamic.Core",
-  "details": "An issue in System.Linq.Dynamic.Core Latest version v.1.4.6 allows remote access to properties on reflection types and static properties/fields.",
+  "details": "An issue in System.Linq.Dynamic.Core versions before v.1.6.0 allow remote access to properties on reflection types and static properties/fields.",
   "severity": [],
   "affected": [
     {
@@ -23,7 +23,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.5.1"
+              "fixed": "1.6.0"
             }
           ]
         }
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/zzzprojects/System.Linq.Dynamic.Core/issues/867"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zzzprojects/System.Linq.Dynamic.Core/commit/49b6cf0909cf3571e0d3580317675408300dbdac"
     },
     {
       "type": "WEB",
