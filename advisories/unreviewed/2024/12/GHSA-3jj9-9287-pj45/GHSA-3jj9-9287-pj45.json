@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jj9-9287-pj45",
-  "modified": "2024-12-16T15:31:38Z",
+  "modified": "2025-01-27T15:30:56Z",
   "published": "2024-12-16T15:31:37Z",
   "aliases": [
     "CVE-2024-56012"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/plugin/flashnews-fading-effect-pearlbells/vulnerability/wordpress-flash-news-post-responsive-plugin-4-1-csrf-to-privilege-escalation-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/wordpress/plugin/flashnews-typewriter-pearlbells/vulnerability/wordpress-post-title-typewriter-plugin-4-1-csrf-to-privilege-escalation-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {

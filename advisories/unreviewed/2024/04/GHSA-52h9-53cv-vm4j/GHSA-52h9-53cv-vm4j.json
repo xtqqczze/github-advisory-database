@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52h9-53cv-vm4j",
-  "modified": "2024-04-26T15:30:30Z",
+  "modified": "2025-01-27T15:30:56Z",
   "published": "2024-04-26T15:30:30Z",
   "aliases": [
     "CVE-2023-52646"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\naio: fix mremap after fork null-deref\n\nCommit e4a0d3e720e7 (\"aio: Make it possible to remap aio ring\") introduced\na null-deref if mremap is called on an old aio mapping after fork as\nmm->ioctx_table will be set to NULL.\n\n[jmoyer@redhat.com: fix 80 column issue]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-26T13:15:46Z"
