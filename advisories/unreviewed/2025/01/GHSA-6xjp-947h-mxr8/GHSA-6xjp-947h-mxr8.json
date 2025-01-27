@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xjp-947h-mxr8",
-  "modified": "2025-01-22T15:32:35Z",
+  "modified": "2025-01-27T18:32:00Z",
   "published": "2025-01-22T15:32:35Z",
   "aliases": [
     "CVE-2025-22980"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/slims/slims9_bulian/issues/270"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mebroccoli.blogspot.com/2025/01/sql-injection-vulnerability-in-senayan.html"
     }
   ],
   "database_specific": {

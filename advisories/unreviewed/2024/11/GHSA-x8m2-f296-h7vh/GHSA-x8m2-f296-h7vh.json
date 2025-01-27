@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8m2-f296-h7vh",
-  "modified": "2024-11-11T00:30:44Z",
+  "modified": "2025-01-27T18:32:00Z",
   "published": "2024-11-11T00:30:44Z",
   "aliases": [
     "CVE-2020-10370"
   ],
   "details": "Certain Cypress (and Broadcom) Wireless Combo chips such as CYW43455, when a 2021-01-26 Bluetooth firmware update is not present, allow a Bluetooth outage via a \"Spectra\" attack.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-11T00:15:13Z"

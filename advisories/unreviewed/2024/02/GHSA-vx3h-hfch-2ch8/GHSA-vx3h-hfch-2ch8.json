@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx3h-hfch-2ch8",
-  "modified": "2024-02-29T03:33:17Z",
+  "modified": "2025-01-27T18:31:57Z",
   "published": "2024-02-29T03:33:17Z",
   "aliases": [
     "CVE-2024-1389"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-862"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
