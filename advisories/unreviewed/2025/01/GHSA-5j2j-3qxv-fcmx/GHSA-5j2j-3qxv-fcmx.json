@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5j2j-3qxv-fcmx",
+  "modified": "2025-01-27T21:30:54Z",
+  "published": "2025-01-27T21:30:54Z",
+  "aliases": [
+    "CVE-2024-56962"
+  ],
+  "details": "An issue in Tencent Technology (Shanghai) Co., Ltd WeSing iOS v9.3.39 allows attackers to access sensitive user information via supplying a crafted link.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56962"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ZhouZiyi1/Vuls/blob/main/241227-WeSing/241227-WeSing.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-27T19:15:17Z"
+  }
+}
