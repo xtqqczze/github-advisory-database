@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r86g-243j-mqp7",
-  "modified": "2025-01-27T21:30:53Z",
+  "modified": "2025-01-28T21:31:01Z",
   "published": "2025-01-27T21:30:53Z",
   "aliases": [
     "CVE-2024-56947"
   ],
   "details": "An issue in Xiamen Meitu Technology Co., Ltd. BeautyCam iOS v12.3.60 allows attackers to access sensitive user information via supplying a crafted link.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-601"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-27T19:15:16Z"

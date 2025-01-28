@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fw24-9x85-rmf8",
-  "modified": "2024-04-04T05:40:29Z",
+  "modified": "2025-01-28T21:30:58Z",
   "published": "2023-07-06T21:14:54Z",
   "aliases": [
     "CVE-2023-22788"

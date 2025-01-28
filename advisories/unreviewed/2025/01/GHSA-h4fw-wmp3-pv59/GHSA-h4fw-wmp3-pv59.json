@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4fw-wmp3-pv59",
-  "modified": "2025-01-28T00:32:15Z",
+  "modified": "2025-01-28T21:31:02Z",
   "published": "2025-01-28T00:32:15Z",
   "aliases": [
     "CVE-2024-48662"
   ],
   "details": "Cross Site Scripting vulnerability in AdGuard Application v.7.18.1 (4778) and before allows an attacker to execute arbitrary code via a crafted payload to the fontMatrix component.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-27T23:15:08Z"
