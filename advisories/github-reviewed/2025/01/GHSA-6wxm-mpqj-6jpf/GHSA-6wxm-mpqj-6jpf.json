@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6wxm-mpqj-6jpf",
-  "modified": "2025-01-28T17:29:03Z",
+  "modified": "2025-01-28T20:15:40Z",
   "published": "2025-01-28T17:29:03Z",
   "aliases": [
     "CVE-2024-45339"
@@ -10,8 +10,12 @@
   "details": "When logs are written to a widely-writable directory (the default), an unprivileged attacker may predict a privileged process's log file path and pre-create a symbolic link to a sensitive file in its place. When that privileged process runs, it will follow the planted symlink and overwrite that sensitive file. To fix that, glog now causes the program to exit (with status code 2) when it finds that the configured log file already exists.",
   "severity": [
     {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    },
+    {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:U"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N/E:U"
     }
   ],
   "affected": [
