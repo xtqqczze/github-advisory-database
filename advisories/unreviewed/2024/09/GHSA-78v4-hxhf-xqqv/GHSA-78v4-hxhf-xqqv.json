@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78v4-hxhf-xqqv",
-  "modified": "2024-09-10T18:30:45Z",
+  "modified": "2025-01-28T00:32:12Z",
   "published": "2024-09-10T18:30:45Z",
   "aliases": [
     "CVE-2024-38217"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38217"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.elastic.co/security-labs/dismantling-smart-app-control"
     }
   ],
   "database_specific": {

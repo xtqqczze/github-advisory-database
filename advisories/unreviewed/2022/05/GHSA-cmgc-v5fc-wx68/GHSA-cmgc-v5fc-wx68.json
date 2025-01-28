@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmgc-v5fc-wx68",
-  "modified": "2022-05-14T03:09:02Z",
+  "modified": "2025-01-28T00:32:06Z",
   "published": "2022-05-14T03:09:02Z",
   "aliases": [
     "CVE-2016-9079"

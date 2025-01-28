@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pgq2-vhv9-8pr9",
+  "modified": "2025-01-28T00:32:13Z",
+  "published": "2025-01-28T00:32:13Z",
+  "aliases": [
+    "CVE-2024-54512"
+  ],
+  "details": "The issue was addressed by removing the relevant flags. This issue is fixed in watchOS 11.2, iOS 18.2 and iPadOS 18.2. A system binary could be used to fingerprint a user's Apple Account.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-54512"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/121837"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/121843"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-27T22:15:12Z"
+  }
+}
