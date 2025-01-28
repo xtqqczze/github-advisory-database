@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hhv-jc45-cmpc",
-  "modified": "2022-05-17T05:49:23Z",
+  "modified": "2025-01-28T03:31:12Z",
   "published": "2022-05-17T05:49:23Z",
   "aliases": [
     "CVE-2010-2965"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://rockwellautomation.custhelp.com/cgi-bin/rockwellautomation.cfg/php/enduser/std_adp.php?p_faqid=69735"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jan/10"
     },
     {
       "type": "WEB",
