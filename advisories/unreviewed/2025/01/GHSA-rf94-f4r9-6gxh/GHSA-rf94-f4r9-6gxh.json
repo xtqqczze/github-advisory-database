@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf94-f4r9-6gxh",
-  "modified": "2025-01-10T00:30:36Z",
+  "modified": "2025-01-28T18:31:25Z",
   "published": "2025-01-09T00:31:34Z",
   "aliases": [
     "CVE-2025-0282"
@@ -29,7 +29,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/sfewer-r7/CVE-2025-0282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/exploitation-walkthrough-and-techniques-ivanti-connect-secure-rce-cve-2025-0282"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.cisa.gov/cisa-mitigation-instructions-cve-2025-0282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-0282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.synacktiv.com/sites/default/files/2024-01/synacktiv-pulseconnectsecure-multiple-vulnerabilities.pdf"
     }
   ],
   "database_specific": {

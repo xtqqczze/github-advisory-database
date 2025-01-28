@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hx3-pw88-4928",
-  "modified": "2025-01-28T00:32:15Z",
+  "modified": "2025-01-28T18:31:27Z",
   "published": "2025-01-28T00:32:15Z",
   "aliases": [
     "CVE-2025-24163"
   ],
   "details": "The issue was addressed with improved checks. This issue is fixed in iPadOS 17.7.4, macOS Sonoma 14.7.3, visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. Parsing a file may lead to an unexpected app termination.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-770"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-27T22:15:20Z"

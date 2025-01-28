@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gv2-58w9-6q94",
-  "modified": "2025-01-28T00:32:14Z",
+  "modified": "2025-01-28T18:31:26Z",
   "published": "2025-01-28T00:32:14Z",
   "aliases": [
     "CVE-2025-24149"
   ],
   "details": "An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in iPadOS 17.7.4, macOS Ventura 13.7.3, macOS Sonoma 14.7.3, visionOS 2.3, iOS 18.3 and iPadOS 18.3, macOS Sequoia 15.3, watchOS 11.3, tvOS 18.3. Parsing a file may lead to disclosure of user information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-922"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-27T22:15:19Z"

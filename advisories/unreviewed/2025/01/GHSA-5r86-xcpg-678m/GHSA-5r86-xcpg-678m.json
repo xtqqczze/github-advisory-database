@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r86-xcpg-678m",
-  "modified": "2025-01-28T00:32:13Z",
+  "modified": "2025-01-28T18:31:25Z",
   "published": "2025-01-28T00:32:13Z",
   "aliases": [
     "CVE-2024-54499"
   ],
   "details": "A use-after-free issue was addressed with improved memory management. This issue is fixed in visionOS 2.2, tvOS 18.2, watchOS 11.2, iOS 18.2 and iPadOS 18.2, macOS Sequoia 15.2. Processing a maliciously crafted image may lead to arbitrary code execution.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-27T22:15:12Z"
