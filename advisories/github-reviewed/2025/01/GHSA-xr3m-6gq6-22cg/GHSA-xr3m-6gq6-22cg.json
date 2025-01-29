@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr3m-6gq6-22cg",
-  "modified": "2025-01-28T19:12:44Z",
+  "modified": "2025-01-29T16:57:20Z",
   "published": "2025-01-28T19:12:44Z",
   "aliases": [],
   "summary": "Pimcore Authenticated Stored Cross-Site Scripting (XSS) Via Search Document",
@@ -18,8 +18,18 @@
         "ecosystem": "Packagist",
         "name": "pimcore/pimcore"
       },
-      "versions": [
-        "11.4.2"
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.4.2"
+            },
+            {
+              "fixed": "11.5.3"
+            }
+          ]
+        }
       ]
     }
   ],

@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv35-3gw6-8q4j",
-  "modified": "2024-08-07T19:41:10Z",
+  "modified": "2025-01-29T16:57:28Z",
   "published": "2024-08-05T14:46:22Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2025-24882"
+  ],
   "summary": "In regclient, pinned manifest digests may be ignored",
   "details": "### Impact\nA malicious registry could return a different digest for a pinned manifest without detection.\n\n### Patches\nThis has been fixed in the v0.7.1 release.\n\n### Workarounds\nAfter running a `regclient.ManifestGet`, the returned digest can be compared to the requested digest.\n",
   "severity": [
