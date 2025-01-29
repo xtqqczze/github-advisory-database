@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqmj-rrh7-547q",
-  "modified": "2025-01-23T18:31:21Z",
+  "modified": "2025-01-29T12:31:45Z",
   "published": "2025-01-23T18:31:20Z",
   "aliases": [
     "CVE-2024-55928"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://securitydocs.business.xerox.com/wp-content/uploads/2025/01/Xerox-Security-Bulletin-XRX25-002-for-Xerox%C2%AE-Workplace-Suite%C2%AE.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://securitydocs.business.xerox.com/wp-content/uploads/2025/01/Xerox-Security-Bulletin-XRX25-002-for-Xerox%C2%AE-WorkplaceSuite%C2%AE.pdf"
     }
   ],
   "database_specific": {
