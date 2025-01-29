@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4f6-vcj4-w5mx",
-  "modified": "2025-01-29T20:50:18Z",
+  "modified": "2025-01-29T22:00:31Z",
   "published": "2025-01-29T20:50:18Z",
   "aliases": [
     "CVE-2025-24794"
@@ -44,6 +44,14 @@
       "url": "https://github.com/snowflakedb/snowflake-connector-python/security/advisories/GHSA-m4f6-vcj4-w5mx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24794"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/snowflakedb/snowflake-connector-python/commit/3769b43822357c3874c40f5e74068458c2dc79af"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/snowflakedb/snowflake-connector-python"
     },
@@ -59,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-01-29T20:50:18Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-01-29T21:15:21Z"
   }
 }
