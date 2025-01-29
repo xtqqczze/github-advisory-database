@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g79x-gv43-8472",
-  "modified": "2024-12-17T18:33:49Z",
+  "modified": "2025-01-29T18:31:19Z",
   "published": "2024-12-17T18:33:49Z",
   "aliases": [
     "CVE-2024-12179"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0027"
     }
   ],
   "database_specific": {

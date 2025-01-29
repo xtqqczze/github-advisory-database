@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf97-3r3x-x56v",
-  "modified": "2022-04-05T00:00:58Z",
+  "modified": "2025-01-29T18:31:03Z",
   "published": "2022-03-29T00:01:17Z",
   "aliases": [
     "CVE-2022-26258"
@@ -41,7 +41,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-78"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
