@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-555q-7wq3-w6ch",
-  "modified": "2025-01-28T18:31:28Z",
+  "modified": "2025-01-29T21:31:24Z",
   "published": "2025-01-28T18:31:28Z",
   "aliases": [
     "CVE-2025-0781"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/flightgear/simgear/-/commit/5bb023647114267141a7610e8f1ca7d6f4f5a5a8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00028.html"
     }
   ],
   "database_specific": {
