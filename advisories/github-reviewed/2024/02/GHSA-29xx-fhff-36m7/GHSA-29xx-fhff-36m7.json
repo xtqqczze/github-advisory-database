@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29xx-fhff-36m7",
-  "modified": "2024-10-02T21:50:20Z",
+  "modified": "2025-01-29T16:54:55Z",
   "published": "2024-02-20T15:31:03Z",
   "aliases": [
     "CVE-2024-26265"
@@ -43,6 +43,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26265"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/liferay/liferay-portal"
     },
     {
       "type": "WEB",

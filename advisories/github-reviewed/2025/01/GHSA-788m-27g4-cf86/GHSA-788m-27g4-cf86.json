@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-788m-27g4-cf86",
-  "modified": "2025-01-23T23:14:15Z",
+  "modified": "2025-01-29T16:55:54Z",
   "published": "2025-01-22T21:30:57Z",
   "aliases": [
     "CVE-2024-56923"
   ],
   "summary": "Cross site scripting in Silverpeas Core",
-  "details": "Stored Cross-Site Scripting (XSS) in the Categorization Option of My Subscriptions Functionality in Silverpeas Core 6.4.1 allows a remote attacker to execute arbitrary JavaScript code. This is achieved by injecting a malicious payload into the Name field of a subscription. The attack can lead to session hijacking, data theft, or unauthorized actions when an admin user views the affected subscription.",
+  "details": "Stored Cross-Site Scripting (XSS) Vulnerability in the Categorization Option of My Subscriptions Functionality in Silverpeas Core 6.3.1 <= 6.4.1 allows a remote attacker to execute arbitrary JavaScript code. This is achieved by injecting a malicious payload into the Name field of a subscription. The attack can lead to session hijacking, data theft, or unauthorized actions when an admin user views the affected subscription.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -29,7 +29,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.3.1"
             },
             {
               "fixed": "6.4.2"
