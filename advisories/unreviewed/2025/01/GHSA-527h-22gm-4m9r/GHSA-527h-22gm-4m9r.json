@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-527h-22gm-4m9r",
-  "modified": "2025-01-29T00:31:55Z",
+  "modified": "2025-01-29T03:31:46Z",
   "published": "2025-01-29T00:31:55Z",
   "aliases": [
     "CVE-2023-35017"
