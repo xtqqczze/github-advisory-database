@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wq97-58c8-w5g5",
+  "modified": "2025-01-29T00:31:54Z",
+  "published": "2025-01-29T00:31:54Z",
+  "aliases": [
+    "CVE-2024-48310"
+  ],
+  "details": "AutoLib Software Systems OPAC v20.10 was discovered to have multiple API keys exposed within the source code. Attackers may use these keys to access the backend API or other sensitive information.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48310"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/fulldisclosure/2025/Jan/11"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jan/11"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-28T23:15:07Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5hf-mm9g-jc66",
-  "modified": "2025-01-17T00:30:48Z",
+  "modified": "2025-01-29T00:31:53Z",
   "published": "2025-01-17T00:30:48Z",
   "aliases": [
     "CVE-2024-55511"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-55511"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nikosecurity/CVE-2024-55511"
     },
     {
       "type": "WEB",
