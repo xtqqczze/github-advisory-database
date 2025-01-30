@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-555q-7wq3-w6ch",
-  "modified": "2025-01-29T21:31:24Z",
+  "modified": "2025-01-30T00:31:03Z",
   "published": "2025-01-28T18:31:28Z",
   "aliases": [
     "CVE-2025-0781"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00028.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/01/msg00029.html"
     }
   ],
   "database_specific": {

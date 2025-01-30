@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5qj-pfmg-p3jp",
-  "modified": "2024-09-11T18:31:02Z",
+  "modified": "2025-01-30T00:31:03Z",
   "published": "2024-07-02T21:32:15Z",
   "aliases": [
     "CVE-2024-39894"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20240712-0004"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-25:01.openssh.asc"
     },
     {
       "type": "WEB",

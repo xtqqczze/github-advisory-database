@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-39m5-v8xj-6c9r",
-  "modified": "2024-07-25T18:32:36Z",
+  "modified": "2025-01-30T00:31:03Z",
   "published": "2024-07-24T18:31:17Z",
   "aliases": [
     "CVE-2024-40422"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/stitionai/devika"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/@alpernae/uncovering-path-traversal-in-devika-v1-a-deep-dive-into-cve-2024-40422-f8ce81398b99"
     }
   ],
   "database_specific": {
