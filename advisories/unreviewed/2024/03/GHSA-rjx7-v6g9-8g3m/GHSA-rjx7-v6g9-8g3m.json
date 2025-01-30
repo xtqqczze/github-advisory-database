@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjx7-v6g9-8g3m",
-  "modified": "2024-03-12T09:30:42Z",
+  "modified": "2025-01-30T12:31:17Z",
   "published": "2024-03-12T09:30:42Z",
   "aliases": [
     "CVE-2024-25995"
@@ -22,10 +22,15 @@
     {
       "type": "WEB",
       "url": "https://cert.vde.com/en/advisories/VDE-2024-011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zerodayinitiative.com/advisories/ZDI-24-856"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-20",
       "CWE-306"
     ],
     "severity": "CRITICAL",
