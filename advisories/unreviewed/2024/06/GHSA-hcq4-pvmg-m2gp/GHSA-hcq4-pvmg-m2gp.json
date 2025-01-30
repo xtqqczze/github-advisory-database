@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcq4-pvmg-m2gp",
-  "modified": "2024-06-01T18:30:46Z",
+  "modified": "2025-01-30T15:31:36Z",
   "published": "2024-06-01T18:30:46Z",
   "aliases": [
     "CVE-2024-4148"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-4148"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/lunary-ai/lunary/commit/1e8a3d941ba5cfef2c478dd5bac4e4a4b4d67830"
     },
     {
       "type": "WEB",
