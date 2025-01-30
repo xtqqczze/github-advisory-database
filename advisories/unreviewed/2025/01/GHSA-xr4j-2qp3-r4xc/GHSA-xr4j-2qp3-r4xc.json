@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr4j-2qp3-r4xc",
-  "modified": "2025-01-30T06:30:49Z",
+  "modified": "2025-01-30T18:32:07Z",
   "published": "2025-01-30T06:30:49Z",
   "aliases": [
     "CVE-2024-12400"
   ],
   "details": "The tourmaster WordPress plugin before 5.3.5 does not escape generated URLs before outputting them in attributes, leading to Reflected Cross-Site Scripting.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-30T06:15:29Z"
