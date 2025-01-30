@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xg3-cgvq-2xwr",
-  "modified": "2025-01-29T18:41:43Z",
+  "modified": "2025-01-30T15:33:25Z",
   "published": "2025-01-29T18:41:43Z",
   "aliases": [
     "CVE-2025-24374"
@@ -49,8 +49,16 @@
       "url": "https://github.com/twigphp/Twig/commit/38576b12f05df3cc871bf68f39ccb46b418334a3"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/twig/twig/CVE-2025-24374.yaml"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/twigphp/Twig"
+    },
+    {
+      "type": "WEB",
+      "url": "https://symfony.com/blog/twig-cve-2025-24374-missing-output-escaping-for-the-null-coalesce-operator"
     }
   ],
   "database_specific": {
