@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-653p-vg55-5652",
-  "modified": "2024-12-18T19:33:02Z",
+  "modified": "2025-01-31T15:30:44Z",
   "published": "2024-12-17T15:31:43Z",
   "aliases": [
     "CVE-2024-54677"
@@ -181,6 +181,10 @@
     {
       "type": "WEB",
       "url": "https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.98"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250131-0006"
     },
     {
       "type": "WEB",

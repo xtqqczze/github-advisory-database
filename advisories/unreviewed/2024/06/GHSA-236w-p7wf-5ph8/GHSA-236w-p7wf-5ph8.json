@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-236w-p7wf-5ph8",
-  "modified": "2024-06-19T03:34:44Z",
+  "modified": "2025-01-31T15:30:42Z",
   "published": "2024-06-05T18:30:34Z",
   "aliases": [
     "CVE-2024-24789"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2024-2888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250131-0008"
     },
     {
       "type": "WEB",

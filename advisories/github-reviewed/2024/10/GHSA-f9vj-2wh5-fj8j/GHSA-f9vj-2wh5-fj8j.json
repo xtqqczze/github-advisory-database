@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9vj-2wh5-fj8j",
-  "modified": "2024-10-25T21:35:11Z",
+  "modified": "2025-01-31T15:30:42Z",
   "published": "2024-10-25T19:43:41Z",
   "aliases": [
     "CVE-2024-49766"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pallets/werkzeug/releases/tag/3.0.6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250131-0005"
     }
   ],
   "database_specific": {

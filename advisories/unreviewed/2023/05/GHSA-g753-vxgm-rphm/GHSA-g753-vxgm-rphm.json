@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g753-vxgm-rphm",
-  "modified": "2024-04-04T04:19:07Z",
+  "modified": "2025-01-31T15:30:40Z",
   "published": "2023-05-23T21:30:18Z",
   "aliases": [
     "CVE-2023-23305"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/anvilsecure/garmin-ciq-app-research/blob/main/advisories/CVE-2023-23305.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/anvilsecure/garmin-ciq-app-research/blob/main/poc/GRMN-06.prg"
     }
   ],
   "database_specific": {
