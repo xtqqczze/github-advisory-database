@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpcq-cgw6-v4j6",
-  "modified": "2025-01-23T23:24:07Z",
+  "modified": "2025-01-31T20:50:03Z",
   "published": "2020-04-29T22:19:14Z",
   "aliases": [
     "CVE-2020-11023"
@@ -19,11 +19,6 @@
       "package": {
         "ecosystem": "npm",
         "name": "jquery"
-      },
-      "ecosystem_specific": {
-        "affected_functions": [
-          "(jquery).htmlPrefilter"
-        ]
       },
       "ranges": [
         {
@@ -81,6 +76,25 @@
       "package": {
         "ecosystem": "Maven",
         "name": "org.webjars.npm:jquery"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.3"
+            },
+            {
+              "fixed": "3.5.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "components/jquery"
       },
       "ranges": [
         {
