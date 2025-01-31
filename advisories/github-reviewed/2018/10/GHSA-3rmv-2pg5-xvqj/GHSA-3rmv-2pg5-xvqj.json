@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rmv-2pg5-xvqj",
-  "modified": "2025-01-31T19:03:33Z",
+  "modified": "2025-01-31T19:35:35Z",
   "published": "2018-10-17T20:28:00Z",
   "aliases": [
     "CVE-2018-1275"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework:spring-core"
+        "name": "org.springframework:spring-messaging"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.springframework:spring-core"
+        "name": "org.springframework:spring-messaging"
       },
       "ranges": [
         {
