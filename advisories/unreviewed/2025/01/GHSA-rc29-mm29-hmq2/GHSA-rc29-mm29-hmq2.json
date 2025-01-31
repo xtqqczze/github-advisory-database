@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rc29-mm29-hmq2",
+  "modified": "2025-01-31T06:30:53Z",
+  "published": "2025-01-31T06:30:53Z",
+  "aliases": [
+    "CVE-2024-13101"
+  ],
+  "details": "The WP MediaTagger WordPress plugin through 4.1.1 does not validate and escape some of its shortcode attributes before outputting them back in a page/post where the shortcode is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13101"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/03f51b54-0ec2-40ce-a0fa-ef0c4ab0ea99"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-31T06:15:28Z"
+  }
+}

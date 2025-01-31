@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c7fv-9v9p-r765",
+  "modified": "2025-01-31T06:30:53Z",
+  "published": "2025-01-31T06:30:53Z",
+  "aliases": [
+    "CVE-2024-13222"
+  ],
+  "details": "The User Messages WordPress plugin through 1.2.4 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13222"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/069e1f81-448d-4d27-b288-87111dade2f2"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-31T06:15:28Z"
+  }
+}
