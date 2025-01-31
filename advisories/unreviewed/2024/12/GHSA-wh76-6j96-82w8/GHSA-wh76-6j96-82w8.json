@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh76-6j96-82w8",
-  "modified": "2024-12-28T12:30:47Z",
+  "modified": "2025-01-31T18:31:04Z",
   "published": "2024-12-28T12:30:47Z",
   "aliases": [
     "CVE-2024-56698"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: dwc3: gadget: Fix looping of queued SG entries\n\nThe dwc3_request->num_queued_sgs is decremented on completion. If a\npartially completed request is handled, then the\ndwc3_request->num_queued_sgs no longer reflects the total number of\nnum_queued_sgs (it would be cleared).\n\nCorrectly check the number of request SG entries remained to be prepare\nand queued. Failure to do this may cause null pointer dereference when\naccessing non-existent SG entry.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-28T10:15:16Z"

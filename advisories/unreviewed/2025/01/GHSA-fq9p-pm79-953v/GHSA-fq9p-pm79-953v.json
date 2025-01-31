@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fq9p-pm79-953v",
+  "modified": "2025-01-31T18:31:07Z",
+  "published": "2025-01-31T18:31:07Z",
+  "aliases": [
+    "CVE-2024-53537"
+  ],
+  "details": "An issue in OpenPanel v0.3.4 to v0.2.1 allows attackers to execute a directory traversal in File Actions of File Manager.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53537"
+    },
+    {
+      "type": "WEB",
+      "url": "https://openpanel.com/docs/changelog/0.3.5/#%EF%B8%8F-security-fixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://packetstorm.news/files/id/188913"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-01-31T16:15:34Z"
+  }
+}

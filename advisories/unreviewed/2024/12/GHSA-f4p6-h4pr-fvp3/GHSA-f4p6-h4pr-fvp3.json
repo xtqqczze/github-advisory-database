@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4p6-h4pr-fvp3",
-  "modified": "2024-12-27T15:31:52Z",
+  "modified": "2025-01-31T18:31:04Z",
   "published": "2024-12-27T15:31:52Z",
   "aliases": [
     "CVE-2024-53217"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFSD: Prevent NULL dereference in nfsd4_process_cb_update()\n\n@ses is initialized to NULL. If __nfsd4_find_backchannel() finds no\navailable backchannel session, setup_callback_client() will try to\ndereference @ses and segfault.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T14:15:29Z"

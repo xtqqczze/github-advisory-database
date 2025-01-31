@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgmv-5488-h5p5",
-  "modified": "2025-01-31T12:33:02Z",
+  "modified": "2025-01-31T18:31:06Z",
   "published": "2025-01-31T12:33:02Z",
   "aliases": [
     "CVE-2024-12267"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-73"
+      "CWE-73",
+      "CWE-862"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

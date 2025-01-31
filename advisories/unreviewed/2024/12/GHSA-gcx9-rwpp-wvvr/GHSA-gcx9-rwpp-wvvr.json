@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcx9-rwpp-wvvr",
-  "modified": "2024-12-27T15:31:53Z",
+  "modified": "2025-01-31T18:31:04Z",
   "published": "2024-12-27T15:31:53Z",
   "aliases": [
     "CVE-2024-56537"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm: xlnx: zynqmp_disp: layer may be null while releasing\n\nlayer->info can be null if we have an error on the first layer in\nzynqmp_disp_create_layers",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T14:15:33Z"

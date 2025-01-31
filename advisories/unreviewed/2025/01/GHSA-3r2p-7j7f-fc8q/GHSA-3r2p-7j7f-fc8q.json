@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r2p-7j7f-fc8q",
-  "modified": "2025-01-08T21:32:26Z",
+  "modified": "2025-01-31T18:31:04Z",
   "published": "2025-01-08T21:32:26Z",
   "aliases": [
     "CVE-2024-54010"
@@ -22,10 +22,16 @@
     {
       "type": "WEB",
       "url": "https://csaf.arubanetworks.com/2024/hpe_aruba_networking_-_hpesbnw04772.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04772en_us&docLocale=en_US"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-863"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrf2-8jcf-fv7v",
-  "modified": "2025-01-11T15:30:28Z",
+  "modified": "2025-01-31T18:31:04Z",
   "published": "2025-01-11T15:30:27Z",
   "aliases": [
     "CVE-2024-45828"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ni3c: mipi-i3c-hci: Mask ring interrupts before ring stop request\n\nBus cleanup path in DMA mode may trigger a RING_OP_STAT interrupt when\nthe ring is being stopped. Depending on timing between ring stop request\ncompletion, interrupt handler removal and code execution this may lead\nto a NULL pointer dereference in hci_dma_irq_handler() if it gets to run\nafter the io_data pointer is set to NULL in hci_dma_cleanup().\n\nPrevent this my masking the ring interrupts before ring stop request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-11T13:15:21Z"

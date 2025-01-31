@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc3h-g2hw-g96p",
-  "modified": "2024-12-27T15:31:54Z",
+  "modified": "2025-01-31T18:31:04Z",
   "published": "2024-12-27T15:31:54Z",
   "aliases": [
     "CVE-2024-56569"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nftrace: Fix regression with module command in stack_trace_filter\n\nWhen executing the following command:\n\n    # echo \"write*:mod:ext3\" > /sys/kernel/tracing/stack_trace_filter\n\nThe current mod command causes a null pointer dereference. While commit\n0f17976568b3f (\"ftrace: Fix regression with module command in stack_trace_filter\")\nhas addressed part of the issue, it left a corner case unhandled, which still\nresults in a kernel crash.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T15:15:15Z"
