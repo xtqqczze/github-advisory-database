@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qjr-cj9f-phrx",
-  "modified": "2025-01-31T18:31:08Z",
+  "modified": "2025-01-31T21:32:47Z",
   "published": "2025-01-31T18:31:08Z",
   "aliases": [
     "CVE-2025-0938"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/pull/129418"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/d89a5f6a6e65511a5f6e0618c4c30a7aa5aba56a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB"
     }
   ],
   "database_specific": {

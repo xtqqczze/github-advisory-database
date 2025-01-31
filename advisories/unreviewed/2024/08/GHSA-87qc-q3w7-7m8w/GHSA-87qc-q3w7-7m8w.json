@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87qc-q3w7-7m8w",
-  "modified": "2025-01-11T15:30:27Z",
+  "modified": "2025-01-31T21:32:44Z",
   "published": "2024-08-01T15:32:20Z",
   "aliases": [
     "CVE-2024-6923"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/06f28dc236708f72871c64d4bc4b4ea144c50147"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/097633981879b3c9de9a1dd120d3aa585ecc2384"
     },
     {
       "type": "WEB",

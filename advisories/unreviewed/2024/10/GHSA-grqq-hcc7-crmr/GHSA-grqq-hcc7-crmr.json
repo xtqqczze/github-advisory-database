@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grqq-hcc7-crmr",
-  "modified": "2024-11-04T18:31:18Z",
+  "modified": "2025-01-31T21:32:44Z",
   "published": "2024-10-22T18:32:12Z",
   "aliases": [
     "CVE-2024-9287"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/d48cc82ed25e26b02eb97c6263d95dcaa1e9111b"
     },
     {
       "type": "WEB",

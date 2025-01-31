@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmm5-wgvp-wp8r",
-  "modified": "2024-09-04T21:30:31Z",
+  "modified": "2025-01-31T21:32:44Z",
   "published": "2024-09-03T15:30:44Z",
   "aliases": [
     "CVE-2024-6232"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/pull/121286"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/34ddb64d088dd7ccc321f6103d23153256caa5d4"
     },
     {
       "type": "WEB",
@@ -54,6 +58,14 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241018-0007"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/09/03/5"
     }
   ],
   "database_specific": {

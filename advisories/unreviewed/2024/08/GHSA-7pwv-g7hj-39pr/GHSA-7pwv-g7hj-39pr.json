@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pwv-g7hj-39pr",
-  "modified": "2024-09-04T21:30:31Z",
+  "modified": "2025-01-31T21:32:44Z",
   "published": "2024-08-19T21:35:10Z",
   "aliases": [
     "CVE-2024-7592"
@@ -33,6 +33,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/python/cpython/commit/44e458357fca05ca0ae2658d62c8c595b048b5ef"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06"
     },
     {
@@ -54,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241018-0006"
     }
   ],
   "database_specific": {

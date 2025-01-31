@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jwcx-m84w-h98g",
-  "modified": "2024-04-04T05:38:24Z",
+  "modified": "2025-01-31T21:32:44Z",
   "published": "2023-07-06T19:24:19Z",
   "aliases": [
     "CVE-2023-28770"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://packetstorm.news/files/id/172277"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-multiple-vulnerabilities"
     },
     {
@@ -30,7 +34,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-203"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
