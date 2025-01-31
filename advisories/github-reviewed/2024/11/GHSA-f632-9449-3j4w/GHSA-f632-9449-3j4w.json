@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f632-9449-3j4w",
-  "modified": "2024-11-18T21:03:24Z",
+  "modified": "2025-01-31T15:42:46Z",
   "published": "2024-11-18T15:33:20Z",
   "aliases": [
     "CVE-2024-52318"
@@ -110,6 +110,14 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/co243cw1nlh6p521c5265cm839wkqdp9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250131-0009"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/18/4"
     }
   ],
   "database_specific": {
