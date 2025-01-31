@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxr4-xjj5-5px2",
-  "modified": "2025-01-30T22:48:22Z",
+  "modified": "2025-01-31T20:49:05Z",
   "published": "2020-04-29T22:18:55Z",
   "aliases": [
     "CVE-2020-11022"
@@ -124,6 +124,25 @@
             },
             {
               "last_affected": "4.0.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "components/jquery"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.2.0"
+            },
+            {
+              "fixed": "3.5.0"
             }
           ]
         }
