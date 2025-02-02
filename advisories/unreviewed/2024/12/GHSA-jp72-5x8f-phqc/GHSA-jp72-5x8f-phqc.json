@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jp72-5x8f-phqc",
-  "modified": "2025-01-23T18:31:12Z",
+  "modified": "2025-02-02T12:30:24Z",
   "published": "2024-12-27T15:31:55Z",
   "aliases": [
     "CVE-2024-56631"
@@ -33,7 +33,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/285ce1f89f8d414e7eecab5ef5118cd512596318"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/59b30afa578637169e2819536bb66459fdddc39d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e19acb1926c4a1f30ee1ec84d8afba2d975bd534"
     },
     {
       "type": "WEB",

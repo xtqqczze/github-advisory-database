@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7r5w-cpw3-hwvw",
-  "modified": "2024-06-26T00:31:43Z",
+  "modified": "2025-02-02T12:30:23Z",
   "published": "2024-05-20T12:30:28Z",
   "aliases": [
     "CVE-2024-35967"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35967"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2c2dc87cdebef3fe3b9d7a711a984c70e376e32e"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrx4-x92w-9vhv",
-  "modified": "2025-01-23T18:31:17Z",
+  "modified": "2025-02-02T12:30:24Z",
   "published": "2025-01-19T12:31:25Z",
   "aliases": [
     "CVE-2025-21638"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21638"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/10c869a52f266e40f548cc3c565d14930a5edafc"
     },
     {
       "type": "WEB",
@@ -33,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c184bc621e3cef03ac9ba81a50dda2dae6a21d36"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/dc583e7e5f8515ca489c0df28e4362a70eade382"
     }
   ],
   "database_specific": {

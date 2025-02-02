@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp2p-wqj6-25wf",
-  "modified": "2024-10-25T15:31:25Z",
+  "modified": "2025-02-02T12:30:23Z",
   "published": "2024-10-21T18:30:58Z",
   "aliases": [
     "CVE-2024-49936"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/143edf098b80669d05245b2f2367dd156a83a2c5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3c4423b0c4b98213b3438e15061e1d08220e6982"
     },
     {
       "type": "WEB",

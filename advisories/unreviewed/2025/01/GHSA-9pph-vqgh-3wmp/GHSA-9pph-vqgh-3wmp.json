@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9pph-vqgh-3wmp",
-  "modified": "2025-01-23T18:31:18Z",
+  "modified": "2025-02-02T12:30:25Z",
   "published": "2025-01-21T15:31:03Z",
   "aliases": [
     "CVE-2024-57939"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/76ab0afcdbe8c9685b589016ee1c0e25fe596707"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8c38baa03ac8e18140faf36a3b955d30cad48e74"
     },
     {
       "type": "WEB",

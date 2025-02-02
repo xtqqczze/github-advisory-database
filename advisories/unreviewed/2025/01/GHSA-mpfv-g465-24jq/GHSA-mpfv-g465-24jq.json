@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpfv-g465-24jq",
-  "modified": "2025-01-23T18:31:17Z",
+  "modified": "2025-02-02T12:30:24Z",
   "published": "2025-01-19T12:31:26Z",
   "aliases": [
     "CVE-2024-57904"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/25ef52f1c15db67d890b80203a911b9a57b0bf71"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ac8d932e3214c10ec641ad45a253929a596ead62"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b549c90bfe66f704878aa1e57b30ba15dab71935"
     },
     {
       "type": "WEB",
