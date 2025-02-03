@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6wq6-xj8v-gvfq",
-  "modified": "2024-06-24T15:31:45Z",
+  "modified": "2025-02-03T18:30:37Z",
   "published": "2024-06-24T15:31:45Z",
   "aliases": [
     "CVE-2024-35247"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfpga: region: add owner module and take its refcount\n\nThe current implementation of the fpga region assumes that the low-level\nmodule registers a driver for the parent device and uses its owner pointer\nto take the module's refcount. This approach is problematic since it can\nlead to a null pointer dereference while attempting to get the region\nduring programming if the parent device does not have a driver.\n\nTo address this problem, add a module owner pointer to the fpga_region\nstruct and use it to take the module's refcount. Modify the functions for\nregistering a region to take an additional owner module parameter and\nrename them to avoid conflicts. Use the old function names for helper\nmacros that automatically set the module that registers the region as the\nowner. This ensures compatibility with existing low-level control modules\nand reduces the chances of registering a region without setting the owner.\n\nAlso, update the documentation to keep it consistent with the new interface\nfor registering an fpga region.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-24T14:15:12Z"

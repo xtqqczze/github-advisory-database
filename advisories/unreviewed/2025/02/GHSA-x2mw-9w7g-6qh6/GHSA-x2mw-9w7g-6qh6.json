@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2mw-9w7g-6qh6",
-  "modified": "2025-02-03T12:31:00Z",
+  "modified": "2025-02-03T18:30:41Z",
   "published": "2025-02-03T12:31:00Z",
   "aliases": [
     "CVE-2024-6790"
   ],
   "details": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Arm Ltd Bifrost GPU Kernel Driver, Arm Ltd Valhall GPU Kernel Driver, Arm Ltd Arm 5th Gen GPU Architecture Kernel Driver allows a non-privileged user process to make valid GPU memory processing operations, including via WebGL or WebGPU, to cause the whole system to become unresponsive.This issue affects Bifrost GPU Kernel Driver: r44p1, from r46p0 through r49p0, from r50p0 through r51p0; Valhall GPU Kernel Driver: r44p1, from r46p0 through r49p0, from r50p0 through r51p0; Arm 5th Gen GPU Architecture Kernel Driver: r44p1, from r46p0 through r49p0, from r50p0 through r51p0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-835"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-03T11:15:09Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpv6-h2qp-vgpv",
-  "modified": "2024-10-30T00:31:05Z",
+  "modified": "2025-02-03T18:30:38Z",
   "published": "2024-10-30T00:31:05Z",
   "aliases": [
     "CVE-2024-9827"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9827"
+    },
+    {
+      "type": "WEB",
+      "url": "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0019"
     },
     {
       "type": "WEB",

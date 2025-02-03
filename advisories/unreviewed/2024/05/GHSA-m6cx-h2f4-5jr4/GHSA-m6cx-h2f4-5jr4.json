@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6cx-h2f4-5jr4",
-  "modified": "2024-06-27T12:30:46Z",
+  "modified": "2025-02-03T18:30:36Z",
   "published": "2024-05-19T09:34:47Z",
   "aliases": [
     "CVE-2024-35915"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfc: nci: Fix uninit-value in nci_dev_up and nci_ntf_packet\n\nsyzbot reported the following uninit-value access issue [1][2]:\n\nnci_rx_work() parses and processes received packet. When the payload\nlength is zero, each message type handler reads uninitialized payload\nand KMSAN detects this issue. The receipt of a packet with a zero-size\npayload is considered unexpected, and therefore, such packets should be\nsilently discarded.\n\nThis patch resolved this issue by checking payload size before calling\neach message type handler codes.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-19T09:15:11Z"

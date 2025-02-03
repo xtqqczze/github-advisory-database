@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f85-r865-9x32",
-  "modified": "2024-08-17T12:30:32Z",
+  "modified": "2025-02-03T18:30:38Z",
   "published": "2024-08-17T12:30:32Z",
   "aliases": [
     "CVE-2024-43815"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: mxs-dcp - Ensure payload is zero when using key slot\n\nWe could leak stack memory through the payload field when running\nAES with a key from one of the hardware's key slots. Fix this by\nensuring the payload field is set to 0 in such cases.\n\nThis does not affect the common use case when the key is supplied\nfrom main memory via the descriptor payload.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-08-17T10:15:07Z"

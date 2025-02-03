@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-934p-m4fh-22q3",
-  "modified": "2024-08-29T18:31:34Z",
+  "modified": "2025-02-03T18:30:38Z",
   "published": "2024-07-12T15:31:29Z",
   "aliases": [
     "CVE-2024-40972"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: do not create EA inode under buffer lock\n\next4_xattr_set_entry() creates new EA inodes while holding buffer lock\non the external xattr block. This is problematic as it nests all the\nallocation locking (which acquires locks on other buffers) under the\nbuffer lock. This can even deadlock when the filesystem is corrupted and\ne.g. quota file is setup to contain xattr block as data block. Move the\nallocation of EA inode out of ext4_xattr_set_entry() into the callers.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-12T13:15:18Z"

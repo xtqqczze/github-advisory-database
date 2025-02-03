@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jw5r-wxx3-rm98",
-  "modified": "2024-11-18T12:30:42Z",
+  "modified": "2025-02-03T18:30:39Z",
   "published": "2024-11-18T12:30:42Z",
   "aliases": [
     "CVE-2024-41973"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-22",
       "CWE-35"
     ],
     "severity": "HIGH",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8q2m-46mc-pjw4",
-  "modified": "2024-05-21T15:31:39Z",
+  "modified": "2025-02-03T18:30:37Z",
   "published": "2024-05-21T15:31:39Z",
   "aliases": [
     "CVE-2021-47223"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: bridge: fix vlan tunnel dst null pointer dereference\n\nThis patch fixes a tunnel_dst null pointer dereference due to lockless\naccess in the tunnel egress path. When deleting a vlan tunnel the\ntunnel_dst pointer is set to NULL without waiting a grace period (i.e.\nwhile it's still usable) and packets egressing are dereferencing it\nwithout checking. Use READ/WRITE_ONCE to annotate the lockless use of\ntunnel_id, use RCU for accessing tunnel_dst and make sure it is read\nonly once and checked in the egress path. The dst is already properly RCU\nprotected so we don't need to do anything fancy than to make sure\ntunnel_id and tunnel_dst are read only once and checked in the egress path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:11Z"
