@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv3r-8m2g-v7cq",
-  "modified": "2024-04-29T12:30:36Z",
+  "modified": "2025-02-03T21:31:48Z",
   "published": "2024-04-29T12:30:36Z",
   "aliases": [
     "CVE-2024-33595"
   ],
-  "details": "Missing Authorization vulnerability in Jewel Theme Master Addons for Elementor.This issue affects Master Addons for Elementor: from n/a through 2.0.5.4.1.\n\n",
+  "details": "Missing Authorization vulnerability in Jewel Theme Master Addons for Elementor.This issue affects Master Addons for Elementor: from n/a through 2.0.5.4.1.",
   "severity": [
     {
       "type": "CVSS_V3",

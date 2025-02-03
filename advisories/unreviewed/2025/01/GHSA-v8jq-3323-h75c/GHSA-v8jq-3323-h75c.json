@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8jq-3323-h75c",
-  "modified": "2025-01-16T21:30:57Z",
+  "modified": "2025-02-03T21:31:49Z",
   "published": "2025-01-16T21:30:57Z",
   "aliases": [
     "CVE-2024-57677"
   ],
   "details": "An access control issue in the component form2Wan.cgi of D-Link 816A2_FWv1.10CNB05_R1B011D88210 allows unauthenticated attackers to set the wan service of the device via a crafted POST request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-16T19:15:29Z"

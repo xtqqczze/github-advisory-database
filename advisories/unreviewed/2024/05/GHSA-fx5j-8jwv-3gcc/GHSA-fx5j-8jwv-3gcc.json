@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx5j-8jwv-3gcc",
-  "modified": "2024-05-06T21:30:37Z",
+  "modified": "2025-02-03T21:31:48Z",
   "published": "2024-05-06T21:30:37Z",
   "aliases": [
     "CVE-2024-33912"
   ],
-  "details": "Missing Authorization vulnerability in Academy LMS.This issue affects Academy LMS: from n/a through 1.9.16.\n\n",
+  "details": "Missing Authorization vulnerability in Academy LMS.This issue affects Academy LMS: from n/a through 1.9.16.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr5x-8j97-qq23",
-  "modified": "2024-11-27T18:34:02Z",
+  "modified": "2025-02-03T21:31:48Z",
   "published": "2024-11-22T21:32:15Z",
   "aliases": [
     "CVE-2024-53438"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ChurchCRM/CRM/issues/6988"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-gr5x-8j97-qq23"
     }
   ],
   "database_specific": {
