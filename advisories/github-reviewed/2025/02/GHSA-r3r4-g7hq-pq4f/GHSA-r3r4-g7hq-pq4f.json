@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3r4-g7hq-pq4f",
-  "modified": "2025-02-03T16:48:59Z",
+  "modified": "2025-02-03T17:48:59Z",
   "published": "2025-02-03T16:48:59Z",
   "aliases": [],
   "summary": "CometBFT allows a malicious peer to stall the network by disseminating seemingly valid block parts",
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/cometbft/cometbft/security/advisories/GHSA-r3r4-g7hq-pq4f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cometbft/cometbft/commit/415c0da223bb7694608913f725fa45bd7a7a46bf"
     },
     {
       "type": "WEB",
