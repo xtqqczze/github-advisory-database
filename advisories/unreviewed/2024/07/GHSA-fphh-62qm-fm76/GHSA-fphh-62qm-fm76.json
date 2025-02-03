@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fphh-62qm-fm76",
-  "modified": "2024-07-29T18:30:42Z",
+  "modified": "2025-02-03T15:32:00Z",
   "published": "2024-07-29T18:30:42Z",
   "aliases": [
     "CVE-2024-42089"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: fsl-asoc-card: set priv->pdev before using it\n\npriv->pdev pointer was set after being used in\nfsl_asoc_card_audmux_init().\nMove this assignment at the start of the probe function, so\nsub-functions can correctly use pdev through priv.\n\nfsl_asoc_card_audmux_init() dereferences priv->pdev to get access to the\ndev struct, used with dev_err macros.\nAs priv is zero-initialised, there would be a NULL pointer dereference.\nNote that if priv->dev is dereferenced before assignment but never used,\nfor example if there is no error to be printed, the driver won't crash\nprobably due to compiler optimisations.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-29T17:15:11Z"

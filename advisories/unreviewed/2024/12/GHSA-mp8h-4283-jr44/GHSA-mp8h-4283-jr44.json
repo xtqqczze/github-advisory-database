@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp8h-4283-jr44",
-  "modified": "2024-12-24T12:30:43Z",
+  "modified": "2025-02-03T15:32:00Z",
   "published": "2024-12-24T12:30:43Z",
   "aliases": [
     "CVE-2024-53161"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nEDAC/bluefield: Fix potential integer overflow\n\nThe 64-bit argument for the \"get DIMM info\" SMC call consists of mem_ctrl_idx\nleft-shifted 16 bits and OR-ed with DIMM index.  With mem_ctrl_idx defined as\n32-bits wide the left-shift operation truncates the upper 16 bits of\ninformation during the calculation of the SMC argument.\n\nThe mem_ctrl_idx stack variable must be defined as 64-bits wide to prevent any\npotential integer overflow, i.e. loss of data from upper 16 bits.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-24T12:15:24Z"

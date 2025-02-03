@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gwxp-5q7q-w242",
+  "modified": "2025-02-03T15:32:02Z",
+  "published": "2025-02-03T15:32:02Z",
+  "aliases": [
+    "CVE-2024-57522"
+  ],
+  "details": "SourceCodester Packers and Movers Management System v1.0 is vulnerable to Cross Site Scripting (XSS) in Users.php. An attacker can inject a malicious script into the username or name field during user creation.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57522"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/HackWidMaddy/CVE-2024-57522"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-03T13:15:21Z"
+  }
+}

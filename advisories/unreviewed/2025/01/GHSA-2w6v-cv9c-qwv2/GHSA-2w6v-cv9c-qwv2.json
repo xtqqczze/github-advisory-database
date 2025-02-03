@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w6v-cv9c-qwv2",
-  "modified": "2025-02-02T12:30:24Z",
+  "modified": "2025-02-03T15:32:01Z",
   "published": "2025-01-19T12:31:26Z",
   "aliases": [
     "CVE-2024-57911"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: dummy: iio_simply_dummy_buffer: fix information leak in triggered buffer\n\nThe 'data' array is allocated via kmalloc() and it is used to push data\nto user space from a triggered buffer, but it does not set values for\ninactive channels, as it only uses iio_for_each_active_channel()\nto assign new values.\n\nUse kzalloc for the memory allocation to avoid pushing uninitialized\ninformation to userspace.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-19T12:15:25Z"

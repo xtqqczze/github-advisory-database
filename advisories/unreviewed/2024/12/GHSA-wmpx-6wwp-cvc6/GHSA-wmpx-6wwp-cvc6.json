@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmpx-6wwp-cvc6",
-  "modified": "2024-12-27T15:31:52Z",
+  "modified": "2025-02-03T15:32:00Z",
   "published": "2024-12-27T15:31:52Z",
   "aliases": [
     "CVE-2024-53239"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: 6fire: Release resources at card release\n\nThe current 6fire code tries to release the resources right after the\ncall of usb6fire_chip_abort().  But at this moment, the card object\nmight be still in use (as we're calling snd_card_free_when_closed()).\n\nFor avoid potential UAFs, move the release of resources to the card's\nprivate_free instead of the manual call of usb6fire_chip_destroy() at\nthe USB disconnect callback.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-12-27T14:15:32Z"

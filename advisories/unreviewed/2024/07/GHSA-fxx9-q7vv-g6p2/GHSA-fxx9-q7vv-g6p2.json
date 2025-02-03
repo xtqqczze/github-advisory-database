@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxx9-q7vv-g6p2",
-  "modified": "2024-07-29T15:30:47Z",
+  "modified": "2025-02-03T15:32:00Z",
   "published": "2024-07-29T15:30:47Z",
   "aliases": [
     "CVE-2024-41077"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnull_blk: fix validation of block size\n\nBlock size should be between 512 and PAGE_SIZE and be a power of 2. The current\ncheck does not validate this, so update the check.\n\nWithout this patch, null_blk would Oops due to a null pointer deref when\nloaded with bs=1536 [1].\n\n\n[axboe: remove unnecessary braces and != 0 check]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-29T15:15:15Z"

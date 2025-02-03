@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rpf-4vmp-3hfw",
-  "modified": "2024-03-05T12:30:31Z",
+  "modified": "2025-02-03T15:31:59Z",
   "published": "2024-03-05T12:30:31Z",
   "aliases": [
     "CVE-2022-48630"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: qcom-rng - fix infinite loop on requests not multiple of WORD_SZ\n\nThe commit referenced in the Fixes tag removed the 'break' from the else\nbranch in qcom_rng_read(), causing an infinite loop whenever 'max' is\nnot a multiple of WORD_SZ. This can be reproduced e.g. by running:\n\n    kcapi-rng -b 67 >/dev/null\n\nThere are many ways to fix this without adding back the 'break', but\nthey all seem more awkward than simply adding it back, so do just that.\n\nTested on a machine with Qualcomm Amberwing processor.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-835"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-05T12:15:45Z"

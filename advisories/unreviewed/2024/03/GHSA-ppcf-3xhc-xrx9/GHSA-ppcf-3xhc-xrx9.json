@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppcf-3xhc-xrx9",
-  "modified": "2024-06-27T15:30:38Z",
+  "modified": "2025-02-03T15:31:59Z",
   "published": "2024-03-06T09:30:26Z",
   "aliases": [
     "CVE-2023-52583"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nceph: fix deadlock or deadcode of misusing dget()\n\nThe lock order is incorrect between denty and its parent, we should\nalways make sure that the parent get the lock first.\n\nBut since this deadcode is never used and the parent dir will always\nbe set from the callers, let's just remove it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-06T07:15:06Z"
