@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp6x-mq75-x6gh",
-  "modified": "2025-01-26T12:30:32Z",
+  "modified": "2025-02-04T18:30:47Z",
   "published": "2025-01-26T12:30:32Z",
   "aliases": [
     "CVE-2024-13505"

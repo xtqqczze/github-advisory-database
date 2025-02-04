@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3qp-jr64-m396",
-  "modified": "2024-04-18T00:30:30Z",
+  "modified": "2025-02-04T18:30:43Z",
   "published": "2024-04-18T00:30:30Z",
   "aliases": [
     "CVE-2024-29955"
   ],
-  "details": "A vulnerability in Brocade SANnav before v2.3.1 and v2.3.0a could allow a privileged user to print the SANnav encrypted key in PostgreSQL startup logs. \nThis could provide attackers with an additional, less-protected path to acquiring the encryption key. \n\n",
+  "details": "A vulnerability in Brocade SANnav before v2.3.1 and v2.3.0a could allow a privileged user to print the SANnav encrypted key in PostgreSQL startup logs. \nThis could provide attackers with an additional, less-protected path to acquiring the encryption key.",
   "severity": [
     {
       "type": "CVSS_V3",

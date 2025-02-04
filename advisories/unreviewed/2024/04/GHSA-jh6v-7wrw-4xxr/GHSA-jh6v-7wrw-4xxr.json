@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jh6v-7wrw-4xxr",
-  "modified": "2024-04-19T06:30:27Z",
+  "modified": "2025-02-04T18:30:44Z",
   "published": "2024-04-19T06:30:27Z",
   "aliases": [
     "CVE-2024-29959"
   ],
-  "details": "A vulnerability in Brocade SANnav before v2.3.1 and v2.3.0a prints Brocade Fabric OS switch encrypted passwords in the Brocade SANnav Standby node's support save.\n\n",
+  "details": "A vulnerability in Brocade SANnav before v2.3.1 and v2.3.0a prints Brocade Fabric OS switch encrypted passwords in the Brocade SANnav Standby node's support save.",
   "severity": [
     {
       "type": "CVSS_V3",

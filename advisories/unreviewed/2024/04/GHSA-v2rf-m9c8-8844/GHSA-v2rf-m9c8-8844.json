@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2rf-m9c8-8844",
-  "modified": "2024-04-19T06:30:27Z",
+  "modified": "2025-02-04T18:30:44Z",
   "published": "2024-04-19T06:30:27Z",
   "aliases": [
     "CVE-2024-29962"
   ],
-  "details": "Brocade SANnav OVA before v2.3.1 and v2.3.0a have an insecure file permission setting that makes files world-readable. This could allow a local user without the required privileges to access sensitive information or a Java binary.\n\n",
+  "details": "Brocade SANnav OVA before v2.3.1 and v2.3.0a have an insecure file permission setting that makes files world-readable. This could allow a local user without the required privileges to access sensitive information or a Java binary.",
   "severity": [
     {
       "type": "CVSS_V3",

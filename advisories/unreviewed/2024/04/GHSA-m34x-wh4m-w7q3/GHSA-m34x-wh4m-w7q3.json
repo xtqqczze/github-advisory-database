@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m34x-wh4m-w7q3",
-  "modified": "2024-04-17T21:30:46Z",
+  "modified": "2025-02-04T18:30:43Z",
   "published": "2024-04-17T21:30:46Z",
   "aliases": [
     "CVE-2024-29950"
   ],
-  "details": "The class FileTransfer implemented in Brocade SANnav before v2.3.1, v2.3.0a, uses the ssh-rsa signature scheme, which has a SHA-1 hash.\nThe vulnerability could allow a remote, unauthenticated attacker to perform a man-in-the-middle attack.\n",
+  "details": "The class FileTransfer implemented in Brocade SANnav before v2.3.1, v2.3.0a, uses the ssh-rsa signature scheme, which has a SHA-1 hash.\nThe vulnerability could allow a remote, unauthenticated attacker to perform a man-in-the-middle attack.",
   "severity": [
     {
       "type": "CVSS_V3",

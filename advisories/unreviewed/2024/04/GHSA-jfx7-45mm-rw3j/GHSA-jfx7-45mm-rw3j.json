@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfx7-45mm-rw3j",
-  "modified": "2024-04-09T21:32:00Z",
+  "modified": "2025-02-04T18:30:41Z",
   "published": "2024-04-09T21:32:00Z",
   "aliases": [
     "CVE-2024-3053"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

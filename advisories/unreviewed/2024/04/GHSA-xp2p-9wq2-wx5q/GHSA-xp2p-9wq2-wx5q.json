@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp2p-9wq2-wx5q",
-  "modified": "2024-04-18T03:30:45Z",
+  "modified": "2025-02-04T18:30:44Z",
   "published": "2024-04-18T03:30:45Z",
   "aliases": [
     "CVE-2024-29956"
   ],
-  "details": "A vulnerability in Brocade SANnav before v2.3.1 and v2.3.0a prints the Brocade SANnav password in clear text in supportsave logs when a user schedules a switch Supportsave from Brocade SANnav.\n\n",
+  "details": "A vulnerability in Brocade SANnav before v2.3.1 and v2.3.0a prints the Brocade SANnav password in clear text in supportsave logs when a user schedules a switch Supportsave from Brocade SANnav.",
   "severity": [
     {
       "type": "CVSS_V3",

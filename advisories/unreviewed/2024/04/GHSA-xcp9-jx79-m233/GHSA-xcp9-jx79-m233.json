@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcp9-jx79-m233",
-  "modified": "2024-04-19T06:30:27Z",
+  "modified": "2025-02-04T18:30:44Z",
   "published": "2024-04-19T06:30:27Z",
   "aliases": [
     "CVE-2024-29960"
   ],
-  "details": "In the Brocade SANnav server versions before v2.3.1 and v2.3.0a, the SSH keys inside the OVA image are hardcoded and identical in the VM every time SANnav is installed. Any Brocade SANnav VM based on the official OVA images is vulnerable to MITM over SSH. An attacker can decrypt and compromise the SSH traffic to the SANnav appliance.\n\n",
+  "details": "In the Brocade SANnav server versions before v2.3.1 and v2.3.0a, the SSH keys inside the OVA image are hardcoded and identical in the VM every time SANnav is installed. Any Brocade SANnav VM based on the official OVA images is vulnerable to MITM over SSH. An attacker can decrypt and compromise the SSH traffic to the SANnav appliance.",
   "severity": [
     {
       "type": "CVSS_V3",

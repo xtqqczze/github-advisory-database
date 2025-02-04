@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68wm-4xjg-6p6m",
-  "modified": "2024-04-19T06:30:28Z",
+  "modified": "2025-02-04T18:30:44Z",
   "published": "2024-04-19T06:30:28Z",
   "aliases": [
     "CVE-2024-29965"
   ],
-  "details": "\nIn Brocade SANnav before v2.3.1, and v2.3.0a, it is possible to back up the appliance from the web interface or the command line interface (\"SSH\"). The resulting backups are world-readable. A local attacker can recover backup files, restore them to a new malicious appliance, and retrieve the passwords of all the switches.\n\n",
+  "details": "In Brocade SANnav before v2.3.1, and v2.3.0a, it is possible to back up the appliance from the web interface or the command line interface (\"SSH\"). The resulting backups are world-readable. A local attacker can recover backup files, restore them to a new malicious appliance, and retrieve the passwords of all the switches.",
   "severity": [
     {
       "type": "CVSS_V3",

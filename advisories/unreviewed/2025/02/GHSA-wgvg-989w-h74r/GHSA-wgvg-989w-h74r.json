@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgvg-989w-h74r",
-  "modified": "2025-02-03T21:31:50Z",
+  "modified": "2025-02-04T18:30:48Z",
   "published": "2025-02-03T21:31:50Z",
   "aliases": [
     "CVE-2024-57451"
   ],
   "details": "ChestnutCMS <=1.5.0 has a directory traversal vulnerability in contentcore.controller.FileController#getFileList, which allows attackers to view any directory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-03T21:15:14Z"

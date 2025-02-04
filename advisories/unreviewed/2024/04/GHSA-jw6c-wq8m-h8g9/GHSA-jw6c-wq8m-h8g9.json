@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jw6c-wq8m-h8g9",
-  "modified": "2024-04-19T06:30:27Z",
+  "modified": "2025-02-04T18:30:44Z",
   "published": "2024-04-19T06:30:27Z",
   "aliases": [
     "CVE-2024-29957"
   ],
-  "details": "When Brocade SANnav before v2.3.1 and v2.3.0a servers are configured in Disaster Recovery mode, the encryption key is stored in the DR log files. This could provide attackers with an additional, less-protected path to acquiring the encryption key.\n",
+  "details": "When Brocade SANnav before v2.3.1 and v2.3.0a servers are configured in Disaster Recovery mode, the encryption key is stored in the DR log files. This could provide attackers with an additional, less-protected path to acquiring the encryption key.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jhj-m58m-cg57",
-  "modified": "2024-04-19T06:30:28Z",
+  "modified": "2025-02-04T18:30:44Z",
   "published": "2024-04-19T06:30:28Z",
   "aliases": [
     "CVE-2024-29966"
   ],
-  "details": "Brocade SANnav OVA before v2.3.1 and v2.3.0a contain hard-coded credentials in the documentation that appear as the appliance's root password. The vulnerability could allow an unauthenticated attacker full access to the Brocade SANnav appliance.\n\n",
+  "details": "Brocade SANnav OVA before v2.3.1 and v2.3.0a contain hard-coded credentials in the documentation that appear as the appliance's root password. The vulnerability could allow an unauthenticated attacker full access to the Brocade SANnav appliance.",
   "severity": [
     {
       "type": "CVSS_V3",
