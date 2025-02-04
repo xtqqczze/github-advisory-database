@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4h42-x6j9-68pv",
-  "modified": "2024-04-11T03:34:59Z",
+  "modified": "2025-02-04T00:32:02Z",
   "published": "2024-04-11T03:34:59Z",
   "aliases": [
     "CVE-2024-25935"
   ],
-  "details": "Missing Authorization vulnerability in Metagauss RegistrationMagic.This issue affects RegistrationMagic: from n/a through 5.2.5.9.\n\n",
+  "details": "Missing Authorization vulnerability in Metagauss RegistrationMagic.This issue affects RegistrationMagic: from n/a through 5.2.5.9.",
   "severity": [
     {
       "type": "CVSS_V3",
