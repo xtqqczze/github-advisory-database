@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3php-q6vg-pfpc",
-  "modified": "2025-02-04T15:31:37Z",
+  "modified": "2025-02-04T21:32:28Z",
   "published": "2025-02-04T15:31:37Z",
   "aliases": [
     "CVE-2025-22206"
   ],
   "details": "A SQL injection vulnerability in the JS Jobs plugin versions 1.1.5-1.4.2 for Joomla allows authenticated attackers (administrator) to execute arbitrary SQL commands via the 'fieldfor' parameter in the GDPR Field feature.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-04T15:15:19Z"

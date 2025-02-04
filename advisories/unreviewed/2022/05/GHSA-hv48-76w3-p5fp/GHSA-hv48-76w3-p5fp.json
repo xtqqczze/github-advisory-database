@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv48-76w3-p5fp",
-  "modified": "2022-07-11T00:00:24Z",
+  "modified": "2025-02-04T21:32:20Z",
   "published": "2022-05-24T17:16:35Z",
   "aliases": [
     "CVE-2020-12271"

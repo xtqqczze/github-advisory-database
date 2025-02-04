@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q834-vxjw-r888",
-  "modified": "2022-07-13T00:00:52Z",
+  "modified": "2025-02-04T21:32:20Z",
   "published": "2022-05-24T17:08:07Z",
   "aliases": [
     "CVE-2020-8644"
@@ -39,7 +39,8 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-20",
-      "CWE-74"
+      "CWE-74",
+      "CWE-94"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

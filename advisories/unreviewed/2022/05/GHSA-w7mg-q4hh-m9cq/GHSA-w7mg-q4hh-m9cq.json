@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7mg-q4hh-m9cq",
-  "modified": "2022-06-29T00:00:54Z",
+  "modified": "2025-02-04T21:32:23Z",
   "published": "2022-05-24T19:14:21Z",
   "aliases": [
     "CVE-2021-40870"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-23",
       "CWE-434",
       "CWE-436"
     ],

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p546-g9xq-c75r",
-  "modified": "2024-03-28T06:30:46Z",
+  "modified": "2025-02-04T21:32:26Z",
   "published": "2024-03-28T06:30:46Z",
   "aliases": [
     "CVE-2024-30241"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.1.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Metagauss ProfileGrid.This issue affects ProfileGrid : from n/a through 5.7.1.",
   "severity": [
     {
       "type": "CVSS_V3",

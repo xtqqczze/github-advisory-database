@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m59h-m6pp-wj3p",
-  "modified": "2024-03-19T15:30:34Z",
+  "modified": "2025-02-04T21:32:25Z",
   "published": "2024-03-19T15:30:34Z",
   "aliases": [
     "CVE-2024-29113"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss RegistrationMagic allows Reflected XSS.This issue affects RegistrationMagic: from n/a through 5.2.5.9.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Metagauss RegistrationMagic allows Reflected XSS.This issue affects RegistrationMagic: from n/a through 5.2.5.9.",
   "severity": [
     {
       "type": "CVSS_V3",

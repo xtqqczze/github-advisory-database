@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-779w-wqpf-gq64",
-  "modified": "2022-07-11T00:00:24Z",
+  "modified": "2025-02-04T21:32:20Z",
   "published": "2022-05-24T17:22:30Z",
   "aliases": [
     "CVE-2020-15505"
