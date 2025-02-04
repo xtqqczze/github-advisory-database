@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8gv-f7pf-7c4p",
-  "modified": "2024-11-27T18:34:03Z",
+  "modified": "2025-02-04T15:31:35Z",
   "published": "2024-11-26T15:31:02Z",
   "aliases": [
     "CVE-2024-11704"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2024-67"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-09"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-10"
     }
   ],
   "database_specific": {
