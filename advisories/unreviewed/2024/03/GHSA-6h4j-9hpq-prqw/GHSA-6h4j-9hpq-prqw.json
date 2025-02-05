@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6h4j-9hpq-prqw",
-  "modified": "2024-03-28T09:31:14Z",
+  "modified": "2025-02-05T18:34:38Z",
   "published": "2024-03-28T09:31:14Z",
   "aliases": [
     "CVE-2024-30422"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPVibes Elementor Addon Elements allows Stored XSS.This issue affects Elementor Addon Elements: from n/a through 1.13.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPVibes Elementor Addon Elements allows Stored XSS.This issue affects Elementor Addon Elements: from n/a through 1.13.1.",
   "severity": [
     {
       "type": "CVSS_V3",

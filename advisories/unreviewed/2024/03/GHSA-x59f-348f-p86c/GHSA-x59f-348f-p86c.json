@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x59f-348f-p86c",
-  "modified": "2024-03-27T15:30:37Z",
+  "modified": "2025-02-05T18:34:37Z",
   "published": "2024-03-27T15:30:37Z",
   "aliases": [
     "CVE-2024-29777"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPMU DEV Forminator allows Reflected XSS.This issue affects Forminator: from n/a through 1.29.0.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPMU DEV Forminator allows Reflected XSS.This issue affects Forminator: from n/a through 1.29.0.",
   "severity": [
     {
       "type": "CVSS_V3",

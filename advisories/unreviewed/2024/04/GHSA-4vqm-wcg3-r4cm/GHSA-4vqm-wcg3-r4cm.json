@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vqm-wcg3-r4cm",
-  "modified": "2024-04-24T18:30:33Z",
+  "modified": "2025-02-05T18:34:38Z",
   "published": "2024-04-24T18:30:33Z",
   "aliases": [
     "CVE-2023-47504"
   ],
-  "details": "Improper Authentication vulnerability in Elementor Elementor Website Builder allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Elementor Website Builder: from n/a through 3.16.4.\n\n",
+  "details": "Improper Authentication vulnerability in Elementor Elementor Website Builder allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects Elementor Website Builder: from n/a through 3.16.4.",
   "severity": [
     {
       "type": "CVSS_V3",

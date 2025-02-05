@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv6g-f8q7-v8cx",
-  "modified": "2024-03-19T15:30:35Z",
+  "modified": "2025-02-05T18:34:37Z",
   "published": "2024-03-19T15:30:35Z",
   "aliases": [
     "CVE-2024-29123"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Yannick Lefebvre Link Library allows Reflected XSS.This issue affects Link Library: from n/a through 7.6.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Yannick Lefebvre Link Library allows Reflected XSS.This issue affects Link Library: from n/a through 7.6.",
   "severity": [
     {
       "type": "CVSS_V3",

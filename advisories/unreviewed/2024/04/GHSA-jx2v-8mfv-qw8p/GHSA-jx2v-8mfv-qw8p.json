@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx2v-8mfv-qw8p",
-  "modified": "2024-04-17T12:32:03Z",
+  "modified": "2025-02-05T18:34:38Z",
   "published": "2024-04-17T12:32:03Z",
   "aliases": [
     "CVE-2024-32456"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in EnvoThemes Envo Extra allows Stored XSS.This issue affects Envo Extra: from n/a through 1.8.11.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in EnvoThemes Envo Extra allows Stored XSS.This issue affects Envo Extra: from n/a through 1.8.11.",
   "severity": [
     {
       "type": "CVSS_V3",
