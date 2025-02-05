@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc57-hgv8-p56r",
-  "modified": "2025-02-05T15:32:25Z",
+  "modified": "2025-02-05T21:32:35Z",
   "published": "2025-02-05T12:33:07Z",
   "aliases": [
     "CVE-2025-0665"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/02/05/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/02/05/5"
     }
   ],
   "database_specific": {

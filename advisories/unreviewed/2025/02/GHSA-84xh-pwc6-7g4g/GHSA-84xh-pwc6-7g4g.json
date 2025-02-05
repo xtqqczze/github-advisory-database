@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84xh-pwc6-7g4g",
-  "modified": "2025-02-05T18:34:46Z",
+  "modified": "2025-02-05T21:32:35Z",
   "published": "2025-02-05T18:34:46Z",
   "aliases": [
     "CVE-2025-23419"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://my.f5.com/manage/s/article/K000149173"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/02/05/8"
     }
   ],
   "database_specific": {

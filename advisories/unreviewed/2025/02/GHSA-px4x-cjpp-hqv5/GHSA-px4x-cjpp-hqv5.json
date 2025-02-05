@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px4x-cjpp-hqv5",
-  "modified": "2025-02-05T12:33:07Z",
+  "modified": "2025-02-05T21:32:35Z",
   "published": "2025-02-05T12:33:07Z",
   "aliases": [
     "CVE-2024-3976"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/2470939"
+    },
+    {
+      "type": "WEB",
+      "url": "https://about.gitlab.com/releases/2024/05/08/patch-release-gitlab-16-11-2-released"
     },
     {
       "type": "WEB",
