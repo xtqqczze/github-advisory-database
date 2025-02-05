@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc89-jghx-8pvg",
-  "modified": "2025-01-30T18:56:00Z",
+  "modified": "2025-02-05T16:23:59Z",
   "published": "2025-01-30T17:52:37Z",
   "aliases": [
     "CVE-2025-24376"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/kubewarden/kubewarden-controller"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3434"
     }
   ],
   "database_specific": {
