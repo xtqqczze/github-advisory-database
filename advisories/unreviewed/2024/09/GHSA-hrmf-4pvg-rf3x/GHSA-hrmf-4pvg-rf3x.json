@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrmf-4pvg-rf3x",
-  "modified": "2024-09-05T18:30:55Z",
+  "modified": "2025-02-05T03:32:11Z",
   "published": "2024-09-04T09:30:45Z",
   "aliases": [
     "CVE-2024-45195"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://ofbiz.apache.org/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/09/03/6"
     }
   ],
   "database_specific": {
