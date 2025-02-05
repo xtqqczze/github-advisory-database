@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrm8-xgf3-fwqr",
-  "modified": "2025-02-05T21:09:21Z",
+  "modified": "2025-02-05T21:45:31Z",
   "published": "2025-02-05T21:09:21Z",
   "aliases": [
     "CVE-2025-24804"
@@ -48,6 +48,10 @@
       "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF/security/advisories/GHSA-jrm8-xgf3-fwqr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24804"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF/commit/05206e72cae35b311615a70e51e1a946955c5e83"
     },
@@ -71,6 +75,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-02-05T21:09:21Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-02-05T19:15:46Z"
   }
 }
