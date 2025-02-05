@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxcc-2f3q-4h58",
-  "modified": "2025-01-31T21:06:23Z",
+  "modified": "2025-02-05T16:33:44Z",
   "published": "2025-01-31T18:31:07Z",
   "aliases": [
     "CVE-2024-11741"
@@ -145,6 +145,10 @@
     {
       "type": "WEB",
       "url": "https://grafana.com/security/security-advisories/cve-2024-11741"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3438"
     }
   ],
   "database_specific": {
