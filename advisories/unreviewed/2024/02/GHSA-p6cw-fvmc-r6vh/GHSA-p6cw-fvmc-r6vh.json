@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6cw-fvmc-r6vh",
-  "modified": "2024-02-28T21:30:20Z",
+  "modified": "2025-02-05T15:32:18Z",
   "published": "2024-02-28T21:30:20Z",
   "aliases": [
     "CVE-2023-51692"
   ],
-  "details": "Missing Authorization vulnerability in CusRev Customer Reviews for WooCommerce.This issue affects Customer Reviews for WooCommerce: from n/a through 5.38.1.\n\n",
+  "details": "Missing Authorization vulnerability in CusRev Customer Reviews for WooCommerce.This issue affects Customer Reviews for WooCommerce: from n/a through 5.38.1.",
   "severity": [
     {
       "type": "CVSS_V3",
