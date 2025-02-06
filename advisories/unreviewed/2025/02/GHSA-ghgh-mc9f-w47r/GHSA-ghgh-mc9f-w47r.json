@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-ghgh-mc9f-w47r",
+  "modified": "2025-02-06T06:31:25Z",
+  "published": "2025-02-06T06:31:25Z",
+  "aliases": [
+    "CVE-2024-57069"
+  ],
+  "details": "A prototype pollution in the lib function of expand-object v0.4.2 allows attackers to cause a Denial of Service (DoS) via supplying a crafted payload.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57069"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/tariqhawis/68e06b00e3258d0d427257c6906bd300"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-05T22:15:31Z"
+  }
+}

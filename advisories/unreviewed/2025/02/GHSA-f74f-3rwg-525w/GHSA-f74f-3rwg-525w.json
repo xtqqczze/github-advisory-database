@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f74f-3rwg-525w",
+  "modified": "2025-02-06T06:31:25Z",
+  "published": "2025-02-06T06:31:25Z",
+  "aliases": [
+    "CVE-2024-57064"
+  ],
+  "details": "A prototype pollution in the lib.setValue function of @syncfusion/ej2-spreadsheet v27.2.2 allows attackers to cause a Denial of Service (DoS) via supplying a crafted payload.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57064"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/tariqhawis/1b40dc7f3836813663c871535039760e"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-05T22:15:30Z"
+  }
+}

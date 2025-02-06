@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fr9-xph3-mm3j",
-  "modified": "2024-12-02T18:31:56Z",
+  "modified": "2025-02-06T06:31:25Z",
   "published": "2024-12-02T18:31:56Z",
   "aliases": [
     "CVE-2024-53566"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/asterisk/asterisk/blob/22/main/manager.c#L2556"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00003.html"
     }
   ],
   "database_specific": {

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2cmr-4r4h-w563",
+  "modified": "2025-02-06T06:31:26Z",
+  "published": "2025-02-06T06:31:26Z",
+  "aliases": [
+    "CVE-2025-1066"
+  ],
+  "details": "OpenPLC_V3 contains an arbitrary file upload vulnerability, which could be leveraged for malvertising or phishing campaigns.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1066"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/thiagoralves/OpenPLC_v3/commit/d1b1a3b7e97f2b3fef0876056cf9d7879991744a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/@alimuhammadsecured/cyberforce-2024-how-i-found-my-first-cve-openplcv3-16c058b114b0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-06T00:15:27Z"
+  }
+}

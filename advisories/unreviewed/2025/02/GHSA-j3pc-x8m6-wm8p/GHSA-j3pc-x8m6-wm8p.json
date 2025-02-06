@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j3pc-x8m6-wm8p",
+  "modified": "2025-02-06T06:31:25Z",
+  "published": "2025-02-06T06:31:25Z",
+  "aliases": [
+    "CVE-2020-36084"
+  ],
+  "details": "SQL Injection vulnerability in SourceCodester Responsive E-Learning System 1.0 allows remote attackers to inject sql query in /elearning/delete_teacher_students.php?id= parameter via id field.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36084"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/49357"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-05T22:15:27Z"
+  }
+}
