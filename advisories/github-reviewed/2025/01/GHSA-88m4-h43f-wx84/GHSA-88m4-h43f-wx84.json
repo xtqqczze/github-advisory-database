@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88m4-h43f-wx84",
-  "modified": "2025-01-31T18:48:16Z",
+  "modified": "2025-02-06T17:04:46Z",
   "published": "2025-01-31T17:34:09Z",
   "aliases": [
     "CVE-2025-23215"
@@ -39,8 +39,18 @@
         "ecosystem": "Maven",
         "name": "net.sourceforge.pmd:pmd-ui"
       },
-      "versions": [
-        "6.14.0"
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.14.0"
+            },
+            {
+              "last_affected": "6.19.0"
+            }
+          ]
+        }
       ]
     },
     {
