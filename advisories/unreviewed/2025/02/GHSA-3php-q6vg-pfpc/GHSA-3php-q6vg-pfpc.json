@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3php-q6vg-pfpc",
-  "modified": "2025-02-04T21:32:28Z",
+  "modified": "2025-02-06T12:31:57Z",
   "published": "2025-02-04T15:31:37Z",
   "aliases": [
     "CVE-2025-22206"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22206"
+    },
+    {
+      "type": "WEB",
+      "url": "https://decrypt.locker/obtaining-my-first-cve"
     },
     {
       "type": "WEB",
