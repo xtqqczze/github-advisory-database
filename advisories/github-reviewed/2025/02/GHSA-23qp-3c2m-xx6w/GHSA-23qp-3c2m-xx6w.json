@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23qp-3c2m-xx6w",
-  "modified": "2025-02-04T18:54:13Z",
+  "modified": "2025-02-06T18:03:00Z",
   "published": "2025-02-04T18:54:13Z",
   "aliases": [],
   "summary": "wasmvm: Malicious smart contract can crash the chain",
@@ -113,6 +113,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/CosmWasm/wasmvm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3448"
     }
   ],
   "database_specific": {
