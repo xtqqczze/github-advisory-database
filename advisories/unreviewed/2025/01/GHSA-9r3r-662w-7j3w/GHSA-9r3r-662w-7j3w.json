@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r3r-662w-7j3w",
-  "modified": "2025-01-29T18:31:22Z",
+  "modified": "2025-02-06T09:31:46Z",
   "published": "2025-01-29T18:31:22Z",
   "aliases": [
     "CVE-2025-24527"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://techdocs.akamai.com/eaa/changelog/january-29-2024"
+    },
+    {
+      "type": "WEB",
+      "url": "https://techdocs.akamai.com/eaa/changelog/january-29-2025"
     }
   ],
   "database_specific": {
