@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmm5-f82c-58j8",
-  "modified": "2025-01-24T18:31:04Z",
+  "modified": "2025-02-06T15:32:51Z",
   "published": "2022-05-24T19:01:29Z",
   "aliases": [
     "CVE-2021-32030"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.asus.com/Networking-IoT-Servers/WiFi-Routers/ASUS-Gaming-Routers/RT-AC2900/HelpDesk_BIOS"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.asus.com/us/supportonly/lyra%20mini/helpdesk_bios"
     },
     {
       "type": "WEB",
