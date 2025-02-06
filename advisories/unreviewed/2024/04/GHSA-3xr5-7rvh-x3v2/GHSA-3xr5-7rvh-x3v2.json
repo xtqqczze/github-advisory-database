@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xr5-7rvh-x3v2",
-  "modified": "2025-01-30T18:32:04Z",
+  "modified": "2025-02-06T18:31:01Z",
   "published": "2024-04-04T18:30:33Z",
   "aliases": [
     "CVE-2024-25705"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.esri.com/arcgis-blog/products/arcgis-enterprise/administration/portal-for-arcgis-security-2024-update-2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/the-portal-for-arcgis-security-2024-update-2-is-available-install-these-patches-at-your-earliest-opportunity-to-address-these-vulnerabilities"
     }
   ],
   "database_specific": {

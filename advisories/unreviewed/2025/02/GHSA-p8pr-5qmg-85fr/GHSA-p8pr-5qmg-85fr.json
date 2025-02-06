@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p8pr-5qmg-85fr",
+  "modified": "2025-02-06T18:31:05Z",
+  "published": "2025-02-06T18:31:05Z",
+  "aliases": [
+    "CVE-2024-57429"
+  ],
+  "details": "A cross-site request forgery (CSRF) vulnerability in the pjActionUpdate function of PHPJabbers Cinema Booking System v2.0 allows remote attackers to escalate privileges by tricking an authenticated admin into submitting an unauthorized request.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57429"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ahrixia/CVE-2024-57429"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.phpjabbers.com/cinema-booking-system"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-06T17:15:20Z"
+  }
+}

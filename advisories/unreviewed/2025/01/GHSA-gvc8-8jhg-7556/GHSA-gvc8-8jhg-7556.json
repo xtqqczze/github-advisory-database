@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvc8-8jhg-7556",
-  "modified": "2025-01-28T21:31:03Z",
+  "modified": "2025-02-06T18:31:04Z",
   "published": "2025-01-28T00:32:15Z",
   "aliases": [
     "CVE-2024-57373"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/cypherdavy/CVE-2024-57373"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sajalagrawal/LifestyleStore"
     }
   ],
   "database_specific": {

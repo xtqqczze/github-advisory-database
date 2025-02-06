@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm6f-4pg9-fmg4",
-  "modified": "2024-04-25T09:32:09Z",
+  "modified": "2025-02-06T18:31:02Z",
   "published": "2024-04-25T09:32:09Z",
   "aliases": [
     "CVE-2024-4173"
   ],
-  "details": "\nA vulnerability in Brocade SANnav ova versions before Brocade SANnav v2.3.1 and v2.3.0a exposes Kafka in the wan interface.\n\nThe vulnerability could allow an unauthenticated attacker to perform various attacks, including DOS, the Brocade SANnav appliance.\n\n",
+  "details": "A vulnerability in Brocade SANnav ova versions before Brocade SANnav v2.3.1 and v2.3.0a exposes Kafka in the wan interface.\n\nThe vulnerability could allow an unauthenticated attacker to perform various attacks, including DOS, the Brocade SANnav appliance.",
   "severity": [
     {
       "type": "CVSS_V3",

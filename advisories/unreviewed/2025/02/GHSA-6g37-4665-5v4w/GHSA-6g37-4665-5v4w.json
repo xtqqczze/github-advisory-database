@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6g37-4665-5v4w",
-  "modified": "2025-02-03T21:31:50Z",
+  "modified": "2025-02-06T18:31:04Z",
   "published": "2025-02-03T21:31:50Z",
   "aliases": [
     "CVE-2025-25181"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://intezer.com/blog/research/xe-group-exploiting-zero-days"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.solissecurity.com/en-us/insights/xe-group-from-credit-card-skimming-to-exploiting-zero-days"
     }
   ],
   "database_specific": {
