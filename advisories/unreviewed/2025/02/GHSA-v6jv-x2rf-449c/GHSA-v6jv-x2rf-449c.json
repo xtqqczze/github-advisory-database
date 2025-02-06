@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v6jv-x2rf-449c",
-  "modified": "2025-02-06T18:31:05Z",
+  "modified": "2025-02-06T21:32:09Z",
   "published": "2025-02-06T18:31:05Z",
   "aliases": [
     "CVE-2024-43779"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2024-2112"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-2112"
     }
   ],
   "database_specific": {

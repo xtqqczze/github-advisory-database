@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvqh-cqpj-5537",
-  "modified": "2025-02-06T12:31:58Z",
+  "modified": "2025-02-06T21:32:09Z",
   "published": "2025-02-05T12:33:07Z",
   "aliases": [
     "CVE-2025-0725"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/02/06/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/02/06/4"
     }
   ],
   "database_specific": {

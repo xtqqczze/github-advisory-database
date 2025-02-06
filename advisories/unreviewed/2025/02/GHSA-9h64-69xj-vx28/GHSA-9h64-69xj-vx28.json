@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h64-69xj-vx28",
-  "modified": "2025-02-04T15:31:36Z",
+  "modified": "2025-02-06T21:32:09Z",
   "published": "2025-02-04T15:31:36Z",
   "aliases": [
     "CVE-2025-0510"
   ],
   "details": "Thunderbird displayed an incorrect sender address if the From field of an email used the invalid group name syntax that is described in CVE-2024-49040. This vulnerability affects Thunderbird < 128.7 and Thunderbird < 135.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-345"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-04T14:15:31Z"

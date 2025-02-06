@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxx5-p9c9-297v",
-  "modified": "2024-08-01T15:32:06Z",
+  "modified": "2025-02-06T21:32:09Z",
   "published": "2024-07-22T21:30:40Z",
   "aliases": [
     "CVE-2024-34329"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://www.entrust.com/ja/contact/services/downloads/drivers"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.entrust.com/sites/default/files/documentation/productsupport/entrust-security-bulletin-e24-004.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.entrust.com/support/instant-id-card-issuance-systems/ds3-direct-to-card-printer-support"
     }
   ],
   "database_specific": {
