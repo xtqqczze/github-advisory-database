@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rrqx-xr4w-7wpj",
+  "modified": "2025-02-07T03:32:02Z",
+  "published": "2025-02-07T03:32:02Z",
+  "aliases": [
+    "CVE-2024-53586"
+  ],
+  "details": "An issue in the relPath parameter of WebFileSys version 2.31.0 allows attackers to perform directory traversal via a crafted HTTP request. By injecting traversal payloads into the parameter, attackers can manipulate file paths and gain unauthorized access to sensitive files, potentially exposing data outside the intended directory.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53586"
+    },
+    {
+      "type": "WEB",
+      "url": "https://packetstorm.news/files/id/189017"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-06T22:15:38Z"
+  }
+}

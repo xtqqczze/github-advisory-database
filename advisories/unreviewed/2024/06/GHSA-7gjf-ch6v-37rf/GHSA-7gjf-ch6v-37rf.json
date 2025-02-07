@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7gjf-ch6v-37rf",
-  "modified": "2024-08-01T15:31:51Z",
+  "modified": "2025-02-07T03:32:00Z",
   "published": "2024-06-25T00:34:45Z",
   "aliases": [
     "CVE-2024-33898"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.axiros.com/2024/03/vulnerability-in-axusermanager"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.nsideattacklogic.de/advisories/NSIDE-SA-2024-002"
     }
   ],
   "database_specific": {

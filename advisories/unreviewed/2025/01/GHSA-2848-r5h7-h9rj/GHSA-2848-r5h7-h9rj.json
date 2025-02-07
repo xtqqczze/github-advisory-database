@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2848-r5h7-h9rj",
-  "modified": "2025-01-23T18:31:19Z",
+  "modified": "2025-02-07T03:32:01Z",
   "published": "2025-01-23T18:31:19Z",
   "aliases": [
     "CVE-2024-55971"
   ],
   "details": "SQL Injection vulnerability in the default configuration of the Logitime WebClock application <= 5.43.0 allows an unauthenticated user to run arbitrary code on the backend database server.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-23T16:15:36Z"

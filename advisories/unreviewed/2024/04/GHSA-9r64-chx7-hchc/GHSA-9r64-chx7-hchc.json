@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r64-chx7-hchc",
-  "modified": "2024-04-12T15:37:20Z",
+  "modified": "2025-02-07T03:31:57Z",
   "published": "2024-04-12T15:37:20Z",
   "aliases": [
     "CVE-2024-31293"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Easy Digital Downloads.This issue affects Easy Digital Downloads: from n/a through 3.2.6.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Easy Digital Downloads.This issue affects Easy Digital Downloads: from n/a through 3.2.6.",
   "severity": [
     {
       "type": "CVSS_V3",
