@@ -114,7 +114,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-284"
+      "CWE-284",
+      "CWE-552"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
