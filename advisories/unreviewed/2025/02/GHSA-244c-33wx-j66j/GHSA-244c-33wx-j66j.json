@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-244c-33wx-j66j",
-  "modified": "2025-02-07T15:32:38Z",
+  "modified": "2025-02-07T18:31:21Z",
   "published": "2025-02-07T15:32:38Z",
   "aliases": [
     "CVE-2025-1103"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1103"
+    },
+    {
+      "type": "WEB",
+      "url": "https://tasty-foxtrot-3a8.notion.site/D-link-DIR-823X-set_wifi_blacklists-Vulnerability-1870448e619580e5bf09cf628692f7a9"
     },
     {
       "type": "WEB",

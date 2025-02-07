@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98fg-qw7m-42fj",
-  "modified": "2024-03-26T15:30:50Z",
+  "modified": "2025-02-07T18:31:11Z",
   "published": "2024-03-26T15:30:50Z",
   "aliases": [
     "CVE-2024-30235"
   ],
-  "details": "Missing Authorization vulnerability in Themeisle Multiple Page Generator Plugin – MPG.This issue affects Multiple Page Generator Plugin – MPG: from n/a through 3.4.0.\n\n",
+  "details": "Missing Authorization vulnerability in Themeisle Multiple Page Generator Plugin – MPG.This issue affects Multiple Page Generator Plugin – MPG: from n/a through 3.4.0.",
   "severity": [
     {
       "type": "CVSS_V3",

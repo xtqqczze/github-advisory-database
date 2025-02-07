@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9p5w-7f45-v3jm",
-  "modified": "2024-04-02T15:30:37Z",
+  "modified": "2025-02-07T18:31:12Z",
   "published": "2024-04-02T15:30:37Z",
   "aliases": [
     "CVE-2024-2389"
   ],
-  "details": "In Flowmon versions prior to 11.1.14 and 12.3.5, an operating system command injection vulnerability has been identified.  An unauthenticated user can gain entry to the system via the Flowmon management interface, allowing for the execution of arbitrary system commands.\n\n",
+  "details": "In Flowmon versions prior to 11.1.14 and 12.3.5, an operating system command injection vulnerability has been identified.  An unauthenticated user can gain entry to the system via the Flowmon management interface, allowing for the execution of arbitrary system commands.",
   "severity": [
     {
       "type": "CVSS_V3",

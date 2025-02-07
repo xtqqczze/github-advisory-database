@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w38-pjgp-4rf7",
-  "modified": "2024-03-19T15:30:34Z",
+  "modified": "2025-02-07T18:31:11Z",
   "published": "2024-03-19T15:30:34Z",
   "aliases": [
     "CVE-2024-29115"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Zaytech Smart Online Order for Clover allows Stored XSS.This issue affects Smart Online Order for Clover: from n/a through 1.5.5.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Zaytech Smart Online Order for Clover allows Stored XSS.This issue affects Smart Online Order for Clover: from n/a through 1.5.5.",
   "severity": [
     {
       "type": "CVSS_V3",

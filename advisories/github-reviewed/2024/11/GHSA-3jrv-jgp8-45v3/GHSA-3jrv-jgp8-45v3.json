@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jrv-jgp8-45v3",
-  "modified": "2024-11-18T20:08:31Z",
+  "modified": "2025-02-07T18:31:17Z",
   "published": "2024-11-17T12:30:29Z",
   "aliases": [
     "CVE-2023-4639"
@@ -102,6 +102,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/undertow-io/undertow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250207-0001"
     }
   ],
   "database_specific": {

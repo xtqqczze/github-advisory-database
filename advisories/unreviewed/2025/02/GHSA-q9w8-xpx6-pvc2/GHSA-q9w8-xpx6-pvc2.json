@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q9w8-xpx6-pvc2",
+  "modified": "2025-02-07T18:31:21Z",
+  "published": "2025-02-07T18:31:21Z",
+  "aliases": [
+    "CVE-2024-52883"
+  ],
+  "details": "An issue was discovered in AudioCodes One Voice Operations Center (OVOC) before 8.4.582. Due to a path traversal vulnerability, sensitive data can be read without any authentication.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52883"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.audiocodes.com/solutions-products/products/management-products-solutions/one-voice-operations-center"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-075.txt"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-07T16:15:36Z"
+  }
+}

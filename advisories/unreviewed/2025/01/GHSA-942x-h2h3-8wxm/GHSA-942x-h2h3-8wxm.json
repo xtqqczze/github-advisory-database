@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-942x-h2h3-8wxm",
-  "modified": "2025-01-31T21:32:46Z",
+  "modified": "2025-02-07T18:31:17Z",
   "published": "2025-01-30T06:30:49Z",
   "aliases": [
     "CVE-2025-0662"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.freebsd.org/advisories/FreeBSD-SA-25:04.ktrace.asc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250207-0006"
     }
   ],
   "database_specific": {

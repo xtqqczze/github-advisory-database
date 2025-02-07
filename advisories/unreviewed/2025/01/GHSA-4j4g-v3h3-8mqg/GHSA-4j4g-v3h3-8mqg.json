@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j4g-v3h3-8mqg",
-  "modified": "2025-02-05T18:34:40Z",
+  "modified": "2025-02-07T18:31:17Z",
   "published": "2025-01-30T06:30:49Z",
   "aliases": [
     "CVE-2025-0373"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.freebsd.org/advisories/FreeBSD-SA-25:02.fs.asc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250207-0009"
     }
   ],
   "database_specific": {

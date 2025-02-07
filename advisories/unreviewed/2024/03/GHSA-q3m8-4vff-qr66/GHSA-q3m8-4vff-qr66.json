@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3m8-4vff-qr66",
-  "modified": "2024-03-29T15:30:32Z",
+  "modified": "2025-02-07T18:31:11Z",
   "published": "2024-03-29T15:30:32Z",
   "aliases": [
     "CVE-2024-30498"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in CRM Perks CRM Perks Forms.This issue affects CRM Perks Forms: from n/a through 1.1.4.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in CRM Perks CRM Perks Forms.This issue affects CRM Perks Forms: from n/a through 1.1.4.",
   "severity": [
     {
       "type": "CVSS_V3",

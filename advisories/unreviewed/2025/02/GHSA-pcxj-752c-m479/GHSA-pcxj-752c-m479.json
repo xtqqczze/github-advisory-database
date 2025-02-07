@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pcxj-752c-m479",
+  "modified": "2025-02-07T18:31:22Z",
+  "published": "2025-02-07T18:31:22Z",
+  "aliases": [
+    "CVE-2024-57248"
+  ],
+  "details": "Directory Traversal in File Upload in Gleamtech FileVista 9.2.0.0 allows remote attackers to achieve Code Execution, Information Disclosure, and Escalation of Privileges via injecting malicious payloads in HTTP requests to manipulate file paths, bypass access controls, and upload malicious files.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57248"
+    },
+    {
+      "type": "WEB",
+      "url": "https://packetstorm.news/files/id/189021"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gleamtech.com/filevista"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-07T16:15:38Z"
+  }
+}

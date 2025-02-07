@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4vh-vmfc-jcrf",
-  "modified": "2024-04-02T21:30:27Z",
+  "modified": "2025-02-07T18:31:13Z",
   "published": "2024-04-02T21:30:27Z",
   "aliases": [
     "CVE-2024-24888"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in Kadence WP Gutenberg Blocks by Kadence Blocks.This issue affects Gutenberg Blocks by Kadence Blocks: from n/a through 3.2.25.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in Kadence WP Gutenberg Blocks by Kadence Blocks.This issue affects Gutenberg Blocks by Kadence Blocks: from n/a through 3.2.25.",
   "severity": [
     {
       "type": "CVSS_V3",
