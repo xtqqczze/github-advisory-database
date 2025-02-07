@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqr3-vrrg-f3jh",
-  "modified": "2025-02-07T03:32:01Z",
+  "modified": "2025-02-07T20:41:37Z",
   "published": "2025-01-24T21:31:27Z",
   "aliases": [
     "CVE-2024-57041"
   ],
+  "summary": "NodeBB Cross-site scripting (XSS) vulnerability",
   "details": "A persistent cross-site scripting (XSS) vulnerability in NodeBB v3.11.0 allows remote attackers to store arbitrary code in the 'about me' section of their profile.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "nodebb"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.11.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,12 +45,12 @@
       "url": "https://github.com/NodeBB/NodeBB/commit/4e69bff72fd04779064d37e46a43080e6c328adf"
     },
     {
-      "type": "WEB",
-      "url": "https://www.tonysec.com/posts/cve-2024-57041"
+      "type": "PACKAGE",
+      "url": "https://github.com/NodeBB/NodeBB"
     },
     {
       "type": "WEB",
-      "url": "http://nodebb.com"
+      "url": "https://www.tonysec.com/posts/cve-2024-57041"
     }
   ],
   "database_specific": {
@@ -37,8 +58,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-02-07T20:41:37Z",
     "nvd_published_at": "2025-01-24T20:15:33Z"
   }
 }
