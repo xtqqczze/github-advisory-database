@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxrx-q234-m22m",
-  "modified": "2024-12-12T19:19:40Z",
+  "modified": "2025-02-07T06:31:13Z",
   "published": "2024-12-12T09:31:35Z",
   "aliases": [
     "CVE-2024-12397"
@@ -47,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/quarkusio/quarkus-http/commit/cfc99d80fce2e3a3dbf06972e648e79e925a7ae7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:0900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:1082"
     },
     {
       "type": "WEB",
