@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgfx-7p65-3ff4",
-  "modified": "2025-02-04T18:39:25Z",
+  "modified": "2025-02-07T17:36:28Z",
   "published": "2025-02-04T12:30:59Z",
   "aliases": [
     "CVE-2024-27137"
   ],
   "summary": "Apache Cassandra: unrestricted deserialization of JMX authentication credentials",
-  "details": "In Apache Cassandra it is possible for a local attacker without access  to the Apache Cassandra process or configuration files to manipulate the RMI registry to perform a man-in-the-middle attack and capture user names and passwords used to access the JMX interface. The attacker can then use these credentials to access the JMX interface and perform unauthorized operations.\n\nThis is same vulnerability that CVE-2020-13946 was issued for, but the Java option was changed in JDK10.\n\nThis issue affects Apache Cassandra from 4.0.2 through 5.0.2 running Java 11.\n\nOperators are recommended to upgrade to a release equal to or later than 4.0.15, 4.1.8, or 5.0.3 which fixes the issue.",
+  "details": "In Apache Cassandra it is possible for a local attacker without access to the Apache Cassandra process or configuration files to manipulate the RMI registry to perform a man-in-the-middle attack and capture user names and passwords used to access the JMX interface. The attacker can then use these credentials to access the JMX interface and perform unauthorized operations.\n\nThis is same vulnerability that CVE-2020-13946 was issued for, but the Java option was changed in JDK10.\n\nThis issue affects Apache Cassandra from 4.0.2 through 5.0.2 running Java 11.\n\nOperators are recommended to upgrade to a release equal to or later than 4.0.15, 4.1.8, or 5.0.3 which fixes the issue.",
   "severity": [
     {
       "type": "CVSS_V3",
