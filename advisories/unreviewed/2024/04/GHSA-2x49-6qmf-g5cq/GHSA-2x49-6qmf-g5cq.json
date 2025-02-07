@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x49-6qmf-g5cq",
-  "modified": "2024-04-09T15:30:36Z",
+  "modified": "2025-02-07T21:30:51Z",
   "published": "2024-04-09T15:30:36Z",
   "aliases": [
     "CVE-2024-2224"
   ],
-  "details": "Improper Limitation of a Pathname to a Restricted Directory (‘Path Traversal’) vulnerability in the UpdateServer component of Bitdefender GravityZone allows an attacker to execute arbitrary code on vulnerable instances. This issue affects the following products that include the vulnerable component: \n\nBitdefender Endpoint Security for Linux version 7.0.5.200089\nBitdefender Endpoint Security for  Windows version 7.9.9.380\nGravityZone Control Center (On Premises) version 6.36.1\n",
+  "details": "Improper Limitation of a Pathname to a Restricted Directory (‘Path Traversal’) vulnerability in the UpdateServer component of Bitdefender GravityZone allows an attacker to execute arbitrary code on vulnerable instances. This issue affects the following products that include the vulnerable component: \n\nBitdefender Endpoint Security for Linux version 7.0.5.200089\nBitdefender Endpoint Security for  Windows version 7.9.9.380\nGravityZone Control Center (On Premises) version 6.36.1",
   "severity": [
     {
       "type": "CVSS_V3",

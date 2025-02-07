@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8qw-xx6m-cr9m",
-  "modified": "2024-02-21T09:31:01Z",
+  "modified": "2025-02-07T21:30:50Z",
   "published": "2024-02-21T09:31:01Z",
   "aliases": [
     "CVE-2024-24872"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Themify Themify Builder.This issue affects Themify Builder: from n/a through 7.0.5.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Themify Themify Builder.This issue affects Themify Builder: from n/a through 7.0.5.",
   "severity": [
     {
       "type": "CVSS_V3",

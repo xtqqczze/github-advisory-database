@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc5c-g544-fmfp",
-  "modified": "2024-07-11T00:32:50Z",
+  "modified": "2025-02-07T21:30:56Z",
   "published": "2024-07-11T00:32:50Z",
   "aliases": [
     "CVE-2024-39517"
