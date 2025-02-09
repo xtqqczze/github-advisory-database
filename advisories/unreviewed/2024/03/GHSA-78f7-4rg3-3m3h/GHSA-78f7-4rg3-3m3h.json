@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78f7-4rg3-3m3h",
-  "modified": "2024-03-15T15:30:44Z",
+  "modified": "2025-02-09T21:30:48Z",
   "published": "2024-03-15T15:30:44Z",
   "aliases": [
     "CVE-2023-51522"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Cozmoslabs Paid Member Subscriptions.This issue affects Paid Member Subscriptions: from n/a through 2.10.4.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Cozmoslabs Paid Member Subscriptions.This issue affects Paid Member Subscriptions: from n/a through 2.10.4.",
   "severity": [
     {
       "type": "CVSS_V3",

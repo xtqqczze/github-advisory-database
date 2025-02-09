@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhc2-rv3c-8qpj",
-  "modified": "2024-04-19T12:31:17Z",
+  "modified": "2025-02-09T21:30:48Z",
   "published": "2024-04-19T12:31:17Z",
   "aliases": [
     "CVE-2024-32683"
   ],
-  "details": "Authorization Bypass Through User-Controlled Key vulnerability in Wpmet Wp Ultimate Review.This issue affects Wp Ultimate Review: from n/a through 2.2.5.\n\n",
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in Wpmet Wp Ultimate Review.This issue affects Wp Ultimate Review: from n/a through 2.2.5.",
   "severity": [
     {
       "type": "CVSS_V3",
