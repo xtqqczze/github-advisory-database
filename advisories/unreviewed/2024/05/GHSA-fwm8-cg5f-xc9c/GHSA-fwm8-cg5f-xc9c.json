@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwm8-cg5f-xc9c",
-  "modified": "2024-05-02T15:30:35Z",
+  "modified": "2025-02-10T15:32:09Z",
   "published": "2024-05-02T15:30:35Z",
   "aliases": [
     "CVE-2024-3543"
   ],
-  "details": "\nUse of reversible password encryption algorithm allows attackers to decrypt passwords.  Sensitive information can be easily unencrypted by the attacker, stolen credentials can be used for arbitrary actions to corrupt the system.\n\n",
+  "details": "Use of reversible password encryption algorithm allows attackers to decrypt passwords.  Sensitive information can be easily unencrypted by the attacker, stolen credentials can be used for arbitrary actions to corrupt the system.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-257"
+      "CWE-257",
+      "CWE-522"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
