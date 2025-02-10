@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f792-xp3g-685x",
-  "modified": "2024-04-17T21:30:49Z",
+  "modified": "2025-02-10T21:31:29Z",
   "published": "2024-04-17T21:30:49Z",
   "aliases": [
     "CVE-2024-21990"
   ],
-  "details": "ONTAP Select Deploy administration utility versions 9.12.1.x, \n9.13.1.x and 9.14.1.x contain hard-coded credentials that could allow an\n attacker to view Deploy configuration information and modify the \naccount credentials.\n\n\n\n\n",
+  "details": "ONTAP Select Deploy administration utility versions 9.12.1.x, \n9.13.1.x and 9.14.1.x contain hard-coded credentials that could allow an\n attacker to view Deploy configuration information and modify the \naccount credentials.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-259"
+      "CWE-259",
+      "CWE-798"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

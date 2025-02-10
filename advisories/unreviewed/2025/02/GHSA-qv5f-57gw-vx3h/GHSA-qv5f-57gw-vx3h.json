@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qv5f-57gw-vx3h",
+  "modified": "2025-02-10T21:31:37Z",
+  "published": "2025-02-10T21:31:37Z",
+  "aliases": [
+    "CVE-2024-42512"
+  ],
+  "details": "Vulnerability in the OPC UA .NET Standard Stack before 1.5.374.158 allows an unauthorized attacker to bypass application authentication when the deprecated Basic128Rsa15 security policy is enabled.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42512"
+    },
+    {
+      "type": "WEB",
+      "url": "https://files.opcfoundation.org/SecurityBulletins/OPC%20Foundation%20Security%20Bulletin%20CVE-2024-42512.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-639"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-10T19:15:37Z"
+  }
+}

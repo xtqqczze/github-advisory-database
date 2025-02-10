@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6237-xhjp-qj5r",
-  "modified": "2024-03-27T06:30:32Z",
+  "modified": "2025-02-10T21:31:27Z",
   "published": "2024-03-27T06:30:32Z",
   "aliases": [
     "CVE-2024-22288"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WebToffee WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels allows Reflected XSS.This issue affects WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels: from n/a through 4.4.0.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WebToffee WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels allows Reflected XSS.This issue affects WooCommerce PDF Invoices, Packing Slips, Delivery Notes and Shipping Labels: from n/a through 4.4.0.",
   "severity": [
     {
       "type": "CVSS_V3",
