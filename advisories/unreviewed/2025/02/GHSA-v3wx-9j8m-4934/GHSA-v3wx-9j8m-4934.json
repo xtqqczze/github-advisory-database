@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3wx-9j8m-4934",
-  "modified": "2025-02-10T15:32:22Z",
+  "modified": "2025-02-10T18:30:46Z",
   "published": "2025-02-10T15:32:22Z",
   "aliases": [
     "CVE-2025-1193"
   ],
   "details": "Improper host validation in the certificate validation component in Devolutions Remote Desktop Manager on 2024.3.19 and earlier on Windows allows an attacker to intercept and modify encrypted communications via a man-in-the-middle attack \nby presenting a certificate for a different host.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-295"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-10T14:15:30Z"

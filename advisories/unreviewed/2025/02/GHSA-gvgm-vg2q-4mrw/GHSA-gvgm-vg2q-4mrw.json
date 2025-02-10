@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvgm-vg2q-4mrw",
-  "modified": "2025-02-10T15:32:21Z",
+  "modified": "2025-02-10T18:30:46Z",
   "published": "2025-02-10T15:32:21Z",
   "aliases": [
     "CVE-2024-11621"
   ],
   "details": "Missing certificate validation in Devolutions Remote Desktop Manager on macOS, iOS, Android, Linux allows an attacker to intercept and modify encrypted communications via a man-in-the-middle attack.\n\nVersions affected are :\nRemote Desktop Manager macOS 2024.3.9.0 and earlier\nRemote Desktop Manager Linux 2024.3.2.5 and earlier\nRemote Desktop Manager Android  2024.3.3.7 and earlier\nRemote Desktop Manager iOS 2024.3.3.0 and earlier\n\nRemote Desktop Manager Powershell 2024.3.6.0 and earlier",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-295"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-10T14:15:29Z"

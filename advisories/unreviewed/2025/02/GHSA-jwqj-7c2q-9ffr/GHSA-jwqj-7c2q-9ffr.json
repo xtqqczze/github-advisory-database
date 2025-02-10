@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jwqj-7c2q-9ffr",
+  "modified": "2025-02-10T18:30:47Z",
+  "published": "2025-02-10T18:30:47Z",
+  "aliases": [
+    "CVE-2024-57407"
+  ],
+  "details": "An arbitrary file upload vulnerability in the component /userPicture of Timo v2.0.3 allows attackers to execute arbitrary code via uploading a crafted file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57407"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/kaoniniang2/71f6a39535490ea2eeac371f33faec9c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/aun/Timo/issues/IBBTZI"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-10T18:15:33Z"
+  }
+}

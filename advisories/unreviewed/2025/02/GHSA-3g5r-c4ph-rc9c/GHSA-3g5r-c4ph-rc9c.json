@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3g5r-c4ph-rc9c",
+  "modified": "2025-02-10T18:30:47Z",
+  "published": "2025-02-10T18:30:47Z",
+  "aliases": [
+    "CVE-2024-57409"
+  ],
+  "details": "A stored cross-site scripting (XSS) vulnerability in the Parameter List module of cool-admin-java v1.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the internet pictures field.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57409"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/kaoniniang2/05c2d0acdf8002b7121edff93d5230d6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cool-team-official/cool-admin-java"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kaoniniang2/exploit/blob/main/Cool-admin-xss.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-10T18:15:33Z"
+  }
+}

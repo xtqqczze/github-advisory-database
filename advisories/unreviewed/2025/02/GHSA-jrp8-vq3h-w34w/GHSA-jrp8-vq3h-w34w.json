@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrp8-vq3h-w34w",
-  "modified": "2025-02-07T18:31:21Z",
+  "modified": "2025-02-10T18:30:46Z",
   "published": "2025-02-07T18:31:21Z",
   "aliases": [
     "CVE-2024-55213"
   ],
   "details": "Directory Traversal vulnerability in dhtmlxFileExplorer v.8.4.6 allows a remote attacker to obtain sensitive information via the File Listing function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-552"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-07T16:15:37Z"
