@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2r9m-wg35-rfvc",
-  "modified": "2024-11-07T18:21:18Z",
+  "modified": "2025-02-11T00:36:37Z",
   "published": "2024-11-07T15:31:52Z",
   "aliases": [
     "CVE-2024-43428"
@@ -120,6 +120,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-345",
       "CWE-74"
     ],
     "severity": "MODERATE",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjmm-r9gg-425m",
-  "modified": "2024-11-07T18:19:24Z",
+  "modified": "2025-02-11T00:36:35Z",
   "published": "2024-11-07T15:31:52Z",
   "aliases": [
     "CVE-2024-43426"
@@ -119,7 +119,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-1287"
+    ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-11-07T18:19:24Z",
