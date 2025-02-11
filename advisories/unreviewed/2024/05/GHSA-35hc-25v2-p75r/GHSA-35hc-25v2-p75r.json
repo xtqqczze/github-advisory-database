@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35hc-25v2-p75r",
-  "modified": "2024-05-20T21:31:09Z",
+  "modified": "2025-02-11T00:31:36Z",
   "published": "2024-05-20T21:31:09Z",
   "aliases": [
     "CVE-2024-29000"
   ],
-  "details": "The SolarWinds Platform was determined to be affected by a reflected cross-site scripting vulnerability affecting the web console. A high-privileged user and user interaction is required to exploit this vulnerability.  ",
+  "details": "The SolarWinds Platform was determined to be affected by a reflected cross-site scripting vulnerability affecting the web console. A high-privileged user and user interaction is required to exploit this vulnerability.",
   "severity": [
     {
       "type": "CVSS_V3",

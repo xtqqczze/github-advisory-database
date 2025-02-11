@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rw57-2hfm-7g6c",
-  "modified": "2024-10-09T18:31:42Z",
+  "modified": "2025-02-11T00:31:42Z",
   "published": "2024-10-09T18:31:42Z",
   "aliases": [
     "CVE-2024-42988"
   ],
   "details": "Lack of access control in ChallengeSolves (/api/v1/challenges/<challenge id>/solves) of CTFd v2.0.0 - v3.7.2 allows authenticated users to retrieve a list of users who have solved the challenge, regardless of the Account Visibility settings. The issue is fixed in v3.7.3+.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-09T17:15:16Z"

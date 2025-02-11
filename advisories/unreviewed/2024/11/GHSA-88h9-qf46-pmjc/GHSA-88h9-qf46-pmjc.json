@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88h9-qf46-pmjc",
-  "modified": "2024-11-26T12:41:37Z",
+  "modified": "2025-02-11T00:31:43Z",
   "published": "2024-11-26T12:41:37Z",
   "aliases": [
     "CVE-2024-38830"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-269"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
