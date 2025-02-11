@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh9q-p39g-xcv7",
-  "modified": "2024-03-15T15:30:44Z",
+  "modified": "2025-02-11T21:32:01Z",
   "published": "2024-03-15T15:30:44Z",
   "aliases": [
     "CVE-2023-51369"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in SysBasics Customize My Account for WooCommerce.This issue affects Customize My Account for WooCommerce: from n/a through 1.8.3.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in SysBasics Customize My Account for WooCommerce.This issue affects Customize My Account for WooCommerce: from n/a through 1.8.3.",
   "severity": [
     {
       "type": "CVSS_V3",

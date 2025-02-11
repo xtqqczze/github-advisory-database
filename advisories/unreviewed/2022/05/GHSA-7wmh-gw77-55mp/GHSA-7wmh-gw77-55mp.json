@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wmh-gw77-55mp",
-  "modified": "2022-05-13T01:16:05Z",
+  "modified": "2025-02-11T21:32:00Z",
   "published": "2022-05-13T01:16:05Z",
   "aliases": [
     "CVE-2018-19873"

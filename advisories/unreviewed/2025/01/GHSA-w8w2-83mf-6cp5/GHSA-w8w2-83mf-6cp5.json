@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8w2-83mf-6cp5",
-  "modified": "2025-02-07T18:31:17Z",
+  "modified": "2025-02-11T21:32:05Z",
   "published": "2025-01-30T00:31:03Z",
   "aliases": [
     "CVE-2024-11187"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.isc.org/docs/cve-2024-11187"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00011.html"
     },
     {
       "type": "WEB",

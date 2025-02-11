@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-63vc-3rx9-frx5",
-  "modified": "2024-04-15T12:30:35Z",
+  "modified": "2025-02-11T21:32:01Z",
   "published": "2024-04-15T12:30:35Z",
   "aliases": [
     "CVE-2024-31378"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in MailMunch MailChimp Forms by MailMunch.This issue affects MailChimp Forms by MailMunch: from n/a through 3.2.1.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in MailMunch MailChimp Forms by MailMunch.This issue affects MailChimp Forms by MailMunch: from n/a through 3.2.1.",
   "severity": [
     {
       "type": "CVSS_V3",
