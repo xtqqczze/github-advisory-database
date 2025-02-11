@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qw8-ppr5-m96c",
-  "modified": "2024-10-31T15:01:08Z",
+  "modified": "2025-02-11T19:01:31Z",
   "published": "2024-10-31T12:30:32Z",
   "aliases": [
     "CVE-2024-43383"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/wlz1p76dxpt4rl9o29voxjd5zl7717nh"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/10/31/2"
     }
   ],
   "database_specific": {
