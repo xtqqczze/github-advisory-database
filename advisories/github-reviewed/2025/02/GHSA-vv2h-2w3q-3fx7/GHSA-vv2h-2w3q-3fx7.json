@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv2h-2w3q-3fx7",
-  "modified": "2025-02-11T18:03:09Z",
+  "modified": "2025-02-11T21:41:47Z",
   "published": "2025-02-11T15:32:24Z",
   "aliases": [
     "CVE-2024-12366"
   ],
   "summary": "PandasAI interactive prompt function Remote Code Execution (RCE)",
   "details": "PandasAI uses an interactive prompt function that is vulnerable to prompt injection and run arbitrary Python code that can lead to Remote Code Execution (RCE) instead of the intended explanation of the natural language processing by the LLM. The security controls of PandasAI (2.4.3 and earlier) fail to distinguish between legitimate and malicious inputs, allowing the attackers to manipulate the system into executing untrusted code, leading to untrusted code execution (RCE), system compromise, or pivoting attacks on connected services.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -56,7 +61,7 @@
     "cwe_ids": [
       "CWE-94"
     ],
-    "severity": "HIGH",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-02-11T18:03:09Z",
     "nvd_published_at": "2025-02-11T13:15:29Z"

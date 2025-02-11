@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79v4-65xg-pq4g",
-  "modified": "2025-02-11T19:06:23Z",
+  "modified": "2025-02-11T21:41:35Z",
   "published": "2025-02-11T18:06:42Z",
   "aliases": [
     "CVE-2024-12797"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://openssl-library.org/news/secadv/20250211.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/02/11/3"
     }
   ],
   "database_specific": {
