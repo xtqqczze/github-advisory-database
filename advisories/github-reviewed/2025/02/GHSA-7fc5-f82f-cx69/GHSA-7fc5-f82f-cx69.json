@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fc5-f82f-cx69",
-  "modified": "2025-02-11T17:28:34Z",
+  "modified": "2025-02-11T21:39:41Z",
   "published": "2025-02-10T17:42:43Z",
   "aliases": [
     "CVE-2025-25186"
@@ -97,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ruby/net-imap"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/net-imap/CVE-2025-25186.yml"
     },
     {
       "type": "WEB",
