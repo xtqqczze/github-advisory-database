@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57m2-h3fw-rxhw",
-  "modified": "2025-02-06T19:02:30Z",
+  "modified": "2025-02-11T19:04:24Z",
   "published": "2025-02-06T12:31:58Z",
   "aliases": [
     "CVE-2024-45626"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
   "affected": [
@@ -88,7 +88,7 @@
     "cwe_ids": [
       "CWE-400"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-02-06T19:02:30Z",
     "nvd_published_at": "2025-02-06T12:15:27Z"
