@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m24w-wg7m-x27h",
-  "modified": "2024-02-27T18:31:01Z",
+  "modified": "2025-02-11T18:31:11Z",
   "published": "2024-02-27T18:31:01Z",
   "aliases": [
     "CVE-2024-1403"
   ],
-  "details": "In OpenEdge Authentication Gateway and AdminServer prior to 11.7.19, 12.2.14, 12.8.1 on all platforms supported by the OpenEdge product, an authentication bypass vulnerability has been identified.  The\nvulnerability is a bypass to authentication based on a failure to properly\nhandle username and password.  Certain unexpected\ncontent passed into the credentials can lead to unauthorized access without proper\nauthentication.    \n\n\n\n\n\n\n",
+  "details": "In OpenEdge Authentication Gateway and AdminServer prior to 11.7.19, 12.2.14, 12.8.1 on all platforms supported by the OpenEdge product, an authentication bypass vulnerability has been identified.  The\nvulnerability is a bypass to authentication based on a failure to properly\nhandle username and password.  Certain unexpected\ncontent passed into the credentials can lead to unauthorized access without proper\nauthentication.   ",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cxc-vjp6-ff53",
-  "modified": "2024-03-27T12:30:41Z",
+  "modified": "2025-02-11T18:31:12Z",
   "published": "2024-03-27T12:30:41Z",
   "aliases": [
     "CVE-2024-29931"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WP Go Maps (formerly WP Google Maps) WP Google Maps allows Reflected XSS.This issue affects WP Google Maps: from n/a through 9.0.29.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WP Go Maps (formerly WP Google Maps) WP Google Maps allows Reflected XSS.This issue affects WP Google Maps: from n/a through 9.0.29.",
   "severity": [
     {
       "type": "CVSS_V3",

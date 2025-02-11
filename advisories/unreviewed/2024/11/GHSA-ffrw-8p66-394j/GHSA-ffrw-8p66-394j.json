@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffrw-8p66-394j",
-  "modified": "2024-11-19T18:30:58Z",
+  "modified": "2025-02-11T18:31:20Z",
   "published": "2024-11-18T09:31:14Z",
   "aliases": [
     "CVE-2024-48962"
@@ -38,11 +38,16 @@
     {
       "type": "WEB",
       "url": "https://ofbiz.apache.org/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/16/2"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1336"
+      "CWE-1336",
+      "CWE-94"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
