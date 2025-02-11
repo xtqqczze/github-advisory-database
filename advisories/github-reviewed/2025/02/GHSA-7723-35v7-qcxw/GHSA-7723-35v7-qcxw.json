@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7723-35v7-qcxw",
-  "modified": "2025-02-10T21:53:56Z",
+  "modified": "2025-02-11T00:33:48Z",
   "published": "2025-02-10T20:25:37Z",
   "aliases": [
     "CVE-2025-25194"
@@ -41,6 +41,10 @@
       "url": "https://github.com/LemmyNet/lemmy/security/advisories/GHSA-7723-35v7-qcxw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25194"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/LemmyNet/activitypub-federation-rust"
     }
@@ -52,6 +56,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-02-10T20:25:37Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-02-10T23:15:16Z"
   }
 }
