@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc63-6853-v5m2",
-  "modified": "2024-11-12T15:30:43Z",
+  "modified": "2025-02-11T12:30:53Z",
   "published": "2024-11-12T15:30:43Z",
   "aliases": [
     "CVE-2024-50561"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-354112.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-769027.html"
     }
   ],
   "database_specific": {

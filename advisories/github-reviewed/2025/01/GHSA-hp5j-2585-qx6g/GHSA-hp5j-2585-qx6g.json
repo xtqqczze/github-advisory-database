@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp5j-2585-qx6g",
-  "modified": "2025-01-28T19:15:28Z",
+  "modified": "2025-02-11T12:30:53Z",
   "published": "2025-01-28T12:31:07Z",
   "aliases": [
     "CVE-2025-0750"
@@ -39,6 +39,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0750"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:1122"
     },
     {
       "type": "WEB",

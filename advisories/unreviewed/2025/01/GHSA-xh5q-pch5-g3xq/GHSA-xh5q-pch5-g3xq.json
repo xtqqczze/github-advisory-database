@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh5q-pch5-g3xq",
-  "modified": "2025-02-03T21:31:48Z",
+  "modified": "2025-02-11T12:30:53Z",
   "published": "2025-01-14T18:32:00Z",
   "aliases": [
     "CVE-2024-12085"
@@ -62,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:0885"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:1120"
     },
     {
       "type": "WEB",
