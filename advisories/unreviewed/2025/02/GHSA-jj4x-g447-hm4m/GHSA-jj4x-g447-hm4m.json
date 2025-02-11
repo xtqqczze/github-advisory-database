@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj4x-g447-hm4m",
-  "modified": "2025-02-11T12:30:54Z",
+  "modified": "2025-02-11T15:32:23Z",
   "published": "2025-02-11T12:30:54Z",
   "aliases": [
     "CVE-2025-26410"
   ],
   "details": "The firmware of all Wattsense Bridge devices contain the same hard-coded user and root credentials. The user password can be easily recovered via password cracking attempts. The recovered credentials can be used to log into the device via the login shell that is exposed by the serial interface. The backdoor user has been removed in firmware BSP >= 6.4.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-798"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-11T10:15:09Z"

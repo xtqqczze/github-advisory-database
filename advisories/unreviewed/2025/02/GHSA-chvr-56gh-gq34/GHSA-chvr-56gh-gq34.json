@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chvr-56gh-gq34",
-  "modified": "2025-02-11T12:30:55Z",
+  "modified": "2025-02-11T15:32:24Z",
   "published": "2025-02-11T12:30:55Z",
   "aliases": [
     "CVE-2025-26490"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-246355.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://help.salesforce.com/s/articleView?id=000390611&type=1"
     }
   ],
   "database_specific": {
