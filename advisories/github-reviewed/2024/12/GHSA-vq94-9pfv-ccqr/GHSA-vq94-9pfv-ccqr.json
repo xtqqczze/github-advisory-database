@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq94-9pfv-ccqr",
-  "modified": "2024-12-23T20:56:26Z",
+  "modified": "2025-02-11T19:06:05Z",
   "published": "2024-12-23T18:30:47Z",
   "aliases": [
     "CVE-2024-45387"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
   "affected": [
@@ -61,7 +61,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": "CRITICAL",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-12-23T20:56:26Z",
     "nvd_published_at": "2024-12-23T16:15:06Z"
