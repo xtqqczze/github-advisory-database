@@ -1,10 +1,10 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-h2rf-rp8h-fq2p",
+  "id": "GHSA-cx98-f2vw-wvr8",
   "modified": "2025-02-12T03:31:14Z",
-  "published": "2025-02-12T00:32:17Z",
+  "published": "2025-02-12T03:31:14Z",
   "aliases": [
-    "CVE-2024-0142"
+    "CVE-2024-0143"
   ],
   "details": "NVIDIA nvJPEG2000 library contains a vulnerability where an attacker can cause an out-of-bounds write issue by means of a specially crafted JPEG2000 file. A successful exploit of this vulnerability might lead to code execution and data tampering.",
   "severity": [
@@ -17,7 +17,7 @@
   "references": [
     {
       "type": "ADVISORY",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0142"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0143"
     },
     {
       "type": "WEB",
@@ -25,7 +25,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-2080"
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2024-2095"
     }
   ],
   "database_specific": {
@@ -35,6 +35,6 @@
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
-    "nvd_published_at": "2025-02-12T00:15:08Z"
+    "nvd_published_at": "2025-02-12T01:15:08Z"
   }
 }

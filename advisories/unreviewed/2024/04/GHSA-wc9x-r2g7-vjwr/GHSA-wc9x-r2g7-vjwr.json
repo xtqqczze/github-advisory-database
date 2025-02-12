@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc9x-r2g7-vjwr",
-  "modified": "2024-04-07T18:30:30Z",
+  "modified": "2025-02-12T03:31:14Z",
   "published": "2024-04-07T18:30:30Z",
   "aliases": [
     "CVE-2024-31349"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in MailMunch MailMunch – Grow your Email List allows Stored XSS.This issue affects MailMunch – Grow your Email List: from n/a through 3.1.6.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in MailMunch MailMunch – Grow your Email List allows Stored XSS.This issue affects MailMunch – Grow your Email List: from n/a through 3.1.6.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p535-33vp-92fr",
-  "modified": "2024-02-21T18:31:02Z",
+  "modified": "2025-02-12T03:31:13Z",
   "published": "2024-02-21T18:31:02Z",
   "aliases": [
     "CVE-2024-25898"
   ],
   "details": "A XSS vulnerability was found in the ChurchCRM v.5.5.0 functionality, edit your event, where malicious JS or HTML code can be inserted in the Event Sermon field in EventEditor.php.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-21T18:15:51Z"
