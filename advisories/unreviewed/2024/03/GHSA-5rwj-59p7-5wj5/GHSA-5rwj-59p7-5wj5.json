@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rwj-59p7-5wj5",
-  "modified": "2024-03-21T18:32:03Z",
+  "modified": "2025-02-12T21:31:49Z",
   "published": "2024-03-21T18:32:03Z",
   "aliases": [
     "CVE-2024-27968"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Optimole Super Page Cache for Cloudflare allows Stored XSS.This issue affects Super Page Cache for Cloudflare: from n/a through 4.7.5.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Optimole Super Page Cache for Cloudflare allows Stored XSS.This issue affects Super Page Cache for Cloudflare: from n/a through 4.7.5.",
   "severity": [
     {
       "type": "CVSS_V3",

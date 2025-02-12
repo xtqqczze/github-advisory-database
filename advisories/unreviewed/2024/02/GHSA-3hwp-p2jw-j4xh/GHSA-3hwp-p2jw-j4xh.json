@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hwp-p2jw-j4xh",
-  "modified": "2024-02-20T15:31:06Z",
+  "modified": "2025-02-12T21:31:48Z",
   "published": "2024-02-20T15:31:06Z",
   "aliases": [
     "CVE-2024-1155"
   ],
-  "details": "Incorrect permissions in the installation directories for shared SystemLink Elixir based services may allow an authenticated user to potentially enable escalation of privilege via local access. \n",
+  "details": "Incorrect permissions in the installation directories for shared SystemLink Elixir based services may allow an authenticated user to potentially enable escalation of privilege via local access.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-276"
+      "CWE-276",
+      "CWE-863"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

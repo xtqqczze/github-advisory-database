@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4f3f-g69r-4597",
-  "modified": "2025-02-03T21:31:49Z",
+  "modified": "2025-02-12T21:31:52Z",
   "published": "2025-02-03T21:31:49Z",
   "aliases": [
     "CVE-2024-57238"
   ],
   "details": "Prolink 4G LTE Mobile Wi-Fi DL-7203E V4.0.0B05 is vulnerable to SQL Injection in in the /reqproc/proc_get endpoint. The vulnerability allows an attacker to manipulate SQL queries by injecting malicious SQL code into the order_by parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-03T19:15:13Z"

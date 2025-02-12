@@ -1,18 +1,27 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v96-m8xv-x83v",
-  "modified": "2022-05-24T22:28:12Z",
+  "modified": "2025-02-12T21:31:46Z",
   "published": "2022-05-24T22:28:12Z",
   "aliases": [
     "CVE-2021-26073"
   ],
   "details": "Broken Authentication in Atlassian Connect Express (ACE) from version 3.0.2 before version 6.6.0: Atlassian Connect Express is a Node.js package for building Atlassian Connect apps. Authentication between Atlassian products and the Atlassian Connect Express app occurs with a server-to-server JWT or a context JWT. Atlassian Connect Express versions between 3.0.2 - 6.5.0 erroneously accept context JWTs in lifecycle endpoints (such as installation) where only server-to-server JWTs should be accepted, permitting an attacker to send authenticated re-installation events to an app.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-26073"
+    },
+    {
+      "type": "WEB",
+      "url": "https://community.developer.atlassian.com/t/action-required-atlassian-connect-vulnerability-a%5B%E2%80%A6%5Dypass-of-app-qsh-verification-via-context-jwts/47072"
     },
     {
       "type": "WEB",
