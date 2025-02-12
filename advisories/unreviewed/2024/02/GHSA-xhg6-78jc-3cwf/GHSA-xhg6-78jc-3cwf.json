@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhg6-78jc-3cwf",
-  "modified": "2024-02-21T21:30:24Z",
+  "modified": "2025-02-12T18:31:28Z",
   "published": "2024-02-21T21:30:24Z",
   "aliases": [
     "CVE-2024-22473"
   ],
-  "details": "TRNG is used before initialization by ECDSA signing driver when exiting EM2/EM3 on Virtual Secure Vault (VSE) devices. This defect may allow Signature Spoofing by Key Recreation.This issue affects Gecko SDK through v4.4.0.\n\n",
+  "details": "TRNG is used before initialization by ECDSA signing driver when exiting EM2/EM3 on Virtual Secure Vault (VSE) devices. This defect may allow Signature Spoofing by Key Recreation.This issue affects Gecko SDK through v4.4.0.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -27,7 +27,8 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-1279",
-      "CWE-330"
+      "CWE-330",
+      "CWE-331"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

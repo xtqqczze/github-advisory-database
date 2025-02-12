@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwpg-8775-j56v",
-  "modified": "2024-02-21T00:31:31Z",
+  "modified": "2025-02-12T18:31:27Z",
   "published": "2024-02-21T00:31:31Z",
   "aliases": [
     "CVE-2023-6936"
   ],
-  "details": "In wolfSSL prior to 5.6.6, if callback functions are enabled (via the WOLFSSL_CALLBACKS flag), then a malicious TLS client or network attacker can trigger a buffer over-read on the heap of 5 bytes (WOLFSSL_CALLBACKS is only intended for debugging).\n",
+  "details": "In wolfSSL prior to 5.6.6, if callback functions are enabled (via the WOLFSSL_CALLBACKS flag), then a malicious TLS client or network attacker can trigger a buffer over-read on the heap of 5 bytes (WOLFSSL_CALLBACKS is only intended for debugging).",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-125"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

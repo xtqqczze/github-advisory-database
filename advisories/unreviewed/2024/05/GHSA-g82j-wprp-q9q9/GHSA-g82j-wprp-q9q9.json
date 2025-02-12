@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g82j-wprp-q9q9",
-  "modified": "2024-05-14T18:30:52Z",
+  "modified": "2025-02-12T18:31:28Z",
   "published": "2024-05-14T18:30:52Z",
   "aliases": [
     "CVE-2024-3461"
   ],
-  "details": "KioWare for Windows (versions all through 8.35) allows to brute force the PIN number, which protects the application from being closed, as there are no mechanisms preventing a user from excessively guessing the number.\n",
+  "details": "KioWare for Windows (versions all through 8.35) allows to brute force the PIN number, which protects the application from being closed, as there are no mechanisms preventing a user from excessively guessing the number.",
   "severity": [
     {
       "type": "CVSS_V3",
