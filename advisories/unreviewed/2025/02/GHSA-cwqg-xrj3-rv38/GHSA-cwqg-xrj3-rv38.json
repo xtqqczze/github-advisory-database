@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwqg-xrj3-rv38",
-  "modified": "2025-02-11T09:30:33Z",
+  "modified": "2025-02-12T00:32:16Z",
   "published": "2025-02-11T09:30:33Z",
   "aliases": [
     "CVE-2024-52612"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://documentation.solarwinds.com/en/success_center/orionplatform/content/release_notes/solarwinds_platform_2025-1_release_notes.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2024-52612"
     }
   ],
   "database_specific": {
