@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq2g-wx69-c263",
-  "modified": "2025-02-06T19:01:17Z",
+  "modified": "2025-02-12T15:39:26Z",
   "published": "2025-02-06T06:31:26Z",
   "aliases": [
     "CVE-2024-57699"
@@ -28,7 +28,7 @@
               "introduced": "2.5.0"
             },
             {
-              "last_affected": "2.5.1"
+              "fixed": "2.5.2"
             }
           ]
         }
@@ -42,11 +42,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/netplex/json-smart-v2/issues/232"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/netplex/json-smart-v2/issues/233"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/netplex/json-smart-v2/issues/236"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/TurtleLiu/Vul_PoC/tree/main/CVE-2024-57699"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/netplex/json-smart-v2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/netplex/json-smart-v2/releases/tag/2.5.2"
     },
     {
       "type": "ADVISORY",
