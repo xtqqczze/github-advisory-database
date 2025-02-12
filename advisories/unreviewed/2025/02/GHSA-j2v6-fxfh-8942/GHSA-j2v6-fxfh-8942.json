@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2v6-fxfh-8942",
-  "modified": "2025-02-12T12:30:47Z",
+  "modified": "2025-02-12T15:31:58Z",
   "published": "2025-02-12T12:30:47Z",
   "aliases": [
     "CVE-2024-13473"

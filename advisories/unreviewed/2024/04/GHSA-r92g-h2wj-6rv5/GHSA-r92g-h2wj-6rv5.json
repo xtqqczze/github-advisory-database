@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r92g-h2wj-6rv5",
-  "modified": "2024-04-29T00:30:42Z",
+  "modified": "2025-02-12T15:31:53Z",
   "published": "2024-04-29T00:30:42Z",
   "aliases": [
     "CVE-2024-33891"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://docs.delinea.com/online-help/secret-server/release-notes/ss-rn-11-7-000001.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/straightblast/My-PoC-Exploits/blob/master/CVE-2024-33891.py"
     },
     {
       "type": "WEB",

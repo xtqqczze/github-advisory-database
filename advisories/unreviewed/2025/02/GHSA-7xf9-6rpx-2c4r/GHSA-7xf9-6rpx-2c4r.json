@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xf9-6rpx-2c4r",
-  "modified": "2025-02-12T00:32:16Z",
+  "modified": "2025-02-12T15:31:56Z",
   "published": "2025-02-12T00:32:16Z",
   "aliases": [
     "CVE-2022-3180"
   ],
   "details": "The WPGateway Plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 3.5. This allows unauthenticated attackers to create arbitrary malicious administrator accounts.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-290"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-11T22:15:24Z"
