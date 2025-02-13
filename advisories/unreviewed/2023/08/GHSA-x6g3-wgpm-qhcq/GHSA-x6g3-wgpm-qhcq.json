@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6g3-wgpm-qhcq",
-  "modified": "2024-03-21T03:35:41Z",
+  "modified": "2025-02-13T18:31:51Z",
   "published": "2023-08-31T03:30:36Z",
   "aliases": [
     "CVE-2023-31423"
   ],
-  "details": "Possible\n information exposure through log file vulnerability where sensitive \nfields are recorded in the configuration log without masking on Brocade \nSANnav before v2.3.0 and 2.2.2a. Notes:\n To access the logs, the local attacker must have access to an already collected Brocade SANnav \"supportsave\" \noutputs.\n\n",
+  "details": "Possible\n information exposure through log file vulnerability where sensitive \nfields are recorded in the configuration log without masking on Brocade \nSANnav before v2.3.0 and 2.2.2a. Notes:\n To access the logs, the local attacker must have access to an already collected Brocade SANnav \"supportsave\" \noutputs.",
   "severity": [
     {
       "type": "CVSS_V3",

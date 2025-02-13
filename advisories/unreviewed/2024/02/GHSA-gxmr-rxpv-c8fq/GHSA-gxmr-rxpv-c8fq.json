@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxmr-rxpv-c8fq",
-  "modified": "2024-02-26T18:30:27Z",
+  "modified": "2025-02-13T18:32:11Z",
   "published": "2024-02-01T21:30:31Z",
   "aliases": [
     "CVE-2023-5841"

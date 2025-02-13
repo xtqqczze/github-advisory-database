@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4j4-rmj5-w5gp",
-  "modified": "2024-04-04T06:17:11Z",
+  "modified": "2025-02-13T18:31:40Z",
   "published": "2023-07-19T18:30:56Z",
   "aliases": [
     "CVE-2023-3519"
   ],
-  "details": "Unauthenticated remote code execution\n",
+  "details": "Unauthenticated remote code execution",
   "severity": [
     {
       "type": "CVSS_V3",

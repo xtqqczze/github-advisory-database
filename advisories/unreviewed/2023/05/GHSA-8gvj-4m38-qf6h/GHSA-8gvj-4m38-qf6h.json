@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gvj-4m38-qf6h",
-  "modified": "2024-04-04T04:03:56Z",
+  "modified": "2025-02-13T18:31:34Z",
   "published": "2023-05-12T15:30:22Z",
   "aliases": [
     "CVE-2023-1934"
   ],
-  "details": "\nThe PnPSCADA system, a product of SDG Technologies CC, is afflicted by a critical unauthenticated error-based PostgreSQL Injection vulnerability. Present within the hitlogcsv.jsp endpoint, this security flaw permits unauthenticated attackers to engage with the underlying database seamlessly and passively. Consequently, malicious actors could gain access to vital information, such as Industrial Control System (ICS) and OT data, alongside other sensitive records like SMS and SMS Logs. The unauthorized database access exposes compromised systems to potential manipulation or breach of essential infrastructure data, highlighting the severity of this vulnerability.\n\n",
+  "details": "The PnPSCADA system, a product of SDG Technologies CC, is afflicted by a critical unauthenticated error-based PostgreSQL Injection vulnerability. Present within the hitlogcsv.jsp endpoint, this security flaw permits unauthenticated attackers to engage with the underlying database seamlessly and passively. Consequently, malicious actors could gain access to vital information, such as Industrial Control System (ICS) and OT data, alongside other sensitive records like SMS and SMS Logs. The unauthorized database access exposes compromised systems to potential manipulation or breach of essential infrastructure data, highlighting the severity of this vulnerability.",
   "severity": [
     {
       "type": "CVSS_V3",

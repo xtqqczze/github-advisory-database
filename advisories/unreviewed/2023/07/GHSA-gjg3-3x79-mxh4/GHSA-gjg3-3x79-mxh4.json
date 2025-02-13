@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjg3-3x79-mxh4",
-  "modified": "2024-04-04T05:39:22Z",
+  "modified": "2025-02-13T18:31:34Z",
   "published": "2023-07-06T21:14:53Z",
   "aliases": [
     "CVE-2023-28656"
   ],
-  "details": "\nNGINX Management Suite may allow an authenticated attacker to gain access to configuration objects outside of their assigned environment.  \n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.\n\n\n\n\n",
+  "details": "NGINX Management Suite may allow an authenticated attacker to gain access to configuration objects outside of their assigned environment.  \n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7q8-377q-px25",
-  "modified": "2024-01-07T12:30:30Z",
+  "modified": "2025-02-13T18:31:54Z",
   "published": "2023-10-02T21:30:17Z",
   "aliases": [
     "CVE-2023-3592"
   ],
-  "details": "In Mosquitto before 2.0.16, a memory leak occurs when clients send v5 CONNECT packets with a will message that contains invalid property types.\n",
+  "details": "In Mosquitto before 2.0.16, a memory leak occurs when clients send v5 CONNECT packets with a will message that contains invalid property types.",
   "severity": [
     {
       "type": "CVSS_V3",

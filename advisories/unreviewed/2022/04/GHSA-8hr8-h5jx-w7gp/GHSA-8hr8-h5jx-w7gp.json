@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8hr8-h5jx-w7gp",
-  "modified": "2022-04-22T00:24:21Z",
+  "modified": "2025-02-13T18:31:20Z",
   "published": "2022-04-22T00:24:21Z",
   "aliases": [
     "CVE-2011-4595"
   ],
   "details": "Pretty-Link WordPress plugin 1.5.2 has XSS",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

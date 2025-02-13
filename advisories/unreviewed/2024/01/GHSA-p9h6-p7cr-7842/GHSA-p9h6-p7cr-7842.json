@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9h6-p7cr-7842",
-  "modified": "2024-03-13T03:31:06Z",
+  "modified": "2025-02-13T18:32:09Z",
   "published": "2024-01-16T18:31:09Z",
   "aliases": [
     "CVE-2023-45233"
   ],
-  "details": " EDK2's Network Package is susceptible to an infinite lop vulnerability when parsing a PadN option in the Destination Options header of IPv6. This\n vulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Availability.\n\n",
+  "details": "EDK2's Network Package is susceptible to an infinite lop vulnerability when parsing a PadN option in the Destination Options header of IPv6. This\n vulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Availability.",
   "severity": [
     {
       "type": "CVSS_V3",

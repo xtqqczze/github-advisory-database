@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mcc-hw35-pqwf",
-  "modified": "2024-04-04T04:57:02Z",
+  "modified": "2025-02-13T18:31:39Z",
   "published": "2023-06-19T12:30:22Z",
   "aliases": [
     "CVE-2023-3316"
   ],
-  "details": "A NULL pointer dereference in TIFFClose() is caused by a failure to open an output file (non-existent path or a path that requires permissions like /dev/null) while specifying zones.\n\n",
+  "details": "A NULL pointer dereference in TIFFClose() is caused by a failure to open an output file (non-existent path or a path that requires permissions like /dev/null) while specifying zones.",
   "severity": [
     {
       "type": "CVSS_V3",

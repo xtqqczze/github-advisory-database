@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q598-p9hw-59vj",
-  "modified": "2024-04-04T06:06:55Z",
+  "modified": "2025-02-13T18:31:40Z",
   "published": "2023-07-13T12:30:26Z",
   "aliases": [
     "CVE-2023-29456"
   ],
-  "details": "URL validation scheme receives input from a user and then parses it to identify its various components. The validation scheme can ensure that all URL components comply with internet standards.\n",
+  "details": "URL validation scheme receives input from a user and then parses it to identify its various components. The validation scheme can ensure that all URL components comply with internet standards.",
   "severity": [
     {
       "type": "CVSS_V3",

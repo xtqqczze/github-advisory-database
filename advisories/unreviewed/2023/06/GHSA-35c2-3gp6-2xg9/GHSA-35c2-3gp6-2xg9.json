@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35c2-3gp6-2xg9",
-  "modified": "2024-01-07T12:30:29Z",
+  "modified": "2025-02-13T18:31:39Z",
   "published": "2023-06-19T12:30:22Z",
   "aliases": [
     "CVE-2023-32216"
   ],
-  "details": "Memory safety  bugs present in Firefox 112. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 113.\n\n",
+  "details": "Memory safety  bugs present in Firefox 112. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 113.",
   "severity": [
     {
       "type": "CVSS_V3",

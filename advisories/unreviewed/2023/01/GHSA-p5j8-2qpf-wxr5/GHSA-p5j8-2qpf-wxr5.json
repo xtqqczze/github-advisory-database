@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5j8-2qpf-wxr5",
-  "modified": "2023-01-25T03:30:32Z",
+  "modified": "2025-02-13T18:31:21Z",
   "published": "2023-01-17T21:30:22Z",
   "aliases": [
     "CVE-2006-20001"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202309-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20230316-0005"
     }
   ],
   "database_specific": {

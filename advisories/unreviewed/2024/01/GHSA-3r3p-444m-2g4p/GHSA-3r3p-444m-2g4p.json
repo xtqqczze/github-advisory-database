@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r3p-444m-2g4p",
-  "modified": "2024-03-13T03:31:06Z",
+  "modified": "2025-02-13T18:32:08Z",
   "published": "2024-01-16T18:31:09Z",
   "aliases": [
     "CVE-2023-45232"
   ],
-  "details": " EDK2's Network Package is susceptible to an infinite loop vulnerability when parsing unknown options in the Destination Options header of IPv6. This\n vulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Availability.\n\n",
+  "details": "EDK2's Network Package is susceptible to an infinite loop vulnerability when parsing unknown options in the Destination Options header of IPv6. This\n vulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Availability.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrjv-p9q7-rxgr",
-  "modified": "2024-03-13T03:31:06Z",
+  "modified": "2025-02-13T18:32:09Z",
   "published": "2024-01-16T18:31:09Z",
   "aliases": [
     "CVE-2023-45234"
   ],
-  "details": " EDK2's Network Package is susceptible to a buffer overflow vulnerability when processing DNS Servers option from a DHCPv6 Advertise message. This\n vulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Confidentiality, Integrity and/or Availability.\n\n",
+  "details": "EDK2's Network Package is susceptible to a buffer overflow vulnerability when processing DNS Servers option from a DHCPv6 Advertise message. This\n vulnerability can be exploited by an attacker to gain unauthorized \naccess and potentially lead to a loss of Confidentiality, Integrity and/or Availability.",
   "severity": [
     {
       "type": "CVSS_V3",

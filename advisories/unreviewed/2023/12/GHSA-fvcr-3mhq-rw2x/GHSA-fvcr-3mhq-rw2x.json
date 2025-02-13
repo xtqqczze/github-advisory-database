@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvcr-3mhq-rw2x",
-  "modified": "2023-12-28T00:30:20Z",
+  "modified": "2025-02-13T18:32:07Z",
   "published": "2023-12-28T00:30:20Z",
   "aliases": [
     "CVE-2023-6879"
   ],
-  "details": "Increasing the resolution of video frames, while performing a multi-threaded encode, can result in a heap overflow in av1_loop_restoration_dealloc().\n\n",
+  "details": "Increasing the resolution of video frames, while performing a multi-threaded encode, can result in a heap overflow in av1_loop_restoration_dealloc().",
   "severity": [
     {
       "type": "CVSS_V3",
