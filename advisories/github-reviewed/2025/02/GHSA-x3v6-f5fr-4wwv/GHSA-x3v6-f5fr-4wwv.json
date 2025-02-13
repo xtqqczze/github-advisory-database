@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3v6-f5fr-4wwv",
-  "modified": "2025-02-13T17:24:09Z",
+  "modified": "2025-02-13T22:16:38Z",
   "published": "2025-02-13T09:31:26Z",
   "aliases": [
     "CVE-2024-46910"
@@ -9,6 +9,10 @@
   "summary": "Apache Atlas: An authenticated user can perform XSS and potentially impersonate another user",
   "details": "An authenticated user can perform XSS and potentially impersonate another user.\n\nThis issue affects Apache Atlas versions 2.3.0 and earlier.\n\nUsers are recommended to upgrade to version 2.4.0, which fixes the issue.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
