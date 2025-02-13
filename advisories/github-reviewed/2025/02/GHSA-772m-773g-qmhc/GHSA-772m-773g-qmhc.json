@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-772m-773g-qmhc",
-  "modified": "2025-02-13T21:31:43Z",
+  "modified": "2025-02-13T22:43:43Z",
   "published": "2025-02-13T00:33:07Z",
   "aliases": [
     "CVE-2024-57603"
   ],
+  "summary": "Missing rate limit in MaysWind ezBookkeeping",
   "details": "An issue in MaysWind ezBookkeeping 0.7.0 allows a remote attacker to escalate privileges via the lack of rate limiting.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/mayswind/ezbookkeeping"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.7.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mayswind/ezbookkeeping/issues/33"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/mayswind/ezbookkeeping"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-799"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-02-13T22:43:43Z",
     "nvd_published_at": "2025-02-12T22:15:40Z"
   }
 }
