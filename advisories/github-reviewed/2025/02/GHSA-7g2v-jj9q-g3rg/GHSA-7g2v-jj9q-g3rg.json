@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g2v-jj9q-g3rg",
-  "modified": "2025-02-12T19:18:36Z",
+  "modified": "2025-02-13T22:08:24Z",
   "published": "2025-02-12T19:18:35Z",
   "aliases": [
     "CVE-2025-25184"
@@ -89,6 +89,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2025-25184.yml"
     }
   ],
   "database_specific": {
