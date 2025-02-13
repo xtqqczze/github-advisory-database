@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgh3-pwmp-3qw3",
-  "modified": "2025-02-11T19:02:09Z",
+  "modified": "2025-02-13T18:59:54Z",
   "published": "2024-05-08T15:30:42Z",
   "aliases": [
     "CVE-2024-26579"
