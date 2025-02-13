@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9cf-pxq6-w297",
-  "modified": "2023-04-09T03:30:18Z",
+  "modified": "2025-02-13T15:31:21Z",
   "published": "2023-04-04T00:30:15Z",
   "aliases": [
     "CVE-2023-0922"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0922"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YXBPYIA4VWNOD437NAHZ3NXKAETLFB5S"
     },
     {
       "type": "WEB",
