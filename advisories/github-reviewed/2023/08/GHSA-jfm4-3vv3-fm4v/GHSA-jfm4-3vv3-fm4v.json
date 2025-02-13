@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfm4-3vv3-fm4v",
-  "modified": "2025-02-13T18:31:45Z",
+  "modified": "2025-02-13T20:14:25Z",
   "published": "2023-08-03T18:30:35Z",
   "aliases": [
     "CVE-2023-4136"
   ],
+  "summary": "Cross-site Scripting (XSS) in CrafterCMS",
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CrafterCMS Engine on Windows, MacOS, Linux, x86, ARM, 64 bit allows Reflected XSS.This issue affects CrafterCMS: from 4.0.0 through 4.0.2, from 3.1.0 through 3.1.27.",
   "severity": [
     {
@@ -13,7 +14,46 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.craftercms:crafter-engine"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.0.0"
+            },
+            {
+              "fixed": "4.0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.craftercms:crafter-engine"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.1.0"
+            },
+            {
+              "fixed": "3.1.28"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://docs.craftercms.org/en/4.0/security/advisory.html#cv-2023080301"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/craftercms/engine"
     },
     {
       "type": "WEB",
@@ -36,9 +80,9 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-02-13T20:14:25Z",
     "nvd_published_at": "2023-08-03T15:15:34Z"
   }
 }
