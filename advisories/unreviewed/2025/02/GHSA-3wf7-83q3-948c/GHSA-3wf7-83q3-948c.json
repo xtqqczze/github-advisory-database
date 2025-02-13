@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3wf7-83q3-948c",
+  "modified": "2025-02-13T00:33:07Z",
+  "published": "2025-02-13T00:33:07Z",
+  "aliases": [
+    "CVE-2024-57601"
+  ],
+  "details": "Cross Site Scripting vulnerability in Alex Tselegidis EasyAppointments v.1.5.0 allows a remote attacker to execute arbitrary code via the legal_settings parameter.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hkohi.ca/vulnerability/13"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-12T22:15:40Z"
+  }
+}

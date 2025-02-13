@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mpg8-8x9c-p9gv",
+  "modified": "2025-02-13T00:33:07Z",
+  "published": "2025-02-13T00:33:07Z",
+  "aliases": [
+    "CVE-2024-57604"
+  ],
+  "details": "An issue in MaysWind ezBookkeeping 0.7.0 allows a remote attacker to escalate privileges via the token component.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57604"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mayswind/ezbookkeeping/issues/33"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hkohi.ca/vulnerability/2"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-12T22:15:41Z"
+  }
+}
