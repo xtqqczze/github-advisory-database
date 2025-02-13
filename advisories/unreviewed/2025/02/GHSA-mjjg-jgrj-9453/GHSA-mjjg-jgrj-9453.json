@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjjg-jgrj-9453",
-  "modified": "2025-02-11T21:32:06Z",
+  "modified": "2025-02-13T18:32:31Z",
   "published": "2025-02-11T21:32:06Z",
   "aliases": [
     "CVE-2022-35202"
   ],
   "details": "A security issue in Sitevision version 10.3.1 and older allows a remote attacker, in certain (non-default) scenarios, to gain access to the private keys used for signing SAML Authn requests. The underlying issue is a Java keystore that may become accessible and downloadable via WebDAV. This keystore is protected with a low-complexity, auto-generated password.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-532"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-11T19:15:10Z"

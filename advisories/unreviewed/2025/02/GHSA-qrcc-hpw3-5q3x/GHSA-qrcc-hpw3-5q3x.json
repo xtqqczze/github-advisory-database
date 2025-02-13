@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrcc-hpw3-5q3x",
-  "modified": "2025-02-13T00:33:04Z",
+  "modified": "2025-02-13T18:32:34Z",
   "published": "2025-02-13T00:33:04Z",
   "aliases": [
     "CVE-2023-48267"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://intel.com/content/www/us/en/security-center/advisory/intel-sa-01203.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.dell.com/support/kbdoc/en-us/000236851/dsa-2025-002"
     }
   ],
   "database_specific": {

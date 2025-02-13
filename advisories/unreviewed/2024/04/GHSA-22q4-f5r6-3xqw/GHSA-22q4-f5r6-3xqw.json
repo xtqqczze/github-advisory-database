@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-22q4-f5r6-3xqw",
-  "modified": "2024-07-22T18:31:47Z",
+  "modified": "2025-02-13T18:32:26Z",
   "published": "2024-04-17T18:31:36Z",
   "aliases": [
     "CVE-2024-2961"
   ],
-  "details": "The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.\n",
+  "details": "The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -42,6 +42,18 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ambionics.io/blog/iconv-cve-2024-2961-p1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ambionics.io/blog/iconv-cve-2024-2961-p2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ambionics.io/blog/iconv-cve-2024-2961-p3"
     },
     {
       "type": "WEB",

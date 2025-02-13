@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55g9-rgmx-hvww",
-  "modified": "2024-06-10T18:30:58Z",
+  "modified": "2025-02-13T18:32:29Z",
   "published": "2024-05-14T15:32:52Z",
   "aliases": [
     "CVE-2024-25581"
   ],
-  "details": "When incoming DNS over HTTPS support is enabled using the nghttp2 provider, and queries are routed to a tcp-only or DNS over TLS backend, an attacker can trigger an assertion failure in DNSdist by sending a request for a zone transfer (AXFR or IXFR) over DNS over HTTPS, causing the process to stop and thus leading to a Denial of Service. DNS over HTTPS is not enabled by default, and backends are using plain DNS (Do53) by default.\n\n",
+  "details": "When incoming DNS over HTTPS support is enabled using the nghttp2 provider, and queries are routed to a tcp-only or DNS over TLS backend, an attacker can trigger an assertion failure in DNSdist by sending a request for a zone transfer (AXFR or IXFR) over DNS over HTTPS, causing the process to stop and thus leading to a Denial of Service. DNS over HTTPS is not enabled by default, and backends are using plain DNS (Do53) by default.",
   "severity": [
     {
       "type": "CVSS_V3",

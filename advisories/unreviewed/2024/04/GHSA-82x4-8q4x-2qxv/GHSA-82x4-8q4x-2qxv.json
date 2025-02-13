@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82x4-8q4x-2qxv",
-  "modified": "2024-06-10T18:30:57Z",
+  "modified": "2025-02-13T18:32:28Z",
   "published": "2024-04-29T15:30:28Z",
   "aliases": [
     "CVE-2024-27322"
   ],
-  "details": "Deserialization of untrusted data can occur in the R statistical programming language, on any version starting at 1.4.0 up to and not including 4.4.0, enabling a maliciously crafted RDS (R Data Serialization) formatted file or R package to run arbitrary code on an end user’s system when interacted with.\n",
+  "details": "Deserialization of untrusted data can occur in the R statistical programming language, on any version starting at 1.4.0 up to and not including 4.4.0, enabling a maliciously crafted RDS (R Data Serialization) formatted file or R package to run arbitrary code on an end user’s system when interacted with.",
   "severity": [
     {
       "type": "CVSS_V3",
