@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xx4v-prfh-6cgc",
-  "modified": "2025-02-14T22:18:46Z",
+  "modified": "2025-02-14T23:07:29Z",
   "published": "2025-02-14T17:58:54Z",
   "aliases": [
     "CVE-2025-25289"
@@ -26,6 +26,25 @@
           "events": [
             {
               "introduced": "1.0.0"
+            },
+            {
+              "fixed": "5.1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@octokit/request-error"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "6.0.0"
             },
             {
               "fixed": "6.1.7"
