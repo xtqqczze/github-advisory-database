@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8355-xj3p-hv6q",
-  "modified": "2025-02-14T18:06:46Z",
+  "modified": "2025-02-14T18:40:02Z",
   "published": "2025-02-14T12:31:38Z",
   "aliases": [
     "CVE-2024-52577"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/1bst0n27m9kb3b6f6hvlghn182vqb2hh"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/02/14/2"
     }
   ],
   "database_specific": {
