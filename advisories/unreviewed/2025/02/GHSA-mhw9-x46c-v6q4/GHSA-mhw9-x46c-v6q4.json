@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhw9-x46c-v6q4",
-  "modified": "2025-02-13T15:31:25Z",
+  "modified": "2025-02-14T00:30:44Z",
   "published": "2025-02-13T15:31:25Z",
   "aliases": [
     "CVE-2025-1094"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1094"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00015.html"
     },
     {
       "type": "WEB",
