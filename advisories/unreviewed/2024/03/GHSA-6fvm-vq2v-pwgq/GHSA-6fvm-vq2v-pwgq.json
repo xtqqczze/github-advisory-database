@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6fvm-vq2v-pwgq",
-  "modified": "2024-03-11T18:31:09Z",
+  "modified": "2025-02-14T18:30:46Z",
   "published": "2024-03-11T18:31:09Z",
   "aliases": [
     "CVE-2024-26618"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\narm64/sme: Always exit sme_alloc() early with existing storage\n\nWhen sme_alloc() is called with existing storage and we are not flushing we\nwill always allocate new storage, both leaking the existing storage and\ncorrupting the state. Fix this by separating the checks for flushing and\nfor existing storage as we do for SVE.\n\nCallers that reallocate (eg, due to changing the vector length) should\ncall sme_free() themselves.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-770"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-11T18:15:19Z"

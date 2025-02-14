@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9397-pxm9-3w6r",
-  "modified": "2024-03-21T18:32:03Z",
+  "modified": "2025-02-14T18:30:48Z",
   "published": "2024-03-21T18:32:03Z",
   "aliases": [
     "CVE-2024-27965"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPFunnels Team WPFunnels allows Stored XSS.This issue affects WPFunnels: from n/a through 3.0.6.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPFunnels Team WPFunnels allows Stored XSS.This issue affects WPFunnels: from n/a through 3.0.6.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffqx-hmw2-p5jv",
-  "modified": "2024-03-06T09:30:28Z",
+  "modified": "2025-02-14T18:30:45Z",
   "published": "2024-03-06T09:30:28Z",
   "aliases": [
     "CVE-2023-52596"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsysctl: Fix out of bounds access for empty sysctl registers\n\nWhen registering tables to the sysctl subsystem there is a check to see\nif header is a permanently empty directory (used for mounts). This check\nevaluates the first element of the ctl_table. This results in an out of\nbounds evaluation when registering empty directories.\n\nThe function register_sysctl_mount_point now passes a ctl_table of size\n1 instead of size 0. It now relies solely on the type to identify\na permanently empty register.\n\nMake sure that the ctl_table has at least one element before testing for\npermanent emptiness.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-06T07:15:09Z"

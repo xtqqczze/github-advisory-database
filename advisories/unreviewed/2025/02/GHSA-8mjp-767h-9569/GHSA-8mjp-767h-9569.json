@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mjp-767h-9569",
-  "modified": "2025-02-12T15:31:59Z",
+  "modified": "2025-02-14T18:30:49Z",
   "published": "2025-02-12T15:31:59Z",
   "aliases": [
     "CVE-2025-21694"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/proc: fix softlockup in __read_vmcore (part 2)\n\nSince commit 5cbcb62dddf5 (\"fs/proc: fix softlockup in __read_vmcore\") the\nnumber of softlockups in __read_vmcore at kdump time have gone down, but\nthey still happen sometimes.\n\nIn a memory constrained environment like the kdump image, a softlockup is\nnot just a harmless message, but it can interfere with things like RCU\nfreeing memory, causing the crashdump to get stuck.\n\nThe second loop in __read_vmcore has a lot more opportunities for natural\nsleep points, like scheduling out while waiting for a data write to\nhappen, but apparently that is not always enough.\n\nAdd a cond_resched() to the second loop in __read_vmcore to (hopefully)\nget rid of the softlockups.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-12T14:15:32Z"

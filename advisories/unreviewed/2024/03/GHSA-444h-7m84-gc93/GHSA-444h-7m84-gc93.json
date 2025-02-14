@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-444h-7m84-gc93",
-  "modified": "2024-03-06T09:30:27Z",
+  "modified": "2025-02-14T18:30:44Z",
   "published": "2024-03-06T09:30:27Z",
   "aliases": [
     "CVE-2023-52588"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nf2fs: fix to tag gcing flag on page during block migration\n\nIt needs to add missing gcing flag on page during block migration,\nin order to garantee migrated data be persisted during checkpoint,\notherwise out-of-order persistency between data and node may cause\ndata corruption after SPOR.\n\nSimilar issue was fixed by commit 2d1fe8a86bf5 (\"f2fs: fix to tag\ngcing flag on page during file defragment\").",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-06T07:15:07Z"

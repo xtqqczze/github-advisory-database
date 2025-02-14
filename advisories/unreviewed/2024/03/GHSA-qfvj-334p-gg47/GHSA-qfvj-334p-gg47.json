@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfvj-334p-gg47",
-  "modified": "2024-03-21T18:32:03Z",
+  "modified": "2025-02-14T18:30:48Z",
   "published": "2024-03-21T18:32:03Z",
   "aliases": [
     "CVE-2024-27190"
   ],
-  "details": "Missing Authorization vulnerability in Jean-David Daviet Download Media.This issue affects Download Media: from n/a through 1.4.2.\n\n",
+  "details": "Missing Authorization vulnerability in Jean-David Daviet Download Media.This issue affects Download Media: from n/a through 1.4.2.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq7p-h4wc-54h8",
-  "modified": "2024-02-29T03:33:17Z",
+  "modified": "2025-02-14T18:30:43Z",
   "published": "2024-02-29T03:33:17Z",
   "aliases": [
     "CVE-2024-21724"
   ],
   "details": "Inadequate input validation for media selection fields lead to XSS vulnerabilities in various extensions.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-29T01:44:03Z"

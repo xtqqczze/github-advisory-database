@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffvr-gmp3-xx43",
-  "modified": "2025-02-14T15:31:05Z",
+  "modified": "2025-02-14T18:30:51Z",
   "published": "2025-02-14T15:31:05Z",
   "aliases": [
     "CVE-2024-56180"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/k9fw0t5r7t1vbx53gs8d1r8c54rhx0wd"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/02/14/7"
     }
   ],
   "database_specific": {

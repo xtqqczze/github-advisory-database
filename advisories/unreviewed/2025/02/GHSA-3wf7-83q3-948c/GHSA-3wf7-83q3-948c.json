@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wf7-83q3-948c",
-  "modified": "2025-02-13T00:33:07Z",
+  "modified": "2025-02-14T18:30:49Z",
   "published": "2025-02-13T00:33:07Z",
   "aliases": [
     "CVE-2024-57601"
   ],
   "details": "Cross Site Scripting vulnerability in Alex Tselegidis EasyAppointments v.1.5.0 allows a remote attacker to execute arbitrary code via the legal_settings parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-12T22:15:40Z"
