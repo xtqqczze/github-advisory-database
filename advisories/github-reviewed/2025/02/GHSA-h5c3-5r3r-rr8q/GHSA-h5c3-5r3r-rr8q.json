@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5c3-5r3r-rr8q",
-  "modified": "2025-02-14T17:57:59Z",
+  "modified": "2025-02-14T22:18:58Z",
   "published": "2025-02-14T17:57:59Z",
   "aliases": [
     "CVE-2025-25288"
@@ -41,12 +41,20 @@
       "url": "https://github.com/octokit/plugin-paginate-rest.js/security/advisories/GHSA-h5c3-5r3r-rr8q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25288"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/octokit/plugin-paginate-rest.js/commit/bb6c4f945d8023902cf387391d2b2209261044ab"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/octokit/plugin-paginate-rest.js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/octokit/plugin-paginate-rest.js/blob/main/src/iterator.ts"
     }
   ],
   "database_specific": {
@@ -56,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-02-14T17:57:59Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-02-14T20:15:34Z"
   }
 }
