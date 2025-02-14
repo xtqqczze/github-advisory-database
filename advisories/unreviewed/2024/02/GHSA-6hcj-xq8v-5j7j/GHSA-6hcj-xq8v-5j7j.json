@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hcj-xq8v-5j7j",
-  "modified": "2024-02-28T21:30:20Z",
+  "modified": "2025-02-14T15:31:01Z",
   "published": "2024-02-28T21:30:20Z",
   "aliases": [
     "CVE-2024-25435"
   ],
   "details": "A cross-site scripting (XSS) vulnerability in Md1health Md1patient v2.0.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Msg parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-28T20:15:41Z"

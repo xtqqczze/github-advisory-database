@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv64-fpvc-rw9x",
-  "modified": "2025-02-12T15:31:59Z",
+  "modified": "2025-02-14T15:31:02Z",
   "published": "2025-02-12T15:31:59Z",
   "aliases": [
     "CVE-2025-21697"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/v3d: Ensure job pointer is set to NULL after job completion\n\nAfter a job completes, the corresponding pointer in the device must\nbe set to NULL. Failing to do so triggers a warning when unloading\nthe driver, as it appears the job is still active. To prevent this,\nassign the job pointer to NULL after completing the job, indicating\nthe job has finished.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-12T14:15:32Z"
