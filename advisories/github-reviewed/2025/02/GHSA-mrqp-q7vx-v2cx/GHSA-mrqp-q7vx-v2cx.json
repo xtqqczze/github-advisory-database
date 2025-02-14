@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrqp-q7vx-v2cx",
-  "modified": "2025-02-13T18:40:45Z",
+  "modified": "2025-02-14T00:32:57Z",
   "published": "2025-02-13T17:16:27Z",
   "aliases": [
     "CVE-2025-26511"
@@ -74,7 +74,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-288"
+      "CWE-288",
+      "CWE-863"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
