@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w494-p3qw-3ww3",
-  "modified": "2025-02-14T09:31:22Z",
+  "modified": "2025-02-15T18:30:25Z",
   "published": "2025-02-14T09:31:22Z",
   "aliases": [
     "CVE-2025-26788"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.strongkey.com/index.php/skfs-v3/skfs-release-notes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.securing.pl/en/cve-2025-26788-passkey-authentication-bypass-in-strongkey-fido-server"
     }
   ],
   "database_specific": {
