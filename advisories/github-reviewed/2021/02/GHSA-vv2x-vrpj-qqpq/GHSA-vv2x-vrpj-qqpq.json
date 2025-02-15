@@ -24,11 +24,6 @@
         "ecosystem": "PyPI",
         "name": "bleach"
       },
-      "ecosystem_specific": {
-        "affected_functions": [
-          "bleach.clean"
-        ]
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
