@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rq26-5593-xpg9",
-  "modified": "2024-09-05T18:30:57Z",
+  "modified": "2025-02-17T18:32:03Z",
   "published": "2024-09-05T18:30:57Z",
   "aliases": [
     "CVE-2024-7591"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.kemptechnologies.com/hc/en-us/articles/29196371689613-LoadMaster-Security-Vulnerability-CVE-2024-7591"
+    },
+    {
+      "type": "WEB",
+      "url": "https://url.us.m.mimecastprotect.com/s/m_v3CkRgEgSz2vDGUQi8HGPtBQ?domain=insinuator.net"
     }
   ],
   "database_specific": {
