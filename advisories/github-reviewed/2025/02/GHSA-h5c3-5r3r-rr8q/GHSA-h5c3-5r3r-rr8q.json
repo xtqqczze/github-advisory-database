@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5c3-5r3r-rr8q",
-  "modified": "2025-02-14T22:18:58Z",
+  "modified": "2025-02-18T19:15:03Z",
   "published": "2025-02-14T17:57:59Z",
   "aliases": [
     "CVE-2025-25288"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.0.0"
+              "introduced": "9.3.0-beta.1"
             },
             {
               "fixed": "11.4.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@octokit/plugin-paginate-rest"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.0"
+            },
+            {
+              "fixed": "9.2.2"
             }
           ]
         }
@@ -55,6 +74,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/octokit/plugin-paginate-rest.js/blob/main/src/iterator.ts"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/octokit/plugin-paginate-rest.js/releases/tag/v9.2.2"
     }
   ],
   "database_specific": {
