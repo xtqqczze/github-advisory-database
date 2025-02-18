@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3pm-rpgg-5wj6",
-  "modified": "2025-02-18T19:25:24Z",
+  "modified": "2025-02-18T22:51:42Z",
   "published": "2025-02-18T19:25:24Z",
   "aliases": [
     "CVE-2025-25305"
@@ -41,6 +41,10 @@
       "url": "https://github.com/home-assistant/core/security/advisories/GHSA-m3pm-rpgg-5wj6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25305"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/home-assistant/core/commit/8c6547f1b64f4a3d9f10090b97383353c9367892"
     },
@@ -51,11 +55,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-347"
+      "CWE-347",
+      "CWE-940"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-02-18T19:25:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-02-18T19:15:29Z"
   }
 }
