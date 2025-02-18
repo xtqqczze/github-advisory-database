@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hmf-56g8-p898",
-  "modified": "2025-02-02T12:30:24Z",
+  "modified": "2025-02-18T15:31:06Z",
   "published": "2025-01-19T12:31:26Z",
   "aliases": [
     "CVE-2024-57907"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: adc: rockchip_saradc: fix information leak in triggered buffer\n\nThe 'data' local struct is used to push data to user space from a\ntriggered buffer, but it does not set values for inactive channels, as\nit only uses iio_for_each_active_channel() to assign new values.\n\nInitialize the struct to zero before using it to avoid pushing\nuninitialized information to userspace.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-19T12:15:24Z"
