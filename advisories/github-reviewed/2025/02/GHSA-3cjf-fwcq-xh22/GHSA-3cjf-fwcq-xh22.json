@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cjf-fwcq-xh22",
-  "modified": "2025-02-07T17:37:38Z",
+  "modified": "2025-02-18T22:31:50Z",
   "published": "2025-02-04T12:30:59Z",
   "aliases": [
     "CVE-2025-24860"
@@ -85,6 +85,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/yjo5on4tf7s1r9qklc4byrz30b8vkm2d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250214-0005"
     },
     {
       "type": "WEB",

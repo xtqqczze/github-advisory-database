@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgfx-7p65-3ff4",
-  "modified": "2025-02-07T17:36:28Z",
+  "modified": "2025-02-18T22:31:37Z",
   "published": "2025-02-04T12:30:59Z",
   "aliases": [
     "CVE-2024-27137"
@@ -85,6 +85,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/jsk87d9yv8r204mgqpz1qxtp5wcrpysm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250214-0004"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmcc-9vch-jmx4",
-  "modified": "2025-02-11T19:05:30Z",
+  "modified": "2025-02-18T22:30:54Z",
   "published": "2025-02-04T12:30:59Z",
   "aliases": [
     "CVE-2025-23015"
@@ -131,6 +131,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/jmks4msbgkl65ssg69x728sv1m0hwz3s"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250214-0006"
     },
     {
       "type": "WEB",
