@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gfg-2v89-c3pm",
-  "modified": "2025-02-18T18:33:21Z",
+  "modified": "2025-02-18T21:32:50Z",
   "published": "2025-02-18T18:33:21Z",
   "aliases": [
     "CVE-2024-49589"
@@ -21,11 +21,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://palantir.safebase.us/?tcuUid=ad6b08b1-2f79-4e32-b125-406dd2b9b1c3"
+    },
+    {
+      "type": "WEB",
       "url": "https://palantir.safebase.us/?tcuUid=b60db1ee-4b1a-475d-848e-c5a670a0da16"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-770",
       "CWE-862"
     ],
     "severity": "MODERATE",
