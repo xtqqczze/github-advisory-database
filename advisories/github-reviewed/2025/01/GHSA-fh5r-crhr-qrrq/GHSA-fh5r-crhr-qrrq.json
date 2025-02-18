@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh5r-crhr-qrrq",
-  "modified": "2025-02-11T19:05:47Z",
+  "modified": "2025-02-18T22:30:06Z",
   "published": "2025-01-21T12:30:47Z",
   "aliases": [
     "CVE-2025-23184"
@@ -97,6 +97,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/lfs8l63rnctnj2skfrxyys7v8fgnt122"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250214-0003"
     },
     {
       "type": "WEB",

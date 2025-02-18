@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68r2-fwcg-qpm8",
-  "modified": "2025-01-27T17:22:49Z",
+  "modified": "2025-02-18T22:30:39Z",
   "published": "2025-01-27T09:30:35Z",
   "aliases": [
     "CVE-2025-24814"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/gl291pn8x9f9n52ys5l0pc0b6qtf0qw1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250214-0002"
     },
     {
       "type": "WEB",
