@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmvr-2pp2-xj38",
-  "modified": "2025-02-14T22:18:35Z",
+  "modified": "2025-02-18T19:17:40Z",
   "published": "2025-02-14T18:00:18Z",
   "aliases": [
     "CVE-2025-25290"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.0.0"
+              "introduced": "9.0.0-beta.1"
             },
             {
               "fixed": "9.2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@octokit/request"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.0"
+            },
+            {
+              "fixed": "8.4.1"
             }
           ]
         }
@@ -51,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/octokit/request.js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/octokit/request.js/releases/tag/v8.4.1"
     }
   ],
   "database_specific": {
