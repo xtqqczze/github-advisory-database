@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p9xg-3j9r-v8jf",
-  "modified": "2023-04-10T18:30:22Z",
+  "modified": "2025-02-18T18:33:02Z",
   "published": "2023-03-30T18:30:32Z",
   "aliases": [
     "CVE-2022-30350"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-213"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

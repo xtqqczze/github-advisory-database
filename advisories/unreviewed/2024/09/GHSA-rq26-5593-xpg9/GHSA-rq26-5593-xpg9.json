@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rq26-5593-xpg9",
-  "modified": "2025-02-17T18:32:03Z",
+  "modified": "2025-02-18T18:33:09Z",
   "published": "2024-09-05T18:30:57Z",
   "aliases": [
     "CVE-2024-7591"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7591"
+    },
+    {
+      "type": "WEB",
+      "url": "https://insinuator.net/2024/11/vulnerability-disclosure-command-injection-in-kemp-loadmaster-load-balancer-cve-2024-7591"
     },
     {
       "type": "WEB",
