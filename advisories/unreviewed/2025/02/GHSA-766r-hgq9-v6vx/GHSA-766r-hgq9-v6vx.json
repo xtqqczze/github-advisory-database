@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-766r-hgq9-v6vx",
-  "modified": "2025-02-18T21:32:51Z",
+  "modified": "2025-02-19T09:33:28Z",
   "published": "2025-02-18T21:32:51Z",
   "aliases": [
     "CVE-2024-56000"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://patchstack.com/articles/critical-privilege-escalation-patched-in-kleo-themes-plugin?_s_id=cve"
+    },
+    {
+      "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/plugin/k-elements/vulnerability/wordpress-k-elements-plugin-5-2-0-unauthenticated-account-takeover-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
+      "url": "https://themeforest.net/item/kleo-pro-community-focused-multipurpose-buddypress-theme/6776630?_s_id=cve"
     }
   ],
   "database_specific": {
