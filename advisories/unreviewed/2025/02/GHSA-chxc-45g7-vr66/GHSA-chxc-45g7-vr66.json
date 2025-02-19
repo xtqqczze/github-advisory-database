@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chxc-45g7-vr66",
-  "modified": "2025-02-18T21:32:51Z",
+  "modified": "2025-02-19T00:31:16Z",
   "published": "2025-02-18T21:32:51Z",
   "aliases": [
     "CVE-2024-57056"
   ],
   "details": "Incorrect cookie session handling in WombatDialer before 25.02 results in the full session identity being written to system logs and could be used by a malicious attacker to impersonate an existing user session.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-613"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-18T19:15:20Z"
