@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99vm-5v2h-h6r6",
-  "modified": "2025-02-19T17:46:27Z",
+  "modified": "2025-02-19T19:59:54Z",
   "published": "2025-02-19T17:46:27Z",
   "aliases": [
     "CVE-2025-27089"
@@ -60,19 +60,29 @@
       "url": "https://github.com/directus/directus/security/advisories/GHSA-99vm-5v2h-h6r6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27089"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/directus/directus/commit/a7ea67783b060d0d6fc964d71c2d4575d5eee4e2"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/directus/directus"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/directus/directus/releases/tag/v11.1.2"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-863"
+    ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-02-19T17:46:27Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-02-19T17:15:15Z"
   }
 }
