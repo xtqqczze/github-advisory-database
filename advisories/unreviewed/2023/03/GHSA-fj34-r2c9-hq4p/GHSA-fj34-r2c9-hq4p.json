@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj34-r2c9-hq4p",
-  "modified": "2023-04-04T18:30:22Z",
+  "modified": "2025-02-19T18:32:12Z",
   "published": "2023-03-27T21:30:25Z",
   "aliases": [
     "CVE-2023-25261"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-94"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
