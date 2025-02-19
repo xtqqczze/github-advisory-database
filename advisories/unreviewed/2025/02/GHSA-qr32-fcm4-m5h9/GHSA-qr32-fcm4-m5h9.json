@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qr32-fcm4-m5h9",
-  "modified": "2025-02-18T15:31:08Z",
+  "modified": "2025-02-19T15:32:11Z",
   "published": "2025-02-18T15:31:08Z",
   "aliases": [
     "CVE-2024-57049"
   ],
   "details": "A vulnerability in the TP-Link Archer c20 router with firmware version V6.6_230412 and earlier permits unauthorized individuals to bypass the authentication of some interfaces under the /cgi directory. When adding Referer: http://tplinkwifi.net to the the request, it will be recognized as passing the authentication.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-287"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-18T15:15:16Z"

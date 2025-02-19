@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrwv-mv4h-7rrq",
-  "modified": "2025-02-19T06:35:14Z",
+  "modified": "2025-02-19T15:32:12Z",
   "published": "2025-02-18T21:32:51Z",
   "aliases": [
     "CVE-2025-26465"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://lists.mindrot.org/pipermail/openssh-unix-announce/2025-February/000161.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/oss-sec/2025/q1/144"
     },
     {
       "type": "WEB",
