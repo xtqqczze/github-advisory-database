@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2cp-78ww-6jm8",
-  "modified": "2025-02-19T00:31:19Z",
+  "modified": "2025-02-19T03:32:05Z",
   "published": "2025-02-19T00:31:19Z",
   "aliases": [
     "CVE-2024-57259"
   ],
   "details": "sqfs_search_dir in Das U-Boot before 2025.01-rc1 exhibits an off-by-one error and resultant heap memory corruption for squashfs directory listing because the path separator is not considered in a size calculation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-193"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-18T23:15:09Z"
