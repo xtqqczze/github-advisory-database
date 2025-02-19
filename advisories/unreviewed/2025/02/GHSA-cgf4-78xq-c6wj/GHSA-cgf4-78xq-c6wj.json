@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgf4-78xq-c6wj",
-  "modified": "2025-02-19T00:31:17Z",
+  "modified": "2025-02-19T21:31:37Z",
   "published": "2025-02-19T00:31:17Z",
   "aliases": [
     "CVE-2025-25469"
   ],
   "details": "FFmpeg git-master before commit d5873b was discovered to contain a memory leak in the component libavutil/iamf.c.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-18T22:15:18Z"
