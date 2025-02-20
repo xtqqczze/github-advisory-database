@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvqq-hwj3-c54m",
-  "modified": "2025-02-19T18:32:20Z",
+  "modified": "2025-02-20T03:32:03Z",
   "published": "2025-02-12T21:31:53Z",
   "aliases": [
     "CVE-2025-0108"
@@ -25,7 +25,31 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/iSee857/CVE-2025-0108-PoC"
+    },
+    {
+      "type": "WEB",
       "url": "https://security.paloaltonetworks.com/CVE-2025-0108"
+    },
+    {
+      "type": "WEB",
+      "url": "https://slcyber.io/blog/nginx-apache-path-confusion-to-auth-bypass-in-pan-os"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-tags-new-firewall-bug-as-exploited-in-attacks"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.darkreading.com/remote-workforce/patch-now-cisa-researchers-warn-palo-alto-flaw-exploited-wild"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.securityweek.com/palo-alto-networks-confirms-exploitation-of-firewall-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.theregister.com/2025/02/19/palo_alto_firewall_attack"
     }
   ],
   "database_specific": {
