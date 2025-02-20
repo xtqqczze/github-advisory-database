@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmcv-pj3g-38rp",
-  "modified": "2025-02-12T21:31:54Z",
+  "modified": "2025-02-20T00:32:02Z",
   "published": "2025-02-12T21:31:54Z",
   "aliases": [
     "CVE-2025-0111"

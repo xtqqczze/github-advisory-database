@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxpp-m9vw-rjcx",
-  "modified": "2025-02-03T18:30:43Z",
+  "modified": "2025-02-20T00:32:02Z",
   "published": "2025-02-03T18:30:43Z",
   "aliases": [
     "CVE-2024-54840"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.cyberark.com/pam-self-hosted/latest/en/content/release%20notes/rn-whatsnew14-4.htm#Securitybugfixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Hurdano/8244855ef8ec364fd98a2693de6e30c5"
     }
   ],
   "database_specific": {
