@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8q5-c934-chcc",
-  "modified": "2025-02-19T21:31:37Z",
+  "modified": "2025-02-20T18:31:21Z",
   "published": "2025-02-19T21:31:37Z",
   "aliases": [
     "CVE-2020-35546"
   ],
   "details": "Lexmark MX6500 LW75.JD.P296 and previous devices have Incorrect Access Control via the access control settings.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-19T19:15:10Z"

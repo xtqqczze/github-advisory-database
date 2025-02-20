@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-54m8-fp97-8pgr",
-  "modified": "2025-02-12T12:30:48Z",
+  "modified": "2025-02-20T18:31:21Z",
   "published": "2025-02-12T12:30:47Z",
   "aliases": [
     "CVE-2024-13477"
