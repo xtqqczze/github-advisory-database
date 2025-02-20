@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpg8-8x9c-p9gv",
-  "modified": "2025-02-14T18:30:49Z",
+  "modified": "2025-02-20T00:12:37Z",
   "published": "2025-02-13T00:33:07Z",
   "aliases": [
     "CVE-2024-57604"
   ],
+  "summary": "MaysWind ezBookkeeping has Improper Privilege Management",
   "details": "An issue in MaysWind ezBookkeeping 0.7.0 allows a remote attacker to escalate privileges via the token component.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/mayswind/ezbookkeeping"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.7.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mayswind/ezbookkeeping/issues/33"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/mayswind/ezbookkeeping"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-269"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-02-20T00:12:37Z",
     "nvd_published_at": "2025-02-12T22:15:41Z"
   }
 }
