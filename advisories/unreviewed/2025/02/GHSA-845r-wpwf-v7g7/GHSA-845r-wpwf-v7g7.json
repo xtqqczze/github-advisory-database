@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-845r-wpwf-v7g7",
-  "modified": "2025-02-12T15:31:58Z",
+  "modified": "2025-02-20T21:30:50Z",
   "published": "2025-02-12T15:31:58Z",
   "aliases": [
     "CVE-2024-10322"

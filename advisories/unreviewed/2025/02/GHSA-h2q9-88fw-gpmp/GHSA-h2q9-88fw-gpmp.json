@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2q9-88fw-gpmp",
-  "modified": "2025-02-12T18:31:35Z",
+  "modified": "2025-02-20T21:30:50Z",
   "published": "2025-02-12T18:31:35Z",
   "aliases": [
     "CVE-2024-12629"

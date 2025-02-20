@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcj3-36cm-3c25",
-  "modified": "2024-04-04T05:30:31Z",
+  "modified": "2025-02-20T21:30:43Z",
   "published": "2023-07-06T19:24:04Z",
   "aliases": [
     "CVE-2022-43492"

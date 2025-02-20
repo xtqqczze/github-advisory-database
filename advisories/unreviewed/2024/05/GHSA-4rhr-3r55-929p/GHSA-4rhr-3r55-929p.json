@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rhr-3r55-929p",
-  "modified": "2024-05-06T21:30:38Z",
+  "modified": "2025-02-20T21:30:49Z",
   "published": "2024-05-06T21:30:38Z",
   "aliases": [
     "CVE-2024-33570"
   ],
-  "details": "Missing Authorization vulnerability in Wpmet Metform Elementor Contact Form Builder.This issue affects Metform Elementor Contact Form Builder: from n/a through 3.8.3.\n\n",
+  "details": "Missing Authorization vulnerability in Wpmet Metform Elementor Contact Form Builder.This issue affects Metform Elementor Contact Form Builder: from n/a through 3.8.3.",
   "severity": [
     {
       "type": "CVSS_V3",
