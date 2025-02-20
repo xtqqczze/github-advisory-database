@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq52-99r9-h5pw",
-  "modified": "2025-02-11T19:08:56Z",
+  "modified": "2025-02-20T16:41:45Z",
   "published": "2025-02-11T06:30:27Z",
   "aliases": [
     "CVE-2025-1211"
@@ -32,7 +32,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.20.1"
+              "fixed": "1.21.0"
             }
           ]
         }
@@ -46,11 +46,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/benoitc/hackney/commit/9594ce58fabd32cd897fc28fae937694515a3d4a"
+    },
+    {
+      "type": "WEB",
       "url": "https://gist.github.com/snoopysecurity/996de09ec0cfd0ebdcfdda8ff515deb1"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/benoitc/hackney"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/benoitc/hackney/releases/tag/1.21.0"
     },
     {
       "type": "WEB",
