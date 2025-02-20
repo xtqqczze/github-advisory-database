@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgc7-r882-frmh",
-  "modified": "2025-02-19T21:31:38Z",
+  "modified": "2025-02-20T15:31:08Z",
   "published": "2025-02-19T21:31:38Z",
   "aliases": [
     "CVE-2023-51301"
   ],
   "details": "A lack of rate limiting in the \"Login Section, Forgot Email\" feature of PHPJabbers Hotel Booking System v4.0 allows attackers to send an excessive amount of reset requests for a legitimate user, leading to a possible Denial of Service (DoS) via a large amount of generated e-mail messages.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-400"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-19T21:15:14Z"

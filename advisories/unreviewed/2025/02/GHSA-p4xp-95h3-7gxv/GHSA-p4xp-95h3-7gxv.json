@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4xp-95h3-7gxv",
-  "modified": "2025-02-20T00:32:05Z",
+  "modified": "2025-02-20T15:31:09Z",
   "published": "2025-02-20T00:32:05Z",
   "aliases": [
     "CVE-2025-25946"
   ],
   "details": "An issue in Bento4 v1.6.0-641 allows an attacker to cause a memory leak via Ap4Marlin.cpp and Ap4Processor.cpp, specifically in AP4_MarlinIpmpEncryptingProcessor::Initialize and AP4_Processor::Process, during the execution of mp4encrypt with a specially crafted MP4 input file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-19T23:15:15Z"
