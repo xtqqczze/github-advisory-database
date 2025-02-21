@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-349c-6q2h-wwhm",
-  "modified": "2024-04-29T06:30:42Z",
+  "modified": "2025-02-21T21:32:03Z",
   "published": "2024-04-29T06:30:42Z",
   "aliases": [
     "CVE-2024-33551"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in 8theme XStore Core allows SQL Injection.This issue affects XStore Core: from n/a through 5.3.5.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in 8theme XStore Core allows SQL Injection.This issue affects XStore Core: from n/a through 5.3.5.",
   "severity": [
     {
       "type": "CVSS_V3",

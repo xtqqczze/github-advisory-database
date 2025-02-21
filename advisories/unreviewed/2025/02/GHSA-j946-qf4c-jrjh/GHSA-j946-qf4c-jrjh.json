@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j946-qf4c-jrjh",
-  "modified": "2025-02-20T18:31:23Z",
+  "modified": "2025-02-21T21:32:05Z",
   "published": "2025-02-20T18:31:23Z",
   "aliases": [
     "CVE-2023-51323"
   ],
   "details": "A lack of rate limiting in the 'Forgot Password' feature of PHPJabbers Shared Asset Booking System v1.0 allows attackers to send an excessive amount of email for a legitimate user, leading to a possible Denial of Service (DoS) via a large amount of generated e-mail messages.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-290"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-20T16:15:35Z"
