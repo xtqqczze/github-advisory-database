@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgx4-7v3v-vwfm",
-  "modified": "2025-01-21T20:17:05Z",
+  "modified": "2025-02-21T21:01:32Z",
   "published": "2025-01-21T12:30:47Z",
   "aliases": [
     "CVE-2024-43709"
@@ -66,6 +66,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/elastic/elasticsearch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250221-0007"
     }
   ],
   "database_specific": {
