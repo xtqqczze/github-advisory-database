@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhw9-x46c-v6q4",
-  "modified": "2025-02-20T21:30:51Z",
+  "modified": "2025-02-21T12:32:11Z",
   "published": "2025-02-13T15:31:25Z",
   "aliases": [
     "CVE-2025-1094"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00015.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00024.html"
     },
     {
       "type": "WEB",
