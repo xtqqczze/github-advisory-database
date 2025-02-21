@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76p7-773f-r4q5",
-  "modified": "2025-02-13T22:16:34Z",
+  "modified": "2025-02-21T20:19:17Z",
   "published": "2025-02-10T18:30:47Z",
   "aliases": [
     "CVE-2024-11831"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.0.0"
             },
             {
               "fixed": "6.0.2"
@@ -43,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/yahoo/serialize-javascript/pull/173"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/yahoo/serialize-javascript/commit/7f3ac252d86b802454cb43782820aea2e0f6dc25"
     },
     {
       "type": "WEB",
