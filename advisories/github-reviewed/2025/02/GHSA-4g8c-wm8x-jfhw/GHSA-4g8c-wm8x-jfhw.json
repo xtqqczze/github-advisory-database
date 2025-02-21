@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g8c-wm8x-jfhw",
-  "modified": "2025-02-11T00:33:44Z",
+  "modified": "2025-02-21T21:05:06Z",
   "published": "2025-02-10T17:38:10Z",
   "aliases": [
     "CVE-2025-24970"
@@ -54,6 +54,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/netty/netty"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250221-0005"
     }
   ],
   "database_specific": {
