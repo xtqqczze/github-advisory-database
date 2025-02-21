@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc47-g7gv-4gpw",
-  "modified": "2025-02-06T23:47:52Z",
+  "modified": "2025-02-21T15:18:10Z",
   "published": "2025-02-06T06:31:26Z",
   "aliases": [
     "CVE-2024-57082"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.8.1"
+              "fixed": "1.9.1"
             }
           ]
         }
@@ -42,11 +42,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/rpldy/react-uploady/commit/386e0a80c428eb988e89fd2acf9bb0b786ac8028"
+    },
+    {
+      "type": "WEB",
       "url": "https://gist.github.com/tariqhawis/708e518de0c3b5af7430ec774f68f315"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/rpldy/react-uploady"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rpldy/react-uploady/releases/tag/v1.9.1"
     }
   ],
   "database_specific": {
