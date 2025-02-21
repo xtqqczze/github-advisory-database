@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh5c-w77m-vmmm",
-  "modified": "2025-02-03T18:30:37Z",
+  "modified": "2025-02-21T15:31:57Z",
   "published": "2024-07-12T15:31:28Z",
   "aliases": [
     "CVE-2024-40945"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/61a96da9649a6b6a1a5d5bde9374b045fdb5c12e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6325eab6c108fed27f60ff51852e3eac0ba23f3f"
     },
     {
       "type": "WEB",

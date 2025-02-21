@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r79j-x479-2vhw",
-  "modified": "2025-02-13T15:31:25Z",
+  "modified": "2025-02-21T15:32:00Z",
   "published": "2025-02-13T12:31:07Z",
   "aliases": [
     "CVE-2025-21700"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bc50835e83f60f56e9bec2b392fb5544f250fb6f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/deda09c0543a66fa51554abc5ffd723d99b191bf"
     }
   ],
   "database_specific": {

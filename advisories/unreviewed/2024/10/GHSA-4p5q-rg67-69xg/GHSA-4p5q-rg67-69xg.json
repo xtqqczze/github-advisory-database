@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4p5q-rg67-69xg",
-  "modified": "2024-10-24T00:33:36Z",
+  "modified": "2025-02-21T15:31:58Z",
   "published": "2024-10-21T21:30:54Z",
   "aliases": [
     "CVE-2024-50061"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50061"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2a21bad9964c91b34d65ba269914233720c0b1ce"
     },
     {
       "type": "WEB",
