@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p32-8vq4-qvph",
-  "modified": "2024-12-03T21:31:22Z",
+  "modified": "2025-02-21T06:31:08Z",
   "published": "2024-12-03T21:31:22Z",
   "aliases": [
     "CVE-2024-48080"
@@ -21,7 +21,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/moscajs/aedes/issues/1024"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moscajs/aedes/issues/1024#issuecomment-2671695219"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/mcollina/f06af2098665e4bb8372104425f3999e"
+    },
+    {
+      "type": "WEB",
       "url": "https://gist.github.com/pengwGit/cd3c1701a9e05b424fa6c60d86845de4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moscajs/aedes/releases/tag/v0.51.2"
     }
   ],
   "database_specific": {
