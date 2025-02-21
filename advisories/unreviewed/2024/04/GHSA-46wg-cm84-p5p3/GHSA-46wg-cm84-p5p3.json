@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46wg-cm84-p5p3",
-  "modified": "2024-06-28T18:31:42Z",
+  "modified": "2025-02-21T18:31:05Z",
   "published": "2024-04-27T00:30:38Z",
   "aliases": [
     "CVE-2024-2859"
   ],
-  "details": "By default, SANnav OVA is shipped with root user login enabled.  While protected by a password, access to root could expose SANnav to a remote attacker should they gain access to the root account. ",
+  "details": "By default, SANnav OVA is shipped with root user login enabled.  While protected by a password, access to root could expose SANnav to a remote attacker should they gain access to the root account.",
   "severity": [
     {
       "type": "CVSS_V3",

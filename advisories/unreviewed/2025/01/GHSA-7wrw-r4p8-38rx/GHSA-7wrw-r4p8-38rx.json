@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wrw-r4p8-38rx",
-  "modified": "2025-01-28T18:31:27Z",
+  "modified": "2025-02-21T18:31:06Z",
   "published": "2025-01-28T03:31:14Z",
   "aliases": [
     "CVE-2024-45336"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2025-3420"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250221-0003"
     }
   ],
   "database_specific": {

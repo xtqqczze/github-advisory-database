@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3whm-j4xm-rv8x",
-  "modified": "2025-02-10T21:31:35Z",
+  "modified": "2025-02-21T18:31:07Z",
   "published": "2025-02-06T18:31:05Z",
   "aliases": [
     "CVE-2025-22866"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2025-3447"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250221-0002"
     }
   ],
   "database_specific": {

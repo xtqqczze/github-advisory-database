@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7cw-79fv-35qf",
-  "modified": "2025-02-10T18:30:46Z",
+  "modified": "2025-02-21T18:31:08Z",
   "published": "2025-02-10T18:30:46Z",
   "aliases": [
     "CVE-2025-21690"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: storvsc: Ratelimit warning logs to prevent VM denial of service\n\nIf there's a persistent error in the hypervisor, the SCSI warning for\nfailed I/O can flood the kernel log and max out CPU utilization,\npreventing troubleshooting from the VM side. Ratelimit the warning so\nit doesn't DoS the VM.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-770"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-10T16:15:38Z"

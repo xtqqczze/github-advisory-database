@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7qm6-crcf-w49m",
-  "modified": "2025-02-20T15:31:09Z",
+  "modified": "2025-02-21T18:31:11Z",
   "published": "2025-02-20T15:31:09Z",
   "aliases": [
     "CVE-2023-51308"
   ],
   "details": "PHPJabbers Car Park Booking System v3.0 is vulnerable to Multiple HTML Injection in the \"name, plugin_sms_api_key, plugin_sms_country_code, title, plugin_sms_api_key, title\" parameters.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-80"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-20T15:15:11Z"
