@@ -20,20 +20,6 @@
         "ecosystem": "PyPI",
         "name": "bigflow"
       },
-      "ecosystem_specific": {
-        "affected_functions": [
-          "bigflow.build.operate._build_docker_image",
-          "bigflow.deploy.deploy_docker_image",
-          "bigflow.deploy._deploy_docker_image_from_local_repo",
-          "bigflow.deploy._deploy_docker_image_from_fs",
-          "bigflow.deploy._deploy_image_loaded_to_local_registry",
-          "bigflow.deploy.authenticate_to_registry",
-          "bigflow.deploy.check_images_exist",
-          "bigflow.deploy.deploy_dags_folder",
-          "bigflow.deploy.create_storage_client",
-          "bigflow.deploy.get_vault_token"
-        ]
-      },
       "ranges": [
         {
           "type": "ECOSYSTEM",
