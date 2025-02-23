@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwm2-fvjj-vcv3",
-  "modified": "2025-01-20T15:31:24Z",
+  "modified": "2025-02-23T09:30:48Z",
   "published": "2025-01-20T15:31:24Z",
   "aliases": [
     "CVE-2025-21655"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c9a40292a44e78f71258b8522655bffaf5753bdb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/388499293"
     }
   ],
   "database_specific": {
