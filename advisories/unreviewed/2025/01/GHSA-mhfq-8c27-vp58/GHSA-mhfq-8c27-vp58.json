@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhfq-8c27-vp58",
-  "modified": "2025-01-30T21:31:22Z",
+  "modified": "2025-02-24T12:31:59Z",
   "published": "2025-01-30T21:31:22Z",
   "aliases": [
     "CVE-2024-10604"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://fuchsia.googlesource.com/fuchsia/+/a3c17a4d6b3140f9175d6cf6ac4eb4e775f8dea8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2025-122-paper.pdf"
     }
   ],
   "database_specific": {

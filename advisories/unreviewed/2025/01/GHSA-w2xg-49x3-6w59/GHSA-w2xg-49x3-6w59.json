@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2xg-49x3-6w59",
-  "modified": "2025-01-30T21:31:22Z",
+  "modified": "2025-02-24T12:31:59Z",
   "published": "2025-01-30T21:31:22Z",
   "aliases": [
     "CVE-2024-10026"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/google/gvisor/commit/f956b5ac17ae1f60a4d21999b59ba18c55f86d56"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2025-122-paper.pdf"
     }
   ],
   "database_specific": {
