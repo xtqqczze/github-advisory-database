@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c8f9-2rww-56v5",
-  "modified": "2023-04-03T18:32:08Z",
+  "modified": "2025-02-24T21:31:42Z",
   "published": "2023-03-27T21:30:26Z",
   "aliases": [
     "CVE-2021-3923"
@@ -25,11 +25,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://lore.kernel.org/all/20220204100036.GA12348%40kili"
+    },
+    {
+      "type": "WEB",
       "url": "https://lore.kernel.org/all/20220204100036.GA12348@kili"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-200"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
