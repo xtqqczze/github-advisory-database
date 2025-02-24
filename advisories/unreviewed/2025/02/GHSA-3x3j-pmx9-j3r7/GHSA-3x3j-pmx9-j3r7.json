@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3x3j-pmx9-j3r7",
-  "modified": "2025-02-24T15:30:50Z",
+  "modified": "2025-02-24T18:32:41Z",
   "published": "2025-02-24T15:30:50Z",
   "aliases": [
     "CVE-2025-23017"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://workos.com/security/advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.authkit.com"
     }
   ],
   "database_specific": {

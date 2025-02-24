@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q34-p9w7-3f57",
-  "modified": "2024-12-10T06:31:40Z",
+  "modified": "2025-02-24T18:32:15Z",
   "published": "2024-12-10T06:31:40Z",
   "aliases": [
     "CVE-2023-6947"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-22",
       "CWE-25"
     ],
     "severity": "HIGH",
