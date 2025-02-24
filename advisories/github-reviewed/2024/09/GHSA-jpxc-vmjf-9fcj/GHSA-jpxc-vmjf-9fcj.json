@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpxc-vmjf-9fcj",
-  "modified": "2025-02-10T21:44:55Z",
+  "modified": "2025-02-24T15:15:37Z",
   "published": "2024-09-16T14:37:26Z",
   "aliases": [
     "CVE-2024-8775"
@@ -29,10 +29,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
+              "introduced": "2.17.0b1"
+            },
+            {
+              "fixed": "2.17.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "ansible-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
               "introduced": "0"
             },
             {
-              "last_affected": "2.17.4"
+              "fixed": "2.16.13"
             }
           ]
         }
@@ -43,6 +62,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8775"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ansible/ansible/commit/8a87e1c5d37422bc99d27ad4237d185cc233e035"
     },
     {
       "type": "WEB",
@@ -75,6 +98,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ansible/ansible"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ansible/ansible/blob/v2.16.13/changelogs/CHANGELOG-v2.16.rst#security-fixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ansible/ansible/blob/v2.17.6/changelogs/CHANGELOG-v2.17.rst#security-fixes"
     }
   ],
   "database_specific": {
