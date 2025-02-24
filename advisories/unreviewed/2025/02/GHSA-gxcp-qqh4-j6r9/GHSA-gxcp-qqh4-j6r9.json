@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gxcp-qqh4-j6r9",
+  "modified": "2025-02-24T06:31:07Z",
+  "published": "2025-02-24T06:31:06Z",
+  "aliases": [
+    "CVE-2024-13822"
+  ],
+  "details": "The Photo Contest  | Competition | Video Contest WordPress plugin through 2.8.1 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13822"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/1f0f1553-1987-428c-9fe3-ffb3f6b0aecc"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-24T06:15:11Z"
+  }
+}
