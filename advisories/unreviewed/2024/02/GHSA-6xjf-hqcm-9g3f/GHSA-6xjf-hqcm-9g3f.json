@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xjf-hqcm-9g3f",
-  "modified": "2024-02-23T12:30:31Z",
+  "modified": "2025-02-25T18:31:18Z",
   "published": "2024-02-23T12:30:31Z",
   "aliases": [
     "CVE-2024-25928"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Sitepact.This issue affects Sitepact: from n/a through 1.0.5.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Sitepact.This issue affects Sitepact: from n/a through 1.0.5.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m858-gm2f-6jcg",
-  "modified": "2025-02-20T12:31:15Z",
+  "modified": "2025-02-25T18:31:23Z",
   "published": "2025-02-20T12:31:15Z",
   "aliases": [
     "CVE-2025-1328"

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7q4p-93g6-4wf9",
+  "modified": "2025-02-25T18:31:24Z",
+  "published": "2025-02-25T18:31:24Z",
+  "aliases": [
+    "CVE-2025-26600"
+  ],
+  "details": "A use-after-free flaw was found in X.Org and Xwayland. When a device is removed while still frozen, the events queued for that device remain while the device is freed. Replaying the events will cause a use-after-free.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26600"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-26600"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2345252"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-25T16:15:39Z"
+  }
+}

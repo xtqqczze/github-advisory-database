@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7pr-3fcx-999q",
-  "modified": "2024-03-06T03:30:29Z",
+  "modified": "2025-02-25T18:31:18Z",
   "published": "2024-03-06T03:30:29Z",
   "aliases": [
     "CVE-2024-1220"
   ],
-  "details": "A stack-based buffer overflow in the built-in web server in Moxa NPort W2150A/W2250A Series firmware version 2.3 and prior allows a remote attacker to exploit the vulnerability by sending crafted payload to the web service. Successful exploitation of the vulnerability could result in denial of service.\n\n",
+  "details": "A stack-based buffer overflow in the built-in web server in Moxa NPort W2150A/W2250A Series firmware version 2.3 and prior allows a remote attacker to exploit the vulnerability by sending crafted payload to the web service. Successful exploitation of the vulnerability could result in denial of service.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-121"
+      "CWE-121",
+      "CWE-787"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
