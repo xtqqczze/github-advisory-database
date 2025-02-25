@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmjx-74cx-5p3f",
-  "modified": "2024-10-22T18:32:11Z",
+  "modified": "2025-02-25T09:32:34Z",
   "published": "2024-10-22T18:32:11Z",
   "aliases": [
     "CVE-2024-50311"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50311"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2024:6122"
     },
     {
       "type": "WEB",
