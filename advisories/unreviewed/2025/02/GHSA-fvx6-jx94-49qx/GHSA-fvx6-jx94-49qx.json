@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvx6-jx94-49qx",
-  "modified": "2025-02-25T06:30:52Z",
+  "modified": "2025-02-25T21:31:40Z",
   "published": "2025-02-25T06:30:52Z",
   "aliases": [
     "CVE-2025-22210"
   ],
   "details": "A SQL injection vulnerability in the Hikashop component versions 3.3.0-5.1.4 for Joomla allows authenticated attackers (administrator) to execute arbitrary SQL commands in the category management area in backend.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-25T06:15:23Z"

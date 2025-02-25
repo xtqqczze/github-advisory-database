@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w56m-wcpr-36rf",
-  "modified": "2025-02-20T09:31:36Z",
+  "modified": "2025-02-25T21:31:39Z",
   "published": "2025-02-20T09:31:36Z",
   "aliases": [
     "CVE-2025-0897"

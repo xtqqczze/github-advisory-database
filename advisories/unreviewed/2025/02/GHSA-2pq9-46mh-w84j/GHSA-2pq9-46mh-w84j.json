@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2pq9-46mh-w84j",
-  "modified": "2025-02-14T06:30:36Z",
+  "modified": "2025-02-25T21:31:33Z",
   "published": "2025-02-14T06:30:36Z",
   "aliases": [
     "CVE-2024-13692"
@@ -46,7 +46,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-285"
+      "CWE-285",
+      "CWE-639"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

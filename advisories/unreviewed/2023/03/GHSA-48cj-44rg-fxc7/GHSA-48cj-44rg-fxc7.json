@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48cj-44rg-fxc7",
-  "modified": "2023-04-03T18:32:06Z",
+  "modified": "2025-02-25T21:31:20Z",
   "published": "2023-03-23T21:30:19Z",
   "aliases": [
     "CVE-2023-1513"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/05/msg00006.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/kvm/20230214103304.3689213-1-gregkh%40linuxfoundation.org"
     },
     {
       "type": "WEB",

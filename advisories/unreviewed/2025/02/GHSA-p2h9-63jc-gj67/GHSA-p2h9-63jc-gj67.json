@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2h9-63jc-gj67",
-  "modified": "2025-02-11T15:32:24Z",
+  "modified": "2025-02-25T21:31:28Z",
   "published": "2025-02-11T12:30:54Z",
   "aliases": [
     "CVE-2025-0526"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://advisories.octopus.com/post/2024/sa2025-03"
+    },
+    {
+      "type": "WEB",
+      "url": "https://advisories.octopus.com/post/2025/sa2025-03"
     }
   ],
   "database_specific": {

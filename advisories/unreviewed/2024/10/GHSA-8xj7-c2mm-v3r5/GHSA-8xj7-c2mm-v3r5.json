@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xj7-c2mm-v3r5",
-  "modified": "2024-10-08T18:33:17Z",
+  "modified": "2025-02-25T21:31:27Z",
   "published": "2024-10-08T18:33:17Z",
   "aliases": [
     "CVE-2024-43583"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43583"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Kvngtheta/CVE-2024-43583-PoC/blob/main/poc-43583.py"
     },
     {
       "type": "WEB",
