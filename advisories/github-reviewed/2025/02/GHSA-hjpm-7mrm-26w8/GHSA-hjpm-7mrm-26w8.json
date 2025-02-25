@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjpm-7mrm-26w8",
-  "modified": "2025-02-24T20:54:25Z",
+  "modified": "2025-02-25T18:00:22Z",
   "published": "2025-02-24T18:27:55Z",
   "aliases": [
     "CVE-2025-27143"
@@ -45,12 +45,24 @@
       "url": "https://github.com/better-auth/better-auth/security/advisories/GHSA-hjpm-7mrm-26w8"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27143"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/better-auth/better-auth/commit/24659aefc35a536b95ea4e5347e52c8803910153"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/better-auth/better-auth/commit/b381cac7aafd6aa53ef78b6ab771ebfa24643c80"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/better-auth/better-auth"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/better-auth/better-auth/releases/tag/v1.1.21"
     }
   ],
   "database_specific": {
@@ -60,6 +72,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-02-24T18:27:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-02-24T23:15:11Z"
   }
 }
