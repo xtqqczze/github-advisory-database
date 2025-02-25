@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qm75-22fr-fxmp",
-  "modified": "2024-03-19T15:30:34Z",
+  "modified": "2025-02-25T15:34:35Z",
   "published": "2024-03-19T15:30:34Z",
   "aliases": [
     "CVE-2024-29138"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in DEV Institute Restrict User Access – Membership Plugin with Force allows Reflected XSS.This issue affects Restrict User Access – Membership Plugin with Force: from n/a through 2.5.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in DEV Institute Restrict User Access – Membership Plugin with Force allows Reflected XSS.This issue affects Restrict User Access – Membership Plugin with Force: from n/a through 2.5.",
   "severity": [
     {
       "type": "CVSS_V3",

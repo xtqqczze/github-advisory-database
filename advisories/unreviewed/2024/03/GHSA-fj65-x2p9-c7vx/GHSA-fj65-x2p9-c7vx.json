@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj65-x2p9-c7vx",
-  "modified": "2024-03-19T15:30:34Z",
+  "modified": "2025-02-25T15:34:34Z",
   "published": "2024-03-19T15:30:34Z",
   "aliases": [
     "CVE-2024-29136"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in Themefic Tourfic.This issue affects Tourfic: from n/a through 2.11.17.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in Themefic Tourfic.This issue affects Tourfic: from n/a through 2.11.17.",
   "severity": [
     {
       "type": "CVSS_V3",

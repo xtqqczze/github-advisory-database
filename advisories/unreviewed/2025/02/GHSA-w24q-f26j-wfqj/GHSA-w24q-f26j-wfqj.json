@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w24q-f26j-wfqj",
-  "modified": "2025-02-25T00:31:50Z",
+  "modified": "2025-02-25T15:34:35Z",
   "published": "2025-02-25T00:31:50Z",
   "aliases": [
     "CVE-2024-53544"
   ],
   "details": "NovaCHRON Zeitsysteme GmbH & Co. KG Smart Time Plus v8.x to v8.6 was discovered to contain a SQL injection vulnerability via the getCookieNames method in the smarttimeplus/MySQLConnection endpoint.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-24T23:15:10Z"

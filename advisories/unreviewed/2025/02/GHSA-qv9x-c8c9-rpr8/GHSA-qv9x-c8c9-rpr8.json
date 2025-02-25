@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv9x-c8c9-rpr8",
-  "modified": "2025-02-07T09:31:51Z",
+  "modified": "2025-02-25T15:34:35Z",
   "published": "2025-02-07T09:31:51Z",
   "aliases": [
     "CVE-2025-23085"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23085"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00031.html"
     },
     {
       "type": "WEB",
