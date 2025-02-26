@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cj2-qqxj-5m3r",
-  "modified": "2025-02-24T20:49:38Z",
+  "modified": "2025-02-26T21:42:55Z",
   "published": "2025-02-24T18:32:42Z",
   "aliases": [
     "CVE-2025-26803"
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/phusion/passenger/releases/tag/release-6.0.26"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/passenger/CVE-2025-26803.yml"
     },
     {
       "type": "WEB",
