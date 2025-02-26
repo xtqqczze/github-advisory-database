@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfq7-h592-v3xj",
-  "modified": "2024-03-28T09:31:12Z",
+  "modified": "2025-02-26T00:32:10Z",
   "published": "2024-02-24T00:30:20Z",
   "aliases": [
     "CVE-2024-24681"
   ],
   "details": "Insecure AES key in Yealink Configuration Encrypt Tool below verrsion 1.2. A single, vendorwide, hardcoded AES key in the configuration tool used to encrypt provisioning documents was leaked leading to a compromise of confidentiality of provisioning documents.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-798"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-02-23T23:15:09Z"
