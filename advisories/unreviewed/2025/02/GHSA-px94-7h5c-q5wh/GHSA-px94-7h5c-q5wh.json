@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-px94-7h5c-q5wh",
+  "modified": "2025-02-26T21:30:32Z",
+  "published": "2025-02-26T21:30:32Z",
+  "aliases": [
+    "CVE-2024-57423"
+  ],
+  "details": "A Cross Site Scripting vulnerability in CloudClassroom-PHP Project v1.0 allows a remote attacker to execute arbitrary code via the exid parameter of the assessment function.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57423"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/harshad-alt/CVE/blob/main/CVE-2024-57423.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-26T21:15:18Z"
+  }
+}
