@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6gw-w398-hv78",
-  "modified": "2025-02-25T18:38:50Z",
+  "modified": "2025-02-26T22:16:36Z",
   "published": "2025-02-24T22:49:19Z",
   "aliases": [
     "CVE-2025-27144"
@@ -29,6 +29,44 @@
             },
             {
               "fixed": "4.0.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/go-jose/go-jose/v3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/go-jose/go-jose"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.4"
             }
           ]
         }
