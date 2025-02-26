@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8mxc-vqrq-gcm8",
+  "modified": "2025-02-26T18:30:38Z",
+  "published": "2025-02-26T18:30:38Z",
+  "aliases": [
+    "CVE-2024-53427"
+  ],
+  "details": "jq v1.7.1 contains a stack-buffer-overflow in the decNumberCopy function within decNumber.c.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53427"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jqlang/jq/issues/3196"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-26T16:15:16Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjgv-6mwj-prq2",
-  "modified": "2025-02-26T00:32:19Z",
+  "modified": "2025-02-26T18:30:38Z",
   "published": "2025-02-26T00:32:19Z",
   "aliases": [
     "CVE-2025-22211"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22211"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/AdamWallwork/CVEs/tree/main/2025/CVE-2025-22211"
     },
     {
       "type": "WEB",
