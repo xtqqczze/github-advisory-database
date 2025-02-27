@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8884-7rm9-mrx4",
-  "modified": "2025-02-11T18:31:42Z",
+  "modified": "2025-02-27T21:32:07Z",
   "published": "2025-02-11T18:31:42Z",
   "aliases": [
     "CVE-2025-24438"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2787-j4hr-mpvr",
-  "modified": "2023-03-15T15:30:23Z",
+  "modified": "2025-02-27T21:31:49Z",
   "published": "2023-03-10T15:30:42Z",
   "aliases": [
     "CVE-2022-48111"

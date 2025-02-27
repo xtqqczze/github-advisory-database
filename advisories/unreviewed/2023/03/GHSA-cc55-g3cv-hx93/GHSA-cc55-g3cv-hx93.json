@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc55-g3cv-hx93",
-  "modified": "2023-03-16T18:30:28Z",
+  "modified": "2025-02-27T21:31:53Z",
   "published": "2023-03-14T18:30:23Z",
   "aliases": [
     "CVE-2023-27069"

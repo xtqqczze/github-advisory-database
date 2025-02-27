@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49vr-v9q4-q4ph",
-  "modified": "2024-10-16T09:30:30Z",
+  "modified": "2025-02-27T21:31:59Z",
   "published": "2024-10-16T09:30:30Z",
   "aliases": [
     "CVE-2020-36835"
@@ -34,7 +34,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-862"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

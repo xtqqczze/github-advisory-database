@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p6v-g3wm-x2qp",
-  "modified": "2025-01-24T00:31:47Z",
+  "modified": "2025-02-27T21:32:01Z",
   "published": "2025-01-24T00:31:47Z",
   "aliases": [
     "CVE-2024-53379"
   ],
   "details": "Heap buffer overflow in the server site handshake implementation in Real Time Logic LLC's SharkSSL version (from 05/05/24) commit 64808a5e12c83b38f85c943dee0112e428dc2a43 allows a remote attacker to trigger a Denial-of-Service via a malformed Client-Hello message.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-23T23:15:07Z"
