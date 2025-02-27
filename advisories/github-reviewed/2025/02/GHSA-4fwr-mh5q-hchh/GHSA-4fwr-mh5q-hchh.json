@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fwr-mh5q-hchh",
-  "modified": "2025-02-27T15:31:50Z",
+  "modified": "2025-02-27T18:50:25Z",
   "published": "2025-02-26T18:30:39Z",
   "aliases": [
     "CVE-2025-1634"
@@ -25,10 +25,48 @@
           "type": "ECOSYSTEM",
           "events": [
             {
+              "introduced": "3.16.0.CR1"
+            },
+            {
+              "fixed": "3.19.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.quarkus:quarkus-resteasy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.9.0.CR1"
+            },
+            {
+              "fixed": "3.15.3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.quarkus:quarkus-resteasy"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
               "introduced": "0"
             },
             {
-              "last_affected": "3.19.0"
+              "fixed": "3.8.6.1"
             }
           ]
         }
@@ -46,7 +84,31 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/pull/46425"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/pull/46426"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/commit/291296befabf659b71acbfc6e03a12bd09a920f8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/commit/30d949a4c54ba1057738849a804d2329c09e57be"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/commit/70ffbd00d71d43afa7eade32d6ed586cf927c237"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/quarkusio/quarkus/commit/80b8eb41678cdccb46e964dc324d048a5ef00f4b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:1884"
     },
     {
       "type": "WEB",
