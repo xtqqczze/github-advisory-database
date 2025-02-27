@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3m5-p52q-pvhf",
-  "modified": "2024-12-05T15:31:02Z",
+  "modified": "2025-02-27T18:31:04Z",
   "published": "2024-12-05T15:31:02Z",
   "aliases": [
     "CVE-2024-51549"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-22",
       "CWE-36"
     ],
     "severity": "CRITICAL",

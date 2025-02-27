@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvj3-f5v8-hgxh",
-  "modified": "2025-02-27T03:34:05Z",
+  "modified": "2025-02-27T18:31:10Z",
   "published": "2025-02-27T03:34:05Z",
   "aliases": [
     "CVE-2025-21759"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: mcast: extend RCU protection in igmp6_send()\n\nigmp6_send() can be called without RTNL or RCU being held.\n\nExtend RCU protection so that we can safely fetch the net pointer\nand avoid a potential UAF.\n\nNote that we no longer can use sock_alloc_send_skb() because\nipv6.igmp_sk uses GFP_KERNEL allocations which can sleep.\n\nInstead use alloc_skb() and charge the net->ipv6.igmp_sk\nsocket under RCU protection.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:16Z"

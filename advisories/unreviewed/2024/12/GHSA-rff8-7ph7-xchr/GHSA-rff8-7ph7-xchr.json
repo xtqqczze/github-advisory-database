@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rff8-7ph7-xchr",
-  "modified": "2024-12-05T15:31:01Z",
+  "modified": "2025-02-27T18:31:02Z",
   "published": "2024-12-05T15:31:01Z",
   "aliases": [
     "CVE-2024-48847"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-327",
       "CWE-328"
     ],
     "severity": "HIGH",

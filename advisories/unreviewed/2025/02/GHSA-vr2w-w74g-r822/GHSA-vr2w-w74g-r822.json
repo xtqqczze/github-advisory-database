@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vr2w-w74g-r822",
-  "modified": "2025-02-27T03:34:06Z",
+  "modified": "2025-02-27T18:31:11Z",
   "published": "2025-02-27T03:34:06Z",
   "aliases": [
     "CVE-2025-21791"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvrf: use RCU protection in l3mdev_l3_out()\n\nl3mdev_l3_out() can be called without RCU being held:\n\nraw_sendmsg()\n ip_push_pending_frames()\n  ip_send_skb()\n   ip_local_out()\n    __ip_local_out()\n     l3mdev_ip_out()\n\nAdd rcu_read_lock() / rcu_read_unlock() pair to avoid\na potential UAF.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:19Z"

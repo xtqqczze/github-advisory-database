@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3fg-qxxf-34w3",
-  "modified": "2023-03-24T15:30:21Z",
+  "modified": "2025-02-27T18:30:52Z",
   "published": "2023-03-19T03:30:25Z",
   "aliases": [
     "CVE-2022-48423"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-787"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
