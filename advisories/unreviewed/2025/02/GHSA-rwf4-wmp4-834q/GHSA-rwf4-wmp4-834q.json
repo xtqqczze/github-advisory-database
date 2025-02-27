@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rwf4-wmp4-834q",
+  "modified": "2025-02-27T03:34:05Z",
+  "published": "2025-02-27T03:34:05Z",
+  "aliases": [
+    "CVE-2025-21772"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npartitions: mac: fix handling of bogus partition table\n\nFix several issues in partition probing:\n\n - The bailout for a bad partoffset must use put_dev_sector(), since the\n   preceding read_part_sector() succeeded.\n - If the partition table claims a silly sector size like 0xfff bytes\n   (which results in partition table entries straddling sector boundaries),\n   bail out instead of accessing out-of-bounds memory.\n - We must not assume that the partition table contains proper NUL\n   termination - use strnlen() and strncmp() instead of strlen() and\n   strcmp().",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21772"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/27a39d006f85e869be68c1d5d2ce05e5d6445bf5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6578717ebca91678131d2b1f4ba4258e60536e9f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7fa9706722882f634090bfc9af642bf9ed719e27"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/80e648042e512d5a767da251d44132553fe04ae0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/92527100be38ede924768f4277450dfe8a40e16b"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-27T03:15:17Z"
+  }
+}

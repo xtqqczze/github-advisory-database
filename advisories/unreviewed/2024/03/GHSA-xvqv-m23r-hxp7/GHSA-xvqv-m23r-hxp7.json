@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvqv-m23r-hxp7",
-  "modified": "2024-03-15T21:30:44Z",
+  "modified": "2025-02-27T03:33:55Z",
   "published": "2024-03-15T21:30:44Z",
   "aliases": [
     "CVE-2021-47135"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmt76: mt7921: fix possible AOOB issue in mt7921_mcu_tx_rate_report\n\nFix possible array out of bound access in mt7921_mcu_tx_rate_report.\nRemove unnecessary varibable in mt7921_mcu_tx_rate_report",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-15T21:15:07Z"

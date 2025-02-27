@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjqg-r9g3-49qj",
-  "modified": "2024-03-16T03:30:59Z",
+  "modified": "2025-02-27T03:33:55Z",
   "published": "2024-03-16T03:30:59Z",
   "aliases": [
     "CVE-2023-51512"
   ],
-  "details": "Cross Site Request Forgery (CSRF) vulnerability in WBW Product Table by WBW.This issue affects Product Table by WBW: from n/a through 1.8.6.\n\n",
+  "details": "Cross Site Request Forgery (CSRF) vulnerability in WBW Product Table by WBW.This issue affects Product Table by WBW: from n/a through 1.8.6.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-352"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

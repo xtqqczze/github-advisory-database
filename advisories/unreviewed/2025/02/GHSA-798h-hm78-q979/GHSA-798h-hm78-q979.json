@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-798h-hm78-q979",
+  "modified": "2025-02-27T03:34:05Z",
+  "published": "2025-02-27T03:34:05Z",
+  "aliases": [
+    "CVE-2025-21763"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nneighbour: use RCU protection in __neigh_notify()\n\n__neigh_notify() can be called without RTNL or RCU protection.\n\nUse RCU protection to avoid potential UAF.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21763"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1cbb2aa90cd3fba15ad7efb5cdda28f3d1082379"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/559307d25235e24b5424778c7332451b6c741159"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/784eb2376270e086f7db136d154b8404edacf97b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/becbd5850c03ed33b232083dd66c6e38c0c0e569"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cdd5c2a12ddad8a77ce1838ff9f29aa587de82df"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-27T03:15:16Z"
+  }
+}
