@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4m6c-v88j-qqxh",
-  "modified": "2024-06-27T12:30:44Z",
+  "modified": "2025-02-27T15:31:49Z",
   "published": "2024-04-03T18:30:43Z",
   "aliases": [
     "CVE-2024-26778"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbdev: savage: Error out if pixclock equals zero\n\nThe userspace program could pass any values to the driver through\nioctl() interface. If the driver doesn't check the value of pixclock,\nit may cause divide-by-zero error.\n\nAlthough pixclock is checked in savagefb_decode_var(), but it is not\nchecked properly in savagefb_probe(). Fix this by checking whether\npixclock is zero in the function savagefb_check_var() before\ninfo->var.pixclock is used as the divisor.\n\nThis is similar to CVE-2022-3061 in i740fb which was fixed by\ncommit 15cf0b8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T17:15:53Z"

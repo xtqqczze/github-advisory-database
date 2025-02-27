@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqch-c6jh-g9xj",
-  "modified": "2024-03-29T15:30:32Z",
+  "modified": "2025-02-27T15:31:49Z",
   "published": "2024-03-29T15:30:32Z",
   "aliases": [
     "CVE-2024-30497"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in I Thirteen Web Solution WP Responsive Tabs horizontal vertical and accordion Tabs.This issue affects WP Responsive Tabs horizontal vertical and accordion Tabs: from n/a through 1.1.17.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in I Thirteen Web Solution WP Responsive Tabs horizontal vertical and accordion Tabs.This issue affects WP Responsive Tabs horizontal vertical and accordion Tabs: from n/a through 1.1.17.",
   "severity": [
     {
       "type": "CVSS_V3",

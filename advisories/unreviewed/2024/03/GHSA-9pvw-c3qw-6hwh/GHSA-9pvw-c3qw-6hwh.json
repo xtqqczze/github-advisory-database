@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9pvw-c3qw-6hwh",
-  "modified": "2024-03-29T15:30:31Z",
+  "modified": "2025-02-27T15:31:49Z",
   "published": "2024-03-29T15:30:31Z",
   "aliases": [
     "CVE-2024-30478"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Bulletin WordPress Announcement & Notification Banner Plugin – Bulletin.This issue affects WordPress Announcement & Notification Banner Plugin – Bulletin: from n/a through 3.8.5.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Bulletin WordPress Announcement & Notification Banner Plugin – Bulletin.This issue affects WordPress Announcement & Notification Banner Plugin – Bulletin: from n/a through 3.8.5.",
   "severity": [
     {
       "type": "CVSS_V3",

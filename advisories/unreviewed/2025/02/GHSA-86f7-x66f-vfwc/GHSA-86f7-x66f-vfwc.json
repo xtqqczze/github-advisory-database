@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86f7-x66f-vfwc",
-  "modified": "2025-02-27T03:34:02Z",
+  "modified": "2025-02-27T15:31:50Z",
   "published": "2025-02-27T03:34:02Z",
   "aliases": [
     "CVE-2024-52559"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52559"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2b99b2c4621d13bd4374ef384e8f1fc188d0a5df"
     },
     {
       "type": "WEB",

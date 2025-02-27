@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93v4-m245-8mrg",
-  "modified": "2024-03-29T15:30:31Z",
+  "modified": "2025-02-27T15:31:48Z",
   "published": "2024-03-29T15:30:31Z",
   "aliases": [
     "CVE-2024-30427"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Spiffy Plugins Spiffy Calendar allows Reflected XSS.This issue affects Spiffy Calendar: from n/a through 4.9.7.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Spiffy Plugins Spiffy Calendar allows Reflected XSS.This issue affects Spiffy Calendar: from n/a through 4.9.7.",
   "severity": [
     {
       "type": "CVSS_V3",

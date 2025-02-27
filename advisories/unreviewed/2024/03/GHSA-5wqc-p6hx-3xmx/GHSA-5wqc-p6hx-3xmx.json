@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wqc-p6hx-3xmx",
-  "modified": "2024-03-29T15:30:32Z",
+  "modified": "2025-02-27T15:31:49Z",
   "published": "2024-03-29T15:30:32Z",
   "aliases": [
     "CVE-2024-30500"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in CubeWP CubeWP – All-in-One Dynamic Content Framework.This issue affects CubeWP – All-in-One Dynamic Content Framework: from n/a through 1.1.12.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in CubeWP CubeWP – All-in-One Dynamic Content Framework.This issue affects CubeWP – All-in-One Dynamic Content Framework: from n/a through 1.1.12.",
   "severity": [
     {
       "type": "CVSS_V3",

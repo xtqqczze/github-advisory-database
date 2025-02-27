@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cp7-j8xg-p2m2",
-  "modified": "2024-04-03T18:30:43Z",
+  "modified": "2025-02-27T15:31:49Z",
   "published": "2024-04-03T18:30:43Z",
   "aliases": [
     "CVE-2024-26774"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\next4: avoid dividing by 0 in mb_update_avg_fragment_size() when block bitmap corrupt\n\nDetermine if bb_fragments is 0 instead of determining bb_free to eliminate\nthe risk of dividing by zero when the block bitmap is corrupted.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T17:15:53Z"

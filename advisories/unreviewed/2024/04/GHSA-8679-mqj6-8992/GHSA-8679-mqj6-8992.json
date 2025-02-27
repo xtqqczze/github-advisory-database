@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8679-mqj6-8992",
-  "modified": "2024-04-01T18:30:56Z",
+  "modified": "2025-02-27T15:31:49Z",
   "published": "2024-04-01T18:30:56Z",
   "aliases": [
     "CVE-2024-25574"
   ],
-  "details": "\nSQL injection vulnerability exists in GetDIAE_usListParameters.\n\n",
+  "details": "SQL injection vulnerability exists in GetDIAE_usListParameters.",
   "severity": [
     {
       "type": "CVSS_V3",
