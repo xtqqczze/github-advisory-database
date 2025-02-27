@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc9g-7x7r-c8w7",
-  "modified": "2023-11-14T18:30:22Z",
+  "modified": "2025-02-27T00:30:25Z",
   "published": "2023-11-06T12:30:24Z",
   "aliases": [
     "CVE-2023-46823"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Avirtum ImageLinks Interactive Image Builder for WordPress allows SQL Injection.This issue affects ImageLinks Interactive Image Builder for WordPress: from n/a through 1.5.4.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Avirtum ImageLinks Interactive Image Builder for WordPress allows SQL Injection.This issue affects ImageLinks Interactive Image Builder for WordPress: from n/a through 1.5.4.",
   "severity": [
     {
       "type": "CVSS_V3",

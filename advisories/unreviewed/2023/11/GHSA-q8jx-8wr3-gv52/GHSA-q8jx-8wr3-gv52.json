@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8jx-8wr3-gv52",
-  "modified": "2024-11-13T00:30:47Z",
+  "modified": "2025-02-27T00:30:25Z",
   "published": "2023-11-06T06:30:26Z",
   "aliases": [
     "CVE-2023-4699"
   ],
-  "details": "Insufficient Verification of Data Authenticity vulnerability in Mitsubishi Electric Corporation MELSEC-F Series main modules and MELSEC iQ-F Series CPU modules allows a remote unauthenticated attacker to reset the memory of the products to factory default state and cause denial-of-service (DoS) condition on the products by sending specific packets.\n\n\n\n\n\n\n",
+  "details": "Insufficient Verification of Data Authenticity vulnerability in Mitsubishi Electric Corporation MELSEC-F Series main modules and MELSEC iQ-F Series CPU modules allows a remote unauthenticated attacker to reset the memory of the products to factory default state and cause denial-of-service (DoS) condition on the products by sending specific packets.",
   "severity": [
     {
       "type": "CVSS_V3",

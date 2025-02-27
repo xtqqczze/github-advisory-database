@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mvh5-v533-3v55",
-  "modified": "2023-11-10T06:30:18Z",
+  "modified": "2025-02-27T00:30:25Z",
   "published": "2023-11-06T09:30:15Z",
   "aliases": [
     "CVE-2023-35911"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Creative Solutions Contact Form Generator : Creative form builder for WordPress allows SQL Injection.This issue affects Contact Form Generator : Creative form builder for WordPress: from n/a through 2.6.0.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Creative Solutions Contact Form Generator : Creative form builder for WordPress allows SQL Injection.This issue affects Contact Form Generator : Creative form builder for WordPress: from n/a through 2.6.0.",
   "severity": [
     {
       "type": "CVSS_V3",
