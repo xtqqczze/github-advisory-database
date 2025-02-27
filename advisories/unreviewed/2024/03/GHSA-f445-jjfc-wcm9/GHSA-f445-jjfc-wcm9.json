@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f445-jjfc-wcm9",
-  "modified": "2024-03-19T15:30:33Z",
+  "modified": "2025-02-27T06:30:53Z",
   "published": "2024-03-19T15:30:33Z",
   "aliases": [
     "CVE-2024-29127"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in AAM Advanced Access Manager allows Reflected XSS.This issue affects Advanced Access Manager: from n/a through 6.9.20.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in AAM Advanced Access Manager allows Reflected XSS.This issue affects Advanced Access Manager: from n/a through 6.9.20.",
   "severity": [
     {
       "type": "CVSS_V3",

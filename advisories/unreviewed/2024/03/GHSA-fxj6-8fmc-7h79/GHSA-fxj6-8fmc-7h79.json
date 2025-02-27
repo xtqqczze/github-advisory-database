@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxj6-8fmc-7h79",
-  "modified": "2024-03-18T21:31:23Z",
+  "modified": "2025-02-27T06:30:53Z",
   "published": "2024-03-18T21:31:23Z",
   "aliases": [
     "CVE-2024-0780"
   ],
   "details": "The Enjoy Social Feed plugin for WordPress website WordPress plugin through 6.2.2 does not have authorisation when resetting its database, allowing any authenticated users, such as subscriber to perform such action",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-18T19:15:06Z"

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6qjp-wm6g-m32r",
+  "modified": "2025-02-27T06:30:53Z",
+  "published": "2025-02-27T06:30:53Z",
+  "aliases": [
+    "CVE-2024-2321"
+  ],
+  "details": "An incorrect authorization vulnerability exists in multiple WSO2 products, allowing protected APIs to be accessed directly using a refresh token instead of the expected access token. Due to improper authorization checks and token mapping, session cookies are not required for API access, potentially enabling unauthorized operations.\n\nExploitation requires an attacker to obtain a valid refresh token of an admin user. Since refresh tokens generally have a longer expiration time, this could lead to prolonged unauthorized access to API resources, impacting data confidentiality and integrity.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-2321"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2024/WSO2-2024-3213"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-02-27T05:15:13Z"
+  }
+}
