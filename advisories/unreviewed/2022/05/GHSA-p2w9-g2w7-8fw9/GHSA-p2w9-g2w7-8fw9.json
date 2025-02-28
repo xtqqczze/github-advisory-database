@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2w9-g2w7-8fw9",
-  "modified": "2022-08-16T00:00:42Z",
+  "modified": "2025-02-28T15:30:55Z",
   "published": "2022-05-24T19:03:15Z",
   "aliases": [
     "CVE-2021-3549"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202208-30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250228-0005"
     }
   ],
   "database_specific": {

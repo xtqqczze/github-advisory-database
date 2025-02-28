@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c2p-rqx3-w4px",
-  "modified": "2024-12-24T03:30:46Z",
+  "modified": "2025-02-28T15:30:59Z",
   "published": "2024-12-23T18:30:47Z",
   "aliases": [
     "CVE-2024-40896"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/libxml2/-/issues/761"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250228-0004"
     }
   ],
   "database_specific": {

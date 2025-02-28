@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8qh-8j65-v4j9",
-  "modified": "2025-02-11T00:31:36Z",
+  "modified": "2025-02-28T15:30:59Z",
   "published": "2024-05-14T15:32:52Z",
   "aliases": [
     "CVE-2024-26306"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/esnet/iperf/releases/tag/3.17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250228-0007"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv7p-rjf3-9fr5",
-  "modified": "2025-01-22T03:30:43Z",
+  "modified": "2025-02-28T15:30:59Z",
   "published": "2025-01-22T03:30:43Z",
   "aliases": [
     "CVE-2025-23083"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://nodejs.org/en/blog/vulnerability/january-2025-security-releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250228-0008"
     }
   ],
   "database_specific": {

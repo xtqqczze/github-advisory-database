@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch7h-w2mm-gm7m",
-  "modified": "2022-09-02T00:01:10Z",
+  "modified": "2025-02-28T15:30:57Z",
   "published": "2022-08-27T00:00:45Z",
   "aliases": [
     "CVE-2021-3735"
@@ -30,11 +30,16 @@
     {
       "type": "WEB",
       "url": "https://security-tracker.debian.org/tracker/CVE-2021-3735"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250228-0009"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-400"
+      "CWE-400",
+      "CWE-667"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
