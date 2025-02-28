@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7qcm-45jm-fj5g",
-  "modified": "2025-01-23T18:31:17Z",
+  "modified": "2025-02-28T00:30:51Z",
   "published": "2025-01-19T12:31:25Z",
   "aliases": [
     "CVE-2025-21637"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsctp: sysctl: udp_port: avoid using current->nsproxy\n\nAs mentioned in a previous commit of this series, using the 'net'\nstructure via 'current' is not recommended for different reasons:\n\n- Inconsistency: getting info from the reader's/writer's netns vs only\n  from the opener's netns.\n\n- current->nsproxy can be NULL in some cases, resulting in an 'Oops'\n  (null-ptr-deref), e.g. when the current task is exiting, as spotted by\n  syzbot [1] using acct(2).\n\nThe 'net' structure can be obtained from the table->data using\ncontainer_of().\n\nNote that table->data could also be used directly, but that would\nincrease the size of this fix, while 'sctp.ctl_sock' still needs to be\nretrieved from 'net' structure.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-19T11:15:09Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3qj-q3px-pcxw",
-  "modified": "2025-01-23T18:31:18Z",
+  "modified": "2025-02-28T00:30:51Z",
   "published": "2025-01-19T12:31:27Z",
   "aliases": [
     "CVE-2024-57925"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix a missing return value check bug\n\nIn the smb2_send_interim_resp(), if ksmbd_alloc_work_struct()\nfails to allocate a node, it returns a NULL pointer to the\nin_work pointer. This can lead to an illegal memory write of\nin_work->response_buf when allocate_interim_rsp_buf() attempts\nto perform a kzalloc() on it.\n\nTo address this issue, incorporating a check for the return\nvalue of ksmbd_alloc_work_struct() ensures that the function\nreturns immediately upon allocation failure, thereby preventing\nthe aforementioned illegal memory access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-19T12:15:26Z"

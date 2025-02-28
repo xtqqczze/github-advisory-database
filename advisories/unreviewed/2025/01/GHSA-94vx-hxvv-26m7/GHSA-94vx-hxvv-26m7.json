@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94vx-hxvv-26m7",
-  "modified": "2025-02-02T12:30:25Z",
+  "modified": "2025-02-28T00:30:51Z",
   "published": "2025-01-19T12:31:26Z",
   "aliases": [
     "CVE-2024-57922"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Add check for granularity in dml ceil/floor helpers\n\n[Why]\nWrapper functions for dcn_bw_ceil2() and dcn_bw_floor2()\nshould check for granularity is non zero to avoid assert and\ndivide-by-zero error in dcn_bw_ functions.\n\n[How]\nAdd check for granularity 0.\n\n(cherry picked from commit f6e09701c3eb2ccb8cb0518e0b67f1c69742a4ec)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-01-19T12:15:26Z"
