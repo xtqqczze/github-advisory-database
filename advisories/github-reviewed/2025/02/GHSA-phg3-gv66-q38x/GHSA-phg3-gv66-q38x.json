@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phg3-gv66-q38x",
-  "modified": "2025-02-27T18:31:07Z",
+  "modified": "2025-02-28T17:19:59Z",
   "published": "2025-02-13T15:31:25Z",
   "aliases": [
     "CVE-2025-1247"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.16.0.CR1"
             },
             {
               "fixed": "3.18.2"
@@ -44,10 +44,86 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.16.0.CR1"
             },
             {
               "fixed": "3.18.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.quarkus:quarkus-rest"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.9.0.CR1"
+            },
+            {
+              "fixed": "3.15.3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.quarkus:quarkus-rest-deployment"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.9.0.CR1"
+            },
+            {
+              "fixed": "3.15.3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.quarkus:quarkus-rest"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.quarkus:quarkus-rest-deployment"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.6.1"
             }
           ]
         }
@@ -69,6 +145,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/commit/d8df15cec17dc5d085efc372d77cbef1341ae071"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/quarkusio/quarkus/commit/f42166ee7041ed09b7183d5dbf3ece2439b16676"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:1884"
     },
     {
@@ -86,6 +170,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/quarkusio/quarkus"
+    },
+    {
+      "type": "WEB",
+      "url": "https://quarkus.io/blog/cve-fixes-feb-2025"
     }
   ],
   "database_specific": {
