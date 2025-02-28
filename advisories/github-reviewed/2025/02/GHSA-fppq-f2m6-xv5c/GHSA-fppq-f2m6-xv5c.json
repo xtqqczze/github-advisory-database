@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fppq-f2m6-xv5c",
-  "modified": "2025-02-13T15:27:50Z",
+  "modified": "2025-02-28T17:44:35Z",
   "published": "2025-02-11T18:31:43Z",
   "aliases": [
     "CVE-2025-24434"
@@ -146,7 +146,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-285"
+      "CWE-285",
+      "CWE-863"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
