@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf6x-59hh-332f",
-  "modified": "2025-03-01T00:11:46Z",
+  "modified": "2025-03-01T23:08:31Z",
   "published": "2025-03-01T00:11:46Z",
   "aliases": [],
   "summary": " Formwork has a cross-site scripting (XSS) vulnerability in Site title",
