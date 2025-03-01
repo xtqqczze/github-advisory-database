@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mq7-wpm3-gv26",
-  "modified": "2024-05-21T18:31:24Z",
+  "modified": "2025-03-01T03:30:51Z",
   "published": "2024-05-21T18:31:23Z",
   "aliases": [
     "CVE-2024-22273"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-125"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

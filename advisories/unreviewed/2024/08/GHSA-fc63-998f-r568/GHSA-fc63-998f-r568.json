@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc63-998f-r568",
-  "modified": "2024-08-03T09:30:35Z",
+  "modified": "2025-03-01T03:30:55Z",
   "published": "2024-08-03T09:30:35Z",
   "aliases": [
     "CVE-2024-7031"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7031"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nowotarski.info/wordpress-nonce-authorization"
     },
     {
       "type": "WEB",
