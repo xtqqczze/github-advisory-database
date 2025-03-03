@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hh4p-ff9x-4g5c",
-  "modified": "2024-04-04T08:16:10Z",
+  "modified": "2025-03-03T18:31:18Z",
   "published": "2023-10-04T12:30:14Z",
   "aliases": [
     "CVE-2023-4997"
   ],
-  "details": "Improper authorisation of regular users in ProIntegra Uptime DC software (versions below 2.0.0.33940) allows them to change passwords of all other users including administrators leading to a privilege escalation.\n",
+  "details": "Improper authorisation of regular users in ProIntegra Uptime DC software (versions below 2.0.0.33940) allows them to change passwords of all other users including administrators leading to a privilege escalation.",
   "severity": [
     {
       "type": "CVSS_V3",

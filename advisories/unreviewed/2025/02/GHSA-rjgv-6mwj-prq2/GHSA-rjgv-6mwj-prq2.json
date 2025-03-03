@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjgv-6mwj-prq2",
-  "modified": "2025-02-26T18:30:38Z",
+  "modified": "2025-03-03T18:31:25Z",
   "published": "2025-02-26T00:32:19Z",
   "aliases": [
     "CVE-2025-22211"
   ],
   "details": "A SQL injection vulnerability in the JoomShopping component versions 1.0.0-1.4.3 for Joomla allows authenticated attackers (administrator) to execute arbitrary SQL commands in the country management area in backend.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-25T22:15:15Z"
