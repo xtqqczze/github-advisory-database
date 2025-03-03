@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w22f-vwwp-37pr",
-  "modified": "2025-03-03T12:30:31Z",
+  "modified": "2025-03-03T15:31:24Z",
   "published": "2024-10-22T18:32:11Z",
   "aliases": [
     "CVE-2024-10234"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:2026"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:2029"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phg3-gv66-q38x",
-  "modified": "2025-02-28T17:19:59Z",
+  "modified": "2025-03-03T15:31:24Z",
   "published": "2025-02-13T15:31:25Z",
   "aliases": [
     "CVE-2025-1247"
@@ -158,6 +158,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:1885"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:2067"
     },
     {
       "type": "WEB",
