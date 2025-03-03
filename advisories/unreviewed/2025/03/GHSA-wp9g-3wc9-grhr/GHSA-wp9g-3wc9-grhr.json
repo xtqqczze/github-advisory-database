@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp9g-3wc9-grhr",
-  "modified": "2025-03-02T09:30:31Z",
+  "modified": "2025-03-03T21:30:58Z",
   "published": "2025-03-02T09:30:31Z",
   "aliases": [
     "CVE-2025-1811"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/yago3008/cves"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/yago3008/cves/tree/main/CVE-2025-1811"
     },
     {
       "type": "WEB",

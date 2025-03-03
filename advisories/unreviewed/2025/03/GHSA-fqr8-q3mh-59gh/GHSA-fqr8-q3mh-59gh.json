@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqr8-q3mh-59gh",
-  "modified": "2025-03-02T18:30:53Z",
+  "modified": "2025-03-03T21:30:58Z",
   "published": "2025-03-02T18:30:53Z",
   "aliases": [
     "CVE-2025-1818"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.yuque.com/u123456789-6sobi/cdgcbq/bg2g3eit41o4cpd4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.yuque.com/u123456789-6sobi/cdgcbq/bg2g3eit41o4cpd4#"
     }
   ],
   "database_specific": {

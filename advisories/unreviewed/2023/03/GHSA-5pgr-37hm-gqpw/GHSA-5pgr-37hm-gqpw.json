@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pgr-37hm-gqpw",
-  "modified": "2023-03-17T15:30:25Z",
+  "modified": "2025-03-03T21:30:54Z",
   "published": "2023-03-13T12:30:17Z",
   "aliases": [
     "CVE-2023-24033"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-20"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

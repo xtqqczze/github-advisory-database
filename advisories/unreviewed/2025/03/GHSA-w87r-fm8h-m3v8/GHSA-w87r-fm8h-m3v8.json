@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w87r-fm8h-m3v8",
-  "modified": "2025-03-02T00:35:15Z",
+  "modified": "2025-03-03T21:30:58Z",
   "published": "2025-03-02T00:35:15Z",
   "aliases": [
     "CVE-2025-1806"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1806"
+    },
+    {
+      "type": "WEB",
+      "url": "https://drive.google.com/file/d/1WT5mJwL9NvKxBLIIj7TDbeAq6dchs5Gk/view"
     },
     {
       "type": "WEB",

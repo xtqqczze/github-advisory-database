@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q978-xx62-9w9r",
-  "modified": "2023-03-17T06:30:35Z",
+  "modified": "2025-03-03T21:30:55Z",
   "published": "2023-03-13T15:30:19Z",
   "aliases": [
     "CVE-2023-26073"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://googleprojectzero.blogspot.com/2023/03/multiple-internet-to-baseband-remote-rce.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/42451535"
     },
     {
       "type": "WEB",

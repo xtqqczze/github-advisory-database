@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gcq-hc82-pqq2",
-  "modified": "2023-03-17T06:30:35Z",
+  "modified": "2025-03-03T21:30:55Z",
   "published": "2023-03-13T15:30:19Z",
   "aliases": [
     "CVE-2023-24762"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24762"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/%40uuXne2y3RjOdpWM87fw6_A/HyPK04zho"
     },
     {
       "type": "WEB",
