@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wwr-h8cm-9jf7",
-  "modified": "2025-02-10T22:57:36Z",
+  "modified": "2025-03-03T20:08:30Z",
   "published": "2025-02-10T21:31:37Z",
-  "aliases": [
-    "CVE-2024-42513"
-  ],
-  "summary": "Authentication Bypass by Spoofing in OPC UA .NET Standard Stack",
-  "details": "Vulnerability in the OPC UA .NET Standard Stack before 1.5.374.158 allows an unauthorized attacker to bypass application authentication when using HTTPS endpoints.",
+  "withdrawn": "2025-03-03T20:08:30Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Authentication Bypass by Spoofing in OPC UA .NET Standard Stack",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-4rcc-7pg7-f57f. This link is maintained to preserve external references.\n\n## Original Description\nVulnerability in the OPC UA .NET Standard Stack before 1.5.374.158 allows an unauthorized attacker to bypass application authentication when using HTTPS endpoints.",
   "severity": [
     {
       "type": "CVSS_V3",
