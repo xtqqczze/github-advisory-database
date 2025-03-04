@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mp6-q63m-fh2h",
-  "modified": "2025-03-02T09:30:31Z",
+  "modified": "2025-03-04T00:30:54Z",
   "published": "2025-03-02T09:30:31Z",
   "aliases": [
     "CVE-2025-1810"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/yago3008/cves"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/yago3008/cves/tree/main/CVE-2025-1810"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qr28-8qqx-q5pp",
-  "modified": "2025-02-11T18:31:39Z",
+  "modified": "2025-03-04T00:30:54Z",
   "published": "2025-02-11T18:31:39Z",
   "aliases": [
     "CVE-2025-21371"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21371"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/windows-telephony-service-remote-code-execution-vulnerability-detection-script"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/windows-telephony-service-remote-code-execution-vulnerability-mitigation-script"
     }
   ],
   "database_specific": {
