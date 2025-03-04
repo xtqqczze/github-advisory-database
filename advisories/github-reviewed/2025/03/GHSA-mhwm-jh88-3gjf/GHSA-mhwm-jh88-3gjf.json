@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhwm-jh88-3gjf",
-  "modified": "2025-03-04T02:44:47Z",
+  "modified": "2025-03-04T16:37:25Z",
   "published": "2025-03-03T22:05:08Z",
   "aliases": [
     "CVE-2025-27220"
@@ -15,7 +15,7 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -122,7 +122,7 @@
     "cwe_ids": [
       "CWE-1333"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-03T22:05:08Z",
     "nvd_published_at": "2025-03-04T00:15:31Z"
