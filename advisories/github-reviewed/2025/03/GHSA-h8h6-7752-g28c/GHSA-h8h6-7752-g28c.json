@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8h6-7752-g28c",
-  "modified": "2025-03-03T19:55:33Z",
+  "modified": "2025-03-04T22:23:26Z",
   "published": "2025-03-03T19:55:33Z",
   "aliases": [
     "CVE-2025-27408"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.9.1"
+              "fixed": "4.9.2"
             }
           ]
         }
