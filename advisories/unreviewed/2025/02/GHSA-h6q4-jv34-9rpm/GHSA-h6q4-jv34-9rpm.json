@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h6q4-jv34-9rpm",
-  "modified": "2025-02-11T18:31:36Z",
+  "modified": "2025-03-04T15:31:46Z",
   "published": "2025-02-11T18:31:36Z",
   "aliases": [
     "CVE-2025-21181"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21181"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-21181-denial-of-service-vulnerability-in-microsoft-message-queuing-detection-script"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-21181-denial-of-service-vulnerability-in-microsoft-message-queuing-mitigation-script"
     }
   ],
   "database_specific": {

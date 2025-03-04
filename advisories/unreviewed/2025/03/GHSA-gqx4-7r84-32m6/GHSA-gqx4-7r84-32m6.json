@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gqx4-7r84-32m6",
+  "modified": "2025-03-04T15:31:49Z",
+  "published": "2025-03-04T15:31:49Z",
+  "aliases": [
+    "CVE-2025-1940"
+  ],
+  "details": "A select option could partially obscure the confirmation prompt shown before launching external apps. This could be used to trick a user in to launching an external app unexpectedly. \n*This issue only affects Android versions of Firefox.* This vulnerability affects Firefox < 136.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1940"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1908488"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-14"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-04T14:15:38Z"
+  }
+}

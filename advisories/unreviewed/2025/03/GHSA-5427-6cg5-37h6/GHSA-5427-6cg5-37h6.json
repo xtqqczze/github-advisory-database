@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5427-6cg5-37h6",
+  "modified": "2025-03-04T15:31:49Z",
+  "published": "2025-03-04T15:31:49Z",
+  "aliases": [
+    "CVE-2025-1937"
+  ],
+  "details": "Memory safety bugs present in Firefox 135, Thunderbird 135, Firefox ESR 115.20, Firefox ESR 128.7, and Thunderbird 128.7. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 136, Firefox ESR < 115.21, and Firefox ESR < 128.8.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1937"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1938471%2C1940716"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-14"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-15"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-16"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-04T14:15:38Z"
+  }
+}
