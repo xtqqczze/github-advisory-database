@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mf9-x65f-jwgf",
-  "modified": "2025-03-03T18:31:29Z",
+  "modified": "2025-03-04T18:33:30Z",
   "published": "2025-03-03T18:31:29Z",
   "aliases": [
     "CVE-2025-0289"
   ],
   "details": "Paragon Partition Manager version 17, both community and Business versions, contain an insecure kernel resource access vulnerability facilitated by the driver not validating the MappedSystemVa pointer before passing it to HalReturnToFirmware, which can allows an attacker the ability to compromise the service.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-03T17:15:13Z"
