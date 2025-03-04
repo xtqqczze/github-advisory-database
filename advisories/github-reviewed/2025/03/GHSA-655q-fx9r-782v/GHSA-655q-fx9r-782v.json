@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-655q-fx9r-782v",
-  "modified": "2025-03-03T20:05:49Z",
+  "modified": "2025-03-04T02:45:09Z",
   "published": "2025-03-03T20:05:49Z",
   "aliases": [
     "CVE-2025-1716"
