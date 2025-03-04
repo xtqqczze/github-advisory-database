@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56w7-9rqr-p4fc",
-  "modified": "2022-05-24T16:49:49Z",
+  "modified": "2025-03-04T21:30:51Z",
   "published": "2022-05-24T16:49:49Z",
   "aliases": [
     "CVE-2019-13454"
   ],
   "details": "ImageMagick 7.0.8-54 Q16 allows Division by Zero in RemoveDuplicateLayers in MagickCore/layer.c.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ImageMagick/ImageMagick6/commit/4f31d78716ac94c85c244efcea368fea202e2ed4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ImageMagick/ImageMagick/blob/7.0.1-0/MagickCore/layer.c#L1618"
     },
     {
       "type": "WEB",
@@ -48,7 +57,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-369"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

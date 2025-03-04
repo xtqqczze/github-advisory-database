@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh9f-46xr-5c59",
-  "modified": "2022-08-25T00:00:26Z",
+  "modified": "2025-03-04T21:30:51Z",
   "published": "2022-05-24T17:25:32Z",
   "aliases": [
     "CVE-2020-16291"
@@ -25,6 +25,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=4f73e8b4d578e69a17f452fa60d2130c5faaefd6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/tree/contrib/gdevdj9.c?h=ghostpdl-9.18#n824"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2020/08/msg00032.html"
     },
     {
@@ -38,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2020/dsa-4748"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=ghostpdl.git%3Bh=4f73e8b4d578e69a17f452fa60d2130c5faaefd6"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x476-7xh5-hq84",
-  "modified": "2022-08-25T00:00:26Z",
+  "modified": "2025-03-04T21:30:52Z",
   "published": "2022-05-24T17:25:32Z",
   "aliases": [
     "CVE-2020-16297"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://bugs.ghostscript.com/show_bug.cgi?id=701800"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=bf72f1a3dd5392ee8291e3b1518a0c2c5dc6ba39"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/tree/contrib/gdevbjca.c?h=ghostpdl-9.18#n659"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.ghostscript.com/?p=ghostpdl.git%3Ba=commitdiff%3Bh=bf72f1a3dd5392ee8291e3b1518a0c2c5dc6ba39"
     },
     {
       "type": "WEB",
