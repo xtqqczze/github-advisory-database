@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4cwr-jp57-8cx6",
+  "modified": "2025-03-05T06:31:42Z",
+  "published": "2025-03-05T06:31:42Z",
+  "aliases": [
+    "CVE-2025-27661"
+  ],
+  "details": "Vasion Print (formerly PrinterLogic) before Virtual Appliance Host 22.0.843 Application 20.0.1923 allows Session Fixation OVE-20230524-0004.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27661"
+    },
+    {
+      "type": "WEB",
+      "url": "https://help.printerlogic.com/saas/Print/Security/Security-Bulletins.htm"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-05T06:15:38Z"
+  }
+}

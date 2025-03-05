@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f83c-647q-q27r",
+  "modified": "2025-03-05T06:31:43Z",
+  "published": "2025-03-05T06:31:43Z",
+  "aliases": [
+    "CVE-2025-27677"
+  ],
+  "details": "Vasion Print (formerly PrinterLogic) before Virtual Appliance Host 22.0.843 Application 20.0.1923 allows Symbolic Links For Unprivileged File Interaction V-2022-002.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27677"
+    },
+    {
+      "type": "WEB",
+      "url": "https://help.printerlogic.com/saas/Print/Security/Security-Bulletins.htm"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-05T06:15:40Z"
+  }
+}
