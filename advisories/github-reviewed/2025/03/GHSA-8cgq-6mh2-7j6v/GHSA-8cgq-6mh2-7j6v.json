@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cgq-6mh2-7j6v",
-  "modified": "2025-03-04T19:41:12Z",
+  "modified": "2025-03-05T21:49:36Z",
   "published": "2025-03-04T15:27:06Z",
   "aliases": [
     "CVE-2025-27111"
@@ -97,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2025-27111.yml"
     }
   ],
   "database_specific": {
