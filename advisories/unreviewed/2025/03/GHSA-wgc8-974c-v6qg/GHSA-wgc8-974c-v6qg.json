@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgc8-974c-v6qg",
-  "modified": "2025-03-05T06:31:41Z",
+  "modified": "2025-03-05T15:30:56Z",
   "published": "2025-03-05T06:31:41Z",
   "aliases": [
     "CVE-2025-1923"
   ],
   "details": "Inappropriate implementation in Permission Prompts in Google Chrome prior to 134.0.6998.35 allowed an attacker who convinced a user to install a malicious extension to perform UI spoofing via a crafted Chrome Extension. (Chromium security severity: Low)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-1021"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-05T04:15:12Z"

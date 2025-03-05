@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8868-h956-r68g",
-  "modified": "2025-02-27T03:34:07Z",
+  "modified": "2025-03-05T15:30:50Z",
   "published": "2025-02-27T03:34:06Z",
   "aliases": [
     "CVE-2025-21794"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: hid-thrustmaster: fix stack-out-of-bounds read in usb_check_int_endpoints()\n\nSyzbot[1] has detected a stack-out-of-bounds read of the ep_addr array from\nhid-thrustmaster driver. This array is passed to usb_check_int_endpoints\nfunction from usb.c core driver, which executes a for loop that iterates\nover the elements of the passed array. Not finding a null element at the end of\nthe array, it tries to read the next, non-existent element, crashing the kernel.\n\nTo fix this, a 0 element was added at the end of the array to break the for\nloop.\n\n[1] https://syzkaller.appspot.com/bug?extid=9c9179ac46169c56c1ad",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:20Z"

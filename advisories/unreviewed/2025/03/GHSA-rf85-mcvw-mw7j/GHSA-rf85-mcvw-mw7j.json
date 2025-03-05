@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf85-mcvw-mw7j",
-  "modified": "2025-03-03T21:30:58Z",
+  "modified": "2025-03-05T15:30:52Z",
   "published": "2025-03-03T18:31:28Z",
   "aliases": [
     "CVE-2025-0287"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.kb.cert.org/vuls/id/726882"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.paragon-software.com/support/#patches"
     }
   ],
   "database_specific": {

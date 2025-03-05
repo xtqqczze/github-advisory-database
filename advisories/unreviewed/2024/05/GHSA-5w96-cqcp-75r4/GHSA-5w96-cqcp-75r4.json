@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w96-cqcp-75r4",
-  "modified": "2024-05-03T18:30:36Z",
+  "modified": "2025-03-05T15:30:50Z",
   "published": "2024-05-03T18:30:36Z",
   "aliases": [
     "CVE-2022-48703"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nthermal/int340x_thermal: handle data_vault when the value is ZERO_SIZE_PTR\n\nIn some case, the GDDV returns a package with a buffer which has\nzero length. It causes that kmemdup() returns ZERO_SIZE_PTR (0x10).\n\nThen the data_vault_read() got NULL point dereference problem when\naccessing the 0x10 value in data_vault.\n\n[   71.024560] BUG: kernel NULL pointer dereference, address:\n0000000000000010\n\nThis patch uses ZERO_OR_NULL_PTR() for checking ZERO_SIZE_PTR or\nNULL value in data_vault.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-03T16:15:08Z"

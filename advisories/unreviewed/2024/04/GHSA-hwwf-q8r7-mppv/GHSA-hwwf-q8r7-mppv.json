@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwwf-q8r7-mppv",
-  "modified": "2024-04-18T12:30:29Z",
+  "modified": "2025-03-05T15:30:49Z",
   "published": "2024-04-18T12:30:29Z",
   "aliases": [
     "CVE-2024-32567"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Designinvento DirectoryPress allows Reflected XSS.This issue affects DirectoryPress: from n/a through 3.6.7.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Designinvento DirectoryPress allows Reflected XSS.This issue affects DirectoryPress: from n/a through 3.6.7.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49w9-5v8p-jcmw",
-  "modified": "2025-02-27T03:34:07Z",
+  "modified": "2025-03-05T15:30:50Z",
   "published": "2025-02-27T03:34:06Z",
   "aliases": [
     "CVE-2025-21793"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: sn-f-ospi: Fix division by zero\n\nWhen there is no dummy cycle in the spi-nor commands, both dummy bus cycle\nbytes and width are zero. Because of the cpu's warning when divided by\nzero, the warning should be avoided. Return just zero to avoid such\ncalculations.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:20Z"
