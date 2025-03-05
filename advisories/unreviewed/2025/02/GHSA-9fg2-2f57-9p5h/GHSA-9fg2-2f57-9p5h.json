@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fg2-2f57-9p5h",
-  "modified": "2025-02-24T09:35:45Z",
+  "modified": "2025-03-05T21:32:05Z",
   "published": "2025-02-24T09:35:45Z",
   "aliases": [
     "CVE-2025-0690"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2346123"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.gnu.org/archive/html/grub-devel/2025-02/msg00024.html"
     }
   ],
   "database_specific": {

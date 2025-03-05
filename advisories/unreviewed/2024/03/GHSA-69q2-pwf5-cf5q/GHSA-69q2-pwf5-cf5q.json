@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69q2-pwf5-cf5q",
-  "modified": "2024-03-27T12:30:41Z",
+  "modified": "2025-03-05T21:32:03Z",
   "published": "2024-03-27T12:30:41Z",
   "aliases": [
     "CVE-2024-30177"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Exclusive Addons Exclusive Addons Elementor allows Stored XSS.This issue affects Exclusive Addons Elementor: from n/a through 2.6.8.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Exclusive Addons Exclusive Addons Elementor allows Stored XSS.This issue affects Exclusive Addons Elementor: from n/a through 2.6.8.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q42-qq54-fwvj",
-  "modified": "2025-02-27T03:34:05Z",
+  "modified": "2025-03-05T21:32:06Z",
   "published": "2025-02-27T03:34:05Z",
   "aliases": [
     "CVE-2025-21770"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niommu: Fix potential memory leak in iopf_queue_remove_device()\n\nThe iopf_queue_remove_device() helper removes a device from the per-iommu\niopf queue when PRI is disabled on the device. It responds to all\noutstanding iopf's with an IOMMU_PAGE_RESP_INVALID code and detaches the\ndevice from the queue.\n\nHowever, it fails to release the group structure that represents a group\nof iopf's awaiting for a response after responding to the hardware. This\ncan cause a memory leak if iopf_queue_remove_device() is called with\npending iopf's.\n\nFix it by calling iopf_free_group() after the iopf group is responded.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:17Z"

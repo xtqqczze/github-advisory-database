@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhwq-8w3p-w65v",
-  "modified": "2023-03-13T06:30:25Z",
+  "modified": "2025-03-05T21:31:56Z",
   "published": "2023-03-07T21:30:17Z",
   "aliases": [
     "CVE-2023-20630"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://corp.mediatek.com/product-security-bulletin/March-2023"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/bulletins/sb23-072"
     }
   ],
   "database_specific": {

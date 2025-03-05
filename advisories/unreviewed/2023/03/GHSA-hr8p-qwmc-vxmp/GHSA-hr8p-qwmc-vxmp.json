@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hr8p-qwmc-vxmp",
-  "modified": "2023-03-14T21:30:21Z",
+  "modified": "2025-03-05T21:31:59Z",
   "published": "2023-03-08T21:30:23Z",
   "aliases": [
     "CVE-2023-22889"

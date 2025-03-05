@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch5h-vgj6-vhx6",
-  "modified": "2024-03-28T06:30:46Z",
+  "modified": "2025-03-05T21:32:03Z",
   "published": "2024-03-28T06:30:46Z",
   "aliases": [
     "CVE-2023-36679"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in Brainstorm Force Spectra.This issue affects Spectra: from n/a through 2.6.6.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in Brainstorm Force Spectra.This issue affects Spectra: from n/a through 2.6.6.",
   "severity": [
     {
       "type": "CVSS_V3",
