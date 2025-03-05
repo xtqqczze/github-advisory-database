@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g87r-m8xc-9jqc",
-  "modified": "2025-02-28T21:32:20Z",
+  "modified": "2025-03-05T18:32:03Z",
   "published": "2025-02-28T21:32:20Z",
   "aliases": [
     "CVE-2025-25610"
   ],
   "details": "TOTOlink A3002R V1.1.1-B20200824.0128 contains a buffer overflow vulnerability. The vulnerability arises from the improper input validation of the static_gw parameter in the formIpv6Setup interface of /bin/boa.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-28T19:15:37Z"
