@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r84f-4wj3-r6vx",
-  "modified": "2025-03-04T18:33:39Z",
+  "modified": "2025-03-05T00:30:34Z",
   "published": "2025-03-04T15:31:48Z",
   "aliases": [
     "CVE-2025-1933"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2025-16"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-18"
     }
   ],
   "database_specific": {
