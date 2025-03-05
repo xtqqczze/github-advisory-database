@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78fx-h6xr-vch4",
-  "modified": "2025-03-05T19:09:39Z",
+  "modified": "2025-03-05T21:54:00Z",
   "published": "2025-03-05T19:09:39Z",
   "aliases": [
     "CVE-2025-27515"
@@ -60,6 +60,10 @@
       "url": "https://github.com/laravel/framework/security/advisories/GHSA-78fx-h6xr-vch4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27515"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/laravel/framework/commit/2d133034fefddfb047838f4caca3687a3ba811a5"
     },
@@ -75,6 +79,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-05T19:09:39Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-05T19:15:39Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8785-wc3w-h8q6",
-  "modified": "2025-03-05T18:18:50Z",
+  "modified": "2025-03-05T21:54:14Z",
   "published": "2025-03-05T18:15:22Z",
   "aliases": [
     "CVE-2025-27513"
@@ -77,8 +77,16 @@
       "url": "https://github.com/open-telemetry/opentelemetry-dotnet/security/advisories/GHSA-8785-wc3w-h8q6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27513"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/open-telemetry/opentelemetry-dotnet/pull/6161"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/open-telemetry/opentelemetry-dotnet/commit/1b555c1201413f2f55f2cd3c4ba03ef4b615b6b5"
     },
     {
       "type": "PACKAGE",
@@ -92,6 +100,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-05T18:15:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-05T19:15:39Z"
   }
 }
