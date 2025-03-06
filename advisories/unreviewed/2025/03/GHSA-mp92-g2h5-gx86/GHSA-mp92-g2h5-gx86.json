@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp92-g2h5-gx86",
-  "modified": "2025-03-06T12:30:44Z",
+  "modified": "2025-03-06T18:31:08Z",
   "published": "2025-03-06T12:30:43Z",
   "aliases": [
     "CVE-2024-56202"
   ],
   "details": "Expected Behavior Violation vulnerability in Apache Traffic Server.\n\nThis issue affects Apache Traffic Server: from 9.0.0 through 9.2.8, from 10.0.0 through 10.0.3.\n\nUsers are recommended to upgrade to versions 9.2.9 or 10.0.4 or newer, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-440"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-06T11:15:11Z"
