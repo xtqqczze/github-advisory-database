@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-793v-gxfp-9q9h",
-  "modified": "2025-03-05T22:21:46Z",
+  "modified": "2025-03-06T17:18:47Z",
   "published": "2025-03-05T21:32:13Z",
   "aliases": [
     "CVE-2025-25362"
@@ -9,6 +9,10 @@
   "summary": "Spacy-LLM Server-Side Template Injection (SSTI) vulnerability",
   "details": "A Server-Side Template Injection (SSTI) vulnerability in Spacy-LLM v0.7.2 allows attackers to execute arbitrary code via injecting a crafted payload into the template field.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
@@ -62,7 +66,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1336"
+      "CWE-1336",
+      "CWE-94"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
