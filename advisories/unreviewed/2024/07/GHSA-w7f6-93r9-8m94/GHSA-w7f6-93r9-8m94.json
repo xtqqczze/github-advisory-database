@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7f6-93r9-8m94",
-  "modified": "2024-07-29T15:30:39Z",
+  "modified": "2025-03-06T15:34:37Z",
   "published": "2024-07-29T15:30:39Z",
   "aliases": [
     "CVE-2024-41028"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86: toshiba_acpi: Fix array out-of-bounds access\n\nIn order to use toshiba_dmi_quirks[] together with the standard DMI\nmatching functions, it must be terminated by a empty entry.\n\nSince this entry is missing, an array out-of-bounds access occurs\nevery time the quirk list is processed.\n\nFix this by adding the terminating empty entry.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-29T15:15:11Z"

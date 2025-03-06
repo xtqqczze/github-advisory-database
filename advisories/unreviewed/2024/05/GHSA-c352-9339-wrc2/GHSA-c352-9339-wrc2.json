@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c352-9339-wrc2",
-  "modified": "2024-05-21T18:31:21Z",
+  "modified": "2025-03-06T15:34:35Z",
   "published": "2024-05-21T18:31:21Z",
   "aliases": [
     "CVE-2023-52799"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\njfs: fix array-index-out-of-bounds in dbFindLeaf\n\nCurrently while searching for dmtree_t for sufficient free blocks there\nis an array out of bounds while getting element in tp->dm_stree. To add\nthe required check for out of bound we first need to determine the type\nof dmtree. Thus added an extra parameter to dbFindLeaf so that the type\nof tree can be determined and the required check can be applied.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:18Z"

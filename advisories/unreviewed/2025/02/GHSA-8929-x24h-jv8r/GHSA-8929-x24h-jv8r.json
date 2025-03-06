@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8929-x24h-jv8r",
-  "modified": "2025-02-28T12:32:26Z",
+  "modified": "2025-03-06T15:34:43Z",
   "published": "2025-02-28T12:32:26Z",
   "aliases": [
     "CVE-2024-10860"

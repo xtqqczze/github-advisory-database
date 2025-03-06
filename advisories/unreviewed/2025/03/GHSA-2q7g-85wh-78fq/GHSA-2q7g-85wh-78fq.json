@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2q7g-85wh-78fq",
+  "modified": "2025-03-06T15:34:47Z",
+  "published": "2025-03-06T15:34:47Z",
+  "aliases": [
+    "CVE-2024-42844"
+  ],
+  "details": "A SQL Injection vulnerability has been identified in EPICOR Prophet 21 (P21) up to 23.2.5232. This vulnerability allows authenticated remote attackers to execute arbitrary SQL commands through unsanitized user input fields to obtain unauthorized information",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42844"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/getHecked/dc4ae46526d181d3deb17092815b9bec"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-06T15:15:15Z"
+  }
+}

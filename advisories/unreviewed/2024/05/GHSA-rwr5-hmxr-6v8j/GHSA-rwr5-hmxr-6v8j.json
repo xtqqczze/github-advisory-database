@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwr5-hmxr-6v8j",
-  "modified": "2024-05-21T18:31:21Z",
+  "modified": "2025-03-06T15:34:35Z",
   "published": "2024-05-21T18:31:21Z",
   "aliases": [
     "CVE-2023-52807"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: hns3: fix out-of-bounds access may occur when coalesce info is read via debugfs\n\nThe hns3 driver define an array of string to show the coalesce\ninfo, but if the kernel adds a new mode or a new state,\nout-of-bounds access may occur when coalesce info is read via\ndebugfs, this patch fix the problem.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T16:15:19Z"
