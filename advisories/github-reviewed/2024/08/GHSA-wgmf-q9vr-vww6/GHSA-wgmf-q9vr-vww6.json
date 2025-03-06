@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgmf-q9vr-vww6",
-  "modified": "2024-09-04T14:20:24Z",
+  "modified": "2025-03-06T18:09:33Z",
   "published": "2024-08-29T17:56:56Z",
   "aliases": [
     "CVE-2024-45046"
   ],
   "summary": "PhpSpreadsheet HTML writer is vulnerable to Cross-Site Scripting via style information",
-  "details": "### Summary\n\n`\\PhpOffice\\PhpSpreadsheet\\Writer\\Html` doesn't sanitize spreadsheet styling information such as font names, allowing an attacker to inject arbitrary JavaScript on the page.\n\n### PoC\n\nExample target script:\n\n```\n<?php\n\nrequire 'vendor/autoload.php';\n\n$reader = \\PhpOffice\\PhpSpreadsheet\\IOFactory::createReader(\"Xlsx\");\n$spreadsheet = $reader->load(__DIR__ . '/book.xlsx');\n\n$writer = new \\PhpOffice\\PhpSpreadsheet\\Writer\\Html($spreadsheet);\nprint($writer->generateHTMLAll());\n```\n\nSave this file in the same directory:\n[book.xlsx](https://github.com/PHPOffice/PhpSpreadsheet/files/15212797/book.xlsx)\n\nOpen index.php in a web browser. An alert should be displayed.\n\n### Impact\n\nFull takeover of the session of users viewing spreadsheet files as HTML.\n",
+  "details": "### Summary\n\n`\\PhpOffice\\PhpSpreadsheet\\Writer\\Html` doesn't sanitize spreadsheet styling information such as font names, allowing an attacker to inject arbitrary JavaScript on the page.\n\n### PoC\n\nExample target script:\n\n```\n<?php\n\nrequire 'vendor/autoload.php';\n\n$reader = \\PhpOffice\\PhpSpreadsheet\\IOFactory::createReader(\"Xlsx\");\n$spreadsheet = $reader->load(__DIR__ . '/book.xlsx');\n\n$writer = new \\PhpOffice\\PhpSpreadsheet\\Writer\\Html($spreadsheet);\nprint($writer->generateHTMLAll());\n```\n\nSave this file in the same directory:\n[book.xlsx](https://github.com/PHPOffice/PhpSpreadsheet/files/15212797/book.xlsx)\n\nOpen index.php in a web browser. An alert should be displayed.\n\n### Impact\n\nFull takeover of the session of users viewing spreadsheet files as HTML.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -52,6 +52,25 @@
             },
             {
               "fixed": "1.29.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "phpoffice/phpexcel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.8.2"
             }
           ]
         }

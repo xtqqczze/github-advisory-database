@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v66g-p9x6-v98p",
-  "modified": "2024-10-07T22:24:52Z",
+  "modified": "2025-03-06T18:11:24Z",
   "published": "2024-10-07T14:43:30Z",
   "aliases": [
     "CVE-2024-45060"
@@ -71,6 +71,25 @@
             },
             {
               "fixed": "2.1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "phpoffice/phpexcel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.8.2"
             }
           ]
         }
