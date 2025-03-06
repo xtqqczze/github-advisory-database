@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8w8-74ww-j4wh",
-  "modified": "2024-10-07T22:29:54Z",
+  "modified": "2025-03-06T18:14:05Z",
   "published": "2024-10-07T15:58:25Z",
   "aliases": [
     "CVE-2024-45292"
   ],
   "summary": "PhpSpreadsheet HTML writer is vulnerable to Cross-Site Scripting via JavaScript hyperlinks",
-  "details": "### Summary\n`\\PhpOffice\\PhpSpreadsheet\\Writer\\Html` does not sanitize \"javascript:\" URLs from hyperlink `href` attributes, resulting in a Cross-Site Scripting vulnerability.\n\n### PoC\n\nExample target script:\n\n```\n<?php\n\nrequire 'vendor/autoload.php';\n\n$reader = \\PhpOffice\\PhpSpreadsheet\\IOFactory::createReader(\"Xlsx\");\n$spreadsheet = $reader->load(__DIR__ . '/book.xlsx');\n\n$writer = new \\PhpOffice\\PhpSpreadsheet\\Writer\\Html($spreadsheet);\nprint($writer->generateHTMLAll());\n```\n\nSave this file in the same directory:\n[book.xlsx](https://github.com/PHPOffice/PhpSpreadsheet/files/15099763/book.xlsx)\n\nOpen index.php in a web browser and click on both links. The first demonstrates the vulnerability in a regular hyperlink and the second in a HYPERLINK() formula.\n",
+  "details": "### Summary\n`\\PhpOffice\\PhpSpreadsheet\\Writer\\Html` does not sanitize \"javascript:\" URLs from hyperlink `href` attributes, resulting in a Cross-Site Scripting vulnerability.\n\n### PoC\n\nExample target script:\n\n```\n<?php\n\nrequire 'vendor/autoload.php';\n\n$reader = \\PhpOffice\\PhpSpreadsheet\\IOFactory::createReader(\"Xlsx\");\n$spreadsheet = $reader->load(__DIR__ . '/book.xlsx');\n\n$writer = new \\PhpOffice\\PhpSpreadsheet\\Writer\\Html($spreadsheet);\nprint($writer->generateHTMLAll());\n```\n\nSave this file in the same directory:\n[book.xlsx](https://github.com/PHPOffice/PhpSpreadsheet/files/15099763/book.xlsx)\n\nOpen index.php in a web browser and click on both links. The first demonstrates the vulnerability in a regular hyperlink and the second in a HYPERLINK() formula.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -71,6 +71,25 @@
             },
             {
               "fixed": "2.1.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "phpoffice/phpexcel"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.8.2"
             }
           ]
         }
