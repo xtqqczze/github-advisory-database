@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw43-fcmm-3m5g",
-  "modified": "2025-03-05T22:18:52Z",
+  "modified": "2025-03-06T01:33:29Z",
   "published": "2025-03-05T22:18:51Z",
   "aliases": [
     "CVE-2025-27508"
@@ -44,6 +44,10 @@
       "url": "https://github.com/NationalSecurityAgency/emissary/security/advisories/GHSA-hw43-fcmm-3m5g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27508"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/NationalSecurityAgency/emissary/commit/da3a81a8977577597ff2a944820a5ae4e9762368"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-05T22:18:51Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-05T22:15:35Z"
   }
 }
