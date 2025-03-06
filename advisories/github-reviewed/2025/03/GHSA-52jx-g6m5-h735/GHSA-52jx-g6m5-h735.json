@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52jx-g6m5-h735",
-  "modified": "2025-03-06T19:12:27Z",
+  "modified": "2025-03-06T21:36:50Z",
   "published": "2025-03-06T19:12:27Z",
   "aliases": [
     "CVE-2025-27509"
@@ -98,6 +98,10 @@
       "url": "https://github.com/fleetdm/fleet/security/advisories/GHSA-52jx-g6m5-h735"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27509"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/fleetdm/fleet/commit/718c95e47ad010ad6b8ceb3f3460e921fbfc53bb"
     },
@@ -112,11 +116,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-285",
       "CWE-74"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-06T19:12:27Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-06T19:15:27Z"
   }
 }
