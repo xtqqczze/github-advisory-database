@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p34j-r3ch-c985",
+  "modified": "2025-03-06T00:31:56Z",
+  "published": "2025-03-06T00:31:56Z",
+  "aliases": [
+    "CVE-2025-27622"
+  ],
+  "details": "Jenkins 2.499 and earlier, LTS 2.492.1 and earlier does not redact encrypted values of secrets when accessing `config.xml` of agents via REST API or CLI, allowing attackers with Agent/Extended Read permission to view encrypted values of secrets.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27622"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.jenkins.io/security/advisory/2025-03-05/#SECURITY-3495"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-05T23:15:13Z"
+  }
+}
