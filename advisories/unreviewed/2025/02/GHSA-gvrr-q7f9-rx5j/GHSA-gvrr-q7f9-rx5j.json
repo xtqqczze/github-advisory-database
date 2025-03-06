@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvrr-q7f9-rx5j",
-  "modified": "2025-02-06T06:31:26Z",
+  "modified": "2025-03-06T21:31:25Z",
   "published": "2025-02-06T06:31:26Z",
   "aliases": [
     "CVE-2024-56473"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-116",
       "CWE-117"
     ],
     "severity": "MODERATE",
