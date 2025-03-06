@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jp78-8mxr-44qr",
-  "modified": "2025-01-15T12:30:45Z",
+  "modified": "2025-03-06T09:31:53Z",
   "published": "2025-01-15T12:30:45Z",
   "aliases": [
     "CVE-2024-12297"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.moxa.com/en/support/product-support/security-advisory/mpsa-241407-cve-2024-12297-frontend-authorization-logic-disclosure-vulnerability-in-eds-508a-series"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.moxa.com/en/support/product-support/security-advisory/mpsa-241408-cve-2024-12297-frontend-authorization-logic-disclosure-vulnerability-identified-in-pt-switches"
     }
   ],
   "database_specific": {
