@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch46-7v57-76j7",
-  "modified": "2025-02-27T03:34:04Z",
+  "modified": "2025-03-06T12:30:41Z",
   "published": "2025-02-27T03:34:04Z",
   "aliases": [
     "CVE-2025-21741"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusbnet: ipheth: fix DPE OoB read\n\nFix an out-of-bounds DPE read, limit the number of processed DPEs to\nthe amount that fits into the fixed-size NDP16 header.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:14Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cf9-vw76-83rq",
-  "modified": "2025-02-27T03:34:04Z",
+  "modified": "2025-03-06T12:30:41Z",
   "published": "2025-02-27T03:34:03Z",
   "aliases": [
     "CVE-2024-58020"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: multitouch: Add NULL check in mt_input_configured\n\ndevm_kasprintf() can return a NULL pointer on failure,but this\nreturned value in mt_input_configured() is not checked.\nAdd NULL check in mt_input_configured(), to handle kernel NULL\npointer dereference error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:12Z"

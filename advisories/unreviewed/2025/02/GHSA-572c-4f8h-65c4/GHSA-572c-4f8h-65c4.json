@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-572c-4f8h-65c4",
-  "modified": "2025-02-27T03:34:03Z",
+  "modified": "2025-03-06T12:30:41Z",
   "published": "2025-02-27T03:34:03Z",
   "aliases": [
     "CVE-2024-58017"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nprintk: Fix signed integer overflow when defining LOG_BUF_LEN_MAX\n\nShifting 1 << 31 on a 32-bit int causes signed integer overflow, which\nleads to undefined behavior. To prevent this, cast 1 to u32 before\nperforming the shift, ensuring well-defined behavior.\n\nThis change explicitly avoids any potential overflow by ensuring that\nthe shift occurs on an unsigned 32-bit integer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:12Z"
