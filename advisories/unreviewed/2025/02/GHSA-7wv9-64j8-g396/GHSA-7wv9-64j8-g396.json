@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wv9-64j8-g396",
-  "modified": "2025-02-27T03:33:58Z",
+  "modified": "2025-03-07T21:31:04Z",
   "published": "2025-02-27T03:33:58Z",
   "aliases": [
     "CVE-2024-57973"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nrdma/cxgb4: Prevent potential integer overflow on 32bit\n\nThe \"gl->tot_len\" variable is controlled by the user.  It comes from\nprocess_responses().  On 32bit systems, the \"gl->tot_len + sizeof(struct\ncpl_pass_accept_req) + sizeof(struct rss_header)\" addition could have an\ninteger wrapping bug.  Use size_add() to prevent this.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T02:15:10Z"

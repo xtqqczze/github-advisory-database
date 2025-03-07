@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6m5m-3phv-f8fm",
+  "modified": "2025-03-07T21:31:10Z",
+  "published": "2025-03-07T21:31:10Z",
+  "aliases": [
+    "CVE-2024-42733"
+  ],
+  "details": "An issue in Docmosis Tornado v.2.9.7 and before allows a remote attacker to execute arbitrary code via a crafted script to the UNC path input",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42733"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Docmosis/tornado-docker/issues/14"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Marsman1996/pocs/blob/master/redox/CVE-2024-57492/README.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-07T21:15:17Z"
+  }
+}

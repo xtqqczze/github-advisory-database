@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8989-8fhv-vq42",
-  "modified": "2023-03-10T15:30:43Z",
+  "modified": "2025-03-07T21:30:56Z",
   "published": "2023-03-03T18:30:27Z",
   "aliases": [
     "CVE-2023-26604"
@@ -33,6 +33,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://medium.com/%40zenmoviefornotification/saidov-maxim-cve-2023-26604-c1232a526ba7"
+    },
+    {
+      "type": "WEB",
       "url": "https://medium.com/@zenmoviefornotification/saidov-maxim-cve-2023-26604-c1232a526ba7"
     },
     {
@@ -45,7 +49,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-269"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

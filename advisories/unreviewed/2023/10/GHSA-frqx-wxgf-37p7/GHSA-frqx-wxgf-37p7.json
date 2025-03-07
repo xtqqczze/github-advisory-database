@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frqx-wxgf-37p7",
-  "modified": "2024-04-04T08:11:28Z",
+  "modified": "2025-03-07T21:30:59Z",
   "published": "2023-10-03T18:30:23Z",
   "aliases": [
     "CVE-2023-34970"
   ],
-  "details": "A local non-privileged user can make improper GPU processing operations to access a limited amount outside of buffer bounds or to exploit a software race condition. If the system’s memory is carefully prepared by the user, then this in turn could give them access to already freed memory\n\n",
+  "details": "A local non-privileged user can make improper GPU processing operations to access a limited amount outside of buffer bounds or to exploit a software race condition. If the system’s memory is carefully prepared by the user, then this in turn could give them access to already freed memory",
   "severity": [
     {
       "type": "CVSS_V3",
