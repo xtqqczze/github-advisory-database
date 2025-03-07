@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v5xf-gj23-85jx",
-  "modified": "2025-03-07T06:30:33Z",
+  "modified": "2025-03-07T18:31:04Z",
   "published": "2025-03-07T06:30:33Z",
   "aliases": [
     "CVE-2025-27796"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27796"
+    },
+    {
+      "type": "WEB",
+      "url": "https://foss.heptapod.net/graphicsmagick/graphicsmagick/-/commit/883ebf8cae6dfa5873d975fe3476b1a188ef3f9f"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcc8-3vrq-wjg2",
-  "modified": "2023-03-14T18:30:22Z",
+  "modified": "2025-03-07T18:30:54Z",
   "published": "2023-03-02T15:30:17Z",
   "aliases": [
     "CVE-2023-25358"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://bugs.webkit.org/show_bug.cgi?id=242683"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5OKKVEUQAAGH3NHMX3WHWKRPYU4QFKTQ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6QL5OGMSHRQ26FTYWZUXVNWB2VHOSVXK"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KC7DMUX37BRCLAI4VPQYHDUVEGTNYN5A"
     },
     {
       "type": "WEB",

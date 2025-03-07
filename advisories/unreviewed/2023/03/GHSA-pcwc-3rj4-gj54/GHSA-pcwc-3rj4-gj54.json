@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcwc-3rj4-gj54",
-  "modified": "2023-03-14T15:30:17Z",
+  "modified": "2025-03-07T18:30:58Z",
   "published": "2023-03-07T00:30:25Z",
   "aliases": [
     "CVE-2022-3707"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/05/msg00006.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/all/20221007013708.1946061-1-zyytlz.wz%40163.com"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq63-h845-wgm6",
-  "modified": "2025-02-27T15:31:50Z",
+  "modified": "2025-03-07T18:31:03Z",
   "published": "2025-02-27T03:34:01Z",
   "aliases": [
     "CVE-2025-21712"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21712"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/032fa54f486eac5507976e7e31f079a767bc13a8"
     },
     {
       "type": "WEB",

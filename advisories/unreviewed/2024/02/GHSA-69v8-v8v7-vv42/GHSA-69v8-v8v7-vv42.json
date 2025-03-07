@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69v8-v8v7-vv42",
-  "modified": "2024-06-27T15:30:38Z",
+  "modified": "2025-03-07T18:30:58Z",
   "published": "2024-02-12T03:30:24Z",
   "aliases": [
     "CVE-2024-25739"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/06/msg00020.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/drivers/mtd/ubi/vtbl.c?h=v6.6.24&id=d1b505c988b7"
     },
     {
       "type": "WEB",

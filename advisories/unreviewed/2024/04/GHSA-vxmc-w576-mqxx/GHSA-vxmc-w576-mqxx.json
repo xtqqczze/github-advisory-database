@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxmc-w576-mqxx",
-  "modified": "2025-02-27T15:31:49Z",
+  "modified": "2025-03-07T18:30:58Z",
   "published": "2024-04-03T18:30:43Z",
   "aliases": [
     "CVE-2024-26767"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/0484e05d048b66d01d1f3c1d2306010bb57d8738"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/070fda699dfdce560755379bc428d9edada7a54e"
     },
     {
       "type": "WEB",

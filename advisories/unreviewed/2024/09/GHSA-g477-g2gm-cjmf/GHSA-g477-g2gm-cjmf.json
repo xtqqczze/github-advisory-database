@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g477-g2gm-cjmf",
-  "modified": "2024-09-06T18:31:28Z",
+  "modified": "2025-03-07T18:31:00Z",
   "published": "2024-09-04T21:30:31Z",
   "aliases": [
     "CVE-2024-44953"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3911af778f208e5f49d43ce739332b91e26bc48e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a4921b76bc9421d3838e167f6a17ea3112d8fe62"
     },
     {
       "type": "WEB",

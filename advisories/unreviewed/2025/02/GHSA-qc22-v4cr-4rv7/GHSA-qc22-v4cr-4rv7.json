@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc22-v4cr-4rv7",
-  "modified": "2025-03-06T15:34:42Z",
+  "modified": "2025-03-07T18:31:03Z",
   "published": "2025-02-27T03:34:02Z",
   "aliases": [
     "CVE-2024-58002"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/9edc7d25f7e49c33a1ce7a5ffadea2222065516c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ac18d781466252cd35a3e311e0a4b264260fd927"
     }
   ],
   "database_specific": {

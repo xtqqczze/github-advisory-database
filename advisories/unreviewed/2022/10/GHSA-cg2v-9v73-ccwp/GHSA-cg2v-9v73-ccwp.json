@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg2v-9v73-ccwp",
-  "modified": "2025-01-02T21:31:39Z",
+  "modified": "2025-03-07T18:30:53Z",
   "published": "2022-10-04T00:00:25Z",
   "aliases": [
     "CVE-2022-41082"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://www.secpod.com/blog/microsoft-november-2022-patch-tuesday-patches-65-vulnerabilities-including-6-zero-days"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2022-41082-microsoft-exchange-server-remote-code-execution-vulnerability-detection-script"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2022-41082-microsoft-exchange-server-remote-code-execution-vulnerability-mitigation-script"
     },
     {
       "type": "WEB",

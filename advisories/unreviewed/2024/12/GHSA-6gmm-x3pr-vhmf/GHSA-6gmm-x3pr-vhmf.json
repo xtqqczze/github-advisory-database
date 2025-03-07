@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gmm-x3pr-vhmf",
-  "modified": "2025-01-16T18:30:58Z",
+  "modified": "2025-03-07T18:31:02Z",
   "published": "2024-12-27T15:31:50Z",
   "aliases": [
     "CVE-2024-53166"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/906cdbdd3b018ff69cc830173bce277a847d4fdc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ada4ca5fd5a9d5212f28164d49a4885951c979c9"
     },
     {
       "type": "WEB",

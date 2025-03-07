@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j98h-85cg-gvmj",
-  "modified": "2025-02-27T15:31:50Z",
+  "modified": "2025-03-07T18:31:03Z",
   "published": "2025-02-27T03:33:58Z",
   "aliases": [
     "CVE-2024-57977"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57977"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0a09d56e1682c951046bf15542b3e9553046c9f6"
     },
     {
       "type": "WEB",

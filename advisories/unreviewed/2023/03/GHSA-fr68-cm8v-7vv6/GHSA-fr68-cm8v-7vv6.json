@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr68-cm8v-7vv6",
-  "modified": "2023-03-14T15:30:16Z",
+  "modified": "2025-03-07T18:30:55Z",
   "published": "2023-03-03T18:30:27Z",
   "aliases": [
     "CVE-2022-41862"
