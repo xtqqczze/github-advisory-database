@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrh8-crj8-rjwr",
-  "modified": "2023-03-13T18:30:42Z",
+  "modified": "2025-03-07T00:31:55Z",
   "published": "2023-03-07T00:30:25Z",
   "aliases": [
     "CVE-2023-24217"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-98"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
