@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m9m6-wcr9-hh75",
-  "modified": "2025-02-19T00:31:19Z",
+  "modified": "2025-03-07T03:31:33Z",
   "published": "2025-02-19T00:31:19Z",
   "aliases": [
     "CVE-2025-27113"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/libxml2/-/issues/861"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250306-0004"
     }
   ],
   "database_specific": {

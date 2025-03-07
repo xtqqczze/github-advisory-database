@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvcj-qw55-xx42",
-  "modified": "2024-06-11T06:31:46Z",
+  "modified": "2025-03-07T03:31:32Z",
   "published": "2024-05-30T21:33:37Z",
   "aliases": [
     "CVE-2024-1298"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VIMEZWDKEIQKU7NMHKL57DOCITPGEXYN"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250306-0002"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvqh-cqpj-5537",
-  "modified": "2025-02-06T21:32:09Z",
+  "modified": "2025-03-07T03:31:33Z",
   "published": "2025-02-05T12:33:07Z",
   "aliases": [
     "CVE-2025-0725"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://curl.se/docs/CVE-2025-0725.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250306-0009"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfm5-rmrh-j26v",
-  "modified": "2025-02-13T22:08:14Z",
+  "modified": "2025-03-07T03:31:32Z",
   "published": "2024-12-10T22:42:27Z",
   "aliases": [
     "CVE-2024-54133"
@@ -124,6 +124,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/actionpack/CVE-2024-54133.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250306-0010"
     }
   ],
   "database_specific": {

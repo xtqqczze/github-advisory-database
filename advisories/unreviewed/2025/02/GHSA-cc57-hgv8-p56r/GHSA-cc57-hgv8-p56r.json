@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc57-hgv8-p56r",
-  "modified": "2025-02-05T21:32:35Z",
+  "modified": "2025-03-07T03:31:32Z",
   "published": "2025-02-05T12:33:07Z",
   "aliases": [
     "CVE-2025-0665"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://curl.se/docs/CVE-2025-0665.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250306-0007"
     },
     {
       "type": "WEB",

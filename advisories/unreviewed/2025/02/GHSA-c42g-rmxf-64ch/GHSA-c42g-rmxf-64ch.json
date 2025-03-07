@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c42g-rmxf-64ch",
-  "modified": "2025-02-06T15:32:52Z",
+  "modified": "2025-03-07T03:31:32Z",
   "published": "2025-02-05T12:33:07Z",
   "aliases": [
     "CVE-2025-0167"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://curl.se/docs/CVE-2025-0167.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250306-0008"
     }
   ],
   "database_specific": {
