@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3f4-6ggh-xpgq",
-  "modified": "2025-02-27T03:34:01Z",
+  "modified": "2025-03-07T12:31:57Z",
   "published": "2025-02-27T03:34:01Z",
   "aliases": [
     "CVE-2025-21711"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/rose: prevent integer overflows in rose_setsockopt()\n\nIn case of possible unpredictably large arguments passed to\nrose_setsockopt() and multiplied by extra values on top of that,\ninteger overflows may occur.\n\nDo the safest minimum and fix these issues by checking the\ncontents of 'opt' and returning -EINVAL if they are too large. Also,\nswitch to unsigned int and remove useless check for negative 'opt'\nin ROSE_IDLE case.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T02:15:14Z"

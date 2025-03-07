@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p26w-g42r-2p4w",
+  "modified": "2025-03-07T12:31:59Z",
+  "published": "2025-03-07T12:31:59Z",
+  "aliases": [
+    "CVE-2024-9458"
+  ],
+  "details": "The Reservit Hotel WordPress plugin before 3.0 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9458"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/1157d6ae-af8b-4508-97e9-b9e86f612550"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-07T10:15:16Z"
+  }
+}
