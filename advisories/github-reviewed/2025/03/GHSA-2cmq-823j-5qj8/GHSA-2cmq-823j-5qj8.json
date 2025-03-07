@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cmq-823j-5qj8",
-  "modified": "2025-03-06T22:23:49Z",
+  "modified": "2025-03-07T13:45:22Z",
   "published": "2025-03-06T22:23:48Z",
   "aliases": [
     "CVE-2025-27598"
@@ -60,6 +60,10 @@
       "url": "https://github.com/SixLabors/ImageSharp/security/advisories/GHSA-2cmq-823j-5qj8"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27598"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/SixLabors/ImageSharp/issues/2859"
     },
@@ -79,6 +83,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-06T22:23:48Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-06T23:15:12Z"
   }
 }
