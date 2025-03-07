@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvw8-5cm3-p38j",
-  "modified": "2025-02-27T03:33:59Z",
+  "modified": "2025-03-07T15:31:42Z",
   "published": "2025-02-27T03:33:59Z",
   "aliases": [
     "CVE-2024-57983"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmailbox: th1520: Fix memory corruption due to incorrect array size\n\nThe functions th1520_mbox_suspend_noirq and th1520_mbox_resume_noirq are\nintended to save and restore the interrupt mask registers in the MBOX\nICU0. However, the array used to store these registers was incorrectly\nsized, leading to memory corruption when accessing all four registers.\n\nThis commit corrects the array size to accommodate all four interrupt\nmask registers, preventing memory corruption during suspend and resume\noperations.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T02:15:11Z"
