@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qq5-g8qh-67pf",
-  "modified": "2024-03-27T15:30:38Z",
+  "modified": "2025-03-10T18:31:50Z",
   "published": "2024-03-27T15:30:38Z",
   "aliases": [
     "CVE-2024-29759"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CodePeople Calculated Fields Form allows Reflected XSS.This issue affects Calculated Fields Form: from n/a through 1.2.54.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CodePeople Calculated Fields Form allows Reflected XSS.This issue affects Calculated Fields Form: from n/a through 1.2.54.",
   "severity": [
     {
       "type": "CVSS_V3",

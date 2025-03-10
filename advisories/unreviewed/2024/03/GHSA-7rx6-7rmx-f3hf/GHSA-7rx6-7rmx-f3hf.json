@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7rx6-7rmx-f3hf",
-  "modified": "2024-03-18T12:30:35Z",
+  "modified": "2025-03-10T18:31:49Z",
   "published": "2024-03-18T12:30:35Z",
   "aliases": [
     "CVE-2024-26634"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: fix removing a namespace with conflicting altnames\n\nMark reports a BUG() when a net namespace is removed.\n\n    kernel BUG at net/core/dev.c:11520!\n\nPhysical interfaces moved outside of init_net get \"refunded\"\nto init_net when that namespace disappears. The main interface\nname may get overwritten in the process if it would have\nconflicted. We need to also discard all conflicting altnames.\nRecent fixes addressed ensuring that altnames get moved\nwith the main interface, which surfaced this problem.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-18T11:15:10Z"

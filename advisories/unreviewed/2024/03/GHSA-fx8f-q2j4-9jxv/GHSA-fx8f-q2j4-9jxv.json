@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx8f-q2j4-9jxv",
-  "modified": "2024-03-27T09:30:40Z",
+  "modified": "2025-03-10T18:31:50Z",
   "published": "2024-03-27T09:30:40Z",
   "aliases": [
     "CVE-2024-29921"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Supsystic Photo Gallery by Supsystic allows Stored XSS.This issue affects Photo Gallery by Supsystic: from n/a through 1.15.16.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Supsystic Photo Gallery by Supsystic allows Stored XSS.This issue affects Photo Gallery by Supsystic: from n/a through 1.15.16.",
   "severity": [
     {
       "type": "CVSS_V3",

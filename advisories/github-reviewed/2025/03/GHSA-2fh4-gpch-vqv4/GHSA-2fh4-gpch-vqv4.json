@@ -1,11 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fh4-gpch-vqv4",
-  "modified": "2025-03-10T18:26:10Z",
+  "modified": "2025-03-10T18:31:03Z",
   "published": "2025-03-10T12:30:56Z",
   "withdrawn": "2025-03-10T18:26:09Z",
   "aliases": [],
-  "summary": "Zip Flag Bit Exploit Crashes Picklescan But Not PyTorch",
+  "summary": "Duplicate Advisory: Zip Flag Bit Exploit Crashes Picklescan But Not PyTorch",
   "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-w8jq-xcqf-f792. This link is maintained to preserve external references.\n\n## Original Description\npicklescan before 0.0.23 fails to detect malicious pickle files inside PyTorch model archives when certain ZIP file flag bits are modified. By flipping specific bits in the ZIP file headers, an attacker can embed malicious pickle files that remain undetected by PickleScan while still being successfully loaded by PyTorch's torch.load(). This can lead to arbitrary code execution when loading a compromised model.",
   "severity": [
     {
