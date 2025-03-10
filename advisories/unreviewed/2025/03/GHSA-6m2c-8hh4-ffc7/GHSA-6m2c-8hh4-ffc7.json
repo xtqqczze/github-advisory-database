@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6m2c-8hh4-ffc7",
+  "modified": "2025-03-10T15:30:49Z",
+  "published": "2025-03-10T15:30:49Z",
+  "aliases": [
+    "CVE-2025-25614"
+  ],
+  "details": "Incorrect Access Control in Unifiedtransform 2.0 leads to Privilege Escalation, which allows teachers to update the personal data of fellow teachers.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25614"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/armaansidana2003/CVE-2025-25614"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/changeweb/Unifiedtransform"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-10T15:15:37Z"
+  }
+}

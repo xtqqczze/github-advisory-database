@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pfr-rxmf-5m47",
-  "modified": "2024-03-26T15:30:48Z",
+  "modified": "2025-03-10T15:30:45Z",
   "published": "2024-03-26T15:30:48Z",
   "aliases": [
     "CVE-2023-52214"
   ],
-  "details": "Missing Authorization vulnerability in voidCoders Void Contact Form 7 Widget For Elementor Page Builder.This issue affects Void Contact Form 7 Widget For Elementor Page Builder: from n/a through 2.3.\n\n",
+  "details": "Missing Authorization vulnerability in voidCoders Void Contact Form 7 Widget For Elementor Page Builder.This issue affects Void Contact Form 7 Widget For Elementor Page Builder: from n/a through 2.3.",
   "severity": [
     {
       "type": "CVSS_V3",

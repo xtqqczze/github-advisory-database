@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfwf-rfmg-7f8m",
-  "modified": "2025-03-10T00:30:51Z",
+  "modified": "2025-03-10T15:30:46Z",
   "published": "2025-03-08T21:30:52Z",
   "aliases": [
     "CVE-2025-27840"
@@ -21,6 +21,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://cheriot.org/auditing/backdoor/2025/03/09/no-esp32-style-backdoor.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://darkmentor.com/blog/esp32_non-backdoor"
+    },
+    {
+      "type": "WEB",
       "url": "https://flyingpenguin.com/?p=67838"
     },
     {
@@ -33,7 +41,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/esphome/esphome/discussions/8382"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/orgs/espruino/discussions/7699"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=43301369"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=43308740"
     },
     {
       "type": "WEB",
