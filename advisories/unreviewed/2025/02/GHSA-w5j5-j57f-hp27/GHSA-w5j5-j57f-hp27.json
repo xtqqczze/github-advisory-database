@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w5j5-j57f-hp27",
-  "modified": "2025-02-07T03:32:01Z",
+  "modified": "2025-03-10T21:31:08Z",
   "published": "2025-02-04T15:31:37Z",
   "aliases": [
     "CVE-2025-1015"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2025-10"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-11"
     }
   ],
   "database_specific": {

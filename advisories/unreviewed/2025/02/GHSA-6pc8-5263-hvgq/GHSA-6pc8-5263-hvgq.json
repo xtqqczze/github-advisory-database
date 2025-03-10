@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pc8-5263-hvgq",
-  "modified": "2025-03-04T21:30:54Z",
+  "modified": "2025-03-10T21:31:11Z",
   "published": "2025-02-27T00:30:26Z",
   "aliases": [
     "CVE-2024-55581"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.adacore.com/corp/security-advisories/SEC.AWS-0056-v1.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00007.html"
     }
   ],
   "database_specific": {

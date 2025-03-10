@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3hp-8546-5qmr",
-  "modified": "2025-03-10T21:07:03Z",
+  "modified": "2025-03-10T21:31:09Z",
   "published": "2025-01-22T15:32:35Z",
   "withdrawn": "2025-03-10T21:07:03Z",
   "aliases": [],
@@ -38,6 +38,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0604"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:2544"
     },
     {
       "type": "WEB",

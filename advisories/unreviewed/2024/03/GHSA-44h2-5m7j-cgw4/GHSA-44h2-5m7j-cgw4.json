@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44h2-5m7j-cgw4",
-  "modified": "2024-03-18T15:30:49Z",
+  "modified": "2025-03-10T21:31:08Z",
   "published": "2024-03-18T15:30:49Z",
   "aliases": [
     "CVE-2024-27774"
   ],
-  "details": "\nUnitronics Unistream Unilogic – Versions prior to 1.35.227 -\n\nCWE-259: Use of Hard-coded Password may allow disclosing Sensitive Information Embedded inside Device's Firmware\n\n",
+  "details": "Unitronics Unistream Unilogic – Versions prior to 1.35.227 -\n\nCWE-259: Use of Hard-coded Password may allow disclosing Sensitive Information Embedded inside Device's Firmware",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-259"
+      "CWE-259",
+      "CWE-798"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

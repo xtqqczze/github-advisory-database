@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w38v-jxmp-5hf2",
-  "modified": "2024-03-18T15:30:49Z",
+  "modified": "2025-03-10T21:31:08Z",
   "published": "2024-03-18T15:30:49Z",
   "aliases": [
     "CVE-2024-27773"
   ],
-  "details": "\nUnitronics Unistream Unilogic – Versions prior to 1.35.227 -\n\nCWE-348: Use of Less Trusted Source may allow RCE\n\n",
+  "details": "Unitronics Unistream Unilogic – Versions prior to 1.35.227 -\n\nCWE-348: Use of Less Trusted Source may allow RCE",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-345",
       "CWE-348"
     ],
     "severity": "HIGH",

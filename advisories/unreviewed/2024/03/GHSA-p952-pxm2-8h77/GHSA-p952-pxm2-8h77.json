@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p952-pxm2-8h77",
-  "modified": "2024-03-18T15:30:49Z",
+  "modified": "2025-03-10T21:31:08Z",
   "published": "2024-03-18T15:30:49Z",
   "aliases": [
     "CVE-2024-27767"
   ],
-  "details": "\nCWE-287: Improper Authentication may allow Authentication Bypass\n\n",
+  "details": "CWE-287: Improper Authentication may allow Authentication Bypass",
   "severity": [
     {
       "type": "CVSS_V3",
