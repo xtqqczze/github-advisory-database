@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvfq-8hwr-qm4m",
-  "modified": "2025-02-18T22:36:03Z",
+  "modified": "2025-03-10T22:36:22Z",
   "published": "2025-02-18T22:36:03Z",
   "aliases": [],
   "summary": "Nokogiri updates packaged libxml2 to 2.13.6 to resolve CVE-2025-24928 and CVE-2024-56171",
@@ -32,6 +32,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-vvfq-8hwr-qm4m"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/nokogiri/GHSA-vvfq-8hwr-qm4m.yml"
     },
     {
       "type": "PACKAGE",
