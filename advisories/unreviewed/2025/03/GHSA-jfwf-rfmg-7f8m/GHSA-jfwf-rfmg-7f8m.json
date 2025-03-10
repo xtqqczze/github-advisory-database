@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfwf-rfmg-7f8m",
-  "modified": "2025-03-08T21:30:52Z",
+  "modified": "2025-03-10T00:30:51Z",
   "published": "2025-03-08T21:30:52Z",
   "aliases": [
     "CVE-2025-27840"
@@ -21,7 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://flyingpenguin.com/?p=67838"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/TarlogicSecurity/Talks/blob/main/2025_RootedCon_BluetoothTools.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/em0gi/CVE-2025-27840"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/orgs/espruino/discussions/7699"
     },
     {
       "type": "WEB",
@@ -30,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://www.bleepingcomputer.com/news/security/undocumented-backdoor-found-in-bluetooth-chip-used-by-a-billion-devices"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.bleepingcomputer.com/news/security/undocumented-commands-found-in-bluetooth-chip-used-by-a-billion-devices"
     },
     {
       "type": "WEB",
