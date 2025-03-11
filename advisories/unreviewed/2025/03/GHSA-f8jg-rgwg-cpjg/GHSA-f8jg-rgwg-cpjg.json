@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8jg-rgwg-cpjg",
-  "modified": "2025-03-10T21:31:12Z",
+  "modified": "2025-03-11T03:30:49Z",
   "published": "2025-03-10T21:31:12Z",
   "aliases": [
     "CVE-2022-43454"
   ],
   "details": "A double free issue was addressed with improved memory management. This issue is fixed in macOS Ventura 13.1, watchOS 9.2, iOS 16.2 and iPadOS 16.2, tvOS 16.2. An app may be able to execute arbitrary code with kernel privileges.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-10T20:15:13Z"

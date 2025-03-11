@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5427-6cg5-37h6",
-  "modified": "2025-03-05T00:30:34Z",
+  "modified": "2025-03-11T03:30:49Z",
   "published": "2025-03-04T15:31:49Z",
   "aliases": [
     "CVE-2025-1937"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2025-18"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/03/10/6"
     }
   ],
   "database_specific": {
