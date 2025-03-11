@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pv2-vj8w-6fqg",
-  "modified": "2024-04-04T05:33:21Z",
+  "modified": "2025-03-11T18:31:58Z",
   "published": "2023-07-06T19:24:10Z",
   "aliases": [
     "CVE-2023-23510"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-863"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p6r9-p725-g42c",
+  "modified": "2025-03-11T18:32:19Z",
+  "published": "2025-03-11T18:32:19Z",
+  "aliases": [
+    "CVE-2021-37787"
+  ],
+  "details": "The unprivileged administrative interface in ABO.CMS version 5.8 through v.5.9.3 is affected by a SQL Injection vulnerability via a HTTP POST request to the TinyMCE module",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-37787"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.abocms.ru"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-11T18:15:25Z"
+  }
+}

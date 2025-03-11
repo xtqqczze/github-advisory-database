@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ccw-6p8h-92ch",
-  "modified": "2024-03-07T15:30:38Z",
+  "modified": "2025-03-11T18:32:02Z",
   "published": "2024-03-07T15:30:38Z",
   "aliases": [
     "CVE-2023-42509"
   ],
-  "details": "JFrog Artifactory later than version 7.17.4 but prior to version 7.77.0 is vulnerable to an issue whereby a sequence of improperly handled exceptions in repository configuration initialization steps may lead to exposure of sensitive data.\n\n",
+  "details": "JFrog Artifactory later than version 7.17.4 but prior to version 7.77.0 is vulnerable to an issue whereby a sequence of improperly handled exceptions in repository configuration initialization steps may lead to exposure of sensitive data.",
   "severity": [
     {
       "type": "CVSS_V3",
