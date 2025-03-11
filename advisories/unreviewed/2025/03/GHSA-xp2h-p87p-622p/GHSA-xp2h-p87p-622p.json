@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xp2h-p87p-622p",
+  "modified": "2025-03-11T09:30:30Z",
+  "published": "2025-03-11T09:30:30Z",
+  "aliases": [
+    "CVE-2025-2190"
+  ],
+  "details": "The mobile application (com.transsnet.store) has a man-in-the-middle attack vulnerability, which may lead to code injection risks.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2190"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.tecno.com/SRC/blogdetail/393?lang=en_US"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.tecno.com/SRC/securityUpdates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-300"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-11T07:15:37Z"
+  }
+}
