@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf24-chxh-hmvj",
-  "modified": "2025-03-06T21:36:34Z",
+  "modified": "2025-03-11T17:15:37Z",
   "published": "2025-03-06T19:11:39Z",
   "aliases": [
     "CVE-2025-25294"
@@ -86,6 +86,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/envoyproxy/gateway/releases/tag/v1.3.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3504"
     }
   ],
   "database_specific": {

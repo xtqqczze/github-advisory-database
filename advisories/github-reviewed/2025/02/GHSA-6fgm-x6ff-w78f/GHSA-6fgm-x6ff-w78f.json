@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6fgm-x6ff-w78f",
-  "modified": "2025-02-12T22:01:24Z",
+  "modified": "2025-03-11T17:14:26Z",
   "published": "2025-02-12T22:01:24Z",
   "aliases": [],
   "summary": "Potential Denial-of-Service condition leading to temporary disability in IBC transfers to the native chain",
@@ -50,6 +50,63 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/cosmos/ibc-apps/middleware/packet-forward-middleware/v4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 7.2.1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/cosmos/ibc-apps/middleware/packet-forward-middleware/v5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 7.2.1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/cosmos/ibc-apps/middleware/packet-forward-middleware/v6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 7.2.1"
+      }
     }
   ],
   "references": [
