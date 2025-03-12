@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4vc4-m8qh-g8jm",
+  "modified": "2025-03-12T20:20:25Z",
+  "published": "2025-03-12T20:20:24Z",
+  "aliases": [
+    "CVE-2025-25291"
+  ],
+  "summary": "Ruby SAML allows a SAML authentication bypass due to DOCTYPE handling (parser differential)",
+  "details": "### Summary\nAn authentication bypass vulnerability was found in ruby-saml due to a parser differential.\nReXML and Nokogiri parse XML differently, the parsers can generate entirely different document structures from the same XML input. That allows an attacker to be able to execute a Signature Wrapping attack.\n\n### Impact\nThis issue may lead to authentication bypass.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N/E:U"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "ruby-saml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "ruby-saml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.13.0"
+            },
+            {
+              "fixed": "1.18.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/SAML-Toolkits/ruby-saml/security/advisories/GHSA-4vc4-m8qh-g8jm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SAML-Toolkits/ruby-saml/commit/e9c1cdbd0f9afa467b585de279db0cbd0fb8ae97"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/SAML-Toolkits/ruby-saml"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-347",
+      "CWE-436"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-12T20:20:24Z",
+    "nvd_published_at": null
+  }
+}
