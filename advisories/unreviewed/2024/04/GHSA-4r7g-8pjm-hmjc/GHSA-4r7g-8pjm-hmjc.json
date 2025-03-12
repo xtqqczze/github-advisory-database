@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r7g-8pjm-hmjc",
-  "modified": "2024-04-15T09:30:54Z",
+  "modified": "2025-03-12T21:31:28Z",
   "published": "2024-04-15T09:30:54Z",
   "aliases": [
     "CVE-2024-32125"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Booking Algorithms BA Book Everything.This issue affects BA Book Everything: from n/a through 1.6.4.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Booking Algorithms BA Book Everything.This issue affects BA Book Everything: from n/a through 1.6.4.",
   "severity": [
     {
       "type": "CVSS_V3",

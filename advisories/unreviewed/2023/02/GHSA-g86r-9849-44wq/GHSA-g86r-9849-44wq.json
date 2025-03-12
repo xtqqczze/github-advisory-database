@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g86r-9849-44wq",
-  "modified": "2023-03-03T18:30:27Z",
+  "modified": "2025-03-12T21:31:27Z",
   "published": "2023-02-23T21:30:16Z",
   "aliases": [
     "CVE-2023-0597"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/linus/97e3d26b5e5f371b3ee223d94dd123e6c442ba80"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2023/07/28/1"
     },
     {
       "type": "WEB",

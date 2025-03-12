@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qjm-v45h-7fxq",
-  "modified": "2025-03-10T18:31:56Z",
+  "modified": "2025-03-12T21:31:28Z",
   "published": "2025-03-10T18:31:56Z",
   "aliases": [
     "CVE-2025-25940"
   ],
   "details": "VisiCut 2.1 allows code execution via Insecure XML Deserialization in the loadPlfFile method of VisicutModel.java.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-10T16:15:13Z"

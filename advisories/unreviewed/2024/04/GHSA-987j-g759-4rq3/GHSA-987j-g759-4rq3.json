@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-987j-g759-4rq3",
-  "modified": "2024-04-24T18:30:33Z",
+  "modified": "2025-03-12T21:31:28Z",
   "published": "2024-04-24T18:30:33Z",
   "aliases": [
     "CVE-2023-51405"
   ],
-  "details": "Improper Authentication vulnerability in Repute Infosystems BookingPress allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects BookingPress: from n/a through 1.0.74.\n\n",
+  "details": "Improper Authentication vulnerability in Repute Infosystems BookingPress allows Accessing Functionality Not Properly Constrained by ACLs.This issue affects BookingPress: from n/a through 1.0.74.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-287"
+      "CWE-287",
+      "CWE-863"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
