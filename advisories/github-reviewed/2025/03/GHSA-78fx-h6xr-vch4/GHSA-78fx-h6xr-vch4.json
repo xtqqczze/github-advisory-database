@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78fx-h6xr-vch4",
-  "modified": "2025-03-05T21:54:00Z",
+  "modified": "2025-03-12T21:29:27Z",
   "published": "2025-03-05T19:09:39Z",
   "aliases": [
     "CVE-2025-27515"
@@ -44,10 +44,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "11.0.0"
             },
             {
               "fixed": "11.44.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "laravel/framework"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "10.48.29"
             }
           ]
         }
@@ -66,6 +85,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/laravel/framework/commit/2d133034fefddfb047838f4caca3687a3ba811a5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/laravel/framework/commit/a4f7a8f9b83e21882abeef78c3174c66b0f4a26b"
     },
     {
       "type": "PACKAGE",
