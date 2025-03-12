@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92rq-c8cf-prrq",
-  "modified": "2025-03-12T20:16:50Z",
+  "modified": "2025-03-12T21:42:31Z",
   "published": "2025-03-12T20:16:50Z",
   "aliases": [
     "CVE-2025-25293"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:P"
     }
   ],
   "affected": [
@@ -61,11 +61,39 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/omniauth/omniauth-saml/security/advisories/GHSA-hw46-3hmr-x9xv"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25293"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/SAML-Toolkits/ruby-saml/commit/acac9e9cc0b9a507882c614f25d41f8b47be349a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SAML-Toolkits/ruby-saml/commit/e2da4c6dae7dc01a4d9cd221395140a67e2b3eb1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://about.gitlab.com/releases/2025/03/12/patch-release-gitlab-17-9-2-released"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.blog/security/sign-in-as-anyone-bypassing-saml-sso-authentication-with-parser-differentials"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/SAML-Toolkits/ruby-saml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SAML-Toolkits/ruby-saml/releases/tag/v1.12.4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SAML-Toolkits/ruby-saml/releases/tag/v1.18.0"
     }
   ],
   "database_specific": {
@@ -73,9 +101,9 @@
       "CWE-400",
       "CWE-770"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-12T20:16:50Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-12T21:15:42Z"
   }
 }
