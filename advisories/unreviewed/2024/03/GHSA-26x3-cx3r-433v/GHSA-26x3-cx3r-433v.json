@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26x3-cx3r-433v",
-  "modified": "2024-03-01T09:31:06Z",
+  "modified": "2025-03-12T15:31:50Z",
   "published": "2024-03-01T09:31:06Z",
   "aliases": [
     "CVE-2024-1859"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-502"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

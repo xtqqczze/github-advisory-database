@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-564p-v49m-6qxf",
-  "modified": "2025-03-11T18:32:20Z",
+  "modified": "2025-03-12T15:32:00Z",
   "published": "2025-03-11T18:32:20Z",
   "aliases": [
     "CVE-2025-27163"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://helpx.adobe.com/security/products/acrobat/apsb25-14.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2134"
     }
   ],
   "database_specific": {

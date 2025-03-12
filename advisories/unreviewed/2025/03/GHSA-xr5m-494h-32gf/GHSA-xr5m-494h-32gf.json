@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xr5m-494h-32gf",
+  "modified": "2025-03-12T15:32:05Z",
+  "published": "2025-03-12T15:32:05Z",
+  "aliases": [
+    "CVE-2025-27914"
+  ],
+  "details": "An issue was discovered in Zimbra Collaboration (ZCS) 9.0 and 10.0 and 10.1. A Reflected Cross-Site Scripting (XSS) vulnerability exists in the /h/rest endpoint, allowing authenticated attackers to inject and execute arbitrary JavaScript in a victim's session. Exploitation requires a valid auth token and involves a crafted URL with manipulated query parameters that triggers XSS when accessed by a victim.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27914"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wiki.zimbra.com/wiki/Zimbra_Releases/10.0.11#Security_Fixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wiki.zimbra.com/wiki/Zimbra_Responsible_Disclosure_Policy"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-12T15:15:39Z"
+  }
+}

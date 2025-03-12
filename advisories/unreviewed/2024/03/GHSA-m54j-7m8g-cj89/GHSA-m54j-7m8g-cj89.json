@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m54j-7m8g-cj89",
-  "modified": "2024-03-19T15:30:35Z",
+  "modified": "2025-03-12T15:31:55Z",
   "published": "2024-03-19T15:30:35Z",
   "aliases": [
     "CVE-2024-29114"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in W3 Eden, Inc. Download Manager allows Stored XSS.This issue affects Download Manager: from n/a through 3.2.84.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in W3 Eden, Inc. Download Manager allows Stored XSS.This issue affects Download Manager: from n/a through 3.2.84.",
   "severity": [
     {
       "type": "CVSS_V3",
