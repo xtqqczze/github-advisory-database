@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw5w-rmc5-f87r",
-  "modified": "2025-03-10T09:31:48Z",
+  "modified": "2025-03-12T12:30:56Z",
   "published": "2025-03-10T09:31:48Z",
   "aliases": [
     "CVE-2025-27254"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.gevernova.com/grid-solutions/app/DownloadFile.aspx?prod=urfamily&type=21&file=76"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.nozominetworks.com/labs/vulnerability-advisories-cve-2025-27254"
     }
   ],
   "database_specific": {

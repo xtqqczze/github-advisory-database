@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hh8-gpv5-pc93",
-  "modified": "2025-03-12T09:30:53Z",
+  "modified": "2025-03-12T12:30:57Z",
   "published": "2025-03-12T09:30:53Z",
   "aliases": [
     "CVE-2024-58087"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b95629435b84b9ecc0c765995204a4d8a913ed52"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zerodayinitiative.com/advisories/ZDI-25-100"
     }
   ],
   "database_specific": {
