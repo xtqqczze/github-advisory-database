@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7f9-wqc4-3wxr",
-  "modified": "2025-03-11T16:17:42Z",
+  "modified": "2025-03-12T14:45:13Z",
   "published": "2025-03-11T16:17:42Z",
   "aliases": [],
   "summary": "Mockoon has a Path Traversal and LFI in the static file serving endpoint",
@@ -26,11 +26,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "9.1.0"
+              "fixed": "9.2.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 9.1.0"
+      }
     },
     {
       "package": {
@@ -45,11 +48,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "9.1.0"
+              "fixed": "9.2.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 9.1.0"
+      }
     }
   ],
   "references": [
