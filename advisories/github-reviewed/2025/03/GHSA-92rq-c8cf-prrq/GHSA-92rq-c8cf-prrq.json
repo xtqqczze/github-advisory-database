@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-92rq-c8cf-prrq",
+  "modified": "2025-03-12T20:16:50Z",
+  "published": "2025-03-12T20:16:50Z",
+  "aliases": [
+    "CVE-2025-25293"
+  ],
+  "summary": "Ruby SAML allows remote Denial of Service (DoS) with compressed SAML responses",
+  "details": "### Summary\nruby-saml is susceptible to remote Denial of Service (DoS) with compressed SAML responses.\n\nRuby-saml uses zlib to decompress SAML responses in case they're compressed. It is possible to bypass the message size check with a compressed assertion since the message size is checked before inflation and not after.\n\n### Impact\nThis issue may lead to remote Denial of Service (DoS).",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "ruby-saml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "ruby-saml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.13.0"
+            },
+            {
+              "fixed": "1.18.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/SAML-Toolkits/ruby-saml/security/advisories/GHSA-92rq-c8cf-prrq"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SAML-Toolkits/ruby-saml/commit/acac9e9cc0b9a507882c614f25d41f8b47be349a"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/SAML-Toolkits/ruby-saml"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-400",
+      "CWE-770"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-12T20:16:50Z",
+    "nvd_published_at": null
+  }
+}
