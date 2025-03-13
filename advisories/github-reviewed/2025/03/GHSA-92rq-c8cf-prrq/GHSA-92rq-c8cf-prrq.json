@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92rq-c8cf-prrq",
-  "modified": "2025-03-12T21:42:31Z",
+  "modified": "2025-03-13T21:42:28Z",
   "published": "2025-03-12T20:16:50Z",
   "aliases": [
     "CVE-2025-25293"
@@ -94,6 +94,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/SAML-Toolkits/ruby-saml/releases/tag/v1.18.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ruby-saml/CVE-2025-25293.yml"
     }
   ],
   "database_specific": {
