@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2mw-5mch-w8c5",
-  "modified": "2025-03-12T15:33:44Z",
+  "modified": "2025-03-13T14:09:30Z",
   "published": "2025-03-10T18:31:56Z",
   "aliases": [
     "CVE-2025-25977"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "4.0.2"
+              "fixed": "4.0.3"
             }
           ]
         }
@@ -43,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/canvg/canvg/issues/1749"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/canvg/canvg/commit/c3743e6345f3e01aefdcdd412c3f26494f4b5d7d"
     },
     {
       "type": "PACKAGE",
