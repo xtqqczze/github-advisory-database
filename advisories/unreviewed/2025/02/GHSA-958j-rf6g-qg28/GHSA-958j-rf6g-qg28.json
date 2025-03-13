@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-958j-rf6g-qg28",
-  "modified": "2025-02-16T18:30:27Z",
+  "modified": "2025-03-13T09:31:46Z",
   "published": "2025-02-16T18:30:27Z",
   "aliases": [
     "CVE-2025-1354"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://www.asus.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.asus.com/supportonly/rt-n10e/helpdesk_bios"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.asus.com/supportonly/rt-n12e/helpdesk_bios"
     }
   ],
   "database_specific": {
