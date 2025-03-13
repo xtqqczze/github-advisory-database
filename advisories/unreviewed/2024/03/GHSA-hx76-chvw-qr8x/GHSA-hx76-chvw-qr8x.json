@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx76-chvw-qr8x",
-  "modified": "2024-03-15T21:30:43Z",
+  "modified": "2025-03-13T21:30:59Z",
   "published": "2024-03-15T21:30:43Z",
   "aliases": [
     "CVE-2021-47110"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86/kvm: Disable kvmclock on all CPUs on shutdown\n\nCurrenly, we disable kvmclock from machine_shutdown() hook and this\nonly happens for boot CPU. We need to disable it for all CPUs to\nguard against memory corruption e.g. on restore from hibernate.\n\nNote, writing '0' to kvmclock MSR doesn't clear memory location, it\njust prevents hypervisor from updating the location so for the short\nwhile after write and while CPU is still alive, the clock remains usable\nand correct so we don't need to switch to some other clocksource.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-459"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-15T21:15:06Z"

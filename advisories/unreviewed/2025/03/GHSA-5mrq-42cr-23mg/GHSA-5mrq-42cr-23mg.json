@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mrq-42cr-23mg",
-  "modified": "2025-03-12T18:32:52Z",
+  "modified": "2025-03-13T21:31:19Z",
   "published": "2025-03-12T18:32:52Z",
   "aliases": [
     "CVE-2025-1960"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8wpj-v5qv-3wf4",
-  "modified": "2024-08-27T18:31:35Z",
+  "modified": "2025-03-13T21:31:08Z",
   "published": "2024-06-29T06:31:40Z",
   "aliases": [
     "CVE-2024-37371"
@@ -25,11 +25,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0009"
+    },
+    {
+      "type": "WEB",
       "url": "https://web.mit.edu/kerberos/www/advisories"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-125"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

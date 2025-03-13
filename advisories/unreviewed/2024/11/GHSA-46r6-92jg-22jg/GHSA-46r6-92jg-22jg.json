@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46r6-92jg-22jg",
-  "modified": "2024-11-09T00:30:42Z",
+  "modified": "2025-03-13T21:31:13Z",
   "published": "2024-11-09T00:30:42Z",
   "aliases": [
     "CVE-2024-27530"
   ],
   "details": "wasm3 139076a contains a Use-After-Free in ForEachModule.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-08T22:15:15Z"

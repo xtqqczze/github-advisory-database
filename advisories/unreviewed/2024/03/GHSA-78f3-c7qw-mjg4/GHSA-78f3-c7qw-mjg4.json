@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78f3-c7qw-mjg4",
-  "modified": "2024-03-29T15:30:30Z",
+  "modified": "2025-03-13T21:31:03Z",
   "published": "2024-03-29T15:30:30Z",
   "aliases": [
     "CVE-2024-30628"
   ],
   "details": "Tenda FH1205 v2.0.0.7(775) has a stack overflow vulnerability in the page parameter from fromAddressNat function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-120"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-29T13:15:16Z"
