@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cr3-cm5h-8q96",
-  "modified": "2022-05-14T03:57:43Z",
+  "modified": "2025-03-13T17:56:30Z",
   "published": "2022-05-14T03:57:43Z",
   "aliases": [
     "CVE-2016-3727"
   ],
+  "summary": "Jenkins Exposes Sensitive Information via API URL",
   "details": "The API URL computer/(master)/api/xml in Jenkins before 2.3 and LTS before 1.651.2 allows remote authenticated users with extended read permission for the master node to obtain sensitive information about the global configuration via unspecified vectors.",
   "severity": [
     {
@@ -13,7 +14,46 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jenkins-ci.main:jenkins-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.652"
+            },
+            {
+              "fixed": "2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jenkins-ci.main:jenkins-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.651.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,7 +61,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/jenkinsci/jenkins/commit/d66ad6f3ee46a5c6bb865bb831e8cdfc74cd7eb3"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2016:1206"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/jenkinsci/jenkins"
     },
     {
       "type": "WEB",
@@ -41,8 +89,8 @@
       "CWE-200"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-13T17:56:30Z",
     "nvd_published_at": "2016-05-17T14:08:00Z"
   }
 }
