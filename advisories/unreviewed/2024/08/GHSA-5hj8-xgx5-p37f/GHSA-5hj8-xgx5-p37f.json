@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hj8-xgx5-p37f",
-  "modified": "2024-08-30T18:30:37Z",
+  "modified": "2025-03-13T15:32:36Z",
   "published": "2024-08-05T12:31:15Z",
   "aliases": [
     "CVE-2024-36448"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/d19p0vsm7nogp43q9m3tzm5jl6mzjj1x"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/08/05/1"
     }
   ],
   "database_specific": {

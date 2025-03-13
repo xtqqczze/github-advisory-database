@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq5p-7q76-276p",
-  "modified": "2025-02-27T21:32:16Z",
+  "modified": "2025-03-13T15:32:53Z",
   "published": "2025-02-27T21:32:16Z",
   "aliases": [
     "CVE-2025-21806"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21806"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0e2f1d93d287d544d26f8ff293ea820a8079b9f8"
     },
     {
       "type": "WEB",
@@ -29,6 +33,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6ce38b5a6a49e65bad163162a54cb3f104c40b48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c337c08819a4ec49edfdcd8fc46fbee120d8a5b2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d0e0f9c8218826926d7692980c98236d9f21fd3c"
     },
     {
       "type": "WEB",

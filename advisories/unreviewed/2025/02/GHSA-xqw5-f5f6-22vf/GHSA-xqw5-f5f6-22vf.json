@@ -1,18 +1,27 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqw5-f5f6-22vf",
-  "modified": "2025-02-27T03:34:06Z",
+  "modified": "2025-03-13T15:32:52Z",
   "published": "2025-02-27T03:34:06Z",
   "aliases": [
     "CVE-2025-21785"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\narm64: cacheinfo: Avoid out-of-bounds write to cacheinfo array\n\nThe loop that detects/populates cache information already has a bounds\ncheck on the array size but does not account for cache levels with\nseparate data/instructions cache. Fix this by incrementing the index\nfor any populated leaf (instead of any populated level).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21785"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4371ac7b494e933fffee2bd6265d18d73c4f05aa"
     },
     {
       "type": "WEB",
@@ -32,12 +41,22 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/88a3e6afaf002250220793df99404977d343db14"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ab90894f33c15b14c1cee6959ab6c8dcb09127f8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e4fde33107351ec33f1a64188612fbc6ca659284"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:19Z"

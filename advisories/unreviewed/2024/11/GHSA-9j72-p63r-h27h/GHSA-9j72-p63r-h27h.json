@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j72-p63r-h27h",
-  "modified": "2024-11-22T21:32:15Z",
+  "modified": "2025-03-13T15:32:41Z",
   "published": "2024-11-22T21:32:15Z",
   "aliases": [
     "CVE-2024-44786"
   ],
   "details": "Incorrect access control in Meabilis CMS 1.0 allows attackers to access other users' address books via unspecified vectors.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-276"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-22T17:15:08Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjph-w72m-276x",
-  "modified": "2025-02-07T21:31:02Z",
+  "modified": "2025-03-13T15:32:46Z",
   "published": "2025-02-07T21:31:02Z",
   "aliases": [
     "CVE-2021-41527"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-94"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,

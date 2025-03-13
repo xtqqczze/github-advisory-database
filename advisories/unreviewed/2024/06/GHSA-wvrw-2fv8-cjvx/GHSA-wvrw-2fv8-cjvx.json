@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvrw-2fv8-cjvx",
-  "modified": "2024-08-27T18:31:35Z",
+  "modified": "2025-03-13T15:32:34Z",
   "published": "2024-06-29T06:31:40Z",
   "aliases": [
     "CVE-2024-37370"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241108-0007"
     },
     {
       "type": "WEB",

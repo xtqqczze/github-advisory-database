@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgjx-56hm-4qrp",
-  "modified": "2025-03-07T18:31:04Z",
+  "modified": "2025-03-13T15:32:54Z",
   "published": "2025-03-06T18:31:11Z",
   "aliases": [
     "CVE-2024-58079"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/0b5e0445bc8384c18bd35cb9fe87f6258c6271d9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0fdd7cc593385e46e92e180b71e264fc9c195298"
     },
     {
       "type": "WEB",

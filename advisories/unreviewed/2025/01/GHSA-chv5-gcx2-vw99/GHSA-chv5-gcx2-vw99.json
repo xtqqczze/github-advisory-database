@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chv5-gcx2-vw99",
-  "modified": "2025-02-18T21:32:29Z",
+  "modified": "2025-03-13T15:32:45Z",
   "published": "2025-01-28T00:32:13Z",
   "aliases": [
     "CVE-2024-54475"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-200"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,

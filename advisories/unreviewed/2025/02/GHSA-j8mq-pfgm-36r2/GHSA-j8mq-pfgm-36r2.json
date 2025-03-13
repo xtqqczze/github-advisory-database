@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8mq-pfgm-36r2",
-  "modified": "2025-02-27T18:31:11Z",
+  "modified": "2025-03-13T15:32:51Z",
   "published": "2025-02-27T03:34:05Z",
   "aliases": [
     "CVE-2025-21764"
@@ -29,11 +29,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/96fc896d0e5b37c12808df797397fb16f3080879"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/9e0ec817eb41a55327a46cd3ce331a9868d60304"
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b870256dd2a5648d5ed2f22316b3ac29a7e5ed63"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bbec88e4108e8d6fb468d3817fa652140a44ff28"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c30893ef3d9cde8e7e8e4fd06b53d2c935bbccb1"
     },
     {
       "type": "WEB",

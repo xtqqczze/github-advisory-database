@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ffg-fcmm-x4pp",
-  "modified": "2025-03-12T12:30:58Z",
+  "modified": "2025-03-13T15:32:56Z",
   "published": "2025-03-12T12:30:58Z",
   "aliases": [
     "CVE-2025-21848"
@@ -32,7 +32,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/924b239f9704566e0d86abd894d2d64bd73c11eb"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bd97f60750bb581f07051f98e31dfda59d3a783b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d64c6ca420019712e194fe095b55f87363e22a9a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e976ea6c5e1b005c64467cbf94a8577aae9c7d81"
     }
   ],
   "database_specific": {

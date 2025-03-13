@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3v4-26gh-289c",
-  "modified": "2025-02-21T15:31:57Z",
+  "modified": "2025-03-13T15:32:40Z",
   "published": "2024-10-21T15:32:26Z",
   "aliases": [
     "CVE-2024-47726"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47726"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3aa5254d80969cb576601fb9fec7a188cc8dc169"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7be13b73409b553d9d9a6cbb042b4d19e2631cc7"
     },
     {
       "type": "WEB",

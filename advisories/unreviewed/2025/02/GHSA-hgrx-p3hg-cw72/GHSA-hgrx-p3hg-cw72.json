@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgrx-p3hg-cw72",
-  "modified": "2025-02-27T18:31:12Z",
+  "modified": "2025-03-13T15:32:52Z",
   "published": "2025-02-27T03:34:07Z",
   "aliases": [
     "CVE-2025-21796"
@@ -33,7 +33,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6f7cfee1a316891890c505563aa54f3476db52fd"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7faf14a7b0366f153284db0ad3347c457ea70136"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8a1737ae42c928384ab6447f6ee1a882510e85fa"
     },
     {
       "type": "WEB",

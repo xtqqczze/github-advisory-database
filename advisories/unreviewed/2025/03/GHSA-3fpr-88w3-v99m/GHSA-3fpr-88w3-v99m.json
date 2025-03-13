@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fpr-88w3-v99m",
-  "modified": "2025-03-06T18:31:10Z",
+  "modified": "2025-03-13T15:32:54Z",
   "published": "2025-03-06T18:31:10Z",
   "aliases": [
     "CVE-2024-58071"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58071"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0a7794b9ca78c8e7d001c583bf05736169de3f20"
     },
     {
       "type": "WEB",
@@ -28,7 +32,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/62ff1615815d565448c37cb8a7a2a076492ec471"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/adff6ac889e16d97abd1e4543f533221127e978a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bd099a2fa9be983ba0e90a57a59484fe9d520ba8"
     },
     {
       "type": "WEB",

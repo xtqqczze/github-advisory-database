@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j992-gmv8-p6vw",
-  "modified": "2025-03-07T18:31:03Z",
+  "modified": "2025-03-13T15:32:49Z",
   "published": "2025-02-27T03:34:03Z",
   "aliases": [
     "CVE-2024-58005"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-58005"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0621d2599d6e02d05c85d6bbd58eaea2f15b3503"
     },
     {
       "type": "WEB",
@@ -38,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a3a860bc0fd6c07332e4911cf9a238d20de90173"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a676c0401de59548a5bc1b7aaf98f556ae8ea6db"
     }
   ],
   "database_specific": {

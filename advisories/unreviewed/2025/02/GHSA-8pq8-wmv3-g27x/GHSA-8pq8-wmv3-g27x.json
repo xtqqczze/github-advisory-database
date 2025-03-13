@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8pq8-wmv3-g27x",
-  "modified": "2025-02-27T03:34:04Z",
+  "modified": "2025-03-13T15:32:50Z",
   "published": "2025-02-27T03:34:04Z",
   "aliases": [
     "CVE-2025-21749"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: rose: lock the socket in rose_bind()\n\nsyzbot reported a soft lockup in rose_loopback_timer(),\nwith a repro calling bind() from multiple threads.\n\nrose_bind() must lock the socket to avoid this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,12 +37,26 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b8bf5c3fb778bbb1f3ff7d98ec577c969f687513"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d308661a0f4e7c8e86dfc7074a55ee5894c61538"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e0384efd45f615603e6869205b72040c209e69cc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ed00c5f907d08a647b8bf987514ad8c6b17971a7"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-27T03:15:15Z"

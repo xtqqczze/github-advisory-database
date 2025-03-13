@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhjf-w34g-fcvp",
-  "modified": "2025-03-04T18:33:26Z",
+  "modified": "2025-03-13T15:32:52Z",
   "published": "2025-02-27T21:32:16Z",
   "aliases": [
     "CVE-2024-58034"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c144423cb07e4e227a8572d5742ca2b36ada770d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c3def10c610ae046aaa61d00528e7bd15e4ad8d3"
     },
     {
       "type": "WEB",

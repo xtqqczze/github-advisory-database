@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-268v-p5rc-rhmv",
-  "modified": "2025-02-21T15:32:00Z",
+  "modified": "2025-03-13T15:32:46Z",
   "published": "2025-02-13T15:31:27Z",
   "aliases": [
     "CVE-2025-21701"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/12e070eb6964b341b41677fd260af5a305316a1f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/26bc6076798aa4dc83a07d0a386f9e57c94e8517"
     },
     {
       "type": "WEB",

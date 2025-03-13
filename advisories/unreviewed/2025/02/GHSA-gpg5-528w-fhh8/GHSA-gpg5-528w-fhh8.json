@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpg5-528w-fhh8",
-  "modified": "2025-02-27T21:32:16Z",
+  "modified": "2025-03-13T15:32:52Z",
   "published": "2025-02-27T21:32:16Z",
   "aliases": [
     "CVE-2025-21799"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21799"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/321990fdf4f1bb64e818c7140688bf33d129e48d"
     },
     {
       "type": "WEB",
@@ -33,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/aea5cca681d268f794fa2385f9ec26a5cce025cd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ed8c0300f302338c36edb06bca99051e5be6fb2f"
     }
   ],
   "database_specific": {
