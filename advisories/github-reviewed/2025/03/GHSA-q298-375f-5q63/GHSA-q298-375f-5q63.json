@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q298-375f-5q63",
-  "modified": "2025-03-13T18:57:46Z",
+  "modified": "2025-03-13T21:39:12Z",
   "published": "2025-03-13T18:57:46Z",
   "aliases": [
     "CVE-2025-27496"
@@ -44,6 +44,14 @@
       "url": "https://github.com/snowflakedb/snowflake-jdbc/security/advisories/GHSA-q298-375f-5q63"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27496"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/snowflakedb/snowflake-jdbc/commit/ef81582ce2f1dbc3c8794a696c94f4fe65fad507"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/snowflakedb/snowflake-jdbc"
     }
@@ -55,6 +63,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-13T18:57:46Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-13T19:15:52Z"
   }
 }
