@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf2h-h3xq-j93j",
-  "modified": "2024-05-02T15:30:32Z",
+  "modified": "2025-03-13T18:02:27Z",
   "published": "2022-05-14T03:57:46Z",
   "aliases": [
     "CVE-2016-3721"
   ],
+  "summary": "Jenkins allows Remote Users to Inject Build Parameters",
   "details": "Jenkins before 2.3 and LTS before 1.651.2 might allow remote authenticated users to inject arbitrary build parameters into the build environment via environment variables.",
   "severity": [
     {
@@ -13,7 +14,46 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jenkins-ci.main:jenkins-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.660"
+            },
+            {
+              "fixed": "2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jenkins-ci.main:jenkins-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.651.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2016:1206"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/jenkinsci/jenkins"
     },
     {
       "type": "WEB",
@@ -45,10 +89,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-94"
+    ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-13T18:02:27Z",
     "nvd_published_at": "2016-05-17T14:08:00Z"
   }
 }
