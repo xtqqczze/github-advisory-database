@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m3q-rhmv-5q44",
-  "modified": "2025-03-12T15:35:23Z",
+  "modified": "2025-03-13T21:41:39Z",
   "published": "2025-03-12T15:35:23Z",
   "aliases": [
     "CVE-2025-27788"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ruby/json/releases/tag/v2.10.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/json/CVE-2025-27788.yml"
     }
   ],
   "database_specific": {
