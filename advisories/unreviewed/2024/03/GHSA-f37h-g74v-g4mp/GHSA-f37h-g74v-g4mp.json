@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f37h-g74v-g4mp",
-  "modified": "2024-03-29T15:30:31Z",
+  "modified": "2025-03-13T03:30:51Z",
   "published": "2024-03-29T15:30:31Z",
   "aliases": [
     "CVE-2024-30486"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Max Foundry Media Library Folders.This issue affects Media Library Folders: from n/a through 8.1.7.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Max Foundry Media Library Folders.This issue affects Media Library Folders: from n/a through 8.1.7.",
   "severity": [
     {
       "type": "CVSS_V3",

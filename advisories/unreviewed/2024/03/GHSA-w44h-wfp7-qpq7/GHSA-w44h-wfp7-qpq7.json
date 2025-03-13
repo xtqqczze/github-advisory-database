@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w44h-wfp7-qpq7",
-  "modified": "2024-03-29T18:30:43Z",
+  "modified": "2025-03-13T03:30:51Z",
   "published": "2024-03-29T18:30:43Z",
   "aliases": [
     "CVE-2024-30463"
   ],
-  "details": "Missing Authorization vulnerability in realmag777 BEAR.This issue affects BEAR: from n/a through 1.1.4.3.\n\n",
+  "details": "Missing Authorization vulnerability in realmag777 BEAR.This issue affects BEAR: from n/a through 1.1.4.3.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhhv-vcm4-mp23",
-  "modified": "2024-03-13T18:31:35Z",
+  "modified": "2025-03-13T03:30:51Z",
   "published": "2024-03-13T18:31:35Z",
   "aliases": [
     "CVE-2024-2006"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-502"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
