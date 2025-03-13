@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24jc-w55j-5p83",
-  "modified": "2022-05-13T01:30:58Z",
+  "modified": "2025-03-13T17:58:40Z",
   "published": "2022-05-13T01:30:58Z",
   "aliases": [
     "CVE-2016-4986"
   ],
+  "summary": "Jenkins TAP Plugin allows Path Traversal",
   "details": "Directory traversal vulnerability in the TAP plugin before 1.25 in Jenkins allows remote attackers to read arbitrary files via an unspecified parameter.",
   "severity": [
     {
@@ -13,11 +14,39 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.tap4j:tap"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.25"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4986"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jenkinsci/tap-plugin/commit/8e2a3aa86ce57a98c69e6038e15ae8fe47d08124"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/jenkinsci/tap-plugin"
     },
     {
       "type": "WEB",
@@ -29,8 +58,8 @@
       "CWE-22"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-13T17:58:40Z",
     "nvd_published_at": "2017-02-09T15:59:00Z"
   }
 }
