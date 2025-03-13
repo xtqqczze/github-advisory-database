@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vchj-ggm5-9rcm",
-  "modified": "2024-10-15T21:30:38Z",
+  "modified": "2025-03-13T18:32:12Z",
   "published": "2024-10-15T21:30:38Z",
   "aliases": [
     "CVE-2024-21247"
@@ -21,11 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241101-0006"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/cpuoct2024.html"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-284"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,

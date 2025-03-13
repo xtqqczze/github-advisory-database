@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3q5-vrp5-crqj",
-  "modified": "2024-04-28T09:30:30Z",
+  "modified": "2025-03-13T18:31:54Z",
   "published": "2024-04-07T21:30:28Z",
   "aliases": [
     "CVE-2024-31949"
   ],
   "details": "In FRRouting (FRR) through 9.1, an infinite loop can occur when receiving a MP/GR capability as a dynamic capability because malformed data results in a pointer not advancing.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-07T21:15:07Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-22vx-vmhj-v8m6",
-  "modified": "2022-12-13T21:30:27Z",
+  "modified": "2025-03-13T18:31:48Z",
   "published": "2022-12-13T21:30:27Z",
   "aliases": [
     "CVE-2022-44698"

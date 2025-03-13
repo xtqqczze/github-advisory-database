@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2m4-5rqp-rhvq",
-  "modified": "2024-04-11T06:30:34Z",
+  "modified": "2025-03-13T18:31:56Z",
   "published": "2024-04-08T21:31:16Z",
   "aliases": [
     "CVE-2024-27630"
   ],
   "details": "Insecure Direct Object Reference (IDOR) in GNU Savane v.3.12 and before allows a remote attacker to delete arbitrary files via crafted input to the trackers_data_delete_file function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-639"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-08T21:15:09Z"

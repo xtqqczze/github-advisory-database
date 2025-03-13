@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fm6-52cc-8v3r",
-  "modified": "2024-04-01T03:30:41Z",
+  "modified": "2025-03-13T18:31:54Z",
   "published": "2024-04-01T03:30:41Z",
   "aliases": [
     "CVE-2024-20049"
   ],
   "details": "In flashc, there is a possible information disclosure due to an uncaught exception. This could lead to local information disclosure with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS08541765; Issue ID: ALPS08541765.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-248"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-01T03:15:08Z"

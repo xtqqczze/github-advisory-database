@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p4h-43x6-7rg4",
-  "modified": "2025-03-12T12:30:58Z",
+  "modified": "2025-03-13T18:32:20Z",
   "published": "2025-03-12T12:30:58Z",
   "aliases": [
     "CVE-2025-21847"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nASoC: SOF: stream-ipc: Check for cstream nullity in sof_ipc_msg_data()\n\nThe nullity of sps->cstream should be checked similarly as it is done in\nsof_set_stream_data_offset() function.\nAssuming that it is not NULL if sps->stream is NULL is incorrect and can\nlead to NULL pointer dereference.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-12T10:15:17Z"

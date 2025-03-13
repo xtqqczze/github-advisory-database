@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2ph9-8x3x-w6jx",
-  "modified": "2024-05-15T21:31:24Z",
+  "modified": "2025-03-13T18:32:00Z",
   "published": "2024-05-15T21:31:24Z",
   "aliases": [
     "CVE-2024-35102"
   ],
   "details": "Insecure Permissions vulnerability in VITEC AvediaServer (Model avsrv-m8105) 8.6.2-1 allows a remote attacker to escalate privileges via a crafted script.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-15T19:15:08Z"

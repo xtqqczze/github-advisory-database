@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46vg-h2w6-gh78",
-  "modified": "2025-03-06T21:31:26Z",
+  "modified": "2025-03-13T18:32:17Z",
   "published": "2025-02-28T15:31:04Z",
   "aliases": [
     "CVE-2025-26326"
@@ -21,7 +21,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/NVDARemote/NVDARemote"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/azurejoga/CVE-2025-26326"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nvda-es/TeleNVDA"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvda-addons.org/addon.php?id=270"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvdaremote.com"
     },
     {
       "type": "WEB",
