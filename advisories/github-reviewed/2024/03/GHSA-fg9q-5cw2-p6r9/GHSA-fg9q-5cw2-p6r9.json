@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg9q-5cw2-p6r9",
-  "modified": "2025-03-11T20:07:55Z",
+  "modified": "2025-03-14T19:54:12Z",
   "published": "2024-03-07T21:30:21Z",
   "aliases": [
     "CVE-2024-1725"
@@ -67,6 +67,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/kubevirt/csi-driver"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3512"
     }
   ],
   "database_specific": {
