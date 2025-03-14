@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mj4v-hp69-27x5",
-  "modified": "2025-03-12T21:58:41Z",
+  "modified": "2025-03-14T19:58:51Z",
   "published": "2025-02-05T21:30:53Z",
   "aliases": [
     "CVE-2025-26260"
@@ -70,6 +70,10 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2025-3454"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3515"
     }
   ],
   "database_specific": {
