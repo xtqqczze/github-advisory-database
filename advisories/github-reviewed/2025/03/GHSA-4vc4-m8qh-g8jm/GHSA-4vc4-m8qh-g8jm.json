@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vc4-m8qh-g8jm",
-  "modified": "2025-03-12T21:36:50Z",
+  "modified": "2025-03-14T20:22:17Z",
   "published": "2025-03-12T20:20:24Z",
   "aliases": [
     "CVE-2025-25291"
@@ -94,6 +94,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/SAML-Toolkits/ruby-saml/releases/tag/v1.18.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ruby-saml/CVE-2025-25291.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250314-0010"
     }
   ],
   "database_specific": {
