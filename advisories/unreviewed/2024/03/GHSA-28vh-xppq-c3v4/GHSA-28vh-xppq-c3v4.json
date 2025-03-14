@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-28vh-xppq-c3v4",
-  "modified": "2024-03-01T15:31:38Z",
+  "modified": "2025-03-14T03:31:21Z",
   "published": "2024-03-01T15:31:38Z",
   "aliases": [
     "CVE-2024-27570"
   ],
   "details": "LBT T300-T390 v2.2.1.8 were discovered to contain a stack overflow via the ApCliSsid parameter in the generate_conf_router function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted POST request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,11 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121",
+      "CWE-787"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-01T14:15:54Z"
