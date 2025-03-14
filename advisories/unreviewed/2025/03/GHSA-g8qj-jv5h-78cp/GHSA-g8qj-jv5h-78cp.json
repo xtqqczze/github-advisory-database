@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8qj-jv5h-78cp",
-  "modified": "2025-03-14T06:30:41Z",
+  "modified": "2025-03-14T15:32:02Z",
   "published": "2025-03-11T15:31:00Z",
   "aliases": [
     "CVE-2025-27363"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/03/14/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/03/14/2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/03/14/3"
     }
   ],
   "database_specific": {
