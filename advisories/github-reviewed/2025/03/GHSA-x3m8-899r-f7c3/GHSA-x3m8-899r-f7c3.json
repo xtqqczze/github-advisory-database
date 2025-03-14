@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3m8-899r-f7c3",
-  "modified": "2025-03-14T17:16:47Z",
+  "modified": "2025-03-14T20:23:56Z",
   "published": "2025-03-14T17:16:47Z",
   "aliases": [
     "CVE-2025-29775"
@@ -79,6 +79,10 @@
       "url": "https://github.com/node-saml/xml-crypto/security/advisories/GHSA-x3m8-899r-f7c3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29775"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/node-saml/xml-crypto/commit/28f92218ecbb8dcbd238afa4efbbd50302aa9aed"
     },
@@ -114,6 +118,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-14T17:16:47Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-14T18:15:32Z"
   }
 }

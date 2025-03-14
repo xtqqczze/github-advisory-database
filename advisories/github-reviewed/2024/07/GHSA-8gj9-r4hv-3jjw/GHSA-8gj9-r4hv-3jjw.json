@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gj9-r4hv-3jjw",
-  "modified": "2024-07-24T14:59:48Z",
+  "modified": "2025-03-14T20:24:18Z",
   "published": "2024-07-24T09:30:40Z",
   "aliases": [
     "CVE-2024-39676"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/hsm0b2w8qr0sqy4rj1mfnnw286tslpzc"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/07/23/5"
     }
   ],
   "database_specific": {

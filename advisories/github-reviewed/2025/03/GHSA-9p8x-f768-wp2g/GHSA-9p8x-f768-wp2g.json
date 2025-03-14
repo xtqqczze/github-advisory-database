@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9p8x-f768-wp2g",
-  "modified": "2025-03-14T17:14:23Z",
+  "modified": "2025-03-14T20:24:06Z",
   "published": "2025-03-14T17:14:23Z",
   "aliases": [
     "CVE-2025-29774"
@@ -79,6 +79,10 @@
       "url": "https://github.com/node-saml/xml-crypto/security/advisories/GHSA-9p8x-f768-wp2g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29774"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/node-saml/xml-crypto/commit/28f92218ecbb8dcbd238afa4efbbd50302aa9aed"
     },
@@ -114,6 +118,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-14T17:14:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-14T17:15:52Z"
   }
 }
