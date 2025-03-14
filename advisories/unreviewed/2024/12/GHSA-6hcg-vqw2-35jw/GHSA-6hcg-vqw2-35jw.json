@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hcg-vqw2-35jw",
-  "modified": "2024-12-11T18:30:40Z",
+  "modified": "2025-03-14T12:31:58Z",
   "published": "2024-12-05T21:31:52Z",
   "aliases": [
     "CVE-2024-53589"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bushido-sec.com/index.php/2024/12/05/binutils-objdump-tekhex-buffer-overflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250314-0006"
     },
     {
       "type": "WEB",
