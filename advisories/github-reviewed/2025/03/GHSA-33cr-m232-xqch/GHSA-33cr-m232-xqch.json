@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33cr-m232-xqch",
-  "modified": "2025-03-11T21:54:29Z",
+  "modified": "2025-03-14T20:05:07Z",
   "published": "2025-03-11T21:54:29Z",
   "aliases": [],
   "summary": "cheqd-node affected by Non-deterministic JSON Unmarshalling of IBC Acknowledgement",
@@ -49,6 +49,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/cheqd/cheqd-node"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3514"
     }
   ],
   "database_specific": {
