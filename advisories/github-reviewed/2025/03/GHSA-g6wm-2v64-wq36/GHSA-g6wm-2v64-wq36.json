@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6wm-2v64-wq36",
-  "modified": "2025-03-10T18:24:35Z",
+  "modified": "2025-03-14T20:29:09Z",
   "published": "2025-03-10T18:24:35Z",
   "aliases": [
     "CVE-2025-27136"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Robothy/local-s3/security/advisories/GHSA-g6wm-2v64-wq36"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27136"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Robothy/local-s3/commit/d6ed756ceb30c1eb9d4263321ac683d734f8836f"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-10T18:24:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-10T19:15:40Z"
   }
 }
