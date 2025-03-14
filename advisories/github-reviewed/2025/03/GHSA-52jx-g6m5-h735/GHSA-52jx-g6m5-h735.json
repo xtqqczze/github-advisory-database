@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52jx-g6m5-h735",
-  "modified": "2025-03-06T23:32:49Z",
+  "modified": "2025-03-14T20:32:17Z",
   "published": "2025-03-06T19:12:27Z",
   "aliases": [
     "CVE-2025-27509"
@@ -131,6 +131,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.64.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3505"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c2h-2855-mf97",
-  "modified": "2025-03-10T21:06:44Z",
+  "modified": "2025-03-14T20:31:08Z",
   "published": "2025-03-09T15:31:19Z",
   "aliases": [
     "CVE-2025-27636"
@@ -89,6 +89,10 @@
     {
       "type": "WEB",
       "url": "https://camel.apache.org/security/CVE-2025-27636.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC/blob/main/src/main/java/com/example/camel/VulnerableCamel.java"
     },
     {
       "type": "PACKAGE",
