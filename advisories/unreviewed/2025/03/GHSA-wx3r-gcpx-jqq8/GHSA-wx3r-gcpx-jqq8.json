@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wx3r-gcpx-jqq8",
+  "modified": "2025-03-14T18:30:51Z",
+  "published": "2025-03-14T18:30:51Z",
+  "aliases": [
+    "CVE-2025-26312"
+  ],
+  "details": "SendQuick Entera devices before 11HF5 are vulnerable to CAPTCHA bypass via the captcha parameter",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26312"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/@retro.metro/cve-2025-26312-captcha-bypass-vulnerability-in-sendquick-entera-devices-68708e203216"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sendquick.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-14T18:15:31Z"
+  }
+}

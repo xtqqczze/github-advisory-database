@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-263h-mwf7-v6rq",
-  "modified": "2024-10-22T18:32:04Z",
+  "modified": "2025-03-14T18:30:38Z",
   "published": "2024-02-13T21:30:29Z",
   "aliases": [
     "CVE-2023-20579"
   ],
-  "details": "Improper\nAccess Control in the AMD SPI protection feature may allow a user with Ring0\n(kernel mode) privileged access to bypass protections potentially resulting in\nloss of integrity and availability.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "details": "Improper\nAccess Control in the AMD SPI protection feature may allow a user with Ring0\n(kernel mode) privileged access to bypass protections potentially resulting in\nloss of integrity and availability.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-284"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

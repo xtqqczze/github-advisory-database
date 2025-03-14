@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9pq-pgg7-c4j2",
-  "modified": "2024-04-17T21:30:47Z",
+  "modified": "2025-03-14T18:30:39Z",
   "published": "2024-04-17T21:30:47Z",
   "aliases": [
     "CVE-2024-30989"
   ],
   "details": "Cross Site Scripting vulnerability in /edit-client-details.php of phpgurukul Client Management System using PHP & MySQL 1.1 allows attackers to execute arbitrary code via the \"cname\", \"comname\", \"state\" and \"city\" parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-17T19:15:07Z"

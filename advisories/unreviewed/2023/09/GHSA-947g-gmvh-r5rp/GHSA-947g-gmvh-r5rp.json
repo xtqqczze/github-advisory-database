@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-947g-gmvh-r5rp",
-  "modified": "2024-10-10T18:31:07Z",
+  "modified": "2025-03-14T18:30:38Z",
   "published": "2023-09-05T09:30:21Z",
   "aliases": [
     "CVE-2023-4540"
   ],
-  "details": "Improper Handling of Exceptional Conditions vulnerability in Daurnimator HTTP Library for Lua allows Excessive Allocation.This issue affects HTTP Library for Lua: before commit ddab283.\n\n",
+  "details": "Improper Handling of Exceptional Conditions vulnerability in Daurnimator HTTP Library for Lua allows Excessive Allocation.This issue affects HTTP Library for Lua: before commit ddab283.",
   "severity": [
     {
       "type": "CVSS_V3",
