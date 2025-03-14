@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44f7-5fj5-h4px",
-  "modified": "2025-03-11T17:20:00Z",
+  "modified": "2025-03-14T20:00:47Z",
   "published": "2025-03-11T15:27:16Z",
   "aliases": [
     "CVE-2025-27403"
@@ -52,6 +52,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/deislabs/ratify"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.2.3"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -74,6 +93,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ratify-project/ratify"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3511"
     }
   ],
   "database_specific": {
