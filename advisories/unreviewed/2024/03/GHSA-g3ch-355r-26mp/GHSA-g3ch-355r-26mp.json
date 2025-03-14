@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3ch-355r-26mp",
-  "modified": "2024-11-06T18:31:03Z",
+  "modified": "2025-03-14T21:31:34Z",
   "published": "2024-03-06T09:30:26Z",
   "aliases": [
     "CVE-2023-52585"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/06/msg00019.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240912-0009"
     }
   ],
   "database_specific": {

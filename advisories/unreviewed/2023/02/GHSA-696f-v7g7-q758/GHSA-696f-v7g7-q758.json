@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-696f-v7g7-q758",
-  "modified": "2023-02-28T03:30:17Z",
+  "modified": "2025-03-14T21:31:33Z",
   "published": "2023-02-21T03:30:19Z",
   "aliases": [
     "CVE-2023-26253"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/gluster/glusterfs/issues/3954"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UE6K2DXP4QZVKP32Z7BSYDSRBL4H7JSE"
     },
     {
       "type": "WEB",

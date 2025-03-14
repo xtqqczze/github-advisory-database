@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv82-rp99-r5wq",
-  "modified": "2024-07-17T00:32:54Z",
+  "modified": "2025-03-14T21:31:39Z",
   "published": "2024-07-17T00:32:54Z",
   "aliases": [
     "CVE-2024-21137"
@@ -21,11 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240731-0009"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.oracle.com/security-alerts/cpujul2024.html"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-285"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

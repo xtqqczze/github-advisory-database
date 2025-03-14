@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hvh-m426-wv8w",
-  "modified": "2024-08-30T21:31:40Z",
+  "modified": "2025-03-14T21:31:40Z",
   "published": "2024-08-30T03:30:44Z",
   "aliases": [
     "CVE-2024-45490"
@@ -26,10 +26,15 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/890"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241018-0004"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-190",
       "CWE-611"
     ],
     "severity": "CRITICAL",
