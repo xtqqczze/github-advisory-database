@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhv4-fh94-jm5x",
-  "modified": "2025-03-14T19:54:52Z",
+  "modified": "2025-03-14T21:41:26Z",
   "published": "2025-03-14T19:54:52Z",
   "aliases": [
     "CVE-2025-29771"
@@ -41,6 +41,10 @@
       "url": "https://github.com/jitbit/HtmlSanitizer/security/advisories/GHSA-vhv4-fh94-jm5x"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29771"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/jitbit/HtmlSanitizer/commit/af6d2a78877e7277cd01c825b7fb50edb5956963"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-14T19:54:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-14T19:15:48Z"
   }
 }

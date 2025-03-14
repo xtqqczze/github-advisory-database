@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p72w-r6fv-6g5h",
-  "modified": "2024-09-17T22:25:19Z",
+  "modified": "2025-03-14T21:41:15Z",
   "published": "2024-09-17T21:30:32Z",
   "aliases": [
     "CVE-2024-45384"
@@ -59,10 +59,15 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/gr94fnp574plb50lsp8jw4smvgv1lbz1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/09/17/1"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-209",
       "CWE-347"
     ],
     "severity": "LOW",
