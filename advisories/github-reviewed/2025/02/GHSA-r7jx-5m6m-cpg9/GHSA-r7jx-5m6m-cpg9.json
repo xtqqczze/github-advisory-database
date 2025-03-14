@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7jx-5m6m-cpg9",
-  "modified": "2025-02-07T14:34:53Z",
+  "modified": "2025-03-14T20:08:42Z",
   "published": "2025-02-06T06:31:26Z",
   "aliases": [
     "CVE-2024-57075"
@@ -51,7 +51,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1321"
+      "CWE-1321",
+      "CWE-400"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
