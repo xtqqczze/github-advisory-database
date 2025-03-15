@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hcv-xw76-m4h6",
-  "modified": "2025-03-14T09:34:06Z",
+  "modified": "2025-03-15T21:30:28Z",
   "published": "2025-03-14T09:34:06Z",
   "aliases": [
     "CVE-2024-8176"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2310137"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/03/15/1"
     }
   ],
   "database_specific": {
