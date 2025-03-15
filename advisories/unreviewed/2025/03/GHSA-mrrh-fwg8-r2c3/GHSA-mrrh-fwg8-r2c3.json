@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrrh-fwg8-r2c3",
-  "modified": "2025-03-15T06:30:34Z",
+  "modified": "2025-03-15T15:33:41Z",
   "published": "2025-03-15T06:30:34Z",
   "aliases": [
     "CVE-2025-30066"
@@ -25,7 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/chains-project/maven-lockfile/pull/1111"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rackerlabs/genestack/pull/903"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/github/docs/blob/962a1c8dccb8c0f66548b324e5b921b5e4fbc3d6/content/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions.md?plain=1#L191-L193"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=43367987"
     },
     {
       "type": "WEB",
@@ -34,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://semgrep.dev/blog/2025/popular-github-action-tj-actionschanged-files-is-compromised"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/web/20250315060250/https://github.com/tj-actions/changed-files/issues/2463"
     },
     {
       "type": "WEB",
