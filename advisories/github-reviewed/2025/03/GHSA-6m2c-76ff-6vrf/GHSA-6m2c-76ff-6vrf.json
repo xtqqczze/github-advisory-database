@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6m2c-76ff-6vrf",
-  "modified": "2025-03-14T21:16:47Z",
+  "modified": "2025-03-15T20:47:02Z",
   "published": "2025-03-14T19:56:14Z",
   "aliases": [
     "CVE-2025-2000"
@@ -55,6 +55,28 @@
       "database_specific": {
         "last_known_affected_version_range": "<= 1.4.1"
       }
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "qiskit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0rc1"
+            },
+            {
+              "fixed": "2.0.0rc2"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "2.0.0rc1"
+      ]
     }
   ],
   "references": [
