@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c85w-x26q-ch87",
-  "modified": "2025-03-01T23:08:41Z",
+  "modified": "2025-03-16T17:19:23Z",
   "published": "2025-03-01T00:11:52Z",
   "aliases": [],
   "summary": "Formwork improperly validates input of User role preventing site and panel availability",
@@ -23,10 +23,10 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.0-beta.1"
             },
             {
-              "last_affected": "2.0.0-beta.3"
+              "fixed": "2.0.0-beta.4"
             }
           ]
         }
