@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w32m-9786-jp63",
-  "modified": "2024-12-18T21:59:48Z",
+  "modified": "2025-03-16T17:24:07Z",
   "published": "2024-12-18T21:59:48Z",
   "aliases": [
     "CVE-2024-45338"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "golang.org/x/net"
+        "name": "golang.org/x/net/html"
       },
       "ranges": [
         {
