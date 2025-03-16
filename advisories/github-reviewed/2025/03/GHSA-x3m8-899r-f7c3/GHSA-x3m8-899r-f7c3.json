@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3m8-899r-f7c3",
-  "modified": "2025-03-14T20:23:56Z",
+  "modified": "2025-03-16T21:34:52Z",
   "published": "2025-03-14T17:16:47Z",
   "aliases": [
     "CVE-2025-29775"
@@ -109,6 +109,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/node-saml/xml-crypto/releases/tag/v6.0.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://workos.com/blog/samlstorm"
     }
   ],
   "database_specific": {

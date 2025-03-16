@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vc4-m8qh-g8jm",
-  "modified": "2025-03-14T20:22:17Z",
+  "modified": "2025-03-16T21:34:33Z",
   "published": "2025-03-12T20:20:24Z",
   "aliases": [
     "CVE-2025-25291"
@@ -98,6 +98,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ruby-saml/CVE-2025-25291.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=43374519"
     },
     {
       "type": "WEB",
