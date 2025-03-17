@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-389h-6rjg-wxc9",
-  "modified": "2024-06-26T00:31:35Z",
+  "modified": "2025-03-17T15:31:38Z",
   "published": "2024-04-02T09:30:40Z",
   "aliases": [
     "CVE-2024-26659"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxhci: handle isoc Babble and Buffer Overrun events properly\n\nxHCI 4.9 explicitly forbids assuming that the xHC has released its\nownership of a multi-TRB TD when it reports an error on one of the\nearly TRBs. Yet the driver makes such assumption and releases the TD,\nallowing the remaining TRBs to be freed or overwritten by new TDs.\n\nThe xHC should also report completion of the final TRB due to its IOC\nflag being set by us, regardless of prior errors. This event cannot\nbe recognized if the TD has already been freed earlier, resulting in\n\"Transfer event TRB DMA ptr not part of current TD\" error message.\n\nFix this by reusing the logic for processing isoc Transaction Errors.\nThis also handles hosts which fail to report the final completion.\n\nFix transfer length reporting on Babble errors. They may be caused by\ndevice malfunction, no guarantee that the buffer has been filled.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-02T07:15:42Z"

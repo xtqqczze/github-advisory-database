@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gqm5-q6hv-hp8w",
-  "modified": "2024-03-25T12:30:52Z",
+  "modified": "2025-03-17T15:31:34Z",
   "published": "2024-03-25T12:30:52Z",
   "aliases": [
     "CVE-2021-47166"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nNFS: Don't corrupt the value of pg_bytes_written in nfs_do_recoalesce()\n\nThe value of mirror->pg_bytes_written should only be updated after a\nsuccessful attempt to flush out the requests on the list.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-25T10:15:08Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qg4-5cpf-4r9p",
-  "modified": "2022-04-30T18:10:45Z",
+  "modified": "2025-03-17T15:31:34Z",
   "published": "2022-04-30T18:10:45Z",
   "aliases": [
     "CVE-1999-0524"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://kc.mcafee.com/corporate/index?page=content&id=SB10053"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.f5.com/csp/article/K15277"
     },
     {
       "type": "WEB",

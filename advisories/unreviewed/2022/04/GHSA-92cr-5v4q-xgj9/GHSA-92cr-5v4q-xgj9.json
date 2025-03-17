@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92cr-5v4q-xgj9",
-  "modified": "2022-04-30T18:10:06Z",
+  "modified": "2025-03-17T15:31:34Z",
   "published": "2022-04-30T18:10:06Z",
   "aliases": [
     "CVE-1999-0186"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.broadcom.com/support/fibre-channel-networking/security-advisories/brocade-security-advisory-2017-238"
     },
     {
       "type": "WEB",

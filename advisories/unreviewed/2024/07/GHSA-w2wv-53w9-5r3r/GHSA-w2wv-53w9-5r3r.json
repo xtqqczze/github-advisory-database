@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2wv-53w9-5r3r",
-  "modified": "2024-08-02T21:31:33Z",
+  "modified": "2025-03-17T15:31:42Z",
   "published": "2024-07-03T18:48:30Z",
   "aliases": [
     "CVE-2024-29508"
@@ -29,11 +29,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00022.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2024/07/03/7"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-122"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,

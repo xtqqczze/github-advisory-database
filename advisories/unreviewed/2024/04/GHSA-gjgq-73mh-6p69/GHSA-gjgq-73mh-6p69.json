@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjgq-73mh-6p69",
-  "modified": "2024-04-02T09:30:40Z",
+  "modified": "2025-03-17T15:31:37Z",
   "published": "2024-04-02T09:30:40Z",
   "aliases": [
     "CVE-2023-52634"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix disable_otg_wa logic\n\n[Why]\nWhen switching to another HDMI mode, we are unnecesarilly\ndisabling/enabling FIFO causing both HPO and DIG registers to be set at\nthe same time when only HPO is supposed to be set.\n\nThis can lead to a system hang the next time we change refresh rates as\nthere are cases when we don't disable OTG/FIFO but FIFO is enabled when\nit isn't supposed to be.\n\n[How]\nRemoving the enable/disable FIFO entirely.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-02T07:15:41Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46xg-4hcp-2ppj",
-  "modified": "2022-04-30T18:09:57Z",
+  "modified": "2025-03-17T15:31:33Z",
   "published": "2022-04-30T18:09:57Z",
   "aliases": [
     "CVE-1999-0103"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSMA-18-233-01"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/bid/80171"
     }
   ],
   "database_specific": {

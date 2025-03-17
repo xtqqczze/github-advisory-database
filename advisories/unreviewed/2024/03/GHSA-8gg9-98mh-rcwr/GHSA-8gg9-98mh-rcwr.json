@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gg9-98mh-rcwr",
-  "modified": "2024-03-25T12:30:52Z",
+  "modified": "2025-03-17T15:31:35Z",
   "published": "2024-03-25T12:30:52Z",
   "aliases": [
     "CVE-2021-47176"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/dasd: add missing discipline function\n\nFix crash with illegal operation exception in dasd_device_tasklet.\nCommit b72949328869 (\"s390/dasd: Prepare for additional path event handling\")\nrenamed the verify_path function for ECKD but not for FBA and DIAG.\nThis leads to a panic when the path verification function is called for a\nFBA or DIAG device.\n\nFix by defining a wrapper function for dasd_generic_verify_path().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-25T10:15:09Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wggj-8rcc-246r",
-  "modified": "2024-04-02T09:30:41Z",
+  "modified": "2025-03-17T15:31:38Z",
   "published": "2024-04-02T09:30:41Z",
   "aliases": [
     "CVE-2024-26667"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/msm/dpu: check for valid hw_pp in dpu_encoder_helper_phys_cleanup\n\nThe commit 8b45a26f2ba9 (\"drm/msm/dpu: reserve cdm blocks for writeback\nin case of YUV output\") introduced a smatch warning about another\nconditional block in dpu_encoder_helper_phys_cleanup() which had assumed\nhw_pp will always be valid which may not necessarily be true.\n\nLets fix the other conditional block by making sure hw_pp is valid\nbefore dereferencing it.\n\nPatchwork: https://patchwork.freedesktop.org/patch/574878/",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-459"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-02T07:15:43Z"

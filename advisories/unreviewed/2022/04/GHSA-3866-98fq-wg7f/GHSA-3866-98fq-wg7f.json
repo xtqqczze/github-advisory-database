@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3866-98fq-wg7f",
-  "modified": "2022-04-30T18:10:39Z",
+  "modified": "2025-03-17T15:31:34Z",
   "published": "2022-04-30T18:10:39Z",
   "aliases": [
     "CVE-1999-0472"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0472"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.broadcom.com/support/fibre-channel-networking/security-advisories/brocade-security-advisory-2017-240"
     }
   ],
   "database_specific": {

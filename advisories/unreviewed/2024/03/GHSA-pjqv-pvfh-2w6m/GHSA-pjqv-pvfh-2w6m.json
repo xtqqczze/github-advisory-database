@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjqv-pvfh-2w6m",
-  "modified": "2024-06-27T15:30:38Z",
+  "modified": "2025-03-17T15:31:37Z",
   "published": "2024-03-27T15:30:37Z",
   "aliases": [
     "CVE-2024-26651"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsr9800: Add check for usbnet_get_endpoints\n\nAdd check for usbnet_get_endpoints() and return the error if it fails\nin order to transfer the error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -69,7 +74,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-27T14:15:10Z"
