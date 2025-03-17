@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf6x-59hh-332f",
-  "modified": "2025-03-01T23:08:31Z",
+  "modified": "2025-03-17T20:27:03Z",
   "published": "2025-03-01T00:11:46Z",
   "aliases": [],
   "summary": " Formwork has a cross-site scripting (XSS) vulnerability in Site title",
@@ -18,6 +18,19 @@
         "ecosystem": "Packagist",
         "name": "getformwork/formwork"
       },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0-beta.3"
+            },
+            {
+              "fixed": "2.0.0-beta.4"
+            }
+          ]
+        }
+      ],
       "versions": [
         "2.0.0-beta.3"
       ]
@@ -27,6 +40,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/getformwork/formwork/security/advisories/GHSA-vf6x-59hh-332f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/getformwork/formwork/commit/aa3e9c684035d9e8495169fde7c57d97faa3f9a2"
     },
     {
       "type": "PACKAGE",
