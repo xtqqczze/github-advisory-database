@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhj3-2vvm-6mr5",
-  "modified": "2024-06-27T12:30:44Z",
+  "modified": "2025-03-17T18:31:41Z",
   "published": "2024-04-03T18:30:42Z",
   "aliases": [
     "CVE-2024-26752"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nl2tp: pass correct message length to ip6_append_data\n\nl2tp_ip6_sendmsg needs to avoid accounting for the transport header\ntwice when splicing more data into an already partially-occupied skbuff.\n\nTo manage this, we check whether the skbuff contains data using\nskb_queue_empty when deciding how much data to append using\nip6_append_data.\n\nHowever, the code which performed the calculation was incorrect:\n\n     ulen = len + skb_queue_empty(&sk->sk_write_queue) ? transhdrlen : 0;\n\n...due to C operator precedence, this ends up setting ulen to\ntranshdrlen for messages with a non-zero length, which results in\ncorrupted packets on the wire.\n\nAdd parentheses to correct the calculation in line with the original\nintent.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-131"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T17:15:51Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv6f-4q9w-8q96",
-  "modified": "2024-04-03T15:30:43Z",
+  "modified": "2025-03-17T18:31:38Z",
   "published": "2024-04-03T15:30:43Z",
   "aliases": [
     "CVE-2024-26705"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nparisc: BTLB: Fix crash when setting up BTLB at CPU bringup\n\nWhen using hotplug and bringing up a 32-bit CPU, ask the firmware about the\nBTLB information to set up the static (block) TLB entries.\n\nFor that write access to the static btlb_info struct is needed, but\nsince it is marked __ro_after_init the kernel segfaults with missing\nwrite permissions.\n\nFix the crash by dropping the __ro_after_init annotation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T15:15:53Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4vm-xmvg-644h",
-  "modified": "2025-03-17T15:31:50Z",
+  "modified": "2025-03-17T18:31:52Z",
   "published": "2025-03-17T15:31:50Z",
   "aliases": [
     "CVE-2025-26127"
   ],
   "details": "A stored cross-site scripting (XSS) vulnerability in the Send for Approval function of FileCloud v23.241.2 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-17T15:15:44Z"

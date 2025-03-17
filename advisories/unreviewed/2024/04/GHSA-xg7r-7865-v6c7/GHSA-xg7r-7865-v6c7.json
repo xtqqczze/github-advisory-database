@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xg7r-7865-v6c7",
-  "modified": "2024-06-27T12:30:44Z",
+  "modified": "2025-03-17T18:31:38Z",
   "published": "2024-04-03T15:30:42Z",
   "aliases": [
     "CVE-2024-26697"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnilfs2: fix data corruption in dsync block recovery for small block sizes\n\nThe helper function nilfs_recovery_copy_block() of\nnilfs_recovery_dsync_blocks(), which recovers data from logs created by\ndata sync writes during a mount after an unclean shutdown, incorrectly\ncalculates the on-page offset when copying repair data to the file's page\ncache.  In environments where the block size is smaller than the page\nsize, this flaw can cause data corruption and leak uninitialized memory\nbytes during the recovery process.\n\nFix these issues by correcting this byte offset calculation on the page.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T15:15:52Z"

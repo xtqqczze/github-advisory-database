@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx76-2j88-69mq",
-  "modified": "2024-06-26T00:31:36Z",
+  "modified": "2025-03-17T18:31:38Z",
   "published": "2024-04-02T09:30:42Z",
   "aliases": [
     "CVE-2024-26684"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: stmmac: xgmac: fix handling of DPP safety error for DMA channels\n\nCommit 56e58d6c8a56 (\"net: stmmac: Implement Safety Features in\nXGMAC core\") checks and reports safety errors, but leaves the\nData Path Parity Errors for each channel in DMA unhandled at all, lead to\na storm of interrupt.\nFix it by checking and clearing the DMA_DPP_Interrupt_Status register.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-02T07:15:44Z"

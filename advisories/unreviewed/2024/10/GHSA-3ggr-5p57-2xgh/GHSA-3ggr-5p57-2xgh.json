@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ggr-5p57-2xgh",
-  "modified": "2024-10-15T09:30:31Z",
+  "modified": "2025-03-17T18:31:44Z",
   "published": "2024-10-15T09:30:31Z",
   "aliases": [
     "CVE-2024-47943"
   ],
   "details": "The firmware upgrade function in the admin web interface of the Rittal IoT Interface & CMC III Processing Unit devices checks if \nthe patch files are signed before executing the containing run.sh \nscript. The signing process is kind of an HMAC with a long string as key\n which is hard-coded in the firmware and is freely available for \ndownload. This allows crafting malicious \"signed\" .patch files in order \nto compromise the device and execute arbitrary code.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-347"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-15T09:15:03Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v854-7g2j-4x32",
-  "modified": "2024-06-26T00:31:36Z",
+  "modified": "2025-03-17T18:31:38Z",
   "published": "2024-04-02T09:30:41Z",
   "aliases": [
     "CVE-2024-26673"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nft_ct: sanitize layer 3 and 4 protocol number in custom expectations\n\n- Disallow families other than NFPROTO_{IPV4,IPV6,INET}.\n- Disallow layer 4 protocol with no ports, since destination port is a\n  mandatory attribute for this object.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-02T07:15:43Z"
