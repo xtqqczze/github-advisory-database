@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c339-mwfc-fmr2",
-  "modified": "2025-03-17T18:31:53Z",
+  "modified": "2025-03-17T21:27:56Z",
   "published": "2025-03-17T18:31:53Z",
   "aliases": [
     "CVE-2025-2241"
   ],
+  "summary": "Openshift Hive Exposes VCenter Credentials via ClusterProvision",
   "details": "A flaw was found in Hive, a component of Multicluster Engine (MCE) and Advanced Cluster Management (ACM). This vulnerability causes VCenter credentials to be exposed in the ClusterProvision object after provisioning a VSphere cluster. Users with read access to ClusterProvision objects can extract sensitive credentials even if they do not have direct access to Kubernetes Secrets. This issue can lead to unauthorized VCenter access, cluster management, and privilege escalation.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/openshift/hive"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.1.16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2351350"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/openshift/hive"
     }
   ],
   "database_specific": {
@@ -33,8 +58,8 @@
       "CWE-922"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-17T21:27:56Z",
     "nvd_published_at": "2025-03-17T17:15:40Z"
   }
 }
