@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4gq-fm9h-8q75",
-  "modified": "2025-03-17T21:27:44Z",
+  "modified": "2025-03-17T21:51:49Z",
   "published": "2025-03-17T21:27:43Z",
   "aliases": [
     "CVE-2025-0495"
@@ -44,6 +44,10 @@
       "url": "https://github.com/docker/buildx/security/advisories/GHSA-m4gq-fm9h-8q75"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0495"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/docker/buildx/commit/18ccba072076ddbfb0aeedd6746d7719b0729b58"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-17T21:27:43Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-17T20:15:13Z"
   }
 }
