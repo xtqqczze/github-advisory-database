@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv34-xcj8-f3mq",
-  "modified": "2025-03-17T03:30:22Z",
+  "modified": "2025-03-17T06:30:24Z",
   "published": "2025-02-25T18:31:24Z",
   "aliases": [
     "CVE-2025-26599"
@@ -29,6 +29,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:2861"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:2862"
     },
     {
@@ -37,11 +41,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:2866"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:2873"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:2874"
     },
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:2875"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:2879"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:2880"
     },
     {
       "type": "WEB",

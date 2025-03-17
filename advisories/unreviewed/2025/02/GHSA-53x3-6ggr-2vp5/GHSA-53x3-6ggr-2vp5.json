@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53x3-6ggr-2vp5",
-  "modified": "2025-03-07T00:31:55Z",
+  "modified": "2025-03-17T06:30:25Z",
   "published": "2025-02-28T18:31:04Z",
   "aliases": [
     "CVE-2025-26263"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.geovision.com.tw/download/product/GV-ASManager"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.geovision.com.tw/download/product/GV-ASManager%20%28Access%20Control%29"
     }
   ],
   "database_specific": {

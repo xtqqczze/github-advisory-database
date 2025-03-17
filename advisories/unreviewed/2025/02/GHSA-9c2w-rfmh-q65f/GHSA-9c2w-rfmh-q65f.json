@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c2w-rfmh-q65f",
-  "modified": "2025-02-28T18:31:02Z",
+  "modified": "2025-03-17T06:30:24Z",
   "published": "2025-02-28T00:30:51Z",
   "aliases": [
     "CVE-2025-26264"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/DRAGOWN/CVE-2025-26264"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.geovision.com.tw/download/product/GV-ASManager%20%28Access%20Control%29"
     }
   ],
   "database_specific": {
