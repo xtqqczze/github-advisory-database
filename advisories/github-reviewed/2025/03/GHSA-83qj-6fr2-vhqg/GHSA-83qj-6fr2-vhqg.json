@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83qj-6fr2-vhqg",
-  "modified": "2025-03-17T16:52:15Z",
+  "modified": "2025-03-17T21:32:26Z",
   "published": "2025-03-10T18:31:56Z",
   "aliases": [
     "CVE-2025-24813"
@@ -146,6 +146,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/tomcat/commit/f6c01d6577cf9a1e06792be47e623d36acc3b5dc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/absholi7ly/POC-CVE-2025-24813/blob/main/README.md"
     },
     {
       "type": "PACKAGE",
