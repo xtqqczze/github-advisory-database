@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-89xp-c3mq-qj84",
+  "modified": "2025-03-17T00:30:21Z",
+  "published": "2025-03-17T00:30:21Z",
+  "aliases": [
+    "CVE-2025-30089"
+  ],
+  "details": "gurk (aka gurk-rs) through 0.6.3 mishandles ANSI escape sequences.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30089"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/boxdot/gurk-rs/issues/384"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-150"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-17T00:15:13Z"
+  }
+}
