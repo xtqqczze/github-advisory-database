@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c8f-5r89-mjgx",
-  "modified": "2022-10-21T19:01:13Z",
+  "modified": "2025-03-17T21:30:21Z",
   "published": "2022-05-24T17:37:22Z",
   "aliases": [
     "CVE-2020-10148"
@@ -25,13 +25,18 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/843464"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.solarwinds.com/securityadvisory"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-287",
-      "CWE-288"
+      "CWE-288",
+      "CWE-306"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,
