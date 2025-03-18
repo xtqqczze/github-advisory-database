@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cqjc-pfg6-24mx",
+  "modified": "2025-03-18T21:32:01Z",
+  "published": "2025-03-18T21:32:01Z",
+  "aliases": [
+    "CVE-2024-57151"
+  ],
+  "details": "SQL Injection vulnerability in rainrocka xinhu v.2.6.5 and before allows a remote attacker to execute arbitrary code via the inputAction.php file and the saveAjax function",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57151"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jcxj/jcxj/blob/master/source/_posts/%E4%BF%A1%E5%91%BCoa%E5%AE%A1%E8%AE%A1.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-18T21:15:31Z"
+  }
+}

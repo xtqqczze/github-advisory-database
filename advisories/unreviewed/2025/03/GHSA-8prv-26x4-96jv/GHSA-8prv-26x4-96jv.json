@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8prv-26x4-96jv",
+  "modified": "2025-03-18T21:32:01Z",
+  "published": "2025-03-18T21:32:01Z",
+  "aliases": [
+    "CVE-2025-30139"
+  ],
+  "details": "An issue was discovered on G-Net Dashcam BB GONX devices. Default credentials for SSID cannot be changed. It broadcasts a fixed SSID with default credentials that cannot be changed. This allows any nearby attacker to connect to the dashcam's network without restriction. Once connected, an attacker can sniff on connected devices such as the user's smartphone. The SSID is also always broadcasted.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30139"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/geo-chen/GNET"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gnetsystem.com/eng/product/list?viewMode=view&idx=246&ca_id=0201"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-18T20:15:26Z"
+  }
+}
