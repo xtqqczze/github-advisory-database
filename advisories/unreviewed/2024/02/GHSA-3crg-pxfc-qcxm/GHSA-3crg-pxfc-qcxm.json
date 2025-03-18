@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3crg-pxfc-qcxm",
-  "modified": "2024-02-29T06:30:33Z",
+  "modified": "2025-03-18T12:30:47Z",
   "published": "2024-02-29T06:30:33Z",
   "aliases": [
     "CVE-2024-21752"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Ernest Marcinko Ajax Search Lite allows Reflected XSS.This issue affects Ajax Search Lite: from n/a through 4.11.4.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Ernest Marcinko Ajax Search Lite allows Reflected XSS.This issue affects Ajax Search Lite: from n/a through 4.11.4.",
   "severity": [
     {
       "type": "CVSS_V3",
