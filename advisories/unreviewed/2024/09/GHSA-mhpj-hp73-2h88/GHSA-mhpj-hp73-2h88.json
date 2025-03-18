@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhpj-hp73-2h88",
-  "modified": "2024-09-19T18:30:50Z",
+  "modified": "2025-03-18T00:30:36Z",
   "published": "2024-09-05T18:30:56Z",
   "aliases": [
     "CVE-2024-45176"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.syss.de/pentest-blog/mehrere-sicherheitsschwachstellen-in-videoueberwachungssoftware-c-mor-syss-2024-020-bis-030"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Sep/8"
     }
   ],
   "database_specific": {
