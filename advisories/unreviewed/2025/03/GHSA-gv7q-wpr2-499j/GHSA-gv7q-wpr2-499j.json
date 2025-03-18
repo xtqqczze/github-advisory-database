@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gv7q-wpr2-499j",
+  "modified": "2025-03-18T18:30:49Z",
+  "published": "2025-03-18T18:30:49Z",
+  "aliases": [
+    "CVE-2025-25595"
+  ],
+  "details": "A lack of rate limiting in the login page of Safe App version a3.0.9 allows attackers to bypass authentication via a brute force attack.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25595"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pastebin.com/t8FthPaF"
+    },
+    {
+      "type": "WEB",
+      "url": "https://play.google.com/store/apps/details?id=com.iitb.cse.arkenstone.safe_v2"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-18T17:15:46Z"
+  }
+}

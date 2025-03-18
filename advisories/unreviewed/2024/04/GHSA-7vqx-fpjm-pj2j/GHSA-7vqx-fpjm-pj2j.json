@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vqx-fpjm-pj2j",
-  "modified": "2024-04-10T21:30:32Z",
+  "modified": "2025-03-18T18:30:42Z",
   "published": "2024-04-10T21:30:32Z",
   "aliases": [
     "CVE-2021-47216"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: advansys: Fix kernel pointer leak\n\nPointers should be printed with %p or %px rather than cast to 'unsigned\nlong' and printed with %lx.\n\nChange %lx to %p to print the hashed pointer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-10T19:15:48Z"
