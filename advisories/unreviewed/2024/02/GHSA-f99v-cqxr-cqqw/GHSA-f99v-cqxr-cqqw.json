@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f99v-cqxr-cqqw",
-  "modified": "2024-12-18T18:30:49Z",
+  "modified": "2025-03-18T15:30:36Z",
   "published": "2024-02-15T21:31:27Z",
   "aliases": [
     "CVE-2023-6123"
   ],
-  "details": "Improper Neutralization vulnerability affects OpenText ALM Octane version 16.2.100 and above. The vulnerability could result in a remote code execution attack. \n\n\n",
+  "details": "Improper Neutralization vulnerability affects OpenText ALM Octane version 16.2.100 and above. The vulnerability could result in a remote code execution attack.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-707",
       "CWE-79"
     ],
     "severity": "HIGH",

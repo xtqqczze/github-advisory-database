@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cw64-pq7m-342r",
-  "modified": "2023-02-28T21:30:17Z",
+  "modified": "2025-03-18T15:30:35Z",
   "published": "2023-02-20T03:30:18Z",
   "aliases": [
     "CVE-2023-26081"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/05/msg00015.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IFWUNG6E4ZT43EYNHKYXS7QVSO2VW2H2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SADQCSQKTJKTTIJMEPY7GII6IVQSKEKV"
     },
     {
       "type": "WEB",
