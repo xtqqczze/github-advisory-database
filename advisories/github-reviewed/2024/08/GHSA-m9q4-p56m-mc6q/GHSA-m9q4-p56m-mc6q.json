@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m9q4-p56m-mc6q",
-  "modified": "2024-08-12T19:21:35Z",
+  "modified": "2025-03-19T15:33:37Z",
   "published": "2024-08-12T15:30:49Z",
   "aliases": [
     "CVE-2024-29831"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/x1ch0x5om3srtbnp7rtsvdszho3mdrq0"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/08/09/6"
     }
   ],
   "database_specific": {
