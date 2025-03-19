@@ -1,18 +1,27 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78w8-55r3-m9mq",
-  "modified": "2022-01-20T00:02:12Z",
+  "modified": "2025-03-19T21:30:35Z",
   "published": "2022-01-14T00:02:08Z",
   "aliases": [
     "CVE-2021-45422"
   ],
   "details": "Reprise License Manager 14.2 is affected by a reflected cross-site scripting vulnerability in the /goform/activate_process \"count\" parameter via GET. No authentication is required.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-45422"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WlX-33/PoC-for-CVE/blob/main/CVE-2021-45422/RLM%2014.2%20Cross%20Site%20Scripting.txt"
     },
     {
       "type": "WEB",

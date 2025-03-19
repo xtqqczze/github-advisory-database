@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp3f-whm7-36hq",
-  "modified": "2025-02-11T18:31:36Z",
+  "modified": "2025-03-19T21:30:44Z",
   "published": "2025-02-11T18:31:36Z",
   "aliases": [
     "CVE-2025-24472"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-288"
+      "CWE-288",
+      "CWE-306"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

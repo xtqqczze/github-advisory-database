@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g7f-9v94-gj5g",
-  "modified": "2024-05-14T18:30:47Z",
+  "modified": "2025-03-19T21:30:39Z",
   "published": "2024-05-14T18:30:47Z",
   "aliases": [
     "CVE-2024-32712"
   ],
-  "details": "Missing Authorization vulnerability in Podlove Podlove Podcast Publisher.This issue affects Podlove Podcast Publisher: from n/a through 4.0.14.\n\n",
+  "details": "Missing Authorization vulnerability in Podlove Podlove Podcast Publisher.This issue affects Podlove Podcast Publisher: from n/a through 4.0.14.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-352",
       "CWE-862"
     ],
     "severity": "HIGH",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5ph-q447-9jqq",
-  "modified": "2024-04-04T04:49:16Z",
+  "modified": "2025-03-19T21:30:37Z",
   "published": "2023-06-14T00:30:41Z",
   "aliases": [
     "CVE-2023-33140"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-33140"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WlX-33/PoC-for-CVE/blob/main/CVE-2023-33140/Microsoft%20OneNote%20(Version%202305%20Build%2016.0.16501.20074)%2064-bit%20-%20Spoofing%20Vulnerability.txt"
     },
     {
       "type": "WEB",

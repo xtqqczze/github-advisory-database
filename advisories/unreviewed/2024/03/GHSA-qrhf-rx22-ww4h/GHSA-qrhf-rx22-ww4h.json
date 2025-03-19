@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrhf-rx22-ww4h",
-  "modified": "2024-03-29T18:30:43Z",
+  "modified": "2025-03-19T21:30:39Z",
   "published": "2024-03-29T18:30:43Z",
   "aliases": [
     "CVE-2024-30454"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in VeronaLabs WP SMS.This issue affects WP SMS: from n/a through 6.6.2.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in VeronaLabs WP SMS.This issue affects WP SMS: from n/a through 6.6.2.",
   "severity": [
     {
       "type": "CVSS_V3",

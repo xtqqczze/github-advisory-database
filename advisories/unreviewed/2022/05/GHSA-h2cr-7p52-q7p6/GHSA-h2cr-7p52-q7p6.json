@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2cr-7p52-q7p6",
-  "modified": "2022-05-14T03:41:03Z",
+  "modified": "2025-03-19T21:30:34Z",
   "published": "2022-05-14T03:41:03Z",
   "aliases": [
     "CVE-2018-6867"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exploit-db.com/exploits/44171"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WlX-33/PoC-for-CVE/blob/main/CVE-2018-6867/Alibaba%20Clone%20Script%201.0.2%20Cross%20Site%20Scripting.txt"
     }
   ],
   "database_specific": {

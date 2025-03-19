@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w832-4843-q4m8",
-  "modified": "2022-05-13T01:09:56Z",
+  "modified": "2025-03-19T21:30:35Z",
   "published": "2022-05-13T01:09:56Z",
   "aliases": [
     "CVE-2019-1000018"
@@ -25,7 +25,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/WlX-33/PoC-for-CVE/blob/main/CVE-2021-33216%2CCVE-2019-1000018/CommScope%20Ruckus%20IoT%20Controller%201.7.1.0%20Undocumented%20Account.txt"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2019/01/msg00027.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HO3MDU3AH5SLYBKHH5PJ6PHC63ASIF42"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KR2OHTHMJVV4DO3HDRFQQZ5JENHDJQEN"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/T42YYNWJZG422GATWAHAEK4A24OKY557"
     },
     {
       "type": "WEB",

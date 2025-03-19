@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcq9-8j5c-v9xw",
-  "modified": "2024-03-26T21:30:47Z",
+  "modified": "2025-03-19T21:30:38Z",
   "published": "2024-03-26T21:30:47Z",
   "aliases": [
     "CVE-2023-47846"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Terry Lin WP Githuber MD.This issue affects WP Githuber MD: from n/a through 1.16.2.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Terry Lin WP Githuber MD.This issue affects WP Githuber MD: from n/a through 1.16.2.",
   "severity": [
     {
       "type": "CVSS_V3",

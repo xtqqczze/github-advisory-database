@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95cq-m3g2-g9qh",
-  "modified": "2024-03-27T06:30:33Z",
+  "modified": "2025-03-19T21:30:38Z",
   "published": "2024-03-27T06:30:32Z",
   "aliases": [
     "CVE-2024-25920"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in VeronaLabs WP SMS allows Stored XSS.This issue affects WP SMS: from n/a through 6.3.4.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in VeronaLabs WP SMS allows Stored XSS.This issue affects WP SMS: from n/a through 6.3.4.",
   "severity": [
     {
       "type": "CVSS_V3",

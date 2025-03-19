@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rjg-2hv4-xq68",
-  "modified": "2025-03-13T15:33:00Z",
+  "modified": "2025-03-19T21:30:46Z",
   "published": "2025-03-13T15:33:00Z",
   "aliases": [
     "CVE-2024-55198"
   ],
   "details": "User Enumeration via Discrepancies in Error Messages in the Celk Sistemas Celk Saude v.3.1.252.1 password recovery functionality which allows a remote attacker to enumerate users through discrepancies in the responses.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-204"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-13T15:15:49Z"
