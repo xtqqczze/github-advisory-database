@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp28-mvq3-wf8j",
-  "modified": "2025-03-17T14:34:48Z",
+  "modified": "2025-03-19T15:32:04Z",
   "published": "2025-03-14T15:32:03Z",
   "aliases": [
     "CVE-2025-2304"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/owen2345/camaleon-cms/releases/tag/2.9.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/camaleon_cms/CVE-2025-2304.yml"
     },
     {
       "type": "WEB",

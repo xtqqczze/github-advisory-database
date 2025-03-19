@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vqp-59qv-pmrc",
-  "modified": "2023-02-28T18:30:18Z",
+  "modified": "2025-03-19T15:31:37Z",
   "published": "2023-02-17T18:30:24Z",
   "aliases": [
     "CVE-2021-32142"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/05/msg00025.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5ICTVDRGBWGIFBTUWJLGX7QM5GWBWUG7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E7TEZ7CLRNYYQZJ5NJGZXK6YJU46WH2L"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxq3-28qm-p5p4",
-  "modified": "2023-02-27T15:30:22Z",
+  "modified": "2025-03-19T15:31:36Z",
   "published": "2023-02-17T15:30:25Z",
   "aliases": [
     "CVE-2020-29168"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-29168"
+    },
+    {
+      "type": "WEB",
+      "url": "https://projectworlds.in/free-projects/php-projects/online-doctor-appointment-booking-system-php-and-mysql/%2C"
     },
     {
       "type": "WEB",
