@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w532-jxjh-hjhj",
-  "modified": "2025-03-18T21:07:47Z",
+  "modified": "2025-03-19T05:58:35Z",
   "published": "2025-03-18T21:07:47Z",
   "aliases": [
     "CVE-2025-29907"
@@ -41,6 +41,10 @@
       "url": "https://github.com/parallax/jsPDF/security/advisories/GHSA-w532-jxjh-hjhj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29907"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/parallax/jsPDF/commit/b167c43c27c466eb914b927885b06073708338df"
     },
@@ -57,6 +61,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-18T21:07:47Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-18T19:15:51Z"
   }
 }
