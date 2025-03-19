@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96v5-c2h5-56hm",
-  "modified": "2025-03-13T15:03:07Z",
+  "modified": "2025-03-19T15:44:48Z",
   "published": "2025-03-12T15:32:06Z",
   "aliases": [
     "CVE-2025-29891"
@@ -93,6 +93,10 @@
     {
       "type": "WEB",
       "url": "https://camel.apache.org/security/CVE-2025-29891.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/akamai/CVE-2025-27636-Apache-Camel-PoC"
     },
     {
       "type": "PACKAGE",
