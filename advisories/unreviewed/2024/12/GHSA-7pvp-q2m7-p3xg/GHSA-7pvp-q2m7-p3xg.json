@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pvp-q2m7-p3xg",
-  "modified": "2024-12-13T15:30:41Z",
+  "modified": "2025-03-19T18:30:47Z",
   "published": "2024-12-13T15:30:41Z",
   "aliases": [
     "CVE-2023-38475"

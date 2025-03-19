@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch75-4hc2-84c6",
-  "modified": "2023-02-23T06:30:18Z",
+  "modified": "2025-03-19T18:30:36Z",
   "published": "2023-02-15T21:30:27Z",
   "aliases": [
     "CVE-2022-45543"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45543"
+    },
+    {
+      "type": "WEB",
+      "url": "https://srpopty.github.io/2023/02/15/Vulnerability-Discuz-X3.4-Reflected-XSS-%28CVE-2022-45543%29"
     },
     {
       "type": "WEB",

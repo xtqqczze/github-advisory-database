@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwqq-p7w6-hwg3",
-  "modified": "2023-02-27T15:30:19Z",
+  "modified": "2025-03-19T18:30:37Z",
   "published": "2023-02-16T21:30:24Z",
   "aliases": [
     "CVE-2023-22380"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22380"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server%403.7/admin/release-notes#3.7.6"
     },
     {
       "type": "WEB",
