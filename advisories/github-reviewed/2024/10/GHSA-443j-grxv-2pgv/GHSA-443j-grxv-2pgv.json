@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-443j-grxv-2pgv",
-  "modified": "2024-10-16T17:24:49Z",
+  "modified": "2025-03-20T19:02:23Z",
   "published": "2024-10-14T18:30:25Z",
   "aliases": [
     "CVE-2023-50780"
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/63b78shqz312phsx7v1ryr7jv7bprg58"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/10/14/2"
     }
   ],
   "database_specific": {
