@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpw7-8gjc-jwqj",
-  "modified": "2025-01-22T19:26:49Z",
+  "modified": "2025-03-20T19:39:06Z",
   "published": "2025-01-22T18:31:55Z",
   "aliases": [
     "CVE-2025-24400"
   ],
   "summary": "Cache confusion in Jenkins Eiffel Broadcaster Plugin ",
-  "details": "The Jenkins Eiffel Broadcaster Plugin allows events published to RabbitMQ to be signed using certificate credentials. To improve performance, the plugin caches some data from the credential.\n\nEiffel Broadcaster Plugin 2.8.0 through 2.10.2 (both inclusive) uses the credential ID as the cache key. This allows attackers able to create a credential with the same ID as a legitimate one in a different credentials store, to sign an event published to RabbitMQ with the legitimate certificate credentials.\n\nEiffel Broadcaster Plugin 2.10.3 removes the cache.\n",
+  "details": "The Jenkins Eiffel Broadcaster Plugin allows events published to RabbitMQ to be signed using certificate credentials. To improve performance, the plugin caches some data from the credential.\n\nEiffel Broadcaster Plugin 2.8.0 through 2.10.2 (both inclusive) uses the credential ID as the cache key. This allows attackers able to create a credential with the same ID as a legitimate one in a different credentials store, to sign an event published to RabbitMQ with the legitimate certificate credentials.\n\nEiffel Broadcaster Plugin 2.10.3 removes the cache.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -51,7 +51,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-276"
+      "CWE-276",
+      "CWE-863"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,

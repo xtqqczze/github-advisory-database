@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7xg-cmpp-48hf",
-  "modified": "2025-03-20T19:07:18Z",
+  "modified": "2025-03-20T19:38:37Z",
   "published": "2025-03-20T12:32:39Z",
   "aliases": [
     "CVE-2024-10553"
@@ -19,6 +19,25 @@
       "package": {
         "ecosystem": "PyPI",
         "name": "h2o"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.46.0.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "ai.h2o:h2o-core"
       },
       "ranges": [
         {
