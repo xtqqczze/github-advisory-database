@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pj95-ph4q-4qm4",
-  "modified": "2024-10-02T21:50:29Z",
+  "modified": "2025-03-20T18:51:13Z",
   "published": "2024-10-02T18:31:32Z",
   "aliases": [
     "CVE-2024-47803"
