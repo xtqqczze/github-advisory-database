@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq9g-9vfc-cfq9",
-  "modified": "2025-03-19T18:12:53Z",
+  "modified": "2025-03-20T19:00:02Z",
   "published": "2025-03-19T18:12:53Z",
   "aliases": [
     "CVE-2025-30153"
@@ -41,6 +41,10 @@
       "url": "https://github.com/getkin/kin-openapi/security/advisories/GHSA-wq9g-9vfc-cfq9"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30153"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/getkin/kin-openapi/pull/1059"
     },
@@ -72,6 +76,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-19T18:12:53Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-19T16:15:33Z"
   }
 }

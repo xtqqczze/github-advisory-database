@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gm45-q3v2-6cf8",
-  "modified": "2025-03-19T15:48:43Z",
+  "modified": "2025-03-20T18:58:42Z",
   "published": "2025-03-19T15:48:43Z",
   "aliases": [
     "CVE-2025-30144"
@@ -41,8 +41,16 @@
       "url": "https://github.com/nearform/fast-jwt/security/advisories/GHSA-gm45-q3v2-6cf8"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30144"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/nearform/fast-jwt/commit/cc26b1d473f900446ad846f8f0b10eb1c0adcbdd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://datatracker.ietf.org/doc/html/rfc7519#page-9"
     },
     {
       "type": "PACKAGE",
@@ -56,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-19T15:48:43Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-19T16:15:33Z"
   }
 }
