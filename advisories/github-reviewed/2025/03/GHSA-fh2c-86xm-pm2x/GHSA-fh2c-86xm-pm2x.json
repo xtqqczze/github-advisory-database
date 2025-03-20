@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh2c-86xm-pm2x",
-  "modified": "2025-03-20T20:56:29Z",
+  "modified": "2025-03-20T20:59:18Z",
   "published": "2025-03-20T12:32:49Z",
   "aliases": [
     "CVE-2024-8984"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "1.40.3.dev2"
+              "introduced": "0"
             },
             {
               "last_affected": "1.44.5"
