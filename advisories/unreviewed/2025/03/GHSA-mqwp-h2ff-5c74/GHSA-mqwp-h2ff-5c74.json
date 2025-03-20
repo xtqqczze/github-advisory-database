@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mqwp-h2ff-5c74",
+  "modified": "2025-03-20T18:30:31Z",
+  "published": "2025-03-20T18:30:31Z",
+  "aliases": [
+    "CVE-2025-29215"
+  ],
+  "details": "Tenda AX12 v22.03.01.46_CN was discovered to contain a stack overflow via the sub_43fdcc function at /goform/SetNetControlList.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29215"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/isstabber/a42b32a7dcd401d79c5866247329cddd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/isstabber/my_VulnHub/blob/main/Tenda/AX12/tenda_ax12v1_setnetcontrollist_stack_overflow.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-20T18:15:18Z"
+  }
+}

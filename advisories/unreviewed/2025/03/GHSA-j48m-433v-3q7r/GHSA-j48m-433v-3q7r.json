@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j48m-433v-3q7r",
+  "modified": "2025-03-20T18:30:30Z",
+  "published": "2025-03-20T18:30:30Z",
+  "aliases": [
+    "CVE-2024-57440"
+  ],
+  "details": "D-Link DSL-3788 revA1 1.01R1B036_EU_EN is vulnerable to Buffer Overflow via the COMM_MAKECustomMsg function of the webproc cgi",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57440"
+    },
+    {
+      "type": "WEB",
+      "url": "https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10418"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.dlink.com/en/security-bulletin"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-20T17:15:37Z"
+  }
+}

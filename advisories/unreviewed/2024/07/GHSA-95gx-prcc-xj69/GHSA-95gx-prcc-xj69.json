@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95gx-prcc-xj69",
-  "modified": "2024-07-20T12:30:25Z",
+  "modified": "2025-03-20T18:30:27Z",
   "published": "2024-07-20T12:30:25Z",
   "aliases": [
     "CVE-2024-6848"

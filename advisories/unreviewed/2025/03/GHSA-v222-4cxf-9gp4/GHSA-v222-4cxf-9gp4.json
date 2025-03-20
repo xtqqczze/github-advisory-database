@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v222-4cxf-9gp4",
+  "modified": "2025-03-20T18:30:30Z",
+  "published": "2025-03-20T18:30:30Z",
+  "aliases": [
+    "CVE-2025-29214"
+  ],
+  "details": "Tenda AX12 v22.03.01.46_CN was discovered to contain a stack overflow via the sub_42F69C function at /goform/setMacFilterCfg.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29214"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/isstabber/85fe01ed47ad7ef820f86bfbd64a022c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/isstabber/my_VulnHub/blob/main/Tenda/AX12/tenda_ax12_setMacFilterCfg_stack_overflow_en.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-20T16:15:16Z"
+  }
+}

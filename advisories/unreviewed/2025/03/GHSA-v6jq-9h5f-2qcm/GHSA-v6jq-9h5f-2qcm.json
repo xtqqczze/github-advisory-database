@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v6jq-9h5f-2qcm",
+  "modified": "2025-03-20T18:30:30Z",
+  "published": "2025-03-20T18:30:30Z",
+  "aliases": [
+    "CVE-2025-29121"
+  ],
+  "details": "A vulnerability was found in Tenda AC6 V15.03.05.16. The vulnerability affects the functionality of the /goform/fast_setting_wifi_set file form_fast_setting_wifi_set. Using the timeZone parameter causes a stack-based buffer overflow.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Raining-101/IOT_cve/blob/main/ac6_form_fast_setting_wifi_set%20_timeZone.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-20T17:15:38Z"
+  }
+}
