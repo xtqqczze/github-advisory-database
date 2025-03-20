@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r56h-j38w-hrqq",
-  "modified": "2025-03-20T18:30:30Z",
+  "modified": "2025-03-20T21:31:46Z",
   "published": "2025-03-20T18:30:30Z",
   "aliases": [
     "CVE-2024-7598"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/g/kubernetes-security-announce/c/67D7UFqiPRc"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/03/20/2"
     }
   ],
   "database_specific": {

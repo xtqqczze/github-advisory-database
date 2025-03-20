@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gx6-pfq2-pf53",
-  "modified": "2024-04-15T06:30:35Z",
+  "modified": "2025-03-20T21:31:40Z",
   "published": "2024-04-15T06:30:35Z",
   "aliases": [
     "CVE-2024-2739"
   ],
   "details": "The Advanced Search WordPress plugin through 1.1.6 does not have CSRF checks in some places, which could allow attackers to make logged in users perform unwanted actions via CSRF attacks",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-15T05:15:15Z"
