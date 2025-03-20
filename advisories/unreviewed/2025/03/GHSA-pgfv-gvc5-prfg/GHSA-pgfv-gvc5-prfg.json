@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pgfv-gvc5-prfg",
+  "modified": "2025-03-20T12:32:39Z",
+  "published": "2025-03-20T12:32:39Z",
+  "aliases": [
+    "CVE-2024-10648"
+  ],
+  "details": "A path traversal vulnerability exists in the Gradio Audio component of gradio-app/gradio, as of version git 98cbcae. This vulnerability allows an attacker to control the format of the audio file, leading to arbitrary file content deletion. By manipulating the output format, an attacker can reset any file to an empty file, causing a denial of service (DOS) on the server.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10648"
+    },
+    {
+      "type": "WEB",
+      "url": "https://huntr.com/bounties/667d664d-8189-458c-8ed7-483fe8f33c76"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-29"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-20T10:15:18Z"
+  }
+}

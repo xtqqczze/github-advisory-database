@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7v2w-h4gh-w5cv",
+  "modified": "2025-03-20T12:32:47Z",
+  "published": "2025-03-20T12:32:47Z",
+  "aliases": [
+    "CVE-2024-8021"
+  ],
+  "details": "An open redirect vulnerability exists in the latest version of gradio-app/gradio. The vulnerability allows an attacker to redirect users to a malicious website by URL encoding. This can be exploited by sending a crafted request to the application, which results in a 302 redirect to an attacker-controlled site.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8021"
+    },
+    {
+      "type": "WEB",
+      "url": "https://huntr.com/bounties/adc23067-ec04-47ef-9265-afd452071888"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-601"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-20T10:15:39Z"
+  }
+}

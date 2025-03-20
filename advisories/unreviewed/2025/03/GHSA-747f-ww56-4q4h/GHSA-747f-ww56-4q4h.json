@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-747f-ww56-4q4h",
+  "modified": "2025-03-20T12:32:51Z",
+  "published": "2025-03-20T12:32:51Z",
+  "aliases": [
+    "CVE-2024-9701"
+  ],
+  "details": "A Remote Code Execution (RCE) vulnerability has been identified in the Kedro ShelveStore class (version 0.19.8). This vulnerability allows an attacker to execute arbitrary Python code via deserialization of malicious payloads, potentially leading to a full system compromise. The ShelveStore class uses Python's shelve module to manage session data, which relies on pickle for serialization. Crafting a malicious payload and storing it in the shelve file can lead to RCE when the payload is deserialized.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9701"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kedro-org/kedro/commit/d79fa51de55ac0ccb58cce1a482df1b445f0fe7c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://huntr.com/bounties/96c77fef-93b2-4d4d-8cbe-57a718d8eea5"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-20T10:15:49Z"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xx7c-j7h3-vjcq",
+  "modified": "2025-03-20T12:32:45Z",
+  "published": "2025-03-20T12:32:45Z",
+  "aliases": [
+    "CVE-2024-6577"
+  ],
+  "details": "In the latest version of pytorch/serve, the script 'upload_results_to_s3.sh' references the S3 bucket 'benchmarkai-metrics-prod' without ensuring its ownership or confirming its accessibility. This could lead to potential security vulnerabilities or unauthorized access to the bucket if it is not properly secured or claimed by the appropriate entity. The issue may result in data breaches, exposure of proprietary information, or unauthorized modifications to stored data.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6577"
+    },
+    {
+      "type": "WEB",
+      "url": "https://huntr.com/bounties/20917570-8328-428f-bd1d-4fcd71fb2359"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-20T10:15:32Z"
+  }
+}
