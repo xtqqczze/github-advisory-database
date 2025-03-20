@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vc4-m8qh-g8jm",
-  "modified": "2025-03-16T21:34:33Z",
+  "modified": "2025-03-20T13:22:47Z",
   "published": "2025-03-12T20:20:24Z",
   "aliases": [
     "CVE-2025-25291"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N/E:P"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -105,6 +105,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://portswigger.net/research/saml-roulette-the-hacker-always-wins"
+    },
+    {
+      "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20250314-0010"
     }
   ],
@@ -113,7 +117,7 @@
       "CWE-347",
       "CWE-436"
     ],
-    "severity": "HIGH",
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-12T20:20:24Z",
     "nvd_published_at": "2025-03-12T21:15:42Z"
