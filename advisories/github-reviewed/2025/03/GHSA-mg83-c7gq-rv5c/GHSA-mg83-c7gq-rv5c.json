@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg83-c7gq-rv5c",
-  "modified": "2025-03-20T18:19:21Z",
+  "modified": "2025-03-20T19:42:39Z",
   "published": "2025-03-20T06:31:09Z",
   "aliases": [
     "CVE-2025-22228"
@@ -184,6 +184,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-287",
       "CWE-521"
     ],
     "severity": "HIGH",
