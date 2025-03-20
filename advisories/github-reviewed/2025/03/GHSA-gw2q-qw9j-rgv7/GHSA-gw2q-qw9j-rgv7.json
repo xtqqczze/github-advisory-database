@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gw2q-qw9j-rgv7",
-  "modified": "2025-03-20T12:32:38Z",
+  "modified": "2025-03-20T18:54:47Z",
   "published": "2025-03-20T12:32:38Z",
   "aliases": [
     "CVE-2024-10188"
   ],
+  "summary": "LiteLLM Vulnerable to Denial of Service (DoS)",
   "details": "A vulnerability in BerriAI/litellm, as of commit 26c03c9, allows unauthenticated users to cause a Denial of Service (DoS) by exploiting the use of ast.literal_eval to parse user input. This function is not safe and is prone to DoS attacks, which can crash the litellm Python server.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "litellm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.53.1.dev1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/berriai/litellm/commit/21156ff5d0d84a7dd93f951ca033275c77e4f73c"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/BerriAI/litellm"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-400"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-20T18:54:47Z",
     "nvd_published_at": "2025-03-20T10:15:14Z"
   }
 }
