@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xm2p-hxq8-xj3q",
-  "modified": "2024-08-06T18:30:49Z",
+  "modified": "2025-03-20T06:31:08Z",
   "published": "2024-03-05T18:31:13Z",
   "aliases": [
     "CVE-2024-27564"
@@ -22,6 +22,22 @@
     {
       "type": "WEB",
       "url": "https://github.com/dirk1983/chatgpt/issues/114"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/save/https://github.com/dirk1983/chatgpt/blob/f9f4bbc99eed7210b291ec116bd57b3d8276bee5/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/save/https://github.com/dirk1983/chatgpt/issues/114"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/web/20250320031248/https://mm1.ltd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/web/20250320032559/https://github.com/dirk1983/chatgpt/blob/f9f4bbc99eed7210b291ec116bd57b3d8276bee5/pictureproxy.php"
     }
   ],
   "database_specific": {
