@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjmx-m9c7-h485",
-  "modified": "2024-12-12T18:30:55Z",
+  "modified": "2025-03-21T00:31:20Z",
   "published": "2024-12-12T03:33:06Z",
   "aliases": [
     "CVE-2024-54471"
@@ -21,11 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=43425605"
+    },
+    {
+      "type": "WEB",
       "url": "https://support.apple.com/en-us/121568"
     },
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/121570"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wts.dev/posts/password-leak"
     }
   ],
   "database_specific": {
