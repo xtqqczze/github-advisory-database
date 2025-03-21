@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83qj-6fr2-vhqg",
-  "modified": "2025-03-20T19:06:00Z",
+  "modified": "2025-03-21T18:31:35Z",
   "published": "2025-03-10T18:31:56Z",
   "aliases": [
     "CVE-2025-24813"
@@ -162,6 +162,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/j5fkjv2k477os90nczf2v9l61fb0kkgq"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250321-0001"
     },
     {
       "type": "WEB",

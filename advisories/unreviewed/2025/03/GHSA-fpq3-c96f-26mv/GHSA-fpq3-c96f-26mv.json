@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpq3-c96f-26mv",
-  "modified": "2025-03-18T15:30:50Z",
+  "modified": "2025-03-21T18:31:34Z",
   "published": "2025-03-18T15:30:50Z",
   "aliases": [
     "CVE-2025-30114"
   ],
   "details": "An issue was discovered on the Forvia Hella HELLA Driving Recorder DR 820. Bypassing of Device Pairing can occur. The pairing mechanism relies solely on the connecting device's MAC address. By obtaining the MAC address through network scanning and spoofing it, an attacker can bypass the authentication process and gain full access to the dashcam's features without proper authorization.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-287"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-18T15:16:02Z"

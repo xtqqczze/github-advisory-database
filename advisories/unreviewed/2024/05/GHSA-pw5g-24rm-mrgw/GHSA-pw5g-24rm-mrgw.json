@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw5g-24rm-mrgw",
-  "modified": "2024-12-30T18:30:41Z",
+  "modified": "2025-03-21T18:31:29Z",
   "published": "2024-05-19T09:34:47Z",
   "aliases": [
     "CVE-2024-35894"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fcf4692fa39e86a590c14a4af2de704e1d20a3b5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250321-0002"
     }
   ],
   "database_specific": {

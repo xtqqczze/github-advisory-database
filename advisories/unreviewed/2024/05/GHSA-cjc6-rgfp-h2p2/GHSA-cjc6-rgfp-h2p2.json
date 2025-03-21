@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjc6-rgfp-h2p2",
-  "modified": "2024-12-30T18:30:41Z",
+  "modified": "2025-03-21T18:31:29Z",
   "published": "2024-05-19T09:34:47Z",
   "aliases": [
     "CVE-2024-35896"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/06/msg00017.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250321-0004"
     }
   ],
   "database_specific": {

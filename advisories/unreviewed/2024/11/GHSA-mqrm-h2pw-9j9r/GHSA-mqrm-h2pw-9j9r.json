@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqrm-h2pw-9j9r",
-  "modified": "2024-11-19T15:31:54Z",
+  "modified": "2025-03-21T18:31:29Z",
   "published": "2024-11-19T15:31:54Z",
   "aliases": [
     "CVE-2024-10524"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/oss-sec/2024/q4/107"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250321-0007"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/18/6"
     }
   ],
   "database_specific": {

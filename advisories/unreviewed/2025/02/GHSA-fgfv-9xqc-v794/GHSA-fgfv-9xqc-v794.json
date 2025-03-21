@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgfv-9xqc-v794",
-  "modified": "2025-02-19T00:31:19Z",
+  "modified": "2025-03-21T18:31:29Z",
   "published": "2025-02-19T00:31:19Z",
   "aliases": [
     "CVE-2025-24928"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://issues.oss-fuzz.com/issues/392687022"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250321-0006"
     }
   ],
   "database_specific": {

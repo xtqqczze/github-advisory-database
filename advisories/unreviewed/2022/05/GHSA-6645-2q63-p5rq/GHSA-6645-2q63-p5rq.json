@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6645-2q63-p5rq",
-  "modified": "2022-05-24T19:19:19Z",
+  "modified": "2025-03-21T18:31:18Z",
   "published": "2022-05-24T19:19:19Z",
   "aliases": [
     "CVE-2021-24773"
   ],
   "details": "The WordPress Download Manager WordPress plugin before 3.2.16 does not escape some of the Download settings when outputting them, allowing high privilege users to perform XSS attacks even when the unfiltered_html capability is disallowed",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
