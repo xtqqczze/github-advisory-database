@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vqr-wprc-cpp7",
-  "modified": "2025-03-20T12:32:41Z",
+  "modified": "2025-03-21T16:55:37Z",
   "published": "2025-03-20T12:32:41Z",
   "aliases": [
     "CVE-2024-11041"
   ],
+  "summary": "vLLM Deserialization of Untrusted Data vulnerability",
   "details": "vllm-project vllm version v0.6.2 contains a vulnerability in the MessageQueue.dequeue() API function. The function uses pickle.loads to parse received sockets directly, leading to a remote code execution vulnerability. An attacker can exploit this by sending a malicious payload to the MessageQueue, causing the victim's machine to execute arbitrary code.",
   "severity": [
     {
@@ -13,11 +14,39 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "vllm"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.6.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11041"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/vllm-project/vllm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vllm-project/vllm/blob/7193774b1ff8603ad5bf4598e5efba0d9a39b436/vllm/distributed/device_communicators/shm_broadcast.py#L441-L443"
     },
     {
       "type": "WEB",
@@ -29,8 +58,8 @@
       "CWE-502"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-21T16:55:37Z",
     "nvd_published_at": "2025-03-20T10:15:23Z"
   }
 }
