@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v793-w449-37r3",
-  "modified": "2025-02-16T06:31:45Z",
+  "modified": "2025-03-21T15:31:11Z",
   "published": "2025-02-16T06:31:45Z",
   "aliases": [
     "CVE-2024-57971"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/KnowageLabs/Knowage-Server/compare/v8.1.29...v8.1.30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/darumaseye/CVEs/blob/ec2de9f7ecffde466e687745bfdfc672e86241d7/CVE-2024-57971.md"
     },
     {
       "type": "WEB",

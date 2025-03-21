@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7jg-7ww6-99x3",
-  "modified": "2025-03-20T15:30:23Z",
+  "modified": "2025-03-21T15:31:07Z",
   "published": "2022-05-24T16:56:04Z",
   "aliases": [
     "CVE-2019-16261"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.korelogic.com/blog/2019/08/19/unpatched_fringe_infrastructure_bits"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Shlucus/ab762d6b148f2d2d046c956526a80ddc"
     },
     {
       "type": "WEB",
