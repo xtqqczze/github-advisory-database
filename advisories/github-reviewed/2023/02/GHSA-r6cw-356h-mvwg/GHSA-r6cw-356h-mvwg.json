@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6cw-356h-mvwg",
-  "modified": "2023-02-23T22:08:30Z",
+  "modified": "2025-03-21T21:48:43Z",
   "published": "2023-02-12T15:30:25Z",
   "aliases": [
     "CVE-2023-0788"
@@ -50,7 +50,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://huntr.dev/bounties/808d5452-607c-4af1-812f-26c49faf3e61"
+      "url": "https://huntr.com/bounties/808d5452-607c-4af1-812f-26c49faf3e61"
     }
   ],
   "database_specific": {

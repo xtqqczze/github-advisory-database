@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wmx-48g3-x66g",
-  "modified": "2024-07-25T18:08:25Z",
+  "modified": "2025-03-21T21:49:28Z",
   "published": "2024-07-22T06:31:08Z",
   "aliases": [
     "CVE-2024-41709"
