@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f82v-jwr5-mffw",
+  "modified": "2025-03-21T15:20:12Z",
+  "published": "2025-03-21T15:20:12Z",
+  "aliases": [
+    "CVE-2025-29927"
+  ],
+  "summary": "Authorization Bypass in Next.js Middleware",
+  "details": "# Impact\nIt is possible to bypass authorization checks within a Next.js application, if the authorization check occurs in middleware.\n\n# Patches\n* For Next.js 15.x, this issue is fixed in `15.2.3`\n* For Next.js 14.x, this issue is fixed in `14.2.25`\n* For Next.js versions `11.1.4` thru `13.5.6`, consult the below workaround.\n\n# Workaround\nIf patching to a safe version is infeasible, it is recommend that you prevent external user requests which contain the `x-middleware-subrequest` header from reaching your Next.js application.\n\n## Credits\n\n- Allam Rachid (zhero;)\n- Allam Yasser (inzo_)",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "11.1.4"
+            },
+            {
+              "last_affected": "13.5.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "14.0"
+            },
+            {
+              "fixed": "14.2.25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "next"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "15.0"
+            },
+            {
+              "fixed": "15.2.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/vercel/next.js/security/advisories/GHSA-f82v-jwr5-mffw"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vercel/next.js/commit/52a078da3884efe6501613c7834a3d02a91676d2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vercel/next.js/commit/5fd3ae8f8542677c6294f32d18022731eab6fe48"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/vercel/next.js"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-285"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-21T15:20:12Z",
+    "nvd_published_at": null
+  }
+}
