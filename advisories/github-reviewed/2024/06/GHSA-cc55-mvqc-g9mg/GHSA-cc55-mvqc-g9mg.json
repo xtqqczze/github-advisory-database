@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc55-mvqc-g9mg",
-  "modified": "2024-06-12T19:45:06Z",
+  "modified": "2025-03-21T04:28:09Z",
   "published": "2024-06-12T18:30:41Z",
   "aliases": [
     "CVE-2024-37629"
