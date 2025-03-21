@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gf34-hh5r-f74h",
-  "modified": "2023-02-23T22:08:43Z",
+  "modified": "2025-03-21T21:46:55Z",
   "published": "2023-02-12T15:30:25Z",
   "aliases": [
     "CVE-2023-0794"
@@ -50,7 +50,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://huntr.dev/bounties/949975f1-271d-46aa-85e5-1a013cdb5efb"
+      "url": "https://huntr.com/bounties/949975f1-271d-46aa-85e5-1a013cdb5efb"
     }
   ],
   "database_specific": {

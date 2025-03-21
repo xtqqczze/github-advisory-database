@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c38p-vw6j-qjpr",
-  "modified": "2023-02-23T22:08:41Z",
+  "modified": "2025-03-21T21:47:53Z",
   "published": "2023-02-12T15:30:25Z",
   "aliases": [
     "CVE-2023-0791"
@@ -50,7 +50,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://huntr.dev/bounties/7152b340-c6f3-4ac8-9f62-f764a267488d"
+      "url": "https://huntr.com/bounties/7152b340-c6f3-4ac8-9f62-f764a267488d"
     }
   ],
   "database_specific": {
