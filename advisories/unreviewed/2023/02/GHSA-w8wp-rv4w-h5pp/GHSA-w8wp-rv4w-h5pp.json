@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8wp-rv4w-h5pp",
-  "modified": "2023-03-13T15:30:19Z",
+  "modified": "2025-03-21T21:31:33Z",
   "published": "2023-02-28T18:30:16Z",
   "aliases": [
     "CVE-2023-27320"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-27320"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/332KN4QI6QXB7NI7SWSJ2EQJKWIILFN6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FPLXMRAMXC3BYL4DNKVTK3V6JDMUXZ7B"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6VW24YGXJYI4NZ5HZPQCF4MCE7766AU"
     },
     {
       "type": "WEB",

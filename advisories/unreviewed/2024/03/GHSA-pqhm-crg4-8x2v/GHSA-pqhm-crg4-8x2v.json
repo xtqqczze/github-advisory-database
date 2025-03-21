@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pqhm-crg4-8x2v",
-  "modified": "2024-03-31T21:30:36Z",
+  "modified": "2025-03-21T21:31:33Z",
   "published": "2024-03-31T21:30:36Z",
   "aliases": [
     "CVE-2024-30524"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in RedLettuce Plugins PDF Viewer for Elementor allows Stored XSS.This issue affects PDF Viewer for Elementor: from n/a through 2.9.3.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in RedLettuce Plugins PDF Viewer for Elementor allows Stored XSS.This issue affects PDF Viewer for Elementor: from n/a through 2.9.3.",
   "severity": [
     {
       "type": "CVSS_V3",

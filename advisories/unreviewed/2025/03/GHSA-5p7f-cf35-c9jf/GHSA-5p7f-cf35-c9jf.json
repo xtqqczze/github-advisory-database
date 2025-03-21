@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5p7f-cf35-c9jf",
-  "modified": "2025-03-20T15:30:36Z",
+  "modified": "2025-03-21T21:31:38Z",
   "published": "2025-03-20T15:30:36Z",
   "aliases": [
     "CVE-2025-29412"
   ],
   "details": "A cross-site scripting (XSS) vulnerability in the Client Profile Update section of Mart Developers iBanking v2.0.0 allows attackers to execute arbitrary web scripts or HTML via injecting a crafted payload into the Name parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-20T14:15:24Z"
