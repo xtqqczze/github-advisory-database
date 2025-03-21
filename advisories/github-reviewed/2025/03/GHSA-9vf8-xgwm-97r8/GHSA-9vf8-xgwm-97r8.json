@@ -1,23 +1,48 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9vf8-xgwm-97r8",
-  "modified": "2025-03-20T12:32:47Z",
+  "modified": "2025-03-21T21:23:57Z",
   "published": "2025-03-20T12:32:47Z",
   "aliases": [
     "CVE-2024-8053"
   ],
+  "summary": "Open WebUI lacks authentication for the `api/v1/utils/pdf` endpoint",
   "details": "In version v0.3.10 of open-webui/open-webui, the `api/v1/utils/pdf` endpoint lacks authentication mechanisms, allowing unauthenticated attackers to access the PDF generation service. This vulnerability can be exploited by sending a POST request with an excessively large payload, potentially leading to server resource exhaustion and denial of service (DoS). Additionally, unauthorized users can misuse the endpoint to generate PDFs without verification, resulting in service misuse and potential operational and financial impacts.",
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "open-webui"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.3.10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8053"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/open-webui/open-webui"
     },
     {
       "type": "WEB",
@@ -29,8 +54,8 @@
       "CWE-287"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-21T21:23:57Z",
     "nvd_published_at": "2025-03-20T10:15:39Z"
   }
 }
