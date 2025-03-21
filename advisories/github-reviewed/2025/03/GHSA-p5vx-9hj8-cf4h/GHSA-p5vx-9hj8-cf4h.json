@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5vx-9hj8-cf4h",
-  "modified": "2025-03-20T12:32:46Z",
+  "modified": "2025-03-21T22:11:41Z",
   "published": "2025-03-20T12:32:46Z",
   "aliases": [
     "CVE-2024-7035"
   ],
+  "summary": "Open WebUI Vulnerable to Cross-Site Request Forgery (CSRF)",
   "details": "In version v0.3.8 of open-webui/open-webui, sensitive actions such as deleting and resetting are performed using the GET method. This vulnerability allows an attacker to perform Cross-Site Request Forgery (CSRF) attacks, where an unaware user can unintentionally perform sensitive actions by simply visiting a malicious site or through top-level navigation. The affected endpoints include /rag/api/v1/reset, /rag/api/v1/reset/db, /api/v1/memories/reset, and /rag/api/v1/reset/uploads. This impacts both the availability and integrity of the application.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:N/I:H/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "open-webui"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.3.8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7035"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/open-webui/open-webui"
     },
     {
       "type": "WEB",
@@ -29,8 +54,8 @@
       "CWE-352"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-21T22:11:41Z",
     "nvd_published_at": "2025-03-20T10:15:35Z"
   }
 }
