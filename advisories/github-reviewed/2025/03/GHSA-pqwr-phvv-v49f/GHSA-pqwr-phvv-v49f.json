@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pqwr-phvv-v49f",
-  "modified": "2025-03-20T12:32:45Z",
+  "modified": "2025-03-21T17:29:56Z",
   "published": "2025-03-20T12:32:45Z",
   "aliases": [
     "CVE-2024-7039"
   ],
+  "summary": "Open WebUI Allows Admin Deletion via API Endpoint",
   "details": "In open-webui/open-webui version v0.3.8, there is an improper privilege management vulnerability. The application allows an attacker, acting as an admin, to delete other administrators via the API endpoint `http://0.0.0.0:8080/api/v1/users/{uuid_administrator}`. This action is restricted by the user interface but can be performed through direct API calls.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "open-webui"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.3.8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7039"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/open-webui/open-webui"
     },
     {
       "type": "WEB",
@@ -29,8 +54,8 @@
       "CWE-269"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-21T17:29:56Z",
     "nvd_published_at": "2025-03-20T10:15:35Z"
   }
 }
