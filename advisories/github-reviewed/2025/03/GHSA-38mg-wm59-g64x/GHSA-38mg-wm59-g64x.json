@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-38mg-wm59-g64x",
-  "modified": "2025-03-20T12:32:49Z",
+  "modified": "2025-03-21T03:24:41Z",
   "published": "2025-03-20T12:32:49Z",
   "aliases": [
     "CVE-2024-8955"
   ],
+  "summary": "composio allows Server-Side Request Forgery (SSRF) in BROWSERTOOL",
   "details": "A Server-Side Request Forgery (SSRF) vulnerability exists in composiohq/composio version v0.4.4. This vulnerability allows an attacker to read the contents of any file in the system by exploiting the BROWSERTOOL_GOTO_PAGE and BROWSERTOOL_GET_PAGE_DETAILS actions.",
   "severity": [
     {
@@ -13,11 +14,39 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "composio-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.4.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8955"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/ComposioHQ/composio"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ComposioHQ/composio/blob/master/python/composio/tools/local/browsertool/actions/goto_page.py#L1"
     },
     {
       "type": "WEB",
@@ -29,8 +58,8 @@
       "CWE-643"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-21T03:24:41Z",
     "nvd_published_at": "2025-03-20T10:15:45Z"
   }
 }
