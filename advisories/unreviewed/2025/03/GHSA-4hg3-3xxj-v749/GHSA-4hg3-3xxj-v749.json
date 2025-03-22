@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hg3-3xxj-v749",
-  "modified": "2025-03-17T06:30:25Z",
+  "modified": "2025-03-22T00:31:11Z",
   "published": "2025-03-17T06:30:25Z",
   "aliases": [
     "CVE-2025-2361"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.514024"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/03/21/2"
     }
   ],
   "database_specific": {
