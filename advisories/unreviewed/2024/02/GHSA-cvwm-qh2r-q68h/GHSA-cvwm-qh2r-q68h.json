@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvwm-qh2r-q68h",
-  "modified": "2024-10-17T15:31:06Z",
+  "modified": "2025-03-22T15:30:34Z",
   "published": "2024-02-13T18:38:23Z",
   "aliases": [
     "CVE-2023-20570"
   ],
-  "details": "Insufficient verification of data authenticity in\nthe configuration state machine may allow a local attacker to potentially load\narbitrary bitstreams.\n\n\n\n\n\n",
+  "details": "Insufficient verification of data authenticity in\nthe configuration state machine may allow a local attacker to potentially load\narbitrary bitstreams.",
   "severity": [
     {
       "type": "CVSS_V3",
