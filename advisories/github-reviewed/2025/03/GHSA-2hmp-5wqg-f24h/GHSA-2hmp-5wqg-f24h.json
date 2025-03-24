@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hmp-5wqg-f24h",
-  "modified": "2025-03-10T22:21:12Z",
+  "modified": "2025-03-24T21:46:52Z",
   "published": "2025-03-10T15:30:47Z",
   "aliases": [
     "CVE-2025-1497"
@@ -9,6 +9,10 @@
   "summary": "PlotAI eval vulnerability",
   "details": "A vulnerability, that could result in Remote Code Execution (RCE), has been found in PlotAI. Lack of validation of LLM-generated output allows attacker to execute arbitrary Python code. PlotAI commented out vulnerable line, further usage of the software requires uncommenting it and thus accepting the risk.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
