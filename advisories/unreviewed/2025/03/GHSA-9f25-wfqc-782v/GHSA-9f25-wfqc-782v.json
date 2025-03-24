@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f25-wfqc-782v",
-  "modified": "2025-03-10T12:30:55Z",
+  "modified": "2025-03-24T15:30:38Z",
   "published": "2025-03-10T12:30:55Z",
   "aliases": [
     "CVE-2025-24387"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1275"
+      "CWE-1275",
+      "CWE-352"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

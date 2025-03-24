@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2652-63hr-2gvh",
-  "modified": "2022-05-24T17:26:42Z",
+  "modified": "2025-03-24T15:30:32Z",
   "published": "2022-05-24T17:26:42Z",
   "aliases": [
     "CVE-2020-24312"
   ],
   "details": "mndpsingh287 WP File Manager v6.4 and lower fails to restrict external access to the fm_backups directory with a .htaccess file. This results in the ability for unauthenticated users to browse and download any site backups, which sometimes include full database backups, that the plugin has taken.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-552"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

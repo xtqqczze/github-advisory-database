@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmxw-76xq-cmqq",
-  "modified": "2025-03-22T15:30:36Z",
+  "modified": "2025-03-24T15:30:39Z",
   "published": "2025-03-22T15:30:36Z",
   "aliases": [
     "CVE-2025-26796"
   ],
   "details": "** UNSUPPORTED WHEN ASSIGNED ** Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache Oozie.\n\nThis issue affects Apache Oozie: all versions.\n\nAs this project is retired, we do not plan to release a version that fixes this issue. Users are recommended to find an alternative or restrict access to the instance to trusted users.\n\nNOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-22T13:15:35Z"

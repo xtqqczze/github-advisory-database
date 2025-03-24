@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4974-qrr5-pm93",
-  "modified": "2024-02-13T18:38:22Z",
+  "modified": "2025-03-24T15:30:32Z",
   "published": "2024-02-06T00:30:27Z",
   "aliases": [
     "CVE-2024-0761"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0761"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3023403/wp-file-manager/trunk/file_folder_manager.php?old=2984933&old_path=wp-file-manager%2Ftrunk%2Ffile_folder_manager.php"
     },
     {
       "type": "WEB",

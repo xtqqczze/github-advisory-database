@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwf7-wfvq-vc32",
-  "modified": "2024-10-16T21:31:08Z",
+  "modified": "2025-03-24T15:30:35Z",
   "published": "2024-10-15T21:30:39Z",
   "aliases": [
     "CVE-2024-41311"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/flyyee/79f1b224069842ee320115cafa5c35c0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00025.html"
     }
   ],
   "database_specific": {
