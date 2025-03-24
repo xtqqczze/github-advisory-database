@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7p39-c4gr-vppc",
-  "modified": "2025-03-12T12:31:00Z",
+  "modified": "2025-03-24T18:30:58Z",
   "published": "2025-03-12T12:31:00Z",
   "aliases": [
     "CVE-2025-1527"

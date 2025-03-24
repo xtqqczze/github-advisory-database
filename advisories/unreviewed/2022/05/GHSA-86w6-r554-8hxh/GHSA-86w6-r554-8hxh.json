@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86w6-r554-8hxh",
-  "modified": "2022-05-24T16:46:54Z",
+  "modified": "2025-03-24T18:30:31Z",
   "published": "2022-05-24T16:46:54Z",
   "aliases": [
     "CVE-2018-9193"
   ],
   "details": "A local privilege escalation in Fortinet FortiClient for Windows 6.0.4 and earlier allows attacker to execute unauthorized code or commands via the parsing of the file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

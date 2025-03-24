@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmww-v28q-953g",
-  "modified": "2024-08-19T06:30:52Z",
+  "modified": "2025-03-24T18:30:38Z",
   "published": "2024-05-14T15:32:53Z",
   "aliases": [
     "CVE-2024-27397"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7b17de2a71e56c10335b565cc7ad238e6d984379"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7fa2e2960fff8322ce2ded57b5f8e9cbc450b967"
     },
     {
       "type": "WEB",

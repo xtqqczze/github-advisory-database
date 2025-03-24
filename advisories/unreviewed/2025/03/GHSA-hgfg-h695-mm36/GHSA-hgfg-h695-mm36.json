@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgfg-h695-mm36",
-  "modified": "2025-03-24T06:30:25Z",
+  "modified": "2025-03-24T18:31:00Z",
   "published": "2025-03-24T06:30:25Z",
   "aliases": [
     "CVE-2025-1203"
   ],
   "details": "The Slider, Gallery, and Carousel by MetaSlider  WordPress plugin before 3.95.0 does not sanitise and escape some of its settings, which could allow high privilege users such as editor to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-24T06:15:13Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jq3v-ccgp-cvrg",
-  "modified": "2024-11-08T15:31:12Z",
+  "modified": "2025-03-24T18:30:44Z",
   "published": "2024-11-05T18:32:13Z",
   "aliases": [
     "CVE-2024-50138"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ca30e682e5d6de44d12c4610767811c9a21d59ba"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f9543375d9b150b2bcf16bb182e6b62309db0888"
     }
   ],
   "database_specific": {

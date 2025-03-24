@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqvp-qf4w-3mpx",
-  "modified": "2024-04-10T18:30:47Z",
+  "modified": "2025-03-24T18:30:37Z",
   "published": "2024-04-10T18:30:47Z",
   "aliases": [
     "CVE-2024-31297"
   ],
-  "details": "Missing Authorization vulnerability in WPExperts Wholesale For WooCommerce.This issue affects Wholesale For WooCommerce: from n/a through 2.3.0.\n\n",
+  "details": "Missing Authorization vulnerability in WPExperts Wholesale For WooCommerce.This issue affects Wholesale For WooCommerce: from n/a through 2.3.0.",
   "severity": [
     {
       "type": "CVSS_V3",

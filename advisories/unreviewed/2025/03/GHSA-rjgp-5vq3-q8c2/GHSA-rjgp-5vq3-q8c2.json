@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjgp-5vq3-q8c2",
-  "modified": "2025-03-20T21:31:47Z",
+  "modified": "2025-03-24T18:30:59Z",
   "published": "2025-03-20T21:31:47Z",
   "aliases": [
     "CVE-2025-25758"
   ],
   "details": "An issue in KukuFM Android v1.12.7 (11207) allows attackers to access sensitive cleartext data via the android:allowBackup=\"true\" in the ANdroidManifest.xml",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-312"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-20T21:15:23Z"
