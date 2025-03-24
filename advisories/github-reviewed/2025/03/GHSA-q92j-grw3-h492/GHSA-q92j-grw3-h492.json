@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q92j-grw3-h492",
-  "modified": "2025-03-21T21:12:06Z",
+  "modified": "2025-03-24T14:49:01Z",
   "published": "2025-03-12T19:28:00Z",
   "aliases": [
     "CVE-2025-27407"
@@ -63,7 +63,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "2.2.10"
+              "introduced": "2.2.0"
             },
             {
               "fixed": "2.2.17"
