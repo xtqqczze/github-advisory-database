@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrw8-5368-phm3",
-  "modified": "2024-10-02T22:35:33Z",
+  "modified": "2025-03-24T21:45:45Z",
   "published": "2024-10-02T21:30:36Z",
   "aliases": [
     "CVE-2024-45965"
@@ -45,6 +45,10 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45965"
     },
     {
+      "type": "WEB",
+      "url": "https://contao.org/en/security-advisories/cross-site-scripting-through-svg-uploads"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/contao/contao"
     },
@@ -55,6 +59,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-434",
       "CWE-79"
     ],
     "severity": "LOW",
