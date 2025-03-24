@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv3r-vqjj-8c76",
-  "modified": "2022-08-30T20:53:03Z",
+  "modified": "2025-03-24T14:37:40Z",
   "published": "2022-08-30T20:53:03Z",
   "aliases": [],
   "summary": "Cross-site scripting from content entered in the tags and multiselect fields",
