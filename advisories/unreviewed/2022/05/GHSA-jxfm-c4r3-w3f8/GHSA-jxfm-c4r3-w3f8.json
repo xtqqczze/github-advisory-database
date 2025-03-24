@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxfm-c4r3-w3f8",
-  "modified": "2025-03-18T21:31:41Z",
+  "modified": "2025-03-24T21:30:25Z",
   "published": "2022-05-24T17:25:35Z",
   "aliases": [
     "CVE-2020-17538"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.ghostscript.com/show_bug.cgi?id=701792"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/tree/contrib/lips4/gdevlips.c?h=ghostscript-9.18#n148"
     },
     {
       "type": "WEB",

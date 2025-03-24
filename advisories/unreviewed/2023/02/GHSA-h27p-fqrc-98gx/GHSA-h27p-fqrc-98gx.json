@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h27p-fqrc-98gx",
-  "modified": "2023-02-16T21:30:28Z",
+  "modified": "2025-03-24T21:30:27Z",
   "published": "2023-02-09T21:30:27Z",
   "aliases": [
     "CVE-2023-24687"

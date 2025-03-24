@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-477c-qcmp-3qmv",
-  "modified": "2025-03-23T06:30:26Z",
+  "modified": "2025-03-24T21:30:33Z",
   "published": "2025-03-23T06:30:26Z",
   "aliases": [
     "CVE-2025-1446"
   ],
   "details": "The Pods  WordPress plugin before 3.2.8.2 does not sanitize and escape a parameter before using it in a SQL statement, allowing admins to perform SQL injection attacks",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-23T06:15:12Z"

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6cpx-55pw-9cxq",
+  "modified": "2025-03-24T21:30:33Z",
+  "published": "2025-03-24T21:30:33Z",
+  "aliases": [
+    "CVE-2025-29311"
+  ],
+  "details": "Limited secret space in LLDP packets used in onos v2.7.0 allows attackers to obtain the private key via a bruteforce attack. Attackers are able to leverage this vulnerability into creating crafted LLDP packets.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29311"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Saber-Berserker/790f2a75ae482df3fd0fce569f30504a;"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-24T21:15:18Z"
+  }
+}

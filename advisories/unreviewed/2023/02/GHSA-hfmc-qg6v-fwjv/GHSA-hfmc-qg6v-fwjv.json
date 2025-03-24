@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfmc-qg6v-fwjv",
-  "modified": "2023-02-17T18:30:24Z",
+  "modified": "2025-03-24T21:30:27Z",
   "published": "2023-02-10T00:30:20Z",
   "aliases": [
     "CVE-2023-23592"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-200"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
