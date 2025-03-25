@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j3q-rqjq-x3f3",
-  "modified": "2023-02-17T00:30:28Z",
+  "modified": "2025-03-25T15:31:11Z",
   "published": "2023-02-08T21:30:20Z",
   "aliases": [
     "CVE-2023-0751"
@@ -22,10 +22,16 @@
     {
       "type": "WEB",
       "url": "https://security.FreeBSD.org/advisories/FreeBSD-SA-23:01.geli.asc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20230316-0004"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-20"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

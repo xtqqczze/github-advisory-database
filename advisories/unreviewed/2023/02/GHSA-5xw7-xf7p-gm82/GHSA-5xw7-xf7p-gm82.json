@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xw7-xf7p-gm82",
-  "modified": "2023-02-16T15:30:29Z",
+  "modified": "2025-03-25T15:31:10Z",
   "published": "2023-02-07T21:30:22Z",
   "aliases": [
     "CVE-2022-46663"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/gwsw/less/commit/a78e1351113cef564d790a730d657a321624d79c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LR7AUWB34JD4PCW3HHASBEDGGHFWPAQP"
     },
     {
       "type": "WEB",

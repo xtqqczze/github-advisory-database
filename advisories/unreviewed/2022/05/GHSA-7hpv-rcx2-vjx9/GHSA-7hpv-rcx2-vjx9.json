@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hpv-rcx2-vjx9",
-  "modified": "2022-05-24T17:23:48Z",
+  "modified": "2025-03-25T15:31:09Z",
   "published": "2022-05-24T17:23:48Z",
   "aliases": [
     "CVE-2020-4316"
   ],
   "details": "IBM Publishing Engine 6.0.6, 6.0.6.1, and 7.0 does not set the secure attribute on authorization tokens or session cookies. Attackers may be able to get the cookie values by sending a http:// link to a user or by planting this link in a site the user goes to. The cookie will be sent to the insecure link and the attacker can then obtain the cookie value by snooping the traffic. IBM X-Force ID: 177354.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

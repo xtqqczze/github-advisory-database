@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x74-cjf9-r2hc",
-  "modified": "2023-02-16T21:30:27Z",
+  "modified": "2025-03-25T15:31:13Z",
   "published": "2023-02-09T18:30:27Z",
   "aliases": [
     "CVE-2022-48297"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1284",
       "CWE-20"
     ],
     "severity": "HIGH",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c8w4-q7v8-687p",
-  "modified": "2025-03-06T18:31:12Z",
+  "modified": "2025-03-25T15:31:22Z",
   "published": "2025-03-06T18:31:12Z",
   "aliases": [
     "CVE-2025-21833"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niommu/vt-d: Avoid use of NULL after WARN_ON_ONCE\n\nThere is a WARN_ON_ONCE to catch an unlikely situation when\ndomain_remove_dev_pasid can't find the `pasid`. In case it nevertheless\nhappens we must avoid using a NULL pointer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-06T17:15:23Z"
