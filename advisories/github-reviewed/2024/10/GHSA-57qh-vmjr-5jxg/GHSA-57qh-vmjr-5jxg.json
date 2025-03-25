@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57qh-vmjr-5jxg",
-  "modified": "2025-01-07T18:36:18Z",
+  "modified": "2025-03-25T20:10:32Z",
   "published": "2024-10-11T15:30:32Z",
   "aliases": [
     "CVE-2024-48987"
@@ -62,7 +62,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-1393"
+    ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-10-11T17:47:51Z",
