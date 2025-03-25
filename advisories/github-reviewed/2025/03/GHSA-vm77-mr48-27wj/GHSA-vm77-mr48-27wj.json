@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm77-mr48-27wj",
-  "modified": "2025-03-23T15:30:33Z",
+  "modified": "2025-03-25T16:30:30Z",
   "published": "2025-03-23T15:30:33Z",
   "aliases": [
     "CVE-2025-2691"
   ],
+  "summary": "nossrf Server-Side Request Forgery (SSRF)",
   "details": "Versions of the package nossrf before 1.0.4 are vulnerable to Server-Side Request Forgery (SSRF) where an attacker can provide a hostname that resolves to a local or reserved IP address space and bypass the SSRF protection mechanism.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "nossrf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.0.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -33,8 +54,8 @@
       "CWE-918"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-03-25T16:30:30Z",
     "nvd_published_at": "2025-03-23T15:15:13Z"
   }
 }
