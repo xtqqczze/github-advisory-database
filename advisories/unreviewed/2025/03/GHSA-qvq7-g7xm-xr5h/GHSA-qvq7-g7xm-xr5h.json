@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qvq7-g7xm-xr5h",
-  "modified": "2025-03-18T15:30:50Z",
+  "modified": "2025-03-25T21:31:33Z",
   "published": "2025-03-18T15:30:49Z",
   "aliases": [
     "CVE-2025-30117"
   ],
   "details": "An issue was discovered on the Forvia Hella HELLA Driving Recorder DR 820. Managing Settings and Obtaining Sensitive Data and Sabotaging the Car Battery can be performed by unauthorized parties. After bypassing the device pairing, an attacker can obtain sensitive user and vehicle information through the settings interface. Remote attackers can modify power management settings, disable recording, delete stored footage, and turn off battery protection, leading to potential denial-of-service conditions and vehicle battery drainage.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-285"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-18T15:16:02Z"

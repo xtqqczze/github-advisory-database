@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcfg-gmff-9p95",
-  "modified": "2024-04-30T00:30:34Z",
+  "modified": "2025-03-25T21:31:29Z",
   "published": "2024-04-30T00:30:34Z",
   "aliases": [
     "CVE-2024-33401"
   ],
   "details": "Cross Site Scripting vulnerability in DedeCMS v.5.7.113 allows a remote attacker to run arbitrary code via the mnum parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-29T22:15:06Z"

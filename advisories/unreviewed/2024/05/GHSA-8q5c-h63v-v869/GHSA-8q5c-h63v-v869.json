@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8q5c-h63v-v869",
-  "modified": "2024-05-08T06:30:48Z",
+  "modified": "2025-03-25T21:31:30Z",
   "published": "2024-05-08T06:30:48Z",
   "aliases": [
     "CVE-2024-1076"
   ],
   "details": "The SSL Zen  WordPress plugin before 4.6.0 only relies on the use of .htaccess to prevent visitors from accessing the site's generated private keys, which allows an attacker to read them if the site runs on a server who doesn't support .htaccess files, like NGINX.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-08T06:15:06Z"

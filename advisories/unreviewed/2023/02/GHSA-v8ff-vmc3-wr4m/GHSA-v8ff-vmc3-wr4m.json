@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8ff-vmc3-wr4m",
-  "modified": "2023-02-13T15:30:27Z",
+  "modified": "2025-03-25T21:31:24Z",
   "published": "2023-02-04T21:30:22Z",
   "aliases": [
     "CVE-2023-25193"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/harfbuzz/harfbuzz/blob/2822b589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout-gsubgpos.hh"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KWCHWSICWVZSAXP2YAXM65JC2GR53547"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YZ5M2GSAIHFPLHYJXUPQ2QDJCLWXUGO3"
     },
     {
       "type": "WEB",

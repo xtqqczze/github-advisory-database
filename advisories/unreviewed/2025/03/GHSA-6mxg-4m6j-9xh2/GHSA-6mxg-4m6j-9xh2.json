@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6mxg-4m6j-9xh2",
+  "modified": "2025-03-25T21:31:33Z",
+  "published": "2025-03-25T21:31:33Z",
+  "aliases": [
+    "CVE-2025-25374"
+  ],
+  "details": "In NASA cFS (Core Flight System) Aquila, it is possible to put the onboard software in a state that will prevent the launch of any external application, causing a platform denial of service.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25374"
+    },
+    {
+      "type": "WEB",
+      "url": "https://visionspace.com/nasa-cfs-version-aquila-software-vulnerability-assessment"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-25T21:15:42Z"
+  }
+}

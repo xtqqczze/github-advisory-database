@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgjq-hm36-r7r8",
-  "modified": "2024-04-30T18:30:33Z",
+  "modified": "2025-03-25T21:31:29Z",
   "published": "2024-04-30T18:30:33Z",
   "aliases": [
     "CVE-2019-19752"
   ],
   "details": "nvOC through 3.2 ships with SSH host keys baked into the installation image, which allows man-in-the-middle attacks and makes identification of all public IPv4 nodes trivial with Shodan.io. NOTE: as of 2019-12-01, the vendor indicated plans to fix this in the next image build.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-321"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-30T18:15:19Z"

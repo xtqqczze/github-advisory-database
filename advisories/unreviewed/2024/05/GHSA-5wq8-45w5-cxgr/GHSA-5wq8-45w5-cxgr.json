@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wq8-45w5-cxgr",
-  "modified": "2024-05-15T06:30:44Z",
+  "modified": "2025-03-25T21:31:30Z",
   "published": "2024-05-15T06:30:44Z",
   "aliases": [
     "CVE-2024-3631"
   ],
   "details": "The HL Twitter WordPress plugin through 2014.1.18 does not have CSRF check when unlinking twitter accounts, which could allow attackers to make logged in admins perform such actions via a CSRF attack",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-15T06:15:13Z"
