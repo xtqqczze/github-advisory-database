@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v5x-9m47-cqr2",
-  "modified": "2024-12-10T19:06:02Z",
+  "modified": "2025-03-25T21:48:41Z",
   "published": "2024-12-09T21:31:02Z",
-  "aliases": [
-    "CVE-2024-12369"
-  ],
-  "summary": "WildFly Elytron OpenID Connect Client Extension authorization code injection attack",
-  "details": "A vulnerability was found in OIDC-Client. When using the RH SSO OIDC adapter with EAP 7.x or when using the elytron-oidc-client subsystem with EAP 8.x, authorization code injection attacks can occur, allowing an attacker to inject a stolen authorization code into the attacker's own session with the client with a victim's identity. This is usually done with a Man-in-the-Middle (MitM) or phishing attack.",
+  "withdrawn": "2025-03-25T21:48:41Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: WildFly Elytron OpenID Connect Client Extension authorization code injection attack",
+  "details": "# Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of [GHSA-5565-3c98-g6jc](https://advisory-inbox.githubapp.com/advisory_reviews/GHSA-5565-3c98-g6jc). This link is maintained to preserve external references.\n\n# Original Description\nA vulnerability was found in OIDC-Client. When using the RH SSO OIDC adapter with EAP 7.x or when using the elytron-oidc-client subsystem with EAP 8.x, authorization code injection attacks can occur, allowing an attacker to inject a stolen authorization code into the attacker's own session with the client with a victim's identity. This is usually done with a Man-in-the-Middle (MitM) or phishing attack.",
   "severity": [
     {
       "type": "CVSS_V3",
