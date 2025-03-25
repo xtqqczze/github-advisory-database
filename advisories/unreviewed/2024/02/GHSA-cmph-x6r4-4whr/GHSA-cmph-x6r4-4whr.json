@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmph-x6r4-4whr",
-  "modified": "2024-11-07T00:30:35Z",
+  "modified": "2025-03-25T18:30:25Z",
   "published": "2024-02-20T15:31:03Z",
   "aliases": [
     "CVE-2023-52433"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e3213ff99a355cda811b41e8dbb3472d13167a3a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240828-0003"
     }
   ],
   "database_specific": {

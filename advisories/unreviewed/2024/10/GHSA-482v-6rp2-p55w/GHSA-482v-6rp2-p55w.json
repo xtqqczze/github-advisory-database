@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-482v-6rp2-p55w",
-  "modified": "2024-10-01T21:31:34Z",
+  "modified": "2025-03-25T18:30:46Z",
   "published": "2024-10-01T18:31:18Z",
   "aliases": [
     "CVE-2024-25660"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.cvcn.gov.it/cvcn/cve/CVE-2024-25660"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.nokia.com/optical-networks/infinera"
     }
   ],
   "database_specific": {

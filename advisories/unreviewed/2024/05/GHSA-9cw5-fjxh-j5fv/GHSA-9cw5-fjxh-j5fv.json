@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cw5-fjxh-j5fv",
-  "modified": "2024-05-14T15:32:52Z",
+  "modified": "2025-03-25T18:30:30Z",
   "published": "2024-05-14T15:32:52Z",
   "aliases": [
     "CVE-2024-24157"
   ],
   "details": "Gnuboard g6 / https://github.com/gnuboard/g6 commit c2cc1f5069e00491ea48618d957332d90f6d40e4 is vulnerable to Cross Site Scripting (XSS) via board.py.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-14T15:01:53Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mc3-gwcr-mgc3",
-  "modified": "2024-11-12T21:30:51Z",
+  "modified": "2025-03-25T18:30:47Z",
   "published": "2024-11-11T21:31:49Z",
   "aliases": [
     "CVE-2024-52531"
@@ -25,12 +25,21 @@
     },
     {
       "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libsoup/-/merge_requests/407#note_2316401"
+    },
+    {
+      "type": "WEB",
       "url": "https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home"
+    },
+    {
+      "type": "WEB",
+      "url": "https://offsec.almond.consulting/using-aflplusplus-on-bug-bounty-programs-an-example-with-gnome-libsoup.html"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-120"
+      "CWE-120",
+      "CWE-787"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

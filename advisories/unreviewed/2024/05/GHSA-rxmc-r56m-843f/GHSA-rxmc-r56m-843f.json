@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxmc-r56m-843f",
-  "modified": "2024-05-14T18:30:52Z",
+  "modified": "2025-03-25T18:30:30Z",
   "published": "2024-05-14T18:30:52Z",
   "aliases": [
     "CVE-2024-35167"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in EnvoThemes Envo's Elementor Templates & Widgets for WooCommerce allows Stored XSS.This issue affects Envo's Elementor Templates & Widgets for WooCommerce: from n/a through 1.4.8.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in EnvoThemes Envo's Elementor Templates & Widgets for WooCommerce allows Stored XSS.This issue affects Envo's Elementor Templates & Widgets for WooCommerce: from n/a through 1.4.8.",
   "severity": [
     {
       "type": "CVSS_V3",

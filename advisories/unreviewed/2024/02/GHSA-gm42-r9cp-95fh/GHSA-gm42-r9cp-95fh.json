@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gm42-r9cp-95fh",
-  "modified": "2024-08-14T18:32:36Z",
+  "modified": "2025-03-25T18:30:26Z",
   "published": "2024-02-22T15:30:39Z",
   "aliases": [
     "CVE-2024-26349"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26349"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Icycu123/Flusity-CMS-V2.33/blob/main/CVE-2024-26349.md"
     },
     {
       "type": "WEB",

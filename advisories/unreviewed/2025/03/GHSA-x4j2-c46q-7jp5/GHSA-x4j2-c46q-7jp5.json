@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4j2-c46q-7jp5",
-  "modified": "2025-03-05T00:30:34Z",
+  "modified": "2025-03-25T18:30:50Z",
   "published": "2025-03-04T15:31:49Z",
   "aliases": [
     "CVE-2025-1936"
   ],
   "details": "jar: URLs retrieve local file content packaged in a ZIP archive. The null and everything after it was ignored when retrieving the content from the archive, but the fake extension after the null was used to determine the type of content. This could have been used to hide code in a web extension disguised as something else like an image. This vulnerability affects Firefox < 136 and Firefox ESR < 128.8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-04T14:15:38Z"

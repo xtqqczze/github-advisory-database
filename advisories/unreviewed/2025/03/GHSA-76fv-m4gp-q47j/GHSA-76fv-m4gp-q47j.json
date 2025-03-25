@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76fv-m4gp-q47j",
-  "modified": "2025-03-25T06:30:28Z",
+  "modified": "2025-03-25T18:30:54Z",
   "published": "2025-03-25T06:30:28Z",
   "aliases": [
     "CVE-2025-27809"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/Mbed-TLS/mbedtls/issues/466"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/Mbed-TLS/mbedtls/releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mastodon.social/@bagder/114219540623402700"
     },
     {
       "type": "WEB",
