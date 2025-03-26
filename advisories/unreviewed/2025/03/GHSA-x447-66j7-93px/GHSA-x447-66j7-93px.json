@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x447-66j7-93px",
-  "modified": "2025-03-24T21:30:33Z",
+  "modified": "2025-03-26T15:32:35Z",
   "published": "2025-03-24T21:30:33Z",
   "aliases": [
     "CVE-2025-29100"
   ],
   "details": "Tenda AC8 V16.03.34.06 is vulnerable to Buffer Overflow in the fromSetRouteStatic function via the parameter list.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-24T21:15:17Z"

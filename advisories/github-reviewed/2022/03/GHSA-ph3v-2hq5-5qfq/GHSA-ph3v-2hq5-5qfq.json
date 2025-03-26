@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ph3v-2hq5-5qfq",
-  "modified": "2022-03-11T20:30:20Z",
+  "modified": "2025-03-26T15:32:24Z",
   "published": "2022-03-07T00:00:41Z",
   "aliases": [
     "CVE-2021-46703"
   ],
   "summary": "Code injection in RazorEngine",
   "details": "In the IsolatedRazorEngine component of Antaris RazorEngine through 4.5.1-alpha001, an attacker can execute arbitrary .NET code in a sandboxed environment (if users can externally control template contents). NOTE: This vulnerability only affects products that are no longer supported by the maintainer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -38,11 +43,17 @@
     {
       "type": "WEB",
       "url": "https://github.com/Antaris/RazorEngine/issues/585"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/Antaris/RazorEngine"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": "MODERATE",
+    "cwe_ids": [
+      "CWE-1336"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2022-03-11T20:30:20Z",
     "nvd_published_at": "2022-03-06T06:15:00Z"

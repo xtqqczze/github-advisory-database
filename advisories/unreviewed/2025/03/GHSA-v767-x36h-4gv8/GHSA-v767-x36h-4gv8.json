@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v767-x36h-4gv8",
-  "modified": "2025-03-24T21:30:33Z",
+  "modified": "2025-03-26T15:32:35Z",
   "published": "2025-03-24T21:30:33Z",
   "aliases": [
     "CVE-2025-29135"
   ],
   "details": "A stack-based buffer overflow vulnerability in Tenda AC7 V15.03.06.44 allows a remote attacker to execute arbitrary code through a stack overflow attack using the security parameter of the formWifiBasicSet function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-24T21:15:17Z"
