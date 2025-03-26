@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v9f-r55g-g6hc",
-  "modified": "2025-03-20T20:43:33Z",
+  "modified": "2025-03-26T15:36:24Z",
   "published": "2025-03-20T12:32:47Z",
   "aliases": [
     "CVE-2024-8183"
   ],
   "summary": "Prefect CORS (Cross-Origin Resource Sharing) misconfiguration",
-  "details": "A CORS (Cross-Origin Resource Sharing) misconfiguration in prefecthq/prefect prior ro version 3.0.3 allows unauthorized domains to access sensitive data. This vulnerability can lead to unauthorized access to the database, resulting in potential data leaks, loss of confidentiality, service disruption, and data integrity risks.",
+  "details": "A CORS (Cross-Origin Resource Sharing) misconfiguration in prefecthq/prefect prior to version 3.0.3 allows unauthorized domains to access sensitive data. This vulnerability can lead to unauthorized access to the database, resulting in potential data leaks, loss of confidentiality, service disruption, and data integrity risks.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.0rc1"
             },
             {
               "fixed": "3.0.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "prefect"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.20.17"
             }
           ]
         }
@@ -55,6 +74,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/PrefectHQ/prefect"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/PrefectHQ/prefect/releases/tag/2.20.17"
     },
     {
       "type": "WEB",
