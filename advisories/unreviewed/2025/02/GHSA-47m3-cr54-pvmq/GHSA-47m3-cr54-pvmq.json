@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47m3-cr54-pvmq",
-  "modified": "2025-02-28T09:30:55Z",
+  "modified": "2025-03-26T18:30:46Z",
   "published": "2025-02-28T09:30:55Z",
   "aliases": [
     "CVE-2025-1413"

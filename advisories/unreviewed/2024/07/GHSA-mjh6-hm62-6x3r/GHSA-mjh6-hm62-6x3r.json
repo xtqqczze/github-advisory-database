@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjh6-hm62-6x3r",
-  "modified": "2024-11-12T00:30:35Z",
+  "modified": "2025-03-26T18:30:45Z",
   "published": "2024-07-26T21:31:16Z",
   "aliases": [
     "CVE-2024-40116"
   ],
   "details": "An issue in Solar-Log 1000 before v2.8.2 and build 52-23.04.2013 was discovered to store plaintext passwords in the export.html, email.html, and sms.html files.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-256"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-07-26T20:15:04Z"

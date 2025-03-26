@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v933-rrv9-44p3",
-  "modified": "2022-05-24T17:42:40Z",
+  "modified": "2025-03-26T18:30:33Z",
   "published": "2022-05-24T17:42:40Z",
   "aliases": [
     "CVE-2020-36248"
   ],
   "details": "The ownCloud application before 2.15 for Android allows attackers to use adb to include a PIN preferences value in a backup archive, and consequently bypass the PIN lock feature by restoring from this archive.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

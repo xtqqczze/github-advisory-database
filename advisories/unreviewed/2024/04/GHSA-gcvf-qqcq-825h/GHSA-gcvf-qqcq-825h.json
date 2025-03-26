@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcvf-qqcq-825h",
-  "modified": "2024-04-11T06:30:34Z",
+  "modified": "2025-03-26T18:30:44Z",
   "published": "2024-04-09T00:30:41Z",
   "aliases": [
     "CVE-2024-27632"
   ],
   "details": "An issue in GNU Savane v.3.12 and before allows a remote attacker to escalate privileges via the form_id in the form_header() function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-335"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-08T22:15:08Z"
