@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46f3-rc2x-p4jv",
-  "modified": "2025-03-26T12:30:34Z",
+  "modified": "2025-03-26T21:31:06Z",
   "published": "2025-03-26T12:30:33Z",
   "aliases": [
     "CVE-2025-27551"
   ],
   "details": "DBIx::Class::EncodedColumn use the rand() function, which is not cryptographically secure to salt password hashes.\n\nThis vulnerability is associated with program files lib/DBIx/Class/EncodedColumn/Digest.pm.\n\nThis issue affects DBIx::Class::EncodedColumn until 0.00032.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-338"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-26T11:15:38Z"

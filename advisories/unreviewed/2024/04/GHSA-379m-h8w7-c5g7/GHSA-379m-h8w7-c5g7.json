@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-379m-h8w7-c5g7",
-  "modified": "2024-04-12T06:33:24Z",
+  "modified": "2025-03-26T21:31:00Z",
   "published": "2024-04-12T06:33:24Z",
   "aliases": [
     "CVE-2023-44852"
   ],
   "details": "Cross Site Scripting (XSS) vulnerability in Cobham SAILOR VSAT Ku v.164B019, allows a remote attacker to execute arbitrary code via a crafted script to the c_set_traps_decode function in the acu_web file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-12T04:15:08Z"

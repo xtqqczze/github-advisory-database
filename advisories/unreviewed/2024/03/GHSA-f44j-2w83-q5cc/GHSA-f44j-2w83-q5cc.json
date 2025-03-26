@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f44j-2w83-q5cc",
-  "modified": "2024-03-15T18:30:38Z",
+  "modified": "2025-03-26T21:30:57Z",
   "published": "2024-03-15T18:30:38Z",
   "aliases": [
     "CVE-2023-7007"
   ],
   "details": "Sciener server does not validate connection requests from the GatewayG2, allowing an impersonation attack that provides the attacker the unlockKey field.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-15T17:15:07Z"

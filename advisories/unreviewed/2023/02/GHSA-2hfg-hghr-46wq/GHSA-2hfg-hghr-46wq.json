@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hfg-hghr-46wq",
-  "modified": "2023-02-15T00:30:36Z",
+  "modified": "2025-03-26T21:30:50Z",
   "published": "2023-02-07T00:30:24Z",
   "aliases": [
     "CVE-2022-46496"
