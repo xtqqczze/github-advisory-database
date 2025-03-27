@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x237-489c-52j2",
-  "modified": "2025-03-26T21:31:07Z",
+  "modified": "2025-03-27T00:31:48Z",
   "published": "2025-03-26T21:31:07Z",
   "aliases": [
     "CVE-2025-2787"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.knime.com/security-advisory-cve-2025-2787"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.knime.com/security/advisories"
     }
   ],
   "database_specific": {
