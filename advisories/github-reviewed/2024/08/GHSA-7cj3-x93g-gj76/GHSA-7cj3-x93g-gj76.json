@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cj3-x93g-gj76",
-  "modified": "2025-01-17T21:31:39Z",
+  "modified": "2025-03-27T23:38:50Z",
   "published": "2024-08-23T09:30:35Z",
   "aliases": [
     "CVE-2024-38807"
@@ -260,6 +260,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-290",
       "CWE-347"
     ],
     "severity": "HIGH",
