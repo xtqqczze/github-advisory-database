@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6phg-4wmq-h5h3",
-  "modified": "2025-03-26T17:13:08Z",
+  "modified": "2025-03-27T03:42:27Z",
   "published": "2025-03-26T17:13:08Z",
   "aliases": [
     "CVE-2025-30217"
@@ -60,6 +60,10 @@
       "url": "https://github.com/frappe/frappe/security/advisories/GHSA-6phg-4wmq-h5h3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30217"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/frappe/frappe"
     }
@@ -71,6 +75,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-26T17:13:08Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-26T17:15:26Z"
   }
 }

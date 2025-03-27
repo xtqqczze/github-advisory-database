@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv78-qqrq-73m5",
-  "modified": "2025-03-26T17:20:05Z",
+  "modified": "2025-03-27T03:42:04Z",
   "published": "2025-03-26T17:20:05Z",
   "aliases": [
     "CVE-2025-30350"
@@ -60,6 +60,10 @@
       "url": "https://github.com/directus/directus/security/advisories/GHSA-rv78-qqrq-73m5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30350"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/directus/directus"
     }
@@ -71,6 +75,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-03-26T17:20:05Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-03-26T17:15:27Z"
   }
 }
