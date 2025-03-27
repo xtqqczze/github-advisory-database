@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6276-35wc-6mcx",
-  "modified": "2024-03-15T03:30:52Z",
+  "modified": "2025-03-27T21:31:02Z",
   "published": "2024-03-15T03:30:52Z",
   "aliases": [
     "CVE-2024-26454"
   ],
   "details": "A Cross Site Scripting vulnerability in Healthcare-Chatbot through 9b7058a can occur via a crafted payload to the email1 or pwd1 parameter in login.php.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-15T01:15:58Z"

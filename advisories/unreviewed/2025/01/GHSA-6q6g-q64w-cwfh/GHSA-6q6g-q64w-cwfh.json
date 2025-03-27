@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q6g-q64w-cwfh",
-  "modified": "2025-01-28T06:30:40Z",
+  "modified": "2025-03-27T21:31:19Z",
   "published": "2025-01-28T06:30:40Z",
   "aliases": [
     "CVE-2024-0149"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5614"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/03/27/7"
     }
   ],
   "database_specific": {

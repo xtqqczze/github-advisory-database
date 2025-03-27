@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw3g-jr7f-3gg4",
-  "modified": "2024-06-27T12:30:45Z",
+  "modified": "2025-03-27T21:31:06Z",
   "published": "2024-04-10T15:30:40Z",
   "aliases": [
     "CVE-2024-26816"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nx86, relocs: Ignore relocations in .notes section\n\nWhen building with CONFIG_XEN_PV=y, .text symbols are emitted into\nthe .notes section so that Xen can find the \"startup_xen\" entry point.\nThis information is used prior to booting the kernel, so relocations\nare not useful. In fact, performing relocations against the .notes\nsection means that the KASLR base is exposed since /sys/kernel/notes\nis world-readable.\n\nTo avoid leaking the KASLR base without breaking unprivileged tools that\nare expecting to read /sys/kernel/notes, skip performing relocations in\nthe .notes section. The values readable in .notes are then identical to\nthose found in System.map.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-770"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-10T14:15:07Z"

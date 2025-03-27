@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p44-rc6w-2rvw",
-  "modified": "2024-06-04T06:30:36Z",
+  "modified": "2025-03-27T21:31:15Z",
   "published": "2024-06-04T06:30:36Z",
   "aliases": [
     "CVE-2024-0757"
   ],
   "details": "The Insert or Embed Articulate Content into WordPress plugin through 4.3000000023 is not properly filtering which file extensions are allowed to be imported on the server, allowing the uploading of malicious code within zip files",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-434"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-06-04T06:15:08Z"

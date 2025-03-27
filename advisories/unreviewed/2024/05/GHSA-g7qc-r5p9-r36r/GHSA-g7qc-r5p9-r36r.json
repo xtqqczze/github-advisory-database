@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7qc-r5p9-r36r",
-  "modified": "2024-05-16T15:31:37Z",
+  "modified": "2025-03-27T21:31:14Z",
   "published": "2024-05-16T15:31:37Z",
   "aliases": [
     "CVE-2024-31142"
   ],
-  "details": "Because of a logical error in XSA-407 (Branch Type Confusion), the\nmitigation is not applied properly when it is intended to be used.\nXSA-434 (Speculative Return Stack Overflow) uses the same\ninfrastructure, so is equally impacted.\n\nFor more details, see:\n  https://xenbits.xen.org/xsa/advisory-407.html\n  https://xenbits.xen.org/xsa/advisory-434.html\n",
-  "severity": [],
+  "details": "Because of a logical error in XSA-407 (Branch Type Confusion), the\nmitigation is not applied properly when it is intended to be used.\nXSA-434 (Speculative Return Stack Overflow) uses the same\ninfrastructure, so is equally impacted.\n\nFor more details, see:\n  https://xenbits.xen.org/xsa/advisory-407.html\n  https://xenbits.xen.org/xsa/advisory-434.html",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-693"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-16T14:15:08Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r2r-xpfw-pmxc",
-  "modified": "2024-06-27T12:30:45Z",
+  "modified": "2025-03-27T21:31:09Z",
   "published": "2024-04-17T12:32:02Z",
   "aliases": [
     "CVE-2024-26825"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfc: nci: free rx_data_reassembly skb on NCI device cleanup\n\nrx_data_reassembly skb is stored during NCI data exchange for processing\nfragmented packets. It is dropped only when the last fragment is processed\nor when an NTF packet with NCI_OP_RF_DEACTIVATE_NTF opcode is received.\nHowever, the NCI device may be deallocated before that which leads to skb\nleak.\n\nAs by design the rx_data_reassembly skb is bound to the NCI device and\nnothing prevents the device to be freed before the skb is processed in\nsome way and cleaned, free it on the NCI device cleanup.\n\nFound by Linux Verification Center (linuxtesting.org) with Syzkaller.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -56,8 +61,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-459"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-17T10:15:09Z"

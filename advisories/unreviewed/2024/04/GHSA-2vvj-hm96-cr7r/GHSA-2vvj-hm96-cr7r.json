@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vvj-hm96-cr7r",
-  "modified": "2024-06-27T12:30:45Z",
+  "modified": "2025-03-27T21:31:08Z",
   "published": "2024-04-17T12:32:02Z",
   "aliases": [
     "CVE-2024-26820"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nhv_netvsc: Register VF in netvsc_probe if NET_DEVICE_REGISTER missed\n\nIf hv_netvsc driver is unloaded and reloaded, the NET_DEVICE_REGISTER\nhandler cannot perform VF register successfully as the register call\nis received before netvsc_probe is finished. This is because we\nregister register_netdevice_notifier() very early( even before\nvmbus_driver_register()).\nTo fix this, we try to register each such matching VF( if it is visible\nas a netdevice) at the end of netvsc_probe.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -57,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-17T10:15:08Z"

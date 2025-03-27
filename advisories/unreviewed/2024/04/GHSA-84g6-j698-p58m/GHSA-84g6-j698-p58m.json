@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84g6-j698-p58m",
-  "modified": "2024-04-10T21:30:31Z",
+  "modified": "2025-03-27T21:31:08Z",
   "published": "2024-04-10T21:30:31Z",
   "aliases": [
     "CVE-2021-47203"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: lpfc: Fix list_add() corruption in lpfc_drain_txq()\n\nWhen parsing the txq list in lpfc_drain_txq(), the driver attempts to pass\nthe requests to the adapter. If such an attempt fails, a local \"fail_msg\"\nstring is set and a log message output.  The job is then added to a\ncompletions list for cancellation.\n\nProcessing of any further jobs from the txq list continues, but since\n\"fail_msg\" remains set, jobs are added to the completions list regardless\nof whether a wqe was passed to the adapter.  If successfully added to\ntxcmplq, jobs are added to both lists resulting in list corruption.\n\nFix by clearing the fail_msg string after adding a job to the completions\nlist. This stops the subsequent jobs from being added to the completions\nlist unless they had an appropriate failure.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-10T19:15:48Z"

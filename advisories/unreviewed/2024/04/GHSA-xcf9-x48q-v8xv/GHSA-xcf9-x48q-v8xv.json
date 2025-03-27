@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcf9-x48q-v8xv",
-  "modified": "2024-04-17T12:32:02Z",
+  "modified": "2025-03-27T21:31:09Z",
   "published": "2024-04-17T12:32:02Z",
   "aliases": [
     "CVE-2024-26823"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nirqchip/gic-v3-its: Restore quirk probing for ACPI-based systems\n\nWhile refactoring the way the ITSs are probed, the handling of quirks\napplicable to ACPI-based platforms was lost. As a result, systems such as\nHIP07 lose their GICv4 functionnality, and some other may even fail to\nboot, unless they are configured to boot with DT.\n\nMove the enabling of quirks into its_probe_one(), making it common to all\nfirmware implementations.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-17T10:15:09Z"

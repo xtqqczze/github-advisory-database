@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfmv-h3cf-mr72",
-  "modified": "2024-05-08T06:30:48Z",
+  "modified": "2025-03-27T21:31:13Z",
   "published": "2024-05-08T06:30:48Z",
   "aliases": [
     "CVE-2024-22264"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-269"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

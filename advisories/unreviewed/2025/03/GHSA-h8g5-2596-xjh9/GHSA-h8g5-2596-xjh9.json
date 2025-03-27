@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8g5-2596-xjh9",
-  "modified": "2025-03-27T15:31:10Z",
+  "modified": "2025-03-27T21:31:20Z",
   "published": "2025-03-27T15:31:10Z",
   "aliases": [
     "CVE-2025-2857"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://issues.chromium.org/issues/405143032"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-2783"
     },
     {
       "type": "WEB",

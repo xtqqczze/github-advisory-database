@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66fh-rmm8-p9q4",
-  "modified": "2024-04-10T21:30:32Z",
+  "modified": "2025-03-27T21:31:08Z",
   "published": "2024-04-10T21:30:32Z",
   "aliases": [
     "CVE-2021-47215"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/mlx5e: kTLS, Fix crash in RX resync flow\n\nFor the TLS RX resync flow, we maintain a list of TLS contexts\nthat require some attention, to communicate their resync information\nto the HW.\nHere we fix list corruptions, by protecting the entries against\nmovements coming from resync_handle_seq_match(), until their resync\nhandling in napi is fully completed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-10T19:15:48Z"
