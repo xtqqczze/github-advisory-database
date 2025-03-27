@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4qh-8pxw-r48q",
-  "modified": "2024-02-27T21:48:36Z",
+  "modified": "2025-03-27T18:39:29Z",
   "published": "2024-02-27T18:31:01Z",
   "aliases": [
     "CVE-2024-25399"
   ],
   "summary": "Subrion CMS vulnerable to Cross Site Scripting ",
   "details": "Subrion CMS 4.2.1 is vulnerable to Cross Site Scripting (XSS) via adminer.php.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -45,7 +50,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2024-02-27T21:48:36Z",
