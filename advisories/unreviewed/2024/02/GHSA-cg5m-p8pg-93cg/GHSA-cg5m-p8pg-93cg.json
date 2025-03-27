@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg5m-p8pg-93cg",
-  "modified": "2024-02-26T18:30:29Z",
+  "modified": "2025-03-27T12:30:34Z",
   "published": "2024-02-26T18:30:29Z",
   "aliases": [
     "CVE-2024-0436"
   ],
-  "details": "Theoretically, it would be possible for an attacker to brute-force the password for an instance in single-user password protection mode via a timing attack given the linear nature of the `!==` used for comparison.\n\nThe risk is minified by the additional overhead of the request, which varies in a non-constant nature making the attack less reliable to execute ",
+  "details": "Theoretically, it would be possible for an attacker to brute-force the password for an instance in single-user password protection mode via a timing attack given the linear nature of the `!==` used for comparison.\n\nThe risk is minified by the additional overhead of the request, which varies in a non-constant nature making the attack less reliable to execute",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-203",
       "CWE-764"
     ],
     "severity": "HIGH",
