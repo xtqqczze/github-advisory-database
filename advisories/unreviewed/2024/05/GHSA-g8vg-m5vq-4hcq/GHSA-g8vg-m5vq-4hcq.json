@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8vg-m5vq-4hcq",
-  "modified": "2024-05-16T06:30:51Z",
+  "modified": "2025-03-27T18:30:40Z",
   "published": "2024-05-16T06:30:50Z",
   "aliases": [
     "CVE-2024-3642"
   ],
   "details": "The Newsletter Popup WordPress plugin through 1.2 does not have CSRF check when deleting subscriber, which could allow attackers to make logged in admins perform such action via a CSRF attack",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-16T06:15:09Z"

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gmm6-5vw5-42h2",
+  "modified": "2025-03-27T18:31:23Z",
+  "published": "2025-03-27T18:31:23Z",
+  "aliases": [
+    "CVE-2025-28138"
+  ],
+  "details": "TOTOLINK A800R V4.1.2cu.5137_B20200730 contains a remote command execution vulnerability in the setNoticeCfg function through the NoticeUrl parameter.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-28138"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sudsy-eyeliner-a59.notion.site/RCE2-1ac72b8cd95f8055a76ee0ca262aac1a?pvs=4"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-27T16:15:30Z"
+  }
+}

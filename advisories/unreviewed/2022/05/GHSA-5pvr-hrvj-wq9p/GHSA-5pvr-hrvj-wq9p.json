@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pvr-hrvj-wq9p",
-  "modified": "2022-05-02T00:02:26Z",
+  "modified": "2025-03-27T18:30:35Z",
   "published": "2022-05-02T00:02:26Z",
   "aliases": [
     "CVE-2008-3652"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2008-3652"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=501026"
     },
     {
       "type": "WEB",

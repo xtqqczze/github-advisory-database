@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79fj-qcrm-4368",
-  "modified": "2024-07-03T18:38:46Z",
+  "modified": "2025-03-27T18:30:39Z",
   "published": "2024-05-03T15:30:54Z",
   "aliases": [
     "CVE-2024-1395"
   ],
-  "details": "Use After Free vulnerability in Arm Ltd Arm 5th Gen GPU Architecture Kernel Driver allows a local non-privileged user to make improper GPU memory processing operations. If the system’s memory is carefully prepared by the user, then this in turn could give them access to already freed memory.\nThis issue affects Arm 5th Gen GPU Architecture Kernel Driver: from r41p0 through r47p0.\n\n",
+  "details": "Use After Free vulnerability in Arm Ltd Arm 5th Gen GPU Architecture Kernel Driver allows a local non-privileged user to make improper GPU memory processing operations. If the system’s memory is carefully prepared by the user, then this in turn could give them access to already freed memory.\nThis issue affects Arm 5th Gen GPU Architecture Kernel Driver: from r41p0 through r47p0.",
   "severity": [
     {
       "type": "CVSS_V3",

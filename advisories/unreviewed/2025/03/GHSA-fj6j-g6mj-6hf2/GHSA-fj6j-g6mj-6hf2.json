@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fj6j-g6mj-6hf2",
+  "modified": "2025-03-27T18:31:25Z",
+  "published": "2025-03-27T18:31:25Z",
+  "aliases": [
+    "CVE-2023-52931"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915: Avoid potential vm use-after-free\n\nAdding the vm to the vm_xa table makes it visible to userspace, which\ncould try to race with us to close the vm.  So we need to take our extra\nreference before putting it in the table.\n\n(cherry picked from commit 99343c46d4e2b34c285d3d5f68ff04274c2f9fb4)",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52931"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/41d419382ec7e257e54b7b6ff0d3623aafb1316d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/764accc2c1b8fd1507be2e7f436c94cdce887a00"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-27T17:15:42Z"
+  }
+}

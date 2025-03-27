@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vrc-835p-5x34",
-  "modified": "2024-12-21T12:30:39Z",
+  "modified": "2025-03-27T18:30:45Z",
   "published": "2024-12-21T12:30:39Z",
   "aliases": [
     "CVE-2024-10453"
