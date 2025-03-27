@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2f9-w3c5-x385",
-  "modified": "2022-05-02T03:35:02Z",
+  "modified": "2025-03-27T15:30:34Z",
   "published": "2022-05-02T03:35:02Z",
   "aliases": [
     "CVE-2009-2409"
@@ -164,7 +164,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-295"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

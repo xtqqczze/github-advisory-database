@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57f3-xqmx-39gv",
-  "modified": "2024-02-28T00:31:55Z",
+  "modified": "2025-03-27T15:30:53Z",
   "published": "2024-02-28T00:31:55Z",
   "aliases": [
     "CVE-2024-26300"
   ],
-  "details": "A vulnerability in the guest interface of ClearPass Policy Manager could allow an authenticated remote attacker to conduct a stored cross-site scripting (XSS) attack against an administrative user of the interface. A successful exploit allows an attacker to execute arbitrary script code in a victim's browser in the context of the affected interface.\n\n",
+  "details": "A vulnerability in the guest interface of ClearPass Policy Manager could allow an authenticated remote attacker to conduct a stored cross-site scripting (XSS) attack against an administrative user of the interface. A successful exploit allows an attacker to execute arbitrary script code in a victim's browser in the context of the affected interface.",
   "severity": [
     {
       "type": "CVSS_V3",
