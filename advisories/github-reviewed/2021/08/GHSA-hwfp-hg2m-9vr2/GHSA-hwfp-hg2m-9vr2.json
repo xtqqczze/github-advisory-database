@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwfp-hg2m-9vr2",
-  "modified": "2024-10-25T21:15:39Z",
+  "modified": "2025-03-27T17:43:16Z",
   "published": "2021-08-09T20:43:44Z",
   "aliases": [
     "CVE-2021-32559"

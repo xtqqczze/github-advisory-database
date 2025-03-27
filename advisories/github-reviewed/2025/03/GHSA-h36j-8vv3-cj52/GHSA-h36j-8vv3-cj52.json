@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h36j-8vv3-cj52",
-  "modified": "2025-03-21T21:16:01Z",
+  "modified": "2025-03-27T17:41:58Z",
   "published": "2025-03-20T12:32:46Z",
   "aliases": [
     "CVE-2024-7776"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/onnx/onnx"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/onnx/PYSEC-2025-10.yaml"
     },
     {
       "type": "WEB",
