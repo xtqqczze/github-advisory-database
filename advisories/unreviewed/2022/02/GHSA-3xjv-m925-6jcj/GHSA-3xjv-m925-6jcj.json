@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xjv-m925-6jcj",
-  "modified": "2024-07-16T18:31:41Z",
+  "modified": "2025-03-28T15:31:42Z",
   "published": "2022-02-17T00:00:27Z",
   "aliases": [
     "CVE-2021-3773"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://citizenlab.ca/2024/07/vulnerabilities-in-vpns-paper-presented-at-the-privacy-enhancing-technologies-symposium-2024"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250328-0004"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f82v-jwr5-mffw",
-  "modified": "2025-03-24T14:40:22Z",
+  "modified": "2025-03-28T15:31:53Z",
   "published": "2025-03-21T15:20:12Z",
   "aliases": [
     "CVE-2025-29927"
@@ -120,6 +120,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/vercel/next.js/releases/tag/v13.5.9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250328-0002"
     },
     {
       "type": "WEB",

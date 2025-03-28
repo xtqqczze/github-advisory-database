@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hcv-xw76-m4h6",
-  "modified": "2025-03-17T18:31:52Z",
+  "modified": "2025-03-28T15:31:50Z",
   "published": "2025-03-14T09:34:06Z",
   "aliases": [
     "CVE-2024-8176"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://security-tracker.debian.org/tracker/CVE-2024-8176"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250328-0009"
     },
     {
       "type": "WEB",

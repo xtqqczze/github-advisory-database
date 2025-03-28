@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37xw-rpjg-xxfx",
-  "modified": "2024-05-14T18:30:54Z",
+  "modified": "2025-03-28T15:31:50Z",
   "published": "2024-05-14T18:30:54Z",
   "aliases": [
     "CVE-2024-4317"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-4317"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250328-0001"
     },
     {
       "type": "WEB",

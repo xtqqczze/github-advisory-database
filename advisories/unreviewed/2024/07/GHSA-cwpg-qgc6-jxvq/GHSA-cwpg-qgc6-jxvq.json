@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwpg-qgc6-jxvq",
-  "modified": "2024-08-21T15:30:49Z",
+  "modified": "2025-03-28T15:31:50Z",
   "published": "2024-07-02T21:32:16Z",
   "aliases": [
     "CVE-2023-24531"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://pkg.go.dev/vuln/GO-2024-2962"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250328-0005"
     }
   ],
   "database_specific": {

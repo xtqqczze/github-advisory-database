@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m366-8h8r-6fqr",
-  "modified": "2025-02-19T00:31:16Z",
+  "modified": "2025-03-28T15:31:50Z",
   "published": "2025-02-19T00:31:16Z",
   "aliases": [
     "CVE-2024-56171"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/libxml2/-/issues/828"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250328-0010"
     }
   ],
   "database_specific": {
