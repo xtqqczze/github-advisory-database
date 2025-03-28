@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vq7-8vvf-w66v",
-  "modified": "2024-05-03T03:31:04Z",
+  "modified": "2025-03-28T12:31:34Z",
   "published": "2024-05-03T03:31:04Z",
   "aliases": [
     "CVE-2023-42118"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.zerodayinitiative.com/advisories/ZDI-23-1472"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/03/28/1"
     }
   ],
   "database_specific": {
