@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-963m-mgxp-cg5w",
-  "modified": "2024-04-29T18:30:44Z",
+  "modified": "2025-03-28T21:30:40Z",
   "published": "2024-04-29T18:30:44Z",
   "aliases": [
     "CVE-2023-46270"
   ],
   "details": "MacPaw The Unarchiver before 4.3.6 contains vulnerability related to missing quarantine attributes for extracted items.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-276"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-29T16:15:34Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpfc-m8w6-m9gf",
-  "modified": "2025-03-15T06:30:33Z",
+  "modified": "2025-03-28T21:30:45Z",
   "published": "2025-03-15T06:30:33Z",
   "aliases": [
     "CVE-2025-1670"

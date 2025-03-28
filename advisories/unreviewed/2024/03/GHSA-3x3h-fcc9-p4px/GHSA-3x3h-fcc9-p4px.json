@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3x3h-fcc9-p4px",
-  "modified": "2024-03-28T15:30:33Z",
+  "modified": "2025-03-28T21:30:37Z",
   "published": "2024-03-28T15:30:33Z",
   "aliases": [
     "CVE-2023-45705"
   ],
-  "details": "An administrative user of WebReports may perform a Server Side Request Forgery (SSRF) exploit through SMTP configuration options.\n",
+  "details": "An administrative user of WebReports may perform a Server Side Request Forgery (SSRF) exploit through SMTP configuration options.",
   "severity": [
     {
       "type": "CVSS_V3",

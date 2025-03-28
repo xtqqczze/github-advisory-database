@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fg3-793p-9qxp",
-  "modified": "2024-04-03T15:30:41Z",
+  "modified": "2025-03-28T21:30:38Z",
   "published": "2024-04-03T15:30:41Z",
   "aliases": [
     "CVE-2024-30571"
   ],
   "details": "An information leak in the BRS_top.html component of Netgear R6850 v1.1.0.88 allows attackers to obtain sensitive information without any authentication required.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-03T13:16:02Z"

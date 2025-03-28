@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwmq-47hw-c7vw",
-  "modified": "2024-03-29T00:30:34Z",
+  "modified": "2025-03-28T21:30:38Z",
   "published": "2024-03-29T00:30:34Z",
   "aliases": [
     "CVE-2023-33528"
   ],
   "details": "halo v1.6.0 is vulnerable to Cross Site Scripting (XSS).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-03-28T23:15:46Z"
