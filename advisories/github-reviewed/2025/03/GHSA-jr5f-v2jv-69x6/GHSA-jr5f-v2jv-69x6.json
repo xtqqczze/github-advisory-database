@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jr5f-v2jv-69x6",
-  "modified": "2025-03-07T19:16:39Z",
+  "modified": "2025-03-28T14:57:51Z",
   "published": "2025-03-07T15:16:00Z",
   "aliases": [
     "CVE-2025-27152"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.0.0"
             },
             {
               "fixed": "1.8.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "axios"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.30.0"
             }
           ]
         }
@@ -47,6 +66,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/axios/axios/issues/6463"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/axios/axios/pull/6829"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/axios/axios/commit/02c3c69ced0f8fd86407c23203835892313d7fde"
     },
     {
       "type": "WEB",
