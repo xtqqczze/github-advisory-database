@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qjrx-78jp-x72f",
-  "modified": "2024-08-01T15:31:34Z",
+  "modified": "2025-03-28T09:30:29Z",
   "published": "2024-03-25T06:30:23Z",
   "aliases": [
     "CVE-2024-28041"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/vu/JVNVU93546510"
+    },
+    {
+      "type": "WEB",
+      "url": "https://kddi-tech.com/contents/appendix_L2_06.html#20304f4c-af1b-49fd-c3b5-8d1f55fd8b4f"
     },
     {
       "type": "WEB",

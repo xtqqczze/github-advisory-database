@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jm2-4r4f-748v",
-  "modified": "2024-11-04T15:31:53Z",
+  "modified": "2025-03-28T09:30:30Z",
   "published": "2024-03-25T06:30:23Z",
   "aliases": [
     "CVE-2024-29071"
@@ -25,11 +25,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://kddi-tech.com/contents/appendix_L2_06.html#20304f4c-af1b-49fd-c3b5-8d1f55fd8b4f"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.au.com/support/service/internet/guide/modem/bl1500hm/firmware"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1391",
       "CWE-522"
     ],
     "severity": "HIGH",
