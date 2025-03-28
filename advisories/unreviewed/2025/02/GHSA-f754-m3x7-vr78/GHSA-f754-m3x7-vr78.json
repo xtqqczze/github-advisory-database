@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f754-m3x7-vr78",
-  "modified": "2025-02-26T00:32:20Z",
+  "modified": "2025-03-28T18:33:05Z",
   "published": "2025-02-26T00:32:20Z",
   "aliases": [
     "CVE-2025-25515"
   ],
   "details": "Seacms <=13.3 is vulnerable to SQL Injection in admin_collect.php that allows an authenticated attacker to exploit the database.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-02-25T22:15:23Z"

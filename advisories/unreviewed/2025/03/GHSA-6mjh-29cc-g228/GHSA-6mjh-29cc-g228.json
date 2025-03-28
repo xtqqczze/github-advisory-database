@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mjh-29cc-g228",
-  "modified": "2025-03-27T15:31:13Z",
+  "modified": "2025-03-28T18:33:11Z",
   "published": "2025-03-27T15:31:13Z",
   "aliases": [
     "CVE-2025-29491"
   ],
   "details": "An allocation-size-too-big error in the parseSWF_DEFINEBINARYDATA function of libming v0.48 allows attackers to cause a Denial of Service (DoS) via supplying a crafted SWF file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-789"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T15:16:00Z"

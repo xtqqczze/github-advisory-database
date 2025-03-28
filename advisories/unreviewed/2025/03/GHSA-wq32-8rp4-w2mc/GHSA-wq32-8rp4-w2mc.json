@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq32-8rp4-w2mc",
-  "modified": "2025-03-27T18:31:23Z",
+  "modified": "2025-03-28T18:33:11Z",
   "published": "2025-03-27T18:31:23Z",
   "aliases": [
     "CVE-2025-29072"
   ],
   "details": "An integer overflow in Nethermind Juno before v.12.05 within the Sierra bytecode decompression logic within the \"cairo-lang-starknet-classes\" library could allow remote attackers to trigger an infinite loop (and high CPU usage) by submitting a malicious Declare v2/v3 transaction. This results in a denial-of-service condition for affected Starknet full-node implementations.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T16:15:30Z"

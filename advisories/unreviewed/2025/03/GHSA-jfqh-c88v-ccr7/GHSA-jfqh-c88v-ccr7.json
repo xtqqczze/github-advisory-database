@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfqh-c88v-ccr7",
-  "modified": "2025-03-28T00:31:29Z",
+  "modified": "2025-03-28T18:33:24Z",
   "published": "2025-03-28T00:31:29Z",
   "aliases": [
     "CVE-2025-28253"
   ],
   "details": "Cross-Site Scripting (XSS) vulnerability in MainWP MainWP Dashboard v5.3.4 exists in class/class-mainwp-post-handler.php, where unsanitized user input from $_POST['sites'], $_POST['clients'], and $_POST['search'] is passed into the MainWP_User::render_table function. Despite using sanitize_text_field and wp_unslash, the values are not adequately protected against HTML or script injection. This flaw could allow an attacker to inject malicious scripts.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T23:15:34Z"

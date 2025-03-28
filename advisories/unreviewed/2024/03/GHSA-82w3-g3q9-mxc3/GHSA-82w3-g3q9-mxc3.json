@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82w3-g3q9-mxc3",
-  "modified": "2024-08-03T21:30:33Z",
+  "modified": "2025-03-28T18:32:49Z",
   "published": "2024-03-05T15:32:41Z",
   "aliases": [
     "CVE-2024-27623"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/capture0x/CMSMadeSimple2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/pwning-cmsms-via-user-defined-tags-for-fun-and-learning-cve-2024-27622-27623"
     }
   ],
   "database_specific": {

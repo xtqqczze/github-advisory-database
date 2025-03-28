@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwxf-vp8f-f327",
-  "modified": "2025-03-27T15:31:11Z",
+  "modified": "2025-03-28T18:33:10Z",
   "published": "2025-03-27T15:31:11Z",
   "aliases": [
     "CVE-2025-21879"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbtrfs: fix use-after-free on inode when scanning root during em shrinking\n\nAt btrfs_scan_root() we are accessing the inode's root (and fs_info) in a\ncall to btrfs_fs_closing() after we have scheduled the inode for a delayed\niput, and that can result in a use-after-free on the inode in case the\ncleaner kthread does the iput before we dereference the inode in the call\nto btrfs_fs_closing().\n\nFix this by using the fs_info stored already in a local variable instead\nof doing inode->root->fs_info.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T15:15:55Z"
