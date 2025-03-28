@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cq2v-6q97-jv69",
-  "modified": "2024-04-28T12:30:27Z",
+  "modified": "2025-03-28T00:31:28Z",
   "published": "2024-04-08T12:30:32Z",
   "aliases": [
     "CVE-2024-26811"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: validate payload size in ipc response\n\nIf installing malicious ksmbd-tools, ksmbd.mountd can return invalid ipc\nresponse to ksmbd kernel server. ksmbd should validate payload size of\nipc response from ksmbd.mountd to avoid memory overrun or\nslab-out-of-bounds. This patch validate 3 ipc response that has payload.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-08T10:15:08Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qq9f-q439-2574",
-  "modified": "2025-01-02T22:05:33Z",
+  "modified": "2025-03-28T00:31:28Z",
   "published": "2025-01-02T21:31:42Z",
   "aliases": [
     "CVE-2024-8447"
@@ -47,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/jbosstm/narayana/commit/eb778412de230afc4687a2df43641280494156c5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3357"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3358"
     },
     {
       "type": "WEB",

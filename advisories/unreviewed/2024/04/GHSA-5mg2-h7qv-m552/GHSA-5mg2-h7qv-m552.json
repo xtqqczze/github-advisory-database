@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mg2-h7qv-m552",
-  "modified": "2024-06-25T21:31:12Z",
+  "modified": "2025-03-28T00:31:28Z",
   "published": "2024-04-05T09:30:39Z",
   "aliases": [
     "CVE-2024-27437"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvfio/pci: Disable auto-enable of exclusive INTx IRQ\n\nCurrently for devices requiring masking at the irqchip for INTx, ie.\ndevices without DisINTx support, the IRQ is enabled in request_irq()\nand subsequently disabled as necessary to align with the masked status\nflag.  This presents a window where the interrupt could fire between\nthese events, resulting in the IRQ incrementing the disable depth twice.\nThis would be unrecoverable for a user since the masked flag prevents\nnested enables through vfio.\n\nInstead, invert the logic using IRQF_NO_AUTOEN such that exclusive INTx\nis never auto-enabled, then unmask as required.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -53,7 +58,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-05T09:15:09Z"
