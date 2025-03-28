@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfqj-w6r6-g86v",
-  "modified": "2025-03-27T18:01:18Z",
+  "modified": "2025-03-28T16:12:43Z",
   "published": "2025-03-27T18:01:18Z",
   "aliases": [
     "CVE-2025-30221"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/Shopify/pitchfork"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/pitchfork/CVE-2025-30221.yml"
     }
   ],
   "database_specific": {
