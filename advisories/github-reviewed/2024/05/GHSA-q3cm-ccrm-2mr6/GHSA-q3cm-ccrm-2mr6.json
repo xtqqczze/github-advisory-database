@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3cm-ccrm-2mr6",
-  "modified": "2024-06-04T16:00:03Z",
+  "modified": "2025-03-28T02:46:24Z",
   "published": "2024-05-31T21:30:55Z",
   "aliases": [
     "CVE-2024-34004"
   ],
   "summary": "Moodle Authenticated LFI risk in some misconfigured shared hosting environments",
   "details": "In a shared hosting environment that has been misconfigured to allow access to other users' content, a Moodle user with both access to restore wiki modules and direct access to the web server outside of the Moodle webroot could execute a local file include.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [
     {
       "package": {
