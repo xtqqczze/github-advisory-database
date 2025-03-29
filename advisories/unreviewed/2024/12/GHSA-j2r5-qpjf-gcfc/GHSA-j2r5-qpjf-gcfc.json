@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2r5-qpjf-gcfc",
-  "modified": "2025-03-06T15:34:38Z",
+  "modified": "2025-03-29T00:31:33Z",
   "published": "2024-12-27T15:31:52Z",
   "aliases": [
     "CVE-2024-53209"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3051a77a09dfe3022aa012071346937fdf059033"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7f306c651feab2f3689185f60b94e72b573255db"
     },
     {
       "type": "WEB",

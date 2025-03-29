@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh3p-6j2p-f5qv",
-  "modified": "2024-04-03T00:30:55Z",
+  "modified": "2025-03-29T00:31:30Z",
   "published": "2024-04-03T00:30:55Z",
   "aliases": [
     "CVE-2024-29434"
   ],
   "details": "An issue in the system image upload interface of Alldata v0.4.6 allows attackers to execute a directory traversal when uploading a file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-02T22:15:09Z"

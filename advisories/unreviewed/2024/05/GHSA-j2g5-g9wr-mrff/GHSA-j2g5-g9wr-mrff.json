@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2g5-g9wr-mrff",
-  "modified": "2024-12-30T18:30:40Z",
+  "modified": "2025-03-29T00:31:31Z",
   "published": "2024-05-19T09:34:46Z",
   "aliases": [
     "CVE-2024-35866"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/58acd1f497162e7d282077f816faa519487be045"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f4a60d360d9114b5085701a3702a0102b0d6d846"
     }
   ],
   "database_specific": {
