@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj9f-gcwh-7q49",
-  "modified": "2024-04-04T04:55:30Z",
+  "modified": "2025-03-30T03:30:33Z",
   "published": "2023-06-16T21:30:27Z",
   "aliases": [
     "CVE-2023-35789"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/alanxz/rabbitmq-c/pull/781"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/03/msg00022.html"
     }
   ],
   "database_specific": {
