@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq2v-cc3g-cmw3",
-  "modified": "2025-03-25T15:31:22Z",
+  "modified": "2025-03-30T21:30:27Z",
   "published": "2025-03-23T15:30:33Z",
   "aliases": [
     "CVE-2025-0927"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://ubuntu.com/security/notices/USN-7276-1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kernel.org"
     }
   ],
   "database_specific": {
