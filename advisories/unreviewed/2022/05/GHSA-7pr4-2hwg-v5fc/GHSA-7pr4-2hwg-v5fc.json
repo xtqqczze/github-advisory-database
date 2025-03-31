@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pr4-2hwg-v5fc",
-  "modified": "2022-05-17T05:22:35Z",
+  "modified": "2025-03-31T12:30:31Z",
   "published": "2022-05-17T05:22:35Z",
   "aliases": [
     "CVE-2012-4390"

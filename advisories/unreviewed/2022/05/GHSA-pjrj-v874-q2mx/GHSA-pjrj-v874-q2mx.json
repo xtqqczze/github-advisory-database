@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjrj-v874-q2mx",
-  "modified": "2022-05-17T01:39:17Z",
+  "modified": "2025-03-31T12:30:33Z",
   "published": "2022-05-17T01:39:17Z",
   "aliases": [
     "CVE-2012-5665"
