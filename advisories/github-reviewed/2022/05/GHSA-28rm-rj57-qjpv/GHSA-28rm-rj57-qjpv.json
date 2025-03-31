@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-28rm-rj57-qjpv",
-  "modified": "2023-09-25T14:11:44Z",
+  "modified": "2025-03-31T13:40:04Z",
   "published": "2022-05-17T04:42:46Z",
   "aliases": [
     "CVE-2014-2054"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/PHPOffice/PHPExcel/blob/2b601574975acfb9d4378a788ed5f2b747958095/changelog.txt#L120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/PHPOffice/PHPExcel/blob/develop/changelog.txt"
     },
     {
       "type": "WEB",
