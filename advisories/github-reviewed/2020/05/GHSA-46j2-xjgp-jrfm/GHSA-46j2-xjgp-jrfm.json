@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46j2-xjgp-jrfm",
-  "modified": "2023-01-23T20:28:50Z",
+  "modified": "2025-03-31T17:22:29Z",
   "published": "2020-05-21T21:09:38Z",
   "aliases": [
     "CVE-2020-8151"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.0.rc"
             },
             {
               "fixed": "5.1.1"
@@ -43,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rails/activeresource/commit/0de18f7e96fa90bbf23b16ac11980bc2cb6a716e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rails/rails/commit/0e969bdaf8ff2e3384350687aa0b583f94d6dfbc"
     },
     {
       "type": "PACKAGE",
