@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f32c-w444-8ppv",
-  "modified": "2024-10-09T01:13:56Z",
+  "modified": "2025-03-31T13:32:05Z",
   "published": "2024-10-08T20:24:56Z",
   "aliases": [
     "CVE-2024-43484"
@@ -110,6 +110,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43484"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250328-0007"
     }
   ],
   "database_specific": {
