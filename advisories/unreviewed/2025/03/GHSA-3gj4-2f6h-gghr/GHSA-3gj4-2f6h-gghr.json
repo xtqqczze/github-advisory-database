@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3gj4-2f6h-gghr",
+  "modified": "2025-03-31T21:32:50Z",
+  "published": "2025-03-31T21:32:50Z",
+  "aliases": [
+    "CVE-2024-54804"
+  ],
+  "details": "Netgear WNR854T 1.5.2 (North America) is vulnerable to Command Injection. An attacker can send a specially crafted request to post.cgi, updating the nvram parameter wan_hostname and forcing a reboot. This will result in command injection.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-54804"
+    },
+    {
+      "type": "WEB",
+      "url": "https://faultpoint.com/post/2025-03-25-8-cves-on-the-wnr854t-junkyard/#804"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-31T21:15:47Z"
+  }
+}

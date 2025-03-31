@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8gg5-pvcf-9jwc",
-  "modified": "2023-02-08T21:30:21Z",
+  "modified": "2025-03-31T21:32:40Z",
   "published": "2023-01-27T00:30:19Z",
   "aliases": [
     "CVE-2022-45770"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Marsel-marsel/CVE-2022-45770"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmag.com/security/aguard-cve"
     },
     {
       "type": "WEB",

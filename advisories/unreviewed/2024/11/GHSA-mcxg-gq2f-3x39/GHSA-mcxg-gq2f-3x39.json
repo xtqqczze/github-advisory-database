@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcxg-gq2f-3x39",
-  "modified": "2024-11-16T00:31:50Z",
+  "modified": "2025-03-31T21:32:44Z",
   "published": "2024-11-15T21:30:47Z",
   "aliases": [
     "CVE-2024-24458"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cellularsecurity.org/ransacked"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw04780en_us&docLocale=en_US"
     },
     {
       "type": "WEB",
