@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p73x-rpgm-3v56",
-  "modified": "2024-04-03T18:04:19Z",
+  "modified": "2025-03-31T13:35:17Z",
   "published": "2024-04-03T12:31:06Z",
   "aliases": [
     "CVE-2024-29477"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/alexbsec/CVEs/blob/master/2024/CVE-2024-29477.md"
+    },
+    {
+      "type": "WEB",
+      "url": "http://dolibarr.com"
     }
   ],
   "database_specific": {

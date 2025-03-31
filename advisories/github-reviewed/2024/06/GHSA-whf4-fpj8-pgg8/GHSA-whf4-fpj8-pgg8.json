@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whf4-fpj8-pgg8",
-  "modified": "2024-09-16T16:54:09Z",
+  "modified": "2025-03-31T13:36:20Z",
   "published": "2024-06-07T21:31:54Z",
   "aliases": [
     "CVE-2024-36827"
