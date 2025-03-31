@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqf5-2xx6-9wfm",
-  "modified": "2025-01-24T18:44:55Z",
+  "modified": "2025-03-31T21:55:42Z",
   "published": "2025-01-24T18:44:55Z",
   "aliases": [
     "CVE-2025-24362"
@@ -89,6 +89,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/github/codeql-action"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=43527044"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.praetorian.com/blog/codeqleaked-public-secrets-exposure-leads-to-supply-chain-attack-on-github-codeql"
     }
   ],
   "database_specific": {
