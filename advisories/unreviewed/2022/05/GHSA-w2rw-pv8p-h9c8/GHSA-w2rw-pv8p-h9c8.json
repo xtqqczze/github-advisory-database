@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2rw-pv8p-h9c8",
-  "modified": "2022-05-13T01:05:08Z",
+  "modified": "2025-03-31T15:30:38Z",
   "published": "2022-05-13T01:05:08Z",
   "aliases": [
     "CVE-2016-2183"
@@ -25,7 +25,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.teskalabs.com/blog/teskalabs-bulletin-160826-seacat-sweet32-issue"
+      "url": "https://support.f5.com/csp/article/K13167034"
+    },
+    {
+      "type": "WEB",
+      "url": "https://softwaresupport.softwaregrp.com/document/-/facetsearch/document/KM03286178"
     },
     {
       "type": "WEB",
@@ -101,7 +105,15 @@
     },
     {
       "type": "WEB",
-      "url": "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05385680"
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2016-2183-mitigate-sweet32-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2016-2183-detection-sweet32-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.teskalabs.com/blog/teskalabs-bulletin-160826-seacat-sweet32-issue"
     },
     {
       "type": "WEB",
@@ -181,11 +193,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://support.f5.com/csp/article/K13167034"
-    },
-    {
-      "type": "WEB",
-      "url": "https://softwaresupport.softwaregrp.com/document/-/facetsearch/document/KM03286178"
+      "url": "https://h20566.www2.hpe.com/portal/site/hpsc/public/kb/docDisplay?docId=emr_na-c05385680"
     },
     {
       "type": "WEB",

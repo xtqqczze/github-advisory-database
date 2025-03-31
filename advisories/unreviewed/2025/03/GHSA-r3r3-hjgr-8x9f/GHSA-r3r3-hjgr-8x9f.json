@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3r3-hjgr-8x9f",
-  "modified": "2025-03-31T06:30:27Z",
+  "modified": "2025-03-31T15:30:43Z",
   "published": "2025-03-31T06:30:27Z",
   "aliases": [
     "CVE-2025-0613"
   ],
   "details": "The Photo Gallery by 10Web  WordPress plugin before 1.8.34 does not sanitised and escaped comment added on images by unauthenticated users, leading to an Unauthenticated Stored-XSS attack when comments are displayed",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-31T06:15:29Z"

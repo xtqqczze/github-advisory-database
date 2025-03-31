@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xf9x-cj4h-4674",
-  "modified": "2025-03-31T12:30:44Z",
+  "modified": "2025-03-31T15:30:44Z",
   "published": "2025-03-31T12:30:44Z",
   "aliases": [
     "CVE-2025-2989"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lavender-bicycle-a5a.notion.site/Tenda-FH1202-AdvSetWrl-1bc53a41781f8011b0b4d3d65cacc82f"
     },
     {
       "type": "WEB",

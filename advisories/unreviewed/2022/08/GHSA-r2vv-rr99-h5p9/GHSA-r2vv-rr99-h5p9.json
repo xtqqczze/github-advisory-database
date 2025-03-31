@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r2vv-rr99-h5p9",
-  "modified": "2022-08-19T00:00:20Z",
+  "modified": "2025-03-31T15:30:35Z",
   "published": "2022-08-19T00:00:20Z",
   "aliases": [
     "CVE-2022-37061"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/Nwqda/9e16852ab7827dc62b8e44d6180a6899"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WlX-33/PoC-for-CVE/blob/main/CVE-2022-36266/FLIR%20AX8%20Unauthenticated%20OS%20Command%20Injection.py"
     },
     {
       "type": "WEB",
