@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xww-x3g3-6jcv",
-  "modified": "2025-02-18T22:34:55Z",
+  "modified": "2025-03-31T13:23:06Z",
   "published": "2023-01-18T18:20:51Z",
   "aliases": [
     "CVE-2023-22795"
@@ -20,7 +20,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.0.0.beta1"
             },
             {
               "fixed": "6.1.7.1"
@@ -56,11 +56,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/rails/rails/commit/8d82687f3b04b2803320b64f985308239a8c3d2f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rails/rails/commit/8dc45950619a4c64d16fb9370570c996d201f9b0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rails/rails/commit/cd461c3e64e09cdcb1e379d1c35423c5e2caa592"
+    },
+    {
+      "type": "WEB",
       "url": "https://discuss.rubyonrails.org/t/cve-2023-22795-possible-redos-based-dos-vulnerability-in-action-dispatch/82118"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/rails/rails"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rails/rails/releases/tag/v6.1.7.1"
     },
     {
       "type": "WEB",
