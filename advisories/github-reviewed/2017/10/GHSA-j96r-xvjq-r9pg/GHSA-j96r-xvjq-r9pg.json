@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j96r-xvjq-r9pg",
-  "modified": "2023-01-23T17:49:35Z",
+  "modified": "2025-03-31T17:46:20Z",
   "published": "2017-10-24T18:33:36Z",
   "aliases": [
     "CVE-2015-3227"
   ],
   "summary": "activesupport vulnerable to Denial of Service via large XML document depth",
-  "details": "The (1) `jdom.rb` and (2) `rexml.rb` components in Active Support in Ruby on Rails before 4.1.11 and 4.2.x before 4.2.2, when JDOM or REXML is enabled, allow remote attackers to cause a denial of service (SystemStackError) via a large XML document depth.",
+  "details": "The (1) `jdom.rb` and (2) `rexml.rb` components in Active Support in Ruby on Rails before 3.2.22, 4.1.x before 4.1.11, and 4.2.x before 4.2.2, when JDOM or REXML is enabled, allow remote attackers to cause a denial of service (SystemStackError) via a large XML document depth.",
   "severity": [],
   "affected": [
     {
@@ -20,7 +20,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "4.0.0.beta1"
             },
             {
               "fixed": "4.1.11"
@@ -39,10 +39,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.2.0"
+              "introduced": "4.2.0.beta1"
             },
             {
               "fixed": "4.2.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "activesupport"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.2.22"
             }
           ]
         }
@@ -53,6 +72,22 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rails/rails/commit/12f763ce1131d29d24bd0d8f868e2697a139aea3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rails/rails/commit/153cc843ad95930b00b0ca91d30b599b7dec9680"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rails/rails/commit/78b29e08c700d889837af6c51c7debd3864abc3d"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/rails/rails"
     },
     {
       "type": "WEB",
