@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wqcc-mfhw-53pc",
+  "modified": "2025-04-01T09:30:20Z",
+  "published": "2025-04-01T09:30:20Z",
+  "aliases": [
+    "CVE-2025-29868"
+  ],
+  "details": "Private Data Structure Returned From A Public Method vulnerability in Apache Answer.\n\nThis issue affects Apache Answer: through 1.4.2.\n\nIf a user uses an externally referenced image, when a user accesses this image, the provider of the image may obtain private information about the ip address of that accessing user.\nUsers are recommended to upgrade to version 1.4.5, which fixes the issue. In the new version, administrators can set whether external content can be displayed.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29868"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/l7pohw5g03g3qsvrz8pqc9t29mdv5lhf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-495"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-01T08:15:14Z"
+  }
+}
