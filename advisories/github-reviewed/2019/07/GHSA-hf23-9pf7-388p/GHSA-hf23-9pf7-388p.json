@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hf23-9pf7-388p",
-  "modified": "2022-10-06T18:15:30Z",
+  "modified": "2025-04-01T16:33:05Z",
   "published": "2019-07-26T16:09:47Z",
   "aliases": [
     "CVE-2019-10173"
   ],
   "summary": "Deserialization of Untrusted Data and Code Injection in xstream",
-  "details": "It was found that xstream API version 1.4.10 before 1.4.11 introduced a regression for a previous deserialization flaw. If the security framework has not been initialized, it may allow a remote attacker to run arbitrary shell commands when unmarshalling XML or any supported format. e.g. JSON. (regression of CVE-2013-7285) ",
+  "details": "It was found that xstream API version 1.4.10 before 1.4.11 introduced a regression for a previous deserialization flaw. If the security framework has not been initialized, it may allow a remote attacker to run arbitrary shell commands when unmarshalling XML or any supported format. e.g. JSON. (regression of CVE-2013-7285)",
   "severity": [
     {
       "type": "CVSS_V3",
