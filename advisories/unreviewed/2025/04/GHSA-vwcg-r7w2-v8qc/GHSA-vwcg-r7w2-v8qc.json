@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vwcg-r7w2-v8qc",
+  "modified": "2025-04-01T00:30:37Z",
+  "published": "2025-04-01T00:30:37Z",
+  "aliases": [
+    "CVE-2025-24208"
+  ],
+  "details": "A permissions issue was addressed with additional restrictions. This issue is fixed in Safari 18.4, iOS 18.4 and iPadOS 18.4. Loading a malicious iframe may lead to a cross-site scripting attack.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24208"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122371"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122379"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-31T23:15:18Z"
+  }
+}

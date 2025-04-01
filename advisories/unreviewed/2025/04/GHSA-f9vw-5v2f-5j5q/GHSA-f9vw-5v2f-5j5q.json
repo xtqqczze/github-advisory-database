@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f9vw-5v2f-5j5q",
+  "modified": "2025-04-01T00:30:40Z",
+  "published": "2025-04-01T00:30:40Z",
+  "aliases": [
+    "CVE-2025-24263"
+  ],
+  "details": "A privacy issue was addressed by moving sensitive data to a protected location. This issue is fixed in macOS Sequoia 15.4. An app may be able to observe unprotected user data.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24263"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122373"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-03-31T23:15:23Z"
+  }
+}
