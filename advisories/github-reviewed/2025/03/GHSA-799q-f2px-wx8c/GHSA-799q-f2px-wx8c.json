@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-799q-f2px-wx8c",
-  "modified": "2025-03-31T15:57:16Z",
+  "modified": "2025-04-01T14:32:14Z",
   "published": "2025-03-28T21:30:46Z",
-  "aliases": [
-    "CVE-2024-38988"
-  ],
-  "summary": "@alizeait/unflatto Prototype Pollution via `exports.unflatto` Method",
-  "details": "alizeait unflatto <= 1.0.2 was discovered to contain a prototype pollution via the method exports.unflatto at /dist/index.js. This vulnerability allows attackers to execute arbitrary code or cause a Denial of Service (DoS) via injecting arbitrary properties.",
+  "withdrawn": "2025-04-01T14:32:14Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: @alizeait/unflatto Prototype Pollution via `exports.unflatto` Method",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-q8jq-4rm5-4hm5. This link is maintained to preserve external references.\n\n## Original Description\nalizeait unflatto <= 1.0.2 was discovered to contain a prototype pollution via the method exports.unflatto at /dist/index.js. This vulnerability allows attackers to execute arbitrary code or cause a Denial of Service (DoS) via injecting arbitrary properties.",
   "severity": [
     {
       "type": "CVSS_V4",
