@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wr75-hw2j-2jxm",
-  "modified": "2025-04-01T00:30:43Z",
+  "modified": "2025-04-01T15:31:33Z",
   "published": "2025-04-01T00:30:43Z",
   "aliases": [
     "CVE-2025-30454"
   ],
   "details": "A path handling issue was addressed with improved validation. This issue is fixed in macOS Sonoma 14.7.5, iOS 18.4 and iPadOS 18.4, tvOS 18.4, macOS Sequoia 15.4. A malicious app may be able to access private information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-31T23:15:26Z"

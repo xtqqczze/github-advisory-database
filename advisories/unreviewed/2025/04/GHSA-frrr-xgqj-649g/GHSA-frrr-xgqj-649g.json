@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frrr-xgqj-649g",
-  "modified": "2025-04-01T00:30:37Z",
+  "modified": "2025-04-01T15:31:30Z",
   "published": "2025-04-01T00:30:37Z",
   "aliases": [
     "CVE-2025-24210"
   ],
   "details": "A logic error was addressed with improved error handling. This issue is fixed in visionOS 2.4, macOS Ventura 13.7.5, tvOS 18.4, iPadOS 17.7.6, iOS 18.4 and iPadOS 18.4, macOS Sequoia 15.4, macOS Sonoma 14.7.5. Parsing an image may lead to disclosure of user information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-783"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-31T23:15:18Z"

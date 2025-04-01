@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xcc-3vq7-mvjp",
-  "modified": "2025-04-01T00:30:42Z",
+  "modified": "2025-04-01T15:31:32Z",
   "published": "2025-04-01T00:30:42Z",
   "aliases": [
     "CVE-2025-30434"
   ],
   "details": "The issue was addressed with improved input sanitization. This issue is fixed in iOS 18.4 and iPadOS 18.4. Processing a maliciously crafted file may lead to a cross site scripting attack.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-31T23:15:25Z"

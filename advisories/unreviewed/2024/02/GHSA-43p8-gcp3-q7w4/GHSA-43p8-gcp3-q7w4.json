@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43p8-gcp3-q7w4",
-  "modified": "2024-02-29T03:33:18Z",
+  "modified": "2025-04-01T15:31:20Z",
   "published": "2024-02-29T03:33:18Z",
   "aliases": [
     "CVE-2024-25931"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Heureka Group Heureka.This issue affects Heureka: from n/a through 1.0.8.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Heureka Group Heureka.This issue affects Heureka: from n/a through 1.0.8.",
   "severity": [
     {
       "type": "CVSS_V3",

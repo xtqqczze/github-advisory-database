@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4j6-xqv7-cqrg",
-  "modified": "2024-02-29T03:33:18Z",
+  "modified": "2025-04-01T15:31:20Z",
   "published": "2024-02-29T03:33:18Z",
   "aliases": [
     "CVE-2024-25932"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Manish Kumar Agarwal Change Table Prefix.This issue affects Change Table Prefix: from n/a through 2.0.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Manish Kumar Agarwal Change Table Prefix.This issue affects Change Table Prefix: from n/a through 2.0.",
   "severity": [
     {
       "type": "CVSS_V3",
