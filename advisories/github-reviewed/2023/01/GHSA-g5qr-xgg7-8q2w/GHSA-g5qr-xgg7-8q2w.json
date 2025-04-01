@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5qr-xgg7-8q2w",
-  "modified": "2023-02-02T10:31:17Z",
+  "modified": "2025-04-01T23:03:57Z",
   "published": "2023-01-26T21:30:25Z",
   "aliases": [
     "CVE-2022-25350"
@@ -46,16 +46,13 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/olindata/node-puppet-facter/blob/f34bcc754325d71bb3b1b534804e53d6170f15f5/index.js%23L10"
-    },
-    {
-      "type": "WEB",
       "url": "https://security.snyk.io/vuln/SNYK-JS-PUPPETFACTER-3175616"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-77"
+      "CWE-77",
+      "CWE-78"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
