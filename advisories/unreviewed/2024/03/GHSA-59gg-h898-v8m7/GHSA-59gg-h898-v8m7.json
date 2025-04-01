@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-59gg-h898-v8m7",
-  "modified": "2024-03-25T09:32:34Z",
+  "modified": "2025-04-01T18:30:38Z",
   "published": "2024-03-25T09:32:34Z",
   "aliases": [
     "CVE-2024-2862"
   ],
-  "details": "\nThis vulnerability allows remote attackers to reset the password of anonymous users without authorization on the affected LG LED Assistant.\n\n",
+  "details": "This vulnerability allows remote attackers to reset the password of anonymous users without authorization on the affected LG LED Assistant.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-287"
+      "CWE-287",
+      "CWE-640"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

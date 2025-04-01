@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwfw-qq2h-g6g5",
-  "modified": "2024-02-28T15:30:57Z",
+  "modified": "2025-04-01T18:30:33Z",
   "published": "2024-02-28T15:30:57Z",
   "aliases": [
     "CVE-2024-24702"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Matt Martz & Andy Stratton Page Restrict.This issue affects Page Restrict: from n/a through 2.5.5.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Matt Martz & Andy Stratton Page Restrict.This issue affects Page Restrict: from n/a through 2.5.5.",
   "severity": [
     {
       "type": "CVSS_V3",
