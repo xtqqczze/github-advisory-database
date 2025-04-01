@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mp7-25cp-m483",
-  "modified": "2024-03-27T15:30:37Z",
+  "modified": "2025-04-01T21:30:28Z",
   "published": "2024-03-27T15:30:37Z",
   "aliases": [
     "CVE-2024-29790"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Squirrly SEO Plugin by Squirrly SEO allows Reflected XSS.This issue affects SEO Plugin by Squirrly SEO: from n/a through 12.3.16.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Squirrly SEO Plugin by Squirrly SEO allows Reflected XSS.This issue affects SEO Plugin by Squirrly SEO: from n/a through 12.3.16.",
   "severity": [
     {
       "type": "CVSS_V3",

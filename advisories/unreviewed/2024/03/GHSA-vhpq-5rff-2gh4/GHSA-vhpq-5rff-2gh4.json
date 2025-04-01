@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhpq-5rff-2gh4",
-  "modified": "2024-03-27T15:30:38Z",
+  "modified": "2025-04-01T21:30:28Z",
   "published": "2024-03-27T15:30:38Z",
   "aliases": [
     "CVE-2024-30238"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Contest Gallery.This issue affects Contest Gallery: from n/a through 21.3.2.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Contest Gallery.This issue affects Contest Gallery: from n/a through 21.3.2.",
   "severity": [
     {
       "type": "CVSS_V3",

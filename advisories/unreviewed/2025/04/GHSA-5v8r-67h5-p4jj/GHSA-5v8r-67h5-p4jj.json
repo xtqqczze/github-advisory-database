@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5v8r-67h5-p4jj",
-  "modified": "2025-04-01T15:31:36Z",
+  "modified": "2025-04-01T21:31:17Z",
   "published": "2025-04-01T15:31:36Z",
   "aliases": [
     "CVE-2025-3031"
   ],
   "details": "An attacker could read 32 bits of values spilled onto the stack in a JIT compiled function. This vulnerability affects Firefox < 137 and Thunderbird < 137.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T13:15:41Z"

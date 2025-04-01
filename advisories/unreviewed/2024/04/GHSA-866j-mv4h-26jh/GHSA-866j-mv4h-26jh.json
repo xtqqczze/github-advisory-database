@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-866j-mv4h-26jh",
-  "modified": "2024-04-04T09:30:36Z",
+  "modified": "2025-04-01T21:30:29Z",
   "published": "2024-04-04T09:30:36Z",
   "aliases": [
     "CVE-2024-26803"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: veth: clear GRO when clearing XDP even when down\n\nveth sets NETIF_F_GRO automatically when XDP is enabled,\nbecause both features use the same NAPI machinery.\n\nThe logic to clear NETIF_F_GRO sits in veth_disable_xdp() which\nis called both on ndo_stop and when XDP is turned off.\nTo avoid the flag from being cleared when the device is brought\ndown, the clearing is skipped when IFF_UP is not set.\nBringing the device down should indeed not modify its features.\n\nUnfortunately, this means that clearing is also skipped when\nXDP is disabled _while_ the device is down. And there's nothing\non the open path to bring the device features back into sync.\nIOW if user enables XDP, disables it and then brings the device\nup we'll end up with a stray GRO flag set but no NAPI instances.\n\nWe don't depend on the GRO flag on the datapath, so the datapath\nwon't crash. We will crash (or hang), however, next time features\nare sync'ed (either by user via ethtool or peer changing its config).\nThe GRO flag will go away, and veth will try to disable the NAPIs.\nBut the open path never created them since XDP was off, the GRO flag\nwas a stray. If NAPI was initialized before we'll hang in napi_disable().\nIf it never was we'll crash trying to stop uninitialized hrtimer.\n\nMove the GRO flag updates to the XDP enable / disable paths,\ninstead of mixing them with the ndo_open / ndo_close paths.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-459"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-04T09:15:09Z"
