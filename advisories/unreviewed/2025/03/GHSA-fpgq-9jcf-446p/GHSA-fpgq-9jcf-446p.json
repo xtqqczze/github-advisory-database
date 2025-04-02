@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpgq-9jcf-446p",
-  "modified": "2025-03-31T21:32:50Z",
+  "modified": "2025-04-02T15:31:19Z",
   "published": "2025-03-31T21:32:50Z",
   "aliases": [
     "CVE-2024-54806"
   ],
   "details": "Netgear WNR854T 1.5.2 (North America) is vulnerable to Arbitrary command execution in cmd.cgi which allows for the execution of system commands via the web interface.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-31T21:15:47Z"

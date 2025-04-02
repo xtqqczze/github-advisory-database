@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7p4r-cj5f-3grm",
-  "modified": "2025-04-01T00:30:41Z",
+  "modified": "2025-04-02T15:31:21Z",
   "published": "2025-04-01T00:30:41Z",
   "aliases": [
     "CVE-2025-30425"
   ],
   "details": "This issue was addressed through improved state management. This issue is fixed in tvOS 18.4, Safari 18.4, iPadOS 17.7.6, iOS 18.4 and iPadOS 18.4, macOS Sequoia 15.4. A malicious website may be able to track users in Safari private browsing mode.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-31T23:15:24Z"

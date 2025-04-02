@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x63f-7pqq-c59r",
-  "modified": "2023-02-01T18:30:24Z",
+  "modified": "2025-04-02T15:30:30Z",
   "published": "2023-01-26T21:30:25Z",
   "aliases": [
     "CVE-2022-31704"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://packetstorm.news/files/id/174606"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.vmware.com/security/advisories/VMSA-2023-0001.html"
     },
     {
@@ -29,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-284"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

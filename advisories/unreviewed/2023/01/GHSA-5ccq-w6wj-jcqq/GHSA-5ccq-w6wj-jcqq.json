@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5ccq-w6wj-jcqq",
-  "modified": "2023-02-03T21:30:29Z",
+  "modified": "2025-04-02T15:30:29Z",
   "published": "2023-01-26T21:30:30Z",
   "aliases": [
     "CVE-2020-18329"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/cybertoxin/CVEs/blob/main/CVE_2020_18329.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40SergiuSechel/insecure-permissions-in-rehau-group-unlimited-polymer-solutions-implementation-of-carel-pcoweb-514c148ae694"
     },
     {
       "type": "WEB",

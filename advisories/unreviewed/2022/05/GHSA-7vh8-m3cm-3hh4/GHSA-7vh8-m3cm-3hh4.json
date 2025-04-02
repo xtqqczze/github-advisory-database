@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vh8-m3cm-3hh4",
-  "modified": "2022-05-13T01:03:07Z",
+  "modified": "2025-04-02T15:30:24Z",
   "published": "2022-05-13T01:03:07Z",
   "aliases": [
     "CVE-2014-9650"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/rabbitmq-users/-3Z2FyGtXhs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/rabbitmq-users/-3Z2FyGtXhs"
     },
     {
       "type": "WEB",

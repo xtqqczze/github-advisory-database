@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fw79-h545-vgr4",
-  "modified": "2024-04-15T09:30:54Z",
+  "modified": "2025-04-02T15:30:46Z",
   "published": "2024-04-15T09:30:54Z",
   "aliases": [
     "CVE-2024-32429"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPChill Remove Footer Credit allows Stored XSS.This issue affects Remove Footer Credit: from n/a through 1.0.13.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WPChill Remove Footer Credit allows Stored XSS.This issue affects Remove Footer Credit: from n/a through 1.0.13.",
   "severity": [
     {
       "type": "CVSS_V3",

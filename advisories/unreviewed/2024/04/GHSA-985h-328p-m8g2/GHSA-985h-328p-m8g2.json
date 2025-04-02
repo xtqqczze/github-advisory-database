@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-985h-328p-m8g2",
-  "modified": "2024-04-15T09:30:54Z",
+  "modified": "2025-04-02T15:30:48Z",
   "published": "2024-04-15T09:30:54Z",
   "aliases": [
     "CVE-2024-32440"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Thomas Belser Asgaros Forum.This issue affects Asgaros Forum: from n/a through 2.8.0.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Thomas Belser Asgaros Forum.This issue affects Asgaros Forum: from n/a through 2.8.0.",
   "severity": [
     {
       "type": "CVSS_V3",

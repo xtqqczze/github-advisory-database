@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pmr-3qjg-p675",
-  "modified": "2024-04-15T09:30:54Z",
+  "modified": "2025-04-02T15:30:48Z",
   "published": "2024-04-15T09:30:54Z",
   "aliases": [
     "CVE-2024-32438"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in cleverplugins.Com SEO Booster.This issue affects SEO Booster: from n/a through 3.8.9.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in cleverplugins.Com SEO Booster.This issue affects SEO Booster: from n/a through 3.8.9.",
   "severity": [
     {
       "type": "CVSS_V3",

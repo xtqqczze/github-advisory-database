@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6cw-2mrx-vm24",
-  "modified": "2024-04-15T09:30:54Z",
+  "modified": "2025-04-02T15:30:48Z",
   "published": "2024-04-15T09:30:54Z",
   "aliases": [
     "CVE-2024-32431"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in WP All Import Import Users from CSV.This issue affects Import Users from CSV: from n/a through 1.2.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in WP All Import Import Users from CSV.This issue affects Import Users from CSV: from n/a through 1.2.",
   "severity": [
     {
       "type": "CVSS_V3",

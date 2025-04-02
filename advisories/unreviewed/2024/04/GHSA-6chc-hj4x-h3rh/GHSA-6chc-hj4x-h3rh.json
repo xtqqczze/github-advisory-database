@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6chc-hj4x-h3rh",
-  "modified": "2024-04-15T09:30:54Z",
+  "modified": "2025-04-02T15:30:47Z",
   "published": "2024-04-15T09:30:54Z",
   "aliases": [
     "CVE-2024-32082"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in kp4coder Sync Post With Other Site allows Cross-Site Scripting (XSS).This issue affects Sync Post With Other Site: from n/a through 1.5.1.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in kp4coder Sync Post With Other Site allows Cross-Site Scripting (XSS).This issue affects Sync Post With Other Site: from n/a through 1.5.1.",
   "severity": [
     {
       "type": "CVSS_V3",
