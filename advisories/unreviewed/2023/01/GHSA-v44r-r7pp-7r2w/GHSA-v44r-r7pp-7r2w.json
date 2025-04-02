@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v44r-r7pp-7r2w",
-  "modified": "2023-01-31T18:30:23Z",
+  "modified": "2025-04-02T18:30:39Z",
   "published": "2023-01-23T15:30:33Z",
   "aliases": [
     "CVE-2021-43447"
@@ -34,7 +34,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-287"
+      "CWE-287",
+      "CWE-306"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

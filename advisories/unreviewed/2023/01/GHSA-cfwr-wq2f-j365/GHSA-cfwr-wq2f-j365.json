@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfwr-wq2f-j365",
-  "modified": "2023-01-31T18:30:20Z",
+  "modified": "2025-04-02T18:30:38Z",
   "published": "2023-01-22T06:30:27Z",
   "aliases": [
     "CVE-2023-24058"
@@ -49,7 +49,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-284"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

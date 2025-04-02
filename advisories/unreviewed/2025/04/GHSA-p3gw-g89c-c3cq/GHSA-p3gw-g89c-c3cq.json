@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p3gw-g89c-c3cq",
-  "modified": "2025-04-01T00:30:39Z",
+  "modified": "2025-04-02T18:30:49Z",
   "published": "2025-04-01T00:30:38Z",
   "aliases": [
     "CVE-2025-24236"
   ],
   "details": "An access issue was addressed with additional sandbox restrictions. This issue is fixed in macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to access sensitive user data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-31T23:15:20Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw64-6v6v-94vp",
-  "modified": "2023-01-31T15:30:33Z",
+  "modified": "2025-04-02T18:30:39Z",
   "published": "2023-01-23T15:30:33Z",
   "aliases": [
     "CVE-2021-43449"

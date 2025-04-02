@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ggmm-62x9-fwmh",
-  "modified": "2023-02-06T18:30:30Z",
+  "modified": "2025-04-02T18:30:46Z",
   "published": "2023-01-26T21:30:20Z",
   "aliases": [
     "CVE-2022-48199"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-276"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

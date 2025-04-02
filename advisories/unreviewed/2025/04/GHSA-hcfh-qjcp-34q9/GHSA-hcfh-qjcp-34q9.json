@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcfh-qjcp-34q9",
-  "modified": "2025-04-02T15:31:38Z",
+  "modified": "2025-04-02T18:30:50Z",
   "published": "2025-04-02T15:31:38Z",
   "aliases": [
     "CVE-2025-31723"
   ],
   "details": "A cross-site request forgery (CSRF) vulnerability in Jenkins Simple Queue Plugin 1.4.6 and earlier allows attackers to change and reset the build queue order.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-02T15:15:59Z"

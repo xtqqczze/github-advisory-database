@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hq34-fgpx-qmf6",
-  "modified": "2023-01-31T21:30:20Z",
+  "modified": "2025-04-02T18:30:39Z",
   "published": "2023-01-23T15:30:33Z",
   "aliases": [
     "CVE-2021-43448"

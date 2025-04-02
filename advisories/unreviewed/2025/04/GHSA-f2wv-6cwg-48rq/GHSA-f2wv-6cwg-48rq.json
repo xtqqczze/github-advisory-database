@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2wv-6cwg-48rq",
-  "modified": "2025-04-01T00:30:39Z",
+  "modified": "2025-04-02T18:30:49Z",
   "published": "2025-04-01T00:30:39Z",
   "aliases": [
     "CVE-2025-24244"
   ],
   "details": "The issue was addressed with improved memory handling. This issue is fixed in macOS Ventura 13.7.5, tvOS 18.4, iPadOS 17.7.6, iOS 18.4 and iPadOS 18.4, macOS Sequoia 15.4, macOS Sonoma 14.7.5. Processing a maliciously crafted font may result in the disclosure of process memory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-31T23:15:21Z"

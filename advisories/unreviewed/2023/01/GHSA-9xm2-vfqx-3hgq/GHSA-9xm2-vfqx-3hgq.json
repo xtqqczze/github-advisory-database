@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9xm2-vfqx-3hgq",
-  "modified": "2023-02-02T15:30:44Z",
+  "modified": "2025-04-02T18:30:37Z",
   "published": "2023-01-20T15:30:27Z",
   "aliases": [
     "CVE-2022-43959"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-200",
       "CWE-522"
     ],
     "severity": "MODERATE",
