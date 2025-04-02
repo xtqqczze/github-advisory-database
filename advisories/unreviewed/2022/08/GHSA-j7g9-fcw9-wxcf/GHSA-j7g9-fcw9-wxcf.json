@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7g9-fcw9-wxcf",
-  "modified": "2022-08-14T00:00:22Z",
+  "modified": "2025-04-02T21:30:41Z",
   "published": "2022-08-11T00:00:15Z",
   "aliases": [
     "CVE-2021-33643"
@@ -18,6 +18,26 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-33643"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4S4PJRCJLEAWN2EKXGLSOBTL7O57V7NC"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5YSHZY753R7XW6CIKJVAWI373WW3YRRJ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/7Q26QDNOJDOFYWMJWEIK5XR62M2FF6IJ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/7WX5YE66CT7Y5C2HTHXSFDKQWYWYWJ2T"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/OD4HEBSTI22FNYKOKK7W3X6ZQE6FV3XC"
     },
     {
       "type": "WEB",

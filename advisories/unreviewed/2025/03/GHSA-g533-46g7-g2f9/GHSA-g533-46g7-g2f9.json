@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g533-46g7-g2f9",
-  "modified": "2025-04-01T21:30:46Z",
+  "modified": "2025-04-02T21:30:49Z",
   "published": "2025-03-26T18:30:50Z",
   "aliases": [
     "CVE-2025-2825"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://attackerkb.com/topics/k0EgiL9Psz/cve-2025-2825/rapid7-analysis"
+    },
+    {
+      "type": "WEB",
+      "url": "https://outpost24.com/blog/crushftp-auth-bypass-vulnerability"
     },
     {
       "type": "WEB",

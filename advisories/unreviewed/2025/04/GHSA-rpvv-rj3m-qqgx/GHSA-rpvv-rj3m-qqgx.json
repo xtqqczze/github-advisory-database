@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rpvv-rj3m-qqgx",
+  "modified": "2025-04-02T21:30:51Z",
+  "published": "2025-04-02T21:30:51Z",
+  "aliases": [
+    "CVE-2025-29062"
+  ],
+  "details": "An issue in BL-AC2100 <=V1.0.4 allows a remote attacker to execute arbitrary code via the time1 and time2 parameters in the set_LimitClient_cfg of the goahead webservice.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29062"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.yuque.com/jichujiliangdanwei/vwbq9e/grfgkm2kvk6btwbp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.yuque.com/jichujiliangdanwei/vwbq9e/ux1426h170rhgfn7"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-02T21:15:32Z"
+  }
+}
