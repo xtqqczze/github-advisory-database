@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2rr-m97p-6jq9",
-  "modified": "2024-11-22T20:22:09Z",
+  "modified": "2025-04-02T13:51:40Z",
   "published": "2022-04-20T00:00:34Z",
   "aliases": [
     "CVE-2022-28108"
   ],
   "summary": "Selenium Server (Grid) CSRF",
-  "details": "Selenium Server (Grid) before 4 allows CSRF because it permits non-JSON content types such as application/x-www-form-urlencoded, multipart/form-data, and text/plain.",
+  "details": "Selenium Server (Grid) before 4.0.0-alpha-7 allows CSRF because it permits non-JSON content types such as application/x-www-form-urlencoded, multipart/form-data, and text/plain.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.0.0"
+              "fixed": "4.0.0-alpha-7"
             }
           ]
         }
@@ -47,7 +47,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.0.0"
+              "last_affected": "4.0.0-alpha-2"
             }
           ]
         }
