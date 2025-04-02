@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfh6-3pqw-x2j4",
-  "modified": "2025-03-18T21:40:38Z",
+  "modified": "2025-04-02T23:00:12Z",
   "published": "2025-03-12T15:32:06Z",
   "aliases": [
     "CVE-2025-2240"
@@ -70,6 +70,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/smallrye/smallrye-fault-tolerance/commit/e8bcad3d5e8bbac0a3219bd5c13661adf6ed6bbb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3376"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3541"
     },
     {
       "type": "WEB",

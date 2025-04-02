@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-793v-gxfp-9q9h",
-  "modified": "2025-03-06T17:18:47Z",
+  "modified": "2025-04-02T22:59:09Z",
   "published": "2025-03-05T21:32:13Z",
   "aliases": [
     "CVE-2025-25362"
@@ -62,6 +62,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/explosion/spacy-llm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.hacktivesecurity.com/blog/2025/04/01/cve-2025-25362-old-vulnerabilities-new-victims-breaking-llm-prompts-with-ssti"
     }
   ],
   "database_specific": {
