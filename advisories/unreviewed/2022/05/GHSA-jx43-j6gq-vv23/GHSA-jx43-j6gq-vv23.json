@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx43-j6gq-vv23",
-  "modified": "2022-05-01T06:52:05Z",
+  "modified": "2025-04-03T04:29:58Z",
   "published": "2022-05-01T06:52:05Z",
   "aliases": [
     "CVE-2006-1712"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1015876"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/mailman-checkins%40python.org/msg06273.html"
     },
     {
       "type": "WEB",

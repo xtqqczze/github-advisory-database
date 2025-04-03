@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j54m-wqrg-jj5r",
-  "modified": "2022-05-01T06:55:25Z",
+  "modified": "2025-04-03T04:31:26Z",
   "published": "2022-05-01T06:55:25Z",
   "aliases": [
     "CVE-2006-2071"
@@ -69,6 +69,10 @@
     {
       "type": "WEB",
       "url": "http://support.avaya.com/elmodocs2/security/ASA-2006-254.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=b78b6af66a5fbaf17d7e6bfc32384df5e34408c8"
     },
     {
       "type": "WEB",

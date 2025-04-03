@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5qf-q563-3822",
-  "modified": "2022-05-01T06:57:27Z",
+  "modified": "2025-04-03T04:32:02Z",
   "published": "2022-05-01T06:57:27Z",
   "aliases": [
     "CVE-2006-2274"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9531"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=672e7cca17ed6036a1756ed34cf20dbd72d5e5f6"
     },
     {
       "type": "WEB",

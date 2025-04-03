@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3h88-phwh-c45g",
-  "modified": "2022-05-01T06:57:27Z",
+  "modified": "2025-04-03T04:32:02Z",
   "published": "2022-05-01T06:57:27Z",
   "aliases": [
     "CVE-2006-2272"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://archives.neohapsis.com/archives/fulldisclosure/2006-05/0227.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commitdiff%3Bh=62b08083ec3dbfd7e533c8d230dd1d8191a6e813"
     },
     {
       "type": "WEB",
