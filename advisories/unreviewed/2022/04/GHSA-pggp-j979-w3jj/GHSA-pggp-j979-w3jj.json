@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pggp-j979-w3jj",
-  "modified": "2022-04-29T02:58:31Z",
+  "modified": "2025-04-03T04:07:47Z",
   "published": "2022-04-29T02:58:31Z",
   "aliases": [
     "CVE-2004-0884"

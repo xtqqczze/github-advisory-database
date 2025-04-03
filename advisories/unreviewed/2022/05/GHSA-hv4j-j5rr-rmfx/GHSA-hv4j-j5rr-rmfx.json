@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv4j-j5rr-rmfx",
-  "modified": "2022-05-01T01:47:20Z",
+  "modified": "2025-04-03T04:07:58Z",
   "published": "2022-05-01T01:47:20Z",
   "aliases": [
     "CVE-2005-0156"
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/55314"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.digitalmunition.com/DMA%5B2005-0131b%5D.txt"
     },
     {
       "type": "WEB",

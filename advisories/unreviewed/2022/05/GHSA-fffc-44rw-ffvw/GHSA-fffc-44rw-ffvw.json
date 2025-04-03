@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fffc-44rw-ffvw",
-  "modified": "2022-05-01T01:47:17Z",
+  "modified": "2025-04-03T04:09:43Z",
   "published": "2022-05-01T01:47:17Z",
   "aliases": [
     "CVE-2005-0135"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9040"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.6/cset%4041f2beablXVnAs_6fznhhITh1j5hZg"
     },
     {
       "type": "WEB",

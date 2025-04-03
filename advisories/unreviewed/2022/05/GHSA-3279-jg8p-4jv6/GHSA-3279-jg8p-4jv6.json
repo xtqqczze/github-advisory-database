@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3279-jg8p-4jv6",
-  "modified": "2022-05-01T01:51:46Z",
+  "modified": "2025-04-03T04:08:42Z",
   "published": "2022-05-01T01:51:46Z",
   "aliases": [
     "CVE-2005-0736"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://usn.ubuntu.com/95-1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.6/cset%40422dd06a1p5PsyFhoGAJseinjEq3ew?nav=index.html%7CChangeSet%40-1d"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmj6-p2pm-q3w6",
-  "modified": "2022-05-01T01:47:20Z",
+  "modified": "2025-04-03T04:09:44Z",
   "published": "2022-05-01T01:47:20Z",
   "aliases": [
     "CVE-2005-0155"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "http://support.avaya.com/elmodocs2/security/ASA-2006-163.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.digitalmunition.com/DMA%5B2005-0131a%5D.txt"
     },
     {
       "type": "WEB",

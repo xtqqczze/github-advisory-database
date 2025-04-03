@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw98-rx4c-7jrv",
-  "modified": "2022-04-29T02:59:05Z",
+  "modified": "2025-04-03T04:09:09Z",
   "published": "2022-04-29T02:59:05Z",
   "aliases": [
     "CVE-2004-1174"

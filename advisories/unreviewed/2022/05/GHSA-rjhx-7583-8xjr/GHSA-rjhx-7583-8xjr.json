@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjhx-7583-8xjr",
-  "modified": "2022-05-01T01:47:15Z",
+  "modified": "2025-04-03T04:09:42Z",
   "published": "2022-05-01T01:47:15Z",
   "aliases": [
     "CVE-2005-0125"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://marc.info/?l=bugtraq&m=110685027017411&w=2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.digitalmunition.com/DMA%5B2005-0127a%5D.txt"
     },
     {
       "type": "WEB",
