@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm82-cm5w-993p",
-  "modified": "2022-05-01T02:12:01Z",
+  "modified": "2025-04-03T04:17:12Z",
   "published": "2022-05-01T02:12:01Z",
   "aliases": [
     "CVE-2005-2843"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfjg-m6j6-v7m8",
-  "modified": "2022-05-01T02:10:43Z",
+  "modified": "2025-04-03T04:16:46Z",
   "published": "2022-05-01T02:10:43Z",
   "aliases": [
     "CVE-2005-2682"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/16511"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.formvista.com/forum.html?COMP=forum&cmd=view_thread&%28fvs%29cs_forums_threads_ref=47"
     },
     {
       "type": "WEB",

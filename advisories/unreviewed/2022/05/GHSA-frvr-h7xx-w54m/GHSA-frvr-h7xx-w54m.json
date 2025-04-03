@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frvr-h7xx-w54m",
-  "modified": "2024-02-09T03:32:52Z",
+  "modified": "2025-04-03T04:17:28Z",
   "published": "2022-05-01T02:12:59Z",
   "aliases": [
     "CVE-2005-2946"

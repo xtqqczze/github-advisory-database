@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fvv-9grc-57vf",
-  "modified": "2022-05-01T02:14:35Z",
+  "modified": "2025-04-03T04:18:04Z",
   "published": "2022-05-01T02:14:35Z",
   "aliases": [
     "CVE-2005-3109"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2005/dsa-922"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/gitweb.cgi?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=945b092011c6af71a0107be96e119c8c08776f3f"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw2f-4q5v-cv5j",
-  "modified": "2022-05-01T02:13:18Z",
+  "modified": "2025-04-03T04:18:39Z",
   "published": "2022-05-01T02:13:18Z",
   "aliases": [
     "CVE-2005-2972"
@@ -53,6 +53,10 @@
     {
       "type": "WEB",
       "url": "http://www.gentoo.org/security/en/glsa/glsa-200510-17.xml"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/debian-bugs-rc%40lists.debian.org/msg28251.html"
     },
     {
       "type": "WEB",

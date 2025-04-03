@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfww-hw2q-8mc3",
-  "modified": "2022-05-01T02:04:00Z",
+  "modified": "2025-04-03T04:18:22Z",
   "published": "2022-05-01T02:04:00Z",
   "aliases": [
     "CVE-2005-1987"
@@ -69,6 +69,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1015039"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ907245"
     },
     {
       "type": "WEB",

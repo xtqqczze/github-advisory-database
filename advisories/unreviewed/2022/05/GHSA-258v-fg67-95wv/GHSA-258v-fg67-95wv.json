@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-258v-fg67-95wv",
-  "modified": "2022-05-01T02:14:36Z",
+  "modified": "2025-04-03T04:18:02Z",
   "published": "2022-05-01T02:14:36Z",
   "aliases": [
     "CVE-2005-3107"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11473"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.6/diffs/fs/exec.c%401.155?nav=index.html%7Csrc/%7Csrc/fs%7Chist/fs/exec.c"
     },
     {
       "type": "WEB",

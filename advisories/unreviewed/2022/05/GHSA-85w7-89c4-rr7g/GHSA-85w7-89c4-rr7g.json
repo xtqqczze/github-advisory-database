@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85w7-89c4-rr7g",
-  "modified": "2022-05-01T02:11:42Z",
+  "modified": "2025-04-03T04:17:04Z",
   "published": "2022-05-01T02:11:42Z",
   "aliases": [
     "CVE-2005-2800"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2006/dsa-1017"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commitdiff%3Bh=729d70f5dfd663b44bca68a4479c96bde7e535d6"
     },
     {
       "type": "WEB",

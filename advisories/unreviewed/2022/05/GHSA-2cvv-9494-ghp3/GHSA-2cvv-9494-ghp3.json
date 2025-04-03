@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cvv-9494-ghp3",
-  "modified": "2022-05-01T02:15:23Z",
+  "modified": "2025-04-03T04:18:20Z",
   "published": "2022-05-01T02:15:22Z",
   "aliases": [
     "CVE-2005-3180"
@@ -69,6 +69,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2006/dsa-1017"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/hg/linux-2.6/?cmd=changeset%3Bnode=feecb2ffde28639e60ede769c6f817dc536c677b"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwhm-8574-3qr4",
-  "modified": "2022-05-01T02:12:28Z",
+  "modified": "2025-04-03T04:17:18Z",
   "published": "2022-05-01T02:12:28Z",
   "aliases": [
     "CVE-2005-2872"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2005/dsa-922"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/chrisw/lsm-2.6.git%3Ba=commit%3Bh=bcfff0b471a60df350338bcd727fc9b8a6aa54b2"
     },
     {
       "type": "WEB",

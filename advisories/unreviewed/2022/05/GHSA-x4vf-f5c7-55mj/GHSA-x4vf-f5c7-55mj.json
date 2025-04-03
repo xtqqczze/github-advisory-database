@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4vf-f5c7-55mj",
-  "modified": "2022-05-01T02:14:05Z",
+  "modified": "2025-04-03T04:17:47Z",
   "published": "2022-05-01T02:14:05Z",
   "aliases": [
     "CVE-2005-3044"
@@ -20,7 +20,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://kernel.org/git/?p=linux/kernel/git/aegl/linux-2.6.git%3Ba=commitdiff%3Bh=35311d6478077f7bfe35c1c653193e658bf32686"
+    },
+    {
+      "type": "WEB",
       "url": "http://kernel.org/git/?p=linux/kernel/git/aegl/linux-2.6.git;a=commitdiff;h=35311d6478077f7bfe35c1c653193e658bf32686"
+    },
+    {
+      "type": "WEB",
+      "url": "http://kernel.org/git/?p=linux/kernel/git/chrisw/linux-2.6.13.y.git%3Ba=commit%3Bh=98debffa9114b60138b3dbd4d02ce13f01a07ab4"
     },
     {
       "type": "WEB",

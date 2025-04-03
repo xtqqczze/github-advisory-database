@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7p5-qh2g-cp2f",
-  "modified": "2022-05-01T02:14:36Z",
+  "modified": "2025-04-03T04:18:00Z",
   "published": "2022-05-01T02:14:36Z",
   "aliases": [
     "CVE-2005-3105"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://cache-www.intel.com/cd/00/00/21/57/215792_215792.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.6/cset%404248d4019z8HvgrPAji51TKrWiV2uw?nav=index.html%7Csrc/%7Csrc/mm%7Crelated/mm/mprotect.c"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmgf-6f22-vx8p",
-  "modified": "2022-05-01T02:14:42Z",
+  "modified": "2025-04-03T04:18:04Z",
   "published": "2022-05-01T02:14:42Z",
   "aliases": [
     "CVE-2005-3134"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://support.citrix.com/kb/entry!default.jspa?categoryID=275&externalID=CTX107705"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.citrix.com/kb/entry%21default.jspa?categoryID=275&externalID=CTX107705"
     },
     {
       "type": "WEB",
