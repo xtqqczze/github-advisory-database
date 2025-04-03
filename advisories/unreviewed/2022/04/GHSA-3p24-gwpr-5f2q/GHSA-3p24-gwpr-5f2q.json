@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p24-gwpr-5f2q",
-  "modified": "2022-04-29T03:01:47Z",
+  "modified": "2025-04-03T04:06:10Z",
   "published": "2022-04-29T03:01:47Z",
   "aliases": [
     "CVE-2004-2616"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://archives.neohapsis.com/archives/fulldisclosure/2004-09/0852.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://marc.info/?l=bugtraq&amp%3Bm=109597139011373&amp%3Bw=2"
     },
     {
       "type": "WEB",

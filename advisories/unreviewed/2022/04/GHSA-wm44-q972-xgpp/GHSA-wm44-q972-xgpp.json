@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wm44-q972-xgpp",
-  "modified": "2022-04-29T02:58:54Z",
+  "modified": "2025-04-03T04:06:58Z",
   "published": "2022-04-29T02:58:54Z",
   "aliases": [
     "CVE-2004-1074"

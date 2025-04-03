@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfgm-h537-wfqr",
-  "modified": "2022-04-29T03:01:19Z",
+  "modified": "2025-04-03T04:05:20Z",
   "published": "2022-04-29T03:01:19Z",
   "aliases": [
     "CVE-2004-2378"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/15320"
+    },
+    {
+      "type": "WEB",
+      "url": "http://members.lycos.co.uk/r34ct/main/%40mail_3.64/%40mail_3.64.txt"
     },
     {
       "type": "WEB",

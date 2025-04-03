@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgcx-fh28-73fm",
-  "modified": "2022-04-29T02:58:47Z",
+  "modified": "2025-04-03T04:06:52Z",
   "published": "2022-04-29T02:58:47Z",
   "aliases": [
     "CVE-2004-1018"

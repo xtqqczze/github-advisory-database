@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwmr-ccvg-gjg3",
-  "modified": "2022-04-29T03:01:29Z",
+  "modified": "2025-04-03T04:05:41Z",
   "published": "2022-04-29T03:01:29Z",
   "aliases": [
     "CVE-2004-2464"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/16680"
+    },
+    {
+      "type": "WEB",
+      "url": "http://members.lycos.co.uk/r34ct/main/ADA%20Image%20Server%20%28ImgSvr%29%200.4.txt"
     },
     {
       "type": "WEB",

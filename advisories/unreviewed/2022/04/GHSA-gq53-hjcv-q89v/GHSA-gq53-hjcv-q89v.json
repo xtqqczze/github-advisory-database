@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq53-hjcv-q89v",
-  "modified": "2022-04-29T03:01:18Z",
+  "modified": "2025-04-03T04:05:17Z",
   "published": "2022-04-29T03:01:18Z",
   "aliases": [
     "CVE-2004-2366"

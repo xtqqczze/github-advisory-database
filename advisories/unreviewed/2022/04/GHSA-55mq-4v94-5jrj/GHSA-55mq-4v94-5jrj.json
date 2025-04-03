@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55mq-4v94-5jrj",
-  "modified": "2022-04-29T03:01:52Z",
+  "modified": "2025-04-03T04:06:20Z",
   "published": "2022-04-29T03:01:52Z",
   "aliases": [
     "CVE-2004-2660"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10165"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.6/cset%404182a613oVsK0-8eCWpyYFrUf8rhLA"
     },
     {
       "type": "WEB",

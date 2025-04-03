@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-438w-xvxp-m9c6",
-  "modified": "2022-04-29T02:58:54Z",
+  "modified": "2025-04-03T04:07:01Z",
   "published": "2022-04-29T02:58:54Z",
   "aliases": [
     "CVE-2004-1080"

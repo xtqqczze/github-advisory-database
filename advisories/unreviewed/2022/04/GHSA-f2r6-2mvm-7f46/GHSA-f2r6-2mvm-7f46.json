@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2r6-2mvm-7f46",
-  "modified": "2022-04-29T03:01:35Z",
+  "modified": "2025-04-03T04:05:51Z",
   "published": "2022-04-29T03:01:35Z",
   "aliases": [
     "CVE-2004-2519"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1010703"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.gattaca-server.com/cgi-bin/yabb/YaBB.pl?board=gattaca_discussion%3Baction=display%3Bnum=1091194176%3Bstart=0#0"
     },
     {
       "type": "WEB",
