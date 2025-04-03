@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvpq-5xqx-pfpp",
-  "modified": "2023-05-11T13:57:05Z",
+  "modified": "2025-04-03T14:27:51Z",
   "published": "2017-10-24T18:33:38Z",
   "aliases": [
     "CVE-2006-4111"
@@ -36,10 +36,6 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-4111"
     },
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-rvpq-5xqx-pfpp"
-    },
-    {
       "type": "WEB",
       "url": "https://github.com/presidentbeef/rails-security-history/blob/master/vulnerabilities.md"
     },
@@ -53,19 +49,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://web.archive.org/web/20200301174340/http://www.securityfocus.com/bid/19454"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/web/20200808083046/http://securitytracker.com/id?1016673"
+    },
+    {
+      "type": "WEB",
       "url": "http://blog.koehntopp.de/archives/1367-Ruby-On-Rails-Mandatory-Mystery-Patch.html"
-    },
-    {
-      "type": "WEB",
-      "url": "http://secunia.com/advisories/21466"
-    },
-    {
-      "type": "WEB",
-      "url": "http://secunia.com/advisories/21749"
-    },
-    {
-      "type": "WEB",
-      "url": "http://securitytracker.com/id?1016673"
     },
     {
       "type": "WEB",
@@ -78,14 +70,6 @@
     {
       "type": "WEB",
       "url": "http://www.novell.com/linux/security/advisories/2006_21_sr.html"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/19454"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.vupen.com/english/advisories/2006/3237"
     }
   ],
   "database_specific": {
