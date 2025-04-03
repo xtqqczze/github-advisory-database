@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm3m-g3qw-qr2v",
-  "modified": "2022-05-01T07:30:07Z",
+  "modified": "2025-04-03T18:30:26Z",
   "published": "2022-05-01T07:30:07Z",
   "aliases": [
     "CVE-2006-5610"
   ],
   "details": "PHP remote file inclusion vulnerability in player/includes/common.php in Teake Nutma Foing, as modified in Fully Modded phpBB (phpbbfm) 2021.4.40, allows remote attackers to execute arbitrary PHP code via a URL in the phpbb_root_path parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-94"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

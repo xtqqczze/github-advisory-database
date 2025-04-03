@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g73c-fw68-pwx3",
-  "modified": "2025-04-03T15:31:13Z",
+  "modified": "2025-04-03T18:30:58Z",
   "published": "2025-04-03T15:31:13Z",
   "aliases": [
     "CVE-2025-2945"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-94"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

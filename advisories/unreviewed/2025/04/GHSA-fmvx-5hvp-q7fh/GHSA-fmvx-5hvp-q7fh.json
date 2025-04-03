@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmvx-5hvp-q7fh",
-  "modified": "2025-04-03T09:32:15Z",
+  "modified": "2025-04-03T18:30:57Z",
   "published": "2025-04-03T09:32:15Z",
   "aliases": [
     "CVE-2025-22004"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: atm: fix use after free in lec_send()\n\nThe ->send() operation frees skb so save the length before calling\n->send() to avoid a use after free.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-03T08:15:15Z"

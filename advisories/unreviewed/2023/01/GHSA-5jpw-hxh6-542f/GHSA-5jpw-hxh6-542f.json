@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jpw-hxh6-542f",
-  "modified": "2023-01-27T15:30:32Z",
+  "modified": "2025-04-03T18:30:36Z",
   "published": "2023-01-20T21:30:30Z",
   "aliases": [
     "CVE-2022-47024"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/vim/vim/commit/a63ad78ed31e36dbdf3a9cd28071dcdbefce7d19"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4EX6N2DB75A73MQGVW3CS4VTNPAYVM2M"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PZWIJBSQX53P7DHV77KRXJIXA4GH7XHC"
     },
     {
       "type": "WEB",

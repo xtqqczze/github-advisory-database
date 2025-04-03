@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7wf-qqfr-f6xp",
-  "modified": "2025-04-01T00:30:38Z",
+  "modified": "2025-04-03T18:30:57Z",
   "published": "2025-04-01T00:30:38Z",
   "aliases": [
     "CVE-2025-24213"
   ],
   "details": "This issue was addressed with improved handling of floats. This issue is fixed in tvOS 18.4, Safari 18.4, iPadOS 17.7.6, iOS 18.4 and iPadOS 18.4, macOS Sequoia 15.4. A type confusion issue could lead to memory corruption.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-843"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-31T23:15:19Z"

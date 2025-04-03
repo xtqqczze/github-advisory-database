@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj38-v6qv-2jpj",
-  "modified": "2022-05-01T07:24:06Z",
+  "modified": "2025-04-03T18:30:25Z",
   "published": "2022-05-01T07:24:06Z",
   "aliases": [
     "CVE-2006-5014"
   ],
   "details": "Unspecified vulnerability in cPanel before 10.9.0 12 Tree allows remote authenticated users to gain privileges via unspecified vectors in (1) mysqladmin and (2) hooksadmin.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,7 +41,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-276"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

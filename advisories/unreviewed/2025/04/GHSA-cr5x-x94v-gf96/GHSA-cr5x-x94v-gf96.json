@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr5x-x94v-gf96",
-  "modified": "2025-04-01T00:30:43Z",
+  "modified": "2025-04-03T18:30:57Z",
   "published": "2025-04-01T00:30:42Z",
   "aliases": [
     "CVE-2025-30456"
   ],
   "details": "A parsing issue in the handling of directory paths was addressed with improved path validation. This issue is fixed in macOS Ventura 13.7.5, iOS 18.4 and iPadOS 18.4, macOS Sequoia 15.4, macOS Sonoma 14.7.5. An app may be able to gain root privileges.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-281"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-31T23:15:27Z"

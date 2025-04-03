@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2449-qmg7-pw4p",
-  "modified": "2022-05-01T07:24:11Z",
+  "modified": "2025-04-03T18:30:25Z",
   "published": "2022-05-01T07:24:11Z",
   "aliases": [
     "CVE-2006-5024"
   ],
   "details": "Multiple unspecified vulnerabilities in Paisterist Simple HTTP Scanner (sHTTPScanner) before 0.4 have unknown impact and attack vectors.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

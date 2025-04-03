@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c335-grgp-6vgc",
-  "modified": "2022-05-01T07:30:33Z",
+  "modified": "2025-04-03T18:30:27Z",
   "published": "2022-05-01T07:30:33Z",
   "aliases": [
     "CVE-2006-5648"
   ],
   "details": "Ubuntu Linux 6.10 for the PowerPC (PPC) allows local users to cause a denial of service (resource consumption) by using the (1) sys_get_robust_list and (2) sys_set_robust_list functions to create processes that cannot be killed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,7 +45,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-400"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

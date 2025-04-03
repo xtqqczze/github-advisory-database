@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xr4-xhxj-vcwg",
-  "modified": "2022-05-01T07:30:29Z",
+  "modified": "2025-04-03T18:30:26Z",
   "published": "2022-05-01T07:30:29Z",
   "aliases": [
     "CVE-2006-5632"
   ],
   "details": "Cross-site scripting (XSS) vulnerability in change_pass.php in iG Shop 1.4 allows remote attackers to inject arbitrary web script or HTML via the id parameter, a different vulnerability than CVE-2006-5631.  NOTE: the provenance of this information is unknown; the details are obtained solely from third party information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,7 +37,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
