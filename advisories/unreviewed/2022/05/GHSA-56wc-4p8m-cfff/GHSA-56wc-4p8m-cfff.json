@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56wc-4p8m-cfff",
-  "modified": "2022-05-01T07:06:09Z",
+  "modified": "2025-04-03T04:35:25Z",
   "published": "2022-05-01T07:06:09Z",
   "aliases": [
     "CVE-2006-3134"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/27416"
+    },
+    {
+      "type": "WEB",
+      "url": "http://europe.nokia.com/nokia/0%2C%2C93034%2C00.html"
     },
     {
       "type": "WEB",

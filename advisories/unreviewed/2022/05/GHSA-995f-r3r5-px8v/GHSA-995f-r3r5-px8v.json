@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-995f-r3r5-px8v",
-  "modified": "2022-05-01T07:06:44Z",
+  "modified": "2025-04-03T04:35:20Z",
   "published": "2022-05-01T07:06:44Z",
   "aliases": [
     "CVE-2006-3215"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/27301"
+    },
+    {
+      "type": "WEB",
+      "url": "http://download.mimesweeper.com/www/TechnicalDocumentation/ReadMe_MSW_4%2C3%2C20.htm"
     },
     {
       "type": "WEB",

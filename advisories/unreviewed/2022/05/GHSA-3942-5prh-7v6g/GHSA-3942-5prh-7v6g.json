@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3942-5prh-7v6g",
-  "modified": "2022-05-01T07:07:56Z",
+  "modified": "2025-04-03T04:35:41Z",
   "published": "2022-05-01T07:07:56Z",
   "aliases": [
     "CVE-2006-3317"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "http://www.osvdb.org/26889"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.phpraider.com/index.php?action=tpmod%3Bdl=item10"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crfg-8v7q-2697",
-  "modified": "2022-05-01T07:08:26Z",
+  "modified": "2025-04-03T04:35:56Z",
   "published": "2022-05-01T07:08:26Z",
   "aliases": [
     "CVE-2006-3380"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://fswiki.poi.jp/wiki.cgi?page=%CD%FA%CE%F2%2F2006%2D7%2D3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://fswiki.poi.jp/wiki.cgi?page=%CD%FA%CE%F2%2F2006-7-3"
     },
     {
       "type": "WEB",
