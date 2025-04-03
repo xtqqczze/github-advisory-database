@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cm9q-c7f4-2rw5",
-  "modified": "2022-05-01T06:53:35Z",
+  "modified": "2025-04-03T04:32:18Z",
   "published": "2022-05-01T06:53:35Z",
   "aliases": [
     "CVE-2006-1860"
@@ -33,6 +33,14 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/21179"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/stable/linux-2.6.16.y.git%3Ba=blobdiff%3Bh=aa7f66091823dde953e15895dc427615701c39c7%3Bhp=e75ac392a313f3fad823bf2e46a03f29701e3e34%3Bhb=1f0e637c94a9b041833947c79110d6c02fff8618%3Bf=fs/locks.c"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/stable/linux-2.6.16.y.git%3Ba=commit%3Bh=1f0e637c94a9b041833947c79110d6c02fff8618"
     },
     {
       "type": "WEB",

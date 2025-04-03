@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq2h-wp8j-q79c",
-  "modified": "2022-05-01T07:03:50Z",
+  "modified": "2025-04-03T04:34:15Z",
   "published": "2022-05-01T07:03:50Z",
   "aliases": [
     "CVE-2006-2920"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://sourceforge.net/project/shownotes.php?release_id=422662&group_id=25528"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sylpheed.good-day.net/en/news.html%5C"
     },
     {
       "type": "WEB",

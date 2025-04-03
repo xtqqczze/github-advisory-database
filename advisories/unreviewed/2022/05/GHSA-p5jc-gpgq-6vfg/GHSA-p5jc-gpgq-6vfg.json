@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5jc-gpgq-6vfg",
-  "modified": "2022-05-01T06:58:17Z",
+  "modified": "2025-04-03T04:32:32Z",
   "published": "2022-05-01T06:58:17Z",
   "aliases": [
     "CVE-2006-2369"
@@ -65,6 +65,10 @@
     {
       "type": "WEB",
       "url": "http://www.kb.cert.org/vuls/id/117929"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/08/02/8"
     },
     {
       "type": "WEB",

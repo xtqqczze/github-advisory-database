@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ch5-6956-fx84",
-  "modified": "2022-05-01T06:59:04Z",
+  "modified": "2025-04-03T04:32:36Z",
   "published": "2022-05-01T06:59:04Z",
   "aliases": [
     "CVE-2006-2427"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1016086"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.digitalmunition.com/DMA%5B2006-0514a%5D.txt"
     },
     {
       "type": "WEB",
