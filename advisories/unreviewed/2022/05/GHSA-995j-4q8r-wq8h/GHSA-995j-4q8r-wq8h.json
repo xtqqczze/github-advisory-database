@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-995j-4q8r-wq8h",
-  "modified": "2024-04-04T00:39:47Z",
+  "modified": "2025-04-03T06:30:22Z",
   "published": "2022-05-24T16:45:44Z",
   "aliases": [
     "CVE-2019-5598"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "http://packetstormsecurity.com/files/152934/FreeBSD-Security-Advisory-FreeBSD-SA-19-06.pf.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/1"
     },
     {
       "type": "WEB",
