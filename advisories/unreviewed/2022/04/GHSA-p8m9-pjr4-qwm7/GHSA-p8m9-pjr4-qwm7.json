@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8m9-pjr4-qwm7",
-  "modified": "2022-04-30T18:13:26Z",
+  "modified": "2025-04-03T03:36:56Z",
   "published": "2022-04-30T18:13:26Z",
   "aliases": [
     "CVE-2000-0344"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1160"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.LNX.4.21.0005012042550.6419-100000%40ferret.lmh.ox.ac.uk"
     },
     {
       "type": "WEB",

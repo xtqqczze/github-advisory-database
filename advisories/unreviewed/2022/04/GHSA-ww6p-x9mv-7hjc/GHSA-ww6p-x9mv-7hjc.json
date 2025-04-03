@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww6p-x9mv-7hjc",
-  "modified": "2022-04-30T18:14:09Z",
+  "modified": "2025-04-03T03:38:04Z",
   "published": "2022-04-30T18:14:09Z",
   "aliases": [
     "CVE-2000-0711"
@@ -24,7 +24,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=20000805020429.11774.qmail%40securityfocus.com"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=20000805020429.11774.qmail@securityfocus.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=3999922128E.EE84TAKAGI%40java-house.etl.go.jp"
     },
     {
       "type": "WEB",

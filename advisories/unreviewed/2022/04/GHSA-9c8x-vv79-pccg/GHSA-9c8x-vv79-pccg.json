@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c8x-vv79-pccg",
-  "modified": "2022-04-30T18:13:53Z",
+  "modified": "2025-04-03T03:37:38Z",
   "published": "2022-04-30T18:13:53Z",
   "aliases": [
     "CVE-2000-0568"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1417"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=4125690E.00524395.00%40guardianit.se"
     },
     {
       "type": "WEB",

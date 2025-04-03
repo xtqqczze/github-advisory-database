@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5f3-8x75-9w2c",
-  "modified": "2022-04-30T18:13:05Z",
+  "modified": "2025-04-03T03:36:18Z",
   "published": "2022-04-30T18:13:05Z",
   "aliases": [
     "CVE-2000-0164"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1004"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-02-15&msg=Pine.SOL.4.21.0002200031320.22675-100000%40klayman.hq.formus.pl"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2cw-8f75-qf8v",
-  "modified": "2022-04-30T18:13:57Z",
+  "modified": "2025-04-03T03:37:36Z",
   "published": "2022-04-30T18:13:57Z",
   "aliases": [
     "CVE-2000-0597"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1399"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=39589349.ED9DBCAB%40nat.bg"
     },
     {
       "type": "WEB",

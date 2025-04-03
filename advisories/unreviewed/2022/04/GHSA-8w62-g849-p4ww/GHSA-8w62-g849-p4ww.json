@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8w62-g849-p4ww",
-  "modified": "2022-04-30T18:14:16Z",
+  "modified": "2025-04-03T03:38:16Z",
   "published": "2022-04-30T18:14:16Z",
   "aliases": [
     "CVE-2000-0763"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1585"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=20000815231724.A14694%40subterrain.net"
     },
     {
       "type": "WEB",

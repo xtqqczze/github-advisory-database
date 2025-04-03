@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2w5-h6v5-wf8j",
-  "modified": "2022-04-30T18:13:36Z",
+  "modified": "2025-04-03T03:37:03Z",
   "published": "2022-04-30T18:13:36Z",
   "aliases": [
     "CVE-2000-0424"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1202"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=200005151024.aa01811%40blaze.arl.mil"
     },
     {
       "type": "WEB",

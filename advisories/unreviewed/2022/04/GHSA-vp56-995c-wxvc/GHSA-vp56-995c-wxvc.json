@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp56-995c-wxvc",
-  "modified": "2022-04-30T18:13:07Z",
+  "modified": "2025-04-03T03:36:29Z",
   "published": "2022-04-30T18:13:07Z",
   "aliases": [
     "CVE-2000-0168"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/templates/advisory.html?id=2126"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=NCBBKFKDOLAGKIAPMILPCENECCAA.labs%40ussrback.com"
     },
     {
       "type": "WEB",

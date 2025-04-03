@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p854-gmj6-9jfw",
-  "modified": "2022-04-30T18:13:52Z",
+  "modified": "2025-04-03T03:37:56Z",
   "published": "2022-04-30T18:13:52Z",
   "aliases": [
     "CVE-2000-0563"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1336"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-05-8&msg=391C95DE2DA.5E3BTAKAGI%40java-house.etl.go.jp"
     },
     {
       "type": "WEB",

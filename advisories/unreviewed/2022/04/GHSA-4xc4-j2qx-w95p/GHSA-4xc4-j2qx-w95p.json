@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xc4-j2qx-w95p",
-  "modified": "2022-04-30T18:13:41Z",
+  "modified": "2025-04-03T03:37:19Z",
   "published": "2022-04-30T18:13:41Z",
   "aliases": [
     "CVE-2000-0468"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1302"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.SOL.4.02.10006021014400.4779-100000%40nofud.nwest.attws.com"
     },
     {
       "type": "WEB",

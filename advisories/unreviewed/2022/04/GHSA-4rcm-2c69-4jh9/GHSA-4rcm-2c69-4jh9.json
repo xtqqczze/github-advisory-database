@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rcm-2c69-4jh9",
-  "modified": "2022-04-30T18:13:38Z",
+  "modified": "2025-04-03T03:37:02Z",
   "published": "2022-04-30T18:13:38Z",
   "aliases": [
     "CVE-2000-0439"
@@ -32,7 +32,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=20000511135609.D7774%40securityfocus.com"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=20000511135609.D7774@securityfocus.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=NDBBKGHPMKBKDDGLDEEHAEHMDIAA.rms2000%40bellatlantic.net"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwr7-jw8x-3pcx",
-  "modified": "2022-04-30T18:14:17Z",
+  "modified": "2025-04-03T03:38:17Z",
   "published": "2022-04-30T18:14:17Z",
   "aliases": [
     "CVE-2000-0782"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1587"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=NEBBJCLKGNOGCOIOBJNAGEHLCPAA.marc%40eeye.com"
     },
     {
       "type": "WEB",

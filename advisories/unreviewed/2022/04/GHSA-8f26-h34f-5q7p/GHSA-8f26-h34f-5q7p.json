@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f26-h34f-5q7p",
-  "modified": "2022-04-30T18:13:14Z",
+  "modified": "2025-04-03T03:36:34Z",
   "published": "2022-04-30T18:13:14Z",
   "aliases": [
     "CVE-2000-0242"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1073"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-03-22&msg=20000325224146.6839.qmail%40securityfocus.com"
     },
     {
       "type": "WEB",

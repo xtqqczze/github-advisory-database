@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gphm-f2g3-9rr5",
-  "modified": "2022-04-30T18:13:56Z",
+  "modified": "2025-04-03T03:37:35Z",
   "published": "2022-04-30T18:13:56Z",
   "aliases": [
     "CVE-2000-0587"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1401"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.LNX.4.10.10006261041360.31907-200000%40twix.thrijswijk.nl"
     },
     {
       "type": "WEB",

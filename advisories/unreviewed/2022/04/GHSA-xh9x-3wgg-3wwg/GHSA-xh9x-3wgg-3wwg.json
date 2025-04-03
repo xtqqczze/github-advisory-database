@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh9x-3wgg-3wwg",
-  "modified": "2022-04-30T18:13:32Z",
+  "modified": "2025-04-03T03:37:06Z",
   "published": "2022-04-30T18:13:32Z",
   "aliases": [
     "CVE-2000-0394"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1225"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=392AD3B3.3E9BE3EA%40axent.com"
     },
     {
       "type": "WEB",

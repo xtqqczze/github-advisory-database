@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82f3-pqxp-8f9v",
-  "modified": "2022-04-30T18:13:57Z",
+  "modified": "2025-04-03T03:37:32Z",
   "published": "2022-04-30T18:13:57Z",
   "aliases": [
     "CVE-2000-0609"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1376"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-06-15&msg=4.1.20000621113334.00996820%40qlink.queensu.ca"
     },
     {
       "type": "WEB",

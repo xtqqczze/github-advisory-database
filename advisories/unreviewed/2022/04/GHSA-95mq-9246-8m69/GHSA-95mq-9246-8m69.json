@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95mq-9246-8m69",
-  "modified": "2022-04-30T18:13:13Z",
+  "modified": "2025-04-03T03:36:32Z",
   "published": "2022-04-30T18:13:13Z",
   "aliases": [
     "CVE-2000-0238"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1064"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=s8d1f3e3.036%40kib.co.kodiak.ak.us"
     },
     {
       "type": "WEB",

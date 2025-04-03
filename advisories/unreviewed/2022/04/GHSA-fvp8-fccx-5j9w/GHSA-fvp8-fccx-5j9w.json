@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvp8-fccx-5j9w",
-  "modified": "2022-04-30T18:13:25Z",
+  "modified": "2025-04-03T03:36:57Z",
   "published": "2022-04-30T18:13:25Z",
   "aliases": [
     "CVE-2000-0332"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1164"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=20000503091316.99073.qmail%40hotmail.com"
     },
     {
       "type": "WEB",

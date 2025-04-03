@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52p2-82rj-4r39",
-  "modified": "2022-04-30T18:14:02Z",
+  "modified": "2025-04-03T03:37:44Z",
   "published": "2022-04-30T18:14:02Z",
   "aliases": [
     "CVE-2000-0642"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1497"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=200007130827.BAA32671%40Rage.Resentment.org"
     },
     {
       "type": "WEB",

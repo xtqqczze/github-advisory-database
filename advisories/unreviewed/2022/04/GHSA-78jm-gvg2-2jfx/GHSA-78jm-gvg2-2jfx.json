@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78jm-gvg2-2jfx",
-  "modified": "2022-04-30T18:13:46Z",
+  "modified": "2025-04-03T03:37:26Z",
   "published": "2022-04-30T18:13:46Z",
   "aliases": [
     "CVE-2000-0514"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1374"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=ldvsnufao18.fsf%40saint-elmos-fire.mit.edu"
     },
     {
       "type": "WEB",

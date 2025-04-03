@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w36g-w35g-jmxf",
-  "modified": "2022-04-30T18:13:15Z",
+  "modified": "2025-04-03T03:36:45Z",
   "published": "2022-04-30T18:13:15Z",
   "aliases": [
     "CVE-2000-0257"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1118"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.LNX.4.21.0004171825340.10088-100000%40nimue.tpi.pl"
     },
     {
       "type": "WEB",

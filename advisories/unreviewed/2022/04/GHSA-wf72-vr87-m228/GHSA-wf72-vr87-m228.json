@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf72-vr87-m228",
-  "modified": "2022-04-30T18:14:02Z",
+  "modified": "2025-04-03T03:37:41Z",
   "published": "2022-04-30T18:14:02Z",
   "aliases": [
     "CVE-2000-0651"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1440"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=06256915.00591E18.00%40uprrsmtp2.notes.up.com"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93vc-c3w9-g6c9",
-  "modified": "2022-04-30T18:14:14Z",
+  "modified": "2025-04-03T03:38:10Z",
   "published": "2022-04-30T18:14:14Z",
   "aliases": [
     "CVE-2000-0746"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1595"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=39A12BD6.E811BF4F%40nat.bg"
     },
     {
       "type": "WEB",

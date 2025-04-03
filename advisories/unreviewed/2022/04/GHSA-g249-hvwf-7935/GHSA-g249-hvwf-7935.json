@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g249-hvwf-7935",
-  "modified": "2022-04-30T18:13:11Z",
+  "modified": "2025-04-03T03:36:21Z",
   "published": "2022-04-30T18:13:11Z",
   "aliases": [
     "CVE-2000-0219"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1005"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=200002230248.NAA19185%40cairo.anu.edu.au"
     },
     {
       "type": "WEB",

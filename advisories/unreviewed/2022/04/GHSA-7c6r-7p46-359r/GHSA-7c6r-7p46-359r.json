@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c6r-7p46-359r",
-  "modified": "2022-04-30T18:12:55Z",
+  "modified": "2025-04-03T03:36:01Z",
   "published": "2022-04-30T18:12:55Z",
   "aliases": [
     "CVE-2000-0070"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-003"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ247869"
     },
     {
       "type": "WEB",

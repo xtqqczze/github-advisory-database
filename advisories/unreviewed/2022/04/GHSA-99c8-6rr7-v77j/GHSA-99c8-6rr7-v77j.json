@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99c8-6rr7-v77j",
-  "modified": "2022-04-30T18:14:02Z",
+  "modified": "2025-04-03T03:37:43Z",
   "published": "2022-04-30T18:14:02Z",
   "aliases": [
     "CVE-2000-0648"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1456"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=E13BvU6-0007d8-00%40dwarf.box.sk"
     },
     {
       "type": "WEB",

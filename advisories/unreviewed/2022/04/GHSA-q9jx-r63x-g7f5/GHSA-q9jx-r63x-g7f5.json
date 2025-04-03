@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9jx-r63x-g7f5",
-  "modified": "2022-04-30T18:13:14Z",
+  "modified": "2025-04-03T03:36:34Z",
   "published": "2022-04-30T18:13:14Z",
   "aliases": [
     "CVE-2000-0241"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1068"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=4.1.20000321084646.0095c7f0%40olga.swip.net"
     },
     {
       "type": "WEB",

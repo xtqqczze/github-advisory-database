@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8q32-cwc5-qxjf",
-  "modified": "2022-04-30T18:12:56Z",
+  "modified": "2025-04-03T03:35:55Z",
   "published": "2022-04-30T18:12:56Z",
   "aliases": [
     "CVE-2000-0082"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://net4tv.com/voice/story.cfm?StoryID=1823"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.wired.com/news/technology/0%2C1282%2C33420%2C00.html"
     },
     {
       "type": "WEB",

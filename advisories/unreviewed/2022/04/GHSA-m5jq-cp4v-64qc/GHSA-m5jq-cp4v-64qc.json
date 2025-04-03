@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m5jq-cp4v-64qc",
-  "modified": "2022-04-30T18:13:55Z",
+  "modified": "2025-04-03T03:37:36Z",
   "published": "2022-04-30T18:13:55Z",
   "aliases": [
     "CVE-2000-0592"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1400"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=200006271417.GFE84146.-BJXON%40lac.co.jp"
     },
     {
       "type": "WEB",

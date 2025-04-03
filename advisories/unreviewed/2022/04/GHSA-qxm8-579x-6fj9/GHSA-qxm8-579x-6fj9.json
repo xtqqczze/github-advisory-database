@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxm8-579x-6fj9",
-  "modified": "2022-04-30T18:13:09Z",
+  "modified": "2025-04-03T03:36:24Z",
   "published": "2022-04-30T18:13:09Z",
   "aliases": [
     "CVE-2000-0191"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1025"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=41256894.00492503.00%40mailgw.backupcentralen.se"
     },
     {
       "type": "WEB",

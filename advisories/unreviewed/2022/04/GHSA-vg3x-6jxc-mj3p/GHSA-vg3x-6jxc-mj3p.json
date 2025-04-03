@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vg3x-6jxc-mj3p",
-  "modified": "2022-04-30T18:13:12Z",
+  "modified": "2025-04-03T03:36:17Z",
   "published": "2022-04-30T18:13:12Z",
   "aliases": [
     "CVE-2000-0222"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/990"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=20000215155750.M4500%40safe.hsc.fr"
     },
     {
       "type": "WEB",

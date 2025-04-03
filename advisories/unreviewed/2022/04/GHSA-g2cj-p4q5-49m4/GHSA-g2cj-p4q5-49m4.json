@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2cj-p4q5-49m4",
-  "modified": "2022-04-30T18:14:19Z",
+  "modified": "2025-04-03T03:38:22Z",
   "published": "2022-04-30T18:14:19Z",
   "aliases": [
     "CVE-2000-0794"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1527"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=200008021924.e72JOVs12558%40ix.put.poznan.pl"
     },
     {
       "type": "WEB",

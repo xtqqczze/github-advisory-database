@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgrc-m757-f2p2",
-  "modified": "2022-04-30T18:13:38Z",
+  "modified": "2025-04-03T03:36:56Z",
   "published": "2022-04-30T18:13:38Z",
   "aliases": [
     "CVE-2000-0447"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1254"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=6C740781F92BD411831F0090273A8AB806FD4A%40exchange.servers.delphis.net"
     },
     {
       "type": "WEB",

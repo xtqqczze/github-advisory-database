@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpp2-7wxh-2grj",
-  "modified": "2022-04-30T18:14:17Z",
+  "modified": "2025-04-03T03:38:16Z",
   "published": "2022-04-30T18:14:17Z",
   "aliases": [
     "CVE-2000-0775"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=399a01c01122$0d7f2310$0201a8c0@aviram"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=399a01c01122%240d7f2310%240201a8c0%40aviram"
     }
   ],
   "database_specific": {

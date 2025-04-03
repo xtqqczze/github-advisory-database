@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j8x-rg33-7fqr",
-  "modified": "2022-04-30T18:14:16Z",
+  "modified": "2025-04-03T03:38:16Z",
   "published": "2022-04-30T18:14:16Z",
   "aliases": [
     "CVE-2000-0762"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=004601c003a1$ba473260$ddeaa2cd@itradefair.net"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=004601c003a1%24ba473260%24ddeaa2cd%40itradefair.net"
     }
   ],
   "database_specific": {

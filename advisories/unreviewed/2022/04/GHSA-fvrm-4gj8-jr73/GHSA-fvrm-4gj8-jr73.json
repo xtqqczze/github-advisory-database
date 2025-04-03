@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvrm-4gj8-jr73",
-  "modified": "2022-04-30T18:13:22Z",
+  "modified": "2025-04-03T03:36:37Z",
   "published": "2022-04-30T18:13:22Z",
   "aliases": [
     "CVE-2000-0300"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1093"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=20000406030958.23902.qmail%40securityfocus.com"
     },
     {
       "type": "WEB",

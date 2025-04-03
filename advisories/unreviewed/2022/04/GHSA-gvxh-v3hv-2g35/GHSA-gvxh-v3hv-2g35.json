@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvxh-v3hv-2g35",
-  "modified": "2022-04-30T18:13:42Z",
+  "modified": "2025-04-03T03:36:12Z",
   "published": "2022-04-30T18:13:41Z",
   "aliases": [
     "CVE-2000-0469"
@@ -20,7 +20,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-06-22&msg=ILENKALMCAFBLHBGEOFKGEJCCAAA.jwesterink%40jwesterink.daxis.nl"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-06-22&msg=ILENKALMCAFBLHBGEOFKGEJCCAAA.jwesterink@jwesterink.daxis.nl"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=4.2.0.58.20000620193604.00979950%40mail.clark.net"
     },
     {
       "type": "WEB",

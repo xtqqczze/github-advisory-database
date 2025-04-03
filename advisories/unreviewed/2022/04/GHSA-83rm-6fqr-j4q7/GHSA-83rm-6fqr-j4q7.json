@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83rm-6fqr-j4q7",
-  "modified": "2022-04-30T18:13:18Z",
+  "modified": "2025-04-03T03:36:45Z",
   "published": "2022-04-30T18:13:18Z",
   "aliases": [
     "CVE-2000-0270"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1126"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-04-15&msg=tg4s8zioxq.fsf%40mercury.rus.uni-stuttgart.de"
     },
     {
       "type": "WEB",

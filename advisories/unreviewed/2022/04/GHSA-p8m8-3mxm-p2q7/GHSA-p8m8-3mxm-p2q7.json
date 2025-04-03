@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8m8-3mxm-p2q7",
-  "modified": "2022-04-30T18:13:11Z",
+  "modified": "2025-04-03T03:36:20Z",
   "published": "2022-04-30T18:13:11Z",
   "aliases": [
     "CVE-2000-0213"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1002"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=38B3E60A.6A84FEC3%40cybcom.net"
     },
     {
       "type": "WEB",

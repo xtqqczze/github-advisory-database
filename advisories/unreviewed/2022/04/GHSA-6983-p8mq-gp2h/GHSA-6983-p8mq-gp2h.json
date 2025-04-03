@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6983-p8mq-gp2h",
-  "modified": "2022-04-30T18:14:03Z",
+  "modified": "2025-04-03T03:37:45Z",
   "published": "2022-04-30T18:14:03Z",
   "aliases": [
     "CVE-2000-0643"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1470"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=200007130827.BAA32671%40Rage.Resentment.org"
     },
     {
       "type": "WEB",

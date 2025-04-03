@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcxx-v744-5g56",
-  "modified": "2022-04-30T18:13:20Z",
+  "modified": "2025-04-03T03:36:45Z",
   "published": "2022-04-30T18:13:20Z",
   "aliases": [
     "CVE-2000-0292"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1129"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.LNX.4.10.10004190908140.32750-100000%40localhost.localdomain"
     },
     {
       "type": "WEB",

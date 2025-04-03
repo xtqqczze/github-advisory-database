@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3fp-c6fr-mp9h",
-  "modified": "2022-04-30T18:13:57Z",
+  "modified": "2025-04-03T03:37:32Z",
   "published": "2022-04-30T18:13:57Z",
   "aliases": [
     "CVE-2000-0604"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1383"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.LNX.4.21.0006211209500.22969-100000%40nimue.tpi.pl"
     },
     {
       "type": "WEB",

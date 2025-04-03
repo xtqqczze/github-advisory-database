@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-977m-wr29-gj29",
-  "modified": "2022-04-30T18:14:00Z",
+  "modified": "2025-04-03T03:37:52Z",
   "published": "2022-04-30T18:14:00Z",
   "aliases": [
     "CVE-2000-0637"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1451"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=396B3F8F.9244D290%40nat.bg"
     },
     {
       "type": "WEB",

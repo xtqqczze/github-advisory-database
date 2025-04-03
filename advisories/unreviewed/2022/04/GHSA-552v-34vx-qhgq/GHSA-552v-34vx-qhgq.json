@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-552v-34vx-qhgq",
-  "modified": "2022-04-30T18:13:14Z",
+  "modified": "2025-04-03T03:36:34Z",
   "published": "2022-04-30T18:13:14Z",
   "aliases": [
     "CVE-2000-0243"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1076"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=web-5645555%40post2.rnci.com"
     },
     {
       "type": "WEB",

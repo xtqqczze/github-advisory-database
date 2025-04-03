@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3pjj-9jv7-w6xw",
-  "modified": "2022-04-30T18:13:17Z",
+  "modified": "2025-04-03T03:36:41Z",
   "published": "2022-04-30T18:13:17Z",
   "aliases": [
     "CVE-2000-0261"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1103"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=383085010.956159226625.JavaMail.root%40web305-mc.mail.com"
     },
     {
       "type": "WEB",

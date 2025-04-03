@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhr8-x4hv-57hf",
-  "modified": "2022-04-30T18:13:06Z",
+  "modified": "2025-04-03T03:36:19Z",
   "published": "2022-04-30T18:13:06Z",
   "aliases": [
     "CVE-2000-0166"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/995"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=NCBBKFKDOLAGKIAPMILPGEJHCCAA.labs%40ussrback.com"
     },
     {
       "type": "WEB",

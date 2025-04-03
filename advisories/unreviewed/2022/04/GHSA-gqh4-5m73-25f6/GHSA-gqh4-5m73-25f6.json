@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gqh4-5m73-25f6",
-  "modified": "2022-04-30T18:14:16Z",
+  "modified": "2025-04-03T03:38:16Z",
   "published": "2022-04-30T18:14:16Z",
   "aliases": [
     "CVE-2000-0766"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1610"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=200008270354.UAA10952%40user4.hushmail.com"
     },
     {
       "type": "WEB",

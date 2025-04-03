@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4r76-hhh5-w3m9",
-  "modified": "2022-04-30T18:12:53Z",
+  "modified": "2025-04-03T03:35:57Z",
   "published": "2022-04-30T18:12:53Z",
   "aliases": [
     "CVE-2000-0053"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2000/ms00-001"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ246731"
     },
     {
       "type": "WEB",

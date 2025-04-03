@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jw72-8cwx-jh57",
-  "modified": "2022-04-30T18:13:09Z",
+  "modified": "2025-04-03T03:36:28Z",
   "published": "2022-04-30T18:13:09Z",
   "aliases": [
     "CVE-2000-0193"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1030"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=200003020436.PAA20168%40jawa.chilli.net.au"
     },
     {
       "type": "WEB",

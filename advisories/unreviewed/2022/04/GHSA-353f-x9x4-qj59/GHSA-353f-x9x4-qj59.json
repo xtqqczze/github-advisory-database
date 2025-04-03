@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-353f-x9x4-qj59",
-  "modified": "2022-04-30T18:13:28Z",
+  "modified": "2025-04-03T03:37:54Z",
   "published": "2022-04-30T18:13:28Z",
   "aliases": [
     "CVE-2000-0354"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/681"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=15769.990928%40tomcat.ru"
     },
     {
       "type": "WEB",

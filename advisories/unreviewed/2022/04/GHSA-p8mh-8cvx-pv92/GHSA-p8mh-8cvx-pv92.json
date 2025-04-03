@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8mh-8cvx-pv92",
-  "modified": "2022-04-30T18:13:45Z",
+  "modified": "2025-04-03T03:37:29Z",
   "published": "2022-04-30T18:13:45Z",
   "aliases": [
     "CVE-2000-0504"

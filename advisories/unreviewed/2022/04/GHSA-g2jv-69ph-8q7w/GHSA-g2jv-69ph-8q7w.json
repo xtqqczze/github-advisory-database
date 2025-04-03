@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2jv-69ph-8q7w",
-  "modified": "2022-04-30T18:13:03Z",
+  "modified": "2025-04-03T03:36:15Z",
   "published": "2022-04-30T18:13:03Z",
   "aliases": [
     "CVE-2000-0141"
@@ -20,7 +20,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-02-22&msg=NDBBLKOPOLNKELHPDEFKIEPGCAAA.renzo.toma%40veronica.nl"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-02-22&msg=NDBBLKOPOLNKELHPDEFKIEPGCAAA.renzo.toma@veronica.nl"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-02-8&msg=20000211224935.A13236%40infomag.ape.relarn.ru"
     },
     {
       "type": "WEB",
