@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24f9-34c8-68cp",
-  "modified": "2022-04-30T18:16:45Z",
+  "modified": "2025-04-03T03:44:07Z",
   "published": "2022-04-30T18:16:45Z",
   "aliases": [
     "CVE-2001-0804"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.osvdb.org/683"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/archive/1/4.3.2.7.2.20010715184257.00b20100%40compumodel.com"
     },
     {
       "type": "WEB",

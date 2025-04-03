@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qm4-5wpq-jgj4",
-  "modified": "2022-04-30T18:16:46Z",
+  "modified": "2025-04-03T03:44:07Z",
   "published": "2022-04-30T18:16:46Z",
   "aliases": [
     "CVE-2001-0805"
@@ -20,7 +20,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.securityfocus.com/archive/1/20010619150935.A5226%40tarantella.com"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.securityfocus.com/archive/1/20010619150935.A5226@tarantella.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/archive/1/3B2E37D0.81D9ED9D%40snosoft.com"
     },
     {
       "type": "WEB",
