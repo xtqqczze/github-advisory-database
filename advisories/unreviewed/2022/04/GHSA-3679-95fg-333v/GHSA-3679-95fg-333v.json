@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3679-95fg-333v",
-  "modified": "2022-04-30T18:23:00Z",
+  "modified": "2025-04-03T03:52:06Z",
   "published": "2022-04-30T18:23:00Z",
   "aliases": [
     "CVE-2002-2353"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gc39-q3h7-g7mp",
-  "modified": "2022-04-30T18:23:04Z",
+  "modified": "2025-04-03T03:52:10Z",
   "published": "2022-04-30T18:23:04Z",
   "aliases": [
     "CVE-2002-2369"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2mq-qhg4-vp92",
-  "modified": "2022-04-30T18:22:43Z",
+  "modified": "2025-04-03T03:51:39Z",
   "published": "2022-04-30T18:22:43Z",
   "aliases": [
     "CVE-2002-2207"

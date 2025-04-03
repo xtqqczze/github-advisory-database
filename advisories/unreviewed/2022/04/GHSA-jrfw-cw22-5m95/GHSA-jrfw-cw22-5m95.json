@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrfw-cw22-5m95",
-  "modified": "2022-04-30T18:21:16Z",
+  "modified": "2025-04-03T03:53:08Z",
   "published": "2022-04-30T18:21:16Z",
   "aliases": [
     "CVE-2002-1497"

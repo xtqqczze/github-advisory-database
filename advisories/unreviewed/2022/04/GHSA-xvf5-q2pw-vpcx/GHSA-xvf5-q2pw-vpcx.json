@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvf5-q2pw-vpcx",
-  "modified": "2022-04-30T18:22:48Z",
+  "modified": "2025-04-03T03:51:44Z",
   "published": "2022-04-30T18:22:48Z",
   "aliases": [
     "CVE-2002-2246"
