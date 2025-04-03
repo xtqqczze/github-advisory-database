@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm75-8hcq-5577",
-  "modified": "2022-05-01T02:24:24Z",
+  "modified": "2025-04-03T04:21:32Z",
   "published": "2022-05-01T02:24:24Z",
   "aliases": [
     "CVE-2005-4131"
@@ -69,6 +69,10 @@
     {
       "type": "WEB",
       "url": "http://www.dicks-blog.com/archives/2005/12/08/excel-vulnerability-for-sale"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.eweek.com/article2/0%2C1759%2C1899697%2C00.asp?kc=EWRSS03129TX1K0000614"
     },
     {
       "type": "WEB",

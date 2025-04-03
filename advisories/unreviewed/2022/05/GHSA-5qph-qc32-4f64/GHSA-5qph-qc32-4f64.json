@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qph-qc32-4f64",
-  "modified": "2022-05-01T02:24:19Z",
+  "modified": "2025-04-03T04:21:30Z",
   "published": "2022-05-01T02:24:19Z",
   "aliases": [
     "CVE-2005-4093"
@@ -29,6 +29,14 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1015326"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/swinog%40lists.swinog.ch/msg00798.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/swinog%40lists.swinog.ch/msg00799.html"
     },
     {
       "type": "WEB",
