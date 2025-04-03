@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xg7-gh44-f87f",
-  "modified": "2022-04-30T18:11:21Z",
+  "modified": "2025-04-03T03:35:21Z",
   "published": "2022-04-30T18:11:21Z",
   "aliases": [
     "CVE-1999-0864"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/851"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=19991203020720.13115.qmail%40nwcst289.netaddress.usa.net"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf4v-53v8-r6cm",
-  "modified": "2022-04-30T18:10:57Z",
+  "modified": "2025-04-03T03:34:36Z",
   "published": "2022-04-30T18:10:57Z",
   "aliases": [
     "CVE-1999-0668"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://ciac.llnl.gov/ciac/bulletins/j-064.shtml"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ240308"
     },
     {
       "type": "WEB",

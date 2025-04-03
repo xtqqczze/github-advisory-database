@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccxh-933v-rq23",
-  "modified": "2022-04-30T18:13:43Z",
+  "modified": "2025-04-03T03:34:11Z",
   "published": "2022-04-30T18:13:43Z",
   "aliases": [
     "CVE-2000-0481"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/4993"
+    },
+    {
+      "type": "WEB",
+      "url": "http://securityfocus.com/templates/archive.pike?list=82&date=2000-06-22&msg=00060200422401.01667%40lez"
     },
     {
       "type": "WEB",

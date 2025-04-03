@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmc3-rccm-q9xx",
-  "modified": "2022-04-30T18:13:06Z",
+  "modified": "2025-04-03T03:35:09Z",
   "published": "2022-04-30T18:13:06Z",
   "aliases": [
     "CVE-2000-0165"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.ciac.org/ciac/bulletins/k-023.shtml"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=2000-02-15&msg=Pine.BSF.4.21.0002192249290.10784-100000%40freefall.freebsd.org"
     },
     {
       "type": "WEB",

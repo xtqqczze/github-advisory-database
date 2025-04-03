@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m8qw-pv9v-5gw3",
-  "modified": "2022-04-30T18:11:07Z",
+  "modified": "2025-04-03T03:34:31Z",
   "published": "2022-04-30T18:11:07Z",
   "aliases": [
     "CVE-1999-0747"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/589"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.BSI.4.10.9908170253560.19291-100000%40saturn.psn.net"
     },
     {
       "type": "WEB",

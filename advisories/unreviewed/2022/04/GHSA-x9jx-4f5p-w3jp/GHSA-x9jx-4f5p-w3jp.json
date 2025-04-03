@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9jx-4f5p-w3jp",
-  "modified": "2022-04-30T18:11:25Z",
+  "modified": "2025-04-03T03:34:55Z",
   "published": "2022-04-30T18:11:25Z",
   "aliases": [
     "CVE-1999-0895"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/725"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=19991020150002.21047.qmail%40tarjan.mediaways.net"
     },
     {
       "type": "WEB",

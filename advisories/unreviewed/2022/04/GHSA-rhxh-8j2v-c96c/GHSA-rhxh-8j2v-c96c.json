@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhxh-8j2v-c96c",
-  "modified": "2022-04-30T18:11:24Z",
+  "modified": "2025-04-03T03:35:04Z",
   "published": "2022-04-30T18:11:24Z",
   "aliases": [
     "CVE-1999-0885"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/770"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&date=1999-11-01&msg=01BF261F.928821E0.kerb%40fnusa.com"
     },
     {
       "type": "WEB",

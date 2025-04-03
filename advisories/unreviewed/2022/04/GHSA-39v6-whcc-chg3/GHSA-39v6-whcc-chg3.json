@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-39v6-whcc-chg3",
-  "modified": "2022-04-30T18:11:55Z",
+  "modified": "2025-04-03T03:32:55Z",
   "published": "2022-04-30T18:11:55Z",
   "aliases": [
     "CVE-1999-1155"

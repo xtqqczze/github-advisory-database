@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpxw-v79p-g5g4",
-  "modified": "2022-04-30T18:13:25Z",
+  "modified": "2025-04-03T03:34:10Z",
   "published": "2022-04-30T18:13:25Z",
   "aliases": [
     "CVE-2000-0333"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/1165"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.SOL.4.10.10005021942380.2077-100000%40paranoia.pgci.ca"
     },
     {
       "type": "WEB",

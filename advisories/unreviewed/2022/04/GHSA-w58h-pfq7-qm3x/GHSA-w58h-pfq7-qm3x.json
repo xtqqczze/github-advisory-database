@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w58h-pfq7-qm3x",
-  "modified": "2022-04-30T18:10:28Z",
+  "modified": "2025-04-03T03:33:43Z",
   "published": "2022-04-30T18:10:28Z",
   "aliases": [
     "CVE-1999-0381"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/342"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=Pine.LNX.3.96.990225011801.12757A-100000%40eleet"
     },
     {
       "type": "WEB",

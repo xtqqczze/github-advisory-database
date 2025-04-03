@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96rr-v4m6-cxx3",
-  "modified": "2022-04-30T18:10:59Z",
+  "modified": "2025-04-03T03:34:30Z",
   "published": "2022-04-30T18:10:59Z",
   "aliases": [
     "CVE-1999-0676"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/575"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=19990809134220.A1191%40hades.chaoz.org"
     },
     {
       "type": "WEB",

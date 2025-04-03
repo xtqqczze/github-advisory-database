@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwww-664m-pfp9",
-  "modified": "2022-04-30T18:13:25Z",
+  "modified": "2025-04-03T03:34:36Z",
   "published": "2022-04-30T18:13:25Z",
   "aliases": [
     "CVE-2000-0328"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/604"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=4.1.19990824165629.00abcb40%40192.168.124.1"
     },
     {
       "type": "WEB",

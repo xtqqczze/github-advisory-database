@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcvw-xrwf-77hv",
-  "modified": "2022-04-30T18:11:04Z",
+  "modified": "2025-04-03T03:34:36Z",
   "published": "2022-04-30T18:11:04Z",
   "aliases": [
     "CVE-1999-0720"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/597"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/templates/archive.pike?list=1&msg=lcamtuf.4.05.9907041223290.355-300000%40nimue.ids.pl"
     },
     {
       "type": "WEB",

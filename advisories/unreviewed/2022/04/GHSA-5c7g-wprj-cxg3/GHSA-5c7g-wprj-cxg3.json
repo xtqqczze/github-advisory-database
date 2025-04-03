@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5c7g-wprj-cxg3",
-  "modified": "2022-04-30T18:11:22Z",
+  "modified": "2025-04-03T03:34:14Z",
   "published": "2022-04-30T18:11:22Z",
   "aliases": [
     "CVE-1999-0874"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A915"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ234905"
     },
     {
       "type": "WEB",
