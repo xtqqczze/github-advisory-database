@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cc8-674c-8354",
-  "modified": "2024-01-25T03:30:57Z",
+  "modified": "2025-04-03T03:55:24Z",
   "published": "2022-04-29T01:27:00Z",
   "aliases": [
     "CVE-2003-0791"
