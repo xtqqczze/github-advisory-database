@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg6j-ghhp-9v83",
-  "modified": "2022-05-01T06:37:04Z",
+  "modified": "2025-04-03T04:28:28Z",
   "published": "2022-05-01T06:37:04Z",
   "aliases": [
     "CVE-2006-0009"
@@ -145,6 +145,10 @@
     {
       "type": "WEB",
       "url": "http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=TROJ%5FMDROPPER%2EBH"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.trendmicro.com/vinfo/virusencyclo/default5.asp?VName=TROJ_MDROPPER.BH"
     },
     {
       "type": "WEB",

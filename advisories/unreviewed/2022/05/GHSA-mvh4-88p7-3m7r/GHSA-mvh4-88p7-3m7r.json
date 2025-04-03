@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mvh4-88p7-3m7r",
-  "modified": "2022-05-01T06:46:20Z",
+  "modified": "2025-04-03T04:28:08Z",
   "published": "2022-05-01T06:46:20Z",
   "aliases": [
     "CVE-2006-1125"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1015728"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.dslreports.com/forum/remark%2C15601404"
     },
     {
       "type": "WEB",

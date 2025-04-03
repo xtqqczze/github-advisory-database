@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq67-c8r3-w2f5",
-  "modified": "2022-05-01T06:48:46Z",
+  "modified": "2025-04-03T04:28:56Z",
   "published": "2022-05-01T06:48:46Z",
   "aliases": [
     "CVE-2006-1367"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/19319"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.digitalmunition.com/DMA%5B2006-0321a%5D.txt"
     },
     {
       "type": "WEB",

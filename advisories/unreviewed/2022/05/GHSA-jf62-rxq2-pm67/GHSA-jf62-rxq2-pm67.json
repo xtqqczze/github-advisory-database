@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf62-rxq2-pm67",
-  "modified": "2022-05-01T06:48:25Z",
+  "modified": "2025-04-03T04:28:47Z",
   "published": "2022-05-01T06:48:25Z",
   "aliases": [
     "CVE-2006-1342"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/22875"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/marcelo/linux-2.4.git%3Ba=commit%3Bh=09d3b3dcfa80c9094f1748c1be064b9326c9ef2b"
     },
     {
       "type": "WEB",

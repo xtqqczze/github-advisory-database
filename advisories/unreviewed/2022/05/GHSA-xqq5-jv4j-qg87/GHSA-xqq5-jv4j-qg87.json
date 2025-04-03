@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqq5-jv4j-qg87",
-  "modified": "2022-05-01T06:48:29Z",
+  "modified": "2025-04-03T04:28:51Z",
   "published": "2022-05-01T06:48:29Z",
   "aliases": [
     "CVE-2006-1355"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/19284"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.dslreports.com/forum/remark%2C15601404~days=9999~start=20"
     },
     {
       "type": "WEB",
