@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mx8m-37wj-g2r4",
-  "modified": "2022-04-29T02:59:24Z",
+  "modified": "2025-04-03T04:01:24Z",
   "published": "2022-04-29T02:59:24Z",
   "aliases": [
     "CVE-2004-1353"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1011789"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sunsolve.sun.com/search/document.do?assetkey=1-26-57657-1&searchclause=%22category:security%22%20%22availability%2C%20security%22"
     },
     {
       "type": "WEB",

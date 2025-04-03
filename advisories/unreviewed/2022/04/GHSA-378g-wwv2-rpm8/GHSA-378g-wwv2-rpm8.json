@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-378g-wwv2-rpm8",
-  "modified": "2022-04-29T02:58:04Z",
+  "modified": "2025-04-03T04:02:18Z",
   "published": "2022-04-29T02:58:04Z",
   "aliases": [
     "CVE-2004-0636"

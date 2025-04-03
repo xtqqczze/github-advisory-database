@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p34-xxjh-4hrg",
-  "modified": "2022-04-29T02:58:27Z",
+  "modified": "2025-04-03T04:01:46Z",
   "published": "2022-04-29T02:58:27Z",
   "aliases": [
     "CVE-2004-0837"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "http://marc.info/?l=bugtraq&m=110140517515735&w=2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mysql.bkbits.net:8080/mysql-3.23/diffs/myisammrg/myrg_open.c%401.15"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3h6-mm98-c6p9",
-  "modified": "2022-04-29T02:57:21Z",
+  "modified": "2025-04-03T04:01:40Z",
   "published": "2022-04-29T02:57:21Z",
   "aliases": [
     "CVE-2004-0214"
@@ -61,6 +61,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1011647"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3Ben-us%3B322857"
     },
     {
       "type": "WEB",

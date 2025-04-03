@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxrm-mh87-53gf",
-  "modified": "2022-04-29T02:58:00Z",
+  "modified": "2025-04-03T04:02:40Z",
   "published": "2022-04-29T02:58:00Z",
   "aliases": [
     "CVE-2004-0601"

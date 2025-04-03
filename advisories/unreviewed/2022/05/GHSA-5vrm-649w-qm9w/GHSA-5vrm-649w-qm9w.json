@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vrm-649w-qm9w",
-  "modified": "2022-05-01T01:49:23Z",
+  "modified": "2025-04-03T04:02:37Z",
   "published": "2022-05-01T01:49:23Z",
   "aliases": [
     "CVE-2005-0441"
@@ -61,6 +61,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/12080"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sybase.com/detail/1%2C6904%2C1033894%2C00.html"
     },
     {
       "type": "WEB",
