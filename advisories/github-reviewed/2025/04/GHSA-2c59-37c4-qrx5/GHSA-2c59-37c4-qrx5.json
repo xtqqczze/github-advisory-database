@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c59-37c4-qrx5",
-  "modified": "2025-04-01T18:04:17Z",
+  "modified": "2025-04-03T13:24:31Z",
   "published": "2025-04-01T09:30:20Z",
   "aliases": [
     "CVE-2025-30065"
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/okzqb3kn479gqzxm21gg5vqr35om9gw5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/01/1"
     }
   ],
   "database_specific": {

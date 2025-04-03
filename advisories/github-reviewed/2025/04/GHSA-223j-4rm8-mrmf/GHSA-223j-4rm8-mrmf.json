@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-223j-4rm8-mrmf",
-  "modified": "2025-04-02T22:35:38Z",
+  "modified": "2025-04-03T13:24:25Z",
   "published": "2025-04-02T22:35:37Z",
   "aliases": [
     "CVE-2025-30218"
   ],
   "summary": "Next.js may leak x-middleware-subrequest-id to external hosts",
-  "details": "## Summary\nIn the process of remediating [CVE-2025-29927](https://github.com/advisories/GHSA-f82v-jwr5-mffw), we looked at other possible exploits of Middleware. We independently verified this low severity vulnerability in parallel with two reports from independent researchers.\n\nLearn more [here](https://vercel.com/changelog/cve-2025-30218-5DREmEH765PoeAsrNNQj3O).\n\n## Credit\n\nThank you to Jinseo Kim [kjsman](https://hackerone.com/kjsman?type=user) and [ryotak](https://hackerone.com/ryotak?type=user) for the responsible disclosure. These researchers were awarded as part of our bug bounty program.",
+  "details": "## Summary\nIn the process of remediating [CVE-2025-29927](https://github.com/advisories/GHSA-f82v-jwr5-mffw), we looked at other possible exploits of Middleware. We independently verified this low severity vulnerability in parallel with two reports from independent researchers.\n\nLearn more [here](https://vercel.com/changelog/cve-2025-30218-5DREmEH765PoeAsrNNQj3O).\n\n## Credit\n\nThank you to Jinseo Kim [kjsman](https://hackerone.com/kjsman?type=user) and [RyotaK](https://hackerone.com/ryotak?type=user) (GMO Flatt Security Inc.) with [takumi-san.ai](https://takumi-san.ai) for the responsible disclosure. These researchers were awarded as part of our bug bounty program.",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -110,6 +110,10 @@
       "url": "https://github.com/vercel/next.js/security/advisories/GHSA-223j-4rm8-mrmf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30218"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/vercel/next.js"
     },
@@ -125,6 +129,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-02T22:35:37Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-02T22:15:19Z"
   }
 }
