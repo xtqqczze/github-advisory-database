@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx9x-wmwc-fcv2",
-  "modified": "2022-04-29T02:57:08Z",
+  "modified": "2025-04-03T03:58:24Z",
   "published": "2022-04-29T02:57:08Z",
   "aliases": [
     "CVE-2004-0103"

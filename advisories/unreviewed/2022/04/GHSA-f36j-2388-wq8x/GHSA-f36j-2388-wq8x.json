@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f36j-2388-wq8x",
-  "modified": "2022-04-29T02:57:58Z",
+  "modified": "2025-04-03T04:00:18Z",
   "published": "2022-04-29T02:57:58Z",
   "aliases": [
     "CVE-2004-0580"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/16142"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linksys.custhelp.com/cgi-bin/linksys.cfg/php/enduser/std_adp.php?p_faqid=832&p_%20%5Ccreated=1086294093&p_sid=pU1X1idh&p_lva=&p_sp=cF9zcmNoPSZwX3NvcnRfYnk9JnBfZ3JpZHNvcnQ9%20%5CJnBfcm93X2NudD02NTQmcF9wYWdlPTE%2A&p_li="
     },
     {
       "type": "WEB",

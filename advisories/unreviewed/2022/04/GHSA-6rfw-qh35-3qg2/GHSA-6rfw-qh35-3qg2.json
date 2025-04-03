@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rfw-qh35-3qg2",
-  "modified": "2022-04-29T02:58:00Z",
+  "modified": "2025-04-03T04:00:20Z",
   "published": "2022-04-29T02:58:00Z",
   "aliases": [
     "CVE-2004-0596"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/16694"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.6/cset%4040d4aa72hPLWy-jMLr0eJAXMxHcNZg"
     },
     {
       "type": "WEB",

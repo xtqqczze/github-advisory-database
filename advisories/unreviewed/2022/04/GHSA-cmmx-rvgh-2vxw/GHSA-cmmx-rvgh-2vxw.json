@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmmx-rvgh-2vxw",
-  "modified": "2022-04-29T02:57:21Z",
+  "modified": "2025-04-03T03:59:00Z",
   "published": "2022-04-29T02:57:21Z",
   "aliases": [
     "CVE-2004-0224"

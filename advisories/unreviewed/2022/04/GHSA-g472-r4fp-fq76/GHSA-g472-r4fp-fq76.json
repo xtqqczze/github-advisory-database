@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g472-r4fp-fq76",
-  "modified": "2022-04-29T01:26:42Z",
+  "modified": "2025-04-03T03:58:42Z",
   "published": "2022-04-29T01:26:42Z",
   "aliases": [
     "CVE-2003-0612"

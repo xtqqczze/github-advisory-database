@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qcgh-9mjq-vq4m",
-  "modified": "2022-04-29T02:57:16Z",
+  "modified": "2025-04-03T03:59:32Z",
   "published": "2022-04-29T02:57:16Z",
   "aliases": [
     "CVE-2004-0177"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://distro.conectiva.com.br/atualizacoes/?id=a&anuncio=000846"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.4/cset%404056b368s6vpJbGWxDD_LhQNYQrdzQ"
     },
     {
       "type": "WEB",

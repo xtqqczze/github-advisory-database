@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgp9-mx7h-rwqv",
-  "modified": "2024-02-13T18:38:20Z",
+  "modified": "2025-04-03T03:59:38Z",
   "published": "2022-04-29T02:57:41Z",
   "aliases": [
     "CVE-2004-0411"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/16163"
+    },
+    {
+      "type": "WEB",
+      "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A954"
     },
     {
       "type": "WEB",

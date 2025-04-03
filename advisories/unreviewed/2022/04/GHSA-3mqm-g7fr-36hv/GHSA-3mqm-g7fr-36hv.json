@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mqm-g7fr-36hv",
-  "modified": "2022-04-29T02:57:53Z",
+  "modified": "2025-04-03T04:00:13Z",
   "published": "2022-04-29T02:57:53Z",
   "aliases": [
     "CVE-2004-0540"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/11746"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3Ben-us%3B830847"
     },
     {
       "type": "WEB",

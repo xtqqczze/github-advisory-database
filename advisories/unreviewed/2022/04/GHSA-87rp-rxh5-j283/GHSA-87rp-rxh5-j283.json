@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87rp-rxh5-j283",
-  "modified": "2022-04-29T03:00:17Z",
+  "modified": "2025-04-03T03:58:35Z",
   "published": "2022-04-29T03:00:17Z",
   "aliases": [
     "CVE-2004-1827"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/9873"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.yabbforum.com/community/YaBB.pl?board=general%3Baction=display%3Bnum=1093133233"
     },
     {
       "type": "WEB",

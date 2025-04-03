@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mhq-qg26-p24h",
-  "modified": "2022-04-29T02:57:09Z",
+  "modified": "2025-04-03T03:59:27Z",
   "published": "2022-04-29T02:57:09Z",
   "aliases": [
     "CVE-2004-0116"
