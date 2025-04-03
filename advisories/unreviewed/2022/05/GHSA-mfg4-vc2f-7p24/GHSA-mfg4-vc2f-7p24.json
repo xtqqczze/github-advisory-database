@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfg4-vc2f-7p24",
-  "modified": "2022-05-01T02:31:00Z",
+  "modified": "2025-04-03T04:24:17Z",
   "published": "2022-05-01T02:31:00Z",
   "aliases": [
     "CVE-2005-4803"

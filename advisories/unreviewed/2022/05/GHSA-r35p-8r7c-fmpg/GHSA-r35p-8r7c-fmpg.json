@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r35p-8r7c-fmpg",
-  "modified": "2022-05-01T02:30:39Z",
+  "modified": "2025-04-03T04:24:11Z",
   "published": "2022-05-01T02:30:39Z",
   "aliases": [
     "CVE-2005-4773"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.osvdb.org/21584"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.vmware.com/support/kb/enduser/std_adp.php?p_sid=dsxk%2ABWh&p_lva=&p_faqid=1817"
     },
     {
       "type": "WEB",

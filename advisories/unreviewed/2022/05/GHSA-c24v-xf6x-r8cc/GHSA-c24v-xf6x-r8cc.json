@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c24v-xf6x-r8cc",
-  "modified": "2022-05-01T02:28:58Z",
+  "modified": "2025-04-03T04:23:40Z",
   "published": "2022-05-01T02:28:58Z",
   "aliases": [
     "CVE-2005-4618"
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2006/dsa-1018"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=8febdd85adaa41fa1fc1cb31286210fc2cd3ed0c"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p4j-8pc7-8jg8",
-  "modified": "2022-05-01T06:37:28Z",
+  "modified": "2025-04-03T04:24:43Z",
   "published": "2022-05-01T06:37:28Z",
   "aliases": [
     "CVE-2006-0114"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://forge.joomla.org/sf/go/artf2950"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.joomla.org/index.php/topic%2C29031.0.html"
     },
     {
       "type": "WEB",

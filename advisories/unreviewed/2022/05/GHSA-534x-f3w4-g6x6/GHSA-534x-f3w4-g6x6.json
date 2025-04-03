@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-534x-f3w4-g6x6",
-  "modified": "2022-05-01T06:37:29Z",
+  "modified": "2025-04-03T04:24:44Z",
   "published": "2022-05-01T06:37:29Z",
   "aliases": [
     "CVE-2006-0121"
@@ -28,7 +28,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://www-10.lotus.com/ldd/r5fixlist.nsf/5c087391999d06e7852569280062619d/20f66e356a76c90f8525702a00420e08?OpenDocument&Highlight=0%2CMKIN67MQVW"
+    },
+    {
+      "type": "WEB",
       "url": "http://www-10.lotus.com/ldd/r5fixlist.nsf/5c087391999d06e7852569280062619d/20f66e356a76c90f8525702a00420e08?OpenDocument&Highlight=0,MKIN67MQVW"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www-10.lotus.com/ldd/r5fixlist.nsf/5c087391999d06e7852569280062619d/2221243535d88a2b8525701b00420cd6?OpenDocument&Highlight=0%2CMKIN693QUT"
     },
     {
       "type": "WEB",
