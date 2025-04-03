@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpj5-xrgp-rfqj",
-  "modified": "2022-05-01T07:19:33Z",
+  "modified": "2025-04-03T04:40:52Z",
   "published": "2022-05-01T07:19:33Z",
   "aliases": [
     "CVE-2006-4535"
@@ -69,6 +69,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2006/dsa-1184"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/kernel-svn-changes%40lists.alioth.debian.org/msg02314.html"
     },
     {
       "type": "WEB",

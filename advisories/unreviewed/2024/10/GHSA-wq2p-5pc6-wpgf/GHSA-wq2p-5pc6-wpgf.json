@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq2p-5pc6-wpgf",
-  "modified": "2025-03-20T00:32:39Z",
+  "modified": "2025-04-03T04:41:19Z",
   "published": "2024-10-15T18:30:50Z",
   "aliases": [
     "CVE-2024-9676"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2024-9676"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3301"
     },
     {
       "type": "WEB",
