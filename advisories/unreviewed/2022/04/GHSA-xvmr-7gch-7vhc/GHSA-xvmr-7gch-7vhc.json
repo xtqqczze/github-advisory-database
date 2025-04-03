@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvmr-7gch-7vhc",
-  "modified": "2022-04-30T18:22:21Z",
+  "modified": "2025-04-03T03:51:00Z",
   "published": "2022-04-30T18:22:21Z",
   "aliases": [
     "CVE-2002-2019"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.iss.net/security_center/static/9369.php"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.oscommerce.com/about.php/news%2C72"
     },
     {
       "type": "WEB",

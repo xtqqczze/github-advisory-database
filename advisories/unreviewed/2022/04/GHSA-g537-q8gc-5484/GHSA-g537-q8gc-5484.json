@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g537-q8gc-5484",
-  "modified": "2022-04-30T18:21:27Z",
+  "modified": "2025-04-03T03:49:43Z",
   "published": "2022-04-30T18:21:27Z",
   "aliases": [
     "CVE-2002-1571"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2002-1571"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.4/diffs/arch/i386/kernel/i387.c%401.6"
     },
     {
       "type": "WEB",

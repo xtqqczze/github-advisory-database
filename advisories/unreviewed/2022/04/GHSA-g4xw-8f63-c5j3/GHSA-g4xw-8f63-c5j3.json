@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4xw-8f63-c5j3",
-  "modified": "2022-04-30T18:22:06Z",
+  "modified": "2025-04-03T03:50:37Z",
   "published": "2022-04-30T18:22:06Z",
   "aliases": [
     "CVE-2002-1906"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.iss.net/security_center/static/10360.php"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.polycom.com/common/pw_item_show_doc/0%2C1449%2C1442%2C00.pdf"
     },
     {
       "type": "WEB",

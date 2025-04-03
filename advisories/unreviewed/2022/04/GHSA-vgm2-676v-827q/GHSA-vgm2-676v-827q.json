@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgm2-676v-827q",
-  "modified": "2022-04-30T18:21:43Z",
+  "modified": "2025-04-03T03:49:59Z",
   "published": "2022-04-30T18:21:43Z",
   "aliases": [
     "CVE-2002-1716"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.guninski.com/m$oxp-2.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.guninski.com/m%24oxp-2.html"
     },
     {
       "type": "WEB",

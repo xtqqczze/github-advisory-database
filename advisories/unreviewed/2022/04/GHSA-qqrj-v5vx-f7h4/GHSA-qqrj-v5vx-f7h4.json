@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqrj-v5vx-f7h4",
-  "modified": "2022-04-30T18:21:44Z",
+  "modified": "2025-04-03T03:49:59Z",
   "published": "2022-04-30T18:21:44Z",
   "aliases": [
     "CVE-2002-1712"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://online.securityfocus.com/archive/1/252616"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3BEN-US%3Bq280446"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp2x-mrrh-4c4r",
-  "modified": "2022-04-30T18:22:17Z",
+  "modified": "2025-04-03T03:50:57Z",
   "published": "2022-04-30T18:22:17Z",
   "aliases": [
     "CVE-2002-1991"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.iss.net/security_center/static/9369.php"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.oscommerce.com/about.php/news%2C72"
     },
     {
       "type": "WEB",

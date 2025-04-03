@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwpw-w2v5-h4cw",
-  "modified": "2022-04-30T18:22:17Z",
+  "modified": "2025-04-03T03:50:51Z",
   "published": "2022-04-30T18:22:17Z",
   "aliases": [
     "CVE-2002-1973"
@@ -33,6 +33,14 @@
     {
       "type": "WEB",
       "url": "http://archives.neohapsis.com/archives/bugtraq/2002-07/0145.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3B216562"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3B310649"
     },
     {
       "type": "WEB",

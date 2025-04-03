@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgj6-rx26-xq27",
-  "modified": "2022-04-30T18:21:36Z",
+  "modified": "2025-04-03T03:49:15Z",
   "published": "2022-04-30T18:21:36Z",
   "aliases": [
     "CVE-2002-1645"

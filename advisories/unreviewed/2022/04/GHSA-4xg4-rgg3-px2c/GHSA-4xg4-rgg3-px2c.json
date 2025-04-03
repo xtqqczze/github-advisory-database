@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xg4-rgg3-px2c",
-  "modified": "2022-04-30T18:22:21Z",
+  "modified": "2025-04-03T03:51:02Z",
   "published": "2022-04-30T18:22:21Z",
   "aliases": [
     "CVE-2002-2028"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://cert.uni-stuttgart.de/archive/bugtraq/2002/01/msg00278.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3BEN-US%3Bq188700"
     },
     {
       "type": "WEB",

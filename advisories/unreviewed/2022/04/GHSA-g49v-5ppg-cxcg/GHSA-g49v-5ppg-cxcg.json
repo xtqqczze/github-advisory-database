@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g49v-5ppg-cxcg",
-  "modified": "2022-04-30T18:20:57Z",
+  "modified": "2025-04-03T03:49:28Z",
   "published": "2022-04-30T18:20:57Z",
   "aliases": [
     "CVE-2002-1335"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://mi.med.tohoku.ac.jp/%7Esatodai/w3m-dev-en/200211.month/838.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mi.med.tohoku.ac.jp/~satodai/w3m-dev-en/200211.month/838.html"
     },
     {
       "type": "WEB",
