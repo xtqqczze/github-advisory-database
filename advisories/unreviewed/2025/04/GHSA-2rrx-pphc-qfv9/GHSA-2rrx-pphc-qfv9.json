@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2rrx-pphc-qfv9",
+  "modified": "2025-04-03T15:31:13Z",
+  "published": "2025-04-03T15:31:13Z",
+  "aliases": [
+    "CVE-2025-2946"
+  ],
+  "details": "pgAdmin <= 9.1 is affected by a security vulnerability with Cross-Site Scripting(XSS). If attackers execute any arbitrary HTML/JavaScript in a user's browser through query result rendering, then HTML/JavaScript runs on the browser.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2946"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pgadmin-org/pgadmin4/issues/8602"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-03T13:15:43Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwhg-hhp3-v8r3",
-  "modified": "2022-05-01T18:19:01Z",
+  "modified": "2025-04-03T15:30:40Z",
   "published": "2022-05-01T18:19:01Z",
   "aliases": [
     "CVE-2007-3967"
   ],
   "details": "Directory traversal vulnerability in index.php in PHP Directory Lister (dirLIST) before 0.1.1 allows remote attackers to list the contents of a parent directory via a .. (dot dot) in the folder parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

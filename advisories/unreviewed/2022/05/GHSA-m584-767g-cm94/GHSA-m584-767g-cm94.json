@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m584-767g-cm94",
-  "modified": "2022-05-02T00:05:06Z",
+  "modified": "2025-04-03T15:30:44Z",
   "published": "2022-05-02T00:05:06Z",
   "aliases": [
     "CVE-2008-3939"
   ],
   "details": "Directory traversal vulnerability in the web interface in AVTECH PageR Enterprise before 5.0.7 allows remote attackers to read arbitrary files via directory traversal sequences in the URI.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

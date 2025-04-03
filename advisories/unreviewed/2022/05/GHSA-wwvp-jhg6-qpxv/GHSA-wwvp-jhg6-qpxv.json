@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwvp-jhg6-qpxv",
-  "modified": "2022-05-01T18:15:50Z",
+  "modified": "2025-04-03T15:30:42Z",
   "published": "2022-05-01T18:15:50Z",
   "aliases": [
     "CVE-2007-3650"
   ],
   "details": "myWebland myBloggie 2.1.6 allow remote attackers to obtain sensitive information via (1) an invalid year parameter to calendar.php, reached through index.php; (2) a direct request to common.php; and (3) a mode array parameter in the query string to login.php, which reveal the installation path in various error messages.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

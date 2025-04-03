@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frqg-qr33-mvr2",
-  "modified": "2025-04-02T21:30:51Z",
+  "modified": "2025-04-03T15:31:12Z",
   "published": "2025-04-02T21:30:51Z",
   "aliases": [
     "CVE-2025-29719"
   ],
   "details": "SourceCodester (rems) Employee Management System 1.0 is vulnerable to Cross Site Scripting (XSS) in add_employee.php via the First Name and Address text fields.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-02T21:15:32Z"

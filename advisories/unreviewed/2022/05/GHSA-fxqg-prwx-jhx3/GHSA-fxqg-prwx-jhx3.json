@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxqg-prwx-jhx3",
-  "modified": "2022-05-01T23:47:12Z",
+  "modified": "2025-04-03T15:30:41Z",
   "published": "2022-05-01T23:47:12Z",
   "aliases": [
     "CVE-2008-2170"
   ],
   "details": "Unspecified vulnerability in Century routers allows remote attackers to cause a denial of service (dropped session) via crafted BGP UPDATE messages, leading to route flapping, possibly a related issue to CVE-2007-6372.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

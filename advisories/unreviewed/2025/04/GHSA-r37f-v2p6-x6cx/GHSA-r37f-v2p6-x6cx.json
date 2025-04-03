@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r37f-v2p6-x6cx",
-  "modified": "2025-04-03T06:30:23Z",
+  "modified": "2025-04-03T15:31:13Z",
   "published": "2025-04-03T06:30:23Z",
   "aliases": [
     "CVE-2025-3136"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3136"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ARPANET-cybersecurity/vuldb/issues/2"
     },
     {
       "type": "WEB",

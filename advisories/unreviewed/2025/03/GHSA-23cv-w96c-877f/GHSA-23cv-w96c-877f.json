@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23cv-w96c-877f",
-  "modified": "2025-03-28T03:30:25Z",
+  "modified": "2025-04-03T15:31:09Z",
   "published": "2025-03-28T03:30:25Z",
   "aliases": [
     "CVE-2025-2894"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://takeonme.org/cves/cve-2025-2894"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.axios.com/2025/04/01/threat-spotlight-backdoor-in-chinese-robots-future-of-cybersecurity"
     },
     {
       "type": "WEB",

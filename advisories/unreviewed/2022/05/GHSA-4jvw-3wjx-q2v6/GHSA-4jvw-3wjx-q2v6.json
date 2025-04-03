@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4jvw-3wjx-q2v6",
-  "modified": "2022-05-01T23:47:11Z",
+  "modified": "2025-04-03T15:30:42Z",
   "published": "2022-05-01T23:47:11Z",
   "aliases": [
     "CVE-2008-2173"
   ],
   "details": "Unspecified vulnerability in Yamaha routers allows remote attackers to cause a denial of service (dropped session) via crafted BGP UPDATE messages, leading to route flapping, possibly a related issue to CVE-2007-6372.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
