@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-377r-32g5-6qvm",
-  "modified": "2022-05-01T01:53:36Z",
+  "modified": "2025-04-03T04:11:29Z",
   "published": "2022-05-01T01:53:36Z",
   "aliases": [
     "CVE-2005-0977"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://usn.ubuntu.com/103-1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.6/cset%40420551fbRlv9-QG6Gw9Lw_bKVfPSsg"
     },
     {
       "type": "WEB",

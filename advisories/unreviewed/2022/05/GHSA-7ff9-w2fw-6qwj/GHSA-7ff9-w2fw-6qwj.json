@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7ff9-w2fw-6qwj",
-  "modified": "2022-05-01T01:59:07Z",
+  "modified": "2025-04-03T04:12:52Z",
   "published": "2022-05-01T01:59:07Z",
   "aliases": [
     "CVE-2005-1492"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/20415"
+    },
+    {
+      "type": "WEB",
+      "url": "http://gossamer-threads.com/perl/gforum/gforum.cgi?post=281029%3B"
     },
     {
       "type": "WEB",

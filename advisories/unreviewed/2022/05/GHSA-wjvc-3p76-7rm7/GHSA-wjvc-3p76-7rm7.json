@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjvc-3p76-7rm7",
-  "modified": "2022-05-01T01:51:52Z",
+  "modified": "2025-04-03T04:10:57Z",
   "published": "2022-05-01T01:51:52Z",
   "aliases": [
     "CVE-2005-0770"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/14610"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.datarescue.com/cgi-local/ultimatebb.cgi?ubb=get_topic%3Bf=2%3Bt=000155%3Bp=0"
     },
     {
       "type": "WEB",

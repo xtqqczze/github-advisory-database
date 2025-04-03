@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2wvf-mfh8-69x7",
-  "modified": "2022-05-01T01:58:11Z",
+  "modified": "2025-04-03T04:12:27Z",
   "published": "2022-05-01T01:58:11Z",
   "aliases": [
     "CVE-2005-1395"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1013855"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.digitalmunition.com/DMA%5B2005-0501a%5D.txt"
     },
     {
       "type": "WEB",

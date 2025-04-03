@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4324-m828-225f",
-  "modified": "2022-05-01T01:48:52Z",
+  "modified": "2025-04-03T04:10:14Z",
   "published": "2022-05-01T01:48:51Z",
   "aliases": [
     "CVE-2005-0390"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2005/dsa-706"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/debian-devel-changes%40lists.debian.org/msg118978.html"
     },
     {
       "type": "WEB",

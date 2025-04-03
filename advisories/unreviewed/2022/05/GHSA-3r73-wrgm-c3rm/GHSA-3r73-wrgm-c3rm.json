@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r73-wrgm-c3rm",
-  "modified": "2022-05-01T01:53:25Z",
+  "modified": "2025-04-03T04:11:21Z",
   "published": "2022-05-01T01:53:25Z",
   "aliases": [
     "CVE-2005-0942"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/12080"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sybase.com/detail/1%2C6904%2C1033894%2C00.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-823f-9rm4-pfxx",
-  "modified": "2022-05-01T01:48:51Z",
+  "modified": "2025-04-03T04:10:15Z",
   "published": "2022-05-01T01:48:51Z",
   "aliases": [
     "CVE-2005-0385"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2005/dsa-693"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.digitalmunition.com/DMA%5B2005-0310a%5D.txt"
     },
     {
       "type": "WEB",
