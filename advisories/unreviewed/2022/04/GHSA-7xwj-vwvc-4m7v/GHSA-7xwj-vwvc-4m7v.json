@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xwj-vwvc-4m7v",
-  "modified": "2022-04-30T18:19:36Z",
+  "modified": "2025-04-03T03:47:18Z",
   "published": "2022-04-30T18:19:36Z",
   "aliases": [
     "CVE-2002-0618"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.guninski.com/ex$el2.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.guninski.com/ex%24el2.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf5r-rhwg-2249",
-  "modified": "2022-04-30T18:18:59Z",
+  "modified": "2025-04-03T03:46:19Z",
   "published": "2022-04-30T18:18:59Z",
   "aliases": [
     "CVE-2002-0317"

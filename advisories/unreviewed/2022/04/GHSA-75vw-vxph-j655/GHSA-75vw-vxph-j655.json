@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75vw-vxph-j655",
-  "modified": "2022-04-30T18:20:04Z",
+  "modified": "2025-04-03T03:47:51Z",
   "published": "2022-04-30T18:20:04Z",
   "aliases": [
     "CVE-2002-0859"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://marc.info/?l=bugtraq&m=102450188620081&w=2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ282010"
     },
     {
       "type": "WEB",

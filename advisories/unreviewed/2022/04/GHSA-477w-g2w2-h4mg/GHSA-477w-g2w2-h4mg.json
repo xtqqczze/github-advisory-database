@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-477w-g2w2-h4mg",
-  "modified": "2022-04-30T18:21:00Z",
+  "modified": "2025-04-03T03:47:45Z",
   "published": "2022-04-30T18:21:00Z",
   "aliases": [
     "CVE-2002-1353"

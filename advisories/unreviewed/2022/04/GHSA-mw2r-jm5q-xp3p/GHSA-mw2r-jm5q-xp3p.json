@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw2r-jm5q-xp3p",
-  "modified": "2022-04-30T18:19:44Z",
+  "modified": "2025-04-03T03:47:21Z",
   "published": "2022-04-30T18:19:44Z",
   "aliases": [
     "CVE-2002-0698"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://bvlive01.iss.net/issEn/delivery/xforce/alertdetail.jsp?oid=20759"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ326322"
     },
     {
       "type": "WEB",
