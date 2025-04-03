@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93fg-xppj-x2xf",
-  "modified": "2022-04-30T18:09:54Z",
+  "modified": "2025-04-03T03:31:10Z",
   "published": "2022-04-30T18:09:53Z",
   "aliases": [
     "CVE-1999-0070"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-1999-0070"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rc5d27fc1e76dc5650e1a3f1db1de403120f4c2d041cb7352850455c2%40%3Cusers.httpd.apache.org%3E"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rr53-c8w6-c9v3",
-  "modified": "2022-04-30T18:12:21Z",
+  "modified": "2025-04-03T03:31:42Z",
   "published": "2022-04-30T18:12:21Z",
   "aliases": [
     "CVE-1999-1380"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://mlarchive.ima.com/win95/1997/May/0342.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://news.zdnet.co.uk/story/0%2C%2Cs2065518%2C00.html"
     },
     {
       "type": "WEB",
