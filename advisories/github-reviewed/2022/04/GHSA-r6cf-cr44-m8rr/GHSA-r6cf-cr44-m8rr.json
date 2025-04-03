@@ -1,14 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6cf-cr44-m8rr",
-  "modified": "2025-04-03T03:50:59Z",
+  "modified": "2025-04-03T16:15:46Z",
   "published": "2022-04-30T18:22:19Z",
   "aliases": [
     "CVE-2002-2009"
   ],
+  "summary": "Apache Tomcat Leaks Pathname Information via Error Message",
   "details": "Apache Tomcat 4.0.1 allows remote attackers to obtain the web root path via HTTP requests for JSP files preceded by (1) +/, (2) >/, (3) </, and (4) %20/, which leaks the pathname in an error message.",
-  "severity": [],
-  "affected": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.0.0"
+            },
+            {
+              "last_affected": "4.0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -17,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/42915"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/tomcat"
     },
     {
       "type": "WEB",
@@ -44,6 +74,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://web.archive.org/web/20200302170930/https://www.securityfocus.com/bid/4557"
+    },
+    {
+      "type": "WEB",
       "url": "http://tomcat.apache.org/security-4.html"
     },
     {
@@ -53,17 +87,15 @@
     {
       "type": "WEB",
       "url": "http://www.derkeiler.com/Mailing-Lists/securityfocus/bugtraq/2002-04/0297.html"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/4557"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-209"
+    ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-03T16:15:45Z",
     "nvd_published_at": "2002-12-31T05:00:00Z"
   }
 }
