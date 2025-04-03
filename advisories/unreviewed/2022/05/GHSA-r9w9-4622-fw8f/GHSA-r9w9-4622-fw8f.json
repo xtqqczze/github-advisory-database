@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9w9-4622-fw8f",
-  "modified": "2022-05-01T07:21:21Z",
+  "modified": "2025-04-03T04:40:24Z",
   "published": "2022-05-01T07:21:21Z",
   "aliases": [
     "CVE-2006-4731"
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/19960"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sql-ledger.org/cgi-bin/nav.pl?page=news.html&title=What%27s%20New"
     },
     {
       "type": "WEB",

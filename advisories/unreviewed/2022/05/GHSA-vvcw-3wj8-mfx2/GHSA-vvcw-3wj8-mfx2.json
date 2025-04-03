@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvcw-3wj8-mfx2",
-  "modified": "2022-05-01T07:17:28Z",
+  "modified": "2025-04-03T04:39:07Z",
   "published": "2022-05-01T07:17:28Z",
   "aliases": [
     "CVE-2006-4311"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/21553"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.bb-pcsecurity.de/Websecurity/342/org/Sonium_Enterprise_Adressbook_Version_0.2_%28folder%29_RFI.htm"
     },
     {
       "type": "WEB",

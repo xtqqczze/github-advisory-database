@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rww-54h5-93c2",
-  "modified": "2022-05-01T07:19:38Z",
+  "modified": "2025-04-03T04:39:47Z",
   "published": "2022-05-01T07:19:38Z",
   "aliases": [
     "CVE-2006-4539"
@@ -16,7 +16,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://cerberusweb.com/cvsweb.pl/support-center/cerberus-support-center/includes/widgets/module_company_tickets.php.diff?r1=1.6%3Br2=1.7%3Bf=h"
+    },
+    {
+      "type": "WEB",
       "url": "http://cerberusweb.com/cvsweb.pl/support-center/cerberus-support-center/includes/widgets/module_company_tickets.php.diff?r1=1.6;r2=1.7;f=h"
+    },
+    {
+      "type": "WEB",
+      "url": "http://cerberusweb.com/cvsweb.pl/support-center/cerberus-support-center/includes/widgets/module_track_tickets.php.diff?r1=1.17%3Br2=1.18%3Bf=h"
     },
     {
       "type": "WEB",

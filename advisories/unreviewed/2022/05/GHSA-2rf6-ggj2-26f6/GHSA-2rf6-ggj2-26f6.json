@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rf6-ggj2-26f6",
-  "modified": "2022-05-01T07:20:04Z",
+  "modified": "2025-04-03T04:39:57Z",
   "published": "2022-05-01T07:20:04Z",
   "aliases": [
     "CVE-2006-4596"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/21746"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.bb-pcsecurity.de/Websecurity/384/org/MyBace_Light_%28hauptverzeichniss%29_Remote_File_Inclusion.htm"
     },
     {
       "type": "WEB",

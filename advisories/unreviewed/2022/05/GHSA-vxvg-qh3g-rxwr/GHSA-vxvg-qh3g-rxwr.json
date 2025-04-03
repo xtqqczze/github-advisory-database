@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxvg-qh3g-rxwr",
-  "modified": "2022-05-01T07:19:39Z",
+  "modified": "2025-04-03T04:39:47Z",
   "published": "2022-05-01T07:19:39Z",
   "aliases": [
     "CVE-2006-4538"
@@ -73,6 +73,10 @@
     {
       "type": "WEB",
       "url": "http://support.avaya.com/elmodocs2/security/ASA-2007-063.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/stable/linux-2.6.17.y.git%3Ba=commit%3Bh=8833ebaa3f4325820fe3338ccf6fae04f6669254"
     },
     {
       "type": "WEB",

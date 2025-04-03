@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v76g-p5xj-4qm7",
-  "modified": "2022-05-01T07:16:44Z",
+  "modified": "2025-04-03T04:39:29Z",
   "published": "2022-05-01T07:16:44Z",
   "aliases": [
     "CVE-2006-4244"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/19758"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sql-ledger.org/cgi-bin/nav.pl?page=news.html&title=What%27s%20New"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5xf-mm43-mjm8",
-  "modified": "2022-05-01T07:20:25Z",
+  "modified": "2025-04-03T04:40:01Z",
   "published": "2022-05-01T07:20:25Z",
   "aliases": [
     "CVE-2006-4627"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://noderat.spaces.live.com/blog/cns!6ADE4614B66EADD2!1150.entry"
+    },
+    {
+      "type": "WEB",
+      "url": "http://noderat.spaces.live.com/blog/cns%216ADE4614B66EADD2%211150.entry"
     },
     {
       "type": "WEB",
