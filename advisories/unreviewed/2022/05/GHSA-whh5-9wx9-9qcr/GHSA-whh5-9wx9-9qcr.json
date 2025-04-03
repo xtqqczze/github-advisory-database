@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whh5-9wx9-9qcr",
-  "modified": "2022-05-01T06:41:16Z",
+  "modified": "2025-04-03T04:26:29Z",
   "published": "2022-05-01T06:41:16Z",
   "aliases": [
     "CVE-2006-0599"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/24706"
+    },
+    {
+      "type": "WEB",
+      "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi/0003-r1472-Do-not-distinguish-between-invalid-user-name-and-invalid-password.txt?bug=349528%3Bmsg=15%3Batt=3"
     },
     {
       "type": "WEB",

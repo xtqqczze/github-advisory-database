@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f24-59jc-5rvh",
-  "modified": "2022-05-01T06:37:08Z",
+  "modified": "2025-04-03T04:25:37Z",
   "published": "2022-05-01T06:37:07Z",
   "aliases": [
     "CVE-2006-0036"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/24203"
+    },
+    {
+      "type": "WEB",
+      "url": "http://kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commitdiff%3Bh=15db34702cfafd24acc60295cf14861e497502ab"
     },
     {
       "type": "WEB",

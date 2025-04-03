@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g93h-j8p6-gjpr",
-  "modified": "2022-05-01T06:41:15Z",
+  "modified": "2025-04-03T04:26:28Z",
   "published": "2022-05-01T06:41:15Z",
   "aliases": [
     "CVE-2006-0597"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/24704"
+    },
+    {
+      "type": "WEB",
+      "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi/0001-r1333-Fixed-crashes-with-very-long-revisions-attributes.txt?bug=349528%3Bmsg=15%3Batt=1"
     },
     {
       "type": "WEB",

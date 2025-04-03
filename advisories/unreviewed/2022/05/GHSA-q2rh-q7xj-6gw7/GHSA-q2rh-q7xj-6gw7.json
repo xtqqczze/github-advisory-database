@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2rh-q7xj-6gw7",
-  "modified": "2022-05-01T06:40:45Z",
+  "modified": "2025-04-03T04:26:02Z",
   "published": "2022-05-01T06:40:45Z",
   "aliases": [
     "CVE-2006-0527"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://attrition.org/pipermail/vim/2006-February/000551.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://computerworld.com/networkingtopics/networking/story/0%2C10801%2C103744%2C00.html"
     },
     {
       "type": "WEB",

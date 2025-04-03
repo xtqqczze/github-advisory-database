@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwpp-qfqf-g7fr",
-  "modified": "2022-05-01T06:41:14Z",
+  "modified": "2025-04-03T04:26:16Z",
   "published": "2022-05-01T06:41:14Z",
   "aliases": [
     "CVE-2006-0586"
@@ -49,6 +49,14 @@
     {
       "type": "WEB",
       "url": "http://www.red-database-security.com/advisory/oracle_sql_injection_kupv$ft_int.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.red-database-security.com/advisory/oracle_sql_injection_kupv%24ft.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.red-database-security.com/advisory/oracle_sql_injection_kupv%24ft_int.html"
     },
     {
       "type": "WEB",

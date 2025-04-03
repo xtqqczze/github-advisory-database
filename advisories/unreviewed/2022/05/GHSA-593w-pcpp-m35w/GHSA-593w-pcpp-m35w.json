@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-593w-pcpp-m35w",
-  "modified": "2022-05-01T06:37:09Z",
+  "modified": "2025-04-03T04:26:27Z",
   "published": "2022-05-01T06:37:09Z",
   "aliases": [
     "CVE-2006-0046"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://adzapper.sourceforge.net/cvslog.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi/squid_redirect.diff?bug=350308%3Bmsg=5%3Batt=1"
     },
     {
       "type": "WEB",
