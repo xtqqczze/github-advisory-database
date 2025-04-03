@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v64h-8rq4-grgg",
-  "modified": "2022-04-30T18:15:22Z",
+  "modified": "2025-04-03T03:39:54Z",
   "published": "2022-04-30T18:15:22Z",
   "aliases": [
     "CVE-2001-0083"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/5785"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3BQ281256"
     },
     {
       "type": "WEB",
