@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7gx-9mq3-49g8",
-  "modified": "2022-04-30T18:16:37Z",
+  "modified": "2025-04-03T03:43:33Z",
   "published": "2022-04-30T18:16:37Z",
   "aliases": [
     "CVE-2001-0735"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2001/dsa-066"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/archive/1/01071120191900.00788%40localhost.localdomain"
     },
     {
       "type": "WEB",

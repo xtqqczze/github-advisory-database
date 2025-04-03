@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2hj-4gfw-x63q",
-  "modified": "2022-04-30T18:16:27Z",
+  "modified": "2025-04-03T03:43:11Z",
   "published": "2022-04-30T18:16:27Z",
   "aliases": [
     "CVE-2001-0643"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://www.osvdb.org/7858"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sarc.com/avcenter/venc/data/vbs.postcard%40mm.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-974r-j647-cxfm",
-  "modified": "2022-04-30T18:16:15Z",
+  "modified": "2025-04-03T03:42:27Z",
   "published": "2022-04-30T18:16:15Z",
   "aliases": [
     "CVE-2001-0533"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www-1.ibm.com/services/continuity/recover1.nsf/advisories/85256A3400529A8685256A8D00804A37/$file/oar271.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www-1.ibm.com/services/continuity/recover1.nsf/advisories/85256A3400529A8685256A8D00804A37/%24file/oar271.txt"
     },
     {
       "type": "WEB",

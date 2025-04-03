@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whg4-5vp2-jqm9",
-  "modified": "2022-04-30T18:17:52Z",
+  "modified": "2025-04-03T03:42:00Z",
   "published": "2022-04-30T18:17:52Z",
   "aliases": [
     "CVE-2001-1362"

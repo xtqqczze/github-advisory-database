@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwxq-5whq-6gjx",
-  "modified": "2022-04-30T18:14:30Z",
+  "modified": "2025-04-03T03:42:01Z",
   "published": "2022-04-30T18:14:30Z",
   "aliases": [
     "CVE-2000-0891"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.notes.net/R5FixList.nsf/Search!SearchView&Query=CBAT45TU9S"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.notes.net/R5FixList.nsf/Search%21SearchView&Query=CBAT45TU9S"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prwg-wqfc-g6rx",
-  "modified": "2022-04-30T18:17:46Z",
+  "modified": "2025-04-03T03:41:52Z",
   "published": "2022-04-30T18:17:46Z",
   "aliases": [
     "CVE-2001-1309"

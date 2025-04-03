@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhqh-9wpw-2xvh",
-  "modified": "2022-04-30T18:17:46Z",
+  "modified": "2025-04-03T03:41:53Z",
   "published": "2022-04-30T18:17:46Z",
   "aliases": [
     "CVE-2001-1313"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://www.notes.net/r5fixlist.nsf/Search!SearchView&Query=DWUU4W6NC8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.notes.net/r5fixlist.nsf/Search%21SearchView&Query=DWUU4W6NC8"
     }
   ],
   "database_specific": {

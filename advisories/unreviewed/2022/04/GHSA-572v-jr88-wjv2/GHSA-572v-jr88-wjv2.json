@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-572v-jr88-wjv2",
-  "modified": "2022-04-30T18:17:18Z",
+  "modified": "2025-04-03T03:41:51Z",
   "published": "2022-04-30T18:17:18Z",
   "aliases": [
     "CVE-2001-1082"

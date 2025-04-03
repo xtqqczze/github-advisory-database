@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3rj-h78v-6rg2",
-  "modified": "2022-04-30T18:15:08Z",
+  "modified": "2025-04-03T03:43:06Z",
   "published": "2022-04-30T18:15:08Z",
   "aliases": [
     "CVE-2000-1215"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://marc.info/?l=bugtraq&m=100094373621813&w=2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www-10.lotus.com/ldd/r5fixlist.nsf/5c087391999d06e7852569280062619d/5552251934afaa9585256c0000737a7f?OpenDocument&Highlight=0%2CAWHN4A8QWM"
     },
     {
       "type": "WEB",

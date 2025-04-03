@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3m99-vrqx-m6h7",
-  "modified": "2022-04-30T18:16:16Z",
+  "modified": "2025-04-03T03:42:07Z",
   "published": "2022-04-30T18:16:16Z",
   "aliases": [
     "CVE-2001-0537"
@@ -36,7 +36,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.securityfocus.com/archive/1/1601227034.20010702112207%40olympos.org"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.securityfocus.com/archive/1/1601227034.20010702112207@olympos.org"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/archive/1/20010703011650.60515.qmail%40web14910.mail.yahoo.com"
     },
     {
       "type": "WEB",
@@ -44,7 +52,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.securityfocus.com/archive/1/4.3.2.7.2.20010629095801.0c3e6a70%40brussels.cisco.com"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.securityfocus.com/archive/1/4.3.2.7.2.20010629095801.0c3e6a70@brussels.cisco.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/archive/1/Pine.LNX.3.96.1010702134611.22995B-100000%40Lib-Vai.lib.asu.edu"
     },
     {
       "type": "WEB",
