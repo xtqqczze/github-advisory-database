@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhg6-m6c8-39c2",
-  "modified": "2025-04-01T21:31:17Z",
+  "modified": "2025-04-03T00:31:32Z",
   "published": "2025-04-01T15:31:37Z",
   "aliases": [
     "CVE-2025-30676"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://ofbiz.apache.org/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/01/5"
     }
   ],
   "database_specific": {

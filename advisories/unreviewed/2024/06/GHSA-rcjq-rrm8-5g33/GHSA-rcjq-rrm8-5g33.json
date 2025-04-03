@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcjq-rrm8-5g33",
-  "modified": "2024-06-04T09:30:57Z",
+  "modified": "2025-04-03T00:31:30Z",
   "published": "2024-06-04T09:30:57Z",
   "aliases": [
     "CVE-2023-40332"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-290",
       "CWE-799"
     ],
     "severity": "MODERATE",

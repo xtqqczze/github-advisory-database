@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q4x-fr4m-jp86",
-  "modified": "2025-03-25T03:21:10Z",
+  "modified": "2025-04-03T00:31:31Z",
   "published": "2025-03-23T15:30:33Z",
   "aliases": [
     "CVE-2025-27553"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/cnzqowyw9r2pl263cylmxhnvh41hyjcb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00006.html"
     },
     {
       "type": "WEB",

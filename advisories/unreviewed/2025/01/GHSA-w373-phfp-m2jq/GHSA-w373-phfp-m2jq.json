@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w373-phfp-m2jq",
-  "modified": "2025-01-23T18:31:17Z",
+  "modified": "2025-04-03T00:31:31Z",
   "published": "2025-01-15T15:31:24Z",
   "aliases": [
     "CVE-2024-57882"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fb08e6b0ba284e3dcdc9378de26dcb51d90710f5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/01/3"
     }
   ],
   "database_specific": {
