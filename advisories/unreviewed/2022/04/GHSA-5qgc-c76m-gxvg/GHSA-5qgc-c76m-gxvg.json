@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qgc-c76m-gxvg",
-  "modified": "2022-04-29T01:28:11Z",
+  "modified": "2025-04-03T03:57:30Z",
   "published": "2022-04-29T01:28:11Z",
   "aliases": [
     "CVE-2003-1500"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/13457"
+    },
+    {
+      "type": "WEB",
+      "url": "http://cpcommerce.org/forums/index.php?board=2%3Baction=display%3Bthreadid=864"
     },
     {
       "type": "WEB",

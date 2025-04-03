@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmjj-h9fc-7jm4",
-  "modified": "2022-04-29T01:27:42Z",
+  "modified": "2025-04-03T03:56:35Z",
   "published": "2022-04-29T01:27:42Z",
   "aliases": [
     "CVE-2003-1219"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://osdir.com/ml/web.oscommerce.cvs/2003-12/msg00024.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.oscommerce.com/community/bugs%2C1546"
     },
     {
       "type": "WEB",

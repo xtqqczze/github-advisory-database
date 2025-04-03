@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfvg-2vxv-fr75",
-  "modified": "2022-04-29T01:28:06Z",
+  "modified": "2025-04-03T03:57:22Z",
   "published": "2022-04-29T01:28:06Z",
   "aliases": [
     "CVE-2003-1456"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/11878"
+    },
+    {
+      "type": "WEB",
+      "url": "http://perl.bobbitt.ca/yabbse/index.php?board=2%3Baction=display%3Bthreadid=720"
     },
     {
       "type": "WEB",

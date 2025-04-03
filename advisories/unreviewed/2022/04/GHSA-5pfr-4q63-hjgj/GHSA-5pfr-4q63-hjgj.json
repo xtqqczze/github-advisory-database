@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pfr-4q63-hjgj",
-  "modified": "2022-04-29T01:27:18Z",
+  "modified": "2025-04-03T03:56:15Z",
   "published": "2022-04-29T01:27:18Z",
   "aliases": [
     "CVE-2003-0986"
@@ -20,7 +20,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.4/cset%403fdd54b3u9Eq0Wny2Nn1HGfI3pofOQ"
+    },
+    {
+      "type": "WEB",
       "url": "http://linux.bkbits.net:8080/linux-2.4/cset@3fdd54b3u9Eq0Wny2Nn1HGfI3pofOQ"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.6/cset%403ffcf122S7e3xPZCpibrXq6KRRjwqw"
     },
     {
       "type": "WEB",

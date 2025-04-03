@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8qg-v964-87w6",
-  "modified": "2022-04-29T01:27:15Z",
+  "modified": "2025-04-03T03:56:16Z",
   "published": "2022-04-29T01:27:15Z",
   "aliases": [
     "CVE-2003-0959"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/43072"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.4/cset%403ed382f7UfJ9Q2LKCJq1Tc5B7-EC5A"
     },
     {
       "type": "WEB",

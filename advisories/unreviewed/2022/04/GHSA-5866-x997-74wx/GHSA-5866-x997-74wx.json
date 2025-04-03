@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5866-x997-74wx",
-  "modified": "2022-04-29T01:27:32Z",
+  "modified": "2025-04-03T03:56:23Z",
   "published": "2022-04-29T01:27:32Z",
   "aliases": [
     "CVE-2003-1113"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4369-x39w-2545",
-  "modified": "2022-04-29T01:27:49Z",
+  "modified": "2025-04-03T03:56:49Z",
   "published": "2022-04-29T01:27:49Z",
   "aliases": [
     "CVE-2003-1291"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.vmware.com/download/esx/esx152-patch4.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.vmware.com/support/kb/enduser/std_adp.php?p_sid=dsxk%2ABWh&p_lva=&p_faqid=1108"
     },
     {
       "type": "WEB",
