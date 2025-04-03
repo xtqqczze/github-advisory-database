@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gc2-447c-xrg8",
-  "modified": "2022-05-01T02:03:14Z",
+  "modified": "2025-04-03T04:13:55Z",
   "published": "2022-05-01T02:03:14Z",
   "aliases": [
     "CVE-2005-1907"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1014113"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.microsoft.com/default.aspx?scid=kb%3B%5BLN%5D%3B894864"
     },
     {
       "type": "WEB",

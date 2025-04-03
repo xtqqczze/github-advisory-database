@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qg5c-7q7p-mwc6",
-  "modified": "2022-05-01T02:09:36Z",
+  "modified": "2025-04-03T04:16:18Z",
   "published": "2022-05-01T02:09:36Z",
   "aliases": [
     "CVE-2005-2573"
@@ -28,7 +28,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://mysql.bkbits.net:8080/mysql-4.0/cset%40428b981bg2iwh3CbGANDaF-W6DbttA"
+    },
+    {
+      "type": "WEB",
       "url": "http://mysql.bkbits.net:8080/mysql-4.0/cset@428b981bg2iwh3CbGANDaF-W6DbttA"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mysql.bkbits.net:8080/mysql-4.0/gnupatch%40428b981bg2iwh3CbGANDaF-W6DbttA"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v34h-4v23-vppf",
-  "modified": "2022-05-01T02:07:49Z",
+  "modified": "2025-04-03T04:15:42Z",
   "published": "2022-05-01T02:07:49Z",
   "aliases": [
     "CVE-2005-2384"

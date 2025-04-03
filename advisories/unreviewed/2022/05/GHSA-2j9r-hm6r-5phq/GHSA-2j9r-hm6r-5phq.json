@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j9r-hm6r-5phq",
-  "modified": "2022-05-01T02:07:52Z",
+  "modified": "2025-04-03T04:15:44Z",
   "published": "2022-05-01T02:07:52Z",
   "aliases": [
     "CVE-2005-2388"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1014566"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.eweek.com/article2/0%2C1759%2C1840131%2C00.asp"
     },
     {
       "type": "WEB",
