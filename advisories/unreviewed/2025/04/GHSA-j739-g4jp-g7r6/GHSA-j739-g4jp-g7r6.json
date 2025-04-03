@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j739-g4jp-g7r6",
+  "modified": "2025-04-03T21:32:59Z",
+  "published": "2025-04-03T21:32:59Z",
+  "aliases": [
+    "CVE-2024-45198"
+  ],
+  "details": "insightsoftware Spark JDBC 2.6.21 has a remote code execution vulnerability. Attackers can inject malicious parameters into the JDBC URL, triggering JNDI injection during the process when the JDBC Driver uses this URL to connect to the database. This can further lead to remote code execution.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45198"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/azraelxuemo/ef11311ae0633cbd3d794f73c64e3877"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-03T20:15:23Z"
+  }
+}

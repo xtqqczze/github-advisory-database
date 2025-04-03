@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmc4-wjcr-2569",
-  "modified": "2025-03-05T18:32:03Z",
+  "modified": "2025-04-03T21:32:54Z",
   "published": "2025-03-01T00:31:55Z",
   "aliases": [
     "CVE-2025-25723"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/gpac/gpac/issues/3089"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gpac/gpac/commit/74e26b8dfeb0ab8c7317603b80a18306d0698473"
     }
   ],
   "database_specific": {
