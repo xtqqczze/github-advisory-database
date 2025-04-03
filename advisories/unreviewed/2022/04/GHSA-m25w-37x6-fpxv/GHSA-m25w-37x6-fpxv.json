@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m25w-37x6-fpxv",
-  "modified": "2022-04-29T03:00:11Z",
+  "modified": "2025-04-03T04:03:57Z",
   "published": "2022-04-29T03:00:11Z",
   "aliases": [
     "CVE-2004-1765"

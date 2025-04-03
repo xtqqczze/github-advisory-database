@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh5p-mjrq-677v",
-  "modified": "2022-04-29T03:00:51Z",
+  "modified": "2025-04-03T04:04:29Z",
   "published": "2022-04-29T03:00:51Z",
   "aliases": [
     "CVE-2004-2119"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/10707"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.autistici.org/fdonato/advisory/tinyServer1.1%5B1.0.5%5D-adv.txt"
     },
     {
       "type": "WEB",

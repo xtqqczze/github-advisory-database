@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjqp-rvxp-g4m8",
-  "modified": "2022-04-29T03:01:02Z",
+  "modified": "2025-04-03T04:04:52Z",
   "published": "2022-04-29T03:01:02Z",
   "aliases": [
     "CVE-2004-2222"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/17950"
+    },
+    {
+      "type": "WEB",
+      "url": "http://gallery.devrandom.org.uk/cgi-bin/viewcvs.cgi/fsphpgallery/ChangeLog?rev=HEAD&amp%3Bcontent-type=text/vnd.viewcvs-markup"
     },
     {
       "type": "WEB",

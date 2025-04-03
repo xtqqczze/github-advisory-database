@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrfc-2g95-v53w",
-  "modified": "2022-04-29T02:57:12Z",
+  "modified": "2025-04-03T04:02:48Z",
   "published": "2022-04-29T02:57:12Z",
   "aliases": [
     "CVE-2004-0138"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://kernel.org/pub/linux/kernel/v2.4/ChangeLog-2.4.25"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.4/cset%404021346f79nBb-4X_usRikR3Iyb4Vg"
     },
     {
       "type": "WEB",

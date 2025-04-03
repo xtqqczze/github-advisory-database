@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qg73-p34x-r86c",
-  "modified": "2022-04-29T02:57:43Z",
+  "modified": "2025-04-03T04:02:49Z",
   "published": "2022-04-29T02:57:43Z",
   "aliases": [
     "CVE-2004-0429"

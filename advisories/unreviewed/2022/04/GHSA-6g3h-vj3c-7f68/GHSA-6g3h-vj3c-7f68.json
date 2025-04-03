@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6g3h-vj3c-7f68",
-  "modified": "2022-04-29T02:59:30Z",
+  "modified": "2025-04-03T04:03:07Z",
   "published": "2022-04-29T02:59:30Z",
   "aliases": [
     "CVE-2004-1388"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://www.digitalmunition.com/DMA%5B2005-0125a%5D.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/debian-bugs-closed%40lists.debian.org/msg02103.html"
     },
     {
       "type": "WEB",
