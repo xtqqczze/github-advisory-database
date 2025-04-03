@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9xx6-524x-cmgx",
-  "modified": "2022-05-01T07:15:20Z",
+  "modified": "2025-04-03T04:38:23Z",
   "published": "2022-05-01T07:15:20Z",
   "aliases": [
     "CVE-2006-4077"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/21432"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.bb-pcsecurity.de/Websecurity/301/org/Cwfm-0.9.1_%28Language%29_Remote_File_Inclusion.htm"
     },
     {
       "type": "WEB",

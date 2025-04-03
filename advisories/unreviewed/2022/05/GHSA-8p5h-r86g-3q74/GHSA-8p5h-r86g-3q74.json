@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p5h-r86g-3q74",
-  "modified": "2022-05-01T07:11:17Z",
+  "modified": "2025-04-03T04:36:48Z",
   "published": "2022-05-01T07:11:17Z",
   "aliases": [
     "CVE-2006-3670"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/2014"
+    },
+    {
+      "type": "WEB",
+      "url": "http://foro.elhacker.net/index.php/topic%2C131756.htm"
     },
     {
       "type": "WEB",

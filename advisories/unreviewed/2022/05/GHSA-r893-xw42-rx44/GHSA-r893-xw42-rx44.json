@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r893-xw42-rx44",
-  "modified": "2022-05-01T07:15:10Z",
+  "modified": "2025-04-03T04:38:23Z",
   "published": "2022-05-01T07:15:10Z",
   "aliases": [
     "CVE-2006-4074"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/21389"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.joomladeveloping.org/component/option%2Ccom_jd-wp/Itemid%2C29/p%2C33"
     },
     {
       "type": "WEB",

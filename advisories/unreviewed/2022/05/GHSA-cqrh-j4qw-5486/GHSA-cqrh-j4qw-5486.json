@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqrh-j4qw-5486",
-  "modified": "2022-05-01T07:10:56Z",
+  "modified": "2025-04-03T04:36:45Z",
   "published": "2022-05-01T07:10:56Z",
   "aliases": [
     "CVE-2006-3626"
@@ -81,6 +81,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2006/dsa-1111"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=blobdiff%3Bh=0cb8f20d000c25118947fcafa81606300ced35f8%3Bhp=243a94af0427b2630fb85f489a5419410dac3bfc%3Bhb=18b0bbd8ca6d3cb90425aa0d77b99a762c6d6de3%3Bf=fs/proc/base.c"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrxj-w3mr-763v",
-  "modified": "2022-05-01T07:15:47Z",
+  "modified": "2025-04-03T04:38:35Z",
   "published": "2022-05-01T07:15:47Z",
   "aliases": [
     "CVE-2006-4130"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://securityreason.com/securityalert/1379"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.remository.com/component/option%2Ccom_mamboboard/func%2Cview/catid%2C6/id%2C3666/#3666"
     },
     {
       "type": "WEB",

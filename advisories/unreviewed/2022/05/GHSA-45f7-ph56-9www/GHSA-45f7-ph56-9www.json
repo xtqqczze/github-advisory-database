@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45f7-ph56-9www",
-  "modified": "2022-05-01T07:10:51Z",
+  "modified": "2025-04-03T04:36:42Z",
   "published": "2022-05-01T07:10:51Z",
   "aliases": [
     "CVE-2006-3615"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://www.osvdb.org/27167"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.phorum.org/phorum5/read.php?14%2C114358"
     },
     {
       "type": "WEB",

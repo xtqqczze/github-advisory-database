@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xr4-7r4w-8xf9",
-  "modified": "2022-05-01T07:14:12Z",
+  "modified": "2025-04-03T04:37:50Z",
   "published": "2022-05-01T07:14:12Z",
   "aliases": [
     "CVE-2006-3970"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "http://developer.joomla.org/sf/sfmain/do/viewProject/projects.lmo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.joomla.org/index.php/topic%2C100164.0.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.joomla.org/index.php/topic%2C81590.0.html"
     },
     {
       "type": "WEB",

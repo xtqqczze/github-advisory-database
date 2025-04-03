@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6w7-255v-jjv3",
-  "modified": "2022-05-01T07:11:38Z",
+  "modified": "2025-04-03T04:36:58Z",
   "published": "2022-05-01T07:11:38Z",
   "aliases": [
     "CVE-2006-3698"
@@ -57,6 +57,10 @@
     {
       "type": "WEB",
       "url": "http://www.red-database-security.com/advisory/oracle_sql_injection_kupw$worker.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.red-database-security.com/advisory/oracle_sql_injection_kupw%24worker.html"
     },
     {
       "type": "WEB",

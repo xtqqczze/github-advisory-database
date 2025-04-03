@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h778-f632-pv59",
-  "modified": "2022-05-01T07:10:51Z",
+  "modified": "2025-04-03T04:36:41Z",
   "published": "2022-05-01T07:10:51Z",
   "aliases": [
     "CVE-2006-3611"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://retrogod.altervista.org/phorum5_local_incl_xpl.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.phorum.org/phorum5/read.php?14%2C114358"
     },
     {
       "type": "WEB",

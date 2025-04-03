@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8m6c-29r8-q4rv",
-  "modified": "2022-05-01T07:10:51Z",
+  "modified": "2025-04-03T04:36:43Z",
   "published": "2022-05-01T07:10:51Z",
   "aliases": [
     "CVE-2006-3612"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-3612"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.phorum.org/phorum5/read.php?14%2C114358"
     },
     {
       "type": "WEB",
