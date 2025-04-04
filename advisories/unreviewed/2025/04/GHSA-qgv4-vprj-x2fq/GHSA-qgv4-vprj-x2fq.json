@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgv4-vprj-x2fq",
-  "modified": "2025-04-01T21:31:30Z",
+  "modified": "2025-04-04T03:30:19Z",
   "published": "2025-04-01T21:31:30Z",
   "aliases": [
     "CVE-2025-29070"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mm2/Little-CMS/issues/475"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mm2/Little-CMS/issues/475#issuecomment-2696785063"
     }
   ],
   "database_specific": {
