@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8hg-vj8p-8m82",
-  "modified": "2024-03-25T12:30:52Z",
+  "modified": "2025-04-04T18:30:33Z",
   "published": "2024-03-25T12:30:52Z",
   "aliases": [
     "CVE-2022-44626"
   ],
-  "details": "Missing Authorization vulnerability in Squirrly SEO Plugin by Squirrly SEO.This issue affects SEO Plugin by Squirrly SEO: from n/a through 12.1.20.\n\n",
+  "details": "Missing Authorization vulnerability in Squirrly SEO Plugin by Squirrly SEO.This issue affects SEO Plugin by Squirrly SEO: from n/a through 12.1.20.",
   "severity": [
     {
       "type": "CVSS_V3",

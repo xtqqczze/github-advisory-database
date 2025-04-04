@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4pj-7rh2-rxw2",
-  "modified": "2023-01-25T21:30:19Z",
+  "modified": "2025-04-04T18:30:31Z",
   "published": "2023-01-18T18:30:16Z",
   "aliases": [
     "CVE-2022-45613"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/lithonn/bug-report/tree/main/vendors/oretnom23/bsms_ci/stored-xss"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40just0rg/book-store-management-system-1-0-unrestricted-input-leads-to-xss-74506d42492e"
     },
     {
       "type": "WEB",
