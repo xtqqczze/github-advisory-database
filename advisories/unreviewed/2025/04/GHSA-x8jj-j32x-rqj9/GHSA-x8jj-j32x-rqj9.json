@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8jj-j32x-rqj9",
-  "modified": "2025-04-01T21:31:30Z",
+  "modified": "2025-04-04T21:30:50Z",
   "published": "2025-04-01T21:31:30Z",
   "aliases": [
     "CVE-2025-29036"
   ],
   "details": "An issue in hackathon-starter v.8.1.0 allows a remote attacker to escalate privileges via the user.js component.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-266"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T21:15:43Z"

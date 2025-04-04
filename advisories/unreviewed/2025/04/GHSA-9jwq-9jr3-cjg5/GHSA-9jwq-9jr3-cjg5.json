@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9jwq-9jr3-cjg5",
-  "modified": "2025-04-04T18:31:07Z",
+  "modified": "2025-04-04T21:30:51Z",
   "published": "2025-04-04T18:31:07Z",
   "aliases": [
     "CVE-2025-3259"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3259"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sixth-action-50e.notion.site/Tenda-RX3-Buffer-Overflow-1c9f6468377380a2977cd6c3a81f453c"
     },
     {
       "type": "WEB",

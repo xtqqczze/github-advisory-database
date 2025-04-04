@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7w8-g554-fvr3",
-  "modified": "2023-02-10T03:30:20Z",
+  "modified": "2025-04-04T21:30:44Z",
   "published": "2023-02-03T18:30:26Z",
   "aliases": [
     "CVE-2021-37497"

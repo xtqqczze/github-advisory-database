@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vjf-fgr6-pcmc",
-  "modified": "2025-04-02T00:31:41Z",
+  "modified": "2025-04-04T21:30:50Z",
   "published": "2025-04-02T00:31:41Z",
   "aliases": [
     "CVE-2023-46988"
   ],
   "details": "Directory Traversal vulnerability in ONLYOFFICE Document Server v.7.5.0 and before allows a remote attacker to obtain sensitive information via a crafted file upload.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T22:15:20Z"
