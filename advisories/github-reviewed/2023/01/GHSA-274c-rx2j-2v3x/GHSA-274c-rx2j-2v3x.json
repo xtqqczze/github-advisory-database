@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-274c-rx2j-2v3x",
-  "modified": "2024-05-14T21:30:33Z",
+  "modified": "2025-04-04T19:35:40Z",
   "published": "2023-01-18T18:30:16Z",
   "aliases": [
     "CVE-2022-47950"
@@ -128,6 +128,10 @@
     {
       "type": "WEB",
       "url": "https://security.openstack.org/ossa/OSSA-2023-001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.debian.org/security/2023/dsa-5327"
     }
   ],
   "database_specific": {
