@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c26r-vw7p-2m7h",
-  "modified": "2025-04-03T18:30:58Z",
+  "modified": "2025-04-04T15:31:15Z",
   "published": "2025-04-03T18:30:58Z",
   "aliases": [
     "CVE-2024-4877"
   ],
   "details": "OpenVPN version 2.4.0 through 2.6.10 on Windows allows an external, lesser privileged process to create a named pipe which the OpenVPN GUI component would connect to allowing it to escalate its privileges",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-268"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-03T16:15:32Z"
