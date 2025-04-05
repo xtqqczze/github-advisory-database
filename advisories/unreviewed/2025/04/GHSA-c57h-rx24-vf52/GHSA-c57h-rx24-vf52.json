@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c57h-rx24-vf52",
-  "modified": "2025-04-03T21:32:59Z",
+  "modified": "2025-04-05T06:30:19Z",
   "published": "2025-04-03T21:32:59Z",
   "aliases": [
     "CVE-2025-31161"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://projectdiscovery.io/blog/crushftp-authentication-bypass"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/disclosure-drama-clouds-crushftp-vulnerability-exploitation"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.huntress.com/blog/crushftp-cve-2025-31161-auth-bypass-and-post-exploitation"
     }
   ],
   "database_specific": {
