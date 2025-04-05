@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ph84-rcj2-fxxm",
-  "modified": "2025-01-31T21:32:44Z",
+  "modified": "2025-04-05T00:30:26Z",
   "published": "2024-12-06T18:30:45Z",
   "aliases": [
     "CVE-2024-12254"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/H4O3UBAOAQQXGT4RE3E4XQYR5XLROORB"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250404-0010"
     },
     {
       "type": "WEB",
