@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2f9-x4p4-7xmh",
-  "modified": "2025-04-07T19:03:10Z",
+  "modified": "2025-04-07T21:10:13Z",
   "published": "2025-04-07T19:03:10Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2025-32030"
+  ],
   "summary": "Apollo Gateway Query Planner Vulnerable to Excessive Resource Consumption via Named Fragment Expansion",
   "details": "# Impact\n\n## Summary\n\nA vulnerability in Apollo Gateway allowed queries with deeply nested and reused named fragments to be prohibitively expensive to query plan, specifically during named fragment expansion. This could lead to excessive resource consumption and denial of service.\n\n## Details\n\nNamed fragments were being expanded once per fragment spread during query planning, leading to exponential resource usage when deeply nested and reused fragments were involved.\n\n## Fix/Mitigation\n\nA new **Query Fragment Expansion Limit** metric has been introduced:\n  - This metric computes the number of selections a query would have if its fragment spreads were fully expanded.\n  - The metric is checked against a limit to prevent excessive computation.\n\n# Patches\n\nThis has been remediated in `@apollo/gateway` version 2.10.1.\n\n# Workarounds\n\nNo known direct workarounds exist.\n\n# References\n\n[Query Planning Documentation](https://www.apollographql.com/docs/graphos/reference/federation/query-plans)\n\n## Acknowledgements\n\nWe appreciate the efforts of the security community in identifying and improving the performance and security of query planning mechanisms.",
   "severity": [
