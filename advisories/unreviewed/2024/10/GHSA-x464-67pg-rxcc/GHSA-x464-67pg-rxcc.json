@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x464-67pg-rxcc",
-  "modified": "2024-11-20T21:30:48Z",
+  "modified": "2025-04-07T09:30:22Z",
   "published": "2024-10-21T21:30:54Z",
   "aliases": [
     "CVE-2024-50056"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50056"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/03fa71e97e9bb116993ec1d51b8a6fe776db0984"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/72a68d2bede3284b95ee93a5ab3a81758bba95b0"
     },
     {
       "type": "WEB",
