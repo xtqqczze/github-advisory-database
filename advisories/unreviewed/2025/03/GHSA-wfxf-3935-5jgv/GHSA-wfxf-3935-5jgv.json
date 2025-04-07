@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfxf-3935-5jgv",
-  "modified": "2025-03-28T15:31:56Z",
+  "modified": "2025-04-07T18:30:40Z",
   "published": "2025-03-28T15:31:56Z",
   "aliases": [
     "CVE-2025-2877"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2877"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3636"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3637"
     },
     {
       "type": "WEB",

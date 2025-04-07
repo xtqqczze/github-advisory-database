@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9gv-mwp4-wx7g",
-  "modified": "2025-04-07T15:31:21Z",
+  "modified": "2025-04-07T18:30:46Z",
   "published": "2025-04-07T15:31:21Z",
   "aliases": [
     "CVE-2025-30195"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.powerdns.com/recursor/security-advisories/powerdns-advisory-2025-01.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/07/1"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r62-mjf5-xwhj",
-  "modified": "2025-04-07T09:30:23Z",
+  "modified": "2025-04-07T18:30:46Z",
   "published": "2025-04-07T09:30:23Z",
   "aliases": [
     "CVE-2025-30473"
   ],
   "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Apache Airflow Common SQL Provider.\n\nWhen using the partition clause in SQLTableCheckOperator as parameter (which was a recommended pattern), Authenticated UI User could inject arbitrary SQL command when triggering DAG exposing partition_clause to the user.\nThis allowed the DAG Triggering user to escalate privileges to execute those arbitrary commands which they normally would not have.\n\n\nThis issue affects Apache Airflow Common SQL Provider: before 1.24.1.\n\nUsers are recommended to upgrade to version 1.24.1, which fixes the issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -43,7 +48,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-07T09:15:16Z"
