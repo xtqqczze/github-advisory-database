@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxwh-jpp2-84pm",
-  "modified": "2024-11-19T22:29:15Z",
+  "modified": "2025-04-07T19:51:43Z",
   "published": "2024-08-18T21:31:07Z",
   "aliases": [
     "CVE-2024-6221"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/corydolphin/flask-cors/pull/368"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/corydolphin/flask-cors/commit/03aa3f8e2256437f7bad96422a747b98ab5e31bf"
     },
     {
       "type": "WEB",

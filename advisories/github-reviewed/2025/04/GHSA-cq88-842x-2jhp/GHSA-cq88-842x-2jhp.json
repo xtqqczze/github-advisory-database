@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cq88-842x-2jhp",
-  "modified": "2025-04-04T14:09:40Z",
+  "modified": "2025-04-07T19:52:04Z",
   "published": "2025-04-04T14:09:40Z",
   "aliases": [
     "CVE-2025-31483"
@@ -41,6 +41,10 @@
       "url": "https://github.com/miniflux/v2/security/advisories/GHSA-cq88-842x-2jhp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31483"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/miniflux/v2/commit/cb695e653a08af4cabcb277c271ce74bd0c746e6"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-04T14:09:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-03T18:15:47Z"
   }
 }
