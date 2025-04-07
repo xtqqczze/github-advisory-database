@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p28r-f42x-qmm2",
-  "modified": "2023-01-19T00:30:31Z",
+  "modified": "2025-04-07T21:31:40Z",
   "published": "2023-01-11T03:30:20Z",
   "aliases": [
     "CVE-2023-22945"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gerrit.wikimedia.org/r/q/Id1b83fcd58eccb8b2dfea44a3ab2f72314860d88"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/AP65YEN762IBNQPOYGUVLTQIDLM5XD2A"
     },
     {
       "type": "WEB",

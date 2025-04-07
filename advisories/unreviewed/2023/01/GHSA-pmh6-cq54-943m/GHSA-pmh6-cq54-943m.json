@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmh6-cq54-943m",
-  "modified": "2023-01-11T18:30:32Z",
+  "modified": "2025-04-07T21:31:37Z",
   "published": "2023-01-05T03:30:36Z",
   "aliases": [
     "CVE-2023-22622"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/WordPress/WordPress/blob/dca7b5204b5fea54e6d1774689777b359a9222ab/wp-cron.php#L5-L8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40thecpanelguy/the-nightmare-that-is-wpcron-php-ae31c1d3ae30"
     },
     {
       "type": "WEB",

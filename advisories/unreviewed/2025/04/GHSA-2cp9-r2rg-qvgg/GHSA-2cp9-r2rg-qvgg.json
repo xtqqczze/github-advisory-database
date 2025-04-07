@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cp9-r2rg-qvgg",
-  "modified": "2025-04-01T06:30:44Z",
+  "modified": "2025-04-07T21:32:03Z",
   "published": "2025-04-01T06:30:44Z",
   "aliases": [
     "CVE-2025-1534"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://docs.payara.fish/enterprise/docs/Release%20Notes/Release%20Notes%206.24.0.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gruppotim.it/it/footer/red-team.html"
     }
   ],
   "database_specific": {
