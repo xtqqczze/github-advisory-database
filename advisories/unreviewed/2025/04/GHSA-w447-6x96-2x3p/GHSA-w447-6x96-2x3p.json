@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w447-6x96-2x3p",
-  "modified": "2025-04-06T09:30:24Z",
+  "modified": "2025-04-07T15:31:14Z",
   "published": "2025-04-06T09:30:24Z",
   "aliases": [
     "CVE-2025-32369"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://devnet.kentico.com/download/hotfixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/xss-to-rce-by-abusing-custom-file-handlers-kentico-xperience-cms-cve-2025-2748"
     }
   ],
   "database_specific": {

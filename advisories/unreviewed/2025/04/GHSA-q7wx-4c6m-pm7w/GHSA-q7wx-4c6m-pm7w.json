@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7wx-4c6m-pm7w",
-  "modified": "2025-04-04T15:31:17Z",
+  "modified": "2025-04-07T15:31:01Z",
   "published": "2025-04-04T15:31:17Z",
   "aliases": [
     "CVE-2025-28146"
   ],
   "details": "Edimax AC1200 Wave 2 Dual-Band Gigabit Router BR-6478AC V3 1.0.15 was discovered to contain a command injection vulnerability via fota_url in /boafrm/formLtefotaUpgradeQuectel",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-04T14:15:21Z"
