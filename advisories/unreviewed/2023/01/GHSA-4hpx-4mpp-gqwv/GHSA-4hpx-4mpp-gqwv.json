@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hpx-4mpp-gqwv",
-  "modified": "2023-01-14T06:30:28Z",
+  "modified": "2025-04-08T21:31:27Z",
   "published": "2023-01-11T00:30:48Z",
   "aliases": [
     "CVE-2022-4379"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/oss-sec/2022/q4/185"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20230223-0004"
     }
   ],
   "database_specific": {

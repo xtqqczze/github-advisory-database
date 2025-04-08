@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvvc-m8pv-rj9r",
-  "modified": "2025-04-07T18:30:47Z",
+  "modified": "2025-04-08T21:31:37Z",
   "published": "2025-04-07T18:30:47Z",
   "aliases": [
     "CVE-2025-28403"
   ],
   "details": "An issue in RUoYi v.4.8.0 allows a remote attacker to escalate privileges via the editSave method does not properly validate whether the requesting user has administrative privileges before allowing modifications to system configuration settings",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-07T16:15:24Z"

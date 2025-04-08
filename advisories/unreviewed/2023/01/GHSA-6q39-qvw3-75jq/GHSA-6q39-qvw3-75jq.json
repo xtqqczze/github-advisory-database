@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q39-qvw3-75jq",
-  "modified": "2023-01-20T00:30:28Z",
+  "modified": "2025-04-08T21:31:28Z",
   "published": "2023-01-12T00:30:16Z",
   "aliases": [
     "CVE-2022-4344"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/gitlab-org/cves/-/blob/master/2022/CVE-2022-4344.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDZMWIKH3L5JQZC6GSVOJ3N5UXNQPJGQ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SGWIW6K64PKC375YAONYXKIVT2FDEDV3"
     },
     {
       "type": "WEB",

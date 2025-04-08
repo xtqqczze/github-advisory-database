@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6423-85cc-8gf6",
-  "modified": "2025-04-08T18:34:43Z",
+  "modified": "2025-04-08T21:31:38Z",
   "published": "2025-04-08T18:34:43Z",
   "aliases": [
     "CVE-2025-25227"
   ],
   "details": "Insufficient state checks lead to a vector that allows to bypass 2FA checks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-287"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-08T17:15:35Z"
