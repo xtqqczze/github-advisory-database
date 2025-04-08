@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrpg-fwx7-jf88",
-  "modified": "2024-04-10T18:30:47Z",
+  "modified": "2025-04-08T18:34:11Z",
   "published": "2024-04-10T18:30:47Z",
   "aliases": [
     "CVE-2024-31253"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in WP OAuth Server OAuth Server.This issue affects OAuth Server: from n/a through 4.3.3.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in WP OAuth Server OAuth Server.This issue affects OAuth Server: from n/a through 4.3.3.",
   "severity": [
     {
       "type": "CVSS_V3",

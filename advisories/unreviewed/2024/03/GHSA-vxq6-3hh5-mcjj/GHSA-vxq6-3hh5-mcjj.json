@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxq6-3hh5-mcjj",
-  "modified": "2024-03-29T15:30:28Z",
+  "modified": "2025-04-08T18:34:07Z",
   "published": "2024-03-29T15:30:28Z",
   "aliases": [
     "CVE-2024-30519"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Lordicon Lordicon Animated Icons allows Stored XSS.This issue affects Lordicon Animated Icons: from n/a through 2.0.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Lordicon Lordicon Animated Icons allows Stored XSS.This issue affects Lordicon Animated Icons: from n/a through 2.0.1.",
   "severity": [
     {
       "type": "CVSS_V3",

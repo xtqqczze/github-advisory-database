@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2c5-vphq-jrxg",
-  "modified": "2024-03-29T15:30:31Z",
+  "modified": "2025-04-08T18:34:08Z",
   "published": "2024-03-29T15:30:31Z",
   "aliases": [
     "CVE-2024-30488"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Katie Seaborn Zotpress.This issue affects Zotpress: from n/a through 7.3.7.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Katie Seaborn Zotpress.This issue affects Zotpress: from n/a through 7.3.7.",
   "severity": [
     {
       "type": "CVSS_V3",

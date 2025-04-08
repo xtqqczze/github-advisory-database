@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-327x-6c4p-8g25",
-  "modified": "2024-03-29T15:30:28Z",
+  "modified": "2025-04-08T18:34:07Z",
   "published": "2024-03-29T15:30:28Z",
   "aliases": [
     "CVE-2024-30503"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in EverPress Mailster allows Reflected XSS.This issue affects Mailster: from n/a through 4.0.6.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in EverPress Mailster allows Reflected XSS.This issue affects Mailster: from n/a through 4.0.6.",
   "severity": [
     {
       "type": "CVSS_V3",
