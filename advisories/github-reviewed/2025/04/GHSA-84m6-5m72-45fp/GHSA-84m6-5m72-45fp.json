@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84m6-5m72-45fp",
-  "modified": "2025-04-07T21:11:23Z",
+  "modified": "2025-04-08T17:50:40Z",
   "published": "2025-04-07T18:59:21Z",
   "aliases": [
     "CVE-2025-32033"
@@ -60,6 +60,10 @@
       "url": "https://github.com/apollographql/router/security/advisories/GHSA-84m6-5m72-45fp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32033"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/apollographql/router/commit/ab6675a63174715ea6ff50881fc957831d4e9564"
     },
@@ -79,6 +83,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-07T18:59:21Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-07T21:15:43Z"
   }
 }
