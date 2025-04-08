@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qq8-w3q5-56jf",
-  "modified": "2024-08-15T18:31:43Z",
+  "modified": "2025-04-08T06:30:37Z",
   "published": "2024-05-31T06:30:28Z",
   "aliases": [
     "CVE-2024-36246"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://www.yrl.com/fwp_support/info/khvu7f00000000q7.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.yrl.com/fwp_support/info/khvu7f00000007j8.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.yrl.com/fwp_support/info/khvu7f0000000auf.html"
     }
   ],
   "database_specific": {
