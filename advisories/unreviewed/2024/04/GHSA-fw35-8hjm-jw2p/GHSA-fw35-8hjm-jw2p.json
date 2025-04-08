@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fw35-8hjm-jw2p",
-  "modified": "2024-11-06T18:31:04Z",
+  "modified": "2025-04-08T15:30:55Z",
   "published": "2024-04-10T15:30:40Z",
   "aliases": [
     "CVE-2024-27477"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/dead1nfluence/Leantime-POC/blob/main/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/analyzing-leantime-xss-for-the-fun-time-diving-into-cve-2024-27477-for-a-beginner"
     }
   ],
   "database_specific": {

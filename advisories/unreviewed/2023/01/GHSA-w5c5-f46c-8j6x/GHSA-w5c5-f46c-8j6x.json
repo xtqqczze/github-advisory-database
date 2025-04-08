@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w5c5-f46c-8j6x",
-  "modified": "2023-01-23T18:30:19Z",
+  "modified": "2025-04-08T15:30:38Z",
   "published": "2023-01-13T00:30:39Z",
   "aliases": [
     "CVE-2017-5242"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-321",
       "CWE-330"
     ],
     "severity": "HIGH",

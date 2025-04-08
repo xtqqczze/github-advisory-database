@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8m7-f4f6-46c2",
-  "modified": "2024-04-10T18:30:47Z",
+  "modified": "2025-04-08T15:30:55Z",
   "published": "2024-04-10T18:30:47Z",
   "aliases": [
     "CVE-2024-31298"
   ],
-  "details": "Insertion of Sensitive Information into Log File vulnerability in Joel Hardi User Spam Remover.This issue affects User Spam Remover: from n/a through 1.0.\n\n",
+  "details": "Insertion of Sensitive Information into Log File vulnerability in Joel Hardi User Spam Remover.This issue affects User Spam Remover: from n/a through 1.0.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc3r-wqmp-6h2g",
-  "modified": "2023-01-23T18:30:20Z",
+  "modified": "2025-04-08T15:30:39Z",
   "published": "2023-01-13T00:30:38Z",
   "aliases": [
     "CVE-2022-25027"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-287",
       "CWE-640"
     ],
     "severity": "HIGH",

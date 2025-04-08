@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh9j-8hrm-2g7r",
-  "modified": "2024-04-10T18:30:47Z",
+  "modified": "2025-04-08T15:30:55Z",
   "published": "2024-04-10T18:30:47Z",
   "aliases": [
     "CVE-2024-31282"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Appcheap.Io App Builder.This issue affects App Builder: from n/a through 3.8.7.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Appcheap.Io App Builder.This issue affects App Builder: from n/a through 3.8.7.",
   "severity": [
     {
       "type": "CVSS_V3",

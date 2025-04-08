@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85q4-chqw-w4gj",
-  "modified": "2023-01-23T15:30:33Z",
+  "modified": "2025-04-08T15:30:37Z",
   "published": "2023-01-12T21:30:30Z",
   "aliases": [
     "CVE-2022-4842"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-4842"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/ntfs3/784f82c4-de71-b8c3-afd6-468869a369af%40paragon-software.com/T/#t"
     },
     {
       "type": "WEB",
