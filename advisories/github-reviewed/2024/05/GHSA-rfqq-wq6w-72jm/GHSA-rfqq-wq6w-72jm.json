@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfqq-wq6w-72jm",
-  "modified": "2024-05-16T17:47:00Z",
+  "modified": "2025-04-08T22:00:26Z",
   "published": "2024-05-16T09:33:08Z",
   "aliases": [
     "CVE-2024-3848"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/mlflow/mlflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/mlflow/PYSEC-2024-244.yaml"
     },
     {
       "type": "WEB",
