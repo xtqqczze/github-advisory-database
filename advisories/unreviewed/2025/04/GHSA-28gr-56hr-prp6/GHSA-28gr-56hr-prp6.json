@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-28gr-56hr-prp6",
-  "modified": "2025-04-04T15:31:15Z",
+  "modified": "2025-04-09T21:31:05Z",
   "published": "2025-04-02T15:31:36Z",
   "aliases": [
     "CVE-2025-2786"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:3607"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3740"
     },
     {
       "type": "WEB",

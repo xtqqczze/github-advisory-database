@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcm2-9m6w-m6mj",
-  "modified": "2023-01-04T18:31:00Z",
+  "modified": "2025-04-09T21:30:33Z",
   "published": "2022-12-23T00:30:24Z",
   "aliases": [
     "CVE-2022-4662"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lore.kernel.org/all/20220913140355.910732567%40linuxfoundation.org"
+    },
+    {
+      "type": "WEB",
       "url": "https://lore.kernel.org/all/20220913140355.910732567@linuxfoundation.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/all/CAB7eexLLApHJwZfMQ=X-PtRhw0BgO+5KcSMS05FNUYejJXqtSA%40mail.gmail.com"
     },
     {
       "type": "WEB",

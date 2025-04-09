@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9749-rqrj-vcqj",
-  "modified": "2023-01-11T21:30:39Z",
+  "modified": "2025-04-09T21:30:34Z",
   "published": "2023-01-06T06:30:25Z",
   "aliases": [
     "CVE-2022-42979"
@@ -21,11 +21,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://medium.com/%40jalee0606/how-i-found-my-first-one-click-account-takeover-via-deeplink-in-ryde-5406010c36d8"
+    },
+    {
+      "type": "WEB",
       "url": "https://medium.com/@jalee0606/how-i-found-my-first-one-click-account-takeover-via-deeplink-in-ryde-5406010c36d8"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-200",
       "CWE-295"
     ],
     "severity": "HIGH",

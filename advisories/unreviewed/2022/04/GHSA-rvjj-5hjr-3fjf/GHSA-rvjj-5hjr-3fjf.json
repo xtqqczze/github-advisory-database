@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvjj-5hjr-3fjf",
-  "modified": "2022-04-30T18:09:47Z",
+  "modified": "2025-04-09T21:30:32Z",
   "published": "2022-04-30T18:09:47Z",
   "aliases": [
     "CVE-1999-0012"
   ],
   "details": "Some web servers under Microsoft Windows allow remote attackers to bypass access restrictions for files with long file names.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-290"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
