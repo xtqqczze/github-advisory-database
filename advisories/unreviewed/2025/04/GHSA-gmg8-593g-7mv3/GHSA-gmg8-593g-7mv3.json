@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gmg8-593g-7mv3",
+  "modified": "2025-04-09T12:30:24Z",
+  "published": "2025-04-09T12:30:24Z",
+  "aliases": [
+    "CVE-2025-31672"
+  ],
+  "details": "Improper Input Validation vulnerability in Apache POI. The issue affects the parsing of OOXML format files like xlsx, docx and pptx. These file formats are basically zip files and it is possible for malicious users to add zip entries with duplicate names (including the path) in the zip. In this case, products reading the affected file could read different data because 1 of the zip entries with the duplicate name is selected over another but different products may choose a different zip entry.\nThis issue affects Apache POI poi-ooxml before 5.4.0. poi-ooxml 5.4.0 has a check that throws an exception if zip entries with duplicate file names are found in the input file.\nUsers are recommended to upgrade to version poi-ooxml 5.4.0, which fixes the issue. Please read  https://poi.apache.org/security.html  for recommendations about how to use the POI libraries securely.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31672"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bz.apache.org/bugzilla/show_bug.cgi?id=69620"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/k14w8vcjqy4h34hh5kzldko78kpylkq5"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-09T12:15:15Z"
+  }
+}
