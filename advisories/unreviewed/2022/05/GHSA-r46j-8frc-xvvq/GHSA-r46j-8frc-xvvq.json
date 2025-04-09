@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r46j-8frc-xvvq",
-  "modified": "2022-05-01T18:37:37Z",
+  "modified": "2025-04-09T03:48:13Z",
   "published": "2022-05-01T18:37:37Z",
   "aliases": [
     "CVE-2007-5904"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9901"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/sfrench/cifs-2.6.git%3Ba=commitdiff%3Bh=133672efbc1085f9af990bdc145e1822ea93bcf3"
     },
     {
       "type": "WEB",

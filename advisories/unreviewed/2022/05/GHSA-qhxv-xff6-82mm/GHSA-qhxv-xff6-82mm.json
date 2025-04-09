@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhxv-xff6-82mm",
-  "modified": "2022-05-01T18:45:06Z",
+  "modified": "2025-04-09T03:49:57Z",
   "published": "2022-05-01T18:45:06Z",
   "aliases": [
     "CVE-2007-6656"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://blog.cmsmadesimple.org/2008/01/02/announcing-cms-made-simple-123"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.cmsmadesimple.org/index.php/topic%2C18240.0.html"
     },
     {
       "type": "WEB",

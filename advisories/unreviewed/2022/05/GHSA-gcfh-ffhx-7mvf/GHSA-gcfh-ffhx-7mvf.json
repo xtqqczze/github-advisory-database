@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcfh-ffhx-7mvf",
-  "modified": "2022-05-01T23:28:57Z",
+  "modified": "2025-04-09T03:50:27Z",
   "published": "2022-05-01T23:28:57Z",
   "aliases": [
     "CVE-2008-0302"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-0302"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.madism.org/?p=apt-listchanges.git%3Ba=commitdiff%3Bh=1bcfbf3dc55413bb83a1782dc9a54515a963fb32"
     },
     {
       "type": "WEB",

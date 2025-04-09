@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjxg-hp5g-chxg",
-  "modified": "2022-05-01T18:33:37Z",
+  "modified": "2025-04-09T03:47:26Z",
   "published": "2022-05-01T18:33:37Z",
   "aliases": [
     "CVE-2007-5477"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/27245"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sla.ckers.org/forum/read.php?3%2C44%2C11482#msg-11482"
     },
     {
       "type": "WEB",

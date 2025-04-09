@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p75w-2534-vxxv",
-  "modified": "2022-05-01T18:36:40Z",
+  "modified": "2025-04-09T03:47:59Z",
   "published": "2022-05-01T18:36:40Z",
   "aliases": [
     "CVE-2007-5788"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/27401"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sipera.com/index.php?action=resources%2Cthreat_advisory&tid=361"
     },
     {
       "type": "WEB",

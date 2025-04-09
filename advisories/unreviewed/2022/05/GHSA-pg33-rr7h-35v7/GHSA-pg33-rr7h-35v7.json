@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pg33-rr7h-35v7",
-  "modified": "2022-05-01T18:34:54Z",
+  "modified": "2025-04-09T03:49:14Z",
   "published": "2022-05-01T18:34:54Z",
   "aliases": [
     "CVE-2007-5582"

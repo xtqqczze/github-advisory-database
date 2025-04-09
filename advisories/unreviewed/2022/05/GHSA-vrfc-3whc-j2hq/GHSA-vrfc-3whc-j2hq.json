@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrfc-3whc-j2hq",
-  "modified": "2022-05-01T18:36:38Z",
+  "modified": "2025-04-09T03:47:59Z",
   "published": "2022-05-01T18:36:38Z",
   "aliases": [
     "CVE-2007-5778"
   ],
   "details": "Mobile Spy (1) stores login credentials in cleartext under the RetinaxStudios registry key, and (2) sends login credentials and log data over a cleartext HTTP connection, which allows attackers to obtain sensitive information by reading the registry or sniffing the network.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,7 +49,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-312"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

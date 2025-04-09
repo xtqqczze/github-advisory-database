@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-34f4-qcwh-g2jj",
-  "modified": "2022-05-01T18:38:18Z",
+  "modified": "2025-04-09T03:49:07Z",
   "published": "2022-05-01T18:38:18Z",
   "aliases": [
     "CVE-2007-5969"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "http://dev.mysql.com/doc/refman/5.0/en/releasenotes-es-5-0-52.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forums.mysql.com/read.php?3%2C186931%2C186931"
     },
     {
       "type": "WEB",

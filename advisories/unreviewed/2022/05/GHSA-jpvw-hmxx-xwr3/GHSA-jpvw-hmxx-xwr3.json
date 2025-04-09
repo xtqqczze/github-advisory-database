@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpvw-hmxx-xwr3",
-  "modified": "2022-05-01T18:39:15Z",
+  "modified": "2025-04-09T03:48:37Z",
   "published": "2022-05-01T18:39:15Z",
   "aliases": [
     "CVE-2007-6062"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=451875"
+    },
+    {
+      "type": "WEB",
+      "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?msg=10%3Bfilename=90-remote-vulnerability.dpatch%3Batt=1%3Bbug=451875"
     },
     {
       "type": "WEB",

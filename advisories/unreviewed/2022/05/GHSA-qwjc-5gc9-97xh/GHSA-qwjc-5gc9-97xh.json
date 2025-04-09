@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwjc-5gc9-97xh",
-  "modified": "2022-05-01T18:39:08Z",
+  "modified": "2025-04-09T03:48:35Z",
   "published": "2022-05-01T18:39:08Z",
   "aliases": [
     "CVE-2007-6043"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://eprint.iacr.org/2007/419.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.computerworld.com.au/index.php/id%3B1165210682%3Bfp%3B2%3Bfpid%3B1"
     },
     {
       "type": "WEB",

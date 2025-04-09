@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cq34-q55h-g2x8",
-  "modified": "2022-05-01T18:36:44Z",
+  "modified": "2025-04-09T03:47:59Z",
   "published": "2022-05-01T18:36:44Z",
   "aliases": [
     "CVE-2007-5791"
@@ -37,6 +37,14 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/26129"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sipera.com/index.php?action=resources%2Cthreat_advisory&tid=357"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sipera.com/index.php?action=resources%2Cthreat_advisory&tid=360"
     },
     {
       "type": "WEB",

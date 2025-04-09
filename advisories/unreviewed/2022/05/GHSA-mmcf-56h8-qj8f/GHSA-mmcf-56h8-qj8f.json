@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmcf-56h8-qj8f",
-  "modified": "2022-05-01T18:39:35Z",
+  "modified": "2025-04-09T03:48:41Z",
   "published": "2022-05-01T18:39:35Z",
   "aliases": [
     "CVE-2007-6105"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/27767"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.scripts.oldguy.us/forums/index.php/topic%2C290.0.html"
     },
     {
       "type": "WEB",

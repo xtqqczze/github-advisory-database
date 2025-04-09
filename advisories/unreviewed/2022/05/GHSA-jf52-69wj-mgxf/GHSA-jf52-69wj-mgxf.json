@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf52-69wj-mgxf",
-  "modified": "2022-05-01T18:36:35Z",
+  "modified": "2025-04-09T03:47:58Z",
   "published": "2022-05-01T18:36:35Z",
   "aliases": [
     "CVE-2007-5768"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://osvdb.org/43676"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sipera.com/index.php?action=resources%2Cthreat_advisory&tid=363"
     },
     {
       "type": "WEB",
