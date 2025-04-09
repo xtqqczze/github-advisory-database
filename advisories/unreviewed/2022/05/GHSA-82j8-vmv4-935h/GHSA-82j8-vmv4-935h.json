@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82j8-vmv4-935h",
-  "modified": "2022-05-02T03:48:53Z",
+  "modified": "2025-04-09T04:15:48Z",
   "published": "2022-05-02T03:48:53Z",
   "aliases": [
     "CVE-2009-3819"

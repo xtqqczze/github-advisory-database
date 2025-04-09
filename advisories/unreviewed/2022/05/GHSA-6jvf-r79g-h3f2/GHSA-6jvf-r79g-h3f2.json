@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6jvf-r79g-h3f2",
-  "modified": "2022-05-02T03:45:31Z",
+  "modified": "2025-04-09T04:15:00Z",
   "published": "2022-05-02T03:45:31Z",
   "aliases": [
     "CVE-2009-3478"
@@ -24,11 +24,23 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.mozdev.org/source/browse/fireftp/src/content/js/connection/controlSocket.js.in.diff?r1=1.74%3Br2=1.75%3Bf=h"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.mozdev.org/source/browse/fireftp/src/content/js/connection/controlSocket.js.in.diff?r1=1.74;r2=1.75;f=h"
     },
     {
       "type": "WEB",
+      "url": "http://www.mozdev.org/source/browse/fireftp/src/content/js/connection/controlSocket.js.in.diff?r1=1.75%3Br2=1.76%3Bf=h"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.mozdev.org/source/browse/fireftp/src/content/js/connection/controlSocket.js.in.diff?r1=1.75;r2=1.76;f=h"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mozdev.org/source/browse/fireftp/src/content/js/connection/sftp.js.diff?r1=1.8%3Br2=1.9%3Bf=h"
     },
     {
       "type": "WEB",

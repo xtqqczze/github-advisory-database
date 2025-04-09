@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53hx-f3mf-p54c",
-  "modified": "2022-05-02T03:43:01Z",
+  "modified": "2025-04-09T04:15:28Z",
   "published": "2022-05-02T03:43:01Z",
   "aliases": [
     "CVE-2009-3228"
@@ -36,7 +36,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.4.37.y.git%3Ba=commit%3Bh=096ed17f20affc2db0e307658c69b67433992a7a"
+    },
+    {
+      "type": "WEB",
       "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.4.37.y.git;a=commit;h=096ed17f20affc2db0e307658c69b67433992a7a"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=16ebb5e0b36ceadc8186f71d68b0c4fa4b6e781b"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p6p-2fm3-6874",
-  "modified": "2022-05-02T03:47:45Z",
+  "modified": "2025-04-09T04:15:22Z",
   "published": "2022-05-02T03:47:45Z",
   "aliases": [
     "CVE-2009-3698"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/53654"
+    },
+    {
+      "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/frameworks/base.git%3Ba=commit%3Bh=cf4550c3198d6b3d92cdc52707fe70d7cc0caa9f"
     },
     {
       "type": "WEB",

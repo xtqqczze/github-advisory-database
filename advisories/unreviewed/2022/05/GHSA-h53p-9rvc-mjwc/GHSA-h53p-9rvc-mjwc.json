@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h53p-9rvc-mjwc",
-  "modified": "2022-05-02T03:51:24Z",
+  "modified": "2025-04-09T04:16:38Z",
   "published": "2022-05-02T03:51:24Z",
   "aliases": [
     "CVE-2009-4074"

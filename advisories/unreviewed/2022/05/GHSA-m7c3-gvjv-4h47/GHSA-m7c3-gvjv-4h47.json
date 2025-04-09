@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7c3-gvjv-4h47",
-  "modified": "2022-05-02T03:43:34Z",
+  "modified": "2025-04-09T04:14:40Z",
   "published": "2022-05-02T03:43:34Z",
   "aliases": [
     "CVE-2009-3286"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://rhn.redhat.com/errata/RHSA-2009-1548.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commitdiff%3Bh=81ac95c5"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q64r-wvx9-6g34",
-  "modified": "2022-05-02T03:46:54Z",
+  "modified": "2025-04-09T04:16:15Z",
   "published": "2022-05-02T03:46:54Z",
   "aliases": [
     "CVE-2009-3618"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/36311"
+    },
+    {
+      "type": "WEB",
+      "url": "http://viewvc.tigris.org/source/browse/%2Acheckout%2A/viewvc/tags/1.1.2/CHANGES?revision=2235&pathrev=HEAD"
     },
     {
       "type": "WEB",

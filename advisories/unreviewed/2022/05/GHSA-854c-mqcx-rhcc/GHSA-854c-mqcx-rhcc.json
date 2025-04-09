@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-854c-mqcx-rhcc",
-  "modified": "2022-05-02T03:43:39Z",
+  "modified": "2025-04-09T04:14:40Z",
   "published": "2022-05-02T03:43:39Z",
   "aliases": [
     "CVE-2009-3290"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11328"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commitdiff%3Bh=07708c4af1346ab1521b26a202f438366b7bcffd"
     },
     {
       "type": "WEB",

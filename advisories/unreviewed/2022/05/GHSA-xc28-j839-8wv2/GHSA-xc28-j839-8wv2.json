@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xc28-j839-8wv2",
-  "modified": "2022-05-02T03:50:40Z",
+  "modified": "2025-04-09T04:16:29Z",
   "published": "2022-05-02T03:50:40Z",
   "aliases": [
     "CVE-2009-4004"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/54302"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=a9e38c3e01ad242fe2a625354cf065c34b01e3aa"
     },
     {
       "type": "WEB",

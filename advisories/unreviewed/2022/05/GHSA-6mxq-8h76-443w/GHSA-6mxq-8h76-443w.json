@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mxq-8h76-443w",
-  "modified": "2022-05-02T03:43:29Z",
+  "modified": "2025-04-09T04:14:40Z",
   "published": "2022-05-02T03:43:29Z",
   "aliases": [
     "CVE-2009-3280"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-3280"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=fcc6cb0c13555e78c2d47257b6d1b5e59b0c419a"
     },
     {
       "type": "WEB",

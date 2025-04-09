@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mvh4-xpvg-hf66",
-  "modified": "2022-05-02T03:50:43Z",
+  "modified": "2025-04-09T04:16:42Z",
   "published": "2022-05-02T03:50:43Z",
   "aliases": [
     "CVE-2009-4024"

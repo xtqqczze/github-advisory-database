@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhjx-q9cm-jppr",
-  "modified": "2022-05-02T03:50:01Z",
+  "modified": "2025-04-09T04:16:26Z",
   "published": "2022-05-02T03:50:01Z",
   "aliases": [
     "CVE-2009-3943"
