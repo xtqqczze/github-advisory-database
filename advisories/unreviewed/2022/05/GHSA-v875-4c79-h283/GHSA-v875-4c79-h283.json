@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v875-4c79-h283",
-  "modified": "2022-05-02T03:24:28Z",
+  "modified": "2025-04-09T04:08:35Z",
   "published": "2022-05-02T03:24:28Z",
   "aliases": [
     "CVE-2009-1360"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-1360"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=3f53a38131a4e7a053c0aa060aba0411242fb6b9"
     },
     {
       "type": "WEB",

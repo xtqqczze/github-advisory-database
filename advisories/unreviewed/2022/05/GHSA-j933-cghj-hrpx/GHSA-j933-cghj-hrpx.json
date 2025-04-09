@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j933-cghj-hrpx",
-  "modified": "2022-05-02T03:20:15Z",
+  "modified": "2025-04-09T04:06:40Z",
   "published": "2022-05-02T03:20:15Z",
   "aliases": [
     "CVE-2009-0964"
   ],
   "details": "UserView_list.php in PHPRunner 4.2, and possibly earlier, stores passwords in cleartext in the database, which allows attackers to gain privileges.  NOTE: this can be leveraged with a separate SQL injection vulnerability to obtain passwords remotely without authentication.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,7 +45,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-312"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

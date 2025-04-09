@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf9j-crg7-4p68",
-  "modified": "2022-05-17T02:11:15Z",
+  "modified": "2025-04-09T04:07:02Z",
   "published": "2022-05-17T02:11:15Z",
   "aliases": [
     "CVE-2008-6514"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://bugzilla.gnome.org/show_bug.cgi?id=561567"
+    },
+    {
+      "type": "WEB",
+      "url": "http://gitweb.compiz-fusion.org/?p=fusion/plugins/expo%3Ba=commit%3Bh=f97a9fa6f0ad578f674d1f248bd7bef90e3260e0"
     },
     {
       "type": "WEB",

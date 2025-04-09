@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwmr-cmwr-523q",
-  "modified": "2022-05-02T03:24:11Z",
+  "modified": "2025-04-09T04:08:35Z",
   "published": "2022-05-02T03:24:11Z",
   "aliases": [
     "CVE-2009-1338"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/50386"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=d25141a818383b3c3b09f065698c544a7a0ec6e7"
     },
     {
       "type": "WEB",

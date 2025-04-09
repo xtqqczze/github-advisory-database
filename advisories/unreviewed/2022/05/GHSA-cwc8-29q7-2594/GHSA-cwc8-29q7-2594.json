@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwc8-29q7-2594",
-  "modified": "2022-05-17T02:11:10Z",
+  "modified": "2025-04-09T04:07:24Z",
   "published": "2022-05-17T02:11:10Z",
   "aliases": [
     "CVE-2008-6560"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/49832"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.fedorahosted.org/git/cluster.git?p=cluster.git%3Ba=commitdiff%3Bh=67fee9128e54c6c3fc3eae306b5b501f3029c3be"
     },
     {
       "type": "WEB",

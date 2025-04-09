@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pv3g-wrcf-hmrv",
-  "modified": "2022-05-01T18:45:52Z",
+  "modified": "2025-04-09T04:07:53Z",
   "published": "2022-05-01T18:45:52Z",
   "aliases": [
     "CVE-2007-6725"
@@ -69,6 +69,10 @@
     {
       "type": "WEB",
       "url": "http://wiki.rpath.com/Advisories:rPSA-2009-0060"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/fedora-package-announce%40redhat.com/msg11830.html"
     },
     {
       "type": "WEB",

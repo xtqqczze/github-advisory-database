@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxfj-xcj7-rvmm",
-  "modified": "2022-05-14T02:41:06Z",
+  "modified": "2025-04-09T04:07:31Z",
   "published": "2022-05-14T02:41:06Z",
   "aliases": [
     "CVE-2008-4825"

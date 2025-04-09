@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqvc-c395-66j7",
-  "modified": "2022-05-02T03:23:05Z",
+  "modified": "2025-04-09T04:07:42Z",
   "published": "2022-05-02T03:23:05Z",
   "aliases": [
     "CVE-2009-1242"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://www.redhat.com/archives/fedora-package-announce/2009-May/msg01126.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=16175a796d061833aacfbd9672235f2d2725df65"
     },
     {
       "type": "WEB",
@@ -93,6 +97,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2009/dsa-1800"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.globalsecuritymag.com/Vigil-nce-Linux-kernel-denial-of%2C20090402%2C8311"
     },
     {
       "type": "WEB",

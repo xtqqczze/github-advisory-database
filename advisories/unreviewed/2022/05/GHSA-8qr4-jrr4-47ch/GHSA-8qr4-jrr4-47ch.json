@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qr4-jrr4-47ch",
-  "modified": "2022-05-02T03:25:14Z",
+  "modified": "2025-04-09T04:08:52Z",
   "published": "2022-05-02T03:25:14Z",
   "aliases": [
     "CVE-2009-1443"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/34763"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.ocsinventory-ng.org/index.php?mact=News%2Ccntnt01%2Cdetail%2C0&cntnt01articleid=133&cntnt01returnid=51"
     },
     {
       "type": "WEB",

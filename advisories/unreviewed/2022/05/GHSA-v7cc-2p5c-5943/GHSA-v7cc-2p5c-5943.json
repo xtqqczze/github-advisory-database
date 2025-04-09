@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v7cc-2p5c-5943",
-  "modified": "2022-05-02T03:25:13Z",
+  "modified": "2025-04-09T04:08:52Z",
   "published": "2022-05-02T03:25:13Z",
   "aliases": [
     "CVE-2009-1438"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://lists.opensuse.org/opensuse-security-announce/2009-07/msg00002.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://modplug-xmms.cvs.sourceforge.net/viewvc/modplug-xmms/libmodplug/src/load_med.cpp?r1=1.1&amp%3Br2=1.2"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3rv-m7w5-j5w5",
-  "modified": "2022-05-02T03:25:50Z",
+  "modified": "2025-04-09T04:09:08Z",
   "published": "2022-05-02T03:25:50Z",
   "aliases": [
     "CVE-2009-1513"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://modplug-xmms.cvs.sourceforge.net/viewvc/modplug-xmms/libmodplug/src/load_pat.cpp?r1=1.3&r2=1.4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://modplug-xmms.git.sourceforge.net/git/gitweb.cgi?p=modplug-xmms%3Ba=commitdiff%3Bh=c4ebb701be6ee9a296a44fdac5a20b7739ff0595"
     },
     {
       "type": "WEB",
