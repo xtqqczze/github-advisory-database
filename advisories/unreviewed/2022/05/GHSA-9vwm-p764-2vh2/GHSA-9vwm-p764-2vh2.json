@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9vwm-p764-2vh2",
-  "modified": "2022-05-02T06:11:00Z",
+  "modified": "2025-04-09T04:18:00Z",
   "published": "2022-05-02T06:11:00Z",
   "aliases": [
     "CVE-2010-0224"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "http://www.syss.de/fileadmin/ressources/040_veroeffentlichungen/dokumente/SySS_knackt_SanDisk_USB-Stick.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.syss.de/index.php?id=108&tx_ttnews%5Btt_news%5D=528&cHash=8d16fa63d9"
     },
     {
       "type": "WEB",
