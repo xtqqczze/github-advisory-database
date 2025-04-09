@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjpf-ph39-5hrp",
-  "modified": "2022-05-01T18:13:55Z",
+  "modified": "2025-04-09T03:43:17Z",
   "published": "2022-05-01T18:13:55Z",
   "aliases": [
     "CVE-2007-3441"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://osvdb.org/45403"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sipera.com/index.php?action=resources%2Cthreat_advisory&tid=278&"
     },
     {
       "type": "WEB",

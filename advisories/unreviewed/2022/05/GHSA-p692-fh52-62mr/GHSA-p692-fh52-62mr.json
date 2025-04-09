@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p692-fh52-62mr",
-  "modified": "2022-05-01T18:12:49Z",
+  "modified": "2025-04-09T03:43:04Z",
   "published": "2022-05-01T18:12:49Z",
   "aliases": [
     "CVE-2007-3351"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/24549"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sipera.com/index.php?action=resources%2Cthreat_advisory&tid=217&"
     },
     {
       "type": "WEB",

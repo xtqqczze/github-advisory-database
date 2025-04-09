@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prv3-w8fc-w6j2",
-  "modified": "2022-05-01T18:13:09Z",
+  "modified": "2025-04-09T03:43:06Z",
   "published": "2022-05-01T18:13:09Z",
   "aliases": [
     "CVE-2007-3368"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/24547"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sipera.com/index.php?action=resources%2Cthreat_advisory&tid=273&"
     },
     {
       "type": "WEB",

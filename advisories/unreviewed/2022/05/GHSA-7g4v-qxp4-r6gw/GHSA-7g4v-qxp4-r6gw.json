@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g4v-qxp4-r6gw",
-  "modified": "2022-05-01T18:08:00Z",
+  "modified": "2025-04-09T03:42:01Z",
   "published": "2022-05-01T18:08:00Z",
   "aliases": [
     "CVE-2007-2861"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/archive/1/469220/100/0/threaded"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.xmors-seurity.com/advisory/SAXON%28rfi%29.txt"
     },
     {
       "type": "WEB",

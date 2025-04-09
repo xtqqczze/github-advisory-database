@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxp4-5rm6-xqjp",
-  "modified": "2022-05-01T18:07:44Z",
+  "modified": "2025-04-09T03:41:58Z",
   "published": "2022-05-01T18:07:44Z",
   "aliases": [
     "CVE-2007-2846"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://www.nruns.com/advisories/%5Bn.runs-SA-2007.009%5D%20-%20Avast!%20Antivirus%20SIS%20parsing%20Arbitrary%20Code%20Execution%20Advisory.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.nruns.com/advisories/%5Bn.runs-SA-2007.009%5D%20-%20Avast%21%20Antivirus%20SIS%20parsing%20Arbitrary%20Code%20Execution%20Advisory.txt"
     },
     {
       "type": "WEB",

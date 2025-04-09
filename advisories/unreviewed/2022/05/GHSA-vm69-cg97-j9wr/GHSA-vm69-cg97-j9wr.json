@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm69-cg97-j9wr",
-  "modified": "2022-05-01T18:13:46Z",
+  "modified": "2025-04-09T03:43:17Z",
   "published": "2022-05-01T18:13:46Z",
   "aliases": [
     "CVE-2007-3438"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://osvdb.org/45429"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.sipera.com/index.php?action=resources%2Cthreat_advisory&tid=297&"
     },
     {
       "type": "WEB",

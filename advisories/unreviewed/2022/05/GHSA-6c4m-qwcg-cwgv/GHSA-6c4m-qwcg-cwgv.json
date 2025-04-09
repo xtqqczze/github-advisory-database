@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c4m-qwcg-cwgv",
-  "modified": "2022-05-01T18:08:00Z",
+  "modified": "2025-04-09T03:42:00Z",
   "published": "2022-05-01T18:08:00Z",
   "aliases": [
     "CVE-2007-2857"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/24103"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.xmors-seurity.com/advisory/excelparser%28rfi%29.txt"
     },
     {
       "type": "WEB",

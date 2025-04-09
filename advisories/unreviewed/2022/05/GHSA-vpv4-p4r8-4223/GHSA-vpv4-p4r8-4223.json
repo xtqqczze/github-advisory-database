@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vpv4-p4r8-4223",
-  "modified": "2022-05-01T18:08:00Z",
+  "modified": "2025-04-09T03:42:00Z",
   "published": "2022-05-01T18:08:00Z",
   "aliases": [
     "CVE-2007-2859"
@@ -61,6 +61,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/archive/1/469219/100/0/threaded"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.xmors-seurity.com/advisory/SimpGB%28rfi%29.txt"
     },
     {
       "type": "WEB",

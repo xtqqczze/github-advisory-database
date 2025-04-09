@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqj2-jf89-h87v",
-  "modified": "2022-05-01T18:14:26Z",
+  "modified": "2025-04-09T03:43:28Z",
   "published": "2022-05-01T18:14:26Z",
   "aliases": [
     "CVE-2007-3511"
@@ -121,6 +121,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1018837"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sla.ckers.org/forum/read.php?3%2C13142"
     },
     {
       "type": "WEB",

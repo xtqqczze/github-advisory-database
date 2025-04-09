@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxqc-7fg4-9cvw",
-  "modified": "2022-05-01T07:45:40Z",
+  "modified": "2025-04-09T03:41:31Z",
   "published": "2022-05-01T07:45:40Z",
   "aliases": [
     "CVE-2006-7203"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://rhn.redhat.com/errata/RHSA-2007-0376.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commitdiff_plain%3Bh=822191a2fa1584a29c3224ab328507adcaeac1ab"
     },
     {
       "type": "WEB",

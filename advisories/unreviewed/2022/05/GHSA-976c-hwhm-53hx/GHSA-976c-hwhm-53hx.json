@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-976c-hwhm-53hx",
-  "modified": "2022-05-01T18:11:04Z",
+  "modified": "2025-04-09T03:42:35Z",
   "published": "2022-05-01T18:11:04Z",
   "aliases": [
     "CVE-2007-3164"

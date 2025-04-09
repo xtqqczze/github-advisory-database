@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9pv6-4w7h-vppx",
-  "modified": "2022-05-01T18:06:32Z",
+  "modified": "2025-04-09T03:41:42Z",
   "published": "2022-05-01T18:06:32Z",
   "aliases": [
     "CVE-2007-2721"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=413041"
+    },
+    {
+      "type": "WEB",
+      "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=413041%3Bmsg=88"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2wrq-53r8-rc4c",
-  "modified": "2022-05-01T18:04:01Z",
+  "modified": "2025-04-09T03:41:04Z",
   "published": "2022-05-01T18:04:01Z",
   "aliases": [
     "CVE-2007-2480"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2007-2480"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=de34ed91c4ffa4727964a832c46e624dd1495cf5"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8v86-544p-jvp9",
-  "modified": "2022-05-01T18:11:30Z",
+  "modified": "2025-04-09T03:42:45Z",
   "published": "2022-05-01T18:11:30Z",
   "aliases": [
     "CVE-2007-3208"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "http://www.securitytracker.com/id?1018236"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.yabbforum.com/community/?board=general%3Baction=display%3Bnum=1181678785"
     },
     {
       "type": "WEB",

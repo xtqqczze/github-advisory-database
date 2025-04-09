@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v86v-xvm4-877w",
-  "modified": "2022-05-01T18:04:01Z",
+  "modified": "2025-04-09T03:41:05Z",
   "published": "2022-05-01T18:04:01Z",
   "aliases": [
     "CVE-2007-2483"

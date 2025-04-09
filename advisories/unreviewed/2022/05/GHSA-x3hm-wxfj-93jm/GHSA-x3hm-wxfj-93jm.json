@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3hm-wxfj-93jm",
-  "modified": "2022-05-01T18:15:13Z",
+  "modified": "2025-04-09T03:43:37Z",
   "published": "2022-05-01T18:15:13Z",
   "aliases": [
     "CVE-2007-3579"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://osvdb.org/45756"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sla.ckers.org/forum/read.php?2%2C13209%2C13218"
     },
     {
       "type": "WEB",

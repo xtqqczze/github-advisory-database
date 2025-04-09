@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6m47-ccpp-66vx",
-  "modified": "2022-05-01T18:11:57Z",
+  "modified": "2025-04-09T03:42:53Z",
   "published": "2022-05-01T18:11:57Z",
   "aliases": [
     "CVE-2007-3267"

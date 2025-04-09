@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c36r-h4vm-4w2p",
-  "modified": "2022-05-01T18:04:21Z",
+  "modified": "2025-04-09T03:41:08Z",
   "published": "2022-05-01T18:04:21Z",
   "aliases": [
     "CVE-2007-2506"
