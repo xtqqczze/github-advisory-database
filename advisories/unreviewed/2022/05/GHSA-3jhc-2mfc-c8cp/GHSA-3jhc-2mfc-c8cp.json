@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jhc-2mfc-c8cp",
-  "modified": "2022-05-17T02:17:36Z",
+  "modified": "2025-04-09T04:01:41Z",
   "published": "2022-05-17T02:17:36Z",
   "aliases": [
     "CVE-2008-5434"

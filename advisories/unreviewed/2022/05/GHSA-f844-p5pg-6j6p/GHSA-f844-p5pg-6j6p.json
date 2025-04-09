@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f844-p5pg-6j6p",
-  "modified": "2022-05-17T02:18:26Z",
+  "modified": "2025-04-09T04:00:32Z",
   "published": "2022-05-17T02:18:26Z",
   "aliases": [
     "CVE-2008-5028"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://www.ubuntu.com/usn/USN-698-3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.op5.org/git/?p=nagios.git%3Ba=commit%3Bh=814d8d4d1a73f7151eeed187c0667585d79fea18"
     },
     {
       "type": "WEB",

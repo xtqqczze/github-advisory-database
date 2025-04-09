@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-734c-2q7q-jhcc",
-  "modified": "2022-05-17T05:53:08Z",
+  "modified": "2025-04-09T04:02:12Z",
   "published": "2022-05-17T05:53:08Z",
   "aliases": [
     "CVE-2008-5688"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://www.mediawiki.org/wiki/Manual:$wgShowExceptionDetails"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mediawiki.org/wiki/Manual:%24wgShowExceptionDetails"
     }
   ],
   "database_specific": {

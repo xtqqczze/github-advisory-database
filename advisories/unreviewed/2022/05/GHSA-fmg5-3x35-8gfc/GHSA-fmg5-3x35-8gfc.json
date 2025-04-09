@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmg5-3x35-8gfc",
-  "modified": "2022-05-02T03:14:19Z",
+  "modified": "2025-04-09T04:03:37Z",
   "published": "2022-05-02T03:14:19Z",
   "aliases": [
     "CVE-2009-0322"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A7734"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.27.y.git%3Ba=commit%3Bh=81156928f8fe31621e467490b9d441c0285998c3"
     },
     {
       "type": "WEB",

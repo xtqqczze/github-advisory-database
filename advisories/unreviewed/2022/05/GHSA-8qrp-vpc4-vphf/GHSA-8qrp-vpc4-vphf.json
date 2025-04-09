@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qrp-vpc4-vphf",
-  "modified": "2022-05-17T00:43:18Z",
+  "modified": "2025-04-09T04:02:22Z",
   "published": "2022-05-17T00:43:18Z",
   "aliases": [
     "CVE-2008-5753"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8mf-xx3p-jgjq",
-  "modified": "2022-05-14T02:39:24Z",
+  "modified": "2025-04-09T04:02:14Z",
   "published": "2022-05-14T02:39:24Z",
   "aliases": [
     "CVE-2008-5700"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://usn.ubuntu.com/714-1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.27.y.git%3Ba=commit%3Bh=f2f1fa78a155524b849edf359e42a3001ea652c0"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84hq-4h95-83xw",
-  "modified": "2022-05-17T00:45:23Z",
+  "modified": "2025-04-09T04:00:58Z",
   "published": "2022-05-17T00:45:23Z",
   "aliases": [
     "CVE-2008-5188"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9607"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/mhalcrow/ecryptfs-utils.git%3Ba=commit%3Bh=06de99afd53f03fe07eda0ad9d61ac6d5d4d9f53"
     },
     {
       "type": "WEB",

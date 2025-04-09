@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmv4-h8p5-cgxp",
-  "modified": "2022-05-17T00:33:20Z",
+  "modified": "2025-04-09T04:00:55Z",
   "published": "2022-05-17T00:33:20Z",
   "aliases": [
     "CVE-2008-5178"

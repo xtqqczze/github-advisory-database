@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxhr-q438-7gx3",
-  "modified": "2022-05-14T02:57:29Z",
+  "modified": "2025-04-09T04:02:14Z",
   "published": "2022-05-14T02:57:29Z",
   "aliases": [
     "CVE-2008-5702"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://bugzilla.kernel.org/show_bug.cgi?id=11399"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.27.y.git%3Ba=commit%3Bh=7c2500f17d65092d93345f3996cf82ebca17e9ff"
     },
     {
       "type": "WEB",

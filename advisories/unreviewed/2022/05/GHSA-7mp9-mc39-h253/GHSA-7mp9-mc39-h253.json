@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mp9-mc39-h253",
-  "modified": "2022-05-02T00:08:25Z",
+  "modified": "2025-04-09T04:01:37Z",
   "published": "2022-05-02T00:08:25Z",
   "aliases": [
     "CVE-2008-4255"

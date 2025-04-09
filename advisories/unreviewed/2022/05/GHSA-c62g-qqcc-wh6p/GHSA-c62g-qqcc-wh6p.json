@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c62g-qqcc-wh6p",
-  "modified": "2022-05-14T02:14:28Z",
+  "modified": "2025-04-09T04:01:31Z",
   "published": "2022-05-14T02:14:28Z",
   "aliases": [
     "CVE-2008-5395"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/47075"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.27.y.git%3Ba=commit%3Bh=7a3f5134a8f5bd7fa38b5645eef05e8a4eb62951"
     },
     {
       "type": "WEB",

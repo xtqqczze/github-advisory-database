@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x248-r79p-756c",
-  "modified": "2022-05-14T02:41:00Z",
+  "modified": "2025-04-09T04:01:30Z",
   "published": "2022-05-14T02:41:00Z",
   "aliases": [
     "CVE-2008-5079"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f38c-5cp7-qg7j",
-  "modified": "2022-05-17T00:44:56Z",
+  "modified": "2025-04-09T04:01:15Z",
   "published": "2022-05-17T00:44:56Z",
   "aliases": [
     "CVE-2008-5297"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=506179"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.debian.org/?p=collab-maint/no-ip.git%3Ba=commit%3Bh=60ed93621ff36d9731ba5d9f9336d6eb91122302"
     },
     {
       "type": "WEB",

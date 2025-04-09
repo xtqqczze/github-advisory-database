@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8p6-7232-w86w",
-  "modified": "2022-05-02T03:12:41Z",
+  "modified": "2025-04-09T04:02:44Z",
   "published": "2022-05-02T03:12:41Z",
   "aliases": [
     "CVE-2009-0065"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://www.redhat.com/archives/fedora-package-announce/2009-January/msg01045.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=9fcb95a105758b81ef0131cd18e2db5149f13e95"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq7c-3rjh-ggvh",
-  "modified": "2022-05-02T00:11:02Z",
+  "modified": "2025-04-09T04:02:21Z",
   "published": "2022-05-02T00:11:02Z",
   "aliases": [
     "CVE-2008-4539"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://www.redhat.com/archives/fedora-package-announce/2008-December/msg01223.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.dk/?p=qemu.git%3Ba=commitdiff%3Bh=65d35a09979e63541afc5bfc595b9f1b1b4ae069"
     },
     {
       "type": "WEB",
@@ -84,7 +88,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.mail-archive.com/cvs-all%40freebsd.org/msg129730.html"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.mail-archive.com/cvs-all@freebsd.org/msg129730.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/secure-testing-commits%40lists.alioth.debian.org/msg09322.html"
     },
     {
       "type": "WEB",
