@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvm7-mwfr-vm66",
-  "modified": "2022-05-01T23:56:39Z",
+  "modified": "2025-04-09T03:57:57Z",
   "published": "2022-05-01T23:56:39Z",
   "aliases": [
     "CVE-2008-3101"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/30951"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.vtiger.de/vtiger-crm/downloads/patches.html?tx_abdownloads_pi1%5Baction%5D=getviewdetailsfordownload&tx_abdownloads_pi1%5Buid%5D=128&tx_abdownloads_pi1%5Bcategory_uid%5D=5&cHash=e16be773a5"
     },
     {
       "type": "WEB",

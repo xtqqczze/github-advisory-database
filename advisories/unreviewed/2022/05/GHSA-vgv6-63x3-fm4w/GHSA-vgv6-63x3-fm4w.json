@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgv6-63x3-fm4w",
-  "modified": "2022-05-02T00:00:58Z",
+  "modified": "2025-04-09T03:58:19Z",
   "published": "2022-05-02T00:00:58Z",
   "aliases": [
     "CVE-2008-3529"

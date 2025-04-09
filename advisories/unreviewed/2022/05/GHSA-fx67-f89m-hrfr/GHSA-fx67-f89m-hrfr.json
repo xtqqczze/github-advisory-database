@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx67-f89m-hrfr",
-  "modified": "2022-05-02T00:04:24Z",
+  "modified": "2025-04-09T03:59:57Z",
   "published": "2022-05-02T00:04:24Z",
   "aliases": [
     "CVE-2008-3862"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hf7-wh5w-w87p",
-  "modified": "2022-05-14T02:02:32Z",
+  "modified": "2025-04-09T04:00:21Z",
   "published": "2022-05-14T02:02:32Z",
   "aliases": [
     "CVE-2008-4934"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11635"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.27.y.git%3Ba=commit%3Bh=649f1ee6c705aab644035a7998d7b574193a598a"
     },
     {
       "type": "WEB",

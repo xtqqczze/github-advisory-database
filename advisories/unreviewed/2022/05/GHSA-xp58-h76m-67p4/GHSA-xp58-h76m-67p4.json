@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp58-h76m-67p4",
-  "modified": "2022-05-14T02:41:02Z",
+  "modified": "2025-04-09T04:00:16Z",
   "published": "2022-05-14T02:41:02Z",
   "aliases": [
     "CVE-2008-4918"

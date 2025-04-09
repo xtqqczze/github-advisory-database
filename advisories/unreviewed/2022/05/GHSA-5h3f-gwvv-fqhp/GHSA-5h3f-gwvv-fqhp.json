@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h3f-gwvv-fqhp",
-  "modified": "2022-05-02T00:10:10Z",
+  "modified": "2025-04-09T03:59:05Z",
   "published": "2022-05-02T00:10:10Z",
   "aliases": [
     "CVE-2008-4451"
@@ -36,7 +36,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-94"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

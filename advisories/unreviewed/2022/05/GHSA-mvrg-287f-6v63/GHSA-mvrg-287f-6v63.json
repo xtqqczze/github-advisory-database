@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mvrg-287f-6v63",
-  "modified": "2022-05-02T00:05:26Z",
+  "modified": "2025-04-09T03:58:15Z",
   "published": "2022-05-02T00:05:26Z",
   "aliases": [
     "CVE-2008-3970"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/44960"
+    },
+    {
+      "type": "WEB",
+      "url": "http://dev.medozas.de/gitweb.cgi?p=pam_mount%3Ba=commitdiff%3Bh=33b91d7659ae3aa78b1e94fd3f8e545ae5ff25db"
     },
     {
       "type": "WEB",

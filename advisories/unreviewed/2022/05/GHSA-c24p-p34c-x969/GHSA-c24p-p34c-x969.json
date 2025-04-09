@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c24p-p34c-x969",
-  "modified": "2022-05-02T00:04:59Z",
+  "modified": "2025-04-09T03:58:02Z",
   "published": "2022-05-02T00:04:59Z",
   "aliases": [
     "CVE-2008-3907"

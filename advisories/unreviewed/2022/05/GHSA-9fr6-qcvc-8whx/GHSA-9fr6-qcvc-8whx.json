@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fr6-qcvc-8whx",
-  "modified": "2022-05-01T23:50:22Z",
+  "modified": "2025-04-09T03:58:08Z",
   "published": "2022-05-01T23:50:22Z",
   "aliases": [
     "CVE-2008-2464"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://www.freebsd.org/cgi/cvsweb.cgi/src/sys/netinet6/mld6.c"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.freebsd.org/cgi/cvsweb.cgi/src/sys/netinet6/mld6.c.diff?r1=1.34%3Br2=1.35%3Bf=h"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-697g-hxf6-9m92",
-  "modified": "2022-05-02T00:10:54Z",
+  "modified": "2025-04-09T03:59:13Z",
   "published": "2022-05-02T00:10:54Z",
   "aliases": [
     "CVE-2008-4513"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://trac.phorum.org/changeset/3528"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.phorum.org/phorum5/read.php?64%2C133699"
     },
     {
       "type": "WEB",

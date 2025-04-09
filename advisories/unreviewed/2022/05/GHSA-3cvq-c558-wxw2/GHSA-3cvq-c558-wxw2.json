@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cvq-c558-wxw2",
-  "modified": "2022-05-02T00:09:44Z",
+  "modified": "2025-04-09T03:59:02Z",
   "published": "2022-05-02T00:09:44Z",
   "aliases": [
     "CVE-2008-4410"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://www.redhat.com/archives/fedora-package-announce/2008-October/msg00693.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.26.y.git%3Ba=commit%3Bh=de59985e3a623d4d5d6207f1777398ca0606ab1c"
     },
     {
       "type": "WEB",

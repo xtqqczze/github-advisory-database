@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp34-3782-rcvm",
-  "modified": "2022-05-01T23:50:01Z",
+  "modified": "2025-04-09T03:58:22Z",
   "published": "2022-05-01T23:50:01Z",
   "aliases": [
     "CVE-2008-2437"

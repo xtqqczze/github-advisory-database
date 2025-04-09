@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qp66-33pv-p2qq",
-  "modified": "2022-05-02T00:10:09Z",
+  "modified": "2025-04-09T03:59:04Z",
   "published": "2022-05-02T00:10:09Z",
   "aliases": [
     "CVE-2008-4445"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-4445"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.26.y.git%3Ba=commit%3Bh=d97240552cd98c4b07322f30f66fd9c3ba4171de"
     },
     {
       "type": "WEB",

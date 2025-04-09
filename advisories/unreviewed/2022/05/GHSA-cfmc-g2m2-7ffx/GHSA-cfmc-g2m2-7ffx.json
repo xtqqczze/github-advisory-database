@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfmc-g2m2-7ffx",
-  "modified": "2022-05-02T00:09:42Z",
+  "modified": "2025-04-09T04:00:22Z",
   "published": "2022-05-02T00:09:42Z",
   "aliases": [
     "CVE-2008-4395"
@@ -32,6 +32,10 @@
     },
     {
       "type": "WEB",
+      "url": "http://git.frugalware.org/gitweb/gitweb.cgi?p=frugalware-current.git%3Ba=commitdiff%3Bh=49945b423c2f7e33b4c579ca460df6a806ee8f9f"
+    },
+    {
+      "type": "WEB",
       "url": "http://git.frugalware.org/gitweb/gitweb.cgi?p=frugalware-current.git;a=commitdiff;h=49945b423c2f7e33b4c579ca460df6a806ee8f9f"
     },
     {
@@ -41,6 +45,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/32509"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/frugalware-git%40frugalware.org/msg22366.html"
     },
     {
       "type": "WEB",
