@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f6v-xr97-pjpx",
-  "modified": "2022-05-14T03:08:11Z",
+  "modified": "2025-04-09T04:04:14Z",
   "published": "2022-05-14T03:08:11Z",
   "aliases": [
     "CVE-2008-6048"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://tangocms.org/article/view/2.2.0-eagle-released!"
+    },
+    {
+      "type": "WEB",
+      "url": "http://tangocms.org/article/view/2.2.0-eagle-released%21"
     }
   ],
   "database_specific": {

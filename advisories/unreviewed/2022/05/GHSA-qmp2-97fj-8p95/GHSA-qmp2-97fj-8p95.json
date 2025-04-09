@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmp2-97fj-8p95",
-  "modified": "2022-05-02T03:18:52Z",
+  "modified": "2025-04-09T04:06:11Z",
   "published": "2022-05-02T03:18:52Z",
   "aliases": [
     "CVE-2009-0859"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/49229"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=a68e61e8ff2d46327a37b69056998b47745db6fa"
     },
     {
       "type": "WEB",

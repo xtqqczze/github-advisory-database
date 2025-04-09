@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgp8-r2mf-jqrf",
-  "modified": "2022-05-17T02:11:18Z",
+  "modified": "2025-04-09T04:06:22Z",
   "published": "2022-05-17T02:11:18Z",
   "aliases": [
     "CVE-2008-6461"

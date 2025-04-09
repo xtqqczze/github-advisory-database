@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65gq-25hv-4hvc",
-  "modified": "2022-05-02T03:14:55Z",
+  "modified": "2025-04-09T04:04:56Z",
   "published": "2022-05-02T03:14:55Z",
   "aliases": [
     "CVE-2009-0363"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/515118"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/debian-testing-security-announce%40lists.debian.org/msg00173.html"
     },
     {
       "type": "WEB",

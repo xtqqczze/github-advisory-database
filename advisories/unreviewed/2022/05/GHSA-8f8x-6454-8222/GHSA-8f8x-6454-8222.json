@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f8x-6454-8222",
-  "modified": "2022-05-02T03:15:56Z",
+  "modified": "2025-04-09T04:04:30Z",
   "published": "2022-05-02T03:15:56Z",
   "aliases": [
     "CVE-2009-0490"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://lists.opensuse.org/opensuse-security-announce/2009-02/msg00002.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://n2.nabble.com/Audacity-%22String_parse::get_nonspace_quoted%28%29%22-Buffer-Overflow-td2139537.html"
     },
     {
       "type": "WEB",

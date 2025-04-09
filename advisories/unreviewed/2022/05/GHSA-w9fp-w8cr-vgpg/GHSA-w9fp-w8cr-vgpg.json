@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9fp-w8cr-vgpg",
-  "modified": "2022-05-02T03:16:22Z",
+  "modified": "2025-04-09T04:04:45Z",
   "published": "2022-05-02T03:16:22Z",
   "aliases": [
     "CVE-2009-0544"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/48617"
+    },
+    {
+      "type": "WEB",
+      "url": "http://gitweb2.dlitz.net/?p=crypto/pycrypto-2.x.git%3Ba=commitdiff%3Bh=d1c4875e1f220652fe7ff8358f56dee3b2aba31b"
+    },
+    {
+      "type": "WEB",
+      "url": "http://gitweb2.dlitz.net/?p=crypto/pycrypto-2.x.git%3Ba=commitdiff%3Bh=fd73731dfad451a81056fbb01e09aa78ab82eb5d"
     },
     {
       "type": "WEB",

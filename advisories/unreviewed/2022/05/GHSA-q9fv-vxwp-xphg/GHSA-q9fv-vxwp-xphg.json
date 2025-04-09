@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9fv-vxwp-xphg",
-  "modified": "2022-05-02T03:16:58Z",
+  "modified": "2025-04-09T04:04:57Z",
   "published": "2022-05-02T03:16:58Z",
   "aliases": [
     "CVE-2009-0605"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-0605"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.27.y.git%3Ba=commit%3Bh=9be260a646bf76fa418ee519afa10196b3164681"
     },
     {
       "type": "WEB",

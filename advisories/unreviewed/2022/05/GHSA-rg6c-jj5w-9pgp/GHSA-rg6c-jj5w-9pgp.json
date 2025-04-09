@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rg6c-jj5w-9pgp",
-  "modified": "2022-05-02T03:15:15Z",
+  "modified": "2025-04-09T04:04:08Z",
   "published": "2022-05-02T03:15:15Z",
   "aliases": [
     "CVE-2009-0402"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://freshmeat.net/projects/dtc/?branch_id=22759&release_id=292973"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.gplhost.com/gitweb/?p=dtc.git%3Ba=commitdiff%3Bh=056e1d1849ff3aa183a410e2aab1c1c3e969247d"
     },
     {
       "type": "WEB",

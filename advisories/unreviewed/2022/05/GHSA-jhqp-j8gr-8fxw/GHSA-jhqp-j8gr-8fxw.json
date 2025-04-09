@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jhqp-j8gr-8fxw",
-  "modified": "2022-05-02T03:15:51Z",
+  "modified": "2025-04-09T04:04:40Z",
   "published": "2022-05-02T03:15:51Z",
   "aliases": [
     "CVE-2009-0475"
@@ -16,7 +16,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/external/opencore.git%3Ba=commit%3Bh=7b466cd0ecfdba72c4cbd0f3a8c2001141376b0f"
+    },
+    {
+      "type": "WEB",
       "url": "http://android.git.kernel.org/?p=platform/external/opencore.git;a=commit;h=7b466cd0ecfdba72c4cbd0f3a8c2001141376b0f"
+    },
+    {
+      "type": "WEB",
+      "url": "http://review.source.android.com/Gerrit#change%2C8815"
     },
     {
       "type": "WEB",

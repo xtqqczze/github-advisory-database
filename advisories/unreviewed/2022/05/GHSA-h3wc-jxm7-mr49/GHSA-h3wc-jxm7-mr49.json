@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3wc-jxm7-mr49",
-  "modified": "2022-05-02T03:15:03Z",
+  "modified": "2025-04-09T04:03:48Z",
   "published": "2022-05-02T03:15:03Z",
   "aliases": [
     "CVE-2009-0385"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://www.redhat.com/archives/fedora-package-announce/2009-April/msg00215.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ffmpeg.org/?p=ffmpeg%3Ba=commitdiff%3Bh=72e715fb798f2cb79fd24a6d2eaeafb7c6eeda17"
     },
     {
       "type": "WEB",

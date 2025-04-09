@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fjq-qvpr-gcq2",
-  "modified": "2022-05-02T03:16:17Z",
+  "modified": "2025-04-09T04:06:08Z",
   "published": "2022-05-02T03:16:17Z",
   "aliases": [
     "CVE-2009-0537"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.openbsd.org/cgi-bin/cvsweb/src/lib/libc/gen/fts.c"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openbsd.org/cgi-bin/cvsweb/src/lib/libc/gen/fts.c.diff?r1=1.41%3Br2=1.42%3Bf=h"
     },
     {
       "type": "WEB",
