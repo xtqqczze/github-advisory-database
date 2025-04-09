@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43mq-6xmg-29vm",
-  "modified": "2025-03-28T15:36:06Z",
+  "modified": "2025-04-09T13:52:38Z",
   "published": "2024-12-11T18:30:42Z",
   "aliases": [
     "CVE-2024-53677"
@@ -42,6 +42,18 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/apache/struts/commit/1ecfbae46543a83e131404f8dcc84b3d0d554854"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/struts/commit/3ef9ade8902a63bb560892453eeca02bfddefc78"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/struts/commit/930fef7679d7247db9e460c146b1698a9d7ad1e4"
+    },
+    {
+      "type": "WEB",
       "url": "https://cwiki.apache.org/confluence/display/WW/S2-067"
     },
     {
@@ -55,12 +67,17 @@
     {
       "type": "WEB",
       "url": "https://struts.apache.org/core-developers/file-upload"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.dynatrace.com/news/blog/the-anatomy-of-broken-apache-struts-2-a-technical-deep-dive-into-cve-2024-53677"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-22",
-      "CWE-434"
+      "CWE-434",
+      "CWE-915"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
