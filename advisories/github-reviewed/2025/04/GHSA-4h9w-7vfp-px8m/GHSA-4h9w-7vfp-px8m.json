@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4h9w-7vfp-px8m",
-  "modified": "2025-04-09T13:53:11Z",
+  "modified": "2025-04-09T20:15:17Z",
   "published": "2025-04-09T13:53:11Z",
   "aliases": [
     "CVE-2025-32378"
@@ -136,6 +136,10 @@
       "url": "https://github.com/shopware/shopware/security/advisories/GHSA-4h9w-7vfp-px8m"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32378"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/shopware/shopware"
     }
@@ -147,6 +151,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-09T13:53:11Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-09T16:15:25Z"
   }
 }
