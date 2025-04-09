@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6h4r-92xv-96rh",
-  "modified": "2022-05-01T07:24:17Z",
+  "modified": "2025-04-09T03:31:37Z",
   "published": "2022-05-01T07:24:17Z",
   "aliases": [
     "CVE-2006-5044"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-5044"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.joomla.org/index.php/topic%2C79477.0.html"
     },
     {
       "type": "WEB",

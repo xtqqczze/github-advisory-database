@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4ph-6x2m-2wv3",
-  "modified": "2022-05-01T07:24:18Z",
+  "modified": "2025-04-09T03:31:38Z",
   "published": "2022-05-01T07:24:18Z",
   "aliases": [
     "CVE-2006-5048"
@@ -21,6 +21,14 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/2083"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.joomla.org/index.php/topic%2C79477.0.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.joomla.org/index.php/topic%2C81589.0.html"
     },
     {
       "type": "WEB",

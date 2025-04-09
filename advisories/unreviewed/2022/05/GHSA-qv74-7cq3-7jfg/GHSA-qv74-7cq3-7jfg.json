@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv74-7cq3-7jfg",
-  "modified": "2022-05-01T07:24:13Z",
+  "modified": "2025-04-09T03:31:35Z",
   "published": "2022-05-01T07:24:13Z",
   "aliases": [
     "CVE-2006-5040"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-5040"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.joomla.org/index.php/topic%2C79477.0.html"
     },
     {
       "type": "WEB",

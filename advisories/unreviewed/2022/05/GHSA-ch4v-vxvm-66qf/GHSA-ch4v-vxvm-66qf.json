@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch4v-vxvm-66qf",
-  "modified": "2024-02-13T18:38:21Z",
+  "modified": "2025-04-09T03:32:05Z",
   "published": "2022-05-01T07:21:11Z",
   "aliases": [
     "CVE-2006-4692"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2006/ms06-065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A496"
     },
     {
       "type": "WEB",
