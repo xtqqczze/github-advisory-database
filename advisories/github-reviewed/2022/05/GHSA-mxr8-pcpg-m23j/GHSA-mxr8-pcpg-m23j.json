@@ -1,14 +1,35 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxr8-pcpg-m23j",
-  "modified": "2025-04-09T03:56:41Z",
+  "modified": "2025-04-09T20:50:34Z",
   "published": "2022-05-01T23:57:57Z",
   "aliases": [
     "CVE-2008-3228"
   ],
+  "summary": "Joomla! doesn't configure .htaccess to apply certain security checks that \"block common exploits\" to SEF URLs",
   "details": "Joomla! before 1.5.4 does not configure .htaccess to apply certain security checks that \"block common exploits\" to SEF URLs, which has unknown impact and remote attack vectors.",
   "severity": [],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "joomla/joomla-platform"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -19,8 +40,12 @@
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/44206"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/joomla/joomla-platform"
+    },
+    {
       "type": "WEB",
-      "url": "http://www.joomla.org/content/view/5180/1"
+      "url": "https://web.archive.org/web/20080730154423/http://www.joomla.org/content/view/5180/1"
     },
     {
       "type": "WEB",
@@ -33,9 +58,9 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-09T20:50:33Z",
     "nvd_published_at": "2008-07-18T16:41:00Z"
   }
 }
