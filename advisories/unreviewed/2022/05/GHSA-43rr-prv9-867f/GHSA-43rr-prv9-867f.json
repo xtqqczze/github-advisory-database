@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43rr-prv9-867f",
-  "modified": "2024-02-13T18:38:21Z",
+  "modified": "2025-04-09T03:52:57Z",
   "published": "2022-05-01T23:37:17Z",
   "aliases": [
     "CVE-2008-1160"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/29237"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.secumania.org/exploits/remote/zyxel-zywall-quagga_zebra-%28default-pass%29-remote-root-vulnerability-2008032143791"
     },
     {
       "type": "WEB",

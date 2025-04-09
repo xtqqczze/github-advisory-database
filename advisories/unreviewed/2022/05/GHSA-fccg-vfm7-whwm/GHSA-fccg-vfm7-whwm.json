@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fccg-vfm7-whwm",
-  "modified": "2022-05-01T23:36:47Z",
+  "modified": "2025-04-09T03:52:02Z",
   "published": "2022-05-01T23:36:47Z",
   "aliases": [
     "CVE-2008-1110"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.gentoo.org/show_bug.cgi?id=208100"
+    },
+    {
+      "type": "WEB",
+      "url": "http://hg.debian.org/hg/xine-lib/xine-lib?cmd=changeset%3Bnode=fb6d089b520dca199ef16a046da28c50c984c2d2%3Bstyle=gitweb"
     },
     {
       "type": "WEB",

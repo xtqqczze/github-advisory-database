@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7489-8f63-32p6",
-  "modified": "2022-05-01T23:37:13Z",
+  "modified": "2025-04-09T03:52:08Z",
   "published": "2022-05-01T23:37:13Z",
   "aliases": [
     "CVE-2008-1147"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/28819"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.freebsd.org/cgi/cvsweb.cgi/src/sys/netinet/ip_id.c?rev=1.10%3Bcontenttype="
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgj4-4q5m-c8q8",
-  "modified": "2022-05-01T23:44:05Z",
+  "modified": "2025-04-09T03:53:42Z",
   "published": "2022-05-01T23:44:05Z",
   "aliases": [
     "CVE-2008-1834"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/41887"
+    },
+    {
+      "type": "WEB",
+      "url": "http://gitweb.freedesktop.org/?p=swfdec/swfdec.git%3Ba=commit%3Bh=326ee4ff631ecc11605f1251e1923a94561a3823"
     },
     {
       "type": "WEB",

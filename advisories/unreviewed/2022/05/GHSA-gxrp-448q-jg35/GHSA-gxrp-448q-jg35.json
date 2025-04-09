@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxrp-448q-jg35",
-  "modified": "2022-05-01T23:41:42Z",
+  "modified": "2025-04-09T03:53:11Z",
   "published": "2022-05-01T23:41:42Z",
   "aliases": [
     "CVE-2008-1606"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://developer.elasticpath.com/entry!default.jspa?categoryID=4&externalID=1334"
+    },
+    {
+      "type": "WEB",
+      "url": "http://developer.elasticpath.com/entry%21default.jspa?categoryID=4&externalID=1334"
     },
     {
       "type": "WEB",

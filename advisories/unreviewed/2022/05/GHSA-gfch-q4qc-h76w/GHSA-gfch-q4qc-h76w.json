@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfch-q4qc-h76w",
-  "modified": "2022-05-01T23:39:06Z",
+  "modified": "2025-04-09T03:52:32Z",
   "published": "2022-05-01T23:39:06Z",
   "aliases": [
     "CVE-2008-1327"
@@ -20,7 +20,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r02c2d634fa74209d941c90f9a4cd36a6f12366ca65f9b90446ff2de3%40%3Cissues.struts.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r02c2d634fa74209d941c90f9a4cd36a6f12366ca65f9b90446ff2de3@%3Cissues.struts.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rf482c101a88445d73cc2e89dbf7f16ae00a4aa79a544a1e72b2326db%40%3Cissues.struts.apache.org%3E"
     },
     {
       "type": "WEB",

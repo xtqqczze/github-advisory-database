@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5rf-j39p-frph",
-  "modified": "2022-05-01T23:44:06Z",
+  "modified": "2025-04-09T03:53:43Z",
   "published": "2022-05-01T23:44:06Z",
   "aliases": [
     "CVE-2008-1841"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://coppermine.svn.sourceforge.net/viewvc/coppermine/trunk/cpg1.4.x/bridge/coppermine.inc.php?view=log"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.coppermine-gallery.net/index.php/topic%2C51882.0.html"
     },
     {
       "type": "WEB",

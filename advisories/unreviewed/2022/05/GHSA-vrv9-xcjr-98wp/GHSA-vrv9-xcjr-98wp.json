@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrv9-xcjr-98wp",
-  "modified": "2022-05-01T23:28:06Z",
+  "modified": "2025-04-09T03:51:08Z",
   "published": "2022-05-01T23:28:06Z",
   "aliases": [
     "CVE-2008-0177"
@@ -61,6 +61,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1019314"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kame.net/dev/cvsweb2.cgi/kame/kame/sys/netinet6/ipcomp_input.c.diff?r1=1.36%3Br2=1.37"
     },
     {
       "type": "WEB",

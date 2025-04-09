@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g6f-wfx8-qr4f",
-  "modified": "2022-05-01T23:37:16Z",
+  "modified": "2025-04-09T03:52:23Z",
   "published": "2022-05-01T23:37:16Z",
   "aliases": [
     "CVE-2008-1161"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/41172"
+    },
+    {
+      "type": "WEB",
+      "url": "http://hg.debian.org/hg/xine-lib/xine-lib?cmd=changeset%3Bnode=a62d6f482a69%3Bstyle=gitweb"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw7g-wfcq-49r3",
-  "modified": "2022-05-01T23:42:18Z",
+  "modified": "2025-04-09T03:53:31Z",
   "published": "2022-05-01T23:42:18Z",
   "aliases": [
     "CVE-2008-1658"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.freedesktop.org/show_bug.cgi?id=15295"
+    },
+    {
+      "type": "WEB",
+      "url": "http://gitweb.freedesktop.org/?p=PolicyKit.git%3Ba=commitdiff%3Bh=5bc86a14cc0e356bcf8b5f861674f842869b1be7"
     },
     {
       "type": "WEB",

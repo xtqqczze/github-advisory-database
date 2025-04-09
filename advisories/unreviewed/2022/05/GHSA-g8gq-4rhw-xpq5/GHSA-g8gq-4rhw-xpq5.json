@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8gq-4rhw-xpq5",
-  "modified": "2022-05-01T18:45:50Z",
+  "modified": "2025-04-09T03:53:33Z",
   "published": "2022-05-01T18:45:50Z",
   "aliases": [
     "CVE-2007-6712"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9210"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/chris/linux-2.6.git%3Ba=commitdiff%3Bh=13788ccc41ceea5893f9c747c59bc0b28f2416c2"
     },
     {
       "type": "WEB",

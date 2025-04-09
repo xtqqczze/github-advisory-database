@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42vj-qx64-fvc8",
-  "modified": "2022-05-01T18:45:50Z",
+  "modified": "2025-04-09T03:53:48Z",
   "published": "2022-05-01T18:45:50Z",
   "aliases": [
     "CVE-2007-6714"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "http://www.gentoo.org/security/en/glsa/glsa-200804-24.xml"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/dbmail-dev%40dbmail.org/msg09942.html"
     },
     {
       "type": "WEB",

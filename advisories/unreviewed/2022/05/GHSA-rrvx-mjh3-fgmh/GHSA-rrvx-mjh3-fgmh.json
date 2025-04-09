@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrvx-mjh3-fgmh",
-  "modified": "2022-05-01T23:40:44Z",
+  "modified": "2025-04-09T03:52:55Z",
   "published": "2022-05-01T23:40:44Z",
   "aliases": [
     "CVE-2008-1486"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/29519"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.phorum.org/phorum5/read.php?64%2C126815%2C126815"
     },
     {
       "type": "WEB",

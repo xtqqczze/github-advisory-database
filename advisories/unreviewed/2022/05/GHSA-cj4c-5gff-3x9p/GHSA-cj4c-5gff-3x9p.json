@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj4c-5gff-3x9p",
-  "modified": "2022-05-01T23:30:07Z",
+  "modified": "2025-04-09T03:51:12Z",
   "published": "2022-05-01T23:30:07Z",
   "aliases": [
     "CVE-2008-0412"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-0412"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=398088%2C393141%2C364801%2C346405%2C396613%2C394337%2C406290"
     },
     {
       "type": "WEB",

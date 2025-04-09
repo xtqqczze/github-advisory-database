@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh8h-6q9x-8j58",
-  "modified": "2022-05-01T23:39:31Z",
+  "modified": "2025-04-09T03:52:37Z",
   "published": "2022-05-01T23:39:31Z",
   "aliases": [
     "CVE-2008-1367"
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "http://gcc.gnu.org/ml/gcc-patches/2008-03/msg00499.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=e40cd10ccff3d9fbffd57b93780bee4b7b9bff51"
     },
     {
       "type": "WEB",

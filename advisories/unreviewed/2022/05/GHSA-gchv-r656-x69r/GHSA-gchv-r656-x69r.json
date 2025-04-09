@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gchv-r656-x69r",
-  "modified": "2022-05-01T23:30:07Z",
+  "modified": "2025-04-09T03:51:13Z",
   "published": "2022-05-01T23:30:07Z",
   "aliases": [
     "CVE-2008-0415"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-0415"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=386695%2C393761%2C393762%2C399298%2C407289%2C372075%2C363597"
     },
     {
       "type": "WEB",

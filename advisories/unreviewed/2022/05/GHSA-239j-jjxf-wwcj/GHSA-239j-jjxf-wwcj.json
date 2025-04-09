@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-239j-jjxf-wwcj",
-  "modified": "2022-05-01T18:45:31Z",
+  "modified": "2025-04-09T03:50:59Z",
   "published": "2022-05-01T18:45:31Z",
   "aliases": [
     "CVE-2007-6700"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/28726"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/misc%40openbsd.org/msg49057.html"
     },
     {
       "type": "WEB",
