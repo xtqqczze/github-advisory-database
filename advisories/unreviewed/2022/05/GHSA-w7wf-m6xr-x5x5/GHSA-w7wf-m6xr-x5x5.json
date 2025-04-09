@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7wf-m6xr-x5x5",
-  "modified": "2022-05-01T18:26:36Z",
+  "modified": "2025-04-09T03:45:56Z",
   "published": "2022-05-01T18:26:36Z",
   "aliases": [
     "CVE-2007-4739"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=440535"
+    },
+    {
+      "type": "WEB",
+      "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?msg=5%3Bfilename=interdiff%3Batt=1%3Bbug=440535"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvx3-8832-cq9f",
-  "modified": "2022-05-01T18:21:31Z",
+  "modified": "2025-04-09T03:44:54Z",
   "published": "2022-05-01T18:21:31Z",
   "aliases": [
     "CVE-2007-4233"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2007-4233"
+    },
+    {
+      "type": "WEB",
+      "url": "http://fdcl.svn.sourceforge.net/viewvc/%2Acheckout%2A/fdcl/trunk/Changelog"
     },
     {
       "type": "WEB",

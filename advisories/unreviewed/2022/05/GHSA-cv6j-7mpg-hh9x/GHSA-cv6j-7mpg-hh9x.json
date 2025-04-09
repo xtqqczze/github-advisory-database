@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cv6j-7mpg-hh9x",
-  "modified": "2022-05-01T18:23:34Z",
+  "modified": "2025-04-09T03:45:22Z",
   "published": "2022-05-01T18:23:34Z",
   "aliases": [
     "CVE-2007-4431"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://osvdb.org/46720"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sla.ckers.org/forum/read.php?3%2C14151"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v526-5wc6-v9fv",
-  "modified": "2022-05-01T18:23:54Z",
+  "modified": "2025-04-09T03:45:27Z",
   "published": "2022-05-01T18:23:54Z",
   "aliases": [
     "CVE-2007-4461"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/26546"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.nufw.org/+NuFW-2-2-4%2C201+.html"
     },
     {
       "type": "WEB",

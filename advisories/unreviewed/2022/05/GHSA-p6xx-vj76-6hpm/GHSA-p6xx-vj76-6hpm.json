@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6xx-vj76-6hpm",
-  "modified": "2022-05-01T18:21:57Z",
+  "modified": "2025-04-09T03:44:59Z",
   "published": "2022-05-01T18:21:57Z",
   "aliases": [
     "CVE-2007-4282"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://blog.drinsama.de/erich/en/security/2007080801-security-issue-in-serendipity.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://blog.s9y.org/archives/178-Serendipity-1.1.4-released%2C-security-bug-in-entryproperties-plugin.html"
     },
     {
       "type": "WEB",

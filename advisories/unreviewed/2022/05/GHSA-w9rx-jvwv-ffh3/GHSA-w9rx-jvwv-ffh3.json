@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9rx-jvwv-ffh3",
-  "modified": "2022-05-01T18:19:04Z",
+  "modified": "2025-04-09T03:44:23Z",
   "published": "2022-05-01T18:19:04Z",
   "aliases": [
     "CVE-2007-3972"
@@ -33,6 +33,14 @@
     {
       "type": "WEB",
       "url": "http://www.eset.com/joomla/index.php?option=com_content&task=view&id=3469&Itemid=26"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.nruns.com/%5Bn.runs-SA-2007.018%5D%20-%20NOD32%20Antivirus%20ASPACK%20and%20FSG%20parsing%20Divide%20by%20Zero%20Advisory.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.nruns.com/%5Bn.runs-SA-2007.018%5D%20-%20NOD32%20Antivirus%20ASPACK%20and%20FSG%20parsing%20Divide%20by%20Zero%20Advisory.txt"
     },
     {
       "type": "WEB",

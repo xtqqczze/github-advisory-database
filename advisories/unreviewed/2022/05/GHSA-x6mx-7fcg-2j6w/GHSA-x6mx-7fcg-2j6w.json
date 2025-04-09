@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6mx-7fcg-2j6w",
-  "modified": "2022-05-01T18:31:02Z",
+  "modified": "2025-04-09T03:46:52Z",
   "published": "2022-05-01T18:31:02Z",
   "aliases": [
     "CVE-2007-5191"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://frontal2.mandriva.com/en/security/advisories?name=MDKSA-2007:198"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=utils/util-linux-ng/util-linux-ng.git%3Ba=commit%3Bh=ebbeb2c7ac1b00b6083905957837a271e80b187e"
     },
     {
       "type": "WEB",

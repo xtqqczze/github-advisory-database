@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj59-m886-ch4f",
-  "modified": "2022-05-01T18:29:51Z",
+  "modified": "2025-04-09T03:46:36Z",
   "published": "2022-05-01T18:29:51Z",
   "aliases": [
     "CVE-2007-5087"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2007-5087"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.4.35.y.git%3Ba=commitdiff%3Bh=b7ae15e7707050baafe5a35e3d4f2d175197d222"
     },
     {
       "type": "WEB",

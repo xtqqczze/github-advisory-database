@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58h2-6vhw-p854",
-  "modified": "2022-05-01T18:19:01Z",
+  "modified": "2025-04-09T03:44:22Z",
   "published": "2022-05-01T18:19:01Z",
   "aliases": [
     "CVE-2007-3969"
@@ -21,6 +21,14 @@
     {
       "type": "WEB",
       "url": "http://securityreason.com/securityalert/2920"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.nruns.com/%5Bn.runs-SA-2007.019%5D%20-%20Panda%20Antivirus%20EXE%20parsing%20Arbitrary%20Code%20Execution%20Advisory.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.nruns.com/%5Bn.runs-SA-2007.019%5D%20-%20Panda%20Antivirus%20EXE%20parsing%20Arbitrary%20Code%20Execution%20Advisory.txt"
     },
     {
       "type": "WEB",

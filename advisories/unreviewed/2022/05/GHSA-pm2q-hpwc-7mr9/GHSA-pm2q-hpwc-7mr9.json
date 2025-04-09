@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm2q-hpwc-7mr9",
-  "modified": "2022-05-01T18:21:36Z",
+  "modified": "2025-04-09T03:44:55Z",
   "published": "2022-05-01T18:21:36Z",
   "aliases": [
     "CVE-2007-4234"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/35839"
+    },
+    {
+      "type": "WEB",
+      "url": "http://fdcl.svn.sourceforge.net/viewvc/%2Acheckout%2A/fdcl/trunk/Changelog"
     },
     {
       "type": "WEB",
