@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-39rc-mpw3-rrc5",
-  "modified": "2022-05-01T07:42:01Z",
+  "modified": "2025-04-09T03:35:30Z",
   "published": "2022-05-01T07:42:00Z",
   "aliases": [
     "CVE-2006-6833"

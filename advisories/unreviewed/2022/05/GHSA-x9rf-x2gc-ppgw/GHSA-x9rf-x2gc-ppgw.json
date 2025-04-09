@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9rf-x2gc-ppgw",
-  "modified": "2022-05-01T07:41:28Z",
+  "modified": "2025-04-09T03:35:19Z",
   "published": "2022-05-01T07:41:28Z",
   "aliases": [
     "CVE-2006-6772"
@@ -65,6 +65,10 @@
     {
       "type": "WEB",
       "url": "http://sourceforge.net/tracker/index.php?func=detail&aid=1612792&group_id=39518&atid=425439"
+    },
+    {
+      "type": "WEB",
+      "url": "http://w3m.cvs.sourceforge.net/%2Acheckout%2A/w3m/w3m/NEWS?revision=1.79"
     },
     {
       "type": "WEB",

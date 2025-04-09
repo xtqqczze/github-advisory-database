@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j547-4m8x-hfvp",
-  "modified": "2022-05-01T07:31:25Z",
+  "modified": "2025-04-09T03:34:07Z",
   "published": "2022-05-01T07:31:25Z",
   "aliases": [
     "CVE-2006-5751"
@@ -85,6 +85,14 @@
     {
       "type": "WEB",
       "url": "http://support.avaya.com/elmodocs2/security/ASA-2007-063.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=blobdiff%3Bh=4c61a7e0a86e1ae9e16867f9f8e4b0412b8edbaf%3Bhp=4e4119a1213925568b8a1acdef9bf52b98b19da3%3Bhb=ba8379b220509e9448c00a77cf6c15ac2a559cc7%3Bf=net/bridge/br_ioctl.c"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.kernel.org/git/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=ba8379b220509e9448c00a77cf6c15ac2a559cc7"
     },
     {
       "type": "WEB",

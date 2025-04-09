@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm73-cpw4-m5p4",
-  "modified": "2022-05-01T07:36:03Z",
+  "modified": "2025-04-09T03:34:06Z",
   "published": "2022-05-01T07:36:03Z",
   "aliases": [
     "CVE-2006-6223"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1017317"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sla.ckers.org/forum/read.php?3%2C3109"
     },
     {
       "type": "WEB",

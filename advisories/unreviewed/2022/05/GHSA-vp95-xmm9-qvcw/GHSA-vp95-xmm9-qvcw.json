@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp95-xmm9-qvcw",
-  "modified": "2022-05-01T07:36:51Z",
+  "modified": "2025-04-09T03:34:19Z",
   "published": "2022-05-01T07:36:51Z",
   "aliases": [
     "CVE-2006-6331"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2006-6331"
+    },
+    {
+      "type": "WEB",
+      "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi/11_missed_security_fixes.dpatch?bug=400582%3Bmsg=71%3Batt=1"
     },
     {
       "type": "WEB",
