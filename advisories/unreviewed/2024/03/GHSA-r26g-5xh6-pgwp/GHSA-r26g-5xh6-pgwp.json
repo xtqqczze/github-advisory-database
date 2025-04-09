@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r26g-5xh6-pgwp",
-  "modified": "2024-03-20T15:32:48Z",
+  "modified": "2025-04-09T18:30:39Z",
   "published": "2024-03-20T15:32:48Z",
   "aliases": [
     "CVE-2024-1205"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-434"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

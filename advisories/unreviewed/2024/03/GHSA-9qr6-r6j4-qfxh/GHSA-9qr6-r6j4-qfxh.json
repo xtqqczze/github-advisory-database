@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qr6-r6j4-qfxh",
-  "modified": "2024-03-29T15:30:28Z",
+  "modified": "2025-04-09T18:30:40Z",
   "published": "2024-03-29T15:30:28Z",
   "aliases": [
     "CVE-2024-30456"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in realmag777 WPCS.This issue affects WPCS: from n/a through 1.2.0.1.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in realmag777 WPCS.This issue affects WPCS: from n/a through 1.2.0.1.",
   "severity": [
     {
       "type": "CVSS_V3",

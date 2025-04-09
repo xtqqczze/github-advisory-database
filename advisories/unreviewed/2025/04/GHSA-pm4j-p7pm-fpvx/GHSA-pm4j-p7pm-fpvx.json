@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm4j-p7pm-fpvx",
-  "modified": "2025-04-09T15:32:23Z",
+  "modified": "2025-04-09T18:30:50Z",
   "published": "2025-04-09T15:32:23Z",
   "aliases": [
     "CVE-2025-27391"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/25p96cvzl1mkt29lwm2d8knklkoqolps"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/09/3"
     }
   ],
   "database_specific": {

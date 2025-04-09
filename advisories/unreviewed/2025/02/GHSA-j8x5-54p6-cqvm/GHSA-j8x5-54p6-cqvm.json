@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8x5-54p6-cqvm",
-  "modified": "2025-02-12T21:31:54Z",
+  "modified": "2025-04-09T18:30:47Z",
   "published": "2025-02-12T21:31:54Z",
   "aliases": [
     "CVE-2025-0113"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.paloaltonetworks.com/CVE-2024-0113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.paloaltonetworks.com/CVE-2025-0113"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp4v-q7qc-45wr",
-  "modified": "2025-04-07T21:32:06Z",
+  "modified": "2025-04-09T18:30:49Z",
   "published": "2025-04-07T15:31:10Z",
   "aliases": [
     "CVE-2025-30401"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.facebook.com/security/advisories/cve-2025-30401"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.whatsapp.com/security/advisories/2025"
     }
   ],
   "database_specific": {
