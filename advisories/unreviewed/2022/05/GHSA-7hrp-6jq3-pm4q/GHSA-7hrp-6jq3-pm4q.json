@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hrp-6jq3-pm4q",
-  "modified": "2022-05-02T03:39:24Z",
+  "modified": "2025-04-09T04:13:06Z",
   "published": "2022-05-02T03:39:24Z",
   "aliases": [
     "CVE-2009-2855"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=534982"
+    },
+    {
+      "type": "WEB",
+      "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?msg=31%3Bfilename=diff%3Batt=1%3Bbug=534982"
     },
     {
       "type": "WEB",

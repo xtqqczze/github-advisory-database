@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m57q-qwrv-4p2p",
-  "modified": "2022-05-17T05:52:20Z",
+  "modified": "2025-04-09T04:13:09Z",
   "published": "2022-05-17T05:52:20Z",
   "aliases": [
     "CVE-2008-6992"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://osvdb.org/48910"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sla.ckers.org/forum/read.php?16%2C24367"
     },
     {
       "type": "WEB",

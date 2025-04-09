@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6v8v-wc26-56rj",
-  "modified": "2022-05-02T03:40:52Z",
+  "modified": "2025-04-09T04:13:37Z",
   "published": "2022-05-02T03:40:52Z",
   "aliases": [
     "CVE-2009-3002"
@@ -33,6 +33,30 @@
     {
       "type": "WEB",
       "url": "https://rhn.redhat.com/errata/RHSA-2009-1550.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=09384dfc76e526c3993c09c42e016372dc9dd22c"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=17ac2e9c58b69a1e25460a568eae1b0dc0188c25"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=3d392475c873c10c10d6d96b94d092a34ebd4791"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=80922bbb12a105f858a8f0abb879cb4302d0ecaa"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=e84b90ae5eb3c112d1f208964df1d8156a538289"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=f6b97b29513950bfbf621a83d85b6f86b39ec8db"
     },
     {
       "type": "WEB",

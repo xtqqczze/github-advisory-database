@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-274m-66j7-crv4",
-  "modified": "2022-05-02T03:37:44Z",
+  "modified": "2025-04-09T04:13:00Z",
   "published": "2022-05-02T03:37:44Z",
   "aliases": [
     "CVE-2009-2691"
@@ -29,6 +29,18 @@
     {
       "type": "WEB",
       "url": "https://www.redhat.com/archives/fedora-package-announce/2009-August/msg01256.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=00f89d218523b9bf6b522349c039d5ac80aa536d"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=13f0feafa6b8aead57a2a328e2fca6a5828bf286"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=704b836cbf19e885f8366bccb2e4b0474346c02d"
     },
     {
       "type": "WEB",

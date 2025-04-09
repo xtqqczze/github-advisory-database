@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h6cm-xhvp-x8jm",
-  "modified": "2022-05-02T03:39:02Z",
+  "modified": "2025-04-09T04:13:04Z",
   "published": "2022-05-02T03:39:02Z",
   "aliases": [
     "CVE-2009-2844"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-2844"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commitdiff%3Bh=cd3468bad96c00b5a512f551674f36776129520e"
     },
     {
       "type": "WEB",

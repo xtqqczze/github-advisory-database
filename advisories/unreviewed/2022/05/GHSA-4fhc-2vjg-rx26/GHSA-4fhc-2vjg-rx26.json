@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fhc-2vjg-rx26",
-  "modified": "2022-05-02T03:40:59Z",
+  "modified": "2025-04-09T04:13:48Z",
   "published": "2022-05-02T03:40:59Z",
   "aliases": [
     "CVE-2009-3040"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.leidecker.info/advisories/2009-05-30-ocs_inventory_ng_sql_injection.shtml"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.ocsinventory-ng.org/index.php?mact=News%2Ccntnt01%2Cdetail%2C0&cntnt01articleid=140&cntnt01returnid=72"
     },
     {
       "type": "WEB",

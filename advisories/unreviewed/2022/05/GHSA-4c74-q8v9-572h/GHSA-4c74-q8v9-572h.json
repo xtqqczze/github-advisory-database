@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c74-q8v9-572h",
-  "modified": "2022-05-02T03:34:16Z",
+  "modified": "2025-04-09T04:12:03Z",
   "published": "2022-05-02T03:34:16Z",
   "aliases": [
     "CVE-2009-2348"
@@ -20,11 +20,23 @@
     },
     {
       "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/frameworks/base.git%3Ba=commit%3Bh=4d8adefd35efdea849611b8b02d61f9517e47760"
+    },
+    {
+      "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/frameworks/base.git%3Ba=commit%3Bh=7b7225c8fdbead25235c74811b30ff4ee690dc58"
+    },
+    {
+      "type": "WEB",
       "url": "http://android.git.kernel.org/?p=platform/frameworks/base.git;a=commit;h=4d8adefd35efdea849611b8b02d61f9517e47760"
     },
     {
       "type": "WEB",
       "url": "http://android.git.kernel.org/?p=platform/frameworks/base.git;a=commit;h=7b7225c8fdbead25235c74811b30ff4ee690dc58"
+    },
+    {
+      "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/packages/apps/Camera.git%3Ba=commit%3Bh=e655d54160e5a56d4909f2459eeae9012e9f187f"
     },
     {
       "type": "WEB",

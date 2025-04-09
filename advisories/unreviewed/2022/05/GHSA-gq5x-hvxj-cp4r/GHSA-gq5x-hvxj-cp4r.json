@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq5x-hvxj-cp4r",
-  "modified": "2022-05-02T03:43:04Z",
+  "modified": "2025-04-09T04:14:32Z",
   "published": "2022-05-02T03:43:04Z",
   "aliases": [
     "CVE-2009-3238"
   ],
   "details": "The get_random_int function in drivers/char/random.c in the Linux kernel before 2.6.30 produces insufficiently random numbers, which allows attackers to predict the return value, and possibly defeat protection mechanisms based on randomization, via vectors that leverage the function's tendency to \"return the same value over and over again for long stretches of time.\"",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.hpe.com/hpsc/doc/public/display?docLocale=en_US&docId=emr_na-hpesbhf03836en_us"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=8a0a9bd4db63bc45e3017bedeafbd88d0eb84d02"
     },
     {
       "type": "WEB",
@@ -68,7 +77,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-338"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

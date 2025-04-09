@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvm6-r47j-qphc",
-  "modified": "2022-05-02T03:37:17Z",
+  "modified": "2025-04-09T04:12:32Z",
   "published": "2022-05-02T03:37:17Z",
   "aliases": [
     "CVE-2009-2657"
@@ -17,6 +17,18 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=505374"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.nilfs.org/git/?p=nilfs2-utils.git%3Ba=commitdiff%3Bh=5c95a57102e23e6982467cbe23e922450d3f38ed"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.nilfs.org/git/?p=nilfs2-utils.git%3Ba=commitdiff%3Bh=a5cb60e624e4863c8d6feaf2ea8791abb48d6f15"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.nilfs.org/git/?p=nilfs2-utils.git%3Ba=commitdiff%3Bh=d807e1c968c1f288486fb7d6f817434838fc12f7"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mv28-cc94-6wvh",
-  "modified": "2022-05-02T03:35:39Z",
+  "modified": "2025-04-09T04:12:02Z",
   "published": "2022-05-02T03:35:39Z",
   "aliases": [
     "CVE-2009-2484"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14800"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=vlc.git%3Ba=commit%3Bh=e60a9038b13b5eb805a76755efc5c6d5e080180f"
     },
     {
       "type": "WEB",
