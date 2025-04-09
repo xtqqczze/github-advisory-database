@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7qx-6x2x-phmm",
-  "modified": "2022-05-02T03:27:02Z",
+  "modified": "2025-04-09T04:10:10Z",
   "published": "2022-05-02T03:27:02Z",
   "aliases": [
     "CVE-2009-1633"
@@ -36,11 +36,23 @@
     },
     {
       "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/sfrench/cifs-2.6.git%3Ba=commit%3Bh=7b0c8fcff47a885743125dd843db64af41af5a61"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/sfrench/cifs-2.6.git%3Ba=commit%3Bh=968460ebd8006d55661dec0fb86712b40d71c413"
+    },
+    {
+      "type": "WEB",
       "url": "http://git.kernel.org/?p=linux/kernel/git/sfrench/cifs-2.6.git;a=commit;h=7b0c8fcff47a885743125dd843db64af41af5a61"
     },
     {
       "type": "WEB",
       "url": "http://git.kernel.org/?p=linux/kernel/git/sfrench/cifs-2.6.git;a=commit;h=968460ebd8006d55661dec0fb86712b40d71c413"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=27b87fe52baba0a55e9723030e76fce94fabcea4"
     },
     {
       "type": "WEB",

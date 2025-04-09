@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3ph-grj2-mw52",
-  "modified": "2022-05-02T03:17:24Z",
+  "modified": "2025-04-09T04:11:45Z",
   "published": "2022-05-02T03:17:24Z",
   "aliases": [
     "CVE-2009-0667"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2009/dsa-1828"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.ocsinventory-ng.org/index.php?mact=News%2Ccntnt01%2Cdetail%2C0&cntnt01articleid=144"
     },
     {
       "type": "WEB",

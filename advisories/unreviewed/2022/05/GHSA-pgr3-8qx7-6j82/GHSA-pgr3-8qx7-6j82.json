@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgr3-8qx7-6j82",
-  "modified": "2022-05-02T03:25:25Z",
+  "modified": "2025-04-09T04:09:47Z",
   "published": "2022-05-02T03:25:25Z",
   "aliases": [
     "CVE-2009-1466"
   ],
   "details": "Application Access Server (A-A-S) 2.0.48 stores (1) passwords and (2) the port keyword in cleartext in aas.ini, which allows local users to obtain sensitive information by reading this file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,7 +41,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-312"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,

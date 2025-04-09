@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77hj-fg3w-jpff",
-  "modified": "2022-05-02T03:26:12Z",
+  "modified": "2025-04-09T04:09:17Z",
   "published": "2022-05-02T03:26:12Z",
   "aliases": [
     "CVE-2009-1555"

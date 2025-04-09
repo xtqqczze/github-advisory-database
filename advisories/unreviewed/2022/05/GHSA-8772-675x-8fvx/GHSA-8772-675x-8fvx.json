@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8772-675x-8fvx",
-  "modified": "2022-05-02T03:26:41Z",
+  "modified": "2025-04-09T04:09:40Z",
   "published": "2022-05-02T03:26:41Z",
   "aliases": [
     "CVE-2009-1603"
   ],
   "details": "src/tools/pkcs11-tool.c in pkcs11-tool in OpenSC 0.11.7, when used with unspecified third-party PKCS#11 modules, generates RSA keys with incorrect public exponents, which allows attackers to read the cleartext form of messages that were intended to be encrypted.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -68,7 +73,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-312"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

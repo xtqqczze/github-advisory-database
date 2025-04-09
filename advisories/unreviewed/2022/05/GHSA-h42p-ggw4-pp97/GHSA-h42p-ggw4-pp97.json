@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h42p-ggw4-pp97",
-  "modified": "2022-05-02T03:26:56Z",
+  "modified": "2025-04-09T04:09:40Z",
   "published": "2022-05-02T03:26:56Z",
   "aliases": [
     "CVE-2009-1616"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-1616"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.coppermine-gallery.net/index.php/topic%2C59237.0.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.coppermine-gallery.net/index.php/topic%2C59247.0.html"
     },
     {
       "type": "WEB",

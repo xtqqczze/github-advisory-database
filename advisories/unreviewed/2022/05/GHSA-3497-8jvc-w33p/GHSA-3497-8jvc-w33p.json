@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3497-8jvc-w33p",
-  "modified": "2022-05-02T03:26:42Z",
+  "modified": "2025-04-09T04:09:40Z",
   "published": "2022-05-02T03:26:42Z",
   "aliases": [
     "CVE-2009-1604"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/34946"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.limesurvey.org/content/view/169/1/lang%2Cen"
     },
     {
       "type": "WEB",

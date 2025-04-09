@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcfv-mgf6-qw9x",
-  "modified": "2022-05-02T03:22:31Z",
+  "modified": "2025-04-09T04:09:15Z",
   "published": "2022-05-02T03:22:31Z",
   "aliases": [
     "CVE-2009-1184"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://launchpad.net/bugs/cve/2009-1184"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.27.y.git%3Ba=commit%3Bh=910c9e41186762de3717baaf392ab5ff0c454496"
     },
     {
       "type": "WEB",

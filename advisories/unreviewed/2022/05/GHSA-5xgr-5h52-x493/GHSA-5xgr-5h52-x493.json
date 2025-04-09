@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xgr-5h52-x493",
-  "modified": "2022-05-02T03:26:06Z",
+  "modified": "2025-04-09T04:09:16Z",
   "published": "2022-05-02T03:26:06Z",
   "aliases": [
     "CVE-2009-1527"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/50293"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=cad81bc2529ab8c62b6fdc83a1c0c7f4a87209eb"
     },
     {
       "type": "WEB",

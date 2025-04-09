@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm24-p578-9g92",
-  "modified": "2022-05-02T03:30:20Z",
+  "modified": "2025-04-09T04:10:31Z",
   "published": "2022-05-02T03:30:20Z",
   "aliases": [
     "CVE-2009-1960"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.splitbrain.org/index.php?do=details&task_id=1700"
+    },
+    {
+      "type": "WEB",
+      "url": "http://dev.splitbrain.org/darcsweb/darcsweb.cgi?r=dokuwiki%3Ba=commitdiff%3Bh=20090526145030-7ad00-c0483e021f47898c8597f3bfbdd26c637f891d86.gz"
     },
     {
       "type": "WEB",
