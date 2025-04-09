@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxfg-3q5p-g4xv",
-  "modified": "2022-05-01T17:57:39Z",
+  "modified": "2025-04-09T03:39:45Z",
   "published": "2022-05-01T17:57:39Z",
   "aliases": [
     "CVE-2007-1842"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/3614"
+    },
+    {
+      "type": "WEB",
+      "url": "http://kldp.net/plugins/scmcvs/cvsweb.php/jsboard-2/login.php.diff?r1=1.8%3Br2=1.9%3Bcvsroot=jsboard"
     },
     {
       "type": "WEB",

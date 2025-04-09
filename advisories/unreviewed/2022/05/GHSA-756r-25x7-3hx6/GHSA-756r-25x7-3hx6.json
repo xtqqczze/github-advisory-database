@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-756r-25x7-3hx6",
-  "modified": "2022-05-01T17:53:00Z",
+  "modified": "2025-04-09T03:38:50Z",
   "published": "2022-05-01T17:53:00Z",
   "aliases": [
     "CVE-2007-1387"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=414072"
+    },
+    {
+      "type": "WEB",
+      "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=414072%3Bmsg=12%3Bfilename=DS_VideoDecoder.c---SVN--22205.patch%3Batt=1"
     },
     {
       "type": "WEB",

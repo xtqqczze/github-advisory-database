@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxp8-xh27-r994",
-  "modified": "2022-05-01T18:00:52Z",
+  "modified": "2025-04-09T03:40:29Z",
   "published": "2022-05-01T18:00:52Z",
   "aliases": [
     "CVE-2007-2172"
@@ -97,6 +97,14 @@
     {
       "type": "WEB",
       "url": "http://www.kernel.org/pub/linux/kernel/v2.4/ChangeLog-2.4.35"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/git-commits-head%40vger.kernel.org/msg08269.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/git-commits-head%40vger.kernel.org/msg08270.html"
     },
     {
       "type": "WEB",

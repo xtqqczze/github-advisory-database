@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6r5q-24m9-x8j7",
-  "modified": "2022-05-01T17:54:39Z",
+  "modified": "2025-04-09T03:39:07Z",
   "published": "2022-05-01T17:54:39Z",
   "aliases": [
     "CVE-2007-1540"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://sourceforge.net/project/shownotes.php?release_id=494462&group_id=175965"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sql-ledger.com/cgi-bin/nav.pl?page=news.html&title=What%27s%20New"
     },
     {
       "type": "WEB",
