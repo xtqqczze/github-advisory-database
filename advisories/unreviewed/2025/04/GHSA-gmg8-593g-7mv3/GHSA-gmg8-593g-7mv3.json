@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmg8-593g-7mv3",
-  "modified": "2025-04-09T12:30:24Z",
+  "modified": "2025-04-09T15:32:22Z",
   "published": "2025-04-09T12:30:24Z",
   "aliases": [
     "CVE-2025-31672"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/k14w8vcjqy4h34hh5kzldko78kpylkq5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/08/2"
     }
   ],
   "database_specific": {
