@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mxxw-w2hq-pvjj",
-  "modified": "2022-05-01T23:43:24Z",
+  "modified": "2025-04-09T03:53:59Z",
   "published": "2022-05-01T23:43:24Z",
   "aliases": [
     "CVE-2008-1769"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.gentoo.org/show_bug.cgi?id=214627#c3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/gitweb.cgi/vlc.git/?a=commit%3Bh=cf489d7bff3c1b36b2d5501ecf21129c78104d98"
     },
     {
       "type": "WEB",

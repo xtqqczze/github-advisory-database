@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p426-497v-jr36",
-  "modified": "2022-05-01T23:52:38Z",
+  "modified": "2025-04-09T03:55:31Z",
   "published": "2022-05-01T23:52:38Z",
   "aliases": [
     "CVE-2008-2719"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://sourceforge.net/tracker/?func=detail&atid=106208&aid=1942146&group_id=6208"
+    },
+    {
+      "type": "WEB",
+      "url": "http://repo.or.cz/w/nasm.git?a=commit%3Bh=76ec8e73db16f4cf1453a142d03bcc74d528f72f"
     },
     {
       "type": "WEB",

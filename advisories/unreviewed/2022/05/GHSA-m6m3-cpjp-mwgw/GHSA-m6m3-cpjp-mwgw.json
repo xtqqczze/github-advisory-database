@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6m3-cpjp-mwgw",
-  "modified": "2022-05-01T23:53:50Z",
+  "modified": "2025-04-09T03:56:00Z",
   "published": "2022-05-01T23:53:50Z",
   "aliases": [
     "CVE-2008-2826"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://issues.rpath.com/browse/RPL-2629"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=735ce972fbc8a65fb17788debd7bbe7b4383cc62"
     },
     {
       "type": "WEB",

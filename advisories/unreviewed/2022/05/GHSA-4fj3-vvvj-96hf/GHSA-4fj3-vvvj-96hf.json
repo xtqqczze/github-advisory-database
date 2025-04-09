@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fj3-vvvj-96hf",
-  "modified": "2022-05-01T23:38:41Z",
+  "modified": "2025-04-09T03:54:11Z",
   "published": "2022-05-01T23:38:41Z",
   "aliases": [
     "CVE-2008-1294"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.gentoo.org/show_bug.cgi?id=215000"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commitdiff%3Bh=9926e4c74300c4b31dee007298c6475d33369df0"
     },
     {
       "type": "WEB",

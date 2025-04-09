@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f524-3q83-83v9",
-  "modified": "2022-05-01T23:46:16Z",
+  "modified": "2025-04-09T03:54:22Z",
   "published": "2022-05-01T23:46:16Z",
   "aliases": [
     "CVE-2008-2071"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/42306"
+    },
+    {
+      "type": "WEB",
+      "url": "http://changelog.cpanel.net/?revision=0%3Btree=%3Btreeview=%3Bshow=html%3Bpp=25%3Bte=1314%3Bpg=2"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xrg-5554-qffr",
-  "modified": "2024-02-09T03:32:53Z",
+  "modified": "2025-04-09T03:54:26Z",
   "published": "2022-05-01T23:28:06Z",
   "aliases": [
     "CVE-2008-0166"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://16years.secvuln.info"
+    },
+    {
+      "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/42375"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=40333169"
     },
     {
       "type": "WEB",

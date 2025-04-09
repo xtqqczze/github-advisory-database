@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qvw-gq22-wm46",
-  "modified": "2022-05-01T23:58:07Z",
+  "modified": "2025-04-09T03:56:47Z",
   "published": "2022-05-01T23:58:07Z",
   "aliases": [
     "CVE-2008-3247"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/43979"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.25.y.git%3Ba=commit%3Bh=74454a6a286bfce4bb23d89bd465f856fa6a6e19"
     },
     {
       "type": "WEB",

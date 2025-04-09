@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3mw-q2vh-qc2j",
-  "modified": "2022-05-01T23:55:53Z",
+  "modified": "2025-04-09T03:56:06Z",
   "published": "2022-05-01T23:55:53Z",
   "aliases": [
     "CVE-2008-3023"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://fswiki.org/wiki.pl?page=%CD%FA%CE%F2%2F2008%2D7%2D3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://fswiki.org/wiki.pl?page=%CD%FA%CE%F2%2F2008-7-3"
     },
     {
       "type": "WEB",

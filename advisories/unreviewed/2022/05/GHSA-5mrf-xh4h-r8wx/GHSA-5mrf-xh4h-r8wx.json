@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mrf-xh4h-r8wx",
-  "modified": "2022-05-01T23:45:17Z",
+  "modified": "2025-04-09T03:54:48Z",
   "published": "2022-05-01T23:45:17Z",
   "aliases": [
     "CVE-2008-1949"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://www.redhat.com/archives/fedora-package-announce/2008-May/msg00615.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.savannah.gnu.org/gitweb/?p=gnutls.git%3Ba=commitdiff%3Bh=bc8102405fda11ea00ca3b42acc4f4bce9d6e97b"
     },
     {
       "type": "WEB",

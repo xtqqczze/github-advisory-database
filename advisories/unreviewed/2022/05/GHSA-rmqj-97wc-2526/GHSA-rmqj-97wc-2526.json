@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmqj-97wc-2526",
-  "modified": "2022-05-01T23:56:22Z",
+  "modified": "2025-04-09T03:56:16Z",
   "published": "2022-05-01T23:56:22Z",
   "aliases": [
     "CVE-2008-3077"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-3077"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/stable/linux-2.6.25.y.git%3Ba=commitdiff%3Bh=1e9a615bfce7996ea4d815d45d364b47ac6a74e8"
     },
     {
       "type": "WEB",

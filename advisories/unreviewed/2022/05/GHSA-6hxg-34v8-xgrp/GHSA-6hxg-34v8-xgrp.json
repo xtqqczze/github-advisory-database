@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hxg-34v8-xgrp",
-  "modified": "2022-05-01T23:49:41Z",
+  "modified": "2025-04-09T03:54:49Z",
   "published": "2022-05-01T23:49:41Z",
   "aliases": [
     "CVE-2008-2399"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://www.kb.cert.org/vuls/id/906907"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mozdev.org/source/browse/fireftp/src/content/js/connection/controlSocket.js.in.diff?r1=1.58%3Br2=1.59%3Bf=h"
     },
     {
       "type": "WEB",

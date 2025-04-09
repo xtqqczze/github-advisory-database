@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-984m-qj9q-3464",
-  "modified": "2022-05-01T23:56:44Z",
+  "modified": "2025-04-09T03:56:20Z",
   "published": "2022-05-01T23:56:44Z",
   "aliases": [
     "CVE-2008-3111"
@@ -145,7 +145,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-20"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

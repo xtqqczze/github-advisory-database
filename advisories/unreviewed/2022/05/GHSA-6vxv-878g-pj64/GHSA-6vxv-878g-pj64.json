@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vxv-878g-pj64",
-  "modified": "2022-05-01T23:51:20Z",
+  "modified": "2025-04-09T03:55:16Z",
   "published": "2022-05-01T23:51:20Z",
   "aliases": [
     "CVE-2008-2571"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://sourceforge.net/project/shownotes.php?group_id=74605&release_id=603922"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.limesurvey.org/content/view/102/1/lang%2Cen"
     },
     {
       "type": "WEB",
