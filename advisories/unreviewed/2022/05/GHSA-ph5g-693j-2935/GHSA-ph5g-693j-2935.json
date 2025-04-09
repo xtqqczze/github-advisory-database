@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ph5g-693j-2935",
-  "modified": "2022-05-01T17:50:21Z",
+  "modified": "2025-04-09T03:38:00Z",
   "published": "2022-05-01T17:50:21Z",
   "aliases": [
     "CVE-2007-1096"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/24399"
+    },
+    {
+      "type": "WEB",
+      "url": "http://virtuemart.svn.sourceforge.net/viewvc/%2Acheckout%2A/virtuemart/trunk/virtuemart/CHANGELOG.php?revision=692"
     },
     {
       "type": "WEB",

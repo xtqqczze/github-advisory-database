@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwr9-vrm5-5m37",
-  "modified": "2022-05-01T07:38:56Z",
+  "modified": "2025-04-09T03:36:53Z",
   "published": "2022-05-01T07:38:55Z",
   "aliases": [
     "CVE-2006-6535"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A11679"
+    },
+    {
+      "type": "WEB",
+      "url": "http://linux.bkbits.net:8080/linux-2.6/gnupatch%404186e5bfgUOMBbA6xFaY0_z84kaURw"
     },
     {
       "type": "WEB",

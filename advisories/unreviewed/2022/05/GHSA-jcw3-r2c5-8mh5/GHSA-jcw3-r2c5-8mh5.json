@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcw3-r2c5-8mh5",
-  "modified": "2022-05-01T07:43:29Z",
+  "modified": "2025-04-09T03:37:07Z",
   "published": "2022-05-01T07:43:29Z",
   "aliases": [
     "CVE-2006-6968"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://osvdb.org/34729"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.phorum.org/phorum5/read.php?12%2C119757"
     },
     {
       "type": "WEB",

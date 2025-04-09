@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cm8-jjwf-xf6x",
-  "modified": "2022-05-01T07:43:29Z",
+  "modified": "2025-04-09T03:37:12Z",
   "published": "2022-05-01T07:43:29Z",
   "aliases": [
     "CVE-2006-6971"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=356355"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sla.ckers.org/forum/read.php?13%2C2253"
     },
     {
       "type": "WEB",

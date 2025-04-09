@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpxv-mc7c-75m5",
-  "modified": "2022-05-01T17:41:45Z",
+  "modified": "2025-04-09T03:35:50Z",
   "published": "2022-05-01T17:41:45Z",
   "aliases": [
     "CVE-2007-0111"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://www.trendmicro.com/vinfo/secadvisories/default6.asp?VName=Vulnerability+in+Resco+Photo+Viewer+6%2E01+Enabling+Code+Injection+and+Arbitrary+Code+Execution"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.trendmicro.com/vinfo/secadvisories/default6.asp?VName=Vulnerability+in+Resco+Photo+Viewer+6.01+Enabling+Code+Injection+and+Arbitrary+Code+Execution"
     },
     {
       "type": "WEB",

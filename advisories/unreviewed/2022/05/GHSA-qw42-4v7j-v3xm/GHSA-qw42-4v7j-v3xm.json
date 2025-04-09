@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qw42-4v7j-v3xm",
-  "modified": "2022-05-01T17:43:49Z",
+  "modified": "2025-04-09T03:36:23Z",
   "published": "2022-05-01T17:43:49Z",
   "aliases": [
     "CVE-2007-0376"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/24058"
+    },
+    {
+      "type": "WEB",
+      "url": "http://virtuemart.svn.sourceforge.net/viewvc/%2Acheckout%2A/virtuemart/branches/virtuemart-1_0_0/virtuemart/CHANGELOG.php?revision=607"
     },
     {
       "type": "WEB",
