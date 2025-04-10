@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f259-h6m8-hm8m",
-  "modified": "2023-01-12T16:49:52Z",
+  "modified": "2025-04-10T22:55:58Z",
   "published": "2023-01-06T06:30:25Z",
   "aliases": [
     "CVE-2022-25923"
@@ -59,7 +59,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-77"
+      "CWE-77",
+      "CWE-78"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
