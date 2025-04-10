@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj7c-jrv4-c65x",
-  "modified": "2023-09-21T17:14:58Z",
+  "modified": "2025-04-10T13:29:26Z",
   "published": "2023-09-21T17:14:58Z",
   "aliases": [
     "CVE-2023-41048"
@@ -124,6 +124,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/plone/plone.namedfile"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/plone-namedfile/PYSEC-2023-311.yaml"
     },
     {
       "type": "WEB",
