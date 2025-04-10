@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rj8v-47w4-c66w",
-  "modified": "2024-10-08T18:33:07Z",
+  "modified": "2025-04-10T21:30:46Z",
   "published": "2024-04-04T18:30:33Z",
   "aliases": [
     "CVE-2024-25697"
   ],
-  "details": "\nThere is a Cross-site Scripting vulnerability in Portal for ArcGIS in versions <=11.1 that may allow a remote, authenticated attacker to create a crafted link which when opening an authenticated users bio page will render an image in the victims browser.  The privileges required to execute this attack are low.\n\n",
+  "details": "There is a Cross-site Scripting vulnerability in Portal for ArcGIS in versions <=11.1 that may allow a remote, authenticated attacker to create a crafted link which when opening an authenticated users bio page will render an image in the victims browser.  The privileges required to execute this attack are low.",
   "severity": [
     {
       "type": "CVSS_V3",

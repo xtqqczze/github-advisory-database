@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr28-68mj-mpg4",
-  "modified": "2023-01-09T18:30:33Z",
+  "modified": "2025-04-10T21:30:34Z",
   "published": "2023-01-01T09:30:20Z",
   "aliases": [
     "CVE-2022-45213"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-73"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

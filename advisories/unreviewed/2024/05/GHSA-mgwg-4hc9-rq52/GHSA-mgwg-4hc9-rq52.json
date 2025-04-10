@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgwg-4hc9-rq52",
-  "modified": "2024-05-03T09:30:52Z",
+  "modified": "2025-04-10T21:30:49Z",
   "published": "2024-05-03T09:30:52Z",
   "aliases": [
     "CVE-2024-33914"
   ],
-  "details": "Missing Authorization vulnerability in Exclusive Addons Exclusive Addons Elementor.This issue affects Exclusive Addons Elementor: from n/a through 2.6.9.1.\n\n",
+  "details": "Missing Authorization vulnerability in Exclusive Addons Exclusive Addons Elementor.This issue affects Exclusive Addons Elementor: from n/a through 2.6.9.1.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p549-c3cg-f4qm",
-  "modified": "2025-04-01T15:31:36Z",
+  "modified": "2025-04-10T21:31:07Z",
   "published": "2025-04-01T15:31:36Z",
   "aliases": [
     "CVE-2025-3035"
   ],
   "details": "By first using the AI chatbot in one tab and later activating it in another tab, the document title of the previous tab would leak into the chat prompt. This vulnerability affects Firefox < 137.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-359"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T13:15:41Z"

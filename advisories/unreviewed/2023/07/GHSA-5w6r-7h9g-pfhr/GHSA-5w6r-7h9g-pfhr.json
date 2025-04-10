@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w6r-7h9g-pfhr",
-  "modified": "2024-10-08T18:33:04Z",
+  "modified": "2025-04-10T21:30:41Z",
   "published": "2023-07-21T06:30:17Z",
   "aliases": [
     "CVE-2023-25836"
   ],
-  "details": "\nThere is a Cross-site Scripting vulnerability in Esri Portal Sites in versions 10.8.1 – 10.9 that may allow a remote, authenticated attacker to create a crafted link which when clicked could potentially execute arbitrary JavaScript code in the victims browser.  The privileges required to execute this attack are low.\n\n\n\n",
+  "details": "There is a Cross-site Scripting vulnerability in Esri Portal Sites in versions 10.8.1 – 10.9 that may allow a remote, authenticated attacker to create a crafted link which when clicked could potentially execute arbitrary JavaScript code in the victims browser.  The privileges required to execute this attack are low.",
   "severity": [
     {
       "type": "CVSS_V3",

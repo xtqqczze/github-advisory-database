@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9vp4-vqrh-26wq",
-  "modified": "2024-03-29T12:30:42Z",
+  "modified": "2025-04-10T21:30:45Z",
   "published": "2024-03-29T12:30:42Z",
   "aliases": [
     "CVE-2023-6191"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Egehan Security WebPDKS allows SQL Injection.This issue affects WebPDKS: through 20240329. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Egehan Security WebPDKS allows SQL Injection.This issue affects WebPDKS: through 20240329. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
   "severity": [
     {
       "type": "CVSS_V3",

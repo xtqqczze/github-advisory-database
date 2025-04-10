@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wp7f-xph3-r8ph",
-  "modified": "2024-10-08T18:33:04Z",
+  "modified": "2025-04-10T21:30:42Z",
   "published": "2023-07-21T21:30:31Z",
   "aliases": [
     "CVE-2023-25840"
   ],
-  "details": "\nThere is a Cross-site Scripting vulnerability in ArcGIS Server in versions 10.8.1 – 11.1 that may allow a remote, authenticated attacker to create a crafted link which onmouseover wont execute but could potentially render an image in the victims browser.  The privileges required to execute this attack are high.\n\n\n\n",
+  "details": "There is a Cross-site Scripting vulnerability in ArcGIS Server in versions 10.8.1 – 11.1 that may allow a remote, authenticated attacker to create a crafted link which onmouseover wont execute but could potentially render an image in the victims browser.  The privileges required to execute this attack are high.",
   "severity": [
     {
       "type": "CVSS_V3",

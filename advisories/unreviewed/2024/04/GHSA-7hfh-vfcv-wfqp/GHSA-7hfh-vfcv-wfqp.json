@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hfh-vfcv-wfqp",
-  "modified": "2024-04-20T00:31:52Z",
+  "modified": "2025-04-10T21:30:46Z",
   "published": "2024-04-04T18:30:33Z",
   "aliases": [
     "CVE-2024-25699"
   ],
-  "details": "\nThere is a difficult to exploit improper authentication issue in the Home application for Esri Portal for ArcGIS versions 10.8.1 through 11.2 on Windows and Linux, and ArcGIS Enterprise 11.1 and below on Kubernetes which, under unique circumstances, could potentially allow a remote, unauthenticated attacker to compromise the confidentiality, integrity, and availability of the software.\n\n\n",
+  "details": "There is a difficult to exploit improper authentication issue in the Home application for Esri Portal for ArcGIS versions 10.8.1 through 11.2 on Windows and Linux, and ArcGIS Enterprise 11.1 and below on Kubernetes which, under unique circumstances, could potentially allow a remote, unauthenticated attacker to compromise the confidentiality, integrity, and availability of the software.",
   "severity": [
     {
       "type": "CVSS_V3",

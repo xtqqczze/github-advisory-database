@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cxw-wgvv-24jj",
-  "modified": "2025-03-04T18:33:39Z",
+  "modified": "2025-04-10T21:31:07Z",
   "published": "2025-03-04T12:30:32Z",
   "aliases": [
     "CVE-2025-22225"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-123"
+      "CWE-123",
+      "CWE-787"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

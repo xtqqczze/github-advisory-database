@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmw9-73pf-rc65",
-  "modified": "2024-10-04T18:31:11Z",
+  "modified": "2025-04-10T21:30:58Z",
   "published": "2024-10-04T18:31:11Z",
   "aliases": [
     "CVE-2024-38038"
