@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f6m-g7v2-775j",
-  "modified": "2025-04-01T18:30:54Z",
+  "modified": "2025-04-10T15:31:45Z",
   "published": "2025-04-01T18:30:54Z",
   "aliases": [
     "CVE-2025-21982"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\npinctrl: nuvoton: npcm8xx: Add NULL check in npcm8xx_gpio_fw\n\ndevm_kasprintf() calls can return null pointers on failure.\nBut the return values were not checked in npcm8xx_gpio_fw().\nAdd NULL check in npcm8xx_gpio_fw(), to handle kernel NULL\npointer dereference error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:29Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xc54-8222-cmjv",
-  "modified": "2025-04-02T15:31:37Z",
+  "modified": "2025-04-10T15:31:46Z",
   "published": "2025-04-02T15:31:37Z",
   "aliases": [
     "CVE-2025-21992"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/007a849126ef7907761af6a1379400558a72e703"
     },
     {
       "type": "WEB",
@@ -33,6 +37,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/9acdb0059fb6b82158e15adae91e629cb5974564"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9af297aea8f76a0ad21f2de5f2cd6401a748b9c3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b6c6c2d8ab4932e5d6d439f514276cb3d257b8fe"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rvg2-pv9x-xxhg",
-  "modified": "2025-04-01T18:30:54Z",
+  "modified": "2025-04-10T15:31:44Z",
   "published": "2025-04-01T18:30:54Z",
   "aliases": [
     "CVE-2025-21968"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21968"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/06acfdef370ae018dad9592369e2d2fd9a40c09e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1397715b011bcdc6ad91b17df7acaee301e89db5"
     },
     {
       "type": "WEB",

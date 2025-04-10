@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rwg-62q4-wcw9",
-  "modified": "2023-01-12T15:30:25Z",
+  "modified": "2025-04-10T15:31:31Z",
   "published": "2023-01-06T21:30:41Z",
   "aliases": [
     "CVE-2021-46868"

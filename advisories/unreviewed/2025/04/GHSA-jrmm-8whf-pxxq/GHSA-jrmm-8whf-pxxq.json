@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrmm-8whf-pxxq",
-  "modified": "2025-04-02T15:31:37Z",
+  "modified": "2025-04-10T15:31:45Z",
   "published": "2025-04-02T15:31:37Z",
   "aliases": [
     "CVE-2025-21989"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: fix missing .is_two_pixels_per_container\n\nStarting from 6.11, AMDGPU driver, while being loaded with amdgpu.dc=1,\ndue to lack of .is_two_pixels_per_container function in dce60_tg_funcs,\ncauses a NULL pointer dereference on PCs with old GPUs, such as R9 280X.\n\nSo this fix adds missing .is_two_pixels_per_container to dce60_tg_funcs.\n\n(cherry picked from commit bd4b125eb949785c6f8a53b0494e32795421209d)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-02T13:15:43Z"

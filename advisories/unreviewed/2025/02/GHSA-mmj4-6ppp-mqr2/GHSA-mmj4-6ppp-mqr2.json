@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmj4-6ppp-mqr2",
-  "modified": "2025-03-13T15:32:51Z",
+  "modified": "2025-04-10T15:31:42Z",
   "published": "2025-02-27T03:34:06Z",
   "aliases": [
     "CVE-2025-21779"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/5393cf22312418262679eaadb130d608c75fe690"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/61224533f2b61e252b03e214195d27d64b22989a"
     },
     {
       "type": "WEB",

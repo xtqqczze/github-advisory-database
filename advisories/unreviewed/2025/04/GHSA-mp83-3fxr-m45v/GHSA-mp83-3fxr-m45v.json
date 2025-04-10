@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp83-3fxr-m45v",
-  "modified": "2025-04-01T18:30:53Z",
+  "modified": "2025-04-10T15:31:44Z",
   "published": "2025-04-01T18:30:53Z",
   "aliases": [
     "CVE-2025-21964"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/833f2903eb8b70faca7967319e580e9ce69729fc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a13351624a6af8d91398860b8c9d4cf6c8e63de5"
     },
     {
       "type": "WEB",

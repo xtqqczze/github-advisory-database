@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-843h-74ff-22vf",
-  "modified": "2025-01-06T21:30:49Z",
+  "modified": "2025-04-10T15:31:37Z",
   "published": "2024-05-22T09:31:46Z",
   "aliases": [
     "CVE-2021-47489"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47489"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1336b886b162fdc84708096ea152a61c0e1fc09c"
     },
     {
       "type": "WEB",

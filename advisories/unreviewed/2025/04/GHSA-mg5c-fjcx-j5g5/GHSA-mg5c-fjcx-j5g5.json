@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg5c-fjcx-j5g5",
-  "modified": "2025-04-01T18:30:53Z",
+  "modified": "2025-04-10T15:31:43Z",
   "published": "2025-04-01T18:30:53Z",
   "aliases": [
     "CVE-2025-21962"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1c46673be93dd2954f44fe370fb4f2b8e6214224"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/513f6cf2e906a504b7ab0b62b2eea993a6f64558"
     },
     {
       "type": "WEB",

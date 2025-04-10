@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37v5-vmq6-f37g",
-  "modified": "2025-04-01T18:30:54Z",
+  "modified": "2025-04-10T15:31:44Z",
   "published": "2025-04-01T18:30:54Z",
   "aliases": [
     "CVE-2025-21971"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21971"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/003d92c91cdb5a64b25a9a74cb8543aac9a8bb48"
     },
     {
       "type": "WEB",
@@ -28,7 +32,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7a82fe67a9f4d7123d8e5ba8f0f0806c28695006"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/94edfdfb9505ab608e86599d1d1e38c83816fc1c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e05d9938b1b0ac40b6054cc5fa0ccbd9afd5ed4c"
     },
     {
       "type": "WEB",

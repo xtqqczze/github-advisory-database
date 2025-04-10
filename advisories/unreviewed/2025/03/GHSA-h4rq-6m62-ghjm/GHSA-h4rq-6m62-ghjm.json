@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4rq-6m62-ghjm",
-  "modified": "2025-03-18T21:31:59Z",
+  "modified": "2025-04-10T15:31:41Z",
   "published": "2025-03-18T21:31:59Z",
   "aliases": [
     "CVE-2022-49046"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49046"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2e539b17d4cbe5fb8b5152dd9a6e4a8828f97db2"
     },
     {
       "type": "WEB",

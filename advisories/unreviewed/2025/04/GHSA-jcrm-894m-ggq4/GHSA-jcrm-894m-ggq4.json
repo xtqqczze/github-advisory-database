@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcrm-894m-ggq4",
-  "modified": "2025-04-08T09:31:12Z",
+  "modified": "2025-04-10T15:31:48Z",
   "published": "2025-04-08T09:31:12Z",
   "aliases": [
     "CVE-2025-22008"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2c7a50bec4958f1d1c84d19cde518d0e96a676fd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3a9c46af5654783f99015727ac65bc2a23e2735a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8e500180904aae63afdce95cb378aeabe119ecda"
     },
     {
       "type": "WEB",

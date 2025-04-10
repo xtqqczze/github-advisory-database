@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rcw-5rq5-g5x2",
-  "modified": "2024-04-03T15:30:41Z",
+  "modified": "2025-04-10T15:31:31Z",
   "published": "2024-04-03T15:30:41Z",
   "aliases": [
     "CVE-2024-25096"
   ],
-  "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Canto Inc. Canto allows Code Injection.This issue affects Canto: from n/a through 3.0.7.\n\n",
+  "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Canto Inc. Canto allows Code Injection.This issue affects Canto: from n/a through 3.0.7.",
   "severity": [
     {
       "type": "CVSS_V3",

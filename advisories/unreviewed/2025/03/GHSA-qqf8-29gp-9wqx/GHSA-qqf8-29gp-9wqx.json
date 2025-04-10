@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqf8-29gp-9wqx",
-  "modified": "2025-03-10T21:31:09Z",
+  "modified": "2025-04-10T15:31:41Z",
   "published": "2025-03-10T21:31:09Z",
   "aliases": [
     "CVE-2022-49546"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/115ee42a4c2f26ba2b4ace2668a3f004621f6833"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/23cf39dccf7653650701a6f39b119e9116a27f1a"
     },
     {
       "type": "WEB",
