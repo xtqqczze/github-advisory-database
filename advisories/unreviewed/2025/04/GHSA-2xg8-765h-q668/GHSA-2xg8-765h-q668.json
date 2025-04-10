@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xg8-765h-q668",
-  "modified": "2025-04-03T09:32:15Z",
+  "modified": "2025-04-10T18:32:01Z",
   "published": "2025-04-03T09:32:15Z",
   "aliases": [
     "CVE-2025-22001"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\naccel/qaic: Fix integer overflow in qaic_validate_req()\n\nThese are u64 variables that come from the user via\nqaic_attach_slice_bo_ioctl().  Use check_add_overflow() to ensure that\nthe math doesn't have an integer wrapping bug.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-03T08:15:15Z"

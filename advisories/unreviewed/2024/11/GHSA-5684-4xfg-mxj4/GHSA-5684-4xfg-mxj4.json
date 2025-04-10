@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5684-4xfg-mxj4",
-  "modified": "2024-12-11T15:31:15Z",
+  "modified": "2025-04-10T18:31:55Z",
   "published": "2024-11-09T12:30:47Z",
   "aliases": [
     "CVE-2024-50217"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/aec8e6bf839101784f3ef037dcdb9432c3f32343"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/10/4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/10/5"
     }
   ],
   "database_specific": {

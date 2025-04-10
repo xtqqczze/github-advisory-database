@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcp3-6gpr-378g",
-  "modified": "2022-01-26T00:02:11Z",
+  "modified": "2025-04-10T18:31:40Z",
   "published": "2022-01-21T00:00:52Z",
   "aliases": [
     "CVE-2021-46026"
   ],
   "details": "mysiteforme, as of 19-12-2022, is vulnerable to Cross Site Scripting (XSS) via the add blog tag function in the blog tag in the background blog management.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

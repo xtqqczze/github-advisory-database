@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84gc-cf68-frm5",
-  "modified": "2025-04-03T09:32:15Z",
+  "modified": "2025-04-10T18:32:01Z",
   "published": "2025-04-03T09:32:15Z",
   "aliases": [
     "CVE-2025-22000"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm/huge_memory: drop beyond-EOF folios with the right number of refs\n\nWhen an after-split folio is large and needs to be dropped due to EOF,\nfolio_put_refs(folio, folio_nr_pages(folio)) should be used to drop all\npage cache refs.  Otherwise, the folio will not be freed, causing memory\nleak.\n\nThis leak would happen on a filesystem with blocksize > page_size and a\ntruncate is performed, where the blocksize makes folios split to >0 order\nones, causing truncated folios not being freed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-03T08:15:15Z"

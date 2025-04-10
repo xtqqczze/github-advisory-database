@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf9h-wvgw-cqh6",
-  "modified": "2025-04-10T15:31:43Z",
+  "modified": "2025-04-10T18:32:00Z",
   "published": "2025-04-01T18:30:52Z",
   "aliases": [
     "CVE-2025-21941"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix null check for pipe_ctx->plane_state in resource_build_scaling_params\n\nNull pointer dereference issue could occur when pipe_ctx->plane_state\nis null. The fix adds a check to ensure 'pipe_ctx->plane_state' is not\nnull before accessing. This prevents a null pointer dereference.\n\nFound by code review.\n\n(cherry picked from commit 63e6a77ccf239337baa9b1e7787cde9fa0462092)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:24Z"

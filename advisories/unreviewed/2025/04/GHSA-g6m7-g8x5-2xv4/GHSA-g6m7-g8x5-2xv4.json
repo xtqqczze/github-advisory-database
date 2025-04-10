@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6m7-g8x5-2xv4",
-  "modified": "2025-04-07T18:30:48Z",
+  "modified": "2025-04-10T18:32:02Z",
   "published": "2025-04-07T18:30:48Z",
   "aliases": [
     "CVE-2025-3426"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-3426"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.philips.com/a-w/security/security-advisories.html#security_advisories"
     }
   ],
   "database_specific": {

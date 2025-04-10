@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c5j-6262-p78w",
-  "modified": "2025-04-01T18:30:53Z",
+  "modified": "2025-04-10T18:32:01Z",
   "published": "2025-04-01T18:30:53Z",
   "aliases": [
     "CVE-2025-21947"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix type confusion via race condition when using ipc_msg_send_request\n\nreq->handle is allocated using ksmbd_acquire_id(&ipc_ida), based on\nida_alloc. req->handle from ksmbd_ipc_login_request and\nFSCTL_PIPE_TRANSCEIVE ioctl can be same and it could lead to type confusion\nbetween messages, resulting in access to unexpected parts of memory after\nan incorrect delivery. ksmbd check type of ipc response but missing add\ncontinue to check next ipc reponse.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:25Z"

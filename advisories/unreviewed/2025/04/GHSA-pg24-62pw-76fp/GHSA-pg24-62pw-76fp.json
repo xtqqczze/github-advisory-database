@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pg24-62pw-76fp",
-  "modified": "2025-04-03T09:32:15Z",
+  "modified": "2025-04-10T18:32:01Z",
   "published": "2025-04-03T09:32:15Z",
   "aliases": [
     "CVE-2025-21997"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxsk: fix an integer overflow in xp_create_and_assign_umem()\n\nSince the i and pool->chunk_size variables are of type 'u32',\ntheir product can wrap around and then be cast to 'u64'.\nThis can lead to two different XDP buffers pointing to the same\nmemory area.\n\nFound by InfoTeCS on behalf of Linux Verification Center\n(linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-03T08:15:15Z"

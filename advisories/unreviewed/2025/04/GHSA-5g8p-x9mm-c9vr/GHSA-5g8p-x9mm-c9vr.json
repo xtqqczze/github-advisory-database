@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g8p-x9mm-c9vr",
-  "modified": "2025-04-01T18:30:53Z",
+  "modified": "2025-04-10T18:32:01Z",
   "published": "2025-04-01T18:30:53Z",
   "aliases": [
     "CVE-2025-21945"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix use-after-free in smb2_lock\n\nIf smb_lock->zero_len has value, ->llist of smb_lock is not delete and\nflock is old one. It will cause use-after-free on error handling\nroutine.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:25Z"
