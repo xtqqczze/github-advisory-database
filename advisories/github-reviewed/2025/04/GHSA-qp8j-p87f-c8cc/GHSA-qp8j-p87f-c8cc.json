@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qp8j-p87f-c8cc",
-  "modified": "2025-04-07T16:54:36Z",
+  "modified": "2025-04-10T01:55:57Z",
   "published": "2025-04-07T16:54:36Z",
   "aliases": [
     "CVE-2025-32013"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/lnbits/lnbits"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/lnbits/PYSEC-2025-16.yaml"
     }
   ],
   "database_specific": {
