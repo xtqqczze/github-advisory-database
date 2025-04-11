@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vwmr-vj3v-wp4w",
-  "modified": "2022-05-17T05:37:49Z",
+  "modified": "2025-04-11T03:49:56Z",
   "published": "2022-05-17T05:37:49Z",
   "aliases": [
     "CVE-2011-2955"

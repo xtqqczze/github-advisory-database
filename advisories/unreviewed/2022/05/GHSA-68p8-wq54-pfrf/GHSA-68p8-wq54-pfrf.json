@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68p8-wq54-pfrf",
-  "modified": "2022-05-14T03:53:31Z",
+  "modified": "2025-04-11T03:51:27Z",
   "published": "2022-05-14T03:53:31Z",
   "aliases": [
     "CVE-2011-3325"
@@ -21,6 +21,14 @@
     {
       "type": "WEB",
       "url": "https://www.cert.fi/en/reports/2011/vulnerability539178.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://code.quagga.net/?p=quagga.git%3Ba=commit%3Bh=61ab0301606053192f45c188bc48afc837518770"
+    },
+    {
+      "type": "WEB",
+      "url": "http://code.quagga.net/?p=quagga.git%3Ba=commit%3Bh=717750433839762d23a5f8d88fe0b4d57c8d490a"
     },
     {
       "type": "WEB",

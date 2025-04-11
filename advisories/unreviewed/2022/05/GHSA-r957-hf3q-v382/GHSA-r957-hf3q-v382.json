@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r957-hf3q-v382",
-  "modified": "2022-05-17T01:53:27Z",
+  "modified": "2025-04-11T03:50:16Z",
   "published": "2022-05-17T01:53:27Z",
   "aliases": [
     "CVE-2011-3388"

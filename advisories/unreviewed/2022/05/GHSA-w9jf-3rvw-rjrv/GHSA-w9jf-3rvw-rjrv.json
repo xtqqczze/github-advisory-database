@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9jf-3rvw-rjrv",
-  "modified": "2022-05-02T04:00:50Z",
+  "modified": "2025-04-11T03:50:10Z",
   "published": "2022-05-02T04:00:50Z",
   "aliases": [
     "CVE-2009-5063"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-5063"
+    },
+    {
+      "type": "WEB",
+      "url": "http://libpng.git.sourceforge.net/git/gitweb.cgi?p=libpng/libpng%3Ba=commitdiff%3Bh=948ee23a2a400672b1751cfc646a7467741e9b2e#patch18"
     },
     {
       "type": "WEB",

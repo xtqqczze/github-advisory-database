@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3xv-mhh7-vg2v",
-  "modified": "2022-05-17T05:39:24Z",
+  "modified": "2025-04-11T03:50:16Z",
   "published": "2022-05-17T05:39:24Z",
   "aliases": [
     "CVE-2011-3381"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://jvndb.jvn.jp/jvndb/JVNDB-2011-000068"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.phorum.org/phorum5/read.php?64%2C147504"
     },
     {
       "type": "WEB",

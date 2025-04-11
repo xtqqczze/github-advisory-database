@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4fp-pv59-4m67",
-  "modified": "2022-05-17T05:38:53Z",
+  "modified": "2025-04-11T03:50:07Z",
   "published": "2022-05-17T05:38:53Z",
   "aliases": [
     "CVE-2011-2746"

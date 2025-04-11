@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rq7-2qmm-8925",
-  "modified": "2022-05-14T02:55:17Z",
+  "modified": "2025-04-11T03:49:32Z",
   "published": "2022-05-14T02:55:17Z",
   "aliases": [
     "CVE-2011-2357"
@@ -20,7 +20,19 @@
     },
     {
       "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/cts.git%3Ba=commit%3Bh=7e48fb87d48d27e65942b53b7918288c8d740e17"
+    },
+    {
+      "type": "WEB",
       "url": "http://android.git.kernel.org/?p=platform/cts.git;a=commit;h=7e48fb87d48d27e65942b53b7918288c8d740e17"
+    },
+    {
+      "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/packages/apps/Browser.git%3B%20a=commit%3Bh=096bae248453abe83cbb2e5a2c744bd62cdb620b"
+    },
+    {
+      "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/packages/apps/Browser.git%3B%20a=commit%3Bh=afa4ab1e4c1d645e34bd408ce04cadfd2e5dae1e"
     },
     {
       "type": "WEB",

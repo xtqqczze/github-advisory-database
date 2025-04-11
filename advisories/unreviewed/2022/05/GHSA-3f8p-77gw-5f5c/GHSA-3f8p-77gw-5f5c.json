@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f8p-77gw-5f5c",
-  "modified": "2022-05-14T03:53:16Z",
+  "modified": "2025-04-11T03:51:27Z",
   "published": "2022-05-14T03:53:16Z",
   "aliases": [
     "CVE-2011-3327"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://www.cert.fi/en/reports/2011/vulnerability539178.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://code.quagga.net/?p=quagga.git%3Ba=commit%3Bh=94431dbc753171b48b5c6806af97fd690813b00a"
     },
     {
       "type": "WEB",

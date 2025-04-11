@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x97f-rpv2-wwmc",
-  "modified": "2022-05-14T03:53:11Z",
+  "modified": "2025-04-11T03:51:56Z",
   "published": "2022-05-14T03:53:11Z",
   "aliases": [
     "CVE-2011-3556"

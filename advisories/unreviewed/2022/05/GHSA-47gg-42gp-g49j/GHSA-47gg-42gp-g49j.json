@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47gg-42gp-g49j",
-  "modified": "2022-05-17T05:29:49Z",
+  "modified": "2025-04-11T03:50:59Z",
   "published": "2022-05-17T05:29:49Z",
   "aliases": [
     "CVE-2011-3362"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-3362"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=91d5da9321c52e8197fb14046ebb335f3e6ff4a0"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=c5cbda50793e311aa73489d12184ffd6761c9fbf"
     },
     {
       "type": "WEB",
