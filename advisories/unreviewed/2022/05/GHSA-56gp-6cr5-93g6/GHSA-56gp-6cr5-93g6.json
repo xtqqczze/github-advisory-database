@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56gp-6cr5-93g6",
-  "modified": "2022-05-14T03:07:55Z",
+  "modified": "2025-04-11T04:01:45Z",
   "published": "2022-05-14T03:07:55Z",
   "aliases": [
     "CVE-2012-4745"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/53048"
+    },
+    {
+      "type": "WEB",
+      "url": "http://yehg.net/lab/pr0js/advisories/%5Bacuity_cms2.6.x_%28asp%29%5D_xss"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xj9w-h48f-jf9m",
-  "modified": "2022-05-17T05:22:36Z",
+  "modified": "2025-04-11T04:00:57Z",
   "published": "2022-05-17T05:22:36Z",
   "aliases": [
     "CVE-2012-4238"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/50141"
+    },
+    {
+      "type": "WEB",
+      "url": "http://tcexam.git.sourceforge.net/git/gitweb.cgi?p=tcexam/tcexam%3Bh=edf6e08622642f1b2421f4355d98250d9e1b0742"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq89-86cj-h68m",
-  "modified": "2022-05-17T05:27:24Z",
+  "modified": "2025-04-11T04:00:05Z",
   "published": "2022-05-17T05:27:24Z",
   "aliases": [
     "CVE-2011-2658"

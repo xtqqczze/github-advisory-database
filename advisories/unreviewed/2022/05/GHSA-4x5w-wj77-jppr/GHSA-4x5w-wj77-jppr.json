@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4x5w-wj77-jppr",
-  "modified": "2022-05-17T04:09:23Z",
+  "modified": "2025-04-11T04:01:09Z",
   "published": "2022-05-17T04:09:23Z",
   "aliases": [
     "CVE-2012-3507"

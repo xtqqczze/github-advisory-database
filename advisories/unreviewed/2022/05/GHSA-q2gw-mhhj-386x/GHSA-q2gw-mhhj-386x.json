@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2gw-mhhj-386x",
-  "modified": "2022-05-17T05:27:38Z",
+  "modified": "2025-04-11T04:00:05Z",
   "published": "2022-05-17T05:27:38Z",
   "aliases": [
     "CVE-2011-2503"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/46920"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sources.redhat.com/git/gitweb.cgi?p=systemtap.git%3Ba=blob%3Bf=NEWS%3Bhb=304d73b1fea24af791f2a129fb141c5009eae6a8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sources.redhat.com/git/gitweb.cgi?p=systemtap.git%3Ba=commitdiff%3Bh=ed51cfa24ca27746ab09b59280b94117dd58cba3"
     },
     {
       "type": "WEB",

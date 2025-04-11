@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8rh-w3fr-95f7",
-  "modified": "2022-05-17T01:49:43Z",
+  "modified": "2025-04-11T04:00:54Z",
   "published": "2022-05-17T01:49:43Z",
   "aliases": [
     "CVE-2012-0848"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://ffmpeg.org/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=5257743aee0c3982f0079e6553aabc6aa39401d2"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmqw-2h2f-3459",
-  "modified": "2022-05-14T03:08:01Z",
+  "modified": "2025-04-11T04:00:57Z",
   "published": "2022-05-14T03:08:01Z",
   "aliases": [
     "CVE-2012-4052"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/?fromgroups#!topic/jease/2BHaDww-5ac[1-25]"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/?fromgroups#%21topic/jease/2BHaDww-5ac%5B1-25%5D"
     },
     {
       "type": "WEB",

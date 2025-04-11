@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wc7-486v-w943",
-  "modified": "2022-05-14T01:43:40Z",
+  "modified": "2025-04-11T03:59:40Z",
   "published": "2022-05-14T01:43:40Z",
   "aliases": [
     "CVE-2011-3149"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/ubuntu/+source/pam/+bug/874565"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.fedorahosted.org/git/?p=linux-pam.git%3Ba=commitdiff%3Bh=109823cb621c900c07c4b6cdc99070d354d19444"
     },
     {
       "type": "WEB",

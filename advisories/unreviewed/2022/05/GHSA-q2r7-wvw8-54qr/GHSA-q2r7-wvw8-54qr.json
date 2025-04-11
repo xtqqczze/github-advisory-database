@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2r7-wvw8-54qr",
-  "modified": "2022-05-17T05:19:34Z",
+  "modified": "2025-04-11T04:00:54Z",
   "published": "2022-05-17T05:19:34Z",
   "aliases": [
     "CVE-2012-0853"
@@ -20,7 +20,19 @@
     },
     {
       "type": "WEB",
+      "url": "http://git.libav.org/?p=libav.git%3Ba=commit%3Bh=c509f4f74713b035a06f79cb4d00e708f5226bc5"
+    },
+    {
+      "type": "WEB",
       "url": "http://git.libav.org/?p=libav.git;a=commit;h=c509f4f74713b035a06f79cb4d00e708f5226bc5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=9af6abdc17deb95c9b1f1d9242ba49b8b5e0b016"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=c509f4f74713b035a06f79cb4d00e708f5226bc5"
     },
     {
       "type": "WEB",

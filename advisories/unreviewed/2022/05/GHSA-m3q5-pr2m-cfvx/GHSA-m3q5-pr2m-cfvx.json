@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3q5-pr2m-cfvx",
-  "modified": "2022-05-14T02:17:30Z",
+  "modified": "2025-04-11T04:02:12Z",
   "published": "2022-05-14T02:17:30Z",
   "aliases": [
     "CVE-2012-2785"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "http://ffmpeg.org/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=326f7a68bbd429c63fd2f19f4050658982b5b081"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=d462949974668ffb013467d12dc4934b9106fe19"
     },
     {
       "type": "WEB",

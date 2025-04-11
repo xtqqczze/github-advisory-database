@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj6v-6227-3v35",
-  "modified": "2022-05-17T05:17:50Z",
+  "modified": "2025-04-11T04:02:34Z",
   "published": "2022-05-17T05:17:50Z",
   "aliases": [
     "CVE-2011-5163"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-5163"
+    },
+    {
+      "type": "WEB",
+      "url": "https://my.mitsubishi-automation.com/downloads_show.php?portal_id=1&doc_type=safety&scat=2&sstr=MX4%2CSCADA"
     },
     {
       "type": "WEB",

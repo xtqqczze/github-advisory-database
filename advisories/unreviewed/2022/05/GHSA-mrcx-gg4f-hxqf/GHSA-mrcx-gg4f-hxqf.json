@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrcx-gg4f-hxqf",
-  "modified": "2022-05-17T05:18:41Z",
+  "modified": "2025-04-11T04:00:54Z",
   "published": "2022-05-17T05:18:41Z",
   "aliases": [
     "CVE-2012-0947"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/ubuntu/+source/libav/+bug/980963"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.libav.org/?p=libav.git%3Ba=commit%3Bh=58b2e0f0f2fc96c1158e04f8aba95cbe6157a1a3"
     },
     {
       "type": "WEB",

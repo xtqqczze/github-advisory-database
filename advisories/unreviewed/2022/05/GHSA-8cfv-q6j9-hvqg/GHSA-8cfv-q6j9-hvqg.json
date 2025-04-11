@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cfv-q6j9-hvqg",
-  "modified": "2022-05-17T05:07:50Z",
+  "modified": "2025-04-11T04:01:47Z",
   "published": "2022-05-17T05:07:50Z",
   "aliases": [
     "CVE-2012-1613"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://coppermine.svn.sourceforge.net/viewvc/coppermine/trunk/cpg1.6.x/edit_one_pic.php?r1=8348&r2=8354"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.coppermine-gallery.net/index.php/topic%2C74682.0.html"
     },
     {
       "type": "WEB",

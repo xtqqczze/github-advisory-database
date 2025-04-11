@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfm7-qg4x-5fg2",
-  "modified": "2022-05-17T05:19:48Z",
+  "modified": "2025-04-11T04:00:52Z",
   "published": "2022-05-17T05:19:48Z",
   "aliases": [
     "CVE-2011-3929"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "http://ffmpeg.org"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.libav.org/?p=libav.git%3Ba=commit%3Bh=635bcfccd439480003b74a665b5aa7c872c1ad6b"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.libav.org/?p=libav.git%3Ba=commitdiff%3Bh=5a396bb3a66a61a68b80f2369d0249729bf85e04"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq6g-x53r-cw4c",
-  "modified": "2022-05-14T03:07:56Z",
+  "modified": "2025-04-11T04:00:49Z",
   "published": "2022-05-14T03:07:56Z",
   "aliases": [
     "CVE-2012-4341"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://service.sap.com/sap/support/notes/1649838"
+    },
+    {
+      "type": "WEB",
+      "url": "https://websmp230.sap-ag.de/sap%28bD1lbiZjPTAwMQ==%29/bc/bsp/spn/sapnotes/index2.htm?numm=1649840"
     },
     {
       "type": "WEB",

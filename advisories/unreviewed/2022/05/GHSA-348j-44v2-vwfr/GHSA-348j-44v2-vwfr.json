@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-348j-44v2-vwfr",
-  "modified": "2022-05-14T03:29:55Z",
+  "modified": "2025-04-11T04:02:36Z",
   "published": "2022-05-14T03:29:55Z",
   "aliases": [
     "CVE-2012-4929"

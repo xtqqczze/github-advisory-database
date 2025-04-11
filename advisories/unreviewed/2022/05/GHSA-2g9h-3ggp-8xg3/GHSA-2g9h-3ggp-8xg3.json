@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g9h-3ggp-8xg3",
-  "modified": "2022-05-02T04:00:51Z",
+  "modified": "2025-04-11T04:00:30Z",
   "published": "2022-05-02T04:00:51Z",
   "aliases": [
     "CVE-2009-5066"

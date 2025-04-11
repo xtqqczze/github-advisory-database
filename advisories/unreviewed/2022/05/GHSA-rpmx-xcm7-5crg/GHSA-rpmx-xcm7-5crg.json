@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpmx-xcm7-5crg",
-  "modified": "2022-05-17T01:44:02Z",
+  "modified": "2025-04-11T04:01:08Z",
   "published": "2022-05-17T01:44:02Z",
   "aliases": [
     "CVE-2012-3441"
@@ -24,11 +24,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.icinga.org/?p=icinga-core.git%3Ba=commitdiff%3Bh=712813d3118a5b9e5a496179cab81dbe91f69d63"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.icinga.org/?p=icinga-core.git%3Ba=commitdiff%3Bh=dcd45fb6931c4abf710829bee21af09f842bc281"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.icinga.org/?p=icinga-core.git;a=commitdiff;h=712813d3118a5b9e5a496179cab81dbe91f69d63"
     },
     {
       "type": "WEB",
       "url": "https://git.icinga.org/?p=icinga-core.git;a=commitdiff;h=dcd45fb6931c4abf710829bee21af09f842bc281"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.icinga.org/?p=icinga-doc.git%3Ba=commitdiff%3Bh=619a08ca1178144b8a3a5caafff32a2d3918edab"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmvc-933r-7cp3",
-  "modified": "2022-05-14T02:54:31Z",
+  "modified": "2025-04-11T04:01:25Z",
   "published": "2022-05-14T02:54:31Z",
   "aliases": [
     "CVE-2011-4926"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/71414"
+    },
+    {
+      "type": "WEB",
+      "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=467338%40adminimize&old=466900%40adminimize#file5"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h5ff-8r22-qwvc",
-  "modified": "2022-05-14T02:17:28Z",
+  "modified": "2025-04-11T04:00:54Z",
   "published": "2022-05-14T02:17:28Z",
   "aliases": [
     "CVE-2012-0856"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://ffmpeg.org/trac/ffmpeg/ticket/757"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=21270cffaeab2f67a613907516b2b0cd6c9eacf4"
     },
     {
       "type": "WEB",

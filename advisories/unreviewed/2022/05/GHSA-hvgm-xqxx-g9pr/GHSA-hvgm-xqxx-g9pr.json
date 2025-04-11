@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvgm-xqxx-g9pr",
-  "modified": "2022-05-17T05:24:16Z",
+  "modified": "2025-04-11T04:01:25Z",
   "published": "2022-05-17T05:24:16Z",
   "aliases": [
     "CVE-2011-5128"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-5128"
+    },
+    {
+      "type": "WEB",
+      "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=467338%40adminimize&old=466900%40adminimize#file5"
     },
     {
       "type": "WEB",

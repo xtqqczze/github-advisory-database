@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fm8-cg34-48gj",
-  "modified": "2022-05-17T05:15:45Z",
+  "modified": "2025-04-11T04:01:23Z",
   "published": "2022-05-17T05:15:45Z",
   "aliases": [
     "CVE-2012-3420"
@@ -49,6 +49,18 @@
     {
       "type": "WEB",
       "url": "http://lists.opensuse.org/opensuse-security-announce/2013-01/msg00024.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://oss.sgi.com/cgi-bin/gitweb.cgi?p=pcp/pcp.git%3Ba=blob%3Bf=CHANGELOG%3Bh=16c9cbb2f61d909487ea1c3171f4ab33e5648ac5%3Bhb=fe51067ae869a4d59f350ac319b09edcb77ac8e6"
+    },
+    {
+      "type": "WEB",
+      "url": "http://oss.sgi.com/cgi-bin/gitweb.cgi?p=pcp/pcp.git%3Ba=commit%3Bh=68fb968b4ee635bb301dc9ab64e633b0d66d27b4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://oss.sgi.com/cgi-bin/gitweb.cgi?p=pcp/pcp.git%3Ba=commit%3Bh=a7dc844d3586ea79887655a97c4252a79751fdae"
     },
     {
       "type": "WEB",
