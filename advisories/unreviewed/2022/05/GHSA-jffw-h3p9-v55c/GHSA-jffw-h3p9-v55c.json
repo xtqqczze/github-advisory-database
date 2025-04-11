@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jffw-h3p9-v55c",
-  "modified": "2022-05-04T00:28:50Z",
+  "modified": "2025-04-11T03:58:27Z",
   "published": "2022-05-04T00:28:50Z",
   "aliases": [
     "CVE-2012-0210"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/73215"
+    },
+    {
+      "type": "WEB",
+      "url": "http://anonscm.debian.org/gitweb/?p=devscripts/devscripts.git%3Ba=commitdiff%3Bh=797ddc961532eb0aeb46153e3f28c8e9ea0500d2"
     },
     {
       "type": "WEB",

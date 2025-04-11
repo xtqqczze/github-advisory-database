@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frmw-wwv7-8q6q",
-  "modified": "2022-05-17T01:46:13Z",
+  "modified": "2025-04-11T03:57:44Z",
   "published": "2022-05-17T01:46:13Z",
   "aliases": [
     "CVE-2012-2321"
@@ -21,6 +21,14 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/75466"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=network/connman/connman.git%3Ba=commit%3Bh=26ace5c59f790bce0f1988b88874c6f2c480fd5a"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=network/connman/connman.git%3Ba=commit%3Bh=a5f540db7354b76bcabd0a05d8eb8ba2bff4e911"
     },
     {
       "type": "WEB",

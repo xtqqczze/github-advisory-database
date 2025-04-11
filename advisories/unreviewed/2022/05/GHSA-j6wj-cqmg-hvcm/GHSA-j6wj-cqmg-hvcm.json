@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6wj-cqmg-hvcm",
-  "modified": "2022-05-04T00:27:50Z",
+  "modified": "2025-04-11T03:58:05Z",
   "published": "2022-05-04T00:27:50Z",
   "aliases": [
     "CVE-2012-0060"
@@ -49,6 +49,14 @@
     {
       "type": "WEB",
       "url": "http://rhn.redhat.com/errata/RHSA-2012-0531.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://rpm.org/gitweb?p=rpm.git%3Ba=commitdiff%3Bh=e4eab2bc6d07cfd33f740071de7ddbb2fe2f4190"
+    },
+    {
+      "type": "WEB",
+      "url": "http://rpm.org/gitweb?p=rpm.git%3Ba=commitdiff%3Bh=f23998251992b8ae25faf5113c42fee2c49c7f29"
     },
     {
       "type": "WEB",

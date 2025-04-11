@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww39-4grx-mfvf",
-  "modified": "2022-05-13T01:28:51Z",
+  "modified": "2025-04-11T03:58:13Z",
   "published": "2022-05-13T01:28:51Z",
   "aliases": [
     "CVE-2012-1012"

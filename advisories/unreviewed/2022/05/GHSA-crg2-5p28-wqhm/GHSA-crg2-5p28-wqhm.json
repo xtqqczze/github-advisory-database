@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crg2-5p28-wqhm",
-  "modified": "2022-05-17T05:28:31Z",
+  "modified": "2025-04-11T03:58:35Z",
   "published": "2022-05-17T05:28:31Z",
   "aliases": [
     "CVE-2012-0802"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://security.gentoo.org/glsa/glsa-201203-01.xml"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/spamdyke-release%40spamdyke.org/msg00014.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-582v-h4w6-q3j2",
-  "modified": "2022-05-17T01:46:04Z",
+  "modified": "2025-04-11T03:57:49Z",
   "published": "2022-05-17T01:46:04Z",
   "aliases": [
     "CVE-2012-2562"
@@ -37,6 +37,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-20",
       "CWE-287"
     ],
     "severity": "HIGH",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrfc-6g2q-85mp",
-  "modified": "2022-05-14T04:02:49Z",
+  "modified": "2025-04-11T03:56:58Z",
   "published": "2022-05-14T04:02:49Z",
   "aliases": [
     "CVE-2012-0946"
