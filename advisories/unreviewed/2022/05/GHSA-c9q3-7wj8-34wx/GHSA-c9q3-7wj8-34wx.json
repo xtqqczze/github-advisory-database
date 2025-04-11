@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9q3-7wj8-34wx",
-  "modified": "2022-05-14T02:43:16Z",
+  "modified": "2025-04-11T03:41:37Z",
   "published": "2022-05-14T02:43:16Z",
   "aliases": [
     "CVE-2010-3449"
@@ -28,7 +28,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/archiva-users/201011.mbox/ajax/%3CAANLkTimXejHAuXdoUKLN=GkNty1_XnRCbv0YA0T2cS_2%40mail.gmail.com%3E"
+    },
+    {
+      "type": "WEB",
       "url": "http://mail-archives.apache.org/mod_mbox/archiva-users/201011.mbox/ajax/%3CAANLkTimXejHAuXdoUKLN=GkNty1_XnRCbv0YA0T2cS_2@mail.gmail.com%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/continuum-users/201102.mbox/%3C032C189E-D821-4833-A8F2-F72365147695%40apache.org%3E"
     },
     {
       "type": "WEB",

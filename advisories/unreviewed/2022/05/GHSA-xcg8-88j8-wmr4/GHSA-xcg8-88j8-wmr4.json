@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcg8-88j8-wmr4",
-  "modified": "2022-05-14T01:31:48Z",
+  "modified": "2025-04-11T03:39:51Z",
   "published": "2022-05-14T01:31:48Z",
   "aliases": [
     "CVE-2010-2744"

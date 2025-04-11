@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48cp-9vmv-3948",
-  "modified": "2022-05-17T05:46:00Z",
+  "modified": "2025-04-11T03:41:12Z",
   "published": "2022-05-17T05:46:00Z",
   "aliases": [
     "CVE-2010-4270"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/42186"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.nbill.co.uk/forum-smf/index.php/topic%2C2158.0.html"
     },
     {
       "type": "WEB",

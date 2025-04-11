@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp32-2fr5-7fpp",
-  "modified": "2022-05-17T01:03:28Z",
+  "modified": "2025-04-11T03:40:37Z",
   "published": "2022-05-17T01:03:28Z",
   "aliases": [
     "CVE-2010-4045"

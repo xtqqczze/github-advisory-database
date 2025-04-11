@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cwx-7vc4-7q5f",
-  "modified": "2022-05-14T02:16:43Z",
+  "modified": "2025-04-11T03:40:41Z",
   "published": "2022-05-14T02:16:43Z",
   "aliases": [
     "CVE-2010-3227"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A6696"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.eeye.com/Resources/Security-Center/Research/Zero-Day-Tracker/2010/20100705-%281%29"
     },
     {
       "type": "WEB",

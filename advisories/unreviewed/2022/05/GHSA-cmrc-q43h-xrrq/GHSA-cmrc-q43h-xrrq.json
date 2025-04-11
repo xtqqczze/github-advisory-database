@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmrc-q43h-xrrq",
-  "modified": "2022-05-17T01:03:53Z",
+  "modified": "2025-04-11T03:40:42Z",
   "published": "2022-05-17T01:03:53Z",
   "aliases": [
     "CVE-2010-3765"

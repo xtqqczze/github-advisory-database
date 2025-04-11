@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prxh-v2x2-7wwq",
-  "modified": "2022-05-14T03:08:11Z",
+  "modified": "2025-04-11T03:40:41Z",
   "published": "2022-05-14T03:08:11Z",
   "aliases": [
     "CVE-2010-3712"
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2011/03/18/5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://yehg.net/lab/pr0js/advisories/joomla/core/%5Bjoomla_1.5.20%5D_cross_site_scripting%28XSS%29"
     },
     {
       "type": "WEB",

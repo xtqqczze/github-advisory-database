@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5p54-jj38-3hxj",
-  "modified": "2022-05-14T02:42:19Z",
+  "modified": "2025-04-11T03:41:39Z",
   "published": "2022-05-14T02:42:19Z",
   "aliases": [
     "CVE-2010-4408"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://archiva.apache.org/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/archiva-users/201011.mbox/ajax/%3CAANLkTimXejHAuXdoUKLN=GkNty1_XnRCbv0YA0T2cS_2%40mail.gmail.com%3E"
     },
     {
       "type": "WEB",

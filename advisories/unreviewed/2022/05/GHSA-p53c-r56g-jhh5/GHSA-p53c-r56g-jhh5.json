@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p53c-r56g-jhh5",
-  "modified": "2022-05-17T05:46:52Z",
+  "modified": "2025-04-11T03:41:01Z",
   "published": "2022-05-17T05:46:52Z",
   "aliases": [
     "CVE-2010-3040"

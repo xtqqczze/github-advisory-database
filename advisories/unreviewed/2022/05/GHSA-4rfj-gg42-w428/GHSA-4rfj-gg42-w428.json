@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rfj-gg42-w428",
-  "modified": "2022-05-17T05:47:13Z",
+  "modified": "2025-04-11T03:40:39Z",
   "published": "2022-05-17T05:47:13Z",
   "aliases": [
     "CVE-2010-4068"

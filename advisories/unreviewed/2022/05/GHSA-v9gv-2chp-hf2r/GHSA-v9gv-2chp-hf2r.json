@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9gv-2chp-hf2r",
-  "modified": "2022-05-13T01:24:53Z",
+  "modified": "2025-04-11T03:40:55Z",
   "published": "2022-05-13T01:24:53Z",
   "aliases": [
     "CVE-2010-4203"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "http://googlechromereleases.blogspot.com/2010/11/stable-channel-update.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://review.webmproject.org/gitweb?p=libvpx.git%3Ba=blob%3Bf=CHANGELOG"
+    },
+    {
+      "type": "WEB",
+      "url": "http://review.webmproject.org/gitweb?p=libvpx.git%3Ba=commit%3Bh=09bcc1f710ea65dc158639479288fb1908ff0c53"
     },
     {
       "type": "WEB",

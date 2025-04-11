@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfjg-hh7x-gpv7",
-  "modified": "2022-05-14T02:36:17Z",
+  "modified": "2025-04-11T03:41:01Z",
   "published": "2022-05-14T02:36:17Z",
   "aliases": [
     "CVE-2010-3334"

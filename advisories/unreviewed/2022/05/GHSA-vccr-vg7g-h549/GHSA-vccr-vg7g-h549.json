@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vccr-vg7g-h549",
-  "modified": "2022-05-14T03:08:11Z",
+  "modified": "2025-04-11T03:39:50Z",
   "published": "2022-05-14T03:08:11Z",
   "aliases": [
     "CVE-2010-3889"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.computerworld.com/s/article/9185919/Is_Stuxnet_the_best_malware_ever_"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.eeye.com/Resources/Security-Center/Research/Zero-Day-Tracker/2010/20100716-%281%29"
     },
     {
       "type": "WEB",
