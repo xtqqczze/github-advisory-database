@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfq9-hh5x-xfq9",
-  "modified": "2025-04-10T18:32:03Z",
+  "modified": "2025-04-11T14:09:51Z",
   "published": "2025-04-10T18:32:03Z",
   "aliases": [
     "CVE-2025-24866"
   ],
+  "summary": "Mattermost Fails to Enforce Proper Access Controls on `/api/v4/audits` Endpoint",
   "details": "Mattermost versions 9.11.x <= 9.11.8  fail to enforce proper access controls on the /api/v4/audits endpoint, allowing users with delegated granular administration roles who lack access to Compliance Monitoring to retrieve User Activity Logs.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/mattermost/mattermost/server/v8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "9.11.0"
+            },
+            {
+              "fixed": "9.11.9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24866"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/mattermost/mattermost"
     },
     {
       "type": "WEB",
@@ -29,8 +54,8 @@
       "CWE-863"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-11T14:09:51Z",
     "nvd_published_at": "2025-04-10T16:15:27Z"
   }
 }
