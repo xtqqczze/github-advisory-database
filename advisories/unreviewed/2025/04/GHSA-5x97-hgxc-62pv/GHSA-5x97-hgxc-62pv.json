@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5x97-hgxc-62pv",
+  "modified": "2025-04-11T15:32:30Z",
+  "published": "2025-04-11T15:32:30Z",
+  "aliases": [
+    "CVE-2023-38614"
+  ],
+  "details": "A permissions issue was addressed with additional restrictions. This issue is fixed in iOS 17 and iPadOS 17, macOS Sonoma 14. An app may be able to access sensitive user data.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-38614"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/120949"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/120950"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-11T15:15:44Z"
+  }
+}

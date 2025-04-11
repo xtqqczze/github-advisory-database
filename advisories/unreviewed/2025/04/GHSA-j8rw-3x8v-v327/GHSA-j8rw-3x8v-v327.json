@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8rw-3x8v-v327",
-  "modified": "2025-04-07T09:30:22Z",
+  "modified": "2025-04-11T15:32:27Z",
   "published": "2025-04-01T18:30:51Z",
   "aliases": [
     "CVE-2025-21918"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: ucsi: Fix NULL pointer access\n\nResources should be released only after all threads that utilize them\nhave been destroyed.\nThis commit ensures that resources are not released prematurely by waiting\nfor the associated workqueue to complete before deallocating them.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:22Z"

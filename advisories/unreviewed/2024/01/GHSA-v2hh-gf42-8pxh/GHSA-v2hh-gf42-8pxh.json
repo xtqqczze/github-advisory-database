@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2hh-gf42-8pxh",
-  "modified": "2024-01-17T18:31:36Z",
+  "modified": "2025-04-11T15:32:15Z",
   "published": "2024-01-11T00:30:25Z",
   "aliases": [
     "CVE-2023-40393"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-40393"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/120949"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/120950"
     },
     {
       "type": "WEB",

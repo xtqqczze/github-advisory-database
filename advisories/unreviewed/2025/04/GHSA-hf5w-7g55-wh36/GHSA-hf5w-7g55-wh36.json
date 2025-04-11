@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hf5w-7g55-wh36",
-  "modified": "2025-04-01T18:30:51Z",
+  "modified": "2025-04-11T15:32:27Z",
   "published": "2025-04-01T18:30:51Z",
   "aliases": [
     "CVE-2025-21917"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: renesas_usbhs: Flush the notify_hotplug_work\n\nWhen performing continuous unbind/bind operations on the USB drivers\navailable on the Renesas RZ/G2L SoC, a kernel crash with the message\n\"Unable to handle kernel NULL pointer dereference at virtual address\"\nmay occur. This issue points to the usbhsc_notify_hotplug() function.\n\nFlush the delayed work to avoid its execution when driver resources are\nunavailable.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:22Z"

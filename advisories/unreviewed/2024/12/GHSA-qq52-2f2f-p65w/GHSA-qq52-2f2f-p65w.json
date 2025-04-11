@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qq52-2f2f-p65w",
-  "modified": "2024-12-12T06:30:50Z",
+  "modified": "2025-04-11T15:32:25Z",
   "published": "2024-12-12T06:30:50Z",
   "aliases": [
     "CVE-2024-11052"
