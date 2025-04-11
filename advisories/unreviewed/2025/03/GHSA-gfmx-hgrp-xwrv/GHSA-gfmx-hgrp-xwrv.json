@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfmx-hgrp-xwrv",
-  "modified": "2025-03-25T06:30:26Z",
+  "modified": "2025-04-11T21:30:36Z",
   "published": "2025-03-25T06:30:26Z",
   "aliases": [
     "CVE-2025-2731"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.520497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.h3c.com/cn/Service/Document_Software/Software_Download/Consume_product"
+    },
+    {
+      "type": "WEB",
+      "url": "https://zhiliao.h3c.com/theme/details/229784"
     }
   ],
   "database_specific": {

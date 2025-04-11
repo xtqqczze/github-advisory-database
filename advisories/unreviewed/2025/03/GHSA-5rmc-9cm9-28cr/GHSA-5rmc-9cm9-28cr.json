@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rmc-9cm9-28cr",
-  "modified": "2025-03-25T03:30:25Z",
+  "modified": "2025-04-11T21:30:35Z",
   "published": "2025-03-25T03:30:25Z",
   "aliases": [
     "CVE-2025-2728"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.520462"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.h3c.com/cn/Service/Document_Software/Software_Download/Consume_product"
+    },
+    {
+      "type": "WEB",
+      "url": "https://zhiliao.h3c.com/theme/details/229784"
     }
   ],
   "database_specific": {
