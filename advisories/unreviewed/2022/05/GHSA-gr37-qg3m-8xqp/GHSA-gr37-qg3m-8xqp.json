@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr37-qg3m-8xqp",
-  "modified": "2022-05-14T02:56:14Z",
+  "modified": "2025-04-11T03:44:30Z",
   "published": "2022-05-14T02:56:14Z",
   "aliases": [
     "CVE-2011-1036"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/65632"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7B53A608DF-BFDB-4AB3-A98F-E4BB6BC7A2F4%7D"
     },
     {
       "type": "WEB",

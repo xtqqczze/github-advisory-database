@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93qm-89mw-wr9h",
-  "modified": "2022-05-13T01:10:51Z",
+  "modified": "2025-04-11T03:46:25Z",
   "published": "2022-05-13T01:10:51Z",
   "aliases": [
     "CVE-2011-1718"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/66906"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7B1BF29B14-C5FB-4BD3-9113-68E2426E4381%7D"
     },
     {
       "type": "WEB",

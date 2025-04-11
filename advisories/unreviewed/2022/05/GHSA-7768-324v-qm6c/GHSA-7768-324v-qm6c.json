@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7768-324v-qm6c",
-  "modified": "2022-05-13T01:25:00Z",
+  "modified": "2025-04-11T03:46:48Z",
   "published": "2022-05-13T01:25:00Z",
   "aliases": [
     "CVE-2011-2022"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lkml.org/lkml/2011/4/14/293"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=194b3da873fd334ef183806db751473512af29ce"
     },
     {
       "type": "WEB",

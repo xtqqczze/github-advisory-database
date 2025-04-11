@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9h6-jm9r-6x4w",
-  "modified": "2022-05-17T02:02:22Z",
+  "modified": "2025-04-11T03:45:09Z",
   "published": "2022-05-17T02:02:22Z",
   "aliases": [
     "CVE-2011-0435"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/65896"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.gplhost.com/gitweb/?p=dtc.git%3Ba=commit%3Bh=89da9c519b04cda1b23e6290d2b0a6cea1bae31e"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.gplhost.com/gitweb/?p=dtc.git%3Ba=commit%3Bh=e94e8b9cc354bfcaeb284d5331b815256bb46162"
     },
     {
       "type": "WEB",

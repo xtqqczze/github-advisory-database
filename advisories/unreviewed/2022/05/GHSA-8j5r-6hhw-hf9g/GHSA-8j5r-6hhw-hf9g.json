@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j5r-6hhw-hf9g",
-  "modified": "2022-05-14T02:55:23Z",
+  "modified": "2025-04-11T03:46:54Z",
   "published": "2022-05-14T02:55:23Z",
   "aliases": [
     "CVE-2011-1720"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "http://www.kb.cert.org/vuls/id/727230"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/postfix-announce%40postfix.org/msg00007.html"
     },
     {
       "type": "WEB",

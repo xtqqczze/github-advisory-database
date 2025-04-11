@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hr3-g9fq-x7fw",
-  "modified": "2022-05-17T02:02:22Z",
+  "modified": "2025-04-11T03:45:09Z",
   "published": "2022-05-17T02:02:22Z",
   "aliases": [
     "CVE-2011-0436"
@@ -21,6 +21,14 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=614302"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.gplhost.com/gitweb/?p=dtc.git%3Ba=commit%3Bh=adffff7efb3687ff465ee0552a944dd3109f3cb0"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.gplhost.com/gitweb/?p=dtc.git%3Ba=commit%3Bh=f8e3b2d7cc2da313addc05394568ab9599499285"
     },
     {
       "type": "WEB",

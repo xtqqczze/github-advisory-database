@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9c9q-3xvx-4wqh",
-  "modified": "2022-05-13T01:24:34Z",
+  "modified": "2025-04-11T03:45:49Z",
   "published": "2022-05-13T01:24:34Z",
   "aliases": [
     "CVE-2011-0463"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.novell.com/show_bug.cgi?id=673037"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=272b62c1f0f6f742046e45b50b6fec98860208a0"
     },
     {
       "type": "WEB",

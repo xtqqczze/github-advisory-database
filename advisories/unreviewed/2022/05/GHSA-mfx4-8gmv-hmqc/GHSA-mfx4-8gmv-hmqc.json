@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfx4-8gmv-hmqc",
-  "modified": "2022-05-13T01:39:27Z",
+  "modified": "2025-04-11T03:46:55Z",
   "published": "2022-05-13T01:39:27Z",
   "aliases": [
     "CVE-2011-1854"

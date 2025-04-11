@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vrp-wfmj-qg4p",
-  "modified": "2022-05-13T01:10:56Z",
+  "modified": "2025-04-11T03:46:25Z",
   "published": "2022-05-13T01:10:56Z",
   "aliases": [
     "CVE-2011-1719"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/66904"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7BDED5B724-B500-46DA-A855-B2AF457B5364%7D"
     },
     {
       "type": "WEB",

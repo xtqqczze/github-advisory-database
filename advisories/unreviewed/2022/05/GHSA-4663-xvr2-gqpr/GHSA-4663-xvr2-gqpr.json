@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4663-xvr2-gqpr",
-  "modified": "2022-05-17T05:42:52Z",
+  "modified": "2025-04-11T03:45:25Z",
   "published": "2022-05-17T05:42:52Z",
   "aliases": [
     "CVE-2011-1428"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://archives.neohapsis.com/archives/fulldisclosure/2011-02/0671.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git%3Ba=commit%3Bh=c265cad1c95b84abfd4e8d861f25926ef13b5d91"
     },
     {
       "type": "WEB",

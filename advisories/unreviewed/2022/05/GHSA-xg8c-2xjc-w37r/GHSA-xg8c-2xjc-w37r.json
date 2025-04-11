@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xg8c-2xjc-w37r",
-  "modified": "2022-05-14T02:55:21Z",
+  "modified": "2025-04-11T03:46:37Z",
   "published": "2022-05-14T02:55:21Z",
   "aliases": [
     "CVE-2011-1825"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/67104"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7BA71F5839-D214-4719-B918-4476E4537998%7D"
     },
     {
       "type": "WEB",

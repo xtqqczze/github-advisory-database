@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hcf-872f-8qrc",
-  "modified": "2022-05-14T03:08:10Z",
+  "modified": "2025-04-11T03:45:38Z",
   "published": "2022-05-14T03:08:10Z",
   "aliases": [
     "CVE-2011-1400"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/43973"
+    },
+    {
+      "type": "WEB",
+      "url": "http://svn.debian.org/wsvn/debian-tex/?op=comp&compare%5B%5D=%2Ftex-common%2Ftrunk%404781&compare%5B%5D=%2Ftex-common%2Ftrunk%404812"
     },
     {
       "type": "WEB",
