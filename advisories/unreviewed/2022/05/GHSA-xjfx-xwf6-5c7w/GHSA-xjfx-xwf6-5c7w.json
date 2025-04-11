@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjfx-xwf6-5c7w",
-  "modified": "2022-05-02T06:10:06Z",
+  "modified": "2025-04-11T03:33:38Z",
   "published": "2022-05-02T06:10:06Z",
   "aliases": [
     "CVE-2010-0098"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://wwws.clamav.net/bugzilla/show_bug.cgi?id=1826"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.clamav.net/gitweb?p=clamav-devel.git%3Ba=blob_plain%3Bf=ChangeLog%3Bhb=clamav-0.96"
     },
     {
       "type": "WEB",

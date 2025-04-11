@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpxc-987h-ggrr",
-  "modified": "2022-05-02T06:22:44Z",
+  "modified": "2025-04-11T03:34:00Z",
   "published": "2022-05-02T06:22:44Z",
   "aliases": [
     "CVE-2010-1427"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://jvndb.jvn.jp/ja/contents/2010/JVNDB-2010-000013.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://modxcms.com/forums/index.php/topic%2C47759.msg280304.html#msg280304"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36gf-xprp-mg7j",
-  "modified": "2022-05-02T03:23:40Z",
+  "modified": "2025-04-11T03:32:34Z",
   "published": "2022-05-02T03:23:40Z",
   "aliases": [
     "CVE-2009-1299"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=573615"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.0pointer.de/?p=pulseaudio.git%3Ba=patch%3Bh=d3efa43d85ac132c6a5a416a2b6f2115f5d577ee"
     },
     {
       "type": "WEB",

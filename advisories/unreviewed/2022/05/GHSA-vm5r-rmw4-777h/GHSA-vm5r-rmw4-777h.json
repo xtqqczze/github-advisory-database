@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm5r-rmw4-777h",
-  "modified": "2022-05-02T06:22:59Z",
+  "modified": "2025-04-11T03:34:07Z",
   "published": "2022-05-02T06:22:59Z",
   "aliases": [
     "CVE-2010-1458"
