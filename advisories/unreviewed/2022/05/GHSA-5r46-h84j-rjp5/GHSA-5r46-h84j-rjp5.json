@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r46-h84j-rjp5",
-  "modified": "2022-05-14T03:09:06Z",
+  "modified": "2025-04-11T04:07:16Z",
   "published": "2022-05-14T03:09:06Z",
   "aliases": [
     "CVE-2012-2686"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://support.hpe.com/hpsc/doc/public/display?docLocale=en_US&docId=emr_na-c03883001"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.openssl.org/gitweb/?p=openssl.git%3Ba=commit%3Bh=125093b59f3c2a2d33785b5563d929d0472f1721"
     },
     {
       "type": "WEB",

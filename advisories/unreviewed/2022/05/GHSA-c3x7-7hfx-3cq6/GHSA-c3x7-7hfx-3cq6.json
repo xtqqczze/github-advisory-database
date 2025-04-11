@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3x7-7hfx-3cq6",
-  "modified": "2022-05-14T02:17:52Z",
+  "modified": "2025-04-11T04:08:11Z",
   "published": "2022-05-14T02:17:52Z",
   "aliases": [
     "CVE-2013-2495"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-2495"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=3dbc0ff9c3e6f6e0d08ea3d42cb33761bae084ba"
     },
     {
       "type": "WEB",

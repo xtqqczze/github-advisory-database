@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjw4-77m8-grj2",
-  "modified": "2022-05-14T03:07:52Z",
+  "modified": "2025-04-11T04:08:39Z",
   "published": "2022-05-14T03:07:52Z",
   "aliases": [
     "CVE-2013-2279"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-2279"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7B53E50CBD-6F6A-4B3A-85FF-36E44ABED8D5%7D"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9p28-hjc9-q5m3",
-  "modified": "2022-05-14T03:07:51Z",
+  "modified": "2025-04-11T04:05:52Z",
   "published": "2022-05-14T03:07:51Z",
   "aliases": [
     "CVE-2012-6299"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-6299"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7BFBA53B61-3A68-4506-9876-F845F6DD8A93%7D"
     },
     {
       "type": "WEB",

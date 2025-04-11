@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww72-x43x-r55q",
-  "modified": "2022-05-17T03:17:31Z",
+  "modified": "2025-04-11T04:06:04Z",
   "published": "2022-05-17T03:17:31Z",
   "aliases": [
     "CVE-2012-5667"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://git.savannah.gnu.org/cgit/grep.git/commit/?id=cbbc1a45b9f843c811905c97c90a5d31f8e6c189"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.sv.gnu.org/gitweb/?p=grep.git%3Ba=shortlog%3Bh=v2.11"
     },
     {
       "type": "WEB",

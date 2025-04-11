@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvjg-fjxw-6h9q",
-  "modified": "2022-05-17T04:53:45Z",
+  "modified": "2025-04-11T04:08:05Z",
   "published": "2022-05-17T04:53:45Z",
   "aliases": [
     "CVE-2013-1635"
@@ -29,6 +29,18 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=702221"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=blob%3Bf=NEWS%3Bh=36f6f9a4396d3034cc903a4271e7fdeccc5d3ea6%3Bhb=refs/heads/PHP-5.4"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=blob%3Bf=NEWS%3Bh=82afa3a040e639f3595121e45b850d5453906a00%3Bhb=refs/heads/PHP-5.3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commitdiff%3Bh=702b436ef470cc02f8e2cc21f2fadeee42103c74"
     },
     {
       "type": "WEB",

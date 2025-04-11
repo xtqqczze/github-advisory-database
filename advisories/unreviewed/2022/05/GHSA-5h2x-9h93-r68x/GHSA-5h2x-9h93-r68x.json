@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h2x-9h93-r68x",
-  "modified": "2022-05-14T03:07:55Z",
+  "modified": "2025-04-11T04:05:51Z",
   "published": "2022-05-14T03:07:55Z",
   "aliases": [
     "CVE-2012-6298"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-6298"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7BFBA53B61-3A68-4506-9876-F845F6DD8A93%7D"
     },
     {
       "type": "WEB",

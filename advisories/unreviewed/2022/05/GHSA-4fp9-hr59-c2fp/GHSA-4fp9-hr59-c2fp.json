@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fp9-hr59-c2fp",
-  "modified": "2022-05-13T01:06:45Z",
+  "modified": "2025-04-11T04:07:45Z",
   "published": "2022-05-13T01:06:45Z",
   "aliases": [
     "CVE-2013-0894"
@@ -20,7 +20,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://git.chromium.org/gitweb/?p=chromium/deps/ffmpeg.git%3Ba=commit%3Bh=e1e70d9bb9852b7d099379afc95531a632a20ba5"
+    },
+    {
+      "type": "WEB",
       "url": "http://git.chromium.org/gitweb/?p=chromium/deps/ffmpeg.git;a=commit;h=e1e70d9bb9852b7d099379afc95531a632a20ba5"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=2c16bf2de07c68513072bf3cc96401d2c6291a3e"
     },
     {
       "type": "WEB",

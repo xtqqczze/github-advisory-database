@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3wr-hv3w-x2rj",
-  "modified": "2022-05-14T00:03:24Z",
+  "modified": "2025-04-11T04:08:04Z",
   "published": "2022-05-14T00:03:24Z",
   "aliases": [
     "CVE-2013-1493"
@@ -109,6 +109,10 @@
     {
       "type": "WEB",
       "url": "http://www.mandriva.com/security/advisories?name=MDVSA-2013:095"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.oracle.com/ocom/groups/public/%40otn/documents/webcontent/1915099.xml"
     },
     {
       "type": "WEB",

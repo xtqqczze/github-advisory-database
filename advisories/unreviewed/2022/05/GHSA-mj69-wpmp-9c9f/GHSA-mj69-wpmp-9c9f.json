@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mj69-wpmp-9c9f",
-  "modified": "2022-05-05T02:48:41Z",
+  "modified": "2025-04-11T04:08:11Z",
   "published": "2022-05-05T02:48:41Z",
   "aliases": [
     "CVE-2013-0249"

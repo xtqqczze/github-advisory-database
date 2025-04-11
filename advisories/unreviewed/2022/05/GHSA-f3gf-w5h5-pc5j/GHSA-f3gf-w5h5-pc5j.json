@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3gf-w5h5-pc5j",
-  "modified": "2022-05-17T05:13:24Z",
+  "modified": "2025-04-11T04:08:21Z",
   "published": "2022-05-17T05:13:24Z",
   "aliases": [
     "CVE-2013-1423"
@@ -13,6 +13,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-1423"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fusionforge.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=fusionforge/fusionforge.git%3Ba=commitdiff%3Bh=0cc51b3aca51fa915a35195fdf729bcdb903f2af"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fusionforge.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=fusionforge/fusionforge.git%3Ba=commitdiff%3Bh=1fc730b97c797e03b89cd37823ab345d35286cf4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fusionforge.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=fusionforge/fusionforge.git%3Ba=commitdiff%3Bh=9937b9d94ab60ff67fe249c1b9a6c8e3fc1778ba"
     },
     {
       "type": "WEB",

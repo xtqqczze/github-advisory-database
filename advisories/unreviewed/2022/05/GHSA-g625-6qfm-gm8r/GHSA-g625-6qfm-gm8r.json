@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g625-6qfm-gm8r",
-  "modified": "2022-05-17T04:53:45Z",
+  "modified": "2025-04-11T04:08:06Z",
   "published": "2022-05-17T04:53:45Z",
   "aliases": [
     "CVE-2013-1643"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=702221"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=8e76d0404b7f664ee6719fd98f0483f0ac4669d6"
     },
     {
       "type": "WEB",

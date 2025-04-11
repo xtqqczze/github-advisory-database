@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvc4-pvfx-8p8m",
-  "modified": "2022-05-13T01:11:50Z",
+  "modified": "2025-04-11T04:07:58Z",
   "published": "2022-05-13T01:11:50Z",
   "aliases": [
     "CVE-2013-1415"

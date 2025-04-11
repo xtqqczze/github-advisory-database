@@ -1,18 +1,39 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3pqh-mpvw-5fr2",
-  "modified": "2022-05-17T05:12:26Z",
+  "modified": "2025-04-11T04:06:39Z",
   "published": "2022-05-17T05:12:26Z",
   "aliases": [
     "CVE-2012-5616"
   ],
   "details": "Apache CloudStack 4.0.0-incubating and Citrix CloudPlatform (formerly Citrix CloudStack) before 3.0.6 stores sensitive information in the log4j.conf log file, which allows local users to obtain (1) the SSH private key as recorded by the createSSHKeyPair API, (2) the password of an added host as recorded by the AddHost API, or the password of an added VM as recorded by the (3) DeployVM or (4) ResetPasswordForVM API.",
   "severity": [],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.cloudstack:cloudstack"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-5616"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/incubator-cloudstack-users/201301.mbox/%3C1BD2169F-BBFE-4E27-B50F-F17D7D08B565%40stratosec.co%3E"
     },
     {
       "type": "WEB",

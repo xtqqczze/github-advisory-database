@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g85-cw4w-x8pr",
-  "modified": "2022-05-14T01:08:02Z",
+  "modified": "2025-04-11T04:08:27Z",
   "published": "2022-05-14T01:08:02Z",
   "aliases": [
     "CVE-2012-6546"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "https://www.kernel.org/pub/linux/kernel/v3.x/patch-3.6.bz2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=3c0c5cfdcd4d69ffc4b9c0907cec99039f30a50a"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=e862f1a9b7df4e8196ebec45ac62295138aa3fc2"
     },
     {
       "type": "WEB",

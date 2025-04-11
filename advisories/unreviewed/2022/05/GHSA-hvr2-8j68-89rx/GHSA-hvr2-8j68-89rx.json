@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvr2-8j68-89rx",
-  "modified": "2022-05-13T01:11:17Z",
+  "modified": "2025-04-11T04:06:55Z",
   "published": "2022-05-13T01:11:17Z",
   "aliases": [
     "CVE-2012-3268"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://support.huawei.com/enterprise/NewsReadAction.action?newType=0301&contentId=NEWS1000001165&idAbsPath=0301_10001&nameAbsPath=Services%2520News"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.huawei.com/support/pages/news/NewsInfoAction.do?doc_id=IN0000054930&colID=ROOTENWEB%7CCO0000000170&actionFlag=view"
     },
     {
       "type": "WEB",

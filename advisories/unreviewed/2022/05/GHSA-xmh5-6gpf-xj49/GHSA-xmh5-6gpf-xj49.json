@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xmh5-6gpf-xj49",
-  "modified": "2022-05-13T01:09:18Z",
+  "modified": "2025-04-11T04:07:48Z",
   "published": "2022-05-13T01:09:18Z",
   "aliases": [
     "CVE-2012-5624"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=883415"
+    },
+    {
+      "type": "WEB",
+      "url": "https://codereview.qt-project.org/#change%2C40034"
     },
     {
       "type": "WEB",
