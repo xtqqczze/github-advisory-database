@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p38m-v775-pv97",
-  "modified": "2022-05-17T05:33:48Z",
+  "modified": "2025-04-11T03:55:15Z",
   "published": "2022-05-17T05:33:48Z",
   "aliases": [
     "CVE-2012-1034"

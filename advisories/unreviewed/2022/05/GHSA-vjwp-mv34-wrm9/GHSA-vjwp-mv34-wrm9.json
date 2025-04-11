@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjwp-mv34-wrm9",
-  "modified": "2022-05-14T03:52:49Z",
+  "modified": "2025-04-11T03:56:15Z",
   "published": "2022-05-14T03:52:49Z",
   "aliases": [
     "CVE-2012-1774"

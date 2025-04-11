@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-537r-47pc-wwwq",
-  "modified": "2022-05-17T05:32:57Z",
+  "modified": "2025-04-11T03:55:24Z",
   "published": "2022-05-17T05:32:57Z",
   "aliases": [
     "CVE-2012-1087"

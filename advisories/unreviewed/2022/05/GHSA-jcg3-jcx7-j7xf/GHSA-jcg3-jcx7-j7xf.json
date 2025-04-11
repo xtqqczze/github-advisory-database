@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcg3-jcx7-j7xf",
-  "modified": "2022-05-01T07:46:24Z",
+  "modified": "2025-04-11T03:55:44Z",
   "published": "2022-05-01T07:46:24Z",
   "aliases": [
     "CVE-2006-7250"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/48899"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/openssl-dev%40openssl.org/msg30305.html"
     },
     {
       "type": "WEB",

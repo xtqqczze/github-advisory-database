@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7rw-r7fp-j64f",
-  "modified": "2022-05-17T00:18:18Z",
+  "modified": "2025-04-11T03:55:18Z",
   "published": "2022-05-17T00:18:18Z",
   "aliases": [
     "CVE-2012-0840"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/73096"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/apr-commits/201201.mbox/%3C20120115003715.071D423888FD%40eris.apache.org%3E"
     },
     {
       "type": "WEB",

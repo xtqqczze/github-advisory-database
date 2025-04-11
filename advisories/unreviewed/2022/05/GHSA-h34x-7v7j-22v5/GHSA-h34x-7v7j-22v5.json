@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h34x-7v7j-22v5",
-  "modified": "2022-05-14T03:49:26Z",
+  "modified": "2025-04-11T03:56:33Z",
   "published": "2022-05-14T03:49:26Z",
   "aliases": [
     "CVE-2012-1573"
@@ -33,6 +33,14 @@
     {
       "type": "WEB",
       "url": "http://blog.mudynamics.com/2012/03/20/gnutls-and-libtasn1-vulns"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.savannah.gnu.org/gitweb/?p=gnutls.git%3Ba=commit%3Bh=422214868061370aeeb0ac9cd0f021a5c350a57d"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.savannah.gnu.org/gitweb/?p=gnutls.git%3Ba=commit%3Bh=b495740f2ff66550ca9395b3fda3ea32c3acb185"
     },
     {
       "type": "WEB",

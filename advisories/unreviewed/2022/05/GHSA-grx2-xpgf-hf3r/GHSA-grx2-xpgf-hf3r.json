@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grx2-xpgf-hf3r",
-  "modified": "2022-05-17T00:13:28Z",
+  "modified": "2025-04-11T03:56:57Z",
   "published": "2022-05-17T00:13:28Z",
   "aliases": [
     "CVE-2012-2404"

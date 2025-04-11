@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j473-c3rr-rx9p",
-  "modified": "2022-05-17T05:15:11Z",
+  "modified": "2025-04-11T03:54:34Z",
   "published": "2022-05-17T05:15:11Z",
   "aliases": [
     "CVE-2011-4314"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgpp-xqc8-gr5w",
-  "modified": "2022-05-17T01:47:51Z",
+  "modified": "2025-04-11T03:56:49Z",
   "published": "2022-05-17T01:47:51Z",
   "aliases": [
     "CVE-2012-1673"

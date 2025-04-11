@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh5q-r96c-q2v4",
-  "modified": "2022-05-04T00:29:00Z",
+  "modified": "2025-04-11T03:56:03Z",
   "published": "2022-05-04T00:29:00Z",
   "aliases": [
     "CVE-2012-0245"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://www05.abb.com/global/scot/scot348.nsf/veritydisplay/f261be074480dc24c12579a00049ecd5/$file/si10227a1%20vulnerability%20security%20advisory.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www05.abb.com/global/scot/scot348.nsf/veritydisplay/f261be074480dc24c12579a00049ecd5/%24file/si10227a1%20vulnerability%20security%20advisory.pdf"
     }
   ],
   "database_specific": {
