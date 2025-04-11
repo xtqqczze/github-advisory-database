@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wg24-f677-c248",
-  "modified": "2022-05-17T04:59:19Z",
+  "modified": "2025-04-11T04:15:28Z",
   "published": "2022-05-17T04:59:19Z",
   "aliases": [
     "CVE-2013-6127"

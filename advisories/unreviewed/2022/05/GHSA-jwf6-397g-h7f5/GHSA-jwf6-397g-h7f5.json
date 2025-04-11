@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jwf6-397g-h7f5",
-  "modified": "2022-05-17T04:50:46Z",
+  "modified": "2025-04-11T04:16:40Z",
   "published": "2022-05-17T04:50:46Z",
   "aliases": [
     "CVE-2013-6638"
@@ -61,6 +61,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2013/dsa-2811"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/v8-dev%40googlegroups.com/msg79646.html"
     },
     {
       "type": "WEB",

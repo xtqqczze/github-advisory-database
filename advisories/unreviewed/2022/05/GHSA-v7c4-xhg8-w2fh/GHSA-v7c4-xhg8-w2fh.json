@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v7c4-xhg8-w2fh",
-  "modified": "2022-05-17T04:56:16Z",
+  "modified": "2025-04-11T04:17:06Z",
   "published": "2022-05-17T04:56:16Z",
   "aliases": [
     "CVE-2013-6051"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=730513"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.savannah.gnu.org/gitweb/?p=quagga.git%3Ba=commitdiff%3Bh=8794e8d229dc9fe29ea31424883433d4880ef408"
     },
     {
       "type": "WEB",

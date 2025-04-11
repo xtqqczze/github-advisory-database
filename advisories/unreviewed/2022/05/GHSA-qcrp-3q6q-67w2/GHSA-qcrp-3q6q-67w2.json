@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qcrp-3q6q-67w2",
-  "modified": "2022-05-14T03:07:52Z",
+  "modified": "2025-04-11T04:17:34Z",
   "published": "2022-05-14T03:07:52Z",
   "aliases": [
     "CVE-2013-3667"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!msg/bbedit/BjvyUKCM4Gk/ZT_v03QqPqgJ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21msg/bbedit/BjvyUKCM4Gk/ZT_v03QqPqgJ"
     },
     {
       "type": "WEB",

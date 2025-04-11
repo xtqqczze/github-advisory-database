@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h84w-39m4-37j6",
-  "modified": "2022-05-14T02:54:06Z",
+  "modified": "2025-04-11T04:17:24Z",
   "published": "2022-05-14T02:54:06Z",
   "aliases": [
     "CVE-2013-6449"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://issues.apache.org/jira/browse/TS-2355"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.openssl.org/gitweb/?p=openssl.git%3Ba=commit%3Bh=ca989269a2876bae79393bd54c3e72d49975fc75"
     },
     {
       "type": "WEB",

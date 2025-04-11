@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4pv9-4pjh-rpv5",
-  "modified": "2022-05-14T04:00:00Z",
+  "modified": "2025-04-11T04:15:22Z",
   "published": "2022-05-14T04:00:00Z",
   "aliases": [
     "CVE-2013-2236"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-2236"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.savannah.gnu.org/gitweb/?p=quagga.git%3Ba=commitdiff%3Bh=3f872fe60463a931c5c766dbf8c36870c0023e88"
     },
     {
       "type": "WEB",

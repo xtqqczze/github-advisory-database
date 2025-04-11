@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxfg-qj5j-8pf3",
-  "modified": "2022-05-17T01:29:25Z",
+  "modified": "2025-04-11T04:17:42Z",
   "published": "2022-05-17T01:29:25Z",
   "aliases": [
     "CVE-2013-7270"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/90131"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=f3d3342602f8bcbf37d7c46641cb9bca7618eb1c"
     },
     {
       "type": "WEB",

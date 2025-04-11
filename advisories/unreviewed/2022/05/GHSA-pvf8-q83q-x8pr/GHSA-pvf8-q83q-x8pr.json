@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvf8-q83q-x8pr",
-  "modified": "2022-05-13T01:13:27Z",
+  "modified": "2025-04-11T04:15:16Z",
   "published": "2022-05-13T01:13:27Z",
   "aliases": [
     "CVE-2013-4365"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2013/dsa-2778"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/dev%40httpd.apache.org/msg58077.html"
     },
     {
       "type": "WEB",

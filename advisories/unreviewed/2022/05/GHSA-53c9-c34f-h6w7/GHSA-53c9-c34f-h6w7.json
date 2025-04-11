@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53c9-c34f-h6w7",
-  "modified": "2022-05-17T04:58:31Z",
+  "modified": "2025-04-11T04:15:47Z",
   "published": "2022-05-17T04:58:31Z",
   "aliases": [
     "CVE-2012-4503"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=846392"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.tuxfamily.org/chrony/chrony.git/?p=chrony/chrony.git%3Ba=commitdiff%3Bh=c6fdeeb6bb0b17dc28c19ae492c4a1c498e54ea3"
     },
     {
       "type": "WEB",

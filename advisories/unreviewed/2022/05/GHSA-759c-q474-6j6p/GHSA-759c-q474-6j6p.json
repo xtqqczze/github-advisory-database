@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-759c-q474-6j6p",
-  "modified": "2022-05-17T04:54:05Z",
+  "modified": "2025-04-11T04:16:42Z",
   "published": "2022-05-17T04:54:05Z",
   "aliases": [
     "CVE-2013-0853"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-0853"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=be818df547c3b0ae4fadb50fd210139a8636706a"
     },
     {
       "type": "WEB",

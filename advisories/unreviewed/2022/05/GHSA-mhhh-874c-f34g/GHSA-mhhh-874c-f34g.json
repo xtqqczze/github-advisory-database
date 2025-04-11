@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhhh-874c-f34g",
-  "modified": "2022-05-17T00:53:10Z",
+  "modified": "2025-04-11T04:16:02Z",
   "published": "2022-05-17T00:53:10Z",
   "aliases": [
     "CVE-2013-6627"

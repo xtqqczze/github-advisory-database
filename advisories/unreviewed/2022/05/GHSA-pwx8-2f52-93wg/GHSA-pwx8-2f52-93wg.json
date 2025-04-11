@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwx8-2f52-93wg",
-  "modified": "2022-05-17T03:48:03Z",
+  "modified": "2025-04-11T04:16:08Z",
   "published": "2022-05-17T03:48:03Z",
   "aliases": [
     "CVE-2013-6630"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://archives.neohapsis.com/archives/fulldisclosure/2013-11/0080.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.chromium.org/gitweb/?p=chromium/deps/libjpeg_turbo.git%3Ba=commit%3Bh=32cab49bd4cb1ce069a435fd75f9439c34ddc6f8"
     },
     {
       "type": "WEB",

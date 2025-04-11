@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmfq-h439-hf34",
-  "modified": "2022-05-17T04:56:53Z",
+  "modified": "2025-04-11T04:16:23Z",
   "published": "2022-05-17T04:56:53Z",
   "aliases": [
     "CVE-2013-0869"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-0869"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=eaa9d2cd6b8c1e2722d5bfc56ea67fde865200ce"
     },
     {
       "type": "WEB",

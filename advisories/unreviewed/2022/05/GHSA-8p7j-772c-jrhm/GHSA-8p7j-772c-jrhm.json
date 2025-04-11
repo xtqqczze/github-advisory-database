@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p7j-772c-jrhm",
-  "modified": "2022-05-17T04:55:27Z",
+  "modified": "2025-04-11T04:16:45Z",
   "published": "2022-05-17T04:55:27Z",
   "aliases": [
     "CVE-2011-3941"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-3941"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=c77be3a35a0160d6af88056b0899f120f2eef38e"
     },
     {
       "type": "WEB",

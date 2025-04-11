@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-852r-wj69-22qj",
-  "modified": "2022-05-17T04:56:45Z",
+  "modified": "2025-04-11T04:16:45Z",
   "published": "2022-05-17T04:56:45Z",
   "aliases": [
     "CVE-2011-3950"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-3950"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=ddf0c1d86ad8e1df5ab3265206aef493a1bdc813"
     },
     {
       "type": "WEB",

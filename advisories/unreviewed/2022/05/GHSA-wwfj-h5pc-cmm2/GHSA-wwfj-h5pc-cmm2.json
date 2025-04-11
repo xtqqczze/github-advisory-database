@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwfj-h5pc-cmm2",
-  "modified": "2022-05-17T04:56:46Z",
+  "modified": "2025-04-11T04:16:45Z",
   "published": "2022-05-17T04:56:46Z",
   "aliases": [
     "CVE-2011-3946"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-3946"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=9decfc17bb76da34734296048d390b176abf404c"
     },
     {
       "type": "WEB",

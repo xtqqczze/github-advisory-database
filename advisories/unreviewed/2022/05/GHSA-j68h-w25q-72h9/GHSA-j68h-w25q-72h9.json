@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j68h-w25q-72h9",
-  "modified": "2022-05-17T03:34:43Z",
+  "modified": "2025-04-11T04:16:47Z",
   "published": "2022-05-17T03:34:43Z",
   "aliases": [
     "CVE-2013-7014"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://ffmpeg.org/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.libav.org/?p=libav.git%3Ba=blob%3Bf=Changelog%3Bhb=refs/tags/v9.11"
     },
     {
       "type": "WEB",

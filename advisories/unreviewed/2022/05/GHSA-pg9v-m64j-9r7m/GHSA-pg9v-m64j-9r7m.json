@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pg9v-m64j-9r7m",
-  "modified": "2022-05-17T04:49:14Z",
+  "modified": "2025-04-11T04:16:54Z",
   "published": "2022-05-17T04:49:14Z",
   "aliases": [
     "CVE-2013-7027"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/f5563318ff1bde15b10e736e97ffce13be08bc1a"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=f5563318ff1bde15b10e736e97ffce13be08bc1a"
     },
     {
       "type": "WEB",

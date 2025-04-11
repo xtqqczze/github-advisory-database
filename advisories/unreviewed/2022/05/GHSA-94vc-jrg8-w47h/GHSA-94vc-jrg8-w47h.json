@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94vc-jrg8-w47h",
-  "modified": "2022-05-17T04:56:46Z",
+  "modified": "2025-04-11T04:16:44Z",
   "published": "2022-05-17T04:56:46Z",
   "aliases": [
     "CVE-2011-3934"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-3934"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=247d30a7dba6684ccce4508424f35fd58465e535"
     },
     {
       "type": "WEB",

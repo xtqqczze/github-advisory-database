@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjff-hcjj-9m74",
-  "modified": "2022-05-14T03:07:51Z",
+  "modified": "2025-04-11T04:15:39Z",
   "published": "2022-05-14T03:07:51Z",
   "aliases": [
     "CVE-2013-5977"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://blog.noobroot.com/#!/2013/10/0-day-wordpress-cart66-plugin-15114.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://blog.noobroot.com/#%21/2013/10/0-day-wordpress-cart66-plugin-15114.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr7x-fxqg-h7mw",
-  "modified": "2022-05-17T04:56:46Z",
+  "modified": "2025-04-11T04:16:44Z",
   "published": "2022-05-17T04:56:46Z",
   "aliases": [
     "CVE-2011-3935"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-3935"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=668494acd8b20f974c7722895d4a6a14c1005f1e"
     },
     {
       "type": "WEB",

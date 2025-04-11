@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp24-vc7q-88fj",
-  "modified": "2022-05-17T00:14:09Z",
+  "modified": "2025-04-11T04:17:38Z",
   "published": "2022-05-17T00:14:09Z",
   "aliases": [
     "CVE-2013-7263"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1035875"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=bceaa90240b6019ed73b49965eac7d167610be69"
     },
     {
       "type": "WEB",

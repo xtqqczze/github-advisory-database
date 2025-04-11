@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wxc7-hx5w-9q5v",
-  "modified": "2022-05-17T04:54:05Z",
+  "modified": "2025-04-11T04:16:41Z",
   "published": "2022-05-17T04:54:05Z",
   "aliases": [
     "CVE-2013-0844"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-0844"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=85a14dbd5dca34320f58b1ba11dd6dd0df4fb3be"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=f18c873ab5ee3c78d00fdcc2582b39c133faecb4"
     },
     {
       "type": "WEB",

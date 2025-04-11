@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rcgv-75hg-vhm9",
-  "modified": "2022-05-17T03:12:49Z",
+  "modified": "2025-04-11T04:17:18Z",
   "published": "2022-05-17T03:12:49Z",
   "aliases": [
     "CVE-2013-6877"

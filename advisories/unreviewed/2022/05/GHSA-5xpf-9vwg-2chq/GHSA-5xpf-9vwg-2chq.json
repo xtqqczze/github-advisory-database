@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xpf-9vwg-2chq",
-  "modified": "2022-05-17T01:30:04Z",
+  "modified": "2025-04-11T04:17:41Z",
   "published": "2022-05-17T01:30:04Z",
   "aliases": [
     "CVE-2013-6888"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/90107"
+    },
+    {
+      "type": "WEB",
+      "url": "http://anonscm.debian.org/gitweb/?p=collab-maint/devscripts.git%3Ba=commitdiff%3Bh=02c6850d973e3e1246fde72edab27f03d63acc52"
     },
     {
       "type": "WEB",

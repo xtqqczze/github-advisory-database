@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f27j-hjx9-2227",
-  "modified": "2022-05-14T03:07:50Z",
+  "modified": "2025-04-11T04:16:07Z",
   "published": "2022-05-14T03:07:50Z",
   "aliases": [
     "CVE-2013-6042"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://osvdb.org/99203"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.baesystemsdetica.com.au/Research/Advisories/Webuzo-Multiple-Vulnerabilities-%28DS-2013-007%29"
     },
     {
       "type": "WEB",

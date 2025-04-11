@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5p79-rx54-3929",
-  "modified": "2022-05-17T04:55:54Z",
+  "modified": "2025-04-11T04:17:27Z",
   "published": "2022-05-17T04:55:54Z",
   "aliases": [
     "CVE-2012-6617"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://trac.ffmpeg.org/ticket/1986"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commitdiff%3Bh=9929991da7b843e7d80154fcacc4e80579b86a2d"
     },
     {
       "type": "WEB",
