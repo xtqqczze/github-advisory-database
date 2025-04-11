@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rr46-qxmj-fg34",
-  "modified": "2022-05-17T00:54:38Z",
+  "modified": "2025-04-11T04:11:51Z",
   "published": "2022-05-17T00:54:38Z",
   "aliases": [
     "CVE-2013-2879"
@@ -21,6 +21,14 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A17177"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.chromium.org/gitweb/?p=chromium/chromium.git%3Ba=commit%3Bh=8a8eb83276778c9fbcf9ebcd4436077269b73074"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.chromium.org/gitweb/?p=chromium/chromium.git%3Ba=commit%3Bh=f0aa298677a1afb9a40b36e32bc9c4d9b4861eac"
     },
     {
       "type": "WEB",

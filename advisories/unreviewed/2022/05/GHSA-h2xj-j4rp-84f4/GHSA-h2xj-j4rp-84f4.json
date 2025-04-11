@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2xj-j4rp-84f4",
-  "modified": "2022-05-14T03:07:52Z",
+  "modified": "2025-04-11T04:13:20Z",
   "published": "2022-05-14T03:07:52Z",
   "aliases": [
     "CVE-2013-5663"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://security.paloaltonetworks.com/CVE-2013-5663"
+    },
+    {
+      "type": "WEB",
+      "url": "http://cansecwest.com/csw11/Network%20Application%20FW%20vs.%20Contemporary%20Threats%20%28Brad%20Woodberg%20-%20Final%29.pptx"
     },
     {
       "type": "WEB",

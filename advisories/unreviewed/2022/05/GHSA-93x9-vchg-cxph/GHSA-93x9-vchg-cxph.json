@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93x9-vchg-cxph",
-  "modified": "2022-05-17T00:54:39Z",
+  "modified": "2025-04-11T04:11:51Z",
   "published": "2022-05-17T00:54:39Z",
   "aliases": [
     "CVE-2013-2876"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A17350"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.chromium.org/gitweb/?p=chromium/chromium.git%3Ba=commit%3Bh=ac41418e77bf9d82a6e7875c504fad5fd2ba1f7f"
     },
     {
       "type": "WEB",

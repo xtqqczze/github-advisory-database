@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7933-vcrm-3v95",
-  "modified": "2022-05-17T05:07:14Z",
+  "modified": "2025-04-11T04:12:24Z",
   "published": "2022-05-17T05:07:14Z",
   "aliases": [
     "CVE-2013-0723"

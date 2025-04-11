@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8jp-pg37-w2ww",
-  "modified": "2022-05-17T00:54:04Z",
+  "modified": "2025-04-11T04:14:48Z",
   "published": "2022-05-17T00:54:04Z",
   "aliases": [
     "CVE-2013-4388"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A18086"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=vlc.git%3Ba=commitdiff%3Bh=9794ec1cd268c04c8bca13a5fae15df6594dff3e"
     },
     {
       "type": "WEB",

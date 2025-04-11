@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxrm-876q-9c6p",
-  "modified": "2022-05-14T03:07:50Z",
+  "modified": "2025-04-11T04:14:31Z",
   "published": "2022-05-14T03:07:50Z",
   "aliases": [
     "CVE-2013-5979"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/xibo/+bug/1093967"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.baesystemsdetica.com.au/Research/Advisories/Xibo-Directory-Traversal-Vulnerability-%28DS-2013-00"
     },
     {
       "type": "WEB",

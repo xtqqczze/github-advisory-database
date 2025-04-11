@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fqh-gqm7-jvv2",
-  "modified": "2022-05-14T03:07:51Z",
+  "modified": "2025-04-11T04:12:28Z",
   "published": "2022-05-14T03:07:51Z",
   "aliases": [
     "CVE-2013-2885"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://chromium.googlesource.com/chromium/blink/+/7a7ea525c912f6e59aa3e915e7f2cf140c077a49"
+    },
+    {
+      "type": "WEB",
+      "url": "https://chromium.googlesource.com/chromium/blink/+/dd13a061c49579e40f381b2dc9409fb0a920ec19%5E"
     },
     {
       "type": "WEB",

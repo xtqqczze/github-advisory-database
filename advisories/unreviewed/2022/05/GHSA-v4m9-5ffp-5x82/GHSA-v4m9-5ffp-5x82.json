@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4m9-5ffp-5x82",
-  "modified": "2022-05-17T04:50:53Z",
+  "modified": "2025-04-11T04:11:57Z",
   "published": "2022-05-17T04:50:53Z",
   "aliases": [
     "CVE-2013-4113"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=983689"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=7d163e8a0880ae8af2dd869071393e5dc07ef271"
     },
     {
       "type": "WEB",

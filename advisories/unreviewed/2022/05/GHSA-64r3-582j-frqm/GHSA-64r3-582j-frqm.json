@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64r3-582j-frqm",
-  "modified": "2022-05-13T01:12:54Z",
+  "modified": "2025-04-11T04:12:20Z",
   "published": "2022-05-13T01:12:54Z",
   "aliases": [
     "CVE-2013-4941"

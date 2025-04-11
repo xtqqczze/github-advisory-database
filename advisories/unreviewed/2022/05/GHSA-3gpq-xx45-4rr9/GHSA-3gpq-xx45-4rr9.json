@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gpq-xx45-4rr9",
-  "modified": "2022-05-14T03:07:51Z",
+  "modified": "2025-04-11T04:12:56Z",
   "published": "2022-05-14T03:07:51Z",
   "aliases": [
     "CVE-2013-4073"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://forums.interworx.com/threads/8000-InterWorx-Version-5-0-14-Released-on-Beta-Channel!"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forums.interworx.com/threads/8000-InterWorx-Version-5-0-14-Released-on-Beta-Channel%21"
     },
     {
       "type": "WEB",

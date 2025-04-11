@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4h7-3cq9-3hx7",
-  "modified": "2022-05-17T01:31:15Z",
+  "modified": "2025-04-11T04:14:20Z",
   "published": "2022-05-17T01:31:15Z",
   "aliases": [
     "CVE-2013-5963"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://packetstormsecurity.com/files/123235"
+    },
+    {
+      "type": "WEB",
+      "url": "http://plugins.trac.wordpress.org/changeset?reponame=&old=774214%40simple-dropbox-upload-form%2Ftrunk&new=774214%40simple-dropbox-upload-form%2Ftrunk"
     },
     {
       "type": "WEB",

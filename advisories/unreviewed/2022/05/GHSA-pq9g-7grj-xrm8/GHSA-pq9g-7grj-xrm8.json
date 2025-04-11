@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq9g-7grj-xrm8",
-  "modified": "2022-05-13T01:05:56Z",
+  "modified": "2025-04-11T04:13:02Z",
   "published": "2022-05-13T01:05:56Z",
   "aliases": [
     "CVE-2013-2155"
@@ -16,7 +16,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/680e6938b6412e26d5446054fd31de2011d33af11786b989127d1cc3%40%3Ccommits.santuario.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/680e6938b6412e26d5446054fd31de2011d33af11786b989127d1cc3@%3Ccommits.santuario.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r1c07a561426ec5579073046ad7f4207cdcef452bb3100abaf908e0cd%40%3Ccommits.santuario.apache.org%3E"
     },
     {
       "type": "WEB",

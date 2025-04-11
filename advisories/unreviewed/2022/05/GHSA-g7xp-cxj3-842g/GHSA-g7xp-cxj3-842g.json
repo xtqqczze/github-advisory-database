@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7xp-cxj3-842g",
-  "modified": "2022-05-13T01:10:55Z",
+  "modified": "2025-04-11T04:12:30Z",
   "published": "2022-05-13T01:10:55Z",
   "aliases": [
     "CVE-2013-2630"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-2630"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7B8C50A6C7-8633-45A8-A0A6-3D454437AD53%7D"
     },
     {
       "type": "WEB",
