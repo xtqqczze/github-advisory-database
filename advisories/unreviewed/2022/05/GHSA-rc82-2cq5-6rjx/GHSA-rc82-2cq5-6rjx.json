@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rc82-2cq5-6rjx",
-  "modified": "2022-05-02T06:14:37Z",
+  "modified": "2025-04-11T03:31:39Z",
   "published": "2022-05-02T06:14:37Z",
   "aliases": [
     "CVE-2010-0655"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g9j-hp5m-7j2p",
-  "modified": "2022-05-02T06:10:29Z",
+  "modified": "2025-04-11T03:31:34Z",
   "published": "2022-05-02T06:10:29Z",
   "aliases": [
     "CVE-2010-0136"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2010/dsa-1995"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mail-archive.com/debian-openoffice%40lists.debian.org/msg23178.html"
     },
     {
       "type": "WEB",

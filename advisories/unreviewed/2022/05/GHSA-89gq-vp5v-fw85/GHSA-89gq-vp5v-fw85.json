@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89gq-vp5v-fw85",
-  "modified": "2022-05-02T06:09:43Z",
+  "modified": "2025-04-11T03:31:10Z",
   "published": "2022-05-02T06:09:43Z",
   "aliases": [
     "CVE-2010-0004"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://lists.opensuse.org/opensuse-security-announce/2010-01/msg00009.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://viewvc.tigris.org/source/browse/%2Acheckout%2A/viewvc/trunk/docs/release-notes/1.1.0.html?revision=2222"
     },
     {
       "type": "WEB",

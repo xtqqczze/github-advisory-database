@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r859-p3hv-36hf",
-  "modified": "2024-02-03T03:30:26Z",
+  "modified": "2025-04-11T03:31:01Z",
   "published": "2022-05-02T06:12:17Z",
   "aliases": [
     "CVE-2010-0378"

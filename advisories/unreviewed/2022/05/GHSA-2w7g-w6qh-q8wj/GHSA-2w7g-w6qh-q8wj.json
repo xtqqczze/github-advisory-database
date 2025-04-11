@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w7g-w6qh-q8wj",
-  "modified": "2022-05-02T06:11:26Z",
+  "modified": "2025-04-11T03:31:20Z",
   "published": "2022-05-02T06:11:26Z",
   "aliases": [
     "CVE-2010-0292"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://chrony.tuxfamily.org/News.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.tuxfamily.org/chrony/chrony.git/?p=gitroot/chrony/chrony.git%3Ba=commit%3Bh=7864c7a70ce00369194e734eb2842ecc5f8db531"
     },
     {
       "type": "WEB",

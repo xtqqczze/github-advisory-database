@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4hr-vrvh-q8pp",
-  "modified": "2022-05-02T06:14:17Z",
+  "modified": "2025-04-11T03:31:33Z",
   "published": "2022-05-02T06:14:17Z",
   "aliases": [
     "CVE-2010-0623"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://bugzilla.kernel.org/show_bug.cgi?id=14256"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=5ecb01cfdf96c5f465192bdb2a4fd4a61a24c6cc"
     },
     {
       "type": "WEB",

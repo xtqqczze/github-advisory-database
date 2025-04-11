@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g48q-45gx-gw95",
-  "modified": "2022-05-02T03:53:07Z",
+  "modified": "2025-04-11T03:31:03Z",
   "published": "2022-05-02T03:53:07Z",
   "aliases": [
     "CVE-2009-4246"

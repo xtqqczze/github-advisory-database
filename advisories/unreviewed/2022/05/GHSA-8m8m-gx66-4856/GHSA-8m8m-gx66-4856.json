@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8m8m-gx66-4856",
-  "modified": "2022-05-01T02:31:49Z",
+  "modified": "2025-04-11T03:31:49Z",
   "published": "2022-05-01T02:31:49Z",
   "aliases": [
     "CVE-2005-4886"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/56614"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=0d3d077cd4f1154e63a9858e47fe3fb1ad0c03e5"
     },
     {
       "type": "WEB",

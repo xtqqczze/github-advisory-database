@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f866-mhcw-m7pp",
-  "modified": "2022-05-02T03:50:42Z",
+  "modified": "2025-04-11T03:31:12Z",
   "published": "2022-05-02T03:50:42Z",
   "aliases": [
     "CVE-2009-4015"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2009-4015"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.debian.org/?p=lintian/lintian.git%3Ba=commit%3Bh=c8d01f062b3e5137cf65196760b079a855c75e00"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.debian.org/?p=lintian/lintian.git%3Ba=commit%3Bh=fbe0c92b2ef7e360d13414bf40d6af5507d0c86d"
     },
     {
       "type": "WEB",
