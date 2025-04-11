@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9rx-4p5p-q33x",
-  "modified": "2025-02-11T00:31:24Z",
+  "modified": "2025-04-11T18:30:24Z",
   "published": "2024-02-22T00:31:01Z",
   "aliases": [
     "CVE-2024-0446"
   ],
-  "details": "A maliciously crafted STP, CATPART or MODEL file when parsed in ASMKERN228A.dll through Autodesk AutoCAD can force an Out-of-Bound Write. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process. \n",
+  "details": "A maliciously crafted STP, CATPART or MODEL file when parsed in ASMKERN228A.dll through Autodesk AutoCAD can force an Out-of-Bound Write. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process. ",
   "severity": [
     {
       "type": "CVSS_V3",

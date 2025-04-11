@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfh7-q24c-mjwh",
-  "modified": "2024-04-15T21:30:46Z",
+  "modified": "2025-04-11T18:30:32Z",
   "published": "2024-04-15T21:30:46Z",
   "aliases": [
     "CVE-2024-23560"
   ],
-  "details": "HCL DevOps Deploy / HCL Launch could be vulnerable to incomplete revocation of permissions when deleting a custom security resource type. \n",
+  "details": "HCL DevOps Deploy / HCL Launch could be vulnerable to incomplete revocation of permissions when deleting a custom security resource type.",
   "severity": [
     {
       "type": "CVSS_V3",

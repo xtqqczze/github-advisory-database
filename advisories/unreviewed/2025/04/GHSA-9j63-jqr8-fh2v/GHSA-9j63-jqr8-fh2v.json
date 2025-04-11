@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j63-jqr8-fh2v",
-  "modified": "2025-04-10T15:31:47Z",
+  "modified": "2025-04-11T18:30:41Z",
   "published": "2025-04-07T15:31:12Z",
   "aliases": [
     "CVE-2025-32366"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lapis-sawfish-be3.notion.site/0-day-Comman-memory-Leak-190dc00d01d080688472d322c93c4340"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/web/20250410130356/https://lapis-sawfish-be3.notion.site/0-day-Comman-memory-Leak-190dc00d01d080688472d322c93c4340"
     },
     {
       "type": "WEB",

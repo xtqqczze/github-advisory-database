@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6p7-g6ff-wxw5",
-  "modified": "2025-04-11T15:32:31Z",
+  "modified": "2025-04-11T18:31:06Z",
   "published": "2025-04-11T15:32:31Z",
   "aliases": [
     "CVE-2023-42977"
   ],
   "details": "A path handling issue was addressed with improved validation. This issue is fixed in iOS 17 and iPadOS 17, macOS Sonoma 14. An app may be able to break out of its sandbox.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-11T15:15:45Z"
