@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfgg-62x5-92v2",
-  "modified": "2022-05-13T01:11:14Z",
+  "modified": "2025-04-11T04:19:06Z",
   "published": "2022-05-13T01:11:14Z",
   "aliases": [
     "CVE-2014-1219"

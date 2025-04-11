@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76wx-pf47-v85g",
-  "modified": "2022-05-17T01:29:22Z",
+  "modified": "2025-04-11T04:17:48Z",
   "published": "2022-05-17T01:29:22Z",
   "aliases": [
     "CVE-2013-7281"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/90222"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=bceaa90240b6019ed73b49965eac7d167610be69"
     },
     {
       "type": "WEB",

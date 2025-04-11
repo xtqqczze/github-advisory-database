@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r252-wrr7-8w6f",
-  "modified": "2022-05-14T01:19:57Z",
+  "modified": "2025-04-11T04:18:18Z",
   "published": "2022-05-14T01:19:57Z",
   "aliases": [
     "CVE-2014-1452"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/56496"
+    },
+    {
+      "type": "WEB",
+      "url": "http://svnweb.freebsd.org/base?view=revision&amp%3Brevision=260636"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhx7-mcgr-x6cr",
-  "modified": "2022-05-17T04:10:15Z",
+  "modified": "2025-04-11T04:17:53Z",
   "published": "2022-05-17T04:10:15Z",
   "aliases": [
     "CVE-2013-6028"

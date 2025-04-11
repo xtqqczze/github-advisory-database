@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-794g-g5w7-2c69",
-  "modified": "2022-05-17T01:29:36Z",
+  "modified": "2025-04-11T04:19:15Z",
   "published": "2022-05-17T01:29:36Z",
   "aliases": [
     "CVE-2013-7226"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/91099"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=8f4a5373bb71590352fd934028d6dde5bc18530b"
     },
     {
       "type": "WEB",

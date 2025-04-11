@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjc9-2vp7-964h",
-  "modified": "2022-05-14T03:07:30Z",
+  "modified": "2025-04-11T04:18:32Z",
   "published": "2022-05-14T03:07:30Z",
   "aliases": [
     "CVE-2014-1671"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/56396"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.baesystemsdetica.com.au/Research/Advisories/Dell-KACE-K1000-SQL-Injection-%28DS-2014-001%29"
     },
     {
       "type": "WEB",

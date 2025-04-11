@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf89-6gjj-xhm7",
-  "modified": "2022-05-17T01:27:12Z",
+  "modified": "2025-04-11T04:18:16Z",
   "published": "2022-05-17T01:27:12Z",
   "aliases": [
     "CVE-2014-1445"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/90444"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=2b13d06c9584b4eb773f1e80bbaedab9a1c344e1"
     },
     {
       "type": "WEB",

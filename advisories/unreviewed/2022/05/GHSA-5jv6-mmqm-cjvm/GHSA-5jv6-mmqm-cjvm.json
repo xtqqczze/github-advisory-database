@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jv6-mmqm-cjvm",
-  "modified": "2022-05-17T01:29:12Z",
+  "modified": "2025-04-11T04:19:07Z",
   "published": "2022-05-17T01:29:12Z",
   "aliases": [
     "CVE-2014-0032"
@@ -32,11 +32,23 @@
     },
     {
       "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/subversion-dev/201401.mbox/%3C52D328AB.8090502%40reser.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "http://mail-archives.apache.org/mod_mbox/subversion-dev/201401.mbox/%3C52D328AB.8090502@reser.org%3E"
     },
     {
       "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/subversion-dev/201401.mbox/%3C871u0gqb0d.fsf%40ntlworld.com%3E"
+    },
+    {
+      "type": "WEB",
       "url": "http://mail-archives.apache.org/mod_mbox/subversion-dev/201401.mbox/%3C871u0gqb0d.fsf@ntlworld.com%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/subversion-dev/201401.mbox/%3CCANvU9scLHr2yOLABW8q6_wNzhEf7pWM=NiavGcobqvUuyhKyAA%40mail.gmail.com%3E"
     },
     {
       "type": "WEB",

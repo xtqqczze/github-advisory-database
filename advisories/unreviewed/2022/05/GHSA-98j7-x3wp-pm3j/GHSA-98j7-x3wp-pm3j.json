@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98j7-x3wp-pm3j",
-  "modified": "2022-05-17T04:52:05Z",
+  "modified": "2025-04-11T04:18:36Z",
   "published": "2022-05-17T04:52:05Z",
   "aliases": [
     "CVE-2013-2747"

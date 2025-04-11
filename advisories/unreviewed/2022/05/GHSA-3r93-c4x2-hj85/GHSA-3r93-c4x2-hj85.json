@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r93-c4x2-hj85",
-  "modified": "2022-05-17T03:07:11Z",
+  "modified": "2025-04-11T04:17:48Z",
   "published": "2022-05-17T03:07:11Z",
   "aliases": [
     "CVE-2013-4353"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1049058"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.openssl.org/gitweb/?p=openssl.git%3Ba=blob_plain%3Bf=CHANGES%3Bhb=refs/heads/OpenSSL_1_0_1-stable"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.openssl.org/gitweb/?p=openssl.git%3Ba=commit%3Bh=197e0ea817ad64820789d86711d55ff50d71f631"
     },
     {
       "type": "WEB",
