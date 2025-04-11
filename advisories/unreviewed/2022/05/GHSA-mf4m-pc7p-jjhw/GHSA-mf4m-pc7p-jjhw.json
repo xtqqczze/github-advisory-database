@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf4m-pc7p-jjhw",
-  "modified": "2022-05-17T04:05:39Z",
+  "modified": "2025-04-11T03:48:44Z",
   "published": "2022-05-17T04:05:39Z",
   "aliases": [
     "CVE-2011-0726"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://downloads.avaya.com/css/P8/documents/100145416"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=5883f57ca0008ffc93e09cbb9847a1928e50c6f3"
     },
     {
       "type": "WEB",

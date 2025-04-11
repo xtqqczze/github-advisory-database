@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcq7-x4wr-w2mj",
-  "modified": "2022-05-14T03:08:10Z",
+  "modified": "2025-04-11T03:49:01Z",
   "published": "2022-05-14T03:08:10Z",
   "aliases": [
     "CVE-2011-2509"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2011/06/29/12"
+    },
+    {
+      "type": "WEB",
+      "url": "http://yehg.net/lab/pr0js/advisories/joomla/core/%5Bjoomla_1.6.3%5D_cross_site_scripting%28XSS%29"
     },
     {
       "type": "WEB",

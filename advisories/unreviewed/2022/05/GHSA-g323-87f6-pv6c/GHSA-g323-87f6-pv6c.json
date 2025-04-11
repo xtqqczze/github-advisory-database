@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g323-87f6-pv6c",
-  "modified": "2022-05-17T05:38:57Z",
+  "modified": "2025-04-11T03:48:28Z",
   "published": "2022-05-17T05:38:57Z",
   "aliases": [
     "CVE-2011-1931"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=624339"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=89f903b3d5ec38c9c5d90fba7e626fa0eda61a32"
     },
     {
       "type": "WEB",

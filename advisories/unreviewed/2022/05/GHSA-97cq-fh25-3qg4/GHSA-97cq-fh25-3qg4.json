@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-97cq-fh25-3qg4",
-  "modified": "2022-05-17T05:40:41Z",
+  "modified": "2025-04-11T03:48:22Z",
   "published": "2022-05-17T05:40:41Z",
   "aliases": [
     "CVE-2011-2623"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4c65-9qmh-v9h5",
-  "modified": "2022-05-17T01:59:31Z",
+  "modified": "2025-04-11T03:47:29Z",
   "published": "2022-05-17T01:59:31Z",
   "aliases": [
     "CVE-2011-1925"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=627042."
+    },
+    {
+      "type": "WEB",
+      "url": "http://nbd.git.sourceforge.net/git/gitweb.cgi?p=nbd/nbd%3Ba=commitdiff%3Bh=ebbbe0b3ce5393fa42a259f5e03d549508586aaa"
     },
     {
       "type": "WEB",

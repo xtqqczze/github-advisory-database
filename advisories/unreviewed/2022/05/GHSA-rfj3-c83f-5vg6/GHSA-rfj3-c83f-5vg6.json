@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfj3-c83f-5vg6",
-  "modified": "2022-05-14T02:55:18Z",
+  "modified": "2025-04-11T03:47:01Z",
   "published": "2022-05-14T02:55:18Z",
   "aliases": [
     "CVE-2011-1899"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/67389"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7B5662845D-4CD7-4CE6-8829-4F07A4C67366%7D"
     },
     {
       "type": "WEB",

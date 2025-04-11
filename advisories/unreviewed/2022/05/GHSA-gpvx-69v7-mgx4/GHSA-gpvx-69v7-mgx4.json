@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpvx-69v7-mgx4",
-  "modified": "2022-05-17T01:01:01Z",
+  "modified": "2025-04-11T03:49:01Z",
   "published": "2022-05-17T01:01:01Z",
   "aliases": [
     "CVE-2011-2587"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14851"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=vlc.git%3Ba=commit%3Bh=1bce40644cddee93b4b1877a94a6ce345f32852c"
     },
     {
       "type": "WEB",

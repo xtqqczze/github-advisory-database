@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35cw-298h-r635",
-  "modified": "2022-05-17T01:59:37Z",
+  "modified": "2025-04-11T03:48:01Z",
   "published": "2022-05-17T01:59:37Z",
   "aliases": [
     "CVE-2011-1753"

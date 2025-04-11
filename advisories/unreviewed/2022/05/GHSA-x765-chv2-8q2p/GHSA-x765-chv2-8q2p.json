@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x765-chv2-8q2p",
-  "modified": "2022-05-17T00:11:12Z",
+  "modified": "2025-04-11T03:47:49Z",
   "published": "2022-05-17T00:11:12Z",
   "aliases": [
     "CVE-2011-0869"

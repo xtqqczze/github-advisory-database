@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8m2c-g35f-jj8v",
-  "modified": "2022-05-13T01:24:26Z",
+  "modified": "2025-04-11T03:48:39Z",
   "published": "2022-05-13T01:24:26Z",
   "aliases": [
     "CVE-2011-2501"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/68517"
+    },
+    {
+      "type": "WEB",
+      "url": "http://libpng.git.sourceforge.net/git/gitweb.cgi?p=libpng/libpng%3Ba=commit%3Bh=65e6d5a34f49acdb362a0625a706c6b914e670af"
     },
     {
       "type": "WEB",

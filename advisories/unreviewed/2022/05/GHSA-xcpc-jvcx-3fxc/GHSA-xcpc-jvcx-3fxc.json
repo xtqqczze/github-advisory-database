@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcpc-jvcx-3fxc",
-  "modified": "2022-05-17T05:39:40Z",
+  "modified": "2025-04-11T03:47:05Z",
   "published": "2022-05-17T05:39:40Z",
   "aliases": [
     "CVE-2011-2160"

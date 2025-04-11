@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q6vw-39cg-wjjf",
-  "modified": "2022-05-14T02:55:16Z",
+  "modified": "2025-04-11T03:48:37Z",
   "published": "2022-05-14T02:55:16Z",
   "aliases": [
     "CVE-2011-2508"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://lists.fedoraproject.org/pipermail/package-announce/2011-July/062719.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://phpmyadmin.git.sourceforge.net/git/gitweb.cgi?p=phpmyadmin/phpmyadmin%3Ba=commit%3Bh=b434320eff8ca9c2fc1b043c1804f868341af9a7"
     },
     {
       "type": "WEB",

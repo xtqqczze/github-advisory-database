@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh73-pg9j-32r3",
-  "modified": "2022-05-13T01:15:29Z",
+  "modified": "2025-04-11T03:47:50Z",
   "published": "2022-05-13T01:15:29Z",
   "aliases": [
     "CVE-2011-1249"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvgc-c4mc-v8qh",
-  "modified": "2022-05-17T05:33:51Z",
+  "modified": "2025-04-11T03:48:23Z",
   "published": "2022-05-17T05:33:51Z",
   "aliases": [
     "CVE-2011-2628"

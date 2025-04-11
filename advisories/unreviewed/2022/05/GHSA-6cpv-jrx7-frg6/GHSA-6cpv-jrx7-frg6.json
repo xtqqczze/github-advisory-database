@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cpv-jrx7-frg6",
-  "modified": "2022-05-14T02:21:02Z",
+  "modified": "2025-04-11T03:47:05Z",
   "published": "2022-05-14T02:21:02Z",
   "aliases": [
     "CVE-2011-2161"

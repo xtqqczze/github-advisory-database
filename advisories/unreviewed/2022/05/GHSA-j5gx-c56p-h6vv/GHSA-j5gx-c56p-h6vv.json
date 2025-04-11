@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5gx-c56p-h6vv",
-  "modified": "2022-05-17T01:54:55Z",
+  "modified": "2025-04-11T03:47:44Z",
   "published": "2022-05-17T01:54:55Z",
   "aliases": [
     "CVE-2011-2476"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/68058"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.coppermine-gallery.net/index.php/topic%2C69495.0.html"
     },
     {
       "type": "WEB",

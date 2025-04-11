@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcr9-6vfh-4r7r",
-  "modified": "2022-05-14T03:08:10Z",
+  "modified": "2025-04-11T03:48:01Z",
   "published": "2022-05-14T03:08:10Z",
   "aliases": [
     "CVE-2011-1482"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2011/03/30/8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://yehg.net/lab/pr0js/advisories/%5Bphpnuke-8.x%5D_cross_site_request_forgery"
     },
     {
       "type": "WEB",

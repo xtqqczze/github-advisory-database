@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92pm-rc7q-ch3w",
-  "modified": "2022-05-17T01:55:21Z",
+  "modified": "2025-04-11T03:48:02Z",
   "published": "2022-05-17T01:55:21Z",
   "aliases": [
     "CVE-2011-2205"

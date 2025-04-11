@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgrm-h8v4-5h63",
-  "modified": "2022-05-17T05:39:48Z",
+  "modified": "2025-04-11T03:48:28Z",
   "published": "2022-05-17T05:39:48Z",
   "aliases": [
     "CVE-2011-1001"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-1001"
+    },
+    {
+      "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/dalvik.git%3Ba=commit%3Bh=4b0750e8df91220690bb417f45d7ae8b7851b220"
     },
     {
       "type": "WEB",

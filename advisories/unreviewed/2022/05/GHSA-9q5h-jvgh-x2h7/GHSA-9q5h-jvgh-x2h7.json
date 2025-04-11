@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q5h-jvgh-x2h7",
-  "modified": "2022-05-13T01:07:46Z",
+  "modified": "2025-04-11T03:47:33Z",
   "published": "2022-05-13T01:07:46Z",
   "aliases": [
     "CVE-2011-2383"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://conference.hackinthebox.org/hitbsecconf2011ams/?page_id=1388"
+    },
+    {
+      "type": "WEB",
+      "url": "http://ju12.tistory.com/attachment/cfile4.uf%40151FAB4C4DDC9E0002A6FE.ppt"
     },
     {
       "type": "WEB",
