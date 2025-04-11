@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qq2m-25fj-pxvm",
-  "modified": "2022-05-02T06:20:09Z",
+  "modified": "2025-04-11T03:36:46Z",
   "published": "2022-05-02T06:20:09Z",
   "aliases": [
     "CVE-2010-1205"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "http://googlechromereleases.blogspot.com/2010/07/stable-channel-update.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://libpng.git.sourceforge.net/git/gitweb.cgi?p=libpng/libpng%3Ba=commitdiff%3Bh=188eb6b42602bf7d7ae708a21897923b6a83fe7c#patch18"
     },
     {
       "type": "WEB",

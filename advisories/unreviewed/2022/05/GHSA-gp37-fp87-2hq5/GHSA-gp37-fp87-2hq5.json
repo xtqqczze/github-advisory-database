@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp37-fp87-2hq5",
-  "modified": "2022-05-02T06:13:04Z",
+  "modified": "2025-04-11T03:35:51Z",
   "published": "2022-05-02T06:13:04Z",
   "aliases": [
     "CVE-2010-0484"

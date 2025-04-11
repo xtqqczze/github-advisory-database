@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fw46-vp2w-pvxq",
-  "modified": "2022-05-17T05:50:36Z",
+  "modified": "2025-04-11T03:35:50Z",
   "published": "2022-05-17T05:50:36Z",
   "aliases": [
     "CVE-2010-2198"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://marc.info/?l=oss-security&m=127559059928131&w=2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://rpm.org/gitweb?p=rpm.git%3Ba=commit%3Bh=4d172a194addc49851e558ea390d3045894e3230"
     },
     {
       "type": "WEB",

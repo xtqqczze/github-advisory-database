@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77v2-jp97-h89m",
-  "modified": "2022-05-17T05:06:10Z",
+  "modified": "2025-04-11T03:35:41Z",
   "published": "2022-05-17T05:06:10Z",
   "aliases": [
     "CVE-2010-2131"

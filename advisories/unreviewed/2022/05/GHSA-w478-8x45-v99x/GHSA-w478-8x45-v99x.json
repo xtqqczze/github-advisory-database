@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w478-8x45-v99x",
-  "modified": "2022-05-17T02:09:11Z",
+  "modified": "2025-04-11T03:35:42Z",
   "published": "2022-05-17T02:09:11Z",
   "aliases": [
     "CVE-2008-7256"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/59224"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=1b79cd04fab80be61dcd2732e2423aafde9a4c1c"
     },
     {
       "type": "WEB",

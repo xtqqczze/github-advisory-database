@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-362p-9mx3-r47m",
-  "modified": "2022-05-02T03:59:07Z",
+  "modified": "2025-04-11T03:35:38Z",
   "published": "2022-05-02T03:59:07Z",
   "aliases": [
     "CVE-2009-4880"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://sources.redhat.com/bugzilla/show_bug.cgi?id=10600"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sourceware.org/git/?p=glibc.git%3Ba=commit%3Bh=199eb0de8d673fb23aa127721054b4f1803d61f3"
     },
     {
       "type": "WEB",

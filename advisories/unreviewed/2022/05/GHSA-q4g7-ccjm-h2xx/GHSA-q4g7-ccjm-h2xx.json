@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4g7-ccjm-h2xx",
-  "modified": "2022-05-02T03:59:08Z",
+  "modified": "2025-04-11T03:35:39Z",
   "published": "2022-05-02T03:59:08Z",
   "aliases": [
     "CVE-2009-4881"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://sources.redhat.com/bugzilla/show_bug.cgi?id=10600"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sourceware.org/git/?p=glibc.git%3Ba=commit%3Bh=153aa31b93be22e01b236375fb02a9f9b9a0195f"
     },
     {
       "type": "WEB",

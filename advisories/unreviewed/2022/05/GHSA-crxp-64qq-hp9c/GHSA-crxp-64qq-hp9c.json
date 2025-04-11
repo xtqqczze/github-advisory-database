@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crxp-64qq-hp9c",
-  "modified": "2022-05-14T02:45:01Z",
+  "modified": "2025-04-11T03:36:54Z",
   "published": "2022-05-14T02:45:01Z",
   "aliases": [
     "CVE-2010-1575"

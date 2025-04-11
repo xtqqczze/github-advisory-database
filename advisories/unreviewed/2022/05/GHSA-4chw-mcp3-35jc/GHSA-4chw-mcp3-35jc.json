@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4chw-mcp3-35jc",
-  "modified": "2022-05-17T05:51:28Z",
+  "modified": "2025-04-11T03:35:09Z",
   "published": "2022-05-17T05:51:28Z",
   "aliases": [
     "CVE-2010-1482"

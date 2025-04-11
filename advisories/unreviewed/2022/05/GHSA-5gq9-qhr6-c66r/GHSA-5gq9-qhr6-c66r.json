@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5gq9-qhr6-c66r",
-  "modified": "2022-05-02T06:15:58Z",
+  "modified": "2025-04-11T03:35:40Z",
   "published": "2022-05-02T06:15:58Z",
   "aliases": [
     "CVE-2010-0830"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "http://securitytracker.com/id?1024044"
+    },
+    {
+      "type": "WEB",
+      "url": "http://sourceware.org/git/?p=glibc.git%3Ba=commit%3Bh=db07e962b6ea963dbb345439f6ab9b0cf74d87c5"
     },
     {
       "type": "WEB",
