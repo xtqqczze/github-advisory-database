@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m86w-wm5v-fch4",
-  "modified": "2022-05-13T01:25:03Z",
+  "modified": "2025-04-11T03:53:24Z",
   "published": "2022-05-13T01:25:03Z",
   "aliases": [
     "CVE-2011-4800"

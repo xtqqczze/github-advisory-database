@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whvm-6666-v8cf",
-  "modified": "2022-05-17T05:32:32Z",
+  "modified": "2025-04-11T03:53:13Z",
   "published": "2022-05-17T05:32:32Z",
   "aliases": [
     "CVE-2011-4681"

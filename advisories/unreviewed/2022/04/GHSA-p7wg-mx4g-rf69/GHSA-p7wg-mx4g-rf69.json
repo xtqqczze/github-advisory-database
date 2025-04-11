@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7wg-mx4g-rf69",
-  "modified": "2022-04-30T18:23:13Z",
+  "modified": "2025-04-11T03:53:13Z",
   "published": "2022-04-30T18:23:13Z",
   "aliases": [
     "CVE-2002-2437"
