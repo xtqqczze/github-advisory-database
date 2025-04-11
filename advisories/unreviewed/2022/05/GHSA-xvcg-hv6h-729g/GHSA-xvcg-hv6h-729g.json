@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvcg-hv6h-729g",
-  "modified": "2022-05-13T01:28:42Z",
+  "modified": "2025-04-11T12:31:38Z",
   "published": "2022-05-13T01:28:42Z",
   "aliases": [
     "CVE-2018-11243"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/upx/upx/blob/devel/NEWS"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/D7XU42G6MUQQXHWRP7DCF2JSIBOJ5GOO"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EUTVSTXAFTD552NO2K2RIF6MDQEHP3BE"
     },
     {
       "type": "WEB",

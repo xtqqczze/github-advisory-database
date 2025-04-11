@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68mf-gv4w-rh82",
-  "modified": "2022-07-11T00:00:18Z",
+  "modified": "2025-04-11T12:31:38Z",
   "published": "2022-05-24T19:02:26Z",
   "aliases": [
     "CVE-2020-24119"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://cwe.mitre.org/data/definitions/126.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JE54WKVU7MATB4WZD3MJFBAHFRJ3NTQX"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSQRO7YC72PSYDQG4PQLQYXZTZE3B4YV"
     },
     {
       "type": "WEB",

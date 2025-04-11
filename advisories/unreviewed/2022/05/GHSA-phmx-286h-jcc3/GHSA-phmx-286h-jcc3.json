@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phmx-286h-jcc3",
-  "modified": "2022-05-24T17:05:12Z",
+  "modified": "2025-04-11T12:31:38Z",
   "published": "2022-05-24T17:05:12Z",
   "aliases": [
     "CVE-2019-20053"
   ],
   "details": "An invalid memory address dereference was discovered in the canUnpack function in p_mach.cpp in UPX 3.95 via a crafted Mach-O file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

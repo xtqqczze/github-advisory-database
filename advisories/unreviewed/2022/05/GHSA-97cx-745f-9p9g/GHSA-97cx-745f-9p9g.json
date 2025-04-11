@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-97cx-745f-9p9g",
-  "modified": "2023-01-20T18:30:23Z",
+  "modified": "2025-04-11T12:31:38Z",
   "published": "2022-05-24T17:05:11Z",
   "aliases": [
     "CVE-2019-20021"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/upx/upx/issues/315"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/D7XU42G6MUQQXHWRP7DCF2JSIBOJ5GOO"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EUTVSTXAFTD552NO2K2RIF6MDQEHP3BE"
     },
     {
       "type": "WEB",
