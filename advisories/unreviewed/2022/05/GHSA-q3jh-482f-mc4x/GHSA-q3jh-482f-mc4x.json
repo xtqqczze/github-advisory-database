@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3jh-482f-mc4x",
-  "modified": "2022-05-13T01:11:14Z",
+  "modified": "2025-04-11T04:04:13Z",
   "published": "2022-05-13T01:11:14Z",
   "aliases": [
     "CVE-2012-2972"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/79477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7BF9EEA31E-8089-423E-B746-41B5C9DD2AC1%7D"
     },
     {
       "type": "WEB",

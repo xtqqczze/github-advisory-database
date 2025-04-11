@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3pmh-7gp6-9376",
-  "modified": "2022-05-13T01:10:56Z",
+  "modified": "2025-04-11T04:03:19Z",
   "published": "2022-05-13T01:10:56Z",
   "aliases": [
     "CVE-2012-0692"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-0692"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7B79CE87E4-7A35-48A3-99BA-5A0DBEDECA94%7D"
     },
     {
       "type": "WEB",

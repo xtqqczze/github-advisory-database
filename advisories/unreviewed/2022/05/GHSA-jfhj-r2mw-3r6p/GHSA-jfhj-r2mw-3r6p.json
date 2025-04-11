@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfhj-r2mw-3r6p",
-  "modified": "2022-05-17T01:46:19Z",
+  "modified": "2025-04-11T04:03:13Z",
   "published": "2022-05-17T01:46:19Z",
   "aliases": [
     "CVE-2012-2241"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/78977"
+    },
+    {
+      "type": "WEB",
+      "url": "http://anonscm.debian.org/gitweb/?p=devscripts/devscripts.git%3Ba=commitdiff%3Bh=0fd15bdec07b085f9ef438dacd18e159ac60b810"
     },
     {
       "type": "WEB",

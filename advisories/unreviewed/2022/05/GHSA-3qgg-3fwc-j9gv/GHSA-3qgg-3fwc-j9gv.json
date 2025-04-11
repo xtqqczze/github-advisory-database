@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qgg-3fwc-j9gv",
-  "modified": "2022-05-17T05:18:41Z",
+  "modified": "2025-04-11T04:05:00Z",
   "published": "2022-05-17T05:18:41Z",
   "aliases": [
     "CVE-2012-4566"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://postlister.uninett.no/sympa/arc/radsecproxy/2012-10/msg00001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.nordu.net/?p=radsecproxy.git%3Ba=commit%3Bh=3682c935facf5ccd7fa600644bbb76957155c680"
     },
     {
       "type": "WEB",

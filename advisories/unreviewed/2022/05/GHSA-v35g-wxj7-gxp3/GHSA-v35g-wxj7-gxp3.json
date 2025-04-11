@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v35g-wxj7-gxp3",
-  "modified": "2022-05-13T01:12:13Z",
+  "modified": "2025-04-11T04:05:19Z",
   "published": "2022-05-13T01:12:13Z",
   "aliases": [
     "CVE-2012-5568"

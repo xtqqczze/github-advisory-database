@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g58g-3cj2-cwq2",
-  "modified": "2022-05-17T01:50:23Z",
+  "modified": "2025-04-11T04:04:22Z",
   "published": "2022-05-17T01:50:23Z",
   "aliases": [
     "CVE-2011-5226"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://osvdb.org/77778"
+    },
+    {
+      "type": "WEB",
+      "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=475315%40wordpress-sentinel&old=474998%40wordpress-sentinel"
     },
     {
       "type": "WEB",

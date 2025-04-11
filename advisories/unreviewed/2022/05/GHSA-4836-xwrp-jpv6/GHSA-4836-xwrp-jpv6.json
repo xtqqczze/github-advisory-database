@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4836-xwrp-jpv6",
-  "modified": "2022-05-14T03:07:55Z",
+  "modified": "2025-04-11T04:04:13Z",
   "published": "2022-05-14T03:07:55Z",
   "aliases": [
     "CVE-2012-4751"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "http://znuny.com/en/#!/advisory/ZSA-2012-03"
+    },
+    {
+      "type": "WEB",
+      "url": "http://znuny.com/en/#%21/advisory/ZSA-2012-03"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8g7q-m58p-3p6w",
-  "modified": "2022-05-14T03:07:56Z",
+  "modified": "2025-04-11T04:04:41Z",
   "published": "2022-05-14T03:07:56Z",
   "aliases": [
     "CVE-2012-4505"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/?fromgroups=#!topic/libproxy/VxZ8No7mT0E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/?fromgroups=#%21topic/libproxy/VxZ8No7mT0E"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q88q-j4pq-r9xg",
-  "modified": "2022-05-17T04:53:24Z",
+  "modified": "2025-04-11T04:05:25Z",
   "published": "2022-05-17T04:53:24Z",
   "aliases": [
     "CVE-2012-5534"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.mageia.org/en/Support/Advisories/MGASA-2012-0347"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.savannah.gnu.org/gitweb/?p=weechat.git%3Ba=commitdiff_plain%3Bh=efb795c74fe954b9544074aafcebb1be4452b03a"
     },
     {
       "type": "WEB",

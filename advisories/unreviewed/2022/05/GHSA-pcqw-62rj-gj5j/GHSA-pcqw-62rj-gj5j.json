@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcqw-62rj-gj5j",
-  "modified": "2022-05-13T01:28:57Z",
+  "modified": "2025-04-11T04:03:29Z",
   "published": "2022-05-13T01:28:57Z",
   "aliases": [
     "CVE-2010-5278"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/62073"
+    },
+    {
+      "type": "WEB",
+      "url": "http://modxcms.com/forums/index.php/topic%2C55104.0.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://modxcms.com/forums/index.php/topic%2C55105.msg317273.html"
     },
     {
       "type": "WEB",

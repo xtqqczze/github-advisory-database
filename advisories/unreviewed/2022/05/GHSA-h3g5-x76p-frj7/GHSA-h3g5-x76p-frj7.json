@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3g5-x76p-frj7",
-  "modified": "2022-05-17T05:18:42Z",
+  "modified": "2025-04-11T04:05:11Z",
   "published": "2022-05-17T05:18:42Z",
   "aliases": [
     "CVE-2012-4601"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://sourceforge.net/projects/tcexam/files/CHANGELOG.TXT/view"
+    },
+    {
+      "type": "WEB",
+      "url": "http://tcexam.git.sourceforge.net/git/gitweb.cgi?p=tcexam/tcexam%3Ba=commit%3Bh=3e1ed3c02122eae182f076daabe903b0c8837971"
     },
     {
       "type": "WEB",

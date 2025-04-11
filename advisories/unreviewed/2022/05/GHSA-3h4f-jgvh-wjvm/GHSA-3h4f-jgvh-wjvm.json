@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3h4f-jgvh-wjvm",
-  "modified": "2022-05-17T05:20:45Z",
+  "modified": "2025-04-11T04:03:12Z",
   "published": "2022-05-17T05:20:45Z",
   "aliases": [
     "CVE-2012-3491"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=848214"
+    },
+    {
+      "type": "WEB",
+      "url": "http://condor-git.cs.wisc.edu/?p=condor.git%3Ba=commitdiff%3Bh=1fff5d40"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfrm-r98f-cf43",
-  "modified": "2022-05-13T01:26:08Z",
+  "modified": "2025-04-11T04:04:24Z",
   "published": "2022-05-13T01:26:08Z",
   "aliases": [
     "CVE-2012-5692"

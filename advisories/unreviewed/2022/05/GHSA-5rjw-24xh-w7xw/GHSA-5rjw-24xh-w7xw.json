@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rjw-24xh-w7xw",
-  "modified": "2022-05-17T01:39:49Z",
+  "modified": "2025-04-11T04:03:32Z",
   "published": "2022-05-17T01:39:49Z",
   "aliases": [
     "CVE-2012-5327"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://packetstormsecurity.org/files/view/108915/wpmingleforum-sqlxss.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://plugins.trac.wordpress.org/changeset?reponame=&new=492859%40mingle-forum&old=487353%40mingle-forum"
     },
     {
       "type": "WEB",

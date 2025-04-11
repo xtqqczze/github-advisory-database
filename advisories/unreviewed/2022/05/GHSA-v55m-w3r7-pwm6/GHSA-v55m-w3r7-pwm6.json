@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v55m-w3r7-pwm6",
-  "modified": "2022-05-14T00:52:07Z",
+  "modified": "2025-04-11T04:04:15Z",
   "published": "2022-05-14T00:52:07Z",
   "aliases": [
     "CVE-2012-4506"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/gitolite/K9SnQNhCQ-0/discussion"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/gitolite/K9SnQNhCQ-0/discussion"
     },
     {
       "type": "WEB",

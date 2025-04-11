@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5j9-5h8m-c8mw",
-  "modified": "2022-05-17T05:18:47Z",
+  "modified": "2025-04-11T04:04:15Z",
   "published": "2022-05-17T05:18:47Z",
   "aliases": [
     "CVE-2012-4436"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://www.cipherdyne.org/blog/2012/09/software-release-fwknop-2.0.3.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.cipherdyne.org/cgi-bin/gitweb.cgi?p=fwknop.git%3Ba=commitdiff%3Bh=a60f05ad44e824f6230b22f8976399340cb535dc"
     },
     {
       "type": "WEB",
