@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qqf-vxv4-9698",
-  "modified": "2022-05-17T05:48:25Z",
+  "modified": "2025-04-11T03:38:59Z",
   "published": "2022-05-17T05:48:25Z",
   "aliases": [
     "CVE-2010-2799"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-2799"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/msmania/poodim/commit/6340d5d2c81e55e61522c4b40a6cdd5c39738cc6"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44gv-7gp8-m9mw",
-  "modified": "2022-05-02T06:12:33Z",
+  "modified": "2025-04-11T03:39:21Z",
   "published": "2022-05-02T06:12:33Z",
   "aliases": [
     "CVE-2010-0405"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://blogs.sun.com/security/entry/cve_2010_0405_integer_overflow"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.clamav.net/gitweb?p=clamav-devel.git%3Ba=blob_plain%3Bf=ChangeLog%3Bhb=clamav-0.96.3"
     },
     {
       "type": "WEB",

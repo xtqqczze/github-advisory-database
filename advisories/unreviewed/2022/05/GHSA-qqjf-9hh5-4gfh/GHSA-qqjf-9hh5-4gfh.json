@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqjf-9hh5-4gfh",
-  "modified": "2022-05-17T05:42:31Z",
+  "modified": "2025-04-11T03:39:24Z",
   "published": "2022-05-17T05:42:31Z",
   "aliases": [
     "CVE-2010-3434"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://wwws.clamav.net/bugzilla/show_bug.cgi?id=2226"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.clamav.net/gitweb?p=clamav-devel.git%3Ba=blob_plain%3Bf=ChangeLog%3Bhb=clamav-0.96.3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.clamav.net/gitweb?p=clamav-devel.git%3Ba=commit%3Bh=dc5143b4669ae39c79c9af50d569c28c798f33da"
     },
     {
       "type": "WEB",

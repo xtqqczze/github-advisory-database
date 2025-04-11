@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jw7-x958-q6mf",
-  "modified": "2022-05-13T01:23:37Z",
+  "modified": "2025-04-11T03:39:12Z",
   "published": "2022-05-13T01:23:37Z",
   "aliases": [
     "CVE-2010-3477"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-3477"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/davem/net-2.6.git%3Ba=commit%3Bh=0f04cfd098fb81fded74e78ea1a1b86cc6c6c31e"
     },
     {
       "type": "WEB",

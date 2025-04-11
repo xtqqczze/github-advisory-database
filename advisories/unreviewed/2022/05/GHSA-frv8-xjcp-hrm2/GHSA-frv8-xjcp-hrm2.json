@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frv8-xjcp-hrm2",
-  "modified": "2022-05-17T05:48:25Z",
+  "modified": "2025-04-11T03:38:47Z",
   "published": "2022-05-17T05:48:25Z",
   "aliases": [
     "CVE-2010-2958"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2010-2958"
+    },
+    {
+      "type": "WEB",
+      "url": "http://phpmyadmin.git.sourceforge.net/git/gitweb.cgi?p=phpmyadmin/phpmyadmin%3Ba=commit%3Bh=133a77fac7d31a38703db2099a90c1b49de62e37"
     },
     {
       "type": "WEB",

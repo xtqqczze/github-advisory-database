@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwm7-v54x-94hf",
-  "modified": "2022-05-17T05:48:50Z",
+  "modified": "2025-04-11T03:38:09Z",
   "published": "2022-05-17T05:48:50Z",
   "aliases": [
     "CVE-2010-2759"

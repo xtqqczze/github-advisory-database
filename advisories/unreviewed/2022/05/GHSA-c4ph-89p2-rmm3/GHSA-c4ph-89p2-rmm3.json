@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4ph-89p2-rmm3",
-  "modified": "2022-05-14T02:43:41Z",
+  "modified": "2025-04-11T03:38:19Z",
   "published": "2022-05-14T02:43:41Z",
   "aliases": [
     "CVE-2010-3015"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/61156"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=731eb1a03a8445cde2cb23ecfb3580c6fa7bb690"
     },
     {
       "type": "WEB",
