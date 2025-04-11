@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qmp-9x47-92q8",
-  "modified": "2025-02-27T18:27:41Z",
+  "modified": "2025-04-11T23:13:35Z",
   "published": "2025-02-27T18:27:41Z",
   "aliases": [
     "CVE-2025-23387"
@@ -79,6 +79,14 @@
       "url": "https://github.com/rancher/rancher/security/advisories/GHSA-5qmp-9x47-92q8"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23387"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.suse.com/show_bug.cgi?id=CVE-2025-23387"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/rancher/rancher"
     }
@@ -90,6 +98,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-02-27T18:27:41Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-11T11:15:42Z"
   }
 }
