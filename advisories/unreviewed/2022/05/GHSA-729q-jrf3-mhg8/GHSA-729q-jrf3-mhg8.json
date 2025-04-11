@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-729q-jrf3-mhg8",
-  "modified": "2022-05-17T02:04:28Z",
+  "modified": "2025-04-11T03:43:27Z",
   "published": "2022-05-17T02:04:28Z",
   "aliases": [
     "CVE-2010-4326"

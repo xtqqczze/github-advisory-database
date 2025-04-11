@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98fv-x3p6-qjrq",
-  "modified": "2022-05-17T02:04:53Z",
+  "modified": "2025-04-11T03:43:36Z",
   "published": "2022-05-17T02:04:53Z",
   "aliases": [
     "CVE-2010-3929"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://jvndb.jvn.jp/ja/contents/2011/JVNDB-2011-000008.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://modxcms.com/forums/index.php/topic%2C60045.0.html"
     },
     {
       "type": "WEB",

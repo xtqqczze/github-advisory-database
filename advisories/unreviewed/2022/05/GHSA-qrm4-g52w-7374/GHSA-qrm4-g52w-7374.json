@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrm4-g52w-7374",
-  "modified": "2022-05-14T02:42:20Z",
+  "modified": "2025-04-11T03:43:15Z",
   "published": "2022-05-14T02:42:20Z",
   "aliases": [
     "CVE-2010-4331"

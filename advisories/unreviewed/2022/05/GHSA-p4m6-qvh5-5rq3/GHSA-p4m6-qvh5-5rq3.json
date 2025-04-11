@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4m6-qvh5-5rq3",
-  "modified": "2022-05-03T03:25:08Z",
+  "modified": "2025-04-11T03:42:52Z",
   "published": "2022-05-03T03:25:08Z",
   "aliases": [
     "CVE-2011-0005"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/45679"
+    },
+    {
+      "type": "WEB",
+      "url": "http://yehg.net/lab/pr0js/advisories/joomla/core/%5Bjoomla_1.0.x~15%5D_cross_site_scripting"
     },
     {
       "type": "WEB",

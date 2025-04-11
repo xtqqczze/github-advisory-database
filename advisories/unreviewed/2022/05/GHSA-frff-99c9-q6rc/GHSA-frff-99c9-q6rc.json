@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frff-99c9-q6rc",
-  "modified": "2022-05-14T01:43:41Z",
+  "modified": "2025-04-11T03:43:24Z",
   "published": "2022-05-14T01:43:41Z",
   "aliases": [
     "CVE-2010-4707"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/65036"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.altlinux.org/people/ldv/packages/?p=pam.git%3Ba=commit%3Bh=Linux-PAM-1_1_2-2-gffe7058c70253d574b1963c7c93002bd410fddc9"
     },
     {
       "type": "WEB",

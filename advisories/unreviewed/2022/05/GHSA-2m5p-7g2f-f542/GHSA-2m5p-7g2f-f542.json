@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2m5p-7g2f-f542",
-  "modified": "2022-05-17T02:01:58Z",
+  "modified": "2025-04-11T03:43:31Z",
   "published": "2022-05-17T02:01:58Z",
   "aliases": [
     "CVE-2011-0680"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/65125"
+    },
+    {
+      "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/packages/apps/Mms.git%3Ba=commit%3Bh=18d6b7e9d2e538fb3c0264332b96c02abf367267"
+    },
+    {
+      "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/packages/apps/Mms.git%3Ba=commit%3Bh=4d26623ce82230e8e7009adb921c5edea370a9e0"
     },
     {
       "type": "WEB",

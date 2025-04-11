@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-74h7-7cw6-xjm9",
-  "modified": "2022-05-14T03:08:11Z",
+  "modified": "2025-04-11T03:43:35Z",
   "published": "2022-05-14T03:08:11Z",
   "aliases": [
     "CVE-2011-0682"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A12636"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.alternativ-testing.fr/blog/index.php?post/2011/%5BCVE-XXXX-XXXX%5D-Opera-11-Integer-Truncation-Vulnerability"
     },
     {
       "type": "WEB",

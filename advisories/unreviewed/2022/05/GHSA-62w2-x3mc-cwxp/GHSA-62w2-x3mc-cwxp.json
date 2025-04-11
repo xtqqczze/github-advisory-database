@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62w2-x3mc-cwxp",
-  "modified": "2022-05-03T03:25:13Z",
+  "modified": "2025-04-11T03:43:24Z",
   "published": "2022-05-03T03:25:13Z",
   "aliases": [
     "CVE-2011-0021"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://download.videolan.org/pub/videolan/vlc/1.1.6/vlc-1.1.6.tar.bz2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=vlc.git%3Ba=commit%3Bh=f9b664eac0e1a7bceed9d7b5854fd9fc351b4aab"
     },
     {
       "type": "WEB",

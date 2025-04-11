@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7382-fv7p-v9v3",
-  "modified": "2022-05-14T02:56:35Z",
+  "modified": "2025-04-11T03:44:09Z",
   "published": "2022-05-14T02:56:35Z",
   "aliases": [
     "CVE-2011-0533"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://jira.codehaus.org/browse/CONTINUUM-2604"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/continuum-users/201102.mbox/%3C981C0A79-5B7B-4053-84CC-3217870BE360%40apache.org%3E"
     },
     {
       "type": "WEB",

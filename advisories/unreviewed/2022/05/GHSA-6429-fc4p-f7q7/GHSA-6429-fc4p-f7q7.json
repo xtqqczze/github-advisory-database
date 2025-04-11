@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6429-fc4p-f7q7",
-  "modified": "2022-05-13T01:09:15Z",
+  "modified": "2025-04-11T03:42:56Z",
   "published": "2022-05-13T01:09:15Z",
   "aliases": [
     "CVE-2010-4051"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=645859"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rc713534b10f9daeee2e0990239fa407e2118e4aa9e88a7041177497c%40%3Cissues.guacamole.apache.org%3E"
     },
     {
       "type": "WEB",

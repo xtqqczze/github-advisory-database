@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpp2-qjhg-737g",
-  "modified": "2022-05-13T01:23:47Z",
+  "modified": "2025-04-11T03:42:39Z",
   "published": "2022-05-13T01:23:47Z",
   "aliases": [
     "CVE-2010-4668"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://patchwork.kernel.org/patch/363282"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=5478755616ae2ef1ce144dded589b62b2a50d575"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcg6-56gf-f98f",
-  "modified": "2022-05-17T05:37:18Z",
+  "modified": "2025-04-11T03:43:20Z",
   "published": "2022-05-17T05:37:18Z",
   "aliases": [
     "CVE-2010-4704"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "http://ffmpeg.mplayerhq.hu"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ffmpeg.org/?p=ffmpeg.git%3Ba=commit%3Bh=3dde66752d59dfdd0f3727efd66e7202b3c75078"
     },
     {
       "type": "WEB",

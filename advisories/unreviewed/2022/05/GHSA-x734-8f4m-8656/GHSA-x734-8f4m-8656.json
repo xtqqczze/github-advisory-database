@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x734-8f4m-8656",
-  "modified": "2022-05-14T03:08:10Z",
+  "modified": "2025-04-11T03:43:03Z",
   "published": "2022-05-14T03:08:10Z",
   "aliases": [
     "CVE-2010-4166"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/42133"
+    },
+    {
+      "type": "WEB",
+      "url": "http://yehg.net/lab/pr0js/advisories/joomla/core/1.5.21/sql_injection/sqli_%28filter_order%29_front.jpg"
     },
     {
       "type": "WEB",

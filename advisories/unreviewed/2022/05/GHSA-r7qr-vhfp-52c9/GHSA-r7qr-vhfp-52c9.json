@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7qr-vhfp-52c9",
-  "modified": "2022-05-13T01:23:47Z",
+  "modified": "2025-04-11T03:44:15Z",
   "published": "2022-05-13T01:23:47Z",
   "aliases": [
     "CVE-2011-1044"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/65563"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=7182afea8d1afd432a17c18162cc3fd441d0da93"
     },
     {
       "type": "WEB",

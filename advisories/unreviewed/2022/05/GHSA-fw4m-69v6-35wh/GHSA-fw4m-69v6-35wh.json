@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fw4m-69v6-35wh",
-  "modified": "2022-05-17T01:02:13Z",
+  "modified": "2025-04-11T03:43:46Z",
   "published": "2022-05-17T01:02:13Z",
   "aliases": [
     "CVE-2011-0522"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A12414"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/gitweb.cgi?p=vlc/vlc-1.1.git%3Ba=tag%3Bh=bb16813ddb61a53113c71bccc525559405785452"
     },
     {
       "type": "WEB",

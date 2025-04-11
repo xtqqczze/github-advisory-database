@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh4v-8jg2-fp3q",
-  "modified": "2022-05-14T02:56:16Z",
+  "modified": "2025-04-11T03:44:04Z",
   "published": "2022-05-14T02:56:16Z",
   "aliases": [
     "CVE-2011-0758"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-0758"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.ca.com/irj/portal/anonymous/phpsupcontent?contentID=%7BEE6F16E1-6E05-4890-A739-2B9F745C721F%7D"
     },
     {
       "type": "WEB",

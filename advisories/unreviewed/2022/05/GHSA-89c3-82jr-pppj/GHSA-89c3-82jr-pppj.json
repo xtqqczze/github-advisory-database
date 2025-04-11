@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89c3-82jr-pppj",
-  "modified": "2022-05-17T02:03:36Z",
+  "modified": "2025-04-11T03:42:51Z",
   "published": "2022-05-17T02:03:36Z",
   "aliases": [
     "CVE-2010-4645"
