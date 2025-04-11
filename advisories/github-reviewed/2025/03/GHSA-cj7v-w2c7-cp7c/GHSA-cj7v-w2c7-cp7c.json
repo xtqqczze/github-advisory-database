@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj7v-w2c7-cp7c",
-  "modified": "2025-03-27T21:13:49Z",
+  "modified": "2025-04-11T18:01:52Z",
   "published": "2025-03-14T18:30:51Z",
   "aliases": [
     "CVE-2024-29409"
   ],
   "summary": "nest allows a remote attacker to execute arbitrary code via the Content-Type header",
-  "details": "File Upload vulnerability in nestjs nest v.11.0.11 allows a remote attacker to execute arbitrary code via the Content-Type header.",
+  "details": "File Upload vulnerability in nestjs nest prior to v.11.0.16 allows a remote attacker to execute arbitrary code via the Content-Type header.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "11.0.11"
+              "fixed": "11.0.16"
             }
           ]
         }
@@ -46,6 +46,18 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/nestjs/nest/issues/14876"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nestjs/nest/issues/14876#issuecomment-2796888038"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nestjs/nest/pull/14881"
+    },
+    {
+      "type": "WEB",
       "url": "https://gist.github.com/aydinnyunus/801342361584d1491c67a820a714f53f"
     },
     {
@@ -55,6 +67,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/nestjs/nest/blob/83a48b2c7396985144b7a6cd5d3bee1abb7c5d81/packages/common/pipes/file/file-type.validator.ts#L19"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nestjs/nest/releases/tag/v11.0.16"
     }
   ],
   "database_specific": {
