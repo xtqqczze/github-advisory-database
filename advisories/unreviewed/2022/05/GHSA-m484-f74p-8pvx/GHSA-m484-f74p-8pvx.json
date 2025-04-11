@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m484-f74p-8pvx",
-  "modified": "2022-05-14T03:07:51Z",
+  "modified": "2025-04-11T04:10:00Z",
   "published": "2022-05-14T03:07:51Z",
   "aliases": [
     "CVE-2013-2944"
@@ -37,6 +37,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/59580"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.strongswan.org/blog/2013/04/30/strongswan-5.0.4-released-%28cve-2013-2944%29.html"
     },
     {
       "type": "WEB",

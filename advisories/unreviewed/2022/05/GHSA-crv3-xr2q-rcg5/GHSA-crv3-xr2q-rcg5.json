@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crv3-xr2q-rcg5",
-  "modified": "2022-05-17T05:11:38Z",
+  "modified": "2025-04-11T04:09:19Z",
   "published": "2022-05-17T05:11:38Z",
   "aliases": [
     "CVE-2013-2834"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://code.google.com/p/chromium/issues/detail?id=227158"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.chromium.org/gitweb/?p=chromiumos/overlays/chromiumos-overlay.git%3Ba=commit%3Bh=9181705680e1f53fd1e895ebe84c1b7f18c5c380"
     },
     {
       "type": "WEB",

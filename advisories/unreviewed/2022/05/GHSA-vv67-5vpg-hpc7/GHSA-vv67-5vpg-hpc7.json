@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv67-5vpg-hpc7",
-  "modified": "2022-05-17T00:55:31Z",
+  "modified": "2025-04-11T04:09:36Z",
   "published": "2022-05-17T00:55:31Z",
   "aliases": [
     "CVE-2013-2415"

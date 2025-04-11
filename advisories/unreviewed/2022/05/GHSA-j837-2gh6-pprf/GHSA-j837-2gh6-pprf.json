@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j837-2gh6-pprf",
-  "modified": "2022-05-17T05:08:47Z",
+  "modified": "2025-04-11T04:10:56Z",
   "published": "2022-05-17T05:08:47Z",
   "aliases": [
     "CVE-2013-3673"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "http://ffmpeg.org/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=7ee5e97c46e30fb3d6f9f78cc3313dbc06528b37"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=d23b8462b5a4a9da78ed45c4a7a3b35d538df909"
     },
     {
       "type": "WEB",

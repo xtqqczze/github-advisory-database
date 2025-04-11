@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8jc-52cg-pxpq",
-  "modified": "2022-05-17T00:20:49Z",
+  "modified": "2025-04-11T04:09:46Z",
   "published": "2022-05-17T00:20:49Z",
   "aliases": [
     "CVE-2013-3231"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lkml.org/lkml/2013/4/14/107"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=c77a4b9cffb6215a15196ec499490d116dfad181"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfrp-gp24-h4gw",
-  "modified": "2022-05-17T05:09:12Z",
+  "modified": "2025-04-11T04:10:46Z",
   "published": "2022-05-17T05:09:12Z",
   "aliases": [
     "CVE-2013-3261"

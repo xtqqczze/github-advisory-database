@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42v2-796f-qqmv",
-  "modified": "2022-05-14T02:13:38Z",
+  "modified": "2025-04-11T04:08:51Z",
   "published": "2022-05-14T02:13:38Z",
   "aliases": [
     "CVE-2013-2266"

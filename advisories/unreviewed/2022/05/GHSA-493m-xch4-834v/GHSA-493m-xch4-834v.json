@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-493m-xch4-834v",
-  "modified": "2022-05-17T05:06:09Z",
+  "modified": "2025-04-11T04:11:22Z",
   "published": "2022-05-17T05:06:09Z",
   "aliases": [
     "CVE-2013-2173"

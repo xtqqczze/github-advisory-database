@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx37-q6px-wm6q",
-  "modified": "2022-05-14T01:31:27Z",
+  "modified": "2025-04-11T04:10:37Z",
   "published": "2022-05-14T01:31:27Z",
   "aliases": [
     "CVE-2013-3661"

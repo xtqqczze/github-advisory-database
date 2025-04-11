@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx72-vwp8-xwxm",
-  "modified": "2022-05-05T02:49:13Z",
+  "modified": "2025-04-11T04:11:22Z",
   "published": "2022-05-05T02:49:13Z",
   "aliases": [
     "CVE-2013-0523"

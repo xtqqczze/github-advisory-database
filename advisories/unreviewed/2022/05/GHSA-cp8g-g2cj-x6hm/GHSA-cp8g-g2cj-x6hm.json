@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp8g-g2cj-x6hm",
-  "modified": "2022-05-17T05:12:00Z",
+  "modified": "2025-04-11T04:09:13Z",
   "published": "2022-05-17T05:12:00Z",
   "aliases": [
     "CVE-2013-0927"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://code.google.com/p/chromium/issues/detail?id=189250"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.chromium.org/gitweb/?p=chromiumos/overlays/chromiumos-overlay.git%3Ba=commit%3Bh=fb5a664def6cd34bf7295489ea73e1d989bdd6d0"
     },
     {
       "type": "WEB",

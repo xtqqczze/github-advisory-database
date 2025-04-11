@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qg9-ccww-5w4r",
-  "modified": "2022-05-13T01:25:05Z",
+  "modified": "2025-04-11T04:10:53Z",
   "published": "2022-05-13T01:25:05Z",
   "aliases": [
     "CVE-2011-1180"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://ftp.osuosl.org/pub/linux/kernel/v2.6/ChangeLog-2.6.39"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=d370af0ef7951188daeb15bae75db7ba57c67846"
     },
     {
       "type": "WEB",

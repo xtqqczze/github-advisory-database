@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6576-382v-5xmw",
-  "modified": "2022-05-14T00:56:51Z",
+  "modified": "2025-04-11T04:09:13Z",
   "published": "2022-05-14T00:56:51Z",
   "aliases": [
     "CVE-2013-2716"

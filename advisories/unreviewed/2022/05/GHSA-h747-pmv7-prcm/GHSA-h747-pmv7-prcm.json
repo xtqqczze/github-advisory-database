@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h747-pmv7-prcm",
-  "modified": "2022-05-17T04:55:18Z",
+  "modified": "2025-04-11T04:09:45Z",
   "published": "2022-05-17T04:55:18Z",
   "aliases": [
     "CVE-2013-3226"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lkml.org/lkml/2013/4/14/107"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=c8c499175f7d295ef867335bceb9a76a2c3cdc38"
     },
     {
       "type": "WEB",

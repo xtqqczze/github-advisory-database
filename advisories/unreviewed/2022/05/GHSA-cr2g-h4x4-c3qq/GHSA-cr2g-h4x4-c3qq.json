@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr2g-h4x4-c3qq",
-  "modified": "2022-05-17T00:56:33Z",
+  "modified": "2025-04-11T04:08:51Z",
   "published": "2022-05-17T00:56:33Z",
   "aliases": [
     "CVE-2013-0926"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://src.chromium.org/viewvc/chrome?view=rev&revision=176856"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.chromium.org/gitweb/?p=chromium/src.git%3Ba=commit%3Bh=52a30db57ecec68bb3b25fdc3de5e9bee7b80ed7"
     },
     {
       "type": "WEB",
