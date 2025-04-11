@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r88r-gmrh-7j83",
-  "modified": "2023-01-10T15:50:24Z",
+  "modified": "2025-04-11T23:46:34Z",
   "published": "2022-12-28T00:30:23Z",
   "aliases": [
     "CVE-2021-4235"
@@ -70,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/go-yaml/yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2023/07/msg00001.html"
     },
     {
       "type": "WEB",
