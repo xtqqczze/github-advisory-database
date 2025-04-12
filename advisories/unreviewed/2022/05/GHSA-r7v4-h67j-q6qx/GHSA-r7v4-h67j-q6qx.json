@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7v4-h67j-q6qx",
-  "modified": "2022-05-14T02:05:55Z",
+  "modified": "2025-04-12T12:43:51Z",
   "published": "2022-05-14T02:05:55Z",
   "aliases": [
     "CVE-2014-9221"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "http://strongswan.org/blog/2015/01/05/strongswan-5.2.2-released.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://strongswan.org/blog/2015/01/05/strongswan-denial-of-service-vulnerability-%28cve-2014-9221%29.html"
     },
     {
       "type": "WEB",

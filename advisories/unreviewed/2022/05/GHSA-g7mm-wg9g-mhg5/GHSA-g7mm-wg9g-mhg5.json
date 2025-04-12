@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7mm-wg9g-mhg5",
-  "modified": "2022-05-13T01:26:21Z",
+  "modified": "2025-04-12T12:43:53Z",
   "published": "2022-05-13T01:26:21Z",
   "aliases": [
     "CVE-2014-9585"
@@ -16,7 +16,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/luto/linux.git%3Ba=commit%3Bh=bc3b94c31d65e761ddfe150d02932c65971b74e2"
+    },
+    {
+      "type": "WEB",
       "url": "http://git.kernel.org/?p=linux/kernel/git/luto/linux.git;a=commit;h=bc3b94c31d65e761ddfe150d02932c65971b74e2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/tip/tip.git%3Ba=commit%3Bh=fbe1bf140671619508dfa575d74a185ae53c5dbb"
     },
     {
       "type": "WEB",

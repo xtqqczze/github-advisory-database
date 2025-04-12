@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhfm-wr84-w85g",
-  "modified": "2022-05-14T02:29:40Z",
+  "modified": "2025-04-12T12:45:17Z",
   "published": "2022-05-14T02:29:40Z",
   "aliases": [
     "CVE-2015-0064"

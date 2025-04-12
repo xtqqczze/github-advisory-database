@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27rj-vxhw-29rc",
-  "modified": "2022-05-17T01:11:54Z",
+  "modified": "2025-04-12T12:43:40Z",
   "published": "2022-05-17T01:11:54Z",
   "aliases": [
     "CVE-2014-9460"

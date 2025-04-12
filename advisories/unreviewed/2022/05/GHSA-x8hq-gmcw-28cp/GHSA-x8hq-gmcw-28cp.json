@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8hq-gmcw-28cp",
-  "modified": "2022-05-14T02:50:49Z",
+  "modified": "2025-04-12T12:43:46Z",
   "published": "2022-05-14T02:50:49Z",
   "aliases": [
     "CVE-2014-8084"

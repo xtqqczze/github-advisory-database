@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cphc-w6qw-f53m",
-  "modified": "2022-05-17T01:10:26Z",
+  "modified": "2025-04-12T12:44:40Z",
   "published": "2022-05-17T01:10:26Z",
   "aliases": [
     "CVE-2015-1200"
@@ -17,6 +17,18 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/100207"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3UCBCIN6M5EXFET4RGQTVSSL5S57XCH"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IBKV7AT6O3FGQ735PFOGQ4Q5VODMSHE5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XDCG7YJRDOR66V3WJDQPLMFSDULQDADC"
     },
     {
       "type": "WEB",

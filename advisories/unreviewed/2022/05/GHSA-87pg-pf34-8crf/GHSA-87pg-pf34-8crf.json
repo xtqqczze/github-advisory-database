@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87pg-pf34-8crf",
-  "modified": "2022-05-17T04:17:33Z",
+  "modified": "2025-04-12T12:44:03Z",
   "published": "2022-05-17T04:17:33Z",
   "aliases": [
     "CVE-2014-10030"

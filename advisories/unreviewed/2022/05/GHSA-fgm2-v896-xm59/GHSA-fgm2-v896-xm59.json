@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgm2-v896-xm59",
-  "modified": "2022-05-14T02:06:22Z",
+  "modified": "2025-04-12T12:43:55Z",
   "published": "2022-05-14T02:06:22Z",
   "aliases": [
     "CVE-2015-0561"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10773"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=8e96830156bea314207b97315ccebd605317f142"
     },
     {
       "type": "WEB",

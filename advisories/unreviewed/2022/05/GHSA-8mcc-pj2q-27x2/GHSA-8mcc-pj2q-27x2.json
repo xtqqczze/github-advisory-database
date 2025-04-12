@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mcc-pj2q-27x2",
-  "modified": "2022-05-17T04:18:21Z",
+  "modified": "2025-04-12T12:43:35Z",
   "published": "2022-05-17T04:18:21Z",
   "aliases": [
     "CVE-2011-5304"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pprc-9jwm-mwxq",
-  "modified": "2022-05-14T03:59:29Z",
+  "modified": "2025-04-12T12:44:43Z",
   "published": "2022-05-14T03:59:29Z",
   "aliases": [
     "CVE-2015-0232"
@@ -33,6 +33,18 @@
     {
       "type": "WEB",
       "url": "http://advisories.mageia.org/MGASA-2015-0040.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=21bc7464f454fec18a9ec024c738f195602fee2a"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=2fc178cf448d8e1b95d1314e47eeef610729e0df"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=55001de6d8c6ed2aada870a76de1e4b4558737bf"
     },
     {
       "type": "WEB",

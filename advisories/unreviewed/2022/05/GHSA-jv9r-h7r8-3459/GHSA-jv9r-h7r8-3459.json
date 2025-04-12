@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jv9r-h7r8-3459",
-  "modified": "2022-05-17T03:12:34Z",
+  "modified": "2025-04-12T12:43:42Z",
   "published": "2022-05-17T03:12:34Z",
   "aliases": [
     "CVE-2014-9427"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://advisories.mageia.org/MGASA-2015-0040.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=f9ad3086693fce680fbe246e4a45aa92edd2ac35"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qwqq-jvm7-rm7c",
-  "modified": "2022-05-17T01:10:21Z",
+  "modified": "2025-04-12T12:45:19Z",
   "published": "2022-05-17T01:10:21Z",
   "aliases": [
     "CVE-2015-1545"
@@ -61,6 +61,10 @@
     {
       "type": "WEB",
       "url": "http://www.mandriva.com/security/advisories?name=MDVSA-2015:074"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git%3Ba=commit%3Bh=c32e74763f77675b9e144126e375977ed6dc562c"
     },
     {
       "type": "WEB",

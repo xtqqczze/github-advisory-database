@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p28-vpwr-jhgr",
-  "modified": "2022-05-17T01:10:21Z",
+  "modified": "2025-04-12T12:45:00Z",
   "published": "2022-05-17T01:10:21Z",
   "aliases": [
     "CVE-2015-1475"

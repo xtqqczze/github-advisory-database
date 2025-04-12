@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7h46-6772-ccxh",
-  "modified": "2022-05-13T01:26:32Z",
+  "modified": "2025-04-12T12:45:48Z",
   "published": "2022-05-13T01:26:32Z",
   "aliases": [
     "CVE-2013-7421"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://plus.google.com/+MathiasKrause/posts/PqFCo4bfrWu"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=5d26a105b5a73e5635eae0629b42fa0a90e07b7b"
     },
     {
       "type": "WEB",

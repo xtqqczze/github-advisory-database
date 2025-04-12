@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hr87-j88c-crv5",
-  "modified": "2022-05-17T04:19:49Z",
+  "modified": "2025-04-12T12:43:01Z",
   "published": "2022-05-17T04:19:49Z",
   "aliases": [
     "CVE-2013-4399"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-4399"
+    },
+    {
+      "type": "WEB",
+      "url": "http://libvirt.org/git/?p=libvirt.git%3Ba=commit%3Bh=8294aa0c1750dcb49d6345cd9bd97bf421580d8b"
     },
     {
       "type": "WEB",
