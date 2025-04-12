@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxg5-mcmp-m3m9",
-  "modified": "2025-01-06T18:31:00Z",
+  "modified": "2025-04-12T00:30:26Z",
   "published": "2024-11-13T00:30:48Z",
   "aliases": [
     "CVE-2024-11168"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250411-0004"
     }
   ],
   "database_specific": {

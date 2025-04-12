@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6cwx-2fwm-4jvm",
-  "modified": "2025-02-11T09:30:32Z",
+  "modified": "2025-04-12T00:30:26Z",
   "published": "2025-02-11T09:30:32Z",
   "aliases": [
     "CVE-2025-1178"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1178"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250411-0008"
     },
     {
       "type": "WEB",

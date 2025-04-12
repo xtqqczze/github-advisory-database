@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3qj-j9m5-8ffr",
-  "modified": "2025-01-08T18:30:41Z",
+  "modified": "2025-04-12T00:30:26Z",
   "published": "2024-02-28T09:30:37Z",
   "aliases": [
     "CVE-2021-47001"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/eddae8be7944096419c2ae29477a45f767d0fcd4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250411-0001"
     }
   ],
   "database_specific": {
