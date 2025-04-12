@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmrj-8qgc-5x6c",
-  "modified": "2022-05-13T01:23:11Z",
+  "modified": "2025-04-12T12:33:32Z",
   "published": "2022-05-13T01:23:11Z",
   "aliases": [
     "CVE-2014-1737"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1094299"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=ef87dbe7614341c2e7bfe8d32fcb7028cc97442c"
     },
     {
       "type": "WEB",

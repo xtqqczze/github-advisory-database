@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4mx-r8f8-rwrf",
-  "modified": "2022-05-17T04:43:03Z",
+  "modified": "2025-04-12T12:34:19Z",
   "published": "2022-05-17T04:43:03Z",
   "aliases": [
     "CVE-2011-5280"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-5280"
+    },
+    {
+      "type": "WEB",
+      "url": "http://boinc.berkeley.edu/gitweb/?p=boinc-v2.git%3Ba=commitdiff%3Bh=5b04b249db166ec38c1ee99a9eadcaa300c0f454"
+    },
+    {
+      "type": "WEB",
+      "url": "http://boinc.berkeley.edu/gitweb/?p=boinc-v2.git%3Ba=commitdiff%3Bh=ae04b50a71f3e96ee1bc59b76fca97cf0fe976f7"
     },
     {
       "type": "WEB",

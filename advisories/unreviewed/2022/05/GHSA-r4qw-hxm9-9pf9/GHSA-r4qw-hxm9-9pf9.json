@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4qw-hxm9-9pf9",
-  "modified": "2022-05-14T01:08:33Z",
+  "modified": "2025-04-12T12:34:33Z",
   "published": "2022-05-14T01:08:33Z",
   "aliases": [
     "CVE-2014-0195"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1103598"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/gitweb/?p=openssl.git%3Ba=commit%3Bh=1632ef744872edc2aa2a53d487d3e79c965a4ad3"
     },
     {
       "type": "WEB",

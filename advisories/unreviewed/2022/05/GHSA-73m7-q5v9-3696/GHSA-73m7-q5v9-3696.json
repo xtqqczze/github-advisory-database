@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73m7-q5v9-3696",
-  "modified": "2022-05-17T04:44:00Z",
+  "modified": "2025-04-12T12:33:38Z",
   "published": "2022-05-17T04:44:00Z",
   "aliases": [
     "CVE-2010-4832"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://gitorious.org/atrix-aosp/frameworks_base/commit/dba8cb76371960457e91b31fa396478f809a5a34"
+    },
+    {
+      "type": "WEB",
+      "url": "http://android.git.kernel.org/?p=platform/frameworks/base.git%3Ba=commit%3Bh=dba8cb76371960457e91b31fa396478f809a5a34"
     },
     {
       "type": "WEB",

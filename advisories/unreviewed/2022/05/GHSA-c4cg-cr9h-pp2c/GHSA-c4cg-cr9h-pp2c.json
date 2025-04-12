@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4cg-cr9h-pp2c",
-  "modified": "2022-05-17T01:35:57Z",
+  "modified": "2025-04-12T12:34:04Z",
   "published": "2022-05-17T01:35:57Z",
   "aliases": [
     "CVE-2013-2758"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/83782"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/cloudstack-dev/201304.mbox/%3C51786984.1060300%40stratosec.co%3E"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h84p-rcw9-4mc8",
-  "modified": "2022-05-17T03:57:42Z",
+  "modified": "2025-04-12T12:32:52Z",
   "published": "2022-05-17T03:57:42Z",
   "aliases": [
     "CVE-2014-1517"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=713926"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.mozilla.org/?p=bugzilla/bugzilla.git%3Ba=commit%3Bh=0e390970ba51b14a5dc780be7c6f0d6d7baa67e3"
     },
     {
       "type": "WEB",

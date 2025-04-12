@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56mx-jc29-3mp9",
-  "modified": "2022-05-17T00:13:44Z",
+  "modified": "2025-04-12T12:32:59Z",
   "published": "2022-05-17T00:13:44Z",
   "aliases": [
     "CVE-2014-2855"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.samba.org/show_bug.cgi?id=10551"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=rsync.git%3Ba=commit%3Bh=0dedfbce2c1b851684ba658861fe9d620636c56a"
     },
     {
       "type": "WEB",

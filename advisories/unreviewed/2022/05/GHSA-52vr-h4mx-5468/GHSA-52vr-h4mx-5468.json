@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52vr-h4mx-5468",
-  "modified": "2022-05-13T01:06:58Z",
+  "modified": "2025-04-12T12:33:28Z",
   "published": "2022-05-13T01:06:58Z",
   "aliases": [
     "CVE-2014-0930"

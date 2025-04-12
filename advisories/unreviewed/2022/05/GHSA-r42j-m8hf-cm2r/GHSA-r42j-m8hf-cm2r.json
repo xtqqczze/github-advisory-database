@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r42j-m8hf-cm2r",
-  "modified": "2022-05-14T03:07:30Z",
+  "modified": "2025-04-12T12:33:25Z",
   "published": "2022-05-14T03:07:30Z",
   "aliases": [
     "CVE-2014-2891"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://www.securityfocus.com/bid/67212"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.strongswan.org/blog/2014/05/05/strongswan-denial-of-service-vulnerability-%28cve-2014-2891%29.html"
     },
     {
       "type": "WEB",

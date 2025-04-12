@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf86-4qgw-7g49",
-  "modified": "2022-05-13T01:18:00Z",
+  "modified": "2025-04-12T12:32:04Z",
   "published": "2022-05-13T01:18:00Z",
   "aliases": [
     "CVE-2014-2672"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://www.kernel.org/pub/linux/kernel/v3.x/ChangeLog-3.12.15"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=21f8aaee0c62708654988ce092838aa7df4d25d8"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq75-h86r-46hg",
-  "modified": "2022-05-14T01:26:43Z",
+  "modified": "2025-04-12T12:32:56Z",
   "published": "2022-05-14T01:26:43Z",
   "aliases": [
     "CVE-2014-1295"

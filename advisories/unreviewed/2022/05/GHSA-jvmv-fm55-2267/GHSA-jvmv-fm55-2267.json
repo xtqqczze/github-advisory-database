@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvmv-fm55-2267",
-  "modified": "2022-05-17T04:43:28Z",
+  "modified": "2025-04-12T12:33:52Z",
   "published": "2022-05-17T04:43:28Z",
   "aliases": [
     "CVE-2013-7033"

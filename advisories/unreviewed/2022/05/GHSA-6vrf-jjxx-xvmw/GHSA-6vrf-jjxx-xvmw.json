@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vrf-jjxx-xvmw",
-  "modified": "2022-05-17T04:45:37Z",
+  "modified": "2025-04-12T12:33:10Z",
   "published": "2022-05-17T04:45:37Z",
   "aliases": [
     "CVE-2013-7235"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-7235"
+    },
+    {
+      "type": "WEB",
+      "url": "http://download.simplemachines.org/index.php?thanks%3Bfilename=smf_2-0-6_changelog.txt"
     },
     {
       "type": "WEB",

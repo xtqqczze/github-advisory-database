@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36cx-v49w-m2cw",
-  "modified": "2022-05-14T02:11:23Z",
+  "modified": "2025-04-12T12:33:38Z",
   "published": "2022-05-14T02:11:23Z",
   "aliases": [
     "CVE-2012-1600"

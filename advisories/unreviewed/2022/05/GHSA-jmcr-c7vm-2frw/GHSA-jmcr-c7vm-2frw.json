@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmcr-c7vm-2frw",
-  "modified": "2022-05-17T04:45:37Z",
+  "modified": "2025-04-12T12:33:11Z",
   "published": "2022-05-17T04:45:37Z",
   "aliases": [
     "CVE-2013-7236"

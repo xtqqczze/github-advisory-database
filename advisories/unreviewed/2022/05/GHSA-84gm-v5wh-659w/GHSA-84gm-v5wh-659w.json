@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84gm-v5wh-659w",
-  "modified": "2022-05-13T01:05:13Z",
+  "modified": "2025-04-12T12:34:39Z",
   "published": "2022-05-13T01:05:13Z",
   "aliases": [
     "CVE-2014-0224"
@@ -62,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=bc8923b1ec9c467755cd86f7848c50ee8812e441"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/gitweb/?p=openssl.git%3Ba=commit%3Bh=bc8923b1ec9c467755cd86f7848c50ee8812e441"
     },
     {
       "type": "WEB",
