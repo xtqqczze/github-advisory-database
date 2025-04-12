@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q365-px98-c77c",
-  "modified": "2022-05-14T01:51:02Z",
+  "modified": "2025-04-12T12:56:08Z",
   "published": "2022-05-14T01:51:02Z",
   "aliases": [
     "CVE-2016-0456"

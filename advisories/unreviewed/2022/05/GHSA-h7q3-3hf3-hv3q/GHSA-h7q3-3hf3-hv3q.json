@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7q3-3hf3-hv3q",
-  "modified": "2022-05-17T03:14:23Z",
+  "modified": "2025-04-12T12:54:18Z",
   "published": "2022-05-17T03:14:23Z",
   "aliases": [
     "CVE-2015-8382"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1187225"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=c351b47ce85a3a147cfa801fa9f0149ab4160834"
     },
     {
       "type": "WEB",

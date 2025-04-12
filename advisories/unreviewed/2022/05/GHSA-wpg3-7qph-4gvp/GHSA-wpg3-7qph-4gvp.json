@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpg3-7qph-4gvp",
-  "modified": "2022-05-17T03:51:00Z",
+  "modified": "2025-04-12T12:55:55Z",
   "published": "2022-05-17T03:51:00Z",
   "aliases": [
     "CVE-2016-1909"

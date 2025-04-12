@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcr5-h66f-mcfq",
-  "modified": "2022-05-17T03:25:30Z",
+  "modified": "2025-04-12T12:54:53Z",
   "published": "2022-05-17T03:25:30Z",
   "aliases": [
     "CVE-2015-7803"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT205637"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=d698f0ae51f67c9cce870b09c59df3d6ba959244"
     },
     {
       "type": "WEB",

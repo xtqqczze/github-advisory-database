@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7w8c-c5qg-2948",
-  "modified": "2022-05-14T01:46:16Z",
+  "modified": "2025-04-12T12:55:11Z",
   "published": "2022-05-14T01:46:16Z",
   "aliases": [
     "CVE-2015-8662"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/12/msg00009.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=75422280fbcdfbe9dc56bde5525b4d8b280f1bc5"
     },
     {
       "type": "WEB",

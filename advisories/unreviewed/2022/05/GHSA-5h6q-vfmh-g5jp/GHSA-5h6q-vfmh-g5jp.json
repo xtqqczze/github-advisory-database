@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h6q-vfmh-g5jp",
-  "modified": "2022-05-17T03:24:43Z",
+  "modified": "2025-04-12T12:55:29Z",
   "published": "2022-05-17T03:24:43Z",
   "aliases": [
     "CVE-2015-8725"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11792"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=aaa28a9d39158ca1033bbd3372cf423abbf4f202"
     },
     {
       "type": "WEB",
@@ -50,7 +54,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-20"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

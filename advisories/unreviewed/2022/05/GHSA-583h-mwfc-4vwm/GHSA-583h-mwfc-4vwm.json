@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-583h-mwfc-4vwm",
-  "modified": "2022-05-17T04:02:12Z",
+  "modified": "2025-04-12T12:54:03Z",
   "published": "2022-05-17T04:02:12Z",
   "aliases": [
     "CVE-2015-7774"

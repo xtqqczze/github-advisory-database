@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfhq-m29x-g5ww",
-  "modified": "2022-05-17T03:11:53Z",
+  "modified": "2025-04-12T12:55:15Z",
   "published": "2022-05-17T03:11:53Z",
   "aliases": [
     "CVE-2015-3223"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1290287"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=samba.git%3Ba=commit%3Bh=aa6c27148b9d3f8c1e4fdd5dd46bfecbbd0ca465"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=samba.git%3Ba=commit%3Bh=ec504dbf69636a554add1f3d5703dd6c3ad450b8"
     },
     {
       "type": "WEB",

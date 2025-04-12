@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f2c-6pxj-74jw",
-  "modified": "2022-05-17T03:25:04Z",
+  "modified": "2025-04-12T12:55:28Z",
   "published": "2022-05-17T03:25:04Z",
   "aliases": [
     "CVE-2015-8711"
@@ -30,6 +30,18 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11841"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=23379ae3624df82c170f48e5bb3250a97ec61c13"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=5b4ada17723ed8af7e85cb48d537437ed614e417"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=5bf565690ad9f0771196d8fa237aa37fae3bb7cc"
     },
     {
       "type": "WEB",

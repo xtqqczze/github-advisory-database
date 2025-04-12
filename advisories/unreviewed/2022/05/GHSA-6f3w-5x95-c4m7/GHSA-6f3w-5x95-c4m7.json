@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f3w-5x95-c4m7",
-  "modified": "2022-05-17T03:24:44Z",
+  "modified": "2025-04-12T12:55:29Z",
   "published": "2022-05-17T03:24:44Z",
   "aliases": [
     "CVE-2015-8718"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-8718"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=81dfe6d450ada42d12f20ac26a6d8ae2302df37e"
     },
     {
       "type": "WEB",

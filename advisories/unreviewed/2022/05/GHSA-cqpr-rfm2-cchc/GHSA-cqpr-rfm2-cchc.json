@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqpr-rfm2-cchc",
-  "modified": "2022-05-13T01:29:18Z",
+  "modified": "2025-04-12T12:55:52Z",
   "published": "2022-05-13T01:29:18Z",
   "aliases": [
     "CVE-2016-0778"

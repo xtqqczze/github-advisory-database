@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgwp-hxg7-8j46",
-  "modified": "2022-05-17T01:09:07Z",
+  "modified": "2025-04-12T12:54:42Z",
   "published": "2022-05-17T01:09:07Z",
   "aliases": [
     "CVE-2015-8429"

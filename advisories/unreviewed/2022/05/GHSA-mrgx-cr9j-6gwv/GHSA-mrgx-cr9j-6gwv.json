@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrgx-cr9j-6gwv",
-  "modified": "2022-05-17T03:24:42Z",
+  "modified": "2025-04-12T12:55:30Z",
   "published": "2022-05-17T03:24:42Z",
   "aliases": [
     "CVE-2015-8732"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11830"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=9352616ec9742f2ed3d2802d0c8c100d51ca410b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=eb0c034f6e4cdbf5ae36dd9ba8e2743630b7bd38"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9h3-r69r-j5c4",
-  "modified": "2022-05-14T03:07:50Z",
+  "modified": "2025-04-12T12:55:12Z",
   "published": "2022-05-14T03:07:50Z",
   "aliases": [
     "CVE-2013-7446"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/syzkaller/3twDUI4Cpm8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/syzkaller/3twDUI4Cpm8"
     },
     {
       "type": "WEB",

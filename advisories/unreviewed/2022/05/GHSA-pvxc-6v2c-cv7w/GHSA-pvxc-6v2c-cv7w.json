@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvxc-6v2c-cv7w",
-  "modified": "2022-05-17T02:38:01Z",
+  "modified": "2025-04-12T12:55:26Z",
   "published": "2022-05-17T02:38:01Z",
   "aliases": [
     "CVE-2015-8027"

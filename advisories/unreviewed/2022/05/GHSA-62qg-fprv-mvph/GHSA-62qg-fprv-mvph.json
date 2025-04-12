@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62qg-fprv-mvph",
-  "modified": "2022-05-14T03:12:09Z",
+  "modified": "2025-04-12T12:55:19Z",
   "published": "2022-05-14T03:12:09Z",
   "aliases": [
     "CVE-2015-5996"

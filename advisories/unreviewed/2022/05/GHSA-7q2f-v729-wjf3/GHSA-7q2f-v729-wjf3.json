@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q2f-v729-wjf3",
-  "modified": "2022-05-13T01:12:09Z",
+  "modified": "2025-04-12T12:54:32Z",
   "published": "2022-05-13T01:12:09Z",
   "aliases": [
     "CVE-2015-3195"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-412672.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/?p=openssl.git%3Ba=commit%3Bh=cc598f321fbac9c04da5766243ed55d55948637d"
     },
     {
       "type": "WEB",

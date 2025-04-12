@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7m2w-hp2f-cmqp",
-  "modified": "2022-05-17T03:11:46Z",
+  "modified": "2025-04-12T12:55:17Z",
   "published": "2022-05-17T03:11:46Z",
   "aliases": [
     "CVE-2015-7540"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1288451"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=samba.git%3Ba=commit%3Bh=530d50a1abdcdf4d1775652d4c456c1274d83d8d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=samba.git%3Ba=commit%3Bh=9d989c9dd7a5b92d0c5d65287935471b83b6e884"
     },
     {
       "type": "WEB",

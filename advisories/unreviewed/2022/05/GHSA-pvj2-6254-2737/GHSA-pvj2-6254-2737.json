@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvj2-6254-2737",
-  "modified": "2022-05-13T01:29:14Z",
+  "modified": "2025-04-12T12:56:22Z",
   "published": "2022-05-13T01:29:14Z",
   "aliases": [
     "CVE-2016-0608"

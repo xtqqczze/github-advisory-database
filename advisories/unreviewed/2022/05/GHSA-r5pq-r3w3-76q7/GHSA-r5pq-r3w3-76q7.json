@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r5pq-r3w3-76q7",
-  "modified": "2022-05-17T03:11:50Z",
+  "modified": "2025-04-12T12:55:18Z",
   "published": "2022-05-17T03:11:50Z",
   "aliases": [
     "CVE-2015-5330"
@@ -22,6 +22,30 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1281326"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=samba.git%3Ba=commit%3Bh=0454b95657846fcecf0f51b6f1194faac02518bd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=samba.git%3Ba=commit%3Bh=538d305de91e34a2938f5f219f18bf0e1918763f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=samba.git%3Ba=commit%3Bh=7f51ec8c4ed9ba1f53d722e44fb6fb3cde933b72"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=samba.git%3Ba=commit%3Bh=a118d4220ed85749c07fb43c1229d9e2fecbea6b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=samba.git%3Ba=commit%3Bh=ba5dbda6d0174a59d221c45cca52ecd232820d48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=samba.git%3Ba=commit%3Bh=f36cb71c330a52106e36028b3029d952257baf15"
     },
     {
       "type": "WEB",

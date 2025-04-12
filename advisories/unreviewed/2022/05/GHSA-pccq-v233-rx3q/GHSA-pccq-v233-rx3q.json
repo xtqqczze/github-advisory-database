@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pccq-v233-rx3q",
-  "modified": "2022-05-14T02:47:06Z",
+  "modified": "2025-04-12T12:55:05Z",
   "published": "2022-05-14T02:47:06Z",
   "aliases": [
     "CVE-2015-8562"
