@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qcw-937q-52w8",
-  "modified": "2022-05-13T01:25:04Z",
+  "modified": "2025-04-12T12:31:01Z",
   "published": "2022-05-13T01:25:04Z",
   "aliases": [
     "CVE-2012-6636"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "http://developer.android.com/reference/android/os/Build.VERSION_CODES.html#JELLY_BEAN_MR1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://developer.android.com/reference/android/webkit/WebView.html#addJavascriptInterface%28java.lang.Object%2C%20java.lang.String%29"
     },
     {
       "type": "WEB",

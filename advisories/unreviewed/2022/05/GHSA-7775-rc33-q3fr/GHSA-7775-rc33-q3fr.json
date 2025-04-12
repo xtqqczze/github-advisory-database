@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7775-rc33-q3fr",
-  "modified": "2022-05-17T04:10:09Z",
+  "modified": "2025-04-12T12:31:16Z",
   "published": "2022-05-17T04:10:09Z",
   "aliases": [
     "CVE-2014-2283"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=9802"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=217293ba4a0353bf5d657e74fe8623dd3c86fe08"
     },
     {
       "type": "WEB",

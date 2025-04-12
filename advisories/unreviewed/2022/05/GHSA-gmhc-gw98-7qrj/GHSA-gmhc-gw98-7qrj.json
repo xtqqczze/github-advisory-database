@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmhc-gw98-7qrj",
-  "modified": "2022-05-17T04:51:24Z",
+  "modified": "2025-04-12T12:31:01Z",
   "published": "2022-05-17T04:51:24Z",
   "aliases": [
     "CVE-2012-6637"

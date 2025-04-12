@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q5j7-qx45-7g2c",
-  "modified": "2022-05-14T04:01:59Z",
+  "modified": "2025-04-12T12:31:05Z",
   "published": "2022-05-14T04:01:59Z",
   "aliases": [
     "CVE-2014-2013"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.ghostscript.com/show_bug.cgi?id=694957"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=mupdf.git%3Ba=commitdiff%3Bh=60dabde18d7fe12b19da8b509bdfee9cc886aafc"
     },
     {
       "type": "WEB",

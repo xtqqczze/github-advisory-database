@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xvhv-fm6p-g8q4",
-  "modified": "2022-05-17T03:57:42Z",
+  "modified": "2025-04-12T12:31:00Z",
   "published": "2022-05-17T03:57:42Z",
   "aliases": [
     "CVE-2014-2242"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.wikimedia.org/show_bug.cgi?id=60771"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gerrit.wikimedia.org/r/#/q/7d923a6b53f7fbcb0cbc3a19797d741bf6f440eb%2Cn%2Cz"
     },
     {
       "type": "WEB",
