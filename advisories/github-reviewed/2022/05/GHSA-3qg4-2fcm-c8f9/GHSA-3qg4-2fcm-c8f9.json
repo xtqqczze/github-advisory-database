@@ -1,18 +1,48 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qg4-2fcm-c8f9",
-  "modified": "2025-04-11T03:59:16Z",
+  "modified": "2025-04-12T02:34:33Z",
   "published": "2022-05-13T01:13:18Z",
   "aliases": [
     "CVE-2011-4289"
   ],
+  "summary": "Moodle does not recogniz configuration setting that makes e-mail addresses visible only to course members",
   "details": "Moodle 2.0.x before 2.0.3 does not recognize the configuration setting that makes e-mail addresses visible only to course members, which allows remote authenticated users to obtain sensitive address information by reading a full profile page.",
-  "severity": [],
-  "affected": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:U"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "moodle/moodle"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0"
+            },
+            {
+              "fixed": "2.0.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-4289"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "http://git.moodle.org"
     },
     {
       "type": "WEB",
@@ -32,10 +62,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-200"
+    ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-12T02:34:33Z",
     "nvd_published_at": "2012-07-16T10:28:00Z"
   }
 }
