@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmr5-x9pv-7xf7",
-  "modified": "2022-05-14T02:06:48Z",
+  "modified": "2025-04-12T12:45:52Z",
   "published": "2022-05-14T02:06:48Z",
   "aliases": [
     "CVE-2015-2187"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=9952"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=1a3dd349233a4ee3e69295c8e79f9a216027037e"
     },
     {
       "type": "WEB",

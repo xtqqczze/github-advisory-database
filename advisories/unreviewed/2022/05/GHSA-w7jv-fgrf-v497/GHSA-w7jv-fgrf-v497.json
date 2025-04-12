@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7jv-fgrf-v497",
-  "modified": "2022-05-14T02:13:58Z",
+  "modified": "2025-04-12T12:46:06Z",
   "published": "2022-05-14T02:13:58Z",
   "aliases": [
     "CVE-2015-2150"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/bugtraq/2019/Aug/18"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=af6fc858a35b90e89ea7a7ee58e66628c55c776b"
     },
     {
       "type": "WEB",

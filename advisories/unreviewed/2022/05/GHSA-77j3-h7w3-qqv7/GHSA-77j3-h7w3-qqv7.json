@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77j3-h7w3-qqv7",
-  "modified": "2022-05-17T03:11:52Z",
+  "modified": "2025-04-12T12:48:15Z",
   "published": "2022-05-17T03:11:52Z",
   "aliases": [
     "CVE-2015-3921"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3921"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.coppermine-gallery.net/index.php/topic%2C78194.0.html"
     },
     {
       "type": "WEB",

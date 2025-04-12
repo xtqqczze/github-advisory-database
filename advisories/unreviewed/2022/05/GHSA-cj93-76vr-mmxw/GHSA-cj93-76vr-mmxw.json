@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj93-76vr-mmxw",
-  "modified": "2022-05-17T04:14:50Z",
+  "modified": "2025-04-12T12:46:13Z",
   "published": "2022-05-17T04:14:50Z",
   "aliases": [
     "CVE-2015-2293"

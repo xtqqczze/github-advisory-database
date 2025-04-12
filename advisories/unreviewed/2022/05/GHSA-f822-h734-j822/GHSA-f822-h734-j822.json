@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f822-h734-j822",
-  "modified": "2022-05-13T01:05:10Z",
+  "modified": "2025-04-12T12:47:55Z",
   "published": "2022-05-13T01:05:10Z",
   "aliases": [
     "CVE-2015-3456"
@@ -61,6 +61,10 @@
     {
       "type": "WEB",
       "url": "https://www.suse.com/security/cve/CVE-2015-3456.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.qemu.org/?p=qemu.git%3Ba=commitdiff%3Bh=e907746266721f305d67bc0718795fedee2e824c"
     },
     {
       "type": "WEB",

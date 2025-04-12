@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xw24-98q7-5jvx",
-  "modified": "2022-05-14T03:07:29Z",
+  "modified": "2025-04-12T12:48:18Z",
   "published": "2022-05-14T03:07:29Z",
   "aliases": [
     "CVE-2014-9727"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/-Honeypot-Alert--Fritz!Box-%E2%80%93-Remote-Command-Execution-Exploit-Attempt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/-Honeypot-Alert--Fritz%21Box-%E2%80%93-Remote-Command-Execution-Exploit-Attempt"
     },
     {
       "type": "WEB",

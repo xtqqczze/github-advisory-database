@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jp68-rg97-wr3j",
-  "modified": "2022-05-17T03:11:51Z",
+  "modified": "2025-04-12T12:48:15Z",
   "published": "2022-05-17T03:11:51Z",
   "aliases": [
     "CVE-2015-3922"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3922"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forum.coppermine-gallery.net/index.php/topic%2C78194.0.html"
     },
     {
       "type": "WEB",

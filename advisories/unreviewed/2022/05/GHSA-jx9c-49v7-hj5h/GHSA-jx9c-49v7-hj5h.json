@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx9c-49v7-hj5h",
-  "modified": "2022-05-17T03:44:58Z",
+  "modified": "2025-04-12T12:46:49Z",
   "published": "2022-05-17T03:44:58Z",
   "aliases": [
     "CVE-2015-1473"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-1473"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=glibc.git%3Ba=commit%3Bh=5bd80bfe9ca0d955bfbbc002781bc7b01b6bcb06"
     },
     {
       "type": "WEB",

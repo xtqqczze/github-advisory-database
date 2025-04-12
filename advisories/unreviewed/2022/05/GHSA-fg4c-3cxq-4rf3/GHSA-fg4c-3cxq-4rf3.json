@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg4c-3cxq-4rf3",
-  "modified": "2022-05-14T02:06:51Z",
+  "modified": "2025-04-12T12:46:11Z",
   "published": "2022-05-14T02:06:51Z",
   "aliases": [
     "CVE-2015-2304"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!msg/libarchive-discuss/dN9y1VvE1Qk/Z9uerigjQn0J"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21msg/libarchive-discuss/dN9y1VvE1Qk/Z9uerigjQn0J"
     },
     {
       "type": "WEB",

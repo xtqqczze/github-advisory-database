@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fm2p-cqm2-45gv",
-  "modified": "2022-05-14T02:49:20Z",
+  "modified": "2025-04-12T12:46:07Z",
   "published": "2022-05-14T02:49:20Z",
   "aliases": [
     "CVE-2015-2237"

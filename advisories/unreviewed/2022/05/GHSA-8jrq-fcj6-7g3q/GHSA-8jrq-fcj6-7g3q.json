@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jrq-fcj6-7g3q",
-  "modified": "2022-05-14T03:07:28Z",
+  "modified": "2025-04-12T12:48:35Z",
   "published": "2022-05-14T03:07:28Z",
   "aliases": [
     "CVE-2015-4335"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!msg/redis-db/4Y6OqK8gEyk/Dg-5cejl-eUJ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21msg/redis-db/4Y6OqK8gEyk/Dg-5cejl-eUJ"
     },
     {
       "type": "WEB",

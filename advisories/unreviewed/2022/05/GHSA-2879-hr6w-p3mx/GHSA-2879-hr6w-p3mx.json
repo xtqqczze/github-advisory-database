@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2879-hr6w-p3mx",
-  "modified": "2022-05-13T01:29:08Z",
+  "modified": "2025-04-12T12:48:36Z",
   "published": "2022-05-13T01:29:08Z",
   "aliases": [
     "CVE-2015-3330"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/kb/HT205031"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=809610f5ea38a83b284e1125d1fff129bdd615e7"
     },
     {
       "type": "WEB",

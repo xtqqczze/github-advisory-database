@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g48x-6c94-mxpc",
-  "modified": "2022-05-14T02:48:47Z",
+  "modified": "2025-04-12T12:48:34Z",
   "published": "2022-05-14T02:48:47Z",
   "aliases": [
     "CVE-2015-3624"

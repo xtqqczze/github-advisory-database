@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg4c-258g-x2wr",
-  "modified": "2022-05-14T02:48:33Z",
+  "modified": "2025-04-12T12:48:16Z",
   "published": "2022-05-14T02:48:33Z",
   "aliases": [
     "CVE-2015-4084"

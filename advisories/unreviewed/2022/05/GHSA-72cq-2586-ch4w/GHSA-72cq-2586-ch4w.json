@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-72cq-2586-ch4w",
-  "modified": "2022-05-14T03:59:13Z",
+  "modified": "2025-04-12T12:46:59Z",
   "published": "2022-05-14T03:59:13Z",
   "aliases": [
     "CVE-2015-2806"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201509-04"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.savannah.gnu.org/gitweb/?p=libtasn1.git%3Ba=commit%3Bh=4d4f992826a4962790ecd0cce6fbba4a415ce149"
     },
     {
       "type": "WEB",

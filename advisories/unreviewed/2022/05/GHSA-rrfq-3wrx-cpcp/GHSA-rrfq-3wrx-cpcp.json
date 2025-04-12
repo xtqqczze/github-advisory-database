@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrfq-3wrx-cpcp",
-  "modified": "2022-05-14T02:48:50Z",
+  "modified": "2025-04-12T12:47:58Z",
   "published": "2022-05-14T02:48:50Z",
   "aliases": [
     "CVE-2015-3300"
