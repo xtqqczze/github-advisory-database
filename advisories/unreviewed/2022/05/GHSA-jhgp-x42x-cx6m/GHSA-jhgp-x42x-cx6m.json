@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jhgp-x42x-cx6m",
-  "modified": "2022-05-17T00:51:52Z",
+  "modified": "2025-04-12T13:06:46Z",
   "published": "2022-05-17T00:51:52Z",
   "aliases": [
     "CVE-2015-1328"

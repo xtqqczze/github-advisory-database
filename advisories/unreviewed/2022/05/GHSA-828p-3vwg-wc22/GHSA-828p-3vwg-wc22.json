@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-828p-3vwg-wc22",
-  "modified": "2022-05-14T02:45:53Z",
+  "modified": "2025-04-12T13:07:30Z",
   "published": "2022-05-14T02:45:53Z",
   "aliases": [
     "CVE-2016-9565"

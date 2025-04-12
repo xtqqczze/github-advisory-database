@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f295-mfq3-hmq6",
-  "modified": "2022-05-17T03:21:19Z",
+  "modified": "2025-04-12T13:07:14Z",
   "published": "2022-05-17T03:21:19Z",
   "aliases": [
     "CVE-2016-5687"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-5687"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.fuzzing-project.org/46-Various-invalid-memory-reads-in-ImageMagick-WPG%2C-DDS%2C-DCM.html"
     },
     {
       "type": "WEB",

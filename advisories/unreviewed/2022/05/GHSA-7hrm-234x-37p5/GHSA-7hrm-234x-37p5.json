@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hrm-234x-37p5",
-  "modified": "2022-05-17T00:27:21Z",
+  "modified": "2025-04-12T13:07:55Z",
   "published": "2022-05-17T00:27:21Z",
   "aliases": [
     "CVE-2016-8670"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.php.net/bug.php?id=73280"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.f5.com/csp/article/K21336065?utm_source=f5support&amp%3Butm_medium=RSS"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwhm-4g62-g8f6",
-  "modified": "2022-05-17T02:37:29Z",
+  "modified": "2025-04-12T13:07:16Z",
   "published": "2022-05-17T02:37:29Z",
   "aliases": [
     "CVE-2016-5407"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://cgit.freedesktop.org/xorg/lib/libXv/commit/?id=d9da580b46a28ab497de2e94fdc7b9ff953dab17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3IA7BLB4C3JOYVU6UASGUJQJKUF6TO7E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/AE2VJOFA3EZA566RERQB54TFY56FROZR"
     },
     {
       "type": "WEB",

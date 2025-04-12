@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7xf-885g-gx3g",
-  "modified": "2022-05-17T02:37:03Z",
+  "modified": "2025-04-12T13:07:18Z",
   "published": "2022-05-17T02:37:03Z",
   "aliases": [
     "CVE-2016-7944"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://cgit.freedesktop.org/xorg/lib/libXfixes/commit/?id=61c1039ee23a2d1de712843bed3480654d7ef42e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4CE6VJWBMOWLSCH4OP4TAEPIA7NP53ON"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GE43MDCRGS4R7MRRZNVSLREHRLU5OHCV"
     },
     {
       "type": "WEB",
@@ -57,7 +65,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-190"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

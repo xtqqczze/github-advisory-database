@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv39-8gm8-9qg3",
-  "modified": "2022-05-13T01:27:11Z",
+  "modified": "2025-04-12T13:06:28Z",
   "published": "2022-05-13T01:27:11Z",
   "aliases": [
     "CVE-2016-9294"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.ghostscript.com/show_bug.cgi?id=697172"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=mujs.git%3Ba=commit%3Bh=5008105780c0b0182ea6eda83ad5598f225be3ee"
     },
     {
       "type": "WEB",

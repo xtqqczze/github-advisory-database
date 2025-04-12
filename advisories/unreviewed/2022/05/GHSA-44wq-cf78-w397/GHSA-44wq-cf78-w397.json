@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44wq-cf78-w397",
-  "modified": "2022-05-14T03:56:16Z",
+  "modified": "2025-04-12T13:07:16Z",
   "published": "2022-05-14T03:56:16Z",
   "aliases": [
     "CVE-2016-6313"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6313"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.gnupg.org/cgi-bin/gitweb.cgi?p=libgcrypt.git%3Ba=blob_plain%3Bf=NEWS"
     },
     {
       "type": "WEB",

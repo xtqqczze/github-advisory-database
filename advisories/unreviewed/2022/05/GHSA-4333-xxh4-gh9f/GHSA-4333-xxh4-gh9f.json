@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4333-xxh4-gh9f",
-  "modified": "2022-05-13T01:04:38Z",
+  "modified": "2025-04-12T13:06:51Z",
   "published": "2022-05-13T01:04:38Z",
   "aliases": [
     "CVE-2016-1247"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://legalhackers.com/advisories/Nginx-Exploit-Deb-Root-PrivEsc-CVE-2016-1247.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CBIZEKHBOCKO7FUMCO4X53ENMWU5OYFX"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ESTIADC7BDB6VTH4JAP6C6OCW2CQ4NHP"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P3WOO7E5R2HT5XVOIOFPEFALILVOWZUF"
     },
     {
       "type": "WEB",

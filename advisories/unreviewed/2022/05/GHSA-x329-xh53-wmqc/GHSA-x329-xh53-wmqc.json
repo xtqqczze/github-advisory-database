@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x329-xh53-wmqc",
-  "modified": "2022-05-14T03:07:25Z",
+  "modified": "2025-04-12T13:06:51Z",
   "published": "2022-05-14T03:07:25Z",
   "aliases": [
     "CVE-2016-9555"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/syzkaller/pAUcHsUJbjk"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/syzkaller/pAUcHsUJbjk"
     },
     {
       "type": "WEB",

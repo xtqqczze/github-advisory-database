@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4hj-3rpq-j2ch",
-  "modified": "2022-05-17T03:47:31Z",
+  "modified": "2025-04-12T13:06:15Z",
   "published": "2022-05-17T03:47:31Z",
   "aliases": [
     "CVE-2016-8869"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://developer.joomla.org/security-centre/660-20161002-core-elevated-privileges.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40showthread/joomla-3-6-4-account-creation-elevated-privileges-write-up-and-exploit-965d8fb46fa2#.rq4qh1v4r"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62c7-f6mx-fmm8",
-  "modified": "2022-05-17T00:18:39Z",
+  "modified": "2025-04-12T13:07:19Z",
   "published": "2022-05-17T00:18:39Z",
   "aliases": [
     "CVE-2016-2334"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-2334"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/DNYIQAU3FKFBNFPK6GKYTSVRHQA7PTYT"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/DTGWICT3KYYDPDXRNO5SXD32GZICGRIR"
     },
     {
       "type": "WEB",

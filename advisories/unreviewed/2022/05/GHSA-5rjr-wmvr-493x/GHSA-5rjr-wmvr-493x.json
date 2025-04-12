@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rjr-wmvr-493x",
-  "modified": "2022-05-14T03:00:08Z",
+  "modified": "2025-04-12T13:07:58Z",
   "published": "2022-05-14T03:00:08Z",
   "aliases": [
     "CVE-2016-10009"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx2m-r4vc-jvvr",
-  "modified": "2022-05-14T02:22:21Z",
+  "modified": "2025-04-12T13:06:22Z",
   "published": "2022-05-14T02:22:21Z",
   "aliases": [
     "CVE-2016-7216"
@@ -37,7 +37,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-200"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

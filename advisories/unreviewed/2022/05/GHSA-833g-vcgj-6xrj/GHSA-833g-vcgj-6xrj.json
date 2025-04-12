@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-833g-vcgj-6xrj",
-  "modified": "2022-05-17T03:15:15Z",
+  "modified": "2025-04-12T13:07:43Z",
   "published": "2022-05-17T03:15:15Z",
   "aliases": [
     "CVE-2016-7966"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-7966"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QNMM5TVPTJQFPJ3YDF4DPXDFW3GQLWLY"
     },
     {
       "type": "WEB",

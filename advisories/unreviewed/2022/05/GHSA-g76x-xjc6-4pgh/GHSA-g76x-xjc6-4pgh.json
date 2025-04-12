@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g76x-xjc6-4pgh",
-  "modified": "2022-05-14T01:28:47Z",
+  "modified": "2025-04-12T13:07:19Z",
   "published": "2022-05-14T01:28:47Z",
   "aliases": [
     "CVE-2016-6663"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4jf-rwp2-rx83",
-  "modified": "2022-05-14T03:00:08Z",
+  "modified": "2025-04-12T13:07:59Z",
   "published": "2022-05-14T03:00:08Z",
   "aliases": [
     "CVE-2016-10012"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20171130-0002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.f5.com/csp/article/K62201745?utm_source=f5support&amp%3Butm_medium=RSS"
     },
     {
       "type": "WEB",

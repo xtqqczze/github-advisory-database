@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xq4-jfqg-x25m",
-  "modified": "2022-05-13T01:07:00Z",
+  "modified": "2025-04-12T13:07:53Z",
   "published": "2022-05-13T01:07:00Z",
   "aliases": [
     "CVE-2016-10081"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/shutter/+bug/1652600"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4QG54GTU45KBIQJLU4WREG4G4JJEUTEJ"
     },
     {
       "type": "WEB",

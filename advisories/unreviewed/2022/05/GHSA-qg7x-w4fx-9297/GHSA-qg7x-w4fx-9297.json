@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qg7x-w4fx-9297",
-  "modified": "2022-05-13T01:14:36Z",
+  "modified": "2025-04-12T13:07:01Z",
   "published": "2022-05-13T01:14:36Z",
   "aliases": [
     "CVE-2016-7157"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201609-01"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.qemu.org/?p=qemu.git%3Ba=commit%3Bh=65a8e1f6413a0f6f79894da710b5d6d43361d27d"
     },
     {
       "type": "WEB",

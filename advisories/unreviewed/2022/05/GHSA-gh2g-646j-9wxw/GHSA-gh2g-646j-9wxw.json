@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh2g-646j-9wxw",
-  "modified": "2022-05-14T03:07:24Z",
+  "modified": "2025-04-12T13:07:48Z",
   "published": "2022-05-14T03:07:24Z",
   "aliases": [
     "CVE-2016-9755"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/syzkaller/GFbGpX7nTEo"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/syzkaller/GFbGpX7nTEo"
     },
     {
       "type": "WEB",
