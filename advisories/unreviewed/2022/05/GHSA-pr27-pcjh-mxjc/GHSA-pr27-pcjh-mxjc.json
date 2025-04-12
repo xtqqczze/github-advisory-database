@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pr27-pcjh-mxjc",
-  "modified": "2022-05-17T01:39:01Z",
+  "modified": "2025-04-12T12:40:51Z",
   "published": "2022-05-17T01:39:01Z",
   "aliases": [
     "CVE-2012-5701"
@@ -41,7 +41,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-352"
+      "CWE-352",
+      "CWE-89"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

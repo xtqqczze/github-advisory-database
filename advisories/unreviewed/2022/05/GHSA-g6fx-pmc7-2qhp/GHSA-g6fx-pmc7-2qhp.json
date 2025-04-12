@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g6fx-pmc7-2qhp",
-  "modified": "2022-05-17T02:39:19Z",
+  "modified": "2025-04-12T12:42:34Z",
   "published": "2022-05-17T02:39:19Z",
   "aliases": [
     "CVE-2012-6656"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=14134"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/?p=glibc.git%3Ba=commit%3Bh=6e230d11837f3ae7b375ea69d7905f0d18eb79e5"
     },
     {
       "type": "WEB",

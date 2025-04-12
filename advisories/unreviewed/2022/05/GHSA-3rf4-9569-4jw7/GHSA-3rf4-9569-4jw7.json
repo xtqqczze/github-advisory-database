@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rf4-9569-4jw7",
-  "modified": "2022-05-14T03:59:54Z",
+  "modified": "2025-04-12T12:41:36Z",
   "published": "2022-05-14T03:59:54Z",
   "aliases": [
     "CVE-2014-3710"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-14:28.file.asc"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=1803228597e82218a8c105e67975bc50e6f5bf0d"
     },
     {
       "type": "WEB",

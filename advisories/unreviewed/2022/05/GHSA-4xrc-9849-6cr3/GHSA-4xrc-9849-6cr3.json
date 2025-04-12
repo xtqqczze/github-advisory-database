@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xrc-9849-6cr3",
-  "modified": "2022-05-17T02:38:59Z",
+  "modified": "2025-04-12T12:42:43Z",
   "published": "2022-05-17T02:38:59Z",
   "aliases": [
     "CVE-2014-8484"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=17509"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/?p=binutils-gdb.git%3Ba=commit%3Bh=bd25671c6f202c4a5108883caa2adb24ff6f361f"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmcw-mq2c-wp27",
-  "modified": "2022-05-17T03:57:47Z",
+  "modified": "2025-04-12T12:41:52Z",
   "published": "2022-05-17T03:57:47Z",
   "aliases": [
     "CVE-2014-1635"

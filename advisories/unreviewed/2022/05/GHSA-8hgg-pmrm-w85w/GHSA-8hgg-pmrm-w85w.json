@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8hgg-pmrm-w85w",
-  "modified": "2022-05-17T03:46:37Z",
+  "modified": "2025-04-12T12:42:26Z",
   "published": "2022-05-17T03:46:37Z",
   "aliases": [
     "CVE-2010-5313"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1163762"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=fc3a9157d3148ab91039c75423da8ef97be3e105"
     },
     {
       "type": "WEB",

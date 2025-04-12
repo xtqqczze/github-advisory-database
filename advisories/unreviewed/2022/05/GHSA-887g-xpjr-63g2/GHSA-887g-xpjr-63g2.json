@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-887g-xpjr-63g2",
-  "modified": "2022-05-14T00:59:30Z",
+  "modified": "2025-04-12T12:42:19Z",
   "published": "2022-05-14T00:59:30Z",
   "aliases": [
     "CVE-2014-9094"

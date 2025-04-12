@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjr8-mfv3-96c3",
-  "modified": "2022-05-17T03:34:39Z",
+  "modified": "2025-04-12T12:41:37Z",
   "published": "2022-05-17T03:34:39Z",
   "aliases": [
     "CVE-2014-8546"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201603-06"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=e7e5114c506957f40aafd794e06de1a7e341e9d5"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v966-mf9p-984g",
-  "modified": "2022-05-17T03:46:06Z",
+  "modified": "2025-04-12T12:42:34Z",
   "published": "2022-05-17T03:46:06Z",
   "aliases": [
     "CVE-2014-4703"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x2f-7ggw-rc86",
-  "modified": "2022-05-14T02:50:22Z",
+  "modified": "2025-04-12T12:42:20Z",
   "published": "2022-05-14T02:50:22Z",
   "aliases": [
     "CVE-2014-9028"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-9028"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.xiph.org/?p=flac.git%3Ba=commit%3Bh=fcf0ba06ae12ccd7c67cee3c8d948df15f946b85"
     },
     {
       "type": "WEB",

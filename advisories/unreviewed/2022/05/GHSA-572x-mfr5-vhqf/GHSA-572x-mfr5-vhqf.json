@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-572x-mfr5-vhqf",
-  "modified": "2022-05-17T04:20:25Z",
+  "modified": "2025-04-12T12:42:35Z",
   "published": "2022-05-17T04:20:25Z",
   "aliases": [
     "CVE-2014-9292"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vr74-whc2-5mvm",
-  "modified": "2022-05-14T03:05:21Z",
+  "modified": "2025-04-12T12:42:39Z",
   "published": "2022-05-14T03:05:21Z",
   "aliases": [
     "CVE-2014-5462"

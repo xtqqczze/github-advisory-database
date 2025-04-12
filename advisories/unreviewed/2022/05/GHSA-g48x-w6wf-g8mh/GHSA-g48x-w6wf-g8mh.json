@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g48x-w6wf-g8mh",
-  "modified": "2022-05-14T02:53:07Z",
+  "modified": "2025-04-12T12:41:10Z",
   "published": "2022-05-14T02:53:07Z",
   "aliases": [
     "CVE-2014-2531"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://forums.interworx.com/threads/8000-InterWorx-Version-5-0-14-Released-on-Beta-Channel!"
+    },
+    {
+      "type": "WEB",
+      "url": "http://forums.interworx.com/threads/8000-InterWorx-Version-5-0-14-Released-on-Beta-Channel%21"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv3f-rvh8-r59c",
-  "modified": "2022-05-17T03:47:53Z",
+  "modified": "2025-04-12T12:41:19Z",
   "published": "2022-05-17T03:47:53Z",
   "aliases": [
     "CVE-2014-3668"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT204659"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=88412772d295ebf7dd34409534507dc9bcac726e"
     },
     {
       "type": "WEB",

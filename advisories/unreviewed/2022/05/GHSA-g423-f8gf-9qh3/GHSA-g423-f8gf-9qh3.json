@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g423-f8gf-9qh3",
-  "modified": "2022-05-13T01:23:53Z",
+  "modified": "2025-04-12T12:41:26Z",
   "published": "2022-05-13T01:23:53Z",
   "aliases": [
     "CVE-2014-3615"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1139115"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.qemu.org/?p=qemu.git%3Ba=commit%3Bh=ab9509cceabef28071e41bdfa073083859c949a7"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.qemu.org/?p=qemu.git%3Ba=commitdiff%3Bh=c1b886c45dc70f247300f549dce9833f3fa2def5"
     },
     {
       "type": "WEB",
