@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcv5-8q8x-qqfx",
-  "modified": "2022-05-17T03:49:37Z",
+  "modified": "2025-04-12T12:38:47Z",
   "published": "2022-05-17T03:49:37Z",
   "aliases": [
     "CVE-2014-7145"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/torvalds/linux/commit/18f39e7be0121317550d03e267e3ebd4dbfbb3ce"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=18f39e7be0121317550d03e267e3ebd4dbfbb3ce"
     },
     {
       "type": "WEB",

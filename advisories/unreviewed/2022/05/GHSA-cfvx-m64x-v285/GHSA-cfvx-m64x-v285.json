@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfvx-m64x-v285",
-  "modified": "2022-05-17T04:30:15Z",
+  "modified": "2025-04-12T12:38:23Z",
   "published": "2022-05-17T04:30:15Z",
   "aliases": [
     "CVE-2014-6423"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10333"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=9112a099d7cc2cd924b7c667bf27f6e112b970c6"
     },
     {
       "type": "WEB",

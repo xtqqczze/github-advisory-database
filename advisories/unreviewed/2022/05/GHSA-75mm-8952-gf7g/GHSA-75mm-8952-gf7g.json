@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75mm-8952-gf7g",
-  "modified": "2022-05-17T04:30:15Z",
+  "modified": "2025-04-12T12:38:22Z",
   "published": "2022-05-17T04:30:15Z",
   "aliases": [
     "CVE-2014-6425"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=10353"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=c10396dbbf782a576bc1f9a931cf86090cec3878"
     },
     {
       "type": "WEB",

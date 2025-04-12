@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qj7-m33h-cgx5",
-  "modified": "2022-05-17T04:34:57Z",
+  "modified": "2025-04-12T12:38:17Z",
   "published": "2022-05-17T04:34:57Z",
   "aliases": [
     "CVE-2012-6659"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/50445"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.phorum.org/phorum5/read.php?64%2C151943"
     },
     {
       "type": "WEB",

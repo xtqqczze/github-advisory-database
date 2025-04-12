@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99cq-pmj3-v2hx",
-  "modified": "2022-05-17T01:48:14Z",
+  "modified": "2025-04-12T12:38:04Z",
   "published": "2022-05-17T01:48:14Z",
   "aliases": [
     "CVE-2012-1507"

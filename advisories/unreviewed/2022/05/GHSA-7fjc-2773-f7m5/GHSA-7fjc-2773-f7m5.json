@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fjc-2773-f7m5",
-  "modified": "2022-05-14T00:58:27Z",
+  "modified": "2025-04-12T12:39:18Z",
   "published": "2022-05-14T00:58:27Z",
   "aliases": [
     "CVE-2014-4043"
@@ -37,6 +37,18 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=17048"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=glibc.git%3Ba=blobdiff%3Bf=ChangeLog%3Bh=3020b9ac232315df362521aeaf85f21cb9926db8%3Bhp=d86e73963dd9fb5e21b1a28326630337226812aa%3Bhb=89e435f3559c53084498e9baad22172b64429362%3Bhpb=c3a2ebe1f7541cc35937621e08c28ff88afd0845"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=glibc.git%3Ba=blobdiff%3Bf=posix/spawn_faction_addopen.c%3Bh=40800b8e6e81341501c0fb8a91009529e2048dec%3Bhp=47f62425b696a4fdd511b2a057746322eb6518db%3Bhb=89e435f3559c53084498e9baad22172b64429362%3Bhpb=c3a2ebe1f7541cc35937621e08c28ff88afd0845"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=glibc.git%3Bh=89e435f3559c53084498e9baad22172b64429362"
     },
     {
       "type": "WEB",

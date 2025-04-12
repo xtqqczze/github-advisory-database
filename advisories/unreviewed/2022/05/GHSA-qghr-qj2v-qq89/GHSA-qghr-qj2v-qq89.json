@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qghr-qj2v-qq89",
-  "modified": "2022-05-17T04:31:07Z",
+  "modified": "2025-04-12T12:39:35Z",
   "published": "2022-05-17T04:31:07Z",
   "aliases": [
     "CVE-2014-7284"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://web.archive.org/web/20141002163852/http://secondlookforensics.com/ngro-linux-kernel-bug"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=3d4405226d27b3a215e4d03cfa51f536244e5de7"
     },
     {
       "type": "WEB",

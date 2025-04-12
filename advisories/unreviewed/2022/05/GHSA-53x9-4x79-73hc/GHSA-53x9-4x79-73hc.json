@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53x9-4x79-73hc",
-  "modified": "2022-05-17T01:36:25Z",
+  "modified": "2025-04-12T12:38:52Z",
   "published": "2022-05-17T01:36:25Z",
   "aliases": [
     "CVE-2013-1874"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/85065"
+    },
+    {
+      "type": "WEB",
+      "url": "http://code.call-cc.org/cgi-bin/gitweb.cgi?p=chicken-core.git%3Ba=blob%3Bf=NEWS%3Bh=c21c7cf9d1faf4f78736890ac7ca1d4b82d72ddd%3Bhb=c6750af99ada7fa4815ee834e4e705bcfac9c137"
     },
     {
       "type": "WEB",
