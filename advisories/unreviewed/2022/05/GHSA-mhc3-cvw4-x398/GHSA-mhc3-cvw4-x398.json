@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhc3-cvw4-x398",
-  "modified": "2022-05-13T01:29:15Z",
+  "modified": "2025-04-12T12:58:53Z",
   "published": "2022-05-13T01:29:15Z",
   "aliases": [
     "CVE-2016-0640"

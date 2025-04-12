@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8w8c-fgc5-6f3r",
-  "modified": "2022-05-14T03:07:25Z",
+  "modified": "2025-04-12T13:00:26Z",
   "published": "2022-05-14T03:07:25Z",
   "aliases": [
     "CVE-2016-3958"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/golang-announce/9eqIHqaWvck"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/golang-announce/9eqIHqaWvck"
     },
     {
       "type": "WEB",

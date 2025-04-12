@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73wj-87qj-vf4x",
-  "modified": "2022-05-14T02:11:49Z",
+  "modified": "2025-04-12T12:58:49Z",
   "published": "2022-05-14T02:11:49Z",
   "aliases": [
     "CVE-2015-5479"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blogs.gentoo.org/ago/2015/07/16/libav-divide-by-zero-in-ff_h263_decode_mba"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.libav.org/?p=libav.git%3Ba=commitdiff%3Bh=0a49a62f998747cfa564d98d36a459fe70d3299b"
     },
     {
       "type": "WEB",

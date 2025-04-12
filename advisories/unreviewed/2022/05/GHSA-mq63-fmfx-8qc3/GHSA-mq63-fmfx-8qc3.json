@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq63-fmfx-8qc3",
-  "modified": "2022-05-14T03:13:01Z",
+  "modified": "2025-04-12T12:59:29Z",
   "published": "2022-05-14T03:13:01Z",
   "aliases": [
     "CVE-2016-2109"
@@ -74,6 +74,10 @@
     {
       "type": "WEB",
       "url": "https://git.openssl.org/?p=openssl.git;a=commit;h=c62981390d6cf9e3d612c489b8b77c2913b25807"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/?p=openssl.git%3Ba=commit%3Bh=c62981390d6cf9e3d612c489b8b77c2913b25807"
     },
     {
       "type": "WEB",

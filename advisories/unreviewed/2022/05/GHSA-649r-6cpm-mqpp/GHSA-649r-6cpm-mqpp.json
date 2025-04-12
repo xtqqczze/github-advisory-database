@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-649r-6cpm-mqpp",
-  "modified": "2022-05-14T02:12:14Z",
+  "modified": "2025-04-12T13:00:21Z",
   "published": "2022-05-14T02:12:14Z",
   "aliases": [
     "CVE-2016-4539"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.php.net/bug.php?id=72099"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.php.net/?p=php-src.git%3Ba=commit%3Bh=dccda88f27a084bcbbb30198ace12b4e7ae961cc"
     },
     {
       "type": "WEB",

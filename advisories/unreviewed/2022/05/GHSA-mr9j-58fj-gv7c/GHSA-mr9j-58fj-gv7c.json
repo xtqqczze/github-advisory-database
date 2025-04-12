@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr9j-58fj-gv7c",
-  "modified": "2022-05-14T02:08:56Z",
+  "modified": "2025-04-12T12:59:30Z",
   "published": "2022-05-14T02:08:56Z",
   "aliases": [
     "CVE-2016-4008"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201703-05"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.savannah.gnu.org/gitweb/?p=libtasn1.git%3Ba=commit%3Bh=a6e0a0b58f5cdaf4e9beca5bce69c09808cbb625"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.savannah.gnu.org/gitweb/?p=libtasn1.git%3Ba=commit%3Bh=f435825c0f527a8e52e6ffbc3ad0bc60531d537e"
     },
     {
       "type": "WEB",

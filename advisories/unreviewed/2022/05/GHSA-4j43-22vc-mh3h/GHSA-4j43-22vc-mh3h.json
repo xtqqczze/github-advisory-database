@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j43-22vc-mh3h",
-  "modified": "2022-05-13T01:14:25Z",
+  "modified": "2025-04-12T12:59:29Z",
   "published": "2022-05-13T01:14:25Z",
   "aliases": [
     "CVE-2016-2167"
@@ -41,7 +41,15 @@
     },
     {
       "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/subversion-announce/201604.mbox/%3CCAP_GPNgJet+7_MAhomFVOXPgLtewcUw9w=k9zdPCkq5tvPxVMA%40mail.gmail.com%3E"
+    },
+    {
+      "type": "WEB",
       "url": "http://mail-archives.apache.org/mod_mbox/subversion-announce/201604.mbox/%3CCAP_GPNgJet+7_MAhomFVOXPgLtewcUw9w=k9zdPCkq5tvPxVMA@mail.gmail.com%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/subversion-announce/201604.mbox/%3CCAP_GPNgfn1iKueW51EpmXzXi_URNfGNofZSgOyW1_jnSeNm5DQ%40mail.gmail.com%3E"
     },
     {
       "type": "WEB",

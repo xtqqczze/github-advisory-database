@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj35-69m2-vfwm",
-  "modified": "2022-05-14T02:07:45Z",
+  "modified": "2025-04-12T12:58:48Z",
   "published": "2022-05-14T02:07:45Z",
   "aliases": [
     "CVE-2015-7552"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.suse.com/show_bug.cgi?id=958963"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SJF5ARFOX4BFUK6YCBKGAKBQYECO3AI2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSAZ6UCKKXC5VOWXGWQHOX2ZBLLATIOT"
     },
     {
       "type": "WEB",

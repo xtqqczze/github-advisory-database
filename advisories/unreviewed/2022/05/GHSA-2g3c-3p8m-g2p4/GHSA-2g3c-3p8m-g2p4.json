@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g3c-3p8m-g2p4",
-  "modified": "2022-05-17T00:48:49Z",
+  "modified": "2025-04-12T13:00:03Z",
   "published": "2022-05-17T00:48:49Z",
   "aliases": [
     "CVE-2015-4642"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201606-10"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=d2ac264ffea5ca2e85640b6736e0c7cd4ee9a4a9"
     },
     {
       "type": "WEB",

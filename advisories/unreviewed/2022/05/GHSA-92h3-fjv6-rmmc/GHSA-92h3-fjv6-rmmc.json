@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92h3-fjv6-rmmc",
-  "modified": "2022-05-17T00:28:15Z",
+  "modified": "2025-04-12T13:00:20Z",
   "published": "2022-05-17T00:28:15Z",
   "aliases": [
     "CVE-2015-5714"

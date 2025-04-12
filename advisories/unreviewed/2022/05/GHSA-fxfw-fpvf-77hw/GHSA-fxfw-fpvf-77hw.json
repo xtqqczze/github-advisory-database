@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxfw-fpvf-77hw",
-  "modified": "2022-05-17T03:54:55Z",
+  "modified": "2025-04-12T12:59:58Z",
   "published": "2022-05-17T03:54:55Z",
   "aliases": [
     "CVE-2016-2860"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.openafs.org/dl/openafs/1.6.17/RELNOTES-1.6.17"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.openafs.org/?p=openafs.git%3Ba=commitdiff%3Bh=396240cf070a806b91fea81131d034e1399af1e0"
     },
     {
       "type": "WEB",

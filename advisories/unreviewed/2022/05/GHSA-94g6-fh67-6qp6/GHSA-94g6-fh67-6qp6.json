@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94g6-fh67-6qp6",
-  "modified": "2022-05-14T01:08:55Z",
+  "modified": "2025-04-12T13:00:03Z",
   "published": "2022-05-14T01:08:55Z",
   "aliases": [
     "CVE-2015-4605"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.php.net/bug.php?id=68819"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=f938112c495b0d26572435c0be73ac0bfe642ecd"
     },
     {
       "type": "WEB",

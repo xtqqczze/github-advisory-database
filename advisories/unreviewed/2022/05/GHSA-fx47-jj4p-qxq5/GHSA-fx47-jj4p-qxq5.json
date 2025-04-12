@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx47-jj4p-qxq5",
-  "modified": "2022-05-14T02:12:13Z",
+  "modified": "2025-04-12T13:00:21Z",
   "published": "2022-05-14T02:12:13Z",
   "aliases": [
     "CVE-2016-4540"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.php.net/bug.php?id=72061"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.php.net/?p=php-src.git%3Ba=commit%3Bh=fd9689745c44341b1bd6af4756f324be8abba2fb"
     },
     {
       "type": "WEB",

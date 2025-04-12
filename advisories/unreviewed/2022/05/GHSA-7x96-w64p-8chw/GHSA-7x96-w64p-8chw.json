@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x96-w64p-8chw",
-  "modified": "2022-05-14T02:08:52Z",
+  "modified": "2025-04-12T13:00:38Z",
   "published": "2022-05-14T02:08:52Z",
   "aliases": [
     "CVE-2016-3075"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=19879"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=glibc.git%3Bh=317b199b4aff8cfa27f2302ab404d2bb5032b9a4"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m8gw-x5jx-r3vm",
-  "modified": "2022-04-30T18:15:13Z",
+  "modified": "2025-04-12T12:59:26Z",
   "published": "2022-04-30T18:15:13Z",
   "aliases": [
     "CVE-2000-1254"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2000-1254"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/?p=openssl.git%3Ba=commit%3Bh=db82b8f9bd432a59aea8e1014694e15fc457c2bb"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2xj-f75j-96w3",
-  "modified": "2022-05-14T03:57:29Z",
+  "modified": "2025-04-12T13:00:18Z",
   "published": "2022-05-14T03:57:29Z",
   "aliases": [
     "CVE-2016-4072"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/smalyshev/80b5c2909832872f2ba2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.php.net/?p=php-src.git%3Ba=commit%3Bh=1e9b175204e3286d64dfd6c9f09151c31b5e099a"
     },
     {
       "type": "WEB",

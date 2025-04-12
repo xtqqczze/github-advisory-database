@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-872f-6g3v-r884",
-  "modified": "2022-05-17T02:37:54Z",
+  "modified": "2025-04-12T13:00:44Z",
   "published": "2022-05-17T02:37:54Z",
   "aliases": [
     "CVE-2016-1684"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.gnome.org/browse/libxslt/commit/?id=91d0540ac9beaa86719a05b749219a69baa0dd8d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SK4YNISS22MJY22YX5I6V2U63QZAUEHA"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vxg6-rr45-x5cv",
-  "modified": "2022-05-17T03:55:39Z",
+  "modified": "2025-04-12T12:59:37Z",
   "published": "2022-05-17T03:55:39Z",
   "aliases": [
     "CVE-2016-4561"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "http://ikiwiki.info/security/#index43h2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://source.ikiwiki.branchable.com/?p=source.git%3Ba=commitdiff%3Bh=32ef584dc5abb6ddb9f794f94ea0b2934967bba7"
     },
     {
       "type": "WEB",

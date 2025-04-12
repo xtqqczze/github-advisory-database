@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqgr-frw8-fc2r",
-  "modified": "2022-05-17T03:41:25Z",
+  "modified": "2025-04-12T12:59:57Z",
   "published": "2022-05-17T03:41:25Z",
   "aliases": [
     "CVE-2016-4497"

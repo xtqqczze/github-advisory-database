@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgpf-xc53-xgr5",
-  "modified": "2022-05-17T03:35:54Z",
+  "modified": "2025-04-12T13:00:07Z",
   "published": "2022-05-17T03:35:54Z",
   "aliases": [
     "CVE-2016-3185"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.php.net/bug.php?id=71610"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.php.net/?p=php-src.git%3Ba=commit%3Bh=eaf4e77190d402ea014207e9a7d5da1a4f3727ba"
     },
     {
       "type": "WEB",

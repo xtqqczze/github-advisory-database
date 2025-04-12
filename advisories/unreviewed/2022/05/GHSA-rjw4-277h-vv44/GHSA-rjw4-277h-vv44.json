@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjw4-277h-vv44",
-  "modified": "2022-05-13T01:30:25Z",
+  "modified": "2025-04-12T13:01:05Z",
   "published": "2022-05-13T01:30:25Z",
   "aliases": [
     "CVE-2016-4579"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201706-22"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=libksba.git%3Ba=commit%3Bh=a7eed17a0b2a1c09ef986f3b4b323cd31cea2b64"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-986h-5j8j-hgfc",
-  "modified": "2022-05-13T01:30:25Z",
+  "modified": "2025-04-12T13:01:05Z",
   "published": "2022-05-13T01:30:25Z",
   "aliases": [
     "CVE-2016-4574"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4574"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.gnupg.org/cgi-bin/gitweb.cgi?p=libksba.git%3Ba=commit%3Bh=6be61daac047d8e6aa941eb103f8e71a1d4e3c75"
     },
     {
       "type": "WEB",
