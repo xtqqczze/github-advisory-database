@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gc7r-mm9q-vgrj",
-  "modified": "2022-05-14T03:56:16Z",
+  "modified": "2025-04-12T13:02:53Z",
   "published": "2022-05-14T03:56:16Z",
   "aliases": [
     "CVE-2016-6297"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "http://fortiguard.com/advisory/fortinet-discovers-php-stack-based-buffer-overflow-vulnerabilities"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=81406c0c1d45f75fcc7972ed974d2597abb0b9e9"
     },
     {
       "type": "WEB",

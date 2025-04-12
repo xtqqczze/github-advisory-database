@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h534-4fvw-mm64",
-  "modified": "2022-05-13T01:29:25Z",
+  "modified": "2025-04-12T13:02:31Z",
   "published": "2022-05-13T01:29:25Z",
   "aliases": [
     "CVE-2016-3521"

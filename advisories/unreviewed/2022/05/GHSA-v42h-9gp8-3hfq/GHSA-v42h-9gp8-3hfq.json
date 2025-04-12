@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v42h-9gp8-3hfq",
-  "modified": "2022-05-14T03:56:18Z",
+  "modified": "2025-04-12T13:02:53Z",
   "published": "2022-05-14T03:56:18Z",
   "aliases": [
     "CVE-2016-6290"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/HT207170"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=3798eb6fd5dddb211b01d41495072fd9858d4e32"
     },
     {
       "type": "WEB",

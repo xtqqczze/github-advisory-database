@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc28-hwmc-pw94",
-  "modified": "2022-05-13T01:29:28Z",
+  "modified": "2025-04-12T13:01:45Z",
   "published": "2022-05-13T01:29:28Z",
   "aliases": [
     "CVE-2016-4997"

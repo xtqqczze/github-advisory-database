@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpfq-fvm4-44jm",
-  "modified": "2022-05-13T01:26:07Z",
+  "modified": "2025-04-12T13:02:04Z",
   "published": "2022-05-13T01:26:07Z",
   "aliases": [
     "CVE-2016-6174"

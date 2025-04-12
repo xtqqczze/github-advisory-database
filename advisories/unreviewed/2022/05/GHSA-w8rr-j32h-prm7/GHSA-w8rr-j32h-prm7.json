@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8rr-j32h-prm7",
-  "modified": "2022-05-14T01:29:13Z",
+  "modified": "2025-04-12T13:03:32Z",
   "published": "2022-05-14T01:29:13Z",
   "aliases": [
     "CVE-2016-6254"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/collectd/collectd/commit/b589096f907052b3a4da2b9ccc9b0e2e888dfc18"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CM4W5SJ4OTBGINGIN4NJLXCUZAZANO6J"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UIZ5UXDOB7BA5NGE2F2I2BL4K6763DHW"
     },
     {
       "type": "WEB",

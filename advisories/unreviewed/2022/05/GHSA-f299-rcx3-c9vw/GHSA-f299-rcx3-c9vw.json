@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f299-rcx3-c9vw",
-  "modified": "2022-05-17T03:43:41Z",
+  "modified": "2025-04-12T13:01:32Z",
   "published": "2022-05-17T03:43:41Z",
   "aliases": [
     "CVE-2015-8899"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2016q2/010505.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://thekelleys.org.uk/gitweb/?p=dnsmasq.git%3Ba=commit%3Bh=41a8d9e99be9f2cc8b02051dd322cb45e0faac87"
     },
     {
       "type": "WEB",

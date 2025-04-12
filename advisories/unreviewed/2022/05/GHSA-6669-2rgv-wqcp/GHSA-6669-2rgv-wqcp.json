@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6669-2rgv-wqcp",
-  "modified": "2022-05-14T02:23:44Z",
+  "modified": "2025-04-12T13:03:27Z",
   "published": "2022-05-14T02:23:44Z",
   "aliases": [
     "CVE-2016-3301"

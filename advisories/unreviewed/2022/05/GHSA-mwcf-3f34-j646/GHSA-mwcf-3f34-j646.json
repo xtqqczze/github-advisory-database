@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwcf-3f34-j646",
-  "modified": "2022-05-13T01:14:46Z",
+  "modified": "2025-04-12T13:02:47Z",
   "published": "2022-05-13T01:14:46Z",
   "aliases": [
     "CVE-2016-4609"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2019/07/msg00020.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SK4YNISS22MJY22YX5I6V2U63QZAUEHA"
     },
     {
       "type": "WEB",

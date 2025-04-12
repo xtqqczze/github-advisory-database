@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-893q-vmc7-qcvh",
-  "modified": "2022-05-17T03:37:34Z",
+  "modified": "2025-04-12T13:01:30Z",
   "published": "2022-05-17T03:37:34Z",
   "aliases": [
     "CVE-2016-5832"

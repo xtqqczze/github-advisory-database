@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fff3-43qr-9pr4",
-  "modified": "2022-05-13T01:14:47Z",
+  "modified": "2025-04-12T13:02:46Z",
   "published": "2022-05-13T01:14:47Z",
   "aliases": [
     "CVE-2016-4607"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4607"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SK4YNISS22MJY22YX5I6V2U63QZAUEHA"
     },
     {
       "type": "WEB",

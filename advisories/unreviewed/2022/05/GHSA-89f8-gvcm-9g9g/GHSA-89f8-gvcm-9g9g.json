@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89f8-gvcm-9g9g",
-  "modified": "2022-05-13T01:26:51Z",
+  "modified": "2025-04-12T13:03:29Z",
   "published": "2022-05-13T01:26:51Z",
   "aliases": [
     "CVE-2016-5421"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://curl.haxx.se/docs/adv_20160803C.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GLPXQQKURBQFM4XM6645VRPTOE2AWG33"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/K3GQH4V3XAQ5Z53AMQRDEC3C3UHTW7QR"
     },
     {
       "type": "WEB",

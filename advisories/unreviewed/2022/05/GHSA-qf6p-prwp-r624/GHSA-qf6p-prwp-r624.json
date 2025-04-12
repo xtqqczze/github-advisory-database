@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf6p-prwp-r624",
-  "modified": "2022-05-17T01:18:10Z",
+  "modified": "2025-04-12T13:01:43Z",
   "published": "2022-05-17T01:18:10Z",
   "aliases": [
     "CVE-2016-3989"

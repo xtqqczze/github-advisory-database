@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf2p-h3m7-ch75",
-  "modified": "2022-05-13T01:05:57Z",
+  "modified": "2025-04-12T13:03:22Z",
   "published": "2022-05-13T01:05:57Z",
   "aliases": [
     "CVE-2016-6515"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/09/msg00010.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X2L6RW34VFNXYNVVN2CN73YAGJ5VMTFU"
     },
     {
       "type": "WEB",

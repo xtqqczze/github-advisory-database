@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm5v-6984-hfqp",
-  "modified": "2022-05-14T01:48:31Z",
+  "modified": "2025-04-12T13:02:57Z",
   "published": "2022-05-14T01:48:31Z",
   "aliases": [
     "CVE-2016-1238"
@@ -25,11 +25,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/7f6a16bc0fd0fd5e67c7fd95bd655069a2ac7d1f88e42d3c853e601c%40%3Cannounce.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/7f6a16bc0fd0fd5e67c7fd95bd655069a2ac7d1f88e42d3c853e601c@%3Cannounce.apache.org%3E"
     },
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/11/msg00016.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2FBQOCV3GBAN2EYZUM3CFDJ4ECA3GZOK"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/DOFRQWJRP2NQJEYEWOMECVW3HAMD5SYN"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TZBNQH3DMI7HDELJAZ4TFJJANHXOEDWH"
     },
     {
       "type": "WEB",

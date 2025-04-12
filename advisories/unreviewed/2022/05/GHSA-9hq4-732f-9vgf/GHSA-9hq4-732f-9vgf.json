@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hq4-732f-9vgf",
-  "modified": "2022-05-13T01:29:30Z",
+  "modified": "2025-04-12T13:02:24Z",
   "published": "2022-05-13T01:29:30Z",
   "aliases": [
     "CVE-2016-5386"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://httpoxy.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/7WGHKKCFP4PLVSWQKCM3FJJPEWB5ZNTU"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/OR52UXGM6RKSCWF3KQMVZGVZVJ3WEESJ"
     },
     {
       "type": "WEB",

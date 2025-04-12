@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgfr-7g9m-xpr3",
-  "modified": "2022-05-13T01:18:00Z",
+  "modified": "2025-04-12T13:01:33Z",
   "published": "2022-05-13T01:18:00Z",
   "aliases": [
     "CVE-2016-4309"

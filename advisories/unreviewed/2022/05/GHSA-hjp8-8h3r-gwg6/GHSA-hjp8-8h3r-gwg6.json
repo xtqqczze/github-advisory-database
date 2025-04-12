@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjp8-8h3r-gwg6",
-  "modified": "2022-05-14T01:09:51Z",
+  "modified": "2025-04-12T13:02:54Z",
   "published": "2022-05-14T01:09:51Z",
   "aliases": [
     "CVE-2016-4469"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4469"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/ff8dcfe29377088ab655fda9d585dccd5b1f07fabd94ae84fd60a7f8%40%3Ccommits.pulsar.apache.org%3E"
     },
     {
       "type": "WEB",

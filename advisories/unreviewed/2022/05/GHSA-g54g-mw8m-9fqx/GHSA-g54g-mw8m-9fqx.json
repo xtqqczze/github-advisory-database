@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g54g-mw8m-9fqx",
-  "modified": "2022-05-17T02:37:30Z",
+  "modified": "2025-04-12T13:03:21Z",
   "published": "2022-05-17T02:37:30Z",
   "aliases": [
     "CVE-2016-5142"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://crbug.com/626948"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4KMX62M7UNRLWO4FEQ6YIMPMTKXXJV6A"
     },
     {
       "type": "WEB",

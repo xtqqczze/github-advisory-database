@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmg5-8m74-xp62",
-  "modified": "2022-05-14T03:12:15Z",
+  "modified": "2025-04-12T13:03:21Z",
   "published": "2022-05-14T03:12:15Z",
   "aliases": [
     "CVE-2016-5139"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/07/msg00025.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4KMX62M7UNRLWO4FEQ6YIMPMTKXXJV6A"
     },
     {
       "type": "WEB",

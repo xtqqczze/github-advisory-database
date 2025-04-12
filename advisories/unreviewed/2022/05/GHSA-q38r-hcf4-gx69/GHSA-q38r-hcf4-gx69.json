@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q38r-hcf4-gx69",
-  "modified": "2022-05-17T02:16:23Z",
+  "modified": "2025-04-12T13:02:50Z",
   "published": "2022-05-17T02:16:23Z",
   "aliases": [
     "CVE-2016-6224"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/ubuntu/+source/ecryptfs-utils/+bug/1447282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/K5WWCVHDLRLZTYMXEIONYFHLYAXXLJW3"
     },
     {
       "type": "WEB",
