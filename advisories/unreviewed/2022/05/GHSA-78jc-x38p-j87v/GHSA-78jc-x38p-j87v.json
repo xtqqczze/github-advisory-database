@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78jc-x38p-j87v",
-  "modified": "2022-05-17T03:21:47Z",
+  "modified": "2025-04-12T12:52:18Z",
   "published": "2022-05-17T03:21:47Z",
   "aliases": [
     "CVE-2015-6305"

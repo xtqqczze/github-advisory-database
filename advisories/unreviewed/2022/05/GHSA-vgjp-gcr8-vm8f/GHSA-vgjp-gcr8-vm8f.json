@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgjp-gcr8-vm8f",
-  "modified": "2022-05-17T04:06:27Z",
+  "modified": "2025-04-12T12:52:24Z",
   "published": "2022-05-17T04:06:27Z",
   "aliases": [
     "CVE-2015-7603"

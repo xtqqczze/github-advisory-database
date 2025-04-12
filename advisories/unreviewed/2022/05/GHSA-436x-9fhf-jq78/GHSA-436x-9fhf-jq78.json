@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-436x-9fhf-jq78",
-  "modified": "2022-05-17T03:18:28Z",
+  "modified": "2025-04-12T12:51:45Z",
   "published": "2022-05-17T03:18:28Z",
   "aliases": [
     "CVE-2015-6908"
@@ -49,6 +49,10 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2015/dsa-3356"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git%3Ba=commit%3Bh=6fe51a9ab04fd28bbc171da3cf12f1c1040d6629"
     },
     {
       "type": "WEB",

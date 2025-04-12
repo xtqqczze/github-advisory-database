@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc3m-36jc-v5wf",
-  "modified": "2022-05-13T01:26:07Z",
+  "modified": "2025-04-12T12:51:39Z",
   "published": "2022-05-13T01:26:07Z",
   "aliases": [
     "CVE-2015-6812"

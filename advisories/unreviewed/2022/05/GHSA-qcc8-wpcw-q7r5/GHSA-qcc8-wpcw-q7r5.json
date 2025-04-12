@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qcc8-wpcw-q7r5",
-  "modified": "2022-05-14T02:27:33Z",
+  "modified": "2025-04-12T12:51:42Z",
   "published": "2022-05-14T02:27:33Z",
   "aliases": [
     "CVE-2015-2510"

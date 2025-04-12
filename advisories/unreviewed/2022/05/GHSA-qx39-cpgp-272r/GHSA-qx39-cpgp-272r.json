@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx39-cpgp-272r",
-  "modified": "2022-05-14T00:57:26Z",
+  "modified": "2025-04-12T12:51:51Z",
   "published": "2022-05-14T00:57:26Z",
   "aliases": [
     "CVE-2015-6946"

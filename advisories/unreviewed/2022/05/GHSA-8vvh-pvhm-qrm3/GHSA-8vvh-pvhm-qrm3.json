@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vvh-pvhm-qrm3",
-  "modified": "2022-05-14T01:01:19Z",
+  "modified": "2025-04-12T12:53:58Z",
   "published": "2022-05-14T01:01:19Z",
   "aliases": [
     "CVE-2015-6104"

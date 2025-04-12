@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmv3-rx57-jjgm",
-  "modified": "2022-05-14T02:27:54Z",
+  "modified": "2025-04-12T12:52:44Z",
   "published": "2022-05-14T02:27:53Z",
   "aliases": [
     "CVE-2015-2482"
