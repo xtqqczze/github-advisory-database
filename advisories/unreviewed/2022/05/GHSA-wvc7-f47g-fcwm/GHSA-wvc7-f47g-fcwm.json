@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvc7-f47g-fcwm",
-  "modified": "2022-05-14T01:29:13Z",
+  "modified": "2025-04-12T13:05:59Z",
   "published": "2022-05-14T01:29:13Z",
   "aliases": [
     "CVE-2016-5629"

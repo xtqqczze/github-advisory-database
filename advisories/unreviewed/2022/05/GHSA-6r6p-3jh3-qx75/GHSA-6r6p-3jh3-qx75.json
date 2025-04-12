@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6r6p-3jh3-qx75",
-  "modified": "2022-05-14T00:58:05Z",
+  "modified": "2025-04-12T13:04:37Z",
   "published": "2022-05-14T00:58:05Z",
   "aliases": [
     "CVE-2016-4738"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-4738"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SK4YNISS22MJY22YX5I6V2U63QZAUEHA"
     },
     {
       "type": "WEB",

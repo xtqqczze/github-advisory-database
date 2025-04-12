@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpfh-46p6-w5g3",
-  "modified": "2022-05-13T01:05:08Z",
+  "modified": "2025-04-12T13:04:15Z",
   "published": "2022-05-13T01:05:08Z",
   "aliases": [
     "CVE-2016-2181"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-412672.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/?p=openssl.git%3Ba=commit%3Bh=1fb9fdc3027b27d8eb6a1e6a846435b070980770"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qvw-r534-xcm4",
-  "modified": "2022-05-14T03:14:44Z",
+  "modified": "2025-04-12T13:04:47Z",
   "published": "2022-05-14T03:14:44Z",
   "aliases": [
     "CVE-2016-6309"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bto.bluecoat.com/security-advisory/sa132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/?p=openssl.git%3Ba=commit%3Bh=acacbfa7565c78d2273c0b2a2e5e803f44afefeb"
     },
     {
       "type": "WEB",

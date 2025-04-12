@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4pw-hgvj-fq4w",
-  "modified": "2022-05-17T00:21:09Z",
+  "modified": "2025-04-12T13:04:54Z",
   "published": "2022-05-17T00:21:09Z",
   "aliases": [
     "CVE-2016-6494"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://jira.mongodb.org/browse/SERVER-25335"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/5MCE2ZLFBNOK3TTWSTXZJQGZVP4EEJDL"
     },
     {
       "type": "WEB",

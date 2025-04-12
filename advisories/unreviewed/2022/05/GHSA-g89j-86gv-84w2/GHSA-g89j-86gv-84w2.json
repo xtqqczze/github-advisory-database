@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g89j-86gv-84w2",
-  "modified": "2022-05-13T01:05:08Z",
+  "modified": "2025-04-12T13:04:48Z",
   "published": "2022-05-13T01:05:08Z",
   "aliases": [
     "CVE-2016-6306"
@@ -102,6 +102,10 @@
     {
       "type": "WEB",
       "url": "https://git.openssl.org/?p=openssl.git;a=commit;h=52e623c4cb06fffa9d5e75c60b34b4bc130b12e9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/?p=openssl.git%3Ba=commit%3Bh=52e623c4cb06fffa9d5e75c60b34b4bc130b12e9"
     },
     {
       "type": "WEB",

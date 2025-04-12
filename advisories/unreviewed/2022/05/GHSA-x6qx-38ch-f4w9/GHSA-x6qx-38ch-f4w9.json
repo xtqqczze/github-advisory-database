@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6qx-38ch-f4w9",
-  "modified": "2022-05-13T01:17:04Z",
+  "modified": "2025-04-12T13:05:54Z",
   "published": "2022-05-13T01:17:04Z",
   "aliases": [
     "CVE-2016-5568"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-5568"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r1b103833cb5bc8466e24ff0ecc5e75b45a705334ab6a444e64e840a0%40%3Cissues.bookkeeper.apache.org%3E"
     },
     {
       "type": "WEB",

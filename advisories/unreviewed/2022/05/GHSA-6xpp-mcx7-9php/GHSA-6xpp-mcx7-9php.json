@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xpp-mcx7-9php",
-  "modified": "2022-05-14T02:23:17Z",
+  "modified": "2025-04-12T13:04:08Z",
   "published": "2022-05-14T02:23:17Z",
   "aliases": [
     "CVE-2016-3363"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2016/ms16-107"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40steventseeley/ms16-107-microsoft-office-excel-eof-record-type-confusion-remote-code-execution-vulnerability-1105d52764ff"
     },
     {
       "type": "WEB",

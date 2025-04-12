@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g7x-w32v-gmpx",
-  "modified": "2022-05-17T02:37:28Z",
+  "modified": "2025-04-12T13:04:30Z",
   "published": "2022-05-17T02:37:28Z",
   "aliases": [
     "CVE-2016-6525"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.ghostscript.com/show_bug.cgi?id=696954"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=mupdf.git%3Bh=39b0f07dd960f34e7e6bf230ffc3d87c41ef0f2e"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r248-wpg2-5hw4",
-  "modified": "2022-05-14T03:38:02Z",
+  "modified": "2025-04-12T13:05:41Z",
   "published": "2022-05-14T03:38:02Z",
   "aliases": [
     "CVE-2015-8952"

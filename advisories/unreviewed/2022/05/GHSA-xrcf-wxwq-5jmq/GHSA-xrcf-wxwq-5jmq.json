@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrcf-wxwq-5jmq",
-  "modified": "2022-05-14T02:08:58Z",
+  "modified": "2025-04-12T13:05:15Z",
   "published": "2022-05-14T02:08:58Z",
   "aliases": [
     "CVE-2016-6323"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6323"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KTXSOVCRDGBIB4WCIDAGYYUBESXZ4IGK"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LVWSAZVBTLALXF4SCBPDV3FY6J22DXLZ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WO7IMEYWZ2WTXGGMZBWWSDCUMFN63XOB"
     },
     {
       "type": "WEB",
@@ -38,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=20435"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=glibc.git%3Bh=9e2ff6c9cc54c0b4402b8d49e4abe7000fde7617"
     },
     {
       "type": "WEB",

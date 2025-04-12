@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jwp-58q4-9rxh",
-  "modified": "2022-05-14T02:08:58Z",
+  "modified": "2025-04-12T13:03:47Z",
   "published": "2022-05-14T02:08:58Z",
   "aliases": [
     "CVE-2016-6855"
@@ -42,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2020/04/msg00018.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JVINHHR6VJKXTYYMAYKN5GROKHVT4UKB"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/T6GFDHLNPUG7JHWM3QLXQNRA7NZGU2KI"
     },
     {
       "type": "WEB",

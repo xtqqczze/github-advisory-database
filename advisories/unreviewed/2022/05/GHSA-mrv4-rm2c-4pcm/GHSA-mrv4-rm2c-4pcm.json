@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrv4-rm2c-4pcm",
-  "modified": "2022-05-17T03:35:03Z",
+  "modified": "2025-04-12T13:06:02Z",
   "published": "2022-05-17T03:35:03Z",
   "aliases": [
     "CVE-2016-8503"
