@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpjm-p24r-pm4q",
-  "modified": "2022-05-17T01:08:14Z",
+  "modified": "2025-04-12T12:56:51Z",
   "published": "2022-05-17T01:08:14Z",
   "aliases": [
     "CVE-2016-0953"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83m2-9g78-rrj4",
-  "modified": "2022-05-17T03:57:20Z",
+  "modified": "2025-04-12T12:58:19Z",
   "published": "2022-05-17T03:57:20Z",
   "aliases": [
     "CVE-2015-0265"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cwiki.apache.org/confluence/display/RANGER/Vulnerabilities+found+in+Ranger"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mail-archives.apache.org/mod_mbox/ranger-dev/201508.mbox/%3CD1E7EC30.9D53F%25vel%40apache.org%3E"
     },
     {
       "type": "WEB",

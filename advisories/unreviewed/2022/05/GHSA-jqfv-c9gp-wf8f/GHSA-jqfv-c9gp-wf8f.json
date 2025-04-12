@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqfv-c9gp-wf8f",
-  "modified": "2022-05-13T01:04:14Z",
+  "modified": "2025-04-12T12:57:24Z",
   "published": "2022-05-13T01:04:14Z",
   "aliases": [
     "CVE-2016-0703"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://drownattack.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/?p=openssl.git%3Ba=commit%3Bh=ae50d8270026edf5b3c7f8aaa0c6677462b33d97"
     },
     {
       "type": "WEB",

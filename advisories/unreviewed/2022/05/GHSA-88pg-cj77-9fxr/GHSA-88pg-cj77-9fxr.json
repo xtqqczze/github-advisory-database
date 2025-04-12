@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88pg-cj77-9fxr",
-  "modified": "2022-05-14T03:58:15Z",
+  "modified": "2025-04-12T12:57:25Z",
   "published": "2022-05-14T03:58:15Z",
   "aliases": [
     "CVE-2016-0797"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-412672.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/?p=openssl.git%3Ba=commit%3Bh=c175308407858afff3fc8c2e5e085d94d12edc7d"
     },
     {
       "type": "WEB",

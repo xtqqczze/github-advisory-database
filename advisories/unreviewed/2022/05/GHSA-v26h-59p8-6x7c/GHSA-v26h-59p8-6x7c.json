@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v26h-59p8-6x7c",
-  "modified": "2022-05-17T01:18:15Z",
+  "modified": "2025-04-12T12:58:18Z",
   "published": "2022-05-17T01:18:15Z",
   "aliases": [
     "CVE-2016-2193"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-2193"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.postgresql.org/gitweb/?p=postgresql.git%3Ba=commitdiff%3Bh=db69e58a0642ef7fa46d62f6c4cf2460c3a1b41b"
     },
     {
       "type": "WEB",

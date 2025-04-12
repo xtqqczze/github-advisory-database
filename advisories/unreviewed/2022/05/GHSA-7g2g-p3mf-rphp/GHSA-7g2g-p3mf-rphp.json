@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g2g-p3mf-rphp",
-  "modified": "2022-05-14T02:25:48Z",
+  "modified": "2025-04-12T12:57:32Z",
   "published": "2022-05-14T02:25:48Z",
   "aliases": [
     "CVE-2016-0120"

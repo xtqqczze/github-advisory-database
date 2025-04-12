@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmmq-22w7-cvf3",
-  "modified": "2022-05-14T02:47:00Z",
+  "modified": "2025-04-12T12:56:57Z",
   "published": "2022-05-14T02:47:00Z",
   "aliases": [
     "CVE-2016-1524"

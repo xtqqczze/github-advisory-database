@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcp7-jqf3-2h7r",
-  "modified": "2022-05-14T02:08:00Z",
+  "modified": "2025-04-12T12:58:22Z",
   "published": "2022-05-14T02:08:00Z",
   "aliases": [
     "CVE-2015-8614"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201606-11"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.claws-mail.org/?p=claws.git%3Ba=commit%3Bh=d390fa07f5548f3173dd9cc13b233db5ce934c82"
     },
     {
       "type": "WEB",

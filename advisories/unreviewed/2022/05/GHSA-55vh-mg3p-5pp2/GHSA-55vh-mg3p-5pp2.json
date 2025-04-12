@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55vh-mg3p-5pp2",
-  "modified": "2022-05-17T03:55:16Z",
+  "modified": "2025-04-12T12:58:16Z",
   "published": "2022-05-17T03:55:16Z",
   "aliases": [
     "CVE-2016-3984"

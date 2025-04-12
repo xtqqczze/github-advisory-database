@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7x9-6qwf-8m25",
-  "modified": "2022-05-14T02:11:48Z",
+  "modified": "2025-04-12T12:56:28Z",
   "published": "2022-05-14T02:11:48Z",
   "aliases": [
     "CVE-2015-8618"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/golang-announce/MEATuOi_ei4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/golang-announce/MEATuOi_ei4"
     },
     {
       "type": "WEB",

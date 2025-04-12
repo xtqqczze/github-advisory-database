@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8v7w-4wg8-q7v4",
-  "modified": "2022-05-17T03:56:59Z",
+  "modified": "2025-04-12T12:58:18Z",
   "published": "2022-05-17T03:56:59Z",
   "aliases": [
     "CVE-2016-3065"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3065"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.postgresql.org/gitweb/?p=postgresql.git%3Ba=commitdiff%3Bh=bf78a6f107949fdfb513d1b45e30cefe04e09e4f"
     },
     {
       "type": "WEB",

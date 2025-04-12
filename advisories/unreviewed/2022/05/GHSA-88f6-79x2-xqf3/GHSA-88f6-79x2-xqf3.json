@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88f6-79x2-xqf3",
-  "modified": "2022-05-17T03:56:49Z",
+  "modified": "2025-04-12T12:58:17Z",
   "published": "2022-05-17T03:56:49Z",
   "aliases": [
     "CVE-2016-0710"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-0710"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mail-archives.apache.org/mod_mbox/portals-jetspeed-user/201603.mbox/%3C046318A1-226E-453F-9394-B84F1A33E6A4%40bluesunrise.com%3E"
     },
     {
       "type": "WEB",

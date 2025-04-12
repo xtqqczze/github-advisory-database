@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jq9m-v5x9-ppg9",
-  "modified": "2022-05-14T01:33:07Z",
+  "modified": "2025-04-12T12:57:25Z",
   "published": "2022-05-14T01:33:07Z",
   "aliases": [
     "CVE-2016-0705"
@@ -106,6 +106,10 @@
     {
       "type": "WEB",
       "url": "https://git.openssl.org/?p=openssl.git;a=commit;h=6c88c71b4e4825c7bc0489306d062d017634eb88"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.openssl.org/?p=openssl.git%3Ba=commit%3Bh=6c88c71b4e4825c7bc0489306d062d017634eb88"
     },
     {
       "type": "WEB",

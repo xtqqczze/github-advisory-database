@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r368-7wjf-rpg2",
-  "modified": "2022-05-14T03:20:49Z",
+  "modified": "2025-04-12T12:58:16Z",
   "published": "2022-05-14T03:20:49Z",
   "aliases": [
     "CVE-2016-3963"

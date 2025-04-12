@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c44j-w78v-5jr4",
-  "modified": "2022-05-17T01:09:58Z",
+  "modified": "2025-04-12T12:57:18Z",
   "published": "2022-05-17T01:09:58Z",
   "aliases": [
     "CVE-2016-2521"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-2521"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=4a79cf2e1ab056faaddd252aa56520435b318a56"
     },
     {
       "type": "WEB",

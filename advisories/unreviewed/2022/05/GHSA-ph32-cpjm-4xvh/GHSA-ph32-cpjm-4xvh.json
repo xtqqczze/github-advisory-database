@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ph32-cpjm-4xvh",
-  "modified": "2022-05-17T01:09:54Z",
+  "modified": "2025-04-12T12:57:19Z",
   "published": "2022-05-17T01:09:54Z",
   "aliases": [
     "CVE-2016-2531"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=11829"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=de65fd6b00d0b891930324b9549c93ccfe9cac30"
     },
     {
       "type": "WEB",

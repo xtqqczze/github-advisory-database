@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpgr-m9m8-mhxq",
-  "modified": "2022-05-17T03:29:05Z",
+  "modified": "2025-04-12T12:56:37Z",
   "published": "2022-05-17T03:29:05Z",
   "aliases": [
     "CVE-2016-2213"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201606-09"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=0aada30510d809bccfd539a90ea37b61188f2cb4"
     },
     {
       "type": "WEB",

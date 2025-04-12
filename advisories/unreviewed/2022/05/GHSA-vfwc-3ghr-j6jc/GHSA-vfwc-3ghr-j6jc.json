@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfwc-3ghr-j6jc",
-  "modified": "2022-05-17T03:28:43Z",
+  "modified": "2025-04-12T12:56:55Z",
   "published": "2022-05-17T03:28:43Z",
   "aliases": [
     "CVE-2016-2328"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201606-09"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=757248ea3cd917a7755cb15f817a9b1f15578718"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=ad3b6fa7d83db7de951ed891649af93a47e74be5"
     },
     {
       "type": "WEB",

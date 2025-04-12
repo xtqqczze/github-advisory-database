@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v24v-vp5m-fpcr",
-  "modified": "2022-05-17T03:31:15Z",
+  "modified": "2025-04-12T12:57:22Z",
   "published": "2022-05-17T03:31:15Z",
   "aliases": [
     "CVE-2016-2561"
