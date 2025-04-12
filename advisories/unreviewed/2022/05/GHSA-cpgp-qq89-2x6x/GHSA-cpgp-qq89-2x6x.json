@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpgp-qq89-2x6x",
-  "modified": "2022-05-17T03:44:34Z",
+  "modified": "2025-04-12T12:49:34Z",
   "published": "2022-05-17T03:44:34Z",
   "aliases": [
     "CVE-2015-5380"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://codereview.chromium.org/1226493003"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40iojs/important-security-upgrades-for-node-js-and-io-js-8ac14ece5852"
     },
     {
       "type": "WEB",

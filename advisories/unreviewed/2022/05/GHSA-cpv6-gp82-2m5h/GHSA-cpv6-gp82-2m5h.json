@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpv6-gp82-2m5h",
-  "modified": "2022-05-14T02:27:57Z",
+  "modified": "2025-04-12T12:50:47Z",
   "published": "2022-05-14T02:27:57Z",
   "aliases": [
     "CVE-2015-2469"

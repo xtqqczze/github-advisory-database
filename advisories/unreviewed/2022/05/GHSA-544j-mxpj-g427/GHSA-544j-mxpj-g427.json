@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-544j-mxpj-g427",
-  "modified": "2022-05-13T01:23:29Z",
+  "modified": "2025-04-12T12:48:54Z",
   "published": "2022-05-13T01:23:29Z",
   "aliases": [
     "CVE-2015-4093"

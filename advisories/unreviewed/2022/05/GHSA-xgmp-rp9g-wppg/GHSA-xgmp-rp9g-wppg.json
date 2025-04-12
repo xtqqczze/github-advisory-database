@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgmp-rp9g-wppg",
-  "modified": "2022-05-14T01:21:10Z",
+  "modified": "2025-04-12T12:49:16Z",
   "published": "2022-05-14T01:21:10Z",
   "aliases": [
     "CVE-2015-5354"

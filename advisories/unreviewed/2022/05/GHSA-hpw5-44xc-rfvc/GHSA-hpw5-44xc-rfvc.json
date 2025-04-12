@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpw5-44xc-rfvc",
-  "modified": "2022-05-17T01:18:39Z",
+  "modified": "2025-04-12T12:51:16Z",
   "published": "2022-05-17T01:18:39Z",
   "aliases": [
     "CVE-2015-6565"

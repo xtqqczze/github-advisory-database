@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2mp-8936-8q32",
-  "modified": "2022-05-17T03:18:47Z",
+  "modified": "2025-04-12T12:51:29Z",
   "published": "2022-05-17T03:18:47Z",
   "aliases": [
     "CVE-2015-6655"

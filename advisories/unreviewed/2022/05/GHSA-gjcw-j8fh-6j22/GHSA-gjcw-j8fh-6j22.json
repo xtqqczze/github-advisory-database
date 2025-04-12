@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjcw-j8fh-6j22",
-  "modified": "2022-05-14T03:07:29Z",
+  "modified": "2025-04-12T12:50:42Z",
   "published": "2022-05-14T03:07:29Z",
   "aliases": [
     "CVE-2015-1816"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/foreman-announce/9ZnuPcplNLI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/foreman-announce/9ZnuPcplNLI"
     },
     {
       "type": "WEB",

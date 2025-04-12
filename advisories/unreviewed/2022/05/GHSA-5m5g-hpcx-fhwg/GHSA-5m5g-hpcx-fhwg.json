@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m5g-hpcx-fhwg",
-  "modified": "2022-05-17T04:09:52Z",
+  "modified": "2025-04-12T12:51:01Z",
   "published": "2022-05-17T04:09:52Z",
   "aliases": [
     "CVE-2014-9743"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-9743"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=vlc.git%3Ba=commit%3Bh=fe5063ec5ad1873039ea719eb1f137c8f3bda84b"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6gp-x66j-mhw7",
-  "modified": "2022-05-14T03:07:29Z",
+  "modified": "2025-04-12T12:50:43Z",
   "published": "2022-05-14T03:07:29Z",
   "aliases": [
     "CVE-2015-1844"
@@ -33,6 +33,14 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/foreman-users/qAGZh5n6n6M"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/foreman-announce/37KYWhIk4FY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/foreman-users/qAGZh5n6n6M"
     },
     {
       "type": "WEB",

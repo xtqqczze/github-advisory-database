@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pv7x-62h4-fpxp",
-  "modified": "2022-05-14T00:57:41Z",
+  "modified": "2025-04-12T12:49:06Z",
   "published": "2022-05-14T00:57:41Z",
   "aliases": [
     "CVE-2015-4413"

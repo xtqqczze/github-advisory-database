@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf9j-9gh2-gp45",
-  "modified": "2022-05-17T00:51:50Z",
+  "modified": "2025-04-12T12:50:36Z",
   "published": "2022-05-17T00:51:50Z",
   "aliases": [
     "CVE-2015-3228"
@@ -29,6 +29,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.ghostscript.com/show_bug.cgi?id=696070"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=ghostpdl.git%3Ba=commitdiff%3Bh=0c0b0859"
     },
     {
       "type": "WEB",

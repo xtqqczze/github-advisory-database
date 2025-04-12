@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3f2-vc32-jrrx",
-  "modified": "2022-05-17T00:48:08Z",
+  "modified": "2025-04-12T12:49:09Z",
   "published": "2022-05-17T00:48:08Z",
   "aliases": [
     "CVE-2015-1158"
