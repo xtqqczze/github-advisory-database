@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fw3x-2pr2-5j64",
-  "modified": "2022-05-17T04:42:16Z",
+  "modified": "2025-04-12T12:34:50Z",
   "published": "2022-05-17T04:42:16Z",
   "aliases": [
     "CVE-2012-3521"

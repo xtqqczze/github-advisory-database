@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4425-mwr9-99xc",
-  "modified": "2022-05-14T03:07:30Z",
+  "modified": "2025-04-12T12:36:42Z",
   "published": "2022-05-14T03:07:30Z",
   "aliases": [
     "CVE-2014-3504"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/serf-dev/NvgPoK6sFsc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/serf-dev/NvgPoK6sFsc"
     },
     {
       "type": "WEB",

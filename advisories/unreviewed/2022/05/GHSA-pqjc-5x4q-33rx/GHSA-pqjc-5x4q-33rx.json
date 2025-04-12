@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pqjc-5x4q-33rx",
-  "modified": "2022-05-13T01:23:13Z",
+  "modified": "2025-04-12T12:35:03Z",
   "published": "2022-05-13T01:23:13Z",
   "aliases": [
     "CVE-2014-1739"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://source.android.com/security/bulletin/2017-04-01"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=e6a623460e5fc960ac3ee9f946d3106233fd28d8"
     },
     {
       "type": "WEB",

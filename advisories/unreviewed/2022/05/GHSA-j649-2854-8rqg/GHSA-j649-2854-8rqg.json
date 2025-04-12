@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j649-2854-8rqg",
-  "modified": "2022-05-13T01:23:12Z",
+  "modified": "2025-04-12T12:35:04Z",
   "published": "2022-05-13T01:23:12Z",
   "aliases": [
     "CVE-2014-4027"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://support.f5.com/kb/en-us/solutions/public/15000/600/sol15685.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=4442dc8a92b8f9ad8ee9e7f8438f4c04c03a22dc"
     },
     {
       "type": "WEB",

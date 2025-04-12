@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9w3-3v6q-p98r",
-  "modified": "2022-05-17T01:42:23Z",
+  "modified": "2025-04-12T12:37:06Z",
   "published": "2022-05-17T01:42:23Z",
   "aliases": [
     "CVE-2012-4234"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "http://secunia.com/advisories/50445"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.phorum.org/phorum5/read.php?64%2C151943"
     },
     {
       "type": "WEB",

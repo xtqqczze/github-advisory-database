@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h932-r8mq-2ccg",
-  "modified": "2022-05-17T04:41:26Z",
+  "modified": "2025-04-12T12:34:57Z",
   "published": "2022-05-17T04:41:26Z",
   "aliases": [
     "CVE-2014-2609"

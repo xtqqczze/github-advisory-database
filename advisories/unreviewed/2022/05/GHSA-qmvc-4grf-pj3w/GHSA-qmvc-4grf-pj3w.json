@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmvc-4grf-pj3w",
-  "modified": "2022-05-17T04:42:21Z",
+  "modified": "2025-04-12T12:34:48Z",
   "published": "2022-05-17T04:42:21Z",
   "aliases": [
     "CVE-2014-3911"

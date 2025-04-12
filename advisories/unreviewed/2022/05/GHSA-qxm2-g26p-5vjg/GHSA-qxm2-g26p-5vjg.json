@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxm2-g26p-5vjg",
-  "modified": "2022-05-17T04:21:28Z",
+  "modified": "2025-04-12T12:36:55Z",
   "published": "2022-05-17T04:21:28Z",
   "aliases": [
     "CVE-2014-5263"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1126543"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.qemu.org/?p=qemu.git%3Ba=commitdiff%3Bh=3afca1d6d413592c2b78cf28f52fa24a586d8f56"
     },
     {
       "type": "WEB",

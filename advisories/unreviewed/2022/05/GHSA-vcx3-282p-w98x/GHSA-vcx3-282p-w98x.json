@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcx3-282p-w98x",
-  "modified": "2022-05-17T04:37:58Z",
+  "modified": "2025-04-12T12:37:04Z",
   "published": "2022-05-17T04:37:58Z",
   "aliases": [
     "CVE-2014-3861"

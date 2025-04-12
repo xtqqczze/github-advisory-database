@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h65f-vhwc-qv3f",
-  "modified": "2022-05-14T03:07:30Z",
+  "modified": "2025-04-12T12:35:59Z",
   "published": "2022-05-14T03:07:30Z",
   "aliases": [
     "CVE-2014-4511"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/gitlist/Hw_KdZfA4js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/gitlist/Hw_KdZfA4js"
     },
     {
       "type": "WEB",

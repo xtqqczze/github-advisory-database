@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv3p-vh66-pccp",
-  "modified": "2022-05-13T01:23:24Z",
+  "modified": "2025-04-12T12:36:40Z",
   "published": "2022-05-13T01:23:24Z",
   "aliases": [
     "CVE-2014-5207"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/95266"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=9566d6742852c527bf5af38af5cbb878dad75705"
     },
     {
       "type": "WEB",

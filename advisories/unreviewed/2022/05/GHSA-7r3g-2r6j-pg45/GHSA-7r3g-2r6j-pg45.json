@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7r3g-2r6j-pg45",
-  "modified": "2022-05-13T01:23:26Z",
+  "modified": "2025-04-12T12:35:26Z",
   "published": "2022-05-13T01:23:26Z",
   "aliases": [
     "CVE-2014-4652"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/94412"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=07f4d9d74a04aa7c72c5dae0ef97565f28f17b92"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f929-4mp9-4fmc",
-  "modified": "2022-05-13T01:23:26Z",
+  "modified": "2025-04-12T12:35:26Z",
   "published": "2022-05-13T01:23:26Z",
   "aliases": [
     "CVE-2014-4654"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1113445"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=82262a46627bebb0febcc26664746c25cef08563"
     },
     {
       "type": "WEB",

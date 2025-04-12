@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7f7x-29w2-852x",
-  "modified": "2022-05-14T01:47:40Z",
+  "modified": "2025-04-12T12:35:03Z",
   "published": "2022-05-14T01:47:40Z",
   "aliases": [
     "CVE-2014-4157"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=751417"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.kernel.org/?p=linux/kernel/git/torvalds/linux-2.6.git%3Ba=commit%3Bh=137f7df8cead00688524c82360930845396b8a21"
     },
     {
       "type": "WEB",
