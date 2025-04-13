@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mccq-3m7h-fjxg",
-  "modified": "2024-10-21T21:27:02Z",
+  "modified": "2025-04-13T23:10:28Z",
   "published": "2022-05-17T01:37:42Z",
   "aliases": [
     "CVE-2012-6130"
   ],
   "summary": "Roundup Cross-site Scripting (XSS) vulnerability",
   "details": "Cross-site scripting (XSS) vulnerability in the history display in Roundup before 1.4.20 allows remote attackers to inject arbitrary web script or HTML via a username, related to generating a link.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
+    }
+  ],
   "affected": [
     {
       "package": {
