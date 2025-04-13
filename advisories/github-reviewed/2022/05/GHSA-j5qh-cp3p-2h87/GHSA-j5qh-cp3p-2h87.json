@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5qh-cp3p-2h87",
-  "modified": "2023-08-16T23:27:55Z",
+  "modified": "2025-04-13T23:08:09Z",
   "published": "2022-05-17T04:44:51Z",
   "aliases": [
     "CVE-2014-2741"
   ],
   "summary": "Ignite Realtime Openfire vulnerable to XMPPbomb attack",
   "details": "nio/XMLLightweightParser.java in Ignite Realtime Openfire before 3.9.2 does not properly restrict the processing of compressed XML elements, which allows remote attackers to cause a denial of service (resource consumption) via a crafted XMPP stream, aka an \"xmppbomb\" attack.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -38,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/igniterealtime/Openfire/commit/3aec383e07ee893b77396fe946766bbd3758af77"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/igniterealtime/Openfire"
     },
     {
       "type": "WEB",
