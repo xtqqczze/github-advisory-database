@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm28-mrm7-fpjq",
-  "modified": "2023-08-28T16:26:10Z",
+  "modified": "2025-04-13T23:28:09Z",
   "published": "2017-10-24T18:33:36Z",
   "aliases": [
     "CVE-2014-2888"
@@ -58,10 +58,6 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2014/04/18/4"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.vapid.dhs.org/advisories/spfagent-remotecmd.html"
     }
   ],
   "database_specific": {
