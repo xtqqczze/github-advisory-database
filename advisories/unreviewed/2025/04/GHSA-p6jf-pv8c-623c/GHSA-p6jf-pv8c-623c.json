@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6jf-pv8c-623c",
-  "modified": "2025-04-13T15:30:21Z",
+  "modified": "2025-04-13T18:30:32Z",
   "published": "2025-04-13T15:30:21Z",
   "aliases": [
     "CVE-2024-56406"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/SHAY/perl-5.40.2/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/13/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/13/4"
     }
   ],
   "database_specific": {
