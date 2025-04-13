@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49v8-p6mm-3pfj",
-  "modified": "2025-04-02T22:50:37Z",
+  "modified": "2025-04-02T22:52:28Z",
   "published": "2025-04-02T21:30:51Z",
   "aliases": [
     "CVE-2025-29085"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
     }
   ],
   "affected": [
@@ -53,7 +53,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-02T22:50:37Z",
     "nvd_published_at": "2025-04-02T21:15:32Z"
