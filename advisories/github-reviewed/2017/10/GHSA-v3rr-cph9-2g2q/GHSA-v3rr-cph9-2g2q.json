@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3rr-cph9-2g2q",
-  "modified": "2023-01-23T18:02:54Z",
+  "modified": "2025-04-13T23:03:25Z",
   "published": "2017-10-24T18:33:36Z",
   "aliases": [
     "CVE-2014-2538"
   ],
   "summary": "rack-ssl Cross-site Scripting vulnerability",
   "details": "Cross-site scripting (XSS) vulnerability in `lib/rack/ssl.rb` in the rack-ssl gem before 1.4.0 for Ruby allows remote attackers to inject arbitrary web script or HTML via a URI, which might not be properly handled by third-party adapters such as JRuby-Rack.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
+    }
+  ],
   "affected": [
     {
       "package": {
