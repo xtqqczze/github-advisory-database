@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hx9-w2j6-rw76",
-  "modified": "2023-07-05T18:52:49Z",
+  "modified": "2025-04-13T23:26:43Z",
   "published": "2017-10-24T18:33:37Z",
   "aliases": [
     "CVE-2013-2105"
@@ -30,8 +30,8 @@
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/84378"
     },
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-9hx9-w2j6-rw76"
+      "type": "PACKAGE",
+      "url": "https://github.com/jonleung/show_in_browser"
     },
     {
       "type": "WEB",

@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7pj-3v97-3vxp",
-  "modified": "2023-08-16T23:23:36Z",
+  "modified": "2025-04-13T23:25:48Z",
   "published": "2022-05-17T04:46:09Z",
   "aliases": [
     "CVE-2014-2921"
   ],
   "summary": "Pimcore Vulnerable to PHP Object Injection Attacks",
   "details": "The `getObjectByToken` function in `Newsletter.php` in the `Pimcore_Tool_Newsletter` module in pimcore 1.4.9 through 2.0.0 does not properly handle an object obtained by unserializing Lucene search data, which allows remote attackers to conduct PHP object injection attacks and execute arbitrary code via vectors involving a `Zend_Pdf_ElementFactory_Proxy` object and a pathname with a trailing `\\0` character.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -42,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/pedrib/PoC/blob/caa03645e256a8b50f1101c983d39586ebc467ee/advisories/pimcore-2.1.0.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pedrib/PoC/blob/master/pimcore-2.1.0.txt"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/pimcore/pimcore"
     },
     {
       "type": "WEB",
