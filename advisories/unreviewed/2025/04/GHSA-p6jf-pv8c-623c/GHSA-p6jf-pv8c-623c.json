@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p6jf-pv8c-623c",
+  "modified": "2025-04-13T15:30:21Z",
+  "published": "2025-04-13T15:30:21Z",
+  "aliases": [
+    "CVE-2024-56406"
+  ],
+  "details": "A heap buffer overflow vulnerability was discovered in Perl. \n\nWhen there are non-ASCII bytes in the left-hand-side of the `tr` operator, `S_do_trans_invmap` can overflow the destination pointer `d`.\n\n   $ perl -e '$_ = \"\\x{FF}\" x 1000000; tr/\\xFF/\\x{100}/;' \n   Segmentation fault (core dumped)\n\nIt is believed that this vulnerability can enable Denial of Service and possibly Code Execution attacks on platforms that lack sufficient defenses.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56406"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Perl/perl5/commit/87f42aa0e0096e9a346c9672aa3a0bd3bef8c1dd.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/release/SHAY/perl-5.38.4/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/release/SHAY/perl-5.40.2/changes"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-122"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-13T14:15:14Z"
+  }
+}
