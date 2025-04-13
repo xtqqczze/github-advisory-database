@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmg8-5c63-pg95",
-  "modified": "2023-02-08T18:04:43Z",
+  "modified": "2025-04-13T23:13:50Z",
   "published": "2022-05-14T02:09:21Z",
   "aliases": [
     "CVE-2014-0157"
   ],
   "summary": "OpenStack Dashboard (aka Horizon) vulnerable to Cross-site Scripting",
   "details": "Cross-site scripting (XSS) vulnerability in the Horizon Orchestration dashboard in OpenStack Dashboard (aka Horizon) 2013.2 before 2013.2.4 and icehouse before icehouse-rc2 allows remote attackers to inject arbitrary web script or HTML via the description field of a Heat template.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -66,10 +71,6 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2014/04/08/8"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/66706"
     }
   ],
   "database_specific": {
