@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rc2w-r4jq-7pfx",
-  "modified": "2022-07-07T23:02:09Z",
+  "modified": "2025-04-13T23:22:02Z",
   "published": "2022-05-13T01:05:38Z",
   "aliases": [
     "CVE-2014-0107"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/92023"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/xalan-java"
     },
     {
       "type": "WEB",
