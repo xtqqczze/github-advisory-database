@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rprj-g6xc-p5gq",
-  "modified": "2023-07-04T00:25:07Z",
+  "modified": "2025-04-13T22:44:33Z",
   "published": "2017-10-24T18:33:37Z",
   "aliases": [
     "CVE-2013-4413"
@@ -71,6 +71,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2020-06-16T21:55:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2014-03-11T19:37:02Z"
   }
 }
