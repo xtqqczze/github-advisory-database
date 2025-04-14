@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpr3-cw39-3pxh",
-  "modified": "2023-01-10T15:40:17Z",
+  "modified": "2025-04-14T22:08:43Z",
   "published": "2022-07-15T19:41:47Z",
   "aliases": [
     "CVE-2020-10650"
   ],
-  "summary": "jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization",
+  "summary": "jackson-databind vulnerable to unsafe deserialization",
   "details": "The com.fasterxml.jackson.core:jackson-databind library before version 2.9.10.4 is vulnerable to an Unsafe Deserialization vulnerability when handling interactions related to the class `ignite-jta`.",
   "severity": [
     {
@@ -66,10 +66,6 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/04/msg00032.html"
-    },
-    {
-      "type": "WEB",
-      "url": "https://medium.com/%40cowtowncoder/on-jackson-cves-dont-panic-here-is-what-you-need-to-know-54cd0d6e8062"
     },
     {
       "type": "WEB",
