@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpwc-p365-pqrr",
-  "modified": "2025-04-14T20:58:57Z",
+  "modified": "2025-04-14T21:05:49Z",
   "published": "2022-05-14T02:19:49Z",
   "aliases": [
     "CVE-2016-5362"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "7.0.4"
+              "fixed": "7.0.5"
             }
           ]
         }
@@ -47,7 +47,7 @@
               "introduced": "8.0.0"
             },
             {
-              "last_affected": "8.1.0"
+              "fixed": "8.1.1"
             }
           ]
         }
