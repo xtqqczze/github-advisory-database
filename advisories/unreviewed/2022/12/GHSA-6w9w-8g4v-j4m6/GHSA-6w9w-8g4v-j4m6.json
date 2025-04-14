@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w9w-8g4v-j4m6",
-  "modified": "2023-01-05T18:30:29Z",
+  "modified": "2025-04-14T18:31:42Z",
   "published": "2022-12-26T06:30:22Z",
   "aliases": [
     "CVE-2021-43395"
@@ -57,7 +57,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-667"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

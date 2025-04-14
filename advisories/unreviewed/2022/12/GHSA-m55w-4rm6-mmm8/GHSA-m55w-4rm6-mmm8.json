@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m55w-4rm6-mmm8",
-  "modified": "2023-01-05T18:30:29Z",
+  "modified": "2025-04-14T18:31:42Z",
   "published": "2022-12-26T21:30:24Z",
   "aliases": [
     "CVE-2020-11101"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-287"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

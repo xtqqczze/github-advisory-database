@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7vr-c84p-54jm",
-  "modified": "2022-12-19T15:30:29Z",
+  "modified": "2025-04-14T18:31:41Z",
   "published": "2022-12-09T21:30:47Z",
   "aliases": [
     "CVE-2022-4390"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.synacktiv.com/en/publications/cool-vulns-dont-live-long-netgear-and-pwn2own.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tenable.com/security/research/tra-2022-36%2C"
     },
     {
       "type": "WEB",

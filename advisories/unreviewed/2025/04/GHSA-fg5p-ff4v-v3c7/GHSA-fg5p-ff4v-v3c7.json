@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg5p-ff4v-v3c7",
-  "modified": "2025-04-01T21:31:28Z",
+  "modified": "2025-04-14T18:31:48Z",
   "published": "2025-04-01T21:31:28Z",
   "aliases": [
     "CVE-2025-26056"
   ],
   "details": "A command injection vulnerability exists in the Infinxt iEdge 100 2.1.32 in the Troubleshoot module \"MTR\" functionality. The vulnerability is due to improper validation of user-supplied input in the mtrIp parameter. An attacker can exploit this flaw to execute arbitrary operating system commands on the underlying system with the same privileges as the web application process.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-77"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T19:15:44Z"
