@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-683w-6h9j-57wq",
-  "modified": "2021-09-01T22:41:27Z",
+  "modified": "2025-04-14T22:05:04Z",
   "published": "2018-10-18T17:21:47Z",
   "aliases": [
     "CVE-2016-10006"
   ],
-  "summary": "Moderate severity vulnerability that affects org.owasp.antisamy:antisamy",
+  "summary": "OWASP AntiSamy vulnerable to Cross-site Scripting",
   "details": "In OWASP AntiSamy before 1.5.5, by submitting a specially crafted input (a tag that supports style with active content), you could bypass the library protections and supply executable code. The impact is XSS.",
   "severity": [
     {
@@ -45,20 +45,16 @@
       "url": "https://github.com/nahsra/antisamy/issues/2"
     },
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-683w-6h9j-57wq"
-    },
-    {
       "type": "PACKAGE",
       "url": "https://github.com/nahsra/antisamy"
     },
     {
       "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/95101"
+      "url": "https://web.archive.org/web/20170214025813/http://www.securityfocus.com/bid/95101"
     },
     {
       "type": "WEB",
-      "url": "http://www.securitytracker.com/id/1037532"
+      "url": "https://web.archive.org/web/20201207192053/http://www.securitytracker.com/id/1037532"
     }
   ],
   "database_specific": {
@@ -68,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2020-06-16T21:18:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2016-12-24T18:59:00Z"
   }
 }
