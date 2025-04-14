@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5f37-gxvh-23v6",
-  "modified": "2023-09-06T13:51:03Z",
+  "modified": "2025-04-14T22:06:13Z",
   "published": "2020-03-05T22:09:17Z",
   "aliases": [
     "CVE-2016-10033"
@@ -123,23 +123,12 @@
     {
       "type": "WEB",
       "url": "http://www.rapid7.com/db/modules/exploit/multi/http/phpmailer_arg_injection"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/archive/1/539963/100/0/threaded"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/95108"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securitytracker.com/id/1037533"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-77"
+      "CWE-77",
+      "CWE-88"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,

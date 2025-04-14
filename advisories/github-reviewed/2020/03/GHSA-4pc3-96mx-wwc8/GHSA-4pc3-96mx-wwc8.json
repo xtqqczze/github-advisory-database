@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4pc3-96mx-wwc8",
-  "modified": "2023-09-06T13:48:23Z",
+  "modified": "2025-04-14T22:05:57Z",
   "published": "2020-03-05T22:09:14Z",
   "aliases": [
     "CVE-2016-10045"
@@ -99,18 +99,6 @@
     {
       "type": "WEB",
       "url": "http://www.rapid7.com/db/modules/exploit/multi/http/phpmailer_arg_injection"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/archive/1/539967/100/0/threaded"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/95130"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securitytracker.com/id/1037533"
     }
   ],
   "database_specific": {
