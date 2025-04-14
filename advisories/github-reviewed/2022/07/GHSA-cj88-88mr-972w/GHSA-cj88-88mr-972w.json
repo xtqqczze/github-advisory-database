@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj88-88mr-972w",
-  "modified": "2023-01-06T03:13:53Z",
+  "modified": "2025-04-14T22:13:25Z",
   "published": "2022-07-18T17:03:23Z",
   "aliases": [
     "CVE-2021-35065"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/gulpjs/glob-parent/releases/tag/v6.0.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20230214-0010"
     },
     {
       "type": "WEB",
