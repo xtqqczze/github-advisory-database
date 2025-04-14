@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpc3-48hj-vqgf",
-  "modified": "2025-03-27T18:31:27Z",
+  "modified": "2025-04-14T21:32:23Z",
   "published": "2025-03-27T18:31:27Z",
   "aliases": [
     "CVE-2023-53008"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncifs: fix potential memory leaks in session setup\n\nMake sure to free cifs_ses::auth_key.response before allocating it as\nwe might end up leaking memory in reconnect or mounting.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:49Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9rq-mhxg-686q",
-  "modified": "2022-05-14T00:55:31Z",
+  "modified": "2025-04-14T21:32:17Z",
   "published": "2022-05-14T00:55:31Z",
   "aliases": [
     "CVE-2018-1000156"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000156"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/web/20180405231329/https://twitter.com/kurtseifried/status/982028968877436928"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2pc-4ww4-m54p",
-  "modified": "2025-03-27T18:31:24Z",
+  "modified": "2025-04-14T21:32:23Z",
   "published": "2025-03-27T18:31:24Z",
   "aliases": [
     "CVE-2022-49746"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: imx-sdma: Fix a possible memory leak in sdma_transfer_init\n\nIf the function sdma_load_context() fails, the sdma_desc will be\nfreed, but the allocated desc->bd is forgot to be freed.\n\nWe already met the sdma_load_context() failure case and the log as\nbelow:\n[ 450.699064] imx-sdma 30bd0000.dma-controller: Timeout waiting for CH0 ready\n...\n\nIn this case, the desc->bd will not be freed without this change.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:39Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57pw-gf47-fr76",
-  "modified": "2025-03-27T18:31:24Z",
+  "modified": "2025-04-14T21:32:23Z",
   "published": "2025-03-27T18:31:24Z",
   "aliases": [
     "CVE-2022-49756"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nphy: usb: sunplus: Fix potential null-ptr-deref in sp_usb_phy_probe()\n\nsp_usb_phy_probe() will call platform_get_resource_byname() that may fail\nand return NULL. devm_ioremap() will use usbphy->moon4_res_mem->start as\ninput, which may causes null-ptr-deref. Check the ret value of\nplatform_get_resource_byname() to avoid the null-ptr-deref.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:40Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qj8-x8gq-98wm",
-  "modified": "2025-03-27T18:31:24Z",
+  "modified": "2025-04-14T21:32:23Z",
   "published": "2025-03-27T18:31:24Z",
   "aliases": [
     "CVE-2022-49752"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndevice property: fix of node refcount leak in fwnode_graph_get_next_endpoint()\n\nThe 'parent' returned by fwnode_graph_get_port_parent()\nwith refcount incremented when 'prev' is not NULL, it\nneeds be put when finish using it.\n\nBecause the parent is const, introduce a new variable to\nstore the returned fwnode, then put it before returning\nfrom fwnode_graph_get_next_endpoint().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:40Z"

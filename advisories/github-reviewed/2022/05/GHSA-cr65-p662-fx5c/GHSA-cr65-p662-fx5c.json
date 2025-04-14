@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr65-p662-fx5c",
-  "modified": "2025-04-12T13:01:41Z",
+  "modified": "2025-04-14T21:33:31Z",
   "published": "2022-05-14T02:08:58Z",
   "aliases": [
     "CVE-2016-5733"
   ],
+  "summary": "phpMyAdmin vulnerable to Cross-site Scripting",
   "details": "Multiple cross-site scripting (XSS) vulnerabilities in phpMyAdmin 4.0.x before 4.0.10.16, 4.4.x before 4.4.15.7, and 4.6.x before 4.6.3 allow remote attackers to inject arbitrary web script or HTML via vectors involving (1) a crafted table name that is mishandled during privilege checking in table_row.phtml, (2) a crafted mysqld log_bin directive that is mishandled in log_selector.phtml, (3) the Transformation implementation, (4) AJAX error handling in js/ajax.js, (5) the Designer implementation, (6) the charts implementation in js/tbl_chart.js, or (7) the zoom-search implementation in rows_zoom.phtml.",
   "severity": [
     {
@@ -13,7 +14,65 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "phpmyadmin/phpmyadmin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.0.10.0"
+            },
+            {
+              "fixed": "4.0.10.16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "phpmyadmin/phpmyadmin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.4.15.0"
+            },
+            {
+              "fixed": "4.4.15.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "phpmyadmin/phpmyadmin"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.6.0"
+            },
+            {
+              "fixed": "4.6.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -52,8 +111,16 @@
       "url": "https://github.com/phpmyadmin/phpmyadmin/commit/d648ade18d6cbb796a93261491c121f078df2d88"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/phpmyadmin/phpmyadmin"
+    },
+    {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201701-32"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/web/20200227223017/http://www.securityfocus.com/bid/91390"
     },
     {
       "type": "WEB",
@@ -70,10 +137,6 @@
     {
       "type": "WEB",
       "url": "http://www.debian.org/security/2016/dsa-3627"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/91390"
     }
   ],
   "database_specific": {
@@ -81,8 +144,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-14T21:33:31Z",
     "nvd_published_at": "2016-07-03T01:59:00Z"
   }
 }
