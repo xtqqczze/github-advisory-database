@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prc3-7f44-w48j",
-  "modified": "2024-02-22T16:55:24Z",
+  "modified": "2025-04-14T21:41:44Z",
   "published": "2022-05-14T01:10:18Z",
   "aliases": [
     "CVE-2014-0119"
@@ -66,6 +66,120 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat-catalina"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat-catalina"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.0.0"
+            },
+            {
+              "fixed": "7.0.54"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat-catalina"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0.0"
+            },
+            {
+              "fixed": "8.0.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat-jasper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.0.40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat-jasper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.0.0"
+            },
+            {
+              "fixed": "7.0.54"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat-jasper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.0.0"
+            },
+            {
+              "fixed": "8.0.6"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -111,31 +225,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/apache/tomcat/commit/ce70ee6b8fe437a498a375215011056702b0c481"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/apache/tomcat/commit/ad3b34a290a0255d2a4c356a3611ab41ed9d04f5"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/apache/tomcat/commit/934f884f330dad192d2c5dc950e28f4cd281461b"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/apache/tomcat/commit/769477b9bc8442db3f571385fa0c3e206242cbf1"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/apache/tomcat/commit/6246d8307fb5f2b4ff0b0f4d6d1b0250dff01a81"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/apache/tomcat/commit/5aae1323c31d643afa9f2db80713b8e97b5123af"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/apache/tomcat/commit/5517c5517e8a7ddb994504f0c5c05001a376b10c"
+      "url": "https://github.com/apache/tomcat/commit/080878ea519d8c74c53721a9ebf7be6fcf6f1f2f"
     },
     {
       "type": "WEB",
@@ -143,7 +233,31 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/apache/tomcat/commit/080878ea519d8c74c53721a9ebf7be6fcf6f1f2f"
+      "url": "https://github.com/apache/tomcat/commit/5517c5517e8a7ddb994504f0c5c05001a376b10c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/5aae1323c31d643afa9f2db80713b8e97b5123af"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/6246d8307fb5f2b4ff0b0f4d6d1b0250dff01a81"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/769477b9bc8442db3f571385fa0c3e206242cbf1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/934f884f330dad192d2c5dc950e28f4cd281461b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/ad3b34a290a0255d2a4c356a3611ab41ed9d04f5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/ce70ee6b8fe437a498a375215011056702b0c481"
     },
     {
       "type": "PACKAGE",
@@ -155,7 +269,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r9136ff5b13e4f1941360b5a309efee2c114a14855578c3a2cbe5d19c%40%3Cdev.tomcat.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r587e50b86c1a96ee301f751d50294072d142fd6dc08a8987ae9f3a9b@%3Cdev.tomcat.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r587e50b86c1a96ee301f751d50294072d142fd6dc08a8987ae9f3a9b%40%3Cdev.tomcat.apache.org%3E"
     },
     {
       "type": "WEB",
@@ -163,7 +285,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r03c597a64de790ba42c167efacfa23300c3d6c9fe589ab87fe02859c%40%3Cdev.tomcat.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/b8a1bf18155b552dcf9a928ba808cbadad84c236d85eab3033662cfb@%3Cdev.tomcat.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/b8a1bf18155b552dcf9a928ba808cbadad84c236d85eab3033662cfb%40%3Cdev.tomcat.apache.org%3E"
     },
     {
       "type": "WEB",
@@ -171,11 +301,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/b84ad1258a89de5c9c853c7f2d3ad77e5b8b2930be9e132d5cef6b95%40%3Cdev.tomcat.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/39ae1f0bd5867c15755a6f959b271ade1aea04ccdc3b2e639dcd903b@%3Cdev.tomcat.apache.org%3E"
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/39ae1f0bd5867c15755a6f959b271ade1aea04ccdc3b2e639dcd903b%40%3Cdev.tomcat.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/37220405a377c0182d2afdbc36461c4783b2930fbeae3a17f1333113@%3Cdev.tomcat.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/37220405a377c0182d2afdbc36461c4783b2930fbeae3a17f1333113%40%3Cdev.tomcat.apache.org%3E"
     },
     {
       "type": "WEB",
@@ -212,6 +354,18 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2014/May/141"
+    },
+    {
+      "type": "WEB",
+      "url": "http://secunia.com/advisories/59732"
+    },
+    {
+      "type": "WEB",
+      "url": "http://secunia.com/advisories/59873"
+    },
+    {
+      "type": "WEB",
+      "url": "http://secunia.com/advisories/60729"
     },
     {
       "type": "WEB",
@@ -299,6 +453,18 @@
     },
     {
       "type": "WEB",
+      "url": "http://www.mandriva.com/security/advisories?name=MDVSA-2015:052"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mandriva.com/security/advisories?name=MDVSA-2015:053"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.mandriva.com/security/advisories?name=MDVSA-2015:084"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.oracle.com/technetwork/security-advisory/cpuoct2016-2881722.html"
     },
     {
@@ -308,6 +474,18 @@
     {
       "type": "WEB",
       "url": "http://www.oracle.com/technetwork/topics/security/cpuoct2014-1972960.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/archive/1/534161/100/0/threaded"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securityfocus.com/bid/67669"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.securitytracker.com/id/1030298"
     },
     {
       "type": "WEB",
