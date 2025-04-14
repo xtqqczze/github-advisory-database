@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68qq-3phh-53j7",
-  "modified": "2025-04-12T13:04:43Z",
+  "modified": "2025-04-14T21:46:54Z",
   "published": "2022-05-14T01:04:20Z",
   "aliases": [
     "CVE-2016-3110"
   ],
+  "summary": "mod_cluster Denial of Service vulnerability",
   "details": "mod_cluster, as used in Red Hat JBoss Web Server 2.1, allows remote attackers to cause a denial of service (Apache http server crash) via an MCMP message containing a series of = (equals) characters after a legitimate element.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.jboss.mod_cluster:mod_cluster-parent"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.3.Final"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1326320"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/modcluster/mod_cluster"
     },
     {
       "type": "WEB",
@@ -49,6 +74,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://web.archive.org/web/20200227231527/http://www.securityfocus.com/bid/92584"
+    },
+    {
+      "type": "WEB",
       "url": "http://rhn.redhat.com/errata/RHSA-2016-1648.html"
     },
     {
@@ -70,10 +99,6 @@
     {
       "type": "WEB",
       "url": "http://rhn.redhat.com/errata/RHSA-2016-2056.html"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/92584"
     }
   ],
   "database_specific": {
@@ -81,8 +106,8 @@
       "CWE-20"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-14T21:46:53Z",
     "nvd_published_at": "2016-09-26T14:59:00Z"
   }
 }
