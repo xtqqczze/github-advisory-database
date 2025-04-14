@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqxp-xp9v-vvx6",
-  "modified": "2023-09-27T21:55:57Z",
+  "modified": "2025-04-14T21:53:44Z",
   "published": "2017-10-24T18:33:37Z",
   "aliases": [
     "CVE-2012-6662"
@@ -107,10 +107,6 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/98697"
-    },
-    {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-qqxp-xp9v-vvx6"
     },
     {
       "type": "PACKAGE",

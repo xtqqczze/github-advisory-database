@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-685w-vc84-wxcx",
-  "modified": "2023-01-21T03:28:18Z",
+  "modified": "2025-04-14T21:54:39Z",
   "published": "2018-09-17T21:55:22Z",
   "aliases": [
     "CVE-2014-8144"
   ],
-  "summary": "Doorkeeper contains Cross-site Request Forgery",
+  "summary": "Doorkeeper vulnerable to Cross-site Request Forgery",
   "details": "Cross-site request forgery (CSRF) vulnerability in doorkeeper before 1.4.1 allows remote attackers to hijack the authentication of unspecified victims for requests that read a user OAuth authorization code via unknown vectors.",
   "severity": [],
   "affected": [
@@ -38,10 +38,6 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/99342"
-    },
-    {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-685w-vc84-wxcx"
     },
     {
       "type": "PACKAGE",
