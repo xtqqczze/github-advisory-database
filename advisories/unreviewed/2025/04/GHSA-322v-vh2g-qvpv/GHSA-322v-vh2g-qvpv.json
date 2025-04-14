@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-322v-vh2g-qvpv",
+  "modified": "2025-04-14T09:30:24Z",
+  "published": "2025-04-14T09:30:24Z",
+  "aliases": [
+    "CVE-2025-32093"
+  ],
+  "details": "Mattermost versions 10.5.x <= 10.5.1, 10.4.x <= 10.4.3, 9.11.x <= 9.11.9 fail to restrict certain operations on system admins to only other system admins, which allows delegated granular administration users with the \"Edit Other Users\" permission to perform unauthorized modifications to system administrators via improper permission validation.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32093"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-14T07:15:14Z"
+  }
+}
