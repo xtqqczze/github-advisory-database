@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88f6-79x2-xqf3",
-  "modified": "2025-04-12T12:58:17Z",
+  "modified": "2025-04-14T20:40:30Z",
   "published": "2022-05-17T03:56:49Z",
   "aliases": [
     "CVE-2016-0710"
   ],
+  "summary": "Apache Jetspeed vulnerable to SQL Injection",
   "details": "Multiple SQL injection vulnerabilities in the User Manager service in Apache Jetspeed before 2.3.1 allow remote attackers to execute arbitrary SQL commands via the (1) role or (2) user parameter to services/usermanager/users/.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.portals.jetspeed-2:jetspeed"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -53,8 +74,8 @@
       "CWE-89"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-14T20:40:29Z",
     "nvd_published_at": "2016-04-11T14:59:00Z"
   }
 }
