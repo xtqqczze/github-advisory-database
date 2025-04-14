@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vccp-5v5h-p8m6",
-  "modified": "2023-08-16T23:29:58Z",
+  "modified": "2025-04-14T21:45:04Z",
   "published": "2022-05-17T04:42:47Z",
   "aliases": [
     "CVE-2014-3946"
@@ -40,12 +40,16 @@
       "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/typo3/cms/CVE-2014-3946.yaml"
     },
     {
-      "type": "WEB",
-      "url": "https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001"
+      "type": "PACKAGE",
+      "url": "https://github.com/TYPO3/typo3"
     },
     {
       "type": "WEB",
-      "url": "http://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001"
+      "url": "https://typo3.org/security/advisory/typo3-core-sa-2014-001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-001"
     },
     {
       "type": "WEB",

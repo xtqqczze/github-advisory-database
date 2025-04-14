@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2fx-8r76-gh36",
-  "modified": "2024-10-24T21:56:33Z",
+  "modified": "2025-04-14T21:45:58Z",
   "published": "2018-11-06T23:14:22Z",
   "aliases": [
     "CVE-2013-7323"
   ],
-  "summary": "High severity vulnerability that affects python-gnupg",
+  "summary": "python-gnupg allows context-dependent attackers to execute arbitrary commands via shell metacharacters",
   "details": "python-gnupg before 0.3.5 allows context-dependent attackers to execute arbitrary commands via shell metacharacters in unspecified vectors.",
   "severity": [
     {
@@ -52,10 +52,6 @@
       "url": "https://code.google.com/p/python-gnupg"
     },
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-c2fx-8r76-gh36"
-    },
-    {
       "type": "WEB",
       "url": "https://github.com/pypa/advisory-database/tree/main/vulns/python-gnupg/PYSEC-2014-89.yaml"
     },
@@ -85,6 +81,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2020-06-16T21:29:59Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2014-06-09T19:55:10Z"
   }
 }
