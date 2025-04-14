@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p42v-4mrm-3j3g",
-  "modified": "2025-04-10T15:31:47Z",
+  "modified": "2025-04-14T15:31:55Z",
   "published": "2025-04-03T09:32:15Z",
   "aliases": [
     "CVE-2025-21996"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/radeon: fix uninitialized size issue in radeon_vce_cs_parse()\n\nOn the off chance that command stream passed from userspace via\nioctl() call to radeon_vce_cs_parse() is weirdly crafted and\nfirst command to execute is to encode (case 0x03000001), the function\nin question will attempt to call radeon_vce_cs_reloc() with size\nargument that has not been properly initialized. Specifically, 'size'\nwill point to 'tmp' variable before the latter had a chance to be\nassigned any value.\n\nPlay it safe and init 'tmp' with 0, thus ensuring that\nradeon_vce_cs_reloc() will catch an early error in cases like these.\n\nFound by Linux Verification Center (linuxtesting.org) with static\nanalysis tool SVACE.\n\n(cherry picked from commit 2d52de55f9ee7aaee0e09ac443f77855989c6b68)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-908"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-03T08:15:15Z"

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f4vp-qjpg-x8wq",
+  "modified": "2025-04-14T15:31:58Z",
+  "published": "2025-04-14T15:31:58Z",
+  "aliases": [
+    "CVE-2025-32906"
+  ],
+  "details": "A flaw was found in libsoup, where the soup_headers_parse_request() function may be vulnerable to an out-of-bound read. This flaw allows a malicious user to use a specially crafted HTTP request to crash the HTTP server.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32906"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-32906"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2359341"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-14T14:15:24Z"
+  }
+}
