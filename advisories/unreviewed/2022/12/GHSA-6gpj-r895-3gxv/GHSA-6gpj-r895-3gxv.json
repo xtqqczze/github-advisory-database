@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gpj-r895-3gxv",
-  "modified": "2022-12-31T00:30:24Z",
+  "modified": "2025-04-15T15:30:45Z",
   "published": "2022-12-25T06:30:21Z",
   "aliases": [
     "CVE-2022-44013"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-287"
+      "CWE-287",
+      "CWE-306"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

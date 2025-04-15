@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3mp-j53v-44vx",
-  "modified": "2023-01-04T18:31:00Z",
+  "modified": "2025-04-15T15:30:35Z",
   "published": "2022-12-22T21:30:28Z",
   "aliases": [
     "CVE-2022-45406"
@@ -38,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-416",
       "CWE-787"
     ],
     "severity": "CRITICAL",

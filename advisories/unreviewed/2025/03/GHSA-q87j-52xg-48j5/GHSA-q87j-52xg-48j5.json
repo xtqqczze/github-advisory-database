@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q87j-52xg-48j5",
-  "modified": "2025-04-01T21:30:46Z",
+  "modified": "2025-04-15T15:30:52Z",
   "published": "2025-03-28T21:30:47Z",
   "aliases": [
     "CVE-2025-22953"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/maliktawfiq/CVE-2025-22953"
+    },
+    {
+      "type": "WEB",
       "url": "https://tinted-hollyhock-92d.notion.site/EPICOR-HCM-Unauthenticated-Blind-SQL-Injection-CVE-2025-22953-170f1fdee211803988d1c9255a8cb904?pvs=4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.epiusers.help/t/alert-hcm-security-patch/124777"
     }
   ],
   "database_specific": {

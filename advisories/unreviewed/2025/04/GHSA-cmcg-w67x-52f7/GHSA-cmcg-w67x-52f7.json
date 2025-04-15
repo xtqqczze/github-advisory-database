@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmcg-w67x-52f7",
-  "modified": "2025-04-04T18:30:55Z",
+  "modified": "2025-04-15T15:30:52Z",
   "published": "2025-04-04T18:30:55Z",
   "aliases": [
     "CVE-2025-25178"
   ],
   "details": "Software installed and run as a non-privileged user may conduct improper GPU system calls to cause kernel system memory corruption.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-1284"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-04T16:15:18Z"

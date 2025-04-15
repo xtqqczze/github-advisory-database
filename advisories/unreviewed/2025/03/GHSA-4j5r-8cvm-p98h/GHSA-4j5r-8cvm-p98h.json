@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j5r-8cvm-p98h",
-  "modified": "2025-03-27T18:31:26Z",
+  "modified": "2025-04-15T15:30:49Z",
   "published": "2025-03-27T18:31:26Z",
   "aliases": [
     "CVE-2023-52988"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: hda/via: Avoid potential array out-of-bound in add_secret_dac_path()\n\nsnd_hda_get_connections() can return a negative error code.\nIt may lead to accessing 'conn' array at a negative index.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:46Z"

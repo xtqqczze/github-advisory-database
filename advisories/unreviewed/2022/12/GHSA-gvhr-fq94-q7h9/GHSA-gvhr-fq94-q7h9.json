@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvhr-fq94-q7h9",
-  "modified": "2023-01-05T15:30:29Z",
+  "modified": "2025-04-15T15:30:36Z",
   "published": "2022-12-22T21:30:27Z",
   "aliases": [
     "CVE-2022-45414"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-200",
       "CWE-668"
     ],
     "severity": "HIGH",

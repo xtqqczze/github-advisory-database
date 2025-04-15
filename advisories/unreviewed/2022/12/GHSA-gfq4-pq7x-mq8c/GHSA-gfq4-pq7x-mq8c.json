@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfq4-pq7x-mq8c",
-  "modified": "2022-12-31T00:30:23Z",
+  "modified": "2025-04-15T15:30:34Z",
   "published": "2022-12-22T21:30:29Z",
   "aliases": [
     "CVE-2022-29917"
@@ -38,7 +38,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-617"
+      "CWE-617",
+      "CWE-787"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

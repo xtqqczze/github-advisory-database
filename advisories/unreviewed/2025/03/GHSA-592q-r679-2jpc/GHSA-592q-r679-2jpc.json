@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-592q-r679-2jpc",
-  "modified": "2025-03-27T18:31:26Z",
+  "modified": "2025-04-15T15:30:48Z",
   "published": "2025-03-27T18:31:26Z",
   "aliases": [
     "CVE-2023-52979"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsquashfs: harden sanity check in squashfs_read_xattr_id_table\n\nWhile mounting a corrupted filesystem, a signed integer '*xattr_ids' can\nbecome less than zero.  This leads to the incorrect computation of 'len'\nand 'indexes' values which can cause null-ptr-deref in copy_bio_to_actor()\nor out-of-bounds accesses in the next sanity checks inside\nsquashfs_read_xattr_id_table().\n\nFound by Linux Verification Center (linuxtesting.org) with Syzkaller.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:45Z"

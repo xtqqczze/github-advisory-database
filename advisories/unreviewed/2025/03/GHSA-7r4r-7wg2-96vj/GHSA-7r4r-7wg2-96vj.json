@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7r4r-7wg2-96vj",
-  "modified": "2025-03-27T18:31:26Z",
+  "modified": "2025-04-15T15:30:48Z",
   "published": "2025-03-27T18:31:26Z",
   "aliases": [
     "CVE-2023-52984"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: phy: dp83822: Fix null pointer access on DP83825/DP83826 devices\n\nThe probe() function is only used for the DP83822 PHY, leaving the\nprivate data pointer uninitialized for the smaller DP83825/26 models.\nWhile all uses of the private data structure are hidden in 82822 specific\ncallbacks, configuring the interrupt is shared across all models.\nThis causes a NULL pointer dereference on the smaller PHYs as it accesses\nthe private data unchecked. Verifying the pointer avoids that.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:45Z"

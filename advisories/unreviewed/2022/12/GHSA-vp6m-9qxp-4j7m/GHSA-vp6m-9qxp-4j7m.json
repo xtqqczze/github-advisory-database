@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp6m-9qxp-4j7m",
-  "modified": "2023-01-04T18:31:00Z",
+  "modified": "2025-04-15T15:30:41Z",
   "published": "2022-12-23T21:30:18Z",
   "aliases": [
     "CVE-2022-45709"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://hackmd.io/%40AAN506JzR6urM5U8fNh1ng/BkFpXcsSs"
+    },
+    {
+      "type": "WEB",
       "url": "https://hackmd.io/@AAN506JzR6urM5U8fNh1ng/BkFpXcsSs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/@chaosisaladdar/BkFpXcsSs"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmm6-5vw5-42h2",
-  "modified": "2025-03-28T18:33:11Z",
+  "modified": "2025-04-15T15:30:46Z",
   "published": "2025-03-27T18:31:23Z",
   "aliases": [
     "CVE-2025-28138"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-28138"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Zerone0x00/CVE/blob/main/TOTOLINK/CVE-2025-28138.md"
     },
     {
       "type": "WEB",

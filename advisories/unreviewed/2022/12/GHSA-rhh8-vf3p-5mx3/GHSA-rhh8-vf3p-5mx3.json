@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhh8-vf3p-5mx3",
-  "modified": "2023-01-04T21:30:17Z",
+  "modified": "2025-04-15T15:30:39Z",
   "published": "2022-12-22T21:30:27Z",
   "aliases": [
     "CVE-2022-46883"
@@ -29,7 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-787",
+      "CWE-88"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

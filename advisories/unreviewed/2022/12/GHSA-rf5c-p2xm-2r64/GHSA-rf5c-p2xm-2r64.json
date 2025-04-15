@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf5c-p2xm-2r64",
-  "modified": "2023-01-03T21:30:20Z",
+  "modified": "2025-04-15T15:30:34Z",
   "published": "2022-12-22T21:30:29Z",
   "aliases": [
     "CVE-2022-29918"
