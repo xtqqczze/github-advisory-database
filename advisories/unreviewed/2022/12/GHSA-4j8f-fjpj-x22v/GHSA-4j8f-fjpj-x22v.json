@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j8f-fjpj-x22v",
-  "modified": "2023-01-04T18:30:59Z",
+  "modified": "2025-04-15T06:30:34Z",
   "published": "2022-12-23T21:30:19Z",
   "aliases": [
     "CVE-2022-46568"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-46568"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/%400dayResearch/B1SZP0aIo"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/%400dayResearch/SetSysEmailSettings"
     },
     {
       "type": "WEB",

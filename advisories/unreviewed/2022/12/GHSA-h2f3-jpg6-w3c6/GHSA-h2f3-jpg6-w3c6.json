@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2f3-jpg6-w3c6",
-  "modified": "2023-01-04T18:30:58Z",
+  "modified": "2025-04-15T06:30:34Z",
   "published": "2022-12-23T21:30:19Z",
   "aliases": [
     "CVE-2022-46569"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-46569"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/%400dayResearch/SetWLanRadioSecurity"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/%400dayResearch/r1R6sWRUs"
     },
     {
       "type": "WEB",
