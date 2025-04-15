@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8mv-f94r-2px4",
-  "modified": "2025-04-14T18:31:49Z",
+  "modified": "2025-04-15T12:30:24Z",
   "published": "2025-04-14T18:31:49Z",
   "aliases": [
     "CVE-2025-22372"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cisrt.divd.nl/CVE-2025-22372"
+    },
+    {
+      "type": "WEB",
+      "url": "https://csirt.divd.nl/CVE-2025-22372"
     },
     {
       "type": "WEB",
