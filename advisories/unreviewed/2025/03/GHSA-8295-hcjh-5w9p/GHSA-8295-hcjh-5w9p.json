@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8295-hcjh-5w9p",
-  "modified": "2025-03-27T18:31:25Z",
+  "modified": "2025-04-15T18:31:41Z",
   "published": "2025-03-27T18:31:25Z",
   "aliases": [
     "CVE-2023-52930"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915: Fix potential bit_17 double-free\n\nA userspace with multiple threads racing I915_GEM_SET_TILING to set the\ntiling to I915_TILING_NONE could trigger a double free of the bit_17\nbitmask.  (Or conversely leak memory on the transition to tiled.)  Move\nallocation/free'ing of the bitmask within the section protected by the\nobj lock.\n\n[tursulin: Correct fixes tag and added cc stable.]\n(cherry picked from commit 10e0cbaaf1104f449d695c80bcacf930dcd3c42e)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:42Z"

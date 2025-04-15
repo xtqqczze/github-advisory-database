@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46rh-mcf3-6v59",
-  "modified": "2022-12-30T18:30:44Z",
+  "modified": "2025-04-15T18:31:31Z",
   "published": "2022-12-22T21:30:29Z",
   "aliases": [
     "CVE-2022-34484"
@@ -38,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-416",
       "CWE-617"
     ],
     "severity": "HIGH",

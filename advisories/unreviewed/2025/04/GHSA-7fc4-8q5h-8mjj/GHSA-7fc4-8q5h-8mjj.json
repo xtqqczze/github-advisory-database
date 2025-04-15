@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fc4-8q5h-8mjj",
-  "modified": "2025-04-01T18:30:50Z",
+  "modified": "2025-04-15T18:31:42Z",
   "published": "2025-04-01T18:30:50Z",
   "aliases": [
     "CVE-2025-21905"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: limit printed string from FW file\n\nThere's no guarantee here that the file is always with a\nNUL-termination, so reading the string may read beyond the\nend of the TLV. If that's the last TLV in the file, it can\nperhaps even read beyond the end of the file buffer.\n\nFix that by limiting the print format to the size of the\nbuffer we have.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:20Z"

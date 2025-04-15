@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-547p-jx2r-224g",
-  "modified": "2023-01-04T18:31:01Z",
+  "modified": "2025-04-15T18:31:35Z",
   "published": "2022-12-22T21:30:28Z",
   "aliases": [
     "CVE-2022-45404"
@@ -37,7 +37,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-451"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

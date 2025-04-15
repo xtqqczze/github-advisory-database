@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j57r-qmgx-xp34",
-  "modified": "2025-04-01T18:30:50Z",
+  "modified": "2025-04-15T18:31:42Z",
   "published": "2025-04-01T18:30:50Z",
   "aliases": [
     "CVE-2025-21901"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRDMA/bnxt_re: Add sanity checks on rdev validity\n\nThere is a possibility that ulp_irq_stop and ulp_irq_start\ncallbacks will be called when the device is in detached state.\nThis can cause a crash due to NULL pointer dereference as\nthe rdev is already freed.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-01T16:15:20Z"
