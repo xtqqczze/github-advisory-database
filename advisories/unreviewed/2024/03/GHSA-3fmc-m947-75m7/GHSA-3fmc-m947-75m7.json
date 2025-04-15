@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fmc-m947-75m7",
-  "modified": "2024-03-15T15:30:43Z",
+  "modified": "2025-04-15T21:31:26Z",
   "published": "2024-03-15T15:30:43Z",
   "aliases": [
     "CVE-2024-27193"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in PayU PayU India allows Reflected XSS.This issue affects PayU India: from n/a through 3.8.2.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in PayU PayU India allows Reflected XSS.This issue affects PayU India: from n/a through 3.8.2.",
   "severity": [
     {
       "type": "CVSS_V3",

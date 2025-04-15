@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fmf-h6vh-qp27",
-  "modified": "2025-03-27T18:31:28Z",
+  "modified": "2025-04-15T21:31:30Z",
   "published": "2025-03-27T18:31:28Z",
   "aliases": [
     "CVE-2023-53020"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nl2tp: close all race conditions in l2tp_tunnel_register()\n\nThe code in l2tp_tunnel_register() is racy in several ways:\n\n1. It modifies the tunnel socket _after_ publishing it.\n\n2. It calls setup_udp_tunnel_sock() on an existing socket without\n   locking.\n\n3. It changes sock lock class on fly, which triggers many syzbot\n   reports.\n\nThis patch amends all of them by moving socket initialization code\nbefore publishing and under sock lock. As suggested by Jakub, the\nl2tp lockdep class is not necessary as we can just switch to\nbh_lock_sock_nested().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:51Z"

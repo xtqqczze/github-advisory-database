@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3mg-hw7c-8v25",
-  "modified": "2025-03-27T18:31:28Z",
+  "modified": "2025-04-15T21:31:29Z",
   "published": "2025-03-27T18:31:28Z",
   "aliases": [
     "CVE-2023-53014"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndmaengine: tegra: Fix memory leak in terminate_all()\n\nTerminate vdesc when terminating an ongoing transfer.\nThis will ensure that the vdesc is present in the desc_terminated list\nThe descriptor will be freed later in desc_free_list().\n\nThis fixes the memory leaks which can happen when terminating an\nongoing transfer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-27T17:15:50Z"

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w545-288r-rf3p",
-  "modified": "2024-03-21T03:35:47Z",
+  "modified": "2025-04-15T21:31:26Z",
   "published": "2023-09-18T21:30:43Z",
   "aliases": [
     "CVE-2023-41965"
   ],
-  "details": "** UNSUPPPORTED WHEN ASSIGNED ** \n\n\n\n\nSending some requests in the web application of the vulnerable device allows information to be obtained due to the lack of security in the authentication process.\n\n\n\n\n\n",
+  "details": "** UNSUPPPORTED WHEN ASSIGNED ** \n\n\n\n\nSending some requests in the web application of the vulnerable device allows information to be obtained due to the lack of security in the authentication process.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-921",
       "CWE-922"
     ],
     "severity": "HIGH",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57r3-6fx2-p6rg",
-  "modified": "2024-04-01T15:30:29Z",
+  "modified": "2025-04-15T21:31:26Z",
   "published": "2024-04-01T15:30:29Z",
   "aliases": [
     "CVE-2024-31099"
   ],
-  "details": "Missing Authorization vulnerability in Averta Shortcodes and extra features for Phlox theme.This issue affects Shortcodes and extra features for Phlox theme: from n/a through 2.15.5.\n\n",
+  "details": "Missing Authorization vulnerability in Averta Shortcodes and extra features for Phlox theme.This issue affects Shortcodes and extra features for Phlox theme: from n/a through 2.15.5.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wv7-r7c6-6vxj",
-  "modified": "2024-03-29T18:30:42Z",
+  "modified": "2025-04-15T21:31:26Z",
   "published": "2024-03-29T18:30:42Z",
   "aliases": [
     "CVE-2024-30482"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Brice CAPOBIANCO Simple Revisions Delete.This issue affects Simple Revisions Delete: from n/a through 1.5.3.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Brice CAPOBIANCO Simple Revisions Delete.This issue affects Simple Revisions Delete: from n/a through 1.5.3.",
   "severity": [
     {
       "type": "CVSS_V3",
