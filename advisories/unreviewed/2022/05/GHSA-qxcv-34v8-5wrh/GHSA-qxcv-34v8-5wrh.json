@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxcv-34v8-5wrh",
-  "modified": "2022-05-13T01:28:30Z",
+  "modified": "2025-04-15T00:31:38Z",
   "published": "2022-05-13T01:28:30Z",
   "aliases": [
     "CVE-2010-5305"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSA-10-070-02"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-10-070-02"
     }
   ],
   "database_specific": {
