@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmp7-x699-cvhq",
-  "modified": "2025-04-14T22:13:46Z",
+  "modified": "2025-04-15T21:41:27Z",
   "published": "2025-04-14T17:47:39Z",
   "aliases": [
     "CVE-2025-32445"
@@ -41,6 +41,10 @@
       "url": "https://github.com/argoproj/argo-events/security/advisories/GHSA-hmp7-x699-cvhq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32445"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/argoproj/argo-events/pull/3528"
     },
@@ -55,11 +59,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-250",
       "CWE-268"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-14T17:47:39Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-15T20:15:39Z"
   }
 }

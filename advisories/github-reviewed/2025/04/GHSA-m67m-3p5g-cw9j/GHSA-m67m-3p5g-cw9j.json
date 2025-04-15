@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m67m-3p5g-cw9j",
-  "modified": "2025-04-15T14:20:38Z",
+  "modified": "2025-04-15T21:42:20Z",
   "published": "2025-04-15T14:20:38Z",
   "aliases": [
     "CVE-2025-32021"
@@ -41,6 +41,10 @@
       "url": "https://github.com/WeblateOrg/weblate/security/advisories/GHSA-m67m-3p5g-cw9j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32021"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/WeblateOrg/weblate"
     },
@@ -56,6 +60,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-15T14:20:38Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-15T21:16:04Z"
   }
 }

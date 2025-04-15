@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-472w-7w45-g3w5",
-  "modified": "2025-04-14T22:13:34Z",
+  "modified": "2025-04-15T21:41:47Z",
   "published": "2025-04-14T17:49:15Z",
   "aliases": [
     "CVE-2025-32439"
@@ -41,6 +41,10 @@
       "url": "https://github.com/roderickvd/pleezer/security/advisories/GHSA-472w-7w45-g3w5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32439"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/roderickvd/pleezer/commit/436a5f1e4c08989b58dbba2b0ffa423458016c2d"
     },
@@ -59,11 +63,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-460",
       "CWE-772"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-14T17:49:15Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-15T20:15:39Z"
   }
 }
