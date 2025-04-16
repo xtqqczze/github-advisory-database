@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gqv-wp59-fq42",
-  "modified": "2025-04-15T03:30:34Z",
+  "modified": "2025-04-16T15:24:43Z",
   "published": "2025-04-15T03:30:34Z",
   "aliases": [
     "CVE-2025-32997"
   ],
+  "summary": "http-proxy-middleware allows fixRequestBody to proceed even if bodyParser has failed",
   "details": "In http-proxy-middleware before 2.0.9 and 3.x before 3.0.5, fixRequestBody proceeds even if bodyParser has failed.",
   "severity": [
     {
@@ -13,7 +14,46 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "http-proxy-middleware"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "http-proxy-middleware"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0"
+            },
+            {
+              "fixed": "3.0.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/chimurai/http-proxy-middleware/commit/1bdccbeec243850f1d2bb50ea0ff2151e725d67e"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/chimurai/http-proxy-middleware"
     },
     {
       "type": "WEB",
@@ -41,8 +85,8 @@
       "CWE-754"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-16T15:24:43Z",
     "nvd_published_at": "2025-04-15T03:15:18Z"
   }
 }
