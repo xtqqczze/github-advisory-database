@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79jx-q243-6wc7",
-  "modified": "2023-10-31T23:35:13Z",
+  "modified": "2025-04-16T00:31:29Z",
   "published": "2023-10-31T12:30:24Z",
   "aliases": [
     "CVE-2023-38994"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://forge.univention.org/bugzilla/show_bug.cgi?id=56324#c0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raeph123.github.io/BlogPosts/Univention/Simple_yet_effective_The_story_of_some_simple_bugs_that_led_to_the_complete_compromise_of_a_network_en.html"
     },
     {
       "type": "WEB",

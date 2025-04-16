@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fv8-fm6j-xc9r",
-  "modified": "2024-07-08T15:31:54Z",
+  "modified": "2025-04-16T00:31:30Z",
   "published": "2024-04-10T21:30:33Z",
   "aliases": [
     "CVE-2024-29500"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-29500"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raeph123.github.io/BlogPosts/inteset/Inteset_Secure_Lockdown_Multi_Application_Edition_-_Vulnerabilities_and_Hardening_Measures_en.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33xg-68r6-57fc",
-  "modified": "2025-03-05T18:32:08Z",
+  "modified": "2025-04-16T00:31:32Z",
   "published": "2025-03-05T06:31:43Z",
   "aliases": [
     "CVE-2025-27674"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://help.printerlogic.com/saas/Print/Security/Security-Bulletins.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pierrekim.github.io/blog/2025-04-08-vasion-printerlogic-83-vulnerabilities.html"
     }
   ],
   "database_specific": {

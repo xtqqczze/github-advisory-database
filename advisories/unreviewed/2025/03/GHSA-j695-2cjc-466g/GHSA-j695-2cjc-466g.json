@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j695-2cjc-466g",
-  "modified": "2025-03-12T21:31:29Z",
+  "modified": "2025-04-16T00:31:34Z",
   "published": "2025-03-12T21:31:29Z",
   "aliases": [
     "CVE-2024-26290"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://kb.avid.com/pkb/articles/troubleshooting/en239659"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raeph123.github.io/BlogPosts/Avid_Nexis/Advisory_Avid_Nexus_Agent_Multiple_Vulnerabilities_en.html"
     },
     {
       "type": "WEB",
