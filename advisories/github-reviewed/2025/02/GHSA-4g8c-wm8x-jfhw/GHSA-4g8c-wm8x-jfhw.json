@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g8c-wm8x-jfhw",
-  "modified": "2025-02-21T21:05:06Z",
+  "modified": "2025-04-16T19:30:03Z",
   "published": "2025-02-10T17:38:10Z",
   "aliases": [
     "CVE-2025-24970"
@@ -58,6 +58,14 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20250221-0005"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-24970-netty-vulnerability-detection"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-24970-netty-vulnerability-mitigation"
     }
   ],
   "database_specific": {
