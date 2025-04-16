@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vpc-35f4-r8w6",
-  "modified": "2025-04-10T22:58:09Z",
+  "modified": "2025-04-16T21:41:46Z",
   "published": "2025-01-21T21:22:49Z",
   "aliases": [
     "CVE-2024-11218"
@@ -103,10 +103,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:0830"
-    },
-    {
-      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:1914"
     },
     {
@@ -147,6 +143,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3798"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2024-11218"
     },
     {
@@ -164,6 +164,10 @@
     {
       "type": "WEB",
       "url": "https://issues.redhat.com/browse/RHEL-67618"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:0830"
     },
     {
       "type": "WEB",
