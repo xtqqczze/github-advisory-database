@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh42-r75f-c8h4",
-  "modified": "2022-12-28T18:30:21Z",
+  "modified": "2025-04-16T18:31:30Z",
   "published": "2022-12-20T21:30:19Z",
   "aliases": [
     "CVE-2022-46910"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-46910"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/%40slASVrz_SrW7NQCsunofeA/BkwzORiDo"
     },
     {
       "type": "WEB",

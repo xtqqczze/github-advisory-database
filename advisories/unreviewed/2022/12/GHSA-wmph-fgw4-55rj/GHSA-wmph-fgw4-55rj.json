@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmph-fgw4-55rj",
-  "modified": "2022-12-24T06:30:24Z",
+  "modified": "2025-04-16T18:31:34Z",
   "published": "2022-12-22T21:30:31Z",
   "aliases": [
     "CVE-2021-4221"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-1007"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

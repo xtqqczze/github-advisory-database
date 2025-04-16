@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-74mq-6c57-fxpx",
-  "modified": "2025-04-08T18:34:57Z",
+  "modified": "2025-04-16T18:31:47Z",
   "published": "2025-04-08T18:34:57Z",
   "aliases": [
     "CVE-2025-29824"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-29824"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-29824-windows-common-log-file-system-driver-elevation-of-privilege-vulnerability-detection-script"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-29824-windows-common-log-file-system-driver-elevation-of-privilege-vulnerability-mitigation-script"
     }
   ],
   "database_specific": {

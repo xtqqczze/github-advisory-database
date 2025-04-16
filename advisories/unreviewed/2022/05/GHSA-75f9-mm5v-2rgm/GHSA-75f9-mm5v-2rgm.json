@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75f9-mm5v-2rgm",
-  "modified": "2022-05-26T00:01:23Z",
+  "modified": "2025-04-16T18:31:25Z",
   "published": "2022-05-24T19:06:54Z",
   "aliases": [
     "CVE-2021-34527"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://www.kb.cert.org/vuls/id/383432"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2021-34527-printnightmare-detection-script"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2021-34527-printnightmare-mitigation-script"
     },
     {
       "type": "WEB",

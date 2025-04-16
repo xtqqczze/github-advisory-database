@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxxq-8qw2-56g4",
-  "modified": "2023-01-04T21:30:19Z",
+  "modified": "2025-04-16T18:31:30Z",
   "published": "2022-12-21T09:30:25Z",
   "aliases": [
     "CVE-2022-43543"
@@ -37,7 +37,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-116"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
