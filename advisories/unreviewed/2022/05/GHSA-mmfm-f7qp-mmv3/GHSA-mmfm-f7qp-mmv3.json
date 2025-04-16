@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmfm-f7qp-mmv3",
-  "modified": "2022-05-24T17:36:40Z",
+  "modified": "2025-04-16T15:34:02Z",
   "published": "2022-05-24T17:36:40Z",
   "aliases": [
     "CVE-2020-29607"
   ],
   "details": "A file upload restriction bypass vulnerability in Pluck CMS before 4.7.13 allows an admin privileged user to gain access in the host through the \"manage files\" functionality, which may result in remote code execution.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Hacker5preme/Exploits/tree/main/CVE-2020-29607-Exploit"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2020-29607.md"
     },
     {
       "type": "WEB",

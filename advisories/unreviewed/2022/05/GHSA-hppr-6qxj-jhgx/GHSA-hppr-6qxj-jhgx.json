@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hppr-6qxj-jhgx",
-  "modified": "2022-05-17T00:30:24Z",
+  "modified": "2025-04-16T15:34:02Z",
   "published": "2022-05-17T00:30:24Z",
   "aliases": [
     "CVE-2017-15808"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/thorsten/phpMyFAQ/commit/a249b4645fb86f6a9fbe5d2344ab1cbdb906b75c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2017-15808.md"
     }
   ],
   "database_specific": {

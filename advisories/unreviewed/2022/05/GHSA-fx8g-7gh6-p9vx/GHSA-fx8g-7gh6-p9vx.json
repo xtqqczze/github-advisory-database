@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx8g-7gh6-p9vx",
-  "modified": "2022-05-24T17:42:38Z",
+  "modified": "2025-04-16T15:34:03Z",
   "published": "2022-05-24T17:42:38Z",
   "aliases": [
     "CVE-2019-25024"
   ],
   "details": "OpenRepeater (ORP) before 2.2 allows unauthenticated command injection via shell metacharacters in the functions/ajax_system.php post_service parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -17,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/OpenRepeater/openrepeater/issues/66"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2019-25024.md"
     },
     {
       "type": "WEB",

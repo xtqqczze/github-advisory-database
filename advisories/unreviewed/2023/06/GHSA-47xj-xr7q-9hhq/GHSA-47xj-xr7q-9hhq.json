@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47xj-xr7q-9hhq",
-  "modified": "2024-04-04T04:58:53Z",
+  "modified": "2025-04-16T15:34:09Z",
   "published": "2023-06-20T15:31:08Z",
   "aliases": [
     "CVE-2020-20969"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/pluck-cms/pluck/issues/86"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2020-20969.md"
     }
   ],
   "database_specific": {

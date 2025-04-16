@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjpp-wxm2-vx37",
-  "modified": "2022-12-20T18:30:19Z",
+  "modified": "2025-04-16T15:34:03Z",
   "published": "2022-12-20T18:30:19Z",
   "aliases": [
     "CVE-2022-3109"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00016.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KOMB6WRUC55VWV25IKJTV22KARBUGWGQ"
     },
     {
       "type": "WEB",

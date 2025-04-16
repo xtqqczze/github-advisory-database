@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gfr-938g-v48x",
-  "modified": "2022-12-30T15:30:23Z",
+  "modified": "2025-04-16T15:34:07Z",
   "published": "2022-12-22T21:30:30Z",
   "aliases": [
     "CVE-2022-26383"
@@ -37,7 +37,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-451"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

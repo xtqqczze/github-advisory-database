@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fc8f-jhcw-p24v",
-  "modified": "2022-12-30T00:30:43Z",
+  "modified": "2025-04-16T15:34:06Z",
   "published": "2022-12-22T21:30:30Z",
   "aliases": [
     "CVE-2022-22757"
@@ -30,7 +30,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-345",
+      "CWE-346"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

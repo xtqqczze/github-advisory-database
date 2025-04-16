@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83qq-799j-gmvc",
-  "modified": "2022-12-29T21:30:30Z",
+  "modified": "2025-04-16T15:34:04Z",
   "published": "2022-12-22T21:30:31Z",
   "aliases": [
     "CVE-2022-0511"

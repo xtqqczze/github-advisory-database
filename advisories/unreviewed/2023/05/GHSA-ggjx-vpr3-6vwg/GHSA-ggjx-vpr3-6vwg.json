@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ggjx-vpr3-6vwg",
-  "modified": "2024-04-04T04:18:49Z",
+  "modified": "2025-04-16T15:34:09Z",
   "published": "2023-05-23T15:30:30Z",
   "aliases": [
     "CVE-2023-33362"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Piwigo/Piwigo/issues/1911"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2023-33362.md"
     }
   ],
   "database_specific": {

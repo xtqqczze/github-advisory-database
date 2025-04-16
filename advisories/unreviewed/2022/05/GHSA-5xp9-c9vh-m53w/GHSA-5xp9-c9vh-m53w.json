@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xp9-c9vh-m53w",
-  "modified": "2024-04-04T01:59:10Z",
+  "modified": "2025-04-16T15:34:02Z",
   "published": "2022-05-24T16:56:39Z",
   "aliases": [
     "CVE-2019-16693"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/phpipam/phpipam/issues/2738"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2019-16693.md"
     }
   ],
   "database_specific": {
