@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfm8-hwhg-r6gg",
-  "modified": "2022-12-20T17:38:21Z",
+  "modified": "2025-04-16T16:08:22Z",
   "published": "2022-12-20T06:30:36Z",
   "aliases": [
     "CVE-2022-25171"
@@ -51,10 +51,6 @@
     {
       "type": "WEB",
       "url": "https://github.com/natelong/p4/blob/master/p4.js#23L12"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/natelong/p4/blob/master/p4.js%23L12"
     },
     {
       "type": "WEB",

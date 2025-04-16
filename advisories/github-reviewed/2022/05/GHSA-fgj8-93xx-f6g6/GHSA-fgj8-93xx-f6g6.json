@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgj8-93xx-f6g6",
-  "modified": "2024-04-24T17:11:13Z",
+  "modified": "2025-04-16T16:09:23Z",
   "published": "2022-05-24T17:05:59Z",
   "aliases": [
     "CVE-2020-5504"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpmyadmin/phpmyadmin/CVE-2020-5504.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2020-5504.md"
     },
     {
       "type": "PACKAGE",
