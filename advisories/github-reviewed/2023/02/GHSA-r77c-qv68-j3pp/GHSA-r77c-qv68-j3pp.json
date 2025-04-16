@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r77c-qv68-j3pp",
-  "modified": "2023-02-14T21:34:31Z",
+  "modified": "2025-04-16T16:13:38Z",
   "published": "2023-02-04T09:30:21Z",
   "aliases": [
     "CVE-2018-25080"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/serbanghita/Mobile-Detect/commit/31818a441b095bdc4838602dbb17b8377d1e5cce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarkLee131/awesome-web-pocs/blob/main/CVE-2018-25080.md"
     },
     {
       "type": "PACKAGE",
