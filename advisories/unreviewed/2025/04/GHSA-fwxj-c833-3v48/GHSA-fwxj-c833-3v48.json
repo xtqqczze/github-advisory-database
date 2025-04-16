@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwxj-c833-3v48",
-  "modified": "2025-04-14T09:30:25Z",
+  "modified": "2025-04-16T12:31:18Z",
   "published": "2025-04-14T09:30:24Z",
   "aliases": [
     "CVE-2025-3555"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3555"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Maloyroyorko/E-commerce-3.0-user-bruter"
     },
     {
       "type": "WEB",

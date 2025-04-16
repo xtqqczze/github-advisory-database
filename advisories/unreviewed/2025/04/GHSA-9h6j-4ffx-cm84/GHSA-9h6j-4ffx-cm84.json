@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9h6j-4ffx-cm84",
+  "modified": "2025-04-16T12:31:19Z",
+  "published": "2025-04-16T12:31:19Z",
+  "aliases": [
+    "CVE-2025-31363"
+  ],
+  "details": "Mattermost versions 10.4.x <= 10.4.2, 10.5.x <= 10.5.0, 9.11.x <= 9.11.9 fail to restrict domains the LLM can request to contact upstream which allows an authenticated user to exfiltrate data from an arbitrary server accessible to the victim via performing a prompt injection in the AI plugin's Jira tool.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31363"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-16T10:15:15Z"
+  }
+}
