@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qhq-rq4j-8prj",
-  "modified": "2025-04-14T16:59:21Z",
+  "modified": "2025-04-16T17:18:13Z",
   "published": "2022-05-14T00:58:13Z",
   "aliases": [
     "CVE-2014-4326"
@@ -19,25 +19,6 @@
       "package": {
         "ecosystem": "RubyGems",
         "name": "logstash"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "1.0.14"
-            },
-            {
-              "fixed": "1.4.2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "RubyGems",
-        "name": "logstash-event"
       },
       "ranges": [
         {
