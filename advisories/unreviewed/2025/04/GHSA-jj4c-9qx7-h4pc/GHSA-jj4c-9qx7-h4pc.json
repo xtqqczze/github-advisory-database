@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jj4c-9qx7-h4pc",
+  "modified": "2025-04-16T21:30:59Z",
+  "published": "2025-04-16T21:30:59Z",
+  "aliases": [
+    "CVE-2025-29708"
+  ],
+  "details": "SourceCodester Company Website CMS 1.0 contains a file upload vulnerability via the \"Create Services\" file /dashboard/Services.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29708"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/fupanc-w1n/fupanc/blob/main/php/CVE-2025-29708.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/fupanc-w1n/fupanc/blob/main/php/Company%20Website%20CMS1.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-16T21:15:47Z"
+  }
+}
