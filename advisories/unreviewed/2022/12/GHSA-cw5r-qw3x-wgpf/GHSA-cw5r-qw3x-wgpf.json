@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cw5r-qw3x-wgpf",
-  "modified": "2022-12-27T21:30:21Z",
+  "modified": "2025-04-17T18:31:03Z",
   "published": "2022-12-20T00:30:29Z",
   "aliases": [
     "CVE-2022-40434"
@@ -34,7 +34,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-74"
+      "CWE-74",
+      "CWE-79"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

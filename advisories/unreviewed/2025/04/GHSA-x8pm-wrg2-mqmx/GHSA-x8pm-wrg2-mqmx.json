@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-x8pm-wrg2-mqmx",
+  "modified": "2025-04-17T18:31:12Z",
+  "published": "2025-04-17T18:31:12Z",
+  "aliases": [
+    "CVE-2024-55238"
+  ],
+  "details": "OpenMetadata <=1.4.1 is vulnerable to SQL Injection. An attacker can extract information from the database in function listCount in the WorkflowDAO interface. The workflowtype and status parameters can be used to build a SQL query.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-55238"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/javadk/68c597cdb94768dab31a3219c2ad9904"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/98945cb2db87ebb325d3a72131f049abffcba345/openmetadata-service/src/main/java/org/openmetadata/service/jdbi3/CollectionDAO.java#L4243"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/open-metadata/OpenMetadata/blob/98945cb2db87ebb325d3a72131f049abffcba345/openmetadata-service/src/main/java/org/openmetadata/service/jdbi3/CollectionDAO.java#L4247"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-17T16:15:27Z"
+  }
+}

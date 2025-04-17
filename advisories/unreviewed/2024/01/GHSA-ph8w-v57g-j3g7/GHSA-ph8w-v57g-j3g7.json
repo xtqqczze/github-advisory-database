@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ph8w-v57g-j3g7",
-  "modified": "2024-01-11T21:31:16Z",
+  "modified": "2025-04-17T18:31:03Z",
   "published": "2024-01-08T15:30:27Z",
   "aliases": [
     "CVE-2023-6552"
   ],
-  "details": "Lack of \"current\" GET parameter validation during the action of changing a language leads to an open redirect vulnerability.\n",
+  "details": "Lack of \"current\" GET parameter validation during the action of changing a language leads to an open redirect vulnerability.",
   "severity": [
     {
       "type": "CVSS_V3",
