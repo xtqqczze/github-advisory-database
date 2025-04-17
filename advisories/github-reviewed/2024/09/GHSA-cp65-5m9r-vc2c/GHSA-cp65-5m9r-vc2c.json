@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp65-5m9r-vc2c",
-  "modified": "2024-10-09T19:24:00Z",
+  "modified": "2025-04-17T23:00:53Z",
   "published": "2024-09-18T15:46:53Z",
   "aliases": [
     "CVE-2024-46987"
@@ -67,6 +67,10 @@
     {
       "type": "WEB",
       "url": "https://owasp.org/www-community/attacks/Path_Traversal"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://securitylab.github.com/advisories/GHSL-2024-182_GHSL-2024-186_Camaleon_CMS"
     },
     {
       "type": "WEB",
