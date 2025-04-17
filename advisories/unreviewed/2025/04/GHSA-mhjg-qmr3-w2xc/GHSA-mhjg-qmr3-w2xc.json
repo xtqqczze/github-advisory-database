@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mhjg-qmr3-w2xc",
+  "modified": "2025-04-17T00:30:26Z",
+  "published": "2025-04-17T00:30:26Z",
+  "aliases": [
+    "CVE-2025-1704"
+  ],
+  "details": "ComponentInstaller Modification in ComponentInstaller in Google ChromeOS 124.0.6367.34 on Chromebooks allows enrolled users with local access to unenroll devices \nand intercept device management requests via loading components from the unencrypted stateful partition.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1704"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/b/359915523"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issuetracker.google.com/issues/359915523"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-16T23:15:44Z"
+  }
+}

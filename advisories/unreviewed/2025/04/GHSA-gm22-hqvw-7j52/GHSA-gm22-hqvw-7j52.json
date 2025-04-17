@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gm22-hqvw-7j52",
+  "modified": "2025-04-17T00:30:26Z",
+  "published": "2025-04-17T00:30:25Z",
+  "aliases": [
+    "CVE-2025-1566"
+  ],
+  "details": "DNS Leak in Native System VPN in Google ChromeOS Dev Channel on ChromeOS 129.0.6668.36 allows network observers to expose plaintext DNS queries via failure to properly tunnel DNS traffic during VPN state transitions.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1566"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/b/342802975"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issuetracker.google.com/issues/342802975"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-16T23:15:44Z"
+  }
+}
