@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x3r-rpmr-wmwh",
-  "modified": "2022-12-24T06:30:26Z",
+  "modified": "2025-04-17T21:30:38Z",
   "published": "2022-12-20T21:30:17Z",
   "aliases": [
     "CVE-2022-46312"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-285"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

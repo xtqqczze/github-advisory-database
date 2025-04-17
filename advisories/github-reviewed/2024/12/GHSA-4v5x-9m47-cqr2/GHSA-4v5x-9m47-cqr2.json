@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v5x-9m47-cqr2",
-  "modified": "2025-03-25T21:48:41Z",
+  "modified": "2025-04-17T21:30:43Z",
   "published": "2024-12-09T21:31:02Z",
   "withdrawn": "2025-03-25T21:48:41Z",
   "aliases": [],
@@ -38,6 +38,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12369"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3989"
     },
     {
       "type": "WEB",

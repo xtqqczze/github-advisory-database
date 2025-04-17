@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h67-gqh5-w6f6",
-  "modified": "2022-03-05T00:00:58Z",
+  "modified": "2025-04-17T21:30:37Z",
   "published": "2022-02-25T00:00:59Z",
   "aliases": [
     "CVE-2020-14481"
   ],
   "details": "The DeskLock tool provided with FactoryTalk View SE uses a weak encryption algorithm that may allow a local, authenticated attacker to decipher user credentials, including the Windows user or Windows DeskLock passwords. If the compromised user has an administrative account, an attacker could gain full access to the user’s operating system and certain components of FactoryTalk View SE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-261",
       "CWE-326"
     ],
     "severity": "HIGH",

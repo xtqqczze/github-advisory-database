@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8cm-r6w4-28gm",
-  "modified": "2022-12-22T15:30:21Z",
+  "modified": "2025-04-17T21:30:38Z",
   "published": "2022-12-18T06:31:08Z",
   "aliases": [
     "CVE-2022-47521"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/12/msg00031.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/r/20221123153543.8568-4-philipturnbull%40github.com"
     },
     {
       "type": "WEB",
