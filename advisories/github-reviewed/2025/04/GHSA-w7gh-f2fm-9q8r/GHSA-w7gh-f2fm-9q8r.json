@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7gh-f2fm-9q8r",
-  "modified": "2025-04-17T03:30:30Z",
+  "modified": "2025-04-17T14:07:38Z",
   "published": "2025-04-17T03:30:30Z",
   "aliases": [
     "CVE-2025-43717"
   ],
+  "summary": "PEAR HTTP_Request2 vulnerable to Cross-site Scripting",
   "details": "In PEAR HTTP_Request2 before 2.7.0, multiple files in the tests directory, notably tests/_network/getparameters.php and tests/_network/postparameters.php, reflect any GET or POST parameters, leading to XSS.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "pear/http_request2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,6 +49,10 @@
       "url": "https://github.com/pear/HTTP_Request2/commit/265e05f9e08a28a38a57219516a8e4e2dfdbb147"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/pear/HTTP_Request2"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/pear/HTTP_Request2/blob/b1c61b71128045734d757c4d3d436457ace80ea7/package.xml#L24"
     },
@@ -38,11 +63,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-531"
+      "CWE-531",
+      "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-17T14:07:38Z",
     "nvd_published_at": "2025-04-17T03:15:16Z"
   }
 }
