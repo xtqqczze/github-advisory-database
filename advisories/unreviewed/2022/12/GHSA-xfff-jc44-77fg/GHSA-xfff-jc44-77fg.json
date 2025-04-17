@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfff-jc44-77fg",
-  "modified": "2022-12-29T18:30:23Z",
+  "modified": "2025-04-17T15:32:30Z",
   "published": "2022-12-20T15:30:37Z",
   "aliases": [
     "CVE-2022-45942"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-78",
       "CWE-94"
     ],
     "severity": "HIGH",

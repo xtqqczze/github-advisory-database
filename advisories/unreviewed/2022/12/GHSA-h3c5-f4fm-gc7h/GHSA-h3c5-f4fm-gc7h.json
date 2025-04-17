@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3c5-f4fm-gc7h",
-  "modified": "2022-12-28T18:30:20Z",
+  "modified": "2025-04-17T15:32:31Z",
   "published": "2022-12-20T21:30:19Z",
   "aliases": [
     "CVE-2022-46139"
@@ -21,11 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://hackmd.io/%40slASVrz_SrW7NQCsunofeA/HJH7LSZPj"
+    },
+    {
+      "type": "WEB",
       "url": "https://hackmd.io/@slASVrz_SrW7NQCsunofeA/HJH7LSZPj"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-345"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

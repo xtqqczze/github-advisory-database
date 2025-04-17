@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2r4f-phw2-gpqp",
-  "modified": "2022-12-27T21:30:21Z",
+  "modified": "2025-04-17T15:32:26Z",
   "published": "2022-12-19T03:30:31Z",
   "aliases": [
     "CVE-2022-43486"
@@ -21,15 +21,25 @@
     },
     {
       "type": "WEB",
+      "url": "https://jvn.jp/en/vu/JVNVU97099584"
+    },
+    {
+      "type": "WEB",
       "url": "https://jvn.jp/en/vu/JVNVU97099584/index.html"
     },
     {
       "type": "WEB",
       "url": "https://www.buffalo.jp/news/detail/20221205-01.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.buffalo.jp/news/detail/20240131-01.html"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-94"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
