@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgq3-vq6c-fvpp",
-  "modified": "2025-01-08T09:30:38Z",
+  "modified": "2025-04-17T03:30:30Z",
   "published": "2025-01-08T09:30:38Z",
   "aliases": [
     "CVE-2024-12045"
