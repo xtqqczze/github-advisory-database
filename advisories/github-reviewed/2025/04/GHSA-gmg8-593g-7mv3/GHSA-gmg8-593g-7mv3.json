@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmg8-593g-7mv3",
-  "modified": "2025-04-10T13:46:10Z",
+  "modified": "2025-04-18T18:34:17Z",
   "published": "2025-04-09T12:30:24Z",
   "aliases": [
     "CVE-2025-31672"
@@ -9,6 +9,10 @@
   "summary": "Apache POI OOXML Vulnerable to Improper Input Validation in OOXML File Parsing",
   "details": "Improper Input Validation vulnerability in Apache POI. The issue affects the parsing of OOXML format files like xlsx, docx and pptx. These file formats are basically zip files and it is possible for malicious users to add zip entries with duplicate names (including the path) in the zip. In this case, products reading the affected file could read different data because 1 of the zip entries with the duplicate name is selected over another but different products may choose a different zip entry.\nThis issue affects Apache POI poi-ooxml before 5.4.0. poi-ooxml 5.4.0 has a check that throws an exception if zip entries with duplicate file names are found in the input file.\nUsers are recommended to upgrade to version poi-ooxml 5.4.0, which fixes the issue. Please read  https://poi.apache.org/security.html  for recommendations about how to use the POI libraries securely.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"

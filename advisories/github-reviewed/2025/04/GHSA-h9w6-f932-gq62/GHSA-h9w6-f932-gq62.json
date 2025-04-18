@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9w6-f932-gq62",
-  "modified": "2025-04-18T15:10:05Z",
+  "modified": "2025-04-18T18:34:51Z",
   "published": "2025-04-18T15:10:05Z",
   "aliases": [
     "CVE-2025-32792"
@@ -41,6 +41,10 @@
       "url": "https://github.com/endojs/endo/security/advisories/GHSA-h9w6-f932-gq62"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32792"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/endojs/endo"
     }
@@ -52,6 +56,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-18T15:10:05Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-18T16:15:23Z"
   }
 }
