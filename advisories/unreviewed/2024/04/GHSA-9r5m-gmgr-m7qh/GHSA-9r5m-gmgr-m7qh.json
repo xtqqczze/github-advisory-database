@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9r5m-gmgr-m7qh",
-  "modified": "2024-04-17T12:32:03Z",
+  "modified": "2025-04-18T18:31:18Z",
   "published": "2024-04-17T12:32:03Z",
   "aliases": [
     "CVE-2024-32505"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Wpmet Elements kit Elementor addons allows Stored XSS.This issue affects Elements kit Elementor addons: from n/a through 3.0.6.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Wpmet Elements kit Elementor addons allows Stored XSS.This issue affects Elements kit Elementor addons: from n/a through 3.0.6.",
   "severity": [
     {
       "type": "CVSS_V3",
