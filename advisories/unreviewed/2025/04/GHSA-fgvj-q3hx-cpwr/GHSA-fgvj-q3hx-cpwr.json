@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgvj-q3hx-cpwr",
-  "modified": "2025-04-18T15:31:37Z",
+  "modified": "2025-04-18T21:31:19Z",
   "published": "2025-04-18T03:31:22Z",
   "aliases": [
     "CVE-2025-25427"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/slin99/2025-25427/blob/master/readme.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/tl-wr841n/#Firmware"
     }
   ],
   "database_specific": {

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3xfr-5qpm-hvr4",
+  "modified": "2025-04-18T21:31:21Z",
+  "published": "2025-04-18T21:31:21Z",
+  "aliases": [
+    "CVE-2024-53591"
+  ],
+  "details": "An issue in the login page of Seclore v3.27.5.0 allows attackers to bypass authentication via a brute force attack.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53591"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/aljoharasubaie/CVE-2024-53591"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-18T21:15:43Z"
+  }
+}
