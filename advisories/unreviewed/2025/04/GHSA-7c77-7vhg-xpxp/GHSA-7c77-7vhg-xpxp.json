@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c77-7vhg-xpxp",
-  "modified": "2025-04-17T15:32:36Z",
+  "modified": "2025-04-18T15:31:37Z",
   "published": "2025-04-17T15:32:36Z",
   "aliases": [
     "CVE-2025-29044"
   ],
   "details": "Buffer Overflow vulnerability in Netgear- R61 router V1.0.1.28 allows a remote attacker to execute arbitrary code via the QUERY_STRING key value",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-17T15:15:54Z"

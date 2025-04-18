@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-664m-3r2m-mxpx",
-  "modified": "2022-12-22T18:30:24Z",
+  "modified": "2025-04-18T15:31:30Z",
   "published": "2022-12-17T00:30:20Z",
   "aliases": [
     "CVE-2022-38756"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://packetstorm.news/files/id/170768"
+    },
+    {
+      "type": "WEB",
       "url": "https://portal.microfocus.com/s/article/KM000012374?language=en_US"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seclists.org/fulldisclosure/2023/Jan/28"
     },
     {
       "type": "WEB",

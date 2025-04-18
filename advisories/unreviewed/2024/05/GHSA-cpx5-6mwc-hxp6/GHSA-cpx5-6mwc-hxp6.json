@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpx5-6mwc-hxp6",
-  "modified": "2024-07-03T18:40:34Z",
+  "modified": "2025-04-18T15:31:32Z",
   "published": "2024-05-14T18:30:46Z",
   "aliases": [
     "CVE-2024-32615"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-32615"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/HDFGroup/cve_hdf5/blob/main/CVE_list.md"
     },
     {
       "type": "WEB",

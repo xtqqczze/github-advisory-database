@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w66w-cmgq-cc2j",
-  "modified": "2022-12-20T18:30:19Z",
+  "modified": "2025-04-18T15:31:26Z",
   "published": "2022-12-20T18:30:19Z",
   "aliases": [
     "CVE-2022-36223"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://medium.com/%40cupc4k3/administrator-account-takeover-in-emby-media-server-616fc2a6704f"
+    },
+    {
+      "type": "WEB",
       "url": "https://medium.com/@cupc4k3/administrator-account-takeover-in-emby-media-server-616fc2a6704f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/stolabs/cve-2022-36223-administrator-account-takeover-in-emby-media-server-616fc2a6704f"
     }
   ],
   "database_specific": {
