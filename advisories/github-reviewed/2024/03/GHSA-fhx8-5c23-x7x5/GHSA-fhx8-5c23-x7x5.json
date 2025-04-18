@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhx8-5c23-x7x5",
-  "modified": "2024-09-17T22:26:46Z",
+  "modified": "2025-04-18T18:09:56Z",
   "published": "2024-03-01T15:31:37Z",
   "aliases": [
     "CVE-2023-46950"
@@ -15,7 +15,7 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
     }
   ],
   "affected": [
@@ -90,6 +90,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/sidekiq-unique-jobs/CVE-2023-46950.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://link.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.link.com"
     },
     {
       "type": "WEB",
