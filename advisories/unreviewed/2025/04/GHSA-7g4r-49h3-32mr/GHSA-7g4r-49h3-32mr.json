@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g4r-49h3-32mr",
-  "modified": "2025-04-15T21:31:45Z",
+  "modified": "2025-04-19T03:31:27Z",
   "published": "2025-04-15T21:31:44Z",
   "aliases": [
     "CVE-2025-21583"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21583"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250418-0009"
     },
     {
       "type": "WEB",

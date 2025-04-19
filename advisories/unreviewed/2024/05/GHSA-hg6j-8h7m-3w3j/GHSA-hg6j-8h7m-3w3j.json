@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg6j-8h7m-3w3j",
-  "modified": "2024-05-07T18:30:33Z",
+  "modified": "2025-04-19T03:31:26Z",
   "published": "2024-05-07T18:30:33Z",
   "aliases": [
     "CVE-2024-27982"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://hackerone.com/reports/2237099"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250418-0001"
     }
   ],
   "database_specific": {

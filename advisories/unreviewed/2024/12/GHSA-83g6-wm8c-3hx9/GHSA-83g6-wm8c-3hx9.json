@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83g6-wm8c-3hx9",
-  "modified": "2024-12-13T18:31:56Z",
+  "modified": "2025-04-19T03:31:27Z",
   "published": "2024-12-12T03:33:07Z",
   "aliases": [
     "CVE-2024-54534"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-54534"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250418-0002"
     },
     {
       "type": "WEB",
