@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfvx-wr33-m97w",
-  "modified": "2022-05-14T03:11:16Z",
+  "modified": "2025-04-20T03:34:38Z",
   "published": "2022-05-14T03:11:16Z",
   "aliases": [
     "CVE-2016-9774"

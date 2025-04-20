@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfvm-h748-r758",
-  "modified": "2022-05-13T01:13:40Z",
+  "modified": "2025-04-20T03:34:11Z",
   "published": "2022-05-13T01:13:40Z",
   "aliases": [
     "CVE-2017-5898"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201702-28"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.qemu-project.org/?p=qemu.git%3Ba=commit%3Bh=c7dfbf322595ded4e70b626bf83158a9f3807c6a"
     },
     {
       "type": "WEB",

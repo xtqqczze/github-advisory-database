@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh46-85gx-mhqj",
-  "modified": "2022-05-17T02:53:36Z",
+  "modified": "2025-04-20T03:34:45Z",
   "published": "2022-05-17T02:53:36Z",
   "aliases": [
     "CVE-2016-10133"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/T3U5APFS3FEBOPXUJIFWBNU55PYR7ZBF"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T3U5APFS3FEBOPXUJIFWBNU55PYR7ZBF"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=mujs.git%3Ba=commit%3Bh=77ab465f1c394bb77f00966cd950650f3f53cb24"
     },
     {
       "type": "WEB",

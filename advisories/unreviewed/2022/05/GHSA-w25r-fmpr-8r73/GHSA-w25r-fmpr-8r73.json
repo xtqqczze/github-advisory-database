@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w25r-fmpr-8r73",
-  "modified": "2022-05-17T02:49:50Z",
+  "modified": "2025-04-20T03:35:48Z",
   "published": "2022-05-17T02:49:50Z",
   "aliases": [
     "CVE-2016-7957"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=12825"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=355b56b1c6c545072ac0c1225730b526c6749f0a"
     },
     {
       "type": "WEB",

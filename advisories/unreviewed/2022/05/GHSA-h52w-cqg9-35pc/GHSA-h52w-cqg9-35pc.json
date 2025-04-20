@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h52w-cqg9-35pc",
-  "modified": "2022-05-17T02:12:58Z",
+  "modified": "2025-04-20T03:34:20Z",
   "published": "2022-05-17T02:12:58Z",
   "aliases": [
     "CVE-2017-0113"

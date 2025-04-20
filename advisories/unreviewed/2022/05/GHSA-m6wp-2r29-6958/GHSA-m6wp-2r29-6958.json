@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6wp-2r29-6958",
-  "modified": "2022-05-13T01:38:44Z",
+  "modified": "2025-04-20T03:35:04Z",
   "published": "2022-05-13T01:38:44Z",
   "aliases": [
     "CVE-2016-6560"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-195",
       "CWE-20"
     ],
     "severity": "HIGH",

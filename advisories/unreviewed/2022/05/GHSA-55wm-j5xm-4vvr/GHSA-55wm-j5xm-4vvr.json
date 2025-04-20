@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55wm-j5xm-4vvr",
-  "modified": "2022-05-13T01:47:02Z",
+  "modified": "2025-04-20T03:35:38Z",
   "published": "2022-05-13T01:47:02Z",
   "aliases": [
     "CVE-2017-7610"

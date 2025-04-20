@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j343-3qch-m53h",
-  "modified": "2022-05-14T03:20:03Z",
+  "modified": "2025-04-20T03:34:38Z",
   "published": "2022-05-14T03:20:03Z",
   "aliases": [
     "CVE-2016-10255"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1387584"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedorahosted.org/archives/list/elfutils-devel%40lists.fedorahosted.org/thread/Q4LE47FPEVRZANMV6JE2NMHYO4H5MHGJ"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64cw-wmc5-j274",
-  "modified": "2022-05-17T02:51:03Z",
+  "modified": "2025-04-20T03:35:20Z",
   "published": "2022-05-17T02:51:03Z",
   "aliases": [
     "CVE-2016-10218"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.ghostscript.com/show_bug.cgi?id=697444"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=ghostpdl.git%3Ba=commit%3Bh=d621292fb2c8157d9899dcd83fd04dd250e30fe4"
     },
     {
       "type": "WEB",

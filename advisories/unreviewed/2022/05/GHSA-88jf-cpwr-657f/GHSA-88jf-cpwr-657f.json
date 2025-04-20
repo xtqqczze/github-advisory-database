@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-88jf-cpwr-657f",
-  "modified": "2022-05-17T02:52:28Z",
+  "modified": "2025-04-20T03:34:35Z",
   "published": "2022-05-17T02:52:28Z",
   "aliases": [
     "CVE-2017-7230"

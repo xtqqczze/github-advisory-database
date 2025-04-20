@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcm6-3979-rvmm",
-  "modified": "2022-05-14T03:55:20Z",
+  "modified": "2025-04-20T03:34:57Z",
   "published": "2022-05-14T03:55:20Z",
   "aliases": [
     "CVE-2016-8884"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1385499"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/22FCKKHQCQ3S6TZY5G44EFDTMWOJXJRD"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EGI2FZQLOTSZI3VA4ECJERI74SMNQDL4"
     },
     {
       "type": "WEB",

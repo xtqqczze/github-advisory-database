@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43m8-rg5f-9pr8",
-  "modified": "2022-05-13T01:38:34Z",
+  "modified": "2025-04-20T03:34:57Z",
   "published": "2022-05-13T01:38:34Z",
   "aliases": [
     "CVE-2016-9129"
@@ -34,7 +34,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-203"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

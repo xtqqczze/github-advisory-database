@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w6xp-chmg-pf59",
-  "modified": "2022-05-14T01:25:20Z",
+  "modified": "2025-04-20T03:35:12Z",
   "published": "2022-05-14T01:25:20Z",
   "aliases": [
     "CVE-2017-2459"

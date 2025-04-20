@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcf7-f32r-4jgm",
-  "modified": "2022-05-17T02:44:06Z",
+  "modified": "2025-04-20T03:35:26Z",
   "published": "2022-05-17T02:44:06Z",
   "aliases": [
     "CVE-2017-5670"

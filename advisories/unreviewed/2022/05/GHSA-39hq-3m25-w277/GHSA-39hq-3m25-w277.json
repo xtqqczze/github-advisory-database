@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-39hq-3m25-w277",
-  "modified": "2022-05-14T03:20:03Z",
+  "modified": "2025-04-20T03:34:38Z",
   "published": "2022-05-14T03:20:03Z",
   "aliases": [
     "CVE-2016-10254"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blogs.gentoo.org/ago/2016/11/04/elfutils-memory-allocation-failure-in-allocate_elf-common-h"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedorahosted.org/archives/list/elfutils-devel%40lists.fedorahosted.org/message/EJWVY7TMRDEMWPAPNVU3V4MZYG5HANF2"
     },
     {
       "type": "WEB",

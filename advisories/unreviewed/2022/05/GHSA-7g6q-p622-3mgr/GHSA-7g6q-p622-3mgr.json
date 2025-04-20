@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g6q-p622-3mgr",
-  "modified": "2022-05-13T01:24:41Z",
+  "modified": "2025-04-20T03:33:57Z",
   "published": "2022-05-13T01:24:41Z",
   "aliases": [
     "CVE-2017-6311"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.gnome.org/show_bug.cgi?id=778204"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SJF5ARFOX4BFUK6YCBKGAKBQYECO3AI2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSAZ6UCKKXC5VOWXGWQHOX2ZBLLATIOT"
     },
     {
       "type": "WEB",

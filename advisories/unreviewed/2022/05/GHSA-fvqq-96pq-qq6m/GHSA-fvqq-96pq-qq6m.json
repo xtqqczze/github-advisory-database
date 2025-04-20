@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvqq-96pq-qq6m",
-  "modified": "2022-05-17T02:52:26Z",
+  "modified": "2025-04-20T03:34:50Z",
   "published": "2022-05-17T02:52:26Z",
   "aliases": [
     "CVE-2017-5330"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cgit.kde.org/ark.git/commit/?id=82fdfd24d46966a117fa625b68784735a40f9065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NIMZUCG6IQR5S65IVQOXQFQV7TMVSYAT"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q29q-rg5m-wg5j",
-  "modified": "2022-05-13T01:08:50Z",
+  "modified": "2025-04-20T03:34:51Z",
   "published": "2022-05-13T01:08:50Z",
   "aliases": [
     "CVE-2017-6458"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-211752.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4B7BMVXV53EE7XYW2KAVETDHTP452O3Z"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/7KVLFA3J43QFIP4I7HE7KQ5FXSMJEKC6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZUPPICJXWL3AWQB7I3AWUC74YON7UING"
     },
     {
       "type": "WEB",

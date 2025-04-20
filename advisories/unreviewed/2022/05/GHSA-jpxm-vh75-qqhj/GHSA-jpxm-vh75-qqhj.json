@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpxm-vh75-qqhj",
-  "modified": "2022-05-14T03:07:28Z",
+  "modified": "2025-04-20T03:35:39Z",
   "published": "2022-05-14T03:07:28Z",
   "aliases": [
     "CVE-2015-7263"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/facebook-proxygen/K8wCXbW4ihs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/facebook-proxygen/K8wCXbW4ihs"
     }
   ],
   "database_specific": {

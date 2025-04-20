@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w7w6-m6q3-r777",
-  "modified": "2022-05-13T01:38:32Z",
+  "modified": "2025-04-20T03:34:57Z",
   "published": "2022-05-13T01:38:32Z",
   "aliases": [
     "CVE-2016-9470"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

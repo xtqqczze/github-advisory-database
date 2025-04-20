@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29jw-cm22-w2mv",
-  "modified": "2022-05-17T02:53:36Z",
+  "modified": "2025-04-20T03:34:45Z",
   "published": "2022-05-17T02:53:36Z",
   "aliases": [
     "CVE-2016-10132"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/T3U5APFS3FEBOPXUJIFWBNU55PYR7ZBF"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T3U5APFS3FEBOPXUJIFWBNU55PYR7ZBF"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=mujs.git%3Bh=fd003eceda531e13fbdd1aeb6e9c73156496e569"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77qx-ffg2-4jrv",
-  "modified": "2022-05-17T02:54:29Z",
+  "modified": "2025-04-20T03:34:28Z",
   "published": "2022-05-17T02:54:29Z",
   "aliases": [
     "CVE-2015-8983"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=17269"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=glibc.git%3Bh=bdf1ff052a8e23d637f2c838fa5642d78fcedc33"
     },
     {
       "type": "WEB",

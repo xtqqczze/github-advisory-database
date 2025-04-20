@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgwf-v74m-338m",
-  "modified": "2022-05-13T01:38:26Z",
+  "modified": "2025-04-20T03:34:58Z",
   "published": "2022-05-13T01:38:26Z",
   "aliases": [
     "CVE-2017-0882"
@@ -46,7 +46,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-639"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

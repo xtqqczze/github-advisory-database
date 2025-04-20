@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgjv-rwc2-2rr2",
-  "modified": "2022-05-14T02:11:47Z",
+  "modified": "2025-04-20T03:34:38Z",
   "published": "2022-05-14T02:11:47Z",
   "aliases": [
     "CVE-2016-6225"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/percona-xtrabackup/+bug/1643949"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BAHI6ETS22FJCMLW7A6SICFKQXF5G2VI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZBVCP6KLFVGG6HSGLHLTMZRD6C4IJSZP"
     },
     {
       "type": "WEB",
