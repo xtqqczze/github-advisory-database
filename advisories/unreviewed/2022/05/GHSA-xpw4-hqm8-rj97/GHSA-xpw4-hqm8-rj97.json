@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpw4-hqm8-rj97",
-  "modified": "2022-05-13T01:30:27Z",
+  "modified": "2025-04-20T03:50:40Z",
   "published": "2022-05-13T01:30:27Z",
   "aliases": [
     "CVE-2014-3630"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/play-framework/WdbFvemsFDQ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21msg/play-framework/7uNX_ImTW08/AogWSjsTAyQJ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/play-framework/WdbFvemsFDQ"
     },
     {
       "type": "WEB",
