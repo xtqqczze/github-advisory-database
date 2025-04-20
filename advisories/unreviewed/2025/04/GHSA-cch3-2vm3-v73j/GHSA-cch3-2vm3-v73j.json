@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cch3-2vm3-v73j",
-  "modified": "2025-04-20T03:50:41Z",
+  "modified": "2025-04-20T15:30:35Z",
   "published": "2025-04-20T03:50:41Z",
   "aliases": [
     "CVE-2025-43929"
@@ -29,7 +29,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/0xBenCantCode/CVE-2025-43929"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/kovidgoyal/kitty/compare/v0.40.1...v0.41.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hitman.services/cve-2025-43929"
     }
   ],
   "database_specific": {
