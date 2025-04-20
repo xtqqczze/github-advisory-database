@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vpr-mhgf-fgjv",
-  "modified": "2022-05-13T01:47:47Z",
+  "modified": "2025-04-20T03:38:42Z",
   "published": "2022-05-13T01:47:47Z",
   "aliases": [
     "CVE-2017-9023"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.strongswan.org/blog/2017/05/30/strongswan-vulnerability-%28cve-2017-9023%29.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.strongswan.org/blog/2017/05/30/strongswan-vulnerability-(cve-2017-9023).html"
     },
     {
@@ -37,7 +41,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-835"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

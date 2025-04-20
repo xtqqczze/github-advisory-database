@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-32qj-cm92-hg4r",
-  "modified": "2022-05-14T01:18:44Z",
+  "modified": "2025-04-20T03:38:24Z",
   "published": "2022-05-14T01:18:44Z",
   "aliases": [
     "CVE-2017-9353"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=13675"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=40b2d475c2ad550c1a0f536d5eb30f2a7404c4f0"
     },
     {
       "type": "WEB",

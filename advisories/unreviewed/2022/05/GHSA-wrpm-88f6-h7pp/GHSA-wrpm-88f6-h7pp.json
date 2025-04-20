@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrpm-88f6-h7pp",
-  "modified": "2022-05-14T01:24:59Z",
+  "modified": "2025-04-20T03:38:03Z",
   "published": "2022-05-14T01:24:59Z",
   "aliases": [
     "CVE-2017-6984"

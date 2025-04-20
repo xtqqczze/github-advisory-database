@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3gx-7f25-5jxg",
-  "modified": "2022-05-14T03:29:28Z",
+  "modified": "2025-04-20T03:38:11Z",
   "published": "2022-05-14T03:29:28Z",
   "aliases": [
     "CVE-2017-8311"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/44514"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=vlc.git%3Ba=commitdiff%3Bh=775de716add17322f24b476439f903a829446eb6"
     },
     {
       "type": "WEB",

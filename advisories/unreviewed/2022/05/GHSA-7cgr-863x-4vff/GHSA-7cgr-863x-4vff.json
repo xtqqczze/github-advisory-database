@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cgr-863x-4vff",
-  "modified": "2022-05-13T01:47:59Z",
+  "modified": "2025-04-20T03:38:34Z",
   "published": "2022-05-13T01:47:59Z",
   "aliases": [
     "CVE-2017-9474"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blogs.gentoo.org/ago/2017/05/24/ytnef-heap-based-buffer-overflow-in-decompressrtf-ytnef-c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LFJWMUEUC4ILH2HEOCYVVLQT654ZMCGQ"
     },
     {
       "type": "WEB",

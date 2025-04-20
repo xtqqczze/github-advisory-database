@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gr2g-c2hj-rpj8",
-  "modified": "2022-05-14T02:05:04Z",
+  "modified": "2025-04-20T03:38:05Z",
   "published": "2022-05-14T02:05:04Z",
   "aliases": [
     "CVE-2016-5177"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://chromereleases.googleblog.com/2016/09/stable-channel-update-for-desktop_29.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6FWZVE5PX27FWPLGOPDA7ZC5MILOWN6K"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UNUTOWCXLWVXOTGQUS53DSRVTO3J226Z"
     },
     {
       "type": "WEB",

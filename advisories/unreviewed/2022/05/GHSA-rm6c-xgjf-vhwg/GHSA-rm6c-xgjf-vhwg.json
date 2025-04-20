@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rm6c-xgjf-vhwg",
-  "modified": "2022-05-13T01:47:17Z",
+  "modified": "2025-04-20T03:38:42Z",
   "published": "2022-05-13T01:47:17Z",
   "aliases": [
     "CVE-2017-8108"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/CISOfy/lynis/releases/tag/2.5.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UJXMPYANXHI25NQZ36QMXNXANDRAA5YG"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZJHLLWNW7NASVXCK24YBSIUQQPWGCMB5"
     },
     {
       "type": "WEB",

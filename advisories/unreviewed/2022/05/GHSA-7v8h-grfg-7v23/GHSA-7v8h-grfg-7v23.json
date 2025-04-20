@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7v8h-grfg-7v23",
-  "modified": "2022-05-17T02:40:05Z",
+  "modified": "2025-04-20T03:39:12Z",
   "published": "2022-05-17T02:40:05Z",
   "aliases": [
     "CVE-2017-9560"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-9560"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40chronic_9612/advisory-44-credit-union-apps-for-ios-may-allow-login-credential-exposure-4d2f380b85c5"
     },
     {
       "type": "WEB",

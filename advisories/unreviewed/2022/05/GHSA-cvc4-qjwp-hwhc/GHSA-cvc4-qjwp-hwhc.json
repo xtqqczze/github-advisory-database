@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvc4-qjwp-hwhc",
-  "modified": "2022-05-14T03:49:12Z",
+  "modified": "2025-04-20T03:38:05Z",
   "published": "2022-05-14T03:49:12Z",
   "aliases": [
     "CVE-2016-7977"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201702-31"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=ghostpdl.git%3Ba=commitdiff%3Bh=8abd22010eb4db0fb1b10e430d5f5d83e015ef70"
     },
     {
       "type": "WEB",

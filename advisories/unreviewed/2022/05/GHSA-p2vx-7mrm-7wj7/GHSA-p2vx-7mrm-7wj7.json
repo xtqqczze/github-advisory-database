@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2vx-7mrm-7wj7",
-  "modified": "2022-05-17T00:26:31Z",
+  "modified": "2025-04-20T03:38:26Z",
   "published": "2022-05-17T00:26:31Z",
   "aliases": [
     "CVE-2017-9433"

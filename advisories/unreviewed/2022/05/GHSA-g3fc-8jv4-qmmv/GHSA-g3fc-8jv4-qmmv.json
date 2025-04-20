@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3fc-8jv4-qmmv",
-  "modified": "2022-05-13T01:11:15Z",
+  "modified": "2025-04-20T03:38:17Z",
   "published": "2022-05-13T01:11:15Z",
   "aliases": [
     "CVE-2017-5646"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5646"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rcd6bcbcc08840d4e4bea661efe9a5ef8f6126ebbbc5bc266701d8f48%40%3Cdev.logging.apache.org%3E"
     },
     {
       "type": "WEB",

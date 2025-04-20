@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-229r-rxf9-m7pj",
-  "modified": "2022-05-14T01:09:55Z",
+  "modified": "2025-04-20T03:38:42Z",
   "published": "2022-05-14T01:09:55Z",
   "aliases": [
     "CVE-2017-9022"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-9022"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.strongswan.org/blog/2017/05/30/strongswan-vulnerability-%28cve-2017-9022%29.html"
     },
     {
       "type": "WEB",

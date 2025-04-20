@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x47q-49w5-cg3q",
-  "modified": "2022-05-17T00:26:37Z",
+  "modified": "2025-04-20T03:38:11Z",
   "published": "2022-05-17T00:26:37Z",
   "aliases": [
     "CVE-2017-8313"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201707-10"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=vlc/vlc-2.2.git%3Ba=commitdiff%3Bh=05b653355ce303ada3b5e0e645ae717fea39186c"
     },
     {
       "type": "WEB",

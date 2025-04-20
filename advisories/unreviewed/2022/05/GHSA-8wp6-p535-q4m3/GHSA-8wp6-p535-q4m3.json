@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8wp6-p535-q4m3",
-  "modified": "2022-05-13T01:10:43Z",
+  "modified": "2025-04-20T03:38:06Z",
   "published": "2022-05-13T01:10:43Z",
   "aliases": [
     "CVE-2017-8913"

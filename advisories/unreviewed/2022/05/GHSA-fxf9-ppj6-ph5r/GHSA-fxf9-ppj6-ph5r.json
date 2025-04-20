@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxf9-ppj6-ph5r",
-  "modified": "2022-05-13T01:13:42Z",
+  "modified": "2025-04-20T03:38:42Z",
   "published": "2022-05-13T01:13:42Z",
   "aliases": [
     "CVE-2017-9330"
@@ -33,6 +33,10 @@
     },
     {
       "type": "WEB",
+      "url": "http://git.qemu.org/?p=qemu.git%3Ba=commit%3Bh=26f670a244982335cc08943fb1ec099a2c81e42d"
+    },
+    {
+      "type": "WEB",
       "url": "http://git.qemu.org/?p=qemu.git;a=commit;h=26f670a244982335cc08943fb1ec099a2c81e42d"
     },
     {
@@ -49,7 +53,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-835"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

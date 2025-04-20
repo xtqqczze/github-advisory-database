@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xgr-qhgc-xhwh",
-  "modified": "2022-05-13T01:13:38Z",
+  "modified": "2025-04-20T03:39:19Z",
   "published": "2022-05-13T01:13:38Z",
   "aliases": [
     "CVE-2017-9374"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/09/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.qemu.org/?p=qemu.git%3Ba=commit%3Bh=d710e1e7bd3d5bfc26b631f02ae87901ebe646b0"
     },
     {
       "type": "WEB",

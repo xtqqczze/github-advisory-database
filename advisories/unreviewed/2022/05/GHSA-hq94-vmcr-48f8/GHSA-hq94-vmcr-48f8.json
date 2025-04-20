@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hq94-vmcr-48f8",
-  "modified": "2022-05-17T02:43:41Z",
+  "modified": "2025-04-20T03:38:08Z",
   "published": "2022-05-17T02:43:41Z",
   "aliases": [
     "CVE-2017-9157"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2549-f94w-jg6h",
-  "modified": "2022-05-14T01:20:28Z",
+  "modified": "2025-04-20T03:38:03Z",
   "published": "2022-05-14T01:20:28Z",
   "aliases": [
     "CVE-2017-9140"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.veracode.com/blog/research/anatomy-cross-site-scripting-flaw-telerik-reporting-module"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.telerik.com/support/whats-new/reporting/release-history/telerik-reporting-r1-2017-sp2-%28version-11-0-17-406%29"
     },
     {
       "type": "WEB",

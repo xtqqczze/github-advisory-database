@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85cm-vx4m-p4x4",
-  "modified": "2022-05-14T01:09:09Z",
+  "modified": "2025-04-20T03:39:25Z",
   "published": "2022-05-14T01:09:09Z",
   "aliases": [
     "CVE-2017-9781"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.tenable.com/security/research/tra-2017-21"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.mathias-kettner.de/git/?p=check_mk.git%3Ba=blob%3Bf=.werks/4757%3Bhb=c248f0b6ff7b15ced9f07a3df8a80fad656ea5b1"
     },
     {
       "type": "WEB",

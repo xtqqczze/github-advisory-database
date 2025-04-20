@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmp6-jq25-g6qc",
-  "modified": "2022-05-14T01:24:59Z",
+  "modified": "2025-04-20T03:37:58Z",
   "published": "2022-05-14T01:24:59Z",
   "aliases": [
     "CVE-2017-2531"

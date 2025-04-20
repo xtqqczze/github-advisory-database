@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5gw-wx32-xw5r",
-  "modified": "2022-05-14T02:20:59Z",
+  "modified": "2025-04-20T03:38:11Z",
   "published": "2022-05-14T02:20:59Z",
   "aliases": [
     "CVE-2017-8312"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201707-10"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=vlc.git%3Ba=blobdiff%3Bf=modules/demux/subtitle.c%3Bh=5e4fcdb7f25b2819f5441156c7c0ea2a7d112ca3%3Bhp=2a75fbfb7c3f56b24b2e4498bbb8fe0aa2575974%3Bhb=611398fc8d32f3fe4331f60b220c52ba3557beaa%3Bhpb=075bc7169b05b004fa0250e4a4ce5516b05487a9"
     },
     {
       "type": "WEB",

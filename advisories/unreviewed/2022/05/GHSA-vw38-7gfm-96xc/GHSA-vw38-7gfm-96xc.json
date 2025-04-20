@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vw38-7gfm-96xc",
-  "modified": "2022-05-17T02:36:17Z",
+  "modified": "2025-04-20T03:39:35Z",
   "published": "2022-05-17T02:36:17Z",
   "aliases": [
     "CVE-2014-8149"

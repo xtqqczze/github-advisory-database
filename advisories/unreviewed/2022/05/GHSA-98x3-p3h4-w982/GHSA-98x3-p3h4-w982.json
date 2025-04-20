@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-98x3-p3h4-w982",
-  "modified": "2022-05-13T01:40:53Z",
+  "modified": "2025-04-20T03:38:24Z",
   "published": "2022-05-13T01:40:53Z",
   "aliases": [
     "CVE-2017-0896"
@@ -30,10 +30,15 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!msg/zulip-announce/sUYeJv-fFmg/2TU2TLmNAwAJ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21msg/zulip-announce/sUYeJv-fFmg/2TU2TLmNAwAJ"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-285",
       "CWE-862"
     ],
     "severity": "MODERATE",

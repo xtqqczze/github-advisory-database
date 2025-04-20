@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv8m-3c78-x3wp",
-  "modified": "2022-05-17T02:36:13Z",
+  "modified": "2025-04-20T03:39:36Z",
   "published": "2022-05-17T02:36:13Z",
   "aliases": [
     "CVE-2015-1591"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=775681"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?msg=17%3Bfilename=0001-fix-fifo-and-ctl-defaults-pointing-to-unsecure-tmp-d.patch%3Batt=1%3Bbug=775681"
     },
     {
       "type": "WEB",

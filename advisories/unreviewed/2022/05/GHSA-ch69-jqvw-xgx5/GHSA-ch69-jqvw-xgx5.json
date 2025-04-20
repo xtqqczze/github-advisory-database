@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch69-jqvw-xgx5",
-  "modified": "2022-05-13T01:13:43Z",
+  "modified": "2025-04-20T03:39:19Z",
   "published": "2022-05-13T01:13:43Z",
   "aliases": [
     "CVE-2017-9375"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2019/09/msg00021.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.qemu.org/?p=qemu.git%3Ba=commit%3Bh=96d87bdda3919bb16f754b3d3fd1227e1f38f13c"
     },
     {
       "type": "WEB",

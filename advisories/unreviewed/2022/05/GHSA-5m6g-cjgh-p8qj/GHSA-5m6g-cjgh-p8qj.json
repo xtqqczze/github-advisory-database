@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m6g-cjgh-p8qj",
-  "modified": "2022-05-13T01:47:56Z",
+  "modified": "2025-04-20T03:38:24Z",
   "published": "2022-05-13T01:47:56Z",
   "aliases": [
     "CVE-2017-9349"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=13685"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=cb1b6494c44c9e939d9e2554de6b812de395e3f9"
     },
     {
       "type": "WEB",

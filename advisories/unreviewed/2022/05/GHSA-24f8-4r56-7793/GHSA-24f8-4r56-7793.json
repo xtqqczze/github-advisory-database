@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-24f8-4r56-7793",
-  "modified": "2022-05-13T01:10:22Z",
+  "modified": "2025-04-20T03:38:30Z",
   "published": "2022-05-13T01:10:22Z",
   "aliases": [
     "CVE-2017-9438"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/VirusTotal/yara/commit/10e8bd3071677dd1fa76beeef4bc2fc427cea5e7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FKNXSH5ERG6NELTXCYVJLUPJJJ2TNEBD"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XXM224OLGI6KAOROLDPPGGCZ2OQVQ6HH"
     },
     {
       "type": "WEB",

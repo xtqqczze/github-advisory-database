@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3hf-3c6j-2wxf",
-  "modified": "2022-05-13T01:47:58Z",
+  "modified": "2025-04-20T03:38:33Z",
   "published": "2022-05-13T01:47:58Z",
   "aliases": [
     "CVE-2017-9472"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blogs.gentoo.org/ago/2017/05/24/ytnef-heap-based-buffer-overflow-in-swapdword-ytnef-c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LFJWMUEUC4ILH2HEOCYVVLQT654ZMCGQ"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qp88-3vr4-mjq3",
-  "modified": "2022-05-14T00:58:26Z",
+  "modified": "2025-04-20T03:38:48Z",
   "published": "2022-05-14T00:58:26Z",
   "aliases": [
     "CVE-2014-9984"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=16695"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=glibc.git%3Ba=commit%3Bh=c44496df2f090a56d3bf75df930592dac6bba46f"
     },
     {
       "type": "WEB",
