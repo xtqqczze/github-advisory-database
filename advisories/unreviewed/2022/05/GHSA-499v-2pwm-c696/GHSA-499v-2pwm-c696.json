@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-499v-2pwm-c696",
-  "modified": "2022-05-13T01:09:02Z",
+  "modified": "2025-04-20T03:46:26Z",
   "published": "2022-05-13T01:09:02Z",
   "aliases": [
     "CVE-2017-1000254"
@@ -37,7 +37,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b%40%3Cissues.bookkeeper.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b@%3Cissues.bookkeeper.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rf4c02775860db415b4955778a131c2795223f61cb8c6a450893651e4%40%3Cissues.bookkeeper.apache.org%3E"
     },
     {
       "type": "WEB",

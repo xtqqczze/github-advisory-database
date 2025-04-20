@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92jv-xphv-7f8c",
-  "modified": "2022-05-13T01:48:07Z",
+  "modified": "2025-04-20T03:46:19Z",
   "published": "2022-05-13T01:48:07Z",
   "aliases": [
     "CVE-2017-9792"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://issues.apache.org/jira/browse/IMPALA-5638"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/74a163df0cdefcd738c8d18821e69aa69eed2ba5384c0cc255d15c4b%40%3Cannounce.apache.org%3E"
     },
     {
       "type": "WEB",

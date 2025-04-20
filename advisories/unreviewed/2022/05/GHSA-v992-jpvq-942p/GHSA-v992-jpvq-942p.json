@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v992-jpvq-942p",
-  "modified": "2022-05-17T00:47:36Z",
+  "modified": "2025-04-20T03:45:41Z",
   "published": "2022-05-17T00:47:36Z",
   "aliases": [
     "CVE-2017-14638"

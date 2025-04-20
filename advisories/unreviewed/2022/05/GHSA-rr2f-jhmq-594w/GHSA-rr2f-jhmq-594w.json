@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rr2f-jhmq-594w",
-  "modified": "2022-05-13T01:28:48Z",
+  "modified": "2025-04-20T03:44:56Z",
   "published": "2022-05-13T01:28:48Z",
   "aliases": [
     "CVE-2017-11462"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1488873"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2FPRUP4YVOEBGEROUYWZFEQ64HTMGNED"
     },
     {
       "type": "WEB",

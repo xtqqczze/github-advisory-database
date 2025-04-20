@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m534-2jxx-fvmm",
-  "modified": "2022-05-14T03:24:43Z",
+  "modified": "2025-04-20T03:46:18Z",
   "published": "2022-05-14T03:24:43Z",
   "aliases": [
     "CVE-2017-12820"

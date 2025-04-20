@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmff-6p8j-3qv9",
-  "modified": "2022-05-17T00:50:24Z",
+  "modified": "2025-04-20T03:44:56Z",
   "published": "2022-05-17T00:50:24Z",
   "aliases": [
     "CVE-2015-5206"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5206"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.us.apache.org/mod_mbox/www-announce/201509.mbox/%3CCABF6JR2j5vesvnjbm6sDPB_zAGj3kNgzzHEpLUh6dWG6t8mC2w%40mail.gmail.com%3E"
     },
     {
       "type": "WEB",

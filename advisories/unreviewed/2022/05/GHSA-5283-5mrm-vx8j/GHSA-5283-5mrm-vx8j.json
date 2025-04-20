@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5283-5mrm-vx8j",
-  "modified": "2022-05-13T01:30:20Z",
+  "modified": "2025-04-20T03:45:18Z",
   "published": "2022-05-13T01:30:20Z",
   "aliases": [
     "CVE-2017-1002016"

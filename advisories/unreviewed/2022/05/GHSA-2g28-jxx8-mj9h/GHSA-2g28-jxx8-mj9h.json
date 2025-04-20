@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2g28-jxx8-mj9h",
-  "modified": "2022-05-14T03:07:24Z",
+  "modified": "2025-04-20T03:46:19Z",
   "published": "2022-05-14T03:07:24Z",
   "aliases": [
     "CVE-2017-1000097"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!msg/golang-dev/4NdLzS8sls8/uIz8QlnIBQAJ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21msg/golang-dev/4NdLzS8sls8/uIz8QlnIBQAJ"
     }
   ],
   "database_specific": {

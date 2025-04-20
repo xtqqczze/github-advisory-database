@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-892f-jxwr-c43v",
-  "modified": "2022-05-14T00:57:20Z",
+  "modified": "2025-04-20T03:45:24Z",
   "published": "2022-05-14T00:57:20Z",
   "aliases": [
     "CVE-2017-14504"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/08/msg00002.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PF62B5PJA2JDUOCKJGUQO3SPL74BEYSV"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WHIKB4TP6KBJWT2UIPWL5MWMG5QXKGEJ"
     },
     {
       "type": "WEB",
@@ -46,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2018/dsa-4321"
+    },
+    {
+      "type": "WEB",
+      "url": "http://hg.graphicsmagick.org/hg/GraphicsMagick?cmd=changeset%3Bnode=fb09ca6dd22c"
     },
     {
       "type": "WEB",

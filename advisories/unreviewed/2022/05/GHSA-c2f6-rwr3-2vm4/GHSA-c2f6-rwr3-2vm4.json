@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2f6-rwr3-2vm4",
-  "modified": "2022-05-17T00:47:33Z",
+  "modified": "2025-04-20T03:45:48Z",
   "published": "2022-05-17T00:47:33Z",
   "aliases": [
     "CVE-2017-14729"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=22170"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git%3Bh=56933f9e3e90eebf1018ed7417d6c1184b91db6b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git%3Bh=61e3bf5f83f7e505b6bc51ef65426e5b31e6e360"
     },
     {
       "type": "WEB",

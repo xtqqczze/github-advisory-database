@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p7r-hc45-r2qc",
-  "modified": "2022-05-14T01:05:31Z",
+  "modified": "2025-04-20T03:46:26Z",
   "published": "2022-05-14T01:05:31Z",
   "aliases": [
     "CVE-2014-0030"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://liftsecurity.io/advisories/Apache_Roller_XML-RPC_susceptible_to_XXE"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mail-archives.apache.org/mod_mbox/roller-dev/201401.mbox/%3CCAF1aazCMzDGB12Ls4t-SOwNA=OdguD010LX3yZGhk2GQHafFXw%40mail.gmail.com%3E"
     },
     {
       "type": "WEB",

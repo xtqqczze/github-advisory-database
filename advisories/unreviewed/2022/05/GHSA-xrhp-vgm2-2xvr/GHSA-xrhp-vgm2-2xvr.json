@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrhp-vgm2-2xvr",
-  "modified": "2022-05-17T00:47:13Z",
+  "modified": "2025-04-20T03:45:32Z",
   "published": "2022-05-17T00:47:13Z",
   "aliases": [
     "CVE-2014-8686"

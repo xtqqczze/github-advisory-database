@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rrf-cfx9-434w",
-  "modified": "2022-05-14T01:44:28Z",
+  "modified": "2025-04-20T03:45:53Z",
   "published": "2022-05-14T01:44:28Z",
   "aliases": [
     "CVE-2017-9962"

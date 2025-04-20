@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9jxc-7cqj-8cgc",
-  "modified": "2022-05-14T03:46:35Z",
+  "modified": "2025-04-20T03:45:42Z",
   "published": "2022-05-14T03:46:35Z",
   "aliases": [
     "CVE-2017-14687"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2017/11/msg00007.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=mupdf.git%3Bh=2b16dbd8f73269cb15ca61ece75cf8d2d196ed28"
     },
     {
       "type": "WEB",

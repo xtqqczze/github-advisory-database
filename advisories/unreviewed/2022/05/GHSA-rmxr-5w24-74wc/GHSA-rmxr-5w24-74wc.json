@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmxr-5w24-74wc",
-  "modified": "2022-05-14T01:29:44Z",
+  "modified": "2025-04-20T03:46:32Z",
   "published": "2022-05-14T01:29:44Z",
   "aliases": [
     "CVE-2017-15191"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://code.wireshark.org/review/23591"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=8dbb21dfde14221dab09b6b9c7719b9067c1f06e"
     },
     {
       "type": "WEB",

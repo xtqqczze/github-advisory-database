@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-244g-8368-6wr9",
-  "modified": "2022-05-17T00:33:50Z",
+  "modified": "2025-04-20T03:46:07Z",
   "published": "2022-05-17T00:33:50Z",
   "aliases": [
     "CVE-2014-0043"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-0043"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/d95e962f2f059a09f5abf7086c3f4ed22d2ae2c21499d0de95d4435d%401392986987%40%3Cannounce.wicket.apache.org%3E"
     },
     {
       "type": "WEB",

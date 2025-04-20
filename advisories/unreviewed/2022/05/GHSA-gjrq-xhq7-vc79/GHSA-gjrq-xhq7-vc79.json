@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjrq-xhq7-vc79",
-  "modified": "2022-05-14T01:05:27Z",
+  "modified": "2025-04-20T03:46:26Z",
   "published": "2022-05-14T01:05:27Z",
   "aliases": [
     "CVE-2017-14972"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-14972"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raw.githubusercontent.com/badbiddy/Vulnerability-Disclosure/master/InFocus%20Mondopad%20%3C%202.2.08%20-%20CVE-2017-14972"
     },
     {
       "type": "WEB",
