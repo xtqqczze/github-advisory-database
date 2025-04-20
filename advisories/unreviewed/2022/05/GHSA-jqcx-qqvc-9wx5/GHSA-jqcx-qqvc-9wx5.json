@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqcx-qqvc-9wx5",
-  "modified": "2022-05-14T03:00:58Z",
+  "modified": "2025-04-20T03:43:40Z",
   "published": "2022-05-14T03:00:58Z",
   "aliases": [
     "CVE-2017-12976"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/09/msg00004.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://source.git-annex.branchable.com/?p=source.git%3Ba=blob%3Bf=doc/bugs/dashed_ssh_hostname_security_hole.mdwn"
+    },
+    {
+      "type": "WEB",
+      "url": "http://source.git-annex.branchable.com/?p=source.git%3Ba=commit%3Bh=c24d0f0e8984576654e2be149005bc884fe0403a"
+    },
+    {
+      "type": "WEB",
+      "url": "http://source.git-annex.branchable.com/?p=source.git%3Ba=commit%3Bh=df11e54788b254efebb4898b474de11ae8d3b471"
     },
     {
       "type": "WEB",

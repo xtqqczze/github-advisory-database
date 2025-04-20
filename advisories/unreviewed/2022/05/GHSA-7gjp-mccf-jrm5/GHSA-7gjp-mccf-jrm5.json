@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7gjp-mccf-jrm5",
-  "modified": "2022-05-17T01:57:26Z",
+  "modified": "2025-04-20T03:43:44Z",
   "published": "2022-05-17T01:57:26Z",
   "aliases": [
     "CVE-2017-12843"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/cyrusimap/cyrus-imapd/commit/5edadcfb83bf27107578830801817f9e6d0ad941"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6M32R5QPCCNT57BVH3NPV5WVJFSTDP7Q"
     },
     {
       "type": "WEB",

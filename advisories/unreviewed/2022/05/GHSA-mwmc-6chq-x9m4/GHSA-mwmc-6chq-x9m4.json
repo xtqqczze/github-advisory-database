@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwmc-6chq-x9m4",
-  "modified": "2022-05-17T00:35:09Z",
+  "modified": "2025-04-20T03:43:19Z",
   "published": "2022-05-17T00:35:09Z",
   "aliases": [
     "CVE-2015-4071"

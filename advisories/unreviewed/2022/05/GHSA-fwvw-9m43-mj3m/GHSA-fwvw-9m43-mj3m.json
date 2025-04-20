@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwvw-9m43-mj3m",
-  "modified": "2022-05-14T03:14:41Z",
+  "modified": "2025-04-20T03:44:16Z",
   "published": "2022-05-14T03:14:41Z",
   "aliases": [
     "CVE-2017-14106"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2018:2172"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mail-archive.com/netdev%40vger.kernel.org/msg186255.html"
     },
     {
       "type": "WEB",

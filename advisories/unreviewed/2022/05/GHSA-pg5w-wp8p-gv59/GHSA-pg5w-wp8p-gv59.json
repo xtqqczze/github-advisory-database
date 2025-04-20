@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pg5w-wp8p-gv59",
-  "modified": "2022-05-13T01:43:11Z",
+  "modified": "2025-04-20T03:44:03Z",
   "published": "2022-05-13T01:43:11Z",
   "aliases": [
     "CVE-2017-13673"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2018:1113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.qemu.org/gitweb.cgi?p=qemu.git%3Ba=commit%3Bh=bfc56535f793c557aa754c50213fc5f882e6482d"
     },
     {
       "type": "WEB",

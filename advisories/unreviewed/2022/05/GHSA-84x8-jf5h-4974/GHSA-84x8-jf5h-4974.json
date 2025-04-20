@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84x8-jf5h-4974",
-  "modified": "2022-05-17T01:17:18Z",
+  "modified": "2025-04-20T03:44:15Z",
   "published": "2022-05-17T01:17:18Z",
   "aliases": [
     "CVE-2016-0713"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bosh.io/releases/github.com/cloudfoundry/cf-release?version=229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.cloudfoundry.org/archives/list/cf-dev%40lists.cloudfoundry.org/thread/VWDLUNTDKW5CW5JWEM5BOHLJ3J32TAFF"
     },
     {
       "type": "WEB",

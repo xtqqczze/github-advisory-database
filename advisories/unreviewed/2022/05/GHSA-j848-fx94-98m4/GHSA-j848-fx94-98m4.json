@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j848-fx94-98m4",
-  "modified": "2022-05-14T01:40:19Z",
+  "modified": "2025-04-20T03:44:09Z",
   "published": "2022-05-14T01:40:19Z",
   "aliases": [
     "CVE-2017-0379"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://eprint.iacr.org/2017/806"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.gnupg.org/cgi-bin/gitweb.cgi?p=libgcrypt.git%3Ba=commit%3Bh=da780c8183cccc8f533c8ace8211ac2cb2bdee7b"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pvm3-mp56-6gwm",
-  "modified": "2022-05-17T00:51:01Z",
+  "modified": "2025-04-20T03:44:50Z",
   "published": "2022-05-17T00:51:01Z",
   "aliases": [
     "CVE-2017-8708"

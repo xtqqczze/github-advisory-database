@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp9x-q47m-wg87",
-  "modified": "2022-05-13T01:10:29Z",
+  "modified": "2025-04-20T03:43:57Z",
   "published": "2022-05-13T01:10:29Z",
   "aliases": [
     "CVE-2017-12876"

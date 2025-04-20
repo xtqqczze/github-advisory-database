@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwpc-vv5g-q5p8",
-  "modified": "2022-05-14T01:05:54Z",
+  "modified": "2025-04-20T03:44:51Z",
   "published": "2022-05-14T01:05:54Z",
   "aliases": [
     "CVE-2017-8740"
