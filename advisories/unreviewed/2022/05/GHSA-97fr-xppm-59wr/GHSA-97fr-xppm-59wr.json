@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-97fr-xppm-59wr",
-  "modified": "2022-05-13T01:25:44Z",
+  "modified": "2025-04-20T03:42:20Z",
   "published": "2022-05-13T01:25:44Z",
   "aliases": [
     "CVE-2015-7850"

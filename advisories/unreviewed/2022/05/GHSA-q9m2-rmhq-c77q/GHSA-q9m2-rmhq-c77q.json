@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9m2-rmhq-c77q",
-  "modified": "2022-05-17T02:20:13Z",
+  "modified": "2025-04-20T03:41:57Z",
   "published": "2022-05-17T02:20:13Z",
   "aliases": [
     "CVE-2016-7845"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-7845"
+    },
+    {
+      "type": "WEB",
+      "url": "https://asp.gigacc.com/user/publicurl/view.do%3Bjsessionid=28438FE401A764B7CEDB3664AB2AC67C.ap04?job=view&direct=true&TI=9l1sf6jfp0bafkv9bh2e5fs43k&ID=9qbnmp2qetc5u9vc8crqbl804s"
     },
     {
       "type": "WEB",

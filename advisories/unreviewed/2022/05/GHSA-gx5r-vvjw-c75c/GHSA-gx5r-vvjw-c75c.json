@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gx5r-vvjw-c75c",
-  "modified": "2022-05-13T01:47:01Z",
+  "modified": "2025-04-20T03:43:11Z",
   "published": "2022-05-13T01:47:01Z",
   "aliases": [
     "CVE-2017-7547"
@@ -57,7 +57,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-522"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

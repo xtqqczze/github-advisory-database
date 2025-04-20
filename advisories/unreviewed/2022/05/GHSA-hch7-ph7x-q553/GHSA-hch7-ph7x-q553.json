@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hch7-ph7x-q553",
-  "modified": "2022-05-14T00:57:20Z",
+  "modified": "2025-04-20T03:43:14Z",
   "published": "2022-05-14T00:57:20Z",
   "aliases": [
     "CVE-2017-12935"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/08/msg00002.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PF62B5PJA2JDUOCKJGUQO3SPL74BEYSV"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WHIKB4TP6KBJWT2UIPWL5MWMG5QXKGEJ"
     },
     {
       "type": "WEB",

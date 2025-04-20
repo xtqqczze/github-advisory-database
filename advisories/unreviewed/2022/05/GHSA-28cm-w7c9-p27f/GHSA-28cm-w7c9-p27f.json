@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-28cm-w7c9-p27f",
-  "modified": "2022-05-13T01:11:42Z",
+  "modified": "2025-04-20T03:42:19Z",
   "published": "2022-05-13T01:11:42Z",
   "aliases": [
     "CVE-2011-5325"

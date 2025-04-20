@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m46c-h6cr-xhm7",
-  "modified": "2022-05-13T01:08:36Z",
+  "modified": "2025-04-20T03:42:20Z",
   "published": "2022-05-13T01:08:36Z",
   "aliases": [
     "CVE-2015-7853"

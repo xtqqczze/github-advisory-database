@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55g6-fxrw-j4pp",
-  "modified": "2022-05-13T01:38:17Z",
+  "modified": "2025-04-20T03:42:42Z",
   "published": "2022-05-13T01:38:17Z",
   "aliases": [
     "CVE-2017-11154"

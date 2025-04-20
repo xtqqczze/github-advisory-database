@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-34wf-vr8w-7xh4",
-  "modified": "2022-05-13T01:14:24Z",
+  "modified": "2025-04-20T03:43:06Z",
   "published": "2022-05-13T01:14:24Z",
   "aliases": [
     "CVE-2017-9800"
@@ -29,7 +29,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/cb607dc2f13bab9769147759ddccb14a4f9d8e5cdcad5e99c0d03b63%40%3Cannounce.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/cb607dc2f13bab9769147759ddccb14a4f9d8e5cdcad5e99c0d03b63@%3Cannounce.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/d8cf53affd700dfce90bad4968fb8b1dfb69cf7c443052c70398ff76%40%3Ccommits.subversion.apache.org%3E"
     },
     {
       "type": "WEB",

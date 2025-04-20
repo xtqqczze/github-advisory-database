@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4984-pgvj-xrgr",
-  "modified": "2022-05-13T01:41:43Z",
+  "modified": "2025-04-20T03:42:40Z",
   "published": "2022-05-13T01:41:43Z",
   "aliases": [
     "CVE-2017-10246"

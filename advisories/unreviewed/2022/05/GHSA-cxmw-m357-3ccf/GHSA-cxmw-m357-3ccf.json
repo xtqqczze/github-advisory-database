@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxmw-m357-3ccf",
-  "modified": "2022-05-13T01:16:59Z",
+  "modified": "2025-04-20T03:42:30Z",
   "published": "2022-05-13T01:16:59Z",
   "aliases": [
     "CVE-2017-10090"

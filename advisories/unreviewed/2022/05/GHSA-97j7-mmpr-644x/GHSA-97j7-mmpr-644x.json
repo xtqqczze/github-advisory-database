@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-97j7-mmpr-644x",
-  "modified": "2022-05-17T02:13:52Z",
+  "modified": "2025-04-20T03:42:20Z",
   "published": "2022-05-17T02:13:52Z",
   "aliases": [
     "CVE-2017-12650"

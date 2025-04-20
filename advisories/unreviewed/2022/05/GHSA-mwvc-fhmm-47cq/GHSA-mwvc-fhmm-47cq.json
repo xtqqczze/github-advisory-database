@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwvc-fhmm-47cq",
-  "modified": "2022-05-17T01:57:32Z",
+  "modified": "2025-04-20T03:43:09Z",
   "published": "2022-05-17T01:57:32Z",
   "aliases": [
     "CVE-2017-12426"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://about.gitlab.com/2017/08/10/gitlab-9-dot-4-dot-4-released"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mail-archive.com/linux-kernel%40vger.kernel.org/msg1466490.html"
     },
     {
       "type": "WEB",

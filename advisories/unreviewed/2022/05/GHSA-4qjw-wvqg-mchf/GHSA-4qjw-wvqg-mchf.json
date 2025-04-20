@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qjw-wvqg-mchf",
-  "modified": "2022-05-14T01:01:14Z",
+  "modified": "2025-04-20T03:41:57Z",
   "published": "2022-05-14T01:01:14Z",
   "aliases": [
     "CVE-2017-12141"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Yeraze/ytnef/issues/50"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LFJWMUEUC4ILH2HEOCYVVLQT654ZMCGQ"
     },
     {
       "type": "WEB",
