@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwc9-q2gc-2rch",
-  "modified": "2022-05-13T01:47:06Z",
+  "modified": "2025-04-20T03:36:00Z",
   "published": "2022-05-13T01:47:06Z",
   "aliases": [
     "CVE-2017-7700"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=13478"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=8fc0af859de4993951a915ad735be350221f3f53"
     },
     {
       "type": "WEB",

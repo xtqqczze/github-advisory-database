@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7674-jxfw-vhf5",
-  "modified": "2022-05-17T00:53:10Z",
+  "modified": "2025-04-20T03:37:08Z",
   "published": "2022-05-17T00:53:10Z",
   "aliases": [
     "CVE-2016-10243"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-10243"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/B7CNJ4HKX7X6V7VMN3UCU7KPY6IX4XRB"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VL6PUKPWEXYIPIAZRIX5ZLQWCSALVLFP"
     },
     {
       "type": "WEB",

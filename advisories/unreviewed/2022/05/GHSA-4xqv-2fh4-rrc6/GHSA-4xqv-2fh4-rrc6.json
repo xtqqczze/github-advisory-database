@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xqv-2fh4-rrc6",
-  "modified": "2022-05-17T02:45:25Z",
+  "modified": "2025-04-20T03:37:14Z",
   "published": "2022-05-17T02:45:25Z",
   "aliases": [
     "CVE-2017-5912"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5912"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40chronic_9612/follow-up-76-popular-apps-confirmed-vulnerable-to-silent-interception-of-tls-protected-data-64185035029f"
     },
     {
       "type": "WEB",

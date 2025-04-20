@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpc9-4cjr-9wxx",
-  "modified": "2022-05-13T01:25:46Z",
+  "modified": "2025-04-20T03:35:57Z",
   "published": "2022-05-13T01:25:46Z",
   "aliases": [
     "CVE-2017-6059"
@@ -34,6 +34,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/pingidentity/mod_auth_openidc/releases/tag/v2.1.4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2V3HIGXMUKJGOBMAQAQPGC7G5YYWSUVA"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/EJXBG3DG2FUYFGTUTSJFMPIINVFKKB4Z"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WTWUMQ46GZY3O4WU4JCF333LN53R2XQH"
     },
     {
       "type": "WEB",

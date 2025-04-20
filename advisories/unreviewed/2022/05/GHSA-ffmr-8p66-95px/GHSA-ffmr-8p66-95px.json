@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffmr-8p66-95px",
-  "modified": "2022-05-13T01:47:47Z",
+  "modified": "2025-04-20T03:37:47Z",
   "published": "2022-05-13T01:47:47Z",
   "aliases": [
     "CVE-2017-9039"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201709-02"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git%3Bh=82156ab704b08b124d319c0decdbd48b3ca2dac5"
     },
     {
       "type": "WEB",

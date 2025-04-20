@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5gx8-3vch-p323",
-  "modified": "2022-05-13T01:09:55Z",
+  "modified": "2025-04-20T03:37:19Z",
   "published": "2022-05-13T01:09:55Z",
   "aliases": [
     "CVE-2017-8831"

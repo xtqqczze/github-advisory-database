@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vpj-pr2c-5mm2",
-  "modified": "2022-05-13T01:25:01Z",
+  "modified": "2025-04-20T03:37:07Z",
   "published": "2022-05-13T01:25:01Z",
   "aliases": [
     "CVE-2017-6519"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1426712"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r1b103833cb5bc8466e24ff0ecc5e75b45a705334ab6a444e64e840a0%40%3Cissues.bookkeeper.apache.org%3E"
     },
     {
       "type": "WEB",

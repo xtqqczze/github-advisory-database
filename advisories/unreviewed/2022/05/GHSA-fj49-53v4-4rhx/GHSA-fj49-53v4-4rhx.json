@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fj49-53v4-4rhx",
-  "modified": "2022-05-14T03:07:30Z",
+  "modified": "2025-04-20T03:36:03Z",
   "published": "2022-05-14T03:07:30Z",
   "aliases": [
     "CVE-2014-7921"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://android.googlesource.com/platform/frameworks/av/+/36d1577%5E!"
+    },
+    {
+      "type": "WEB",
+      "url": "https://android.googlesource.com/platform/frameworks/av/+/36d1577%5E%21"
     },
     {
       "type": "WEB",

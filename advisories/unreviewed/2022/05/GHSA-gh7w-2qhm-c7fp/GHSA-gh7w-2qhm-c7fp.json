@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh7w-2qhm-c7fp",
-  "modified": "2022-05-17T00:53:07Z",
+  "modified": "2025-04-20T03:37:48Z",
   "published": "2022-05-17T00:53:07Z",
   "aliases": [
     "CVE-2017-9041"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201709-02"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git%3Bh=75ec1fdbb797a389e4fe4aaf2e15358a070dcc19"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git%3Bh=c4ab9505b53cdc899506ed421fddb7e1f8faf7a3"
     },
     {
       "type": "WEB",

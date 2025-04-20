@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr65-2gpf-fj8v",
-  "modified": "2022-05-17T00:26:36Z",
+  "modified": "2025-04-20T03:37:13Z",
   "published": "2022-05-17T00:26:36Z",
   "aliases": [
     "CVE-2017-8295"

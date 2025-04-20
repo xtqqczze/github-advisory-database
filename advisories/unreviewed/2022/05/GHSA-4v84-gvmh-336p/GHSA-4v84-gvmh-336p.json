@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v84-gvmh-336p",
-  "modified": "2022-05-17T02:48:38Z",
+  "modified": "2025-04-20T03:36:04Z",
   "published": "2022-05-17T02:48:38Z",
   "aliases": [
     "CVE-2015-2947"

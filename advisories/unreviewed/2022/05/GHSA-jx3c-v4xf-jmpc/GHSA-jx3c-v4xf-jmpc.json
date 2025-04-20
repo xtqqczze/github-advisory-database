@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx3c-v4xf-jmpc",
-  "modified": "2022-05-13T01:47:28Z",
+  "modified": "2025-04-20T03:37:03Z",
   "published": "2022-05-13T01:47:28Z",
   "aliases": [
     "CVE-2017-8326"

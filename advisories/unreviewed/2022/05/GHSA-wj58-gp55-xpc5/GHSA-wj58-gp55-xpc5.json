@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj58-gp55-xpc5",
-  "modified": "2022-05-17T02:32:23Z",
+  "modified": "2025-04-20T03:35:55Z",
   "published": "2022-05-17T02:32:23Z",
   "aliases": [
     "CVE-2017-3049"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xm87-mj3j-9ppw",
-  "modified": "2022-05-17T02:43:56Z",
+  "modified": "2025-04-20T03:37:44Z",
   "published": "2022-05-17T02:43:56Z",
   "aliases": [
     "CVE-2017-8942"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-8942"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40chronic_9612/follow-up-76-popular-apps-confirmed-vulnerable-to-silent-interception-of-tls-protected-data-64185035029f"
     },
     {
       "type": "WEB",

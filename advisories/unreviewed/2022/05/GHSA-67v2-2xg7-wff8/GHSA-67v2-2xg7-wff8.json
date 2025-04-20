@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67v2-2xg7-wff8",
-  "modified": "2022-05-13T01:27:56Z",
+  "modified": "2025-04-20T03:36:31Z",
   "published": "2022-05-13T01:27:56Z",
   "aliases": [
     "CVE-2017-8073"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/weechat/weechat/commit/2fb346f25f79e412cf0ed314fdf791763c19b70b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ASRTCQFFDAAK347URWNDH6NSED2BGNY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ER23GT23US5JXDLUZAMGMWXKZ74MI4S2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/M3LAJTLI3LWZRNCFYJ7PCBBTHUMCCBHH"
     },
     {
       "type": "WEB",

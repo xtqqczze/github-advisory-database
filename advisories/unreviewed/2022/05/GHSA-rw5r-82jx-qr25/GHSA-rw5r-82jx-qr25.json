@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rw5r-82jx-qr25",
-  "modified": "2022-05-17T02:45:38Z",
+  "modified": "2025-04-20T03:37:20Z",
   "published": "2022-05-17T02:45:38Z",
   "aliases": [
     "CVE-2016-10369"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.debian.org/862098"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.lxde.org/gitweb/?p=lxde/lxterminal.git%3Ba=commit%3Bh=f99163c6ff8b2f57c5f37b1ce5d62cf7450d4648"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w6pf-cx8p-259q",
-  "modified": "2022-05-13T01:26:08Z",
+  "modified": "2025-04-20T03:36:30Z",
   "published": "2022-05-13T01:26:08Z",
   "aliases": [
     "CVE-2016-2564"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://invisionpower.com/release-notes/419-r37"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40iancarroll/bypassing-authentication-in-invision-power-board-with-cve-2016-2564-9a24ea3655f9"
     },
     {
       "type": "WEB",

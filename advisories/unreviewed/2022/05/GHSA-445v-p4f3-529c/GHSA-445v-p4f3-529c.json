@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-445v-p4f3-529c",
-  "modified": "2022-05-17T02:44:22Z",
+  "modified": "2025-04-20T03:37:42Z",
   "published": "2022-05-17T02:44:22Z",
   "aliases": [
     "CVE-2017-8933"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.debian.org/862570"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.lxde.org/gitweb/?p=lxde/menu-cache.git%3Ba=commit%3Bh=56f66684592abf257c4004e6e1fff041c64a12ce"
     },
     {
       "type": "WEB",

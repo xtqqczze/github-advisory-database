@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rq7r-p3cv-r9gr",
-  "modified": "2022-05-13T01:47:05Z",
+  "modified": "2025-04-20T03:36:01Z",
   "published": "2022-05-13T01:47:05Z",
   "aliases": [
     "CVE-2017-7704"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://bugs.wireshark.org/bugzilla/show_bug.cgi?id=13453"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=6032b0fe5fc1176ab77e03e20765f95fbd21b19e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code.wireshark.org/review/gitweb?p=wireshark.git%3Ba=commit%3Bh=da53a90b6895e47e03c5de05edf84bd99d535fd8"
     },
     {
       "type": "WEB",

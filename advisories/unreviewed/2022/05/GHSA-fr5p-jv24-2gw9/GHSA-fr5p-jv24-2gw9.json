@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr5p-jv24-2gw9",
-  "modified": "2022-05-14T02:04:37Z",
+  "modified": "2025-04-20T03:35:57Z",
   "published": "2022-05-14T02:04:37Z",
   "aliases": [
     "CVE-2016-9959"
@@ -22,6 +22,22 @@
     {
       "type": "WEB",
       "url": "https://bitbucket.org/mpyne/game-music-emu/wiki/Home"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6LKMKVYS7AVB2EXC463FUYN6C6FABHME"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7Z2OVERYM6NW3FGVGTJUNSL5ZNFSH2S"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GGHAQI5Q2XDSPGRRKPJJM3A73VWAFSFL"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QHFKIFSFIDXOKFUKAH2MBNXDTY6DYBF6"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv93-c8vm-3g8r",
-  "modified": "2022-05-13T01:47:48Z",
+  "modified": "2025-04-20T03:37:51Z",
   "published": "2022-05-13T01:47:48Z",
   "aliases": [
     "CVE-2017-9062"
@@ -50,7 +50,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-352"
+      "CWE-352",
+      "CWE-79"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

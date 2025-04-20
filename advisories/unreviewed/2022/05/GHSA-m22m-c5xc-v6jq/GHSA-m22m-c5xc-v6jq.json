@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m22m-c5xc-v6jq",
-  "modified": "2022-05-14T03:55:24Z",
+  "modified": "2025-04-20T03:36:09Z",
   "published": "2022-05-14T03:55:24Z",
   "aliases": [
     "CVE-2016-8602"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201702-31"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=ghostpdl.git%3Ba=commitdiff%3Bh=f5c7555c303"
     },
     {
       "type": "WEB",
