@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vpfc-r6w9-mf39",
-  "modified": "2022-05-17T02:25:04Z",
+  "modified": "2025-04-20T03:30:51Z",
   "published": "2022-05-17T02:25:04Z",
   "aliases": [
     "CVE-2016-8106"

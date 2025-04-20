@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrqg-m8w4-cprx",
-  "modified": "2022-05-17T03:04:18Z",
+  "modified": "2025-04-20T03:31:11Z",
   "published": "2022-05-17T03:04:18Z",
   "aliases": [
     "CVE-2016-8467"

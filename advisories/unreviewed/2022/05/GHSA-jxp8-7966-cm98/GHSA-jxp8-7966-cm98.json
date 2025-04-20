@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxp8-7966-cm98",
-  "modified": "2022-05-17T03:03:58Z",
+  "modified": "2025-04-20T03:31:08Z",
   "published": "2022-05-17T03:03:58Z",
   "aliases": [
     "CVE-2016-8605"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8605"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6QTAGSDCTYXTABAA77BQJGNKOOBRV4DK"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNVE5N24FLWDYBQ3LAFMF6BFCWKDO7VM"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UJP5S36GTXMDEBXWF6LKKV76DSLNQG44"
     },
     {
       "type": "WEB",

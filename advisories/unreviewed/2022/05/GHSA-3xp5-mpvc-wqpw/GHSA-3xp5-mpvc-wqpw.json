@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xp5-mpvc-wqpw",
-  "modified": "2022-05-13T01:04:43Z",
+  "modified": "2025-04-20T03:31:30Z",
   "published": "2022-05-13T01:04:43Z",
   "aliases": [
     "CVE-2016-9446"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://cgit.freedesktop.org/gstreamer/gst-plugins-bad/commit/gst/vmnc/vmncdec.c?id=4cb1bcf1422bbcd79c0f683edb7ee85e3f7a31fe"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UM7IXFGHV66KNWGWG6ZBDNKXD2UJL2VQ"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8q3f-94v5-w475",
-  "modified": "2022-05-17T03:03:36Z",
+  "modified": "2025-04-20T03:31:11Z",
   "published": "2022-05-17T03:03:36Z",
   "aliases": [
     "CVE-2016-8671"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8671"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.fuzzing-project.org/54-Update-on-MatrixSSL-miscalculation-CVE-2016-8671%2C-incomplete-fix-for-CVE-2016-6887.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq38-hch7-37p6",
-  "modified": "2022-05-17T03:03:29Z",
+  "modified": "2025-04-20T03:31:00Z",
   "published": "2022-05-17T03:03:29Z",
   "aliases": [
     "CVE-2016-6772"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4w7-m676-pcvp",
-  "modified": "2022-05-14T03:14:14Z",
+  "modified": "2025-04-20T03:30:48Z",
   "published": "2022-05-14T03:14:14Z",
   "aliases": [
     "CVE-2016-2339"

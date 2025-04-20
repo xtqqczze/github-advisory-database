@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-38gv-g72v-rp63",
-  "modified": "2022-05-14T03:55:50Z",
+  "modified": "2025-04-20T03:31:22Z",
   "published": "2022-05-14T03:55:50Z",
   "aliases": [
     "CVE-2016-7545"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/SELinuxProject/selinux/commit/acca96a135a4d2a028ba9b636886af99c0915379"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UPRNK3PWMAVNJZ53YW5GOEOGJSFNAQIF"
     },
     {
       "type": "WEB",

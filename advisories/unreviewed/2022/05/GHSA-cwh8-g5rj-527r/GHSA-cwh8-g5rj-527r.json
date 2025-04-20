@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwh8-g5rj-527r",
-  "modified": "2022-05-17T02:52:55Z",
+  "modified": "2025-04-20T03:30:48Z",
   "published": "2022-05-17T02:52:55Z",
   "aliases": [
     "CVE-2016-2367"
@@ -46,6 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-125",
       "CWE-200"
     ],
     "severity": "MODERATE",

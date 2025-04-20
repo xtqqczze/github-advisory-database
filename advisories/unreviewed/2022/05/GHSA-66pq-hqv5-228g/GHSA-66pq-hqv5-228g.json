@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66pq-hqv5-228g",
-  "modified": "2022-05-13T01:11:39Z",
+  "modified": "2025-04-20T03:31:08Z",
   "published": "2022-05-13T01:11:39Z",
   "aliases": [
     "CVE-2016-10027"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://issues.igniterealtime.org/projects/SMACK/issues/SMACK-739"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/J4WXAZ4JVJXHMEDDXJVWJHPVBF5QCTZF"
     },
     {
       "type": "WEB",

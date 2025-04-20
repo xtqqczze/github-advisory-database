@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xj8f-h9rc-62vh",
-  "modified": "2022-05-13T01:01:11Z",
+  "modified": "2025-04-20T03:30:50Z",
   "published": "2022-05-13T01:01:11Z",
   "aliases": [
     "CVE-2016-8706"

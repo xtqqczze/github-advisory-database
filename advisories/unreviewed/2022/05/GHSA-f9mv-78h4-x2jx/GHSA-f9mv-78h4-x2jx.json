@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9mv-78h4-x2jx",
-  "modified": "2022-05-13T01:04:47Z",
+  "modified": "2025-04-20T03:31:12Z",
   "published": "2022-05-13T01:04:47Z",
   "aliases": [
     "CVE-2016-9811"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2020/02/msg00032.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UM7IXFGHV66KNWGWG6ZBDNKXD2UJL2VQ"
     },
     {
       "type": "WEB",

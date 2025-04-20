@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-399r-wgcm-v67f",
-  "modified": "2022-05-14T02:46:17Z",
+  "modified": "2025-04-20T03:31:28Z",
   "published": "2022-05-14T02:46:17Z",
   "aliases": [
     "CVE-2016-4338"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcqh-qv75-jmrg",
-  "modified": "2022-05-17T02:55:24Z",
+  "modified": "2025-04-20T03:31:23Z",
   "published": "2022-05-17T02:55:23Z",
   "aliases": [
     "CVE-2016-10102"

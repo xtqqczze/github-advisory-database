@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5x79-wfvw-985r",
-  "modified": "2022-05-13T01:08:36Z",
+  "modified": "2025-04-20T03:31:11Z",
   "published": "2022-05-13T01:08:36Z",
   "aliases": [
     "CVE-2016-7433"
@@ -30,6 +30,18 @@
     {
       "type": "WEB",
       "url": "https://h20566.www2.hpe.com/hpsc/doc/public/display?docLocale=en_US&docId=emr_na-hpesbux03706en_us"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ILMSYVQMMF37MANYEO7KBHOPSC74EKGN"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PABKEYX6ABBFJZGMXKH57X756EJUDS3C"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/U5E3XBBCK5IXOLDAH2E4M3QKIYIHUMMP"
     },
     {
       "type": "WEB",
