@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvgp-p449-hg3j",
-  "modified": "2022-05-17T00:22:58Z",
+  "modified": "2025-04-20T03:47:50Z",
   "published": "2022-05-17T00:22:58Z",
   "aliases": [
     "CVE-2017-15975"

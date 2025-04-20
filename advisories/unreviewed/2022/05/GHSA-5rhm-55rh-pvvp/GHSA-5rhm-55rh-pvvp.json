@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5rhm-55rh-pvvp",
-  "modified": "2022-05-14T03:46:33Z",
+  "modified": "2025-04-20T03:48:33Z",
   "published": "2022-05-14T03:46:33Z",
   "aliases": [
     "CVE-2017-16852"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.debian.org/881857"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.shibboleth.net/view/?p=cpp-sp.git%3Ba=commit%3Bh=b66cceb0e992c351ad5e2c665229ede82f261b16"
     },
     {
       "type": "WEB",

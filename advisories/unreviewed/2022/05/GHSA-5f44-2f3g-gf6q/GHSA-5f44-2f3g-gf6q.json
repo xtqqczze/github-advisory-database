@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5f44-2f3g-gf6q",
-  "modified": "2022-05-14T02:54:03Z",
+  "modified": "2025-04-20T03:47:52Z",
   "published": "2022-05-14T02:54:03Z",
   "aliases": [
     "CVE-2014-0073"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/91560"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mail-archives.apache.org/mod_mbox/cordova-dev/201403.mbox/%3CCAK_TSXLGJag5Q9ATUCbFtkWvMWX9XnC80kKp-HKi25gPcvV4gw%40mail.gmail.com%3E"
     },
     {
       "type": "WEB",

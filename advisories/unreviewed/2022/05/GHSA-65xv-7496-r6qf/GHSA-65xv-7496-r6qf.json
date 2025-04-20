@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65xv-7496-r6qf",
-  "modified": "2022-05-14T01:05:59Z",
+  "modified": "2025-04-20T03:48:11Z",
   "published": "2022-05-14T01:05:59Z",
   "aliases": [
     "CVE-2017-11309"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://downloads.avaya.com/css/P8/documents/101044086"
+    },
+    {
+      "type": "WEB",
+      "url": "http://hyp3rlinx.altervista.org/advisories/AVAYA-OFFICE-IP-%28IPO%29-v9.1.0-10.1-SOFT-CONSOLE-REMOTE-BUFFER-OVERFLOW-0DAY.txt"
     },
     {
       "type": "WEB",

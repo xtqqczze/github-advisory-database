@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r965-fhrj-6v64",
-  "modified": "2022-05-14T03:09:09Z",
+  "modified": "2025-04-20T03:47:34Z",
   "published": "2022-05-14T03:09:09Z",
   "aliases": [
     "CVE-2016-10517"

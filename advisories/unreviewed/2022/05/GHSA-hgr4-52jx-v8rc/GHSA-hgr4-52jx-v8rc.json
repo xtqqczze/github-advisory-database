@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgr4-52jx-v8rc",
-  "modified": "2022-05-14T02:03:25Z",
+  "modified": "2025-04-20T03:48:09Z",
   "published": "2022-05-14T02:03:25Z",
   "aliases": [
     "CVE-2017-16648"

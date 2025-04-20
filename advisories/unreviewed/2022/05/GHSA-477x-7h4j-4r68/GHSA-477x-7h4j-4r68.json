@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-477x-7h4j-4r68",
-  "modified": "2022-05-14T03:07:24Z",
+  "modified": "2025-04-20T03:48:12Z",
   "published": "2022-05-14T03:07:24Z",
   "aliases": [
     "CVE-2017-12969"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://downloads.avaya.com/css/P8/documents/101044091"
+    },
+    {
+      "type": "WEB",
+      "url": "http://hyp3rlinx.altervista.org/advisories/AVAYA-OFFICE-IP-%28IPO%29-v9.1.0-10.1-VIEWERCTRL-ACTIVE-X-BUFFER-OVERFLOW-0DAY.txt"
     },
     {
       "type": "WEB",

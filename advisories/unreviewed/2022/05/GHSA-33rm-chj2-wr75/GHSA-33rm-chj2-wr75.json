@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33rm-chj2-wr75",
-  "modified": "2022-05-14T02:50:47Z",
+  "modified": "2025-04-20T03:46:57Z",
   "published": "2022-05-14T02:50:47Z",
   "aliases": [
     "CVE-2014-8357"

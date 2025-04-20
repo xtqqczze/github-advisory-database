@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r84-39rf-qwh3",
-  "modified": "2022-05-14T03:17:32Z",
+  "modified": "2025-04-20T03:47:27Z",
   "published": "2022-05-14T03:17:32Z",
   "aliases": [
     "CVE-2017-15804"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=22332"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=glibc.git%3Ba=commit%3Bh=a159b53fa059947cc2548e3b0d5bdcf7b9630ba8"
     },
     {
       "type": "WEB",

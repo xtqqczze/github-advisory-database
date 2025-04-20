@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpg3-fq38-gwfq",
-  "modified": "2022-05-17T00:22:58Z",
+  "modified": "2025-04-20T03:47:50Z",
   "published": "2022-05-17T00:22:58Z",
   "aliases": [
     "CVE-2014-3624"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://issues.apache.org/jira/browse/TS-2677"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/www-announce/201411.mbox/%3C20141101231749.2E3561043F%40minotaur.apache.org%3E"
     },
     {
       "type": "WEB",

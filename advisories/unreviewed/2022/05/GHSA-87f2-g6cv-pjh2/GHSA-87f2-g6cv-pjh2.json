@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87f2-g6cv-pjh2",
-  "modified": "2022-05-14T02:18:43Z",
+  "modified": "2025-04-20T03:46:50Z",
   "published": "2022-05-14T02:18:43Z",
   "aliases": [
     "CVE-2017-15299"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://usn.ubuntu.com/3798-2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mail-archive.com/linux-kernel%40vger.kernel.org/msg1499828.html"
     },
     {
       "type": "WEB",

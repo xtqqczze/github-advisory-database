@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-879x-4cwp-mqv7",
-  "modified": "2022-05-13T01:44:07Z",
+  "modified": "2025-04-20T03:48:33Z",
   "published": "2022-05-13T01:44:07Z",
   "aliases": [
     "CVE-2017-16560"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16560"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40esterling_/cve-2017-16560-sandisk-secure-access-leaves-plain-text-copies-of-files-on-disk-4eabeca6bdbc"
     },
     {
       "type": "WEB",

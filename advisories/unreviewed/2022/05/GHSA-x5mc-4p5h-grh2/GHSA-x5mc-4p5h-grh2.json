@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x5mc-4p5h-grh2",
-  "modified": "2022-05-13T01:14:24Z",
+  "modified": "2025-04-20T03:46:51Z",
   "published": "2022-05-13T01:14:24Z",
   "aliases": [
     "CVE-2016-8734"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-8734"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/7798f5cda1b2a3c70db4be77694b12dec8fcc1a441b00009d44f0e09%40%3Cannounce.apache.org%3E"
     },
     {
       "type": "WEB",

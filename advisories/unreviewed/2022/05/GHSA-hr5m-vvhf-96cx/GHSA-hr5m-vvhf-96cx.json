@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hr5m-vvhf-96cx",
-  "modified": "2022-05-14T02:58:25Z",
+  "modified": "2025-04-20T03:47:14Z",
   "published": "2022-05-14T02:58:25Z",
   "aliases": [
     "CVE-2017-10379"

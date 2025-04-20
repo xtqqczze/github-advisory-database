@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxcw-ph2w-mgj3",
-  "modified": "2022-05-17T00:24:35Z",
+  "modified": "2025-04-20T03:47:38Z",
   "published": "2022-05-17T00:24:35Z",
   "aliases": [
     "CVE-2012-1622"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-1622"
+    },
+    {
+      "type": "WEB",
+      "url": "http://mail-archives.apache.org/mod_mbox/ofbiz-user/201204.mbox/%3C4F378887-E697-44E7-976C-48B9B7475C4D%40apache.org%3E"
     },
     {
       "type": "WEB",

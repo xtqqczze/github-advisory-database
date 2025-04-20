@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpgg-426j-hqcx",
-  "modified": "2022-05-14T01:56:34Z",
+  "modified": "2025-04-20T03:48:28Z",
   "published": "2022-05-14T01:56:34Z",
   "aliases": [
     "CVE-2017-16829"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=22307"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git%3Bh=cf54ebff3b7361989712fd9c0128a9b255578163"
     },
     {
       "type": "WEB",

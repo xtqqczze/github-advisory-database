@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3grx-cccr-q3vw",
-  "modified": "2022-05-14T01:15:21Z",
+  "modified": "2025-04-20T03:47:32Z",
   "published": "2022-05-14T01:15:21Z",
   "aliases": [
     "CVE-2017-15580"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3p2-qqmm-jg8f",
-  "modified": "2022-05-13T01:42:44Z",
+  "modified": "2025-04-20T03:48:22Z",
   "published": "2022-05-13T01:42:44Z",
   "aliases": [
     "CVE-2017-12635"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12635"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/6c405bf3f8358e6314076be9f48c89a2e0ddf00539906291ebdf0c67%40%3Cdev.couchdb.apache.org%3E"
     },
     {
       "type": "WEB",

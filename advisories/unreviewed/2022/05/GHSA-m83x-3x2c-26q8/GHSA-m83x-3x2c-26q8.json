@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m83x-3x2c-26q8",
-  "modified": "2022-05-13T01:44:03Z",
+  "modified": "2025-04-20T03:47:50Z",
   "published": "2022-05-13T01:44:03Z",
   "aliases": [
     "CVE-2017-15994"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-15994"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=rsync.git%3Ba=commit%3Bh=7b8a4ecd6ff9cdf4e5d3850ebf822f1e989255b3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=rsync.git%3Ba=commit%3Bh=9a480deec4d20277d8e20bc55515ef0640ca1e55"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=rsync.git%3Ba=commit%3Bh=c252546ceeb0925eb8a4061315e3ff0a8c55b48b"
     },
     {
       "type": "WEB",

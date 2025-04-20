@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9x67-6959-6grf",
-  "modified": "2022-05-13T01:09:33Z",
+  "modified": "2025-04-20T03:47:19Z",
   "published": "2022-05-13T01:09:33Z",
   "aliases": [
     "CVE-2011-1935"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2011-1935"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?att=1%3Bbug=623868%3Bfilename=0001-Fix-the-calculation-of-the-frame-size-in-memory-mapp.patch%3Bmsg=10"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jq36-53qv-7v3m",
-  "modified": "2022-05-13T01:13:35Z",
+  "modified": "2025-04-20T03:46:53Z",
   "published": "2022-05-13T01:13:35Z",
   "aliases": [
     "CVE-2017-13080"
@@ -194,6 +194,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-323",
       "CWE-330"
     ],
     "severity": "MODERATE",

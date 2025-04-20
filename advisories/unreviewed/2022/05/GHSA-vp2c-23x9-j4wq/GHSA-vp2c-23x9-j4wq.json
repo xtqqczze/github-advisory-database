@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp2c-23x9-j4wq",
-  "modified": "2022-05-13T01:27:06Z",
+  "modified": "2025-04-20T03:48:04Z",
   "published": "2022-05-13T01:27:06Z",
   "aliases": [
     "CVE-2017-16548"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.samba.org/show_bug.cgi?id=13112"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/rsync.git/?p=rsync.git%3Ba=commit%3Bh=47a63d90e71d3e19e0e96052bb8c6b9cb140ecc1"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r563-x828-cr83",
-  "modified": "2022-05-13T01:44:03Z",
+  "modified": "2025-04-20T03:47:56Z",
   "published": "2022-05-13T01:44:03Z",
   "aliases": [
     "CVE-2017-15918"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcpq-cj4x-h8mv",
-  "modified": "2022-05-14T01:03:54Z",
+  "modified": "2025-04-20T03:48:22Z",
   "published": "2022-05-14T01:03:54Z",
   "aliases": [
     "CVE-2017-12636"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12636"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/6c405bf3f8358e6314076be9f48c89a2e0ddf00539906291ebdf0c67%40%3Cdev.couchdb.apache.org%3E"
     },
     {
       "type": "WEB",

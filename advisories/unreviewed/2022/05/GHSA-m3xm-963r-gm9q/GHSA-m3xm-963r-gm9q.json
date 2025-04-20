@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3xm-963r-gm9q",
-  "modified": "2022-05-17T00:25:34Z",
+  "modified": "2025-04-20T03:46:58Z",
   "published": "2022-05-17T00:25:34Z",
   "aliases": [
     "CVE-2011-5320"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://sourceware.org/bugzilla/show_bug.cgi?id=13138#c4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/?p=glibc.git%3Ba=commitdiff%3Bh=20b38e0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceware.org/git/?p=glibc.git%3Ba=commitdiff%3Bh=3f8cc204fdd0"
     },
     {
       "type": "WEB",
