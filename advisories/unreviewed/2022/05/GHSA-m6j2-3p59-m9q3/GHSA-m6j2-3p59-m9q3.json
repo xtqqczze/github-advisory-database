@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6j2-3p59-m9q3",
-  "modified": "2022-05-14T03:55:48Z",
+  "modified": "2025-04-20T03:31:55Z",
   "published": "2022-05-14T03:55:48Z",
   "aliases": [
     "CVE-2016-7923"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201702-30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mail-archive.com/debian-bugs-dist%40lists.debian.org/msg1494526.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ppm-97rq-4xwq",
-  "modified": "2022-05-17T02:58:54Z",
+  "modified": "2025-04-20T03:32:57Z",
   "published": "2022-05-17T02:58:54Z",
   "aliases": [
     "CVE-2016-7499"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blogs.gentoo.org/ago/2016/09/21/libav-divide-by-zero-in-sbr_make_f_master-aacsbr-c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.libav.org/?p=libav.git%3Ba=blobdiff%3Bf=libavcodec/aacsbr.c%3Bh=7d156e525b40b197c38db17acf16730845b91e56%3Bhp=dbfb1677813ce6c531e4362d0be7ccf9fdfdd28e%3Bhb=a50a5ff29ec5a8243499769e2bb9b5509ce9fd52%3Bhpb=f55e3ff5891daf3d538b4d9176371960200d68fa"
     },
     {
       "type": "WEB",

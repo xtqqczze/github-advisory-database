@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r955-vhw5-h736",
-  "modified": "2022-05-14T01:01:13Z",
+  "modified": "2025-04-20T03:33:21Z",
   "published": "2022-05-14T01:01:13Z",
   "aliases": [
     "CVE-2017-6304"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Yeraze/ytnef/pull/27"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LFJWMUEUC4ILH2HEOCYVVLQT654ZMCGQ"
     },
     {
       "type": "WEB",

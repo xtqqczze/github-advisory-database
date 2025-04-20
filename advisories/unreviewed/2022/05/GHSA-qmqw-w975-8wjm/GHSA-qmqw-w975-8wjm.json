@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmqw-w975-8wjm",
-  "modified": "2022-05-17T00:22:32Z",
+  "modified": "2025-04-20T03:32:03Z",
   "published": "2022-05-17T00:22:32Z",
   "aliases": [
     "CVE-2015-8139"
@@ -22,6 +22,18 @@
     {
       "type": "WEB",
       "url": "https://bto.bluecoat.com/security-advisory/sa113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/K3EYJQHJZ2KTVQ7ICEFHXTLZ36MRASWX"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORAMN3Q7TVJ54MBYF75XCJOE3DP7LYHT"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WNWGCQLW2VY72NIUYMJOCAKJKTXHDUK2"
     },
     {
       "type": "WEB",

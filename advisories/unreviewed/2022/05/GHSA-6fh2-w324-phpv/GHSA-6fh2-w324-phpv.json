@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6fh2-w324-phpv",
-  "modified": "2022-05-17T02:55:24Z",
+  "modified": "2025-04-20T03:33:26Z",
   "published": "2022-05-17T02:55:24Z",
   "aliases": [
     "CVE-2016-7553"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://irssi.org/security/buf_pl_sa_2016.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/7OM3WHWQ7RIAOZSOZZUM4CUYGKSIAGJJ"
     },
     {
       "type": "WEB",

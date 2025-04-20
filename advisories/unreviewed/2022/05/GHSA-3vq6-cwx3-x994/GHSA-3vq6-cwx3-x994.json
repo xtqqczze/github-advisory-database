@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3vq6-cwx3-x994",
-  "modified": "2022-05-17T02:58:44Z",
+  "modified": "2025-04-20T03:33:03Z",
   "published": "2022-05-17T02:58:44Z",
   "aliases": [
     "CVE-2017-5357"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5357"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZVH54XNZ77ICNBJTPI2DLJYQTA3SYSFC"
     },
     {
       "type": "WEB",

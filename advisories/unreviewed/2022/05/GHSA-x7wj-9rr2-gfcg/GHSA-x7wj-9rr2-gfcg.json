@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7wj-9rr2-gfcg",
-  "modified": "2022-05-14T00:59:46Z",
+  "modified": "2025-04-20T03:32:03Z",
   "published": "2022-05-14T00:59:46Z",
   "aliases": [
     "CVE-2016-9939"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9939"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/7IL5A6465IEPW5GAWGXB2ENJPFYVWTJM"
     },
     {
       "type": "WEB",

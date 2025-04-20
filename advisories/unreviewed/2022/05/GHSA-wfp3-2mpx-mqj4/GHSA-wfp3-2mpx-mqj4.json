@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wfp3-2mpx-mqj4",
-  "modified": "2022-05-14T01:19:07Z",
+  "modified": "2025-04-20T03:31:57Z",
   "published": "2022-05-14T01:19:07Z",
   "aliases": [
     "CVE-2017-5205"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201702-30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mail-archive.com/debian-bugs-dist%40lists.debian.org/msg1494526.html"
     },
     {
       "type": "WEB",

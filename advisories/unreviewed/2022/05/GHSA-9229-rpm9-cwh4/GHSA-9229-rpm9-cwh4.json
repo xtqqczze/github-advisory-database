@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9229-rpm9-cwh4",
-  "modified": "2022-05-17T00:27:49Z",
+  "modified": "2025-04-20T03:33:26Z",
   "published": "2022-05-17T00:27:48Z",
   "aliases": [
     "CVE-2016-10094"

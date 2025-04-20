@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45vm-xm4v-hvqm",
-  "modified": "2022-05-14T03:54:52Z",
+  "modified": "2025-04-20T03:32:52Z",
   "published": "2022-05-14T03:54:52Z",
   "aliases": [
     "CVE-2017-2992"

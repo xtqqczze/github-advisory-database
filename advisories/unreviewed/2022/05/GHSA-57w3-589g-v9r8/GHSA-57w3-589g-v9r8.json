@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57w3-589g-v9r8",
-  "modified": "2022-05-14T01:19:04Z",
+  "modified": "2025-04-20T03:31:57Z",
   "published": "2022-05-14T01:19:04Z",
   "aliases": [
     "CVE-2017-5204"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201702-30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mail-archive.com/debian-bugs-dist%40lists.debian.org/msg1494526.html"
     },
     {
       "type": "WEB",

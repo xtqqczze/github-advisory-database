@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-674g-g96j-pr63",
-  "modified": "2022-05-17T02:57:06Z",
+  "modified": "2025-04-20T03:32:04Z",
   "published": "2022-05-17T02:57:06Z",
   "aliases": [
     "CVE-2016-9132"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/randombit/botan/commit/987ad747db6d0d7e36f840398f3cf02e2fbfd90f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4OUDGVRQYQUL7F5MRP3LAV7EHRJG4BBE"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/Z2Y3JLMTE3VIV4X5X6SXVZTJBDDLCS3D"
     },
     {
       "type": "WEB",

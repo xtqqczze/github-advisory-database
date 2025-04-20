@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96q6-wwhr-92h9",
-  "modified": "2022-05-14T03:22:57Z",
+  "modified": "2025-04-20T03:33:26Z",
   "published": "2022-05-14T03:22:57Z",
   "aliases": [
     "CVE-2016-5240"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2016:1237"
+    },
+    {
+      "type": "WEB",
+      "url": "http://hg.graphicsmagick.org/hg/GraphicsMagick?cmd=changeset%3Bnode=ddc999ec896c"
     },
     {
       "type": "WEB",

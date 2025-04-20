@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf6r-cgfg-q96j",
-  "modified": "2022-05-13T01:46:23Z",
+  "modified": "2025-04-20T03:33:04Z",
   "published": "2022-05-13T01:46:23Z",
   "aliases": [
     "CVE-2017-6056"
@@ -29,7 +29,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/6b414817c2b0bf351138911c8c922ec5dd577ebc0b9a7f42d705752d%40%3Cissues.activemq.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/6b414817c2b0bf351138911c8c922ec5dd577ebc0b9a7f42d705752d@%3Cissues.activemq.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/ac51944aef91dd5006b8510b0bef337adaccfe962fb90e7af9c22db4%40%3Cissues.activemq.apache.org%3E"
     },
     {
       "type": "WEB",

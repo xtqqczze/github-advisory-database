@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jv4p-f6mv-66w4",
-  "modified": "2022-05-13T01:25:49Z",
+  "modified": "2025-04-20T03:33:20Z",
   "published": "2022-05-13T01:25:49Z",
   "aliases": [
     "CVE-2016-9400"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/teeworlds/teeworlds/commit/ff254722a2683867fcb3e67569ffd36226c4bc62"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C4JNSBXXPE7O32ZMFK7D7YL6EKLG7PRV"
     },
     {
       "type": "WEB",

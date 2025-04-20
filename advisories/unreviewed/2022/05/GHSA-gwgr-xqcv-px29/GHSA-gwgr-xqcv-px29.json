@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwgr-xqcv-px29",
-  "modified": "2022-05-17T00:23:44Z",
+  "modified": "2025-04-20T03:32:28Z",
   "published": "2022-05-17T00:23:44Z",
   "aliases": [
     "CVE-2016-3063"

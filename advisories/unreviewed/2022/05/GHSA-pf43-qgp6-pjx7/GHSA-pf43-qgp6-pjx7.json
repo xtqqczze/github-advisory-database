@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf43-qgp6-pjx7",
-  "modified": "2022-05-14T03:55:25Z",
+  "modified": "2025-04-20T03:31:56Z",
   "published": "2022-05-14T03:55:25Z",
   "aliases": [
     "CVE-2016-7983"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201702-30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mail-archive.com/debian-bugs-dist%40lists.debian.org/msg1494526.html"
     },
     {
       "type": "WEB",

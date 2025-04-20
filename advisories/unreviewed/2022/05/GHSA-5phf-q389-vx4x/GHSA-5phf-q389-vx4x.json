@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5phf-q389-vx4x",
-  "modified": "2022-05-17T02:56:49Z",
+  "modified": "2025-04-20T03:33:39Z",
   "published": "2022-05-17T02:56:49Z",
   "aliases": [
     "CVE-2016-7970"
@@ -30,6 +30,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/libass/libass/releases/tag/0.13.4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KW6DNERYHPI5Y6SQYU3XKTVSCOWMIHUC"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/R7JJ2SGVOX6UQQIRMVC3QACJLKHE2PYN"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VUOUOK3VULMMZTNSCRFCNPDAPDWAVK7X"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pqfp-vjxq-57m3",
-  "modified": "2022-05-17T01:18:20Z",
+  "modified": "2025-04-20T03:31:58Z",
   "published": "2022-05-17T01:18:20Z",
   "aliases": [
     "CVE-2016-10176"

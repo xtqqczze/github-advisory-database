@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j83f-g7mr-qg5h",
-  "modified": "2022-05-14T00:58:28Z",
+  "modified": "2025-04-20T03:32:40Z",
   "published": "2022-05-14T00:58:28Z",
   "aliases": [
     "CVE-2017-5953"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/vim_dev/t-3RSdEnrHY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/vim_dev/t-3RSdEnrHY"
     },
     {
       "type": "WEB",

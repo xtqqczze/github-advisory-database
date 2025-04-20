@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr86-842q-jg2r",
-  "modified": "2022-05-17T00:27:01Z",
+  "modified": "2025-04-20T03:32:56Z",
   "published": "2022-05-17T00:27:01Z",
   "aliases": [
     "CVE-2017-5896"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201702-12"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=mupdf.git%3Bh=2c4e5867ee699b1081527bc6c6ea0e99a35a5c27"
     },
     {
       "type": "WEB",

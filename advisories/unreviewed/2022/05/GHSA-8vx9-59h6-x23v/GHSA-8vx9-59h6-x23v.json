@@ -31,6 +31,7 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-1241",
+      "CWE-330",
       "CWE-335",
       "CWE-338"
     ],

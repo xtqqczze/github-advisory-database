@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gx42-hf7v-vhvg",
-  "modified": "2022-05-13T01:14:22Z",
+  "modified": "2025-04-20T03:33:20Z",
   "published": "2022-05-13T01:14:21Z",
   "aliases": [
     "CVE-2016-9956"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-9956"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BZKAN7V6UOHSRFWO567XMN4O6WXTSL32"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/DB3B5XBB2NL2O2U4WNYGH7ZL45Q4UHGG"
     },
     {
       "type": "WEB",
