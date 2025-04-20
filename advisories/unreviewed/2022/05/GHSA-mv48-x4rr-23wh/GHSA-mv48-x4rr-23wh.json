@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mv48-x4rr-23wh",
-  "modified": "2022-05-14T03:50:51Z",
+  "modified": "2025-04-20T03:50:35Z",
   "published": "2022-05-14T03:50:51Z",
   "aliases": [
     "CVE-2015-7324"

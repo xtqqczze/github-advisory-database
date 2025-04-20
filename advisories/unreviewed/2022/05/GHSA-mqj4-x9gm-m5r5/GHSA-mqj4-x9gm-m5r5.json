@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqj4-x9gm-m5r5",
-  "modified": "2022-05-13T01:44:24Z",
+  "modified": "2025-04-20T03:49:30Z",
   "published": "2022-05-13T01:44:24Z",
   "aliases": [
     "CVE-2017-17434"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-17434"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=rsync.git%3Ba=commit%3Bh=5509597decdbd7b91994210f700329d8a35e70a1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.samba.org/?p=rsync.git%3Ba=commit%3Bh=70aeb5fddd1b2f8e143276f8d5a085db16c593b9"
     },
     {
       "type": "WEB",

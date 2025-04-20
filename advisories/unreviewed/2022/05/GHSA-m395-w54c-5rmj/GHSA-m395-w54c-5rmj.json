@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m395-w54c-5rmj",
-  "modified": "2022-05-13T01:11:45Z",
+  "modified": "2025-04-20T03:48:49Z",
   "published": "2022-05-13T01:11:45Z",
   "aliases": [
     "CVE-2017-16840"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2017/dsa-4049"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.videolan.org/?p=ffmpeg.git%3Ba=commit%3Bh=a94cb36ab2ad99d3a1331c9f91831ef593d94f74"
     },
     {
       "type": "WEB",

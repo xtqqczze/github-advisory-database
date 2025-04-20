@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhgv-74r7-hw64",
-  "modified": "2022-05-17T00:13:17Z",
+  "modified": "2025-04-20T03:49:23Z",
   "published": "2022-05-17T00:13:17Z",
   "aliases": [
     "CVE-2017-14516"

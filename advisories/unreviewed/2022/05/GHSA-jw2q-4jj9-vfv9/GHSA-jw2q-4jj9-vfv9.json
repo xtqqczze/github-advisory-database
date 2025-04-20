@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jw2q-4jj9-vfv9",
-  "modified": "2022-05-14T03:07:24Z",
+  "modified": "2025-04-20T03:50:26Z",
   "published": "2022-05-14T03:07:24Z",
   "aliases": [
     "CVE-2017-15328"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://support.huawei.com/carrier/docview!docview?nid=DOC1000441394&path=PBI1-7275726/PBI1-7275742/PBI1-7912539/PBI1-22318696/PBI1-8952133/PBI1-8957546/PBI1-22412232/PBI1-22412234/PBI1-22807623"
+    },
+    {
+      "type": "WEB",
+      "url": "http://support.huawei.com/carrier/docview%21docview?nid=DOC1000441394&path=PBI1-7275726/PBI1-7275742/PBI1-7912539/PBI1-22318696/PBI1-8952133/PBI1-8957546/PBI1-22412232/PBI1-22412234/PBI1-22807623"
     }
   ],
   "database_specific": {

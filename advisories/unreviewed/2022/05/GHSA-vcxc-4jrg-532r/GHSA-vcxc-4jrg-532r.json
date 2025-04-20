@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcxc-4jrg-532r",
-  "modified": "2022-05-14T04:00:36Z",
+  "modified": "2025-04-20T03:50:06Z",
   "published": "2022-05-14T04:00:36Z",
   "aliases": [
     "CVE-2017-17731"

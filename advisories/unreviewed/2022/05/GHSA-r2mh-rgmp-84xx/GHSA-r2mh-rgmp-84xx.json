@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r2mh-rgmp-84xx",
-  "modified": "2022-05-13T01:15:13Z",
+  "modified": "2025-04-20T03:49:53Z",
   "published": "2022-05-13T01:15:13Z",
   "aliases": [
     "CVE-2017-17580"

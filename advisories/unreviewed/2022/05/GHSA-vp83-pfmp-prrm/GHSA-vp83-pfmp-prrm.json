@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp83-pfmp-prrm",
-  "modified": "2022-05-14T03:51:42Z",
+  "modified": "2025-04-20T03:50:23Z",
   "published": "2022-05-14T03:51:42Z",
   "aliases": [
     "CVE-2017-17692"

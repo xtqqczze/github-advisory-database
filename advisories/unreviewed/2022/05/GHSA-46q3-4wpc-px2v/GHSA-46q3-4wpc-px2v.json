@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46q3-4wpc-px2v",
-  "modified": "2022-05-13T01:28:44Z",
+  "modified": "2025-04-20T03:50:10Z",
   "published": "2022-05-13T01:28:44Z",
   "aliases": [
     "CVE-2017-17782"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2018/dsa-4321"
+    },
+    {
+      "type": "WEB",
+      "url": "http://hg.graphicsmagick.org/hg/GraphicsMagick?cmd=changeset%3Bnode=8e3d2264109c"
     },
     {
       "type": "WEB",

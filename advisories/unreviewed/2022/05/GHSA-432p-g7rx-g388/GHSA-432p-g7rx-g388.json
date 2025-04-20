@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-432p-g7rx-g388",
-  "modified": "2022-05-14T03:50:24Z",
+  "modified": "2025-04-20T03:50:00Z",
   "published": "2022-05-14T03:50:24Z",
   "aliases": [
     "CVE-2017-5663"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5663"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/757feeffe45a75d3c0d08b551e71fabdae5d352543be2342b6ba2c93%40%3Cdev.fineract.apache.org%3E"
     },
     {
       "type": "WEB",

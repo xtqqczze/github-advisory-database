@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q68j-wcf9-644f",
-  "modified": "2022-05-14T02:04:59Z",
+  "modified": "2025-04-20T03:49:24Z",
   "published": "2022-05-14T02:04:59Z",
   "aliases": [
     "CVE-2016-1254"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://gitweb.torproject.org/tor.git/commit/?id=d978216dea6b21ac38230a59d172139185a68dbd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FXOJSMCTIOHLBRYFBVEL3CDLGPZXX6WE"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GTU2R253477RZLYAJAR5DAXAON7KIVLA"
     },
     {
       "type": "WEB",

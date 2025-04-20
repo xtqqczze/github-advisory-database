@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrcg-cv6h-7fxr",
-  "modified": "2022-05-17T00:11:54Z",
+  "modified": "2025-04-20T03:49:48Z",
   "published": "2022-05-17T00:11:54Z",
   "aliases": [
     "CVE-2017-16681"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxrf-cmv6-rm5j",
-  "modified": "2022-05-14T04:01:27Z",
+  "modified": "2025-04-20T03:49:59Z",
   "published": "2022-05-14T04:01:27Z",
   "aliases": [
     "CVE-2017-17672"

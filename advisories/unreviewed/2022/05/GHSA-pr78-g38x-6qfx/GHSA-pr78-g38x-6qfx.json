@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pr78-g38x-6qfx",
-  "modified": "2022-05-14T03:29:32Z",
+  "modified": "2025-04-20T03:50:07Z",
   "published": "2022-05-14T03:29:32Z",
   "aliases": [
     "CVE-2017-17741"

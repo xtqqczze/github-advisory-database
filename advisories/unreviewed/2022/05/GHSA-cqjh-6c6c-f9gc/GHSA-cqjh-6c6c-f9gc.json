@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqjh-6c6c-f9gc",
-  "modified": "2022-05-13T01:44:30Z",
+  "modified": "2025-04-20T03:50:28Z",
   "published": "2022-05-13T01:44:30Z",
   "aliases": [
     "CVE-2017-17843"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2017/dsa-4070"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mail-archive.com/enigmail-users%40enigmail.net/msg04280.html"
     },
     {
       "type": "WEB",
