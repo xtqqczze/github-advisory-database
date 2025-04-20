@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-99qx-86wf-8f3j",
-  "modified": "2022-05-14T03:27:42Z",
+  "modified": "2025-04-20T03:40:31Z",
   "published": "2022-05-14T03:27:42Z",
   "aliases": [
     "CVE-2017-11144"
@@ -42,6 +42,18 @@
     {
       "type": "WEB",
       "url": "https://www.tenable.com/security/tns-2017-12"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=73cabfedf519298e1a11192699f44d53c529315e"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=89637c6b41b510c20d262c17483f582f115c66d6"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=91826a311dd37f4c4e5d605fa7af331e80ddd4c3"
     },
     {
       "type": "WEB",

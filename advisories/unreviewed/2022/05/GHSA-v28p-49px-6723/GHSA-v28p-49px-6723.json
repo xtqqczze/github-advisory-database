@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v28p-49px-6723",
-  "modified": "2022-05-14T03:27:40Z",
+  "modified": "2025-04-20T03:41:28Z",
   "published": "2022-05-14T03:27:40Z",
   "aliases": [
     "CVE-2017-11628"
@@ -42,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://www.debian.org/security/2018/dsa-4081"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=05255749139b3686c8a6a58ee01131ac0047465e"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=5f8380d33e648964d2d5140f329cf2d4c443033c"
     },
     {
       "type": "WEB",

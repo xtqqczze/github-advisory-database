@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-25h5-rq96-q5mq",
-  "modified": "2022-05-14T03:50:14Z",
+  "modified": "2025-04-20T03:40:30Z",
   "published": "2022-05-14T03:50:14Z",
   "aliases": [
     "CVE-2016-10397"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20180112-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.php.net/?p=php-src.git%3Ba=commit%3Bh=b061fa909de77085d3822a89ab901b934d0362c4"
     },
     {
       "type": "WEB",

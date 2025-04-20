@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf33-8p24-6h53",
-  "modified": "2022-05-14T01:08:53Z",
+  "modified": "2025-04-20T03:41:24Z",
   "published": "2022-05-14T01:08:53Z",
   "aliases": [
     "CVE-2015-4035"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1223341"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.tukaani.org/?p=xz.git%3Ba=commitdiff%3Bh=f4b2b52624b802c786e4e2a8eb6895794dd93b24"
     },
     {
       "type": "WEB",

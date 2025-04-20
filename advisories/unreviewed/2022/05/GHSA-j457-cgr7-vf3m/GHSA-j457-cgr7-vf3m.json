@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j457-cgr7-vf3m",
-  "modified": "2022-05-14T03:07:25Z",
+  "modified": "2025-04-20T03:40:26Z",
   "published": "2022-05-14T03:07:24Z",
   "aliases": [
     "CVE-2017-10991"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-10991"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lorexxar.cn/2017/07/07/WordPress%20WP%20Statistics%20authenticated%20xss%20Vulnerability%28WP%20Statistics%20-=12.0.9%29"
     },
     {
       "type": "WEB",

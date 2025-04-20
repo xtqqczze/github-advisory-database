@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp8r-5243-x9f3",
-  "modified": "2022-05-13T01:28:42Z",
+  "modified": "2025-04-20T03:40:29Z",
   "published": "2022-05-13T01:28:42Z",
   "aliases": [
     "CVE-2017-11125"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://blogs.gentoo.org/ago/2017/06/28/xar-null-pointer-dereference-in-xar_get_path-util-c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2S2KRIILUKBJHXDNYJQQX74TFUQRG5ND"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YV6RF6VWM7AFYFTTS7VY5TNH26QUEEFC"
     },
     {
       "type": "WEB",

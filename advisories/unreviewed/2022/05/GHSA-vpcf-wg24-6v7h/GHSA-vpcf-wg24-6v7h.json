@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vpcf-wg24-6v7h",
-  "modified": "2022-05-14T01:19:17Z",
+  "modified": "2025-04-20T03:41:04Z",
   "published": "2022-05-14T01:19:17Z",
   "aliases": [
     "CVE-2017-9245"

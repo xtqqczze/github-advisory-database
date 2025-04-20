@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc22-rp5h-f6hw",
-  "modified": "2022-05-13T01:48:06Z",
+  "modified": "2025-04-20T03:41:28Z",
   "published": "2022-05-13T01:48:06Z",
   "aliases": [
     "CVE-2017-9727"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://bugs.ghostscript.com/show_bug.cgi?id=698056"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=ghostpdl.git%3Ba=commit%3Bh=937ccd17ac65935633b2ebc06cb7089b91e17e6b"
     },
     {
       "type": "WEB",

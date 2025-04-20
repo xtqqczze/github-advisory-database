@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgmv-54pf-p6jv",
-  "modified": "2022-05-13T01:48:09Z",
+  "modified": "2025-04-20T03:41:28Z",
   "published": "2022-05-13T01:48:09Z",
   "aliases": [
     "CVE-2017-9835"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201811-12"
+    },
+    {
+      "type": "WEB",
+      "url": "http://git.ghostscript.com/?p=ghostpdl.git%3Ba=commit%3Bh=cfde94be1d4286bc47633c6e6eaf4e659bd78066"
     },
     {
       "type": "WEB",

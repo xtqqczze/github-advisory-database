@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9ggv-74q3-4mc4",
-  "modified": "2022-05-14T01:04:18Z",
+  "modified": "2025-04-20T03:41:14Z",
   "published": "2022-05-14T01:04:18Z",
   "aliases": [
     "CVE-2017-11501"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/forum/#!topic/nix-security-announce/qrDU0KH_ZRk"
+    },
+    {
+      "type": "WEB",
+      "url": "https://groups.google.com/forum/#%21topic/nix-security-announce/qrDU0KH_ZRk"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-25hf-x7c8-5f3h",
-  "modified": "2022-05-13T01:47:46Z",
+  "modified": "2025-04-20T03:40:20Z",
   "published": "2022-05-13T01:47:46Z",
   "aliases": [
     "CVE-2017-8932"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/d/msg/golang-announce/B5ww0iFt1_Q/TgUFJV14BgAJ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZH4T47ROLZ6YEZBDVXVS2KISTDMXAPS"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp6h-mxcc-96r2",
-  "modified": "2022-05-13T01:42:02Z",
+  "modified": "2025-04-20T03:40:24Z",
   "published": "2022-05-13T01:42:02Z",
   "aliases": [
     "CVE-2017-10989"

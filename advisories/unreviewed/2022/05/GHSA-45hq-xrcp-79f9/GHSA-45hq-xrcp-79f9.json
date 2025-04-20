@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45hq-xrcp-79f9",
-  "modified": "2022-05-14T01:57:22Z",
+  "modified": "2025-04-20T03:41:25Z",
   "published": "2022-05-14T01:57:22Z",
   "aliases": [
     "CVE-2015-5221"
@@ -34,6 +34,18 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/11/msg00023.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3QIZNTZDXOJR5BTRZKCS3GVHVZV2PWHH"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/AXWV22WGSQFDRPE7G6ECGP3QXS2V2A2M"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UNLVBZWDEXZCFWOBZ3YVEQINMRBRX5QV"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pprr-66x6-xjr8",
-  "modified": "2022-05-17T02:28:32Z",
+  "modified": "2025-04-20T03:40:31Z",
   "published": "2022-05-17T02:28:32Z",
   "aliases": [
     "CVE-2017-5640"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-5640"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/c02e83aa46c90b7cbc87dd649cf8f9b73e11053eddea9144a397da53%40%3Cdev.impala.apache.org%3E"
     },
     {
       "type": "WEB",

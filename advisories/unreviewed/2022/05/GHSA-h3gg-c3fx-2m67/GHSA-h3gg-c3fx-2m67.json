@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h3gg-c3fx-2m67",
-  "modified": "2022-05-17T01:06:04Z",
+  "modified": "2025-04-20T03:41:05Z",
   "published": "2022-05-17T01:06:04Z",
   "aliases": [
     "CVE-2017-9765"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.suse.com/show_bug.cgi?id=1049348"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.genivia.com/advisory.html#Security_advisory:_CVE-2017-9765_bug_in_certain_versions_of_gSOAP_2.7_up_to_2.8.47_%28June_21%2C_2017%29"
     },
     {
       "type": "WEB",

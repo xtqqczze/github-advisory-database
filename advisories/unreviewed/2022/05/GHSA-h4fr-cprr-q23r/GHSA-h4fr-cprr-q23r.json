@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4fr-cprr-q23r",
-  "modified": "2022-05-17T02:13:47Z",
+  "modified": "2025-04-20T03:40:37Z",
   "published": "2022-05-17T02:13:47Z",
   "aliases": [
     "CVE-2017-11165"

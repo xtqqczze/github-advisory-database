@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29wp-q2r7-4jqv",
-  "modified": "2022-05-13T01:11:42Z",
+  "modified": "2025-04-20T03:40:45Z",
   "published": "2022-05-13T01:11:42Z",
   "aliases": [
     "CVE-2017-1000050"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2018:3505"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N4ALB4SXHURLVWKAOKYRNJXPABW3M22M"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UPOVZTSIQPW2H4AFLMI3LHJEZGBVEQET"
     },
     {
       "type": "WEB",
