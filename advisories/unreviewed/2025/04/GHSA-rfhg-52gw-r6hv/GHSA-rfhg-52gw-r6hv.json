@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rfhg-52gw-r6hv",
+  "modified": "2025-04-21T18:32:09Z",
+  "published": "2025-04-21T18:32:09Z",
+  "aliases": [
+    "CVE-2025-28104"
+  ],
+  "details": "Incorrect access control in laskBlog v2.6.1 allows attackers to access all usernames via a crafted input.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-28104"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/DogukanUrker/flaskBlog/issues/130"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/coleak2021/d5fea0f7d32a2de38130da089f4fb735"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-21T18:15:22Z"
+  }
+}

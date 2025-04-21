@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-248j-xg68-6w85",
-  "modified": "2022-12-19T21:30:28Z",
+  "modified": "2025-04-21T18:32:07Z",
   "published": "2022-12-15T21:30:29Z",
   "aliases": [
     "CVE-2022-42842"
@@ -62,10 +62,16 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2022/Dec/26"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Dec/27"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-787"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

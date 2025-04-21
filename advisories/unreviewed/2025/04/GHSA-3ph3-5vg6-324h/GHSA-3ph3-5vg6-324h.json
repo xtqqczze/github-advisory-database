@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ph3-5vg6-324h",
-  "modified": "2025-04-21T15:31:23Z",
+  "modified": "2025-04-21T18:32:08Z",
   "published": "2025-04-21T15:31:23Z",
   "aliases": [
     "CVE-2025-32408"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bookstack.soffid.com/books/security-advisories/page/cve-2024-39669"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bookstack.soffid.com/books/security-advisories/page/cve-2025-32408"
     }
   ],
   "database_specific": {
