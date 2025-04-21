@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mfvv-mgf6-q25r",
+  "modified": "2025-04-21T03:30:19Z",
+  "published": "2025-04-21T03:30:19Z",
+  "aliases": [
+    "CVE-2025-43972"
+  ],
+  "details": "An issue was discovered in GoBGP before 3.35.0. An attacker can cause a crash in the pkg/packet/bgp/bgp.go flowspec parser by sending fewer than 20 bytes in a certain context.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43972"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/osrg/gobgp/commit/ca7383f450f7b296c5389feceef2467de5ab6e5a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/osrg/gobgp/compare/v3.34.0...v3.35.0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1284"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-21T01:15:45Z"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c5jg-wr5v-2wp2",
+  "modified": "2025-04-21T03:30:19Z",
+  "published": "2025-04-21T03:30:19Z",
+  "aliases": [
+    "CVE-2025-43973"
+  ],
+  "details": "An issue was discovered in GoBGP before 3.35.0. pkg/packet/rtr/rtr.go does not verify that the input length corresponds to a situation in which all bytes are available for an RTR message.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/osrg/gobgp/commit/5693c58a4815cc6327b8d3b6980f0e5aced28abe"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/osrg/gobgp/compare/v3.34.0...v3.35.0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-193"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-21T01:15:45Z"
+  }
+}

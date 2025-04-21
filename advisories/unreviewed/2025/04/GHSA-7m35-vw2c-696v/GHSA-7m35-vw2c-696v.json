@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7m35-vw2c-696v",
+  "modified": "2025-04-21T03:30:18Z",
+  "published": "2025-04-21T03:30:18Z",
+  "aliases": [
+    "CVE-2025-43971"
+  ],
+  "details": "An issue was discovered in GoBGP before 3.35.0. pkg/packet/bgp/bgp.go allows attackers to cause a panic via a zero value for softwareVersionLen.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43971"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/osrg/gobgp/commit/08a001e06d90e8bcc190084c66992f46f62c0986"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/osrg/gobgp/compare/v3.34.0...v3.35.0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-193"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-21T01:15:45Z"
+  }
+}
