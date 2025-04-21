@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rqh-8465-2xcw",
-  "modified": "2025-04-14T22:00:56Z",
+  "modified": "2025-04-21T13:57:52Z",
   "published": "2025-04-14T15:31:59Z",
   "aliases": [
     "CVE-2025-2475"
@@ -71,12 +71,47 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/mattermost/mattermost/server/v8"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.4.0"
+            },
+            {
+              "fixed": "10.4.4"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2475"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mattermost/mattermost/commit/124547a9ef424431e1e6cf09bdba6c1099d415de"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mattermost/mattermost/commit/40fd60714bd055e00c16301ba6dc0fddfc44e15e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mattermost/mattermost/commit/88523ceed8a7547c4a4203a30e7c3a8097346280"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mattermost/mattermost/commit/bcd7a4c2bd856dbb40fcda227b363fa5f6f548a7"
     },
     {
       "type": "WEB",
