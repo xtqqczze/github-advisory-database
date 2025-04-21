@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9qg-fj9x-mqhg",
-  "modified": "2025-04-16T15:34:40Z",
+  "modified": "2025-04-21T15:31:16Z",
   "published": "2025-04-16T15:34:40Z",
   "aliases": [
     "CVE-2025-22040"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix session use-after-free in multichannel connection\n\nThere is a race condition between session setup and\nksmbd_sessions_deregister. The session can be freed before the connection\nis added to channel list of session.\nThis patch check reference count of session before freeing it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:15:56Z"

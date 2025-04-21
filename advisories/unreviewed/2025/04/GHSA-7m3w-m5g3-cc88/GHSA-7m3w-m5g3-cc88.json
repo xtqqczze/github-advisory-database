@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-7m3w-m5g3-cc88",
+  "modified": "2025-04-21T15:31:23Z",
+  "published": "2025-04-21T15:31:23Z",
+  "aliases": [
+    "CVE-2024-41446"
+  ],
+  "details": "A stored cross-site scripting (XSS) vulnerability in Alkacon OpenCMS v17.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the image parameter under the Create/Modify article function.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-41446"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Sidd545-cr/CVE/blob/main/CVE-2024-41446%20-%20Stored%20XSS%20in%20image%20copyright%20attribute.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "http://alkacon.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://opencms.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-21T14:15:35Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h75c-f2xx-9vxv",
+  "modified": "2025-04-21T15:31:25Z",
+  "published": "2025-04-21T15:31:25Z",
+  "aliases": [
+    "CVE-2024-42699"
+  ],
+  "details": "Cross Site Scripting vulnerability in Create/Modify article function in Alkacon OpenCMS 17.0 allows remote attacker to inject javascript payload via image title sub-field in the image field",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42699"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Sidd545-cr/CVE/blob/main/CVE-2024-42699%20-%20Stored%20XSS%20in%20image%20title.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-21T15:15:58Z"
+  }
+}

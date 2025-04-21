@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjj5-7gmf-mfjx",
-  "modified": "2022-12-20T15:30:37Z",
+  "modified": "2025-04-21T15:31:10Z",
   "published": "2022-12-14T09:30:23Z",
   "aliases": [
     "CVE-2022-3590"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-367",
       "CWE-918"
     ],
     "severity": "MODERATE",

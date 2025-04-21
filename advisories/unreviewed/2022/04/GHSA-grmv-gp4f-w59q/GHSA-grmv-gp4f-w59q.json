@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grmv-gp4f-w59q",
-  "modified": "2022-05-06T00:01:15Z",
+  "modified": "2025-04-21T15:31:10Z",
   "published": "2022-04-26T00:00:39Z",
   "aliases": [
     "CVE-2021-25094"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://packetstorm.news/files/id/190566"
+    },
+    {
+      "type": "WEB",
       "url": "https://wpscan.com/vulnerability/fb0097a0-5d7b-4e5b-97de-aacafa8fffcd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52260"
     },
     {
       "type": "WEB",

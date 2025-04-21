@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p688-g48x-vg8h",
+  "modified": "2025-04-21T15:31:21Z",
+  "published": "2025-04-21T15:31:21Z",
+  "aliases": [
+    "CVE-2025-29209"
+  ],
+  "details": "TOTOLINK X18 v9.1.0cu.2024_B20220329 has an unauthorized arbitrary command execution in the enable parameter' of the sub_41105C function of cstecgi .cgi.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29209"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/LZY0522/CVE/blob/main/X18-sub_41105c.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-18T15:15:58Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6vx-pgv7-3f4w",
-  "modified": "2022-12-20T15:30:37Z",
+  "modified": "2025-04-21T15:31:10Z",
   "published": "2022-12-15T21:30:31Z",
   "aliases": [
     "CVE-2022-46694"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2022/Dec/26"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Dec/27"
     }
   ],
   "database_specific": {

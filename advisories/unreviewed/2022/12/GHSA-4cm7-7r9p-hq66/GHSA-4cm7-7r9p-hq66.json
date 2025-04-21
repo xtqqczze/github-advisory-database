@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cm7-7r9p-hq66",
-  "modified": "2022-12-19T21:30:27Z",
+  "modified": "2025-04-21T15:31:10Z",
   "published": "2022-12-15T21:30:30Z",
   "aliases": [
     "CVE-2022-42849"
@@ -38,10 +38,15 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2022/Dec/26"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Dec/27"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-269",
       "CWE-863"
     ],
     "severity": "HIGH",

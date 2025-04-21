@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c57h-rx24-vf52",
-  "modified": "2025-04-05T21:30:22Z",
+  "modified": "2025-04-21T15:31:16Z",
   "published": "2025-04-03T21:32:59Z",
   "aliases": [
     "CVE-2025-31161"
@@ -46,6 +46,14 @@
     {
       "type": "WEB",
       "url": "https://www.infosecurity-magazine.com/news/crushftp-flaw-exploited-disclosure"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-31161-detect-crushftp-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-31161-mitigate-crushftp-vulnerability"
     }
   ],
   "database_specific": {
