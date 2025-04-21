@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqg9-8xmx-9fgp",
-  "modified": "2025-03-28T15:31:55Z",
+  "modified": "2025-04-21T21:30:25Z",
   "published": "2025-03-28T15:31:55Z",
   "aliases": [
     "CVE-2025-28220"
   ],
   "details": "Tenda W6_S v1.0.0.4_510 has a Buffer Overflow vulnerability in the setcfm function, which allows remote attackers to cause web server crash via parameter funcpara1 passed to the binary through a POST request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-28T14:15:20Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5q5h-874v-f63h",
-  "modified": "2022-12-16T21:30:45Z",
+  "modified": "2025-04-21T21:30:23Z",
   "published": "2022-12-14T15:30:16Z",
   "aliases": [
     "CVE-2022-46996"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-912"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
