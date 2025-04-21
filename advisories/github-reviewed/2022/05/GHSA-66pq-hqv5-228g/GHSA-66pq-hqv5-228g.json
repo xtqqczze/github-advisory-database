@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66pq-hqv5-228g",
-  "modified": "2025-04-20T03:31:08Z",
+  "modified": "2025-04-21T22:50:55Z",
   "published": "2022-05-13T01:11:39Z",
   "aliases": [
     "CVE-2016-10027"
   ],
+  "summary": "Smack allows the bypass of TLS protections",
   "details": "Race condition in the XMPP library in Smack before 4.1.9, when the SecurityMode.required TLS setting has been set, allows man-in-the-middle attackers to bypass TLS protections and trigger use of cleartext for client authentication by stripping the \"starttls\" feature from a server response.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.igniterealtime.smack:smack-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,6 +53,10 @@
       "url": "https://community.igniterealtime.org/blogs/ignite/2016/11/22/smack-security-advisory-2016-11-22"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/igniterealtime/Smack"
+    },
+    {
       "type": "WEB",
       "url": "https://issues.igniterealtime.org/projects/SMACK/issues/SMACK-739"
     },
@@ -46,10 +71,6 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2016/12/22/12"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/95129"
     }
   ],
   "database_specific": {
@@ -57,8 +78,8 @@
       "CWE-362"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-21T22:50:55Z",
     "nvd_published_at": "2017-01-12T23:59:00Z"
   }
 }
