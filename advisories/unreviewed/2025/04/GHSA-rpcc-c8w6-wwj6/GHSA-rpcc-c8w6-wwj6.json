@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rpcc-c8w6-wwj6",
+  "modified": "2025-04-22T18:32:12Z",
+  "published": "2025-04-22T18:32:12Z",
+  "aliases": [
+    "CVE-2023-44752"
+  ],
+  "details": "An issue in Student Study Center Desk Management System v1.0 allows attackers to bypass authentication via a crafted GET request to /php-sscdms/admin/login.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-44752"
+    },
+    {
+      "type": "WEB",
+      "url": "https://flashy-lemonade-192.notion.site/Login-Bypass-in-Student-Study-Center-Desk-Management-System-v1-0-fe410cff4fc3441ea4c5aa663225e445"
+    },
+    {
+      "type": "WEB",
+      "url": "https://flashy-lemonade-192.notion.site/Login-Bypass-in-Student-Study-Center-Desk-Management-System-v1-0-fe410cff4fc3441ea4c5aa663225e445?pvs=4"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-22T18:15:58Z"
+  }
+}

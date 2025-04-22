@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q6v5-58gv-cxgm",
+  "modified": "2025-04-22T18:32:13Z",
+  "published": "2025-04-22T18:32:13Z",
+  "aliases": [
+    "CVE-2025-43948"
+  ],
+  "details": "Codemers KLIMS 1.6.DEV allows Python code injection. A user can provide Python code as an input value for a parameter or qualifier (such as for sorting), which will get executed on the server side.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43948"
+    },
+    {
+      "type": "WEB",
+      "url": "https://de.linkedin.com/company/codemers"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Henkel-CyberVM/CVEs/tree/main/CVE-2025-43948"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-22T18:16:01Z"
+  }
+}

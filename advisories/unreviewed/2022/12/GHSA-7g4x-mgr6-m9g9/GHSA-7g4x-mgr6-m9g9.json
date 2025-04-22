@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g4x-mgr6-m9g9",
-  "modified": "2022-12-16T21:30:43Z",
+  "modified": "2025-04-22T18:31:59Z",
   "published": "2022-12-14T18:30:23Z",
   "aliases": [
     "CVE-2022-46255"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-46255"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server%403.7/admin/release-notes#3.7.1"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxvq-gr74-jvpj",
-  "modified": "2022-12-16T21:30:44Z",
+  "modified": "2025-04-22T18:31:59Z",
   "published": "2022-12-14T15:30:16Z",
   "aliases": [
     "CVE-2022-31358"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-31358"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.proxmox.com/?p=pve-http-server.git%3Ba=commitdiff%3Bh=00661f1223b7c0afffa64e1d91f5e018b985f762"
     },
     {
       "type": "WEB",

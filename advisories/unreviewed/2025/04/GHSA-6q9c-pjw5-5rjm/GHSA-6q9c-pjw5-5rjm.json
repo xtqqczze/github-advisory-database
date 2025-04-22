@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6q9c-pjw5-5rjm",
+  "modified": "2025-04-22T18:32:12Z",
+  "published": "2025-04-22T18:32:12Z",
+  "aliases": [
+    "CVE-2025-34028"
+  ],
+  "details": "A path traversal vulnerability in Commvault Command Center Innovation Release allows an unauthenticated actor to upload ZIP files, which, when expanded by the target server, result in Remote Code Execution.\n\n\n\n\n\nThis issue affects Command Center Innovation Release: 11.38.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-34028"
+    },
+    {
+      "type": "WEB",
+      "url": "https://documentation.commvault.com/securityadvisories/CV_2025_04_1.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-22T17:16:48Z"
+  }
+}

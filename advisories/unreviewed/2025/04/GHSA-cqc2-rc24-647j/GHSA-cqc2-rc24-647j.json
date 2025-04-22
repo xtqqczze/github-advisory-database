@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqc2-rc24-647j",
-  "modified": "2025-04-17T18:31:23Z",
+  "modified": "2025-04-22T18:32:10Z",
   "published": "2025-04-17T18:31:23Z",
   "aliases": [
     "CVE-2025-26269"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/dragonflydb/dragonfly/commit/4612aec9a78e3f604e6fb19bee51acde89723308"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/ankki-zsyang/d8215cf6e868d07546eaa5346a884ebd"
     }
   ],
   "database_specific": {

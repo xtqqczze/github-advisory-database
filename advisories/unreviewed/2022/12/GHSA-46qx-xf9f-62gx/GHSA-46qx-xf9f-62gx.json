@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46qx-xf9f-62gx",
-  "modified": "2022-12-16T21:30:44Z",
+  "modified": "2025-04-22T18:31:59Z",
   "published": "2022-12-14T18:30:23Z",
   "aliases": [
     "CVE-2022-46256"
@@ -18,6 +18,26 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-46256"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server%403.3/admin/release-notes#3.3.17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server%403.4/admin/release-notes#3.4.12"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server%403.5/admin/release-notes#3.5.9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server%403.6/admin/release-notes#3.6.5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server%403.7/admin/release-notes#3.7.2"
     },
     {
       "type": "WEB",
