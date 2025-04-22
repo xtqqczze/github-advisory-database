@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qhj-jmx7-8mr8",
-  "modified": "2025-04-22T15:30:52Z",
+  "modified": "2025-04-22T21:30:43Z",
   "published": "2025-04-22T15:30:52Z",
   "aliases": [
     "CVE-2024-40445"
   ],
   "details": "Directory Traversal vulnerability in forkosh Mime Tex before v.1.77 allows an attacker to execute arbitrary code via a crafted file upload",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-77"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-22T14:15:24Z"

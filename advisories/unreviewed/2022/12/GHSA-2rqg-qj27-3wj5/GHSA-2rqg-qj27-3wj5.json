@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rqg-qj27-3wj5",
-  "modified": "2022-12-15T18:30:16Z",
+  "modified": "2025-04-22T21:30:38Z",
   "published": "2022-12-13T00:30:43Z",
   "aliases": [
     "CVE-2021-41943"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-41943"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40idema16/how-i-found-a-cve-in-logrhythm-cve-2021-41943-61cef1797cb"
     },
     {
       "type": "WEB",
