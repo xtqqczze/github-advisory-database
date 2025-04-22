@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rw43-mgp5-rf2m",
+  "modified": "2025-04-22T15:30:52Z",
+  "published": "2025-04-22T15:30:52Z",
+  "aliases": [
+    "CVE-2024-40446"
+  ],
+  "details": "An issue in forkosh Mime Tex before v.1.77 allows an attacker to execute arbitrary code via a crafted script",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-40446"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/TaiYou-TW/CVE-2024-40445_CVE-2024-40446"
+    },
+    {
+      "type": "WEB",
+      "url": "https://youtu.be/S3cmZkWIi6o"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-22T14:15:24Z"
+  }
+}

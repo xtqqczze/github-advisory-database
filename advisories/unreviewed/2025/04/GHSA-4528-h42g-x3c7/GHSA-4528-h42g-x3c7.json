@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4528-h42g-x3c7",
-  "modified": "2025-04-21T18:32:09Z",
+  "modified": "2025-04-22T15:30:52Z",
   "published": "2025-04-21T18:32:09Z",
   "aliases": [
     "CVE-2025-27086"
   ],
   "details": "Vulnerability in Hewlett Packard Enterprise HPE Performance Cluster Manager (HPCM).This issue affects HPE Performance Cluster Manager (HPCM): through 1.12.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-287"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-21T18:15:21Z"
