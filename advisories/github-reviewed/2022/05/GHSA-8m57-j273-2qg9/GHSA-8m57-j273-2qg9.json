@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8m57-j273-2qg9",
-  "modified": "2025-04-20T03:37:53Z",
+  "modified": "2025-04-22T18:45:44Z",
   "published": "2022-05-13T01:17:50Z",
   "aliases": [
     "CVE-2017-9112"
   ],
+  "summary": "OpenEXR invalid read",
   "details": "In OpenEXR 2.2.0, an invalid read of size 1 in the getBits function in ImfHuf.cpp could cause the application to crash.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "OpenEXR"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openexr/openexr/pull/233"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/AcademySoftwareFoundation/openexr"
     },
     {
       "type": "WEB",
@@ -47,8 +72,8 @@
   "database_specific": {
     "cwe_ids": [],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-22T18:45:44Z",
     "nvd_published_at": "2017-05-21T18:29:00Z"
   }
 }
