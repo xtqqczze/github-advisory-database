@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23gj-x27g-r34f",
-  "modified": "2025-04-20T03:37:51Z",
+  "modified": "2025-04-22T18:43:38Z",
   "published": "2022-05-17T02:43:14Z",
   "aliases": [
     "CVE-2017-9069"
   ],
+  "summary": "MODX Revolution allows overwriting .htaccess",
   "details": "In MODX Revolution before 2.5.7, a user with file upload permissions is able to execute arbitrary code by uploading a file with the name .htaccess.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "modx/revolution"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.5.7"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://citadelo.com/en/2017/04/modx-revolution-cms"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/modxcms/revolution"
     }
   ],
   "database_specific": {
@@ -33,8 +58,8 @@
       "CWE-434"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-22T18:43:38Z",
     "nvd_published_at": "2017-05-18T16:29:00Z"
   }
 }
