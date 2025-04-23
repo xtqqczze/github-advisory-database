@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx4g-3xqm-62vh",
-  "modified": "2025-04-22T16:50:58Z",
+  "modified": "2025-04-23T15:20:37Z",
   "published": "2025-04-22T16:50:58Z",
   "aliases": [
     "CVE-2025-32950"
@@ -60,6 +60,10 @@
       "url": "https://github.com/jmix-framework/jmix/security/advisories/GHSA-jx4g-3xqm-62vh"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32950"
+    },
+    {
       "type": "WEB",
       "url": "https://docs.jmix.io/jmix/files-vulnerabilities.html"
     },
@@ -80,6 +84,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-22T16:50:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-22T18:15:59Z"
   }
 }

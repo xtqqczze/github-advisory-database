@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x27v-f838-jh93",
-  "modified": "2025-04-22T17:30:54Z",
+  "modified": "2025-04-23T15:20:46Z",
   "published": "2025-04-22T16:55:13Z",
   "aliases": [
     "CVE-2025-32951"
@@ -60,6 +60,10 @@
       "url": "https://github.com/jmix-framework/jmix/security/advisories/GHSA-x27v-f838-jh93"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32951"
+    },
+    {
       "type": "WEB",
       "url": "https://docs.jmix.io/jmix/files-vulnerabilities.html"
     },
@@ -79,6 +83,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-22T16:55:13Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-22T18:15:59Z"
   }
 }
