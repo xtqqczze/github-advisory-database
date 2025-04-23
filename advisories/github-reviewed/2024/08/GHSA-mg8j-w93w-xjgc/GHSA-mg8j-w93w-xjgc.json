@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg8j-w93w-xjgc",
-  "modified": "2024-10-29T14:42:59Z",
+  "modified": "2025-04-23T14:37:07Z",
   "published": "2024-08-29T12:31:05Z",
   "aliases": [
     "CVE-2024-45440"
@@ -223,6 +223,10 @@
     {
       "type": "WEB",
       "url": "https://www.drupal.org/project/drupal/releases/11.0.5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52266"
     }
   ],
   "database_specific": {
