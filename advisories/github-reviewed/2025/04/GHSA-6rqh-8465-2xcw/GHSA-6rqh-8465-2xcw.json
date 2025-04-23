@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rqh-8465-2xcw",
-  "modified": "2025-04-21T13:57:52Z",
+  "modified": "2025-04-23T15:09:22Z",
   "published": "2025-04-14T15:31:59Z",
   "aliases": [
     "CVE-2025-2475"
@@ -71,25 +71,6 @@
           ]
         }
       ]
-    },
-    {
-      "package": {
-        "ecosystem": "Go",
-        "name": "github.com/mattermost/mattermost/server/v8"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "10.4.0"
-            },
-            {
-              "fixed": "10.4.4"
-            }
-          ]
-        }
-      ]
     }
   ],
   "references": [
@@ -124,6 +105,10 @@
     {
       "type": "WEB",
       "url": "https://mattermost.com/security-updates"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3610"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j752-cjcj-w847",
-  "modified": "2025-04-15T21:41:21Z",
+  "modified": "2025-04-23T15:09:48Z",
   "published": "2025-04-15T14:17:25Z",
   "aliases": [
     "CVE-2025-30206"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/donknap/dpanel"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3612"
     }
   ],
   "database_specific": {
