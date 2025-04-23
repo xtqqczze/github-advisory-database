@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpfw-9wp5-hfff",
-  "modified": "2023-09-17T09:30:18Z",
+  "modified": "2025-04-23T21:30:30Z",
   "published": "2022-02-22T00:00:23Z",
   "aliases": [
     "CVE-2021-44142"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202309-06"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/119678"
     },
     {
       "type": "WEB",

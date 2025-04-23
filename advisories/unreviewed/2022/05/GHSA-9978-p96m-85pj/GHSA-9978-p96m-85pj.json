@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9978-p96m-85pj",
-  "modified": "2023-11-26T12:30:21Z",
+  "modified": "2025-04-23T21:30:29Z",
   "published": "2022-05-24T17:41:53Z",
   "aliases": [
     "CVE-2020-35498"

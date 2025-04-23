@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px6h-65pj-6gq3",
-  "modified": "2023-04-26T00:30:19Z",
+  "modified": "2025-04-23T21:30:30Z",
   "published": "2021-11-17T19:13:08Z",
   "aliases": [
     "CVE-2021-42385"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://jfrog.com/blog/unboxing-busybox-14-new-vulnerabilities-uncovered-by-claroty-and-jfrog"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6T2TURBYYJGBMQTTN2DSOAIQGP7WCPGV"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UQXGOGWBIYWOIVXJVRKHZR34UMEHQBXS"
     },
     {
       "type": "WEB",
