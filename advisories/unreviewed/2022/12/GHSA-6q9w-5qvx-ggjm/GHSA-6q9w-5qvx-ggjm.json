@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q9w-5qvx-ggjm",
-  "modified": "2022-12-07T21:30:30Z",
+  "modified": "2025-04-23T15:30:36Z",
   "published": "2022-12-06T15:30:28Z",
   "aliases": [
     "CVE-2020-6627"
