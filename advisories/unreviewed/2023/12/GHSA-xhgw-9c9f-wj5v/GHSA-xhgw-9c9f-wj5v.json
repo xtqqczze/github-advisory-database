@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhgw-9c9f-wj5v",
-  "modified": "2023-12-29T21:30:45Z",
+  "modified": "2025-04-23T18:30:50Z",
   "published": "2023-12-22T00:30:31Z",
   "aliases": [
     "CVE-2023-37519"
   ],
-  "details": "Unauthenticated Stored Cross-Site Scripting (XSS) vulnerability. This XSS vulnerability is in the Download Status Report, which is served by the BigFix Server. \n",
+  "details": "Unauthenticated Stored Cross-Site Scripting (XSS) vulnerability. This XSS vulnerability is in the Download Status Report, which is served by the BigFix Server. ",
   "severity": [
     {
       "type": "CVSS_V3",

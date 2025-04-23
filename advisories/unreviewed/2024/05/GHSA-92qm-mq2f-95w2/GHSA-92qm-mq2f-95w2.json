@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-92qm-mq2f-95w2",
-  "modified": "2024-05-02T18:30:53Z",
+  "modified": "2025-04-23T18:30:55Z",
   "published": "2024-05-02T18:30:53Z",
   "aliases": [
     "CVE-2024-2346"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-639"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

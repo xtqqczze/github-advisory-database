@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxmw-96jw-fwjw",
-  "modified": "2025-04-16T00:31:32Z",
+  "modified": "2025-04-23T18:30:55Z",
   "published": "2025-03-05T06:31:43Z",
   "aliases": [
     "CVE-2025-27676"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://pierrekim.github.io/blog/2025-04-08-vasion-printerlogic-83-vulnerabilities.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pierrekim.github.io/blog/2025-04-08-vasion-printerlogic-83-vulnerabilities.html#va-xss-03"
     }
   ],
   "database_specific": {

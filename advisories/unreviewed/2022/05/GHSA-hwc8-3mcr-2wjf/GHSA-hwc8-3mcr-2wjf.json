@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwc8-3mcr-2wjf",
-  "modified": "2022-05-01T23:32:07Z",
+  "modified": "2025-04-23T18:30:34Z",
   "published": "2022-05-01T23:32:07Z",
   "aliases": [
     "CVE-2008-0642"
   ],
   "details": "Cross-site scripting (XSS) vulnerability in files created by Adobe RoboHelp 6 and 7, possibly involving use of a (1) WebHelp5 (WebHelp5Ext) or (2) WildFire (WildFireExt) extension, allows remote attackers to inject arbitrary web script or HTML via unspecified vectors, a different vulnerability than CVE-2007-1280.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
