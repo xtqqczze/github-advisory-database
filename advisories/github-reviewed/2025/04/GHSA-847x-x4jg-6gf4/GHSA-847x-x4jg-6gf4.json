@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-847x-x4jg-6gf4",
-  "modified": "2025-04-21T16:55:46Z",
+  "modified": "2025-04-23T14:55:43Z",
   "published": "2025-04-21T15:31:18Z",
   "aliases": [
     "CVE-2024-29643"
@@ -55,6 +55,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-444",
       "CWE-74"
     ],
     "severity": "MODERATE",

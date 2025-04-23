@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxfx-w2rw-gh63",
-  "modified": "2022-12-14T14:06:08Z",
+  "modified": "2025-04-23T14:55:10Z",
   "published": "2022-12-14T00:30:23Z",
   "aliases": [
     "CVE-2022-43996"
   ],
   "summary": "csaf-poc/csaf_distribution Cross-site Scripting vulnerability",
   "details": "The csaf_provider package before 0.8.2 allows XSS via a crafted CSAF document uploaded as text/html. The endpoint upload allows valid CSAF advisories (JSON format) to be uploaded with Content-Type text/html and filenames ending in .html. When subsequently accessed via web browser, these advisories are served and interpreted as HTML pages. Such uploaded advisories can contain JavaScript code that will execute within the browser context of users inspecting the advisory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [
     {
       "package": {
