@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xq5-54jp-2mfg",
-  "modified": "2025-04-17T18:33:20Z",
+  "modified": "2025-04-23T14:34:46Z",
   "published": "2025-04-17T18:33:20Z",
   "aliases": [
     "CVE-2025-32377"
@@ -112,6 +112,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/RasaHQ/security-advisories/security/advisories/GHSA-7xq5-54jp-2mfg"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32377"
     }
   ],
   "database_specific": {
@@ -121,6 +125,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-17T18:33:20Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-18T20:15:16Z"
   }
 }
