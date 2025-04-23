@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg25-w3vg-7279",
-  "modified": "2025-04-22T17:00:27Z",
+  "modified": "2025-04-23T15:21:43Z",
   "published": "2025-04-22T17:00:27Z",
   "aliases": [
     "CVE-2025-32961"
@@ -45,6 +45,10 @@
       "url": "https://github.com/jmix-framework/jmix/security/advisories/GHSA-x27v-f838-jh93"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32961"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/cuba-platform/jpawebapi/commit/78b837d7e2b12d0df69cef1bc6042ebf3bdaf22c"
     },
@@ -68,6 +72,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-22T17:00:27Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-22T18:16:00Z"
   }
 }

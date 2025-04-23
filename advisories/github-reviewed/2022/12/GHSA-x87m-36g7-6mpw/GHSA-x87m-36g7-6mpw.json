@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x87m-36g7-6mpw",
-  "modified": "2022-12-13T13:50:43Z",
+  "modified": "2025-04-23T15:22:03Z",
   "published": "2022-12-10T00:30:17Z",
   "aliases": [
     "CVE-2022-34297"
@@ -43,6 +43,14 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/be4r/b5c48d97ef6726d3ee37f995ee5aac81"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/yiisoft/yii2-gii"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.yiiframework.com/doc/guide/2.0/en/start-gii"
     }
   ],
   "database_specific": {
