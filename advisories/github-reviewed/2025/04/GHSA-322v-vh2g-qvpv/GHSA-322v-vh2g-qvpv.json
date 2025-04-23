@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-322v-vh2g-qvpv",
-  "modified": "2025-04-14T19:07:44Z",
+  "modified": "2025-04-23T15:08:38Z",
   "published": "2025-04-14T09:30:24Z",
   "aliases": [
     "CVE-2025-32093"
@@ -165,6 +165,10 @@
     {
       "type": "WEB",
       "url": "https://mattermost.com/security-updates"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3609"
     }
   ],
   "database_specific": {
