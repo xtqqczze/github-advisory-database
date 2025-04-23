@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4rr-f37j-4hh7",
-  "modified": "2025-04-21T13:56:38Z",
+  "modified": "2025-04-23T15:17:14Z",
   "published": "2025-04-16T09:32:13Z",
   "aliases": [
     "CVE-2025-27571"
@@ -124,6 +124,10 @@
     {
       "type": "WEB",
       "url": "https://mattermost.com/security-updates"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3619"
     }
   ],
   "database_specific": {
