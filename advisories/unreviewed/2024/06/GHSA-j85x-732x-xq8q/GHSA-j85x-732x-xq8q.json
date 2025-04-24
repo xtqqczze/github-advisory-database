@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j85x-732x-xq8q",
-  "modified": "2024-07-03T18:44:14Z",
+  "modified": "2025-04-24T21:31:47Z",
   "published": "2024-06-06T21:30:38Z",
   "aliases": [
     "CVE-2024-32752"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.johnsoncontrols.com/-/media/jci/cyber-solutions/product-security-advisories/2024/jci-psa-2024-06.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories"
     }
   ],
   "database_specific": {

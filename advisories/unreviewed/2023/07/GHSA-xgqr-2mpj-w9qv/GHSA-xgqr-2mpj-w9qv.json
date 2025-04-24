@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgqr-2mpj-w9qv",
-  "modified": "2024-04-04T05:43:55Z",
+  "modified": "2025-04-24T21:31:46Z",
   "published": "2023-07-06T21:14:58Z",
   "aliases": [
     "CVE-2023-2745"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://wordpress.org/news/2023/05/wordpress-6-2-1-maintenance-security-release"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52274"
     },
     {
       "type": "WEB",

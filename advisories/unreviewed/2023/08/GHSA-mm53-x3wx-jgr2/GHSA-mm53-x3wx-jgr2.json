@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mm53-x3wx-jgr2",
-  "modified": "2025-04-23T18:30:45Z",
+  "modified": "2025-04-24T21:31:47Z",
   "published": "2023-08-28T21:31:06Z",
   "aliases": [
     "CVE-2023-39810"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/04/23/3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/24/2"
     }
   ],
   "database_specific": {

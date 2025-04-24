@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x8c-95vh-gfv4",
-  "modified": "2024-07-30T03:30:51Z",
+  "modified": "2025-04-24T21:31:48Z",
   "published": "2024-07-01T15:32:33Z",
   "aliases": [
     "CVE-2024-6387"
@@ -105,6 +105,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52269"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.freebsd.org/security/advisories/FreeBSD-SA-24:04.openssh.asc"
     },
     {
@@ -126,6 +130,10 @@
     {
       "type": "WEB",
       "url": "https://www.theregister.com/2024/07/01/regresshion_openssh"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/regresshion-an-openssh-regression-error-cve-2024-6387"
     },
     {
       "type": "WEB",
@@ -206,6 +214,10 @@
     {
       "type": "WEB",
       "url": "https://news.ycombinator.com/item?id=40843778"
+    },
+    {
+      "type": "WEB",
+      "url": "https://packetstorm.news/files/id/190587"
     },
     {
       "type": "WEB",

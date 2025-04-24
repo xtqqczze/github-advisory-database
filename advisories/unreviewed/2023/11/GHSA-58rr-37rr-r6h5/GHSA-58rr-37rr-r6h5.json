@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58rr-37rr-r6h5",
-  "modified": "2023-11-14T21:30:54Z",
+  "modified": "2025-04-24T21:31:47Z",
   "published": "2023-11-14T21:30:54Z",
   "aliases": [
     "CVE-2023-41425"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/prodigiousMind/fc69a79629c4ba9ee88a7ad526043413"
+    },
+    {
+      "type": "WEB",
+      "url": "https://packetstorm.news/files/id/190575"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52271"
     },
     {
       "type": "WEB",
