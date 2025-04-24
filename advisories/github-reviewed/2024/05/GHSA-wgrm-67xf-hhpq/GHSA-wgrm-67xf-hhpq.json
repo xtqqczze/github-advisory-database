@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgrm-67xf-hhpq",
-  "modified": "2025-01-22T18:45:03Z",
+  "modified": "2025-04-24T21:41:22Z",
   "published": "2024-05-07T10:25:08Z",
   "aliases": [
     "CVE-2024-4367"
@@ -49,6 +49,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/gogs/gogs/issues/7928"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/mozilla/pdf.js/pull/18015"
     },
     {
@@ -60,8 +64,16 @@
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1893645"
     },
     {
+      "type": "WEB",
+      "url": "https://codeanlabs.com/blog/research/cve-2024-4367-arbitrary-js-execution-in-pdf-js"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/mozilla/pdf.js"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mozilla/pdf.js/releases/tag/v4.2.67"
     },
     {
       "type": "WEB",
@@ -70,6 +82,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2024/05/msg00012.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52273"
     },
     {
       "type": "WEB",
@@ -89,7 +105,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-754"
+    ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2024-05-07T10:25:08Z",
