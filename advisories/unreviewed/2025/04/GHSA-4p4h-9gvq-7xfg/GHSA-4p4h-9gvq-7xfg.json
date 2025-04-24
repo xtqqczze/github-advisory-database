@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4p4h-9gvq-7xfg",
+  "modified": "2025-04-24T03:31:32Z",
+  "published": "2025-04-24T03:31:32Z",
+  "aliases": [
+    "CVE-2025-46417"
+  ],
+  "details": "The unsafe globals in Picklescan before 0.0.25 do not include ssl. Consequently, ssl.get_server_certificate can exfiltrate data via DNS after deserialization.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46417"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mmaitre314/picklescan/pull/40"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-93mv-x874-956g"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-184"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-24T01:15:49Z"
+  }
+}
