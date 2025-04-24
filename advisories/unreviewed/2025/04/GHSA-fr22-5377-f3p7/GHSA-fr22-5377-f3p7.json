@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fr22-5377-f3p7",
+  "modified": "2025-04-24T09:30:33Z",
+  "published": "2025-04-24T09:30:33Z",
+  "aliases": [
+    "CVE-2025-41423"
+  ],
+  "details": "Mattermost versions 10.4.x <= 10.4.2, 10.5.x <= 10.5.0, 9.11.x <= 9.11.10 fail to properly validate permissions for the API endpoint /plugins/playbooks/api/v0/signal/keywords/ignore-thread, allowing any user or attacker to delete posts containing actions created by the Playbooks bot, even without channel access or appropriate permissions.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41423"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-24T07:15:31Z"
+  }
+}
