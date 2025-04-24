@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xfgp-gpjw-wmqr",
-  "modified": "2022-12-06T21:30:44Z",
+  "modified": "2025-04-24T18:31:00Z",
   "published": "2022-12-04T21:30:25Z",
   "aliases": [
     "CVE-2022-35507"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-35507"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.proxmox.com/?p=pve-http-server.git%3Ba=commitdiff%3Bh=936007ae0241811093155000486da171379c23c2"
     },
     {
       "type": "WEB",

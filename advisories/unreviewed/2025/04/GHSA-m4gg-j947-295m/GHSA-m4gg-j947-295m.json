@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4gg-j947-295m",
-  "modified": "2025-04-23T18:30:59Z",
+  "modified": "2025-04-24T18:31:04Z",
   "published": "2025-04-23T18:30:59Z",
   "aliases": [
     "CVE-2025-28021"
   ],
   "details": "TOTOLINK A810R V4.1.2cu.5182_B20201026 was found to contain a buffer overflow vulnerability in the downloadFile.cgi through the v14 and v3 parameters",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-23T17:16:53Z"
