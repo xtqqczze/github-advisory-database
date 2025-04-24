@@ -1,19 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-73m2-qfq3-56cx",
-  "modified": "2025-04-24T15:30:49Z",
+  "modified": "2025-04-24T16:36:08Z",
   "published": "2025-04-24T12:31:28Z",
   "aliases": [
     "CVE-2025-27820"
   ],
-  "details": "A bug in PSL validation logic in Apache HttpClient 5.4.x disables domain checks, affecting cookie management and host name verification. Discovered by the Apache HttpClient team. Fixed in the 5.4.3 release",
+  "summary": "Apache HttpClient disables domain checks",
+  "details": "A bug in PSL validation logic in Apache HttpClient 5.4.x disables domain checks, affecting cookie management and host name verification. Discovered by the Apache HttpClient team. Fixed in the 5.4.3 release.",
   "severity": [
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.httpcomponents.client5:httpclient5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.4-alpha1"
+            },
+            {
+              "fixed": "5.4.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/httpcomponents-client/pull/621"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/httpcomponents-client"
     },
     {
       "type": "WEB",
@@ -41,8 +66,8 @@
       "CWE-295"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-24T16:36:08Z",
     "nvd_published_at": "2025-04-24T12:15:16Z"
   }
 }
