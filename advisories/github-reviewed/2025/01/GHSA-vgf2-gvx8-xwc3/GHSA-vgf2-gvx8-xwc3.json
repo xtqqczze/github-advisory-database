@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgf2-gvx8-xwc3",
-  "modified": "2025-01-21T17:19:44Z",
+  "modified": "2025-04-24T14:39:58Z",
   "published": "2025-01-14T16:34:20Z",
   "aliases": [
     "CVE-2025-21607"
@@ -26,13 +26,13 @@
           "events": [
             {
               "introduced": "0"
-            },
-            {
-              "last_affected": "0.4.0"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 0.4.1"
+      }
     }
   ],
   "references": [
@@ -43,6 +43,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21607"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vyperlang/vyper/pull/4451"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vyperlang/vyper/commit/7136eab0a254aa2ff7ddca41cc05f2ee1fa99caf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/vyper/PYSEC-2025-33.yaml"
     },
     {
       "type": "PACKAGE",
