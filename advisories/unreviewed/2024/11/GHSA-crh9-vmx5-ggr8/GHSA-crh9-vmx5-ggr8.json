@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crh9-vmx5-ggr8",
-  "modified": "2024-11-19T15:31:53Z",
+  "modified": "2025-04-24T15:30:48Z",
   "published": "2024-11-19T15:31:53Z",
   "aliases": [
     "CVE-2024-52675"
   ],
   "details": "SourceCodester Sentiment Based Movie Rating System 1.0 is vulnerable to SQL Injection in /msrps/movies.php.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-19T13:15:04Z"

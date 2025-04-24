@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqqc-8vpc-2wjv",
-  "modified": "2022-12-08T18:30:50Z",
+  "modified": "2025-04-24T15:30:43Z",
   "published": "2022-12-06T00:30:15Z",
   "aliases": [
     "CVE-2022-40918"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://1af95112-6fd8-4c8f-8bd6-c47f8ef7b77a.filesusr.com/ugd/c1f861_51eb0d33d5764efc93e9d5f19c306950.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40meekworth/exploiting-the-lw9621-drone-camera-module-773f00081368"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6439-9fxj-fc35",
-  "modified": "2024-04-04T05:30:48Z",
+  "modified": "2025-04-24T15:30:41Z",
   "published": "2023-07-06T19:24:05Z",
   "aliases": [
     "CVE-2022-44039"
