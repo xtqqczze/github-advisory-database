@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x7c-w8p7-47f7",
-  "modified": "2024-12-26T21:30:36Z",
+  "modified": "2025-04-25T18:31:10Z",
   "published": "2024-12-25T18:30:45Z",
   "aliases": [
     "CVE-2024-56430"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openfheorg/openfhe-development/releases/tag/v1.2.3"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/25/3"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xp8-gmmj-xc8w",
-  "modified": "2024-12-31T21:30:45Z",
+  "modified": "2025-04-25T18:31:10Z",
   "published": "2024-12-25T18:30:45Z",
   "aliases": [
     "CVE-2024-56431"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/xiph/theora/blob/7180717276af1ebc7da15c83162d6c5d6203aabf/lib/huffdec.c#L193"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/25/4"
     }
   ],
   "database_specific": {
