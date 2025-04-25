@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qhx4-9cx2-q4rc",
+  "modified": "2025-04-25T15:31:21Z",
+  "published": "2025-04-25T15:31:21Z",
+  "aliases": [
+    "CVE-2025-28354"
+  ],
+  "details": "An issue in the Printer Manager Systm of Entrust Corp Printer Manager D3.18.4-3 and below allows attackers to execute a directory traversal via a crafted POST request.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-28354"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/VAMorales/ef13d4edc14750f689e16c9e4922becb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.entrust.com/sites/default/files/documentation/productsupport/entrust-security-bulletin-e25-002.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-25T14:15:21Z"
+  }
+}

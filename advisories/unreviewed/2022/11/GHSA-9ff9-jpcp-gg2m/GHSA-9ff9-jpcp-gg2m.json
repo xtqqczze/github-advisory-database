@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9ff9-jpcp-gg2m",
-  "modified": "2022-11-30T06:30:26Z",
+  "modified": "2025-04-25T15:31:18Z",
   "published": "2022-11-28T15:30:24Z",
   "aliases": [
     "CVE-2022-3865"

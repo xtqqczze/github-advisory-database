@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh3q-7g79-rp3x",
-  "modified": "2025-03-07T18:31:03Z",
+  "modified": "2025-04-25T15:31:20Z",
   "published": "2025-03-03T18:31:30Z",
   "aliases": [
     "CVE-2025-27371"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/OWASP/ASVS/issues/2678"
+    },
+    {
+      "type": "WEB",
+      "url": "https://eprint.iacr.org/2025/629"
     },
     {
       "type": "WEB",

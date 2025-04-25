@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g5j-4w29-mr24",
-  "modified": "2025-04-16T15:34:44Z",
+  "modified": "2025-04-25T15:31:21Z",
   "published": "2025-04-16T15:34:44Z",
   "aliases": [
     "CVE-2025-22097"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vkms: Fix use after free and double free on init error\n\nIf the driver initialization fails, the vkms_exit() function might\naccess an uninitialized or freed default_config pointer and it might\ndouble free it.\n\nFix both possible errors by initializing default_config only when the\ndriver initialization succeeded.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:04Z"
