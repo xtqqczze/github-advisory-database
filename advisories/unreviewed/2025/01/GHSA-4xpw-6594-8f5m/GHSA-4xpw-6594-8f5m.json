@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xpw-6594-8f5m",
-  "modified": "2025-04-13T06:30:33Z",
+  "modified": "2025-04-25T03:30:33Z",
   "published": "2025-01-22T15:32:34Z",
   "aliases": [
     "CVE-2025-0395"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/04/13/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/24/7"
     }
   ],
   "database_specific": {
