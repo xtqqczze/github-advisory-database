@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8c7c-2c8j-3xfp",
-  "modified": "2024-11-21T22:19:07Z",
+  "modified": "2025-04-25T19:46:57Z",
   "published": "2022-05-24T17:35:03Z",
   "aliases": [
     "CVE-2020-29367"
   ],
   "summary": "blosc2 heap-based buffer overflow",
   "details": "blosc2.c in Blosc C-Blosc2 through 2.0.0.beta.5 has a heap-based buffer overflow when there is a lack of space to write compressed data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [
     {
       "package": {
