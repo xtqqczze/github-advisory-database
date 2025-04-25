@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f46r-rw29-r322",
-  "modified": "2025-04-24T21:14:21Z",
+  "modified": "2025-04-25T00:16:53Z",
   "published": "2025-04-24T16:31:16Z",
   "aliases": [
     "CVE-2025-43864"
@@ -25,14 +25,17 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "7.2.0"
             },
             {
               "fixed": "7.5.2"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 7.5.1"
+      }
     }
   ],
   "references": [
