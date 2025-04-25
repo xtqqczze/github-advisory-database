@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8h9r-h75m-6w75",
-  "modified": "2022-11-28T21:30:23Z",
+  "modified": "2025-04-25T21:30:45Z",
   "published": "2022-11-23T21:30:32Z",
   "aliases": [
     "CVE-2022-45866"
@@ -34,6 +34,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/PierreLvx/qpress/compare/20170415...20220819"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BQWF7635AJSDKEIGLB73XAH643POGTFY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/G4RXO3VYIFRTNIFHWIAZWND6ZXQ5OYOB"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UUZ73XT2FXLHC7I4ODLOVB4O4QN7Q7JB"
     },
     {
       "type": "WEB",

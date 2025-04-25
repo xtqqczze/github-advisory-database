@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w8w-mhj7-j5rc",
-  "modified": "2022-12-01T15:30:19Z",
+  "modified": "2025-04-25T21:30:47Z",
   "published": "2022-11-24T00:30:51Z",
   "aliases": [
     "CVE-2022-45873"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/systemd/systemd/commit/076b807be472630692c5348c60d0c2b7b28ad437"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MS5N5SLYAHKENLAJWYBDKU55ICU3SVZF"
     },
     {
       "type": "WEB",

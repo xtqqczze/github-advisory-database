@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4rmx-r8gj-vj26",
+  "modified": "2025-04-25T21:31:33Z",
+  "published": "2025-04-25T21:31:33Z",
+  "aliases": [
+    "CVE-2025-32986"
+  ],
+  "details": "NETSCOUT nGeniusONE before 6.4.0 b2350 has a Sensitive File Accessible Without Proper Authentication to an endpoint.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32986"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netscout.com/securityadvisories"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-25T21:15:39Z"
+  }
+}

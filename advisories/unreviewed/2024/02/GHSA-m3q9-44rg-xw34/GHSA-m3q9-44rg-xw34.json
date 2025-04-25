@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3q9-44rg-xw34",
-  "modified": "2025-02-13T18:32:19Z",
+  "modified": "2025-04-25T21:31:28Z",
   "published": "2024-02-26T18:30:28Z",
   "aliases": [
     "CVE-2023-49114"
   ],
-  "details": "A DLL hijacking vulnerability was identified in the Qognify VMS Client Viewer version 7.1 or higher, which allows local users to execute arbitrary code and obtain higher privileges via careful placement of a malicious DLL, if some specific pre-conditions are met.\n\n",
+  "details": "A DLL hijacking vulnerability was identified in the Qognify VMS Client Viewer version 7.1 or higher, which allows local users to execute arbitrary code and obtain higher privileges via careful placement of a malicious DLL, if some specific pre-conditions are met.",
   "severity": [
     {
       "type": "CVSS_V3",
