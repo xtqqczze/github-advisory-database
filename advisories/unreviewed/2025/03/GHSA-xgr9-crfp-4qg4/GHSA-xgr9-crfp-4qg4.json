@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgr9-crfp-4qg4",
-  "modified": "2025-03-13T18:32:21Z",
+  "modified": "2025-04-25T12:30:26Z",
   "published": "2025-03-12T12:30:58Z",
   "aliases": [
     "CVE-2025-21853"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/29cfda62ab4d92ab94123813db49ab76c1e61b29"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4759acbd44d24a69b7b14848012ec4201d6c5501"
     },
     {
       "type": "WEB",

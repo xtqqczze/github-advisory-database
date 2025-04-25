@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2w6-3cqh-h6qq",
-  "modified": "2025-01-16T18:30:58Z",
+  "modified": "2025-04-25T12:30:26Z",
   "published": "2024-12-27T15:31:51Z",
   "aliases": [
     "CVE-2024-53203"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53203"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0e66fd8e5a2e45c7dacfc9178ba702153f4a61a8"
     },
     {
       "type": "WEB",
