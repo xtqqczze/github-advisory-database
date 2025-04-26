@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2m5-6x74-9mv6",
-  "modified": "2024-07-26T15:31:50Z",
+  "modified": "2025-04-26T00:30:23Z",
   "published": "2024-07-24T15:31:27Z",
   "aliases": [
     "CVE-2024-6096"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://docs.telerik.com/reporting/knowledge-base/unsafe-reflection-CVE-2024-6096"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250425-0003"
     }
   ],
   "database_specific": {

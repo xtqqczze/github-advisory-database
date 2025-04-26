@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg83-c7gq-rv5c",
-  "modified": "2025-03-20T19:42:39Z",
+  "modified": "2025-04-26T00:30:24Z",
   "published": "2025-03-20T06:31:09Z",
   "aliases": [
     "CVE-2025-22228"
@@ -176,6 +176,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/spring-projects/spring-security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250425-0009"
     },
     {
       "type": "WEB",

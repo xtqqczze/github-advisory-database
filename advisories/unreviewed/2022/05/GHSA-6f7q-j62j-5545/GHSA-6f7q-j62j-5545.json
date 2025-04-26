@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f7q-j62j-5545",
-  "modified": "2022-05-13T01:28:58Z",
+  "modified": "2025-04-26T00:30:23Z",
   "published": "2022-05-13T01:28:58Z",
   "aliases": [
     "CVE-2018-5733"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2018/03/msg00015.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250425-0010"
     },
     {
       "type": "WEB",
