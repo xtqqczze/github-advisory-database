@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36c8-x5g7-w9x4",
-  "modified": "2024-06-26T00:31:35Z",
+  "modified": "2025-04-26T21:31:25Z",
   "published": "2024-03-14T18:30:30Z",
   "aliases": [
     "CVE-2023-28746"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2024/03/12/13"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-452.html"
     }
   ],
   "database_specific": {
