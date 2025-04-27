@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6v67-599p-fprc",
-  "modified": "2025-03-11T18:32:17Z",
+  "modified": "2025-04-27T09:30:34Z",
   "published": "2025-03-11T18:32:17Z",
   "aliases": [
     "CVE-2025-24054"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24054"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Apr/28"
     }
   ],
   "database_specific": {
