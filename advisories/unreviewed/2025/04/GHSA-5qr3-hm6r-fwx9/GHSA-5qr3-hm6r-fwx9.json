@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qr3-hm6r-fwx9",
-  "modified": "2025-04-23T15:30:57Z",
+  "modified": "2025-04-27T00:30:33Z",
   "published": "2025-04-23T15:30:57Z",
   "aliases": [
     "CVE-2025-43965"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ImageMagick/Website/blob/main/ChangeLog.md#711-44---2025-02-22"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00035.html"
     }
   ],
   "database_specific": {
