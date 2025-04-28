@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r824-gq56-gjgx",
-  "modified": "2024-07-08T15:31:55Z",
+  "modified": "2025-04-28T18:30:41Z",
   "published": "2024-07-03T21:39:43Z",
   "aliases": [
     "CVE-2024-29510"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.openwall.com/lists/oss-security/2024/07/03/7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/critical-vulnerability-in-ghostscript-cve-2024-29510"
     }
   ],
   "database_specific": {

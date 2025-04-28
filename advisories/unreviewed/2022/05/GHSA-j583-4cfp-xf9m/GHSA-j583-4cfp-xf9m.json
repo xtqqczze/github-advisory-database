@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j583-4cfp-xf9m",
-  "modified": "2025-01-23T18:31:05Z",
+  "modified": "2025-04-28T18:30:35Z",
   "published": "2022-05-14T01:28:26Z",
   "aliases": [
     "CVE-2018-14847"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/tenable/routeros/tree/master/poc/cve_2018_14847"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mikrotik.com/supportsec/winbox-vulnerability"
     },
     {
       "type": "WEB",

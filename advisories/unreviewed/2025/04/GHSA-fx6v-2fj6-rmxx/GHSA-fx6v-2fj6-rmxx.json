@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx6v-2fj6-rmxx",
-  "modified": "2025-04-28T06:30:26Z",
+  "modified": "2025-04-28T18:30:53Z",
   "published": "2025-04-28T06:30:26Z",
   "aliases": [
     "CVE-2024-9771"
   ],
   "details": "The WP-Recall  WordPress plugin before 16.26.12 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-28T06:15:16Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3689-vv2m-5qqc",
-  "modified": "2022-11-28T21:30:22Z",
+  "modified": "2025-04-28T18:30:35Z",
   "published": "2022-11-23T03:30:22Z",
   "aliases": [
     "CVE-2022-43213"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43213"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Qrayyy/CVE/blob/main/Billing%20System%20Project%20v1.0/CVE-2022-43213%28sql%20in%20editorder.php%29.md"
     },
     {
       "type": "WEB",
