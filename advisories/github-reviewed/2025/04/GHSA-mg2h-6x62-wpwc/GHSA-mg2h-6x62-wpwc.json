@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg2h-6x62-wpwc",
-  "modified": "2025-04-18T20:38:47Z",
+  "modified": "2025-04-28T17:39:14Z",
   "published": "2025-04-18T15:02:41Z",
   "aliases": [
     "CVE-2025-32442"
   ],
   "summary": "Fastify vulnerable to invalid content-type parsing, which could lead to validation bypass",
-  "details": "### Impact\n\nIn applications that specify different validation strategies for different content types, it's possible to bypass the validation by providing a _slightly altered_ content type such as with different casing or altered whitespacing before `;`.\n\nUsers using the the following pattern are affected:\n\n```js\nfastify.post('/', {\n  handler(request, reply) {\n    reply.code(200).send(request.body)\n  },\n  schema: {\n    body: {\n      content: {\n        'application/json': {\n          schema: {\n            type: 'object',\n            properties: {\n              'foo': {\n                type: 'string',\n              }\n            },\n            required: ['foo']\n          }\n        },\n      }\n    }\n  }\n})\n```\n\nUser using the following pattern are **not** affected:\n\n```js\nfastify.post('/', {\n  handler(request, reply) {\n    reply.code(200).send(request.body)\n  },\n  schema: {\n    body: {\n      type: 'object',\n      properties: {\n        'foo': {\n          type: 'string',\n        }\n      },\n      required: ['foo']\n    }\n  }\n})\n```\n\n### Patches\n\nThis was patched in v5.3.1, but unfortunately it did not cover all problems. This has been fully patched in v5.3.2.\n\n### Workarounds\n\nDo not specify multiple content types in the schema.\n\n### References\n_Are there any links users can visit to find out more?_\n\nhttps://hackerone.com/reports/3087928",
+  "details": "### Impact\n\nIn applications that specify different validation strategies for different content types, it's possible to bypass the validation by providing a _slightly altered_ content type such as with different casing or altered whitespacing before `;`.\n\nUsers using the the following pattern are affected:\n\n```js\nfastify.post('/', {\n  handler(request, reply) {\n    reply.code(200).send(request.body)\n  },\n  schema: {\n    body: {\n      content: {\n        'application/json': {\n          schema: {\n            type: 'object',\n            properties: {\n              'foo': {\n                type: 'string',\n              }\n            },\n            required: ['foo']\n          }\n        },\n      }\n    }\n  }\n})\n```\n\nUser using the following pattern are **not** affected:\n\n```js\nfastify.post('/', {\n  handler(request, reply) {\n    reply.code(200).send(request.body)\n  },\n  schema: {\n    body: {\n      type: 'object',\n      properties: {\n        'foo': {\n          type: 'string',\n        }\n      },\n      required: ['foo']\n    }\n  }\n})\n```\n\n### Patches\n\nThis was patched in v5.3.1, but unfortunately it did not cover all problems. This has been fully patched in v5.3.2.\nVersion v4.9.0 was also affected by this issue. This has been fully patched in v4.9.1.\n\n### Workarounds\n\nDo not specify multiple content types in the schema.\n\n### References\n_Are there any links users can visit to find out more?_\n\nhttps://hackerone.com/reports/3087928",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -36,6 +36,28 @@
       "database_specific": {
         "last_known_affected_version_range": "<= 5.3.1"
       }
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "fastify"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.9.0"
+            },
+            {
+              "fixed": "4.9.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "4.9.0"
+      ]
     }
   ],
   "references": [
