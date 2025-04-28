@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g848-pppp-vg6f",
-  "modified": "2022-11-30T18:30:19Z",
+  "modified": "2025-04-28T21:30:38Z",
   "published": "2022-11-23T18:30:27Z",
   "aliases": [
     "CVE-2022-40304"
@@ -70,10 +70,15 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2022/Dec/26"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Dec/27"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-415",
       "CWE-611"
     ],
     "severity": "HIGH",

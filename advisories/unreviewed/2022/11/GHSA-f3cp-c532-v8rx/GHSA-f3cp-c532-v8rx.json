@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3cp-c532-v8rx",
-  "modified": "2022-11-30T18:30:20Z",
+  "modified": "2025-04-28T21:30:38Z",
   "published": "2022-11-23T21:30:33Z",
   "aliases": [
     "CVE-2021-43258"

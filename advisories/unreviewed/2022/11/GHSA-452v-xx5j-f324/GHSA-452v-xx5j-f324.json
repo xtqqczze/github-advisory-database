@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-452v-xx5j-f324",
-  "modified": "2022-11-30T06:30:26Z",
+  "modified": "2025-04-28T21:30:38Z",
   "published": "2022-11-29T00:30:18Z",
   "aliases": [
     "CVE-2022-45223"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45223"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40just0rg/web-based-student-clearance-system-in-php-free-source-code-v1-0-unrestricted-input-leads-to-xss-5802ead12124"
     },
     {
       "type": "WEB",
