@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch5j-3wwr-pjvh",
-  "modified": "2025-04-20T03:50:41Z",
+  "modified": "2025-04-28T15:31:39Z",
   "published": "2025-04-20T03:50:41Z",
   "aliases": [
     "CVE-2025-43921"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/0NYX-MY7H/CVE-2025-43921"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/cpanel/mailman2-python3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2025/04/21/6"
     }
   ],
   "database_specific": {

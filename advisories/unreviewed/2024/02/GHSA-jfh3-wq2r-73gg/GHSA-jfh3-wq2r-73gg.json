@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfh3-wq2r-73gg",
-  "modified": "2024-02-28T21:30:19Z",
+  "modified": "2025-04-28T15:31:32Z",
   "published": "2024-02-28T21:30:19Z",
   "aliases": [
     "CVE-2023-51533"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Ecwid Ecommerce Ecwid Ecommerce Shopping Cart.This issue affects Ecwid Ecommerce Shopping Cart: from n/a through 6.12.4.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Ecwid Ecommerce Ecwid Ecommerce Shopping Cart.This issue affects Ecwid Ecommerce Shopping Cart: from n/a through 6.12.4.",
   "severity": [
     {
       "type": "CVSS_V3",
