@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qq86-38fr-rcf3",
-  "modified": "2025-04-21T06:30:32Z",
+  "modified": "2025-04-28T03:31:28Z",
   "published": "2025-04-21T06:30:31Z",
   "aliases": [
     "CVE-2025-0632"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0632"
+    },
+    {
+      "type": "WEB",
+      "url": "https://formulatrix.com/downloads/apps/repository/rockmaker/RockMaker%20V3/3.18/3.18.4.7/RockMakerWeb_3.18.4.7_setup.exe"
+    },
+    {
+      "type": "WEB",
+      "url": "https://formulatrix.com/downloads/docs/cve/RockMaker/CVE-2025-0632_Security_Bulletin.pdf"
     },
     {
       "type": "WEB",
