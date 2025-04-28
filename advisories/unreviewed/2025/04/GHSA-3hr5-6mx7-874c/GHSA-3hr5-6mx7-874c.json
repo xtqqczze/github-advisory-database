@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hr5-6mx7-874c",
-  "modified": "2025-04-27T00:30:34Z",
+  "modified": "2025-04-28T12:30:24Z",
   "published": "2025-04-27T00:30:34Z",
   "aliases": [
     "CVE-2025-3954"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://everydaysparkling.com/p/2c56b9ec-5747-40a3-b089-ff796f23ebd4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://everydaysparkling.com/ssrf-via-referrer-field-in-churchcrm-v5-16-0"
     },
     {
       "type": "WEB",
