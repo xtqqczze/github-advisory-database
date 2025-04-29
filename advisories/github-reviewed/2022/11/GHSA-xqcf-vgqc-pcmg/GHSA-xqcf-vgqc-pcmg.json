@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqcf-vgqc-pcmg",
-  "modified": "2024-04-23T23:36:13Z",
+  "modified": "2025-04-29T15:40:14Z",
   "published": "2022-11-25T21:30:26Z",
   "aliases": [
     "CVE-2022-45152"
@@ -85,6 +85,18 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/moodle/moodle"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2DHYIIAUXUBHMBEDYU7TYNZXEN2W2SA2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/74SXNGA5RIWM7QNX7H3G7SYIQLP4UUGV"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NLRJB5JNKK3VVBLV3NH3RI7COEDAXSAB"
     },
     {
       "type": "WEB",
