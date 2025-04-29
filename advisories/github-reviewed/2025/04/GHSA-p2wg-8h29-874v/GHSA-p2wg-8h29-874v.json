@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2wg-8h29-874v",
-  "modified": "2025-04-02T17:15:52Z",
+  "modified": "2025-04-29T20:26:15Z",
   "published": "2025-04-01T00:30:35Z",
   "aliases": [
     "CVE-2025-31695"
@@ -10,8 +10,12 @@
   "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Drupal Link field display mode formatter allows Cross-Site Scripting (XSS). This issue affects Link field display mode formatter: from 0.0.0 before 1.6.0.",
   "severity": [
     {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    },
+    {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N/E:U"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N/E:U"
     }
   ],
   "affected": [

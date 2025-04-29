@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hf6c-fgp3-jfch",
-  "modified": "2025-04-02T17:15:20Z",
+  "modified": "2025-04-29T20:25:54Z",
   "published": "2025-04-01T00:30:35Z",
   "aliases": [
     "CVE-2025-31694"
@@ -10,8 +10,12 @@
   "details": "Incorrect Authorization vulnerability in Drupal Two-factor Authentication (TFA) allows Forceful Browsing. This issue affects Two-factor Authentication (TFA): from 0.0.0 before 1.10.0.",
   "severity": [
     {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N/E:U"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U"
     }
   ],
   "affected": [
@@ -54,7 +58,7 @@
       "CWE-288",
       "CWE-863"
     ],
-    "severity": "LOW",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-02T17:15:20Z",
     "nvd_published_at": "2025-03-31T22:15:22Z"
