@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5qc-xcfm-cq6p",
-  "modified": "2025-04-18T15:31:37Z",
+  "modified": "2025-04-29T18:30:52Z",
   "published": "2025-04-18T15:31:37Z",
   "aliases": [
     "CVE-2025-37860"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nsfc: fix NULL dereferences in ef100_process_design_param()\n\nSince cited commit, ef100_probe_main() and hence also\n ef100_check_design_params() run before efx->net_dev is created;\n consequently, we cannot netif_set_tso_max_size() or _segs() at this\n point.\nMove those netif calls to ef100_probe_netdev(), and also replace\n netif_err within the design params code with pci_err.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-18T07:15:42Z"
