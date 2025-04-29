@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-733v-p3h5-qpq7",
-  "modified": "2025-04-25T15:14:36Z",
+  "modified": "2025-04-29T16:45:56Z",
   "published": "2025-04-25T15:14:36Z",
   "aliases": [],
   "summary": "GraphQL Armor Cost-Limit Plugin Bypass via Introspection Query Obfuscation",
@@ -26,7 +26,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "2.4.0"
+              "fixed": "2.4.2"
             }
           ]
         }
