@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp38-24m3-rx87",
-  "modified": "2025-04-29T14:01:48Z",
+  "modified": "2025-04-29T14:03:33Z",
   "published": "2025-04-29T14:01:47Z",
   "aliases": [
     "CVE-2025-32972"
   ],
   "summary": "The lesscss script service allows cache clearing without programming right",
-  "details": "### Impact\nThe script API of the LESS compiler in XWiki is incorrectly checking for rights when calling the cache cleaning API, making it possible to clean the cache without having programming right. The only impact of this is a slowdown in XWiki execution as the caches are re-filled. As this vulnerability requires script right to exploit, and script right already allows unlimited execution of scripts, the additional impact due to this vulnerability is low.\n\n### Patches\nThis has been patched in XWiki 15.10.12, 16.4.3 and 16.8.0 RC1.\n\n### Workarounds\nWe're not aware of any workaround except for being careful whom to give script right, which is a general recommendation.\n\n### References\n* https://jira.xwiki.org/browse/XWIKI-22462\n* https://github.com/xwiki/xwiki-platform/commit/91752122d8782f171f8728004a57bdaefc34253e",
+  "details": "### Impact\nThe script API of the LESS compiler in XWiki is incorrectly checking for rights when calling the cache cleaning API, making it possible to clean the cache without having programming right. The only impact of this is a slowdown in XWiki execution as the caches are re-filled. As this vulnerability requires script right to exploit, and script right already allows unlimited execution of scripts, the additional impact due to this vulnerability is low.\n\n### Patches\nThis has been patched in XWiki 15.10.12, 16.4.3 and 16.8.0 RC1.\n\n### Workarounds\nWe're not aware of any workaround except for being careful whom to give script right, which is a general recommendation.",
   "severity": [
     {
       "type": "CVSS_V3",
