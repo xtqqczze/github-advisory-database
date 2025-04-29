@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-75v8-2h7p-7m2m",
-  "modified": "2025-04-26T21:31:26Z",
+  "modified": "2025-04-29T14:07:17Z",
   "published": "2025-04-26T21:31:26Z",
   "aliases": [
     "CVE-2025-46653"
   ],
+  "summary": "Formidable relies on hexoid to prevent guessing of filenames for untrusted executable content",
   "details": "Formidable (aka node-formidable) 2.1.0 through 3.x before 3.5.3 relies on hexoid to prevent guessing of filenames for untrusted executable content; however, hexoid is documented as not \"cryptographically secure.\" (Also, there is a scenario in which only the last two characters of a hexoid string need to be guessed, but this is not often relevant.) NOTE: this does not imply that, in a typical use case, attackers will be able to exploit any hexoid behavior to upload and execute their own content.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "formidable"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.1.0"
+            },
+            {
+              "fixed": "3.5.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/node-formidable/formidable/commit/022c2c5577dfe14d2947f10909d81b03b6070bf5"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/node-formidable/formidable"
     },
     {
       "type": "WEB",
@@ -37,8 +62,8 @@
       "CWE-338"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-04-29T14:07:17Z",
     "nvd_published_at": "2025-04-26T21:15:14Z"
   }
 }
