@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-768r-2vmx-w6mf",
-  "modified": "2022-11-22T18:30:14Z",
+  "modified": "2025-04-29T15:31:14Z",
   "published": "2022-11-18T00:30:20Z",
   "aliases": [
     "CVE-2022-44725"

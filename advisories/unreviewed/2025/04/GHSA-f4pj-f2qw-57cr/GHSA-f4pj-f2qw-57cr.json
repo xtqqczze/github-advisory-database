@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f4pj-f2qw-57cr",
+  "modified": "2025-04-29T15:31:53Z",
+  "published": "2025-04-29T15:31:53Z",
+  "aliases": [
+    "CVE-2025-4089"
+  ],
+  "details": "Due to insufficient escaping of special characters in the \"copy as cURL\" feature, an attacker could trick a user into using this command, potentially leading to local code execution on the user's system. This vulnerability affects Firefox < 138 and Thunderbird < 138.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4089"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1949994%2C1956698%2C1960198"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-28"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-31"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-04-29T14:15:35Z"
+  }
+}

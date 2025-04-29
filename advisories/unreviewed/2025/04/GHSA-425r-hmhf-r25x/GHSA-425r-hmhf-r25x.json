@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-425r-hmhf-r25x",
-  "modified": "2025-04-18T15:31:38Z",
+  "modified": "2025-04-29T15:31:22Z",
   "published": "2025-04-18T15:31:38Z",
   "aliases": [
     "CVE-2025-40114"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: light: Add check for array bounds in veml6075_read_int_time_ms\n\nThe array contains only 5 elements, but the index calculated by\nveml6075_read_int_time_index can range from 0 to 7,\nwhich could lead to out-of-bounds access. The check prevents this issue.\n\nCoverity Issue\nCID 1574309: (#1 of 1): Out-of-bounds read (OVERRUN)\noverrun-local: Overrunning array veml6075_it_ms of 5 4-byte\nelements at element index 7 (byte offset 31) using\nindex int_index (which evaluates to 7)\n\nThis is hardening against potentially broken hardware. Good to have\nbut not necessary to backport.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-18T07:15:44Z"

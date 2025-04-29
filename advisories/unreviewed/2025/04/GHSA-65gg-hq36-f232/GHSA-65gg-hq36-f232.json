@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65gg-hq36-f232",
-  "modified": "2025-04-18T15:31:38Z",
+  "modified": "2025-04-29T15:31:21Z",
   "published": "2025-04-18T15:31:38Z",
   "aliases": [
     "CVE-2025-39728"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: samsung: Fix UBSAN panic in samsung_clk_init()\n\nWith UBSAN_ARRAY_BOUNDS=y, I'm hitting the below panic due to\ndereferencing `ctx->clk_data.hws` before setting\n`ctx->clk_data.num = nr_clks`. Move that up to fix the crash.\n\n  UBSAN: array index out of bounds: 00000000f2005512 [#1] PREEMPT SMP\n  <snip>\n  Call trace:\n   samsung_clk_init+0x110/0x124 (P)\n   samsung_clk_init+0x48/0x124 (L)\n   samsung_cmu_register_one+0x3c/0xa0\n   exynos_arm64_register_cmu+0x54/0x64\n   __gs101_cmu_top_of_clk_init_declare+0x28/0x60\n   ...",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-129"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-18T07:15:44Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfgc-5r25-fw46",
-  "modified": "2022-11-30T18:30:19Z",
+  "modified": "2025-04-29T15:31:17Z",
   "published": "2022-11-25T18:30:25Z",
   "aliases": [
     "CVE-2022-41712"
