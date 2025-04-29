@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxg5-6xg7-gc7q",
-  "modified": "2025-04-16T15:34:46Z",
+  "modified": "2025-04-29T21:31:48Z",
   "published": "2025-04-16T15:34:46Z",
   "aliases": [
     "CVE-2025-23134"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: timer: Don't take register_mutex with copy_from/to_user()\n\nThe infamous mmap_lock taken in copy_from/to_user() can be often\nproblematic when it's called inside another mutex, as they might lead\nto deadlocks.\n\nIn the case of ALSA timer code, the bad pattern is with\nguard(mutex)(&register_mutex) that covers copy_from/to_user() -- which\nwas mistakenly introduced at converting to guard(), and it had been\ncarefully worked around in the past.\n\nThis patch fixes those pieces simply by moving copy_from/to_user() out\nof the register mutex lock again.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:07Z"

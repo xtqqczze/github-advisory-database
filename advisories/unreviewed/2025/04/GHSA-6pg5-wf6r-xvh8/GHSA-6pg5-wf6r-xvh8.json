@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pg5-wf6r-xvh8",
-  "modified": "2025-04-16T15:34:41Z",
+  "modified": "2025-04-29T21:31:47Z",
   "published": "2025-04-16T15:34:41Z",
   "aliases": [
     "CVE-2025-22054"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\narcnet: Add NULL check in com20020pci_probe()\n\ndevm_kasprintf() returns NULL when memory allocation fails. Currently,\ncom20020pci_probe() does not check for this case, which results in a\nNULL pointer dereference.\n\nAdd NULL check after devm_kasprintf() to prevent this issue and ensure\nno resources are left allocated.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -52,8 +57,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:15:58Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w59-vx6f-4274",
-  "modified": "2024-05-21T15:31:40Z",
+  "modified": "2025-04-29T21:31:35Z",
   "published": "2024-05-21T15:31:40Z",
   "aliases": [
     "CVE-2021-47236"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: cdc_eem: fix tx fixup skb leak\n\nwhen usbnet transmit a skb, eem fixup it in eem_tx_fixup(),\nif skb_copy_expand() failed, it return NULL,\nusbnet_start_xmit() will have no chance to free original skb.\n\nfix it by free orginal skb in eem_tx_fixup() first,\nthen check skb clone status, if failed, return NULL to usbnet.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:12Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj7c-g88c-mq5v",
-  "modified": "2022-11-22T21:30:17Z",
+  "modified": "2025-04-29T21:31:25Z",
   "published": "2022-11-18T21:30:16Z",
   "aliases": [
     "CVE-2022-44641"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/01/msg00016.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.lavasoftware.org/archives/list/lava-announce%40lists.lavasoftware.org/thread/WHXGQMIZAPW3GCQEXYHC32N2ZAAAIYCY"
     },
     {
       "type": "WEB",
