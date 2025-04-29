@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ff77-26x5-69cr",
-  "modified": "2025-04-28T21:30:43Z",
+  "modified": "2025-04-29T00:30:28Z",
   "published": "2025-04-28T21:30:43Z",
   "aliases": [
     "CVE-2025-31651"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/list.html?announce@tomcat.apache.org"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/04/28/3"
     }
   ],
   "database_specific": {
