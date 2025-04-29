@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvp9-phwp-p738",
-  "modified": "2024-11-26T18:47:49Z",
+  "modified": "2025-04-29T18:33:53Z",
   "published": "2022-11-18T00:30:18Z",
   "aliases": [
     "CVE-2022-43171"
@@ -59,6 +59,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-122",
       "CWE-787"
     ],
     "severity": "HIGH",
