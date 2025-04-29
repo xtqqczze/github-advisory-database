@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg2h-6x62-wpwc",
-  "modified": "2025-04-28T17:39:14Z",
+  "modified": "2025-04-29T20:27:53Z",
   "published": "2025-04-18T15:02:41Z",
   "aliases": [
     "CVE-2025-32442"
