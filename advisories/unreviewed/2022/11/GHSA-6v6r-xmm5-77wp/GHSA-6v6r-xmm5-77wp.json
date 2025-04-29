@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6v6r-xmm5-77wp",
-  "modified": "2022-11-28T15:30:24Z",
+  "modified": "2025-04-29T06:30:37Z",
   "published": "2022-11-22T18:30:14Z",
   "aliases": [
     "CVE-2022-43212"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43212"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Qrayyy/CVE/blob/main/Billing%20System%20Project%20v1.0/CVE-2022-43212%28sql%20in%20fetchOrderData.php%29.md"
     },
     {
       "type": "WEB",
