@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2935-2wfm-hhpv",
-  "modified": "2025-03-25T16:50:25Z",
+  "modified": "2025-04-30T00:32:27Z",
   "published": "2025-03-25T09:32:07Z",
   "aliases": [
     "CVE-2025-2559"
@@ -39,6 +39,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2559"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4335"
     },
     {
       "type": "WEB",
