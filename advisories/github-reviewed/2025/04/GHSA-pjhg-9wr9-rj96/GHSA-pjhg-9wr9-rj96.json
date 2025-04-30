@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjhg-9wr9-rj96",
-  "modified": "2025-04-29T13:57:23Z",
+  "modified": "2025-04-30T17:29:17Z",
   "published": "2025-04-29T13:57:23Z",
   "aliases": [
     "CVE-2025-32970"
@@ -79,6 +79,10 @@
       "url": "https://github.com/xwiki/xwiki-platform/security/advisories/GHSA-pjhg-9wr9-rj96"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32970"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/xwiki/xwiki-platform/commit/6dab7909f45deb00efd36a0cd47788e95ad64802"
     },
@@ -98,6 +102,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-29T13:57:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-30T15:16:01Z"
   }
 }

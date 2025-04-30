@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5x9h-p2gx-35mg",
-  "modified": "2022-11-21T23:46:18Z",
+  "modified": "2025-04-30T17:28:16Z",
   "published": "2022-11-15T12:00:16Z",
   "aliases": [
     "CVE-2022-42127"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://portal.liferay.dev/learn/security/known-vulnerabilities/-/asset_publisher/HbL5mxmVrnXW/content/cve-2022-42127"
+    },
+    {
+      "type": "WEB",
+      "url": "http://liferay.com"
     }
   ],
   "database_specific": {
