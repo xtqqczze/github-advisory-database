@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44xv-v98g-v79f",
-  "modified": "2022-11-22T17:50:25Z",
+  "modified": "2025-04-30T20:39:13Z",
   "published": "2022-11-21T23:57:46Z",
   "aliases": [
     "CVE-2022-38146"
@@ -42,7 +42,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://forum.silverstripe.org/c/releases"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/silverstripe/admin/CVE-2022-38146.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.silverstripe.org/blog/tag/release"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.silverstripe.org/download/security-releases"
     },
     {
       "type": "WEB",
