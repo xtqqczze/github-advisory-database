@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7h9w-vh8m-rj5g",
-  "modified": "2022-08-24T00:00:29Z",
+  "modified": "2025-04-30T12:31:21Z",
   "published": "2022-08-20T00:00:30Z",
   "aliases": [
     "CVE-2020-27792"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-27792"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4362"
     },
     {
       "type": "WEB",
