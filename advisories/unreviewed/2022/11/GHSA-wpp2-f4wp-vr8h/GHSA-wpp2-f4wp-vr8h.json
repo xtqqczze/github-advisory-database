@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpp2-f4wp-vr8h",
-  "modified": "2022-11-17T21:30:51Z",
+  "modified": "2025-04-30T21:31:42Z",
   "published": "2022-11-15T12:00:17Z",
   "aliases": [
     "CVE-2022-3903"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lore.kernel.org/all/CAB7eexLLApHJwZfMQ=X-PtRhw0BgO+5KcSMS05FNUYejJXqtSA%40mail.gmail.com"
+    },
+    {
+      "type": "WEB",
       "url": "https://lore.kernel.org/all/CAB7eexLLApHJwZfMQ=X-PtRhw0BgO+5KcSMS05FNUYejJXqtSA@mail.gmail.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/all/E1obysd-009Grw-He%40www.linuxtv.org"
     },
     {
       "type": "WEB",

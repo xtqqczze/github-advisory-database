@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6h88-c442-5cvx",
-  "modified": "2024-03-21T03:33:31Z",
+  "modified": "2025-04-30T21:31:41Z",
   "published": "2022-05-14T02:02:06Z",
   "aliases": [
     "CVE-2018-15574"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bittherapy.net/rce-with-arbitrary-file-write-and-xss-in-reprise-license-manager"
+    },
+    {
+      "type": "WEB",
+      "url": "https://reprisesoftware.com/docs/whats-new.html"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvw8-6hqj-qw58",
-  "modified": "2021-12-16T00:02:58Z",
+  "modified": "2025-04-30T21:31:41Z",
   "published": "2021-12-14T00:01:12Z",
   "aliases": [
     "CVE-2021-44154"
   ],
   "details": "An issue was discovered in Reprise RLM 14.2. By using an admin account, an attacker can write a payload to /goform/edit_opt, which will then be triggered when running the diagnostics (via /goform/diagnostics_doit), resulting in a buffer overflow.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

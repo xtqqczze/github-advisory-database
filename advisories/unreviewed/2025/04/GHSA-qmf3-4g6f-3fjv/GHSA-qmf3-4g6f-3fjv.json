@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmf3-4g6f-3fjv",
-  "modified": "2025-04-30T18:31:55Z",
+  "modified": "2025-04-30T21:31:48Z",
   "published": "2025-04-30T18:31:55Z",
   "aliases": [
     "CVE-2025-24091"
   ],
   "details": "An app could impersonate system notifications. Sensitive notifications now require restricted entitlements. This issue is fixed in iOS 18.3 and iPadOS 18.3, iPadOS 17.7.3. An app may be able to cause a denial-of-service.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-290"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-30T18:15:39Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-79wf-qgrg-2p6c",
-  "modified": "2025-04-05T00:30:26Z",
+  "modified": "2025-04-30T21:31:47Z",
   "published": "2024-10-27T06:30:47Z",
   "aliases": [
     "CVE-2024-50602"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/pull/915"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00040.html"
     },
     {
       "type": "WEB",
