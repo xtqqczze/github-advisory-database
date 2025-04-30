@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjxx-hxfj-hfmh",
-  "modified": "2022-11-23T15:30:23Z",
+  "modified": "2025-04-30T15:30:40Z",
   "published": "2022-11-19T00:30:55Z",
   "aliases": [
     "CVE-2022-45132"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.lavasoftware.org/archives/list/lava-announce%40lists.lavasoftware.org/thread/WHXGQMIZAPW3GCQEXYHC32N2ZAAAIYCY"
     },
     {
       "type": "WEB",

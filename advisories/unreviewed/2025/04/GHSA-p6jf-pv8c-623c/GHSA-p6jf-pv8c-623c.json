@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6jf-pv8c-623c",
-  "modified": "2025-04-18T18:31:23Z",
+  "modified": "2025-04-30T15:30:47Z",
   "published": "2025-04-13T15:30:21Z",
   "aliases": [
     "CVE-2024-56406"
@@ -46,7 +46,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-122"
+      "CWE-122",
+      "CWE-787"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
