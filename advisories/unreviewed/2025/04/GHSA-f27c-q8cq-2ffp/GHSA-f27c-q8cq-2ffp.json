@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f27c-q8cq-2ffp",
-  "modified": "2025-04-30T15:30:49Z",
+  "modified": "2025-04-30T18:31:54Z",
   "published": "2025-04-30T15:30:49Z",
   "aliases": [
     "CVE-2025-45010"
   ],
   "details": "A HTML Injection vulnerability was discovered in the normal-bwdates-reports-details.php file of PHPGurukul Park Ticketing Management System v2.0. This vulnerability allows remote attackers to execute arbitrary code via the fromdate and todate POST request parameters.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-77"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-30T14:15:29Z"

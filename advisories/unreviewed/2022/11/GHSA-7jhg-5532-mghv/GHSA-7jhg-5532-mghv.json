@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jhg-5532-mghv",
-  "modified": "2022-11-17T06:30:19Z",
+  "modified": "2025-04-30T18:31:40Z",
   "published": "2022-11-16T12:00:20Z",
   "aliases": [
     "CVE-2022-30769"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ZoneMinder/zoneminder/releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40dk50u1/session-fixation-in-zoneminder-up-to-v1-36-12-3c850b1fbbf3"
     },
     {
       "type": "WEB",
