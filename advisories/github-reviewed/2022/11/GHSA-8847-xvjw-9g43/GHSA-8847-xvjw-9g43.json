@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8847-xvjw-9g43",
-  "modified": "2022-12-15T21:13:45Z",
+  "modified": "2025-04-30T20:36:43Z",
   "published": "2022-11-16T12:00:23Z",
   "aliases": [
     "CVE-2022-45397"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://www.jenkins.io/security/advisory/2022-11-15/#SECURITY-2937"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2022/11/15/4"
     }
   ],
   "database_specific": {
