@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2935-2wfm-hhpv",
-  "modified": "2025-04-30T00:32:27Z",
+  "modified": "2025-04-30T03:30:31Z",
   "published": "2025-03-25T09:32:07Z",
   "aliases": [
     "CVE-2025-2559"
@@ -43,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:4335"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4336"
     },
     {
       "type": "WEB",
