@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8jw-8vpv-pv5q",
-  "modified": "2022-11-23T17:38:30Z",
+  "modified": "2025-04-30T17:25:45Z",
   "published": "2022-11-21T21:30:14Z",
   "aliases": [
     "CVE-2022-42096"
@@ -39,6 +39,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42096"
+    },
+    {
+      "type": "WEB",
+      "url": "https://backdropcms.org"
     },
     {
       "type": "WEB",
