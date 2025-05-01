@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p53-237x-3cww",
-  "modified": "2024-10-29T18:30:34Z",
+  "modified": "2025-05-01T00:32:28Z",
   "published": "2024-03-15T18:30:38Z",
   "aliases": [
     "CVE-2024-2193"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2024/03/12/14"
+    },
+    {
+      "type": "WEB",
+      "url": "http://xenbits.xen.org/xsa/advisory-453.html"
     }
   ],
   "database_specific": {
