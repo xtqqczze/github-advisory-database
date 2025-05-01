@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xc6-mgv4-5v44",
-  "modified": "2022-06-18T00:00:20Z",
+  "modified": "2025-05-01T18:31:42Z",
   "published": "2022-06-10T00:00:55Z",
   "aliases": [
     "CVE-2022-31813"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://httpd.apache.org/security/vulnerabilities_24.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/7QUGG2QZWHTITMABFLVXA4DNYUOTPWYQ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YPY2BLEVJWFH34AX77ZJPLD2OOBYR6ND"
     },
     {
       "type": "WEB",
@@ -46,7 +54,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-345"
+      "CWE-345",
+      "CWE-348"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,
