@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2cj-86v4-7782",
-  "modified": "2024-11-18T16:26:45Z",
+  "modified": "2025-05-01T13:31:07Z",
   "published": "2024-06-18T21:30:36Z",
   "aliases": [
     "CVE-2024-38275"
@@ -128,7 +128,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-226"
+      "CWE-226",
+      "CWE-459"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,

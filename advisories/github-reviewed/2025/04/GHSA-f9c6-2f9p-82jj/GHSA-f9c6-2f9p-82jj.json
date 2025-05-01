@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9c6-2f9p-82jj",
-  "modified": "2025-04-30T16:51:53Z",
+  "modified": "2025-05-01T13:30:33Z",
   "published": "2025-04-30T16:51:53Z",
   "aliases": [
     "CVE-2025-46557"
@@ -79,6 +79,10 @@
       "url": "https://github.com/xwiki/xwiki-platform/security/advisories/GHSA-f9c6-2f9p-82jj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46557"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/xwiki/xwiki-platform/commit/5efc31cea1501c9a5cb593566fea8b558ff32a2a"
     },
@@ -98,6 +102,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-30T16:51:53Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-30T19:15:55Z"
   }
 }

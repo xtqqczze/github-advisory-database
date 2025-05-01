@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8g2j-rhfh-hq3r",
-  "modified": "2025-04-30T16:53:27Z",
+  "modified": "2025-05-01T13:30:39Z",
   "published": "2025-04-30T16:53:27Z",
   "aliases": [
     "CVE-2025-46558"
@@ -41,6 +41,10 @@
       "url": "https://github.com/xwiki-contrib/syntax-markdown/security/advisories/GHSA-8g2j-rhfh-hq3r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46558"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/xwiki-contrib/syntax-markdown/commit/d136472d6e8a47981a0ede420a9096f88ffa5035"
     },
@@ -60,6 +64,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-30T16:53:27Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-04-30T19:15:55Z"
   }
 }
