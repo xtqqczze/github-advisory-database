@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjfg-q662-gm6j",
-  "modified": "2025-04-09T15:20:53Z",
+  "modified": "2025-05-01T18:12:56Z",
   "published": "2017-10-24T18:33:38Z",
   "aliases": [
     "CVE-2007-5379"
@@ -23,24 +23,17 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.2.5"
+              "fixed": "1.2.4"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 1.2.4"
-      }
+      ]
     }
   ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2007-5379"
-    },
-    {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-fjfg-q662-gm6j"
     },
     {
       "type": "PACKAGE",
@@ -52,11 +45,15 @@
     },
     {
       "type": "WEB",
-      "url": "http://bugs.gentoo.org/show_bug.cgi?id=195315"
+      "url": "https://rubyonrails.org/2007/10/5/rails-1-2-4-maintenance-release"
     },
     {
       "type": "WEB",
-      "url": "http://dev.rubyonrails.org/ticket/8453"
+      "url": "https://web.archive.org/web/20090602000500/http://dev.rubyonrails.org/ticket/8453"
+    },
+    {
+      "type": "WEB",
+      "url": "http://bugs.gentoo.org/show_bug.cgi?id=195315"
     },
     {
       "type": "WEB",
@@ -68,27 +65,7 @@
     },
     {
       "type": "WEB",
-      "url": "http://osvdb.org/40717"
-    },
-    {
-      "type": "WEB",
-      "url": "http://secunia.com/advisories/27657"
-    },
-    {
-      "type": "WEB",
-      "url": "http://secunia.com/advisories/28136"
-    },
-    {
-      "type": "WEB",
       "url": "http://security.gentoo.org/glsa/glsa-200711-17.xml"
-    },
-    {
-      "type": "WEB",
-      "url": "http://weblog.rubyonrails.org/2007/10/5/rails-1-2-4-maintenance-release"
-    },
-    {
-      "type": "WEB",
-      "url": "http://www.securityfocus.com/bid/26096"
     },
     {
       "type": "WEB",
