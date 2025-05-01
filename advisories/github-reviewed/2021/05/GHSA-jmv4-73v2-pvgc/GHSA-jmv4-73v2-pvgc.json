@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmv4-73v2-pvgc",
-  "modified": "2021-05-28T22:27:11Z",
+  "modified": "2025-05-01T00:21:33Z",
   "published": "2021-05-25T18:46:58Z",
   "aliases": [
     "CVE-2021-25929"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/OpenNMS/opennms/commit/eb08b5ed4c5548f3e941a1f0d0363ae4439fa98c"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/OpenNMS/opennms"
     },
     {
       "type": "WEB",

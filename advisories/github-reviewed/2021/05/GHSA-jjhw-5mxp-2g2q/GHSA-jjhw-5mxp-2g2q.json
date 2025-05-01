@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjhw-5mxp-2g2q",
-  "modified": "2021-05-28T22:27:50Z",
+  "modified": "2025-05-01T00:21:24Z",
   "published": "2021-05-25T18:47:01Z",
   "aliases": [
     "CVE-2021-25933"
@@ -42,6 +42,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/OpenNMS/opennms/commit/8a97e6869d6e49da18b208c837438ace80049c01%2C"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/OpenNMS/opennms/commit/8a97e6869d6e49da18b208c837438ace80049c01,"
     },
     {
@@ -51,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/OpenNMS/opennms/commit/f3ebfa3da5352b4d57f238b54c6db315ad99f10e"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/OpenNMS/opennms"
     },
     {
       "type": "WEB",
