@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5684-vxhc-x77c",
-  "modified": "2022-11-10T12:01:17Z",
+  "modified": "2025-05-01T15:31:27Z",
   "published": "2022-11-09T12:00:19Z",
   "aliases": [
     "CVE-2022-45062"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.xfce.org/xfce/xfce4-settings/-/tags"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XGTGTTPFHDUB3EZHVKDK4H32QUUYPPFF"
     },
     {
       "type": "WEB",

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f3p5-h83r-f8vf",
+  "modified": "2025-05-01T15:31:45Z",
+  "published": "2025-05-01T15:31:45Z",
+  "aliases": [
+    "CVE-2025-37789"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: openvswitch: fix nested key length validation in the set() action\n\nIt's not safe to access nla_len(ovs_key) if the data is smaller than\nthe netlink header.  Check that the attribute is OK first.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37789"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/03d7262dd53e8c404da35cc81aaa887fd901f76b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1489c195c8eecd262aa6712761ba5288203e28ec"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/65d91192aa66f05710cfddf6a14b5a25ee554dba"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/824a7c2df5127b2402b68a21a265d413e78dcad7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/be80768d4f3b6fd13f421451cc3fee8778aba8bc"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-01T14:15:43Z"
+  }
+}

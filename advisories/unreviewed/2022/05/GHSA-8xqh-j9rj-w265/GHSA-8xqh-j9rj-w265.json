@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xqh-j9rj-w265",
-  "modified": "2025-04-20T03:40:37Z",
+  "modified": "2025-05-01T15:31:26Z",
   "published": "2022-05-14T01:50:42Z",
   "aliases": [
     "CVE-2017-9844"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://erpscan.io/advisories/erpscan-17-014-sap-netweaver-java-deserialization-untrusted-user-value-metadatauploader"
+    },
+    {
+      "type": "WEB",
+      "url": "https://me.sap.com/notes/2399804"
     },
     {
       "type": "WEB",

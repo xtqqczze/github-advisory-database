@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2wh-crm6-349c",
-  "modified": "2022-11-11T12:00:35Z",
+  "modified": "2025-05-01T15:31:29Z",
   "published": "2022-11-10T12:01:16Z",
   "aliases": [
     "CVE-2022-44549"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-668"
+      "CWE-668",
+      "CWE-862"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

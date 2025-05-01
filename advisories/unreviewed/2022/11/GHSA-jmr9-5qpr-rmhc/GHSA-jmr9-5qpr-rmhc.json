@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmr9-5qpr-rmhc",
-  "modified": "2022-11-11T12:00:38Z",
+  "modified": "2025-05-01T15:31:29Z",
   "published": "2022-11-10T12:01:16Z",
   "aliases": [
     "CVE-2022-44550"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-416"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

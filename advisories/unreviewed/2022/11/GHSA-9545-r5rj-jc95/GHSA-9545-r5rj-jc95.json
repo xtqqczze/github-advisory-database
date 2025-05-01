@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9545-r5rj-jc95",
-  "modified": "2022-11-16T12:00:24Z",
+  "modified": "2025-05-01T15:31:31Z",
   "published": "2022-11-11T12:00:28Z",
   "aliases": [
     "CVE-2022-26088"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmcm-fv4m-prc7",
-  "modified": "2022-11-11T12:00:38Z",
+  "modified": "2025-05-01T15:31:30Z",
   "published": "2022-11-10T12:01:16Z",
   "aliases": [
     "CVE-2022-44562"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-269"
+      "CWE-269",
+      "CWE-502"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6r3-f3gp-mvmr",
-  "modified": "2022-11-18T00:30:19Z",
+  "modified": "2025-05-01T15:31:30Z",
   "published": "2022-11-10T12:01:16Z",
   "aliases": [
     "CVE-2022-44561"
