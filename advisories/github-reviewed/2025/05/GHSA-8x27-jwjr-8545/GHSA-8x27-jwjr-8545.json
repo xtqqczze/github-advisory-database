@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x27-jwjr-8545",
-  "modified": "2025-05-02T12:53:39Z",
+  "modified": "2025-05-02T15:33:42Z",
   "published": "2025-05-01T13:59:51Z",
   "aliases": [
     "CVE-2025-46337"
@@ -44,6 +44,10 @@
       "url": "https://github.com/ADOdb/ADOdb/security/advisories/GHSA-8x27-jwjr-8545"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46337"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ADOdb/ADOdb/issues/1070"
     },
@@ -63,6 +67,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-05-01T13:59:51Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-05-01T18:15:57Z"
   }
 }
