@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hh5-254v-jpf4",
-  "modified": "2024-12-30T21:30:46Z",
+  "modified": "2025-05-02T09:30:25Z",
   "published": "2024-05-21T15:31:40Z",
   "aliases": [
     "CVE-2021-47247"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47247"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0d1e7a7964ce6abb28883a3906bbc20fe0009f03"
     },
     {
       "type": "WEB",

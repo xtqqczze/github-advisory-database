@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qj49-7rgr-pfmq",
-  "modified": "2025-02-02T12:30:24Z",
+  "modified": "2025-05-02T09:30:29Z",
   "published": "2024-12-27T15:31:51Z",
   "aliases": [
     "CVE-2024-53185"
@@ -33,7 +33,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4a788ebbb10db9da453d52eaf44a41c13dc446df"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4bdec0d1f658f7c98749bd2c5a486e6cfa8565d2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/92c5b62879073b489793a067dbe8d4f2728cdcad"
     },
     {
       "type": "WEB",

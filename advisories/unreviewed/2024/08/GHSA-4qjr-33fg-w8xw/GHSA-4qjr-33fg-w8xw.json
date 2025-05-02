@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qjr-33fg-w8xw",
-  "modified": "2024-12-02T09:39:12Z",
+  "modified": "2025-05-02T09:30:27Z",
   "published": "2024-08-17T09:30:25Z",
   "aliases": [
     "CVE-2024-42322"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42322"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/211168339657f36f32fb597afd0e3ac82d726119"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/36c997f1e03601475ad0fda0e0f59b7a209e756b"
     },
     {
       "type": "WEB",

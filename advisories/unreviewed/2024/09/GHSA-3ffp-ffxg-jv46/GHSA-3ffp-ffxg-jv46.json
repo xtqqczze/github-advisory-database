@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3ffp-ffxg-jv46",
-  "modified": "2024-09-26T15:30:34Z",
+  "modified": "2025-05-02T09:30:27Z",
   "published": "2024-09-18T09:30:37Z",
   "aliases": [
     "CVE-2024-46784"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46784"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/386617efacab10bf5bb40bde403467c57cc00470"
     },
     {
       "type": "WEB",

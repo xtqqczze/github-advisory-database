@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx77-mj6g-j23r",
-  "modified": "2025-05-01T15:31:43Z",
+  "modified": "2025-05-02T09:30:33Z",
   "published": "2025-05-01T15:31:43Z",
   "aliases": [
     "CVE-2025-37758"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37758"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/17d5e6e915fad5a261db3698c9c5bbe702102d7c"
     },
     {
       "type": "WEB",
@@ -28,11 +32,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a551f75401793ba8075d7f46ffc931ce5151f03f"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ad320e408a8c95a282ab9c05cdf0c9b95e317985"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c022287f6e599422511aa227dc6da37b58d9ceac"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d0d720f9282839b9db625a376c02a1426a16b0ae"
     },
     {
       "type": "WEB",

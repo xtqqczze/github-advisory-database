@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hx26-xg26-jr99",
-  "modified": "2025-05-01T15:31:41Z",
+  "modified": "2025-05-02T09:30:32Z",
   "published": "2025-05-01T15:31:41Z",
   "aliases": [
     "CVE-2025-23156"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/05b07e52a0d08239147ba3460045855f4fb398de"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0beabe9b49190a02321b02792b29fc0f0e28b51f"
     },
     {
       "type": "WEB",
@@ -37,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bb3fd8b7906a12dc2b61389abb742bf6542d97fb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f195e94c7af921d99abd79f57026a218d191d2c7"
     }
   ],
   "database_specific": {

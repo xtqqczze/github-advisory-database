@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fcx-mjhh-4qw9",
-  "modified": "2025-05-01T15:31:44Z",
+  "modified": "2025-05-02T09:30:33Z",
   "published": "2025-05-01T15:31:44Z",
   "aliases": [
     "CVE-2025-37768"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37768"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3cdd02cb70682d7d205ca6dc02a4d1eb76758d24"
     },
     {
       "type": "WEB",
@@ -33,6 +37,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b0742a709be7979c7a480772046a1f36d09dab00"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/be0fffc4152aac4f0291ed2d793f3cfee788449d"
     }
   ],
   "database_specific": {

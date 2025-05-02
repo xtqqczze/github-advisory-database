@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmx2-4vwx-fc3h",
-  "modified": "2025-03-17T15:31:36Z",
+  "modified": "2025-05-02T09:30:24Z",
   "published": "2024-03-26T18:32:06Z",
   "aliases": [
     "CVE-2023-52621"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3516f93cc63d956e1b290ae4b7bf2586074535a0"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/483cb92334cd7f1d5387dccc0ab5d595d27a669d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/82f2df94dac1aa9b879e74d1f82ba1b631bdc612"
     },
     {
       "type": "WEB",

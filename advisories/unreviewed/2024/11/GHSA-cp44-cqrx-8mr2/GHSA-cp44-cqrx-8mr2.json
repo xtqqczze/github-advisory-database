@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cp44-cqrx-8mr2",
-  "modified": "2024-11-08T21:33:53Z",
+  "modified": "2025-05-02T09:30:28Z",
   "published": "2024-11-05T18:32:12Z",
   "aliases": [
     "CVE-2024-50125"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/1bf4470a3939c678fb822073e9ea77a0560bc6bb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/74a466a15731a754bcd8b5a83c126b5122e15a45"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-562v-pvgc-xrg8",
-  "modified": "2025-01-23T18:31:12Z",
+  "modified": "2025-05-02T09:30:29Z",
   "published": "2024-12-27T15:31:53Z",
   "aliases": [
     "CVE-2024-56551"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3990ef742c064e22189b954522930db04fc6b1a7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3cc1116de10953f0265a05d9f351b02a9ec3b497"
     },
     {
       "type": "WEB",

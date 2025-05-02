@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-924c-rx43-2mjr",
-  "modified": "2025-04-25T12:30:26Z",
+  "modified": "2025-05-02T09:30:27Z",
   "published": "2024-09-27T15:30:33Z",
   "aliases": [
     "CVE-2024-46816"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/cf8b16857db702ceb8d52f9219a4613363e2b1cf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e2411b6abf6e5d6c33d0450846673cdf536f0ba4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e3cd0d8362de47f613bfdf315b3f3a9ab71e66bf"
     }
   ],
   "database_specific": {

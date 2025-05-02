@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfcp-m93f-hrvg",
-  "modified": "2024-11-07T18:31:20Z",
+  "modified": "2025-05-02T09:30:25Z",
   "published": "2024-05-17T12:31:00Z",
   "aliases": [
     "CVE-2024-27402"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7d2a894d7f487dcb894df023e9d3014cf5b93fe5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7d3914a477eed92b48c493a8631cc4554ab4fd4f"
     },
     {
       "type": "WEB",

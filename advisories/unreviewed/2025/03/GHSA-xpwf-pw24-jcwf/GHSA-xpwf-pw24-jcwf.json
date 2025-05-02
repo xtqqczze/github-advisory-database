@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpwf-pw24-jcwf",
-  "modified": "2025-03-17T21:30:32Z",
+  "modified": "2025-05-02T09:30:30Z",
   "published": "2025-03-17T21:30:32Z",
   "aliases": [
     "CVE-2022-49309"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2c41f5c341853f84b7bc2f32605d4e2782e8c279"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c84e5c819600ee0628f61b33d145258ae0f3d7a7"
     },
     {
       "type": "WEB",

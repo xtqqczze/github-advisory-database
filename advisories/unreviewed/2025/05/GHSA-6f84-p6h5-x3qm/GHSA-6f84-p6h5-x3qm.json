@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f84-p6h5-x3qm",
-  "modified": "2025-05-01T15:31:40Z",
+  "modified": "2025-05-02T09:30:31Z",
   "published": "2025-05-01T15:31:40Z",
   "aliases": [
     "CVE-2025-23147"
@@ -13,6 +13,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23147"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/09359e7c8751961937cb5fc50220969b0a4e1058"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1b54faa5f47fa7c642179744aeff03f0810dc62e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3ba402610843d7d15c7f3966a461deeeaff7fba4"
     },
     {
       "type": "WEB",

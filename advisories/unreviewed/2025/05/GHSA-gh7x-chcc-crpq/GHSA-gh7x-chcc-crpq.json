@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh7x-chcc-crpq",
-  "modified": "2025-05-01T15:31:45Z",
+  "modified": "2025-05-02T09:30:34Z",
   "published": "2025-05-01T15:31:45Z",
   "aliases": [
     "CVE-2025-37790"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/52024cd6ec71a6ca934d0cc12452bd8d49850679"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5c1313b93c8c2e3904a48aa88e2fa1db28c607ae"
     },
     {
       "type": "WEB",
