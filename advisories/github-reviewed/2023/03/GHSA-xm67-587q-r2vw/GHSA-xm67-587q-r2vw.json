@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xm67-587q-r2vw",
-  "modified": "2023-03-09T00:09:03Z",
+  "modified": "2025-05-02T12:52:23Z",
   "published": "2023-03-09T00:09:03Z",
   "aliases": [
     "CVE-2023-27477"
@@ -158,6 +158,10 @@
     {
       "type": "WEB",
       "url": "https://groups.google.com/a/bytecodealliance.org/g/sec-announce/c/Mov-ItrNJsQ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0093.html"
     }
   ],
   "database_specific": {
