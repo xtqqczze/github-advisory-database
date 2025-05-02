@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqxv-v2vg-q37x",
-  "modified": "2025-04-25T18:31:12Z",
+  "modified": "2025-05-02T03:30:34Z",
   "published": "2025-04-25T18:31:12Z",
   "aliases": [
     "CVE-2025-3928"
@@ -26,6 +26,18 @@
     {
       "type": "WEB",
       "url": "https://documentation.commvault.com/securityadvisories/CV_2025_03_1.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-3928"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.commvault.com/blogs/notice-security-advisory-update"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.commvault.com/blogs/security-advisory-march-7-2025"
     }
   ],
   "database_specific": {

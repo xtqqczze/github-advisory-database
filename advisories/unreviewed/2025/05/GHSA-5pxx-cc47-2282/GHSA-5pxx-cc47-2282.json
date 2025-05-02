@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5pxx-cc47-2282",
-  "modified": "2025-05-01T09:32:27Z",
+  "modified": "2025-05-02T03:30:34Z",
   "published": "2025-05-01T09:32:27Z",
   "aliases": [
     "CVE-2025-47153"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=892601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00003.html"
     }
   ],
   "database_specific": {
