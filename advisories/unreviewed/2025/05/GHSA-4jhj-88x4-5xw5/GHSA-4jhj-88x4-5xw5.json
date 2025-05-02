@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4jhj-88x4-5xw5",
-  "modified": "2025-05-02T03:30:34Z",
+  "modified": "2025-05-02T12:32:00Z",
   "published": "2025-05-02T03:30:34Z",
   "aliases": [
     "CVE-2025-4195"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ARPANET-cybersecurity/vuldb/issues/6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/XuepengZhao-insp/vuldb/issues/6"
     },
     {
       "type": "WEB",
