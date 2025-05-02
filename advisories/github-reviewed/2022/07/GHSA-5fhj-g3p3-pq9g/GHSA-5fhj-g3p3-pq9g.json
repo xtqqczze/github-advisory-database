@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fhj-g3p3-pq9g",
-  "modified": "2022-08-05T13:56:03Z",
+  "modified": "2025-05-02T12:48:59Z",
   "published": "2022-07-20T22:47:13Z",
   "aliases": [
     "CVE-2022-31146"
@@ -74,6 +74,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/bytecodealliance/wasmtime"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2022-0100.html"
     }
   ],
   "database_specific": {
