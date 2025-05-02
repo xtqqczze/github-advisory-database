@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84c6-x9x8-7q38",
-  "modified": "2024-01-31T15:30:18Z",
+  "modified": "2025-05-02T18:31:25Z",
   "published": "2023-09-27T15:30:35Z",
   "aliases": [
     "CVE-2023-39434"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/HT213940"
+    },
+    {
+      "type": "WEB",
+      "url": "https://webkitgtk.org/security/WSA-2023-0009.html"
     },
     {
       "type": "WEB",

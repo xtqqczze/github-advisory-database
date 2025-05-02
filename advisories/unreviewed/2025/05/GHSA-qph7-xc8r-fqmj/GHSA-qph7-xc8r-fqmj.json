@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qph7-xc8r-fqmj",
-  "modified": "2025-05-02T15:31:48Z",
+  "modified": "2025-05-02T18:31:32Z",
   "published": "2025-05-02T15:31:48Z",
   "aliases": [
     "CVE-2025-3927"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://www.digigram.com/download/pyko-out-user-manual-en-jan-2019"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/360686"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gx9w-3cv3-7x4r",
-  "modified": "2025-04-29T15:31:52Z",
+  "modified": "2025-05-02T18:31:31Z",
   "published": "2025-04-29T15:31:52Z",
   "aliases": [
     "CVE-2025-4084"
   ],
   "details": "Due to insufficient escaping of the special characters in the \"copy as cURL\" feature, an attacker could trick a user into using this command, potentially leading to local code execution on the user's system.\n*This bug only affects Firefox for Windows. Other versions of Firefox are unaffected.* This vulnerability affects Firefox ESR < 128.10, Firefox ESR < 115.23, and Thunderbird ESR < 128.10.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-116"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-29T14:15:35Z"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfmr-vrgj-vqwv",
-  "modified": "2022-08-12T00:01:18Z",
+  "modified": "2025-05-02T18:31:25Z",
   "published": "2022-08-06T00:00:51Z",
   "aliases": [
     "CVE-2022-37434"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/curl/curl/issues/9271"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/madler/zlib/commit/1eb7682f845ac9e9bf9ae35bbfb3bad5dacbd91d"
     },
     {
       "type": "WEB",

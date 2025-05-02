@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwpv-5v9v-5797",
-  "modified": "2022-11-09T19:02:23Z",
+  "modified": "2025-05-02T18:31:24Z",
   "published": "2022-11-09T12:00:23Z",
   "aliases": [
     "CVE-2022-3821"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00036.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RVBQC2VLSDVQAPJTEMTREXDL4HYLXG2P"
     },
     {
       "type": "WEB",
