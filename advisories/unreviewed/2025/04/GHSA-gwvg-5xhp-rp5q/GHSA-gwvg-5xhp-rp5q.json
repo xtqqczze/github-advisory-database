@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwvg-5xhp-rp5q",
-  "modified": "2025-04-23T15:30:56Z",
+  "modified": "2025-05-02T00:32:14Z",
   "published": "2025-04-22T21:30:44Z",
   "aliases": [
     "CVE-2025-37087"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.hpe.com/hpesc/docDisplay?docLocale=en_US&docId=a00146087en_us"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbcr04840en_us&docLocale=en_US"
     }
   ],
   "database_specific": {
