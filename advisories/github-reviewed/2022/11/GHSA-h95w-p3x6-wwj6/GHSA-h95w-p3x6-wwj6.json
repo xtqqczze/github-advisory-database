@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h95w-p3x6-wwj6",
-  "modified": "2022-11-06T02:47:48Z",
+  "modified": "2025-05-02T21:57:41Z",
   "published": "2022-11-04T19:01:16Z",
   "aliases": [
     "CVE-2022-3721"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/froxlor/froxlor"
+    },
+    {
+      "type": "WEB",
+      "url": "https://huntr.com/bounties/a3c506f0-5f8a-4eaa-b8cc-46fb9e35cf7a"
     },
     {
       "type": "WEB",
