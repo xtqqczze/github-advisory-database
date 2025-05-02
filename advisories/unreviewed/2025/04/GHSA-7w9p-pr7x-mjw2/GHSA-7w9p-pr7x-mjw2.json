@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7w9p-pr7x-mjw2",
-  "modified": "2025-04-26T03:30:32Z",
+  "modified": "2025-05-02T15:31:16Z",
   "published": "2025-04-24T18:31:08Z",
   "aliases": [
     "CVE-2025-31324"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://me.sap.com/notes/3594142"
+    },
+    {
+      "type": "WEB",
+      "url": "https://onapsis.com/blog/active-exploitation-of-sap-vulnerability-cve-2025-31324"
     },
     {
       "type": "WEB",
