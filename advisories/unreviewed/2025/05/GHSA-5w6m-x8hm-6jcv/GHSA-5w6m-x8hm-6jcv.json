@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w6m-x8hm-6jcv",
-  "modified": "2025-05-03T12:30:25Z",
+  "modified": "2025-05-03T15:30:25Z",
   "published": "2025-05-03T12:30:25Z",
   "aliases": [
     "CVE-2025-37799"
@@ -16,7 +16,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/33e131a10459d16f181c8184d3f17f1c318c7002"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4c2227656d9003f4d77afc76f34dd81b95e4c2c4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c4312c4d244aa58e811ff0297e013124d115e793"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e3ad76e36a37b0ff4a71b06d5b33530ee8c3a177"
     }
   ],
   "database_specific": {
