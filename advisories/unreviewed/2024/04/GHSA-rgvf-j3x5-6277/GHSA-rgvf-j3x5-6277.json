@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgvf-j3x5-6277",
-  "modified": "2024-09-25T03:30:35Z",
+  "modified": "2025-05-03T00:30:32Z",
   "published": "2024-04-09T21:32:00Z",
   "aliases": [
     "CVE-2024-3446"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://patchew.org/QEMU/20240409105537.18308-1-philmd@linaro.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250502-0007"
     }
   ],
   "database_specific": {

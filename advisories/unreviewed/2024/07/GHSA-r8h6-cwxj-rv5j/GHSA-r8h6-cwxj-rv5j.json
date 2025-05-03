@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8h6-cwxj-rv5j",
-  "modified": "2025-01-31T21:32:44Z",
+  "modified": "2025-05-03T00:30:32Z",
   "published": "2024-07-30T00:34:24Z",
   "aliases": [
     "CVE-2024-3219"
@@ -86,6 +86,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/WYKDQWIERRE2ICIYMSVRZJO33GSCWU2B"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250502-0004"
     },
     {
       "type": "WEB",
