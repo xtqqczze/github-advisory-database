@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c524-q7r6-h3vj",
-  "modified": "2022-11-04T19:01:15Z",
+  "modified": "2025-05-05T15:30:39Z",
   "published": "2022-11-03T19:00:27Z",
   "aliases": [
     "CVE-2022-43109"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9q2-jxcm-rm4c",
-  "modified": "2022-11-04T19:01:15Z",
+  "modified": "2025-05-05T15:30:38Z",
   "published": "2022-11-03T12:00:26Z",
   "aliases": [
     "CVE-2021-46853"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-367"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
