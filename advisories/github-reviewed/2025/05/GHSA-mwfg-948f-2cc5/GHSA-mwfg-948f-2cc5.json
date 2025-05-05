@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwfg-948f-2cc5",
-  "modified": "2025-05-05T14:55:59Z",
+  "modified": "2025-05-05T22:06:28Z",
   "published": "2025-05-05T14:55:59Z",
   "aliases": [
     "CVE-2025-46335"
@@ -44,6 +44,10 @@
       "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF/security/advisories/GHSA-mwfg-948f-2cc5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46335"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/MobSF/Mobile-Security-Framework-MobSF/commit/6987a946485a795f4fd38cebdb4860b368a1995d"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-05-05T14:55:59Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-05-05T19:15:56Z"
   }
 }
