@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpqg-8rvq-f5c4",
-  "modified": "2023-04-03T15:30:16Z",
+  "modified": "2025-05-05T18:32:36Z",
   "published": "2023-03-27T03:30:16Z",
   "aliases": [
     "CVE-2023-28866"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lore.kernel.org/lkml/20230321015018.1759683-1-iam%40sung-woo.kim"
+    },
+    {
+      "type": "WEB",
       "url": "https://lore.kernel.org/lkml/20230321015018.1759683-1-iam@sung-woo.kim"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchwork.kernel.org/project/bluetooth/patch/20230322232543.3079578-1-luiz.dentz%40gmail.com"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f93p-vc52-m3wg",
-  "modified": "2022-09-09T00:00:56Z",
+  "modified": "2025-05-05T18:32:23Z",
   "published": "2022-09-03T00:00:24Z",
   "aliases": [
     "CVE-2022-39189"

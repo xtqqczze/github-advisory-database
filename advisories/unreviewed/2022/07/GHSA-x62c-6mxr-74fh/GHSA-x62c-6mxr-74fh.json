@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x62c-6mxr-74fh",
-  "modified": "2022-08-02T00:00:25Z",
+  "modified": "2025-05-05T18:32:12Z",
   "published": "2022-07-21T00:00:34Z",
   "aliases": [
     "CVE-2021-46828"
@@ -37,11 +37,16 @@
     },
     {
       "type": "WEB",
+      "url": "http://git.linux-nfs.org/?p=steved/libtirpc.git%3Ba=commit%3Bh=86529758570cef4c73fb9b9c4104fdc510f701ed"
+    },
+    {
+      "type": "WEB",
       "url": "http://git.linux-nfs.org/?p=steved/libtirpc.git;a=commit;h=86529758570cef4c73fb9b9c4104fdc510f701ed"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-755",
       "CWE-770"
     ],
     "severity": "HIGH",

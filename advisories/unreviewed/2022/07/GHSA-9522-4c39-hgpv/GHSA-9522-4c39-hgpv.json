@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9522-4c39-hgpv",
-  "modified": "2022-07-22T00:00:40Z",
+  "modified": "2025-05-05T18:32:12Z",
   "published": "2022-07-15T00:00:18Z",
   "aliases": [
     "CVE-2022-29593"

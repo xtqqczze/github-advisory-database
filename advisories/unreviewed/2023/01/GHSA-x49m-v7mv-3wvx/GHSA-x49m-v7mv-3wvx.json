@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x49m-v7mv-3wvx",
-  "modified": "2023-01-19T18:30:21Z",
+  "modified": "2025-05-05T18:32:31Z",
   "published": "2023-01-11T15:30:26Z",
   "aliases": [
     "CVE-2022-4415"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/systemd/systemd/commit/b7641425659243c09473cd8fb3aef2c0d4a3eb9c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20230216-0010"
     },
     {
       "type": "WEB",

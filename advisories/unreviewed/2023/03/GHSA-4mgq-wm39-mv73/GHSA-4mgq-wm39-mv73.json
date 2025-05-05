@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mgq-wm39-mv73",
-  "modified": "2023-03-27T18:30:27Z",
+  "modified": "2025-05-05T18:32:35Z",
   "published": "2023-03-23T15:30:26Z",
   "aliases": [
     "CVE-2023-28772"
@@ -29,7 +29,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lkml.kernel.org/r/20210626032156.47889-1-yun.zhou%40windriver.com"
+    },
+    {
+      "type": "WEB",
       "url": "https://lkml.kernel.org/r/20210626032156.47889-1-yun.zhou@windriver.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/lkml/20210625122453.5e2fe304%40oasis.local.home"
     },
     {
       "type": "WEB",

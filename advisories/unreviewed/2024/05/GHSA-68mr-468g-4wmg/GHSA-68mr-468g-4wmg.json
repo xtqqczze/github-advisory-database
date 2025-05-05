@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68mr-468g-4wmg",
-  "modified": "2024-05-20T12:30:30Z",
+  "modified": "2025-05-05T18:32:51Z",
   "published": "2024-05-20T12:30:30Z",
   "aliases": [
     "CVE-2024-4323"
@@ -26,11 +26,16 @@
     {
       "type": "WEB",
       "url": "https://tenable.com/security/research/tra-2024-17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/linguistic-lumberjack-memory-corruption-in-fluent-bit-cve-2024-4323"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-122"
+      "CWE-122",
+      "CWE-787"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

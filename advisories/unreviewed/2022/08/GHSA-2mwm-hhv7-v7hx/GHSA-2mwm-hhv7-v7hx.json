@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mwm-hhv7-v7hx",
-  "modified": "2022-08-22T00:00:58Z",
+  "modified": "2025-05-05T18:32:23Z",
   "published": "2022-08-19T00:00:17Z",
   "aliases": [
     "CVE-2022-30601"

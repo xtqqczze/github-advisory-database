@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h6gj-8ffr-cxm9",
-  "modified": "2023-03-24T18:30:25Z",
+  "modified": "2025-05-05T18:32:34Z",
   "published": "2023-03-17T21:30:24Z",
   "aliases": [
     "CVE-2023-24678"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/iot-sec23/IoT-CVE/blob/main/Centralite%20Pearl%20Thermostat%20Vulnerability%20Report.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.centralite.com/%3B"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mv5m-45gv-gh97",
-  "modified": "2023-11-24T15:30:26Z",
+  "modified": "2025-05-05T18:32:38Z",
   "published": "2023-05-09T03:30:38Z",
   "aliases": [
     "CVE-2021-31239"
