@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hh7j-6x3q-f52h",
-  "modified": "2025-04-08T17:49:04Z",
+  "modified": "2025-05-05T17:45:47Z",
   "published": "2025-04-08T14:50:13Z",
   "aliases": [
     "CVE-2025-30150"
   ],
   "summary": "Shopware 6 allows attackers to check for registered accounts through the store-api",
-  "details": "### Impact\nThrough the store-api it is possible as a attacker to check if a specific e-mail address has an account in the shop.\n\nUsing the store-api endpoint `/store-api/account/recovery-password` you get the response\n```\n{\"errors\":[{\"status\":\"404\",\"code\":\"CHECKOUT__CUSTOMER_NOT_FOUND\",\"title\":\"Not Found\",\"detail\":\"No matching customer for the email \\u0022asdasfd@asdads.de\\u0022 was found.\",\"meta\":{\"parameters\":{\"email\":\"asdasfd@asdads.de\"}}}]}\n```\n\nwhich indicates clearly that there is no account for this customer. In contrast you get a success response if the account was found.\n\n### Patches\nUpdate to Shopware 6.6.10.3 or 6.5.8.17\n\n### Workarounds\nFor older versions of 6.4, corresponding security measures are also available via a plugin. For the full range of functions, we recommend updating to the latest Shopware version.",
+  "details": "### Impact\nThrough the store-api it is possible as a attacker to check if a specific e-mail address has an account in the shop.\n\nUsing the store-api endpoint `/store-api/account/recovery-password` you get the response\n```\n{\"errors\":[{\"status\":\"404\",\"code\":\"CHECKOUT__CUSTOMER_NOT_FOUND\",\"title\":\"Not Found\",\"detail\":\"No matching customer for the email \\u0022asdasfd@asdads.de\\u0022 was found.\",\"meta\":{\"parameters\":{\"email\":\"asdasfd@asdads.de\"}}}]}\n```\n\nwhich indicates clearly that there is no account for this customer. In contrast you get a success response if the account was found.\n\n### Patches\nUpdate to Shopware 6.6.10.3\n\n### Workarounds\nFor older versions of 6.5 or 6.4, corresponding security measures are also available via a plugin. For the full range of functions, we recommend updating to the latest Shopware version.",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -25,14 +25,17 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "6.6.0.0"
+              "introduced": "0"
             },
             {
               "fixed": "6.6.10.3"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 6.6.10.2"
+      }
     },
     {
       "package": {
@@ -44,14 +47,17 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "6.6.0.0"
+              "introduced": "0"
             },
             {
               "fixed": "6.6.10.3"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 6.6.10.2"
+      }
     },
     {
       "package": {
@@ -70,6 +76,9 @@
             }
           ]
         }
+      ],
+      "versions": [
+        "6.7.0.0-rc1"
       ]
     },
     {
@@ -89,44 +98,9 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "shopware/core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.5.8.17"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Packagist",
-        "name": "shopware/platform"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "fixed": "6.5.8.17"
-            }
-          ]
-        }
+      ],
+      "versions": [
+        "6.7.0.0-rc1"
       ]
     }
   ],
