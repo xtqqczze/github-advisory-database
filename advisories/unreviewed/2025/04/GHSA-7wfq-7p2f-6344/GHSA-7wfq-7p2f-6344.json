@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wfq-7p2f-6344",
-  "modified": "2025-04-14T15:31:58Z",
+  "modified": "2025-05-05T03:30:20Z",
   "published": "2025-04-14T15:31:58Z",
   "aliases": [
     "CVE-2025-32907"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32907"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4439"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4440"
     },
     {
       "type": "WEB",
