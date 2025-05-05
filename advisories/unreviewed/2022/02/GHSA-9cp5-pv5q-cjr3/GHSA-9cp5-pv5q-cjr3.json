@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9cp5-pv5q-cjr3",
-  "modified": "2022-02-16T00:02:43Z",
+  "modified": "2025-05-05T18:31:27Z",
   "published": "2022-02-11T00:00:59Z",
   "aliases": [
     "CVE-2021-0169"
   ],
   "details": "Uncontrolled Search Path Element in software for Intel(R) PROSet/Wireless Wi-Fi in Windows 10 and 11 may allow a privileged user to potentially enable escalation of privilege via local access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

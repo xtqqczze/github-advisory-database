@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv9r-2vjx-2c6q",
-  "modified": "2022-02-16T00:02:50Z",
+  "modified": "2025-05-05T18:31:26Z",
   "published": "2022-02-11T00:01:01Z",
   "aliases": [
     "CVE-2021-0161"
   ],
   "details": "Improper input validation in firmware for Intel(R) PROSet/Wireless Wi-Fi in multiple operating systems and Killer(TM) Wi-Fi in Windows 10 and 11 may allow a privileged user to potentially enable escalation of privilege via local access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qjrr-9qq3-h6ff",
-  "modified": "2022-02-26T00:01:35Z",
+  "modified": "2025-05-05T18:30:57Z",
   "published": "2022-02-11T00:01:01Z",
   "aliases": [
     "CVE-2021-0092"
   ],
   "details": "Improper access control in the firmware for some Intel(R) Processors may allow a privileged user to potentially enable a denial of service via local access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

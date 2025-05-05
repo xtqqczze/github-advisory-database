@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-crrc-w592-ff65",
-  "modified": "2022-05-24T17:23:55Z",
+  "modified": "2025-05-05T18:30:45Z",
   "published": "2022-05-24T17:23:55Z",
   "aliases": [
     "CVE-2020-9673"
   ],
   "details": "Adobe ColdFusion 2016 update 15 and earlier versions, and ColdFusion 2018 update 9 and earlier versions have a dll search-order hijacking vulnerability. Successful exploitation could lead to privilege escalation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-426"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

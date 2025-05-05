@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x652-hrc4-qr9w",
-  "modified": "2022-04-10T00:01:04Z",
+  "modified": "2025-05-05T18:31:39Z",
   "published": "2022-04-03T00:00:57Z",
   "aliases": [
     "CVE-2022-28356"

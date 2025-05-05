@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwjf-x36c-pgpr",
-  "modified": "2022-02-16T00:02:43Z",
+  "modified": "2025-05-05T18:31:27Z",
   "published": "2022-02-11T00:00:58Z",
   "aliases": [
     "CVE-2021-0170"
   ],
   "details": "Exposure of Sensitive Information to an Unauthorized Actor in firmware for some Intel(R) PROSet/Wireless Wi-Fi in multiple operating systems and some Killer(TM) Wi-Fi in Windows 10 and 11 may allow an authenticated user to potentially enable information disclosure via local access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

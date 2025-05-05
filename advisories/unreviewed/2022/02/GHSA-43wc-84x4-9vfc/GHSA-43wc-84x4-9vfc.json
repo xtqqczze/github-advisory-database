@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43wc-84x4-9vfc",
-  "modified": "2022-02-16T00:02:20Z",
+  "modified": "2025-05-05T18:31:33Z",
   "published": "2022-02-11T00:00:56Z",
   "aliases": [
     "CVE-2021-33120"
   ],
   "details": "Out of bounds read under complex microarchitectural condition in memory subsystem for some Intel Atom(R) Processors may allow authenticated user to potentially enable information disclosure or cause denial of service via network access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6x9-h8mc-7c94",
-  "modified": "2022-02-26T00:01:23Z",
+  "modified": "2025-05-05T18:31:01Z",
   "published": "2022-02-11T00:01:02Z",
   "aliases": [
     "CVE-2021-0115"
   ],
   "details": "Buffer overflow in the firmware for some Intel(R) Processors may allow a privileged user to potentially enable escalation of privilege via local access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2r8-x6h4-39jq",
-  "modified": "2022-05-24T17:19:40Z",
+  "modified": "2025-05-05T18:30:44Z",
   "published": "2022-05-24T17:19:40Z",
   "aliases": [
     "CVE-2020-9802"
