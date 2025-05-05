@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v5h6-c2hv-hv3r",
-  "modified": "2024-07-08T14:34:57Z",
+  "modified": "2025-05-05T17:11:20Z",
   "published": "2024-03-25T19:36:52Z",
   "aliases": [
     "CVE-2024-27280"
@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/stringio/CVE-2024-27280.yml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250502-0003"
     },
     {
       "type": "WEB",
