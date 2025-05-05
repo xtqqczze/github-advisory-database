@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgpc-q899-67p8",
-  "modified": "2025-04-25T15:11:08Z",
+  "modified": "2025-05-05T22:00:39Z",
   "published": "2025-04-25T15:11:07Z",
   "aliases": [
     "CVE-2025-23390"
@@ -105,6 +105,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rancher/fleet/releases/tag/v0.12.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3649"
     }
   ],
   "database_specific": {

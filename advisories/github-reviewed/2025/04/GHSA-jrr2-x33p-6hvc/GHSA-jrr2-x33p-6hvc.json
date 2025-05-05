@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrr2-x33p-6hvc",
-  "modified": "2025-04-30T17:29:38Z",
+  "modified": "2025-05-05T21:59:04Z",
   "published": "2025-04-29T16:39:33Z",
   "aliases": [
     "CVE-2025-46342"
@@ -70,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/kyverno/kyverno"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3652"
     }
   ],
   "database_specific": {
