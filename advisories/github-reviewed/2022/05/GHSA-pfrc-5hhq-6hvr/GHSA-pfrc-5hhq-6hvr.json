@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfrc-5hhq-6hvr",
-  "modified": "2023-10-06T17:54:22Z",
+  "modified": "2025-05-06T23:22:08Z",
   "published": "2022-05-13T01:50:52Z",
   "aliases": [
     "CVE-2018-19620"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.8.14"
+              "fixed": "2.4.2"
             }
           ]
         }
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/star7th/showdoc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/star7th/showdoc/commits/v2.4.2"
     }
   ],
   "database_specific": {
