@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjf6-3w4p-7xfh",
-  "modified": "2025-01-14T19:46:14Z",
+  "modified": "2025-05-06T19:29:51Z",
   "published": "2025-01-14T19:46:14Z",
   "aliases": [
     "CVE-2025-21176"
@@ -488,6 +488,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21176"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2025-21176"
     }
   ],
   "database_specific": {

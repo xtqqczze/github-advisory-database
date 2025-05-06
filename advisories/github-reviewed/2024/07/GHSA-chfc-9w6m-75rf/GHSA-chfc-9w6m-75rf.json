@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chfc-9w6m-75rf",
-  "modified": "2024-11-18T16:26:50Z",
+  "modified": "2025-05-06T19:29:07Z",
   "published": "2024-07-09T21:14:23Z",
   "aliases": [
     "CVE-2024-35264"
@@ -300,6 +300,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-35264"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2024-35264"
     }
   ],
   "database_specific": {

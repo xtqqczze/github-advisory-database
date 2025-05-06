@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjcv-wr2g-4rv4",
-  "modified": "2025-01-14T19:44:48Z",
+  "modified": "2025-05-06T19:29:38Z",
   "published": "2025-01-14T19:44:47Z",
   "aliases": [
     "CVE-2025-21172"
@@ -469,6 +469,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21172"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2025-21172"
     }
   ],
   "database_specific": {
