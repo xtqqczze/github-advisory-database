@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2865-hh9g-w894",
-  "modified": "2025-03-11T19:24:12Z",
+  "modified": "2025-05-06T19:30:04Z",
   "published": "2025-03-11T19:24:11Z",
   "aliases": [
     "CVE-2025-24070"
@@ -582,6 +582,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24070"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2025-24070"
     }
   ],
   "database_specific": {
