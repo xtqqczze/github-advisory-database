@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx74-fp3h-g8gv",
-  "modified": "2024-02-21T09:31:01Z",
+  "modified": "2025-05-06T18:30:30Z",
   "published": "2024-02-21T09:31:01Z",
   "aliases": [
     "CVE-2024-24876"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Janis Elsts Admin Menu Editor.This issue affects Admin Menu Editor: from n/a through 1.12.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Janis Elsts Admin Menu Editor.This issue affects Admin Menu Editor: from n/a through 1.12.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhch-ppc4-w2v4",
-  "modified": "2024-02-21T09:31:01Z",
+  "modified": "2025-05-06T18:30:30Z",
   "published": "2024-02-21T09:31:01Z",
   "aliases": [
     "CVE-2024-24843"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in PowerPack Addons for Elementor PowerPack Pro for Elementor.This issue affects PowerPack Pro for Elementor: from n/a before 2.10.8.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in PowerPack Addons for Elementor PowerPack Pro for Elementor.This issue affects PowerPack Pro for Elementor: from n/a before 2.10.8.",
   "severity": [
     {
       "type": "CVSS_V3",

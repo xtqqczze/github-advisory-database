@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3c9-h64h-gwp9",
-  "modified": "2024-02-22T12:30:56Z",
+  "modified": "2025-05-06T18:30:30Z",
   "published": "2024-02-22T12:30:56Z",
   "aliases": [
     "CVE-2024-0220"
   ],
-  "details": "\nB&R Automation Studio Upgrade Service and B&R Technology Guarding use insufficient cryptography for communication to the upgrade and the licensing servers. A network-based attacker could exploit the vulnerability to execute arbitrary code on the products or sniff sensitive data.\n\n\n\nMissing Encryption of Sensitive Data, Cleartext Transmission of Sensitive Information, Improper Control of Generation of Code ('Code Injection'), Inadequate Encryption Strength vulnerability in B&R Industrial Automation B&R Automation Studio (Upgrade Service modules), B&R Industrial Automation Technology Guarding.This issue affects B&R Automation Studio: <4.6; Technology Guarding: <1.4.0.\n\n\n\n",
+  "details": "B&R Automation Studio Upgrade Service and B&R Technology Guarding use insufficient cryptography for communication to the upgrade and the licensing servers. A network-based attacker could exploit the vulnerability to execute arbitrary code on the products or sniff sensitive data.\n\n\n\nMissing Encryption of Sensitive Data, Cleartext Transmission of Sensitive Information, Improper Control of Generation of Code ('Code Injection'), Inadequate Encryption Strength vulnerability in B&R Industrial Automation B&R Automation Studio (Upgrade Service modules), B&R Industrial Automation Technology Guarding.This issue affects B&R Automation Studio: <4.6; Technology Guarding: <1.4.0.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -27,7 +27,8 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-1240",
-      "CWE-311"
+      "CWE-311",
+      "CWE-94"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

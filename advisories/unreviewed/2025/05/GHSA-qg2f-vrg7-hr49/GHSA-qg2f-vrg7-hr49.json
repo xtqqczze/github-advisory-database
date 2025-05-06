@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qg2f-vrg7-hr49",
+  "modified": "2025-05-06T18:30:39Z",
+  "published": "2025-05-06T18:30:39Z",
+  "aliases": [
+    "CVE-2025-45250"
+  ],
+  "details": "MrDoc v0.95 and before is vulnerable to Server-Side Request Forgery (SSRF) in the validate_url function of the app_doc/utils.py file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-45250"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Anike-x/CVE-2025-45250"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zmister2016/MrDoc"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-06T17:16:12Z"
+  }
+}

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r59f-4p8m-j64c",
-  "modified": "2024-02-21T09:31:01Z",
+  "modified": "2025-05-06T18:30:30Z",
   "published": "2024-02-21T09:31:01Z",
   "aliases": [
     "CVE-2024-25904"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in David Stockl TinyMCE and TinyMCE Advanced Professsional Formats and Styles.This issue affects TinyMCE and TinyMCE Advanced Professsional Formats and Styles: from n/a through 1.1.2.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in David Stockl TinyMCE and TinyMCE Advanced Professsional Formats and Styles.This issue affects TinyMCE and TinyMCE Advanced Professsional Formats and Styles: from n/a through 1.1.2.",
   "severity": [
     {
       "type": "CVSS_V3",

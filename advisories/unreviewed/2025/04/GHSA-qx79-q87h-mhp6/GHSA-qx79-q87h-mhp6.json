@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx79-q87h-mhp6",
-  "modified": "2025-04-16T15:34:43Z",
+  "modified": "2025-05-06T18:30:36Z",
   "published": "2025-04-16T15:34:43Z",
   "aliases": [
     "CVE-2025-22080"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfs/ntfs3: Prevent integer overflow in hdr_first_de()\n\nThe \"de_off\" and \"used\" variables come from the disk so they both need to\ncheck.  The problem is that on 32bit systems if they're both greater than\nUINT_MAX - 16 then the check does work as intended because of an integer\noverflow.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:02Z"

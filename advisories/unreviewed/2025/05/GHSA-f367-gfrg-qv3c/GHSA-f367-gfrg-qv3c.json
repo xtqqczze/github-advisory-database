@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f367-gfrg-qv3c",
-  "modified": "2025-05-02T06:31:24Z",
+  "modified": "2025-05-06T18:30:37Z",
   "published": "2025-05-02T06:31:24Z",
   "aliases": [
     "CVE-2025-3438"

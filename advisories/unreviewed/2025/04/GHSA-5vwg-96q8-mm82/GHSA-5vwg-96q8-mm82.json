@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vwg-96q8-mm82",
-  "modified": "2025-04-16T15:34:43Z",
+  "modified": "2025-05-06T18:30:36Z",
   "published": "2025-04-16T15:34:42Z",
   "aliases": [
     "CVE-2025-22068"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nublk: make sure ubq->canceling is set when queue is frozen\n\nNow ublk driver depends on `ubq->canceling` for deciding if the request\ncan be dispatched via uring_cmd & io_uring_cmd_complete_in_task().\n\nOnce ubq->canceling is set, the uring_cmd can be done via ublk_cancel_cmd()\nand io_uring_cmd_done().\n\nSo set ubq->canceling when queue is frozen, this way makes sure that the\nflag can be observed from ublk_queue_rq() reliably, and avoids\nuse-after-free on uring_cmd.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-16T15:16:01Z"

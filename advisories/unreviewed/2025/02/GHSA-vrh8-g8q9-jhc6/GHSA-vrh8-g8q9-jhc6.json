@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrh8-g8q9-jhc6",
-  "modified": "2025-02-03T06:30:52Z",
+  "modified": "2025-05-06T18:30:34Z",
   "published": "2025-02-03T06:30:52Z",
   "aliases": [
     "CVE-2025-25062"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://backdropcms.org/security/backdrop-sa-core-2025-001"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/@rudranshsinghrajpurohit/cve-2025-25062-stored-cross-site-scripting-xss-in-backdrop-cms-5073df76612b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.getastra.com/blog/vulnerability/cve-2025-25062stored-cross-site-scripting-xss-in-backdrop-cms-v1-28-2"
     }
   ],
   "database_specific": {

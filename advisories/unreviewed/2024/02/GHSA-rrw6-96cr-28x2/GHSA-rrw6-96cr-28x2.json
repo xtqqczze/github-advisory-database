@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrw6-96cr-28x2",
-  "modified": "2024-02-21T09:31:01Z",
+  "modified": "2025-05-06T18:30:30Z",
   "published": "2024-02-21T09:31:01Z",
   "aliases": [
     "CVE-2024-24798"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in SoniNow Team Debug.This issue affects Debug: from n/a through 1.10.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in SoniNow Team Debug.This issue affects Debug: from n/a through 1.10.",
   "severity": [
     {
       "type": "CVSS_V3",

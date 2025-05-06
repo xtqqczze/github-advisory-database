@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-498p-qg8p-wgxg",
-  "modified": "2025-02-10T21:31:15Z",
+  "modified": "2025-05-06T18:30:26Z",
   "published": "2022-05-14T00:03:06Z",
   "aliases": [
     "CVE-2013-2465"
@@ -42,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A19703"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2013-2465-detect-java-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2013-2465-mitigate-java-vulnerability"
     },
     {
       "type": "WEB",
