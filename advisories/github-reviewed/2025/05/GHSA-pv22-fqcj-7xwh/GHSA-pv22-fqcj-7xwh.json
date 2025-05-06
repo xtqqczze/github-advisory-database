@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pv22-fqcj-7xwh",
-  "modified": "2025-05-06T00:42:04Z",
+  "modified": "2025-05-06T19:13:21Z",
   "published": "2025-05-06T00:42:04Z",
   "aliases": [],
   "summary": "Inspektor Gadget Security Policies Can be Bypassed",
@@ -45,6 +45,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/inspektor-gadget/inspektor-gadget"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3665"
     }
   ],
   "database_specific": {
