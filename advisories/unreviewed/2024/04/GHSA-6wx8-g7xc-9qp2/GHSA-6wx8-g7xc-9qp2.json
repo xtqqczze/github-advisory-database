@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6wx8-g7xc-9qp2",
-  "modified": "2024-04-19T03:31:02Z",
+  "modified": "2025-05-06T21:30:41Z",
   "published": "2024-04-19T03:31:02Z",
   "aliases": [
     "CVE-2024-22061"
   ],
-  "details": "A Heap Overflow vulnerability in WLInfoRailService component of Ivanti Avalanche before 6.4.3 allows a remote unauthenticated attacker to execute arbitrary commands ",
+  "details": "A Heap Overflow vulnerability in WLInfoRailService component of Ivanti Avalanche before 6.4.3 allows a remote unauthenticated attacker to execute arbitrary commands",
   "severity": [
     {
       "type": "CVSS_V3",
