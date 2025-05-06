@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqq7-33jf-2x53",
-  "modified": "2024-04-10T15:30:40Z",
+  "modified": "2025-05-06T09:31:30Z",
   "published": "2024-04-10T15:30:40Z",
   "aliases": [
     "CVE-2024-3567"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4492"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2024-3567"
     },
     {
@@ -30,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/qemu-project/qemu/-/issues/2273"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240822-0007"
     }
   ],
   "database_specific": {

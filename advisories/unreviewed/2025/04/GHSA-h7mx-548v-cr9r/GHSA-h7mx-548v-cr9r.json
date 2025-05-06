@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7mx-548v-cr9r",
-  "modified": "2025-05-05T15:30:53Z",
+  "modified": "2025-05-06T09:31:30Z",
   "published": "2025-04-03T15:31:19Z",
   "aliases": [
     "CVE-2025-3155"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:4457"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4505"
     },
     {
       "type": "WEB",
