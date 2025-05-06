@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvfx-qp2c-x42h",
-  "modified": "2024-10-31T18:31:15Z",
+  "modified": "2025-05-06T15:30:41Z",
   "published": "2024-02-20T18:30:34Z",
   "aliases": [
     "CVE-2024-21678"

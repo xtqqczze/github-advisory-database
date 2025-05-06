@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c22c-jjc2-m9m6",
-  "modified": "2025-05-06T09:31:33Z",
+  "modified": "2025-05-06T15:31:08Z",
   "published": "2025-05-06T09:31:32Z",
   "aliases": [
     "CVE-2025-4332"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4332"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Pjwww13447/pjwww/issues/1"
     },
     {
       "type": "WEB",

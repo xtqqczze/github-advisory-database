@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xm4-9p77-7mjp",
-  "modified": "2024-04-19T03:31:03Z",
+  "modified": "2025-05-06T15:30:47Z",
   "published": "2024-04-19T03:31:03Z",
   "aliases": [
     "CVE-2024-29204"
   ],
-  "details": "A Heap Overflow vulnerability in WLAvalancheService component of Ivanti Avalanche before 6.4.3 allows a remote unauthenticated attacker to execute arbitrary commands ",
+  "details": "A Heap Overflow vulnerability in WLAvalancheService component of Ivanti Avalanche before 6.4.3 allows a remote unauthenticated attacker to execute arbitrary commands",
   "severity": [
     {
       "type": "CVSS_V3",

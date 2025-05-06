@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mvph-h5j7-4h2g",
-  "modified": "2025-01-14T18:32:02Z",
+  "modified": "2025-05-06T15:30:54Z",
   "published": "2025-01-14T18:32:02Z",
   "aliases": [
     "CVE-2025-21173"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21173"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2025-21173"
     }
   ],
   "database_specific": {

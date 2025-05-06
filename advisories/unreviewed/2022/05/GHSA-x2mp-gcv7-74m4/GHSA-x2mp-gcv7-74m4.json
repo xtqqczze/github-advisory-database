@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2mp-gcv7-74m4",
-  "modified": "2022-05-13T01:17:20Z",
+  "modified": "2025-05-06T15:30:30Z",
   "published": "2022-05-13T01:17:20Z",
   "aliases": [
     "CVE-2018-2627"
