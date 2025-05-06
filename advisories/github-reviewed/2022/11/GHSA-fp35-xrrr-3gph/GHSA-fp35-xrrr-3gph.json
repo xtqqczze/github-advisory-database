@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp35-xrrr-3gph",
-  "modified": "2022-11-02T21:45:12Z",
+  "modified": "2025-05-06T17:10:44Z",
   "published": "2022-11-01T19:00:29Z",
   "aliases": [
     "CVE-2022-34662"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/pbdzqf9ntxyvs4cr0x2dgk9zlf43btz8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2022/11/01/13"
     }
   ],
   "database_specific": {
