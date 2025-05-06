@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p2h-wqq4-wf4h",
-  "modified": "2025-04-29T14:59:22Z",
+  "modified": "2025-05-06T18:03:06Z",
   "published": "2025-04-28T21:30:43Z",
   "aliases": [
     "CVE-2025-31650"
@@ -144,6 +144,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-459",
       "CWE-460"
     ],
     "severity": "MODERATE",
