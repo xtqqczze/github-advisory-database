@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qr6x-62gq-4ccp",
-  "modified": "2025-01-31T17:34:30Z",
+  "modified": "2025-05-06T21:39:22Z",
   "published": "2025-01-31T17:34:30Z",
   "aliases": [
     "CVE-2025-23367"
   ],
   "summary": "WildFly improper RBAC permission",
-  "details": "A flaw was found in the Wildfly Server Role Based Access Control (RBAC) provider. When authorization to control management operations is secured using the Role Based Access Control provider, a user without the required privileges can suspend or resume the server. A user with a Monitor or Auditor role is supposed to have only read access permissions and should not be able to suspend the server. The vulnerability is caused by the Suspend and Resume handlers not performing authorization checks to validate whether the current user has the required permissions to proceed with the action.\n\n### Impact\nStandalone server (Domain mode is not affected) with use access control enabled with RBAC provider can be suspended or resumed by unauthorized users. When a server is suspended, the server will stop receiving user requests. The resume handle does the opposite; it will cause a suspended server to start accepting user requests.\n\n### Patches\nFixed in [WildFly Core 27.0.1.Final](https://github.com/wildfly/wildfly-core/releases/tag/27.0.1.Final)\n\n### Workarounds\nNo workaround available\n\n### References\nSee also: https://issues.redhat.com/browse/WFCORE-7153\n\n### Acknowledgements\nThe WildFly project would like to thank Claudia Bartolini (TIM S.p.A), Marco Ventura (TIM S.p.A), and Massimiliano Brolli (TIM S.p.A) for reporting this issue. https://www.gruppotim.it/it/footer/red-team.html\n",
+  "details": "A flaw was found in the Wildfly Server Role Based Access Control (RBAC) provider. When authorization to control management operations is secured using the Role Based Access Control provider, a user without the required privileges can suspend or resume the server. A user with a Monitor or Auditor role is supposed to have only read access permissions and should not be able to suspend the server. The vulnerability is caused by the Suspend and Resume handlers not performing authorization checks to validate whether the current user has the required permissions to proceed with the action.\n\n### Impact\nStandalone server (Domain mode is not affected) with use access control enabled with RBAC provider can be suspended or resumed by unauthorized users. When a server is suspended, the server will stop receiving user requests. The resume handle does the opposite; it will cause a suspended server to start accepting user requests.\n\n### Patches\nFixed in [WildFly Core 27.0.1.Final](https://github.com/wildfly/wildfly-core/releases/tag/27.0.1.Final)\n\n### Workarounds\nNo workaround available\n\n### References\nSee also: https://issues.redhat.com/browse/WFCORE-7153\n\n### Acknowledgements\nThe WildFly project would like to thank Claudia Bartolini (TIM S.p.A), Marco Ventura (TIM S.p.A), and Massimiliano Brolli (TIM S.p.A) for reporting this issue. https://www.gruppotim.it/it/footer/red-team.html",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -65,6 +65,34 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23367"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3465"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3467"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4548"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4549"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4550"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4552"
     },
     {
       "type": "WEB",
