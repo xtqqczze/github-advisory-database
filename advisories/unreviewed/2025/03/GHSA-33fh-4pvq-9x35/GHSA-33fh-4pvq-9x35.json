@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33fh-4pvq-9x35",
-  "modified": "2025-04-08T06:30:37Z",
+  "modified": "2025-05-06T03:30:24Z",
   "published": "2025-03-18T18:30:50Z",
   "aliases": [
     "CVE-2025-2487"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:3670"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4491"
     },
     {
       "type": "WEB",
