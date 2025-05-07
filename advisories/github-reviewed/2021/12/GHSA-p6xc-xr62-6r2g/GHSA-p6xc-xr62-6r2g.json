@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6xc-xr62-6r2g",
-  "modified": "2022-08-11T21:38:34Z",
+  "modified": "2025-05-07T22:17:55Z",
   "published": "2021-12-18T18:00:07Z",
   "aliases": [
     "CVE-2021-45105"
@@ -71,6 +71,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.ops4j.pax.logging:pax-logging-log4j2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.8.0"
+            },
+            {
+              "fixed": "2.0.13"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -108,11 +127,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20211218-0001"
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd"
     },
     {
       "type": "WEB",
-      "url": "https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apache-log4j-qRuKNEbd"
+      "url": "https://security.netapp.com/advisory/ntap-20211218-0001"
     },
     {
       "type": "WEB",
