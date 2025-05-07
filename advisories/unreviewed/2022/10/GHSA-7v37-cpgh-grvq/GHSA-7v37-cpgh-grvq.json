@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7v37-cpgh-grvq",
-  "modified": "2022-10-28T19:00:42Z",
+  "modified": "2025-05-07T15:31:16Z",
   "published": "2022-10-27T12:00:35Z",
   "aliases": [
     "CVE-2022-42999"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-77"
+      "CWE-77",
+      "CWE-78"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

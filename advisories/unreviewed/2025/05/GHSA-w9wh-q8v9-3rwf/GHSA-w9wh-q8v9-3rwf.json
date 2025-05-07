@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w9wh-q8v9-3rwf",
-  "modified": "2025-05-01T15:31:51Z",
+  "modified": "2025-05-07T15:31:26Z",
   "published": "2025-05-01T15:31:51Z",
   "aliases": [
     "CVE-2022-49889"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nring-buffer: Check for NULL cpu_buffer in ring_buffer_wake_waiters()\n\nOn some machines the number of listed CPUs may be bigger than the actual\nCPUs that exist. The tracing subsystem allocates a per_cpu directory with\naccess to the per CPU ring buffer via a cpuX file. But to save space, the\nring buffer will only allocate buffers for online CPUs, even though the\nCPU array will be as big as the nr_cpu_ids.\n\nWith the addition of waking waiters on the ring buffer when closing the\nfile, the ring_buffer_wake_waiters() now needs to make sure that the\nbuffer is allocated (with the irq_work allocated with it) before trying to\nwake waiters, as it will cause a NULL pointer dereference.\n\nWhile debugging this, I added a NULL check for the buffer itself (which is\nOK to do), and also NULL pointer checks against buffer->buffers (which is\nnot fine, and will WARN) as well as making sure the CPU number passed in\nis within the nr_cpu_ids (which is also not fine if it isn't).\n\n\nBugzilla: https://bugzilla.opensuse.org/show_bug.cgi?id=1204705",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:13Z"

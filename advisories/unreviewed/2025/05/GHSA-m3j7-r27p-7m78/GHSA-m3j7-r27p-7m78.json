@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3j7-r27p-7m78",
-  "modified": "2025-05-01T15:31:50Z",
+  "modified": "2025-05-07T15:31:25Z",
   "published": "2025-05-01T15:31:50Z",
   "aliases": [
     "CVE-2022-49855"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: wwan: iosm: fix memory leak in ipc_pcie_read_bios_cfg\n\nipc_pcie_read_bios_cfg() is using the acpi_evaluate_dsm() to\nobtain the wwan power state configuration from BIOS but is\nnot freeing the acpi_object. The acpi_evaluate_dsm() returned\nacpi_object to be freed.\n\nFree the acpi_object after use.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:09Z"

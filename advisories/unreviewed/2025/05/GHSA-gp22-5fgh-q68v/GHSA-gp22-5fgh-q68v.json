@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp22-5fgh-q68v",
-  "modified": "2025-05-01T15:31:53Z",
+  "modified": "2025-05-07T15:31:27Z",
   "published": "2025-05-01T15:31:53Z",
   "aliases": [
     "CVE-2022-49924"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfc: fdp: Fix potential memory leak in fdp_nci_send()\n\nfdp_nci_send() will call fdp_nci_i2c_write that will not free skb in\nthe function. As a result, when fdp_nci_i2c_write() finished, the skb\nwill memleak. fdp_nci_send() should free skb after fdp_nci_i2c_write()\nfinished.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:18Z"

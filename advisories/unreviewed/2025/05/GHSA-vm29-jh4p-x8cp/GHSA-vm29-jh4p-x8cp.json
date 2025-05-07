@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm29-jh4p-x8cp",
-  "modified": "2025-05-01T15:31:51Z",
+  "modified": "2025-05-07T15:31:26Z",
   "published": "2025-05-01T15:31:51Z",
   "aliases": [
     "CVE-2022-49895"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncxl/region: Fix decoder allocation crash\n\nWhen an intermediate port's decoders have been exhausted by existing\nregions, and creating a new region with the port in question in it's\nhierarchical path is attempted, cxl_port_attach_region() fails to find a\nport decoder (as would be expected), and drops into the failure / cleanup\npath.\n\nHowever, during cleanup of the region reference, a sanity check attempts\nto dereference the decoder, which in the above case didn't exist. This\ncauses a NULL pointer dereference BUG.\n\nTo fix this, refactor the decoder allocation and de-allocation into\nhelper routines, and in this 'free' routine, check that the decoder,\n@cxld, is valid before attempting any operations on it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:14Z"

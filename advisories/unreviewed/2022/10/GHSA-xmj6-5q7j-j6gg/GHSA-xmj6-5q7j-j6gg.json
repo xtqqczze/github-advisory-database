@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xmj6-5q7j-j6gg",
-  "modified": "2022-10-29T12:00:50Z",
+  "modified": "2025-05-07T15:31:14Z",
   "published": "2022-10-25T19:00:29Z",
   "aliases": [
     "CVE-2022-3344"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2130278"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lore.kernel.org/lkml/20221020093055.224317-5-mlevitsk%40redhat.com/T"
     },
     {
       "type": "WEB",

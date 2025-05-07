@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p4g-7vvj-g5r6",
-  "modified": "2025-05-01T15:31:52Z",
+  "modified": "2025-05-07T15:31:26Z",
   "published": "2025-05-01T15:31:52Z",
   "aliases": [
     "CVE-2022-49915"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmISDN: fix possible memory leak in mISDN_register_device()\n\nAfer commit 1fa5ae857bb1 (\"driver core: get rid of struct device's\nbus_id string array\"), the name of device is allocated dynamically,\nadd put_device() to give up the reference, so that the name can be\nfreed in kobject_cleanup() when the refcount is 0.\n\nSet device class before put_device() to avoid null release() function\nWARN message in device_release().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:16Z"

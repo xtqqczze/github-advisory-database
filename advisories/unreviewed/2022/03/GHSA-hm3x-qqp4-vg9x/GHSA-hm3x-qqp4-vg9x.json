@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm3x-qqp4-vg9x",
-  "modified": "2022-03-22T00:00:59Z",
+  "modified": "2025-05-07T15:31:13Z",
   "published": "2022-03-12T00:00:27Z",
   "aliases": [
     "CVE-2022-25600"
@@ -18,6 +18,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25600"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/7CR6VGITIB2TXXZ6B5QRRWPU5S4BXQPD"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IJX6NVXSRN3RX3YUVEJQ4WUTQSDL3DSR"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PZQCIZQI267YHVYSFB3CRKNK3F4ASPLK"
     },
     {
       "type": "WEB",

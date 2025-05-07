@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fw2p-r2v5-6jjq",
-  "modified": "2025-05-01T15:31:51Z",
+  "modified": "2025-05-07T15:31:25Z",
   "published": "2025-05-01T15:31:51Z",
   "aliases": [
     "CVE-2022-49881"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: cfg80211: fix memory leak in query_regdb_file()\n\nIn the function query_regdb_file() the alpha2 parameter is duplicated\nusing kmemdup() and subsequently freed in regdb_fw_cb(). However,\nrequest_firmware_nowait() can fail without calling regdb_fw_cb() and\nthus leak memory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:13Z"

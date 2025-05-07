@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6fmv-c3mq-xjpq",
-  "modified": "2025-05-01T15:31:53Z",
+  "modified": "2025-05-07T15:31:27Z",
   "published": "2025-05-01T15:31:53Z",
   "aliases": [
     "CVE-2022-49922"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfc: nfcmrvl: Fix potential memory leak in nfcmrvl_i2c_nci_send()\n\nnfcmrvl_i2c_nci_send() will be called by nfcmrvl_nci_send(), and skb\nshould be freed in nfcmrvl_i2c_nci_send(). However, nfcmrvl_nci_send()\nwill only free skb when i2c_master_send() return >=0, which means skb\nwill memleak when i2c_master_send() failed. Free skb no matter whether\ni2c_master_send() succeeds.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:17Z"

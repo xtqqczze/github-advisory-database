@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hq2j-jpv4-q865",
-  "modified": "2024-11-15T03:31:10Z",
+  "modified": "2025-05-07T15:31:21Z",
   "published": "2024-11-15T03:31:10Z",
   "aliases": [
     "CVE-2024-11120"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.akamai.com/blog/security-research/active-exploitation-mirai-geovision-iot-botnet"
     },
     {
       "type": "WEB",

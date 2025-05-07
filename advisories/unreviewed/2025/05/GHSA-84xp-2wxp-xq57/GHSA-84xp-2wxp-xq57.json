@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-84xp-2wxp-xq57",
-  "modified": "2025-05-06T12:30:23Z",
+  "modified": "2025-05-07T15:31:33Z",
   "published": "2025-05-06T12:30:23Z",
   "aliases": [
     "CVE-2025-2011"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/datagoboom/CVE-2025-2011"
     },
     {
       "type": "WEB",

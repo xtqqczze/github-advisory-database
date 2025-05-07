@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5q7j-4fw2-f268",
-  "modified": "2025-05-01T15:31:51Z",
+  "modified": "2025-05-07T15:31:25Z",
   "published": "2025-05-01T15:31:50Z",
   "aliases": [
     "CVE-2022-49874"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: hyperv: fix possible memory leak in mousevsc_probe()\n\nIf hid_add_device() returns error, it should call hid_destroy_device()\nto free hid_dev which is allocated in hid_allocate_device().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-01T15:16:12Z"
