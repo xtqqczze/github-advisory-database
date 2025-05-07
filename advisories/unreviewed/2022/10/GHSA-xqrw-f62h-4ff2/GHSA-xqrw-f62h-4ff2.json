@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqrw-f62h-4ff2",
-  "modified": "2022-10-31T19:00:36Z",
+  "modified": "2025-05-07T21:31:37Z",
   "published": "2022-10-26T12:00:39Z",
   "aliases": [
     "CVE-2022-38162"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.withsecure.com/en/support/security-advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.withsecure.com/en/support/security-advisories/cve-2022-38162?_gl=1%2Adtq2t3%2A_up%2AMQ..%2A_ga%2AMTMxOTM1OTA2MC4xNjY2NzIxMjQ0%2A_ga_B5SG5Y2DHS%2AMTY2NjcyMTI0MS4xLjAuMTY2NjcyMTI0MS4wLjAuMA.."
     },
     {
       "type": "WEB",

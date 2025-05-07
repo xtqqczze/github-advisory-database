@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9rr-xwxc-jcjf",
-  "modified": "2025-05-05T15:30:53Z",
+  "modified": "2025-05-07T21:31:45Z",
   "published": "2025-05-05T15:30:53Z",
   "aliases": [
     "CVE-2025-28168"
   ],
   "details": "Outsystems Multiple File Upload < 3.1.0 is vulnerable to Unrestricted File Upload. The vulnerability is because file extension and size validations are enforced solely on the client side. An attacker can intercept the upload request and modify the parameter to bypass extension restrictions and upload arbitrary files.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-434"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-05T14:15:28Z"

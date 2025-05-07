@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qcr-g689-6g4f",
-  "modified": "2025-05-05T15:30:53Z",
+  "modified": "2025-05-07T21:31:44Z",
   "published": "2025-05-05T15:30:53Z",
   "aliases": [
     "CVE-2025-4316"
   ],
   "details": "Improper access control in PAM feature in Devolutions Server 2025.1.6.0 and earlier allows a PAM user to self approve their PAM requests even if disallowed by the configured policy via specific user interface actions.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-284"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-05T14:15:29Z"
