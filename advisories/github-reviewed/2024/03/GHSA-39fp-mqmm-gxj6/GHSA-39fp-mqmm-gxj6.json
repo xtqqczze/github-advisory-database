@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-39fp-mqmm-gxj6",
-  "modified": "2024-03-29T19:41:27Z",
+  "modified": "2025-05-07T18:49:41Z",
   "published": "2024-03-29T16:36:38Z",
   "aliases": [
     "CVE-2024-29904"
   ],
   "summary": "CodeIgniter4 DoS Vulnerability",
-  "details": "### Impact\nA vulnerability was found in the Language class that allowed DoS attacks. This vulnerability can be exploited by an attacker to consume a large amount of memory on the server.\n\n### Patches\nUpgrade to v4.4.7 or later. See [upgrading guide](https://codeigniter4.github.io/userguide/installation/upgrade_447.html).\n\n### Workarounds\n- Disabling Auto Routing prevents a known attack vector in the framework.\n- Do not pass invalid values to the `lang()` function or `Language` class.\n\n### References\n- https://codeigniter4.github.io/userguide/outgoing/localization.html#language-localization\n- https://codeigniter4.github.io/userguide/general/common_functions.html#lang\n",
+  "details": "### Impact\nA vulnerability was found in the Language class that allowed DoS attacks. This vulnerability can be exploited by an attacker to consume a large amount of memory on the server.\n\n### Patches\nUpgrade to v4.4.7 or later. See [upgrading guide](https://codeigniter4.github.io/userguide/installation/upgrade_447.html).\n\n### Workarounds\n- Disabling Auto Routing prevents a known attack vector in the framework.\n- Do not pass invalid values to the `lang()` function or `Language` class.\n\n### References\n- https://codeigniter4.github.io/userguide/outgoing/localization.html#language-localization\n- https://codeigniter4.github.io/userguide/general/common_functions.html#lang",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -55,6 +55,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-674",
       "CWE-835"
     ],
     "severity": "HIGH",
