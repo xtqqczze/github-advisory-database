@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v96g-5j57-774c",
-  "modified": "2025-04-29T12:30:21Z",
+  "modified": "2025-05-07T03:30:28Z",
   "published": "2025-04-29T12:30:21Z",
   "aliases": [
     "CVE-2025-3891"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3891"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:4597"
     },
     {
       "type": "WEB",
