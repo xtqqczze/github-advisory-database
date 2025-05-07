@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw76-72hw-4357",
-  "modified": "2024-08-14T21:33:11Z",
+  "modified": "2025-05-07T18:30:36Z",
   "published": "2024-03-05T18:31:14Z",
   "aliases": [
     "CVE-2024-22254"
   ],
-  "details": "VMware ESXi contains an out-of-bounds write vulnerability. A malicious actor with privileges within the VMX process may trigger an out-of-bounds write leading to an escape of the sandbox.\n\n\n\n\n\n\n\n\n\n\n\n",
+  "details": "VMware ESXi contains an out-of-bounds write vulnerability. A malicious actor with privileges within the VMX process may trigger an out-of-bounds write leading to an escape of the sandbox.",
   "severity": [
     {
       "type": "CVSS_V3",

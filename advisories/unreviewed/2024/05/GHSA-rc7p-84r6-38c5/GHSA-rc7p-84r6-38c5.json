@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rc7p-84r6-38c5",
-  "modified": "2024-05-14T18:30:50Z",
+  "modified": "2025-05-07T18:30:38Z",
   "published": "2024-05-14T18:30:50Z",
   "aliases": [
     "CVE-2024-34433"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in OCDI One Click Demo Import.This issue affects One Click Demo Import: from n/a through 3.2.0.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in OCDI One Click Demo Import.This issue affects One Click Demo Import: from n/a through 3.2.0.",
   "severity": [
     {
       "type": "CVSS_V3",
