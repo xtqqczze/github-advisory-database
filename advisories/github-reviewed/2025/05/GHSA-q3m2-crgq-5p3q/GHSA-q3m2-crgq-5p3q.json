@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3m2-crgq-5p3q",
-  "modified": "2025-05-08T20:57:17Z",
+  "modified": "2025-05-08T22:07:14Z",
   "published": "2025-05-08T18:30:42Z",
   "aliases": [
     "CVE-2025-44021"
@@ -92,7 +92,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/ironic/PYSEC-2025-38.yaml"
+    },
+    {
+      "type": "WEB",
       "url": "https://security.openstack.org/ossa/OSSA-2025-001.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/05/08/1"
     }
   ],
   "database_specific": {
