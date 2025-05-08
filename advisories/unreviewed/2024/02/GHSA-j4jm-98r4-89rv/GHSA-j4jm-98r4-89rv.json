@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4jm-98r4-89rv",
-  "modified": "2024-02-26T18:30:31Z",
+  "modified": "2025-05-08T18:30:30Z",
   "published": "2024-02-26T18:30:31Z",
   "aliases": [
     "CVE-2024-25925"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in SYSBASICS WooCommerce Easy Checkout Field Editor, Fees & Discounts.This issue affects WooCommerce Easy Checkout Field Editor, Fees & Discounts: from n/a through 3.5.12.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in SYSBASICS WooCommerce Easy Checkout Field Editor, Fees & Discounts.This issue affects WooCommerce Easy Checkout Field Editor, Fees & Discounts: from n/a through 3.5.12.",
   "severity": [
     {
       "type": "CVSS_V3",

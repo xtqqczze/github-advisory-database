@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh42-rqv8-hggx",
-  "modified": "2022-10-21T19:01:09Z",
+  "modified": "2025-05-08T18:30:30Z",
   "published": "2022-10-20T19:00:29Z",
   "aliases": [
     "CVE-2020-9285"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-1191"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
