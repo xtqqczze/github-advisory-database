@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c942-mfmp-p4fh",
-  "modified": "2022-10-25T19:58:53Z",
+  "modified": "2025-05-08T22:10:51Z",
   "published": "2022-10-19T19:00:17Z",
   "aliases": [
     "CVE-2022-41709"
@@ -50,7 +50,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-829"
+    ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2022-10-25T19:58:53Z",
