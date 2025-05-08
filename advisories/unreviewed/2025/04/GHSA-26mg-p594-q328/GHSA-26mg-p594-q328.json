@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-26mg-p594-q328",
-  "modified": "2025-04-26T00:30:24Z",
+  "modified": "2025-05-08T15:30:40Z",
   "published": "2025-04-10T03:31:32Z",
   "aliases": [
     "CVE-2025-32728"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://ftp.openbsd.org/pub/OpenBSD/patches/7.6/common/013_ssh.patch.sig"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00008.html"
     },
     {
       "type": "WEB",

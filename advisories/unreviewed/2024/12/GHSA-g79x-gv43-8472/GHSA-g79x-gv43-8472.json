@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g79x-gv43-8472",
-  "modified": "2025-01-29T18:31:19Z",
+  "modified": "2025-05-08T15:30:39Z",
   "published": "2024-12-17T18:33:49Z",
   "aliases": [
     "CVE-2024-12179"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-122"
+      "CWE-122",
+      "CWE-787"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

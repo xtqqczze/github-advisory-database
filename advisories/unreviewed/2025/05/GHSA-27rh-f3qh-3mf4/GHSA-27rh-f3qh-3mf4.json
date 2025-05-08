@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-27rh-f3qh-3mf4",
+  "modified": "2025-05-08T15:31:12Z",
+  "published": "2025-05-08T15:31:12Z",
+  "aliases": [
+    "CVE-2025-45820"
+  ],
+  "details": "Slims (Senayan Library Management Systems) 9 Bulian 9.6.1 is vulnerable to SQL Injection in admin/modules/bibliography/pop_author_edit.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-45820"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/slims/slims9_bulian/issues/282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/christopherralinanggoman/cve-skripsi/blob/main/my_reports/slims-9-bulian-pop-author-edit-report.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-08T15:15:48Z"
+  }
+}
