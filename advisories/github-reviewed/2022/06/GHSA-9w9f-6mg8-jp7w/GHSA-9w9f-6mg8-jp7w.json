@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9w9f-6mg8-jp7w",
-  "modified": "2025-05-08T13:45:20Z",
+  "modified": "2025-05-08T16:45:25Z",
   "published": "2022-06-03T22:17:51Z",
   "aliases": [
     "CVE-2022-31022"
@@ -82,6 +82,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-288",
       "CWE-306"
     ],
     "severity": "MODERATE",
