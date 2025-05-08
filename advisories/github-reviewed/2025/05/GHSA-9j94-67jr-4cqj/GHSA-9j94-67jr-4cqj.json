@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j94-67jr-4cqj",
-  "modified": "2025-05-08T14:45:34Z",
+  "modified": "2025-05-08T22:00:33Z",
   "published": "2025-05-08T14:45:33Z",
   "aliases": [
     "CVE-2025-46336"
@@ -45,6 +45,10 @@
       "url": "https://github.com/rack/rack/security/advisories/GHSA-vpfw-47h7-xj4g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46336"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rack/rack-session/commit/c28c4a8c1861d814e09f2ae48264ac4c40be2d3b"
     },
@@ -62,6 +66,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-05-08T14:45:33Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-05-08T20:15:30Z"
   }
 }
