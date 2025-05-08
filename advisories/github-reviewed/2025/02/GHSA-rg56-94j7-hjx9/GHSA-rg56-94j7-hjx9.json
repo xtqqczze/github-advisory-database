@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rg56-94j7-hjx9",
-  "modified": "2025-02-24T22:12:37Z",
+  "modified": "2025-05-08T17:16:26Z",
   "published": "2025-02-24T21:31:44Z",
   "aliases": [
     "CVE-2025-26533"
@@ -96,6 +96,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26533"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/1310e64699807ead6c38ee89354ac57c503c2836"
     },
     {
       "type": "PACKAGE",
