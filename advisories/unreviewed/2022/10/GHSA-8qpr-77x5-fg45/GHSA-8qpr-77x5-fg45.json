@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qpr-77x5-fg45",
-  "modified": "2022-10-21T12:00:21Z",
+  "modified": "2025-05-08T21:32:40Z",
   "published": "2022-10-19T19:00:24Z",
   "aliases": [
     "CVE-2022-43184"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-77"
+      "CWE-77",
+      "CWE-78"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9vv2-f3c8-m9x6",
+  "modified": "2025-05-08T21:32:57Z",
+  "published": "2025-05-08T21:32:57Z",
+  "aliases": [
+    "CVE-2025-28074"
+  ],
+  "details": "phpList prior to 3.6.3 is vulnerable to Cross-Site Scripting (XSS) due to improper input sanitization in lt.php. The vulnerability is exploitable when the application dynamically references internal paths and processes untrusted input without escaping, allowing an attacker to inject malicious JavaScript.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-28074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mLniumm/CVE-2025-28074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/phpList/phplist3/blob/main/public_html/lists/lt.php"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-08T21:15:50Z"
+  }
+}
