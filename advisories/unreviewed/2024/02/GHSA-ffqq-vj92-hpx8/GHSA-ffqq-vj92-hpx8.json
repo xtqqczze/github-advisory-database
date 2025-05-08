@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ffqq-vj92-hpx8",
-  "modified": "2024-09-06T15:32:55Z",
+  "modified": "2025-05-08T00:31:10Z",
   "published": "2024-02-12T06:30:33Z",
   "aliases": [
     "CVE-2024-25744"
@@ -26,10 +26,16 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=b82a8dbd3d2f4563156f7150c6f2ecab6e960b30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20241115-0006"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-693"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

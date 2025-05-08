@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q9c-pjw5-5rjm",
-  "modified": "2025-04-22T18:32:12Z",
+  "modified": "2025-05-08T00:31:11Z",
   "published": "2025-04-22T18:32:12Z",
   "aliases": [
     "CVE-2025-34028"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://documentation.commvault.com/securityadvisories/CV_2025_04_1.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/watchtowrlabs/watchTowr-vs-Commvault-PreAuth-RCE-CVE-2025-34028"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/fire-in-the-hole-were-breaching-the-vault-commvault-remote-code-execution-cve-2025-34028"
     }
   ],
   "database_specific": {
