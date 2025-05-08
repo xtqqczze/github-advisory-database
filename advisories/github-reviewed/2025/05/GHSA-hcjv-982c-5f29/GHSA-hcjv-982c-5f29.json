@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcjv-982c-5f29",
-  "modified": "2025-05-07T18:16:43Z",
+  "modified": "2025-05-08T19:36:43Z",
   "published": "2025-05-07T15:31:41Z",
   "aliases": [
     "CVE-2025-29448"
   ],
-  "summary": "Easy Appointments Denial of Service (DoS)",
-  "details": "A business logic vulnerability in Easy Appointments v1.5.1 allows attackers to cause a Denial of Service (DoS) via unspecified vectors.",
+  "summary": "Easy!Appointments Denial of Service (DoS)",
+  "details": "Booking logic flaw in Easy!Appointments v1.5.1 allows unauthenticated attackers to create appointments with excessively long durations, causing a denial of service by blocking all future booking availability.",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.4.3"
+              "last_affected": "1.5.1"
             }
           ]
         }
