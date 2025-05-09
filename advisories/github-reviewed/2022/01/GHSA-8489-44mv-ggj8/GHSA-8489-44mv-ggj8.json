@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8489-44mv-ggj8",
-  "modified": "2025-05-07T22:18:11Z",
+  "modified": "2025-05-09T12:33:01Z",
   "published": "2022-01-04T16:14:20Z",
   "aliases": [
     "CVE-2021-44832"
@@ -83,6 +83,63 @@
           "events": [
             {
               "introduced": "1.8.0"
+            },
+            {
+              "fixed": "1.9.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.ops4j.pax.logging:pax-logging-log4j2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.10.0"
+            },
+            {
+              "fixed": "1.10.9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.ops4j.pax.logging:pax-logging-log4j2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.11.0"
+            },
+            {
+              "fixed": "1.11.13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.ops4j.pax.logging:pax-logging-log4j2"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0"
             },
             {
               "fixed": "2.0.14"
