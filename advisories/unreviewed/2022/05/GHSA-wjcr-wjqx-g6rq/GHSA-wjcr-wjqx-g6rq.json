@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjcr-wjqx-g6rq",
-  "modified": "2025-04-12T12:45:39Z",
+  "modified": "2025-05-09T21:31:06Z",
   "published": "2022-05-14T01:08:48Z",
   "aliases": [
     "CVE-2015-0240"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://securityblog.redhat.com/2015/02/23/samba-vulnerability-cve-2015-0240"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250509-0001"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7w53-225r-6vxv",
-  "modified": "2022-05-24T17:44:57Z",
+  "modified": "2025-05-09T21:31:06Z",
   "published": "2022-05-24T17:44:57Z",
   "aliases": [
     "CVE-2021-28831"
@@ -29,6 +29,18 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3UDQGJRECXFS5EZVDH2OI45FMO436AC4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/Z7ZIFKPRR32ZYA3WAA2NXFA3QHHOU6FJ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZASBW7QRRLY5V2R44MQ4QQM4CZIDHM2U"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3UDQGJRECXFS5EZVDH2OI45FMO436AC4"
     },
     {
@@ -42,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202105-09"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250509-0005"
     }
   ],
   "database_specific": {

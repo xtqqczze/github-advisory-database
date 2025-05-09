@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wr4w-95gx-6cfr",
-  "modified": "2023-04-14T18:30:19Z",
+  "modified": "2025-05-09T21:31:07Z",
   "published": "2023-04-08T06:30:24Z",
   "aliases": [
     "CVE-2023-24626"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://savannah.gnu.org/bugs/?63195"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250509-0003"
     },
     {
       "type": "WEB",

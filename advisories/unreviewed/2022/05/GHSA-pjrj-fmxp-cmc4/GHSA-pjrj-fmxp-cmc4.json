@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjrj-fmxp-cmc4",
-  "modified": "2024-04-04T03:04:32Z",
+  "modified": "2025-05-09T21:31:06Z",
   "published": "2022-05-24T17:41:39Z",
   "aliases": [
     "CVE-2021-26937"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/202105-11"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250509-0004"
     },
     {
       "type": "WEB",

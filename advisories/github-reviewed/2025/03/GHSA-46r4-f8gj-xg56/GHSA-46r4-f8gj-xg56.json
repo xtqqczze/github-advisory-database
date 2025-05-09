@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46r4-f8gj-xg56",
-  "modified": "2025-03-12T14:09:49Z",
+  "modified": "2025-05-09T21:31:08Z",
   "published": "2025-03-11T19:23:22Z",
   "aliases": [
     "CVE-2025-27773"
@@ -106,6 +106,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/simplesamlphp/saml2/blob/9545abd0d9d48388f2fa00469c5c1e0294f0303e/src/SAML2/HTTPRedirect.php#L178-L217"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00013.html"
     }
   ],
   "database_specific": {

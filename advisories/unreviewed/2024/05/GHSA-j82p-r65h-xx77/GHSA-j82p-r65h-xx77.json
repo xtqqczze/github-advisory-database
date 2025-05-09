@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j82p-r65h-xx77",
-  "modified": "2024-05-19T09:34:47Z",
+  "modified": "2025-05-09T21:31:07Z",
   "published": "2024-05-19T09:34:47Z",
   "aliases": [
     "CVE-2024-35890"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fc126c1d51e9552eacd2d717b9ffe9262a8a4cd6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250509-0008"
     }
   ],
   "database_specific": {
