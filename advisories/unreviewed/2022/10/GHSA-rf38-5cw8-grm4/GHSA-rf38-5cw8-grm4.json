@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf38-5cw8-grm4",
-  "modified": "2022-10-21T12:00:21Z",
+  "modified": "2025-05-09T15:31:30Z",
   "published": "2022-10-19T12:00:21Z",
   "aliases": [
     "CVE-2022-33077"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-33077"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40rohan_pagey/cve-2022-33077-idor-to-change-address-of-any-customer-via-parameter-pollution-in-nopcommerce-4-5-2fa4bc763cc6"
     },
     {
       "type": "WEB",
