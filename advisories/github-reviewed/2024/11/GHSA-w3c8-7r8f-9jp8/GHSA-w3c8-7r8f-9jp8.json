@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3c8-7r8f-9jp8",
-  "modified": "2025-03-14T20:07:33Z",
+  "modified": "2025-05-09T21:35:47Z",
   "published": "2024-11-18T06:30:35Z",
   "aliases": [
     "CVE-2024-38828"
@@ -43,6 +43,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/spring-projects/spring-framework"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250509-0009"
     },
     {
       "type": "WEB",
