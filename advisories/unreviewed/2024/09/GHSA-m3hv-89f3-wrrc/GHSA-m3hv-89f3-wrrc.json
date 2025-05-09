@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3hv-89f3-wrrc",
-  "modified": "2024-09-13T18:31:42Z",
+  "modified": "2025-05-09T09:33:18Z",
   "published": "2024-09-11T18:31:06Z",
   "aliases": [
     "CVE-2024-45027"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45027"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3efb29f6a78d4746f958c1ab6cd7981c5762f03b"
     },
     {
       "type": "WEB",

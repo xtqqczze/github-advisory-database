@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4f99-6w2j-877c",
-  "modified": "2025-05-09T06:32:36Z",
+  "modified": "2025-05-09T09:33:18Z",
   "published": "2025-05-03T00:30:32Z",
   "aliases": [
     "CVE-2022-21546"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/linus/ccd3f449052449a917a3e577d8ba0368f43b8f29"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4226622647e3e5ac06d3ebc1605b917446157510"
     },
     {
       "type": "WEB",
