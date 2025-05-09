@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2p68-f74v-9wc6",
-  "modified": "2023-08-08T16:28:29Z",
+  "modified": "2025-05-09T21:34:13Z",
   "published": "2020-05-26T14:49:24Z",
   "aliases": [
     "CVE-2020-8165"
@@ -88,6 +88,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2020/07/msg00013.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250509-0002"
     },
     {
       "type": "WEB",
