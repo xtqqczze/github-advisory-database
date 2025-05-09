@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6x46-2273-xjjf",
-  "modified": "2025-05-08T15:31:13Z",
+  "modified": "2025-05-09T18:30:36Z",
   "published": "2025-05-08T15:31:13Z",
   "aliases": [
     "CVE-2025-4207"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00011.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.postgresql.org/support/security/CVE-2025-4207"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/05/09/3"
     }
   ],
   "database_specific": {

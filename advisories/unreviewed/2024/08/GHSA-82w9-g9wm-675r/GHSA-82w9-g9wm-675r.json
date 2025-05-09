@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82w9-g9wm-675r",
-  "modified": "2024-08-13T18:31:17Z",
+  "modified": "2025-05-09T18:30:36Z",
   "published": "2024-08-13T18:31:17Z",
   "aliases": [
     "CVE-2024-38193"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-38193"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52284"
     }
   ],
   "database_specific": {

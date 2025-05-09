@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fxh7-543f-qcr8",
+  "modified": "2025-05-09T18:30:38Z",
+  "published": "2025-05-09T18:30:38Z",
+  "aliases": [
+    "CVE-2025-46189"
+  ],
+  "details": "SourceCodester Client Database Management System 1.0 is vulnerable to SQL Injection in user_order_customer_update.php via the order_id POST parameter.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46189"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/x6vrn/mitre/blob/main/CVE-2025-46189.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/@YousefAlotaibi/disclaimer-1699f46cb1a0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-09T16:15:24Z"
+  }
+}
