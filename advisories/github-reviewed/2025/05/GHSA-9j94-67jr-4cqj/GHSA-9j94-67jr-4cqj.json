@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j94-67jr-4cqj",
-  "modified": "2025-05-08T22:00:33Z",
+  "modified": "2025-05-09T14:34:48Z",
   "published": "2025-05-08T14:45:33Z",
   "aliases": [
     "CVE-2025-46336"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack-session"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack-session/CVE-2025-46336.yml"
     }
   ],
   "database_specific": {

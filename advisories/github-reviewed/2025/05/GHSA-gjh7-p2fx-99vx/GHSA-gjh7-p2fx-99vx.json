@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gjh7-p2fx-99vx",
-  "modified": "2025-05-08T14:45:48Z",
+  "modified": "2025-05-09T14:35:11Z",
   "published": "2025-05-08T14:45:48Z",
   "aliases": [
     "CVE-2025-46727"
@@ -97,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2025-46727.yml"
     }
   ],
   "database_specific": {
