@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2wh-36m8-j3rp",
-  "modified": "2025-04-01T06:30:44Z",
+  "modified": "2025-05-10T18:31:28Z",
   "published": "2025-04-01T00:30:44Z",
   "aliases": [
     "CVE-2025-31191"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122377"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/05/01/analyzing-cve-2025-31191-a-macos-security-scoped-bookmarks-based-sandbox-escape"
     }
   ],
   "database_specific": {
