@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh97-9pr7-97ww",
-  "modified": "2025-05-09T06:32:37Z",
+  "modified": "2025-05-11T21:30:31Z",
   "published": "2025-05-09T06:32:37Z",
   "aliases": [
     "CVE-2025-3463"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3463"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mrbruh.com/asusdriverhub"
     },
     {
       "type": "WEB",
