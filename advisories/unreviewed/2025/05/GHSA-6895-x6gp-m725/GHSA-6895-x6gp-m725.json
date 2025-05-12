@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6895-x6gp-m725",
-  "modified": "2025-05-08T18:30:42Z",
+  "modified": "2025-05-12T21:31:07Z",
   "published": "2025-05-08T18:30:42Z",
   "aliases": [
     "CVE-2023-51295"
   ],
   "details": "PHPJabbers Event Booking Calendar v4.0 is vulnerable to Multiple HTML Injection in the \"name, plugin_sms_api_key, plugin_sms_country_code, title, plugin_sms_api_key, title\" parameters.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-77"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-08T16:15:23Z"

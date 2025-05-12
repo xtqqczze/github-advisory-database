@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m864-j4mc-jwwx",
-  "modified": "2022-10-28T19:00:30Z",
+  "modified": "2025-05-12T21:30:54Z",
   "published": "2022-10-28T19:00:30Z",
   "aliases": [
     "CVE-2021-37782"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8vj-hjmm-529g",
-  "modified": "2025-04-27T18:30:24Z",
+  "modified": "2025-05-12T21:31:00Z",
   "published": "2025-04-27T18:30:24Z",
   "aliases": [
     "CVE-2025-3980"
@@ -42,7 +42,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-266"
+      "CWE-266",
+      "CWE-862"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

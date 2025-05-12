@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76pr-h99m-q4fj",
-  "modified": "2024-05-21T15:31:44Z",
+  "modified": "2025-05-12T21:30:56Z",
   "published": "2024-05-21T15:31:44Z",
   "aliases": [
     "CVE-2021-47360"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nbinder: make sure fd closes complete\n\nDuring BC_FREE_BUFFER processing, the BINDER_TYPE_FDA object\ncleanup may close 1 or more fds. The close operations are\ncompleted using the task work mechanism -- which means the thread\nneeds to return to userspace or the file object may never be\ndereferenced -- which can lead to hung processes.\n\nForce the binder thread back to userspace if an fd is closed during\nBC_FREE_BUFFER handling.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-252"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-21T15:15:22Z"

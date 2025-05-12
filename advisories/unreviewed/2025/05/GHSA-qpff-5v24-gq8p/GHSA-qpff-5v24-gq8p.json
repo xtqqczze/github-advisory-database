@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpff-5v24-gq8p",
-  "modified": "2025-05-08T18:30:42Z",
+  "modified": "2025-05-12T21:31:07Z",
   "published": "2025-05-08T18:30:42Z",
   "aliases": [
     "CVE-2025-45847"
   ],
   "details": "ALFA AIP-W512 v3.2.2.2.3 was discovered to contain an authenticated stack overflow via the targetAPMac parameter in the formWsc function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-08T16:15:27Z"

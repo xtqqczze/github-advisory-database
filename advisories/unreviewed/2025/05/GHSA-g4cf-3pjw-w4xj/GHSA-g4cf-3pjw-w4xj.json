@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4cf-3pjw-w4xj",
-  "modified": "2025-05-08T21:32:56Z",
+  "modified": "2025-05-12T21:31:08Z",
   "published": "2025-05-08T21:32:56Z",
   "aliases": [
     "CVE-2025-45797"
   ],
   "details": "TOTOlink A950RG V4.1.2cu.5204_B20210112 contains a buffer overflow vulnerability. The vulnerability arises from the improper input validation of the NoticeUrl parameter in the setNoticeCfg interface of /lib/cste_modules/system.so.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-08T20:15:30Z"

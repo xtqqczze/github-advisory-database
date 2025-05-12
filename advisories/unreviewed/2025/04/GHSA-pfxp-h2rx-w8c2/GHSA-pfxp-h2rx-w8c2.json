@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfxp-h2rx-w8c2",
-  "modified": "2025-04-28T09:31:55Z",
+  "modified": "2025-05-12T21:31:02Z",
   "published": "2025-04-28T09:31:55Z",
   "aliases": [
     "CVE-2025-4012"
