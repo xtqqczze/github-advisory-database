@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3g23-7g3r-898j",
-  "modified": "2025-05-03T18:30:29Z",
+  "modified": "2025-05-12T18:31:20Z",
   "published": "2025-05-03T18:30:29Z",
   "aliases": [
     "CVE-2024-58134"
   ],
   "details": "Mojolicious versions from 0.999922 through 9.39 for Perl uses a hard coded string, or the application's class name, as a HMAC session secret by default.\n\nThese predictable default secrets can be exploited to forge session cookies. An attacker who knows or guesses the secret could compute valid HMAC signatures for the session cookie, allowing them to tamper with or hijack another user’s session.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -43,7 +48,7 @@
     "cwe_ids": [
       "CWE-321"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-03T16:15:19Z"
