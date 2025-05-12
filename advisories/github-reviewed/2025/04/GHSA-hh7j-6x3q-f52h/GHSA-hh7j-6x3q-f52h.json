@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hh7j-6x3q-f52h",
-  "modified": "2025-05-05T17:45:47Z",
+  "modified": "2025-05-12T22:26:39Z",
   "published": "2025-04-08T14:50:13Z",
   "aliases": [
     "CVE-2025-30150"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.6.0.0"
             },
             {
               "fixed": "6.6.10.3"
@@ -47,7 +47,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "6.6.0.0"
             },
             {
               "fixed": "6.6.10.3"
@@ -102,6 +102,50 @@
       "versions": [
         "6.7.0.0-rc1"
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "shopware/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.5.8.18"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 6.5.8.17"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "shopware/platform"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.5.8.18"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 6.5.8.17"
+      }
     }
   ],
   "references": [
