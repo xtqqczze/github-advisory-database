@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2gm-5jqw-x4qc",
-  "modified": "2025-05-03T00:30:32Z",
+  "modified": "2025-05-12T15:30:40Z",
   "published": "2025-05-03T00:30:32Z",
   "aliases": [
     "CVE-2024-55069"
   ],
   "details": "ffmpeg 7.1 is vulnerable to Null Pointer Dereference in function iamf_read_header in /libavformat/iamfdec.c.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-02T22:15:16Z"

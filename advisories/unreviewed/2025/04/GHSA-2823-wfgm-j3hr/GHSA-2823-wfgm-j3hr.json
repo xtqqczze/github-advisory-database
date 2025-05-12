@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2823-wfgm-j3hr",
-  "modified": "2025-04-21T18:32:09Z",
+  "modified": "2025-05-12T15:30:40Z",
   "published": "2025-04-21T18:32:09Z",
   "aliases": [
     "CVE-2025-29446"
   ],
   "details": "open-webui v0.5.16 is vulnerable to SSRF in routers/ollama.py in function verify_connection.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-918"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-04-21T17:15:23Z"
