@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c85-87cp-mr6g",
-  "modified": "2025-05-10T15:30:28Z",
+  "modified": "2025-05-12T20:16:20Z",
   "published": "2025-05-10T15:30:28Z",
   "aliases": [
     "CVE-2025-1752"
   ],
+  "summary": "LlamaIndex Vulnerable to Denial of Service (DoS)",
   "details": "A Denial of Service (DoS) vulnerability has been identified in the KnowledgeBaseWebReader class of the run-llama/llama_index project, affecting version ~ latest(v0.12.15). The vulnerability arises due to inappropriate secure coding measures, specifically the lack of proper implementation of the max_depth parameter in the get_article_urls function. This allows an attacker to exhaust Python's recursion limit through repeated function calls, leading to resource consumption and ultimately crashing the Python process.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "llama-index"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.12.15"
+            },
+            {
+              "fixed": "0.12.21"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/run-llama/llama_index/commit/3c65db2947271de3bd1927dc66a044da385de4da"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/run-llama/llama_index"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-400"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-05-12T20:16:19Z",
     "nvd_published_at": "2025-05-10T14:15:32Z"
   }
 }
