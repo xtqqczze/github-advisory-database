@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86pc-jx85-mvrw",
-  "modified": "2025-05-13T18:30:59Z",
+  "modified": "2025-05-13T21:30:53Z",
   "published": "2025-05-13T18:30:58Z",
   "aliases": [
     "CVE-2025-4660"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4660"
+    },
+    {
+      "type": "WEB",
+      "url": "https://forescout.my.site.com/support/s/article"
     },
     {
       "type": "WEB",

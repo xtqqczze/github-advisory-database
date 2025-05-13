@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65xm-fp9j-m223",
-  "modified": "2022-11-19T00:30:56Z",
+  "modified": "2025-05-13T21:30:27Z",
   "published": "2022-11-15T12:00:16Z",
   "aliases": [
     "CVE-2022-40845"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-425",
       "CWE-522"
     ],
     "severity": "MODERATE",
