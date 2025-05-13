@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw58-3793-42gg",
-  "modified": "2025-04-30T17:24:22Z",
+  "modified": "2025-05-13T15:46:35Z",
   "published": "2025-04-30T17:24:21Z",
   "aliases": [
     "CVE-2025-3501"
   ],
   "summary": "Keycloak hostname verification",
-  "details": "A flaw was found in Keycloak. By setting a verification policy to 'ALL', the trust store certificate verification is skipped, which is unintended.",
+  "details": "A flaw was found in Keycloak. By setting a verification policy to 'ANY', the trust store certificate verification is skipped, which is unintended.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -43,6 +43,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3501"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/99ca24c832729075e04d8bc58666089268314272"
     },
     {
       "type": "WEB",
