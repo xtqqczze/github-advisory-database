@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jq5v-29wx-7grq",
-  "modified": "2025-01-09T06:30:23Z",
+  "modified": "2025-05-13T12:31:35Z",
   "published": "2025-01-09T06:30:23Z",
   "aliases": [
     "CVE-2024-56827"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/uclouvain/openjpeg/commit/e492644fbded4c820ca55b5e50e598d346e850e8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:7309"
     },
     {
       "type": "WEB",
