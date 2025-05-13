@@ -1,23 +1,52 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w6c7-j32f-rq8j",
-  "modified": "2025-05-13T09:31:09Z",
+  "modified": "2025-05-13T20:23:45Z",
   "published": "2025-05-13T09:31:09Z",
   "aliases": [
     "CVE-2025-27696"
   ],
+  "summary": "Apache Superset Allows Ownership Takeover",
   "details": "Improper Authorization vulnerability in Apache Superset allows ownership takeover of dashboards, charts or datasets by authenticated users with read permissions.\n\nThis issue affects Apache Superset: through 4.1.1.\n\nUsers are recommended to upgrade to version 4.1.2 or above, which fixes the issue.",
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:N/SC:L/SI:L/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:L/VA:N/SC:L/SI:L/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "apache-superset"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27696"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/superset/commit/fc844d3dfdace890b32c00a507a959b81122b425"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/superset"
     },
     {
       "type": "WEB",
@@ -33,8 +62,8 @@
       "CWE-285"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-05-13T20:23:45Z",
     "nvd_published_at": "2025-05-13T09:15:20Z"
   }
 }
