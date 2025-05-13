@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp57-25gh-2gjp",
-  "modified": "2025-05-09T15:31:43Z",
+  "modified": "2025-05-13T00:31:11Z",
   "published": "2025-05-09T15:31:43Z",
   "aliases": [
     "CVE-2024-11861"
   ],
   "details": "EnerSys AMPA 22.09 and prior versions are vulnerable to command injection leading to privileged remote shell access.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-77"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-09T14:15:36Z"

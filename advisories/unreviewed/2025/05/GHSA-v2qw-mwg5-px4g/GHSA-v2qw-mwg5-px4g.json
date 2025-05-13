@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v2qw-mwg5-px4g",
+  "modified": "2025-05-13T00:31:12Z",
+  "published": "2025-05-13T00:31:12Z",
+  "aliases": [
+    "CVE-2025-24220"
+  ],
+  "details": "A permissions issue was addressed with additional restrictions. This issue is fixed in iPadOS 17.7.7, iOS 18.4 and iPadOS 18.4. An app may be able to read a persistent device identifier.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24220"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122371"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122405"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-12T22:15:19Z"
+  }
+}

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmf4-qhrq-85qv",
-  "modified": "2025-05-12T15:30:42Z",
+  "modified": "2025-05-13T00:31:11Z",
   "published": "2025-05-12T15:30:42Z",
   "aliases": [
     "CVE-2024-56523"
   ],
   "details": "Radware Cloud Web Application Firewall (WAF) before 2025-05-07 allows remote attackers to bypass firewall filters by placing random data in the HTTP request body when using the HTTP GET method.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-444"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-12T15:15:58Z"

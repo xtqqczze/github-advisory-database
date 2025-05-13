@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxqp-32c8-ch8c",
-  "modified": "2024-03-20T15:32:57Z",
+  "modified": "2025-05-13T00:31:10Z",
   "published": "2024-03-20T15:32:57Z",
   "aliases": [
     "CVE-2024-2721"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in Social Media Share Buttons By Sygnoos Social Media Share Buttons.This issue affects Social Media Share Buttons: from n/a through 2.1.0.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in Social Media Share Buttons By Sygnoos Social Media Share Buttons.This issue affects Social Media Share Buttons: from n/a through 2.1.0.",
   "severity": [
     {
       "type": "CVSS_V3",
