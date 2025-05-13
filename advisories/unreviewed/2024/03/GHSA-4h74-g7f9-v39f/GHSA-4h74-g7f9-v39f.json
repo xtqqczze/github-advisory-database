@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4h74-g7f9-v39f",
-  "modified": "2024-03-27T15:30:37Z",
+  "modified": "2025-05-13T18:30:44Z",
   "published": "2024-03-27T15:30:37Z",
   "aliases": [
     "CVE-2024-29804"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Team Heateor Fancy Comments WordPress allows Stored XSS.This issue affects Fancy Comments WordPress: from n/a through 1.2.14.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Team Heateor Fancy Comments WordPress allows Stored XSS.This issue affects Fancy Comments WordPress: from n/a through 1.2.14.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w23c-wpw6-cxpq",
-  "modified": "2024-03-27T15:30:37Z",
+  "modified": "2025-05-13T18:30:45Z",
   "published": "2024-03-27T15:30:37Z",
   "aliases": [
     "CVE-2024-29807"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in DearHive DearFlip allows Stored XSS.This issue affects DearFlip: from n/a through 2.2.26.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in DearHive DearFlip allows Stored XSS.This issue affects DearFlip: from n/a through 2.2.26.",
   "severity": [
     {
       "type": "CVSS_V3",

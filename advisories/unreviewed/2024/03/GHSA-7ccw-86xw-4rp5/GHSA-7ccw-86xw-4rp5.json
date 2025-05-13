@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7ccw-86xw-4rp5",
-  "modified": "2024-03-27T15:30:37Z",
+  "modified": "2025-05-13T18:30:44Z",
   "published": "2024-03-27T15:30:37Z",
   "aliases": [
     "CVE-2024-29806"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Reservation Diary ReDi Restaurant Reservation allows Reflected XSS.This issue affects ReDi Restaurant Reservation: from n/a through 24.0128.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Reservation Diary ReDi Restaurant Reservation allows Reflected XSS.This issue affects ReDi Restaurant Reservation: from n/a through 24.0128.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7wf-qqfr-f6xp",
-  "modified": "2025-04-03T18:30:57Z",
+  "modified": "2025-05-13T18:30:47Z",
   "published": "2025-04-01T00:30:38Z",
   "aliases": [
     "CVE-2025-24213"
@@ -38,6 +38,34 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/122379"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122404"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122405"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122716"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122719"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122720"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122721"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/122722"
     }
   ],
   "database_specific": {

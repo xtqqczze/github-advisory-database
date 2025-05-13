@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h6g4-mv38-wh4g",
-  "modified": "2022-10-19T19:00:23Z",
+  "modified": "2025-05-13T18:30:40Z",
   "published": "2022-10-17T19:00:29Z",
   "aliases": [
     "CVE-2022-41542"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://devhubapp.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40sc0p3hacker/cve-2022-41542-session-mis-configuration-in-devhub-application-ca956bb9027a"
     },
     {
       "type": "WEB",
