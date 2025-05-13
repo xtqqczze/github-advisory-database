@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgf5-9895-3ph9",
-  "modified": "2024-04-04T03:31:08Z",
+  "modified": "2025-05-13T03:31:12Z",
   "published": "2024-04-04T03:31:08Z",
   "aliases": [
     "CVE-2024-2692"
   ],
-  "details": "SiYuan version 3.0.3 allows executing arbitrary commands on the server. This is possible because the application is vulnerable to Server Side XSS.\n",
+  "details": "SiYuan version 3.0.3 allows executing arbitrary commands on the server. This is possible because the application is vulnerable to Server Side XSS.",
   "severity": [
     {
       "type": "CVSS_V3",
