@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg66-23q8-4x4p",
-  "modified": "2022-10-20T19:00:29Z",
+  "modified": "2025-05-13T15:32:00Z",
   "published": "2022-10-18T19:00:35Z",
   "aliases": [
     "CVE-2022-36439"
@@ -25,11 +25,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://asus-my.sharepoint.com/personal/carinacw_li_asus_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcarinacw_li_asus_com%2FDocuments%2FSecurity%2FCase-220713%2FAsus%20Arbitary%20File%20Deletion.pdf&parent=%2Fpersonal%2Fcarinacw_li_asus_com%2FDocuments%2FSecurity%2FCase-220713&ga=1"
+    },
+    {
+      "type": "WEB",
       "url": "https://asus.com"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-276"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

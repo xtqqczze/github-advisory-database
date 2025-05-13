@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mch-v7x5-pxc4",
-  "modified": "2025-05-13T00:31:12Z",
+  "modified": "2025-05-13T15:32:15Z",
   "published": "2025-05-13T00:31:12Z",
   "aliases": [
     "CVE-2025-24223"
   ],
   "details": "The issue was addressed with improved memory handling. This issue is fixed in watchOS 11.5, tvOS 18.5, iOS 18.5 and iPadOS 18.5, macOS Sequoia 15.5, visionOS 2.5, Safari 18.5. Processing maliciously crafted web content may lead to memory corruption.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-12T22:15:20Z"

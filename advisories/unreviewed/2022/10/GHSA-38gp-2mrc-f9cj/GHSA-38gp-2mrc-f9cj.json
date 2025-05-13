@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-38gp-2mrc-f9cj",
-  "modified": "2022-10-20T19:00:29Z",
+  "modified": "2025-05-13T15:32:00Z",
   "published": "2022-10-18T12:00:29Z",
   "aliases": [
     "CVE-2021-3305"
@@ -38,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-426",
       "CWE-428"
     ],
     "severity": "HIGH",

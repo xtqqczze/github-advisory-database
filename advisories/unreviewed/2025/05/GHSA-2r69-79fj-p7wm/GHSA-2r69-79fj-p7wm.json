@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2r69-79fj-p7wm",
-  "modified": "2025-05-13T06:30:24Z",
+  "modified": "2025-05-13T15:32:16Z",
   "published": "2025-05-13T06:30:24Z",
   "aliases": [
     "CVE-2025-22249"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

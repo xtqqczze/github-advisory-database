@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgc2-xxg6-h24v",
-  "modified": "2024-03-27T15:30:37Z",
+  "modified": "2025-05-13T15:32:02Z",
   "published": "2024-03-27T15:30:37Z",
   "aliases": [
     "CVE-2024-23510"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Martyn Chamberlin Don't Muck My Markup.This issue affects Don't Muck My Markup: from n/a through 1.8.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Martyn Chamberlin Don't Muck My Markup.This issue affects Don't Muck My Markup: from n/a through 1.8.",
   "severity": [
     {
       "type": "CVSS_V3",
