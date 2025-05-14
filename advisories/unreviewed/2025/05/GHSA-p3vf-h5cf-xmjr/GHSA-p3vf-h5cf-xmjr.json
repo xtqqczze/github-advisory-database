@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p3vf-h5cf-xmjr",
+  "modified": "2025-05-14T18:30:50Z",
+  "published": "2025-05-14T18:30:50Z",
+  "aliases": [
+    "CVE-2025-47708"
+  ],
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Drupal Enterprise MFA - TFA for Drupal allows Cross Site Request Forgery.This issue affects Enterprise MFA - TFA for Drupal: from 0.0.0 before 4.7.0, from 5.0.0 before 5.2.0.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47708"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.drupal.org/sa-contrib-2025-054"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-14T17:15:50Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqmq-2p8r-q32f",
-  "modified": "2025-05-13T06:30:23Z",
+  "modified": "2025-05-14T18:30:45Z",
   "published": "2025-05-12T12:30:25Z",
   "aliases": [
     "CVE-2025-22247"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22247"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00017.html"
     },
     {
       "type": "WEB",

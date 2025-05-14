@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m777-hj92-cw6q",
-  "modified": "2025-02-06T15:32:52Z",
+  "modified": "2025-05-14T18:30:44Z",
   "published": "2025-01-30T18:32:07Z",
   "aliases": [
     "CVE-2025-22220"

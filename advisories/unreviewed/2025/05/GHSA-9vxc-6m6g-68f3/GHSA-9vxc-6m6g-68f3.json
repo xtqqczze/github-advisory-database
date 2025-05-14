@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9vxc-6m6g-68f3",
-  "modified": "2025-05-13T00:31:12Z",
+  "modified": "2025-05-14T18:30:45Z",
   "published": "2025-05-13T00:31:12Z",
   "aliases": [
     "CVE-2025-24142"
   ],
   "details": "A privacy issue was addressed with improved private data redaction for log entries. This issue is fixed in macOS Ventura 13.7.6, macOS Sequoia 15.5, macOS Sonoma 14.7.6. An app may be able to access sensitive user data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-12T22:15:19Z"

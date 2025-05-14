@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q44h-82rg-2gpv",
-  "modified": "2022-10-15T12:00:55Z",
+  "modified": "2025-05-14T18:30:34Z",
   "published": "2022-10-14T19:00:39Z",
   "aliases": [
     "CVE-2022-41598"
