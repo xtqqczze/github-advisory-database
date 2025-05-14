@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x55-vpf3-jcj3",
-  "modified": "2022-10-15T12:00:55Z",
+  "modified": "2025-05-14T21:31:10Z",
   "published": "2022-10-14T19:00:39Z",
   "aliases": [
     "CVE-2022-41594"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-125"
+      "CWE-125",
+      "CWE-476"
     ],
     "severity": "LOW",
     "github_reviewed": false,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j4x-4j2g-pccj",
-  "modified": "2022-10-20T12:00:17Z",
+  "modified": "2025-05-14T21:31:11Z",
   "published": "2022-10-18T12:00:31Z",
   "aliases": [
     "CVE-2022-41431"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://sudsy-fish-73d.notion.site/XSS-about-xzs-system-31f689f2f3014ba99f12423fae521e49"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mindskip.net/xzs.html%3B"
     },
     {
       "type": "WEB",

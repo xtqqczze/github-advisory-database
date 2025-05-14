@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xrpq-4g9w-qrwj",
+  "modified": "2025-05-14T21:31:20Z",
+  "published": "2025-05-14T21:31:20Z",
+  "aliases": [
+    "CVE-2025-47885"
+  ],
+  "details": "Jenkins Health Advisor by CloudBees Plugin 374.v194b_d4f0c8c8 and earlier does not escape responses from the Jenkins Health Advisor server, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control Jenkins Health Advisor server responses.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47885"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.jenkins.io/security/advisory/2025-05-14/#SECURITY-3559"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-14T21:15:59Z"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47jx-2m6r-9jxq",
-  "modified": "2022-10-15T12:00:55Z",
+  "modified": "2025-05-14T21:31:10Z",
   "published": "2022-10-14T19:00:39Z",
   "aliases": [
     "CVE-2022-41595"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-125",
       "CWE-787"
     ],
     "severity": "LOW",

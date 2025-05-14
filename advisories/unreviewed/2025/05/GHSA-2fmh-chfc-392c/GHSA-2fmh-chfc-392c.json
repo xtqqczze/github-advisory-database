@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2fmh-chfc-392c",
+  "modified": "2025-05-14T21:31:19Z",
+  "published": "2025-05-14T21:31:19Z",
+  "aliases": [
+    "CVE-2025-32363"
+  ],
+  "details": "mediDOK before 2.5.18.43 allows remote attackers to achieve remote code execution on a target system via deserialization of untrusted data.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32363"
+    },
+    {
+      "type": "WEB",
+      "url": "https://code-white.com/public-vulnerability-list/#unauthenticated-remote-code-execution-via-deserialization-of-untrusted-data-in-m"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medidok.de/aktuelles-neuigkeiten"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medidok.de/neueversionen/update-medidok-2-5-18-43-verfugbar"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-14T20:15:22Z"
+  }
+}
