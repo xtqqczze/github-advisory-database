@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5qxx-2mqf-3v7g",
-  "modified": "2025-04-03T04:41:19Z",
+  "modified": "2025-05-14T00:32:20Z",
   "published": "2025-04-03T04:41:19Z",
   "aliases": [
     "CVE-2025-2784"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2784"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:7505"
     },
     {
       "type": "WEB",
