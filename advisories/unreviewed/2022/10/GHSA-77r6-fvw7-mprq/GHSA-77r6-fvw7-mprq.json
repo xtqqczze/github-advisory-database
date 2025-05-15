@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77r6-fvw7-mprq",
-  "modified": "2022-10-18T19:00:31Z",
+  "modified": "2025-05-15T15:31:11Z",
   "published": "2022-10-14T19:00:39Z",
   "aliases": [
     "CVE-2022-39011"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-693"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

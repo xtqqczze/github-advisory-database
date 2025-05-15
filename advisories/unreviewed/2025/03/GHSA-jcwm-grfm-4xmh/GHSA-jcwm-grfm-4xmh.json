@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcwm-grfm-4xmh",
-  "modified": "2025-03-13T12:30:32Z",
+  "modified": "2025-05-15T15:31:22Z",
   "published": "2025-03-12T18:32:52Z",
   "aliases": [
     "CVE-2025-1683"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.1e.com/trust-security-compliance/cve-info"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.teamviewer.com/en/resources/trust-center/security-bulletins/1e-2025-2001"
     }
   ],
   "database_specific": {

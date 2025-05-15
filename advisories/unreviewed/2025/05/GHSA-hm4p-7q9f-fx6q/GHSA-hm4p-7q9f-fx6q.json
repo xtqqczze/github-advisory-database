@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hm4p-7q9f-fx6q",
+  "modified": "2025-05-15T15:31:26Z",
+  "published": "2025-05-15T15:31:26Z",
+  "aliases": [
+    "CVE-2025-46052"
+  ],
+  "details": "An error-based SQL Injection (SQLi) vulnerability in WebERP v4.15.2 allows attackers to execute arbitrary SQL command and extract sensitive data by injecting a crafted payload into the DEL form field in a POST request to /StockCounts.php",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46052"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/johnchd/CVEs/blob/main/WebERP/CVE-2025-46052%20-%20SQLi.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.weberp.org"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-15T14:15:30Z"
+  }
+}
