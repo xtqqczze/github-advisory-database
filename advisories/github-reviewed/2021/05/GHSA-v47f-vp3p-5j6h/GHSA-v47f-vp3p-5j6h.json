@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v47f-vp3p-5j6h",
-  "modified": "2021-04-09T22:17:56Z",
+  "modified": "2025-05-15T18:43:27Z",
   "published": "2021-05-06T18:53:46Z",
   "aliases": [
     "CVE-2020-29315"
   ],
-  "summary": "\"Cross-site scripting in ThinkAdmin\"",
-  "details": "\"ThinkAdmin version v6 has a stored XSS vulnerability which allows remote attackers to inject an arbitrary web script or HTML.\"",
+  "summary": "Cross-site scripting in ThinkAdmin",
+  "details": "ThinkAdmin version v6 has a stored XSS vulnerability which allows remote attackers to inject an arbitrary web script or HTML.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -43,6 +43,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/zoujingli/ThinkAdmin/issues/255"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zoujingli/ThinkAdmin/commit/5e7c2325008d0191f941666b5589c08a070ce838"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/zoujingli/ThinkAdmin"
     }
   ],
   "database_specific": {
