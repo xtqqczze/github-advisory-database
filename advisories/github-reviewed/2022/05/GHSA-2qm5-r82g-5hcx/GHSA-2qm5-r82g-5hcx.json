@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2qm5-r82g-5hcx",
-  "modified": "2024-04-22T19:03:52Z",
+  "modified": "2025-05-15T21:16:57Z",
   "published": "2022-05-24T17:28:15Z",
   "aliases": [
     "CVE-2020-25540"
@@ -33,6 +33,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/zoujingli/ThinkAdmin/issues/244"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zoujingli/ThinkAdmin/commit/ff2ab47cfabd4784effbf72a2a386c5d25c43a9a"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/zoujingli/ThinkAdmin"
     },
     {
       "type": "WEB",
