@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpmg-m9rm-chxc",
-  "modified": "2022-10-19T12:00:20Z",
+  "modified": "2025-05-15T18:31:35Z",
   "published": "2022-10-17T19:00:28Z",
   "aliases": [
     "CVE-2022-42221"

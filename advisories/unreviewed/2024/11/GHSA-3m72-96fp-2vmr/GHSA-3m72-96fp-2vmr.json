@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3m72-96fp-2vmr",
-  "modified": "2024-11-09T09:30:29Z",
+  "modified": "2025-05-15T18:31:39Z",
   "published": "2024-11-09T09:30:29Z",
   "aliases": [
     "CVE-2024-9874"

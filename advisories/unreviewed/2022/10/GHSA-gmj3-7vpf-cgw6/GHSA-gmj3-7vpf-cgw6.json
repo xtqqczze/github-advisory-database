@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmj3-7vpf-cgw6",
-  "modified": "2022-10-18T19:00:34Z",
+  "modified": "2025-05-15T18:31:33Z",
   "published": "2022-10-14T19:00:37Z",
   "aliases": [
     "CVE-2021-46839"

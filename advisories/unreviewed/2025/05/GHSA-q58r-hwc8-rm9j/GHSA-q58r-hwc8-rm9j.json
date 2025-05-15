@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q58r-hwc8-rm9j",
+  "modified": "2025-05-15T18:31:47Z",
+  "published": "2025-05-15T18:31:47Z",
+  "aliases": [
+    "CVE-2025-1647"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Bootstrap allows Cross-Site Scripting (XSS).This issue affects Bootstrap: from 3.4.1 before 4.0.0.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1647"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2025-1647"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-15T17:15:47Z"
+  }
+}
