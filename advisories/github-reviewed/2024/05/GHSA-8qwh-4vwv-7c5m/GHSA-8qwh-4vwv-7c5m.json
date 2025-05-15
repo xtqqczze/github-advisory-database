@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qwh-4vwv-7c5m",
-  "modified": "2024-11-15T01:00:14Z",
+  "modified": "2025-05-15T21:06:56Z",
   "published": "2024-05-31T21:30:53Z",
   "aliases": [
     "CVE-2024-34000"
@@ -77,6 +77,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34000"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moodle/moodle/commit/4c966677de06bff56d46d55c419049f78e70f017"
     },
     {
       "type": "PACKAGE",
