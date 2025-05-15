@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rf8c-553r-qgf7",
+  "modified": "2025-05-15T21:31:27Z",
+  "published": "2025-05-15T21:31:27Z",
+  "aliases": [
+    "CVE-2023-6541"
+  ],
+  "details": "The Allow SVG WordPress plugin before 1.2.0 does not sanitize uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6541"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/bbe866b8-7497-4e5c-8f59-bb8edac1dc71"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-15T20:15:29Z"
+  }
+}

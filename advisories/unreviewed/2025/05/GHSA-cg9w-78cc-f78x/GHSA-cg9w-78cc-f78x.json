@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cg9w-78cc-f78x",
+  "modified": "2025-05-15T21:31:28Z",
+  "published": "2025-05-15T21:31:28Z",
+  "aliases": [
+    "CVE-2024-10075"
+  ],
+  "details": "The Jetpack  WordPress plugin before 13.8 does not ensure that the post created by the Contact Form is only accessible to authorised users, which could allow unauthenticated users to run arbitrary shortcodes and block.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10075"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/a984976c-291a-4f68-90d4-e452605ea7d1"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-15T20:15:32Z"
+  }
+}

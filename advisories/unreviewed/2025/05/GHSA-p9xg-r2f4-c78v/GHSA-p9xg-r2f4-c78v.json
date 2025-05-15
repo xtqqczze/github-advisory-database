@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p9xg-r2f4-c78v",
+  "modified": "2025-05-15T21:31:32Z",
+  "published": "2025-05-15T21:31:32Z",
+  "aliases": [
+    "CVE-2024-7762"
+  ],
+  "details": "The Simple Job Board WordPress plugin before 2.12.6 does not prevent uploaded files from being listed, allowing unauthenticated users to access and download uploaded resumes",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7762"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/26403e72-c927-4649-b789-694a10ad0492"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-15T20:15:57Z"
+  }
+}

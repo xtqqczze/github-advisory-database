@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mfvj-g4mp-wqx2",
+  "modified": "2025-05-15T21:31:27Z",
+  "published": "2025-05-15T21:31:27Z",
+  "aliases": [
+    "CVE-2023-7197"
+  ],
+  "details": "The Marketing Twitter Bot WordPress plugin through 1.11 does not have CSRF check in some places, and is missing sanitisation as well as escaping, which could allow attackers to make logged in admin add Stored XSS payloads via a CSRF attack",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7197"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/26deaa7c-e331-42a0-9310-31d08871154c"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-15T20:15:30Z"
+  }
+}

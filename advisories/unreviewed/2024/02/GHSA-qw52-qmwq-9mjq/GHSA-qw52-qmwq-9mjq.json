@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qw52-qmwq-9mjq",
-  "modified": "2024-02-13T21:30:28Z",
+  "modified": "2025-05-15T21:31:18Z",
   "published": "2024-02-06T00:30:27Z",
   "aliases": [
     "CVE-2024-0797"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0797"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3029488/profit-products-tables-for-woocommerce/trunk?contextall=1&old=3005088&old_path=%2Fprofit-products-tables-for-woocommerce%2Ftrunk"
     },
     {
       "type": "WEB",

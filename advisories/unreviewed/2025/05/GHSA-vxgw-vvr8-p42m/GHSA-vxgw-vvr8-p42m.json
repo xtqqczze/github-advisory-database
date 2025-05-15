@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vxgw-vvr8-p42m",
+  "modified": "2025-05-15T21:31:27Z",
+  "published": "2025-05-15T21:31:27Z",
+  "aliases": [
+    "CVE-2023-7086"
+  ],
+  "details": "The SVG Uploads Support WordPress plugin through 2.1.1 does not sanitize uploaded SVG files, which could allow users with a role as low as Author to upload a malicious SVG containing XSS payloads.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-7086"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/94954e1a-dc09-4811-b57d-b12bf69a767d"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-15T20:15:29Z"
+  }
+}

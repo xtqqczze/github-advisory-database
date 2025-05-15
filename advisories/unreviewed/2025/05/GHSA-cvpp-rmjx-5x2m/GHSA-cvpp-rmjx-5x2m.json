@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvpp-rmjx-5x2m",
-  "modified": "2025-05-14T00:32:21Z",
+  "modified": "2025-05-15T21:31:26Z",
   "published": "2025-05-14T00:32:21Z",
   "aliases": [
     "CVE-2025-47905"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://varnish-cache.org/security/VSV00016.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/05/15/2"
     }
   ],
   "database_specific": {

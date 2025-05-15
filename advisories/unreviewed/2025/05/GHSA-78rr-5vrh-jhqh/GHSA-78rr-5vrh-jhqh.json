@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78rr-5vrh-jhqh",
-  "modified": "2025-05-14T21:31:17Z",
+  "modified": "2025-05-15T21:31:26Z",
   "published": "2025-05-14T21:31:17Z",
   "aliases": [
     "CVE-2025-0131"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://security.paloaltonetworks.com/CVE-2025-0131"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.opswat.com/docs/mdsdk/release-notes/cve-2025-0131"
     }
   ],
   "database_specific": {
