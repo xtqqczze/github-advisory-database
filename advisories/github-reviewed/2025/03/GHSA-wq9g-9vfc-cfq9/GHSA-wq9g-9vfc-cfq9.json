@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq9g-9vfc-cfq9",
-  "modified": "2025-03-20T19:00:02Z",
+  "modified": "2025-05-15T16:44:40Z",
   "published": "2025-03-19T18:12:53Z",
   "aliases": [
     "CVE-2025-30153"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/getkin/kin-openapi/openapi3filter"
+        "name": "github.com/getkin/kin-openapi"
       },
       "ranges": [
         {
