@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3mp3-6fg3-7hxj",
-  "modified": "2024-12-27T21:30:30Z",
+  "modified": "2025-05-15T03:31:28Z",
   "published": "2024-12-27T18:30:26Z",
   "aliases": [
     "CVE-2024-12987"
@@ -22,6 +22,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12987"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fw.draytek.com.tw/Vigor2960/Firmware/v1.5.1.5/DrayTek_Vigor2960_V1.5.1.5_01release-note.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fw.draytek.com.tw/Vigor300B/Firmware/v1.5.1.5/DrayTek_Vigor300B_V1.5.1.5_01release-note.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fw.draytek.com.tw/Vigor3900/Firmware/v1.5.1.5/DrayTek_Vigor3900_V1.5.1.5_01release-note.pdf"
     },
     {
       "type": "WEB",
