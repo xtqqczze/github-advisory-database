@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcpr-7mr4-h4xq",
-  "modified": "2025-01-24T21:41:16Z",
+  "modified": "2025-05-16T02:06:21Z",
   "published": "2024-11-18T12:30:43Z",
   "aliases": [
     "CVE-2024-52316"
@@ -112,7 +112,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-391"
+      "CWE-391",
+      "CWE-754"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
