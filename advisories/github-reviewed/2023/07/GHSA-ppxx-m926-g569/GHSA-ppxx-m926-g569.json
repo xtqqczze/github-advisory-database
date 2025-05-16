@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppxx-m926-g569",
-  "modified": "2023-08-08T21:28:39Z",
+  "modified": "2025-05-16T22:12:11Z",
   "published": "2023-07-06T19:24:01Z",
   "aliases": [
     "CVE-2022-24697"
@@ -97,7 +97,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-77"
+      "CWE-77",
+      "CWE-78"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
