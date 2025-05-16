@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w52-96jj-fv59",
-  "modified": "2025-05-16T14:44:52Z",
+  "modified": "2025-05-16T20:11:03Z",
   "published": "2025-05-14T21:31:20Z",
   "aliases": [
     "CVE-2025-47886"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "fixed": "4.0.1-286.v9e25a740ba48"
+              "fixed": "4.0.1-288.v8804b_ea_a_cb_7f"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 4.0.1-286.v9e25a740ba48"
+      }
     }
   ],
   "references": [
