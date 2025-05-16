@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gch-63wp-4v5f",
-  "modified": "2024-09-25T14:29:58Z",
+  "modified": "2025-05-16T22:14:57Z",
   "published": "2024-09-25T03:30:35Z",
   "aliases": [
     "CVE-2024-39928"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/g664n13nb17rsogcfrn8kjgd8m89p8nw"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/09/24/2"
     }
   ],
   "database_specific": {
