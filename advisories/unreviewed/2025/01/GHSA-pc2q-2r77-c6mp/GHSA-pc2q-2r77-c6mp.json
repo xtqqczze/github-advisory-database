@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc2q-2r77-c6mp",
-  "modified": "2025-01-11T09:30:30Z",
+  "modified": "2025-05-16T15:30:32Z",
   "published": "2025-01-11T09:30:30Z",
   "aliases": [
     "CVE-2024-42174"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-203",
       "CWE-204"
     ],
     "severity": "LOW",

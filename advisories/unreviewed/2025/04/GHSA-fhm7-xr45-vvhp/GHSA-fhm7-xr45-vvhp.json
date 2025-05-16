@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhm7-xr45-vvhp",
-  "modified": "2025-04-17T21:31:05Z",
+  "modified": "2025-05-16T15:30:35Z",
   "published": "2025-04-17T21:31:05Z",
   "aliases": [
     "CVE-2024-42177"
