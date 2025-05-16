@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-928r-3p4g-rrxw",
-  "modified": "2025-05-15T21:31:27Z",
+  "modified": "2025-05-16T18:31:05Z",
   "published": "2025-05-15T21:31:27Z",
   "aliases": [
     "CVE-2023-7239"
   ],
   "details": "The WP Dashboard Notes WordPress plugin before 1.0.11 does not validate that the user has access to the post_id parameter in its wpdn_update_note AJAX action. This allows users with a role of contributor and above to update notes created by other users.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-15T20:15:30Z"
