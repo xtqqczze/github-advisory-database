@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57c2-2x5j-8gpq",
-  "modified": "2025-05-15T21:31:34Z",
+  "modified": "2025-05-16T21:32:11Z",
   "published": "2025-05-15T21:31:34Z",
   "aliases": [
     "CVE-2025-2247"
   ],
   "details": "The WP-PManager WordPress plugin through 1.2 does not have CSRF check in place when updating its settings, which could allow attackers to make a logged in admin change them via a CSRF attack",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-15T20:16:05Z"

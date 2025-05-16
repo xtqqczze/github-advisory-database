@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wcf-r54j-7xp9",
-  "modified": "2025-05-06T15:31:09Z",
+  "modified": "2025-05-16T21:32:10Z",
   "published": "2025-05-06T15:31:09Z",
   "aliases": [
     "CVE-2025-2898"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://https://www.ibm.com/support/pages/node/7232050"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ibm.com/support/pages/node/7232050"
     }
   ],
   "database_specific": {
