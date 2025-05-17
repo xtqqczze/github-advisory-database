@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4p7f-6rw5-m5v7",
-  "modified": "2025-05-02T15:31:48Z",
+  "modified": "2025-05-17T06:30:24Z",
   "published": "2025-05-02T15:31:47Z",
   "aliases": [
     "CVE-2025-2605"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.honeywell.com/us/en/product-security#security-notices"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/19"
     }
   ],
   "database_specific": {

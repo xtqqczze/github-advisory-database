@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq26-hpcc-wh38",
-  "modified": "2025-04-08T15:31:06Z",
+  "modified": "2025-05-17T06:30:24Z",
   "published": "2025-04-08T15:31:06Z",
   "aliases": [
     "CVE-2025-22458"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://forums.ivanti.com/s/article/Security-Advisory-EPM-April-2025-for-EPM-2024-and-EPM-2022-SU6"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/17"
     }
   ],
   "database_specific": {

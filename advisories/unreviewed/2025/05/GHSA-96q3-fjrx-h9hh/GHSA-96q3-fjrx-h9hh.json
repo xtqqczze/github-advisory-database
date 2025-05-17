@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-96q3-fjrx-h9hh",
-  "modified": "2025-05-16T18:31:06Z",
+  "modified": "2025-05-17T06:30:27Z",
   "published": "2025-05-16T18:31:06Z",
   "aliases": [
     "CVE-2025-47916"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://karmainsecurity.com/KIS-2025-02"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/May/4"
     }
   ],
   "database_specific": {
