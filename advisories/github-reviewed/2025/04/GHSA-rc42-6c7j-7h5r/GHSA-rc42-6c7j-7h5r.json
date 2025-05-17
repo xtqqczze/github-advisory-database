@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rc42-6c7j-7h5r",
-  "modified": "2025-04-28T20:59:16Z",
+  "modified": "2025-05-17T00:30:25Z",
   "published": "2025-04-28T09:31:53Z",
   "aliases": [
     "CVE-2025-22235"
@@ -125,6 +125,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/spring-projects/spring-boot"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250516-0010"
     },
     {
       "type": "WEB",

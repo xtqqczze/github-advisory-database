@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gf8x-6jh7-3mjv",
-  "modified": "2025-05-13T21:30:30Z",
+  "modified": "2025-05-17T00:30:25Z",
   "published": "2025-02-25T18:31:24Z",
   "aliases": [
     "CVE-2025-26601"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250516-0004"
     },
     {
       "type": "WEB",

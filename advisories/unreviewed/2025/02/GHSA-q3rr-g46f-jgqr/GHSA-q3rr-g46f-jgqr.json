@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q3rr-g46f-jgqr",
-  "modified": "2025-05-09T03:30:23Z",
+  "modified": "2025-05-17T00:30:25Z",
   "published": "2025-02-19T21:31:38Z",
   "aliases": [
     "CVE-2025-0624"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-0624"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250516-0006"
     },
     {
       "type": "WEB",

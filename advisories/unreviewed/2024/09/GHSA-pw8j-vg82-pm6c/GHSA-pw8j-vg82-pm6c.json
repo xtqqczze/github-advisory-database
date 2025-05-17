@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw8j-vg82-pm6c",
-  "modified": "2024-09-10T15:31:04Z",
+  "modified": "2025-05-17T00:30:25Z",
   "published": "2024-09-10T15:31:04Z",
   "aliases": [
     "CVE-2024-8654"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jira.mongodb.org/browse/SERVER-71477"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250516-0008"
     }
   ],
   "database_specific": {

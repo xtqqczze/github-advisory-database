@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52jj-6w68-3m25",
-  "modified": "2024-08-27T12:30:44Z",
+  "modified": "2025-05-17T00:30:25Z",
   "published": "2024-08-27T12:30:44Z",
   "aliases": [
     "CVE-2024-8207"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jira.mongodb.org/browse/SERVER-69507"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250516-0009"
     }
   ],
   "database_specific": {
