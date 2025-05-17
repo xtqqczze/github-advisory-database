@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mm9-c4mg-vfjh",
-  "modified": "2025-05-17T03:30:32Z",
+  "modified": "2025-05-17T09:31:27Z",
   "published": "2025-05-16T21:32:12Z",
   "aliases": [
     "CVE-2025-4802"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/05/16/7"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/05/17/2"
     }
   ],
   "database_specific": {
