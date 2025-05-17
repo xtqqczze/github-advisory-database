@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg47-49fq-q324",
-  "modified": "2023-03-01T00:30:36Z",
+  "modified": "2025-05-17T12:31:07Z",
   "published": "2023-02-27T12:30:24Z",
   "aliases": [
     "CVE-2023-1059"
@@ -11,6 +11,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
   "affected": [],
@@ -30,10 +34,19 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?id.221824"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.95222"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sourcecodester.com"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-74",
       "CWE-89"
     ],
     "severity": "HIGH",
