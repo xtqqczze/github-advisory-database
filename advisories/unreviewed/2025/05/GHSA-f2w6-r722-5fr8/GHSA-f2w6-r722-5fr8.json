@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f2w6-r722-5fr8",
-  "modified": "2025-05-13T21:30:37Z",
+  "modified": "2025-05-18T00:30:26Z",
   "published": "2025-05-07T18:30:50Z",
   "aliases": [
     "CVE-2025-47203"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mkj/dropbear/blob/master/src/cli-main.c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00020.html"
     },
     {
       "type": "WEB",
