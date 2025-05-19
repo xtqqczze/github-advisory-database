@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66q6-24vw-2g98",
-  "modified": "2025-05-05T18:32:52Z",
+  "modified": "2025-05-19T18:30:37Z",
   "published": "2025-05-05T18:32:52Z",
   "aliases": [
     "CVE-2025-27920"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27920"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/05/12/marbled-dust-leverages-zero-day-in-output-messenger-for-regional-espionage"
     },
     {
       "type": "WEB",

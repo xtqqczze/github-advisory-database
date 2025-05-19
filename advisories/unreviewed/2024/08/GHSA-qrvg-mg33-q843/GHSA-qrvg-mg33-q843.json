@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrvg-mg33-q843",
-  "modified": "2024-08-13T18:31:14Z",
+  "modified": "2025-05-19T18:30:36Z",
   "published": "2024-08-12T15:30:53Z",
   "aliases": [
     "CVE-2024-27443"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Releases/9.0.0/P39#Security_Fixes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.welivesecurity.com/en/eset-research/operation-roundpress"
     }
   ],
   "database_specific": {

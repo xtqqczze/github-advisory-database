@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp2g-4h6f-28h2",
-  "modified": "2025-05-19T15:31:00Z",
+  "modified": "2025-05-19T18:30:45Z",
   "published": "2025-05-19T15:31:00Z",
   "aliases": [
     "CVE-2025-3908"
   ],
   "details": "The configuration initialization tool in OpenVPN 3 Linux v20 through v24 on Linux allows a local attacker to use symlinks pointing at an arbitrary directory which will change the ownership and permissions of that destination directory.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-59"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-19T15:15:23Z"
