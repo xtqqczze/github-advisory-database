@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwg4-q55q-w62p",
-  "modified": "2024-06-07T15:30:34Z",
+  "modified": "2025-05-19T15:30:29Z",
   "published": "2023-11-21T00:30:27Z",
   "aliases": [
     "CVE-2023-6199"
   ],
-  "details": "Book Stack version 23.10.2 allows filtering local files on the server. This is possible because the application is vulnerable to SSRF.\n",
+  "details": "Book Stack version 23.10.2 allows filtering local files on the server. This is possible because the application is vulnerable to SSRF.",
   "severity": [
     {
       "type": "CVSS_V3",

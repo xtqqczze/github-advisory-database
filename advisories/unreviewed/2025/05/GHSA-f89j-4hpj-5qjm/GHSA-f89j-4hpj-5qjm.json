@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f89j-4hpj-5qjm",
-  "modified": "2025-05-14T21:31:19Z",
+  "modified": "2025-05-19T15:30:39Z",
   "published": "2025-05-14T21:31:19Z",
   "aliases": [
     "CVE-2024-45516"
   ],
   "details": "An issue was discovered in Zimbra Collaboration (ZCS) 9.0.0 before Patch 43, 10.0.x before 10.0.12, 10.1.x before 10.1.4, and 8.8.15 before Patch 47. A Cross-Site Scripting (XSS) vulnerability in the Zimbra Classic UI allows attackers to execute arbitrary JavaScript within the victim's session, potentially leading to unauthorized access to sensitive information. This issue arises from insufficient sanitization of HTML content, including malformed <img> tags with embedded JavaScript. The vulnerability is triggered when the victim views a specially crafted email in the Classic UI, causing the malicious script to execute. No further user interaction is required beyond viewing the email.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-14T20:15:20Z"

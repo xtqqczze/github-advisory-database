@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v5gh-4369-4w97",
-  "modified": "2024-04-08T06:31:30Z",
+  "modified": "2025-05-19T15:30:31Z",
   "published": "2024-04-08T06:31:30Z",
   "aliases": [
     "CVE-2024-1956"
   ],
   "details": "The wpb-show-core WordPress plugin before 2.7 does not sanitise and escape the parameters before outputting it back in the response of an unauthenticated request, leading to a Reflected Cross-Site Scripting",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-04-08T05:15:07Z"

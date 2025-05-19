@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh8c-9pw4-5fjj",
-  "modified": "2023-11-21T00:30:27Z",
+  "modified": "2025-05-19T15:30:29Z",
   "published": "2023-11-21T00:30:27Z",
   "aliases": [
     "CVE-2023-6142"
   ],
-  "details": "Dev blog v1.0 allows to exploit an XSS through an unrestricted file upload, together with a bad entropy of filenames. With this an attacker can upload a malicious HTML file, then guess the filename of the uploaded file and send it to a potential victim.\n",
+  "details": "Dev blog v1.0 allows to exploit an XSS through an unrestricted file upload, together with a bad entropy of filenames. With this an attacker can upload a malicious HTML file, then guess the filename of the uploaded file and send it to a potential victim.",
   "severity": [
     {
       "type": "CVSS_V3",

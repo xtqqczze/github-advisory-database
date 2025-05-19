@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcm6-cm5p-jg47",
-  "modified": "2025-04-15T21:31:48Z",
+  "modified": "2025-05-19T15:30:35Z",
   "published": "2025-04-15T21:31:48Z",
   "aliases": [
     "CVE-2025-30733"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30733"
+    },
+    {
+      "type": "WEB",
+      "url": "https://driftnet.io/blog/oracle-tns-memory-leak"
     },
     {
       "type": "WEB",

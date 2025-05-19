@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7rcm-4jcj-r4q6",
-  "modified": "2025-05-18T15:30:20Z",
+  "modified": "2025-05-19T15:30:51Z",
   "published": "2025-05-18T15:30:20Z",
   "aliases": [
     "CVE-2025-48219"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.etsi.org/deliver/etsi_ts/124200_124299/124229/15.10.00_60/ts_124229v151000p.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ispreview.co.uk/index.php/2025/05/o2-uk-fixes-volte-flaw-that-exposed-user-mobile-location-data.html"
     }
   ],
   "database_specific": {

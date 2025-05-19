@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxpp-2jgf-79rr",
-  "modified": "2024-01-02T15:30:24Z",
+  "modified": "2025-05-19T15:30:31Z",
   "published": "2023-12-21T18:30:22Z",
   "aliases": [
     "CVE-2023-45118"
   ],
-  "details": "Online Examination System v1.0 is vulnerable to multiple Authenticated SQL Injection vulnerabilities. The 'fdid' parameter of the update.php resource does not validate the characters received and they are sent unfiltered to the database.\n\n",
+  "details": "Online Examination System v1.0 is vulnerable to multiple Authenticated SQL Injection vulnerabilities. The 'fdid' parameter of the update.php resource does not validate the characters received and they are sent unfiltered to the database.",
   "severity": [
     {
       "type": "CVSS_V3",

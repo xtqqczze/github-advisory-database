@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43qr-pjmr-cgfv",
-  "modified": "2025-05-17T15:30:25Z",
+  "modified": "2025-05-19T15:30:38Z",
   "published": "2025-05-14T15:31:37Z",
   "aliases": [
     "CVE-2024-54779"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.brillantit.com/exploiting-pfsense-xss-command-injection-cloud-hijack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.netgate.com/downloads/pfSense-SA-25_01.webgui.asc"
     },
     {
       "type": "WEB",
