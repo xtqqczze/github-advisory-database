@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhgm-mxgh-gfpj",
-  "modified": "2025-05-18T21:30:20Z",
+  "modified": "2025-05-19T21:30:31Z",
   "published": "2025-05-18T00:30:27Z",
   "aliases": [
     "CVE-2025-4918"
   ],
   "details": "An attacker was able to perform an out-of-bounds read or write on a JavaScript `Promise` object. This vulnerability affects Firefox ESR < 115.23.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-17T22:15:19Z"

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8gc-c7p5-2xq8",
-  "modified": "2023-12-20T18:30:32Z",
+  "modified": "2025-05-19T21:30:27Z",
   "published": "2023-12-20T18:30:32Z",
   "aliases": [
     "CVE-2023-5007"
   ],
-  "details": "Student Information System v1.0 is vulnerable to multiple Authenticated SQL Injection vulnerabilities. The 'id' parameter of the marks.php resource does not validate the characters received and they are sent unfiltered to the database.\n\n",
+  "details": "Student Information System v1.0 is vulnerable to multiple Authenticated SQL Injection vulnerabilities. The 'id' parameter of the marks.php resource does not validate the characters received and they are sent unfiltered to the database.",
   "severity": [
     {
       "type": "CVSS_V3",
