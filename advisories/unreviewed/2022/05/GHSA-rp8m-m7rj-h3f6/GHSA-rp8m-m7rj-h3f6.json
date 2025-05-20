@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp8m-m7rj-h3f6",
-  "modified": "2022-05-24T16:47:53Z",
+  "modified": "2025-05-20T18:30:42Z",
   "published": "2022-05-24T16:47:53Z",
   "aliases": [
     "CVE-2019-1038"
   ],
   "details": "A remote code execution vulnerability exists in the way that Microsoft browsers access objects in memory, aka 'Microsoft Browser Memory Corruption Vulnerability'.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -16,11 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-1038"
+    },
+    {
+      "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-1038"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-787"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

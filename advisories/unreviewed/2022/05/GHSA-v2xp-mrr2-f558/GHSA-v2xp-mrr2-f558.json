@@ -1,18 +1,27 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2xp-mrr2-f558",
-  "modified": "2022-05-24T16:47:52Z",
+  "modified": "2025-05-20T18:30:41Z",
   "published": "2022-05-24T16:47:52Z",
   "aliases": [
     "CVE-2019-1025"
   ],
   "details": "A denial of service vulnerability exists when Windows improperly handles objects in memory, aka 'Windows Denial of Service Vulnerability'.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1025"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-1025"
     },
     {
       "type": "WEB",

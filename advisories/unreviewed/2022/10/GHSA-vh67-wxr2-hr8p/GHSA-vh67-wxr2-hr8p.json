@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vh67-wxr2-hr8p",
-  "modified": "2022-10-06T00:00:55Z",
+  "modified": "2025-05-20T18:30:47Z",
   "published": "2022-10-01T00:00:18Z",
   "aliases": [
     "CVE-2022-40756"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-732"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

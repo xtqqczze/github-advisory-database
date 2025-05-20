@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r58r-pm5c-hh48",
-  "modified": "2022-05-24T22:00:05Z",
+  "modified": "2025-05-20T18:30:33Z",
   "published": "2022-05-24T22:00:05Z",
   "aliases": [
     "CVE-2019-0620"
   ],
   "details": "A remote code execution vulnerability exists when Windows Hyper-V on a host server fails to properly validate input from an authenticated user on a guest operating system, aka 'Windows Hyper-V Remote Code Execution Vulnerability'. This CVE ID is unique from CVE-2019-0709, CVE-2019-0722.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -16,11 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-0620"
+    },
+    {
+      "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0620"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-20"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76c5-fpfr-hgf7",
-  "modified": "2022-10-04T00:00:19Z",
+  "modified": "2025-05-20T18:30:47Z",
   "published": "2022-09-30T00:00:40Z",
   "aliases": [
     "CVE-2022-38732"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-358"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

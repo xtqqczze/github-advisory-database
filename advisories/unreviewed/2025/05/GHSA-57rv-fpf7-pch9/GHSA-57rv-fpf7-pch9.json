@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-57rv-fpf7-pch9",
-  "modified": "2025-05-15T21:31:28Z",
+  "modified": "2025-05-20T18:30:53Z",
   "published": "2025-05-15T21:31:28Z",
   "aliases": [
     "CVE-2024-10631"
   ],
   "details": "The Countdown Timer for WordPress Block Editor WordPress plugin through 1.0.5 does not validate and escape some of its block options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-15T20:15:33Z"

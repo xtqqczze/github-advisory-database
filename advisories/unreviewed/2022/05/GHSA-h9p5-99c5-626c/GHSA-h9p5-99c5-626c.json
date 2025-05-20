@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h9p5-99c5-626c",
-  "modified": "2024-04-04T00:56:18Z",
+  "modified": "2025-05-20T18:30:42Z",
   "published": "2022-05-24T16:47:53Z",
   "aliases": [
     "CVE-2019-1036"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1036"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-1036"
     },
     {
       "type": "WEB",

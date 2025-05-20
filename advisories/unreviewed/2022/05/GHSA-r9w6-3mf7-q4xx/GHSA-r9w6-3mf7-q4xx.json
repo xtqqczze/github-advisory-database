@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9w6-3mf7-q4xx",
-  "modified": "2022-05-24T22:00:05Z",
+  "modified": "2025-05-20T18:30:34Z",
   "published": "2022-05-24T22:00:05Z",
   "aliases": [
     "CVE-2019-0711"
   ],
   "details": "A denial of service vulnerability exists when Microsoft Hyper-V on a host server fails to properly validate input from a privileged user on a guest operating system, aka 'Windows Hyper-V Denial of Service Vulnerability'. This CVE ID is unique from CVE-2019-0710, CVE-2019-0713.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -16,11 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-0711"
+    },
+    {
+      "type": "WEB",
       "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0711"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-20"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

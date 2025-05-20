@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g5q-m89g-8cvp",
-  "modified": "2024-04-04T00:56:01Z",
+  "modified": "2025-05-20T18:30:39Z",
   "published": "2022-05-24T16:47:51Z",
   "aliases": [
     "CVE-2019-1013"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1013"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-1013"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6mr-8qh7-926h",
-  "modified": "2025-05-20T15:30:40Z",
+  "modified": "2025-05-20T18:30:53Z",
   "published": "2025-05-20T15:30:40Z",
   "aliases": [
     "CVE-2025-26086"
   ],
   "details": "An unauthenticated blind SQL injection vulnerability exists in RSI Queue Management System v3.0 within the TaskID parameter of the get request handler. Attackers can remotely inject time-delayed SQL payloads to induce server response delays, enabling time-based inference and iterative extraction of sensitive database contents without authentication.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-20T15:16:07Z"

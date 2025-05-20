@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6h2-w75f-xfj6",
-  "modified": "2024-04-04T00:55:52Z",
+  "modified": "2025-05-20T18:30:38Z",
   "published": "2022-05-24T16:47:51Z",
   "aliases": [
     "CVE-2019-1009"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread.html/fb6c84fd387de997e5e366d50b0ca331a328c466432c80f8c5eed33d%40%3Cdev.tika.apache.org%3E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-1009"
     },
     {
       "type": "WEB",

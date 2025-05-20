@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-w939-6x76-94vc",
+  "modified": "2025-05-20T18:30:57Z",
+  "published": "2025-05-20T18:30:57Z",
+  "aliases": [
+    "CVE-2025-37967"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: ucsi: displayport: Fix deadlock\n\nThis patch introduces the ucsi_con_mutex_lock / ucsi_con_mutex_unlock\nfunctions to the UCSI driver. ucsi_con_mutex_lock ensures the connector\nmutex is only locked if a connection is established and the partner pointer\nis valid. This resolves a deadlock scenario where\nucsi_displayport_remove_partner holds con->mutex waiting for\ndp_altmode_work to complete while dp_altmode_work attempts to acquire it.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37967"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/364618c89d4c57c85e5fc51a2446cd939bf57802"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/61fc1a8e1e10cc784cab5829930838aaf1d37af5"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-20T17:15:47Z"
+  }
+}
