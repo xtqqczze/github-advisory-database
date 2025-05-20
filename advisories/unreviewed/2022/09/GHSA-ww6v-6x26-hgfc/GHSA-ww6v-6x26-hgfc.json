@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww6v-6x26-hgfc",
-  "modified": "2022-10-04T00:00:19Z",
+  "modified": "2025-05-20T21:30:26Z",
   "published": "2022-09-30T00:00:47Z",
   "aliases": [
     "CVE-2022-39173"
@@ -42,7 +42,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-120"
+      "CWE-120",
+      "CWE-787"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

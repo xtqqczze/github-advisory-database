@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wpjq-v255-668c",
-  "modified": "2022-10-05T00:00:38Z",
+  "modified": "2025-05-20T21:30:28Z",
   "published": "2022-10-01T00:00:20Z",
   "aliases": [
     "CVE-2022-40274"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-94"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

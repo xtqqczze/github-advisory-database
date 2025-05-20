@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r77g-4w8g-2vqq",
-  "modified": "2025-05-15T21:31:30Z",
+  "modified": "2025-05-20T21:30:36Z",
   "published": "2025-05-15T21:31:30Z",
   "aliases": [
     "CVE-2024-12812"
   ],
   "details": "The WP ERP | Complete HR solution with recruitment & job listings | WooCommerce CRM & Accounting WordPress plugin before 1.13.4 has an issue where employees can manipulate parameters to access the data of terminated employees.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-15T20:15:37Z"

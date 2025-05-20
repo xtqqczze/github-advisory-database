@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh2c-fh83-6hgx",
-  "modified": "2022-10-05T00:00:38Z",
+  "modified": "2025-05-20T21:30:26Z",
   "published": "2022-10-01T00:00:25Z",
   "aliases": [
     "CVE-2022-2778"

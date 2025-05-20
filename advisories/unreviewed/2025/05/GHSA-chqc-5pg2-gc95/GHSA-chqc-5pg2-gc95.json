@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chqc-5pg2-gc95",
-  "modified": "2025-05-15T21:31:31Z",
+  "modified": "2025-05-20T21:30:39Z",
   "published": "2025-05-15T21:31:31Z",
   "aliases": [
     "CVE-2024-6712"
   ],
   "details": "The MapFig Studio WordPress plugin through 0.2.1 does not have CSRF check in some places, and is missing sanitisation as well as escaping, which could allow attackers to make logged in admin add Stored XSS payloads via a CSRF attack",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-15T20:15:56Z"
