@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vc5p-9c2v-8jwq",
-  "modified": "2025-05-05T15:30:44Z",
+  "modified": "2025-05-20T00:30:31Z",
   "published": "2023-08-04T00:30:16Z",
   "aliases": [
     "CVE-2023-38951"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://claroty.com/team82/disclosure-dashboard/cve-2023-38951"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/omair2084/biotime-rce-8.5.5/blob/main/biotime_enum.py"
+    },
+    {
+      "type": "WEB",
+      "url": "https://krashconsulting.com/fury-of-fingers-biotime-rce"
     },
     {
       "type": "WEB",
