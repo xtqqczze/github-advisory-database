@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68c3-2gxf-hpcv",
-  "modified": "2024-04-04T08:37:45Z",
+  "modified": "2025-05-20T09:30:59Z",
   "published": "2023-10-13T15:30:19Z",
   "aliases": [
     "CVE-2023-45162"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.1e.com/trust-security-compliance/cve-info"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.teamviewer.com/en/resources/trust-center/security-bulletins/1e-2023-2004"
     }
   ],
   "database_specific": {

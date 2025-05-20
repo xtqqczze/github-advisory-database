@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x5qc-9crp-x6hr",
-  "modified": "2024-09-05T15:33:30Z",
+  "modified": "2025-05-20T09:30:59Z",
   "published": "2023-11-06T15:30:32Z",
   "aliases": [
     "CVE-2023-45161"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.1e.com/trust-security-compliance/cve-info"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.teamviewer.com/en/resources/trust-center/security-bulletins/1e-2023-2003"
     }
   ],
   "database_specific": {
