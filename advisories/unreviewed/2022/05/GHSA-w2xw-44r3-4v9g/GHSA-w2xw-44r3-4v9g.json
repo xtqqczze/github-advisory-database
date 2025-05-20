@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w2xw-44r3-4v9g",
-  "modified": "2022-05-25T00:00:21Z",
+  "modified": "2025-05-20T06:32:18Z",
   "published": "2022-05-17T00:01:45Z",
   "aliases": [
     "CVE-2022-29623"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29623"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/expressjs/connect-multiparty/releases/tag/2.2.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.npmjs.com/package/connect-multiparty"
     },
     {
       "type": "WEB",
