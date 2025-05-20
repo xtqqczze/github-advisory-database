@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq67-2wwv-3xjx",
-  "modified": "2025-03-28T22:11:42Z",
+  "modified": "2025-05-20T17:57:26Z",
   "published": "2025-03-27T18:31:28Z",
   "aliases": [
     "CVE-2024-12905"
@@ -66,14 +66,11 @@
               "introduced": "3.0.0"
             },
             {
-              "fixed": "3.0.8"
+              "fixed": "3.0.7"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 3.0.7"
-      }
+      ]
     }
   ],
   "references": [
