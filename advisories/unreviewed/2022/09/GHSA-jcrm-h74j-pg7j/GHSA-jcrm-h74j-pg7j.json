@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcrm-h74j-pg7j",
-  "modified": "2022-09-29T00:00:21Z",
+  "modified": "2025-05-21T21:31:07Z",
   "published": "2022-09-27T00:00:19Z",
   "aliases": [
     "CVE-2022-2859"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://crbug.com/1338412"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/T4NMJURTG5RO3TGD7ZMIQ6Z4ZZ3SAVYE"
     },
     {
       "type": "WEB",

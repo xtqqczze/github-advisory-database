@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv7p-vwj6-p73h",
-  "modified": "2022-09-29T00:00:22Z",
+  "modified": "2025-05-21T21:31:09Z",
   "published": "2022-09-27T00:00:20Z",
   "aliases": [
     "CVE-2022-3196"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://crbug.com/1358090"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/40060720"
     },
     {
       "type": "WEB",
