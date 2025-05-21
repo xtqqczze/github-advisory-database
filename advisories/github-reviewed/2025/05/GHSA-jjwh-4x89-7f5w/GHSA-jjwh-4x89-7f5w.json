@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjwh-4x89-7f5w",
-  "modified": "2025-05-21T18:22:06Z",
+  "modified": "2025-05-21T19:05:25Z",
   "published": "2025-05-21T18:22:06Z",
   "aliases": [
     "CVE-2025-48207"
@@ -56,6 +56,10 @@
   ],
   "references": [
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48207"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Kephson/reint_downloadmanager/commit/99b07497f5842a59e934583283e1b5a477ce79a9"
     },
@@ -74,11 +78,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-425",
       "CWE-639"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-05-21T18:22:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-05-21T16:15:33Z"
   }
 }
