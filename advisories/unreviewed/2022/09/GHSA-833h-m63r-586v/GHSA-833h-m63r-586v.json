@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-833h-m63r-586v",
-  "modified": "2022-09-30T00:00:42Z",
+  "modified": "2025-05-21T18:33:04Z",
   "published": "2022-09-28T00:00:16Z",
   "aliases": [
     "CVE-2022-3303"
@@ -29,6 +29,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://lore.kernel.org/all/CAFcO6XN7JDM4xSXGhtusQfS2mSBcx50VJKwQpCq=WeLt57aaZA%40mail.gmail.com"
+    },
+    {
+      "type": "WEB",
       "url": "https://lore.kernel.org/all/CAFcO6XN7JDM4xSXGhtusQfS2mSBcx50VJKwQpCq=WeLt57aaZA@mail.gmail.com"
     },
     {
@@ -38,7 +42,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-362"
+      "CWE-362",
+      "CWE-667"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

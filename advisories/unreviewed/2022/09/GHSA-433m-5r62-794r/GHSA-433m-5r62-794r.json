@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-433m-5r62-794r",
-  "modified": "2022-09-29T00:00:26Z",
+  "modified": "2025-05-21T18:32:58Z",
   "published": "2022-09-27T00:00:19Z",
   "aliases": [
     "CVE-2022-3050"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://crbug.com/1337132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/T4NMJURTG5RO3TGD7ZMIQ6Z4ZZ3SAVYE"
     },
     {
       "type": "WEB",

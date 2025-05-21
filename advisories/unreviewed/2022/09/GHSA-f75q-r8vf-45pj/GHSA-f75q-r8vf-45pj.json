@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f75q-r8vf-45pj",
-  "modified": "2022-10-01T00:00:16Z",
+  "modified": "2025-05-21T18:33:03Z",
   "published": "2022-09-28T00:00:17Z",
   "aliases": [
     "CVE-2022-34326"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-400"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

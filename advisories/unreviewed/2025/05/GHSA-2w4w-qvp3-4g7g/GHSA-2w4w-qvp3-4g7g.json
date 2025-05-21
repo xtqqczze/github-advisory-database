@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w4w-qvp3-4g7g",
-  "modified": "2025-05-21T15:30:33Z",
+  "modified": "2025-05-21T18:33:30Z",
   "published": "2025-05-21T15:30:33Z",
   "aliases": [
     "CVE-2025-48415"
   ],
   "details": "A USB backdoor feature can be triggered by attaching a USB drive that contains specially crafted \"salia.ini\" files. The .ini file can contain several \"commands\" that could be exploited by an attacker to export or modify the device configuration, enable an SSH backdoor  or perform other administrative actions. Ultimately, this backdoor also allows arbitrary execution of OS commands.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-749"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-21T13:16:02Z"
