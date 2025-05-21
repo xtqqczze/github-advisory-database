@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fhf-8ph3-pp6c",
-  "modified": "2022-10-04T00:00:19Z",
+  "modified": "2025-05-21T15:30:25Z",
   "published": "2022-09-28T00:00:18Z",
   "aliases": [
     "CVE-2021-27862"
@@ -38,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-130",
       "CWE-290"
     ],
     "severity": "MODERATE",
