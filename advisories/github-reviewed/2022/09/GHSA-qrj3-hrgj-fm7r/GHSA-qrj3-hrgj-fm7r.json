@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrj3-hrgj-fm7r",
-  "modified": "2022-09-30T04:39:38Z",
+  "modified": "2025-05-21T18:46:55Z",
   "published": "2022-09-27T00:00:17Z",
   "aliases": [
     "CVE-2022-3272"
   ],
   "summary": "rdiffweb's unlimited length email field can lead to DoS",
-  "details": "rdiffweb prior to 2.4.8 does not validate email length, allowing users to insert an email longer than 255 characters. If a user signs up with an email with a length of 1 million or more characters and logs in, withdraws, or changes their email, the server may cause denial of service due to overload. Version 2.4.8 sets length limits for username, email, and root directory.\n",
+  "details": "rdiffweb prior to 2.4.8 does not validate email length, allowing users to insert an email longer than 255 characters. If a user signs up with an email with a length of 1 million or more characters and logs in, withdraws, or changes their email, the server may cause denial of service due to overload. Version 2.4.8 sets length limits for username, email, and root directory.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -54,11 +54,13 @@
     },
     {
       "type": "WEB",
-      "url": "https://huntr.dev/bounties/733678b9-daa1-4d6a-875a-382fa09a6e38"
+      "url": "https://huntr.com/bounties/733678b9-daa1-4d6a-875a-382fa09a6e38"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-130"
+    ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2022-09-30T04:39:38Z",
