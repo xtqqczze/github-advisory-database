@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw46-3hmr-x9xv",
-  "modified": "2025-03-12T19:42:59Z",
+  "modified": "2025-05-22T17:13:51Z",
   "published": "2025-03-12T19:42:58Z",
   "aliases": [],
   "summary": "omniauth-saml has dependency on ruby-saml version with Signature Wrapping Attack issue",
@@ -90,6 +90,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/omniauth/omniauth-saml/blob/master/omniauth-saml.gemspec#L16"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/omniauth-saml/GHSA-hw46-3hmr-x9xv.yml"
     },
     {
       "type": "WEB",
