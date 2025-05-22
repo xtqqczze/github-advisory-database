@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vppg-gg96-53c9",
+  "modified": "2025-05-22T06:30:24Z",
+  "published": "2025-05-22T06:30:24Z",
+  "aliases": [
+    "CVE-2025-4133"
+  ],
+  "details": "The Blog2Social: Social Media Auto Post & Scheduler WordPress plugin before 8.4.0 does not escape the title of posts when outputting them in a dashboard, which could allow users with the contributor role to perform Cross-Site Scripting attacks.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/ebd7e5f5-af8d-42ca-b6ff-af92e03d4a3e"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-22T06:15:57Z"
+  }
+}
