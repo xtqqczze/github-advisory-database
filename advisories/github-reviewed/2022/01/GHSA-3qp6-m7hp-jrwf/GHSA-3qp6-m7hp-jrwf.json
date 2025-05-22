@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qp6-m7hp-jrwf",
-  "modified": "2022-01-07T23:39:42Z",
+  "modified": "2025-05-22T21:40:03Z",
   "published": "2022-01-08T00:46:21Z",
   "aliases": [
     "CVE-2021-36739"
   ],
   "summary": "Cross-site Scripting in Apache Pluto",
   "details": "The \"first name\" and \"last name\" fields of the Apache Pluto 3.1.0 MVCBean JSP portlet maven archetype are vulnerable to Cross-Site Scripting (XSS) attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [
     {
       "package": {
