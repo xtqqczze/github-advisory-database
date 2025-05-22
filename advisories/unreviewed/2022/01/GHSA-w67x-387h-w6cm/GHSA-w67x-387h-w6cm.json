@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w67x-387h-w6cm",
-  "modified": "2022-01-12T00:01:51Z",
+  "modified": "2025-05-22T21:30:31Z",
   "published": "2022-01-04T00:01:07Z",
   "aliases": [
     "CVE-2021-1918"
   ],
   "details": "Improper handling of resource allocation in virtual machines can lead to information exposure in Snapdragon Consumer IOT, Snapdragon Industrial IOT, Snapdragon Mobile",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

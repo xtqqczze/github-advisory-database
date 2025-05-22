@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jp54-39p3-825v",
-  "modified": "2024-04-04T02:38:39Z",
+  "modified": "2025-05-22T21:30:31Z",
   "published": "2022-05-24T17:00:41Z",
   "aliases": [
     "CVE-2019-13531"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-13531"
+    },
+    {
+      "type": "WEB",
+      "url": "https://global.medtronic.com/xg-en/product-security/security-bulletins/valleylab-generator-rfid-vulnerabilities.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-19-311-01"
     },
     {
       "type": "WEB",

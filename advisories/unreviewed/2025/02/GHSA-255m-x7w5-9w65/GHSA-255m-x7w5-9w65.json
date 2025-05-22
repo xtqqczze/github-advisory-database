@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-255m-x7w5-9w65",
-  "modified": "2025-02-06T06:31:26Z",
+  "modified": "2025-05-22T21:30:42Z",
   "published": "2025-02-06T06:31:26Z",
   "aliases": [
     "CVE-2024-51547"
@@ -26,10 +26,15 @@
     {
       "type": "WEB",
       "url": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108470A6775&LanguageCode=en&DocumentPartId=pdf%20-%20Public%20Advisory&Action=Launch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://search.abb.com/library/Download.aspx?DocumentID=9AKK108471A0021&LanguageCode=en&DocumentPartId=pdf&Action=Launch"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-312",
       "CWE-798"
     ],
     "severity": "CRITICAL",

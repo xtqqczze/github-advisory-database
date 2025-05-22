@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vhf-539p-8g5m",
-  "modified": "2022-01-14T00:03:16Z",
+  "modified": "2025-05-22T21:30:32Z",
   "published": "2022-01-04T00:00:23Z",
   "aliases": [
     "CVE-2021-39984"
   ],
   "details": "Huawei idap module has a Out-of-bounds Read vulnerability.Successful exploitation of this vulnerability may cause Denial of Service.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
