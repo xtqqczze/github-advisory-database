@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8qh-5c5w-48pp",
-  "modified": "2025-05-22T15:34:50Z",
+  "modified": "2025-05-22T18:31:15Z",
   "published": "2025-05-22T15:34:50Z",
   "aliases": [
     "CVE-2025-4575"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://openssl-library.org/news/secadv/20250522.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/05/22/1"
     }
   ],
   "database_specific": {

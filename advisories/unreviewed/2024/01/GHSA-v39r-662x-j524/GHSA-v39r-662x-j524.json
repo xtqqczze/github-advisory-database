@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v39r-662x-j524",
-  "modified": "2024-01-22T21:31:07Z",
+  "modified": "2025-05-22T18:31:11Z",
   "published": "2024-01-17T00:30:19Z",
   "aliases": [
     "CVE-2024-0517"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TNN4SO5UI3U3Q6ASTVT6WMZ4723FYDLH"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/out-of-bound-write-in-v8-javascript-engine-cve-2024-0517"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m8r-h264-rvx5",
-  "modified": "2024-01-23T18:31:11Z",
+  "modified": "2025-05-22T18:31:11Z",
   "published": "2024-01-16T18:31:10Z",
   "aliases": [
     "CVE-2024-0187"

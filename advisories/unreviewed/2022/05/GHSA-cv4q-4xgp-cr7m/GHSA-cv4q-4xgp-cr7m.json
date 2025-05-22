@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cv4q-4xgp-cr7m",
-  "modified": "2022-05-13T01:34:29Z",
+  "modified": "2025-05-22T18:31:09Z",
   "published": "2022-05-13T01:34:29Z",
   "aliases": [
     "CVE-2018-14781"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://global.medtronic.com/xg-en/product-security/security-bulletins/minimed.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSMA-18-219-02"
     },
     {
@@ -30,7 +34,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-287"
+      "CWE-287",
+      "CWE-294"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

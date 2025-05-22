@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7gxh-p4c9-cq3r",
-  "modified": "2022-05-13T01:32:08Z",
+  "modified": "2025-05-22T18:31:07Z",
   "published": "2022-05-13T01:32:08Z",
   "aliases": [
     "CVE-2018-5446"
@@ -21,11 +21,20 @@
     },
     {
       "type": "WEB",
+      "url": "https://global.medtronic.com/xg-en/product-security/security-bulletins/carelink-2090-29901.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSMA-18-058-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-18-058-01"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-257",
       "CWE-522"
     ],
     "severity": "MODERATE",
