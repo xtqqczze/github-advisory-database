@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7mj4-2984-955f",
-  "modified": "2024-03-21T16:00:53Z",
+  "modified": "2025-05-22T15:43:58Z",
   "published": "2022-05-14T01:57:26Z",
   "aliases": [
     "CVE-2018-18307"
@@ -45,6 +45,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/AlchemyCMS/alchemy_cms/blob/4.1-stable/app/controllers/alchemy/admin/resources_controller.rb#L21"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/alchemy_cms/CVE-2018-18307.yml"
     },
     {
       "type": "WEB",
