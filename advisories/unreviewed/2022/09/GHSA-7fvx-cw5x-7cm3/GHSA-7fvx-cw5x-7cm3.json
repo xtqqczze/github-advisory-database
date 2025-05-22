@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fvx-cw5x-7cm3",
-  "modified": "2022-09-29T00:00:21Z",
+  "modified": "2025-05-22T15:34:43Z",
   "published": "2022-09-27T00:00:20Z",
   "aliases": [
     "CVE-2022-40784"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-40784"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackmd.io/%40_zOX-PXQQFmCETA_RZIgow/BkOhIU1oc"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhgm-mxgh-gfpj",
-  "modified": "2025-05-21T18:33:26Z",
+  "modified": "2025-05-22T15:34:48Z",
   "published": "2025-05-18T00:30:27Z",
   "aliases": [
     "CVE-2025-4918"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2025-38"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-40"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-41"
     },
     {
       "type": "WEB",

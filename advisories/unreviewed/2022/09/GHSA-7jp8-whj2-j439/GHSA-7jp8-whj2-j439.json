@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jp8-whj2-j439",
-  "modified": "2022-09-28T00:00:26Z",
+  "modified": "2025-05-22T15:34:42Z",
   "published": "2022-09-27T00:00:19Z",
   "aliases": [
     "CVE-2022-3046"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://crbug.com/1346245"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/40060350"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/T4NMJURTG5RO3TGD7ZMIQ6Z4ZZ3SAVYE"
     },
     {
       "type": "WEB",

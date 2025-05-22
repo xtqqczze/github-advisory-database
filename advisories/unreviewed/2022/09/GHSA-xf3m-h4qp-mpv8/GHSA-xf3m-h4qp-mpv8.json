@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xf3m-h4qp-mpv8",
-  "modified": "2022-10-01T00:00:22Z",
+  "modified": "2025-05-22T15:34:43Z",
   "published": "2022-09-28T00:00:16Z",
   "aliases": [
     "CVE-2022-41604"

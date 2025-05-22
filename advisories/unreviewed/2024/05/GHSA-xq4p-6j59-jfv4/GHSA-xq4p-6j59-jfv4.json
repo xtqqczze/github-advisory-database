@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq4p-6j59-jfv4",
-  "modified": "2024-05-17T15:31:08Z",
+  "modified": "2025-05-22T15:34:44Z",
   "published": "2024-05-17T15:31:08Z",
   "aliases": [
     "CVE-2024-35790"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: typec: altmodes/displayport: create sysfs nodes as driver's default device attribute group\n\nThe DisplayPort driver's sysfs nodes may be present to the userspace before\ntypec_altmode_set_drvdata() completes in dp_altmode_probe. This means that\na sysfs read can trigger a NULL pointer error by deferencing dp->hpd in\nhpd_show or dp->lock in pin_assignment_show, as dev_get_drvdata() returns\nNULL in those cases.\n\nRemove manual sysfs node creation in favor of adding attribute group as\ndefault for devices bound to the driver. The ATTRIBUTE_GROUPS() macro is\nnot used here otherwise the path to the sysfs nodes is no longer compliant\nwith the ABI.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,11 +30,21 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4a22aeac24d0d5f26ba741408e8b5a4be6dc5dc0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9794ffd9d0c39ee070fbd733f862bbe89b28ba33"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f1c5ddaef506e3517dce338c08a60663b1521920"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-17T13:15:58Z"

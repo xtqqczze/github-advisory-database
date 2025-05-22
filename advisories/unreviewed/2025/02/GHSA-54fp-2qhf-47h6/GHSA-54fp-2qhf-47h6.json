@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-54fp-2qhf-47h6",
-  "modified": "2025-02-27T21:32:13Z",
+  "modified": "2025-05-22T15:34:46Z",
   "published": "2025-02-27T21:32:13Z",
   "aliases": [
     "CVE-2022-49168"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49168"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7170875083254b51fcc5d67f96640977083f481e"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h279-pjhh-9hgj",
-  "modified": "2025-05-20T18:30:56Z",
+  "modified": "2025-05-22T15:34:48Z",
   "published": "2025-05-20T18:30:56Z",
   "aliases": [
     "CVE-2025-37960"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37960"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7bcd29181bab8d508d2adfdbb132de8b1e088698"
     },
     {
       "type": "WEB",

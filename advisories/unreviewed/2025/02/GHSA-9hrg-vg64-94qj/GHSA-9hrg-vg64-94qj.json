@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hrg-vg64-94qj",
-  "modified": "2025-02-27T21:32:10Z",
+  "modified": "2025-05-22T15:34:46Z",
   "published": "2025-02-27T21:32:10Z",
   "aliases": [
     "CVE-2022-49063"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-49063"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/618df75f2e30c7838a3e010ca32cd4893ec9fe33"
     },
     {
       "type": "WEB",

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gfm6-h4jq-qp9r",
+  "modified": "2025-05-22T15:34:51Z",
+  "published": "2025-05-22T15:34:51Z",
+  "aliases": [
+    "CVE-2025-32814"
+  ],
+  "details": "An issue was discovered in Infoblox NETMRI before 7.6.1. Unauthenticated SQL Injection can occur.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32814"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.infoblox.com/s/article/Infoblox-NetMRI-is-vulnerable-to-CVE-2025-32814"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-22T15:16:04Z"
+  }
+}

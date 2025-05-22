@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-743f-m6p2-83h6",
-  "modified": "2025-01-21T15:31:03Z",
+  "modified": "2025-05-22T15:34:46Z",
   "published": "2025-01-21T15:31:03Z",
   "aliases": [
     "CVE-2024-57945"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-57945"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/92f08673d3f1893191323572f60e3c62f2e57c2f"
     },
     {
       "type": "WEB",

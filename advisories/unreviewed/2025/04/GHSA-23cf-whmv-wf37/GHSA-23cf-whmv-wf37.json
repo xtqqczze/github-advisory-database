@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23cf-whmv-wf37",
-  "modified": "2025-04-16T15:34:44Z",
+  "modified": "2025-05-22T15:34:46Z",
   "published": "2025-04-16T15:34:44Z",
   "aliases": [
     "CVE-2025-22102"
@@ -21,6 +21,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6749cf49eff7ce6dadcb603c5c8db70b28079a5d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a0a736d9857cadd87ae48b151d787e28954ea831"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d22496de5049d9b8f5b6d8623682a56b3c3d7e18"
     }
   ],
   "database_specific": {
