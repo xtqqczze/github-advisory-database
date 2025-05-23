@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rmm-8fp4-26hv",
-  "modified": "2024-04-24T18:12:56Z",
+  "modified": "2025-05-23T21:06:06Z",
   "published": "2022-05-14T02:08:57Z",
   "aliases": [
     "CVE-2016-5706"
@@ -81,6 +81,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/phpmyadmin/phpmyadmin/commit/4767f24ea4c1e3822ce71a636c341e8ad8d07aa6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/phpmyadmin/phpmyadmin/commit/805225a28c1428d7809e613c731c2126960e98df"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/phpmyadmin/phpmyadmin/commit/abb3685c8702de887988fee31a97ef4d80d856a1"
     },
     {
       "type": "PACKAGE",
