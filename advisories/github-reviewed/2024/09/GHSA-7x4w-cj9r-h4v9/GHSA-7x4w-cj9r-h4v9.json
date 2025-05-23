@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x4w-cj9r-h4v9",
-  "modified": "2024-09-18T15:48:29Z",
+  "modified": "2025-05-23T19:12:59Z",
   "published": "2024-09-18T15:47:07Z",
   "aliases": [],
   "summary": "Camaleon CMS vulnerable to remote code execution through code injection (GHSL-2024-185)",
@@ -49,6 +49,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/owen2345/camaleon-cms"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/camaleon_cms/GHSA-7x4w-cj9r-h4v9.yml"
     }
   ],
   "database_specific": {
