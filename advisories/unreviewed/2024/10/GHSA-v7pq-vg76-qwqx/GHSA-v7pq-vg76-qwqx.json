@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v7pq-vg76-qwqx",
-  "modified": "2024-10-30T15:30:46Z",
+  "modified": "2025-05-23T15:31:04Z",
   "published": "2024-10-29T03:31:06Z",
   "aliases": [
     "CVE-2024-50083"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/db04d1848777ae52a7ab93c4591e7c0bf8f55fb4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250523-0010"
     }
   ],
   "database_specific": {

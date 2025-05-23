@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqj4-fp95-jqxq",
-  "modified": "2025-05-21T00:30:23Z",
+  "modified": "2025-05-23T15:31:05Z",
   "published": "2025-02-10T18:30:46Z",
   "aliases": [
     "CVE-2024-12243"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00027.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250523-0002"
     }
   ],
   "database_specific": {

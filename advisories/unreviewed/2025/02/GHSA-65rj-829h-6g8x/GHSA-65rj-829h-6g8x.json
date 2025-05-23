@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65rj-829h-6g8x",
-  "modified": "2025-02-04T15:31:37Z",
+  "modified": "2025-05-23T15:31:05Z",
   "published": "2025-02-04T15:31:37Z",
   "aliases": [
     "CVE-2025-0825"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/yhirose/cpp-httplib/commit/9c36aae4b73e2b6e493f4133e4173103c9266289"
+    },
+    {
+      "type": "WEB",
+      "url": "https://advisory.checkmarx.net/advisory/CVE-2025-0825"
     }
   ],
   "database_specific": {

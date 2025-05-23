@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmg8-593g-7mv3",
-  "modified": "2025-04-18T18:34:17Z",
+  "modified": "2025-05-23T15:31:06Z",
   "published": "2025-04-09T12:30:24Z",
   "aliases": [
     "CVE-2025-31672"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/k14w8vcjqy4h34hh5kzldko78kpylkq5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20250523-0004"
     },
     {
       "type": "WEB",
