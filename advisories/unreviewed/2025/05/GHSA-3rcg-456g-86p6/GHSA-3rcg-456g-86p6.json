@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rcg-456g-86p6",
-  "modified": "2025-05-20T18:30:54Z",
+  "modified": "2025-05-24T21:30:29Z",
   "published": "2025-05-20T18:30:54Z",
   "aliases": [
     "CVE-2025-37899"
@@ -25,6 +25,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d5ec1d79509b3ee01de02c236f096bc050221b7f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=44081338"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sean.heelan.io/2025/05/22/how-i-used-o3-to-find-cve-2025-37899-a-remote-zeroday-vulnerability-in-the-linux-kernels-smb-implementation"
     }
   ],
   "database_specific": {
