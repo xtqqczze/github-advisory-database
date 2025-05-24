@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q9j-33vm-8375",
-  "modified": "2025-05-23T06:30:30Z",
+  "modified": "2025-05-24T03:30:19Z",
   "published": "2025-05-23T06:30:30Z",
   "aliases": [
     "CVE-2025-48708"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cgit.ghostscript.com/cgi-bin/cgit.cgi/ghostpdl.git/commit/?id=b587663c623b4462f9e78686a31fd880207303ee"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/05/23/2"
     }
   ],
   "database_specific": {

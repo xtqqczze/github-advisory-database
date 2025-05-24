@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcgh-pcrh-mfp2",
-  "modified": "2025-02-27T15:31:51Z",
+  "modified": "2025-05-24T03:30:18Z",
   "published": "2025-02-27T15:31:51Z",
   "aliases": [
     "CVE-2024-13402"
