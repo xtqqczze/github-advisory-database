@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x27-jwjr-8545",
-  "modified": "2025-05-05T21:53:44Z",
+  "modified": "2025-05-26T18:30:24Z",
   "published": "2025-05-01T13:59:51Z",
   "aliases": [
     "CVE-2025-46337"
@@ -58,6 +58,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ADOdb/ADOdb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00029.html"
     },
     {
       "type": "WEB",
