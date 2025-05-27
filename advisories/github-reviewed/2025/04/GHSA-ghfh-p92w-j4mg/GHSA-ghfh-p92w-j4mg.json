@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghfh-p92w-j4mg",
-  "modified": "2025-04-09T13:02:50Z",
+  "modified": "2025-05-27T17:48:19Z",
   "published": "2025-04-08T18:34:42Z",
   "aliases": [
     "CVE-2024-52980"
@@ -39,6 +39,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52980"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/elastic/elasticsearch/commit/4e5c6801f4d60f100f122072f6bf35b21fd722a5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/elastic/elasticsearch/commit/a02dc7165c75f12701f8d47a2bdefe5283735267"
     },
     {
       "type": "WEB",
