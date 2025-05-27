@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2r7j-vm47-9h8m",
-  "modified": "2022-05-24T17:31:27Z",
+  "modified": "2025-05-27T18:30:35Z",
   "published": "2022-05-24T17:31:27Z",
   "aliases": [
     "CVE-2020-14782"

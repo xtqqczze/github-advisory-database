@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv7q-j96c-5r6v",
-  "modified": "2025-05-27T15:31:27Z",
+  "modified": "2025-05-27T18:30:50Z",
   "published": "2025-05-27T15:31:27Z",
   "aliases": [
     "CVE-2025-5266"
   ],
   "details": "Script elements loading cross-origin resources generated load and error events which leaked information enabling XS-Leaks attacks. This vulnerability affects Firefox < 139 and Firefox ESR < 128.11.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-27T13:15:22Z"

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78f4-mrhm-jmvg",
-  "modified": "2024-04-15T12:30:35Z",
+  "modified": "2025-05-27T18:30:42Z",
   "published": "2024-04-15T12:30:35Z",
   "aliases": [
     "CVE-2024-31374"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in AppPresser Team AppPresser.This issue affects AppPresser: from n/a through 4.3.0.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in AppPresser Team AppPresser.This issue affects AppPresser: from n/a through 4.3.0.",
   "severity": [
     {
       "type": "CVSS_V3",

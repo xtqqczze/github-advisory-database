@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ppr6-rwxr-hfr8",
-  "modified": "2022-05-24T17:31:27Z",
+  "modified": "2025-05-27T18:30:35Z",
   "published": "2022-05-24T17:31:27Z",
   "aliases": [
     "CVE-2020-14779"
@@ -21,39 +21,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://lists.debian.org/debian-lts-announce/2020/10/msg00031.html"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/N6CJCO52DHIQJHLPF6HMTC5Z2VKFRQMY"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OMJMTXFJRONFT72YAEQNRFKYZZU4W3HD"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XKRGVMZT3EUUWKUA6DBT56FT3UOKPHQ2"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XVPLGNHNJ4UJ6IO6R2XXEKCTCI2DRPDQ"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YCKZAI4AWSKO5O5VDXHFFKNLOZGZ3KEE"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z7XEONOP6JB7SD7AMUWZTLZF2L4QD546"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.gentoo.org/glsa/202101-19"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20201023-0004"
+      "url": "https://www.oracle.com/security-alerts/cpuoct2020.html"
     },
     {
       "type": "WEB",
@@ -61,7 +29,63 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.oracle.com/security-alerts/cpuoct2020.html"
+      "url": "https://security.netapp.com/advisory/ntap-20201023-0004"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.gentoo.org/glsa/202101-19"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z7XEONOP6JB7SD7AMUWZTLZF2L4QD546"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YCKZAI4AWSKO5O5VDXHFFKNLOZGZ3KEE"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XVPLGNHNJ4UJ6IO6R2XXEKCTCI2DRPDQ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XKRGVMZT3EUUWKUA6DBT56FT3UOKPHQ2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OMJMTXFJRONFT72YAEQNRFKYZZU4W3HD"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/N6CJCO52DHIQJHLPF6HMTC5Z2VKFRQMY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/Z7XEONOP6JB7SD7AMUWZTLZF2L4QD546"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YCKZAI4AWSKO5O5VDXHFFKNLOZGZ3KEE"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XVPLGNHNJ4UJ6IO6R2XXEKCTCI2DRPDQ"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XKRGVMZT3EUUWKUA6DBT56FT3UOKPHQ2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/OMJMTXFJRONFT72YAEQNRFKYZZU4W3HD"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6CJCO52DHIQJHLPF6HMTC5Z2VKFRQMY"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2020/10/msg00031.html"
     },
     {
       "type": "WEB",

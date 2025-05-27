@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr9q-h9c7-xw8q",
-  "modified": "2025-05-27T18:26:23Z",
+  "modified": "2025-05-27T18:31:11Z",
   "published": "2025-02-27T18:27:49Z",
   "aliases": [
     "CVE-2025-23388"
@@ -116,7 +116,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/rancher/rancher/releases/tag/v2.10.3"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/rancher/rancher/releases/tag/v2.8.13"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rancher/rancher/releases/tag/v2.9.7"
     }
   ],
   "database_specific": {

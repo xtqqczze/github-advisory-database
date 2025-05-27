@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42h8-r672-w9r8",
-  "modified": "2022-05-24T17:14:16Z",
+  "modified": "2025-05-27T18:30:32Z",
   "published": "2022-05-24T17:14:16Z",
   "aliases": [
     "CVE-2020-6228"
   ],
   "details": "SAP Business Client, versions 6.5, 7.0, does not perform necessary integrity checks which could be exploited by an attacker under certain conditions to modify the installer.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-354"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
