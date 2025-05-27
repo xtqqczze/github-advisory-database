@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x2rq-mrc8-r79h",
-  "modified": "2022-09-25T00:00:15Z",
+  "modified": "2025-05-27T15:31:16Z",
   "published": "2022-09-25T00:00:15Z",
   "aliases": [
     "CVE-2022-37235"

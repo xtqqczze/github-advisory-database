@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5v8v-cp6r-mq7c",
-  "modified": "2022-09-27T00:00:20Z",
+  "modified": "2025-05-27T15:31:17Z",
   "published": "2022-09-25T00:00:27Z",
   "aliases": [
     "CVE-2022-41322"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/kovidgoyal/kitty/compare/v0.26.1...v0.26.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/47RK7MBSVY5BWDUTYMJUFPBAYFSWMTOI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6RRNAPU33PHEH64P77YL3AJO6CTZGHTX"
     },
     {
       "type": "WEB",
