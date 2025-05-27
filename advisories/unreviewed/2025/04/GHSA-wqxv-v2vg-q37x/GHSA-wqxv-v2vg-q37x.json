@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wqxv-v2vg-q37x",
-  "modified": "2025-05-05T15:30:53Z",
+  "modified": "2025-05-27T21:32:11Z",
   "published": "2025-04-25T18:31:12Z",
   "aliases": [
     "CVE-2025-3928"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-3928"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/alerts/2025/05/22/advisory-update-cyber-threat-activity-targeting-commvaults-saas-cloud-application-metallic"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.commvault.com/blogs/customer-security-update"
     },
     {
       "type": "WEB",

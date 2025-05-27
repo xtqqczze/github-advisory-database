@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m3gr-45jc-g2rp",
-  "modified": "2024-11-01T18:31:26Z",
+  "modified": "2025-05-27T21:32:09Z",
   "published": "2024-10-14T09:30:54Z",
   "aliases": [
     "CVE-2024-46911"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/6m0ghjo9j92qty00t2qb6qf2spds0p5t"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/10/12/1"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x37m-q3cw-3j2c",
-  "modified": "2025-05-27T18:30:51Z",
+  "modified": "2025-05-27T21:32:16Z",
   "published": "2025-05-27T18:30:51Z",
   "aliases": [
     "CVE-2025-27701"
   ],
   "details": "In the function process_crypto_cmd, the values of ptrs[i] can be potentially equal to NULL which is valid value after calling slice_map_array(). Later this values will be derefenced without prior NULL check, which can lead to local Temporary DoS or OOB Read, leading to information disclosure.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-27T16:15:31Z"
