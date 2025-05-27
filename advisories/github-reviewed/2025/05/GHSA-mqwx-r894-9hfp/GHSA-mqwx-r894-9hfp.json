@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqwx-r894-9hfp",
-  "modified": "2025-05-24T03:30:19Z",
+  "modified": "2025-05-27T18:04:16Z",
   "published": "2025-05-24T03:30:19Z",
   "aliases": [
     "CVE-2025-48752"
   ],
+  "summary": "Process Sync has a Potential Unsound Issue in SharedMutex",
   "details": "In the process-sync crate 0.2.2 for Rust, the drop function lacks a check for whether the pthread_mutex is unlocked.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "process-sync"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.2.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://crates.io/crates/process-sync"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/Forestryks/process-sync-rs"
     }
   ],
   "database_specific": {
@@ -33,8 +58,8 @@
       "CWE-416"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-05-27T18:04:16Z",
     "nvd_published_at": "2025-05-24T03:15:23Z"
   }
 }
