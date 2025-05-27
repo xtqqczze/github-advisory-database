@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-627p-rr78-99rj",
-  "modified": "2021-05-24T17:56:03Z",
+  "modified": "2025-05-27T15:54:45Z",
   "published": "2021-12-20T17:56:03Z",
   "aliases": [
     "CVE-2020-5415"
@@ -102,6 +102,44 @@
       "versions": [
         "6.3.0"
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/concourse/dex"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.0-20200730150203-821b48abfd88"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/concourse/concourse"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.0-20200730151558-b00d1c8d8576"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -122,7 +160,7 @@
     "cwe_ids": [
       "CWE-290"
     ],
-    "severity": "CRITICAL",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2021-05-24T17:56:03Z",
     "nvd_published_at": null
