@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h958-fxgg-g7w3",
-  "modified": "2025-03-03T20:10:59Z",
+  "modified": "2025-05-27T18:36:37Z",
   "published": "2025-03-03T20:10:59Z",
   "aliases": [
     "CVE-2024-42512"
@@ -43,6 +43,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42512"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OPCFoundation/UA-.NETStandard/commit/3543d0292556691f681e39145e2de4526b90487d"
     },
     {
       "type": "WEB",
