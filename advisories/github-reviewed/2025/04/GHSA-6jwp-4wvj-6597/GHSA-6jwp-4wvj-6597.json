@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6jwp-4wvj-6597",
-  "modified": "2025-04-18T18:08:15Z",
+  "modified": "2025-05-27T18:34:51Z",
   "published": "2025-04-01T09:30:20Z",
   "aliases": [
     "CVE-2024-56325"
@@ -22,7 +22,45 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.pinot:pinot"
+        "name": "org.apache.pinot:pinot-broker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.pinot:pinot-common"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.pinot:pinot-controller"
       },
       "ranges": [
         {
@@ -45,8 +83,20 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56325"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/apache/pinot/pull/14383"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/pinot/commit/1b87488aeaf4836e3ef25b426ebbf1ad5a68e68f"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/apache/pinot"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/pinot/releases/tag/release-1.3.0"
     },
     {
       "type": "WEB",
