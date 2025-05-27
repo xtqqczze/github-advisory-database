@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fff7-753p-rxwc",
-  "modified": "2023-09-01T21:30:59Z",
+  "modified": "2025-05-27T09:30:32Z",
   "published": "2023-09-01T21:30:59Z",
   "aliases": [
     "CVE-2023-4709"
@@ -11,6 +11,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
   "affected": [],
@@ -21,11 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://tdn.totvs.com/pages/releaseview.action?pageId=284462425#COMOAUMENTARASEGURAN%C3%87ADESUAAPLICA%C3%87%C3%83O-Reduziron%C3%ADveldedetalhamentodemensagensexibidasparaousu%C3%A1rio"
+    },
+    {
+      "type": "WEB",
       "url": "https://vuldb.com/?ctiid.238572"
     },
     {
       "type": "WEB",
       "url": "https://vuldb.com/?id.238572"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.196885"
     }
   ],
   "database_specific": {
