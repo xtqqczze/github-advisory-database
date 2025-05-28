@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q53q-gxq9-mgrj",
-  "modified": "2025-05-22T18:50:43Z",
+  "modified": "2025-05-28T19:46:07Z",
   "published": "2025-05-22T09:33:21Z",
   "aliases": [
     "CVE-2025-4123"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://grafana.com/security/security-advisories/cve-2025-4123"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3702"
     }
   ],
   "database_specific": {

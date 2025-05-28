@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg3g-gphw-5hhm",
-  "modified": "2025-05-22T20:08:31Z",
+  "modified": "2025-05-28T19:46:57Z",
   "published": "2025-05-22T20:08:31Z",
   "aliases": [
     "CVE-2025-48075"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/gofiber/fiber"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3706"
     }
   ],
   "database_specific": {
