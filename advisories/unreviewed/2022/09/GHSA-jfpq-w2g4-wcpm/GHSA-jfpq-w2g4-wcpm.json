@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jfpq-w2g4-wcpm",
-  "modified": "2022-09-23T00:00:35Z",
+  "modified": "2025-05-28T18:33:05Z",
   "published": "2022-09-22T00:00:32Z",
   "aliases": [
     "CVE-2022-41222"

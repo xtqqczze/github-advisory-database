@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2v5h-r74h-52p7",
-  "modified": "2025-05-26T21:30:31Z",
+  "modified": "2025-05-28T18:33:27Z",
   "published": "2025-05-26T21:30:31Z",
   "aliases": [
     "CVE-2025-5201"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/assimp/assimp/issues/6173"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/assimp/assimp/issues/6174"
     },
     {
       "type": "WEB",
