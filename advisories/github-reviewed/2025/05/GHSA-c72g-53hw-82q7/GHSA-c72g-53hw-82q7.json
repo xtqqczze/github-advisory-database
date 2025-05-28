@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c72g-53hw-82q7",
-  "modified": "2025-05-23T18:41:38Z",
+  "modified": "2025-05-28T19:47:26Z",
   "published": "2025-05-23T18:41:38Z",
   "aliases": [
     "CVE-2025-48371"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/openfga/openfga"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3707"
     }
   ],
   "database_specific": {
