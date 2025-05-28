@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78m4-4wrg-v443",
-  "modified": "2025-05-27T21:32:16Z",
+  "modified": "2025-05-28T15:34:29Z",
   "published": "2025-05-27T21:32:16Z",
   "aliases": [
     "CVE-2025-5065"
   ],
   "details": "Inappropriate implementation in FileSystemAccess API in Google Chrome prior to 137.0.7151.55 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-451"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-27T21:15:22Z"

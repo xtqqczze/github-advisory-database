@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36vw-58gr-fvfc",
-  "modified": "2022-05-24T17:18:57Z",
+  "modified": "2025-05-28T15:33:50Z",
   "published": "2022-05-24T17:18:57Z",
   "aliases": [
     "CVE-2019-11843"
   ],
   "details": "The MailPoet plugin before 3.23.2 for WordPress allows remote attackers to inject arbitrary web script or HTML using extra parameters in the URL (Reflective Server-Side XSS).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-79"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

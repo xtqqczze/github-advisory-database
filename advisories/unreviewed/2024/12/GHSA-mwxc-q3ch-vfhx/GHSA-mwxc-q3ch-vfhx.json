@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwxc-q3ch-vfhx",
-  "modified": "2024-12-19T21:31:11Z",
+  "modified": "2025-05-28T15:33:56Z",
   "published": "2024-12-19T21:31:11Z",
   "aliases": [
     "CVE-2024-7137"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://community.silabs.com/068Vm00000F9zre"
+    },
+    {
+      "type": "WEB",
+      "url": "https://community.silabs.com/068Vm00000I5mjD"
     }
   ],
   "database_specific": {
