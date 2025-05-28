@@ -1,17 +1,17 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-474f-cmx5-gm69",
-  "modified": "2025-05-28T20:12:08Z",
-  "published": "2022-05-24T19:09:46Z",
+  "id": "GHSA-4fx8-82f3-xcpc",
+  "modified": "2025-05-28T20:11:03Z",
+  "published": "2022-05-24T19:02:39Z",
   "aliases": [
-    "CVE-2021-33324"
+    "CVE-2021-29048"
   ],
-  "summary": "Liferay Portal and Liferay DXP Don't Check Permissions of Pages",
-  "details": "The Layout module in Liferay Portal 7.1.0 through 7.3.1, and Liferay DXP 7.1 before fix pack 20, and 7.2 before fix pack 5, does not properly check permission of pages, which allows remote authenticated users without view permission of a page to view the page via a site's page administration.",
+  "summary": "Liferay Portal and Liferay DXP Vulnerable to Cross-Site Scripting (XSS) in the Layout Admin Page",
+  "details": "Cross-site scripting (XSS) vulnerability in the Layout module's page administration page in Liferay Portal 7.3.4, 7.3.5 and Liferay DXP 7.2 before fix pack 11 and 7.3 before fix pack 1 allows remote attackers to inject arbitrary web script or HTML via the _com_liferay_layout_admin_web_portlet_GroupPagesPortlet_name parameter.",
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
   "affected": [
@@ -25,16 +25,16 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "7.1.0"
+              "introduced": "7.3.4"
             },
             {
-              "fixed": "7.3.2"
+              "fixed": "7.3.6"
             }
           ]
         }
       ],
       "database_specific": {
-        "last_known_affected_version_range": "<= 7.3.1"
+        "last_known_affected_version_range": "<= 7.3.5"
       }
     },
     {
@@ -50,7 +50,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "7.1.10.fp20"
+              "fixed": "7.2.10.fp11"
             }
           ]
         }
@@ -66,10 +66,10 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "7.2.0"
+              "introduced": "7.3.0"
             },
             {
-              "fixed": "7.2.10.fp5"
+              "fixed": "7.3.10.fp1"
             }
           ]
         }
@@ -79,7 +79,7 @@
   "references": [
     {
       "type": "ADVISORY",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-33324"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-29048"
     },
     {
       "type": "PACKAGE",
@@ -87,24 +87,24 @@
     },
     {
       "type": "WEB",
-      "url": "https://issues.liferay.com/browse/LPE-17001"
+      "url": "https://portal.liferay.dev/learn/security/known-vulnerabilities/-/asset_publisher/HbL5mxmVrnXW/content/id/120743601"
     },
     {
       "type": "WEB",
-      "url": "https://portal.liferay.dev/learn/security/known-vulnerabilities/-/asset_publisher/HbL5mxmVrnXW/content/id/120747063"
+      "url": "https://web.archive.org/web/20210524222536/https://portal.liferay.dev/learn/security/known-vulnerabilities/-/asset_publisher/HbL5mxmVrnXW/content/id/120743601"
     },
     {
       "type": "WEB",
-      "url": "https://web.archive.org/web/20220828222955/https://portal.liferay.dev/learn/security/known-vulnerabilities/-/asset_publisher/HbL5mxmVrnXW/content/id/120747063"
+      "url": "http://liferay.com"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-276"
+      "CWE-79"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
-    "github_reviewed_at": "2025-05-28T20:08:55Z",
-    "nvd_published_at": "2021-08-03T19:15:00Z"
+    "github_reviewed_at": "2025-05-28T20:11:03Z",
+    "nvd_published_at": "2021-05-17T12:15:00Z"
   }
 }
