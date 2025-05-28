@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vrx-9684-xrf2",
-  "modified": "2025-05-08T14:53:02Z",
+  "modified": "2025-05-28T21:45:30Z",
   "published": "2025-05-08T00:31:12Z",
   "aliases": [
     "CVE-2025-35939"
@@ -82,6 +82,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/craftcms/cms/releases/tag/5.7.5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/IT/white/2025/va-25-147-01.json"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2025-35939"
     }
   ],
   "database_specific": {
