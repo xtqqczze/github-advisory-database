@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g88v-2j67-9rmx",
-  "modified": "2025-05-27T18:00:48Z",
+  "modified": "2025-05-28T14:29:46Z",
   "published": "2025-05-27T18:00:48Z",
   "aliases": [
     "CVE-2025-48382"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:U/"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:U"
     }
   ],
   "affected": [
