@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9gf-g5jq-9h3v",
-  "modified": "2025-01-27T22:57:20Z",
+  "modified": "2025-05-28T21:43:57Z",
   "published": "2025-01-22T00:33:36Z",
   "aliases": [
     "CVE-2024-45479"
@@ -55,7 +55,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-918"
     ],
     "severity": "CRITICAL",
     "github_reviewed": true,
