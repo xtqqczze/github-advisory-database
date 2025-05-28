@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-536r-2xvj-w9h5",
-  "modified": "2025-04-04T18:30:53Z",
+  "modified": "2025-05-28T21:30:33Z",
   "published": "2025-04-03T21:32:59Z",
   "aliases": [
     "CVE-2025-26817"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.netwrix.com/advisories/adv-2025-009"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.8com.de/cyber-security-blog/authenticated-remote-code-execution-in-netwrix-password-secure-cve-2025-26817"
     }
   ],
   "database_specific": {

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jwg9-66jx-hjp3",
-  "modified": "2024-03-25T12:30:52Z",
+  "modified": "2025-05-28T21:30:27Z",
   "published": "2024-03-25T12:30:52Z",
   "aliases": [
     "CVE-2024-2864"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in KaineLabs Youzify - Buddypress Moderation.This issue affects Youzify - Buddypress Moderation: from n/a through 1.2.5.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in KaineLabs Youzify - Buddypress Moderation.This issue affects Youzify - Buddypress Moderation: from n/a through 1.2.5.",
   "severity": [
     {
       "type": "CVSS_V3",

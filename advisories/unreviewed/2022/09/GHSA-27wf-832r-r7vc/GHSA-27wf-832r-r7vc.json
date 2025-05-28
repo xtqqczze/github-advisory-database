@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27wf-832r-r7vc",
-  "modified": "2022-09-25T00:00:15Z",
+  "modified": "2025-05-28T21:30:27Z",
   "published": "2022-09-21T00:00:39Z",
   "aliases": [
     "CVE-2022-40250"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-121",
       "CWE-787"
     ],
     "severity": "HIGH",
