@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8r88-6cj9-9fh5",
-  "modified": "2025-05-27T18:00:17Z",
+  "modified": "2025-05-28T19:42:23Z",
   "published": "2025-05-27T18:00:17Z",
   "aliases": [
     "CVE-2025-48370"
@@ -41,6 +41,10 @@
       "url": "https://github.com/supabase/auth-js/security/advisories/GHSA-8r88-6cj9-9fh5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48370"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/supabase/auth-js/pull/1063"
     },
@@ -60,6 +64,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-05-27T18:00:17Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-05-27T16:15:32Z"
   }
 }
