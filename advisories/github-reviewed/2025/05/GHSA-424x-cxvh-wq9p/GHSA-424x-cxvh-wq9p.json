@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-424x-cxvh-wq9p",
-  "modified": "2025-05-28T17:38:46Z",
+  "modified": "2025-05-28T20:08:12Z",
   "published": "2025-05-28T17:38:46Z",
   "aliases": [
     "CVE-2024-47057"
@@ -79,17 +79,22 @@
       "url": "https://github.com/mautic/mautic/security/advisories/GHSA-424x-cxvh-wq9p"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47057"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/mautic/mautic"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-203",
       "CWE-204"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-05-28T17:38:46Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-05-28T18:15:25Z"
   }
 }
