@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-ppfq-jg49-mqj4",
+  "modified": "2025-05-28T09:31:26Z",
+  "published": "2025-05-28T09:31:26Z",
+  "aliases": [
+    "CVE-2025-4947"
+  ],
+  "details": "libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hackerone.com/reports/3150884"
+    },
+    {
+      "type": "WEB",
+      "url": "https://curl.se/docs/CVE-2025-4947.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://curl.se/docs/CVE-2025-4947.json"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/05/28/4"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-28T07:15:24Z"
+  }
+}
