@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c429-5p7v-vgjp",
-  "modified": "2025-05-28T19:34:26Z",
+  "modified": "2025-05-28T19:35:05Z",
   "published": "2022-09-25T00:00:27Z",
   "aliases": [
     "CVE-2020-36604"
@@ -89,10 +89,6 @@
     {
       "type": "WEB",
       "url": "https://github.com/hapijs/hoek/commit/948baf98634a5c206875b67d11368f133034fa90"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.snyk.io/vuln/SNYK-JS-HAPIHOEK-548452%29"
     }
   ],
   "database_specific": {
