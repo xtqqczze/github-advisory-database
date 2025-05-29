@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cx3-6m66-7c5m",
-  "modified": "2025-05-23T17:00:56Z",
+  "modified": "2025-05-29T06:31:17Z",
   "published": "2025-05-16T14:12:40Z",
   "aliases": [
     "CVE-2025-47287"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/tornadoweb/tornado"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00038.html"
     }
   ],
   "database_specific": {
