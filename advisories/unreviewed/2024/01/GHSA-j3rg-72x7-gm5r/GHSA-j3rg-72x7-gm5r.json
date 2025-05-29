@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3rg-72x7-gm5r",
-  "modified": "2024-01-30T18:30:20Z",
+  "modified": "2025-05-29T15:31:04Z",
   "published": "2024-01-30T18:30:20Z",
   "aliases": [
     "CVE-2023-37518"
   ],
-  "details": "HCL BigFix ServiceNow is vulnerable to arbitrary code injection.  A malicious authorized attacker could inject arbitrary code and execute within the context of the running user.\n",
+  "details": "HCL BigFix ServiceNow is vulnerable to arbitrary code injection.  A malicious authorized attacker could inject arbitrary code and execute within the context of the running user.",
   "severity": [
     {
       "type": "CVSS_V3",

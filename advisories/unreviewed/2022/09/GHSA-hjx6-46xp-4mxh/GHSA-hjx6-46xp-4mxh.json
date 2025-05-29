@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjx6-46xp-4mxh",
-  "modified": "2022-09-23T00:00:34Z",
+  "modified": "2025-05-29T15:31:03Z",
   "published": "2022-09-21T00:00:33Z",
   "aliases": [
     "CVE-2022-32908"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2022/Oct/28"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Oct/39"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4f3-8wwc-j9x2",
-  "modified": "2025-01-14T18:32:02Z",
+  "modified": "2025-05-29T15:31:06Z",
   "published": "2025-01-14T18:32:02Z",
   "aliases": [
     "CVE-2025-21224"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21224"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-21224-remote-code-execution-vulnerability-in-windows-line-printer-daemon-service-detection-script"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-21224-remote-code-execution-vulnerability-in-windows-line-printer-daemon-service-mitigation-script"
     }
   ],
   "database_specific": {

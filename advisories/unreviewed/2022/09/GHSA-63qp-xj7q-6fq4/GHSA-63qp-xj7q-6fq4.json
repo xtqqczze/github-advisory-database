@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-63qp-xj7q-6fq4",
-  "modified": "2022-09-23T00:00:34Z",
+  "modified": "2025-05-29T15:31:03Z",
   "published": "2022-09-21T00:00:33Z",
   "aliases": [
     "CVE-2022-32911"
@@ -49,11 +49,21 @@
     },
     {
       "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Oct/28"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Oct/39"
+    },
+    {
+      "type": "WEB",
       "url": "http://seclists.org/fulldisclosure/2022/Oct/41"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-787"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

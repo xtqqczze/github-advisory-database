@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44fv-7jv8-5cpp",
-  "modified": "2024-07-24T18:31:10Z",
+  "modified": "2025-05-29T15:31:02Z",
   "published": "2022-05-14T02:32:18Z",
   "aliases": [
     "CVE-2014-1776"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://technet.microsoft.com/library/security/2963983"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2014-1776-use-after-free-vulnerability-in-microsoft-internet-explorer-detection-script"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2014-1776-use-after-free-vulnerability-in-microsoft-internet-explorer-mitigation-scripts"
     },
     {
       "type": "WEB",

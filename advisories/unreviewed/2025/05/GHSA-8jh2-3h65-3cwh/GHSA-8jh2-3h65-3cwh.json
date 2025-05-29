@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8jh2-3h65-3cwh",
+  "modified": "2025-05-29T15:31:09Z",
+  "published": "2025-05-29T15:31:09Z",
+  "aliases": [
+    "CVE-2025-37998"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nopenvswitch: Fix unsafe attribute parsing in output_userspace()\n\nThis patch replaces the manual Netlink attribute iteration in\noutput_userspace() with nla_for_each_nested(), which ensures that only\nwell-formed attributes are processed.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37998"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0236742bd959332181c1fcc41a05b7b709180501"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/47f7f00cf2fa3137d5c0416ef1a71bdf77901395"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4fa672cbce9c86c3efb8621df1ae580d47813430"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6beb6835c1fbb3f676aebb51a5fee6b77fed9308"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/bca8df998cce1fead8cbc69144862eadc2e34c87"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ec334aaab74705cc515205e1da3cb369fdfd93cd"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-29T14:15:36Z"
+  }
+}

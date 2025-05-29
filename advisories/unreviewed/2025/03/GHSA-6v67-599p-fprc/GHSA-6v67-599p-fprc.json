@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6v67-599p-fprc",
-  "modified": "2025-04-27T09:30:34Z",
+  "modified": "2025-05-29T15:31:06Z",
   "published": "2025-03-11T18:32:17Z",
   "aliases": [
     "CVE-2025-24054"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24054"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-24054-spoofing-vulnerability-in-windows-ntlm-by-microsoft-detection-script"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-24054-spoofing-vulnerability-in-windows-ntlm-by-microsoft-mitigation-script"
     },
     {
       "type": "WEB",
