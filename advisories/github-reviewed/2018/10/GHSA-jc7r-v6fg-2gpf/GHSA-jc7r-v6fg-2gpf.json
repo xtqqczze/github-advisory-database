@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc7r-v6fg-2gpf",
-  "modified": "2023-12-21T23:08:51Z",
+  "modified": "2025-05-29T17:42:39Z",
   "published": "2018-10-19T16:40:01Z",
   "aliases": [
     "CVE-2018-8039"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.cxf:cxf"
+        "name": "org.apache.cxf:cxf-rt-transports-http"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.cxf:cxf"
+        "name": "org.apache.cxf:cxf-rt-transports-http"
       },
       "ranges": [
         {
