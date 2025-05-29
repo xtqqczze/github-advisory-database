@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65wf-c9wx-f4v7",
-  "modified": "2025-04-14T15:31:59Z",
+  "modified": "2025-05-29T09:30:59Z",
   "published": "2025-04-14T15:31:59Z",
   "aliases": [
     "CVE-2025-32910"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32910"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:8292"
     },
     {
       "type": "WEB",

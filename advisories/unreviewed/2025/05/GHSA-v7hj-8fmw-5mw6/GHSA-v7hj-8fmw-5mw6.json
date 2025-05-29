@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v7hj-8fmw-5mw6",
-  "modified": "2025-05-25T12:30:24Z",
+  "modified": "2025-05-29T09:31:00Z",
   "published": "2025-05-25T12:30:24Z",
   "aliases": [
     "CVE-2025-5147"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://anonymous.4open.science/r/netcore_command_injection3-54DFaW2G"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Exploo0Osion/netcore_command_injection_3"
     },
     {
       "type": "WEB",
