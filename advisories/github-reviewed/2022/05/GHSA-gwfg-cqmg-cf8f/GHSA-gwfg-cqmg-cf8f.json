@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwfg-cqmg-cf8f",
-  "modified": "2024-04-22T18:54:31Z",
+  "modified": "2025-05-29T23:03:56Z",
   "published": "2022-05-24T17:30:10Z",
   "aliases": [
     "CVE-2020-25613"
@@ -25,10 +25,54 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.6.0"
             },
             {
               "fixed": "1.6.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.6.0"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "webrick"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.5.0"
+            },
+            {
+              "fixed": "1.5.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "1.5.0"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "webrick"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.4"
             }
           ]
         }
@@ -46,7 +90,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/ruby/webrick/commit/7618049fa57ddad2efff2a7bc7dad7d2d8a311b1"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/ruby/webrick/commit/8946bb38b4d87549f0d99ed73c62c41933f97cc7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ruby/webrick/commit/af2efdcdf826f25592202d187c53963e7932e4b9"
     },
     {
       "type": "WEB",
