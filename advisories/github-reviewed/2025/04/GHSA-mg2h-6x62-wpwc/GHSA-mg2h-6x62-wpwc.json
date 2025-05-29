@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mg2h-6x62-wpwc",
-  "modified": "2025-04-29T20:27:53Z",
+  "modified": "2025-05-29T21:04:54Z",
   "published": "2025-04-18T15:02:41Z",
   "aliases": [
     "CVE-2025-32442"
@@ -47,16 +47,16 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.9.0"
+              "introduced": "4.29.0"
             },
             {
-              "fixed": "4.9.1"
+              "fixed": "4.29.1"
             }
           ]
         }
       ],
       "versions": [
-        "4.9.0"
+        "4.29.0"
       ]
     }
   ],
