@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-84x2-p8rx-5q4g",
+  "modified": "2025-05-30T03:30:32Z",
+  "published": "2025-05-30T03:30:32Z",
+  "aliases": [
+    "CVE-2025-44619"
+  ],
+  "details": "Tinxy WiFi Lock Controller v1 RF was discovered to be configured to transmit on an open Wi-Fi network, allowing attackers to join the network without authentication.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-44619"
+    },
+    {
+      "type": "WEB",
+      "url": "http://tinxy.com"
+    },
+    {
+      "type": "WEB",
+      "url": "http://wifi.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-05-30T03:15:20Z"
+  }
+}
