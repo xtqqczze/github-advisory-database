@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h59p-5475-hhmr",
-  "modified": "2024-01-30T00:30:29Z",
+  "modified": "2025-05-30T15:30:23Z",
   "published": "2024-01-23T15:30:57Z",
   "aliases": [
     "CVE-2024-0741"

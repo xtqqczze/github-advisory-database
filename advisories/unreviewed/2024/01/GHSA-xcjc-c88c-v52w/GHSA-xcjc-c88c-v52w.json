@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcjc-c88c-v52w",
-  "modified": "2024-03-28T21:30:31Z",
+  "modified": "2025-05-30T15:30:22Z",
   "published": "2024-01-22T15:30:23Z",
   "aliases": [
     "CVE-2020-36772"
   ],
-  "details": "CloudLinux\n CageFS 7.0.8-2 or below insufficiently restricts file paths supplied to\n the sendmail proxy command. This allows local users to read and write \narbitrary files outside the CageFS environment in a limited way.\n",
+  "details": "CloudLinux\n CageFS 7.0.8-2 or below insufficiently restricts file paths supplied to\n the sendmail proxy command. This allows local users to read and write \narbitrary files outside the CageFS environment in a limited way.",
   "severity": [
     {
       "type": "CVSS_V3",
