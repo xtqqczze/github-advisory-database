@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w829-6hpw-frjf",
-  "modified": "2022-07-29T00:00:49Z",
+  "modified": "2025-05-30T21:30:53Z",
   "published": "2022-05-24T16:55:26Z",
   "aliases": [
     "CVE-2019-15903"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/libexpat/libexpat/commit/c20b758c332d9a13afbbb276d30db1d183a85d43"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2019:3210"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20190926-0004"
     },
     {
       "type": "WEB",
@@ -109,10 +117,6 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2019:3210"
-    },
-    {
-      "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2019:3237"
     },
     {
@@ -126,6 +130,18 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2019/11/msg00017.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/A4TZKPJFTURRLXIGLB34WVKQ5HGY6JJA"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BDUTI5TVQWIGGQXPEVI4T2ENHFSBMIBP"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/S26LGXXQ7YF2BP3RGOWELBFKM6BHF6UG"
     },
     {
       "type": "WEB",
@@ -174,10 +190,6 @@
     {
       "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201911-08"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20190926-0004"
     },
     {
       "type": "WEB",
