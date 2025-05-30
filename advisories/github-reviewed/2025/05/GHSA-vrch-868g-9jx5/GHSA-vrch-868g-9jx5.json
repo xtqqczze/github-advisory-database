@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrch-868g-9jx5",
-  "modified": "2025-05-28T14:25:10Z",
+  "modified": "2025-05-30T15:17:40Z",
   "published": "2025-05-28T14:25:09Z",
   "aliases": [
     "CVE-2025-47952"
@@ -85,6 +85,10 @@
       "url": "https://github.com/traefik/traefik/security/advisories/GHSA-vrch-868g-9jx5"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47952"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/traefik/traefik/commit/08d5dfee0164aa54dd44a467870042e18e8d3f00"
     },
@@ -108,6 +112,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-05-28T14:25:09Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-05-30T04:15:46Z"
   }
 }
