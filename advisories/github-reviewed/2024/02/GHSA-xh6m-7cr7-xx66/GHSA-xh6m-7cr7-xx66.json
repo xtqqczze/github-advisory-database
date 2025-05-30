@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh6m-7cr7-xx66",
-  "modified": "2024-12-02T20:29:03Z",
+  "modified": "2025-05-30T12:36:04Z",
   "published": "2024-02-27T21:54:15Z",
   "aliases": [
     "CVE-2023-45859"
   ],
   "summary": "Missing permission checks on Hazelcast client protocol",
-  "details": "### Impact\nIn Hazelcast through 4.1.10, 4.2 through 4.2.8, 5.0 through 5.0.5, 5.1 through 5.1.7, 5.2 through 5.2.4, and 5.3 through 5.3.2, some client operations don't check permissions properly, allowing authenticated users to access data stored in the cluster.\n\n### Patches\nFix versions: 5.2.5, 5.3.5, 5.4.0-BETA-1\n\n### Workarounds\nThere is no known workaround.\n",
+  "details": "### Impact\nIn Hazelcast through 4.1.10, 4.2 through 4.2.8, 5.0 through 5.0.5, 5.1 through 5.1.7, 5.2 through 5.2.4, and 5.3 through 5.3.2, some client operations don't check permissions properly, allowing authenticated users to access data stored in the cluster.\n\n### Patches\nFix versions: 5.2.5, 5.3.5, 5.4.0-BETA-1\n\n### Workarounds\nThere is no known workaround.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -127,6 +127,44 @@
             },
             {
               "fixed": "5.3.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.hazelcast:hazelcast-all"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "4.1.10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.hazelcast:hazelcast-all"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.2"
+            },
+            {
+              "last_affected": "4.2.8"
             }
           ]
         }
