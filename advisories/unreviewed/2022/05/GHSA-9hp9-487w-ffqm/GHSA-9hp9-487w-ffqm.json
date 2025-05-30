@@ -1,18 +1,27 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hp9-487w-ffqm",
-  "modified": "2022-05-24T19:06:32Z",
+  "modified": "2025-05-30T18:30:40Z",
   "published": "2022-05-24T19:06:32Z",
   "aliases": [
     "CVE-2021-31531"
   ],
   "details": "Zoho ManageEngine ServiceDesk Plus MSP before 10521 is vulnerable to Server-Side Request Forgery (SSRF).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-31531"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cds.thalesgroup.com/en/tcs-cert/CVE-2021-31531"
     },
     {
       "type": "WEB",

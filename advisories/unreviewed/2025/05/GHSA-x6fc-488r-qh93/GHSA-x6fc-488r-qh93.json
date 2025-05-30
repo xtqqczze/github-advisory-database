@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6fc-488r-qh93",
-  "modified": "2025-05-28T18:33:29Z",
+  "modified": "2025-05-30T18:31:01Z",
   "published": "2025-05-28T18:33:29Z",
   "aliases": [
     "CVE-2025-47748"
   ],
   "details": "Netwrix Directory Manager v.11.0.0.0 and before & after v.11.1.25134.03 contains a hardcoded password.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-259"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-28T18:15:27Z"

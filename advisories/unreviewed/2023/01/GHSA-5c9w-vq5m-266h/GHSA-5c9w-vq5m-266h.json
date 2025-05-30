@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5c9w-vq5m-266h",
-  "modified": "2023-01-13T15:30:26Z",
+  "modified": "2025-05-30T18:30:45Z",
   "published": "2023-01-10T21:30:27Z",
   "aliases": [
     "CVE-2022-36443"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-36443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cds.thalesgroup.com/en/tcs-cert/CVE-2022-36443"
     },
     {
       "type": "WEB",

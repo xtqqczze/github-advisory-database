@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7gg-q7qj-3r2r",
-  "modified": "2024-03-11T15:31:24Z",
+  "modified": "2025-05-30T18:30:51Z",
   "published": "2024-03-04T18:30:39Z",
   "aliases": [
     "CVE-2024-27199"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27199"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Stuub/RCity-CVE-2024-27198/blob/main/RCity.py"
     },
     {
       "type": "WEB",

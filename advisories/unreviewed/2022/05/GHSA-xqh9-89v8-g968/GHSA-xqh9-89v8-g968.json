@@ -1,18 +1,27 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqh9-89v8-g968",
-  "modified": "2022-05-24T17:33:09Z",
+  "modified": "2025-05-30T18:30:38Z",
   "published": "2022-05-24T17:33:09Z",
   "aliases": [
     "CVE-2020-26167"
   ],
   "details": "In FUEL CMS 11.4.12 and before, the page preview feature allows an anonymous user to take complete ownership of any account including an administrator one.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-26167"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cds.thalesgroup.com/en/tcs-cert/CVE-2020-26167"
     },
     {
       "type": "WEB",

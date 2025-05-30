@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccr5-qp85-4v82",
-  "modified": "2022-07-13T00:01:42Z",
+  "modified": "2025-05-30T18:30:40Z",
   "published": "2022-05-24T19:20:16Z",
   "aliases": [
     "CVE-2021-42111"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42111"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cds.thalesgroup.com/en/tcs-cert/CVE-2021-42111"
     },
     {
       "type": "WEB",

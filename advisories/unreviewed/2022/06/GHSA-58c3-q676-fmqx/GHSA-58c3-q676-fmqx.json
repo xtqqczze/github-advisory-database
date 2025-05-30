@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58c3-q676-fmqx",
-  "modified": "2022-06-10T00:00:53Z",
+  "modified": "2025-05-30T18:30:43Z",
   "published": "2022-06-03T00:01:02Z",
   "aliases": [
     "CVE-2022-24967"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blackrainbow.com/corporate"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cds.thalesgroup.com/en/tcs-cert/CVE-2022-24967"
     },
     {
       "type": "WEB",
