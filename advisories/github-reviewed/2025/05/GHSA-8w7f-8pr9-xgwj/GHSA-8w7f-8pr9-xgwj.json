@@ -1,23 +1,48 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8w7f-8pr9-xgwj",
-  "modified": "2025-05-30T09:30:27Z",
+  "modified": "2025-05-30T15:25:31Z",
   "published": "2025-05-30T09:30:27Z",
   "aliases": [
     "CVE-2025-48912"
   ],
+  "summary": "Apache Superset: Improper authorization bypass on row level security via SQL Injection",
   "details": "An authenticated malicious actor using specially crafted requests could bypass row level security configuration by injecting SQL into 'sqlExpression' fields. This allowed the execution of sub-queries to evade parsing defenses ultimately granting unauthorized access to data.\n\nThis issue affects Apache Superset: before 4.1.2.\n\nUsers are recommended to upgrade to version 4.1.2, which fixes the issue.",
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "apache-superset"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.1.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48912"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/apache/superset"
     },
     {
       "type": "WEB",
@@ -29,8 +54,8 @@
       "CWE-89"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-05-30T15:25:31Z",
     "nvd_published_at": "2025-05-30T09:15:25Z"
   }
 }

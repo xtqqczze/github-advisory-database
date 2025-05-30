@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93m4-mfpg-c3xf",
-  "modified": "2025-05-29T21:07:48Z",
+  "modified": "2025-05-30T15:26:11Z",
   "published": "2025-05-28T17:36:55Z",
   "aliases": [
     "CVE-2025-48936"
@@ -120,6 +120,10 @@
       "url": "https://github.com/zitadel/zitadel/security/advisories/GHSA-93m4-mfpg-c3xf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48936"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/zitadel/zitadel/commit/c097887bc5f680e12c998580fb56d98a15758f53"
     },
@@ -135,6 +139,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-05-28T17:36:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-05-30T07:15:24Z"
   }
 }
