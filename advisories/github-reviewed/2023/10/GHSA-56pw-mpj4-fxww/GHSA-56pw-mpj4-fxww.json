@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56pw-mpj4-fxww",
-  "modified": "2023-10-05T00:06:58Z",
+  "modified": "2025-05-30T15:32:54Z",
   "published": "2023-10-05T00:06:58Z",
+  "withdrawn": "2025-05-30T15:32:54Z",
   "aliases": [],
-  "summary": "Bundled libwebp in Pillow vulnerable",
-  "details": "Pillow versions before v10.0.1 bundled libwebp binaries in wheels that are vulnerable to CVE-2023-5129 (previously CVE-2023-4863). Pillow v10.0.1 upgrades the bundled libwebp binary to v1.3.2.",
+  "summary": "Duplicate Advisory: Bundled libwebp in Pillow vulnerable",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-56pw-mpj4-fxww. This link is maintained to preserve external references.\n\n## Original Description\nPillow versions before v10.0.1 bundled libwebp binaries in wheels that are vulnerable to CVE-2023-5129 (previously CVE-2023-4863). Pillow v10.0.1 upgrades the bundled libwebp binary to v1.3.2.",
   "severity": [],
   "affected": [
     {
