@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw25-rj5h-xh7p",
-  "modified": "2025-05-30T03:30:31Z",
+  "modified": "2025-05-31T00:30:28Z",
   "published": "2025-05-30T03:30:31Z",
   "aliases": [
     "CVE-2025-44612"
   ],
   "details": "Tinxy WiFi Lock Controller v1 RF was discovered to transmit sensitive information in plaintext, including control information and device credentials, allowing attackers to possibly intercept and access sensitive information via a man-in-the-middle attack.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-319"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-05-30T03:15:20Z"
