@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvrr-8f7c-7346",
-  "modified": "2024-10-31T00:30:36Z",
+  "modified": "2025-05-31T09:30:29Z",
   "published": "2024-10-28T00:30:49Z",
   "aliases": [
     "CVE-2024-50624"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://kde.org/announcements/megarelease/6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00048.html"
     }
   ],
   "database_specific": {
