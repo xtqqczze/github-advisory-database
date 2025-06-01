@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j84v-78j2-55gh",
-  "modified": "2025-05-28T15:34:29Z",
+  "modified": "2025-06-01T00:30:32Z",
   "published": "2025-05-27T21:32:18Z",
   "aliases": [
     "CVE-2025-5283"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://issues.chromium.org/issues/419467315"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00052.html"
     }
   ],
   "database_specific": {
