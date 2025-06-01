@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5v8v-cp6r-mq7c",
-  "modified": "2025-05-27T15:31:17Z",
+  "modified": "2025-06-01T12:30:24Z",
   "published": "2022-09-25T00:00:27Z",
   "aliases": [
     "CVE-2022-41322"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/kovidgoyal/kitty/compare/v0.26.1...v0.26.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00000.html"
     },
     {
       "type": "WEB",
