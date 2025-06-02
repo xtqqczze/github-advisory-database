@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grw9-xhr2-wcp3",
-  "modified": "2024-01-23T18:31:11Z",
+  "modified": "2025-06-02T18:30:26Z",
   "published": "2024-01-16T18:31:09Z",
   "aliases": [
     "CVE-2023-0079"

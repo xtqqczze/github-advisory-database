@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j8w-wwqc-x596",
-  "modified": "2025-06-02T15:31:21Z",
+  "modified": "2025-06-02T18:30:43Z",
   "published": "2025-06-02T06:30:32Z",
   "aliases": [
     "CVE-2025-49113"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://roundcube.net/news/2025/06/01/security-updates-1.6.11-and-1.5.10"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/06/02/3"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6m5p-5ccp-c8p3",
-  "modified": "2024-04-04T07:35:55Z",
+  "modified": "2025-06-02T18:30:25Z",
   "published": "2023-09-11T21:30:16Z",
   "aliases": [
     "CVE-2023-39780"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/D2y6p/CVE/blob/main/asus/CVE-2023-39780/6/EN.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.greynoise.io/blog/stealthy-backdoor-campaign-affecting-asus-routers"
     }
   ],
   "database_specific": {

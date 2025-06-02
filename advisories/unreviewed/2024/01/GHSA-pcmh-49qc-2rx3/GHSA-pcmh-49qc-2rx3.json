@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcmh-49qc-2rx3",
-  "modified": "2024-01-22T15:30:22Z",
+  "modified": "2025-06-02T18:30:25Z",
   "published": "2024-01-16T06:30:31Z",
   "aliases": [
     "CVE-2024-21672"
