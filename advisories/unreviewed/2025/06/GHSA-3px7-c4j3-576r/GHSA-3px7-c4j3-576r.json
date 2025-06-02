@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3px7-c4j3-576r",
+  "modified": "2025-06-02T12:30:33Z",
+  "published": "2025-06-02T12:30:33Z",
+  "aliases": [
+    "CVE-2025-3260"
+  ],
+  "details": "A security vulnerability in the /apis/dashboard.grafana.app/* endpoints allows authenticated users to bypass dashboard and folder permissions. The vulnerability affects all API versions (v0alpha1, v1alpha1, v2alpha1).\n\nImpact:\n\n- Viewers can view all dashboards/folders regardless of permissions\n\n- Editors can view/edit/delete all dashboards/folders regardless of permissions\n\n- Editors can create dashboards in any folder regardless of permissions\n\n- Anonymous users with viewer/editor roles are similarly affected\n\nOrganization isolation boundaries remain intact. The vulnerability only affects dashboard access and does not grant access to datasources.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3260"
+    },
+    {
+      "type": "WEB",
+      "url": "https://grafana.com/security/security-advisories/CVE-2025-3260"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-02T10:15:21Z"
+  }
+}
