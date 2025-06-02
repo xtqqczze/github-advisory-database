@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvw8-m5g6-cxrv",
-  "modified": "2024-01-22T21:31:07Z",
+  "modified": "2025-06-02T15:31:14Z",
   "published": "2024-01-16T18:31:09Z",
   "aliases": [
     "CVE-2023-0376"

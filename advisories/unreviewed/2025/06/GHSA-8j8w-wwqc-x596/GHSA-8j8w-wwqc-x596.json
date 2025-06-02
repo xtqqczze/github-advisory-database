@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j8w-wwqc-x596",
-  "modified": "2025-06-02T06:30:32Z",
+  "modified": "2025-06-02T15:31:21Z",
   "published": "2025-06-02T06:30:32Z",
   "aliases": [
     "CVE-2025-49113"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/roundcube/roundcubemail/commit/c50a07d88ca38f018a0f4a0b008e9a1deb32637e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://fearsoff.org/research/roundcube"
     },
     {
       "type": "WEB",

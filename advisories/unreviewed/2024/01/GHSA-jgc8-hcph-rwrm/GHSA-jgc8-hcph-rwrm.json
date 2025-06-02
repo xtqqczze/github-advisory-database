@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgc8-hcph-rwrm",
-  "modified": "2024-01-19T15:30:19Z",
+  "modified": "2025-06-02T15:31:15Z",
   "published": "2024-01-16T18:31:10Z",
   "aliases": [
     "CVE-2024-0238"
