@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qp6-rm76-vj9q",
-  "modified": "2023-12-28T12:30:19Z",
+  "modified": "2025-06-02T21:30:23Z",
   "published": "2023-12-28T12:30:19Z",
   "aliases": [
     "CVE-2023-50854"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Squirrly Squirrly SEO - Advanced Pack.This issue affects Squirrly SEO - Advanced Pack: from n/a through 2.3.8.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Squirrly Squirrly SEO - Advanced Pack.This issue affects Squirrly SEO - Advanced Pack: from n/a through 2.3.8.",
   "severity": [
     {
       "type": "CVSS_V3",

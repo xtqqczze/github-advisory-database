@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f6m-fvf9-6397",
-  "modified": "2025-04-16T21:30:57Z",
+  "modified": "2025-06-02T21:30:24Z",
   "published": "2025-04-16T21:30:56Z",
   "aliases": [
     "CVE-2025-31200"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://blog.noahhw.dev/posts/cve-2025-31200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=44161894"
     },
     {
       "type": "WEB",
