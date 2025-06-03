@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9w5-439r-97p7",
-  "modified": "2024-01-09T21:30:34Z",
+  "modified": "2025-06-03T15:31:02Z",
   "published": "2024-01-03T03:30:33Z",
   "aliases": [
     "CVE-2023-45722"
   ],
-  "details": "HCL DRYiCE MyXalytics is impacted by path traversal arbitrary file read vulnerability because it uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory.  The product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory. Potential exploits can completely disrupt or take over the application.\n",
+  "details": "HCL DRYiCE MyXalytics is impacted by path traversal arbitrary file read vulnerability because it uses external input to construct a pathname that is intended to identify a file or directory that is located underneath a restricted parent directory.  The product does not properly neutralize special elements within the pathname that can cause the pathname to resolve to a location that is outside of the restricted directory. Potential exploits can completely disrupt or take over the application.",
   "severity": [
     {
       "type": "CVSS_V3",

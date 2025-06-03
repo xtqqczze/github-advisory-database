@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5gr5-vmmr-82g6",
+  "modified": "2025-06-03T15:31:26Z",
+  "published": "2025-06-03T15:31:26Z",
+  "aliases": [
+    "CVE-2025-45855"
+  ],
+  "details": "An arbitrary file upload vulnerability in the component /upload/GoodsCategory/image of erupt v1.12.19 allows attackers to execute arbitrary code via uploading a crafted file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-45855"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/Cafe-Tea/b72d442be434e1dafe7810c938892b06"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/erupts/erupt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.erupt.xyz/#%21"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-03T14:15:48Z"
+  }
+}

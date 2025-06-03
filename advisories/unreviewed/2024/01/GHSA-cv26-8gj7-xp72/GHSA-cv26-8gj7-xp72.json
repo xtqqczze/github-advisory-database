@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cv26-8gj7-xp72",
-  "modified": "2024-01-03T03:30:33Z",
+  "modified": "2025-06-03T15:31:02Z",
   "published": "2024-01-03T03:30:33Z",
   "aliases": [
     "CVE-2023-50345"
   ],
-  "details": "HCL DRYiCE MyXalytics is impacted by an Open Redirect vulnerability which could allow an attacker to redirect users to malicious sites, potentially leading to phishing attacks or other security threats.\n",
+  "details": "HCL DRYiCE MyXalytics is impacted by an Open Redirect vulnerability which could allow an attacker to redirect users to malicious sites, potentially leading to phishing attacks or other security threats.",
   "severity": [
     {
       "type": "CVSS_V3",

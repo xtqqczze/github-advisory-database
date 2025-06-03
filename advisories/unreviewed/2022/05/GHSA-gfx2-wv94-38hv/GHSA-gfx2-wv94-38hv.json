@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gfx2-wv94-38hv",
-  "modified": "2024-07-25T15:30:34Z",
+  "modified": "2025-06-03T15:31:01Z",
   "published": "2022-05-13T01:07:40Z",
   "aliases": [
     "CVE-2019-9978"
@@ -58,6 +58,10 @@
     {
       "type": "WEB",
       "url": "http://packetstormsecurity.com/files/163680/WordPress-Social-Warfare-3.5.2-Remote-Code-Execution.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jun/1"
     }
   ],
   "database_specific": {
