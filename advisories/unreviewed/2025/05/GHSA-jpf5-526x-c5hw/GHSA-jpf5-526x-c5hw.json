@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpf5-526x-c5hw",
-  "modified": "2025-06-02T21:30:24Z",
+  "modified": "2025-06-03T03:30:31Z",
   "published": "2025-05-30T15:30:30Z",
   "aliases": [
     "CVE-2025-40909"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2025/06/02/6"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/06/02/7"
     }
   ],
   "database_specific": {
