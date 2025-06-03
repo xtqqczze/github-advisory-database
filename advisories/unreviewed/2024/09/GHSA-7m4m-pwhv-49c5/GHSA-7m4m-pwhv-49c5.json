@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7m4m-pwhv-49c5",
-  "modified": "2024-09-04T00:31:14Z",
+  "modified": "2025-06-03T12:30:30Z",
   "published": "2024-09-03T18:31:32Z",
   "aliases": [
     "CVE-2024-6119"
@@ -37,7 +37,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.freebsd.org/archives/freebsd-security/2024-September/000303.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://openssl-library.org/news/secadv/20240903.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240912-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/09/03/4"
     }
   ],
   "database_specific": {
