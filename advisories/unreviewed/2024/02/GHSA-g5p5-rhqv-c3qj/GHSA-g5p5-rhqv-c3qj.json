@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5p5-rhqv-c3qj",
-  "modified": "2024-02-03T06:30:24Z",
+  "modified": "2025-06-03T21:30:33Z",
   "published": "2024-02-03T06:30:24Z",
   "aliases": [
     "CVE-2023-37528"
   ],
-  "details": "A cross-site scripting (XSS) vulnerability in the Web Reports component of HCL BigFix Platform can possibly allow an attack to exploit an application parameter during execution of the Save Report. \n",
+  "details": "A cross-site scripting (XSS) vulnerability in the Web Reports component of HCL BigFix Platform can possibly allow an attack to exploit an application parameter during execution of the Save Report.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87g3-rx63-rrch",
-  "modified": "2022-09-18T00:00:32Z",
+  "modified": "2025-06-03T21:30:30Z",
   "published": "2022-09-17T00:00:36Z",
   "aliases": [
     "CVE-2021-42949"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-287",
       "CWE-326"
     ],
     "severity": "CRITICAL",

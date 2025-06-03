@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jrw-q59w-mpr2",
-  "modified": "2025-06-03T15:31:26Z",
+  "modified": "2025-06-03T21:30:37Z",
   "published": "2025-06-03T15:31:26Z",
   "aliases": [
     "CVE-2025-43925"
   ],
   "details": "An issue was discovered in Unicom Focal Point 7.6.1. The database is encrypted with a hardcoded key, making it easier to recover the cleartext data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-326"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-03T15:15:58Z"
