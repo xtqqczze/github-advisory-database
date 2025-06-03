@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6p39-gq6w-rwhx",
+  "modified": "2025-06-03T06:31:15Z",
+  "published": "2025-06-03T06:31:15Z",
+  "aliases": [
+    "CVE-2025-3584"
+  ],
+  "details": "The Newsletter  WordPress plugin before 8.8.2 does not sanitise and escape some of its Subscription settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3584"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/76937bdd-7ffa-4b5e-ade1-60da095a03a3"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-03T06:15:27Z"
+  }
+}
