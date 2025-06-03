@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jxr-23ph-c89g",
-  "modified": "2025-03-04T21:57:26Z",
+  "modified": "2025-06-03T17:32:56Z",
   "published": "2025-03-04T18:33:43Z",
   "aliases": [
     "CVE-2025-23368"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/wildfly/wildfly-core"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gruppotim.it/it/footer/red-team.html"
     }
   ],
   "database_specific": {
