@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfpp-xwvh-4mcc",
-  "modified": "2025-05-26T12:30:30Z",
+  "modified": "2025-06-03T18:30:35Z",
   "published": "2025-05-26T12:30:30Z",
   "aliases": [
     "CVE-2025-5177"

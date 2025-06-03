@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4rgj-78j5-635j",
-  "modified": "2025-06-03T06:31:15Z",
+  "modified": "2025-06-03T18:30:40Z",
   "published": "2025-06-03T06:31:15Z",
   "aliases": [
     "CVE-2025-4567"
   ],
   "details": "The Post Slider and Post Carousel with Post Vertical Scrolling Widget  WordPress plugin before 3.2.10 does not validate and escape some of its Widget options before outputting them back in a page/post where the block is embed, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-03T06:15:27Z"

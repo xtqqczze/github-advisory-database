@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qvj-rpj8-v5c8",
-  "modified": "2025-06-03T15:31:27Z",
+  "modified": "2025-06-03T18:30:41Z",
   "published": "2025-06-03T15:31:27Z",
   "aliases": [
     "CVE-2025-46548"
@@ -25,6 +25,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/tnd84hj9w0ggjcft6cp12q67d5jzhp66"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/06/03/7"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gch9-mhrp-q35m",
-  "modified": "2022-09-22T00:00:31Z",
+  "modified": "2025-06-03T18:30:29Z",
   "published": "2022-09-17T00:00:33Z",
   "aliases": [
     "CVE-2022-39007"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-269",
       "CWE-287"
     ],
     "severity": "CRITICAL",

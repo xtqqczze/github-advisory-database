@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvhv-7727-rf3v",
-  "modified": "2025-06-02T18:30:52Z",
+  "modified": "2025-06-03T18:30:40Z",
   "published": "2025-06-02T18:30:52Z",
   "aliases": [
     "CVE-2025-45542"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://medium.com/@sanjay70023/cve-2025-45542-time-based-blind-sql-injection-in-cloudclassroom-php-project-v1-0-1fa0efc8a94a"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jun/12"
     }
   ],
   "database_specific": {
