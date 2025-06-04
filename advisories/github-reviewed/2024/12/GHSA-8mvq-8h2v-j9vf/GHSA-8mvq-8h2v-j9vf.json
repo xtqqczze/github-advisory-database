@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mvq-8h2v-j9vf",
-  "modified": "2024-12-10T19:09:26Z",
+  "modified": "2025-06-04T00:38:33Z",
   "published": "2024-12-10T00:31:26Z",
   "aliases": [
     "CVE-2024-12393"
@@ -9,6 +9,10 @@
   "summary": "Drupal Core Cross-Site Scripting (XSS)",
   "details": "Drupal uses JavaScript to render status messages in some cases and configurations. In certain situations, the status messages are not adequately sanitized. This issue affects Drupal Core: from 8.8.0 before 10.2.11, from 10.3.0 before 10.3.9, from 11.0.0 before 11.0.8.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
