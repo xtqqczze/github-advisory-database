@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j822-x5gg-5r56",
-  "modified": "2024-11-20T18:25:16Z",
+  "modified": "2025-06-04T00:37:02Z",
   "published": "2024-11-20T12:30:35Z",
   "aliases": [
     "CVE-2024-45689"
@@ -9,6 +9,10 @@
   "summary": "Moodle allows users to retrieve information they did not have permission to access",
   "details": "A flaw was found in Moodle. Dynamic tables did not enforce capability checks, which resulted in users having the ability to retrieve information they did not have permission to access.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N"
@@ -116,7 +120,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-285"
+      "CWE-285",
+      "CWE-862"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
