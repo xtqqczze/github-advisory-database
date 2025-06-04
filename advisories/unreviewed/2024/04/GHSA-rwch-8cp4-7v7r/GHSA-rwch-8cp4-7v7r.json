@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwch-8cp4-7v7r",
-  "modified": "2025-05-09T09:33:17Z",
+  "modified": "2025-06-04T15:30:24Z",
   "published": "2024-04-03T18:30:42Z",
   "aliases": [
     "CVE-2024-26739"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-26739"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0117fe0a4615a7c8d30d6ebcbf87332fbe63e6fd"
     },
     {
       "type": "WEB",

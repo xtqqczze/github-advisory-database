@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5c72-frqm-r8r4",
-  "modified": "2025-05-09T09:33:18Z",
+  "modified": "2025-06-04T15:30:27Z",
   "published": "2025-05-08T09:30:25Z",
   "aliases": [
     "CVE-2025-37819"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37819"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0c241dedc43a036599757cd08f356253fa3e5014"
     },
     {
       "type": "WEB",
@@ -29,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/47bee0081b483b077c7560bc5358ad101f89c8ef"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/b63de43af8d215b0499eac28b2caa4439183efc1"
     },
     {
       "type": "WEB",

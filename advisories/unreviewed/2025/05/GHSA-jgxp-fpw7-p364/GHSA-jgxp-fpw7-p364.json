@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgxp-fpw7-p364",
-  "modified": "2025-05-29T15:31:09Z",
+  "modified": "2025-06-04T15:30:29Z",
   "published": "2025-05-29T15:31:09Z",
   "aliases": [
     "CVE-2025-37997"
@@ -13,6 +13,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37997"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/00cfc5fad1491796942a948808afb968a0a3f35b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/226ce0ec38316d9e3739e73a64b6b8304646c658"
     },
     {
       "type": "WEB",

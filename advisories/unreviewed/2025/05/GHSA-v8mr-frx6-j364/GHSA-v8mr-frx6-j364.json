@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v8mr-frx6-j364",
-  "modified": "2025-05-20T18:30:56Z",
+  "modified": "2025-06-04T15:30:28Z",
   "published": "2025-05-20T18:30:56Z",
   "aliases": [
     "CVE-2025-37949"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-37949"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0e94a246bb6d9538010b6c02d2b1d4717a97b2e5"
     },
     {
       "type": "WEB",
@@ -37,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/cbfaf46b88a4c01b64c4186cdccd766c19ae644c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f1bcac367bc95631afbb918348f30dec887d0e1b"
     }
   ],
   "database_specific": {

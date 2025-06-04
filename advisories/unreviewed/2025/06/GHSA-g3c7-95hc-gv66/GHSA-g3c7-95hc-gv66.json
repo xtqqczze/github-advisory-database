@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3c7-95hc-gv66",
-  "modified": "2025-06-03T18:30:41Z",
+  "modified": "2025-06-04T15:30:35Z",
   "published": "2025-06-03T18:30:41Z",
   "aliases": [
     "CVE-2025-45854"
@@ -26,11 +26,16 @@
     {
       "type": "WEB",
       "url": "https://gitee.com/jehc/JEHC-BPM"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/web/20250604134020/https://gist.github.com/Cafe-Tea/bc14b38f4bfd951de2979a24c3358460/revisions"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-434"
+      "CWE-434",
+      "CWE-862"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

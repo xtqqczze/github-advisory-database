@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h35m-jp6f-245x",
-  "modified": "2025-05-20T18:30:55Z",
+  "modified": "2025-06-04T15:30:28Z",
   "published": "2025-05-20T18:30:55Z",
   "aliases": [
     "CVE-2025-37932"
@@ -33,6 +33,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/bbbf5e0f87078b715e7a665d662a2c0e77f044ae"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e6b45f4de763b00dc1c55e685e2dd1aaf525d3c1"
     }
   ],
   "database_specific": {

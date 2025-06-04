@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrcg-ffmc-qfvv",
-  "modified": "2025-05-20T18:30:55Z",
+  "modified": "2025-06-04T15:30:28Z",
   "published": "2025-05-20T18:30:55Z",
   "aliases": [
     "CVE-2025-37927"
@@ -24,11 +24,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2b65060c84ee4d8dc64fae6d2728b528e9e832e1"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/466d9da267079a8d3b69fa72dfa3a732e1f6dbb5"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/8dee308e4c01dea48fc104d37f92d5b58c50b96c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a65ebfed65fa62797ec1f5f1dcf7adb157a2de1e"
     },
     {
       "type": "WEB",
