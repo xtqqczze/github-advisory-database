@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jr6h-r7vg-f9mc",
-  "modified": "2025-05-20T17:58:24Z",
+  "modified": "2025-06-04T14:33:10Z",
   "published": "2022-10-12T12:00:20Z",
   "aliases": [
     "CVE-2022-41404"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.5.4"
+              "last_affected": "0.5.4"
             }
           ]
         }
