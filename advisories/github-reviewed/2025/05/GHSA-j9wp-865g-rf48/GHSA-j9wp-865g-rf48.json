@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9wp-865g-rf48",
-  "modified": "2025-05-27T19:54:33Z",
+  "modified": "2025-06-04T20:52:34Z",
   "published": "2025-05-25T15:30:32Z",
   "aliases": [
     "CVE-2025-5150"
@@ -67,6 +67,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1321",
       "CWE-94"
     ],
     "severity": "MODERATE",
