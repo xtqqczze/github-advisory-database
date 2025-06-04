@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9m8-9xxp-q492",
-  "modified": "2025-06-04T20:31:39Z",
+  "modified": "2025-06-04T22:56:42Z",
   "published": "2025-06-04T20:31:39Z",
   "aliases": [
     "CVE-2025-48951"
@@ -39,6 +39,18 @@
     {
       "type": "WEB",
       "url": "https://github.com/auth0/auth0-PHP/security/advisories/GHSA-v9m8-9xxp-q492"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/auth0/laravel-auth0/security/advisories/GHSA-c42h-56wx-h85q"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/auth0/symfony/security/advisories/GHSA-98j6-67v3-mw34"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/auth0/wordpress/security/advisories/GHSA-862m-5253-832r"
     },
     {
       "type": "ADVISORY",

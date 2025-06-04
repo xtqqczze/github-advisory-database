@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vxj-4cph-c596",
-  "modified": "2025-06-04T21:22:27Z",
+  "modified": "2025-06-04T22:57:13Z",
   "published": "2025-06-04T21:22:27Z",
   "aliases": [
     "CVE-2025-48935"
@@ -60,6 +60,10 @@
       "url": "https://github.com/denoland/deno/security/advisories/GHSA-8vxj-4cph-c596"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48935"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/denoland/deno/commit/31a97803995bd94629528ba841b2418d3ca01860"
     },
@@ -75,6 +79,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-04T21:22:27Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-06-04T20:15:24Z"
   }
 }
