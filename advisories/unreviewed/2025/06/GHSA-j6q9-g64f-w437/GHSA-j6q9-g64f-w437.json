@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j6q9-g64f-w437",
+  "modified": "2025-06-04T18:30:57Z",
+  "published": "2025-06-04T18:30:57Z",
+  "aliases": [
+    "CVE-2025-23106"
+  ],
+  "details": "An issue was discovered in Samsung Mobile Processor Exynos 2200, 1480, and 2400. A Use-After-Free in the mobile processor leads to privilege escalation.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23106"
+    },
+    {
+      "type": "WEB",
+      "url": "https://semiconductor.samsung.com/support/quality-support/product-security-updates"
+    },
+    {
+      "type": "WEB",
+      "url": "https://semiconductor.samsung.com/support/quality-support/product-security-updates/cve-2025-23106"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-04T16:15:35Z"
+  }
+}

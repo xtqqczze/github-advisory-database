@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhw4-mjfv-p3gg",
-  "modified": "2024-01-30T00:30:29Z",
+  "modified": "2025-06-04T18:30:47Z",
   "published": "2024-01-23T12:30:29Z",
   "aliases": [
     "CVE-2024-23180"
@@ -29,7 +29,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-434"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
