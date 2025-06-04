@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v352-rg37-5q5m",
-  "modified": "2024-11-18T16:26:59Z",
+  "modified": "2025-06-04T21:14:18Z",
   "published": "2024-08-02T12:31:43Z",
   "aliases": [
     "CVE-2024-27181"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/hosd73l7hxb3rpt5rb0yg0ld11zph4c6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2024/08/02/3"
     }
   ],
   "database_specific": {
