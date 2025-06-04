@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4p4w-6hg8-63wx",
-  "modified": "2025-06-04T18:30:58Z",
+  "modified": "2025-06-04T21:31:14Z",
   "published": "2025-06-04T18:30:58Z",
   "aliases": [
     "CVE-2025-2336"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.herodevs.com/vulnerability-directory/cve-2025-2336"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2025-2336?angularjs-nes"
     }
   ],
   "database_specific": {

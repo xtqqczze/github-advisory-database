@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prr2-m2fh-3hv6",
-  "modified": "2025-05-22T15:34:48Z",
+  "modified": "2025-06-04T21:31:09Z",
   "published": "2025-05-22T15:34:48Z",
   "aliases": [
     "CVE-2025-3936"

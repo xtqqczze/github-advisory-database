@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wc4-mx57-5w73",
-  "modified": "2025-06-03T21:30:38Z",
+  "modified": "2025-06-04T21:31:13Z",
   "published": "2025-06-03T21:30:38Z",
   "aliases": [
     "CVE-2025-23098"
   ],
   "details": "An issue was discovered in Samsung Mobile Processor Exynos 980, 990, 1080, 2100, 1280, 2200, 1380. A Use-After-Free in the mobile processor leads to privilege escalation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-416"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-03T20:15:21Z"

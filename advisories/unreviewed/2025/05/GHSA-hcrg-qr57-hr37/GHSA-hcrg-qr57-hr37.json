@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcrg-qr57-hr37",
-  "modified": "2025-05-22T15:34:49Z",
+  "modified": "2025-06-04T21:31:09Z",
   "published": "2025-05-22T15:34:48Z",
   "aliases": [
     "CVE-2025-3938"
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-325"
+      "CWE-325",
+      "CWE-327"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxpg-c894-3g4j",
-  "modified": "2025-06-03T21:30:38Z",
+  "modified": "2025-06-04T21:31:13Z",
   "published": "2025-06-03T21:30:38Z",
   "aliases": [
     "CVE-2025-23097"
   ],
   "details": "An issue was discovered in Samsung Mobile Processor Exynos 1380. The lack of a length check leads to out-of-bounds writes.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-03T20:15:20Z"
