@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w6rx-9g2x-mg5g",
-  "modified": "2024-12-16T18:35:47Z",
+  "modified": "2025-06-04T00:43:36Z",
   "published": "2024-12-10T00:31:27Z",
   "aliases": [
     "CVE-2024-55637"
@@ -211,6 +211,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-502",
       "CWE-915"
     ],
     "severity": "HIGH",
