@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvg9-q978-4569",
-  "modified": "2025-06-05T15:31:32Z",
+  "modified": "2025-06-05T18:30:39Z",
   "published": "2025-06-05T12:31:09Z",
   "aliases": [
     "CVE-2011-10007"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/richardc/perl-file-find-rule/commit/df58128bcee4c1da78c34d7f3fe1357e575ad56f.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00006.html"
     },
     {
       "type": "WEB",

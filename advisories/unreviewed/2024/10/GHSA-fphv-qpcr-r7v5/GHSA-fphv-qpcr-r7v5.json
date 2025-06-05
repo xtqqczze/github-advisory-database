@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fphv-qpcr-r7v5",
-  "modified": "2024-10-24T09:31:00Z",
+  "modified": "2025-06-05T18:30:34Z",
   "published": "2024-10-24T09:31:00Z",
   "aliases": [
     "CVE-2024-9531"
@@ -34,7 +34,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-285"
+      "CWE-285",
+      "CWE-862"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

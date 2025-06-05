@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jx4-3grj-xm5w",
-  "modified": "2024-02-14T21:30:32Z",
+  "modified": "2025-06-05T18:30:34Z",
   "published": "2024-02-07T03:30:32Z",
   "aliases": [
     "CVE-2024-22021"
   ],
-  "details": "Vulnerability CVE-2024-22021 allows a Veeam Recovery Orchestrator user with a low privileged role (Plan Author) to retrieve plans from a Scope other than the one they are assigned to. \n",
+  "details": "Vulnerability CVE-2024-22021 allows a Veeam Recovery Orchestrator user with a low privileged role (Plan Author) to retrieve plans from a Scope other than the one they are assigned to.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-285"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
