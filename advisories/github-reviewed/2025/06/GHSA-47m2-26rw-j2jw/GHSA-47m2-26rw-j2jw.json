@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47m2-26rw-j2jw",
-  "modified": "2025-06-05T05:21:34Z",
+  "modified": "2025-06-05T20:15:06Z",
   "published": "2025-06-05T05:21:34Z",
   "aliases": [
     "CVE-2025-49007"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rack/rack"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/CVE-2025-49007.yml"
     }
   ],
   "database_specific": {
