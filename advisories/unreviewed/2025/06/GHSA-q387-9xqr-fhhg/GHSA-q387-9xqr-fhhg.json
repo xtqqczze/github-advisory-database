@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q387-9xqr-fhhg",
+  "modified": "2025-06-05T15:31:32Z",
+  "published": "2025-06-05T15:31:32Z",
+  "aliases": [
+    "CVE-2025-30084"
+  ],
+  "details": "A stored XSS vulnerability in RSMail! component 1.19.20 - 1.22.26 for Joomla was discovered. The issue occurs within the dashboard  component, where user-supplied input is not properly sanitized before being stored and rendered. An attacker can inject malicious JavaScript code into text fields or other input points, which is subsequently executed in the browser of any user who clicks on the crafted text in the dashboard.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30084"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rsjoomla.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-05T14:15:31Z"
+  }
+}

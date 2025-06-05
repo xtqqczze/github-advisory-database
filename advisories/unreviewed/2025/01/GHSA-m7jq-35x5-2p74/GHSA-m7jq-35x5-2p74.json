@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7jq-35x5-2p74",
-  "modified": "2025-01-09T12:30:56Z",
+  "modified": "2025-06-05T15:31:20Z",
   "published": "2025-01-09T12:30:56Z",
   "aliases": [
     "CVE-2024-6155"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-79",
       "CWE-862"
     ],
     "severity": "MODERATE",

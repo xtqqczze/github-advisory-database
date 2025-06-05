@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85qx-mfpj-cvj4",
-  "modified": "2025-04-03T18:30:53Z",
+  "modified": "2025-06-05T15:31:21Z",
   "published": "2025-01-26T06:30:48Z",
   "aliases": [
     "CVE-2024-10628"

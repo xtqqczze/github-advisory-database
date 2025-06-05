@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxgc-qp86-4mg6",
-  "modified": "2024-05-15T00:30:38Z",
+  "modified": "2025-06-05T15:31:20Z",
   "published": "2024-05-15T00:30:38Z",
   "aliases": [
     "CVE-2024-31483"
   ],
-  "details": "An authenticated sensitive information disclosure vulnerability exists in the CLI service accessed via the PAPI protocol. Successful exploitation of this vulnerability results in the ability to read arbitrary files in the underlying operating system.\n\n",
+  "details": "An authenticated sensitive information disclosure vulnerability exists in the CLI service accessed via the PAPI protocol. Successful exploitation of this vulnerability results in the ability to read arbitrary files in the underlying operating system.",
   "severity": [
     {
       "type": "CVSS_V3",
