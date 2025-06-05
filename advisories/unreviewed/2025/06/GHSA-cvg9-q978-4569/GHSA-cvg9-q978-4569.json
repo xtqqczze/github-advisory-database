@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvg9-q978-4569",
-  "modified": "2025-06-05T18:30:39Z",
+  "modified": "2025-06-05T21:30:52Z",
   "published": "2025-06-05T12:31:09Z",
   "aliases": [
     "CVE-2011-10007"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://rt.cpan.org/Public/Bug/Display.html?id=64504"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/06/05/4"
     }
   ],
   "database_specific": {
