@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrxf-x8rm-6ggg",
-  "modified": "2025-05-22T15:44:52Z",
+  "modified": "2025-06-05T20:34:07Z",
   "published": "2023-04-04T15:30:27Z",
   "aliases": [
     "CVE-2020-21514"
@@ -15,25 +15,6 @@
     }
   ],
   "affected": [
-    {
-      "package": {
-        "ecosystem": "RubyGems",
-        "name": "fluentd"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "0"
-            },
-            {
-              "last_affected": "1.8.0"
-            }
-          ]
-        }
-      ]
-    },
     {
       "package": {
         "ecosystem": "RubyGems",
@@ -61,7 +42,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/fluent/fluentd/issues/2722"
+      "url": "https://github.com/fluent/fluentd-ui/issues/295"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/fluent/fluentd-ui"
     },
     {
       "type": "WEB",
