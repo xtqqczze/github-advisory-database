@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m2mx-5gcx-j288",
-  "modified": "2022-05-24T17:28:58Z",
+  "modified": "2025-06-05T00:31:18Z",
   "published": "2022-05-24T17:28:58Z",
   "aliases": [
     "CVE-2020-16247"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://us-cert.cisa.gov/ics/advisories/icsma-20-261-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.philips.com/a-w/security/security-advisories/product-security-2020.html#2020_archive"
     }
   ],
   "database_specific": {

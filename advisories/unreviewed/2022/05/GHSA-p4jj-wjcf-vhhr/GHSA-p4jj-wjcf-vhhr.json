@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4jj-wjcf-vhhr",
-  "modified": "2022-05-24T17:21:43Z",
+  "modified": "2025-06-05T00:31:18Z",
   "published": "2022-05-24T17:21:43Z",
   "aliases": [
     "CVE-2020-14477"
   ],
   "details": "In Philips Ultrasound ClearVue Versions 3.2 and prior, Ultrasound CX Versions 5.0.2 and prior, Ultrasound EPIQ/Affiniti Versions VM5.0 and prior, Ultrasound Sparq Version 3.0.2 and prior and Ultrasound Xperius all versions, an attacker may use an alternate path or channel that does not require authentication of the alternate service login to view or modify information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,7 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-287",
+      "CWE-288"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
