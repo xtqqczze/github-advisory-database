@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7v6m-28jr-rg84",
-  "modified": "2025-06-03T21:30:39Z",
+  "modified": "2025-06-05T01:24:18Z",
   "published": "2025-06-03T21:30:39Z",
   "aliases": [
     "CVE-2025-35036"
   ],
+  "summary": "Hibernate Validator may interpolate user-supplied input in a constraint violation message with Expression Language",
   "details": "Hibernate Validator before 6.2.0 and 7.0.0, by default and depending how it is used, may interpolate user-supplied input in a constraint violation message with Expression Language. This could allow an attacker to access sensitive information or execute arbitrary Java code. Hibernate Validator as of 6.2.0 and 7.0.0 no longer interpolates custom constraint violation messages with Expression Language and strongly recommends not allowing user-supplied input in constraint violation messages. CVE-2020-5245 and CVE-2025-4428 are examples of related, downstream vulnerabilities involving Expression Language intepolation of user-supplied data.",
   "severity": [
     {
@@ -14,10 +15,49 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.hibernate.validator:hibernate-validator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.2.0.CR1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.hibernate.validator:hibernate-validator"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "7.0.0.Alpha1"
+            },
+            {
+              "fixed": "7.0.0.CR1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -46,6 +86,10 @@
     {
       "type": "WEB",
       "url": "https://docs.jboss.org/hibernate/stable/validator/reference/en-US/html_single/#section-hibernateconstraintvalidatorcontext"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/hibernate/hibernate-validator"
     },
     {
       "type": "WEB",
@@ -81,8 +125,8 @@
       "CWE-94"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-06-05T01:24:18Z",
     "nvd_published_at": "2025-06-03T20:15:21Z"
   }
 }
