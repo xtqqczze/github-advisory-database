@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c22c-jjc2-m9m6",
-  "modified": "2025-05-06T15:31:08Z",
+  "modified": "2025-06-05T06:30:26Z",
   "published": "2025-05-06T09:31:32Z",
   "aliases": [
     "CVE-2025-4332"
@@ -46,6 +46,18 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.564339"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.564729"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.568338"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.590559"
     }
   ],
   "database_specific": {
