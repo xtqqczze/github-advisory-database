@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xx68-37v4-4596",
-  "modified": "2024-12-12T19:18:58Z",
+  "modified": "2025-06-05T21:59:05Z",
   "published": "2024-12-11T18:44:52Z",
   "aliases": [
     "CVE-2024-55657"
@@ -9,6 +9,10 @@
   "summary": "SiYuan has an arbitrary file read via /api/template/render",
   "details": "### Summary\n\nAn arbitrary file read vulnerability exists in Siyuan's /api/template/render endpoint. The absence of proper validation on the path parameter allows attackers to access sensitive files on the host system.\n\n### Impact\n\nArbitrary file read on the host",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
