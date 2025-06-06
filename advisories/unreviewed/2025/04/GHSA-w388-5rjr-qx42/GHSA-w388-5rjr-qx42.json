@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w388-5rjr-qx42",
-  "modified": "2025-04-07T06:30:28Z",
+  "modified": "2025-06-06T09:30:23Z",
   "published": "2025-04-07T06:30:28Z",
   "aliases": [
     "CVE-2025-31171"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://consumer.huawei.com/en/support/bulletin/2025/4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://consumer.huawei.com/en/support/bulletin/2025/6"
     }
   ],
   "database_specific": {
