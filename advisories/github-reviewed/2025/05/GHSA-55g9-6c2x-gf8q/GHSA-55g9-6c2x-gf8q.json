@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55g9-6c2x-gf8q",
-  "modified": "2025-05-26T09:30:44Z",
+  "modified": "2025-06-06T15:37:46Z",
   "published": "2025-05-26T09:30:44Z",
   "aliases": [
     "CVE-2025-5173"
   ],
+  "summary": "HumanSignal label-studio-ml-backend Deserialization of Untrusted Data vulnerability",
   "details": "A vulnerability has been found in HumanSignal label-studio-ml-backend up to 9fb7f4aa186612806af2becfb621f6ed8d9fdbaf and classified as problematic. Affected by this vulnerability is the function load of the file label-studio-ml-backend/label_studio_ml/examples/yolo/utils/neural_nets.py of the component PT File Handler. The manipulation of the argument path leads to deserialization. An attack has to be approached locally. This product takes the approach of rolling releases to provide continious delivery. Therefore, version details for affected and updated releases are not available.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "label-studio-ml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.0.9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/HumanSignal/label-studio-ml-backend/issues/765"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/HumanSignal/label-studio-ml-backend"
     },
     {
       "type": "WEB",
@@ -46,8 +71,8 @@
       "CWE-502"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-06-06T15:37:46Z",
     "nvd_published_at": "2025-05-26T07:15:26Z"
   }
 }
