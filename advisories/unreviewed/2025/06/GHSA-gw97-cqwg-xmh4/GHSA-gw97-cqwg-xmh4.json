@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gw97-cqwg-xmh4",
+  "modified": "2025-06-06T15:30:53Z",
+  "published": "2025-06-06T15:30:53Z",
+  "aliases": [
+    "CVE-2025-5806"
+  ],
+  "details": "Jenkins Gatling Plugin 136.vb_9009b_3d33a_e serves Gatling reports in a manner that bypasses the Content-Security-Policy protection introduced in Jenkins 1.641 and 1.625, resulting in a cross-site scripting (XSS) vulnerability exploitable by users able to change report content.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5806"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.jenkins.io/security/advisory/2025-06-06/#SECURITY-3588"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-06T14:15:23Z"
+  }
+}
