@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5ppc-gr6c-jgcj",
-  "modified": "2024-02-07T18:30:27Z",
+  "modified": "2025-06-06T21:30:24Z",
   "published": "2024-02-02T03:30:32Z",
   "aliases": [
     "CVE-2024-22900"
