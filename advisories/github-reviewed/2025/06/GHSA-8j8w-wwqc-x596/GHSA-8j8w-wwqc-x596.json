@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j8w-wwqc-x596",
-  "modified": "2025-06-02T18:30:43Z",
+  "modified": "2025-06-06T22:17:35Z",
   "published": "2025-06-02T06:30:32Z",
   "aliases": [
     "CVE-2025-49113"
   ],
+  "summary": "Roundcube Webmail Vulnerable to Authenticated RCE via PHP Object Deserialization",
   "details": "Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validated in program/actions/settings/upload.php, leading to PHP Object Deserialization.",
   "severity": [
     {
@@ -13,7 +14,46 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "roundcube/roundcubemail"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.5.10"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "roundcube/roundcubemail"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.6.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 1.6.11"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,6 +80,10 @@
       "url": "https://fearsoff.org/research/roundcube"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/roundcube/roundcubemail"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/roundcube/roundcubemail/releases/tag/1.5.10"
     },
@@ -61,8 +105,8 @@
       "CWE-502"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-06-06T22:17:35Z",
     "nvd_published_at": "2025-06-02T05:15:53Z"
   }
 }
