@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gw97-cqwg-xmh4",
-  "modified": "2025-06-06T15:30:53Z",
+  "modified": "2025-06-06T18:30:30Z",
   "published": "2025-06-06T15:30:53Z",
   "aliases": [
     "CVE-2025-5806"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.jenkins.io/security/advisory/2025-06-06/#SECURITY-3588"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/06/06/8"
     }
   ],
   "database_specific": {
