@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf8f-6423-gfxg",
-  "modified": "2025-06-07T00:10:42Z",
+  "modified": "2025-06-07T00:33:54Z",
   "published": "2025-06-07T00:10:42Z",
   "aliases": [
     "CVE-2025-49128"
@@ -68,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-07T00:10:42Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-06-06T22:15:23Z"
   }
 }
