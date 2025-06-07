@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h92g-3xc3-ww2r",
-  "modified": "2025-06-07T15:30:18Z",
+  "modified": "2025-06-07T21:30:30Z",
   "published": "2025-06-07T15:30:18Z",
   "aliases": [
     "CVE-2025-49619"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Skyvern-AI/skyvern/commit/db856cd8433a204c8b45979c70a4da1e119d949d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cristibtz.github.io/posts/CVE-2025-49619"
     }
   ],
   "database_specific": {

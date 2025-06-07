@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rj6-cwhf-4c77",
-  "modified": "2024-08-01T15:31:27Z",
+  "modified": "2025-06-07T21:30:30Z",
   "published": "2024-02-24T00:30:20Z",
   "aliases": [
     "CVE-2024-22988"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.vicarius.io/vsociety/posts/revealing-cve-2024-22988-a-unique-dive-into-exploiting-access-control-gaps-in-zkbio-wdms-uncover-the-untold-crafted-for-beginners-with-a-rare-glimpse-into-pentesting-strategies"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zkteco.com/en/Security_Bulletinsibs/12"
     },
     {
       "type": "WEB",
