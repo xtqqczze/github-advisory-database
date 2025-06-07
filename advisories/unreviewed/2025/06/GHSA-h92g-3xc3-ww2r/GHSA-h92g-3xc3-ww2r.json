@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-h92g-3xc3-ww2r",
+  "modified": "2025-06-07T15:30:18Z",
+  "published": "2025-06-07T15:30:18Z",
+  "aliases": [
+    "CVE-2025-49619"
+  ],
+  "details": "Skyvern through 0.1.85 has a Jinja runtime leak in sdk/workflow/models/block.py.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49619"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Skyvern-AI/skyvern/commit/db856cd8433a204c8b45979c70a4da1e119d949d"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1336"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-07T14:15:21Z"
+  }
+}
