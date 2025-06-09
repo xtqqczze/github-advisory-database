@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w866-3fpp-r6c4",
-  "modified": "2025-06-09T06:30:22Z",
+  "modified": "2025-06-09T15:31:42Z",
   "published": "2025-06-09T06:30:22Z",
   "aliases": [
     "CVE-2025-5861"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5861"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lavender-bicycle-a5a.notion.site/Tenda-AC7-fromadvsetlanip-20a53a41781f80038f4fc4b9d927eb9a"
     },
     {
       "type": "WEB",

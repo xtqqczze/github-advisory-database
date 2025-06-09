@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f35w-jcp9-579f",
-  "modified": "2025-06-06T21:30:28Z",
+  "modified": "2025-06-09T15:31:41Z",
   "published": "2025-06-06T21:30:28Z",
   "aliases": [
     "CVE-2025-5795"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5795"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lavender-bicycle-a5a.notion.site/Tenda-AC5-fromadvsetlanip-20a53a41781f805389dcd51fa04bc530"
     },
     {
       "type": "WEB",

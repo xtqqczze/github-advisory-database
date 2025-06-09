@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jh4f-5j2m-4v9c",
-  "modified": "2022-04-28T00:00:48Z",
+  "modified": "2025-06-09T15:31:33Z",
   "published": "2022-04-19T00:00:47Z",
   "aliases": [
     "CVE-2022-29458"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/kb/HT213488"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2022/Oct/28"
     },
     {
       "type": "WEB",

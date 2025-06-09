@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwc7-wm76-6x7w",
-  "modified": "2022-05-17T04:53:12Z",
+  "modified": "2025-06-09T15:31:31Z",
   "published": "2022-05-17T04:53:12Z",
   "aliases": [
     "CVE-2010-4226"
   ],
   "details": "cpio, as used in build 2007.05.10, 2010.07.28, and possibly other versions, allows remote attackers to overwrite arbitrary files via a symlink within an RPM package archive.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
