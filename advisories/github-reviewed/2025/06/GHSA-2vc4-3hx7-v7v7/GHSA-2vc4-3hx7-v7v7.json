@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vc4-3hx7-v7v7",
-  "modified": "2025-06-09T17:43:37Z",
+  "modified": "2025-06-09T21:43:59Z",
   "published": "2025-06-09T17:43:37Z",
   "aliases": [
     "CVE-2025-49137"
@@ -41,6 +41,10 @@
       "url": "https://github.com/haxtheweb/issues/security/advisories/GHSA-2vc4-3hx7-v7v7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49137"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/haxtheweb/haxcms-php/commit/0dd3e98fe2fadd0793b667d4af2aac230980e0f8"
     },
@@ -58,6 +62,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-09T17:43:37Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-06-09T21:15:46Z"
   }
 }
