@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqvv-2wj5-q34w",
-  "modified": "2025-06-09T06:30:22Z",
+  "modified": "2025-06-09T13:13:27Z",
   "published": "2025-06-09T06:30:22Z",
   "aliases": [
     "CVE-2025-25208"
   ],
+  "summary": "Authorino Uncontrolled Resource Consumption vulnerability",
   "details": "A Developer persona can bring down the Authorino service, preventing the evaluation of all AuthPolicies on the cluster",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/kuadrant/authorino"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.20.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2347436"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/Kuadrant/authorino"
     }
   ],
   "database_specific": {
@@ -33,8 +58,8 @@
       "CWE-400"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-06-09T13:13:26Z",
     "nvd_published_at": "2025-06-09T06:15:24Z"
   }
 }
