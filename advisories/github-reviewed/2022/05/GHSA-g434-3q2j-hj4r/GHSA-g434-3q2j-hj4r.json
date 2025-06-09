@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g434-3q2j-hj4r",
-  "modified": "2023-07-25T21:28:58Z",
+  "modified": "2025-06-09T12:11:11Z",
   "published": "2022-05-14T03:08:36Z",
   "aliases": [
     "CVE-2018-12071"
@@ -49,8 +49,16 @@
       "url": "https://github.com/bcit-ci/CodeIgniter/commit/800a20d6c4662d99ae0988b2f8f2238bb8bb29db"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/bcit-ci/CodeIgniter"
+    },
+    {
       "type": "WEB",
       "url": "https://web.archive.org/web/20181115214804/https://www.codeigniter.com/user_guide/changelog.html#version-3-1-9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.codeigniter.com/user_guide/changelog.html"
     }
   ],
   "database_specific": {
