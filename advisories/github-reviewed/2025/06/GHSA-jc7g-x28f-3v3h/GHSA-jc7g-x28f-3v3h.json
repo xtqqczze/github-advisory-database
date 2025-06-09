@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc7g-x28f-3v3h",
-  "modified": "2025-06-09T13:09:24Z",
+  "modified": "2025-06-09T15:47:10Z",
   "published": "2025-06-09T13:09:24Z",
   "aliases": [],
   "summary": "listmonk's Sprig template Injection vulnerability leads to reading of Environment Variable for low privilege user",
