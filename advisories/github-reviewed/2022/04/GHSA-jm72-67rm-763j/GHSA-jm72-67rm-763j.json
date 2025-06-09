@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm72-67rm-763j",
-  "modified": "2025-05-28T23:02:25Z",
+  "modified": "2025-06-09T17:48:33Z",
   "published": "2022-04-21T01:54:03Z",
   "aliases": [
     "CVE-2009-20001"
   ],
-  "summary": "MantisBT Insufficient Session Experation allows for credential theft",
+  "summary": "MantisBT Insufficient Session Expiration cookie string not reset after logout",
   "details": "An issue was discovered in MantisBT before 2.24.5. It associates a unique cookie string with each user. This string is not reset upon logout (i.e., the user session is still considered valid and active), allowing an attacker who somehow gained access to a user's cookie to login as them.",
   "severity": [
     {
