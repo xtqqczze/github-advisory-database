@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8j8w-wwqc-x596",
-  "modified": "2025-06-06T22:17:35Z",
+  "modified": "2025-06-09T06:30:21Z",
   "published": "2025-06-02T06:30:32Z",
   "aliases": [
     "CVE-2025-49113"
@@ -90,6 +90,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/roundcube/roundcubemail/releases/tag/1.6.11"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00008.html"
     },
     {
       "type": "WEB",
