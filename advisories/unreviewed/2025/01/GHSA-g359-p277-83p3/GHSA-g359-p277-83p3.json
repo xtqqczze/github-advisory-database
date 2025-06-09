@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-75"
+      "CWE-75",
+      "CWE-77"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

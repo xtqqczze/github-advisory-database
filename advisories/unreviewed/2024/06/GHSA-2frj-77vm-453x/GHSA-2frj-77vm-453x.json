@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2frj-77vm-453x",
-  "modified": "2024-06-19T12:31:21Z",
+  "modified": "2025-06-09T21:30:38Z",
   "published": "2024-06-19T12:31:21Z",
   "aliases": [
     "CVE-2024-35765"

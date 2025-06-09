@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh95-48w4-456m",
-  "modified": "2024-02-03T00:31:34Z",
+  "modified": "2025-06-09T21:30:37Z",
   "published": "2024-01-31T15:30:19Z",
   "aliases": [
     "CVE-2024-0589"
   ],
-  "details": "Cross-site scripting (XSS) vulnerability in the entry overview tab in Devolutions Remote Desktop Manager 2023.3.36 and earlier on Windows allows an attacker with access to a data source to inject a malicious script via a specially crafted input in an entry.\n\n\n\n\n\n",
+  "details": "Cross-site scripting (XSS) vulnerability in the entry overview tab in Devolutions Remote Desktop Manager 2023.3.36 and earlier on Windows allows an attacker with access to a data source to inject a malicious script via a specially crafted input in an entry.",
   "severity": [
     {
       "type": "CVSS_V3",
