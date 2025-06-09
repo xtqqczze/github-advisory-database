@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvx7-x8pj-x2gw",
-  "modified": "2025-06-06T21:27:28Z",
+  "modified": "2025-06-09T21:39:31Z",
   "published": "2025-06-06T21:27:27Z",
   "aliases": [
     "CVE-2025-47950"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.21.2"
+              "fixed": "1.12.2"
             }
           ]
         }
