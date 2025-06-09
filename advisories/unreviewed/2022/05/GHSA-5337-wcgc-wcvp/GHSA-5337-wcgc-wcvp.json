@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5337-wcgc-wcvp",
-  "modified": "2022-06-15T00:00:31Z",
+  "modified": "2025-06-09T18:32:01Z",
   "published": "2022-05-24T19:08:26Z",
   "aliases": [
     "CVE-2021-33910"
@@ -45,27 +45,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-222547.pdf"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/systemd/systemd/releases"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2LSDMHAKI4LGFOCSPXNVVSEWQFAVFWR7"
-    },
-    {
-      "type": "WEB",
-      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/42TMJVNYRY65B4QCJICBYOEIVZV3KUYI"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.gentoo.org/glsa/202107-48"
-    },
-    {
-      "type": "WEB",
-      "url": "https://security.netapp.com/advisory/ntap-20211104-0008"
+      "url": "https://www.openwall.com/lists/oss-security/2021/07/20/2"
     },
     {
       "type": "WEB",
@@ -73,7 +53,35 @@
     },
     {
       "type": "WEB",
-      "url": "https://www.openwall.com/lists/oss-security/2021/07/20/2"
+      "url": "https://security.netapp.com/advisory/ntap-20211104-0008"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.gentoo.org/glsa/202107-48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/42TMJVNYRY65B4QCJICBYOEIVZV3KUYI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2LSDMHAKI4LGFOCSPXNVVSEWQFAVFWR7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/42TMJVNYRY65B4QCJICBYOEIVZV3KUYI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2LSDMHAKI4LGFOCSPXNVVSEWQFAVFWR7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/systemd/systemd/releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-222547.pdf"
     },
     {
       "type": "WEB",

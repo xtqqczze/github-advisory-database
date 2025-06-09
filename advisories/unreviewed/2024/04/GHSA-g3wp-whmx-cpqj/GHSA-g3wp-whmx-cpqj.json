@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3wp-whmx-cpqj",
-  "modified": "2025-06-06T15:30:34Z",
+  "modified": "2025-06-09T18:32:06Z",
   "published": "2024-04-19T18:31:15Z",
   "aliases": [
     "CVE-2023-50010"
@@ -21,7 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/FFmpeg/FFmpeg/commit/e4d2666bdc3dbd177a81bbf428654a5f2fa3787a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FFmpeg/FFmpeg/commit/e809c23786fe297797198a7b9f5d3392d581daf1"
+    },
+    {
+      "type": "WEB",
       "url": "https://ffmpeg.org"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.ffmpeg.org/gitweb/ffmpeg.git/blobdiff/ab0fdaedd1e7224f7e84ea22fcbfaa4ca75a6c06..e4d2666bdc3dbd177a81bbf428654a5f2fa3787a:/libavfilter/vf_gradfun.c"
     },
     {
       "type": "WEB",

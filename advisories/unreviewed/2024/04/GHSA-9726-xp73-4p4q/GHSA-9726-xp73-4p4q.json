@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9726-xp73-4p4q",
-  "modified": "2025-06-06T15:30:34Z",
+  "modified": "2025-06-09T18:32:06Z",
   "published": "2024-04-19T18:31:15Z",
   "aliases": [
     "CVE-2023-50009"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-50009"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FFmpeg/FFmpeg/commit/162b4c60c8f72be2e93b759f3b1e14652b70b3ba"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FFmpeg/FFmpeg/commit/c443658d26d2b8e19901f9507a890e0efca79056"
     },
     {
       "type": "WEB",

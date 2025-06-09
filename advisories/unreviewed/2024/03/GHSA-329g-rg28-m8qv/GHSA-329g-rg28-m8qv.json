@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-329g-rg28-m8qv",
-  "modified": "2024-03-21T15:31:55Z",
+  "modified": "2025-06-09T18:32:03Z",
   "published": "2024-03-21T15:31:55Z",
   "aliases": [
     "CVE-2024-27995"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Repute Infosystems ARMember – Membership Plugin, Content Restriction, Member Levels, User Profile & User signup allows Stored XSS.This issue affects ARMember – Membership Plugin, Content Restriction, Member Levels, User Profile & User signup: from n/a through 4.0.23.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Repute Infosystems ARMember – Membership Plugin, Content Restriction, Member Levels, User Profile & User signup allows Stored XSS.This issue affects ARMember – Membership Plugin, Content Restriction, Member Levels, User Profile & User signup: from n/a through 4.0.23.",
   "severity": [
     {
       "type": "CVSS_V3",

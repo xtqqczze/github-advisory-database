@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86rx-vp92-xvgg",
-  "modified": "2022-05-13T01:04:11Z",
+  "modified": "2025-06-09T18:31:57Z",
   "published": "2022-05-13T01:04:11Z",
   "aliases": [
     "CVE-2018-15686"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2020:0593"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/r1b103833cb5bc8466e24ff0ecc5e75b45a705334ab6a444e64e840a0%40%3Cissues.bookkeeper.apache.org%3E"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4pv-vqp3-f753",
-  "modified": "2025-04-11T03:56:27Z",
+  "modified": "2025-06-09T18:31:54Z",
   "published": "2022-05-13T01:27:19Z",
   "aliases": [
     "CVE-2011-3045"
   ],
   "details": "Integer signedness error in the png_inflate function in pngrutil.c in libpng before 1.4.10beta01, as used in Google Chrome before 17.0.963.83 and other products, allows remote attackers to cause a denial of service (application crash) or possibly execute arbitrary code via a crafted PNG file, a different vulnerability than CVE-2011-3026.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -121,7 +126,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-190"
+      "CWE-190",
+      "CWE-195"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

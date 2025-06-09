@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-368q-3gfm-fh6f",
-  "modified": "2024-12-19T12:32:40Z",
+  "modified": "2025-06-09T18:32:06Z",
   "published": "2024-12-19T12:32:40Z",
   "aliases": [
     "CVE-2024-11616"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11616"
+    },
+    {
+      "type": "WEB",
+      "url": "https://inbits-sec.com/posts/cve-2024-11616-netskope"
     },
     {
       "type": "WEB",

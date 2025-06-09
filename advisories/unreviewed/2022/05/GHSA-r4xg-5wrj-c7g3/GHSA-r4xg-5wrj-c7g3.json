@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4xg-5wrj-c7g3",
-  "modified": "2022-05-13T01:04:12Z",
+  "modified": "2025-06-09T18:31:54Z",
   "published": "2022-05-13T01:04:12Z",
   "aliases": [
     "CVE-2013-4392"
   ],
   "details": "systemd, when updating file permissions, allows local users to change the permissions and SELinux security contexts for arbitrary files via a symlink attack on unspecified files.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
