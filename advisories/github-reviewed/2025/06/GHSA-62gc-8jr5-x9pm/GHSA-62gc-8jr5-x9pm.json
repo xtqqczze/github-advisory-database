@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62gc-8jr5-x9pm",
-  "modified": "2025-06-09T11:58:45Z",
+  "modified": "2025-06-10T20:08:58Z",
   "published": "2025-06-06T15:30:53Z",
   "aliases": [
     "CVE-2025-27531"
@@ -10,8 +10,12 @@
   "details": "Deserialization of Untrusted Data vulnerability in Apache InLong. This issue affects Apache InLong: from 1.13.0 before 2.1.0, this issue would allow an authenticated attacker to read arbitrary files by double writing the param. Users are recommended to upgrade to version 2.1.0, which fixes the issue.",
   "severity": [
     {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:U"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:U"
     }
   ],
   "affected": [
@@ -69,7 +73,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-09T11:58:45Z",
     "nvd_published_at": "2025-06-06T15:15:23Z"
