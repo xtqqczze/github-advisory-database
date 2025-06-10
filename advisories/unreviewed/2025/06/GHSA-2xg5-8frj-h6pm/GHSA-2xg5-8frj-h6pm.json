@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-2xg5-8frj-h6pm",
+  "modified": "2025-06-10T18:32:26Z",
+  "published": "2025-06-10T18:32:26Z",
+  "aliases": [
+    "CVE-2025-44044"
+  ],
+  "details": "Keyoti SearchUnit prior to 9.0.0. is vulnerable to XML External Entity (XXE). An attacker who can force a vulnerable SearchUnit host into parsing maliciously crafted XML and/or DTD files can exfiltrate some files from the underlying operating system.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-44044"
+    },
+    {
+      "type": "WEB",
+      "url": "https://keyoti.com/products/search/dotNetWeb/HtmlHelp9/?topic=UserGuide/Release%20Notes.htm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sprocketsecurity.com/blog/cve-alert-cve-2025-44043-cve-2025-44044-the-search-bar-hacks-arent-dead-yet"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-10T16:15:40Z"
+  }
+}

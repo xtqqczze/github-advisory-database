@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3fxc-2crv-fg9x",
+  "modified": "2025-06-10T18:32:32Z",
+  "published": "2025-06-10T18:32:32Z",
+  "aliases": [
+    "CVE-2025-2884"
+  ],
+  "details": "TCG TPM2.0 Reference implementation's CryptHmacSign helper function is vulnerable to Out-of-Bounds read due to the lack of validation the signature scheme with the signature key's algorithm. See Errata 1.83 of TCG standard TPM2.0",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2884"
+    },
+    {
+      "type": "WEB",
+      "url": "https://trustedcomputinggroup.org/about/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://trustedcomputinggroup.org/wp-content/uploads/TPM2.0-Library-Spec-v1.83-Errata_v1_pub.pdf"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-10T18:15:30Z"
+  }
+}

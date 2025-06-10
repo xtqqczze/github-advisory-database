@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp98-9vmx-835h",
-  "modified": "2024-01-24T18:31:00Z",
+  "modified": "2025-06-10T18:32:10Z",
   "published": "2024-01-17T03:30:55Z",
   "aliases": [
     "CVE-2023-36235"
