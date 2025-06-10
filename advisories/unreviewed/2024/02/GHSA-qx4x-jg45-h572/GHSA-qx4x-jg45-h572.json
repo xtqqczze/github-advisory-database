@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx4x-jg45-h572",
-  "modified": "2024-02-09T06:32:23Z",
+  "modified": "2025-06-10T21:31:18Z",
   "published": "2024-02-09T06:32:23Z",
   "aliases": [
     "CVE-2023-43609"
   ],
-  "details": "\n\n\n\n\n\n\nIn Emerson Rosemount GC370XA, GC700XA, and GC1500XA products, an unauthenticated user with network access could obtain access to sensitive information or cause a denial-of-service condition.\n\n\n\n\n\n\n\n",
+  "details": "In Emerson Rosemount GC370XA, GC700XA, and GC1500XA products, an unauthenticated user with network access could obtain access to sensitive information or cause a denial-of-service condition.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -30,7 +30,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-285"
+      "CWE-285",
+      "CWE-863"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
