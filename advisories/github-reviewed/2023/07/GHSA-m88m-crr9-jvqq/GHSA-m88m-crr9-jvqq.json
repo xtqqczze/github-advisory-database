@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m88m-crr9-jvqq",
-  "modified": "2025-06-10T15:30:40Z",
+  "modified": "2025-06-10T19:58:06Z",
   "published": "2023-07-18T18:47:27Z",
   "aliases": [
     "CVE-2023-37476"

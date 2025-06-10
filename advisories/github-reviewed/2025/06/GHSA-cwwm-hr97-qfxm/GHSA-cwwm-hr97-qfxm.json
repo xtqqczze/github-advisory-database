@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwwm-hr97-qfxm",
-  "modified": "2025-06-06T21:41:00Z",
+  "modified": "2025-06-10T19:58:49Z",
   "published": "2025-06-06T21:41:00Z",
   "aliases": [
     "CVE-2025-49011"
