@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v6h2-p8h4-qcjw",
-  "modified": "2025-06-09T21:30:51Z",
+  "modified": "2025-06-10T22:51:59Z",
   "published": "2025-06-09T21:30:51Z",
   "aliases": [
     "CVE-2025-5889"
   ],
+  "summary": "brace-expansion Regular Expression Denial of Service vulnerability",
   "details": "A vulnerability was found in juliangruber brace-expansion up to 1.1.11. It has been rated as problematic. Affected by this issue is the function expand of the file index.js. The manipulation leads to inefficient regular expression complexity. The attack may be launched remotely. The complexity of an attack is rather high. The exploitation is known to be difficult. The exploit has been disclosed to the public and may be used. The name of the patch is a5b98a4f30d7813266b221435e1eaaf25a1b0ac5. It is recommended to apply a patch to fix this issue.",
   "severity": [
     {
@@ -17,7 +18,27 @@
       "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "brace-expansion"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.1"
+            },
+            {
+              "last_affected": "4.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -30,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/mmmsssttt404/37a40ce7d6e5ca604858fe30814d9466"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/juliangruber/brace-expansion"
     },
     {
       "type": "WEB",
@@ -49,8 +74,8 @@
       "CWE-400"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-06-10T22:51:59Z",
     "nvd_published_at": "2025-06-09T19:15:25Z"
   }
 }
