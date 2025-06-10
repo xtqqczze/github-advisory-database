@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxrx-q234-m22m",
-  "modified": "2025-03-20T19:03:45Z",
+  "modified": "2025-06-10T14:55:19Z",
   "published": "2024-12-12T09:31:35Z",
   "aliases": [
     "CVE-2024-12397"
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:3018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:8761"
     },
     {
       "type": "WEB",
