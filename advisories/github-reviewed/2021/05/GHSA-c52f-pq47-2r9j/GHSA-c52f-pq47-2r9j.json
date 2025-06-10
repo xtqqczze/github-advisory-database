@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c52f-pq47-2r9j",
-  "modified": "2025-05-29T22:57:40Z",
+  "modified": "2025-05-29T22:59:16Z",
   "published": "2021-05-24T16:57:21Z",
   "aliases": [
     "CVE-2020-15187"
@@ -44,7 +44,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.0"
             },
             {
               "fixed": "2.16.11"
