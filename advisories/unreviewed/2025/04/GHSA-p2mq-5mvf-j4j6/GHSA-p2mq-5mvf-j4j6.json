@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2mq-5mvf-j4j6",
-  "modified": "2025-04-23T12:31:26Z",
+  "modified": "2025-06-10T12:30:17Z",
   "published": "2025-04-23T12:31:25Z",
   "aliases": [
     "CVE-2025-2703"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://grafana.com/security/security-advisories/cve-2025-2703"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sonarsource.com/blog/data-in-danger-detecting-xss-in-grafana-cve-2025-2703"
     }
   ],
   "database_specific": {
