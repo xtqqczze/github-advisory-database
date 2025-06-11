@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-64mp-f6ff-c8jm",
+  "modified": "2025-06-11T12:30:36Z",
+  "published": "2025-06-11T12:30:36Z",
+  "aliases": [
+    "CVE-2025-49710"
+  ],
+  "details": "An integer overflow was present in `OrderedHashTable` used by the JavaScript engine This vulnerability affects Firefox < 139.0.4.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49710"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1970095"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-47"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-11T12:15:27Z"
+  }
+}
