@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7fj-77gc-45xq",
-  "modified": "2025-06-11T12:30:36Z",
+  "modified": "2025-06-11T15:30:28Z",
   "published": "2025-06-11T12:30:36Z",
   "aliases": [
     "CVE-2025-5986"
   ],
   "details": "A crafted HTML email using mailbox:/// links can trigger automatic, unsolicited downloads of .pdf files to the user's desktop or home directory without prompting, even if auto-saving is disabled. This behavior can be abused to fill the disk with garbage data (e.g. using /dev/urandom on Linux) or to leak Windows credentials via SMB links when the email is viewed in HTML mode. While user interaction is required to download the .pdf file, visual obfuscation can conceal the download trigger. Viewing the email in HTML mode is enough to load external content. This vulnerability affects Thunderbird < 128.11.1 and Thunderbird < 139.0.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-451"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-11T12:15:29Z"

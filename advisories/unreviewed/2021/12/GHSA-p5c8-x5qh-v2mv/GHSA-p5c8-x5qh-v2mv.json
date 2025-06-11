@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5c8-x5qh-v2mv",
-  "modified": "2021-12-24T00:01:14Z",
+  "modified": "2025-06-11T15:30:23Z",
   "published": "2021-12-16T00:01:41Z",
   "aliases": [
     "CVE-2021-43905"
   ],
   "details": "Microsoft Office app Remote Code Execution Vulnerability",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

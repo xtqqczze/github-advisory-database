@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h889-475r-wfmm",
-  "modified": "2025-06-09T18:32:17Z",
+  "modified": "2025-06-11T15:30:26Z",
   "published": "2025-06-09T18:32:17Z",
   "aliases": [
     "CVE-2025-49651"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://hiddenlayer.com/sai_security_advisor/2025-05-backendai-49653"
+    },
+    {
+      "type": "WEB",
+      "url": "https://hiddenlayer.com/sai_security_advisor/2025-06-backendai"
     }
   ],
   "database_specific": {

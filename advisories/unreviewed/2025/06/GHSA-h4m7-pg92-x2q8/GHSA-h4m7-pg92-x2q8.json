@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4m7-pg92-x2q8",
-  "modified": "2025-06-11T12:30:36Z",
+  "modified": "2025-06-11T15:30:28Z",
   "published": "2025-06-11T12:30:36Z",
   "aliases": [
     "CVE-2025-5687"
   ],
   "details": "A vulnerability in Mozilla VPN on macOS allows privilege escalation from a normal user to root.\n*This bug only affects Mozilla VPN on macOS. Other operating systems are unaffected.* This vulnerability affects Mozilla VPN 2.28.0 < (macOS).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-269"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-11T12:15:29Z"

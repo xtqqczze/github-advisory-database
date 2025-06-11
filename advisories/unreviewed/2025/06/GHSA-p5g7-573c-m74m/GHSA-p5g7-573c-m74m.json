@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5g7-573c-m74m",
-  "modified": "2025-06-11T12:30:36Z",
+  "modified": "2025-06-11T15:30:28Z",
   "published": "2025-06-11T12:30:36Z",
   "aliases": [
     "CVE-2025-49709"
   ],
   "details": "Certain canvas operations could have lead to memory corruption. This vulnerability affects Firefox < 139.0.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-787"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-11T12:15:26Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7g9m-wm2f-95fg",
-  "modified": "2025-06-10T18:32:31Z",
+  "modified": "2025-06-11T15:30:26Z",
   "published": "2025-06-10T18:32:31Z",
   "aliases": [
     "CVE-2024-37394"
   ],
   "details": "A stored cross-site scripting (XSS) vulnerability in the Project Dashboards of REDCap 13.1.9 allows authenticated users to execute arbitrary web script or HTML by injecting a crafted payload into the 'Dashboard title' and 'Dashboard content' text boxes. This can lead to the execution of malicious scripts when the dashboard is viewed. Users are recommended to update to version 14.2.1 or later to mitigate this vulnerability.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-10T18:15:29Z"
