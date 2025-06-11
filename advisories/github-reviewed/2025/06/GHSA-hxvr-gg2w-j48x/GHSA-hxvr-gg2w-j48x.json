@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hxvr-gg2w-j48x",
-  "modified": "2025-06-11T15:30:26Z",
+  "modified": "2025-06-11T17:38:06Z",
   "published": "2025-06-09T18:32:17Z",
   "aliases": [
     "CVE-2025-49653"
   ],
+  "summary": "BackendAI vulnerable to Exposure of Sensitive Information to an Unauthorized Actor",
   "details": "Exposure of sensitive data in active sessions in Lablup's BackendAI allows attackers to retrieve credentials for users on the management platform.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "backend.ai"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "25.3.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49653"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/lablup/backend.ai"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-200"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-06-11T17:38:06Z",
     "nvd_published_at": "2025-06-09T18:15:27Z"
   }
 }
