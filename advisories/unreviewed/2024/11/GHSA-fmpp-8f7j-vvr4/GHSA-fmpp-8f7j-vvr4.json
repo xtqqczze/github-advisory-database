@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmpp-8f7j-vvr4",
-  "modified": "2024-11-20T21:30:50Z",
+  "modified": "2025-06-11T21:30:37Z",
   "published": "2024-11-20T21:30:50Z",
   "aliases": [
     "CVE-2024-45511"
   ],
   "details": "An issue was discovered in Zimbra Collaboration (ZCS) through 10.1. A reflected Cross-Site Scripting (XSS) issue exists through the Briefcase module due to improper sanitization of file content by the OnlyOffice formatter. This occurs when the victim opens a crafted URL pointing to a shared folder containing a malicious file uploaded by the attacker. The vulnerability allows the attacker to execute arbitrary JavaScript in the context of the victim's session.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-11-20T19:15:06Z"
