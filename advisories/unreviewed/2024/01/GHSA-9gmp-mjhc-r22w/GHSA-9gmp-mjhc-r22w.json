@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9gmp-mjhc-r22w",
-  "modified": "2024-02-03T03:30:27Z",
+  "modified": "2025-06-11T18:35:39Z",
   "published": "2024-01-29T15:30:29Z",
   "aliases": [
     "CVE-2023-5943"
