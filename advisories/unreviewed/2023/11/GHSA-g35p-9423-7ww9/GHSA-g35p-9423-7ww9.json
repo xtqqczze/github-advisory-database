@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g35p-9423-7ww9",
-  "modified": "2023-11-08T21:30:36Z",
+  "modified": "2025-06-12T15:31:17Z",
   "published": "2023-11-01T18:30:33Z",
   "aliases": [
     "CVE-2023-5858"
