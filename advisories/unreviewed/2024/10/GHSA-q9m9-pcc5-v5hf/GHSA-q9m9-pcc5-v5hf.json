@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9m9-pcc5-v5hf",
-  "modified": "2024-11-02T00:36:20Z",
+  "modified": "2025-06-12T18:31:07Z",
   "published": "2024-10-31T21:31:45Z",
   "aliases": [
     "CVE-2024-48360"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/OpenXP-Research/CVE-2024-48360"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.qualitor.com.br/official-security-advisory-cve-2024-48360"
     },
     {
       "type": "WEB",
