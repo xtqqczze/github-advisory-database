@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-378p-2r6r-m338",
-  "modified": "2025-06-11T09:30:32Z",
+  "modified": "2025-06-12T06:30:27Z",
   "published": "2025-06-11T09:30:32Z",
   "aliases": [
     "CVE-2024-35295"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://cert-portal.siemens.com/productcert/html/ssa-771113.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.innomotics.com/hub/en/ISA-771113"
     }
   ],
   "database_specific": {
