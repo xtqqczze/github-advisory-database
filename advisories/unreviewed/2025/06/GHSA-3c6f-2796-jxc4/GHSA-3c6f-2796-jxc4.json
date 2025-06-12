@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3c6f-2796-jxc4",
-  "modified": "2025-06-09T12:31:13Z",
+  "modified": "2025-06-12T21:30:30Z",
   "published": "2025-06-09T12:31:13Z",
   "aliases": [
     "CVE-2025-5875"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.581366"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.cn"
     },
     {
       "type": "WEB",
