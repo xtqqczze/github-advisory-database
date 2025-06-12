@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-785g-r934-c877",
-  "modified": "2025-05-02T21:30:43Z",
+  "modified": "2025-06-12T03:30:25Z",
   "published": "2025-05-02T21:30:43Z",
   "aliases": [
     "CVE-2025-4215"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/gorhill/uBlock/releases/tag/1.63.3b17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2025/06/msg00013.html"
     },
     {
       "type": "WEB",
