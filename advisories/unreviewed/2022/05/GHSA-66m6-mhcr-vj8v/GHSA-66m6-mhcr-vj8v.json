@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66m6-mhcr-vj8v",
-  "modified": "2022-05-24T17:42:41Z",
+  "modified": "2025-06-13T00:33:17Z",
   "published": "2022-05-24T17:42:41Z",
   "aliases": [
     "CVE-2021-20587"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://jvn.jp/vu/JVNVU92330101"
+    },
+    {
+      "type": "WEB",
       "url": "https://jvn.jp/vu/JVNVU92330101/index.html"
     },
     {
@@ -29,11 +33,20 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-21-049-02"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.mitsubishielectric.com/en/psirt/vulnerability/pdf/2020-021_en.pdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mitsubishielectric.com/psirt/vulnerability/pdf/2020-021_en.pdf"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-122",
       "CWE-787"
     ],
     "severity": "CRITICAL",
