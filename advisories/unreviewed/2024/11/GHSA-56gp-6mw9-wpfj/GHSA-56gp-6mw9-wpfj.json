@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56gp-6mw9-wpfj",
-  "modified": "2024-12-11T15:31:16Z",
+  "modified": "2025-06-13T21:31:08Z",
   "published": "2024-11-28T18:38:37Z",
   "aliases": [
     "CVE-2023-52922"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52922"
+    },
+    {
+      "type": "WEB",
+      "url": "https://allelesecurity.com/use-after-free-vulnerability-in-can-bcm-subsystem-leading-to-information-disclosure-cve-2023-52922"
     },
     {
       "type": "WEB",
