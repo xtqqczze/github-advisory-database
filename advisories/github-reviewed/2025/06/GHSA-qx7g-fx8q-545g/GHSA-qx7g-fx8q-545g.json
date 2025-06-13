@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qx7g-fx8q-545g",
-  "modified": "2025-06-06T15:49:58Z",
+  "modified": "2025-06-13T15:28:47Z",
   "published": "2025-06-06T15:49:58Z",
   "aliases": [
     "CVE-2025-49009"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.50.7"
+              "fixed": "1.50.8"
             }
           ]
         }
