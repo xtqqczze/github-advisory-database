@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3wm-hffr-chwm",
-  "modified": "2024-05-15T17:10:49Z",
+  "modified": "2025-06-13T20:45:13Z",
   "published": "2024-05-15T17:10:49Z",
   "aliases": [
     "CVE-2024-32888"
@@ -63,6 +63,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/aws/amazon-redshift-jdbc-driver"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sonarsource.com/blog/double-dash-double-trouble-a-subtle-sql-injection-flaw"
     }
   ],
   "database_specific": {
