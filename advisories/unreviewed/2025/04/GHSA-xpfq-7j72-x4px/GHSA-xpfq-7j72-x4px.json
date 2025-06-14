@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpfq-7j72-x4px",
-  "modified": "2025-04-14T21:32:24Z",
+  "modified": "2025-06-14T21:34:52Z",
   "published": "2025-04-13T00:30:22Z",
   "aliases": [
     "CVE-2025-2814"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2814"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/lstein/Lib-Crypt-CBC/commit/37111f7cd894bcec46156ba7f40a49c126ebf535.patch"
     },
     {
       "type": "WEB",
