@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3c7-22c8-prg7",
-  "modified": "2025-06-13T21:09:00Z",
+  "modified": "2025-06-14T00:23:21Z",
   "published": "2025-06-13T21:09:00Z",
   "aliases": [
     "CVE-2025-49597"
@@ -41,6 +41,10 @@
       "url": "https://github.com/handcraftedinthealps/goodby-csv/security/advisories/GHSA-x3c7-22c8-prg7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49597"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/handcraftedinthealps/goodby-csv/commit/acd14c6ed85116bb2cb4da35ab62821e5cf54519"
     },
@@ -56,6 +60,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-13T21:09:00Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-06-13T20:15:23Z"
   }
 }
