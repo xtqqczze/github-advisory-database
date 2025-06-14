@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hm47-446q-7w5f",
-  "modified": "2025-06-13T21:31:10Z",
+  "modified": "2025-06-14T00:30:22Z",
   "published": "2025-06-13T21:31:10Z",
   "aliases": [
     "CVE-2025-6083"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://extreme-networks.my.site.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://extreme-networks.my.site.com/ExtrArticleDetail?an=000126912"
     }
   ],
   "database_specific": {
