@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49g9-8m2w-hfgg",
-  "modified": "2024-04-04T04:39:06Z",
+  "modified": "2025-06-16T21:31:16Z",
   "published": "2023-06-07T06:30:18Z",
   "aliases": [
     "CVE-2023-33538"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/a101e-IoTvul/iotvul/blob/main/tp-link/3/TL-WR940N_TL-WR841N_userRpm_WlanNetworkRpm_Command_Injection.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://web.archive.org/web/20230609111043/https://github.com/a101e-IoTvul/iotvul/blob/main/tp-link/3/TL-WR940N_TL-WR841N_userRpm_WlanNetworkRpm_Command_Injection.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/faq/3562"
     }
   ],
   "database_specific": {

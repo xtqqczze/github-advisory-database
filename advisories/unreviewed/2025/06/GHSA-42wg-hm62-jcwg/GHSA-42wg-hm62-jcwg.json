@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42wg-hm62-jcwg",
-  "modified": "2025-06-16T15:32:28Z",
+  "modified": "2025-06-16T21:31:24Z",
   "published": "2025-06-16T15:32:28Z",
   "aliases": [
     "CVE-2025-49124"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/lnow7tt2j6hb9kcpkggx32ht6o90vqzv"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/06/16/3"
     }
   ],
   "database_specific": {

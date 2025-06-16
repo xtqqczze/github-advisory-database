@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvhh-4rp5-cfmm",
-  "modified": "2022-05-02T03:37:08Z",
+  "modified": "2025-06-16T21:31:16Z",
   "published": "2022-05-02T03:37:08Z",
   "aliases": [
     "CVE-2009-2631"
@@ -17,6 +17,14 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/54523"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.paloaltonetworks.com/PAN-SA-2025-0005"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/261869"
     },
     {
       "type": "WEB",
@@ -108,7 +116,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-284"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
