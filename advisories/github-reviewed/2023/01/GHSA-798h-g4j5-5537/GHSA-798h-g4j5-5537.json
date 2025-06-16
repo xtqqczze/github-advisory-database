@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-798h-g4j5-5537",
-  "modified": "2023-01-19T16:38:30Z",
+  "modified": "2025-06-16T14:03:06Z",
   "published": "2023-01-11T15:30:28Z",
-  "aliases": [
-    "CVE-2020-36649"
-  ],
-  "summary": "PapaParse Inefficient Regular Expression Complexity vulnerability",
-  "details": "A vulnerability was found in mholt PapaParse up to 5.1.x. It has been classified as problematic. Affected is an unknown function of the file papaparse.js. The manipulation leads to inefficient regular expression complexity. Upgrading to version 5.2.0 is able to address this issue. The name of the patch is 235a12758cd77266d2e98fd715f53536b34ad621. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218004.",
+  "withdrawn": "2025-06-16T14:03:06Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: PapaParse Inefficient Regular Expression Complexity vulnerability",
+  "details": "## Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-qvjc-g5vr-mfgr. This link is maintained to preserve external references.\n\n## Original Description\nA vulnerability was found in mholt PapaParse up to 5.1.x. It has been classified as problematic. Affected is an unknown function of the file papaparse.js. The manipulation leads to inefficient regular expression complexity. Upgrading to version 5.2.0 is able to address this issue. The name of the patch is 235a12758cd77266d2e98fd715f53536b34ad621. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-218004.",
   "severity": [
     {
       "type": "CVSS_V3",
