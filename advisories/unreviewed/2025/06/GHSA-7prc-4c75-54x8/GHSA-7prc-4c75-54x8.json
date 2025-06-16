@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7prc-4c75-54x8",
-  "modified": "2025-06-16T09:30:38Z",
+  "modified": "2025-06-16T15:32:26Z",
   "published": "2025-06-16T09:30:38Z",
   "aliases": [
     "CVE-2025-3464"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.asus.com/content/asus-product-security-advisory"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2150"
     }
   ],
   "database_specific": {

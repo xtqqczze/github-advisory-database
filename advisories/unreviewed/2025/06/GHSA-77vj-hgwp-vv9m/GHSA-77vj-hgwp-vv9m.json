@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-hw43-jx4x-7g84",
-  "modified": "2025-06-10T21:31:24Z",
-  "published": "2025-06-10T21:31:24Z",
+  "id": "GHSA-77vj-hgwp-vv9m",
+  "modified": "2025-06-16T15:32:27Z",
+  "published": "2025-06-16T15:32:27Z",
   "aliases": [
-    "CVE-2025-5979"
+    "CVE-2025-6124"
   ],
-  "details": "A vulnerability classified as critical has been found in code-projects School Fees Payment System 1.0. This affects an unknown part of the file /branch.php. The manipulation of the argument ID leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used.",
+  "details": "A vulnerability was found in code-projects Restaurant Order System 1.0 and classified as critical. This issue affects some unknown processing of the file /tablelow.php. The manipulation of the argument ID leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -21,11 +21,11 @@
   "references": [
     {
       "type": "ADVISORY",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5979"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6124"
     },
     {
       "type": "WEB",
-      "url": "https://github.com/jiangffffd/cve/issues/2"
+      "url": "https://github.com/ez-lbz/poc/issues/4"
     },
     {
       "type": "WEB",
@@ -33,25 +33,24 @@
     },
     {
       "type": "WEB",
-      "url": "https://vuldb.com/?ctiid.311859"
+      "url": "https://vuldb.com/?ctiid.312593"
     },
     {
       "type": "WEB",
-      "url": "https://vuldb.com/?id.311859"
+      "url": "https://vuldb.com/?id.312593"
     },
     {
       "type": "WEB",
-      "url": "https://vuldb.com/?submit.592463"
+      "url": "https://vuldb.com/?submit.592625"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-74",
-      "CWE-89"
+      "CWE-74"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
-    "nvd_published_at": "2025-06-10T21:15:22Z"
+    "nvd_published_at": "2025-06-16T14:15:22Z"
   }
 }
