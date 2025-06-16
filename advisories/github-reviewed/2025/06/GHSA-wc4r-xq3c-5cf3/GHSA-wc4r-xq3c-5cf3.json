@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc4r-xq3c-5cf3",
-  "modified": "2025-06-16T18:02:12Z",
+  "modified": "2025-06-16T21:46:34Z",
   "published": "2025-06-16T15:32:28Z",
   "aliases": [
     "CVE-2025-49125"
@@ -184,6 +184,10 @@
     {
       "type": "WEB",
       "url": "https://tomcat.apache.org/security-9.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2025/06/16/2"
     }
   ],
   "database_specific": {
