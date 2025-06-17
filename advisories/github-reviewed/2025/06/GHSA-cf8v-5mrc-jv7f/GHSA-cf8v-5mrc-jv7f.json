@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cf8v-5mrc-jv7f",
-  "modified": "2025-06-16T13:04:20Z",
+  "modified": "2025-06-17T19:59:28Z",
   "published": "2025-06-13T15:30:31Z",
   "aliases": [
     "CVE-2025-28382"
@@ -33,6 +33,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/OpenC3/cosmos"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/openc3-cosmos-tool-iframe/CVE-2025-28382.yml"
     },
     {
       "type": "WEB",
