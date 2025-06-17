@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7w2m-c29q-x5gq",
-  "modified": "2025-06-12T18:31:48Z",
+  "modified": "2025-06-17T21:32:08Z",
   "published": "2025-06-12T18:31:48Z",
   "aliases": [
     "CVE-2023-45256"
   ],
   "details": "Multiple SQL injection vulnerabilities in the EuroInformation MoneticoPaiement module before 1.1.1 for PrestaShop allow remote attackers to execute arbitrary SQL commands via the TPE, societe, MAC, reference, or aliascb parameter to transaction.php, validation.php, or callback.php.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-12T17:15:26Z"

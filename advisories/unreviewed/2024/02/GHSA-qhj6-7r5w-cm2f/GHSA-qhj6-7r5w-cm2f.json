@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhj6-7r5w-cm2f",
-  "modified": "2024-02-09T21:30:57Z",
+  "modified": "2025-06-17T21:31:38Z",
   "published": "2024-02-09T21:30:57Z",
   "aliases": [
     "CVE-2023-50349"
   ],
-  "details": "Sametime is impacted by a Cross Site Request Forgery (CSRF) vulnerability.  Some REST APIs in the Sametime Proxy application can allow an attacker to perform malicious actions on the application. \n",
+  "details": "Sametime is impacted by a Cross Site Request Forgery (CSRF) vulnerability.  Some REST APIs in the Sametime Proxy application can allow an attacker to perform malicious actions on the application.",
   "severity": [
     {
       "type": "CVSS_V3",

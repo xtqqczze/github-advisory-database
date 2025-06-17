@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj4v-24xq-mcm6",
-  "modified": "2024-01-10T21:31:06Z",
+  "modified": "2025-06-17T21:31:34Z",
   "published": "2024-01-03T21:30:31Z",
   "aliases": [
     "CVE-2023-5879"
   ],
-  "details": "Users’ product account authentication data was stored in clear text in The Genie Company Aladdin Connect Mobile Application Version 5.65 Build 2075 (and below) on Android Devices. This allows the attacker, with access to the android device, to potentially retrieve users' clear text authentication credentials.\n",
+  "details": "Users’ product account authentication data was stored in clear text in The Genie Company Aladdin Connect Mobile Application Version 5.65 Build 2075 (and below) on Android Devices. This allows the attacker, with access to the android device, to potentially retrieve users' clear text authentication credentials.",
   "severity": [
     {
       "type": "CVSS_V3",
