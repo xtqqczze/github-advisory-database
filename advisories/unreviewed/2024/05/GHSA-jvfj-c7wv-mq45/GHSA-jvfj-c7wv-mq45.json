@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvfj-c7wv-mq45",
-  "modified": "2024-05-06T21:30:38Z",
+  "modified": "2025-06-17T18:31:36Z",
   "published": "2024-05-06T21:30:38Z",
   "aliases": [
     "CVE-2024-33121"
   ],
   "details": "Roothub v2.6 was discovered to contain a SQL injection vulnerability via the 's' parameter in the search() function.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-05-06T20:15:11Z"

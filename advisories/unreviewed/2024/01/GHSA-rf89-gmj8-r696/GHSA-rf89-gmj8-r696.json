@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rf89-gmj8-r696",
-  "modified": "2024-01-30T18:30:19Z",
+  "modified": "2025-06-17T18:31:31Z",
   "published": "2024-01-23T21:30:20Z",
   "aliases": [
     "CVE-2023-47197"
