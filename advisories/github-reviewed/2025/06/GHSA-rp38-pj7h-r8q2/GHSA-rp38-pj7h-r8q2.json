@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp38-pj7h-r8q2",
-  "modified": "2025-06-17T09:31:05Z",
+  "modified": "2025-06-17T15:37:15Z",
   "published": "2025-06-17T09:31:05Z",
   "aliases": [
     "CVE-2025-6167"
   ],
+  "summary": "python-a2a has a path traversal in the create_workflow function",
   "details": "A vulnerability classified as critical has been found in themanojdesai python-a2a up to 0.5.5. Affected is the function create_workflow of the file python_a2a/agent_flow/server/api.py. The manipulation leads to path traversal. Upgrading to version 0.5.6 is able to address this issue. It is recommended to upgrade the affected component.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:A/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:A/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "python-a2a"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.5.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,8 +49,8 @@
       "url": "https://github.com/themanojdesai/python-a2a/issues/40"
     },
     {
-      "type": "WEB",
-      "url": "https://github.com/themanojdesai/python-a2a/issues/40#issuecomment-2904804388"
+      "type": "PACKAGE",
+      "url": "https://github.com/themanojdesai/python-a2a"
     },
     {
       "type": "WEB",
@@ -53,8 +74,8 @@
       "CWE-22"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-06-17T15:37:14Z",
     "nvd_published_at": "2025-06-17T07:15:18Z"
   }
 }
