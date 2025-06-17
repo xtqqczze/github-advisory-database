@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g434-3q2j-hj4r",
-  "modified": "2025-06-16T22:00:38Z",
+  "modified": "2025-06-17T14:02:38Z",
   "published": "2022-05-14T03:08:36Z",
   "aliases": [
     "CVE-2018-12071"
   ],
   "summary": "CodeIgniter Session Fixation Vulnerability",
-  "details": "A Session Fixation issue exists in CodeIgniter before 3.1.9 because `session.use_strict_mode` in the Session Library was mishandled.",
+  "details": "A Session Fixation issue exists in CodeIgniter before 3.1.10 because `session.use_strict_mode` in the Session Library was mishandled.",
   "severity": [
     {
       "type": "CVSS_V3",
