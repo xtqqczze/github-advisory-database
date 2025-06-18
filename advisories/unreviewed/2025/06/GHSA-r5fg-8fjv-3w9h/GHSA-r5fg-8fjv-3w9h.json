@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r5fg-8fjv-3w9h",
-  "modified": "2025-06-12T15:31:22Z",
+  "modified": "2025-06-18T06:31:37Z",
   "published": "2025-06-12T09:30:32Z",
   "aliases": [
     "CVE-2025-5301"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://sec-consult.com/vulnerability-lab/advisory/reflected-cross-site-scripting-in-onlyoffice-docs-documentserver"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jun/18"
     }
   ],
   "database_specific": {

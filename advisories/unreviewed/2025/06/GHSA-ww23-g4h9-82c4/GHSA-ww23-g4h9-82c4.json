@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww23-g4h9-82c4",
-  "modified": "2025-06-11T15:30:28Z",
+  "modified": "2025-06-18T06:31:37Z",
   "published": "2025-06-11T09:30:33Z",
   "aliases": [
     "CVE-2025-26412"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://r.sec-consult.com/simcom"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2025/Jun/17"
     }
   ],
   "database_specific": {
