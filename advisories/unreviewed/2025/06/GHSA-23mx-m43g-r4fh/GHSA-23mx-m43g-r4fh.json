@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-23mx-m43g-r4fh",
-  "modified": "2025-06-18T06:31:37Z",
+  "modified": "2025-06-18T21:30:29Z",
   "published": "2025-06-18T06:31:37Z",
   "aliases": [
     "CVE-2025-4955"
   ],
   "details": "The tarteaucitron.io WordPress plugin before 1.9.5 uses query parameters from YouTube oEmbed URLs without sanitizing these parameters correctly, which could allow users with the contributor role and above to perform Stored Cross-site Scripting attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T06:15:28Z"

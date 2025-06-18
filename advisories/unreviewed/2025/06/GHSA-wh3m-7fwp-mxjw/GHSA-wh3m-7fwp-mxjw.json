@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh3m-7fwp-mxjw",
-  "modified": "2025-06-18T18:30:33Z",
+  "modified": "2025-06-18T21:30:29Z",
   "published": "2025-06-18T18:30:33Z",
   "aliases": [
     "CVE-2025-26198"
   ],
   "details": "CloudClassroom-PHP-Project v.1.0 is vulnerable to SQL Injection in loginlinkadmin.php, allowing unauthenticated attackers to bypass authentication and gain administrative access. The application fails to properly sanitize user inputs before constructing SQL queries, enabling an attacker to manipulate database queries via specially crafted payloads",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-18T18:15:24Z"
