@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv3c-rcm7-6mq5",
-  "modified": "2024-01-03T03:30:33Z",
+  "modified": "2025-06-18T18:30:21Z",
   "published": "2024-01-03T03:30:33Z",
   "aliases": [
     "CVE-2023-50341"
   ],
-  "details": "HCL DRYiCE MyXalytics is impacted by Improper Access Control (Obsolete web pages) vulnerability. Discovery of outdated and accessible web pages, reflects a \"Missing Access Control\" vulnerability, which could lead to inadvertent exposure of sensitive information and/or exposing a vulnerable endpoint.\n",
+  "details": "HCL DRYiCE MyXalytics is impacted by Improper Access Control (Obsolete web pages) vulnerability. Discovery of outdated and accessible web pages, reflects a \"Missing Access Control\" vulnerability, which could lead to inadvertent exposure of sensitive information and/or exposing a vulnerable endpoint.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-284"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

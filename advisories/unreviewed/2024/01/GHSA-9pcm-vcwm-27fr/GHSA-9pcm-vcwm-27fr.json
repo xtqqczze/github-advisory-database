@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9pcm-vcwm-27fr",
-  "modified": "2024-01-03T03:30:33Z",
+  "modified": "2025-06-18T18:30:21Z",
   "published": "2024-01-03T03:30:33Z",
   "aliases": [
     "CVE-2023-50351"
   ],
-  "details": "HCL DRYiCE MyXalytics is impacted by the use of an insecure key rotation mechanism which can allow an attacker to compromise the confidentiality or integrity of data.\n",
+  "details": "HCL DRYiCE MyXalytics is impacted by the use of an insecure key rotation mechanism which can allow an attacker to compromise the confidentiality or integrity of data.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-327"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

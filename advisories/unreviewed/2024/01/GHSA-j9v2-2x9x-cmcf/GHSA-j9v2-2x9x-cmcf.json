@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j9v2-2x9x-cmcf",
-  "modified": "2024-01-03T03:30:33Z",
+  "modified": "2025-06-18T18:30:21Z",
   "published": "2024-01-03T03:30:33Z",
   "aliases": [
     "CVE-2023-50348"
   ],
-  "details": "HCL DRYiCE MyXalytics is impacted by an improper error handling vulnerability. The application returns detailed error messages that can provide an attacker with insight into the application, system, etc.\n",
+  "details": "HCL DRYiCE MyXalytics is impacted by an improper error handling vulnerability. The application returns detailed error messages that can provide an attacker with insight into the application, system, etc.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-209"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,

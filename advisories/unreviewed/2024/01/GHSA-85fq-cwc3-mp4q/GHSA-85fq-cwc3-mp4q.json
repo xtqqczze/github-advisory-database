@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-85fq-cwc3-mp4q",
-  "modified": "2024-01-11T18:31:23Z",
+  "modified": "2025-06-18T18:30:23Z",
   "published": "2024-01-05T18:30:25Z",
   "aliases": [
     "CVE-2023-34323"
   ],
-  "details": "When a transaction is committed, C Xenstored will first check\nthe quota is correct before attempting to commit any nodes.  It would\nbe possible that accounting is temporarily negative if a node has\nbeen removed outside of the transaction.\n\nUnfortunately, some versions of C Xenstored are assuming that the\nquota cannot be negative and are using assert() to confirm it.  This\nwill lead to C Xenstored crash when tools are built without -DNDEBUG\n(this is the default).\n",
+  "details": "When a transaction is committed, C Xenstored will first check\nthe quota is correct before attempting to commit any nodes.  It would\nbe possible that accounting is temporarily negative if a node has\nbeen removed outside of the transaction.\n\nUnfortunately, some versions of C Xenstored are assuming that the\nquota cannot be negative and are using assert() to confirm it.  This\nwill lead to C Xenstored crash when tools are built without -DNDEBUG\n(this is the default).",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjj9-5wgw-fg99",
-  "modified": "2024-01-03T03:30:33Z",
+  "modified": "2025-06-18T18:30:21Z",
   "published": "2024-01-03T03:30:33Z",
   "aliases": [
     "CVE-2023-50343"
   ],
-  "details": "HCL DRYiCE MyXalytics is impacted by an Improper Access Control (Controller APIs) vulnerability. Certain API endpoints are accessible to Customer Admin Users that can allow access to sensitive information about other users.\n",
+  "details": "HCL DRYiCE MyXalytics is impacted by an Improper Access Control (Controller APIs) vulnerability. Certain API endpoints are accessible to Customer Admin Users that can allow access to sensitive information about other users.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-284"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
