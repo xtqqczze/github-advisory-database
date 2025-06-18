@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3hvp-qhfg-j3vj",
-  "modified": "2025-06-10T18:32:25Z",
+  "modified": "2025-06-18T15:30:40Z",
   "published": "2025-06-10T12:30:18Z",
   "aliases": [
     "CVE-2025-43699"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-281"
+      "CWE-281",
+      "CWE-602"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
