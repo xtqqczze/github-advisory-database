@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3x6-r9w9-mcxx",
-  "modified": "2025-04-18T00:30:44Z",
+  "modified": "2025-06-19T00:31:04Z",
   "published": "2025-04-18T00:30:44Z",
   "aliases": [
     "CVE-2025-3509"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server@3.13/admin/release-notes#3.13.16"
+    },
+    {
+      "type": "WEB",
       "url": "https://docs.github.com/en/enterprise-server@3.14/admin/release-notes#3.14.11"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server@3.14/admin/release-notes#3.14.13"
     },
     {
       "type": "WEB",
@@ -33,7 +41,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server@3.15/admin/release-notes#3.15.8"
+    },
+    {
+      "type": "WEB",
       "url": "https://docs.github.com/en/enterprise-server@3.16/admin/release-notes#3.16.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server@3.16/admin/release-notes#3.16.4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.github.com/en/enterprise-server@3.17/admin/release-notes#3.17.1"
     }
   ],
   "database_specific": {

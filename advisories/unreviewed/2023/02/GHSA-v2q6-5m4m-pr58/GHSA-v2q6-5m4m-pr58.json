@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v2q6-5m4m-pr58",
-  "modified": "2025-03-21T15:31:09Z",
+  "modified": "2025-06-19T00:31:03Z",
   "published": "2023-02-13T21:31:04Z",
   "aliases": [
     "CVE-2023-25719"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://cybir.com/2022/cve/hijacking-connectwise-control-and-ddos"
+    },
+    {
+      "type": "WEB",
+      "url": "https://m.youtube.com/watch?v=fbNVUgmstSc&pp=0gcJCf0Ao7VqN5tD"
     },
     {
       "type": "WEB",
