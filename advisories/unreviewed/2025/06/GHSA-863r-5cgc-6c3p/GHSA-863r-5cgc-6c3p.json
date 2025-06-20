@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-863r-5cgc-6c3p",
-  "modified": "2025-06-18T21:30:29Z",
+  "modified": "2025-06-20T15:30:36Z",
   "published": "2025-06-18T18:30:32Z",
   "aliases": [
     "CVE-2025-44952"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/scemodicecosa/8643fbfc9490f40e955e9f9e9b0d9077"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/scmdcs/8643fbfc9490f40e955e9f9e9b0d9077"
     }
   ],
   "database_specific": {
