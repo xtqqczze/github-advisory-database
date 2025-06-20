@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwc9-wmm3-2pmf",
-  "modified": "2025-06-20T14:56:59Z",
+  "modified": "2025-06-20T15:24:27Z",
   "published": "2025-06-20T14:56:59Z",
   "aliases": [],
   "summary": "DNN.PLATFORM Allows Stored Cross-Site Scripting (XSS) in Activity Feed",
@@ -37,10 +37,6 @@
     {
       "type": "WEB",
       "url": "https://github.com/dnnsoftware/Dnn.Platform/security/advisories/GHSA-wwc9-wmm3-2pmf"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/dnnsoftware/Dnn.Platform/commit/e739b8d5ad487509d9ef469cdb058b0398646c5b"
     },
     {
       "type": "PACKAGE",
