@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wh3m-7fwp-mxjw",
-  "modified": "2025-06-18T21:30:29Z",
+  "modified": "2025-06-20T21:32:06Z",
   "published": "2025-06-18T18:30:33Z",
   "aliases": [
     "CVE-2025-26198"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/tansique-17/0776791b8edd4931216be452a6971f5e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tansique-17/CVE-2025-26198"
     }
   ],
   "database_specific": {

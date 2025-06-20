@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6j6h-gw62-v4w9",
-  "modified": "2025-06-18T21:30:30Z",
+  "modified": "2025-06-20T21:32:06Z",
   "published": "2025-06-18T21:30:30Z",
   "aliases": [
     "CVE-2025-26199"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/tansique-17/6e01bb1b8a09ef499a9b8484a8dc2487"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/tansique-17/CVE-2025-26199/tree/main"
     }
   ],
   "database_specific": {

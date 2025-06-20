@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jjfr-pq2x-mf69",
-  "modified": "2024-01-30T21:30:28Z",
+  "modified": "2025-06-20T21:31:50Z",
   "published": "2024-01-23T21:30:21Z",
   "aliases": [
     "CVE-2023-52331"

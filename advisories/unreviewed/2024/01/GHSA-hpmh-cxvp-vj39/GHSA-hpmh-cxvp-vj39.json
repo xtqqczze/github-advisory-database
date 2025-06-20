@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpmh-cxvp-vj39",
-  "modified": "2024-01-19T18:30:25Z",
+  "modified": "2025-06-20T21:31:39Z",
   "published": "2024-01-16T09:30:18Z",
   "aliases": [
     "CVE-2023-4566"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c33v-j96v-576w",
-  "modified": "2022-02-09T00:00:37Z",
+  "modified": "2025-06-20T21:31:33Z",
   "published": "2022-02-09T00:00:37Z",
   "aliases": [
     "CVE-2021-43635"
   ],
   "details": "A Cross Site Scripting (XSS) vulnerability exists in Codex before 1.4.0 via Notebook/Page name field, which allows malicious users to execute arbitrary code via a crafted http code in a .json file.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

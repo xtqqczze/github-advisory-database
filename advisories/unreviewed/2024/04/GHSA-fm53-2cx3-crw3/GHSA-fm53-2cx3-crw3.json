@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fm53-2cx3-crw3",
-  "modified": "2024-07-08T15:31:54Z",
+  "modified": "2025-06-20T21:31:58Z",
   "published": "2024-04-11T03:34:59Z",
   "aliases": [
     "CVE-2023-51142"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/ipxsec/b20383620c9e1d5300f7716e62e8a82f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zkteco.com/en/Security_Bulletinsibs/14"
     },
     {
       "type": "WEB",

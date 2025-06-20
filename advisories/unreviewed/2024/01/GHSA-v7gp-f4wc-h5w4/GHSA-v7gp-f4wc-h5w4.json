@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v7gp-f4wc-h5w4",
-  "modified": "2024-03-28T21:30:31Z",
+  "modified": "2025-06-20T21:31:46Z",
   "published": "2024-01-22T15:30:23Z",
   "aliases": [
     "CVE-2020-36771"
   ],
-  "details": "CloudLinux\n CageFS 7.1.1-1 or below passes the authentication token as command line\n argument. In some configurations this allows local users to view it via\n the process list and gain code execution as another user.\n\n\n",
+  "details": "CloudLinux\n CageFS 7.1.1-1 or below passes the authentication token as command line\n argument. In some configurations this allows local users to view it via\n the process list and gain code execution as another user.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -38,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-200",
       "CWE-214"
     ],
     "severity": "HIGH",

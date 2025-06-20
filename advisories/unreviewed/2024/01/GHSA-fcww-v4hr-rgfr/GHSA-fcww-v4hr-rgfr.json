@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fcww-v4hr-rgfr",
-  "modified": "2024-01-16T12:30:25Z",
+  "modified": "2025-06-20T21:31:39Z",
   "published": "2024-01-16T12:30:25Z",
   "aliases": [
     "CVE-2023-34063"
   ],
-  "details": "Aria Automation contains a Missing Access Control vulnerability.\n\n\nAn authenticated malicious actor may \nexploit this vulnerability leading to unauthorized access to remote \norganizations and workflows.\n\n",
+  "details": "Aria Automation contains a Missing Access Control vulnerability.\n\n\nAn authenticated malicious actor may \nexploit this vulnerability leading to unauthorized access to remote \norganizations and workflows.",
   "severity": [
     {
       "type": "CVSS_V3",

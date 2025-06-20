@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gwgh-999f-h6wf",
-  "modified": "2024-01-18T18:30:24Z",
+  "modified": "2025-06-20T21:31:36Z",
   "published": "2024-01-11T18:31:27Z",
   "aliases": [
     "CVE-2023-6554"
   ],
-  "details": "When access to the \"admin\" folder is not protected by some external authorization mechanisms e.g. Apache Basic Auth, it is possible for any user to download protected information like exam answers.\n\n\n\n",
+  "details": "When access to the \"admin\" folder is not protected by some external authorization mechanisms e.g. Apache Basic Auth, it is possible for any user to download protected information like exam answers.",
   "severity": [
     {
       "type": "CVSS_V3",

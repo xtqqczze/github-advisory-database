@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwmx-qhv2-jx64",
-  "modified": "2024-02-08T00:32:19Z",
+  "modified": "2025-06-20T21:31:56Z",
   "published": "2024-02-05T18:31:37Z",
   "aliases": [
     "CVE-2024-24267"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-24267"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gpac/gpac/issues/2571"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gpac/gpac/commit/d28d9ba45cf4f628a7b2c351849a895e6fcf2234"
     },
     {
       "type": "WEB",

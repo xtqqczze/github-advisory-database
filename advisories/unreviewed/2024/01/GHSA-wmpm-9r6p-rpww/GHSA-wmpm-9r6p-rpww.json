@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmpm-9r6p-rpww",
-  "modified": "2024-02-01T21:30:30Z",
+  "modified": "2025-06-20T21:31:54Z",
   "published": "2024-01-24T21:30:33Z",
   "aliases": [
     "CVE-2021-42146"
@@ -22,10 +22,15 @@
     {
       "type": "WEB",
       "url": "https://seclists.org/fulldisclosure/2024/Jan/19"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2024/Jan/19"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-303",
       "CWE-755"
     ],
     "severity": "HIGH",

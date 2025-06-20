@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g25-v4mv-2xm5",
-  "modified": "2024-01-26T18:30:33Z",
+  "modified": "2025-06-20T21:31:45Z",
   "published": "2024-01-20T03:30:29Z",
   "aliases": [
     "CVE-2023-51925"
