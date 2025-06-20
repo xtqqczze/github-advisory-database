@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qjw-9xgm-c9ff",
-  "modified": "2025-06-19T16:19:48Z",
+  "modified": "2025-06-20T22:20:47Z",
   "published": "2025-06-19T16:19:48Z",
   "aliases": [
     "CVE-2025-48059"
@@ -63,6 +63,10 @@
       "url": "https://github.com/powsybl/powsybl-core/security/advisories/GHSA-8qjw-9xgm-c9ff"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48059"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/powsybl/powsybl-core/commit/d8398f689a5ccd505bd62eee2bd6670a29133110"
     },
@@ -82,6 +86,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-19T16:19:48Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-06-20T17:15:40Z"
   }
 }
