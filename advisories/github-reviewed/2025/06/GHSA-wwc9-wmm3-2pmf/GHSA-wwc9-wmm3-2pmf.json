@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwc9-wmm3-2pmf",
-  "modified": "2025-06-20T15:24:27Z",
+  "modified": "2025-06-20T17:42:41Z",
   "published": "2025-06-20T14:56:59Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2025-52485"
+  ],
   "summary": "DNN.PLATFORM Allows Stored Cross-Site Scripting (XSS) in Activity Feed",
   "details": "DNN.PLATFORM allows a specially crafted request can inject scripts in the Activity Feed Attachments endpoint which will then render in the feed, resulting in a cross-site scripting attack. This vulnerability is fixed in 10.0.1.",
   "severity": [

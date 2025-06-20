@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgfv-2362-jq96",
-  "modified": "2025-06-20T15:25:05Z",
+  "modified": "2025-06-20T17:43:02Z",
   "published": "2025-06-20T15:25:05Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2025-52488"
+  ],
   "summary": "DNN.PLATFORM leaks NTLM hash via SMB Share Interaction with malicious user input",
   "details": "DNN.PLATFORM allows a specially crafted series of malicious interaction can expose NTLM hashes to a third party SMB server. This vulnerability is fixed in 10.0.1.",
   "severity": [
