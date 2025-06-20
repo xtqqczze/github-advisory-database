@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4cf-pp4x-hqgw",
-  "modified": "2025-06-09T21:44:11Z",
+  "modified": "2025-06-20T17:24:48Z",
   "published": "2025-06-09T20:30:34Z",
   "aliases": [
     "CVE-2025-49141"
@@ -50,7 +50,7 @@
     },
     {
       "type": "PACKAGE",
-      "url": "https://github.com/haxtheweb/issues"
+      "url": "https://github.com/haxtheweb/haxcms-nodejs"
     }
   ],
   "database_specific": {
