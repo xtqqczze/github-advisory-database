@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpgj-hch9-5rvx",
-  "modified": "2025-06-19T12:30:34Z",
+  "modified": "2025-06-22T00:30:28Z",
   "published": "2025-06-19T12:30:34Z",
   "aliases": [
     "CVE-2025-6019"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2370051"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cdn2.qualys.com/2025/06/17/suse15-pam-udisks-lpe.txt"
     },
     {
       "type": "WEB",
