@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f6jx-7qrr-8hv7",
-  "modified": "2025-06-20T06:30:19Z",
+  "modified": "2025-06-23T21:31:33Z",
   "published": "2025-06-20T06:30:19Z",
   "aliases": [
     "CVE-2025-5125"
   ],
   "details": "The Custom Post Carousels with Owl WordPress plugin before 1.4.12 uses the featherlight library and makes use of the data-featherlight attribute without sanitizing before using it.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-20T06:15:21Z"
