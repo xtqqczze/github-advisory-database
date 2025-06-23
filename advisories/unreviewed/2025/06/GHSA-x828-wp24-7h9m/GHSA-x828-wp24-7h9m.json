@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x828-wp24-7h9m",
-  "modified": "2025-06-03T03:30:32Z",
+  "modified": "2025-06-23T18:30:21Z",
   "published": "2025-06-03T00:31:02Z",
   "aliases": [
     "CVE-2025-5419"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://issues.chromium.org/issues/420636529"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-5419"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4f5-m2cr-r6m5",
-  "modified": "2025-06-16T12:30:26Z",
+  "modified": "2025-06-23T18:30:21Z",
   "published": "2025-06-16T12:30:26Z",
   "aliases": [
     "CVE-2025-46710"
   ],
   "details": "Possible kernel exceptions caused by reading and writing kernel heap data after free.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-416"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-16T12:15:19Z"
