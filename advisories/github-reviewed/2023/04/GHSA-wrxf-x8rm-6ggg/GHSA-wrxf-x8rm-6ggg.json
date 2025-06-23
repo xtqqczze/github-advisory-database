@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wrxf-x8rm-6ggg",
-  "modified": "2025-06-05T20:34:07Z",
+  "modified": "2025-06-23T14:22:27Z",
   "published": "2023-04-04T15:30:27Z",
   "aliases": [
     "CVE-2020-21514"
   ],
   "summary": "Fluent Fluentd and Fluent-ui use default password",
-  "details": "An issue was discovered in Fluent Fluentd v.1.8.0 and Fluent-ui v.1.2.2 that allows attackers to gain escilated privileges and execute arbitrary code due to use of a default password.",
+  "details": "An issue was discovered in Fluent-ui v.1.2.2 allows attackers to gain escalated privileges and execute arbitrary code due to a default password.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -45,16 +45,16 @@
       "url": "https://github.com/fluent/fluentd-ui/issues/295"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/fluent/fluentd/issues/2722"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/fluent/fluentd-ui"
     },
     {
       "type": "WEB",
       "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/fluentd-ui/CVE-2020-21514.yml"
-    },
-    {
-      "type": "WEB",
-      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/fluentd/CVE-2020-21514.yml"
     }
   ],
   "database_specific": {
