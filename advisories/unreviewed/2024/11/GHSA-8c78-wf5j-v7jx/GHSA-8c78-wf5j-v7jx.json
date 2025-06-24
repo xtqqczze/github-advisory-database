@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8c78-wf5j-v7jx",
-  "modified": "2024-11-18T18:30:54Z",
+  "modified": "2025-06-24T18:33:08Z",
   "published": "2024-11-18T09:31:14Z",
   "aliases": [
     "CVE-2024-45505"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/h8k14o1bfyod66p113pkgnt1s52p6p19"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/16/4"
     }
   ],
   "database_specific": {

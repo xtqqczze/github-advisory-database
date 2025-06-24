@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxp5-vjrm-298x",
-  "modified": "2024-11-19T18:30:58Z",
+  "modified": "2025-06-24T18:33:08Z",
   "published": "2024-11-18T09:31:14Z",
   "aliases": [
     "CVE-2024-47208"
@@ -34,11 +34,16 @@
     {
       "type": "WEB",
       "url": "https://ofbiz.apache.org/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/16/3"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-918"
+      "CWE-918",
+      "CWE-94"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

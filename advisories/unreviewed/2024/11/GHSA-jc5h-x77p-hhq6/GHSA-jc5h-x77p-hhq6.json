@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc5h-x77p-hhq6",
-  "modified": "2024-11-18T18:30:54Z",
+  "modified": "2025-06-24T18:33:07Z",
   "published": "2024-11-18T09:31:13Z",
   "aliases": [
     "CVE-2024-41151"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/p33tg0vo5nh6kscth4262ktsqo3h5lqo"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/16/6"
     }
   ],
   "database_specific": {
