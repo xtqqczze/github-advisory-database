@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g93m-8x6h-g5gv",
-  "modified": "2024-11-07T18:31:23Z",
+  "modified": "2025-06-24T12:30:31Z",
   "published": "2024-11-07T12:30:35Z",
   "aliases": [
     "CVE-2024-51504"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/b3qrmpkto5r6989qr61fw9y2x646kqlh"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/06/5"
     }
   ],
   "database_specific": {
