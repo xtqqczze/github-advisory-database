@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4px5-4p3v-7568",
-  "modified": "2022-11-04T12:00:22Z",
+  "modified": "2025-06-25T21:30:30Z",
   "published": "2022-03-16T00:00:49Z",
   "aliases": [
     "CVE-2021-43304"
@@ -30,6 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-122",
       "CWE-787"
     ],
     "severity": "HIGH",
