@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3xv-6967-cv88",
-  "modified": "2024-03-07T18:30:25Z",
+  "modified": "2025-06-26T18:31:18Z",
   "published": "2023-09-01T18:30:41Z",
   "aliases": [
     "CVE-2023-36328"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libtom/libtommath/pull/546"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/09/msg00011.html"
     },
     {
       "type": "WEB",

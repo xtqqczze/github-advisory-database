@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p6ff-97p8-xxmr",
-  "modified": "2025-06-06T15:30:53Z",
+  "modified": "2025-06-26T18:31:18Z",
   "published": "2025-06-06T15:30:53Z",
   "aliases": [
     "CVE-2025-38002"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d871198ee431d90f5308d53998c1ba1d5db5619a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/417522668"
     }
   ],
   "database_specific": {

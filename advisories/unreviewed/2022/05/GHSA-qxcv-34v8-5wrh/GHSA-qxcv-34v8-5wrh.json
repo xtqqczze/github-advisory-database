@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxcv-34v8-5wrh",
-  "modified": "2025-04-15T00:31:38Z",
+  "modified": "2025-06-26T18:31:18Z",
   "published": "2022-05-13T01:28:30Z",
   "aliases": [
     "CVE-2010-5305"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-10-070-02"
+    },
+    {
+      "type": "WEB",
+      "url": "http://rockwellautomation.custhelp.com/app/answers/detail/a_id/66684/kw/vulnerability/r_id/115100"
     }
   ],
   "database_specific": {
