@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpjh-22jm-q2v2",
-  "modified": "2025-06-26T18:31:28Z",
+  "modified": "2025-06-26T21:31:21Z",
   "published": "2025-06-26T18:31:28Z",
   "aliases": [
     "CVE-2025-50350"
   ],
   "details": "PHPGurukul Pre-School Enrollment System Project v1.0 is vulnerable to Directory Traversal in manage-classes.php.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-26T16:15:30Z"
