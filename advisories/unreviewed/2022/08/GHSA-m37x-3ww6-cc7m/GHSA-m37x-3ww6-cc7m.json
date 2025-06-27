@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m37x-3ww6-cc7m",
-  "modified": "2022-08-24T00:00:31Z",
+  "modified": "2025-06-27T15:31:16Z",
   "published": "2022-08-20T00:00:41Z",
   "aliases": [
     "CVE-2022-36263"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-284",
       "CWE-863"
     ],
     "severity": "HIGH",

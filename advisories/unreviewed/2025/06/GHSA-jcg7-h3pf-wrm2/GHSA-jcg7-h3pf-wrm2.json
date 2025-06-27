@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcg7-h3pf-wrm2",
-  "modified": "2025-06-26T18:31:28Z",
+  "modified": "2025-06-27T15:31:22Z",
   "published": "2025-06-26T18:31:28Z",
   "aliases": [
     "CVE-2025-6702"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6702"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ctf-n0el4kls.notion.site/Litemall-Mass-Assignment-Vulnerability-in-wx-comment-post-21441990f447808b86d1cb15e37ecae9"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2mr3-j246-x7x3",
-  "modified": "2025-06-26T21:31:10Z",
+  "modified": "2025-06-27T15:31:22Z",
   "published": "2025-06-26T21:31:10Z",
   "aliases": [
     "CVE-2024-51978"
@@ -45,11 +45,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.bleepingcomputer.com/news/security/brother-printer-bug-in-689-models-exposes-default-admin-passwords"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.darkreading.com/endpoint-security/millions-brother-printers-critical-unpatchable-bug"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.konicaminolta.com/global-en/security/advisory/pdf/km-2025-0001.pdf"
     },
     {
       "type": "WEB",
       "url": "https://www.rapid7.com/blog/post/multiple-brother-devices-multiple-vulnerabilities-fixed"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.securityweek.com/new-vulnerabilities-expose-millions-of-brother-printers-to-hacking"
     },
     {
       "type": "WEB",
