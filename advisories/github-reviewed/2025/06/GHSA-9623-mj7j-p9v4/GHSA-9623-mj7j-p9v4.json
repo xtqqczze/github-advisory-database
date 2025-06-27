@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9623-mj7j-p9v4",
-  "modified": "2025-06-23T18:53:22Z",
+  "modified": "2025-06-27T23:05:27Z",
   "published": "2025-06-23T18:53:22Z",
   "aliases": [
     "CVE-2025-49574"
@@ -79,6 +79,10 @@
       "url": "https://github.com/quarkusio/quarkus/security/advisories/GHSA-9623-mj7j-p9v4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49574"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/quarkusio/quarkus/issues/48227"
     },
@@ -98,6 +102,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-23T18:53:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-06-23T20:15:28Z"
   }
 }
