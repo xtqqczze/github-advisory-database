@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpv7-p47h-f43j",
-  "modified": "2025-06-23T21:25:00Z",
+  "modified": "2025-06-27T23:08:47Z",
   "published": "2025-06-23T21:24:59Z",
   "aliases": [
     "CVE-2025-52570"
@@ -66,6 +66,10 @@
       "url": "https://github.com/mbuesch/letmein/security/advisories/GHSA-jpv7-p47h-f43j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52570"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/mbuesch/letmein/commit/43207cd77580410d97165d1e3c07361ba6f3558c"
     },
@@ -81,6 +85,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-23T21:24:59Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-06-24T04:15:50Z"
   }
 }
