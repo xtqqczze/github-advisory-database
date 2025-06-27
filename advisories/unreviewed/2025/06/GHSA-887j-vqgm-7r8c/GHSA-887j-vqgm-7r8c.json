@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-887j-vqgm-7r8c",
-  "modified": "2025-06-27T18:30:43Z",
+  "modified": "2025-06-27T21:30:28Z",
   "published": "2025-06-27T18:30:43Z",
   "aliases": [
     "CVE-2025-50369"
   ],
   "details": "A Cross-Site Request Forgery (CSRF) vulnerability exists in the Manage Card functionality (/mcgs/admin/manage-card.php) of PHPGurukul Medical Card Generation System 1.0. The vulnerable endpoint allows an authorized admin to delete medical card records by sending a simple GET request without verifying the origin of the request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-27T16:15:25Z"
