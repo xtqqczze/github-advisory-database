@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx97-6c62-55mf",
-  "modified": "2025-06-11T17:39:41Z",
+  "modified": "2025-06-27T14:14:59Z",
   "published": "2025-06-11T15:30:29Z",
   "aliases": [
     "CVE-2025-4922"
@@ -26,13 +26,13 @@
           "events": [
             {
               "introduced": "0"
+            },
+            {
+              "fixed": "1.10.2"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 1.10.2"
-      }
+      ]
     }
   ],
   "references": [
