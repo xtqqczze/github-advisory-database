@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w48q-g7g7-4m96",
-  "modified": "2022-05-13T01:31:49Z",
+  "modified": "2025-06-27T18:30:32Z",
   "published": "2022-05-13T01:31:49Z",
   "aliases": [
     "CVE-2018-8849"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSMA-18-137-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-18-137-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.medtronic.com/security"
     },
     {
       "type": "WEB",
