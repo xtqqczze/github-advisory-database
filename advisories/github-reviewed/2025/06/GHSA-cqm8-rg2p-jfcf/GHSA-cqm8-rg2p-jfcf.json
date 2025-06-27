@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqm8-rg2p-jfcf",
-  "modified": "2025-06-27T00:31:14Z",
+  "modified": "2025-06-27T22:04:43Z",
   "published": "2025-06-27T00:31:14Z",
   "aliases": [
     "CVE-2025-5731"
   ],
+  "summary": "Infinispan CLI vulnerable to Generation of Error Message Containing Sensitive Information",
   "details": "A flaw was found in Infinispan CLI. A sensitive password, decoded from a Base64-encoded Kubernetes secret, is processed in plaintext and included in a command string that may expose the data in an error message when a command is not found.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.infinispan:infinispan-cli-client"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "16.0.0.Dev01"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2370429"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/infinispan/infinispan"
     }
   ],
   "database_specific": {
@@ -33,8 +58,8 @@
       "CWE-209"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-06-27T22:04:43Z",
     "nvd_published_at": "2025-06-26T22:15:24Z"
   }
 }
