@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r54h-4qg8-h76p",
-  "modified": "2022-05-17T05:24:16Z",
+  "modified": "2025-06-27T00:31:14Z",
   "published": "2022-05-17T05:24:16Z",
   "aliases": [
     "CVE-2012-1977"
@@ -16,6 +16,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-12-129-01"
+    },
+    {
+      "type": "WEB",
       "url": "http://dsecrg.com/pages/vul/show.php?id=405"
     },
     {
@@ -24,7 +28,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-311"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
