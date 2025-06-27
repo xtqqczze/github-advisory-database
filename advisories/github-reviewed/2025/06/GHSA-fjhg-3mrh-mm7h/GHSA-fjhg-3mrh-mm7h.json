@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjhg-3mrh-mm7h",
-  "modified": "2025-06-27T22:54:15Z",
+  "modified": "2025-06-27T22:57:25Z",
   "published": "2025-06-20T15:25:03Z",
   "aliases": [
     "CVE-2025-52487"
   ],
   "summary": "DNN.PLATFORM possibly allows bypass of IP Filters",
-  "details": "DNN.PLATFORM allows a specially crafted request or proxy could be created that would bypass the design of DNN Login IP Filters allowing login attempts from IP Adresses not in the allow list. This vulnerability is fixed in 10.0.1.",
+  "details": "DNN.PLATFORM allows a specially crafted request or proxy to be created that would bypass the design of DNN Login IP Filters allowing login attempts from IP Adresses not in the allow list. This vulnerability is fixed in 10.0.1.",
   "severity": [
     {
       "type": "CVSS_V4",
