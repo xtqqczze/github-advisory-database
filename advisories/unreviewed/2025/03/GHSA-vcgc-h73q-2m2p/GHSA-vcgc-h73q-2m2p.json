@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcgc-h73q-2m2p",
-  "modified": "2025-06-26T21:30:57Z",
+  "modified": "2025-06-27T12:31:12Z",
   "published": "2025-03-11T15:31:00Z",
   "aliases": [
     "CVE-2024-54085"
@@ -25,11 +25,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers"
+    },
+    {
+      "type": "WEB",
+      "url": "https://eclypsium.com/blog/bmc-vulnerability-cve-2024-05485-cisa-known-exploited-vulnerabilities"
+    },
+    {
+      "type": "WEB",
       "url": "https://go.ami.com/hubfs/Security%20Advisories/2025/AMI-SA-2025003.pdf"
     },
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20250328-0003"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-ami-megarac-bug-that-lets-hackers-brick-servers-now-actively-exploited"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.networkworld.com/article/4013368/ami-megarac-authentication-bypass-flaw-is-being-exploitated-cisa-warns.html"
     }
   ],
   "database_specific": {

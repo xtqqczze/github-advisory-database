@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2r8j-rf53-9g72",
-  "modified": "2024-11-06T18:31:04Z",
+  "modified": "2025-06-27T12:31:11Z",
   "published": "2024-05-19T00:30:45Z",
   "aliases": [
     "CVE-2024-36050"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://discourse.nixos.org/t/nixpkgs-supply-chain-security-project/34345"
+    },
+    {
+      "type": "WEB",
+      "url": "https://discourse.nixos.org/t/security-advisory-privilege-escalations-in-nix-lix-and-guix/66017/26"
     }
   ],
   "database_specific": {
