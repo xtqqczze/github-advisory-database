@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pgvc-6h2p-q4f6",
-  "modified": "2025-06-24T19:36:32Z",
+  "modified": "2025-06-28T00:06:29Z",
   "published": "2025-06-24T19:36:32Z",
   "aliases": [
     "CVE-2025-49147"
@@ -83,6 +83,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-24T19:36:32Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-06-24T18:15:25Z"
   }
 }
