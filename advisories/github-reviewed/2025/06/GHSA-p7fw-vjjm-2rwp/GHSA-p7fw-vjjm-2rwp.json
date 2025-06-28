@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7fw-vjjm-2rwp",
-  "modified": "2025-06-26T21:12:46Z",
+  "modified": "2025-06-28T00:11:00Z",
   "published": "2025-06-26T21:12:45Z",
   "aliases": [
     "CVE-2025-52890"
@@ -28,11 +28,14 @@
               "introduced": "6.12"
             },
             {
-              "last_affected": "6.13"
+              "fixed": "6.14"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 6.13"
+      }
     }
   ],
   "references": [
@@ -60,6 +63,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-26T21:12:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-06-25T17:15:39Z"
   }
 }
