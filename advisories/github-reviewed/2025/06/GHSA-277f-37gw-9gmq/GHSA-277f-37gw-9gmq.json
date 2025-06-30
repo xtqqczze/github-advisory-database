@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-277f-37gw-9gmq",
-  "modified": "2025-06-27T20:48:15Z",
+  "modified": "2025-06-27T20:49:35Z",
   "published": "2025-06-27T15:31:24Z",
   "aliases": [
     "CVE-2025-44163"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N/E:P"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:P"
     }
   ],
   "affected": [
@@ -59,7 +59,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-22"
+      "CWE-22",
+      "CWE-23"
     ],
     "severity": "HIGH",
     "github_reviewed": true,

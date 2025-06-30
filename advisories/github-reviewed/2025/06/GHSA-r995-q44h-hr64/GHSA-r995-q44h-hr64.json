@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r995-q44h-hr64",
-  "modified": "2025-06-27T21:58:15Z",
+  "modified": "2025-06-30T12:53:53Z",
   "published": "2025-06-26T21:31:13Z",
   "aliases": [
     "CVE-2025-6442"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ruby/webrick"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/webrick/CVE-2025-6442.yml"
     },
     {
       "type": "WEB",
