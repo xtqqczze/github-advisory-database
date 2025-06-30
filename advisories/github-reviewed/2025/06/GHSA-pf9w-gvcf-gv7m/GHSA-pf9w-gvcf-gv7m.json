@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf9w-gvcf-gv7m",
-  "modified": "2025-06-30T20:45:04Z",
+  "modified": "2025-06-30T21:44:21Z",
   "published": "2025-06-22T21:30:27Z",
   "withdrawn": "2025-06-30T20:45:04Z",
   "aliases": [
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/sparklemotion/nokogiri/issues/3500"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sparklemotion/nokogiri/pull/3524"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sparklemotion/nokogiri/commit/ada4708e5a67114402cd3feb70a4e1d1d7cf773a"
     },
     {
       "type": "PACKAGE",
