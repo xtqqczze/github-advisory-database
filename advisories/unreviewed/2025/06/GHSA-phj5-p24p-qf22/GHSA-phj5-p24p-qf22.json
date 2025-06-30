@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phj5-p24p-qf22",
-  "modified": "2025-06-27T21:30:28Z",
+  "modified": "2025-06-30T18:31:46Z",
   "published": "2025-06-27T12:31:16Z",
   "aliases": [
     "CVE-2025-45851"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://assets.hikvision.com/prd/public/all/files/202506/releasenote%5CNetwork_Camera-V5.7.23_SP2_Release_Note-E8.pdf"
+    },
+    {
+      "type": "WEB",
       "url": "https://crashpark.weebly.com/blog/hikvision-ip-camera-unauthenticated-denial-of-service-dos"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.hikvision.com/en/support/download/firmware"
     }
   ],
   "database_specific": {

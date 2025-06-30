@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wgvp-jj4w-88hf",
+  "modified": "2025-06-30T18:31:50Z",
+  "published": "2025-06-30T18:31:50Z",
+  "aliases": [
+    "CVE-2025-47871"
+  ],
+  "details": "Mattermost versions 10.5.x <= 10.5.5, 9.11.x <= 9.11.15, 10.8.x <= 10.8.0, 10.7.x <= 10.7.2, 10.6.x <= 10.6.5 fail to properly validate channel membership when retrieving playbook run metadata, allowing authenticated users who are playbook members but not channel members to access sensitive information about linked private channels including channel name, display name, and participant count through the run metadata API endpoint.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47871"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-30T17:15:32Z"
+  }
+}

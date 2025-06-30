@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f7p-5f7w-qjm5",
-  "modified": "2024-07-03T18:42:21Z",
+  "modified": "2025-06-30T18:31:42Z",
   "published": "2024-05-17T06:31:16Z",
   "aliases": [
     "CVE-2024-2697"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://wpscan.com/vulnerability/c430b30d-61db-45f5-8499-91b491503b9c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/socialdriver-framework/swift-framework-202400-authenticated-contributor-stored-cross-site-scripting-via-shortcode"
     }
   ],
   "database_specific": {

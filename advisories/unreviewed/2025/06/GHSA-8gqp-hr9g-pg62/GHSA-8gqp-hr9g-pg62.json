@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-8gqp-hr9g-pg62",
+  "modified": "2025-06-30T18:31:50Z",
+  "published": "2025-06-30T18:31:50Z",
+  "aliases": [
+    "CVE-2025-26074"
+  ],
+  "details": "Orkes Conductor v3.21.11 allows remote attackers to execute arbitrary OS commands through unrestricted access to Java classes.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/conductor-oss/conductor"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/conductor-oss/conductor/blob/main/core/src/main/java/com/netflix/conductor/core/events/ScriptEvaluator.java"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/@mrcnry/cve-2025-26074-remote-code-execution-in-conductor-oss-via-inline-javascript-injection-5ce3cb651cfb"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-30T17:15:31Z"
+  }
+}
