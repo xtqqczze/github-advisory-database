@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93ww-rvxc-x7gp",
-  "modified": "2025-06-30T03:30:31Z",
+  "modified": "2025-06-30T15:30:37Z",
   "published": "2025-06-30T03:30:31Z",
   "aliases": [
     "CVE-2025-46014"
   ],
   "details": "Several services in Honor Device Co., Ltd Honor PC Manager v16.0.0.118 was discovered to connect services to the named pipe iMateBookAssistant with default or overly permissive security attributes, leading to a privilege escalation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-276"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-30T02:15:21Z"
