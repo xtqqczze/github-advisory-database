@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-277x-frmf-w2gm",
-  "modified": "2025-06-30T06:30:26Z",
+  "modified": "2025-06-30T21:30:50Z",
   "published": "2025-06-30T06:30:26Z",
   "aliases": [
     "CVE-2025-3745"
   ],
   "details": "The WP Lightbox 2 WordPress plugin before 3.0.6.8 does not correctly sanitize the value of the title attribute of links before using them, which may allow malicious users to conduct XSS attacks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-06-30T06:15:27Z"

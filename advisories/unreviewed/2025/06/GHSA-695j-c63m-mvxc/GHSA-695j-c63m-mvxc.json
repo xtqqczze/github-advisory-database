@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-695j-c63m-mvxc",
+  "modified": "2025-06-30T21:30:54Z",
+  "published": "2025-06-30T21:30:54Z",
+  "aliases": [
+    "CVE-2025-32463"
+  ],
+  "details": "Sudo before 1.9.17p1 allows local users to obtain root access because /etc/nsswitch.conf from a user-controlled directory is used with the --chroot option.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32463"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2025/06/30/3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.stratascale.com/vulnerability-alert-CVE-2025-32463-sudo-chroot"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sudo.ws/releases/changelog"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.sudo.ws/security/advisories"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-829"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-06-30T21:15:30Z"
+  }
+}
