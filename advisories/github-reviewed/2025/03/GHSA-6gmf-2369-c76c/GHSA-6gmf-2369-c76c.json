@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gmf-2369-c76c",
-  "modified": "2025-03-21T03:38:21Z",
+  "modified": "2025-06-30T12:51:38Z",
   "published": "2025-03-20T12:32:51Z",
   "aliases": [
     "CVE-2024-9340"
@@ -45,6 +45,10 @@
       "url": "https://github.com/zenml-io/zenml/commit/cba152eb9ca3071c8372b0b91c02d9d3351de48d"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/zenml/PYSEC-2025-57.yaml"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/zenml-io/zenml"
     },
@@ -55,7 +59,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-400"
+      "CWE-400",
+      "CWE-835"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
