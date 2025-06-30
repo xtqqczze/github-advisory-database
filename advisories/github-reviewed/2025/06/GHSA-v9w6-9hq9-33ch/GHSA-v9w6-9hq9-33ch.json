@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9w6-9hq9-33ch",
-  "modified": "2025-06-27T21:30:29Z",
+  "modified": "2025-06-30T11:45:58Z",
   "published": "2025-06-27T21:30:29Z",
   "aliases": [
     "CVE-2025-6773"
   ],
+  "summary": "HKUDS LightRAG allows Path Traversal via function upload_to_input_dir",
   "details": "A vulnerability was found in HKUDS LightRAG up to 1.3.8. It has been declared as critical. Affected by this vulnerability is the function upload_to_input_dir of the file lightrag/api/routers/document_routes.py of the component File Upload. The manipulation of the argument file.filename leads to path traversal. It is possible to launch the attack on the local host. The identifier of the patch is 60777d535b719631680bcf5d0969bdef79ca4eaf. It is recommended to apply a patch to fix this issue.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "lightrag-hku"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.3.8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -34,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/HKUDS/LightRAG/commit/60777d535b719631680bcf5d0969bdef79ca4eaf"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/HKUDS/LightRAG"
     },
     {
       "type": "WEB",
@@ -53,8 +78,8 @@
       "CWE-22"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-06-30T11:45:58Z",
     "nvd_published_at": "2025-06-27T19:15:31Z"
   }
 }
