@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv7r-c36w-3prj",
-  "modified": "2025-06-16T21:45:57Z",
+  "modified": "2025-06-30T20:53:08Z",
   "published": "2025-06-16T15:32:28Z",
   "aliases": [
     "CVE-2025-48976"
@@ -62,6 +62,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/apache/commons-fileupload/commit/bf68f63cfb312ef4710fb3dfb4d8e4e1665f4497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/97790a35a27d236fa053e660676c3f8196284d93"
     },
     {
       "type": "PACKAGE",
