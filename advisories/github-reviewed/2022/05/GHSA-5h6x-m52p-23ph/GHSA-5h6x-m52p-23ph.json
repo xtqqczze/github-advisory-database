@@ -1,13 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5h6x-m52p-23ph",
-  "modified": "2022-11-02T00:05:42Z",
+  "modified": "2025-07-01T21:15:27Z",
   "published": "2022-05-24T16:44:10Z",
+  "withdrawn": "2025-07-01T21:15:27Z",
   "aliases": [
     "CVE-2019-0223"
   ],
-  "summary": "Improper Certificate Validation in Apache Qpid Proton",
-  "details": "While investigating bug PROTON-2014, we discovered that under some circumstances Apache Qpid Proton versions 0.9 to 0.27.0 (C library and its language bindings) can connect to a peer anonymously using TLS *even when configured to verify the peer certificate* while used with OpenSSL versions before 1.1.0. This means that an undetected man in the middle attack could be constructed if an attacker can arrange to intercept TLS traffic.",
+  "summary": "Withdrawn Advisory: Improper Certificate Validation in Apache Qpid Proton",
+  "details": "## Withdrawn Advisory\nThis advisory has been withdrawn because the vulnerability only affects the **Qpid Proton C library** and not `org.apache.qpid:proton-j`. This link has been maintained to preserve external references.\n\n## Original Description\n\nWhile investigating bug PROTON-2014, we discovered that under some circumstances Apache Qpid Proton versions 0.9 to 0.27.0 (C library and its language bindings) can connect to a peer anonymously using TLS *even when configured to verify the peer certificate* while used with OpenSSL versions before 1.1.0. This means that an undetected man in the middle attack could be constructed if an attacker can arrange to intercept TLS traffic.",
   "severity": [
     {
       "type": "CVSS_V3",
