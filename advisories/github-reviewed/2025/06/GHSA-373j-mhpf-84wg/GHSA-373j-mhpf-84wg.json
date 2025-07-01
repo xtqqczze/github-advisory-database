@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-373j-mhpf-84wg",
-  "modified": "2025-06-30T17:52:44Z",
+  "modified": "2025-07-01T13:13:21Z",
   "published": "2025-06-30T17:52:44Z",
   "aliases": [
     "CVE-2025-53003"
@@ -41,6 +41,10 @@
       "url": "https://github.com/JanssenProject/jans/security/advisories/GHSA-373j-mhpf-84wg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53003"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/JanssenProject/jans/issues/11575"
     },
@@ -70,6 +74,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-30T17:52:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-01T02:15:22Z"
   }
 }

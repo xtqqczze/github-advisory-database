@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vhg-9xg4-cv9m",
-  "modified": "2025-06-30T17:44:14Z",
+  "modified": "2025-07-01T13:13:38Z",
   "published": "2025-06-30T17:44:14Z",
   "aliases": [
     "CVE-2024-49365"
@@ -44,6 +44,10 @@
       "url": "https://github.com/bitcoinjs/tiny-secp256k1/security/advisories/GHSA-5vhg-9xg4-cv9m"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49365"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/bitcoinjs/tiny-secp256k1/pull/140"
     },
@@ -59,6 +63,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-30T17:44:14Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-01T03:15:21Z"
   }
 }
