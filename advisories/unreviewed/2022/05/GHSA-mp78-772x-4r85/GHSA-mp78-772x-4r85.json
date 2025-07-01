@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp78-772x-4r85",
-  "modified": "2022-05-17T05:17:03Z",
+  "modified": "2025-07-01T21:32:13Z",
   "published": "2022-05-17T05:17:03Z",
   "aliases": [
     "CVE-2012-6428"
@@ -16,11 +16,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-12-354-02"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.us-cert.gov/control_systems/pdf/ICSA-12-354-02.pdf"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-798"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mp22-wph9-qgqx",
-  "modified": "2024-10-16T09:30:31Z",
+  "modified": "2025-07-01T21:32:13Z",
   "published": "2024-10-16T09:30:31Z",
   "aliases": [
     "CVE-2024-45219"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.shapeblue.com/shapeblue-security-advisory-apache-cloudstack-security-releases-4-18-2-4-and-4-19-1-2"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/10/15/2"
     }
   ],
   "database_specific": {

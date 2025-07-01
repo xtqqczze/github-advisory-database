@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjcc-r94c-wxr8",
-  "modified": "2024-11-18T09:31:12Z",
+  "modified": "2025-07-01T21:32:13Z",
   "published": "2024-07-01T21:31:14Z",
   "aliases": [
     "CVE-2024-38472"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20240712-0001"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/07/01/5"
     }
   ],
   "database_specific": {
