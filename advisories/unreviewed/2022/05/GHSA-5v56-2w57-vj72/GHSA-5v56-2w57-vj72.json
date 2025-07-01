@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5v56-2w57-vj72",
-  "modified": "2022-05-14T00:52:08Z",
+  "modified": "2025-07-01T00:30:32Z",
   "published": "2022-05-14T00:52:08Z",
   "aliases": [
     "CVE-2012-6442"
@@ -16,7 +16,27 @@
     },
     {
       "type": "WEB",
+      "url": "https://rockwellautomation.custhelp.com/app/answers/detail/a_id/470154"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rockwellautomation.custhelp.com/app/answers/detail/aid/470155"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rockwellautomation.custhelp.com/app/answers/detail/aid/470156"
+    },
+    {
+      "type": "WEB",
       "url": "https://tools.cisco.com/security/center/viewAlert.x?alertId=27862"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-13-011-03"
+    },
+    {
+      "type": "WEB",
+      "url": "http://rockwellautomation.custhelp.com/app/answers/detail/a_id/54102"
     },
     {
       "type": "WEB",
@@ -25,7 +45,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-284"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
