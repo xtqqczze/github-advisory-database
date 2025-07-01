@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-88gh-j3x9-rmv8",
+  "modified": "2025-07-01T15:31:10Z",
+  "published": "2025-07-01T15:31:10Z",
+  "aliases": [
+    "CVE-2025-50405"
+  ],
+  "details": "Intelbras RX1500 Router v2.2.17 and before is vulnerable to Incorrect Access Control in the FirmwareUpload function and GetFirmwareValidation function.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50405"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/feiwuxingxie/cve/blob/main/Intelbras/vul02/02.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.intelbras.com/en"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-01T15:15:26Z"
+  }
+}

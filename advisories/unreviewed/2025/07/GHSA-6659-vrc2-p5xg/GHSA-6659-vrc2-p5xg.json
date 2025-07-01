@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6659-vrc2-p5xg",
+  "modified": "2025-07-01T15:31:10Z",
+  "published": "2025-07-01T15:31:10Z",
+  "aliases": [
+    "CVE-2025-50404"
+  ],
+  "details": "Intelbras RX1500 Router v2.2.17 and before is vulnerable to Integer Overflow. The websReadEvent function incorrectly uses the int type when processing the \"command\" field of the http header, causing the array to cross the boundary and overwrite other fields in the array.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50404"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/feiwuxingxie/cve/blob/main/Intelbras/vul01/01.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.intelbras.com/en"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-01T15:15:26Z"
+  }
+}
