@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pf22-rv2m-7xj7",
-  "modified": "2025-06-02T18:30:50Z",
+  "modified": "2025-07-02T03:30:20Z",
   "published": "2025-06-02T15:31:24Z",
   "aliases": [
     "CVE-2025-37094"

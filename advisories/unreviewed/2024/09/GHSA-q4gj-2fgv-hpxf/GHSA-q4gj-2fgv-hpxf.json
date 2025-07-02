@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4gj-2fgv-hpxf",
-  "modified": "2024-09-19T15:30:48Z",
+  "modified": "2025-07-02T03:30:20Z",
   "published": "2024-09-04T03:30:44Z",
   "aliases": [
     "CVE-2024-41927"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/vu/JVNVU96959731"
+    },
+    {
+      "type": "WEB",
+      "url": "https://us.idec.com/media/24-RD-0256-EN-b.pdf"
     },
     {
       "type": "WEB",
