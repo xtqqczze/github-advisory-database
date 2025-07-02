@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw35-9xmg-v8xw",
-  "modified": "2025-06-30T12:30:45Z",
+  "modified": "2025-07-02T21:31:58Z",
   "published": "2025-06-17T15:31:09Z",
   "aliases": [
     "CVE-2025-49177"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49177"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:10258"
     },
     {
       "type": "WEB",

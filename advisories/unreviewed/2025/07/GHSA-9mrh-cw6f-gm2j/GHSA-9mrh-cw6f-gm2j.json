@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mrh-cw6f-gm2j",
-  "modified": "2025-07-02T18:30:38Z",
+  "modified": "2025-07-02T21:31:59Z",
   "published": "2025-07-02T18:30:37Z",
   "aliases": [
     "CVE-2025-6942"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://trust.delinea.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://trust.delinea.com/?tcuUid=2b68edca-7930-438d-b960-2d6da07cdde9"
     }
   ],
   "database_specific": {
