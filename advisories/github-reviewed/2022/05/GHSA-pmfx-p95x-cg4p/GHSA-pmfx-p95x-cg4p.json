@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pmfx-p95x-cg4p",
-  "modified": "2025-06-20T15:20:23Z",
+  "modified": "2025-06-20T15:21:52Z",
   "published": "2022-05-01T07:00:27Z",
   "aliases": [
     "CVE-2006-2571"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:L/VA:L/SC:L/SI:L/SA:L"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:N/SC:N/SI:L/SA:N/E:U"
     }
   ],
   "affected": [
@@ -57,7 +57,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": "MODERATE",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-06-20T15:20:23Z",
     "nvd_published_at": "2006-05-24T23:02:00Z"
