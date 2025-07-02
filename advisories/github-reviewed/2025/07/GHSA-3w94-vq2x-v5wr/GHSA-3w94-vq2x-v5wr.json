@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3w94-vq2x-v5wr",
-  "modified": "2025-07-02T18:28:27Z",
+  "modified": "2025-07-02T18:59:52Z",
   "published": "2025-07-02T15:12:18Z",
   "aliases": [
     "CVE-2025-53359"
@@ -41,8 +41,16 @@
       "url": "https://github.com/rust-ethereum/ethereum/security/advisories/GHSA-3w94-vq2x-v5wr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53359"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rust-ethereum/ethereum/pull/67"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rust-ethereum/ethereum/commit/2dd9d1d5d0936ec7350093ff3a5a7169a349db77"
     },
     {
       "type": "PACKAGE",
@@ -56,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-02T15:12:18Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-02T16:15:29Z"
   }
 }
