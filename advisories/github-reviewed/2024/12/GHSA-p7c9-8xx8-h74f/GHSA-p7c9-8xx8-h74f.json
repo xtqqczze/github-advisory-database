@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7c9-8xx8-h74f",
-  "modified": "2024-12-18T19:16:18Z",
+  "modified": "2025-07-02T16:40:32Z",
   "published": "2024-12-18T15:33:00Z",
   "aliases": [
     "CVE-2024-56128"
@@ -22,7 +22,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.kafka:kafka"
+        "name": "org.apache.kafka:kafka_2.13"
       },
       "ranges": [
         {
@@ -41,7 +41,48 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.kafka:kafka"
+        "name": "org.apache.kafka:kafka_2.13"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.8.0"
+            },
+            {
+              "fixed": "3.8.1"
+            }
+          ]
+        }
+      ],
+      "versions": [
+        "3.8.0"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.kafka:kafka_2.12"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.10.2.0"
+            },
+            {
+              "fixed": "3.7.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.kafka:kafka_2.12"
       },
       "ranges": [
         {
