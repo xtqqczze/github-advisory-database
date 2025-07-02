@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fc3-pqf2-57cx",
-  "modified": "2025-05-15T17:21:23Z",
+  "modified": "2025-07-02T14:27:32Z",
   "published": "2025-05-14T12:31:11Z",
   "aliases": [
     "CVE-2025-26864"
@@ -70,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/apache/iotdb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-iotdb/PYSEC-2025-60.yaml"
     },
     {
       "type": "WEB",
