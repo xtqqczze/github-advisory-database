@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp38-pj7h-r8q2",
-  "modified": "2025-06-17T15:37:15Z",
+  "modified": "2025-07-02T23:28:17Z",
   "published": "2025-06-17T09:31:05Z",
   "aliases": [
     "CVE-2025-6167"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/themanojdesai/python-a2a/issues/40"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/themanojdesai/python-a2a/issues/40#issuecomment-2904804388"
     },
     {
       "type": "PACKAGE",
