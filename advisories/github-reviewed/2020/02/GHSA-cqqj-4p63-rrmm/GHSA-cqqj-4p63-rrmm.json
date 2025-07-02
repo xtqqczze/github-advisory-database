@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqqj-4p63-rrmm",
-  "modified": "2025-07-02T15:21:10Z",
+  "modified": "2025-07-02T15:50:12Z",
   "published": "2020-02-21T18:55:24Z",
   "aliases": [
     "CVE-2019-20444"
@@ -25,7 +25,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.0.0"
+              "introduced": "0"
             },
             {
               "fixed": "4.1.44"
