@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9786-79mw-2pj9",
-  "modified": "2024-12-31T03:30:33Z",
+  "modified": "2025-07-02T09:30:28Z",
   "published": "2024-12-31T03:30:33Z",
   "aliases": [
     "CVE-2024-45497"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:9269"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:9765"
     },
     {
       "type": "WEB",
