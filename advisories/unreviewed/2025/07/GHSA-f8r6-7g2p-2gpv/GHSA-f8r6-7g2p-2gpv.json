@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8r6-7g2p-2gpv",
-  "modified": "2025-07-02T09:30:29Z",
+  "modified": "2025-07-02T15:30:37Z",
   "published": "2025-07-02T09:30:29Z",
   "aliases": [
     "CVE-2025-24334"
   ],
   "details": "The Nokia Single RAN baseband software earlier than 23R2-SR 1.0 MP can be made to reveal the exact software release version by sending a specific HTTP POST request through the Mobile Network Operator (MNO) internal RAN management network.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-497"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-02T09:15:24Z"

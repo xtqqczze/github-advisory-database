@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6mx4-qxhj-cjh2",
-  "modified": "2025-03-19T18:30:51Z",
+  "modified": "2025-07-02T15:30:32Z",
   "published": "2025-03-19T18:30:51Z",
   "aliases": [
     "CVE-2025-26485"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-26485"
+    },
+    {
+      "type": "WEB",
+      "url": "https://euvd.enisa.europa.eu/vulnerability/CVE-2025-26485"
     },
     {
       "type": "WEB",
