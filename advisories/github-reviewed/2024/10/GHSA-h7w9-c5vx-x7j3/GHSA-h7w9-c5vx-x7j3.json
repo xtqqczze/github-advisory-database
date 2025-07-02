@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7w9-c5vx-x7j3",
-  "modified": "2024-10-16T19:26:04Z",
+  "modified": "2025-07-02T14:20:10Z",
   "published": "2024-10-16T09:30:31Z",
   "aliases": [
     "CVE-2024-45217"
@@ -70,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "http://svn.apache.org/viewvc/lucene/dev/branches/branch_4x/solr/webapp"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/10/15/9"
     }
   ],
   "database_specific": {
