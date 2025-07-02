@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjvj-35hf-j5xm",
-  "modified": "2025-06-02T15:31:24Z",
+  "modified": "2025-07-02T18:30:32Z",
   "published": "2025-06-02T15:31:24Z",
   "aliases": [
     "CVE-2025-37091"

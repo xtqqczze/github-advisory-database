@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9jf-8h9g-xq6h",
-  "modified": "2025-07-01T21:32:26Z",
+  "modified": "2025-07-02T18:30:36Z",
   "published": "2025-07-01T21:32:26Z",
   "aliases": [
     "CVE-2025-52101"
   ],
   "details": "linjiashop <=0.9 is vulnerable to Incorrect Access Control. When using the default-generated JWT authentication, attackers can bypass the authentication and retrieve the encrypted \"password\" and \"salt\". The password can then be obtained through brute-force cracking.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-01T21:15:25Z"

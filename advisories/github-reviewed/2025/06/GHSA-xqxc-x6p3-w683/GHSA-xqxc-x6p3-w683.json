@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqxc-x6p3-w683",
-  "modified": "2025-06-04T22:56:55Z",
+  "modified": "2025-07-02T18:29:57Z",
   "published": "2025-06-04T21:13:44Z",
   "aliases": [
     "CVE-2025-48888"
@@ -9,6 +9,10 @@
   "summary": "Deno run with --allow-read and --deny-read flags results in allowed",
   "details": "### Summary\n\n`deno run --allow-read --deny-read main.ts` results in allowed, even though 'deny' should be stronger. Same with all global unary permissions given as `--allow-* --deny-*`.\n\n### Details\n\nCaused by the fast exit logic in #22894.\n\n### PoC\n\nRun the above command expecting no permissions to be passed.\n\n### Impact\n\nThis only affects a nonsensical combination of flags, so there shouldn't be a real impact on the userbase.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:P"
