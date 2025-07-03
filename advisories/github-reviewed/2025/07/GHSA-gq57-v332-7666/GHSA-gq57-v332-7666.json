@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq57-v332-7666",
-  "modified": "2025-07-03T20:23:35Z",
+  "modified": "2025-07-03T21:50:48Z",
   "published": "2025-07-03T20:23:35Z",
   "aliases": [
     "CVE-2025-52554"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
   "affected": [
@@ -41,6 +45,10 @@
       "url": "https://github.com/n8n-io/n8n/security/advisories/GHSA-gq57-v332-7666"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52554"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/n8n-io/n8n/pull/16405"
     },
@@ -64,6 +72,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-03T20:23:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-03T20:15:23Z"
   }
 }
