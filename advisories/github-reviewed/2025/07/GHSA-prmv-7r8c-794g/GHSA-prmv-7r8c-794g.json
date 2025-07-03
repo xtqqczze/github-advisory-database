@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-prmv-7r8c-794g",
-  "modified": "2025-07-03T21:29:16Z",
+  "modified": "2025-07-03T21:53:07Z",
   "published": "2025-07-03T21:29:16Z",
   "aliases": [
     "CVE-2025-53370"
@@ -41,8 +41,16 @@
       "url": "https://github.com/StarCitizenTools/mediawiki-skins-Citizen/security/advisories/GHSA-prmv-7r8c-794g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53370"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/StarCitizenTools/mediawiki-skins-Citizen/commit/aedbceb3380bb48db6b59e272fc187529c71c8ca"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/StarCitizenTools/mediawiki-skins-Citizen/commit/c85a40bddc8651fff66df83a72debddcb34f0521"
     },
     {
       "type": "PACKAGE",
@@ -60,6 +68,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-03T21:29:16Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-03T20:15:23Z"
   }
 }
