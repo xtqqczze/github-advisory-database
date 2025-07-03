@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67rr-84xm-4c7r",
-  "modified": "2025-07-03T21:14:49Z",
+  "modified": "2025-07-03T21:49:52Z",
   "published": "2025-07-03T21:14:48Z",
   "aliases": [
     "CVE-2025-49826"
@@ -41,6 +41,10 @@
       "url": "https://github.com/vercel/next.js/security/advisories/GHSA-67rr-84xm-4c7r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49826"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/vercel/next.js/commit/16bfce64ef2157f2c1dfedcfdb7771bc63103fd2"
     },
@@ -54,6 +58,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/vercel/next.js/releases/tag/v15.1.8"
+    },
+    {
+      "type": "WEB",
       "url": "https://vercel.com/changelog/cve-2025-49826"
     }
   ],
@@ -64,6 +72,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-03T21:14:48Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-03T21:15:27Z"
   }
 }
