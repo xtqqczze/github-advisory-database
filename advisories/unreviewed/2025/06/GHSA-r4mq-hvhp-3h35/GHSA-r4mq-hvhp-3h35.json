@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4mq-hvhp-3h35",
-  "modified": "2025-06-30T09:30:24Z",
+  "modified": "2025-07-03T09:30:32Z",
   "published": "2025-06-30T09:30:24Z",
   "aliases": [
     "CVE-2025-38089"
@@ -29,6 +29,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c90459cd58bb421d275337093d8e901e0ba748dd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keymaker-arch/NFSundown"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.openwall.com/lists/oss-security/2025/07/02/2"
     }
   ],
   "database_specific": {
