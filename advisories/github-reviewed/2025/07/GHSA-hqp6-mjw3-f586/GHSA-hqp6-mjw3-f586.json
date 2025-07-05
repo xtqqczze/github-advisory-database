@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hqp6-mjw3-f586",
-  "modified": "2025-07-03T12:59:35Z",
+  "modified": "2025-07-05T01:47:56Z",
   "published": "2025-07-02T21:32:00Z",
   "aliases": [
     "CVE-2025-34075"
@@ -61,8 +61,16 @@
       "url": "https://developer.hashicorp.com/vagrant/docs/vagrantfile"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-hqp6-mjw3-f586"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/hashicorp/vagrant"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/vagrant/CVE-2025-34075.yml"
     },
     {
       "type": "WEB",
