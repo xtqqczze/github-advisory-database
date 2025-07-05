@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rxf6-323f-44fc",
+  "modified": "2025-07-05T03:30:23Z",
+  "published": "2025-07-05T03:30:23Z",
+  "aliases": [
+    "CVE-2025-53605"
+  ],
+  "details": "The protobuf crate before 3.7.2 for Rust allows uncontrolled recursion in the protobuf::coded_input_stream::CodedInputStream::skip_group parsing of unknown fields in untrusted input.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53605"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/stepancheg/rust-protobuf/issues/749"
+    },
+    {
+      "type": "WEB",
+      "url": "https://crates.io/crates/protobuf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2024-0437"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-674"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-05T01:15:28Z"
+  }
+}
