@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwxf-vp8f-f327",
-  "modified": "2025-03-28T18:33:10Z",
+  "modified": "2025-07-06T12:30:24Z",
   "published": "2025-03-27T15:31:11Z",
   "aliases": [
     "CVE-2025-21879"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-21879"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/07836bc18f4ae42da4e922244f4685561c18755e"
     },
     {
       "type": "WEB",
