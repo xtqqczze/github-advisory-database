@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hr6v-r7qx-4973",
-  "modified": "2025-04-04T12:30:19Z",
+  "modified": "2025-07-07T21:31:21Z",
   "published": "2025-04-04T12:30:19Z",
   "aliases": [
     "CVE-2025-1865"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1865"
+    },
+    {
+      "type": "WEB",
+      "url": "https://neodyme.io/de/advisories/cve-2025-1865"
     },
     {
       "type": "WEB",
