@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gmj-v8v5-94pg",
-  "modified": "2025-07-03T21:31:23Z",
+  "modified": "2025-07-07T09:30:25Z",
   "published": "2025-07-03T21:31:23Z",
   "aliases": [
     "CVE-2025-23968"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/d0n601/CVE-2025-23968"
+    },
+    {
+      "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/plugin/aibuddy-openai-chatgpt/vulnerability/wordpress-aibud-wp-plugin-1-8-5-arbitrary-file-upload-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ryankozak.com/posts/cve-2025-23968"
     }
   ],
   "database_specific": {
