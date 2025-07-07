@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5wx-c74v-9c3g",
-  "modified": "2025-07-07T09:30:26Z",
+  "modified": "2025-07-07T15:30:34Z",
   "published": "2025-06-17T15:31:09Z",
   "aliases": [
     "CVE-2025-49176"
@@ -50,6 +50,14 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:9303"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:10410"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:10381"
     },
     {
       "type": "WEB",

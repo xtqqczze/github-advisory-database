@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ch97-xgvh-p6mh",
-  "modified": "2025-07-02T15:30:37Z",
+  "modified": "2025-07-07T15:30:36Z",
   "published": "2025-07-02T15:30:37Z",
   "aliases": [
     "CVE-2025-34067"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://vulncheck.com/advisories/hikvision-hik-central-remote-command-execution"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vulncheck.com/advisories/hikvision-ismp-rce-applyct"
     }
   ],
   "database_specific": {

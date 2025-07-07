@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gxpm-5jq2-3f26",
+  "modified": "2025-07-07T15:30:39Z",
+  "published": "2025-07-07T15:30:39Z",
+  "aliases": [
+    "CVE-2025-43930"
+  ],
+  "details": "Hashview 0.8.1 allows account takeover via the password reset feature because SERVER_NAME is not configured and thus a reset depends on the Host HTTP header.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43930"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hashview/hashview/issues/145"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hashview/hashview/blob/579a082176279f4af0e128e44c9da5667f82ec5a/hashview/users/routes.py#L198-L218"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-07T15:15:26Z"
+  }
+}
