@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gjr3-f862-499f",
+  "modified": "2025-07-07T18:32:28Z",
+  "published": "2025-07-07T18:32:28Z",
+  "aliases": [
+    "CVE-2025-53497"
+  ],
+  "details": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Wikimedia Foundation Mediawiki - RelatedArticles Extension allows Stored XSS.This issue affects Mediawiki - RelatedArticles Extension: from 1.43.X before 1.43.2.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gerrit.wikimedia.org/r/c/mediawiki/extensions/RelatedArticles/+/1166024"
+    },
+    {
+      "type": "WEB",
+      "url": "https://phabricator.wikimedia.org/T396413"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-07T17:15:29Z"
+  }
+}

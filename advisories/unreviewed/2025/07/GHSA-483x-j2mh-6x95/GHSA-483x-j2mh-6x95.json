@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-483x-j2mh-6x95",
-  "modified": "2025-07-07T00:30:18Z",
+  "modified": "2025-07-07T18:32:25Z",
   "published": "2025-07-07T00:30:18Z",
   "aliases": [
     "CVE-2025-7097"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7097"
+    },
+    {
+      "type": "WEB",
+      "url": "https://drive.google.com/file/d/1qnWarYsTSc5_sV6o8ULv0LBvGfKKXPxn/view"
     },
     {
       "type": "WEB",

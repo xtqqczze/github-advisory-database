@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-239c-9qhp-4xc9",
+  "modified": "2025-07-07T18:32:28Z",
+  "published": "2025-07-07T18:32:28Z",
+  "aliases": [
+    "CVE-2024-37658"
+  ],
+  "details": "An open redirect vulnerability in gnuboard5 v.5.5.16 allows a remote attacker to obtain sensitive information via the bbs/member_confirm.php.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-37658"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/gnuboard/gnuboard5/issues/319"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sir.kr/g5_pds/7205"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-07T18:15:25Z"
+  }
+}

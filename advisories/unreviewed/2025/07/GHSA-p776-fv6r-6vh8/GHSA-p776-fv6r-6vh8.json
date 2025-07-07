@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p776-fv6r-6vh8",
+  "modified": "2025-07-07T18:32:26Z",
+  "published": "2025-07-07T18:32:26Z",
+  "aliases": [
+    "CVE-2025-43932"
+  ],
+  "details": "JobCenter through 7e7b0b2 allows account takeover via the password reset feature because SERVER_NAME is not configured and thus a reset depends on the Host HTTP header.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43932"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/guomaoqiu/JobCenter/issues/18"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/guomaoqiu/JobCenter/blob/7e7b0b2f756d66bba7e592a6c8952c78a3573d9c/app/templates/auth/email/reset_password.txt"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-07T16:15:23Z"
+  }
+}

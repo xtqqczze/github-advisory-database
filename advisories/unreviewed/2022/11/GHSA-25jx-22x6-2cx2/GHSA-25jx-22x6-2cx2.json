@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-25jx-22x6-2cx2",
-  "modified": "2022-11-18T18:30:24Z",
+  "modified": "2025-07-07T18:32:11Z",
   "published": "2022-11-15T12:00:16Z",
   "aliases": [
     "CVE-2022-40843"
