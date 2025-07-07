@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-794x-8x6x-qpfc",
-  "modified": "2025-07-04T21:30:32Z",
+  "modified": "2025-07-07T12:45:39Z",
   "published": "2025-07-04T21:30:32Z",
   "aliases": [
     "CVE-2025-53602"
   ],
+  "summary": "Zipkin Server vulnerable to Insecure Resource Initialization through its /heapdump endpoint",
   "details": "Zipkin through 3.5.1 has a /heapdump endpoint (associated with the use of Spring Boot Actuator), a similar issue to CVE-2025-48927.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.zipkin:zipkin-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "3.5.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,6 +49,10 @@
       "url": "https://github.com/openzipkin/zipkin/commit/3c7605dfdfab2dd341cf0ea121a56cefcd580d9e"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/openzipkin/zipkin"
+    },
+    {
       "type": "WEB",
       "url": "https://zipkin.io"
     }
@@ -37,8 +62,8 @@
       "CWE-1188"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-07T12:45:39Z",
     "nvd_published_at": "2025-07-04T21:15:23Z"
   }
 }
