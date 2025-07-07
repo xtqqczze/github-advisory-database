@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-489j-g2vx-39wf",
+  "modified": "2025-07-07T12:30:22Z",
+  "published": "2025-07-07T12:30:22Z",
+  "aliases": [
+    "CVE-2025-3262"
+  ],
+  "details": "A Regular Expression Denial of Service (ReDoS) vulnerability was discovered in the huggingface/transformers repository, specifically in version 4.49.0. The vulnerability is due to inefficient regular expression complexity in the `SETTING_RE` variable within the `transformers/commands/chat.py` file. The regex contains repetition groups and non-optimized quantifiers, leading to exponential backtracking when processing 'almost matching' payloads. This can degrade application performance and potentially result in a denial-of-service (DoS) when handling specially crafted input strings. The issue is fixed in version 4.51.0.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3262"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/huggingface/transformers/commit/0720e206c6ba28887e4d60ef60a6a089f6c1cc76"
+    },
+    {
+      "type": "WEB",
+      "url": "https://huntr.com/bounties/ecf5ccc4-39e7-4fb3-b547-14a41d31a184"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-1333"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-07T10:15:27Z"
+  }
+}
