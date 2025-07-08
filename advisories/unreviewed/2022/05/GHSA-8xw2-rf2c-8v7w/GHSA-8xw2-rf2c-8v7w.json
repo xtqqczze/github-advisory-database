@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xw2-rf2c-8v7w",
-  "modified": "2025-04-11T04:05:08Z",
+  "modified": "2025-07-08T18:30:28Z",
   "published": "2022-05-17T01:38:31Z",
   "aliases": [
     "CVE-2012-5862"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/80200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-12-325-01"
     },
     {
       "type": "WEB",
@@ -36,7 +40,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-259"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

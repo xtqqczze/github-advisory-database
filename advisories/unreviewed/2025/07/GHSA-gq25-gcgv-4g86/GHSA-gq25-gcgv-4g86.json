@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq25-gcgv-4g86",
-  "modified": "2025-07-04T09:31:15Z",
+  "modified": "2025-07-08T18:30:56Z",
   "published": "2025-07-04T09:31:15Z",
   "aliases": [
     "CVE-2025-53599"
   ],
   "details": "Whale browser for iOS before 3.9.1.4206 allow an attacker to execute malicious scripts in the browser via a crafted javascript scheme.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-04T08:15:25Z"

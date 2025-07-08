@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wrw-xrxr-8wg7",
-  "modified": "2025-07-04T09:31:15Z",
+  "modified": "2025-07-08T18:30:56Z",
   "published": "2025-07-04T09:31:15Z",
   "aliases": [
     "CVE-2025-53600"
   ],
   "details": "Whale browser before 4.32.315.22 allow an attacker to bypass the Same-Origin Policy in a dual-tab environment.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-346"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-04T08:15:25Z"

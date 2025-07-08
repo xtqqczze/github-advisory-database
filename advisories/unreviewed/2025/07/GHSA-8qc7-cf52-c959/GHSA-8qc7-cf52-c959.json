@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qc7-cf52-c959",
-  "modified": "2025-07-07T18:32:28Z",
+  "modified": "2025-07-08T18:31:22Z",
   "published": "2025-07-07T18:32:28Z",
   "aliases": [
     "CVE-2024-37657"
   ],
   "details": "An open redirect vulnerability in gnuboard5 v.5.5.16 allows a remote attacker to obtain sensitive information via thebbs/login.php component.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-601"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-07T18:15:25Z"

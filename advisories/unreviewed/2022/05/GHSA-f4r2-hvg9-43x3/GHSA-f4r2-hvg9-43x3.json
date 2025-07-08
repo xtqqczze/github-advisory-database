@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4r2-hvg9-43x3",
-  "modified": "2025-04-11T04:05:08Z",
+  "modified": "2025-07-08T18:30:28Z",
   "published": "2022-05-17T01:38:31Z",
   "aliases": [
     "CVE-2012-5861"
@@ -16,7 +16,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/80200"
+    },
+    {
+      "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/80201"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-12-325-01"
     },
     {
       "type": "WEB",
