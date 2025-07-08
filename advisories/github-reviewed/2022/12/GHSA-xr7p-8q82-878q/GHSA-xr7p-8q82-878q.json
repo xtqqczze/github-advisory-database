@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr7p-8q82-878q",
-  "modified": "2025-06-24T16:41:57Z",
+  "modified": "2025-07-08T19:39:18Z",
   "published": "2022-12-06T15:36:15Z",
   "aliases": [
     "CVE-2022-23466"
@@ -73,6 +73,25 @@
             },
             {
               "fixed": "0.0.0-20221203202318-20f59eda2420"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "teler.app"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.2.3-0.20220625162531-2289e90590a9"
+            },
+            {
+              "fixed": "1.2.3-0.20221203202318-20f59eda2420"
             }
           ]
         }
