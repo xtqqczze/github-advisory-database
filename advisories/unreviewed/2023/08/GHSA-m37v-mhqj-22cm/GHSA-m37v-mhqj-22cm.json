@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m37v-mhqj-22cm",
-  "modified": "2024-01-31T18:31:18Z",
+  "modified": "2025-07-09T15:30:31Z",
   "published": "2023-08-02T00:30:39Z",
   "aliases": [
     "CVE-2023-3735"
@@ -37,7 +37,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-838"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

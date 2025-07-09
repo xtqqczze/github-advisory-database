@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w37p-9fqc-g3gp",
-  "modified": "2024-04-18T12:30:29Z",
+  "modified": "2025-07-09T15:30:32Z",
   "published": "2024-04-18T12:30:29Z",
   "aliases": [
     "CVE-2024-32568"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Melapress WP 2FA allows Reflected XSS.This issue affects WP 2FA: from n/a through 2.6.2.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Melapress WP 2FA allows Reflected XSS.This issue affects WP 2FA: from n/a through 2.6.2.",
   "severity": [
     {
       "type": "CVSS_V3",

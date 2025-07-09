@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77j7-vm29-rwwv",
-  "modified": "2023-11-30T06:33:22Z",
+  "modified": "2025-07-09T15:30:31Z",
   "published": "2023-07-31T15:30:25Z",
   "aliases": [
     "CVE-2023-34872"
@@ -45,7 +45,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-400"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
