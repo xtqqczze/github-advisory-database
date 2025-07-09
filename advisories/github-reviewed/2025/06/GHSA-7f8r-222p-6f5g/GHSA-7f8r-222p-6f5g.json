@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7f8r-222p-6f5g",
-  "modified": "2025-06-13T22:15:26Z",
+  "modified": "2025-07-09T20:18:37Z",
   "published": "2025-06-13T22:15:26Z",
   "aliases": [
     "CVE-2025-49596"
@@ -51,6 +51,14 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/modelcontextprotocol/inspector"
+    },
+    {
+      "type": "WEB",
+      "url": "https://thenewstack.io/mcp-vulnerability-exposes-the-ai-untrusted-code-crisis"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.oligo.security/blog/critical-rce-vulnerability-in-anthropic-mcp-inspector-cve-2025-49596"
     }
   ],
   "database_specific": {
