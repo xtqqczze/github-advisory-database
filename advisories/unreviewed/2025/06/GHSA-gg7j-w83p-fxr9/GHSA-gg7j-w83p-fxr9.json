@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gg7j-w83p-fxr9",
-  "modified": "2025-06-16T18:32:19Z",
+  "modified": "2025-07-09T03:30:22Z",
   "published": "2025-06-16T18:32:19Z",
   "aliases": [
     "CVE-2025-49795"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49795"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:10630"
     },
     {
       "type": "WEB",
