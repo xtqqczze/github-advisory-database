@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fpw-c9x7-cv3j",
-  "modified": "2025-07-09T16:38:21Z",
+  "modified": "2025-07-09T16:41:20Z",
   "published": "2024-08-01T15:32:23Z",
   "aliases": [
     "CVE-2024-41926"
@@ -103,6 +103,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-41926"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mattermost/mattermost/commit/5114c3b7cdb84086959bf0ef8bc5afdaedf9fef6"
     },
     {
       "type": "PACKAGE",
