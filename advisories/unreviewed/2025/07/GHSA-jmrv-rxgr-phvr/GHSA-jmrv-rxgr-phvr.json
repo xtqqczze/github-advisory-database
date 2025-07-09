@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jmrv-rxgr-phvr",
+  "modified": "2025-07-09T18:30:47Z",
+  "published": "2025-07-09T18:30:47Z",
+  "aliases": [
+    "CVE-2025-53743"
+  ],
+  "details": "Jenkins Applitools Eyes Plugin 1.16.5 and earlier does not mask Applitools API keys displayed on the job configuration form, increasing the potential for attackers to observe and capture them.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53743"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.jenkins.io/security/advisory/2025-07-09/#SECURITY-3510"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-522"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-09T16:15:27Z"
+  }
+}

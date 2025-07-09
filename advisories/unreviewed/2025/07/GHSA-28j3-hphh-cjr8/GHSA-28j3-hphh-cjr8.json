@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-28j3-hphh-cjr8",
+  "modified": "2025-07-09T18:30:46Z",
+  "published": "2025-07-09T18:30:46Z",
+  "aliases": [
+    "CVE-2025-53665"
+  ],
+  "details": "Jenkins Apica Loadtest Plugin 1.10 and earlier does not mask Apica Loadtest LTP authentication tokens displayed on the job configuration form, increasing the potential for attackers to observe and capture them.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53665"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.jenkins.io/security/advisory/2025-07-09/#SECURITY-3540"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-09T16:15:25Z"
+  }
+}

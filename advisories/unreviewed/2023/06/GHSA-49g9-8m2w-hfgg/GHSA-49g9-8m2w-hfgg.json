@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49g9-8m2w-hfgg",
-  "modified": "2025-06-16T21:31:16Z",
+  "modified": "2025-07-09T18:30:34Z",
   "published": "2023-06-07T06:30:18Z",
   "aliases": [
     "CVE-2023-33538"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://web.archive.org/web/20230609111043/https://github.com/a101e-IoTvul/iotvul/blob/main/tp-link/3/TL-WR940N_TL-WR841N_userRpm_WlanNetworkRpm_Command_Injection.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.secpod.com/blog/cisa-issues-warning-on-active-exploitation-of-tp-link-vulnerability-cve-2023-33538"
     },
     {
       "type": "WEB",

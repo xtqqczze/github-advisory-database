@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29vj-j5w5-pcph",
-  "modified": "2025-06-17T15:31:08Z",
+  "modified": "2025-07-09T18:30:39Z",
   "published": "2025-06-17T15:31:08Z",
   "aliases": [
     "CVE-2025-5777"
@@ -21,12 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://doublepulsar.com/citrixbleed-2-exploitation-started-mid-june-how-to-spot-it-f3106392aa71"
+    },
+    {
+      "type": "WEB",
       "url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX693420"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-125"
+      "CWE-125",
+      "CWE-457"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

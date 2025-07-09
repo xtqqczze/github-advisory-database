@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcpx-wv4g-3hg5",
-  "modified": "2025-06-24T18:33:07Z",
+  "modified": "2025-07-09T18:30:35Z",
   "published": "2024-06-26T12:32:05Z",
   "aliases": [
     "CVE-2024-6344"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.358596"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zkteco.com/en/Security_Bulletinsibs/17"
     }
   ],
   "database_specific": {

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mr49-vmp6-2pwq",
+  "modified": "2025-07-09T18:30:46Z",
+  "published": "2025-07-09T18:30:46Z",
+  "aliases": [
+    "CVE-2025-53668"
+  ],
+  "details": "Jenkins VAddy Plugin 1.2.8 and earlier stores Vaddy API Auth Keys unencrypted in job config.xml files on the Jenkins controller, where they can be viewed by users with Item/Extended Read permission or access to the Jenkins controller file system.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53668"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.jenkins.io/security/advisory/2025-07-09/#SECURITY-3527"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-09T16:15:26Z"
+  }
+}
