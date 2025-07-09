@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrq2-m5w8-p5wg",
-  "modified": "2025-07-08T15:32:03Z",
+  "modified": "2025-07-09T09:31:11Z",
   "published": "2025-07-08T15:32:03Z",
   "aliases": [
     "CVE-2025-7345"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-120",
       "CWE-787"
     ],
     "severity": "HIGH",
