@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv7r-c36w-3prj",
-  "modified": "2025-06-30T20:53:08Z",
+  "modified": "2025-07-09T18:15:38Z",
   "published": "2025-06-16T15:32:28Z",
   "aliases": [
     "CVE-2025-48976"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.commons:commons-fileupload2-core"
+        "name": "commons-fileupload:commons-fileupload"
       },
       "ranges": [
         {
@@ -58,6 +58,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48976"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/commons-fileupload/commit/b247774a72a044f5d5380ae947140ee80af4e78b"
     },
     {
       "type": "WEB",
