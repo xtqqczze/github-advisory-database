@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pgw-q3qp-6pgq",
-  "modified": "2025-07-10T13:10:20Z",
+  "modified": "2025-07-10T23:23:34Z",
   "published": "2025-07-10T13:10:20Z",
   "aliases": [
     "CVE-2025-53625"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Universal-Omega/DynamicPageList3/security/advisories/GHSA-7pgw-q3qp-6pgq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53625"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Universal-Omega/DynamicPageList3/commit/a3dae0c89fb4214390c29ceffa23bbe2099986d6"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-10T13:10:20Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-10T19:15:26Z"
   }
 }

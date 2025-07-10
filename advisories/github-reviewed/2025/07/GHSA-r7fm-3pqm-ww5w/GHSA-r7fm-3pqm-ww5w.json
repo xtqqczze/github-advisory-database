@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7fm-3pqm-ww5w",
-  "modified": "2025-07-10T17:50:25Z",
+  "modified": "2025-07-10T23:21:54Z",
   "published": "2025-07-10T17:50:25Z",
   "aliases": [
     "CVE-2025-53633"
@@ -41,6 +41,10 @@
       "url": "https://github.com/ctfer-io/chall-manager/security/advisories/GHSA-r7fm-3pqm-ww5w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53633"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ctfer-io/chall-manager/commit/14042aa66a577caee777e10fe09adcf2587d20dd"
     },
@@ -55,11 +59,12 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-405",
       "CWE-409"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-10T17:50:25Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-10T20:15:27Z"
   }
 }
