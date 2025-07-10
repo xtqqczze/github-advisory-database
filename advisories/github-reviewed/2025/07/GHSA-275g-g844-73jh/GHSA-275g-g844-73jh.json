@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-275g-g844-73jh",
-  "modified": "2025-07-10T17:41:16Z",
+  "modified": "2025-07-10T23:20:46Z",
   "published": "2025-07-10T17:41:16Z",
   "aliases": [
     "CVE-2025-53549"
@@ -41,6 +41,10 @@
       "url": "https://github.com/matrix-org/matrix-rust-sdk/security/advisories/GHSA-275g-g844-73jh"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53549"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/matrix-org/matrix-rust-sdk/pull/4849"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-10T17:41:16Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-10T19:15:26Z"
   }
 }
