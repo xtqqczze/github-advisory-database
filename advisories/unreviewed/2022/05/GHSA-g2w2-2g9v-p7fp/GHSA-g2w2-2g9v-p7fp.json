@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2w2-2g9v-p7fp",
-  "modified": "2022-05-24T19:05:39Z",
+  "modified": "2025-07-10T18:31:08Z",
   "published": "2022-05-24T19:05:39Z",
   "aliases": [
     "CVE-2020-18442"
   ],
   "details": "Infinite Loop in zziplib v0.13.69 allows remote attackers to cause a denial of service via the return value \"zzip_file_read\" in the function \"unzzip_cat_file\".",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2021/12/msg00021.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TCFYD46OY4VAGJ4UX7IFOH5SHD4UW4ZA"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VVANTEBDQGOIPC5KCEVAGA5KT4KKTGWB"
     },
     {
       "type": "WEB",
