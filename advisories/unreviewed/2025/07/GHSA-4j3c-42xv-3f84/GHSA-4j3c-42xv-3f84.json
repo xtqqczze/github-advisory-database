@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4j3c-42xv-3f84",
+  "modified": "2025-07-10T21:31:52Z",
+  "published": "2025-07-10T21:31:52Z",
+  "aliases": [
+    "CVE-2025-52434"
+  ],
+  "details": "Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') vulnerability in Apache Tomcat when using the APR/Native connector. This was particularly noticeable with client initiated closes of HTTP/2 connections.\n\nThis issue affects Apache Tomcat: from 9.0.0.M1 through 9.0.106.\n\nUsers are recommended to upgrade to version 9.0.107, which fixes the issue.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52434"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/gxgh65004f25y8519coth6w7vchww030"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-10T19:15:25Z"
+  }
+}

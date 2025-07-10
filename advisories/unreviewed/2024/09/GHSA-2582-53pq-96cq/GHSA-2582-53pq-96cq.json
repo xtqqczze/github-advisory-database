@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2582-53pq-96cq",
-  "modified": "2024-10-31T21:31:44Z",
+  "modified": "2025-07-10T21:31:48Z",
   "published": "2024-09-23T12:31:09Z",
   "aliases": [
     "CVE-2024-46544"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/q1gp7cc38hs1r8gj8gfnopwznd5fpr4d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2024/10/msg00010.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/09/23/1"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g2hj-224j-7m2q",
-  "modified": "2024-10-30T00:31:04Z",
+  "modified": "2025-07-10T21:31:48Z",
   "published": "2024-10-30T00:31:04Z",
   "aliases": [
     "CVE-2024-44081"
   ],
   "details": "In Jitsi Meet before 2.0.9779, the functionality to share a video file was implemented in an insecure way, resulting in clients loading videos from an arbitrary URL if a message from another participant contains a URL encoded in the expected format.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2024-10-29T22:15:03Z"
