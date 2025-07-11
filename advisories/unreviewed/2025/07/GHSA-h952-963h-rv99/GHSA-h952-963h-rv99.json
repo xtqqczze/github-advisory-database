@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h952-963h-rv99",
-  "modified": "2025-07-11T18:30:35Z",
+  "modified": "2025-07-11T21:31:04Z",
   "published": "2025-07-11T18:30:34Z",
   "aliases": [
     "CVE-2025-30402"
   ],
   "details": "A heap-buffer-overflow vulnerability in the loading of ExecuTorch methods can cause the runtime to crash and potentially result in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit 93b1a0c15f7eda49b2bc46b5b4c49557b4e9810f",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-11T18:15:33Z"

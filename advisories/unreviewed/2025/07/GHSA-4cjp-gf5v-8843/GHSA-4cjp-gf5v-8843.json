@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cjp-gf5v-8843",
-  "modified": "2025-07-09T06:30:25Z",
+  "modified": "2025-07-11T21:31:03Z",
   "published": "2025-07-09T06:30:25Z",
   "aliases": [
     "CVE-2025-6691"
@@ -38,6 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-610",
       "CWE-73"
     ],
     "severity": "HIGH",

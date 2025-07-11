@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jcqm-fhp5-5j5j",
-  "modified": "2024-03-17T18:30:48Z",
+  "modified": "2025-07-11T21:31:01Z",
   "published": "2024-03-17T18:30:48Z",
   "aliases": [
     "CVE-2024-25591"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Benjamin Rojas WP Editor.This issue affects WP Editor: from n/a through 1.2.7.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Benjamin Rojas WP Editor.This issue affects WP Editor: from n/a through 1.2.7.",
   "severity": [
     {
       "type": "CVSS_V3",
