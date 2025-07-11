@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j857-2pwm-jjmm",
-  "modified": "2024-11-08T18:23:52Z",
+  "modified": "2025-07-11T15:04:04Z",
   "published": "2024-11-08T15:31:12Z",
   "aliases": [
     "CVE-2024-50378"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/17rxys384lzfd6nhm3fztzgvk47zy7jb"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/08/5"
     }
   ],
   "database_specific": {

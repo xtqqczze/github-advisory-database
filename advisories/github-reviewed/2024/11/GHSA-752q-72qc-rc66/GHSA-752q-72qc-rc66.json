@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-752q-72qc-rc66",
-  "modified": "2024-11-05T18:36:01Z",
+  "modified": "2025-07-11T15:04:07Z",
   "published": "2024-11-04T12:32:56Z",
   "aliases": [
     "CVE-2024-23590"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/7161154h0k6zygr9917qq0g95p39szml"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2024/11/03/1"
     }
   ],
   "database_specific": {
