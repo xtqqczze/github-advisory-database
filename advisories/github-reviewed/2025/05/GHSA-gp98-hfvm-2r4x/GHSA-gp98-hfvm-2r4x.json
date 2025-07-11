@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp98-hfvm-2r4x",
-  "modified": "2025-05-27T15:24:55Z",
+  "modified": "2025-07-11T23:15:38Z",
   "published": "2025-05-14T12:31:11Z",
   "aliases": [
     "CVE-2025-26795"
@@ -9,6 +9,10 @@
   "summary": "Apache IoTDB JDBC Driver Discloses Sensitive Information via Log Files",
   "details": "Exposure of Sensitive Information to an Unauthorized Actor, Insertion of Sensitive Information into Log File vulnerability in Apache IoTDB JDBC driver.\n\nThis issue affects iotdb-jdbc: from 0.10.0 through 1.3.3, from 2.0.1-beta before 2.0.2.\n\nUsers are recommended to upgrade to version 2.0.2 and 1.3.4, which fix the issue.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:L/SA:N"
@@ -90,7 +94,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-532"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
