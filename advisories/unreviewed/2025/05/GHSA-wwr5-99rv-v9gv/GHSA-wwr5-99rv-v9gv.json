@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwr5-99rv-v9gv",
-  "modified": "2025-05-25T06:30:18Z",
+  "modified": "2025-07-11T09:30:31Z",
   "published": "2025-05-25T06:30:18Z",
   "aliases": [
     "CVE-2025-5145"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://anonymous.4open.science/r/netcore_unauth-7D2E"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Exploo0Osion/netcore_unauth"
     },
     {
       "type": "WEB",
