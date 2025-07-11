@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fw9g-8g64-6pmj",
-  "modified": "2025-07-10T21:31:52Z",
+  "modified": "2025-07-11T15:31:35Z",
   "published": "2025-07-10T21:31:51Z",
   "aliases": [
     "CVE-2025-28243"
   ],
   "details": "An issue in Alteryx Server v.2023.1.1.460 allows HTML injection via a crafted script to the pages component.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-10T19:15:23Z"
