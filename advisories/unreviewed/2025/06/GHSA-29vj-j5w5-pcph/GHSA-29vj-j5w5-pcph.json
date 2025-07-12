@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29vj-j5w5-pcph",
-  "modified": "2025-07-10T18:31:24Z",
+  "modified": "2025-07-12T03:30:20Z",
   "published": "2025-06-17T15:31:08Z",
   "aliases": [
     "CVE-2025-5777"
@@ -29,11 +29,31 @@
     },
     {
       "type": "WEB",
+      "url": "https://horizon3.ai/attack-research/attack-blogs/cve-2025-5777-citrixbleed-2-write-up-maybe"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/how-much-more-must-we-bleed-citrix-netscaler-memory-disclosure-citrixbleed-2-cve-2025-5777"
+    },
+    {
+      "type": "WEB",
       "url": "https://reliaquest.com/blog/threat-spotlight-citrix-bleed-2-vulnerability-in-netscaler-adc-gateway-devices"
     },
     {
       "type": "WEB",
       "url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX693420"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-tags-citrix-bleed-2-as-exploited-gives-agencies-a-day-to-patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.netscaler.com/blog/news/netscaler-critical-security-updates-for-cve-2025-6543-and-cve-2025-5777"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.theregister.com/2025/07/10/cisa_citrixbleed_kev"
     }
   ],
   "database_specific": {
