@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qxh9-qmf2-rhwc",
+  "modified": "2025-07-13T21:30:31Z",
+  "published": "2025-07-13T21:30:31Z",
+  "aliases": [
+    "CVE-2025-53865"
+  ],
+  "details": "In Roundup before 2.5.0, XSS can occur via interaction between URLs and issue tracker templates (devel and responsive).",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53865"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.roundup-tracker.org/docs/security.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.roundup-tracker.org/docs/upgrading.html#cve-2025-53865"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-13T20:15:25Z"
+  }
+}
