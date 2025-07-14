@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x8c6-gj59-6rx8",
-  "modified": "2025-07-14T06:30:30Z",
+  "modified": "2025-07-14T20:55:31Z",
   "published": "2025-07-14T06:30:30Z",
   "aliases": [
     "CVE-2025-29606"
   ],
+  "summary": "py-libp2p is vulnerable to DoS attacks through use of large RSA keys",
   "details": "py-libp2p before 0.2.3 allows a peer to cause a denial of service (resource consumption) via a large RSA key.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "libp2p"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.2.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -29,6 +50,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/libp2p/py-libp2p/commit/e150d3153af30530ce61d751bc166e099f1ead7a"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/libp2p/py-libp2p"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/libp2p/py-libp2p/compare/v0.2.2...v0.2.3"
     }
   ],
@@ -37,8 +66,8 @@
       "CWE-770"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-14T20:55:31Z",
     "nvd_published_at": "2025-07-14T05:15:27Z"
   }
 }
