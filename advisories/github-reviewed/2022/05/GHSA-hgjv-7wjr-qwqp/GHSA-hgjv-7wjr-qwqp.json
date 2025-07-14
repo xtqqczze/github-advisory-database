@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgjv-7wjr-qwqp",
-  "modified": "2025-07-14T19:48:32Z",
+  "modified": "2025-07-14T20:11:46Z",
   "published": "2022-05-24T19:09:46Z",
   "aliases": [
     "CVE-2021-33326"
@@ -111,7 +111,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://liferay.dev/portal/security/known-vulnerabilities/-/asset_publisher/jekt/content/CVE-2021-33326"
+      "url": "https://liferay.dev/portal/security/known-vulnerabilities/-/asset_publisher/jekt/content/cve-2021-33326-xss-with-the-title-of-a-modal-window?p_r_p_assetEntryId=121610771&_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_jekt_redirect=https%3A%2F%2Fliferay.dev%3A443%2Fportal%2Fsecurity%2Fknown-vulnerabilities%3Fp_p_id%3Dcom_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_jekt%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_r_p_assetEntryId%3D121610771%26_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_jekt_cur%3D0%26p_r_p_resetCur%3Dfalse"
     }
   ],
   "database_specific": {
