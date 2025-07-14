@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w22f-vwwp-37pr",
-  "modified": "2025-03-03T15:31:24Z",
+  "modified": "2025-07-14T21:31:42Z",
   "published": "2024-10-22T18:32:11Z",
   "aliases": [
     "CVE-2024-10234"
@@ -18,6 +18,22 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10234"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:10924"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:10925"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:10926"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:10931"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87mm-rg9r-h8wm",
-  "modified": "2025-06-26T21:31:07Z",
+  "modified": "2025-07-14T21:31:44Z",
   "published": "2025-06-26T21:31:07Z",
   "aliases": [
     "CVE-2025-6434"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.mozilla.org/security/advisories/mfsa2025-51"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-54"
     }
   ],
   "database_specific": {
