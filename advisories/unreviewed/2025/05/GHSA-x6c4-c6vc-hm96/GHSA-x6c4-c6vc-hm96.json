@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6c4-c6vc-hm96",
-  "modified": "2025-05-12T09:30:29Z",
+  "modified": "2025-07-14T09:31:03Z",
   "published": "2025-05-12T09:30:29Z",
   "aliases": [
     "CVE-2025-41393"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/jp/JVN20474768"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.konicaminolta.jp/business/support/important/250714_01_01.html"
     },
     {
       "type": "WEB",
