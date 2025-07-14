@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4452-rwq3-2x44",
-  "modified": "2025-03-20T12:32:41Z",
+  "modified": "2025-07-14T18:30:32Z",
   "published": "2025-03-20T12:32:41Z",
   "aliases": [
     "CVE-2024-11031"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-918"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
