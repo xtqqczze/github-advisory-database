@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqmr-rqgw-fg3q",
-  "modified": "2025-05-28T21:30:37Z",
+  "modified": "2025-07-14T15:30:31Z",
   "published": "2025-05-27T21:32:16Z",
   "aliases": [
     "CVE-2024-13966"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.cve.org/CVERecord?id=CVE-2024-13966"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zkteco.com/en/Security_Bulletinsibs/18"
     },
     {
       "type": "WEB",

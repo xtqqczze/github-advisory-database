@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48rx-xrhh-96jc",
-  "modified": "2025-07-10T21:31:53Z",
+  "modified": "2025-07-14T15:30:32Z",
   "published": "2025-07-10T21:31:53Z",
   "aliases": [
     "CVE-2025-34099"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/42370"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicidial.org/VICIDIALmantis/view.php?id=1016"
     }
   ],
   "database_specific": {
