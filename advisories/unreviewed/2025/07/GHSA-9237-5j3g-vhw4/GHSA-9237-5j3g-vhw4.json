@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9237-5j3g-vhw4",
-  "modified": "2025-07-11T18:30:34Z",
+  "modified": "2025-07-15T15:30:44Z",
   "published": "2025-07-11T18:30:34Z",
   "aliases": [
     "CVE-2025-7027"
   ],
   "details": "A vulnerability in the Software SMI handler (SwSmiInputValue 0xB2) allows a local attacker to control both the read and write addresses used by the CommandRcx1 function. The write target is derived from an unvalidated UEFI NVRAM variable (SetupXtuBufferAddress), while the write content is read from an attacker-controlled pointer based on the RBX register. This dual-pointer dereference enables arbitrary memory writes within System Management RAM (SMRAM), leading to potential SMM privilege escalation and firmware compromise.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-11T16:15:27Z"
