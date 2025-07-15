@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qjf-g333-pv38",
-  "modified": "2025-07-15T00:33:21Z",
+  "modified": "2025-07-15T23:07:30Z",
   "published": "2025-07-14T17:55:06Z",
   "aliases": [
     "CVE-2025-53623"
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Shopify/job-iteration/releases/tag/v1.11.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/job-iteration/CVE-2025-53623.yml"
     }
   ],
   "database_specific": {
