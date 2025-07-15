@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc68-4m2q-7jqf",
-  "modified": "2025-06-17T03:31:45Z",
+  "modified": "2025-07-15T21:31:24Z",
   "published": "2025-06-17T03:31:45Z",
   "aliases": [
     "CVE-2025-6151"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://www.tp-link.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/faq/4536"
     }
   ],
   "database_specific": {

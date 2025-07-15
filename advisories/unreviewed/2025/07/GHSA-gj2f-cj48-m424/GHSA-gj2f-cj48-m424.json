@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gj2f-cj48-m424",
-  "modified": "2025-07-15T15:31:00Z",
+  "modified": "2025-07-15T21:31:38Z",
   "published": "2025-07-15T15:31:00Z",
   "aliases": [
     "CVE-2025-52378"
   ],
   "details": "Cross-Site Scripting (XSS) vulnerability in Nexxt Solutions NCM-X1800 Mesh Router firmware UV1.2.7 and below allowing attackers to inject JavaScript code that is executed in the context of administrator sessions when viewing the device management page via the DEVICE_ALIAS parameter to the /web/um_device_set_aliasname endpoint.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-15T15:15:25Z"
