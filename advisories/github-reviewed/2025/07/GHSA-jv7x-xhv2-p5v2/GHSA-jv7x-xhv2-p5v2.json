@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jv7x-xhv2-p5v2",
-  "modified": "2025-07-14T21:22:01Z",
+  "modified": "2025-07-15T00:34:42Z",
   "published": "2025-07-14T21:22:01Z",
   "aliases": [
     "CVE-2025-53833"
@@ -41,6 +41,10 @@
       "url": "https://github.com/saleem-hadad/larecipe/security/advisories/GHSA-jv7x-xhv2-p5v2"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53833"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/saleem-hadad/larecipe/pull/390"
     },
@@ -60,6 +64,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-14T21:22:01Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-14T23:15:24Z"
   }
 }

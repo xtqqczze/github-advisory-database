@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q28v-664f-q6wj",
-  "modified": "2025-07-14T19:24:03Z",
+  "modified": "2025-07-15T00:34:04Z",
   "published": "2025-07-14T19:24:03Z",
   "aliases": [
     "CVE-2025-53640"
@@ -41,22 +41,39 @@
       "url": "https://github.com/indico/indico/security/advisories/GHSA-q28v-664f-q6wj"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53640"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/indico/indico/pull/6936/commits/f8583557a3da56aeea8857ae69bf17c9066c95c1"
     },
     {
+      "type": "WEB",
+      "url": "https://docs.getindico.io/en/stable/config/settings/#ALLOW_PUBLIC_USER_SEARCH"
+    },
+    {
+      "type": "WEB",
+      "url": "https://docs.getindico.io/en/stable/installation/upgrade"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/indico/indico"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/indico/indico/releases/tag/v3.3.7"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-200",
       "CWE-639",
       "CWE-862"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-14T19:24:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-14T21:15:27Z"
   }
 }
