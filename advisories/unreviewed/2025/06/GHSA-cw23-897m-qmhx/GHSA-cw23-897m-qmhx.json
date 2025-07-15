@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cw23-897m-qmhx",
-  "modified": "2025-06-06T09:30:25Z",
+  "modified": "2025-07-15T18:31:16Z",
   "published": "2025-06-06T09:30:25Z",
   "aliases": [
     "CVE-2025-5703"
