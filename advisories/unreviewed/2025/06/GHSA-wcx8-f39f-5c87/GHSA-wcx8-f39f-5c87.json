@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcx8-f39f-5c87",
-  "modified": "2025-06-20T21:32:07Z",
+  "modified": "2025-07-16T18:32:32Z",
   "published": "2025-06-20T21:32:07Z",
   "aliases": [
     "CVE-2025-25034"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://karmainsecurity.com/KIS-2016-07"
+    },
+    {
+      "type": "WEB",
+      "url": "https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/unix/webapp/sugarcrm_rest_unserialize_exec.rb"
     },
     {
       "type": "WEB",
