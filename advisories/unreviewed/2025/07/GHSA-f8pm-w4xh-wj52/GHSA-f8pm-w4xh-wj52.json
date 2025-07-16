@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8pm-w4xh-wj52",
-  "modified": "2025-07-16T09:31:05Z",
+  "modified": "2025-07-16T21:30:34Z",
   "published": "2025-07-16T09:31:05Z",
   "aliases": [
     "CVE-2025-7703"
   ],
   "details": "Authentication vulnerability in the mobile application（tech.palm.id）may lead to the risk of information leakage.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-287"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-16T09:15:24Z"
