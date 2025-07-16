@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-557j-xg8c-q2mm",
-  "modified": "2025-07-09T22:34:03Z",
+  "modified": "2025-07-16T21:10:13Z",
   "published": "2025-07-08T23:20:54Z",
   "aliases": [
     "CVE-2025-53547"
@@ -25,17 +25,33 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.18.0-rc.1"
             },
             {
               "fixed": "3.18.4"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 3.18.3"
-      }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "helm.sh/helm/v3"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.17.4"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
