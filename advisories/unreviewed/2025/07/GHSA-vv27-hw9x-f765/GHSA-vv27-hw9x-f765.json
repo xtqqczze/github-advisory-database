@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv27-hw9x-f765",
-  "modified": "2025-07-16T09:31:03Z",
+  "modified": "2025-07-16T15:32:26Z",
   "published": "2025-07-16T09:31:03Z",
   "aliases": [
     "CVE-2025-52689"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.uhg.sg/article/24.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/UltimateHG/CVE-2025-52689-PoC"
     },
     {
       "type": "WEB",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j847-crmf-8mpc",
-  "modified": "2024-05-02T12:30:40Z",
+  "modified": "2025-07-16T15:32:05Z",
   "published": "2024-05-02T12:30:40Z",
   "aliases": [
     "CVE-2024-33911"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Weblizar School Management Pro.This issue affects School Management Pro: from n/a through 10.3.4.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Weblizar School Management Pro.This issue affects School Management Pro: from n/a through 10.3.4.",
   "severity": [
     {
       "type": "CVSS_V3",
