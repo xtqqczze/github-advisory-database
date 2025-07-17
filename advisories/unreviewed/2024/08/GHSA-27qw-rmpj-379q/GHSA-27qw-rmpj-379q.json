@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27qw-rmpj-379q",
-  "modified": "2024-09-12T21:32:00Z",
+  "modified": "2025-07-17T18:31:03Z",
   "published": "2024-08-26T12:31:20Z",
   "aliases": [
     "CVE-2024-44939"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ce6dede912f064a855acf6f04a04cbb2c25b8c8c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/f98bf80b20f4a930589cda48a35f751a64fe0dc2"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6952-99fq-g3mw",
-  "modified": "2025-03-14T15:32:04Z",
+  "modified": "2025-07-17T18:31:05Z",
   "published": "2025-03-14T15:32:04Z",
   "aliases": [
     "CVE-2023-52927"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: allow exp not to be removed in nf_ct_find_expectation\n\nCurrently nf_conntrack_in() calling nf_ct_find_expectation() will\nremove the exp from the hash table. However, in some scenario, we\nexpect the exp not to be removed when the created ct will not be\nconfirmed, like in OVS and TC conntrack in the following patches.\n\nThis patch allows exp not to be removed by setting IPS_CONFIRMED\nin the status of the tmpl.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-03-14T15:15:39Z"

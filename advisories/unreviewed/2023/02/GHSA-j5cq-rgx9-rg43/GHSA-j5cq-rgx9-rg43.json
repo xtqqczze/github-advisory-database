@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5cq-rgx9-rg43",
-  "modified": "2023-03-03T03:30:24Z",
+  "modified": "2025-07-17T18:31:02Z",
   "published": "2023-02-23T00:30:40Z",
   "aliases": [
     "CVE-2022-39983"
@@ -21,7 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/edi-marc/Vulnerability_List/tree/main/Update_Variant_of_CVE-2022-39983"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.instantdeveloper.com/en"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.swascan.com/it/vulnerability-report-instant-developer"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tinextacyber.com/security-advisory-instant-developer-rd3-cve-2022-39983"
     }
   ],
   "database_specific": {
