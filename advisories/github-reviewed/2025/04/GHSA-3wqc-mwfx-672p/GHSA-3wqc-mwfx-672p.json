@@ -1,11 +1,9 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wqc-mwfx-672p",
-  "modified": "2025-04-18T19:32:24Z",
+  "modified": "2025-07-17T21:10:43Z",
   "published": "2025-04-18T19:32:23Z",
-  "aliases": [
-    "CVE-2025-22868"
-  ],
+  "aliases": [],
   "summary": "Traefik affected by Go oauth2/jws Improper Validation of Syntactic Correctness of Input vulnerability",
   "details": "### Summary\nWe have encountered a security vulnerability being reported by our scanners for Traefik 2.11.22.\n- https://security.snyk.io/vuln/SNYK-CHAINGUARDLATEST-TRAEFIK33-9403297\n\n### Details\nIt seems to target oauth2/jws library.\n\n### PoC\nNo steps to replicate this vulnerability\n\n### Impact\nWe have a strict control on security and we always try to stay up-to-date with the fixes received for third-party solutions.\n\n## Patches\n\n- https://github.com/traefik/traefik/releases/tag/v2.11.24\n- https://github.com/traefik/traefik/releases/tag/v3.3.6\n- https://github.com/traefik/traefik/releases/tag/v3.4.0-rc2",
   "severity": [
@@ -109,6 +107,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-04-18T19:32:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-02-26T08:14:24Z"
   }
 }
