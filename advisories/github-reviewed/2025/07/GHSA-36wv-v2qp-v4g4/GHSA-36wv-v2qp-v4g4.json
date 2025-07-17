@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36wv-v2qp-v4g4",
-  "modified": "2025-07-16T14:27:18Z",
+  "modified": "2025-07-17T16:47:33Z",
   "published": "2025-07-15T15:31:00Z",
   "aliases": [
     "CVE-2025-48795"
@@ -63,7 +63,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "3.6.7"
+              "introduced": "4.0.0"
             },
             {
               "fixed": "4.0.7"
