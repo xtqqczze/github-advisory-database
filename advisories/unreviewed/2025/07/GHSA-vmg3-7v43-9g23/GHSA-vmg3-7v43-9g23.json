@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vmg3-7v43-9g23",
+  "modified": "2025-07-17T21:32:16Z",
+  "published": "2025-07-17T21:32:15Z",
+  "aliases": [
+    "CVE-2025-23266"
+  ],
+  "details": "NVIDIA Container Toolkit for all platforms contains a vulnerability in some hooks used to initialize the container, where an attacker could execute arbitrary code with elevated permissions. A successful exploit of this vulnerability might lead to escalation of privileges, data tampering, information disclosure, and denial of service.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-23266"
+    },
+    {
+      "type": "WEB",
+      "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5659"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-426"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-17T20:15:28Z"
+  }
+}
