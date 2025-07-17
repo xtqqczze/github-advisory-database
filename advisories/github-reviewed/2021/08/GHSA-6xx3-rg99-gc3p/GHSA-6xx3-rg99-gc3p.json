@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xx3-rg99-gc3p",
-  "modified": "2021-05-21T17:50:36Z",
+  "modified": "2025-07-17T22:05:07Z",
   "published": "2021-08-13T15:22:31Z",
   "aliases": [
     "CVE-2020-15522"
