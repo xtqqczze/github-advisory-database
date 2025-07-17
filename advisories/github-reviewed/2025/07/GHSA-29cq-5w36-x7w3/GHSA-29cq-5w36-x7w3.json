@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-29cq-5w36-x7w3",
+  "modified": "2025-07-17T20:26:45Z",
+  "published": "2025-07-17T20:26:45Z",
+  "aliases": [
+    "CVE-2025-54068"
+  ],
+  "summary": "Livewire is vulnerable to remote command execution during component property update hydration",
+  "details": "### Impact\nIn Livewire v3 (≤ 3.6.3), a vulnerability allows unauthenticated attackers to achieve remote command execution in specific scenarios. The issue stems from how certain component property updates are hydrated. This vulnerability is unique to Livewire v3 and does not affect prior major versions. Exploitation requires a component to be mounted and configured in a particular way, but does not require authentication or user interaction.\n\n### Patches\nThis issue has been patched in Livewire v3.6.4. All users are strongly encouraged to upgrade to this version or later as soon as possible.\n\n### Workarounds\nThere is no known workaround at this time. Users are strongly advised to upgrade to a patched version immediately.\n\n### Resources\nNo public references available at this time to avoid exposure. Details will be published after a responsible disclosure window.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "livewire/livewire"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0-beta.1"
+            },
+            {
+              "fixed": "3.6.4"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/livewire/livewire/security/advisories/GHSA-29cq-5w36-x7w3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/livewire/livewire/commit/ef04be759da41b14d2d129e670533180a44987dc"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/livewire/livewire"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-17T20:26:45Z",
+    "nvd_published_at": null
+  }
+}
