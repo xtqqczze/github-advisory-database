@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cm99-x97g-9qx8",
-  "modified": "2025-07-18T19:31:56Z",
+  "modified": "2025-07-18T19:33:38Z",
   "published": "2022-05-17T02:15:41Z",
   "aliases": [
     "CVE-2017-12648"
@@ -29,6 +29,25 @@
             },
             {
               "fixed": "7.0.3-GA4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.liferay:com.liferay.frontend.taglib"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.1.3"
             }
           ]
         }
