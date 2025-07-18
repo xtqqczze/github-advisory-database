@@ -1,13 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x6rc-54xp-ccxx",
-  "modified": "2022-07-06T20:17:45Z",
+  "modified": "2025-07-18T17:25:20Z",
   "published": "2022-05-14T02:21:03Z",
+  "withdrawn": "2025-07-18T17:25:20Z",
   "aliases": [
     "CVE-2015-3208"
   ],
-  "summary": "Improper Restriction of XML External Entity Reference in Apache ActiveMQ",
-  "details": "XML external entity (XXE) vulnerability in the XPath selector component in Artemis ActiveMQ before commit 48d9951d879e0c8cbb59d4b64ab59d53ef88310d allows remote attackers to have unspecified impact via unknown vectors.",
+  "summary": "Withdrawn Advisory: Improper Restriction of XML External Entity Reference in Apache ActiveMQ",
+  "details": "## Withdrawn Advisory\nThis advisory has been withdrawn because further investgation revealed that this is not a security issue. This link is maintained to preserve external references.\n\n## Original Description\nXML external entity (XXE) vulnerability in the XPath selector component in Artemis ActiveMQ before commit 48d9951d879e0c8cbb59d4b64ab59d53ef88310d allows remote attackers to have unspecified impact via unknown vectors.",
   "severity": [
     {
       "type": "CVSS_V3",
