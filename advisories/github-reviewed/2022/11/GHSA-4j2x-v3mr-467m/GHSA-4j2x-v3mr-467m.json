@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4j2x-v3mr-467m",
-  "modified": "2025-04-29T15:37:17Z",
+  "modified": "2025-07-18T20:16:15Z",
   "published": "2022-11-25T18:30:25Z",
   "aliases": [
     "CVE-2022-45207"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.jeecgframework.boot:jeecg-boot-common"
+        "name": "org.jeecgframework.boot:jeecg-module-system"
       },
       "ranges": [
         {
