@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6mx-3fj9-9j7q",
-  "modified": "2023-04-28T20:07:09Z",
+  "modified": "2025-07-18T18:02:32Z",
   "published": "2023-04-21T21:30:19Z",
   "aliases": [
     "CVE-2023-29924"
   ],
   "summary": "PowerJob vulnerable to incorrect access control",
-  "details": "PowerJob V4.3.1 is vulnerable to Incorrect Access Control that allows for remote code execution.",
+  "details": "PowerJob v4.3.6 is vulnerable to Incorrect Access Control that allows for remote code execution.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "4.3.1"
+              "last_affected": "4.3.6"
             }
           ]
         }

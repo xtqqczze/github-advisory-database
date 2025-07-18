@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpvf-6h9g-2hq2",
-  "modified": "2023-05-01T16:41:14Z",
+  "modified": "2025-07-18T18:02:17Z",
   "published": "2023-04-19T12:30:21Z",
   "aliases": [
     "CVE-2023-29921"
   ],
   "summary": "PowerJob Incorrect Access Control vulnerability",
-  "details": "PowerJob V4.3.1 is vulnerable to Incorrect Access Control via the create app interface.",
+  "details": "PowerJob v4.3.6 is vulnerable to Incorrect Access Control via the create app interface.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "4.3.1"
+              "last_affected": "4.3.6"
             }
           ]
         }
