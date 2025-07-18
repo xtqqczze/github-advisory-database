@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c352-x843-ggpq",
-  "modified": "2025-05-16T02:11:38Z",
+  "modified": "2025-07-18T20:35:46Z",
   "published": "2024-02-08T15:30:27Z",
   "aliases": [
     "CVE-2024-24113"
   ],
   "summary": "XXL-JOB vulnerable to Server-Side Request Forgery",
-  "details": "xxl-job <= 2.4.0 has a Server-Side Request Forgery (SSRF) vulnerability, which causes low-privileged users to control executor to RCE.",
+  "details": "xxl-job <= 2.4.2 has a Server-Side Request Forgery (SSRF) vulnerability, which causes low-privileged users to control executor to RCE.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "2.4.0"
+              "last_affected": "2.4.2"
             }
           ]
         }
