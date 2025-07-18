@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f8vw-8vgh-22r9",
+  "modified": "2025-07-18T15:31:57Z",
+  "published": "2025-07-18T15:31:57Z",
+  "aliases": [
+    "CVE-2025-7787"
+  ],
+  "details": "A vulnerability, which was classified as critical, was found in Xuxueli xxl-job up to 3.1.1. Affected is the function httpJobHandler of the file src\\main\\java\\com\\xxl\\job\\executor\\service\\jobhandler\\SampleXxlJob.java. The manipulation leads to server-side request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7787"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/xuxueli/xxl-job/issues/3749"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?ctiid.316848"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?id.316848"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.615741"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-918"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-18T15:15:31Z"
+  }
+}
