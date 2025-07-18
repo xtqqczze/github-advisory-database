@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rmmj-8q9v-qxh2",
+  "modified": "2025-07-18T18:30:30Z",
+  "published": "2025-07-18T18:30:30Z",
+  "aliases": [
+    "CVE-2025-52166"
+  ],
+  "details": "Incorrect access control in Software GmbH Agorum core open v11.9.2 & v11.10.1 allows authenticated attackers to escalate privileges to Administrator and access sensitive components and information.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52166"
+    },
+    {
+      "type": "WEB",
+      "url": "https://herolab.usd.de/usd-2025-0028"
+    },
+    {
+      "type": "WEB",
+      "url": "http://agorum.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-18T18:15:24Z"
+  }
+}

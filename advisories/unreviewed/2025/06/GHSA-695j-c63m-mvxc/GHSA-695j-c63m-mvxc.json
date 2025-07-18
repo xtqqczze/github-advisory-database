@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-695j-c63m-mvxc",
-  "modified": "2025-07-09T18:30:40Z",
+  "modified": "2025-07-18T18:30:27Z",
   "published": "2025-06-30T21:30:54Z",
   "aliases": [
     "CVE-2025-32463"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://explore.alas.aws.amazon.com/CVE-2025-32463.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://iototsecnews.jp/2025/07/01/linux-sudo-chroot-vulnerability-enables-hackers-to-elevate-privileges-to-root"
     },
     {
       "type": "WEB",
