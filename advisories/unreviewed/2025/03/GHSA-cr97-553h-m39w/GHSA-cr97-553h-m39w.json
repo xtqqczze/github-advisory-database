@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr97-553h-m39w",
-  "modified": "2025-03-19T21:30:45Z",
+  "modified": "2025-07-19T03:30:19Z",
   "published": "2025-03-12T18:32:53Z",
   "aliases": [
     "CVE-2025-25568"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25568"
+    },
+    {
+      "type": "WEB",
+      "url": "https://filecenter.softether-upload.com/d/250715_001_79538/CVE-2025-25568.pdf"
     },
     {
       "type": "WEB",
