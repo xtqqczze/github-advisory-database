@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r7q6-6fmq-mx4c",
-  "modified": "2025-07-18T21:30:27Z",
+  "modified": "2025-07-20T16:44:46Z",
   "published": "2025-07-18T15:31:57Z",
   "aliases": [
     "CVE-2025-46002"
   ],
+  "summary": "Filemanager is vulnerable to Relative Path Traversal through filemanager.php",
   "details": "An issue in Filemanager v2.5.0 and below allows attackers to execute a directory traversal via sending a crafted HTTP request to the filemanager.php endpoint.",
   "severity": [
     {
@@ -13,14 +14,34 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "simogeo/filemanager"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.5.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46002"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/simogeo/Filemanager"
     },
     {
@@ -61,8 +82,8 @@
       "CWE-23"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-20T16:44:46Z",
     "nvd_published_at": "2025-07-18T14:15:24Z"
   }
 }
