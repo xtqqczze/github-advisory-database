@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fm79-3f68-h2fc",
-  "modified": "2025-07-18T19:50:59Z",
+  "modified": "2025-07-21T16:06:01Z",
   "published": "2025-07-18T19:50:58Z",
   "aliases": [
     "CVE-2025-53901"
@@ -71,6 +71,63 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "wasmtime"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "10.0.0"
+            },
+            {
+              "fixed": "24.0.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "wasmtime"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "33.0.0"
+            },
+            {
+              "fixed": "33.0.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "crates.io",
+        "name": "wasmtime"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "34.0.0"
+            },
+            {
+              "fixed": "34.0.2"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -117,6 +174,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/bytecodealliance/wasmtime/blob/037a6edadbc225decbea00a551aabf04203717d9/crates/wasi/src/preview1.rs#L1824-L1836"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0046.html"
     }
   ],
   "database_specific": {
