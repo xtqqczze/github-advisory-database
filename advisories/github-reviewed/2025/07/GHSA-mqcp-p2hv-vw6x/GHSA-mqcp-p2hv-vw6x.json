@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqcp-p2hv-vw6x",
-  "modified": "2025-07-20T03:30:19Z",
+  "modified": "2025-07-21T19:33:25Z",
   "published": "2025-07-20T03:30:19Z",
   "aliases": [
     "CVE-2025-54314"
   ],
+  "summary": "Thor can construct an unsafe shell command from library input.",
   "details": "Thor before 1.4.0 can construct an unsafe shell command from library input.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "thor"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,6 +53,10 @@
       "url": "https://hackerone.com/reports/3260153"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/rails/thor"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/rails/thor/releases/tag/v1.4.0"
     }
@@ -41,8 +66,8 @@
       "CWE-78"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-21T19:33:25Z",
     "nvd_published_at": "2025-07-20T03:15:22Z"
   }
 }
