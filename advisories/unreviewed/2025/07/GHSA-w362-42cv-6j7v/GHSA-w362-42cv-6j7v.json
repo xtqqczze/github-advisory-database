@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w362-42cv-6j7v",
-  "modified": "2025-07-21T09:33:26Z",
+  "modified": "2025-07-21T12:30:33Z",
   "published": "2025-07-21T09:33:26Z",
   "aliases": [
     "CVE-2025-4569"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.asus.com/content/asus-product-security-advisory"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.asus.com/content/security-advisory"
     }
   ],
   "database_specific": {

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xg9p-p463-3qjp",
+  "modified": "2025-07-21T12:30:34Z",
+  "published": "2025-07-21T12:30:34Z",
+  "aliases": [
+    "CVE-2025-50151"
+  ],
+  "details": "File access paths in configuration files uploaded by users with administrator access are not validated.\n\nThis issue affects Apache Jena version up to 5.4.0.\n\nUsers are recommended to upgrade to version 5.5.0, which does not allow arbitrary configuration upload.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50151"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.apache.org/thread/12gks5z40gh9bszn1xk8mz34gz586xss"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-21T10:15:25Z"
+  }
+}
