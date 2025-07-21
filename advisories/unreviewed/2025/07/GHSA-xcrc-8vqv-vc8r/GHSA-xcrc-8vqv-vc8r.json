@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcrc-8vqv-vc8r",
-  "modified": "2025-07-21T00:33:34Z",
+  "modified": "2025-07-21T15:30:30Z",
   "published": "2025-07-20T03:30:19Z",
   "aliases": [
     "CVE-2025-53770"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/kaizensecurity/CVE-2025-53770"
+    },
+    {
+      "type": "WEB",
       "url": "https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770"
     },
     {
@@ -30,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://research.eye.security/sharepoint-under-siege"
+    },
+    {
+      "type": "WEB",
+      "url": "https://therecord.media/microsoft-sharepoint-zero-day-vulnerability-exploited-globally"
     },
     {
       "type": "WEB",

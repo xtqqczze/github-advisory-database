@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-75m3-jgm2-6xfv",
+  "modified": "2025-07-21T15:30:31Z",
+  "published": "2025-07-21T15:30:31Z",
+  "aliases": [
+    "CVE-2025-43976"
+  ],
+  "details": "The com.enflick.android.tn2ndLine application through 24.17.1.0 for Android enables any installed application (with no permissions) to place phone calls without user interaction by sending a crafted intent via the com.enflick.android.TextNow.activities.DialerActivity component.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43976"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/actuator/com.enflick.android.tn2ndLine"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/actuator/com.enflick.android.tn2ndLine/blob/main/CVE-2025-43976"
+    },
+    {
+      "type": "WEB",
+      "url": "https://play.google.com/store/apps/details?id=com.enflick.android.tn2ndLine"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-21T15:15:27Z"
+  }
+}
