@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xj5p-8h7g-76m7",
-  "modified": "2025-07-21T14:14:53Z",
+  "modified": "2025-07-21T22:21:17Z",
   "published": "2025-07-21T14:14:53Z",
   "aliases": [
     "CVE-2025-53832"
@@ -44,6 +44,10 @@
       "url": "https://github.com/translated/lara-mcp/security/advisories/GHSA-xj5p-8h7g-76m7"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53832"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/translated/lara-mcp/commit/e534ef690adf390e4ac862a200b2a83f6cf45944"
     },
@@ -75,6 +79,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-21T14:14:53Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-21T21:15:26Z"
   }
 }
