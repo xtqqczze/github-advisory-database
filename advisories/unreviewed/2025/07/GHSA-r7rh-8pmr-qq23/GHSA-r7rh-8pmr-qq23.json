@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-gjcv-wf94-q4h6",
+  "id": "GHSA-r7rh-8pmr-qq23",
   "modified": "2025-07-21T09:33:26Z",
-  "published": "2025-07-21T06:31:19Z",
+  "published": "2025-07-21T09:33:26Z",
   "aliases": [
-    "CVE-2025-7918"
+    "CVE-2025-7921"
   ],
-  "details": "WinMatrix3 Web package developed by Simopro Technology has a SQL Injection vulnerability, allowing unauthenticated remote attackers to inject arbitrary SQL commands to read, modify, and delete database contents.",
+  "details": "Certain modem models developed by Askey has a Stack-based Buffer Overflow vulnerability, allowing unauthenticated remote attackers to control the program's execution flow and potentially execute arbitrary code.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -21,24 +21,24 @@
   "references": [
     {
       "type": "ADVISORY",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7918"
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7921"
     },
     {
       "type": "WEB",
-      "url": "https://www.twcert.org.tw/en/cp-139-10264-6c4b7-2.html"
+      "url": "https://www.twcert.org.tw/en/cp-139-10269-c9839-2.html"
     },
     {
       "type": "WEB",
-      "url": "https://www.twcert.org.tw/tw/cp-132-10259-b4b38-1.html"
+      "url": "https://www.twcert.org.tw/tw/cp-132-10268-1583b-1.html"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-89"
+      "CWE-121"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
-    "nvd_published_at": "2025-07-21T06:15:29Z"
+    "nvd_published_at": "2025-07-21T07:15:25Z"
   }
 }
