@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcrc-8vqv-vc8r",
-  "modified": "2025-07-20T03:30:19Z",
+  "modified": "2025-07-21T00:33:34Z",
   "published": "2025-07-20T03:30:19Z",
   "aliases": [
     "CVE-2025-53770"
@@ -21,7 +21,31 @@
     },
     {
       "type": "WEB",
+      "url": "https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770"
+    },
+    {
+      "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53770"
+    },
+    {
+      "type": "WEB",
+      "url": "https://research.eye.security/sharepoint-under-siege"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-sharepoint-zero-day-exploited-in-rce-attacks-no-patch-available"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/alerts/2025/07/20/microsoft-releases-guidance-exploitation-sharepoint-vulnerability-cve-2025-53770"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.forbes.com/sites/daveywinder/2025/07/20/microsoft-confirms-ongoing-mass-sharepoint-attack---no-patch-available"
+    },
+    {
+      "type": "WEB",
+      "url": "https://x.com/Shadowserver/status/1946900837306868163"
     }
   ],
   "database_specific": {
