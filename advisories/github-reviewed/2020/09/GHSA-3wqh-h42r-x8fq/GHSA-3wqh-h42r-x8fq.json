@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wqh-h42r-x8fq",
-  "modified": "2020-08-31T19:00:42Z",
+  "modified": "2025-07-21T13:06:11Z",
   "published": "2020-09-03T15:46:22Z",
   "aliases": [],
   "summary": "Denial of Service in @hapi/subtext",
@@ -18,7 +18,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.1.0"
+              "introduced": "6.1.0"
             },
             {
               "fixed": "6.1.3"
