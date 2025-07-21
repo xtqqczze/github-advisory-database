@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-q9g9-363h-fq62",
+  "modified": "2025-07-21T18:32:19Z",
+  "published": "2025-07-21T18:32:18Z",
+  "aliases": [
+    "CVE-2025-36846"
+  ],
+  "details": "An issue was discovered in Eveo URVE Web Manager 27.02.2025. The application exposes a /_internal/pc/vpro.php localhost endpoint to unauthenticated users that is vulnerable to OS Command Injection. The endpoint takes an input parameter that is passed directly into the shell_exec() function of PHP. NOTE: this can be chained with CVE-2025-36845.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-36846"
+    },
+    {
+      "type": "WEB",
+      "url": "https://smartoffice.expert/en"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2025-034.txt"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-21T18:15:27Z"
+  }
+}
