@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h6gj-6jjq-h8g9",
-  "modified": "2025-06-27T15:06:18Z",
+  "modified": "2025-07-21T18:33:47Z",
   "published": "2022-07-18T17:07:36Z",
   "aliases": [
     "CVE-2022-31160"
@@ -120,6 +120,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/jquery/jquery-ui"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/jquery-ui-rails/CVE-2022-31160.yml"
     },
     {
       "type": "WEB",
