@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7x8-jv97-fvvm",
-  "modified": "2025-07-22T21:31:14Z",
+  "modified": "2025-07-22T21:51:37Z",
   "published": "2025-07-22T18:30:42Z",
   "aliases": [
     "CVE-2025-51481"
   ],
+  "summary": "Dagster Local File Inclusion vulnerability",
   "details": "Local File Inclusion in dagster._grpc.impl.get_notebook_data in Dagster 1.10.14 allows attackers with access to the gRPC server to read arbitrary files by supplying path traversal sequences in the notebook_path field of ExternalNotebookData requests, bypassing the intended extension-based check.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "dagster"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.10.16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -25,6 +46,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/dagster-io/dagster/commit/3a3cec2b51577c4970e6fc4c199cda6418c09a9d"
+    },
+    {
+      "type": "PACKAGE",
       "url": "https://github.com/dagster-io/dagster"
     },
     {
@@ -37,8 +62,8 @@
       "CWE-22"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-22T21:51:37Z",
     "nvd_published_at": "2025-07-22T17:15:33Z"
   }
 }
