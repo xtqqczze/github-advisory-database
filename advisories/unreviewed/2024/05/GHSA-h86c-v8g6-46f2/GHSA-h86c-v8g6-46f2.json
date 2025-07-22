@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h86c-v8g6-46f2",
-  "modified": "2024-05-03T15:30:52Z",
+  "modified": "2025-07-22T21:31:13Z",
   "published": "2024-05-03T15:30:52Z",
   "aliases": [
     "CVE-2024-2410"
   ],
-  "details": "The JsonToBinaryStream() function is part of the protocol buffers C++ implementation and is used to parse JSON from a stream. If the input is broken up into separate chunks in a certain way, the parser will attempt to read bytes from a chunk that has already been freed. \n",
+  "details": "The JsonToBinaryStream() function is part of the protocol buffers C++ implementation and is used to parse JSON from a stream. If the input is broken up into separate chunks in a certain way, the parser will attempt to read bytes from a chunk that has already been freed. ",
   "severity": [
     {
       "type": "CVSS_V3",
