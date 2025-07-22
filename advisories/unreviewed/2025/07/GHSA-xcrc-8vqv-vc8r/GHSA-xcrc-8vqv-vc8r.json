@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcrc-8vqv-vc8r",
-  "modified": "2025-07-21T15:30:30Z",
+  "modified": "2025-07-22T03:30:34Z",
   "published": "2025-07-20T03:30:19Z",
   "aliases": [
     "CVE-2025-53770"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://arstechnica.com/security/2025/07/sharepoint-vulnerability-with-9-8-severity-rating-is-under-exploit-across-the-globe"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/kaizensecurity/CVE-2025-53770"
     },
     {
@@ -30,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53770"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=44629710"
     },
     {
       "type": "WEB",
@@ -46,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://www.cisa.gov/news-events/alerts/2025/07/20/microsoft-releases-guidance-exploitation-sharepoint-vulnerability-cve-2025-53770"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.darkreading.com/remote-workforce/microsoft-rushes-emergency-fix-exploited-sharepoint-toolshell-flaw"
     },
     {
       "type": "WEB",
