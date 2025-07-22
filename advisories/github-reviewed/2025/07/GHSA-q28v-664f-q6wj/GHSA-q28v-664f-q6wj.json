@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q28v-664f-q6wj",
-  "modified": "2025-07-15T00:34:04Z",
+  "modified": "2025-07-22T18:33:40Z",
   "published": "2025-07-14T19:24:03Z",
   "aliases": [
     "CVE-2025-53640"
@@ -63,6 +63,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/indico/indico/releases/tag/v3.3.7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve202553640-detect-indico-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve202553640-mitigate-indico-vulnerability"
     }
   ],
   "database_specific": {
