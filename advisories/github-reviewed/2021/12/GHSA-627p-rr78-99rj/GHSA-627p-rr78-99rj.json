@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-627p-rr78-99rj",
-  "modified": "2025-05-27T15:54:45Z",
+  "modified": "2025-07-22T16:13:01Z",
   "published": "2021-12-20T17:56:03Z",
   "aliases": [
     "CVE-2020-5415"
@@ -47,7 +47,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "6.3.0"
+              "introduced": "1.6.1"
             },
             {
               "fixed": "6.3.1"
@@ -55,9 +55,9 @@
           ]
         }
       ],
-      "versions": [
-        "6.3.0"
-      ]
+      "database_specific": {
+        "last_known_affected_version_range": "<= 6.3.0"
+      }
     },
     {
       "package": {
@@ -91,7 +91,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "6.3.0"
+              "introduced": "0.0.0"
             },
             {
               "fixed": "6.3.1"
@@ -99,9 +99,9 @@
           ]
         }
       ],
-      "versions": [
-        "6.3.0"
-      ]
+      "database_specific": {
+        "last_known_affected_version_range": "< 6.3.0"
+      }
     },
     {
       "package": {
@@ -136,6 +136,25 @@
             },
             {
               "fixed": "0.0.0-20200730151558-b00d1c8d8576"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/concourse/concourse"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.0.0"
+            },
+            {
+              "fixed": "1.6.1-0.20200730151558-b00d1c8d8576"
             }
           ]
         }
