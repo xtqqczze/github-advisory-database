@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q52-cg2r-w8jw",
-  "modified": "2022-05-24T16:44:49Z",
+  "modified": "2025-07-22T18:30:35Z",
   "published": "2022-05-24T16:44:49Z",
   "aliases": [
     "CVE-2016-10749"
   ],
   "details": "parse_string in cJSON.c in cJSON before 2016-10-02 has a buffer over-read, as demonstrated by a string that begins with a \" character and ends with a \\ character.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-125"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

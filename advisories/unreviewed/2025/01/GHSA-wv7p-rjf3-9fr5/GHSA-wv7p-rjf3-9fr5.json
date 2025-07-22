@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv7p-rjf3-9fr5",
-  "modified": "2025-02-28T15:30:59Z",
+  "modified": "2025-07-22T18:30:35Z",
   "published": "2025-01-22T03:30:43Z",
   "aliases": [
     "CVE-2025-23083"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20250228-0008"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-23083-detect-nodejs-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/cve-2025-23083-mitigate-nodejs-vulnerability"
     }
   ],
   "database_specific": {

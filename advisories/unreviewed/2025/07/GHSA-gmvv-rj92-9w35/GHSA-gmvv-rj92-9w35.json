@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gmvv-rj92-9w35",
+  "modified": "2025-07-22T18:30:42Z",
+  "published": "2025-07-22T18:30:42Z",
+  "aliases": [
+    "CVE-2025-51464"
+  ],
+  "details": "Cross-site Scripting (XSS) in aimhubio Aim 3.28.0 allows remote attackers to execute arbitrary JavaScript in victims browsers via malicious Python code submitted to the /api/reports endpoint, which is interpreted and executed by Pyodide when the report is viewed. No sanitisation or sandbox restrictions prevent JavaScript execution via pyodide.code.run_js().",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-51464"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/aimhubio/aim/pull/3333"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/aimhubio/aim"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.gecko.security/blog/cve-2025-51464"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-22T18:15:36Z"
+  }
+}

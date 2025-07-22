@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j67g-r75f-8hgp",
-  "modified": "2025-07-08T18:31:48Z",
+  "modified": "2025-07-22T18:30:36Z",
   "published": "2025-07-08T18:31:48Z",
   "aliases": [
     "CVE-2025-49706"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-49706"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.microsoft.com/en-us/security/blog/2025/07/22/disrupting-active-exploitation-of-on-premises-sharepoint-vulnerabilities"
     }
   ],
   "database_specific": {

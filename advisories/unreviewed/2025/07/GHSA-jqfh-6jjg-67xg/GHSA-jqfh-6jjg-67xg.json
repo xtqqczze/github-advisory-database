@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqfh-6jjg-67xg",
-  "modified": "2025-07-10T18:31:24Z",
+  "modified": "2025-07-22T18:30:36Z",
   "published": "2025-07-08T15:32:04Z",
   "aliases": [
     "CVE-2025-7326"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.herodevs.com/vulnerability-directory/cve-2025-7326"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.herodevs.com/vulnerability-directory/cve-2025-7326?nes-for-.net"
     }
   ],
   "database_specific": {
