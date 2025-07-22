@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqcp-p2hv-vw6x",
-  "modified": "2025-07-21T19:33:25Z",
+  "modified": "2025-07-22T21:42:51Z",
   "published": "2025-07-20T03:30:19Z",
   "aliases": [
     "CVE-2025-54314"
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rails/thor/releases/tag/v1.4.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/thor/CVE-2025-54314.yml"
     }
   ],
   "database_specific": {
