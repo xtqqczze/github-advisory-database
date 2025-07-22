@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9qq-236j-gj97",
-  "modified": "2025-01-30T22:49:12Z",
+  "modified": "2025-07-22T14:57:33Z",
   "published": "2023-12-05T23:32:58Z",
   "aliases": [],
   "summary": "Canonical LXD documentation improvement to make clear restricted.devices.disk=allow without restricted.devices.disk.paths also allows shift=true",
@@ -28,6 +28,25 @@
       ],
       "versions": [
         "5.19.0"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/canonical/lxd"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.0.0-20230920084527-cbe39c5d3f14"
+            },
+            {
+              "fixed": "0.0.0-20240118092008-ce1bd0dd37bb"
+            }
+          ]
+        }
       ]
     }
   ],
