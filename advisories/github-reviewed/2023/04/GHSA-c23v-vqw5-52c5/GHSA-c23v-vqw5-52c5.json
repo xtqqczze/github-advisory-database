@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c23v-vqw5-52c5",
-  "modified": "2025-07-18T16:13:43Z",
+  "modified": "2025-07-22T15:48:44Z",
   "published": "2023-04-19T21:30:26Z",
   "aliases": [
     "CVE-2023-29922"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "4.9.3"
+              "last_affected": "4.3.9"
             }
           ]
         }
