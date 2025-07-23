@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r5p3-955p-5ggq",
-  "modified": "2025-07-22T14:24:19Z",
+  "modified": "2025-07-23T22:15:03Z",
   "published": "2025-07-22T14:24:19Z",
   "aliases": [
     "CVE-2025-47281"
@@ -44,6 +44,10 @@
       "url": "https://github.com/kyverno/kyverno/security/advisories/GHSA-r5p3-955p-5ggq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47281"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/kyverno/kyverno/commit/cbd7d4ca24de1c55396fc3295e9fc3215832be7c"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-22T14:24:19Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-23T21:15:26Z"
   }
 }
