@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w22f-vwwp-37pr",
-  "modified": "2025-07-14T21:31:42Z",
+  "modified": "2025-07-23T21:36:42Z",
   "published": "2024-10-22T18:32:11Z",
   "aliases": [
     "CVE-2024-10234"
@@ -34,6 +34,26 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:10931"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:11636"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:11638"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:11639"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:11640"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:11645"
     },
     {
       "type": "WEB",

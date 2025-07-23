@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jp65-2h7q-qfg7",
-  "modified": "2025-07-23T12:30:25Z",
+  "modified": "2025-07-23T21:36:45Z",
   "published": "2025-07-23T12:30:25Z",
   "aliases": [
     "CVE-2025-53882"
   ],
   "details": "A Reliance on Untrusted Inputs in a Security Decision vulnerability in the logrotate configuration for openSUSEs mailman3 package allows potential escalation from mailman to rootThis issue affects openSUSE Tumbleweed: from ? before 3.3.10-2.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-807"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-23T10:15:24Z"
