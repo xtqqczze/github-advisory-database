@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3qm6-wcp5-fx9f",
-  "modified": "2024-11-29T12:31:48Z",
+  "modified": "2025-07-23T09:30:34Z",
   "published": "2024-11-29T12:31:48Z",
   "aliases": [
     "CVE-2024-11013"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://https://jpn.nec.com/security-info/secinfo/nv24-009_en.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jpn.nec.com/security-info/secinfo/nv24-009_en.html"
     }
   ],
   "database_specific": {
