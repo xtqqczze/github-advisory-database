@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-54vw-f4xf-f92j",
-  "modified": "2025-07-21T21:20:01Z",
+  "modified": "2025-07-23T13:37:04Z",
   "published": "2025-07-21T21:12:44Z",
   "aliases": [
     "CVE-2025-54139"
@@ -60,6 +60,10 @@
       "url": "https://github.com/haxtheweb/issues/security/advisories/GHSA-54vw-f4xf-f92j"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54139"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/haxtheweb/haxcms-nodejs/commit/777f9a7ff9675a160496f350d766df1f1f9b9b99"
     },
@@ -79,6 +83,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-21T21:12:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-23T00:15:25Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqpg-92fq-grfg",
-  "modified": "2025-07-21T22:18:35Z",
+  "modified": "2025-07-23T13:37:09Z",
   "published": "2025-07-21T21:16:06Z",
   "aliases": [
     "CVE-2025-54140"
@@ -44,6 +44,10 @@
       "url": "https://github.com/pyload/pyload/security/advisories/GHSA-xqpg-92fq-grfg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54140"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/pyload/pyload/commit/fc4b136e9c4e7dcbb8e467ae802cb2c3f70a71b0"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-21T21:16:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-22T22:15:38Z"
   }
 }
