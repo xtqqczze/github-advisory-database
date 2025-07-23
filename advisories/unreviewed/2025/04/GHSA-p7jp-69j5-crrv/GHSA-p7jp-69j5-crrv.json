@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7jp-69j5-crrv",
-  "modified": "2025-04-08T15:31:02Z",
+  "modified": "2025-07-23T15:31:09Z",
   "published": "2025-04-07T21:32:08Z",
   "aliases": [
     "CVE-2025-29480"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29480"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OSGeo/gdal/issues/12188#issuecomment-2847873794"
     },
     {
       "type": "WEB",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xgm2-cpgm-525v",
-  "modified": "2024-02-16T18:31:04Z",
+  "modified": "2025-07-23T15:31:08Z",
   "published": "2024-02-16T18:31:04Z",
   "aliases": [
     "CVE-2024-23591"
   ],
-  "details": "ThinkSystem SR670V2 servers manufactured from approximately June 2021 to July 2023 were left in Manufacturing Mode which could allow \n\nan attacker with privileged logical access to the host or physical access to server internals to modify or disable Intel Boot Guard firmware integrity, SPS security, and other SPS configuration setting.\n\n",
+  "details": "ThinkSystem SR670V2 servers manufactured from approximately June 2021 to July 2023 were left in Manufacturing Mode which could allow \n\nan attacker with privileged logical access to the host or physical access to server internals to modify or disable Intel Boot Guard firmware integrity, SPS security, and other SPS configuration setting.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://https://support.lenovo.com/us/en/product_security/LEN-150020"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.lenovo.com/us/en/product_security/LEN-150020"
     }
   ],
   "database_specific": {

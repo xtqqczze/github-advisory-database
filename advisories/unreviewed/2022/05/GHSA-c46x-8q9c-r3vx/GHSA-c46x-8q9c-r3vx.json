@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c46x-8q9c-r3vx",
-  "modified": "2022-05-24T19:06:34Z",
+  "modified": "2025-07-23T15:31:07Z",
   "published": "2022-05-24T19:06:34Z",
   "aliases": [
     "CVE-2021-1134"
   ],
   "details": "A vulnerability in the Cisco Identity Services Engine (ISE) integration feature of the Cisco DNA Center Software could allow an unauthenticated, remote attacker to gain unauthorized access to sensitive data. The vulnerability is due to an incomplete validation of the X.509 certificate used when establishing a connection between DNA Center and an ISE server. An attacker could exploit this vulnerability by supplying a crafted certificate and could then intercept communications between the ISE and DNA Center. A successful exploit could allow the attacker to view and alter sensitive information that the ISE maintains about clients that are connected to the network.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

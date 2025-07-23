@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5g22-6w6r-pr2m",
-  "modified": "2025-07-22T21:31:15Z",
+  "modified": "2025-07-23T15:31:12Z",
   "published": "2025-07-22T21:31:15Z",
   "aliases": [
     "CVE-2025-8036"
   ],
   "details": "Thunderbird cached CORS preflight responses across IP address changes. This allowed circumventing CORS with DNS rebinding. This vulnerability affects Firefox < 141, Firefox ESR < 140.1, Thunderbird < 141, and Thunderbird < 140.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-350"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-22T21:15:50Z"
