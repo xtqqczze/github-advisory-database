@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f734-p3hx-8cw4",
-  "modified": "2025-07-08T18:31:22Z",
+  "modified": "2025-07-24T18:33:17Z",
   "published": "2025-07-07T18:32:27Z",
   "aliases": [
     "CVE-2024-25177"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/LuaJIT/LuaJIT/commit/85b4fed0b0353dd78c8c875c2f562d522a2b310f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openresty/luajit2/commit/85b4fed0b0353dd78c8c875c2f562d522a2b310f"
     },
     {
       "type": "WEB",

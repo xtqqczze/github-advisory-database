@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxf5-j9w5-328x",
-  "modified": "2025-07-08T21:30:26Z",
+  "modified": "2025-07-24T18:33:18Z",
   "published": "2025-07-08T15:32:03Z",
   "aliases": [
     "CVE-2025-47422"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.advancedinstaller.com/advanced-installer-security-fixes-retrospective.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.advancedinstaller.com/advanced-installer-security-fixes-retrospective.html#update-deprecated-apis-used-to-resolve-paths"
     },
     {
       "type": "WEB",

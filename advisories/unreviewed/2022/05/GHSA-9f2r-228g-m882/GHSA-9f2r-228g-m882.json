@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f2r-228g-m882",
-  "modified": "2024-04-04T00:26:36Z",
+  "modified": "2025-07-24T18:33:16Z",
   "published": "2022-05-24T16:45:05Z",
   "aliases": [
     "CVE-2019-11687"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://labs.cylera.com/2019.04.16/pe-dicom-medical-malware"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.praetorian.com/blog/elfdicom-poc-malware-polyglot-exploiting-linux-based-medical-devices"
     },
     {
       "type": "WEB",
