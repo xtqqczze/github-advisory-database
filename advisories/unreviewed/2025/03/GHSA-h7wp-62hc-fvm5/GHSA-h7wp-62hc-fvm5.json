@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7wp-62hc-fvm5",
-  "modified": "2025-03-11T15:31:01Z",
+  "modified": "2025-07-24T21:30:32Z",
   "published": "2025-03-11T15:31:01Z",
   "aliases": [
     "CVE-2024-33501"

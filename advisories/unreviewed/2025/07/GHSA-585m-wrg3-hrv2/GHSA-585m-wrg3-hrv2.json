@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-585m-wrg3-hrv2",
-  "modified": "2025-07-17T18:31:14Z",
+  "modified": "2025-07-24T21:30:38Z",
   "published": "2025-07-17T18:31:14Z",
   "aliases": [
     "CVE-2025-53867"
   ],
   "details": "Island Lake WebBatch before 2025C allows Remote Code Execution via a crafted URL.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-17T16:15:35Z"
