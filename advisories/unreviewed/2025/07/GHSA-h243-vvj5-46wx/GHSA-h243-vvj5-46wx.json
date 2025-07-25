@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h243-vvj5-46wx",
-  "modified": "2025-07-25T18:30:41Z",
+  "modified": "2025-07-25T21:33:50Z",
   "published": "2025-07-25T18:30:41Z",
   "aliases": [
     "CVE-2025-45893"
   ],
   "details": "OpenCart version 4.1.0.4 is vulnerable to a Stored Cross-Site Scripting (XSS) attack via SVG file uploads used in blog posts. The vulnerability arises because SVG files uploaded through the media manager are not properly sanitized. Attackers can craft a malicious SVG file containing embedded JavaScript",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-25T17:15:32Z"
