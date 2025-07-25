@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9xw9-4ffg-hrqp",
-  "modified": "2022-05-17T04:19:02Z",
+  "modified": "2025-07-25T00:30:20Z",
   "published": "2022-05-17T04:19:02Z",
   "aliases": [
     "CVE-2014-9188"
@@ -20,12 +20,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-350-01"
+    },
+    {
+      "type": "WEB",
       "url": "http://download.schneider-electric.com/files?p_Doc_Ref=SEVD%202014-344-01"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-119"
+      "CWE-119",
+      "CWE-77"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
