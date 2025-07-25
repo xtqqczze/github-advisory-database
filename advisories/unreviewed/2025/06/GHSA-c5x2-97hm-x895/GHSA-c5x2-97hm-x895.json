@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5x2-97hm-x895",
-  "modified": "2025-07-19T03:30:19Z",
+  "modified": "2025-07-25T15:30:26Z",
   "published": "2025-06-30T21:30:54Z",
   "aliases": [
     "CVE-2025-32462"
@@ -18,6 +18,30 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-32462"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/cve-2025-32462"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32462"
+    },
+    {
+      "type": "WEB",
+      "url": "https://explore.alas.aws.amazon.com/CVE-2025-32462.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-security-announce/2025/msg00118.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security-tracker.debian.org/tracker/CVE-2025-32462"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ubuntu.com/security/notices/USN-7604-1"
     },
     {
       "type": "WEB",
@@ -42,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://www.sudo.ws/security/advisories/host_any"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.suse.com/security/cve/CVE-2025-32462.html"
     }
   ],
   "database_specific": {

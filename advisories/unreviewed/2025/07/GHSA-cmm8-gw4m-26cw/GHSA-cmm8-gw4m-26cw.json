@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-cmm8-gw4m-26cw",
+  "modified": "2025-07-25T15:30:53Z",
+  "published": "2025-07-25T15:30:53Z",
+  "aliases": [
+    "CVE-2025-43712"
+  ],
+  "details": "JHipster before v.8.9.0 allows privilege escalation via a modified authorities parameter. Upon registering in the JHipster portal and logging in as a standard user, the authorities parameter in the response from the api/account endpoint contains the value ROLE_USER. By manipulating the authorities parameter and changing its value to ROLE_ADMIN, the privilege is successfully escalated to an Admin level. This allowed the access to all admin-related functionalities in the application.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43712"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jhipster/generator-jhipster/releases"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/@hritikgodara/cve-2025-43712-privilege-escalation-via-response-manipulation-in-the-jhipster-platform-5e18c0434def"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-25T13:15:29Z"
+  }
+}

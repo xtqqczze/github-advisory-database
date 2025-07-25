@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-56gq-m2m7-qc85",
+  "modified": "2025-07-25T15:30:54Z",
+  "published": "2025-07-25T15:30:54Z",
+  "aliases": [
+    "CVE-2025-45467"
+  ],
+  "details": "Unitree Go1 <= Go1_2022_05_11 is vulnerable to Insecure Permissions as the firmware update functionality (via Wi-Fi/Ethernet) implements an insecure verification mechanism that solely relies on MD5 checksums for firmware integrity validation.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-45467"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zgsnj123/CVE-2025-45467/tree/main"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.unitree.com/cn/go1"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-25T15:15:29Z"
+  }
+}
