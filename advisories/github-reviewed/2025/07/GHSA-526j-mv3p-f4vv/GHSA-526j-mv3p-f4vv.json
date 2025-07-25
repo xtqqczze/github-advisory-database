@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-526j-mv3p-f4vv",
-  "modified": "2025-07-24T17:35:59Z",
+  "modified": "2025-07-25T13:32:08Z",
   "published": "2025-07-24T14:19:17Z",
   "aliases": [
     "CVE-2025-54379"
@@ -41,6 +41,10 @@
       "url": "https://github.com/lf-edge/ekuiper/security/advisories/GHSA-526j-mv3p-f4vv"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54379"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/lf-edge/ekuiper/commit/72c4918744934deebf04e324ae66933ec089ebd3"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-24T14:19:17Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-24T23:15:26Z"
   }
 }
