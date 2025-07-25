@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c96m-4x43-q999",
-  "modified": "2022-05-14T01:37:24Z",
+  "modified": "2025-07-25T18:30:32Z",
   "published": "2022-05-14T01:37:24Z",
   "aliases": [
     "CVE-2014-9192"
@@ -20,11 +20,21 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-343-02"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.securityfocus.com/bid/71591"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.trihedral.com/help/#Op_Welcome/Wel_UpgradeNotes.htm"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-190"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

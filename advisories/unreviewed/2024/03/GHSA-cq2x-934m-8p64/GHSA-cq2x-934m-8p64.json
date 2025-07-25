@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cq2x-934m-8p64",
-  "modified": "2024-03-12T15:32:19Z",
+  "modified": "2025-07-25T18:30:32Z",
   "published": "2024-03-12T15:32:19Z",
   "aliases": [
     "CVE-2024-2049"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.citrix.com/article/CTX617071/citrix-sdwan-security-bulletin-for-cve20242049"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.citrix.com/external/article?articleUrl=CTX617071-citrix-sdwan-security-bulletin-for-cve20242049&language=en_US"
     }
   ],
   "database_specific": {

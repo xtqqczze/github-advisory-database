@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5884-96vf-5rrp",
+  "modified": "2025-07-25T18:30:41Z",
+  "published": "2025-07-25T18:30:41Z",
+  "aliases": [
+    "CVE-2025-45960"
+  ],
+  "details": "Cross Site Scripting vulnerability in tawk.to Live Chat v.1.6.1 allows a remote attacker to execute arbitrary code via the web application stores and displays user-supplied input without proper input validation or encoding",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-45960"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pracharapol/CVE-2025-45960"
+    },
+    {
+      "type": "WEB",
+      "url": "http://tawkto.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-25T17:15:32Z"
+  }
+}
