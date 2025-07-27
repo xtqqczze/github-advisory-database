@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-p444-p2rm-hvrw",
+  "modified": "2025-07-27T21:32:12Z",
+  "published": "2025-07-27T21:32:12Z",
+  "aliases": [
+    "CVE-2023-53156"
+  ],
+  "details": "The transpose crate before 0.2.3 for Rust allows an integer overflow via input_width and input_height arguments.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-53156"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ejmahler/transpose/issues/11"
+    },
+    {
+      "type": "WEB",
+      "url": "https://crates.io/crates/transpose"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-5gmm-6m36-r7jh"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0080.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-190"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-27T21:15:25Z"
+  }
+}
