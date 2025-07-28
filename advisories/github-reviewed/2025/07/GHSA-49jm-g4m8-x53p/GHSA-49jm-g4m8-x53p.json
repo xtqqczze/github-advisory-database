@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49jm-g4m8-x53p",
-  "modified": "2025-07-25T21:33:49Z",
+  "modified": "2025-07-28T16:07:44Z",
   "published": "2025-07-25T18:30:41Z",
   "aliases": [
     "CVE-2025-45406"
   ],
+  "summary": "CodeIgniter4 Cross-Site Scripting Vulnerability in debugbar_time Parameter",
   "details": "A stored cross-site scripting (XSS) vulnerability in CodeIgniter4 v4.6.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the debugbar_time parameter.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "codeigniter4/framework"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "4.6.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,8 +45,16 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-45406"
     },
     {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-7h5r-54mm-w4pq"
+      "type": "PACKAGE",
+      "url": "https://github.com/codeigniter4/CodeIgniter4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/codeigniter4/CodeIgniter4/blob/v4.6.2/system/Debug/Toolbar.php#L496"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/codeigniter4/framework/blob/v4.6.2/system/Debug/Toolbar.php#L496"
     },
     {
       "type": "WEB",
@@ -41,8 +70,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-28T16:07:43Z",
     "nvd_published_at": "2025-07-25T17:15:32Z"
   }
 }
