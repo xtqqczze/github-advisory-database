@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmm8-gw4m-26cw",
-  "modified": "2025-07-25T17:19:20Z",
+  "modified": "2025-07-28T20:29:08Z",
   "published": "2025-07-25T15:30:53Z",
   "aliases": [
     "CVE-2025-43712"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+      "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N"
     }
   ],
   "affected": [
@@ -50,14 +50,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://groups.google.com/g/jhipster-dev/c/ATSlWkEjw2w"
+    },
+    {
+      "type": "WEB",
       "url": "https://medium.com/@hritikgodara/cve-2025-43712-privilege-escalation-via-response-manipulation-in-the-jhipster-platform-5e18c0434def"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-284"
+      "CWE-284",
+      "CWE-451"
     ],
-    "severity": "HIGH",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-25T17:19:20Z",
     "nvd_published_at": "2025-07-25T13:15:29Z"
