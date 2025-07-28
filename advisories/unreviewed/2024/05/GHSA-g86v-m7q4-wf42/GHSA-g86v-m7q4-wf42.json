@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g86v-m7q4-wf42",
-  "modified": "2024-07-03T18:41:23Z",
+  "modified": "2025-07-28T21:31:30Z",
   "published": "2024-05-14T18:30:58Z",
   "aliases": [
     "CVE-2024-1598"
   ],
-  "details": "Potential buffer overflow \nin unsafe UEFI variable handling \n\nin Phoenix SecureCore™ for Intel Gemini Lake.This issue affects:\n\nSecureCore™ for Intel Gemini Lake: from 4.1.0.1 before 4.1.0.567.\n\n",
+  "details": "Potential buffer overflow \nin unsafe UEFI variable handling \n\nin Phoenix SecureCore™ for Intel Gemini Lake.This issue affects:\n\nSecureCore™ for Intel Gemini Lake: from 4.1.0.1 before 4.1.0.567.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1598"
+    },
+    {
+      "type": "WEB",
+      "url": "https://phoenixtech.com/phoenix-security-notifications/cve-2024-1598"
     },
     {
       "type": "WEB",

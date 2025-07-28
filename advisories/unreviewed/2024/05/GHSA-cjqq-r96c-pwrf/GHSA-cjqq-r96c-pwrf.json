@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjqq-r96c-pwrf",
-  "modified": "2025-03-20T15:30:26Z",
+  "modified": "2025-07-28T21:31:30Z",
   "published": "2024-05-14T18:30:58Z",
   "aliases": [
     "CVE-2024-0762"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://news.ycombinator.com/item?id=40747852"
+    },
+    {
+      "type": "WEB",
+      "url": "https://phoenixtech.com/phoenix-security-notifications/CVE-2024-0762"
     },
     {
       "type": "WEB",

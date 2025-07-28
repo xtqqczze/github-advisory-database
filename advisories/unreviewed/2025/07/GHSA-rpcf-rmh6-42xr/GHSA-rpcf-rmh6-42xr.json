@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rpcf-rmh6-42xr",
+  "modified": "2025-07-28T21:31:35Z",
+  "published": "2025-07-28T21:31:35Z",
+  "aliases": [
+    "CVE-2025-8283"
+  ],
+  "details": "A vulnerability was found in the netavark package, a network stack for containers used with Podman. Due to dns.podman search domain being removed, netavark may return external servers if a valid A/AAAA record is sent as a response. When creating a container with a given name, this name will be used as the hostname for the container itself, as the podman's search domain is not added anymore the container is using the host's resolv.conf, and the DNS resolver will try to look into the search domains contained on it. If one of the domains contain a name with the same hostname as the running container, the connection will forward to unexpected external servers.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8283"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2025-8283"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2383941"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-15"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-28T19:15:43Z"
+  }
+}

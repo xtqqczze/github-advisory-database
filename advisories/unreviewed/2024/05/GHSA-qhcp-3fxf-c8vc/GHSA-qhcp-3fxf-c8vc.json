@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhcp-3fxf-c8vc",
-  "modified": "2024-05-14T18:30:58Z",
+  "modified": "2025-07-28T21:31:30Z",
   "published": "2024-05-14T18:30:58Z",
   "aliases": [
     "CVE-2023-35841"
   ],
-  "details": "Exposed IOCTL with Insufficient Access Control in Phoenix WinFlash Driver on Windows allows Privilege Escalation which allows for modification of system firmware.This issue affects WinFlash Driver: before 4.5.0.0.\n\n",
+  "details": "Exposed IOCTL with Insufficient Access Control in Phoenix WinFlash Driver on Windows allows Privilege Escalation which allows for modification of system firmware.This issue affects WinFlash Driver: before 4.5.0.0.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/vu/JVNVU93886750/index.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://phoenixtech.com/phoenix-security-notifications/cve-2023-35841"
     },
     {
       "type": "WEB",
