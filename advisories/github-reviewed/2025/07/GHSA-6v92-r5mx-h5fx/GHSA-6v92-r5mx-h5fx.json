@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6v92-r5mx-h5fx",
-  "modified": "2025-07-27T09:30:26Z",
+  "modified": "2025-07-28T14:54:22Z",
   "published": "2025-07-27T09:30:26Z",
   "aliases": [
     "CVE-2025-5120"
   ],
+  "summary": "smolagents has Sandbox Escape Vulnerability in the local_python_executor.py Module",
   "details": "A sandbox escape vulnerability was identified in huggingface/smolagents version 1.14.0, allowing attackers to bypass the restricted execution environment and achieve remote code execution (RCE). The vulnerability stems from the local_python_executor.py module, which inadequately restricts Python code execution despite employing static and dynamic checks. Attackers can exploit whitelisted modules and functions to execute arbitrary code, compromising the host system. This flaw undermines the core security boundary intended to isolate untrusted code, posing risks such as unauthorized code execution, data leakage, and potential integration-level compromise. The issue is resolved in version 1.17.0.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:H/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "smolagents"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.17.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/huggingface/smolagents/commit/33a942e62b6fbf6a35d41f1c735bda2d64c163d0"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/huggingface/smolagents"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-94"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-28T14:54:22Z",
     "nvd_published_at": "2025-07-27T08:15:25Z"
   }
 }
