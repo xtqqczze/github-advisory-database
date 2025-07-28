@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-xcf7-rvmh-g6q4",
-  "modified": "2025-07-28T15:55:01Z",
-  "published": "2023-06-21T22:07:52Z",
-  "aliases": [
-    "CVE-2023-53159"
-  ],
-  "summary": "`openssl` `X509VerifyParamRef::set_host` buffer over-read",
-  "details": "When this function was passed an empty string, `openssl` would attempt to call `strlen` on it, reading arbitrary memory until it reached a NUL byte.",
+  "id": "GHSA-gw89-822v-8v8g",
+  "modified": "2025-07-28T15:54:34Z",
+  "published": "2025-07-28T03:31:04Z",
+  "withdrawn": "2025-07-28T15:54:34Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: `openssl` `X509VerifyParamRef::set_host` buffer over-read",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-xcf7-rvmh-g6q4. This link is maintained to preserve external references.\n\n### Original Description\nThe openssl crate before 0.10.55 for Rust allows an out-of-bounds read via an empty string to X509VerifyParamRef::set_host.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -46,11 +45,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/sfackler/rust-openssl/pull/1968"
-    },
-    {
-      "type": "PACKAGE",
-      "url": "https://github.com/sfackler/rust-openssl"
+      "url": "https://crates.io/crates/openssl"
     },
     {
       "type": "WEB",
@@ -63,7 +58,7 @@
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
-    "github_reviewed_at": "2023-06-21T22:07:52Z",
-    "nvd_published_at": null
+    "github_reviewed_at": "2025-07-28T15:54:34Z",
+    "nvd_published_at": "2025-07-28T03:15:23Z"
   }
 }
