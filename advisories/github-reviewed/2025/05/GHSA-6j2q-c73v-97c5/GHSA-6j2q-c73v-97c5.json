@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6j2q-c73v-97c5",
-  "modified": "2025-05-30T15:25:10Z",
+  "modified": "2025-07-28T20:34:06Z",
   "published": "2025-05-30T06:30:25Z",
   "aliases": [
     "CVE-2025-41235"
@@ -85,7 +85,26 @@
               "introduced": "0"
             },
             {
-              "last_affected": "3.1.10"
+              "fixed": "3.1.10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.springframework.cloud:spring-cloud-gateway-server-mvc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.7"
+            },
+            {
+              "fixed": "4.2.3"
             }
           ]
         }
