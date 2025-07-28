@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rfx3-ffrp-6875",
+  "modified": "2025-07-28T03:31:05Z",
+  "published": "2025-07-28T03:31:05Z",
+  "aliases": [
+    "CVE-2023-53160"
+  ],
+  "details": "The sequoia-openpgp crate before 1.16.0 for Rust allows out-of-bounds array access and a panic.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-53160"
+    },
+    {
+      "type": "WEB",
+      "url": "https://crates.io/crates/sequoia-openpgp"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-25mx-8f3v-8wh7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.sequoia-pgp.org/hyperkitty/list/announce@lists.sequoia-pgp.org/thread/SN2E3QRT4DMQ5JNEK6VIN6DJ5SH766DI"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2023-0038.html"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-28T03:15:23Z"
+  }
+}
