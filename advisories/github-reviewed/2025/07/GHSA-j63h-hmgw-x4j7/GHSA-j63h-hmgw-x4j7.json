@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j63h-hmgw-x4j7",
-  "modified": "2025-07-25T20:13:45Z",
+  "modified": "2025-07-28T13:04:42Z",
   "published": "2025-07-25T20:13:45Z",
   "aliases": [
     "CVE-2025-54380"
@@ -95,11 +95,23 @@
   "references": [
     {
       "type": "WEB",
+      "url": "https://github.com/opencast/opencast/security/advisories/GHSA-hcxx-mp6g-6gr9"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/opencast/opencast/security/advisories/GHSA-j63h-hmgw-x4j7"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54380"
     },
     {
       "type": "WEB",
       "url": "https://github.com/opencast/opencast/commit/2d3219113e2b9fadfb06443f5468b1c2157827a6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/opencast/opencast/commit/e8980435342149375802648b9c9e696c9a5f0c9a"
     },
     {
       "type": "PACKAGE",
@@ -113,6 +125,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-25T20:13:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-26T04:16:06Z"
   }
 }

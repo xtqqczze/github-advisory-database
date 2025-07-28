@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9jr9-8ff3-m894",
-  "modified": "2025-07-25T20:10:22Z",
+  "modified": "2025-07-28T13:04:31Z",
   "published": "2025-07-25T20:10:22Z",
   "aliases": [
     "CVE-2025-54378"
@@ -60,8 +60,16 @@
       "url": "https://github.com/haxtheweb/issues/security/advisories/GHSA-9jr9-8ff3-m894"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54378"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/haxtheweb/haxcms-nodejs/commit/5826e9b7f3d8c7c7635411768b86b199fad36969"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/haxtheweb/haxcms-php/commit/24d30222481ada037597c4d7c0a51a1ef7af6cfd"
     }
   ],
   "database_specific": {
@@ -72,6 +80,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-25T20:10:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-26T04:16:05Z"
   }
 }
