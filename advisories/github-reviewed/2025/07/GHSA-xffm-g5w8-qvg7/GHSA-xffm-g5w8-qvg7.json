@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xffm-g5w8-qvg7",
-  "modified": "2025-07-18T20:39:12Z",
+  "modified": "2025-07-28T17:34:44Z",
   "published": "2025-07-18T20:39:12Z",
   "aliases": [],
   "summary": "@eslint/plugin-kit is vulnerable to Regular Expression Denial of Service attacks through ConfigCommentParser",
@@ -9,7 +9,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:P"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:L/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -26,7 +26,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.3.3"
+              "fixed": "0.3.4"
             }
           ]
         }
@@ -51,7 +51,7 @@
     "cwe_ids": [
       "CWE-1333"
     ],
-    "severity": "HIGH",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-18T20:39:12Z",
     "nvd_published_at": null
