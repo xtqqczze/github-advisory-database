@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mvw6-62qv-vmqf",
-  "modified": "2025-07-25T06:30:30Z",
+  "modified": "2025-07-28T19:42:34Z",
   "published": "2025-07-25T06:30:30Z",
   "aliases": [
     "CVE-2025-8129"
   ],
+  "summary": "Koa Open Redirect Vulnerability",
   "details": "A vulnerability, which was classified as problematic, was found in KoaJS Koa up to 3.0.0. Affected is the function back in the library lib/response.js of the component HTTP Header Handler. The manipulation of the argument Referrer leads to open redirect. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "koa"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -30,6 +51,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/koajs/koa/issues/1892#issue-3213028583"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/koajs/koa/commit/422c551c63d00f24e2bbbdf492f262a5935bb1f0"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/koajs/koa"
     },
     {
       "type": "WEB",
@@ -48,9 +77,9 @@
     "cwe_ids": [
       "CWE-601"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-28T19:42:34Z",
     "nvd_published_at": "2025-07-25T05:15:36Z"
   }
 }
