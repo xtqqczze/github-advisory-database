@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-6ggr-cwv4-g7qg",
-  "modified": "2025-07-28T15:08:43Z",
-  "published": "2023-12-21T23:15:57Z",
-  "aliases": [
-    "CVE-2023-53157"
-  ],
-  "summary": "Remotely exploitable denial of service in Rosenpass",
-  "details": "Affected versions of this crate did not validate the size of buffers when attempting to decode messages.\n\nThis allows an attacker to trigger a panic by sending a UDP datagram with a 1 byte payload over network.\n\nThis flaw was corrected by validating the size of the buffers before attempting to decode the message.",
+  "id": "GHSA-624c-2h52-gf7f",
+  "modified": "2025-07-28T15:08:01Z",
+  "published": "2025-07-28T00:30:34Z",
+  "withdrawn": "2025-07-28T15:08:01Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Remotely exploitable denial of service in Rosenpass",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-6ggr-cwv4-g7qg. This link is maintained to preserve external references.\n\n### Original Description\nThe rosenpass crate before 0.2.1 for Rust allows remote attackers to cause a denial of service (panic) via a one-byte UDP packet.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -45,6 +44,14 @@
       "url": "https://github.com/rosenpass/rosenpass/commit/93439858d1c44294a7b377f775c4fc897a370bb2"
     },
     {
+      "type": "WEB",
+      "url": "https://crates.io/crates/rosenpass"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-6ggr-cwv4-g7qg"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/rosenpass/rosenpass"
     },
@@ -59,7 +66,7 @@
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
-    "github_reviewed_at": "2023-12-21T23:15:57Z",
-    "nvd_published_at": null
+    "github_reviewed_at": "2025-07-28T15:08:01Z",
+    "nvd_published_at": "2025-07-28T00:15:25Z"
   }
 }

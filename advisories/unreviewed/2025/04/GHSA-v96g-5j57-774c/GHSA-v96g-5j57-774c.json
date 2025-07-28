@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v96g-5j57-774c",
-  "modified": "2025-07-01T03:30:32Z",
+  "modified": "2025-07-28T15:31:35Z",
   "published": "2025-04-29T12:30:21Z",
   "aliases": [
     "CVE-2025-3891"
@@ -16,8 +16,16 @@
   "affected": [],
   "references": [
     {
+      "type": "WEB",
+      "url": "https://github.com/OpenIDC/mod_auth_openidc/security/advisories/GHSA-x7cf-8wgv-5j86"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3891"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/OpenIDC/mod_auth_openidc/commit/6a0b5f66c87184dfe0e4400f6bdd46a82dc0ec2b"
     },
     {
       "type": "WEB",
