@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwcj-2grf-hc24",
-  "modified": "2025-07-28T09:31:17Z",
+  "modified": "2025-07-29T12:31:21Z",
   "published": "2025-07-28T09:31:17Z",
   "aliases": [
     "CVE-2025-27802"
@@ -22,6 +22,18 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27802"
+    },
+    {
+      "type": "WEB",
+      "url": "https://api.nuget.optimizely.com/packages/episerver.cms.core/11.21.4#"
+    },
+    {
+      "type": "WEB",
+      "url": "https://api.nuget.optimizely.com/packages/episerver.cms.core/12.22.1#"
+    },
+    {
+      "type": "WEB",
+      "url": "https://r.sec-consult.com/optimizely"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-83j7-mhw9-388w",
-  "modified": "2025-07-21T12:26:17Z",
+  "modified": "2025-07-29T12:31:20Z",
   "published": "2025-07-18T15:31:57Z",
   "aliases": [
     "CVE-2025-7784"
@@ -47,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/pull/41168"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:12015"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:12016"
     },
     {
       "type": "WEB",
