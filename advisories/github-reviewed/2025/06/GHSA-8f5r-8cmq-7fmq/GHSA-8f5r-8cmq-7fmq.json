@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f5r-8cmq-7fmq",
-  "modified": "2025-06-30T12:50:41Z",
+  "modified": "2025-07-29T16:00:27Z",
   "published": "2025-06-26T21:25:00Z",
   "aliases": [
     "CVE-2025-52893"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/openbao/openbao/sdk/v2/framework"
+        "name": "github.com/openbao/openbao/sdk/v2"
       },
       "ranges": [
         {
