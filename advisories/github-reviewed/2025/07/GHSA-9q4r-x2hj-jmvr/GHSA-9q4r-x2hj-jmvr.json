@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9q4r-x2hj-jmvr",
-  "modified": "2025-07-28T20:25:04Z",
+  "modified": "2025-07-29T12:34:32Z",
   "published": "2025-07-28T16:41:44Z",
   "aliases": [
     "CVE-2025-54423"
@@ -67,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-28T16:41:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-28T20:17:48Z"
   }
 }

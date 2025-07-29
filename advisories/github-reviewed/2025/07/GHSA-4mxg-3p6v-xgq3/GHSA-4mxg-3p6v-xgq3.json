@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mxg-3p6v-xgq3",
-  "modified": "2025-07-28T20:38:44Z",
+  "modified": "2025-07-29T12:34:38Z",
   "published": "2025-07-28T20:38:44Z",
   "aliases": [
     "CVE-2025-54419"
@@ -44,6 +44,10 @@
       "url": "https://github.com/node-saml/node-saml/security/advisories/GHSA-4mxg-3p6v-xgq3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54419"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/node-saml/node-saml/commit/31ead9411ebc3e2385086fa9149b6c17732bca10"
     },
@@ -64,6 +68,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-28T20:38:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-28T20:17:48Z"
   }
 }
