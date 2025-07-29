@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2fw-m52x-w593",
-  "modified": "2025-07-22T15:32:52Z",
+  "modified": "2025-07-29T21:30:40Z",
   "published": "2025-07-22T15:32:52Z",
   "aliases": [
     "CVE-2025-4878"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2376184"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.libssh.org/projects/libssh.git/commit/?id=697650caa97eaf7623924c75f9fcfec6dd423cd1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.libssh.org/projects/libssh.git/commit/?id=b35ee876adc92a208d47194772e99f9c71e0bedb"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p57-rq4q-233x",
-  "modified": "2025-05-19T15:30:40Z",
+  "modified": "2025-07-29T21:30:35Z",
   "published": "2025-05-19T15:30:40Z",
   "aliases": [
     "CVE-2025-4478"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-4478"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FreeRDP/FreeRDP/pull/11573"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:9307"
     },
     {
       "type": "WEB",
