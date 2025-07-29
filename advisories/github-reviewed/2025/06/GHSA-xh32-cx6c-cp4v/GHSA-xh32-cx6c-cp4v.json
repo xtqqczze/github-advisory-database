@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xh32-cx6c-cp4v",
-  "modified": "2025-06-26T16:54:02Z",
+  "modified": "2025-07-29T15:57:28Z",
   "published": "2025-06-26T16:54:01Z",
   "aliases": [
     "CVE-2025-47943"
@@ -19,6 +19,25 @@
       "package": {
         "ecosystem": "Go",
         "name": "github.com/gogs/gogs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.13.3-0.20250608224432-110117b2e5e5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "gogs.io/gogs"
       },
       "ranges": [
         {
