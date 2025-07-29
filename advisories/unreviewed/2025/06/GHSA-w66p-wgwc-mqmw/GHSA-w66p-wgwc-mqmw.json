@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w66p-wgwc-mqmw",
-  "modified": "2025-06-17T15:31:08Z",
+  "modified": "2025-07-29T18:30:28Z",
   "published": "2025-06-17T15:31:08Z",
   "aliases": [
     "CVE-2025-4404"
@@ -70,6 +70,14 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2364606"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pagure.io/freeipa/c/6b9400c135ed16b10057b350cc9ce42aa0e862d4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pagure.io/freeipa/c/796ed20092d554ee0c9e23295e346ec1e8a0bf6e"
     }
   ],
   "database_specific": {

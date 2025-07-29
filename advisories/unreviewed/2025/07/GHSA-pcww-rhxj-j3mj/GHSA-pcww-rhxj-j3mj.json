@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pcww-rhxj-j3mj",
-  "modified": "2025-07-16T21:30:35Z",
+  "modified": "2025-07-29T18:30:30Z",
   "published": "2025-07-16T15:32:33Z",
   "aliases": [
     "CVE-2025-32353"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.galacticadvisors.com/release/critical-vulnerabilities-in-network-detective"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.galacticadvisors.com/release/cve"
     }
   ],
   "database_specific": {

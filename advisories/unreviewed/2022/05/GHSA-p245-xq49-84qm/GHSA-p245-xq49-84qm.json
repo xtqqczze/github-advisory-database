@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p245-xq49-84qm",
-  "modified": "2022-05-17T04:14:30Z",
+  "modified": "2025-07-29T18:30:26Z",
   "published": "2022-05-17T04:14:30Z",
   "aliases": [
     "CVE-2014-9194"
@@ -17,10 +17,20 @@
     {
       "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSA-14-345-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-345-01"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.arbiter.com/contact/index.php"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-345"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
