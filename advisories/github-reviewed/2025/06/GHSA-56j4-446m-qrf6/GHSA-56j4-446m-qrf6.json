@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56j4-446m-qrf6",
-  "modified": "2025-06-30T17:54:02Z",
+  "modified": "2025-07-29T23:43:41Z",
   "published": "2025-06-30T17:54:02Z",
   "aliases": [],
   "summary": "Babylon vulnerable to chain half when transaction has fees different than `ubbn`",
@@ -27,6 +27,25 @@
             },
             {
               "fixed": "2.2.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/babylonlabs-io/babylon"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.1.0"
             }
           ]
         }
