@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-m3gr-g6g8-fxjw",
+  "modified": "2025-07-29T00:30:27Z",
+  "published": "2025-07-29T00:30:27Z",
+  "aliases": [
+    "CVE-2025-54767"
+  ],
+  "details": "An authenticated, read-only user can kill any processes running on the Xormon Original virtual appliance as the lpar2rrd user.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54767"
+    },
+    {
+      "type": "WEB",
+      "url": "https://korelogic.com/Resources/Advisories/KL-001-2025-014.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lpar2rrd.com/note800.php"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-648"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-29T00:15:24Z"
+  }
+}
