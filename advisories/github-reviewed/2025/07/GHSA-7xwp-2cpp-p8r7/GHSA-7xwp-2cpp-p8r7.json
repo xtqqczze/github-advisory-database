@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7xwp-2cpp-p8r7",
-  "modified": "2025-07-16T14:09:28Z",
+  "modified": "2025-07-29T23:17:56Z",
   "published": "2025-07-16T14:09:28Z",
   "aliases": [
     "CVE-2025-53826"
@@ -19,6 +19,25 @@
       "package": {
         "ecosystem": "Go",
         "name": "github.com/filebrowser/filebrowser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.39.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/filebrowser/filebrowser/v2"
       },
       "ranges": [
         {
