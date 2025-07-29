@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x64w-w449-jx7q",
-  "modified": "2025-07-23T15:31:14Z",
+  "modified": "2025-07-29T15:31:30Z",
   "published": "2025-07-23T15:31:14Z",
   "aliases": [
     "CVE-2025-40598"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-40598"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/stack-overflows-heap-overflows-and-existential-dread-sonicwall-sma100-cve-2025-40596-cve-2025-40597-and-cve-2025-40598"
     },
     {
       "type": "WEB",

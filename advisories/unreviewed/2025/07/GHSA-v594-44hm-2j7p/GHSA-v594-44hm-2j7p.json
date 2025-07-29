@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v594-44hm-2j7p",
-  "modified": "2025-07-28T21:31:35Z",
+  "modified": "2025-07-29T15:31:45Z",
   "published": "2025-07-28T21:31:35Z",
   "aliases": [
     "CVE-2025-8194"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/python/cpython/commit/cdae923ffe187d6ef916c0f665a31249619193fe"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1"
     },
     {
       "type": "WEB",

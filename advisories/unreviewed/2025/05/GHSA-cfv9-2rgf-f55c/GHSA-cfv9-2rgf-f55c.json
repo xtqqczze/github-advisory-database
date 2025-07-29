@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cfv9-2rgf-f55c",
-  "modified": "2025-07-23T21:36:43Z",
+  "modified": "2025-07-29T15:31:29Z",
   "published": "2025-05-06T15:31:10Z",
   "aliases": [
     "CVE-2025-4373"
@@ -50,6 +50,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2364265"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/glib/-/issues/3677"
     }
   ],
   "database_specific": {

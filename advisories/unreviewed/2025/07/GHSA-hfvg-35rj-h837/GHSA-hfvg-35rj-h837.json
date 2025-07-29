@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfvg-35rj-h837",
-  "modified": "2025-07-29T00:30:27Z",
+  "modified": "2025-07-29T15:31:46Z",
   "published": "2025-07-29T00:30:27Z",
   "aliases": [
     "CVE-2025-54766"
   ],
   "details": "An API endpoint that should be limited to web application administrators is hidden from, but accessible by, lower-level read only web application users. The endpoint can be used to export the appliance configuration, exposing sensitive information.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-648"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-29T00:15:24Z"

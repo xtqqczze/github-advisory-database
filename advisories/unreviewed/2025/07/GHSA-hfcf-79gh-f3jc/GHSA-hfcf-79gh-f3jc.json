@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hfcf-79gh-f3jc",
+  "modified": "2025-07-29T15:31:50Z",
+  "published": "2025-07-29T15:31:50Z",
+  "aliases": [
+    "CVE-2025-50738"
+  ],
+  "details": "The Memos application, up to version v0.24.3, allows for the embedding of markdown images with arbitrary URLs. When a user views a memo containing such an image, their browser automatically fetches the image URL without explicit user consent or interaction beyond viewing the memo. This can be exploited by an attacker to disclose the viewing user's IP address, browser User-Agent string, and potentially other request-specific information to the attacker-controlled server, leading to information disclosure and user tracking.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50738"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/usememos/memos/issues/4707#issuecomment-2898504237"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/usememos/memos"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-29T15:15:35Z"
+  }
+}
