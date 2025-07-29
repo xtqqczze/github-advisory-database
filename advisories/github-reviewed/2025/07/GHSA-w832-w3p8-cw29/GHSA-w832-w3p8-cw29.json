@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w832-w3p8-cw29",
-  "modified": "2025-07-29T06:30:22Z",
+  "modified": "2025-07-29T20:12:47Z",
   "published": "2025-07-29T06:30:21Z",
   "aliases": [
     "CVE-2025-8264"
   ],
+  "summary": "z-push/z-push-dev SQL Injection Vulnerability",
   "details": "Versions of the package z-push/z-push-dev before 2.7.6 are vulnerable to SQL Injection due to unparameterized queries in the IMAP backend. An attacker can inject malicious commands by manipulating the username field in basic authentication. This allows the attacker to access and potentially modify or delete sensitive data from a linked third-party database. \n\n**Note:** This vulnerability affects Z-Push installations that utilize the IMAP backend and have the IMAP_FROM_SQL_QUERY option configured. \n\n Mitigation\nChange configuration to use the default or LDAP in backend/imap/config.php\n\nphp\ndefine('IMAP_DEFAULTFROM', '');\n\nor\nphp\ndefine('IMAP_DEFAULTFROM', 'ldap');",
   "severity": [
     {
@@ -17,7 +18,27 @@
       "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:N/SC:H/SI:H/SA:H/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "z-push/z-push-dev"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.7.6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -30,6 +51,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/Z-Hub/Z-Push/pull/161/commits/f981d515a35ac4c303959af21dce880a5db02786"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Z-Hub/Z-Push/commit/deb044a40e97dab1814da9aa8330c0a590957fc5"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/Z-Hub/Z-Push"
     },
     {
       "type": "WEB",
@@ -48,9 +77,9 @@
     "cwe_ids": [
       "CWE-89"
     ],
-    "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-29T20:12:47Z",
     "nvd_published_at": "2025-07-29T05:15:32Z"
   }
 }
