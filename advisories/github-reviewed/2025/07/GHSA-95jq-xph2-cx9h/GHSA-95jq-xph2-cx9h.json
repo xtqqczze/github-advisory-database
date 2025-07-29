@@ -1,19 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95jq-xph2-cx9h",
-  "modified": "2025-07-26T00:30:32Z",
+  "modified": "2025-07-29T19:09:33Z",
   "published": "2025-07-26T00:30:32Z",
   "aliases": [
     "CVE-2025-8101"
   ],
+  "summary": "Linkify Allows Prototype Pollution & HTML Attribute Injection (XSS)",
   "details": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') vulnerability in Linkify (linkifyjs) allows XSS Targeting HTML Attributes and Manipulating User-Controlled Variables.This issue affects Linkify: from 4.3.1 before 4.3.2.",
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:H/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:H/VA:L/SC:N/SI:N/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "linkifyjs"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.3.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,7 +45,7 @@
       "url": "https://fluidattacks.com/advisories/charly"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/nfrasser/linkifyjs"
     },
     {
@@ -41,8 +62,8 @@
       "CWE-1321"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-07-29T19:09:33Z",
     "nvd_published_at": "2025-07-25T22:15:25Z"
   }
 }
