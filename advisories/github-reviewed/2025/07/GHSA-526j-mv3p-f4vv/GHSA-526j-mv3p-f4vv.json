@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-526j-mv3p-f4vv",
-  "modified": "2025-07-25T13:32:08Z",
+  "modified": "2025-07-29T23:38:53Z",
   "published": "2025-07-24T14:19:17Z",
   "aliases": [
     "CVE-2025-54379"
@@ -29,6 +29,25 @@
             },
             {
               "fixed": "2.2.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/lf-edge/ekuiper"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.14.7"
             }
           ]
         }
