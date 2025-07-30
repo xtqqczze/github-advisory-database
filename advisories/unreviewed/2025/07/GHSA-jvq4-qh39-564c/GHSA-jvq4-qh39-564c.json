@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvq4-qh39-564c",
-  "modified": "2025-07-20T21:31:17Z",
+  "modified": "2025-07-30T18:31:31Z",
   "published": "2025-07-20T21:31:17Z",
   "aliases": [
     "CVE-2025-54316"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://servicedesk.logpoint.com/hc/en-us/articles/28685383084317-XSS-vulnerability-in-Report-Templates-using-built-in-Jinja-filter-functions"
+    },
+    {
+      "type": "WEB",
+      "url": "https://servicedesk.logpoint.com/hc/en-us/sections/7201103730845-Product-Security"
     }
   ],
   "database_specific": {

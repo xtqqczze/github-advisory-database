@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wm56-vm94-jrxr",
-  "modified": "2025-07-28T15:31:40Z",
+  "modified": "2025-07-30T18:31:32Z",
   "published": "2025-07-28T15:31:40Z",
   "aliases": [
     "CVE-2025-30126"
   ],
   "details": "An issue was discovered on Marbella KR8s Dashcam FF 2.0.8 devices. Via port 7777 without any need to pair or press a physical button, a remote attacker can disable recording, delete recordings, or even disable battery protection to cause a flat battery to essentially disable the car from being used. During the process of changing these settings, there are no indications or sounds on the dashcam to alert the dashcam owner that someone else is making those changes.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-306"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-28T14:15:26Z"

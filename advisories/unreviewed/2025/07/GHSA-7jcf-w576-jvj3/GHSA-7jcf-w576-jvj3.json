@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jcf-w576-jvj3",
-  "modified": "2025-07-23T18:30:36Z",
+  "modified": "2025-07-30T18:31:32Z",
   "published": "2025-07-22T21:31:15Z",
   "aliases": [
     "CVE-2025-8040"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1975058%2C1975058%2C1975998%2C1975998"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/buglist.cgi?bug_id=1975058%2C1975998"
     },
     {
       "type": "WEB",

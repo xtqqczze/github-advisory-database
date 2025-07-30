@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq32-79qf-69q2",
-  "modified": "2025-07-20T21:31:17Z",
+  "modified": "2025-07-30T18:31:31Z",
   "published": "2025-07-20T21:31:17Z",
   "aliases": [
     "CVE-2025-54317"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://servicedesk.logpoint.com/hc/en-us/articles/28685507675549-Path-Traversal-in-Layout-Templates-Allows-Remote-Code-Execution"
+    },
+    {
+      "type": "WEB",
+      "url": "https://servicedesk.logpoint.com/hc/en-us/sections/7201103730845-Product-Security"
     }
   ],
   "database_specific": {
