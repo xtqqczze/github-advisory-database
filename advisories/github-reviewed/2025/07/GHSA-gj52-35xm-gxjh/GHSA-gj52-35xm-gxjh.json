@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gj52-35xm-gxjh",
-  "modified": "2025-07-29T12:31:20Z",
+  "modified": "2025-07-30T13:15:06Z",
   "published": "2025-07-10T15:31:30Z",
-  "aliases": [
-    "CVE-2025-7365"
-  ],
-  "summary": "Keycloak vulnerable to phishing attacks through its Review Profile section",
-  "details": "A flaw was found in Keycloak. When an authenticated attacker attempts to merge accounts with another existing account during an identity provider (IdP) login, the attacker will subsequently be prompted to \"review profile\" information. This vulnerability allows the attacker to modify their email address to match that of a victim's account, triggering a verification email sent to the victim's email address. The attacker's email address is not present in the verification email content, making it a potential phishing opportunity. If the victim clicks the verification link, the attacker can gain access to the victim's account.",
+  "withdrawn": "2025-07-30T13:15:06Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Keycloak phishing attack via email verification step in first login flow",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-xhpr-465j-7p9q. This link is maintained to preserve external references.\n\n### Original Description\nA flaw was found in Keycloak. When an authenticated attacker attempts to merge accounts with another existing account during an identity provider (IdP) login, the attacker will subsequently be prompted to \"review profile\" information. This vulnerability allows the attacker to modify their email address to match that of a victim's account, triggering a verification email sent to the victim's email address. The attacker's email address is not present in the verification email content, making it a potential phishing opportunity. If the victim clicks the verification link, the attacker can gain access to the victim's account.",
   "severity": [
     {
       "type": "CVSS_V3",
