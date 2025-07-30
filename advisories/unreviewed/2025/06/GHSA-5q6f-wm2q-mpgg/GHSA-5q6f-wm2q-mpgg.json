@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5q6f-wm2q-mpgg",
-  "modified": "2025-06-28T09:30:23Z",
+  "modified": "2025-07-30T06:31:28Z",
   "published": "2025-06-28T09:30:23Z",
   "aliases": [
     "CVE-2025-38085"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/fe684290418ef9ef76630072086ee530b92f02b8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/420715744"
     }
   ],
   "database_specific": {

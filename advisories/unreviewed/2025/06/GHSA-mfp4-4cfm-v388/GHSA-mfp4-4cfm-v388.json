@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfp4-4cfm-v388",
-  "modified": "2025-06-28T09:30:23Z",
+  "modified": "2025-07-30T06:31:28Z",
   "published": "2025-06-28T09:30:22Z",
   "aliases": [
     "CVE-2025-38084"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e8847d18cd9fff1edbb45e963d9141273c3b539c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://project-zero.issues.chromium.org/issues/420715744"
     }
   ],
   "database_specific": {
