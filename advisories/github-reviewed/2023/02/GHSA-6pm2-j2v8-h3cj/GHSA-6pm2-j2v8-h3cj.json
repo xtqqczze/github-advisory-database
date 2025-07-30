@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pm2-j2v8-h3cj",
-  "modified": "2023-02-15T17:39:56Z",
+  "modified": "2025-07-30T11:45:23Z",
   "published": "2023-02-06T21:30:29Z",
   "withdrawn": "2023-02-09T22:03:51Z",
   "aliases": [
@@ -72,6 +72,10 @@
     {
       "type": "WEB",
       "url": "https://www.rapid7.com/blog/post/2023/02/03/exploitation-of-goanywhere-mft-zero-day-vulnerability"
+    },
+    {
+      "type": "WEB",
+      "url": "http://packetstormsecurity.com/files/171789/Goanywhere-Encryption-Helper-7.1.1-Remote-Code-Execution.html"
     }
   ],
   "database_specific": {

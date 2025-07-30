@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ggwg-cmwp-46r5",
-  "modified": "2025-04-10T20:26:18Z",
+  "modified": "2025-07-30T11:46:44Z",
   "published": "2025-04-10T03:31:32Z",
   "aliases": [
     "CVE-2024-58136"
@@ -59,6 +59,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/yiisoft/yii2/compare/2.0.51...2.0.52"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sensepost.com/blog/2025/investigating-an-in-the-wild-campaign-using-rce-in-craftcms"
     },
     {
       "type": "WEB",
