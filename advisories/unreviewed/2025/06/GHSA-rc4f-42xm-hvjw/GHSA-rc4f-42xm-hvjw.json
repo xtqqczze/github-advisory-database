@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rc4f-42xm-hvjw",
-  "modified": "2025-06-26T21:31:11Z",
+  "modified": "2025-07-30T03:30:35Z",
   "published": "2025-06-26T21:31:11Z",
   "aliases": [
     "CVE-2025-20281"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-unauth-rce-ZAd2GnJ6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.zerodayinitiative.com/blog/2025/7/24/cve-2025-20281-cisco-ise-api-unauthenticated-remote-code-execution-vulnerability"
     }
   ],
   "database_specific": {
