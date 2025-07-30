@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vw7m-xrvg-cm67",
+  "modified": "2025-07-30T00:32:20Z",
+  "published": "2025-07-30T00:32:20Z",
+  "aliases": [
+    "CVE-2025-31276"
+  ],
+  "details": "This issue was addressed through improved state management. This issue is fixed in iOS 18.6 and iPadOS 18.6, iPadOS 17.7.9. Remote content may be loaded even when the 'Load Remote Images' setting is turned off.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-31276"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/124147"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/124148"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-30T00:15:30Z"
+  }
+}

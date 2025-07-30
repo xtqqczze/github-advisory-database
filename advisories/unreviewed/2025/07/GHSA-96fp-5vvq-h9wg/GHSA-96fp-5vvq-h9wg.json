@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-96fp-5vvq-h9wg",
+  "modified": "2025-07-30T00:32:22Z",
+  "published": "2025-07-30T00:32:22Z",
+  "aliases": [
+    "CVE-2025-43235"
+  ],
+  "details": "The issue was addressed with improved memory handling. This issue is fixed in macOS Sequoia 15.6. An app may be able to cause a denial-of-service.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43235"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/124149"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-30T00:15:35Z"
+  }
+}
