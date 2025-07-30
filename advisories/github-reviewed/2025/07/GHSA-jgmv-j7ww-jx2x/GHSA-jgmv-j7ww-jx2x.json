@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgmv-j7ww-jx2x",
-  "modified": "2025-07-29T19:11:25Z",
+  "modified": "2025-07-30T14:14:46Z",
   "published": "2025-07-29T19:11:25Z",
   "aliases": [
     "CVE-2025-8129"
@@ -29,7 +29,26 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.0"
+            },
+            {
+              "fixed": "2.16.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "koa"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0-alpha.0"
             },
             {
               "fixed": "3.0.1"
@@ -78,7 +97,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-601"
+    ],
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-29T19:11:25Z",
