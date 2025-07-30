@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9xr6-qf7m-2jv5",
-  "modified": "2024-08-23T21:30:41Z",
+  "modified": "2025-07-30T21:31:29Z",
   "published": "2024-03-27T09:30:41Z",
   "aliases": [
     "CVE-2024-2466"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/kb/HT214120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vicarius.io/vsociety/posts/tls-certificate-check-bypass-curl-with-mbedtls-cve-2024-2466-2468"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-63g8-5j2r-qj8f",
-  "modified": "2025-07-30T15:35:53Z",
+  "modified": "2025-07-30T21:31:37Z",
   "published": "2025-07-30T15:35:53Z",
   "aliases": [
     "CVE-2024-45515"
   ],
   "details": "An issue was discovered in Zimbra Collaboration (ZCS) through 10.1. A Cross-Site Scripting (XSS) vulnerability exists in Zimbra webmail due to insufficient validation of the content type metadata when importing files into the briefcase. Attackers can exploit this issue by crafting a file with manipulated metadata, allowing them to bypass content type checks and execute arbitrary JavaScript within the victim's session.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-30T15:15:32Z"
