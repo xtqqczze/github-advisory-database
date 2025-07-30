@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xxmh-rf63-qwjv",
-  "modified": "2025-07-30T19:11:29Z",
+  "modified": "2025-07-30T20:01:08Z",
   "published": "2025-07-30T16:40:07Z",
   "aliases": [
     "CVE-2025-54584"
@@ -62,7 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-290"
+      "CWE-115"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
