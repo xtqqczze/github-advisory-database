@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5c6q-hvvg-576r",
-  "modified": "2025-06-17T12:31:15Z",
+  "modified": "2025-07-30T15:35:50Z",
   "published": "2025-05-19T18:30:46Z",
   "aliases": [
     "CVE-2025-4948"
@@ -70,6 +70,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2367183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libsoup/-/issues/449"
     }
   ],
   "database_specific": {

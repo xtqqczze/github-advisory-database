@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4c3-h4wc-4hx3",
-  "modified": "2025-07-29T21:30:44Z",
+  "modified": "2025-07-30T15:35:51Z",
   "published": "2025-07-29T21:30:44Z",
   "aliases": [
     "CVE-2024-43018"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Piwigo/Piwigo/issues/2197"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/inesmarcal/CVE-2024-43018"
     },
     {
       "type": "WEB",
