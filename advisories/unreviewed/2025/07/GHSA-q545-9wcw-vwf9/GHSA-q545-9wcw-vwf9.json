@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q545-9wcw-vwf9",
-  "modified": "2025-07-30T00:32:21Z",
+  "modified": "2025-07-31T18:32:00Z",
   "published": "2025-07-30T00:32:21Z",
   "aliases": [
     "CVE-2025-43192"
   ],
   "details": "A configuration issue was addressed with additional restrictions. This issue is fixed in macOS Sequoia 15.6, macOS Sonoma 14.7.7. Account-driven User Enrollment may still be possible with Lockdown Mode turned on.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-30T00:15:32Z"

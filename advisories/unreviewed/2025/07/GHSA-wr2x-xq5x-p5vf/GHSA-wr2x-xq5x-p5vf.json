@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wr2x-xq5x-p5vf",
+  "modified": "2025-07-31T18:32:04Z",
+  "published": "2025-07-31T18:32:04Z",
+  "aliases": [
+    "CVE-2024-34327"
+  ],
+  "details": "Sielox AnyWare v2.1.2 was discovered to contain a SQL injection vulnerability via the email address field of the password reset form.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34327"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/0xsu3ks/CVE-2024-34327"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sielox.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-31T17:15:29Z"
+  }
+}

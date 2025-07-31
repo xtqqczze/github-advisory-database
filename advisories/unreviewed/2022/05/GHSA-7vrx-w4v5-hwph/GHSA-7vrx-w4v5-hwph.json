@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7vrx-w4v5-hwph",
-  "modified": "2024-07-24T15:31:24Z",
+  "modified": "2025-07-31T18:31:47Z",
   "published": "2022-05-14T03:52:47Z",
   "aliases": [
     "CVE-2017-6736"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/artkond/cisco-snmp-rce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w694-7r6q-q7vv",
-  "modified": "2025-07-18T12:30:35Z",
+  "modified": "2025-07-31T18:31:58Z",
   "published": "2025-07-18T12:30:35Z",
   "aliases": [
     "CVE-2025-49484"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://joomsky.com/js-jobs-joomla"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52373"
     }
   ],
   "database_specific": {

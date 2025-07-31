@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f29v-pr27-8f5j",
-  "modified": "2022-05-13T01:36:32Z",
+  "modified": "2025-07-31T18:31:47Z",
   "published": "2022-05-13T01:36:32Z",
   "aliases": [
     "CVE-2017-6737"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-6737"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20170629-snmp"
     },
     {
       "type": "WEB",
