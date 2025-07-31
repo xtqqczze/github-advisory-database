@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v98g-8rqx-g93g",
-  "modified": "2025-07-30T19:11:44Z",
+  "modified": "2025-07-31T12:02:22Z",
   "published": "2025-07-30T16:40:40Z",
   "aliases": [
     "CVE-2025-54586"
@@ -44,6 +44,10 @@
       "url": "https://github.com/finos/git-proxy/security/advisories/GHSA-v98g-8rqx-g93g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54586"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/finos/git-proxy/commit/9c1449f4ec37d2d1f3edf4328bc3757e8dba2110"
     },
@@ -67,6 +71,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-30T16:40:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-30T22:15:25Z"
   }
 }
