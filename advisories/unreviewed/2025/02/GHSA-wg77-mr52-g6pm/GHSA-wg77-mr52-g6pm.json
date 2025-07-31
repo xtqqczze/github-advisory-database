@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wg77-mr52-g6pm",
-  "modified": "2025-02-05T18:34:46Z",
+  "modified": "2025-07-31T15:35:44Z",
   "published": "2025-02-05T18:34:46Z",
   "aliases": [
     "CVE-2024-56135"

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6vjc-2rp5-c2hr",
+  "modified": "2025-07-31T15:35:50Z",
+  "published": "2025-07-31T15:35:50Z",
+  "aliases": [
+    "CVE-2025-29557"
+  ],
+  "details": "ExaGrid EX10 6.3 - 7.0.1.P08 is vulnerable to Incorrect Access Control in the MailConfiguration API endpoint, where users with operator-level privileges can issue an HTTP request to retrieve SMTP credentials, including plaintext passwords.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29557"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/0xsu3ks/CVE-2025-29557"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exagrid.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-07-31T15:15:36Z"
+  }
+}
