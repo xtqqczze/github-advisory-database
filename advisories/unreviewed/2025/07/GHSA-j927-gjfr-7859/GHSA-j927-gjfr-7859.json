@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j927-gjfr-7859",
-  "modified": "2025-07-31T18:32:03Z",
+  "modified": "2025-07-31T21:31:51Z",
   "published": "2025-07-31T18:32:03Z",
   "aliases": [
     "CVE-2025-50847"
   ],
   "details": "Cross Site Request Forgery (CSRF) vulnerability in CS Cart 4.18.3, allows attackers to add products to a user's comparison list via a crafted HTTP request.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-352"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-07-31T16:15:30Z"
