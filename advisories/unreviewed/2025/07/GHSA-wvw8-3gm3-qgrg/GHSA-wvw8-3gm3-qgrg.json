@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvw8-3gm3-qgrg",
-  "modified": "2025-07-30T00:32:19Z",
+  "modified": "2025-07-31T00:31:04Z",
   "published": "2025-07-30T00:32:19Z",
   "aliases": [
     "CVE-2025-31273"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/124149"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/124152"
     },
     {
       "type": "WEB",
