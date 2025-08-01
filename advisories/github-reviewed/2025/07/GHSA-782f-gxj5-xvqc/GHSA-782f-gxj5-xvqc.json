@@ -1,23 +1,48 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-782f-gxj5-xvqc",
-  "modified": "2025-07-31T21:31:53Z",
+  "modified": "2025-08-01T18:12:32Z",
   "published": "2025-07-31T18:32:04Z",
   "aliases": [
     "CVE-2025-51503"
   ],
+  "summary": "Microweber Has Stored XSS Vulnerability in User Profile Fields",
   "details": "A Stored Cross-Site Scripting (XSS) vulnerability in Microweber CMS 2.0 allows attackers to inject malicious scripts into user profile fields, leading to arbitrary JavaScript execution in admin browsers.",
   "severity": [
     {
-      "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L"
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:P/VC:N/VI:N/VA:N/SC:N/SI:L/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "microweber/microweber"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0"
+            },
+            {
+              "last_affected": "2.0.19"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-51503"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/microweber/microweber"
     },
     {
       "type": "WEB",
@@ -36,9 +61,9 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-08-01T18:12:31Z",
     "nvd_published_at": "2025-07-31T18:15:42Z"
   }
 }
