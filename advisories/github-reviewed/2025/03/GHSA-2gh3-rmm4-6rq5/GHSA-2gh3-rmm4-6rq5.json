@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gh3-rmm4-6rq5",
-  "modified": "2025-03-11T17:08:07Z",
+  "modified": "2025-08-01T19:20:19Z",
   "published": "2025-03-07T20:02:37Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2025-53605"
+  ],
   "summary": "Crash due to uncontrolled recursion in protobuf crate",
   "details": "Affected version of this crate did not properly parse unknown fields when parsing a user-supplied input.\n\nThis allows an attacker to cause a stack overflow when parsing the message on untrusted data.",
   "severity": [
@@ -34,6 +36,10 @@
     }
   ],
   "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53605"
+    },
     {
       "type": "WEB",
       "url": "https://github.com/stepancheg/rust-protobuf/issues/749"
