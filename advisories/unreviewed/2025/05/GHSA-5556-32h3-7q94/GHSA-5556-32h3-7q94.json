@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5556-32h3-7q94",
-  "modified": "2025-05-23T15:31:11Z",
+  "modified": "2025-08-01T15:34:15Z",
   "published": "2025-05-23T15:31:11Z",
   "aliases": [
     "CVE-2025-41377"
@@ -21,12 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-gandia-integra-total-tesi"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.incibe.es/en/incibe-cert/notices/aviso/multiple-vulnerabilities-intellian-technologies-iridium-certus"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-89"
     ],
     "severity": "CRITICAL",
     "github_reviewed": false,

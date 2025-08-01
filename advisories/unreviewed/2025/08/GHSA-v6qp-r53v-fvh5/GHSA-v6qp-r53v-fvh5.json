@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-v6qp-r53v-fvh5",
+  "modified": "2025-08-01T15:34:18Z",
+  "published": "2025-08-01T15:34:18Z",
+  "aliases": [
+    "CVE-2025-46018"
+  ],
+  "details": "CSC Pay Mobile App 2.19.4 (fixed in version 2.20.0) contains a vulnerability allowing users to bypass payment authorization by disabling Bluetooth at a specific point during a transaction. This could result in unauthorized use of laundry services and potential financial loss.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/niranjangaire1995/CVE-2025-46018-CSC-Pay-Mobile-App-Payment-Authentication-Bypass"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cscsw.com/disclosure-process"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-01T14:15:35Z"
+  }
+}

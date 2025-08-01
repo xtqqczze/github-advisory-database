@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77fc-r534-vggp",
-  "modified": "2025-08-01T06:31:37Z",
+  "modified": "2025-08-01T15:34:17Z",
   "published": "2025-08-01T06:31:37Z",
   "aliases": [
     "CVE-2025-5921"
   ],
   "details": "The SureForms  WordPress plugin before 1.7.2 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against both authenticated and unauthenticated users.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-01T06:15:29Z"
