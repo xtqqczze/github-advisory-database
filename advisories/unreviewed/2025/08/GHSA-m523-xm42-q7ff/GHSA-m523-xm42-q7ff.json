@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m523-xm42-q7ff",
-  "modified": "2025-08-01T15:34:18Z",
+  "modified": "2025-08-01T18:31:16Z",
   "published": "2025-08-01T15:34:18Z",
   "aliases": [
     "CVE-2025-45767"
   ],
   "details": "jose v6.0.10 was discovered to contain weak encryption.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-327"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-01T15:15:32Z"
