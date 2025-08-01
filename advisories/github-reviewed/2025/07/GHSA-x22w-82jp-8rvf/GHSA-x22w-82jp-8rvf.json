@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x22w-82jp-8rvf",
-  "modified": "2025-07-31T19:23:18Z",
+  "modified": "2025-08-01T18:35:51Z",
   "published": "2025-07-31T19:23:18Z",
   "aliases": [
     "CVE-2025-48074"
@@ -44,6 +44,10 @@
       "url": "https://github.com/AcademySoftwareFoundation/openexr/security/advisories/GHSA-x22w-82jp-8rvf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48074"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/AcademySoftwareFoundation/openexr"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-31T19:23:18Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-01T17:15:52Z"
   }
 }
