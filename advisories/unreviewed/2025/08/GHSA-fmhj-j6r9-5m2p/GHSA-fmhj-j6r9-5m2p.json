@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fmhj-j6r9-5m2p",
-  "modified": "2025-08-01T18:31:19Z",
+  "modified": "2025-08-01T21:31:06Z",
   "published": "2025-08-01T18:31:18Z",
   "aliases": [
     "CVE-2025-50870"
   ],
   "details": "Institute-of-Current-Students 1.0 is vulnerable to Incorrect Access Control in the mydetailsstudent.php endpoint. The myds GET parameter accepts an email address as input and directly returns the corresponding student's personal information without validating the identity or permissions of the requesting user. This allows any authenticated or unauthenticated attacker to enumerate and retrieve sensitive student details by altering the email value in the request URL, leading to information disclosure.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-01T18:15:53Z"

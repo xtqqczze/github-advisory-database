@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fwr-mh5q-hchh",
-  "modified": "2025-06-30T15:30:37Z",
+  "modified": "2025-08-01T21:30:57Z",
   "published": "2025-02-26T18:30:39Z",
   "aliases": [
     "CVE-2025-1634"
@@ -105,6 +105,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/quarkusio/quarkus/commit/80b8eb41678cdccb46e964dc324d048a5ef00f4b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:12511"
     },
     {
       "type": "WEB",

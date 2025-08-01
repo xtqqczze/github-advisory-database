@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58ph-89f9-hmcp",
-  "modified": "2025-07-07T18:32:29Z",
+  "modified": "2025-08-01T21:31:03Z",
   "published": "2025-07-07T18:32:29Z",
   "aliases": [
     "CVE-2025-20325"
