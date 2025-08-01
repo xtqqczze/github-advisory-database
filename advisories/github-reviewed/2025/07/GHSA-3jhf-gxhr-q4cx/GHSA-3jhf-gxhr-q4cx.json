@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jhf-gxhr-q4cx",
-  "modified": "2025-07-31T18:31:11Z",
+  "modified": "2025-08-01T18:36:02Z",
   "published": "2025-07-31T18:31:11Z",
   "aliases": [
     "CVE-2025-53010"
@@ -44,6 +44,10 @@
       "url": "https://github.com/AcademySoftwareFoundation/MaterialX/security/advisories/GHSA-3jhf-gxhr-q4cx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53010"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/AcademySoftwareFoundation/MaterialX/commit/e13344ba13326869d7820b444705f24d56fab73d"
     },
@@ -63,6 +67,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-31T18:31:11Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-01T18:15:54Z"
   }
 }

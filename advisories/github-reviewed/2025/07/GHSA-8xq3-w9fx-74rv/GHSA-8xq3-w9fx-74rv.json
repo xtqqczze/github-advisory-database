@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xq3-w9fx-74rv",
-  "modified": "2025-07-31T12:02:12Z",
+  "modified": "2025-08-01T18:36:22Z",
   "published": "2025-07-28T16:41:06Z",
   "aliases": [
     "CVE-2025-54590"
@@ -44,6 +44,10 @@
       "url": "https://github.com/silverbucket/webfinger.js/security/advisories/GHSA-8xq3-w9fx-74rv"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54590"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/silverbucket/webfinger.js/commit/b5f2f2c957297d25f4d76072963fccaee2e3095a"
     },
@@ -63,6 +67,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-28T16:41:06Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-01T18:15:55Z"
   }
 }
