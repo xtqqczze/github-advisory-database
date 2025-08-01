@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhpm-86v7-phmm",
-  "modified": "2025-07-31T19:21:35Z",
+  "modified": "2025-08-01T13:29:06Z",
   "published": "2025-07-31T19:21:35Z",
   "aliases": [
     "CVE-2025-48073"
@@ -44,6 +44,10 @@
       "url": "https://github.com/AcademySoftwareFoundation/openexr/security/advisories/GHSA-qhpm-86v7-phmm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48073"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/AcademySoftwareFoundation/openexr"
     },
@@ -59,6 +63,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-31T19:21:35Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-07-31T21:15:28Z"
   }
 }
