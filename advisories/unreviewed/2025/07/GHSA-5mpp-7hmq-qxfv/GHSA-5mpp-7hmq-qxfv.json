@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5mpp-7hmq-qxfv",
-  "modified": "2025-07-28T15:31:37Z",
+  "modified": "2025-08-03T09:31:49Z",
   "published": "2025-07-27T06:30:27Z",
   "aliases": [
     "CVE-2025-8220"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://docs.google.com/document/d/1fbe1o3ncvmYbw-w1MKMUJg7z-qu1Wyo81y9isFlNyi0/edit?usp=sharing"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/m3m0o/engeman-web-language-combobox-sqli"
     },
     {
       "type": "WEB",
