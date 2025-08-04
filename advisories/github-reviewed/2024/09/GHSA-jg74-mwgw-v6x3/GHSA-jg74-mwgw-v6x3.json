@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jg74-mwgw-v6x3",
-  "modified": "2025-01-10T15:31:33Z",
+  "modified": "2025-08-04T20:57:36Z",
   "published": "2024-09-26T21:31:11Z",
   "aliases": [
     "CVE-2024-7594"
@@ -37,6 +37,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/openbao/openbao"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 2.0.2"
+      }
     }
   ],
   "references": [
@@ -51,6 +70,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/hashicorp/vault"
+    },
+    {
+      "type": "WEB",
+      "url": "https://openbao.org/docs/release-notes/2-0-0/#202"
     },
     {
       "type": "WEB",
