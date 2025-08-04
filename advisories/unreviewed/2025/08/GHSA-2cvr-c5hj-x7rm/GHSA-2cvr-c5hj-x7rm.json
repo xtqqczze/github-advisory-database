@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2cvr-c5hj-x7rm",
-  "modified": "2025-08-01T21:31:07Z",
+  "modified": "2025-08-04T15:31:17Z",
   "published": "2025-08-01T21:31:07Z",
   "aliases": [
     "CVE-2013-10050"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.exploit-db.com/exploits/27428"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/raw/25024"
     },
     {
       "type": "WEB",

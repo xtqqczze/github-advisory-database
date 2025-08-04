@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xf6-2p9f-2577",
-  "modified": "2025-08-03T00:30:25Z",
+  "modified": "2025-08-04T15:31:18Z",
   "published": "2025-08-03T00:30:25Z",
   "aliases": [
     "CVE-2025-8493"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://www.yuque.com/gongzi-jsnek/xb2q3a/dpgm5r79h1o8mp1b?singleDoc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.yuque.com/gongzi-jsnek/xb2q3a/dpgm5r79h1o8mp1b?singleDoc#"
     }
   ],
   "database_specific": {
