@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fpwr-67px-3qhx",
-  "modified": "2025-04-29T15:17:03Z",
+  "modified": "2025-08-04T15:27:20Z",
   "published": "2025-04-29T12:30:21Z",
   "aliases": [
     "CVE-2025-1194"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"
     }
   ],
   "affected": [
