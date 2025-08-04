@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2w9-p5qf-qmrh",
-  "modified": "2025-06-11T15:30:29Z",
+  "modified": "2025-08-04T18:30:32Z",
   "published": "2025-06-11T15:30:29Z",
   "aliases": [
     "CVE-2025-32711"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.aim.security/lp/aim-labs-echoleak-m365"
     }
   ],
   "database_specific": {
