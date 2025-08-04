@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3g6x-vq45-v2jv",
-  "modified": "2025-07-29T15:31:50Z",
+  "modified": "2025-08-04T00:30:30Z",
   "published": "2025-07-29T15:31:50Z",
   "aliases": [
     "CVE-2025-46059"
@@ -21,11 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/langchain-ai/langchain-community/issues/217#issuecomment-3144824471"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/langchain-ai/langchain/issues/30833"
     },
     {
       "type": "WEB",
       "url": "https://github.com/Jr61-star/CVEs/blob/main/CVE-2025-46059.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://python.langchain.com/docs/security"
     }
   ],
   "database_specific": {
