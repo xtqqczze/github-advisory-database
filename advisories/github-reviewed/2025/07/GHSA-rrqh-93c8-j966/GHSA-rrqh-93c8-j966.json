@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrqh-93c8-j966",
-  "modified": "2025-07-30T15:42:15Z",
+  "modified": "2025-08-04T15:02:53Z",
   "published": "2025-07-30T13:20:05Z",
   "aliases": [
     "CVE-2025-54572"
@@ -59,11 +59,16 @@
     {
       "type": "WEB",
       "url": "https://github.com/SAML-Toolkits/ruby-saml/releases/tag/v1.18.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ruby-saml/CVE-2025-54572.yml"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-400"
+      "CWE-400",
+      "CWE-770"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
