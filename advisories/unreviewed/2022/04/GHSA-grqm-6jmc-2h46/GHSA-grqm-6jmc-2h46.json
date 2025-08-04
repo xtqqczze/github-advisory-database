@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grqm-6jmc-2h46",
-  "modified": "2022-04-22T00:24:24Z",
+  "modified": "2025-08-04T21:30:35Z",
   "published": "2022-04-22T00:24:24Z",
   "aliases": [
     "CVE-2011-4116"
   ],
   "details": "_is_safe in the File::Temp module for Perl does not properly handle symlinks.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,7 +41,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-59"
+    ],
     "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,

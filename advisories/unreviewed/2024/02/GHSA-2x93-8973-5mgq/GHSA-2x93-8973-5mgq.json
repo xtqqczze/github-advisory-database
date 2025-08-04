@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x93-8973-5mgq",
-  "modified": "2024-05-22T18:30:39Z",
+  "modified": "2025-08-04T21:30:36Z",
   "published": "2024-02-28T15:30:56Z",
   "aliases": [
     "CVE-2024-21885"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2024-21885"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:12751"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49wx-9h9f-8c9g",
-  "modified": "2024-05-22T18:30:39Z",
+  "modified": "2025-08-04T21:30:36Z",
   "published": "2024-02-09T09:31:30Z",
   "aliases": [
     "CVE-2024-0229"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2024-0229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:12751"
     },
     {
       "type": "WEB",

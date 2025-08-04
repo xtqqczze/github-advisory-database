@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q38f-wwqq-rr3v",
-  "modified": "2024-05-22T18:30:38Z",
+  "modified": "2025-08-04T21:30:36Z",
   "published": "2023-10-25T21:30:33Z",
   "aliases": [
     "CVE-2023-5367"
@@ -78,6 +78,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2023-5367"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:12751"
     },
     {
       "type": "WEB",
