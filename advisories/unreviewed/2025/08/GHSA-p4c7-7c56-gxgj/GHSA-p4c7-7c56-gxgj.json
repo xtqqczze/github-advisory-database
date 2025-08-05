@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4c7-7c56-gxgj",
-  "modified": "2025-08-05T00:30:26Z",
+  "modified": "2025-08-05T15:30:45Z",
   "published": "2025-08-05T00:30:26Z",
   "aliases": [
     "CVE-2025-27211"
   ],
   "details": "An Improper Input Validation in EdgeMAX EdgeSwitch (Version 1.10.4 and earlier) could allow a Command Injection by a malicious actor with access to EdgeSwitch adjacent network.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-04T23:15:27Z"
