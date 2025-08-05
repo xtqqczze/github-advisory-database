@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqcp-p2hv-vw6x",
-  "modified": "2025-07-22T21:42:51Z",
+  "modified": "2025-08-05T20:41:35Z",
   "published": "2025-07-20T03:30:19Z",
   "aliases": [
     "CVE-2025-54314"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N"
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H"
     }
   ],
   "affected": [
@@ -69,7 +69,7 @@
     "cwe_ids": [
       "CWE-78"
     ],
-    "severity": "LOW",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-07-21T19:33:25Z",
     "nvd_published_at": "2025-07-20T03:15:22Z"
