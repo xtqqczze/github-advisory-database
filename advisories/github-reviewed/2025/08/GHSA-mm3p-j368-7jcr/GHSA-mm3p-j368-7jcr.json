@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mm3p-j368-7jcr",
-  "modified": "2025-08-04T14:48:26Z",
+  "modified": "2025-08-05T17:10:13Z",
   "published": "2025-08-04T14:48:25Z",
   "aliases": [
     "CVE-2025-54387"
@@ -79,12 +79,28 @@
       "url": "https://github.com/unjs/ipx/security/advisories/GHSA-mm3p-j368-7jcr"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54387"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/unjs/ipx/commit/81693ddbfc062cc922e4e2406e8427ab4e3ad214"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/unjs/ipx"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/unjs/ipx/releases/tag/v1.3.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/unjs/ipx/releases/tag/v2.1.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/unjs/ipx/releases/tag/v3.1.1"
     }
   ],
   "database_specific": {
@@ -94,6 +110,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-04T14:48:25Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-05T01:15:41Z"
   }
 }
