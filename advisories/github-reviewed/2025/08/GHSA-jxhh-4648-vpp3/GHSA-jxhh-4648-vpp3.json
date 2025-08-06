@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxhh-4648-vpp3",
-  "modified": "2025-08-05T15:23:55Z",
+  "modified": "2025-08-06T14:31:50Z",
   "published": "2025-08-05T15:23:54Z",
   "aliases": [
     "CVE-2025-54869"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Setasign/FPDI/security/advisories/GHSA-jxhh-4648-vpp3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54869"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Setasign/FPDI/commit/ba671ba9221cffd32c2dda87316c19f522a1c5f0"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-05T15:23:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-06T00:15:31Z"
   }
 }

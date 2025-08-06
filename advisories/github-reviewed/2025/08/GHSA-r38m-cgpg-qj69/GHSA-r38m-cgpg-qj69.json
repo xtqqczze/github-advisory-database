@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r38m-cgpg-qj69",
-  "modified": "2025-08-05T17:12:03Z",
+  "modified": "2025-08-06T14:31:18Z",
   "published": "2025-08-05T17:12:03Z",
   "aliases": [
     "CVE-2025-54124"
@@ -136,6 +136,10 @@
       "url": "https://github.com/xwiki/xwiki-platform/security/advisories/GHSA-r38m-cgpg-qj69"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54124"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/xwiki/xwiki-platform/commit/f2ca8649cba2ed3765061660bf5c7f801afa0b24"
     },
@@ -155,6 +159,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-05T17:12:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-06T00:15:30Z"
   }
 }
