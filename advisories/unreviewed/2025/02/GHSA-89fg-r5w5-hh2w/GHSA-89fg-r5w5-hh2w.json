@@ -34,7 +34,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1023"
+      "CWE-1023",
+      "CWE-697"
     ],
     "severity": "LOW",
     "github_reviewed": false,
