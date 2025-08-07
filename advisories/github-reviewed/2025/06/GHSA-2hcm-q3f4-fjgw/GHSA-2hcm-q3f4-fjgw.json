@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hcm-q3f4-fjgw",
-  "modified": "2025-06-18T19:45:44Z",
+  "modified": "2025-08-07T18:21:23Z",
   "published": "2025-06-18T09:30:31Z",
   "aliases": [
     "CVE-2025-5981"
@@ -51,10 +51,15 @@
     {
       "type": "WEB",
       "url": "https://github.com/google/osv-scalibr/releases/tag/v0.1.8"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3767"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-22",
       "CWE-427"
     ],
     "severity": "MODERATE",
