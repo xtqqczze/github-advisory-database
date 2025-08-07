@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rw8-4xrq-3f7p",
-  "modified": "2025-03-20T19:28:26Z",
+  "modified": "2025-08-07T14:02:08Z",
   "published": "2025-03-17T21:30:34Z",
-  "aliases": [
-    "CVE-2025-26042"
-  ],
-  "summary": "Uptime Kuma ReDoS vulnerability",
-  "details": "Uptime Kuma >== 1.23.0 has a ReDoS vulnerability, specifically when an administrator creates a notification through the web service. If a string is provided it triggers catastrophic backtracking in the regular expression, leading to a ReDoS attack.",
+  "withdrawn": "2025-08-07T14:02:08Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Uptime Kuma ReDoS vulnerability",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-hx7h-9vf7-5xhg. This link is maintained to preserve external references.\n\n### Original Description\nUptime Kuma >== 1.23.0 has a ReDoS vulnerability, specifically when an administrator creates a notification through the web service. If a string is provided it triggers catastrophic backtracking in the regular expression, leading to a ReDoS attack.",
   "severity": [
     {
       "type": "CVSS_V3",
