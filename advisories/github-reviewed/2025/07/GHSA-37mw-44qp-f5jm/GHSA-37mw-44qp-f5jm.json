@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37mw-44qp-f5jm",
-  "modified": "2025-07-11T19:55:38Z",
+  "modified": "2025-08-07T14:55:33Z",
   "published": "2025-07-11T12:30:32Z",
   "aliases": [
     "CVE-2025-3933"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
     }
   ],
   "affected": [
