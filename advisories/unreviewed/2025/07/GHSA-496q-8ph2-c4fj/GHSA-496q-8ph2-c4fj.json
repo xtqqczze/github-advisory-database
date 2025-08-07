@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-496q-8ph2-c4fj",
-  "modified": "2025-07-16T21:30:35Z",
+  "modified": "2025-08-07T12:30:25Z",
   "published": "2025-07-16T15:32:32Z",
   "aliases": [
     "CVE-2025-40918"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/dist/Authen-SASL/source/lib/Authen/SASL/Perl/DIGEST_MD5.pm#L263"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/release/EHUELS/Authen-SASL-2.1900/changes"
     },
     {
       "type": "WEB",
