@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmx5-5g59-g2rw",
-  "modified": "2024-02-02T00:31:26Z",
+  "modified": "2025-08-07T21:31:03Z",
   "published": "2024-02-02T00:31:26Z",
   "aliases": [
     "CVE-2024-1040"
   ],
-  "details": "\n\n\nGessler GmbH WEB-MASTER user account is stored using a weak hashing algorithm. The attacker can restore the passwords by breaking the hashes stored on the device.\n\n\n\n",
+  "details": "Gessler GmbH WEB-MASTER user account is stored using a weak hashing algorithm. The attacker can restore the passwords by breaking the hashes stored on the device.",
   "severity": [
     {
       "type": "CVSS_V3",
