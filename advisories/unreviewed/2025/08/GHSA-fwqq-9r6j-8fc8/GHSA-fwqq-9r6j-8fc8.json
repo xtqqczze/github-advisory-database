@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwqq-9r6j-8fc8",
-  "modified": "2025-08-05T03:31:18Z",
+  "modified": "2025-08-07T09:30:34Z",
   "published": "2025-08-05T03:31:18Z",
   "aliases": [
     "CVE-2025-8539"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/KarinaGante/KGSec/blob/main/CVEs/i-educar/CVE-2025-8539.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-8539"
     },
     {
       "type": "WEB",

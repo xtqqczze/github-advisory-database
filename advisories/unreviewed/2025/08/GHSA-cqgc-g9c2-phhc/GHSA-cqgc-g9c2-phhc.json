@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cqgc-g9c2-phhc",
-  "modified": "2025-08-05T06:30:31Z",
+  "modified": "2025-08-07T09:30:34Z",
   "published": "2025-08-05T06:30:31Z",
   "aliases": [
     "CVE-2025-8545"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/KarinaGante/KGSec/blob/main/CVEs/i-educar/CVE-2025-8545.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-8545"
     },
     {
       "type": "WEB",

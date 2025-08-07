@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-793m-pxw4-2wx3",
-  "modified": "2025-08-05T06:30:31Z",
+  "modified": "2025-08-07T09:30:34Z",
   "published": "2025-08-05T06:30:31Z",
   "aliases": [
     "CVE-2025-8542"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/KarinaGante/KGSec/blob/main/CVEs/i-educar/CVE-2025-8542.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-8542"
     },
     {
       "type": "WEB",
