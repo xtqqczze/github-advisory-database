@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52f5-9888-hmc6",
-  "modified": "2025-08-06T17:06:04Z",
+  "modified": "2025-08-07T15:11:22Z",
   "published": "2025-08-06T17:06:04Z",
   "aliases": [
     "CVE-2025-54798"
@@ -44,6 +44,14 @@
       "url": "https://github.com/raszi/node-tmp/security/advisories/GHSA-52f5-9888-hmc6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54798"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/raszi/node-tmp/issues/207"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/raszi/node-tmp/commit/188b25e529496e37adaf1a1d9dccb40019a08b1b"
     },
@@ -59,6 +67,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-06T17:06:04Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-07T01:15:26Z"
   }
 }
