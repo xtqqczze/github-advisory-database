@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-84pm-7fpq-2j5v",
+  "modified": "2025-08-07T15:33:14Z",
+  "published": "2025-08-07T15:33:14Z",
+  "aliases": [
+    "CVE-2024-52680"
+  ],
+  "details": "EyouCMS 1.6.7 is vulnerable to Cross Site Scripting (XSS) in /login.php?m=admin&c=System&a=web&lang=cn.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52680"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/cyb3res3c/c715407bfe6d418d8e6da61e1ab41fc8"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.eyoucms.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-07T14:15:40Z"
+  }
+}

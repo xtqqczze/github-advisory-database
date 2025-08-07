@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rc77-79cw-289m",
-  "modified": "2025-07-22T18:30:41Z",
+  "modified": "2025-08-07T15:33:08Z",
   "published": "2025-07-21T18:32:18Z",
   "aliases": [
     "CVE-2025-44652"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.netgear.com/about/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.notion.so/CVE-2025-44652-24754a1113e78003909afbd6f7fd707b"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-97xf-83qp-65g4",
-  "modified": "2025-07-22T18:30:41Z",
+  "modified": "2025-08-07T15:33:08Z",
   "published": "2025-07-21T18:32:18Z",
   "aliases": [
     "CVE-2025-44653"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/TPCchecker/1193f51fc870b597c8a59860199d50e4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.notion.so/CVE-2025-44653-24754a1113e780fab128c2c5752f5703"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4gcv-68wg-8j74",
-  "modified": "2025-07-22T18:30:41Z",
+  "modified": "2025-08-07T15:33:08Z",
   "published": "2025-07-21T18:32:15Z",
   "aliases": [
     "CVE-2025-44647"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/TPCchecker/18c32439ed13feaed99f8229d1749892"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.notion.so/CVE-2025-44647-24754a1113e780b0a130d4439861bf3c"
     },
     {
       "type": "WEB",

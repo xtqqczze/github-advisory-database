@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwhc-w7rm-vh46",
-  "modified": "2025-07-22T15:32:40Z",
+  "modified": "2025-08-07T15:33:08Z",
   "published": "2025-07-21T18:32:18Z",
   "aliases": [
     "CVE-2025-44649"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/TPCchecker/6d787c4916891f493b274b70abfad860"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.notion.so/CVE-2025-44649-24754a1113e780a4a1d1c4cd6d3ff345"
     },
     {
       "type": "WEB",
