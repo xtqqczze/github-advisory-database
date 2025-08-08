@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-xc7w-r669-48pf",
+  "modified": "2025-08-08T00:30:26Z",
+  "published": "2025-08-08T00:30:26Z",
+  "aliases": [
+    "CVE-2025-54951"
+  ],
+  "details": "A group of related buffer overflow vulnerabilities in the loading of ExecuTorch models can cause the runtime to crash and potentially result in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit cea9b23aa8ff78aff92829a466da97461cc7930c.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54951"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pytorch/executorch/commit/cea9b23aa8ff78aff92829a466da97461cc7930c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.facebook.com/security/advisories/cve-2025-54951"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-07T23:15:26Z"
+  }
+}

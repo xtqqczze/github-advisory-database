@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hj95-mhgf-jxc4",
+  "modified": "2025-08-08T00:30:26Z",
+  "published": "2025-08-08T00:30:26Z",
+  "aliases": [
+    "CVE-2025-30404"
+  ],
+  "details": "An integer overflow vulnerability in the loading of ExecuTorch models can cause overlapping allocations, potentially resulting in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit d158236b1dc84539c1b16843bc74054c9dcba006.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30404"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pytorch/executorch/commit/d158236b1dc84539c1b16843bc74054c9dcba006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.facebook.com/security/advisories/cve-2025-30404"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-07T23:15:26Z"
+  }
+}

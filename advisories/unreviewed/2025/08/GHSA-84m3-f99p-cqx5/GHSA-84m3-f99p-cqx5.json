@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-84m3-f99p-cqx5",
+  "modified": "2025-08-08T00:30:26Z",
+  "published": "2025-08-08T00:30:26Z",
+  "aliases": [
+    "CVE-2025-30405"
+  ],
+  "details": "An integer overflow vulnerability in the loading of ExecuTorch models can cause objects to be placed outside their allocated memory area, potentially resulting in code execution or other undesirable effects. This issue affects ExecuTorch prior to commit 0830af8207240df8d7f35b984cdf8bc35d74fa73.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30405"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pytorch/executorch/commit/0830af8207240df8d7f35b984cdf8bc35d74fa73"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.facebook.com/security/advisories/cve-2025-30405"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-07T23:15:26Z"
+  }
+}
