@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wc4r-xq3c-5cf3",
-  "modified": "2025-06-16T21:46:34Z",
+  "modified": "2025-08-08T19:03:23Z",
   "published": "2025-06-16T15:32:28Z",
   "aliases": [
     "CVE-2025-49125"
   ],
   "summary": "Apache Tomcat - Security constraint bypass for pre/post-resources",
-  "details": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Apache Tomcat.  When using PreResources or PostResources mounted other than at the root of the web application, it was possible to access those resources via an unexpected path. That path was likely not to be protected by the same security constraints as the expected path, allowing those security constraints to be bypassed.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.7, from 10.1.0-M1 through 10.1.41, from 9.0.0.M1 through 9.0.105.\n\nUsers are recommended to upgrade to version 11.0.8, 10.1.42 or 9.0.106, which fix the issue.",
+  "details": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Apache Tomcat.  When using PreResources or PostResources mounted other than at the root of the web application, it was possible to access those resources via an unexpected path. That path was likely not to be protected by the same security constraints as the expected path, allowing those security constraints to be bypassed.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.7, from 10.1.0-M1 through 10.1.41, from 9.0.0.M1 through 9.0.105. The following versions were EOL at the time the CVE was created but are known to be affected: 8.5.0 through 8.5.100. Other, older, EOL versions may also be affected.\n\nUsers are recommended to upgrade to version 11.0.8, 10.1.42 or 9.0.106, which fix the issue.",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -146,6 +146,44 @@
       "database_specific": {
         "last_known_affected_version_range": "<= 9.0.105"
       }
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat:tomcat-catalina"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.5.0"
+            },
+            {
+              "last_affected": "8.5.100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.apache.tomcat.embed:tomcat-embed-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "8.5.0"
+            },
+            {
+              "last_affected": "8.5.100"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
