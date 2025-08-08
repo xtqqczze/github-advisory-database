@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5w72-mr9j-pc4m",
-  "modified": "2025-08-07T17:34:41Z",
+  "modified": "2025-08-08T15:30:33Z",
   "published": "2025-08-07T17:34:41Z",
   "aliases": [
     "CVE-2025-55134"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/agorafoundation/agora/commit/b087490042cb131963b524d0f86511a63a7ff085"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Msfv3n0m/vulnerability-research/tree/main/CVE-2025-55134"
     }
   ],
   "database_specific": {

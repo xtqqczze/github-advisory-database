@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vm4r-hh6w-jv9x",
-  "modified": "2025-01-13T18:31:55Z",
+  "modified": "2025-08-08T15:30:33Z",
   "published": "2025-01-13T18:31:55Z",
   "aliases": [
     "CVE-2025-22963"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.teedy.io"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/samplev45/CVE-2025-22963"
     },
     {
       "type": "WEB",
