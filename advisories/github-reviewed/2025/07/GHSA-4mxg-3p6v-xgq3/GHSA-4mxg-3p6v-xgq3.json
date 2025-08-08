@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mxg-3p6v-xgq3",
-  "modified": "2025-07-30T11:43:09Z",
+  "modified": "2025-08-08T14:53:55Z",
   "published": "2025-07-28T20:38:44Z",
   "aliases": [
     "CVE-2025-54419"
@@ -19,6 +19,47 @@
       "package": {
         "ecosystem": "npm",
         "name": "@node-saml/node-saml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.1.0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 5.0.1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "passport-saml"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "3.2.4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@node-saml/passport-saml"
       },
       "ranges": [
         {
