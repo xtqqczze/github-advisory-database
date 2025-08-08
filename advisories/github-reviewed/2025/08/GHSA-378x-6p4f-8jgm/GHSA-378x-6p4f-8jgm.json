@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-378x-6p4f-8jgm",
-  "modified": "2025-08-07T16:42:54Z",
+  "modified": "2025-08-08T16:29:15Z",
   "published": "2025-08-07T16:42:54Z",
   "aliases": [
     "CVE-2025-54886"
@@ -41,6 +41,10 @@
       "url": "https://github.com/skops-dev/skops/security/advisories/GHSA-378x-6p4f-8jgm"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54886"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/skops-dev/skops/commit/29d61ea8a92f2bde6830e8f32cc72a1a87211cda"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-07T16:42:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-08T01:15:25Z"
   }
 }
