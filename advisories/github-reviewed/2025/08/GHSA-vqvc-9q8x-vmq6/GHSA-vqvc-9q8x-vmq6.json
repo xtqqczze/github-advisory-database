@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vqvc-9q8x-vmq6",
-  "modified": "2025-08-08T17:04:11Z",
+  "modified": "2025-08-08T17:27:52Z",
   "published": "2025-08-08T17:04:11Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2025-55008"
+  ],
   "summary": "The AuthKit React Router Library rendered sensitive auth data in HTML",
   "details": "In versions before `0.7.0`, `@workos-inc/authkit-react-router` exposed sensitive authentication artifacts — specifically `sealedSession` and `accessToken` by returning them from the `authkitLoader`. This caused them to be rendered into the browser HTML.\n\n### Impact\nThis information disclosure could lead to session hijacking in environments where cross-site scripting (XSS), malicious browser extensions, or local inspection is possible.\n \n### Patches\nPatched in [https://github.com/workos/authkit-react-router/releases/tag/v0.7.0](https://github.com/workos/authkit-react-router/releases/tag/v0.7.0)\n\nIn patched versions:\n- `sealedSession` and `accessToken` are no longer returned by default from the `authkitLoader`.\n- A secure server-side mechanism is provided to fetch an access token as needed.",
   "severity": [
