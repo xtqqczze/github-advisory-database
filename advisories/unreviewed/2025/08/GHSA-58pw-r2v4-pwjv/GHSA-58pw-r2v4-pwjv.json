@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-58pw-r2v4-pwjv",
+  "modified": "2025-08-08T21:30:40Z",
+  "published": "2025-08-08T21:30:40Z",
+  "aliases": [
+    "CVE-2025-55188"
+  ],
+  "details": "7-Zip before 25.01 does not always properly handle symbolic links during extraction.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:N/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55188"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ip7z/7zip/compare/25.00...25.01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ip7z/7zip/releases/tag/25.01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://sourceforge.net/p/sevenzip/discussion/45797/thread/da14cd780b"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-59"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-08T21:15:25Z"
+  }
+}

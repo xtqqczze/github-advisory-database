@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vmg3-7v43-9g23",
-  "modified": "2025-07-17T21:32:16Z",
+  "modified": "2025-08-08T21:30:35Z",
   "published": "2025-07-17T21:32:15Z",
   "aliases": [
     "CVE-2025-23266"
@@ -21,7 +21,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://kidbomb.github.io/posts/nvidia-container-escape-cve-2025-23266"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=44818412"
+    },
+    {
+      "type": "WEB",
       "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5659"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wiz.io/blog/nvidia-ai-vulnerability-cve-2025-23266-nvidiascape"
     }
   ],
   "database_specific": {
