@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rp3f-whm7-36hq",
-  "modified": "2025-08-07T17:34:38Z",
+  "modified": "2025-08-08T18:32:17Z",
   "published": "2025-02-11T18:31:36Z",
   "aliases": [
     "CVE-2025-24472"
