@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7p4-hx26-pr73",
-  "modified": "2025-08-08T16:29:30Z",
+  "modified": "2025-08-08T19:30:00Z",
   "published": "2025-08-07T20:55:35Z",
   "aliases": [
     "CVE-2025-54887"
@@ -54,6 +54,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/jwt/ruby-jwe"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/jwe/CVE-2025-54887.yml"
     }
   ],
   "database_specific": {
