@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6f98-2v97-grfv",
-  "modified": "2025-08-04T21:30:42Z",
+  "modified": "2025-08-10T03:30:30Z",
   "published": "2025-08-04T18:30:37Z",
   "aliases": [
     "CVE-2025-50422"
@@ -25,6 +25,18 @@
     },
     {
       "type": "WEB",
+      "url": "https://gitlab.freedesktop.org/cairo/cairo/-/merge_requests/621"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.freedesktop.org/poppler/poppler/-/issues/1591"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.freedesktop.org/poppler/poppler/-/issues/1591#note_3045081"
+    },
+    {
+      "type": "WEB",
       "url": "http://freedesktop.com"
     },
     {
@@ -34,7 +46,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-244"
+      "CWE-244",
+      "CWE-617"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,
