@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fvqr-27wr-82fm",
-  "modified": "2024-04-22T19:49:51Z",
+  "modified": "2025-08-11T14:55:20Z",
   "published": "2018-07-26T15:14:52Z",
   "aliases": [
     "CVE-2018-3721"
@@ -19,6 +19,25 @@
       "package": {
         "ecosystem": "npm",
         "name": "lodash"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.17.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "lodash-rails"
       },
       "ranges": [
         {
