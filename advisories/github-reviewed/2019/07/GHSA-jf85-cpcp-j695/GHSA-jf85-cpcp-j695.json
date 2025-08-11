@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf85-cpcp-j695",
-  "modified": "2024-04-22T19:49:41Z",
+  "modified": "2025-08-11T14:58:06Z",
   "published": "2019-07-10T19:45:23Z",
   "aliases": [
     "CVE-2019-10744"
@@ -86,6 +86,25 @@
             },
             {
               "fixed": "4.6.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "lodash-rails"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.17.12"
             }
           ]
         }
