@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4h6-vccr-44h2",
-  "modified": "2025-06-25T19:42:04Z",
+  "modified": "2025-08-11T14:04:47Z",
   "published": "2025-06-12T18:31:48Z",
   "aliases": [
     "CVE-2024-44906"
@@ -41,12 +41,24 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44906"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/uptrace/bun/issues/1224"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/uptrace/bun/commit/8067a8f13f8d22fb57b76d6800f7aefc12b044cd"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/uptrace/bun"
     },
     {
       "type": "WEB",
       "url": "https://github.com/uptrace/bun/blob/1573ae7c2fffad1a7f72fd2d205e924b2fd4043b/driver/pgdriver/format.go#L62"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/uptrace/bun/blob/v1.2.15/CHANGELOG.md"
     },
     {
       "type": "WEB",
