@@ -1,19 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwq7-2gvj-vg9v",
-  "modified": "2025-08-11T09:30:36Z",
+  "modified": "2025-08-11T23:08:38Z",
   "published": "2025-08-11T09:30:36Z",
   "aliases": [
     "CVE-2025-8747"
   ],
+  "summary": "Keras safe mode bypass vulnerability",
   "details": "A safe mode bypass vulnerability in the `Model.load_model` method in Keras versions 3.0.0 through 3.10.0 allows an attacker to achieve arbitrary code execution by convincing a user to load a specially crafted `.keras` model archive.",
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:Y/R:A/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:P/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/AU:Y/R:A"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "keras"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0"
+            },
+            {
+              "fixed": "3.11.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -25,6 +46,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/keras-team/keras/commit/713172ab56b864e59e2aa79b1a51b0e728bba858"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/keras-team/keras"
+    },
+    {
+      "type": "WEB",
       "url": "https://jfrog.com/blog/keras-safe_mode-bypass-vulnerability"
     }
   ],
@@ -33,8 +62,8 @@
       "CWE-502"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-08-11T23:08:38Z",
     "nvd_published_at": "2025-08-11T08:15:26Z"
   }
 }
