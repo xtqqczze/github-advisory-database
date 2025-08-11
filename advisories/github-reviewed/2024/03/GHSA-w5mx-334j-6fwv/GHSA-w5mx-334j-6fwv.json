@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w5mx-334j-6fwv",
-  "modified": "2024-08-02T13:57:25Z",
+  "modified": "2025-08-11T18:36:50Z",
   "published": "2024-03-01T18:30:23Z",
   "aliases": [
     "CVE-2024-27499"
@@ -55,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Ek-Saini/security/blob/main/xss-bagisto-v1.5.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/auspicious7/Vulnerability-Discover/blob/main/CVE-2024-27499_bagisto-V-1.5.1"
     },
     {
       "type": "PACKAGE",
