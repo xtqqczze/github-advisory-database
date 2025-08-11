@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4h6-vccr-44h2",
-  "modified": "2025-08-11T14:04:47Z",
+  "modified": "2025-08-11T15:12:28Z",
   "published": "2025-06-12T18:31:48Z",
   "aliases": [
     "CVE-2024-44906"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "1.2.14"
+              "fixed": "1.2.15"
             }
           ]
         }
