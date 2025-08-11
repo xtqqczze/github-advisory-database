@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j66h-xhpr-7q5g",
+  "modified": "2025-08-11T21:31:40Z",
+  "published": "2025-08-11T21:31:40Z",
+  "aliases": [
+    "CVE-2025-54458"
+  ],
+  "details": "Mattermost Confluence Plugin version <1.5.0 fails to check the access of the user to the Confluence space which allows attackers to create a subscription for a Confluence space the user does not have access to via the create subscription endpoint.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54458"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-862"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-11T19:15:29Z"
+  }
+}

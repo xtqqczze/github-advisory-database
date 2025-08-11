@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g442-cv6p-6f3m",
-  "modified": "2025-08-09T00:30:30Z",
+  "modified": "2025-08-11T21:31:34Z",
   "published": "2025-08-09T00:30:30Z",
   "aliases": [
     "CVE-2025-46709"
   ],
   "details": "Possible memory leak or kernel exceptions caused by reading kernel heap data after free or NULL pointer dereference kernel exception.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-416"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-09T00:15:26Z"
