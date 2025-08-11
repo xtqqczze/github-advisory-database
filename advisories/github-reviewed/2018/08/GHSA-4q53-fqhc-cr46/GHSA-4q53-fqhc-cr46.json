@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4q53-fqhc-cr46",
-  "modified": "2025-08-11T15:14:52Z",
+  "modified": "2025-08-11T15:50:01Z",
   "published": "2018-08-28T22:33:42Z",
   "aliases": [
     "CVE-2014-0046"
@@ -61,14 +61,11 @@
               "introduced": "1.4.0.beta.1"
             },
             {
-              "fixed": "1.4.0-beta.6"
+              "fixed": "1.4.0.beta.6"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 1.4.0.beta.6"
-      }
+      ]
     }
   ],
   "references": [
