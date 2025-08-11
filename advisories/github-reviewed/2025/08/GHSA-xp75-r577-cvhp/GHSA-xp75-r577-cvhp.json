@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp75-r577-cvhp",
-  "modified": "2025-08-08T14:37:22Z",
+  "modified": "2025-08-11T13:56:30Z",
   "published": "2025-08-08T14:37:22Z",
   "aliases": [
     "CVE-2025-54997"
@@ -61,6 +61,10 @@
     },
     {
       "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54997"
+    },
+    {
+      "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6000"
     },
     {
@@ -78,6 +82,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/openbao/openbao"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openbao/openbao/releases/tag/v2.3.2"
     }
   ],
   "database_specific": {
@@ -87,6 +95,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-08T14:37:22Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-09T03:15:46Z"
   }
 }

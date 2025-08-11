@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3xv-7fxp-gfhx",
-  "modified": "2025-08-08T14:38:54Z",
+  "modified": "2025-08-11T13:56:35Z",
   "published": "2025-08-08T14:38:54Z",
   "aliases": [
     "CVE-2025-54998"
@@ -61,6 +61,10 @@
     },
     {
       "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54998"
+    },
+    {
+      "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6004"
     },
     {
@@ -83,6 +87,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-08T14:38:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-09T03:15:46Z"
   }
 }

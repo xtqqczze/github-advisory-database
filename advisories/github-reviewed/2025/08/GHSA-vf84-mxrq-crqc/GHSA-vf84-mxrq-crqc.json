@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vf84-mxrq-crqc",
-  "modified": "2025-08-08T14:32:42Z",
+  "modified": "2025-08-11T13:56:25Z",
   "published": "2025-08-08T14:32:42Z",
   "aliases": [
     "CVE-2025-54996"
@@ -60,6 +60,14 @@
       "url": "https://github.com/openbao/openbao/security/advisories/GHSA-vf84-mxrq-crqc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54996"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openbao/openbao/pull/1627"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openbao/openbao/commit/9b0b5d4f345fdfb1065956f042b12cbd86cd6e0f"
     },
@@ -72,17 +80,22 @@
       "url": "https://github.com/openbao/openbao"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/openbao/openbao/releases/tag/v2.3.2"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/cve-2025-5999"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-266"
+      "CWE-266",
+      "CWE-269"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-08T14:32:42Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-09T02:15:37Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxp7-9q75-vj3p",
-  "modified": "2025-08-08T14:44:49Z",
+  "modified": "2025-08-11T13:56:53Z",
   "published": "2025-08-08T14:44:49Z",
   "aliases": [
     "CVE-2025-55003"
@@ -61,6 +61,10 @@
     },
     {
       "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55003"
+    },
+    {
+      "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6015"
     },
     {
@@ -83,6 +87,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-08T14:44:49Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-09T03:15:47Z"
   }
 }
