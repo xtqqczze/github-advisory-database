@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wgmv-5488-h5p5",
-  "modified": "2025-02-18T21:32:35Z",
+  "modified": "2025-08-11T15:32:22Z",
   "published": "2025-01-31T12:33:02Z",
   "aliases": [
     "CVE-2024-12267"
