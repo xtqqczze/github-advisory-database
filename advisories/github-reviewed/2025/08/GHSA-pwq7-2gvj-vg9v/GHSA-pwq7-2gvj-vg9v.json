@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwq7-2gvj-vg9v",
-  "modified": "2025-08-11T23:08:38Z",
+  "modified": "2025-08-12T19:24:04Z",
   "published": "2025-08-11T09:30:36Z",
-  "aliases": [
-    "CVE-2025-8747"
-  ],
-  "summary": "Keras safe mode bypass vulnerability",
-  "details": "A safe mode bypass vulnerability in the `Model.load_model` method in Keras versions 3.0.0 through 3.10.0 allows an attacker to achieve arbitrary code execution by convincing a user to load a specially crafted `.keras` model archive.",
+  "withdrawn": "2025-08-12T19:24:04Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Keras safe mode bypass vulnerability",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-c9rc-mg46-23w3. This link is maintained to preserve external references.\n\n### Original Description\nA safe mode bypass vulnerability in the `Model.load_model` method in Keras versions 3.0.0 through 3.10.0 allows an attacker to achieve arbitrary code execution by convincing a user to load a specially crafted `.keras` model archive.",
   "severity": [
     {
       "type": "CVSS_V4",
