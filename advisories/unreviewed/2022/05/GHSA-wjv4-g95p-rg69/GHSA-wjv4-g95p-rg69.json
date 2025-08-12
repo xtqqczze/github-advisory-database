@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjv4-g95p-rg69",
-  "modified": "2022-05-13T01:42:45Z",
+  "modified": "2025-08-12T12:30:31Z",
   "published": "2022-05-13T01:42:45Z",
   "aliases": [
     "CVE-2017-12736"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-12736"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-856721.html"
     },
     {
       "type": "WEB",
@@ -38,6 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1188",
       "CWE-20",
       "CWE-665"
     ],

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qpc-hphm-xpmc",
-  "modified": "2022-03-17T00:02:49Z",
+  "modified": "2025-08-12T12:30:31Z",
   "published": "2022-03-09T00:00:46Z",
   "aliases": [
     "CVE-2021-42018"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-256353.html"
     },
     {
       "type": "WEB",

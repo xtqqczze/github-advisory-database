@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7v8-mphj-jp2g",
-  "modified": "2022-03-17T00:02:48Z",
+  "modified": "2025-08-12T12:30:32Z",
   "published": "2022-03-09T00:00:47Z",
   "aliases": [
     "CVE-2021-42019"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-42019"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-256353.html"
     },
     {
       "type": "WEB",

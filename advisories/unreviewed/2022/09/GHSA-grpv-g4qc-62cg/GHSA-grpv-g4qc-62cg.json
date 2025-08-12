@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grpv-g4qc-62cg",
-  "modified": "2022-09-17T00:00:31Z",
+  "modified": "2025-08-12T12:30:32Z",
   "published": "2022-09-14T00:00:51Z",
   "aliases": [
     "CVE-2022-39158"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-39158"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-459643.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-787941.html"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hf3p-gpvx-q597",
-  "modified": "2025-07-21T09:33:26Z",
+  "modified": "2025-08-12T12:30:32Z",
   "published": "2025-05-22T15:34:51Z",
   "aliases": [
     "CVE-2025-5024"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2367717"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/gnome-remote-desktop/-/merge_requests/321"
     }
   ],
   "database_specific": {
