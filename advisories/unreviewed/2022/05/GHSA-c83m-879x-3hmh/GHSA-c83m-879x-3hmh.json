@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c83m-879x-3hmh",
-  "modified": "2022-05-24T17:46:34Z",
+  "modified": "2025-08-12T15:31:14Z",
   "published": "2022-05-24T17:46:34Z",
   "aliases": [
     "CVE-2021-24211"
   ],
   "details": "The WordPress Related Posts plugin through 3.6.4 contains an authenticated (admin+) stored XSS vulnerability in the title field on the settings page. By exploiting that an attacker will be able to execute JavaScript code in the user's browser.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

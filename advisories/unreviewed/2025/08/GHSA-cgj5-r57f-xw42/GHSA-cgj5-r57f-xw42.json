@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgj5-r57f-xw42",
-  "modified": "2025-08-07T21:31:08Z",
+  "modified": "2025-08-12T15:31:15Z",
   "published": "2025-08-07T21:31:08Z",
   "aliases": [
     "CVE-2025-48709"
   ],
   "details": "An issue was discovered in BMC Control-M 9.0.21.300. When Control-M Server has a database connection, it runs DBUStatus.exe frequently, which then calls dbu_connection_details.vbs with the username, password, database hostname, and port written in cleartext, which can be seen in event and process logs in two separate locations.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-532"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-07T20:15:28Z"
