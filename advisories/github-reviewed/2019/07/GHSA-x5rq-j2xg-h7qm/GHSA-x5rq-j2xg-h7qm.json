@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x5rq-j2xg-h7qm",
-  "modified": "2025-08-11T14:58:56Z",
+  "modified": "2025-08-12T21:36:27Z",
   "published": "2019-07-19T16:13:07Z",
   "aliases": [
     "CVE-2019-1010266"
@@ -103,6 +103,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/lodash/lodash/wiki/Changelog"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lodash-rails/CVE-2019-1010266.yml"
     },
     {
       "type": "WEB",
