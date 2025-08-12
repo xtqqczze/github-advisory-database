@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c78-rm87-5673",
-  "modified": "2025-07-31T14:04:25Z",
+  "modified": "2025-07-31T14:06:28Z",
   "published": "2025-07-31T14:04:24Z",
   "aliases": [],
   "summary": "MS SWIFT WEB-UI RCE Vulnerability",
@@ -9,7 +9,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:A/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N/E:P"
     }
   ],
   "affected": [

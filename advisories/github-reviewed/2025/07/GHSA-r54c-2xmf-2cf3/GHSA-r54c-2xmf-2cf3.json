@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r54c-2xmf-2cf3",
-  "modified": "2025-07-31T14:05:13Z",
+  "modified": "2025-07-31T14:06:13Z",
   "published": "2025-07-31T14:05:13Z",
   "aliases": [],
   "summary": "MS SWIFT Deserialization RCE Vulnerability",
@@ -9,7 +9,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
     }
   ],
   "affected": [
