@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29mw-wpgm-hmr9",
-  "modified": "2025-08-11T14:32:52Z",
+  "modified": "2025-08-12T21:44:06Z",
   "published": "2022-01-06T20:30:46Z",
   "aliases": [
     "CVE-2020-28500"
@@ -171,6 +171,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20210312-0006"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lodash-rails/CVE-2020-28500.yml"
     },
     {
       "type": "WEB",
