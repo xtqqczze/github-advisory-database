@@ -1,13 +1,14 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqcp-p2hv-vw6x",
-  "modified": "2025-08-05T20:41:35Z",
+  "modified": "2025-08-13T18:55:16Z",
   "published": "2025-07-20T03:30:19Z",
+  "withdrawn": "2025-08-13T18:55:16Z",
   "aliases": [
     "CVE-2025-54314"
   ],
-  "summary": "Thor can construct an unsafe shell command from library input.",
-  "details": "Thor before 1.4.0 can construct an unsafe shell command from library input.",
+  "summary": "Withdrawn Advisory: Thor can construct an unsafe shell command from library input.",
+  "details": "### Withdrawn Advisory\nThis advisory has been withdrawn because the method described can only be used with arguments that are controlled by Thor, and an external attacker cannot access the functionality described in the body of the CVE. This link is maintained to preserve external references.\n\n### Original Description\nThor before 1.4.0 can construct an unsafe shell command from library input.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -39,6 +40,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54314"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/github/advisory-database/pull/5912#issuecomment-3169255309"
     },
     {
       "type": "WEB",
