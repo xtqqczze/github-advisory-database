@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr85-g3h9-44r6",
-  "modified": "2025-08-04T21:30:43Z",
+  "modified": "2025-08-13T18:31:12Z",
   "published": "2025-08-04T21:30:43Z",
   "aliases": [
     "CVE-2025-55014"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-user/2025/08/msg00076.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lwn.net/SubscriberLink/1032732/3334850da49689e1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=44872313"
     },
     {
       "type": "WEB",
