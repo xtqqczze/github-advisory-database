@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-832g-3rcm-wcrf",
-  "modified": "2025-08-12T15:31:15Z",
+  "modified": "2025-08-13T03:30:24Z",
   "published": "2025-08-08T12:32:17Z",
   "aliases": [
     "CVE-2025-8088"

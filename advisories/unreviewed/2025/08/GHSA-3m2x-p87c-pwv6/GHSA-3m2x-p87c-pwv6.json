@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3m2x-p87c-pwv6",
-  "modified": "2025-08-12T18:31:33Z",
+  "modified": "2025-08-13T03:30:24Z",
   "published": "2025-08-12T18:31:32Z",
   "aliases": [
     "CVE-2025-53773"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection"
+    },
+    {
+      "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-53773"
+    },
+    {
+      "type": "WEB",
+      "url": "https://news.ycombinator.com/item?id=44883108"
     }
   ],
   "database_specific": {

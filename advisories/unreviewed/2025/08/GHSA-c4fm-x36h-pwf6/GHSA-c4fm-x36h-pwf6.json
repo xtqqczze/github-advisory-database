@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c4fm-x36h-pwf6",
+  "modified": "2025-08-13T03:30:25Z",
+  "published": "2025-08-13T03:30:25Z",
+  "aliases": [
+    "CVE-2025-8881"
+  ],
+  "details": "Inappropriate implementation in File Picker in Google Chrome prior to 139.0.7258.127 allowed a remote attacker who convinced a user to engage in specific UI gestures to leak cross-origin data via a crafted HTML page. (Chromium security severity: Medium)",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8881"
+    },
+    {
+      "type": "WEB",
+      "url": "https://chromereleases.googleblog.com/2025/08/stable-channel-update-for-desktop_12.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/433800617"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-13T03:15:38Z"
+  }
+}
