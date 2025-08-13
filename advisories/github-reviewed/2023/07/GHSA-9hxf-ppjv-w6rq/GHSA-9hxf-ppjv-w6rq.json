@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hxf-ppjv-w6rq",
-  "modified": "2025-02-13T18:58:13Z",
+  "modified": "2025-08-13T15:00:12Z",
   "published": "2023-07-06T21:15:08Z",
   "aliases": [
     "CVE-2023-32732"
@@ -25,10 +25,10 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.53.0"
             },
             {
-              "fixed": "1.53.0"
+              "fixed": "1.53.1"
             }
           ]
         }
@@ -44,10 +44,10 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.53.0"
             },
             {
-              "fixed": "1.53.0"
+              "fixed": "1.53.1"
             }
           ]
         }
@@ -63,10 +63,67 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "1.53.0"
             },
             {
-              "fixed": "1.53.0"
+              "fixed": "1.53.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.grpc:grpc-protobuf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.54.0"
+            },
+            {
+              "fixed": "1.54.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "grpcio"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.54.0"
+            },
+            {
+              "fixed": "1.54.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "RubyGems",
+        "name": "grpc"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.54.0"
+            },
+            {
+              "fixed": "1.54.2"
             }
           ]
         }
@@ -84,7 +141,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/grpc/grpc/commit/29d8beee0ac2555773b2a2dda5601c74a95d6c10"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/grpc/grpc/commit/65a2a895afaf1d2072447b9baf246374b182a946"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/grpc/grpc/releases/tag/v1.53.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/grpc/grpc/releases/tag/v1.54.2"
     },
     {
       "type": "WEB",
