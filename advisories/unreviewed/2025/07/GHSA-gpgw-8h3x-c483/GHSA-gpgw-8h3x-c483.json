@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gpgw-8h3x-c483",
-  "modified": "2025-07-29T21:30:43Z",
+  "modified": "2025-08-13T21:30:24Z",
   "published": "2025-07-29T21:30:43Z",
   "aliases": [
     "CVE-2024-49828"

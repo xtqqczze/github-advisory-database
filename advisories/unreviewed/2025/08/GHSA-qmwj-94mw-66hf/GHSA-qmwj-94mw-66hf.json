@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmwj-94mw-66hf",
-  "modified": "2025-08-13T18:31:25Z",
+  "modified": "2025-08-13T21:30:28Z",
   "published": "2025-08-13T18:31:25Z",
   "aliases": [
     "CVE-2025-45317"
   ],
   "details": "A zip slip vulnerability in the /modules/ImportModule.php component of hortusfox-web v4.4 allows attackers to execute arbitrary code via a crafted archive.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-77"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-13T18:15:31Z"
