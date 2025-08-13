@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3q8x-vx89-4p24",
+  "modified": "2025-08-13T15:30:35Z",
+  "published": "2025-08-13T15:30:35Z",
+  "aliases": [
+    "CVE-2025-50251"
+  ],
+  "details": "Server side request forgery (SSRF) vulnerability in makeplane plane 0.23.1 via the password recovery.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50251"
+    },
+    {
+      "type": "WEB",
+      "url": "https://packetstorm.news/files/id/190475"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52211"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-13T15:15:34Z"
+  }
+}

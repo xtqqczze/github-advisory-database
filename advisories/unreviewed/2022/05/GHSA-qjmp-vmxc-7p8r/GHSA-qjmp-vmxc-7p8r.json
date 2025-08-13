@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qjmp-vmxc-7p8r",
-  "modified": "2025-05-05T18:31:40Z",
+  "modified": "2025-08-13T15:30:30Z",
   "published": "2022-05-04T00:00:23Z",
   "aliases": [
     "CVE-2022-1292"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2022/05/msg00019.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.com/fraf0/cve-2022-1292-re_score-analysis"
     },
     {
       "type": "WEB",

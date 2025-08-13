@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q6cx-mp3v-659q",
-  "modified": "2022-05-24T17:47:47Z",
+  "modified": "2025-08-13T15:30:29Z",
   "published": "2022-05-24T17:47:47Z",
   "aliases": [
     "CVE-2021-21981"
   ],
   "details": "VMware NSX-T contains a privilege escalation vulnerability due to an issue with RBAC (Role based access control) role assignment. Successful exploitation of this issue may allow attackers with local guest user account to assign privileges higher than their own permission level.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
