@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m5c7-5gv3-hcpf",
-  "modified": "2025-08-13T20:10:55Z",
+  "modified": "2025-08-14T15:54:31Z",
   "published": "2025-08-12T21:31:20Z",
   "aliases": [
     "CVE-2025-43734"
@@ -149,6 +149,25 @@
             },
             {
               "last_affected": "7.4.13.u92"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.liferay:com.liferay.frontend.taglib.clay"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "15.2.2"
             }
           ]
         }
