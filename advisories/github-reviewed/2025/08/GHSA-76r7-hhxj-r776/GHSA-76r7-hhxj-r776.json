@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76r7-hhxj-r776",
-  "modified": "2025-08-14T13:30:59Z",
+  "modified": "2025-08-14T19:36:49Z",
   "published": "2025-08-13T22:32:18Z",
   "aliases": [
     "CVE-2025-55193"
@@ -97,6 +97,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rails/rails"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activerecord/CVE-2025-55193.yml"
     }
   ],
   "database_specific": {

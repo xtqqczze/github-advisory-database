@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r4mg-4433-c7g3",
-  "modified": "2025-08-14T00:06:00Z",
+  "modified": "2025-08-14T19:37:17Z",
   "published": "2025-08-14T00:06:00Z",
   "aliases": [
     "CVE-2025-24293"
@@ -63,7 +63,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "5.20"
+              "introduced": "5.2.0"
             },
             {
               "fixed": "7.1.5.2"
@@ -93,6 +93,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/rails/rails"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activestorage/CVE-2025-24293.yml"
     }
   ],
   "database_specific": {
