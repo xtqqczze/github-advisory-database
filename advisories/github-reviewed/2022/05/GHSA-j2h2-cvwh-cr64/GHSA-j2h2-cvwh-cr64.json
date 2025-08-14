@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j2h2-cvwh-cr64",
-  "modified": "2023-07-18T13:40:24Z",
+  "modified": "2025-08-14T21:22:40Z",
   "published": "2022-05-24T17:21:17Z",
   "aliases": [
     "CVE-2020-14457"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Go",
-        "name": "github.com/mattermost/mattermost"
+        "name": "github.com/mattermost/mattermost-server/v5"
       },
       "ranges": [
         {
