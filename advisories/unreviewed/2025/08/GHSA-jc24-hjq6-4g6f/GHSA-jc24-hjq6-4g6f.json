@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc24-hjq6-4g6f",
-  "modified": "2025-08-12T21:31:21Z",
+  "modified": "2025-08-14T21:31:57Z",
   "published": "2025-08-12T21:31:21Z",
   "aliases": [
     "CVE-2025-52970"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-25-448"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pwner.gg/blog/2025-08-13-fortiweb-cve-2025-52970"
     }
   ],
   "database_specific": {

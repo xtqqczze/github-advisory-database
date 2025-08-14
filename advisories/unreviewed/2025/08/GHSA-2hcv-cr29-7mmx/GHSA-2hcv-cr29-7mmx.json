@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2hcv-cr29-7mmx",
-  "modified": "2025-08-14T15:30:46Z",
+  "modified": "2025-08-14T21:31:57Z",
   "published": "2025-08-14T15:30:46Z",
   "aliases": [
     "CVE-2025-8964"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://www.yuque.com/gongzi-jsnek/xb2q3a/ip83oyxdztulfuzx?singleDoc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.yuque.com/gongzi-jsnek/xb2q3a/ip83oyxdztulfuzx?singleDoc#"
     }
   ],
   "database_specific": {
