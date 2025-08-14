@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h84-qmv7-982p",
-  "modified": "2025-08-14T13:31:12Z",
+  "modified": "2025-08-14T17:14:53Z",
   "published": "2025-08-14T00:01:34Z",
   "aliases": [
     "CVE-2025-55199"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "3.18.4"
+              "fixed": "3.18.5"
             }
           ]
         }
