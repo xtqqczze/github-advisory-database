@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wvg-mj6g-m9cv",
-  "modified": "2024-10-08T13:02:18Z",
+  "modified": "2025-08-14T21:04:22Z",
   "published": "2021-03-18T19:55:21Z",
   "aliases": [
     "CVE-2021-27922"
   ],
   "summary": "Pillow Uncontrolled Resource Consumption",
-  "details": "Pillow before 8.1.1 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for an ICNS container, and thus an attempted memory allocation can be very large.",
+  "details": "Pillow before 8.1.2 allows attackers to cause a denial of service (memory consumption) because the reported size of a contained image is not properly checked for an ICNS container, and thus an attempted memory allocation can be very large.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -32,7 +32,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "8.1.1"
+              "fixed": "8.1.2"
             }
           ]
         }
@@ -47,10 +47,6 @@
     {
       "type": "WEB",
       "url": "https://github.com/python-pillow/Pillow/commit/756fff33128a0b643d10518a26ad04b726dd8973"
-    },
-    {
-      "type": "ADVISORY",
-      "url": "https://github.com/advisories/GHSA-3wvg-mj6g-m9cv"
     },
     {
       "type": "WEB",
@@ -74,7 +70,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html"
+      "url": "https://pillow.readthedocs.io/en/stable/releasenotes/8.1.2.html"
     },
     {
       "type": "WEB",
