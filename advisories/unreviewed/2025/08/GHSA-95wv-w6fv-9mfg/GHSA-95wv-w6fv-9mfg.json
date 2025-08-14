@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-95wv-w6fv-9mfg",
+  "modified": "2025-08-14T15:30:45Z",
+  "published": "2025-08-14T15:30:45Z",
+  "aliases": [
+    "CVE-2025-27846"
+  ],
+  "details": "In ESPEC North America Web Controller 3 before 3.3.8, an attacker with physical access can gain elevated privileges because GRUB and the BIOS are unprotected.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27846"
+    },
+    {
+      "type": "WEB",
+      "url": "https://espec.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://espec.com/na/about/detail/cve_2025_27846"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-14T15:15:32Z"
+  }
+}
