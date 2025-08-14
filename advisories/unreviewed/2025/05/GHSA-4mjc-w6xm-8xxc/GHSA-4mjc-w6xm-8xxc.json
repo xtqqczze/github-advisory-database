@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mjc-w6xm-8xxc",
-  "modified": "2025-05-09T12:31:33Z",
+  "modified": "2025-08-14T18:31:24Z",
   "published": "2025-05-09T12:31:33Z",
   "aliases": [
     "CVE-2025-3528"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3528"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2025:9645"
     },
     {
       "type": "WEB",
