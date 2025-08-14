@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4vq8-7jfc-9cvp",
-  "modified": "2025-07-30T15:41:55Z",
+  "modified": "2025-08-14T14:40:41Z",
   "published": "2025-07-29T19:56:25Z",
   "aliases": [
     "CVE-2025-54410"
@@ -33,6 +33,25 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/docker/docker"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "26.0.0-rc1"
+            },
+            {
+              "fixed": "28.0.0"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -43,6 +62,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54410"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moby/moby/pull/49443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moby/moby/pull/49728"
     },
     {
       "type": "WEB",
