@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xg68-chx2-253g",
-  "modified": "2021-05-20T21:58:11Z",
+  "modified": "2025-08-14T22:15:23Z",
   "published": "2021-05-24T19:53:01Z",
   "aliases": [
     "CVE-2021-20087"
@@ -43,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/BlackFan/client-side-prototype-pollution/blob/master/pp/jquery-deparam.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RetireJS/retire.js/blob/6da45fcb6a3425e55ee8181b2ac35168879bf086/repository/jsrepository-master.json#L824-L842"
     }
   ],
   "database_specific": {
