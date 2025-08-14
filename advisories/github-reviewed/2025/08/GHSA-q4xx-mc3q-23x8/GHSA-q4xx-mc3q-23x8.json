@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4xx-mc3q-23x8",
-  "modified": "2025-08-14T12:30:22Z",
+  "modified": "2025-08-14T16:42:36Z",
   "published": "2025-08-14T12:30:22Z",
   "aliases": [
     "CVE-2025-55346"
   ],
+  "summary": "Flowise JS injection remote code execution",
   "details": "User-controlled input flows to an unsafe implementation of a dynamic Function constructor, allowing network attackers to run arbitrary unsandboxed JS code in the context of the host, by sending a simple POST request.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "flowise"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "3.0.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55346"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/FlowiseAI/Flowise"
     },
     {
       "type": "WEB",
@@ -29,8 +54,8 @@
       "CWE-94"
     ],
     "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-08-14T16:42:36Z",
     "nvd_published_at": "2025-08-14T10:15:26Z"
   }
 }
