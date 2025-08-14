@@ -1,11 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrr8-v49w-3333",
-  "modified": "2025-08-14T18:36:27Z",
+  "modified": "2025-08-14T19:15:04Z",
   "published": "2023-07-10T19:08:10Z",
   "aliases": [],
   "summary": "sweetalert2 contains potentially undesirable behavior",
-  "details": "`sweetalert2` versions from 11.6.14 to before 11.22.4 have potentially undesirable behavior. The package outputs audio and/or video messages that do not pertain to the functionality of the package when run on specific tlds. This functionality is documented on the project's readme",
+  "details": "`sweetalert2` versions from 11.6.14 to before 11.22.4 have potentially undesirable behavior. The package outputs audio and/or video messages that do not pertain to the functionality of the package when run on specific tlds. This functionality is documented on the project's readme.",
   "severity": [],
   "affected": [
     {
