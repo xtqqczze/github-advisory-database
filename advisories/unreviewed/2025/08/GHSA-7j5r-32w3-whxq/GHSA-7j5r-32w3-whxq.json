@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7j5r-32w3-whxq",
-  "modified": "2025-08-10T09:30:19Z",
+  "modified": "2025-08-15T15:30:21Z",
   "published": "2025-08-10T09:30:19Z",
   "aliases": [
     "CVE-2025-8799"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/open5gs/open5gs/commit/cf63dd63197bf61a4b041aa364ba6a6199ab15e4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ZHENGHAOHELLO/BugReport/blob/main/CVE-2025-8799"
     },
     {
       "type": "WEB",

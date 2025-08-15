@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-678r-9946-9xwp",
-  "modified": "2025-08-10T12:30:24Z",
+  "modified": "2025-08-15T15:30:21Z",
   "published": "2025-08-10T12:30:24Z",
   "aliases": [
     "CVE-2025-8804"
@@ -37,6 +37,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/ZHENGHAOHELLO/BugReport/blob/main/CVE-2025-8804"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/open5gs/open5gs/releases/tag/v2.7.6"
     },
     {
@@ -50,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?id.319333"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.625698"
     },
     {
       "type": "WEB",

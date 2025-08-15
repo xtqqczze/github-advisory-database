@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wq4p-mpxw-hmg5",
-  "modified": "2025-08-10T09:30:19Z",
+  "modified": "2025-08-15T15:30:21Z",
   "published": "2025-08-10T09:30:19Z",
   "aliases": [
     "CVE-2025-8801"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/open5gs/open5gs/commit/f47f2bd4f7274295c5fbb19e2f806753d183d09a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ZHENGHAOHELLO/BugReport/blob/main/CVE-2025-8801"
     },
     {
       "type": "WEB",

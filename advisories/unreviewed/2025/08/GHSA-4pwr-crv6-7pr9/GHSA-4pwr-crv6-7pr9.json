@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4pwr-crv6-7pr9",
-  "modified": "2025-08-10T09:30:19Z",
+  "modified": "2025-08-15T15:30:21Z",
   "published": "2025-08-10T09:30:19Z",
   "aliases": [
     "CVE-2025-8802"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/open5gs/open5gs/commit/f168f7586a4fa536cee95ae60ac437d997f15b97"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ZHENGHAOHELLO/BugReport/blob/main/CVE-2025-8802"
     },
     {
       "type": "WEB",
