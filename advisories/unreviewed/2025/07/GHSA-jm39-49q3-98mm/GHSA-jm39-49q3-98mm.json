@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm39-49q3-98mm",
-  "modified": "2025-08-01T09:31:23Z",
+  "modified": "2025-08-15T18:31:09Z",
   "published": "2025-07-10T09:32:31Z",
   "aliases": [
     "CVE-2025-38335"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a7b79db25846459de63ca8974268f0c41c734c4b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a8f01e51109f77229e426b57c5d19251b462c6aa"
     },
     {
       "type": "WEB",

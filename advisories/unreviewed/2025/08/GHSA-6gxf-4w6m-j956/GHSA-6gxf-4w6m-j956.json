@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gxf-4w6m-j956",
-  "modified": "2025-08-13T21:30:25Z",
+  "modified": "2025-08-15T18:31:09Z",
   "published": "2025-08-12T21:31:20Z",
   "aliases": [
     "CVE-2025-25256"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://fortiguard.fortinet.com/psirt/FG-IR-25-152"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/watchtowrlabs/watchTowr-vs-FortiSIEM-CVE-2025-25256"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/should-security-solutions-be-secure-maybe-were-all-wrong-fortinet-fortisiem-pre-auth-command-injection-cve-2025-25256"
     },
     {
       "type": "WEB",
