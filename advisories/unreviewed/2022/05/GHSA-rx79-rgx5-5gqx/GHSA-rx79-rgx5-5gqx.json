@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx79-rgx5-5gqx",
-  "modified": "2022-05-24T19:18:52Z",
+  "modified": "2025-08-15T21:31:13Z",
   "published": "2022-05-24T19:18:52Z",
   "aliases": [
     "CVE-2021-34583"
   ],
   "details": "Crafted web server requests may cause a heap-based buffer overflow and could therefore trigger a denial-of- service condition due to a crash in the CODESYS V2 web server prior to V1.1.9.22.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

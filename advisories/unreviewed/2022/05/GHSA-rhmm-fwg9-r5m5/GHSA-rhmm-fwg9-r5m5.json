@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rhmm-fwg9-r5m5",
-  "modified": "2022-05-24T19:18:51Z",
+  "modified": "2025-08-15T21:31:13Z",
   "published": "2022-05-24T19:18:51Z",
   "aliases": [
     "CVE-2021-34585"
   ],
   "details": "In the CODESYS V2 web server prior to V1.1.9.22 crafted web server requests can trigger a parser error. Since the parser result is not checked under all conditions, a pointer dereference with an invalid address can occur. This leads to a denial of service situation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

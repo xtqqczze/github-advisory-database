@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2397-fjxq-4xvj",
-  "modified": "2025-08-05T15:30:44Z",
+  "modified": "2025-08-15T21:31:17Z",
   "published": "2025-08-04T21:30:43Z",
   "aliases": [
     "CVE-2025-50340"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1110604"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/millad7/SOGo_web_mail-vulnerability-CVE-2025-50340"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mail-archive.com/users%40sogo.nu/msg34098.html"
     },
     {
       "type": "WEB",

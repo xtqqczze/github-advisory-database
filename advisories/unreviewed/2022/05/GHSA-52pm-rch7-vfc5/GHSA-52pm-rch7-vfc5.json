@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52pm-rch7-vfc5",
-  "modified": "2022-05-24T19:03:08Z",
+  "modified": "2025-08-15T21:31:12Z",
   "published": "2022-05-24T19:03:08Z",
   "aliases": [
     "CVE-2021-21001"
   ],
   "details": "On WAGO PFC200 devices in different firmware versions with special crafted packets an authorised attacker with network access to the device can access the file system with higher privileges.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {

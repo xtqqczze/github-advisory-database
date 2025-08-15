@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vcv5-xrh2-qgqx",
-  "modified": "2022-05-24T19:03:13Z",
+  "modified": "2025-08-15T21:31:12Z",
   "published": "2022-05-24T19:03:13Z",
   "aliases": [
     "CVE-2021-30188"
   ],
   "details": "CODESYS V2 runtime system SP before 2.4.7.55 has a Stack-based Buffer Overflow.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67hh-p488-99r8",
-  "modified": "2022-05-24T19:03:13Z",
+  "modified": "2025-08-15T21:31:13Z",
   "published": "2022-05-24T19:03:13Z",
   "aliases": [
     "CVE-2021-30195"
   ],
   "details": "CODESYS V2 runtime system before 2.4.7.55 has Improper Input Validation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
