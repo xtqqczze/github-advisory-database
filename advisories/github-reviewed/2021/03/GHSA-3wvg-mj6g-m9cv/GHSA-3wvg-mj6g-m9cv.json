@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3wvg-mj6g-m9cv",
-  "modified": "2025-08-14T21:04:22Z",
+  "modified": "2025-08-15T13:58:05Z",
   "published": "2021-03-18T19:55:21Z",
   "aliases": [
     "CVE-2021-27922"
@@ -58,6 +58,18 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/S7G44Z33J4BNI2DPDROHWGVG2U7ZH5JU"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TQQY6472RX4J2SUJENWDZAWKTJJGP2ML"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZTSY25UJU7NJUFHH3HWT575LT4TDFWBZ"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S7G44Z33J4BNI2DPDROHWGVG2U7ZH5JU"
     },
     {
@@ -70,6 +82,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://pillow.readthedocs.io/en/stable/releasenotes/8.1.1.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://pillow.readthedocs.io/en/stable/releasenotes/8.1.2.html"
     },
     {
@@ -79,6 +95,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-20",
       "CWE-400"
     ],
     "severity": "HIGH",
