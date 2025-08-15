@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw62-xfc6-h8r3",
-  "modified": "2025-08-10T09:30:19Z",
+  "modified": "2025-08-15T09:31:14Z",
   "published": "2025-08-10T09:30:19Z",
   "aliases": [
     "CVE-2025-8800"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/open5gs/open5gs/commit/701505102f514cbde2856cd2ebc9bedb7efc820d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ZHENGHAOHELLO/BugReport/blob/main/CVE-2025-8800"
     },
     {
       "type": "WEB",
