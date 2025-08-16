@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3jw2-chpc-h229",
-  "modified": "2025-08-13T18:31:25Z",
+  "modified": "2025-08-16T00:30:43Z",
   "published": "2025-08-13T18:31:25Z",
   "aliases": [
     "CVE-2025-8920"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8920"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/CVE-Hunters/CVE/blob/main/i-diario/CVE-2025-8920.md"
     },
     {
       "type": "WEB",
