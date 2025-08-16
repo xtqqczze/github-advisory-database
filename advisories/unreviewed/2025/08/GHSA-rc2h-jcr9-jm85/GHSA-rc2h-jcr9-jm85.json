@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rc2h-jcr9-jm85",
-  "modified": "2025-08-14T18:31:30Z",
+  "modified": "2025-08-16T03:30:31Z",
   "published": "2025-08-14T18:31:30Z",
   "aliases": [
     "CVE-2025-20265"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-radius-rce-TNBKf79"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-flaw-in-firewall-management-center"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.theregister.com/2025/08/15/cisco_secure_firewall_management_bug"
     }
   ],
   "database_specific": {
