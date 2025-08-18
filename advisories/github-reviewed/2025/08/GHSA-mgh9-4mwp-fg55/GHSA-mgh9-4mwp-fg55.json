@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgh9-4mwp-fg55",
-  "modified": "2025-08-18T21:00:52Z",
+  "modified": "2025-08-18T23:27:57Z",
   "published": "2025-08-18T21:00:52Z",
   "aliases": [
     "CVE-2025-55213"
@@ -41,6 +41,14 @@
       "url": "https://github.com/openfga/openfga/security/advisories/GHSA-mgh9-4mwp-fg55"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55213"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openfga/openfga/commit/1a7e0e37fc4777c824b2386cac4867a66f3480b0"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/openfga/openfga"
     }
@@ -52,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-18T21:00:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-18T20:15:29Z"
   }
 }
