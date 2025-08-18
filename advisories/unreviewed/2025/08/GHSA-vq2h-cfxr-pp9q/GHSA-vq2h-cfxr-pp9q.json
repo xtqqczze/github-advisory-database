@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq2h-cfxr-pp9q",
-  "modified": "2025-08-17T03:30:31Z",
+  "modified": "2025-08-18T15:30:32Z",
   "published": "2025-08-17T03:30:31Z",
   "aliases": [
     "CVE-2025-9091"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9091"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ZZ2266/.github.io/blob/main/AC20/hardcoded%20password/readme.md"
     },
     {
       "type": "WEB",

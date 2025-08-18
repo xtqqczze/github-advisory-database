@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jhj6-3653-rmq8",
-  "modified": "2025-08-16T00:30:43Z",
+  "modified": "2025-08-18T15:30:32Z",
   "published": "2025-08-16T00:30:43Z",
   "aliases": [
     "CVE-2025-43201"
   ],
   "details": "This issue was addressed with improved checks. This issue is fixed in Apple Music Classical 2.3 for Android. An app may be able to unexpectedly leak a user's credentials.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-15T22:15:31Z"
