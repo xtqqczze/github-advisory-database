@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vv2-3x8x-4gv7",
-  "modified": "2025-08-14T17:27:25Z",
+  "modified": "2025-08-18T21:07:48Z",
   "published": "2025-08-14T12:30:23Z",
   "aliases": [
     "CVE-2025-8943"
@@ -51,6 +51,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-306",
       "CWE-78"
     ],
     "severity": "CRITICAL",
