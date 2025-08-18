@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp3r-hc2j-v8hr",
-  "modified": "2025-08-04T18:30:37Z",
+  "modified": "2025-08-18T18:30:34Z",
   "published": "2025-08-04T18:30:36Z",
   "aliases": [
     "CVE-2025-8517"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/helloandrewpaul/Session-Fixation-in-Vvveb-CMS-v1.0.6.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kwerty138/Session-Fixation-in-Vvveb-CMS-v1.0.6.1"
     },
     {
       "type": "WEB",

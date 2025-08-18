@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58pw-r2v4-pwjv",
-  "modified": "2025-08-18T06:30:30Z",
+  "modified": "2025-08-18T18:30:34Z",
   "published": "2025-08-08T21:30:40Z",
   "aliases": [
     "CVE-2025-55188"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/ip7z/7zip/releases/tag/25.01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lunbun.dev/blog/cve-2025-55188"
     },
     {
       "type": "WEB",
