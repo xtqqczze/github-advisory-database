@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8wx6-64x9-22wm",
-  "modified": "2025-06-26T21:31:11Z",
+  "modified": "2025-08-19T09:30:30Z",
   "published": "2025-06-26T21:31:11Z",
   "aliases": [
     "CVE-2025-49797"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://support.brother.com/g/s/security"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ricoh.com/products/security/vulnerabilities/vul?id=ricoh-2025-000009"
     },
     {
       "type": "WEB",
