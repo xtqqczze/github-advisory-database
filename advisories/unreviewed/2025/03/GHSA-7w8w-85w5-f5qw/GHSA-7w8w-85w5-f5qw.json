@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7w8w-85w5-f5qw",
-  "modified": "2025-03-13T18:32:22Z",
+  "modified": "2025-08-19T15:31:19Z",
   "published": "2025-03-13T18:32:21Z",
   "aliases": [
     "CVE-2025-1429"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1429"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.autodesk.com/products/autodesk-access/overview"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Where-can-I-download-the-latest-update-of-AutoCAD-AutoCAD-LT-2022.html"
     },
     {
       "type": "WEB",

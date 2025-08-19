@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9g9j-3w64-3cjh",
+  "modified": "2025-08-19T15:31:29Z",
+  "published": "2025-08-19T15:31:29Z",
+  "aliases": [
+    "CVE-2025-51510"
+  ],
+  "details": "MoonShine v3.12.5 was discovered to contain a SQL injection vulnerability via the Data parameter under the Blog module.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-51510"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/GiacoLenzo2109/MoonShine_Software_PoCs"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/moonshine-software/moonshine"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-19T15:15:28Z"
+  }
+}

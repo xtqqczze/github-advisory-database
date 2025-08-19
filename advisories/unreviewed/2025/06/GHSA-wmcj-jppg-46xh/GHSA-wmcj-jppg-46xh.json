@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmcj-jppg-46xh",
-  "modified": "2025-06-10T15:30:48Z",
+  "modified": "2025-08-19T15:31:24Z",
   "published": "2025-06-10T15:30:48Z",
   "aliases": [
     "CVE-2025-5335"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5335"
+    },
+    {
+      "type": "WEB",
+      "url": "https://emsfs.autodesk.com/utility/odis/1/installer/latest/AdODIS-installer.exe"
     },
     {
       "type": "WEB",
