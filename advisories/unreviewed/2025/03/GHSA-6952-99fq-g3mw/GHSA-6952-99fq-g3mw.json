@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6952-99fq-g3mw",
-  "modified": "2025-07-17T18:31:05Z",
+  "modified": "2025-08-19T18:31:26Z",
   "published": "2025-03-14T15:32:04Z",
   "aliases": [
     "CVE-2023-52927"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4914109a8e1e494c6aa9852f9e84ec77a5fc643f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://seadragnol.github.io/posts/CVE-2023-52927"
     }
   ],
   "database_specific": {

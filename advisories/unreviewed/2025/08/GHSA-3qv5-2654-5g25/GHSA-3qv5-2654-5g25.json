@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3qv5-2654-5g25",
+  "modified": "2025-08-19T18:31:32Z",
+  "published": "2025-08-19T18:31:32Z",
+  "aliases": [
+    "CVE-2025-38562"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: fix null pointer dereference error in generate_encryptionkey\n\nIf client send two session setups with krb5 authenticate to ksmbd,\nnull pointer dereference error in generate_encryptionkey could happen.\nsess->Preauth_HashValue is set to NULL if session is valid.\nSo this patch skip generate encryption key if session is valid.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38562"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/015ef163d65496ae3ba6192c96140a22743f0353"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2a30ed6428ce83afedca1a6c5c5c4247bcf12d0e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/96a82e19434a2522525baab59c33332658bc7653"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9b493ab6f35178afd8d619800df9071992f715de"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9c2dbbc959e1fcc6f603a1a843e9cf743ba383bb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d79c8bebaa622ee223128be7c66d8aaeeb634a57"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-19T17:15:32Z"
+  }
+}
