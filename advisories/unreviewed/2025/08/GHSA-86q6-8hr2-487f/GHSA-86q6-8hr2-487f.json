@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-86q6-8hr2-487f",
+  "modified": "2025-08-19T21:30:37Z",
+  "published": "2025-08-19T21:30:37Z",
+  "aliases": [
+    "CVE-2025-8042"
+  ],
+  "details": "Firefox for Android allowed a sandboxed iframe without the `allow-downloads` attribute to start downloads. This vulnerability affects Firefox < 141.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8042"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1791322"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-56"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-19T21:15:29Z"
+  }
+}

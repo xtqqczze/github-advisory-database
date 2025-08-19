@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6rx2-wjr5-47v3",
+  "modified": "2025-08-19T21:30:37Z",
+  "published": "2025-08-19T21:30:37Z",
+  "aliases": [
+    "CVE-2025-55031"
+  ],
+  "details": "Malicious pages could use Firefox for iOS to pass FIDO: links to the OS and trigger the hybrid passkey transport. An attacker within Bluetooth range could have used this to trick the user into using their passkey to log the attacker's computer into the target account. This vulnerability affects Firefox for iOS < 142 and Focus for iOS < 142.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55031"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1979499"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1979804"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-68"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2025-69"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-19T21:15:28Z"
+  }
+}
