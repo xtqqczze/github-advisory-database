@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xf8x-j4p2-f749",
-  "modified": "2025-08-19T15:40:31Z",
+  "modified": "2025-08-19T21:41:46Z",
   "published": "2025-08-19T15:40:31Z",
   "aliases": [
     "CVE-2025-55303"
@@ -88,6 +88,14 @@
       "url": "https://github.com/withastro/astro/security/advisories/GHSA-xf8x-j4p2-f749"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55303"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/withastro/astro/commit/4d16de7f95db5d1ec1ce88610d2a95e606e83820"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/withastro/astro"
     }
@@ -99,6 +107,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-19T15:40:31Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-19T19:15:36Z"
   }
 }
