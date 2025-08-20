@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xfq-7f6m-mpmf",
-  "modified": "2025-08-19T21:30:36Z",
+  "modified": "2025-08-20T18:58:17Z",
   "published": "2025-08-19T15:31:29Z",
   "aliases": [
     "CVE-2025-51489"
   ],
+  "summary": "MoonShine Arbitrary File Upload Vulnerability",
   "details": "An arbitrary file upload vulnerability in MoonShine v3.12.4 allows attackers to execute arbitrary code via uploading a crafted SVG file.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:N/A:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "moonshine/moonshine"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.12.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,10 +42,14 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/GiacoLenzo2109/MoonShine_Software_PoCs"
+      "url": "https://github.com/moonshine-software/moonshine/commit/7102fb113627870fb1cb7176e1d0d95bb47a7fd4"
     },
     {
       "type": "WEB",
+      "url": "https://github.com/GiacoLenzo2109/MoonShine_Software_PoCs"
+    },
+    {
+      "type": "PACKAGE",
       "url": "https://github.com/moonshine-software/moonshine"
     }
   ],
@@ -33,8 +58,8 @@
       "CWE-434"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-08-20T18:58:17Z",
     "nvd_published_at": "2025-08-19T15:15:28Z"
   }
 }
