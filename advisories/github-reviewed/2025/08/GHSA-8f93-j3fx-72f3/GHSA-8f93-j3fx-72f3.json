@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f93-j3fx-72f3",
-  "modified": "2025-08-20T15:31:41Z",
+  "modified": "2025-08-20T19:10:29Z",
   "published": "2025-08-20T15:31:41Z",
   "aliases": [
     "CVE-2025-4437"
   ],
+  "summary": "CRI-O has Potential High Memory Consumption from File Read",
   "details": "There's a vulnerability in the CRI-O application where when container is launched with securityContext.runAsUser specifying a non-existent user, CRI-O attempts to create the user, reading the container's entire /etc/passwd file into memory. If this file is excessively large, it can cause the a high memory consumption leading applications to be killed due to out-of-memory. As a result a denial-of-service can be achieved, possibly disrupting other pods and services running in the same host.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/cri-o/cri-o"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.33.3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2375084"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/cri-o/cri-o"
     }
   ],
   "database_specific": {
@@ -33,8 +58,8 @@
       "CWE-770"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-08-20T19:10:29Z",
     "nvd_published_at": "2025-08-20T13:15:28Z"
   }
 }
