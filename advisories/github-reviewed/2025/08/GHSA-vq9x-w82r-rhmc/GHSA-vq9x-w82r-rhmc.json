@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq9x-w82r-rhmc",
-  "modified": "2025-08-13T23:13:41Z",
+  "modified": "2025-08-20T15:54:59Z",
   "published": "2025-08-13T15:30:34Z",
   "aliases": [
     "CVE-2025-52392"
@@ -55,6 +55,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/soosyze/soosyze"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52416"
     }
   ],
   "database_specific": {
