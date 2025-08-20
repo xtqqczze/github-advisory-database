@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w78r-f8w4-qxcq",
-  "modified": "2025-08-20T06:30:26Z",
+  "modified": "2025-08-20T15:31:40Z",
   "published": "2025-08-20T06:30:26Z",
   "aliases": [
     "CVE-2025-57788"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://documentation.commvault.com/securityadvisories/CV_2025_08_3.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://labs.watchtowr.com/guess-who-would-be-stupid-enough-to-rob-the-same-vault-twice-pre-auth-rce-chains-in-commvault/#wt-2025-0047hardcoded-credentials"
     }
   ],
   "database_specific": {

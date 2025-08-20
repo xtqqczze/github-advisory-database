@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c85x-m577-qjhw",
-  "modified": "2022-05-24T17:23:36Z",
+  "modified": "2025-08-20T15:31:35Z",
   "published": "2022-05-24T17:23:36Z",
   "aliases": [
     "CVE-2020-1481"
   ],
   "details": "A remote code execution vulnerability exists in the ESLint extension for Visual Studio Code when it validates source code after opening a project, aka 'Visual Studio Code ESLint Extention Remote Code Execution Vulnerability'.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
