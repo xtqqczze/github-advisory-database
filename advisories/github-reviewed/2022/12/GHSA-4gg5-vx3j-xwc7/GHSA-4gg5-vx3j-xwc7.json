@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4gg5-vx3j-xwc7",
-  "modified": "2022-12-12T22:34:26Z",
+  "modified": "2025-08-20T22:52:47Z",
   "published": "2022-12-12T15:30:33Z",
   "aliases": [
     "CVE-2022-3510"
@@ -108,7 +108,10 @@
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 3.0.0"
+      }
     },
     {
       "package": {
