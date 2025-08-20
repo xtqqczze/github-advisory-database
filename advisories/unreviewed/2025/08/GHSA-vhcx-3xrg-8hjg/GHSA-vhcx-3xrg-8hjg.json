@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhcx-3xrg-8hjg",
-  "modified": "2025-08-19T21:30:37Z",
+  "modified": "2025-08-20T18:30:20Z",
   "published": "2025-08-19T21:30:37Z",
   "aliases": [
     "CVE-2025-9183"
   ],
   "details": "Spoofing issue in the Address Bar component. This vulnerability affects Firefox < 142 and Firefox ESR < 140.2.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-451"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-19T21:15:30Z"
