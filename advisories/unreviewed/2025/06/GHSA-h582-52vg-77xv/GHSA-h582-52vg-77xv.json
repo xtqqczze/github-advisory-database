@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h582-52vg-77xv",
-  "modified": "2025-06-03T15:31:26Z",
+  "modified": "2025-08-20T09:30:38Z",
   "published": "2025-06-03T15:31:26Z",
   "aliases": [
     "CVE-2025-5497"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/slackero/phpwcms/commit/41a72eca0baa9d9d0214fec97db2400bc082d2a9"
     },
     {
       "type": "WEB",
