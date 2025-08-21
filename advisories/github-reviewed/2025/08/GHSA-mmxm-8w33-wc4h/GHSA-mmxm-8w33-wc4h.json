@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmxm-8w33-wc4h",
-  "modified": "2025-08-21T04:06:56Z",
+  "modified": "2025-08-21T14:01:19Z",
   "published": "2025-08-20T20:52:17Z",
   "aliases": [
     "CVE-2025-5115"
@@ -12,6 +12,10 @@
     {
       "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:N/SA:H"
     }
   ],
   "affected": [
