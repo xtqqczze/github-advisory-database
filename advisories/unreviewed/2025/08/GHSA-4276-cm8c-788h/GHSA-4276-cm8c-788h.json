@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4276-cm8c-788h",
+  "modified": "2025-08-21T09:30:21Z",
+  "published": "2025-08-21T09:30:21Z",
+  "aliases": [
+    "CVE-2025-53971"
+  ],
+  "details": "Mattermost versions 10.5.x <= 10.5.8, 9.11.x <= 9.11.17 fail to properly validate authorization for team scheme role modifications which allows Team Admins to demote Team Members to Guests via the PUT /api/v4/teams/team-id/members/user-id/schemeRoles API endpoint.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53971"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "LOW",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-21T08:15:30Z"
+  }
+}
