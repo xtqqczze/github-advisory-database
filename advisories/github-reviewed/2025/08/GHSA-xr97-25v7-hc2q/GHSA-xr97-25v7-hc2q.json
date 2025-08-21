@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr97-25v7-hc2q",
-  "modified": "2025-08-21T14:25:23Z",
+  "modified": "2025-08-21T19:16:38Z",
   "published": "2025-08-21T14:25:23Z",
   "aliases": [
     "CVE-2025-55742"
@@ -44,6 +44,10 @@
       "url": "https://github.com/unopim/unopim/security/advisories/GHSA-xr97-25v7-hc2q"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55742"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/unopim/unopim/commit/49d5f6ac4d5d9ef7d9cdfe01853234d531c55f75"
     },
@@ -75,6 +79,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-21T14:25:23Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-21T16:15:34Z"
   }
 }
