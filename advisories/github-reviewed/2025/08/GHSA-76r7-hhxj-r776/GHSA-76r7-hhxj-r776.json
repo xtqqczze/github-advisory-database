@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-76r7-hhxj-r776",
-  "modified": "2025-08-14T19:36:49Z",
+  "modified": "2025-08-21T21:36:39Z",
   "published": "2025-08-13T22:32:18Z",
   "aliases": [
     "CVE-2025-55193"
   ],
   "summary": "Active Record logging vulnerable to ANSI escape injection",
-  "details": "This vulnerability has been assigned the CVE identifier CVE-2025-55193\n\n### Impact\nThe ID passed to `find` or similar methods may be logged without escaping. If this is directly to the terminal it may include unescaped ANSI sequences.\n\n### Releases\nThe fixed releases are available at the normal locations.\n\n### Credits\n\nThanks to [lio346](https://hackerone.com/lio346) for reporting this vulnerability",
+  "details": "This vulnerability has been assigned the CVE identifier CVE-2025-55193\n\n### Impact\nThe ID passed to `find` or similar methods may be logged without escaping. If this is directly to the terminal it may include unescaped ANSI sequences.\n\n### Releases\nThe fixed releases are available at the normal locations.\n\n### Credits\n\nThanks to [lio346](https://hackerone.com/lio346) from Unit 515 of OPSWAT for reporting this vulnerability",
   "severity": [
     {
       "type": "CVSS_V4",
