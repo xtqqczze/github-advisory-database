@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rch5-h93g-8v3q",
-  "modified": "2024-04-17T15:30:42Z",
+  "modified": "2025-08-21T18:31:23Z",
   "published": "2024-04-17T15:30:42Z",
   "aliases": [
     "CVE-2023-45744"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://forum.peplink.com/t/peplink-security-advisory-smart-reader-firmware-1-2-0-cve-2023-43491-cve-2023-45209-cve-2023-39367-cve-2023-45744-cve-2023-40146/47256"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.netapp.com/advisory/ntap-20240828-0006"
     },
     {
       "type": "WEB",

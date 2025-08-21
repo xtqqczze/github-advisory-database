@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-549g-4gm4-jwrq",
+  "modified": "2025-08-21T18:31:29Z",
+  "published": "2025-08-21T18:31:29Z",
+  "aliases": [
+    "CVE-2025-55524"
+  ],
+  "details": "Insecure permissions in Agent-Zero v0.8.* allow attackers to arbitrarily reset the system via unspecified vectors.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55524"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/frdel/agent-zero/blob/v0.8.7/python/api/restart.py"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vityuasd/VulList/blob/main/vul_3.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-21T18:15:35Z"
+  }
+}

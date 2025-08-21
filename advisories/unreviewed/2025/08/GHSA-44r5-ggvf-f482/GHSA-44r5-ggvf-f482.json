@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-44r5-ggvf-f482",
-  "modified": "2025-08-21T15:30:34Z",
+  "modified": "2025-08-21T18:31:26Z",
   "published": "2025-08-21T15:30:34Z",
   "aliases": [
     "CVE-2025-47184"
   ],
   "details": "An XML external entities (XXE) injection vulnerability in the /init API endpoint in Exagid EX10 7.0.1p02 allows an authenticated, unprivileged attacker to achieve information disclosure and privilege escalation via a crafted ISys XML message.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-112"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-21T13:15:36Z"

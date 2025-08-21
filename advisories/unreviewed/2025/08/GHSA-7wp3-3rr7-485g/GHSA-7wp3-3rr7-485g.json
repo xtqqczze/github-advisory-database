@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wp3-3rr7-485g",
-  "modified": "2025-08-21T15:30:35Z",
+  "modified": "2025-08-21T18:31:26Z",
   "published": "2025-08-21T15:30:35Z",
   "aliases": [
     "CVE-2025-34158"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://www.tenable.com/plugins/nessus/250294"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/plex-media-server-unspecified"
     }
   ],
   "database_specific": {
