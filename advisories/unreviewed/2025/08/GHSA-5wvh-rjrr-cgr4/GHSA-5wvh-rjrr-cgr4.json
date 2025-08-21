@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5wvh-rjrr-cgr4",
+  "modified": "2025-08-21T03:30:25Z",
+  "published": "2025-08-21T03:30:25Z",
+  "aliases": [
+    "CVE-2025-27216"
+  ],
+  "details": "Multiple Incorrect Permission Assignment for Critical Resource in UISP Application may allow a malicious actor with certain permissions to escalate privileges.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27216"
+    },
+    {
+      "type": "WEB",
+      "url": "https://community.ui.com/releases/Security-Advisory-Bulletin-053/b0c4aa38-90aa-412d-b5b9-6395e057d822"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-21T01:15:35Z"
+  }
+}
