@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pp7p-q8fx-2968",
-  "modified": "2025-08-21T14:53:52Z",
+  "modified": "2025-08-21T19:16:58Z",
   "published": "2025-08-21T14:53:52Z",
   "aliases": [
     "CVE-2025-57753"
@@ -66,6 +66,10 @@
       "url": "https://github.com/sapphi-red/vite-plugin-static-copy/security/advisories/GHSA-pp7p-q8fx-2968"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57753"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/sapphi-red/vite-plugin-static-copy/commit/0bc6b49ed72b46eecfc9682045f4b46a19694969"
     },
@@ -93,6 +97,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-21T14:53:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-21T16:15:34Z"
   }
 }
