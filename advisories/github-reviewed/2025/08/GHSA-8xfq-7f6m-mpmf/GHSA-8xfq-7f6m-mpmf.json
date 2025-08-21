@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xfq-7f6m-mpmf",
-  "modified": "2025-08-20T18:58:17Z",
+  "modified": "2025-08-21T15:41:05Z",
   "published": "2025-08-19T15:31:29Z",
   "aliases": [
     "CVE-2025-51489"
@@ -55,7 +55,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-434"
+      "CWE-434",
+      "CWE-79"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
