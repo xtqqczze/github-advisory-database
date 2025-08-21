@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxv2-p3q2-hmw6",
-  "modified": "2025-08-21T18:31:29Z",
+  "modified": "2025-08-21T21:32:05Z",
   "published": "2025-08-21T18:31:29Z",
   "aliases": [
     "CVE-2025-55523"
   ],
   "details": "An issue in the component /api/download_work_dir_file.py of Agent-Zero v0.8.* allows attackers to execute a directory traversal.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-21T18:15:34Z"

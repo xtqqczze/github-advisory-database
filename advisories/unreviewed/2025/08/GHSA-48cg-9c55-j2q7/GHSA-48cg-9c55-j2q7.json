@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-48cg-9c55-j2q7",
+  "modified": "2025-08-21T21:32:08Z",
+  "published": "2025-08-21T21:32:08Z",
+  "aliases": [
+    "CVE-2025-51606"
+  ],
+  "details": "hippo4j 1.0.0 to 1.5.0, uses a hard-coded secret key in its JWT (JSON Web Token) creation. This allows attackers with access to the source code or compiled binary to forge valid access tokens and impersonate any user, including privileged ones such as \"admin\". The vulnerability poses a critical security risk in systems where authentication and authorization rely on the integrity of JWTs.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-51606"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/ShenxiuSec/cve-proofs/blob/main/POC-20250610-01.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-21T21:15:35Z"
+  }
+}

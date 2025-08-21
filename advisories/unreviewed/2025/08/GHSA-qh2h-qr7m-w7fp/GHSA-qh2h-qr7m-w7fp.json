@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qh2h-qr7m-w7fp",
-  "modified": "2025-08-21T15:30:35Z",
+  "modified": "2025-08-21T21:32:04Z",
   "published": "2025-08-21T15:30:35Z",
   "aliases": [
     "CVE-2025-55371"
   ],
   "details": "Incorrect access control in the component /controller/PersonController.java of jshERP v3.5 allows unauthorized attackers to obtain all the information of the handler by executing the getAllList method.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-21T15:15:34Z"
