@@ -1,19 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6fxp-p9mg-q64w",
-  "modified": "2025-08-21T00:30:20Z",
+  "modified": "2025-08-21T15:00:55Z",
   "published": "2025-08-20T03:30:20Z",
   "aliases": [
     "CVE-2025-54363"
   ],
+  "summary": "Microsoft Knack ReDoS Vulnerability in the Introspection Module",
   "details": "Microsoft Knack 0.12.0 allows Regular expression Denial of Service (ReDoS) in the knack.introspection module (issue 1 of 2).",
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:U"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "knack"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.12.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -24,7 +45,7 @@
       "url": "https://github.com/microsoft/knack/issues/281"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/microsoft/knack"
     },
     {
@@ -36,9 +57,9 @@
     "cwe_ids": [
       "CWE-1333"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-08-21T15:00:54Z",
     "nvd_published_at": "2025-08-20T03:15:35Z"
   }
 }
