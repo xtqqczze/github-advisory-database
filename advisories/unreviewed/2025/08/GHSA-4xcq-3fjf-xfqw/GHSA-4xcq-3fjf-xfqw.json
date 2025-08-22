@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xcq-3fjf-xfqw",
-  "modified": "2025-08-20T15:31:42Z",
+  "modified": "2025-08-22T15:33:05Z",
   "published": "2025-08-20T15:31:42Z",
   "aliases": [
     "CVE-2025-9074"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://blog.qwertysecurity.com/Articles/blog3.html"
+    },
+    {
+      "type": "WEB",
       "url": "https://docs.docker.com/desktop/release-notes/#4443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pvotal.tech/breaking-dockers-isolation-using-docker-cve-2025-9074"
     }
   ],
   "database_specific": {

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pjhm-2qjv-7qpq",
-  "modified": "2025-08-21T21:32:06Z",
+  "modified": "2025-08-22T15:33:05Z",
   "published": "2025-08-21T21:32:06Z",
   "aliases": [
     "CVE-2025-51989"
   ],
   "details": "HTML injection vulnerability in the registration interface in Evolution Consulting Kft. HRmaster module v235 allows an attacker to inject HTML tags into the \"keresztnév\" (firstname) field, which will be sent out in an email resulting in possible Phishing scenarios against any, previously not registered, email address.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-80"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-21T20:15:36Z"

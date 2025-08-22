@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1244",
       "CWE-200"
     ],
     "severity": "HIGH",
