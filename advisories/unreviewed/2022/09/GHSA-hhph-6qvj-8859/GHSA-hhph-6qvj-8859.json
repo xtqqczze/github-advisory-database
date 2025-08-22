@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhph-6qvj-8859",
-  "modified": "2022-09-09T00:00:57Z",
+  "modified": "2025-08-22T21:31:12Z",
   "published": "2022-09-02T00:01:02Z",
   "aliases": [
     "CVE-2022-1615"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/samba-team/samba/-/merge_requests/2644"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZTTOLTHUHOV4SHCHCB5TAA4FQVJAWN4P"
     },
     {
       "type": "WEB",

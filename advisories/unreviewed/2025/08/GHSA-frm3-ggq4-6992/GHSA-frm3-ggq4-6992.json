@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-frm3-ggq4-6992",
+  "modified": "2025-08-22T21:31:16Z",
+  "published": "2025-08-22T21:31:16Z",
+  "aliases": [
+    "CVE-2025-55454"
+  ],
+  "details": "An authenticated arbitrary file upload vulnerability in the component /msg/sendfiles of DooTask v1.0.51 allows attackers to execute arbitrary code via uploading a crafted file.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55454"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.notion.so/Dootask-Arbitrary-file-upload-vulnerability-2162818a9e118053a586cf4bc05fd1fa"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-22T19:15:40Z"
+  }
+}

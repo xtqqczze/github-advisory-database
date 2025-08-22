@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fvcq-f7qr-c3pm",
+  "modified": "2025-08-22T21:31:16Z",
+  "published": "2025-08-22T21:31:16Z",
+  "aliases": [
+    "CVE-2022-45133"
+  ],
+  "details": "Mahara 21.10 before 21.10.6, 22.04 before 22.04.4, and 22.10 before 22.10.1 allows unsafe font upload for skins. A particularly structured XML file could allow one to traverse the server to obtain access to secure files or cause code execution based on the payload.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.launchpad.net/mahara/+bug/1995819"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mahara.org/interaction/forum/topic.php?id=9353"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-22T21:15:30Z"
+  }
+}
