@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w45-jcmr-q4fv",
-  "modified": "2025-08-20T18:30:21Z",
+  "modified": "2025-08-22T18:31:15Z",
   "published": "2025-08-20T18:30:21Z",
   "aliases": [
     "CVE-2011-10030"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/windows/fileformat/foxit_reader_filewrite.rb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://scarybeastsecurity.blogspot.com/2011/03/dangerous-file-write-bug-in-foxit-pdf.html"
     },
     {
       "type": "WEB",

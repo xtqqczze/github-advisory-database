@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-j7mj-6w2q-p8rp",
+  "modified": "2025-08-22T18:31:23Z",
+  "published": "2025-08-22T18:31:22Z",
+  "aliases": [
+    "CVE-2025-38664"
+  ],
+  "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nice: Fix a null pointer dereference in ice_copy_and_init_pkg()\n\nAdd check for the return value of devm_kmemdup()\nto prevent potential null pointer dereference.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38664"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0fde7dccbf4c8a6d7940ecaf4c3d80a12f405dd7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1c30093d58cd3d02d8358e2b1f4a06a0aae0bf5b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3028f2a4e746b499043bbb8ab816f975473a0535"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4ff12d82dac119b4b99b5a78b5af3bf2474c0a36"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6d640a8ea62435a7f6f89869bee4fa99423d07ca"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-22T16:15:41Z"
+  }
+}

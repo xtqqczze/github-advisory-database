@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3qw-w3wp-f3m2",
-  "modified": "2023-11-14T21:31:02Z",
+  "modified": "2025-08-22T18:31:10Z",
   "published": "2023-11-14T21:31:02Z",
   "aliases": [
     "CVE-2023-32701"
   ],
-  "details": " Improper Input Validation in the Networking Stack of QNX SDP version(s) 6.6, 7.0, and 7.1 could allow an attacker to potentially cause Information Disclosure or a Denial-of-Service condition. \n\n",
+  "details": "Improper Input Validation in the Networking Stack of QNX SDP version(s) 6.6, 7.0, and 7.1 could allow an attacker to potentially cause Information Disclosure or a Denial-of-Service condition.",
   "severity": [
     {
       "type": "CVSS_V3",

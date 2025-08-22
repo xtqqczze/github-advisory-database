@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgmx-v8vm-g2vc",
-  "modified": "2025-08-21T21:32:06Z",
+  "modified": "2025-08-22T18:31:20Z",
   "published": "2025-08-21T21:32:05Z",
   "aliases": [
     "CVE-2010-10015"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://www.broadcom.com/support/security-center/attacksignatures/detail?asid=26569"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/11190"
     },
     {
       "type": "WEB",

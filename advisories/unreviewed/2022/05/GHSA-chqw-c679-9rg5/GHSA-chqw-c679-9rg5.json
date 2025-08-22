@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-chqw-c679-9rg5",
-  "modified": "2022-05-24T17:25:27Z",
+  "modified": "2025-08-22T18:31:10Z",
   "published": "2022-05-24T17:25:27Z",
   "aliases": [
     "CVE-2020-6932"
   ],
   "details": "An information disclosure and remote code execution vulnerability in the slinger web server of the BlackBerry QNX Software Development Platform versions 6.4.0 to 6.6.0 could allow an attacker to potentially read arbitrary files and run arbitrary executables in the context of the web server.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-150",
       "CWE-20"
     ],
     "severity": "HIGH",
