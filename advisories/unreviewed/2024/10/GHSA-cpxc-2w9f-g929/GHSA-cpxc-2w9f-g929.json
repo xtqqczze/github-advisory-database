@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cpxc-2w9f-g929",
-  "modified": "2024-10-15T12:30:37Z",
+  "modified": "2025-08-22T09:30:41Z",
   "published": "2024-10-15T12:30:37Z",
   "aliases": [
     "CVE-2024-45271"
@@ -26,12 +26,17 @@
     {
       "type": "WEB",
       "url": "https://cert.vde.com/en/advisories/VDE-2024-066"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.syss.de/fileadmin/dokumente/Publikationen/Advisories/SYSS-2024-059.txt"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-116",
-      "CWE-20"
+      "CWE-20",
+      "CWE-94"
     ],
     "severity": "HIGH",
     "github_reviewed": false,

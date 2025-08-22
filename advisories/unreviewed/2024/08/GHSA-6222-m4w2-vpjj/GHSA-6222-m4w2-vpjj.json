@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6222-m4w2-vpjj",
-  "modified": "2024-08-12T15:30:51Z",
+  "modified": "2025-08-22T09:30:40Z",
   "published": "2024-08-12T15:30:51Z",
   "aliases": [
     "CVE-2024-6758"
@@ -26,6 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-266",
       "CWE-269"
     ],
     "severity": "MODERATE",
