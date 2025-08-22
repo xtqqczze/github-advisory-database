@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-vfpq-j5vq-3476",
+  "modified": "2025-08-22T06:30:31Z",
+  "published": "2025-08-22T06:30:31Z",
+  "aliases": [
+    "CVE-2025-8281"
+  ],
+  "details": "The WP Talroo WordPress plugin through 2.4 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin and unauthenticated users.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8281"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wpscan.com/vulnerability/36b9305e-e086-4edb-bff9-d181ea316389"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-22T06:15:33Z"
+  }
+}
