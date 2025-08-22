@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqrq-4mgf-ff32",
-  "modified": "2025-08-14T20:36:51Z",
+  "modified": "2025-08-22T23:17:25Z",
   "published": "2025-08-14T18:31:30Z",
   "aliases": [
     "CVE-2025-50817"
@@ -20,8 +20,15 @@
         "ecosystem": "PyPI",
         "name": "future"
       },
-      "versions": [
-        "1.0.0"
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0.14.0"
+            }
+          ]
+        }
       ]
     }
   ],
