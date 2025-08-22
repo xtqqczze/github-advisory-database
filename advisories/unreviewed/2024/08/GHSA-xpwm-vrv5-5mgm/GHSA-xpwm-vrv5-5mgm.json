@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpwm-vrv5-5mgm",
-  "modified": "2025-01-23T21:31:51Z",
+  "modified": "2025-08-22T12:30:30Z",
   "published": "2024-08-13T15:31:36Z",
   "aliases": [
     "CVE-2024-6788"
@@ -26,7 +26,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1188"
+      "CWE-1188",
+      "CWE-1392"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
