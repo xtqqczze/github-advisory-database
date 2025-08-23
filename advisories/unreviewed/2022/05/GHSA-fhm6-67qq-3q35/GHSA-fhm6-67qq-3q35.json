@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhm6-67qq-3q35",
-  "modified": "2022-05-17T04:52:05Z",
+  "modified": "2025-08-23T00:31:12Z",
   "published": "2022-05-17T04:52:05Z",
   "aliases": [
     "CVE-2014-0758"
@@ -16,12 +16,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-051-01"
+    },
+    {
+      "type": "WEB",
       "url": "http://ics-cert.us-cert.gov/advisories/ICSA-14-051-01"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-20"
+      "CWE-20",
+      "CWE-749"
     ],
     "severity": "HIGH",
     "github_reviewed": false,
