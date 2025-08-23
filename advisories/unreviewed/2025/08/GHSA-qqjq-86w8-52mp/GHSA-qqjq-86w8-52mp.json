@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqjq-86w8-52mp",
-  "modified": "2025-08-19T15:31:30Z",
+  "modified": "2025-08-23T09:30:22Z",
   "published": "2025-08-19T15:31:30Z",
   "aliases": [
     "CVE-2025-9144"
@@ -26,6 +26,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/KarinaGante/KGSec/blob/main/CVEs/Scada-LTS/4.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-9144"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-9144/#proof-of-concept-poc"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgpr-9q6r-xpg6",
-  "modified": "2025-08-19T15:31:28Z",
+  "modified": "2025-08-23T09:30:22Z",
   "published": "2025-08-19T15:31:28Z",
   "aliases": [
     "CVE-2025-9138"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/KarinaGante/KGSec/blob/main/CVEs/Scada-LTS/2.md#poc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-9138"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-9138/#proof-of-concept-poc"
     },
     {
       "type": "WEB",
