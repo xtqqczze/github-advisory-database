@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-457r-cqc8-9vj9",
-  "modified": "2022-11-23T15:39:50Z",
+  "modified": "2025-08-25T17:22:26Z",
   "published": "2022-11-23T15:39:50Z",
   "aliases": [],
   "summary": "sweetalert2 v10.16.10 and above contains hidden functionality",
@@ -19,6 +19,9 @@
           "events": [
             {
               "introduced": "10.16.10"
+            },
+            {
+              "fixed": "11.22.4"
             }
           ]
         }
