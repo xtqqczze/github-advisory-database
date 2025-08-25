@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-prjv-p6ff-2r98",
+  "modified": "2025-08-25T15:32:00Z",
+  "published": "2025-08-25T15:32:00Z",
+  "aliases": [
+    "CVE-2025-29515"
+  ],
+  "details": "Incorrect access control in the DELT_file.xgi endpoint of D-Link DSL-7740C with firmware DSL7740C.V6.TR069.20211230 allows attackers to modify arbitrary settings within the device's XML database, including the administrator’s password.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29515"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/stevenyu113228/0bf32385245f71dfe11b0ef77c468392"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.dlink.com/en/security-bulletin"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-25T14:15:30Z"
+  }
+}

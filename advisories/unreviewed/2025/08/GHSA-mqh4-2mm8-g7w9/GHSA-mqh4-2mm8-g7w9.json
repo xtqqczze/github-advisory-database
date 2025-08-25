@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mqh4-2mm8-g7w9",
+  "modified": "2025-08-25T15:32:00Z",
+  "published": "2025-08-25T15:32:00Z",
+  "aliases": [
+    "CVE-2025-43960"
+  ],
+  "details": "Adminer 4.8.1, when using Monolog for logging, allows a Denial of Service (memory consumption) via a crafted serialized payload (e.g., using s:1000000000), leading to a PHP Object Injection issue. Remote, unauthenticated attackers can trigger this by sending a malicious serialized object, which forces excessive memory usage, rendering Adminer’s interface unresponsive and causing a server-level DoS. While the server may recover after several minutes, multiple simultaneous requests can cause a complete crash requiring manual intervention.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-43960"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Seldaek/monolog"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/far00t01/CVE-2025-43960"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/vrana/adminer/compare/v4.8.1...v4.8.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.adminer.org"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-502"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-25T14:15:30Z"
+  }
+}

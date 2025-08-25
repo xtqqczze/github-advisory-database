@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-73xp-557h-g742",
+  "modified": "2025-08-25T15:32:00Z",
+  "published": "2025-08-25T15:32:00Z",
+  "aliases": [
+    "CVE-2025-29516"
+  ],
+  "details": "D-Link DSL-7740C with firmware DSL7740C.V6.TR069.20211230 was discovered to contain a command injection vulnerability via the backup function.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29516"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/stevenyu113228/07639885a3357674f44b44e6e891bb34"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.dlink.com/en/security-bulletin"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-25T14:15:30Z"
+  }
+}
