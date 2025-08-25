@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vgm8-mvfh-rj89",
-  "modified": "2025-08-21T18:31:29Z",
+  "modified": "2025-08-25T06:30:25Z",
   "published": "2025-08-21T18:31:29Z",
   "aliases": [
     "CVE-2025-7969"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7969"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/markdown-it/markdown-it/issues/1122"
     },
     {
       "type": "WEB",
