@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-crcq-738g-pqvc",
+  "modified": "2025-08-25T20:42:45Z",
+  "published": "2025-08-25T20:42:45Z",
+  "aliases": [
+    "CVE-2025-57811"
+  ],
+  "summary": "Craft CMS Potential Remote Code Execution via Twig SSTI",
+  "details": "You must have administrator access, and `ALLOW_ADMIN_CHANGES` must be enabled for this to work.\n\nhttps://craftcms.com/knowledge-base/securing-craft#set-allowAdminChanges-to-false-in-production\n\nNote: This is a follow-up to [GHSA-f3cw-hg6r-chfv](https://github.com/craftcms/cms/security/advisories/GHSA-f3cw-hg6r-chfv)\n\nUsers should update to the patched versions (4.16.6 and 5.8.7) to mitigate the issue.\n\nReferences: https://github.com/craftcms/cms/pull/17612",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "craftcms/cms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.0.0-RC1"
+            },
+            {
+              "fixed": "4.16.6"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 4.16.5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "craftcms/cms"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "5.0.0-RC1"
+            },
+            {
+              "fixed": "5.8.7"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 5.8.6"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/craftcms/cms/security/advisories/GHSA-crcq-738g-pqvc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/craftcms/cms/security/advisories/GHSA-f3cw-hg6r-chfv"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/craftcms/cms/pull/17612"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/craftcms/cms/commit/e77f8a287dcdda41f1724f525d03542f18566cbc"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/craftcms/cms"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22",
+      "CWE-94"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-08-25T20:42:45Z",
+    "nvd_published_at": null
+  }
+}
