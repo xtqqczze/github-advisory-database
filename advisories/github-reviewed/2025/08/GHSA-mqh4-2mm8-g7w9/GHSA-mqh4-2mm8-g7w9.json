@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqh4-2mm8-g7w9",
-  "modified": "2025-08-25T15:32:00Z",
+  "modified": "2025-08-25T21:50:01Z",
   "published": "2025-08-25T15:32:00Z",
   "aliases": [
     "CVE-2025-43960"
   ],
+  "summary": "Adminer PHP Object Injection issue leads to Denial of Service",
   "details": "Adminer 4.8.1, when using Monolog for logging, allows a Denial of Service (memory consumption) via a crafted serialized payload (e.g., using s:1000000000), leading to a PHP Object Injection issue. Remote, unauthenticated attackers can trigger this by sending a malicious serialized object, which forces excessive memory usage, rendering Adminer’s interface unresponsive and causing a server-level DoS. While the server may recover after several minutes, multiple simultaneous requests can cause a complete crash requiring manual intervention.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "vrana/adminer"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "4.8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,19 +42,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/Seldaek/monolog"
-    },
-    {
-      "type": "WEB",
       "url": "https://github.com/far00t01/CVE-2025-43960"
     },
     {
-      "type": "WEB",
-      "url": "https://github.com/vrana/adminer/compare/v4.8.1...v4.8.2"
-    },
-    {
-      "type": "WEB",
-      "url": "https://www.adminer.org"
+      "type": "PACKAGE",
+      "url": "https://github.com/vrana/adminer"
     }
   ],
   "database_specific": {
@@ -41,8 +54,8 @@
       "CWE-502"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-08-25T21:50:01Z",
     "nvd_published_at": "2025-08-25T14:15:30Z"
   }
 }
