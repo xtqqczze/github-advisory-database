@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx7m-68vc-ppxh",
-  "modified": "2025-08-25T14:32:33Z",
+  "modified": "2025-08-26T16:00:06Z",
   "published": "2025-08-25T14:32:32Z",
   "aliases": [
     "CVE-2025-54370"
@@ -117,6 +117,10 @@
       "url": "https://github.com/PHPOffice/PhpSpreadsheet/security/advisories/GHSA-rx7m-68vc-ppxh"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54370"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/PHPOffice/PhpSpreadsheet/commit/334a67797ace574d1d37c0992ffe283b7415471a"
     },
@@ -148,6 +152,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-25T14:32:32Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-25T14:15:33Z"
   }
 }
