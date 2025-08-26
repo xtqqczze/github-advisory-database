@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh55-q5pj-pxgw",
-  "modified": "2025-08-26T15:27:25Z",
+  "modified": "2025-08-26T20:44:25Z",
   "published": "2025-08-26T15:27:25Z",
   "aliases": [
     "CVE-2025-55212"
@@ -364,6 +364,10 @@
       "url": "https://github.com/ImageMagick/ImageMagick/security/advisories/GHSA-fh55-q5pj-pxgw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55212"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ImageMagick/ImageMagick/commit/5f0bcf986b8b5e90567750d31a37af502b73f2af"
     },
@@ -391,6 +395,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-26T15:27:25Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-26T17:15:39Z"
   }
 }
