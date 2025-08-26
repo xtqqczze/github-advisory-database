@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5xmr-2pwp-9cfm",
+  "modified": "2025-08-26T15:31:02Z",
+  "published": "2025-08-26T15:31:02Z",
+  "aliases": [
+    "CVE-2024-47853"
+  ],
+  "details": "An issue was discovered in Mahara 23.04.8 and 24.04.4. Attackers may utilize escalation of privileges in certain cases when logging into Mahara with Learning Tools Interoperability (LTI).",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mahara.org/interaction/forum/topic.php?id=9594"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mahara.org"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-26T14:15:35Z"
+  }
+}

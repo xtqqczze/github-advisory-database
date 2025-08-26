@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36x2-2rm5-fgp4",
-  "modified": "2025-08-22T18:31:23Z",
+  "modified": "2025-08-26T15:30:55Z",
   "published": "2025-08-22T18:31:23Z",
   "aliases": [
     "CVE-2025-50674"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/xbz0n/4b98e9291ddd5bb5e6232609e36b2082"
+    },
+    {
+      "type": "WEB",
+      "url": "https://xbz0n.sh/blog/CVE-2025-50674"
     },
     {
       "type": "WEB",

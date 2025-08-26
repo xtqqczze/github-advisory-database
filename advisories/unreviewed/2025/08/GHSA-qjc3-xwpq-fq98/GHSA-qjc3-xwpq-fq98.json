@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qjc3-xwpq-fq98",
+  "modified": "2025-08-26T15:31:02Z",
+  "published": "2025-08-26T15:31:02Z",
+  "aliases": [
+    "CVE-2025-52218"
+  ],
+  "details": "SelectZero Data Observability Platform before 2025.5.2 is vulnerable to Content Spoofing / Text Injection. Improper sanitization of unspecified parameters allows attackers to inject arbitrary text or limited HTML into the login page.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-52218"
+    },
+    {
+      "type": "WEB",
+      "url": "https://selectzero.io/change-log"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-26T15:15:46Z"
+  }
+}
