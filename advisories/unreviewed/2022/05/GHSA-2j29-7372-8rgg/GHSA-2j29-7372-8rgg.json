@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j29-7372-8rgg",
-  "modified": "2022-05-17T02:54:34Z",
+  "modified": "2025-08-26T18:31:08Z",
   "published": "2022-05-17T02:54:34Z",
   "aliases": [
     "CVE-2015-7313"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://security-tracker.debian.org/tracker/CVE-2015-7313"
+    },
+    {
+      "type": "WEB",
       "url": "https://security.gentoo.org/glsa/201701-16"
+    },
+    {
+      "type": "WEB",
+      "url": "https://ubuntu.com/security/CVE-2015-7313"
     },
     {
       "type": "WEB",

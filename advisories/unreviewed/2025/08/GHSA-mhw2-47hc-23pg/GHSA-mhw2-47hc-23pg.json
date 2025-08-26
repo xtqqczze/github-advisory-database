@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhw2-47hc-23pg",
-  "modified": "2025-08-26T15:31:02Z",
+  "modified": "2025-08-26T18:31:15Z",
   "published": "2025-08-26T15:31:02Z",
   "aliases": [
     "CVE-2025-25733"
   ],
   "details": "Incorrect access control in the SPI Flash Chip of Kapsch TrafficCom RIS-9160 & RIS-9260 Roadside Units (RSUs) v3.2.0.829.23, v3.8.0.1119.42, and v4.6.0.1211.28 allows physically proximate attackers to arbitrarily modify SPI flash regions, leading to a degradation of the security posture of the device.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-26T15:15:42Z"

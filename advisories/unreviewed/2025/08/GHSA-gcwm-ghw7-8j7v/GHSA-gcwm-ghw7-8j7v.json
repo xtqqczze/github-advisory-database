@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gcwm-ghw7-8j7v",
-  "modified": "2025-08-26T00:31:13Z",
+  "modified": "2025-08-26T18:31:15Z",
   "published": "2025-08-26T00:31:13Z",
   "aliases": [
     "CVE-2025-56215"
   ],
   "details": "phpgurukul Hospital Management System 4.0 is vulnerable to SQL Injection in contact.php via the pagetitle parameter.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-89"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-25T15:15:41Z"

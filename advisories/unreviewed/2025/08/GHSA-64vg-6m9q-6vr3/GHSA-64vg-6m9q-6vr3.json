@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64vg-6m9q-6vr3",
-  "modified": "2025-08-19T21:30:37Z",
+  "modified": "2025-08-26T18:31:14Z",
   "published": "2025-08-19T21:30:37Z",
   "aliases": [
     "CVE-2025-9165"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.com/libtiff/libtiff/-/issues/728"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.com/libtiff/libtiff/-/issues/728#note_2709263214"
     },
     {
       "type": "WEB",

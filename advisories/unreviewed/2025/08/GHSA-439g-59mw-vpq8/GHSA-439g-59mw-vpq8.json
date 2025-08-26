@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-439g-59mw-vpq8",
-  "modified": "2025-08-26T15:31:02Z",
+  "modified": "2025-08-26T18:31:15Z",
   "published": "2025-08-26T15:31:02Z",
   "aliases": [
     "CVE-2025-52036"
   ],
   "details": "A vulnerability has been found in NotesCMS and classified as medium. Affected by this vulnerability is the page /index.php?route=categories. The manipulation of the title of the service descriptions leads to a stored XSS vulnerability. The issue was confirmed to be present in the source code as of commit 7d821a0f028b0778b245b99ab3d3bff1ac10e2d3 (dated 2024-05-08), and was fixed in commit 95322c5121dbd7070f3bd54f2848079654a0a8ea (dated 2025-03-31). The attack can be launched remotely. CWE Definition of the Vulnerability: CWE-79.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-26T15:15:45Z"

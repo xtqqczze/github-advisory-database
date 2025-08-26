@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2f28-69j7-85hf",
-  "modified": "2025-08-26T00:31:14Z",
+  "modified": "2025-08-26T18:31:15Z",
   "published": "2025-08-26T00:31:14Z",
   "aliases": [
     "CVE-2025-50383"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50383"
+    },
+    {
+      "type": "WEB",
+      "url": "https://easyappointments.org"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfjm-xw35-h45p",
-  "modified": "2024-12-09T18:31:19Z",
+  "modified": "2025-08-26T18:31:09Z",
   "published": "2024-12-09T18:31:19Z",
   "aliases": [
     "CVE-2024-11454"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://autodesk.com/trust/security-advisories/adsk-sa-2024-0025"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.autodesk.com/trust/security-advisories/adsk-sa-2024-0025"
     }
   ],
   "database_specific": {
