@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cmr-4px5-23pc",
-  "modified": "2025-08-25T20:43:45Z",
+  "modified": "2025-08-26T17:11:45Z",
   "published": "2025-08-25T20:43:45Z",
   "aliases": [
     "CVE-2025-57809"
@@ -41,6 +41,10 @@
       "url": "https://github.com/mlc-ai/xgrammar/security/advisories/GHSA-5cmr-4px5-23pc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57809"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/mlc-ai/xgrammar/issues/250"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-25T20:43:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-25T22:15:33Z"
   }
 }
