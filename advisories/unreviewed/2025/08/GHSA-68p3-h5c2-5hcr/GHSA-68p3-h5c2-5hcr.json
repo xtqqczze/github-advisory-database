@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68p3-h5c2-5hcr",
-  "modified": "2025-08-22T21:31:16Z",
+  "modified": "2025-08-26T21:31:06Z",
   "published": "2025-08-22T21:31:16Z",
   "aliases": [
     "CVE-2025-54813"
   ],
   "details": "Improper Output Neutralization for Logs vulnerability in Apache Log4cxx.\n\nWhen using JSONLayout, not all payload bytes are properly escaped. If an attacker-supplied message contains certain non-printable characters, these will be passed along in the message and written out as part of the JSON message. This may prevent applications that consume these logs from correctly interpreting the information within them.\n\nThis issue affects Apache Log4cxx: before 1.5.0.\n\nUsers are recommended to upgrade to version 1.5.0, which fixes the issue.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:L/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"

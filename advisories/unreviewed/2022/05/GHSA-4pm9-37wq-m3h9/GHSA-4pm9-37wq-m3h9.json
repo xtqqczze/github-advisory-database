@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4pm9-37wq-m3h9",
-  "modified": "2022-05-24T19:06:19Z",
+  "modified": "2025-08-26T21:30:54Z",
   "published": "2022-05-24T19:06:19Z",
   "aliases": [
     "CVE-2021-34185"
   ],
   "details": "Miniaudio 0.10.35 has an integer-based buffer overflow caused by an out-of-bounds left shift in drwav_bytes_to_u32 in miniaudio.h",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
