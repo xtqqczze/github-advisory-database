@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2gr-8xqx-rxmg",
-  "modified": "2025-08-15T18:31:12Z",
+  "modified": "2025-08-26T00:31:08Z",
   "published": "2025-08-15T18:31:12Z",
   "aliases": [
     "CVE-2025-8066"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/bunkerity/bunkerweb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/bunkerity/bunkerweb/releases/tag/v1.6.4"
     }
   ],
   "database_specific": {

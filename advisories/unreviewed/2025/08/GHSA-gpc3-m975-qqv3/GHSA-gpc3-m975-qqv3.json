@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-gpc3-m975-qqv3",
+  "modified": "2025-08-26T00:31:13Z",
+  "published": "2025-08-26T00:31:13Z",
+  "aliases": [
+    "CVE-2025-50900"
+  ],
+  "details": "An issue was discovered in getrebuild/rebuild 4.0.4. The affected source code class is com.rebuild.web.RebuildWebInterceptor, and the affected function is preHandle In the filter code, use CodecUtils.urlDecode(request.getRequestURI()) to obtain the URL-decoded request path, and then determine whether the path endsWith /error. If so, execute return true to skip this Interceptor. Else, redirect to /user/login api. Allowing unauthenticated attackers to gain sensitive information or escalated privileges.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://racerz.notion.site/Rebuild-Vulnerability-1ede0e0074f280d8a906c38442a393f0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.notion.so/racerz/Rebuild-Vulnerability-1ede0e0074f280d8a906c38442a393f0?pvs=4"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-25T15:15:40Z"
+  }
+}

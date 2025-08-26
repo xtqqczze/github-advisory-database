@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9xpp-gwq4-78fj",
-  "modified": "2022-05-13T01:03:37Z",
+  "modified": "2025-08-26T00:31:08Z",
   "published": "2022-05-13T01:03:37Z",
   "aliases": [
     "CVE-2014-0754"
@@ -16,7 +16,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://download.schneider-electric.com/files?p_Doc_Ref=SEVD-2014-260-01"
+    },
+    {
+      "type": "WEB",
       "url": "https://ics-cert.us-cert.gov/advisories/ICSA-14-273-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-14-273-01"
     },
     {
       "type": "WEB",

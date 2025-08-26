@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-mj67-hvgr-jqhr",
+  "modified": "2025-08-26T00:31:14Z",
+  "published": "2025-08-26T00:31:14Z",
+  "aliases": [
+    "CVE-2025-55575"
+  ],
+  "details": "SQL Injection vulnerability in SMM Panel 3.1 allowing remote attackers to gain sensitive information via a crafted HTTP request with action=service_detail.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55575"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Aether-0/CVE-2025-55575"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-25T16:15:32Z"
+  }
+}

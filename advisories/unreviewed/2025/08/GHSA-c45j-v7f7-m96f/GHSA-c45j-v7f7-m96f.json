@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c45j-v7f7-m96f",
+  "modified": "2025-08-26T00:31:13Z",
+  "published": "2025-08-26T00:31:13Z",
+  "aliases": [
+    "CVE-2024-46412"
+  ],
+  "details": "Incorrect access control in the prehandle function of Rebuild v3.7.7 allows attackers to bypass authentication via a crafted GET request sent to /commons/ip-location.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-46412"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RacerZ-fighting/CVE-vulns/blob/main/rebuild%203.7.5.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/RacerZ-fighting/rebuild-vulns/blob/main/rebuild%203.7.7.md"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-08-25T15:15:35Z"
+  }
+}
