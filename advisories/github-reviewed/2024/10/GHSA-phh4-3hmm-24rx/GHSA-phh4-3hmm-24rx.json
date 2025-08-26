@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phh4-3hmm-24rx",
-  "modified": "2024-10-02T21:55:42Z",
+  "modified": "2025-08-26T19:43:23Z",
   "published": "2024-10-02T12:30:33Z",
   "withdrawn": "2024-10-02T21:55:42Z",
   "aliases": [],
@@ -50,7 +50,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-1391"
+      "CWE-1391",
+      "CWE-330",
+      "CWE-337"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
