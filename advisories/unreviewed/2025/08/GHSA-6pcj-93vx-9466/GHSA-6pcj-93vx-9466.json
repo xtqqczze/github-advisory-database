@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pcj-93vx-9466",
-  "modified": "2025-08-26T21:31:07Z",
+  "modified": "2025-08-27T15:33:14Z",
   "published": "2025-08-26T21:31:07Z",
   "aliases": [
     "CVE-2025-55443"
   ],
   "details": "Telpo MDM 1.4.6 thru 1.4.9 for Android contains sensitive administrator credentials and MQTT server connection details (IP/port) that are stored in plaintext within log files on the device's external storage. This allows attackers with access to these logs to: 1. Authenticate to the MDM web platform to execute administrative operations (device shutdown/factory reset/software installation); 2. Connect to the MQTT server to intercept/publish device data.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-312"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-26T20:15:40Z"

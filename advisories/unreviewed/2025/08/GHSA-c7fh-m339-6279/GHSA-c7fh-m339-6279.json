@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7fh-m339-6279",
-  "modified": "2025-08-26T21:31:07Z",
+  "modified": "2025-08-27T15:33:14Z",
   "published": "2025-08-26T21:31:07Z",
   "aliases": [
     "CVE-2025-50975"
   ],
   "details": "IPFire 2.29 web-based firewall interface (firewall.cgi) fails to sanitize several rule parameters such as PROT, SRC_PORT, TGT_PORT, dnatport, key, ruleremark, src_addr, std_net_tgt, and tgt_addr, allowing an authenticated administrator to inject persistent JavaScript. This stored XSS payload is executed whenever another admin views the firewall rules page, enabling session hijacking, unauthorized actions within the interface, or further internal pivoting. Exploitation requires only high-privilege GUI access, and the complexity of the attack is low.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-26T19:15:45Z"

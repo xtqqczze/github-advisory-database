@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq8p-vv42-gjv3",
-  "modified": "2025-08-26T15:31:02Z",
+  "modified": "2025-08-27T15:33:14Z",
   "published": "2025-08-26T15:31:02Z",
   "aliases": [
     "CVE-2025-25736"
   ],
   "details": "Kapsch TrafficCom RIS-9260 RSU LEO v3.2.0.829.23, v3.8.0.1119.42, and v4.6.0.1211.28 were discovered to contain Android Debug Bridge (ADB) pre-installed (/mnt/c3platpersistent/opt/platform-tools/adb) and enabled by default, allowing unauthenticated root shell access to the cellular modem via the default 'kapsch' user.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-306"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-26T15:15:42Z"
