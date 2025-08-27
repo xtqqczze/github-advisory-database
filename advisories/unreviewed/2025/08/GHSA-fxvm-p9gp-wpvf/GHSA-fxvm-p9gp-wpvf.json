@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxvm-p9gp-wpvf",
-  "modified": "2025-08-19T18:31:32Z",
+  "modified": "2025-08-27T18:31:53Z",
   "published": "2025-08-19T18:31:32Z",
   "aliases": [
     "CVE-2025-9145"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/KarinaGante/KGSec/blob/main/CVEs/Scada-LTS/5.md#poc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-9145"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-9145/#proof-of-concept-poc"
     },
     {
       "type": "WEB",

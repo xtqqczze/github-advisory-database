@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p74-fjhf-m5jm",
-  "modified": "2025-08-26T21:31:07Z",
+  "modified": "2025-08-27T18:31:53Z",
   "published": "2025-08-26T21:31:07Z",
   "aliases": [
     "CVE-2024-47192"
   ],
   "details": "An issue was discovered in Mahara 23.04.8 and 24.04.4. The use of a malicious export download URL can allow an attacker to download files that they do not have permission to download.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-494"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-08-26T21:15:47Z"
