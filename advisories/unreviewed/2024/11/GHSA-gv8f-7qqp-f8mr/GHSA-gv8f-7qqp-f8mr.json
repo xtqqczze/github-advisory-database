@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv8f-7qqp-f8mr",
-  "modified": "2024-11-14T00:31:11Z",
+  "modified": "2025-08-27T00:31:15Z",
   "published": "2024-11-13T18:32:05Z",
   "aliases": [
     "CVE-2024-43090"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/f1a15b5ef2539113c882fd2644f301a23e50f961"
+    },
+    {
+      "type": "WEB",
       "url": "https://source.android.com/security/bulletin/2024-11-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/security/bulletin/2025-03-01"
     }
   ],
   "database_specific": {

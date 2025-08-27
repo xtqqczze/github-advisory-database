@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3459-9h5c-8q2x",
-  "modified": "2024-08-29T21:31:01Z",
+  "modified": "2025-08-27T00:31:15Z",
   "published": "2024-02-16T03:30:51Z",
   "aliases": [
     "CVE-2024-0032"
@@ -25,11 +25,23 @@
     },
     {
       "type": "WEB",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/a6321142ea43053ea8d0db516eede4c35c5dab18"
+    },
+    {
+      "type": "WEB",
       "url": "https://android.googlesource.com/platform/packages/providers/DownloadProvider/+/5acd646e0cf63e2c9c0862da7e03531ef0074394"
     },
     {
       "type": "WEB",
+      "url": "https://android.googlesource.com/platform/packages/providers/DownloadProvider/+/b2cc552f8e1ed982e6662f64baa2cdbf1acaf777"
+    },
+    {
+      "type": "WEB",
       "url": "https://source.android.com/security/bulletin/2024-02-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/security/bulletin/2025-03-01"
     }
   ],
   "database_specific": {
