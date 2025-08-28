@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mqg-q94g-wmfr",
-  "modified": "2025-07-28T12:30:34Z",
+  "modified": "2025-08-28T15:30:36Z",
   "published": "2025-07-28T12:30:34Z",
   "aliases": [
     "CVE-2025-38468"
@@ -24,7 +24,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5c0506cd1b1a3b145bda2612bbf7fe78d186c355"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7ff2d83ecf2619060f30ecf9fad4f2a700fca344"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/850226aef8d28a00cf966ef26d2f8f2bff344535"
     },
     {
       "type": "WEB",
@@ -33,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/e5c480dc62a3025b8428d4818e722da30ad6804f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/fed3570e548a6c9f95c5f4c9e1a7afc1679fd90d"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mrx6-v6w2-5q3x",
-  "modified": "2025-08-22T18:31:21Z",
+  "modified": "2025-08-28T15:30:39Z",
   "published": "2025-08-22T18:31:21Z",
   "aliases": [
     "CVE-2025-38622"
@@ -24,6 +24,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/4c1022220b1b6fea802175e80444923a3bbf93a5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/72f97d3cb791e26492236b2be7fd70d2c6222555"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/791f32c5eab33ca3a153f8f6f763aa0df1ddc320"
     },
     {
@@ -33,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/d46e51f1c78b9ab9323610feb14238d06d46d519"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/df6ad849d59256dcc0e2234844ef9f0daf885f5c"
     },
     {
       "type": "WEB",

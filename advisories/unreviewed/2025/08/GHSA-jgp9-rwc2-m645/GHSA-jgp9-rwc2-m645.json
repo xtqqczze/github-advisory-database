@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgp9-rwc2-m645",
-  "modified": "2025-08-16T12:30:33Z",
+  "modified": "2025-08-28T15:30:38Z",
   "published": "2025-08-16T12:30:33Z",
   "aliases": [
     "CVE-2025-38539"
@@ -33,6 +33,18 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b5e8acc14dcb314a9b61ff19dcd9fdd0d88f70df"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ca60064ea03f14e06c763de018403cb56ba3207d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/db45632479ceecb669612ed8dbce927e3c6279fc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e70f5ee4c8824736332351b703c46f9469ed7f6c"
     }
   ],
   "database_specific": {

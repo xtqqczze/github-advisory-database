@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xmm-chg9-ppmr",
-  "modified": "2024-12-23T15:30:46Z",
+  "modified": "2025-08-28T15:30:32Z",
   "published": "2024-05-01T06:31:42Z",
   "aliases": [
     "CVE-2024-26958"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/4595d90b5d2ea5fa4d318d13f59055aa4bf3e7f5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/6cd3f13aaa62970b5169d990e936b2e96943bc6a"
     },
     {
       "type": "WEB",

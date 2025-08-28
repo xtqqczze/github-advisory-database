@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmc7-frwx-fp3p",
-  "modified": "2025-08-22T18:31:23Z",
+  "modified": "2025-08-28T15:30:39Z",
   "published": "2025-08-22T18:31:23Z",
   "aliases": [
     "CVE-2025-38671"
@@ -32,7 +32,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/acfa2948be630ad857535cb36153697f3cbf9ca9"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/c523bfba46c4b4d7676fb050909533a766698ecd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/cbec4406998185e0311ae97dfacc649f9cd79b0b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d05ec13aa3eb868a60dc961b489053a643863ddc"
     }
   ],
   "database_specific": {

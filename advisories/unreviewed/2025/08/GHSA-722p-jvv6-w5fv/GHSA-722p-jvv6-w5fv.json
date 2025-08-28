@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-722p-jvv6-w5fv",
-  "modified": "2025-08-19T18:31:32Z",
+  "modified": "2025-08-28T15:30:38Z",
   "published": "2025-08-19T18:31:32Z",
   "aliases": [
     "CVE-2025-38563"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38563"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3bd518cc7ea61076bcd725e36ff0e690754977c0"
     },
     {
       "type": "WEB",
@@ -29,6 +33,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b024d7b56c77191cde544f838debb7f8451cd0d6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d52451a9210f2e5a079ba052918c93563518a9ff"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/e4346ffec2c44d6b0be834d59b20632b5bb5729e"
     },
     {
       "type": "WEB",

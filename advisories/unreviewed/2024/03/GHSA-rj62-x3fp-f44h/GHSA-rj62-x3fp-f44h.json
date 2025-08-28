@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rj62-x3fp-f44h",
-  "modified": "2025-05-02T09:30:24Z",
+  "modified": "2025-08-28T15:30:32Z",
   "published": "2024-03-03T00:30:32Z",
   "aliases": [
     "CVE-2023-52572"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/ed3b36f351d97dacb62cd0f399e8cf79f73bd30a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/fe87e2d0e6265859c659a3ef1e2559a83c5e8e68"
     }
   ],
   "database_specific": {

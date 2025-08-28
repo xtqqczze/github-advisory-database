@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6fm3-hv4h-3737",
-  "modified": "2025-08-19T18:31:33Z",
+  "modified": "2025-08-28T15:30:38Z",
   "published": "2025-08-19T18:31:33Z",
   "aliases": [
     "CVE-2025-38577"
@@ -16,6 +16,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/15df59809c54fbd687cdf27efbd2103a937459be"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/42f9ea16aea8b49febaa87950a006a1792209f38"
     },
     {
@@ -24,7 +28,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/5cd99d5aa3d39086bdb53eb5c52df16e98b101a0"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/880ef748e78a1eb7df2d8e11a9ef21e98bcaabe5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/9535e440fe5bc6c5ac7cfb407e53bf788b8bf8d4"
     },
     {
       "type": "WEB",

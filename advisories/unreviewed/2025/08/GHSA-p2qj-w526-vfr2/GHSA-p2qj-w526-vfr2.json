@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p2qj-w526-vfr2",
-  "modified": "2025-08-19T18:31:33Z",
+  "modified": "2025-08-28T15:30:38Z",
   "published": "2025-08-19T18:31:33Z",
   "aliases": [
     "CVE-2025-38581"
@@ -20,6 +20,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/20c0ed8dd65834e6bab464f54cd6ff68659bacb9"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/2d4060f05e74dbee884ba723f6afd9282befc3c5"
     },
     {
@@ -33,6 +37,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/9dea08eac4f6d6fbbae59992978252e2edab995d"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a25ab6dfa0ce323ec308966988be6b675eb9d3e5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/ce63a83925964ab7564bd216bd92b80bc365492e"
     },
     {
       "type": "WEB",

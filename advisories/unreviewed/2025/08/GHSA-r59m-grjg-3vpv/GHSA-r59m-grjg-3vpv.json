@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r59m-grjg-3vpv",
-  "modified": "2025-08-22T18:31:22Z",
+  "modified": "2025-08-28T15:30:39Z",
   "published": "2025-08-22T18:31:22Z",
   "aliases": [
     "CVE-2025-38635"
@@ -32,7 +32,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2adc945b70c4d97e9491a6c0c9f3b217a9eecfba"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/6fb19cdcf040e1dec052a9032acb66cc2ad1d43f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/77e9ad7a2d0e2a771c9e0be04b9d1639413b5f13"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/7843412e5927dafbb844782c56b6380564064109"
     },
     {
       "type": "WEB",

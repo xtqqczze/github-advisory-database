@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5xmm-95mj-42h8",
-  "modified": "2025-08-11T21:31:41Z",
+  "modified": "2025-08-28T15:30:38Z",
   "published": "2025-08-11T21:31:40Z",
   "aliases": [
     "CVE-2025-40920"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/ETHER/Catalyst-Authentication-Credential-HTTP-1.018/source/lib/Catalyst/Authentication/Credential/HTTP.pm#L391"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.metacpan.org/patches/C/Catalyst-Authentication-Credential-HTTP/1.018/CVE-2025-40920-r1.patch"
     }
   ],
   "database_specific": {

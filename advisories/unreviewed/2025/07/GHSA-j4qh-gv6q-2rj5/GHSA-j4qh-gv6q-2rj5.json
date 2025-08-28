@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4qh-gv6q-2rj5",
-  "modified": "2025-07-29T21:30:42Z",
+  "modified": "2025-08-28T15:30:38Z",
   "published": "2025-07-29T15:31:50Z",
   "aliases": [
     "CVE-2025-51970"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/im4x/10738ee219d69024387737fb14cdba9f"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jairajparyani/CVE-s/blob/main/CVE-2025-51970%20%E2%80%93%20SQL%20Injection%20Vulnerability%20in%20Online%20Shopping%20System%20Advanced"
     }
   ],
   "database_specific": {

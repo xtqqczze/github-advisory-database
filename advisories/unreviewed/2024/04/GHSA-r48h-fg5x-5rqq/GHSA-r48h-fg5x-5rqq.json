@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r48h-fg5x-5rqq",
-  "modified": "2024-04-19T21:31:07Z",
+  "modified": "2025-08-28T15:30:32Z",
   "published": "2024-04-10T21:30:31Z",
   "aliases": [
     "CVE-2021-47193"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47193"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/0c4398f2ee030d5753f6b0ad83f0ed9077851d9a"
     },
     {
       "type": "WEB",

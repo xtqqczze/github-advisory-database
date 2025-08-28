@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qxf4-8xgp-wwwr",
-  "modified": "2025-08-19T18:31:34Z",
+  "modified": "2025-08-28T15:30:39Z",
   "published": "2025-08-19T18:31:34Z",
   "aliases": [
     "CVE-2025-38612"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38612"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/3290f62f23fae05f2ec34085eb86dfb3648ef91f"
     },
     {
       "type": "WEB",
@@ -28,11 +32,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/83ea0c7b8d12c67f6c4703d6c458627a7fc45fc0"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/a3177955f8da3c826a18b75e54881e2e9a9c96f1"
     },
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/b31cf6f7716a5d3e4461763f32d812acdaec6e74"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/c3b1c45c48117ed4d8797ee89d1155f16b72d490"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mhpr-v3hf-gcxg",
-  "modified": "2024-08-26T15:31:14Z",
+  "modified": "2025-08-28T15:30:32Z",
   "published": "2024-07-29T18:30:40Z",
   "aliases": [
     "CVE-2024-42085"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/7838de15bb700c2898a7d741db9b1f3cbc86c136"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/8731a0b180f6b5d52397c7aeea6eda9511a467a7"
     },
     {
       "type": "WEB",

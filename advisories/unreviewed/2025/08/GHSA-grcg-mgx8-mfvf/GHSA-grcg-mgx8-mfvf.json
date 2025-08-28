@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-grcg-mgx8-mfvf",
-  "modified": "2025-08-20T18:30:19Z",
+  "modified": "2025-08-28T15:30:39Z",
   "published": "2025-08-19T18:31:34Z",
   "aliases": [
     "CVE-2025-38614"
@@ -16,7 +16,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/1b13b033062824495554e836a1ff5f85ccf6b039"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/2a0c0c974bea9619c6f41794775ae4b97530e0e6"
+    },
+    {
+      "type": "WEB",
       "url": "https://git.kernel.org/stable/c/3542c90797bc3ab83ebab54b737d751cf3682036"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/71379495ab70eaba19224bd71b5b9b399eb85e04"
     },
     {
       "type": "WEB",

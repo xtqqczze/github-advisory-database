@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7wr-q7cm-56rh",
-  "modified": "2025-01-27T15:30:56Z",
+  "modified": "2025-08-28T15:30:32Z",
   "published": "2024-04-10T21:30:30Z",
   "aliases": [
     "CVE-2021-47183"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47183"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/04c1af683270e4709a594bb1691b8800b945035a"
     },
     {
       "type": "WEB",

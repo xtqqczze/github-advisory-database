@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gv4-5v5r-xjq2",
-  "modified": "2024-12-12T15:31:05Z",
+  "modified": "2025-08-28T15:30:32Z",
   "published": "2024-03-02T00:31:31Z",
   "aliases": [
     "CVE-2021-47076"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-47076"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/a81e72d49b0648f68ab201163dbfc7841056d7a2"
     },
     {
       "type": "WEB",

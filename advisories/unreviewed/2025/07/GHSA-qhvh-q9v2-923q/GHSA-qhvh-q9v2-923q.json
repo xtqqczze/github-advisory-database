@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhvh-q9v2-923q",
-  "modified": "2025-07-28T12:30:36Z",
+  "modified": "2025-08-28T15:30:38Z",
   "published": "2025-07-28T12:30:36Z",
   "aliases": [
     "CVE-2025-38497"
@@ -13,6 +13,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-38497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/15a87206879951712915c03c8952a73d6a74721e"
     },
     {
       "type": "WEB",
@@ -33,6 +37,14 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/783ea37b237a9b524f1e5ca018ea17d772ee0ea0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/78b41148cfea2a3f04d87adf3a71b21735820a37"
+    },
+    {
+      "type": "WEB",
+      "url": "https://git.kernel.org/stable/c/d68b7c8fefbaeae8f065b84e40cf64baf4cc0c76"
     }
   ],
   "database_specific": {
