@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w48j-pp7j-fj55",
-  "modified": "2025-08-28T16:46:10Z",
+  "modified": "2025-08-28T18:52:30Z",
   "published": "2025-08-28T16:46:10Z",
   "aliases": [
     "CVE-2025-58059"
@@ -60,6 +60,10 @@
       "url": "https://github.com/valtimo-platform/valtimo-backend-libraries/security/advisories/GHSA-w48j-pp7j-fj55"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58059"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/valtimo-platform/valtimo-backend-libraries/commit/45eb60b0b2df5964fb9917295d0dceb1fff8dd85"
     },
@@ -76,6 +80,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-28T16:46:10Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-28T18:15:33Z"
   }
 }

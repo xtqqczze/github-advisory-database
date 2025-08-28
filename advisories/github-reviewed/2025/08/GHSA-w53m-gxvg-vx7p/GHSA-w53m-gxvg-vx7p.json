@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w53m-gxvg-vx7p",
-  "modified": "2025-08-28T14:58:00Z",
+  "modified": "2025-08-28T18:51:43Z",
   "published": "2025-08-28T14:58:00Z",
   "aliases": [
     "CVE-2025-57757"
@@ -98,6 +98,10 @@
       "url": "https://github.com/contao/contao/security/advisories/GHSA-w53m-gxvg-vx7p"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-57757"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/contao/contao/commit/e75f46b11974fbf7a4652e65c19ad6ca84c59271"
     },
@@ -118,6 +122,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-28T14:58:00Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-28T17:15:36Z"
   }
 }
