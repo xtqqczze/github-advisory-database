@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fr84-cjqr-qqjf",
-  "modified": "2025-08-27T15:33:15Z",
+  "modified": "2025-08-28T06:30:57Z",
   "published": "2025-08-27T15:33:15Z",
   "aliases": [
     "CVE-2025-9531"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/KarinaGante/KGSec/blob/main/CVEs/i-educar/11.md#poc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-9531"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-9531/#proof-of-concept-poc"
     },
     {
       "type": "WEB",

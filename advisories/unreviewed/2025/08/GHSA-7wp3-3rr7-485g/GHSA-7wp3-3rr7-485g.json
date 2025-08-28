@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7wp3-3rr7-485g",
-  "modified": "2025-08-28T03:31:22Z",
+  "modified": "2025-08-28T06:30:56Z",
   "published": "2025-08-21T15:30:35Z",
   "aliases": [
     "CVE-2025-34158"

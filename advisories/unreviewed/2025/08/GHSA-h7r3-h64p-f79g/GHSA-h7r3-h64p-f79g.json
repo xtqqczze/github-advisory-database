@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7r3-h64p-f79g",
-  "modified": "2025-08-27T15:33:15Z",
+  "modified": "2025-08-28T06:30:57Z",
   "published": "2025-08-27T15:33:15Z",
   "aliases": [
     "CVE-2025-9532"
@@ -30,6 +30,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/KarinaGante/KGSec/blob/main/CVEs/i-educar/12.md#poc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-9532"
+    },
+    {
+      "type": "WEB",
+      "url": "https://karinagante.github.io/cve-2025-9532/#proof-of-concept-poc"
     },
     {
       "type": "WEB",
