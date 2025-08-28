@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g36-gjmw-42gq",
-  "modified": "2025-08-19T15:31:29Z",
+  "modified": "2025-08-28T18:30:38Z",
   "published": "2025-08-19T15:31:29Z",
   "aliases": [
     "CVE-2025-9140"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.628087"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.exploit-db.com/exploits/52420"
     },
     {
       "type": "WEB",
