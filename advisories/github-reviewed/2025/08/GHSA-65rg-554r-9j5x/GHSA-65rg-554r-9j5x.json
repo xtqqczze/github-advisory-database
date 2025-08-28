@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65rg-554r-9j5x",
-  "modified": "2025-08-28T14:40:08Z",
+  "modified": "2025-08-28T15:59:37Z",
   "published": "2025-08-28T14:40:08Z",
   "aliases": [
     "CVE-2024-48908"
@@ -41,6 +41,10 @@
       "url": "https://github.com/lycheeverse/lychee-action/security/advisories/GHSA-65rg-554r-9j5x"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-48908"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/lycheeverse/lychee-action/commit/7cd0af4c74a61395d455af97419279d86aafaede"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-28T14:40:08Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-28T15:15:42Z"
   }
 }
