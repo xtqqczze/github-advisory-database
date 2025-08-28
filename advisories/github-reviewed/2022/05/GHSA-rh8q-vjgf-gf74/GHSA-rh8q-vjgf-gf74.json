@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rh8q-vjgf-gf74",
-  "modified": "2024-03-07T21:47:34Z",
+  "modified": "2025-08-28T20:14:29Z",
   "published": "2022-05-14T01:10:16Z",
   "aliases": [
     "CVE-2015-5345"
@@ -47,7 +47,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "8.0.0.RC1"
+              "introduced": "8.0.0-RC1"
             },
             {
               "fixed": "8.0.30"
