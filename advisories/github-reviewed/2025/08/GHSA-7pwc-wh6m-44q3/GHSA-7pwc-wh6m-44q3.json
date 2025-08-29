@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pwc-wh6m-44q3",
-  "modified": "2025-08-27T19:23:36Z",
+  "modified": "2025-08-29T15:22:58Z",
   "published": "2025-08-27T16:46:16Z",
   "aliases": [
     "CVE-2025-57821"
@@ -63,6 +63,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/basecamp/google_sign_in/releases/tag/v1.3.0"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/google_sign_in/CVE-2025-57821.yml"
     }
   ],
   "database_specific": {
