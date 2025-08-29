@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2464-8j7c-4cjm",
-  "modified": "2025-08-21T14:37:19Z",
+  "modified": "2025-08-29T20:44:25Z",
   "published": "2025-08-21T14:37:19Z",
   "aliases": [],
   "summary": "go-viper's mapstructure May Leak Sensitive Information in Logs When Processing Malformed Data",
@@ -48,6 +48,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/go-viper/mapstructure"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3900"
     }
   ],
   "database_specific": {
