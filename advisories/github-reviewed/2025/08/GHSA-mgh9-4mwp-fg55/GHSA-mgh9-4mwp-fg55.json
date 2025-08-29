@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mgh9-4mwp-fg55",
-  "modified": "2025-08-18T23:27:57Z",
+  "modified": "2025-08-29T20:35:56Z",
   "published": "2025-08-18T21:00:52Z",
   "aliases": [
     "CVE-2025-55213"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/openfga/openfga"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3894"
     }
   ],
   "database_specific": {
