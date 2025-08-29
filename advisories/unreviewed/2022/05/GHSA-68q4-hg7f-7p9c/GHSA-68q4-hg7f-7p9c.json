@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-68q4-hg7f-7p9c",
-  "modified": "2022-07-13T00:00:44Z",
+  "modified": "2025-08-29T00:31:13Z",
   "published": "2022-05-24T17:35:55Z",
   "aliases": [
     "CVE-2020-17144"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-17144"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-17144"
     },
     {
       "type": "WEB",

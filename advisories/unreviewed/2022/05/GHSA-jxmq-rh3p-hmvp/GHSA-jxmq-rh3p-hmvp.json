@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxmq-rh3p-hmvp",
-  "modified": "2023-12-30T00:30:21Z",
+  "modified": "2025-08-29T00:31:13Z",
   "published": "2022-05-24T17:35:55Z",
   "aliases": [
     "CVE-2020-17143"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-17143"
+    },
+    {
+      "type": "WEB",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-17143"
     },
     {
       "type": "WEB",
