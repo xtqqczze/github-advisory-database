@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rx7m-68vc-ppxh",
-  "modified": "2025-08-26T16:00:06Z",
+  "modified": "2025-08-29T21:09:00Z",
   "published": "2025-08-25T14:32:32Z",
   "aliases": [
     "CVE-2025-54370"
@@ -139,6 +139,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/PHPOffice/PhpSpreadsheet/commit/c2cd0e64392438e4c6af082796eb65c1d629a266"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/phpoffice/phpspreadsheet/CVE-2025-54370.yaml"
     },
     {
       "type": "PACKAGE",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5j3w-5pcr-f8hg",
-  "modified": "2025-05-19T22:24:45Z",
+  "modified": "2025-08-29T21:08:41Z",
   "published": "2025-05-19T22:24:45Z",
   "aliases": [
     "CVE-2025-47946"
@@ -80,8 +80,20 @@
       "url": "https://github.com/symfony/ux/commit/c2f7738ee0969c31df7514025a7f5fc6e153932d"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/ux-live-component/CVE-2025-47946.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/symfony/ux-twig-component/CVE-2025-47946.yaml"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/symfony/ux"
+    },
+    {
+      "type": "WEB",
+      "url": "https://symfony.com/blog/symfony-ux-cve-2025-47946-unsanitized-html-attribute-injection-via-componentattributes"
     }
   ],
   "database_specific": {
