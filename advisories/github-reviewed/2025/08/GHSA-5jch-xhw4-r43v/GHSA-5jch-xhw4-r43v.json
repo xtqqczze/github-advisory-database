@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5jch-xhw4-r43v",
-  "modified": "2025-08-29T20:07:47Z",
+  "modified": "2025-08-29T21:58:40Z",
   "published": "2025-08-29T20:07:47Z",
   "aliases": [
     "CVE-2025-58067"
@@ -41,8 +41,24 @@
       "url": "https://github.com/basecamp/google_sign_in/security/advisories/GHSA-5jch-xhw4-r43v"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58067"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/basecamp/google_sign_in/pull/75"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/basecamp/google_sign_in/commit/e97aef4626b1bcbd2c6f01f7dd25f12ac855d4cc"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/basecamp/google_sign_in"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/basecamp/google_sign_in/releases/tag/v1.3.1"
     }
   ],
   "database_specific": {
@@ -52,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-29T20:07:47Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-29T21:15:36Z"
   }
 }

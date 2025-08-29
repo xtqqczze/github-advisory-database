@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4342-x723-ch2f",
-  "modified": "2025-08-29T21:33:09Z",
+  "modified": "2025-08-29T21:59:25Z",
   "published": "2025-08-29T21:33:09Z",
   "aliases": [
     "CVE-2025-57822"
   ],
   "summary": "Next.js Improper Middleware Redirect Handling Leads to SSRF",
-  "details": "A vulnerability in **Next.js Middleware** has been fixed in **v14.2.32** and **v15.4.7**. When `next()` was used without explicitly passing the `request` object, it could lead to SSRF in self-hosted applications that incorrectly forwarded user-supplied headers.\n\nAll users implementing custom middleware logic in self-hosted environments are strongly encouraged to upgrade and verify correct usage of the `next()` function.\n\nMore details at [Vercel Changelog](https://vercel.com/changelog/cve-2025-57822)",
+  "details": "A vulnerability in **Next.js Middleware** has been fixed in **v14.2.32** and **v15.4.7**. The issue occurred when request headers were directly passed into `NextResponse.next()`. In self-hosted applications, this could allow Server-Side Request Forgery (SSRF) if certain sensitive headers from the incoming request were reflected back into the response.\n\nAll users implementing custom middleware logic in self-hosted environments are strongly encouraged to upgrade and verify correct usage of the `next()` function.\n\nMore details at [Vercel Changelog](https://vercel.com/changelog/cve-2025-57822)",
   "severity": [
     {
       "type": "CVSS_V3",
