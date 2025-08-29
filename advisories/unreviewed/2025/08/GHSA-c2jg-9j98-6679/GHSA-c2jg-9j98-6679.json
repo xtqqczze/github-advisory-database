@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2jg-9j98-6679",
-  "modified": "2025-08-19T18:31:34Z",
+  "modified": "2025-08-29T21:32:02Z",
   "published": "2025-08-19T18:31:34Z",
   "aliases": [
     "CVE-2025-8450"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.cve.org/cverecord?id=CVE-2025-8450"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.fortra.com/security/advisories/product-security/fi-2025-010"
     }
   ],
   "database_specific": {

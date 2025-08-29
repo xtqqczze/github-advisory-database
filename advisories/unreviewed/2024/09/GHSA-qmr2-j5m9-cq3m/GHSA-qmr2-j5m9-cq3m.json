@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qmr2-j5m9-cq3m",
-  "modified": "2024-09-26T21:31:11Z",
+  "modified": "2025-08-29T21:32:01Z",
   "published": "2024-09-26T21:31:11Z",
   "aliases": [
     "CVE-2024-6769"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-6769"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/fortra/CVE-2024-6769"
     },
     {
       "type": "WEB",

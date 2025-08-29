@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmj4-vvpv-4m33",
-  "modified": "2024-10-11T18:32:48Z",
+  "modified": "2025-08-29T21:32:02Z",
   "published": "2024-10-10T03:30:44Z",
   "aliases": [
     "CVE-2024-48957"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/libarchive/libarchive/compare/v3.7.4...v3.7.5"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/terrynini/CVE-Reports/blob/main/CVE-2024-48957/README.md"
     }
   ],
   "database_specific": {

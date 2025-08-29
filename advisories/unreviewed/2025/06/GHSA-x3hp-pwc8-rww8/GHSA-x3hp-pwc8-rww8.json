@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3hp-pwc8-rww8",
-  "modified": "2025-06-17T21:32:30Z",
+  "modified": "2025-08-29T21:32:02Z",
   "published": "2025-06-17T21:32:30Z",
   "aliases": [
     "CVE-2025-5141"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.cve.org/cverecord?id=CVE-2025-5141"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.fortra.com/security/advisories/product-security/fi-2025-008"
     }
   ],
   "database_specific": {
