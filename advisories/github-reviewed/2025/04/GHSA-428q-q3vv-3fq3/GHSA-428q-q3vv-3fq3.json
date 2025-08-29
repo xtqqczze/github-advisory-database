@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-428q-q3vv-3fq3",
-  "modified": "2025-04-08T13:15:08Z",
+  "modified": "2025-08-29T21:08:09Z",
   "published": "2025-04-04T14:19:42Z",
   "aliases": [
     "CVE-2025-31485"
@@ -90,6 +90,44 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "api-platform/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.0-alpha.1"
+            },
+            {
+              "fixed": "4.1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "api-platform/graphql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.0-alpha.1"
+            },
+            {
+              "fixed": "4.1.5"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -108,6 +146,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/api-platform/core/commit/cba3acfbd517763cf320167250c5bed6d569696a"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/api-platform/core/CVE-2025-31485.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/api-platform/graphql/CVE-2025-31485.yaml"
     },
     {
       "type": "PACKAGE",

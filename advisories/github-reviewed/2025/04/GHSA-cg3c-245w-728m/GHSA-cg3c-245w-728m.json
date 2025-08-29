@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg3c-245w-728m",
-  "modified": "2025-04-08T13:14:40Z",
+  "modified": "2025-08-29T21:07:09Z",
   "published": "2025-04-04T14:07:20Z",
   "aliases": [
     "CVE-2025-31481"
@@ -90,6 +90,44 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "api-platform/graphql"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.0-alpha.1"
+            },
+            {
+              "fixed": "4.1.5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "api-platform/core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "4.1.0-alpha.1"
+            },
+            {
+              "fixed": "4.1.5"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -110,12 +148,24 @@
       "url": "https://github.com/api-platform/core/commit/60747cc8c2fb855798c923b5537888f8d0969568"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/api-platform/core/CVE-2025-31481.yaml"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/FriendsOfPHP/security-advisories/blob/master/api-platform/graphql/CVE-2025-31481.yaml"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/api-platform/core"
     },
     {
       "type": "WEB",
       "url": "https://github.com/api-platform/core/releases/tag/v3.4.17"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/api-platform/core/releases/tag/v4.1.5"
     }
   ],
   "database_specific": {
