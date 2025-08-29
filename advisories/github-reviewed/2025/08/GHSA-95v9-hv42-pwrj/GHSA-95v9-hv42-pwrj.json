@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95v9-hv42-pwrj",
-  "modified": "2025-08-26T15:20:55Z",
+  "modified": "2025-08-29T21:03:05Z",
   "published": "2025-08-22T20:58:21Z",
   "aliases": [
     "CVE-2025-57801"
@@ -51,6 +51,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/Consensys/gnark"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3912"
     }
   ],
   "database_specific": {

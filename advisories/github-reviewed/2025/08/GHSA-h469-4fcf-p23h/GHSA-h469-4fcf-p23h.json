@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h469-4fcf-p23h",
-  "modified": "2025-08-22T17:34:35Z",
+  "modified": "2025-08-29T21:02:12Z",
   "published": "2025-08-21T18:31:29Z",
   "aliases": [
     "CVE-2025-8402"
@@ -143,6 +143,44 @@
       "database_specific": {
         "last_known_affected_version_range": "<= 9.11.17"
       }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/mattermost/mattermost-server/v5"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "5.39.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/mattermost/mattermost-server/v6"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "6.7.2"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
@@ -157,6 +195,10 @@
     {
       "type": "WEB",
       "url": "https://mattermost.com/security-updates"
+    },
+    {
+      "type": "WEB",
+      "url": "https://pkg.go.dev/vuln/GO-2025-3911"
     }
   ],
   "database_specific": {

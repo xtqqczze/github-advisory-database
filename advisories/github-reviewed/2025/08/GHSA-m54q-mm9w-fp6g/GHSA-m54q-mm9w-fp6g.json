@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m54q-mm9w-fp6g",
-  "modified": "2025-08-29T14:59:37Z",
+  "modified": "2025-08-29T21:04:02Z",
   "published": "2025-08-29T14:59:37Z",
   "aliases": [
     "CVE-2025-55304"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Exiv2/exiv2/security/advisories/GHSA-m54q-mm9w-fp6g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55304"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Exiv2/exiv2/issues/3333"
     },
@@ -64,6 +68,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-29T14:59:37Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-29T15:15:35Z"
   }
 }

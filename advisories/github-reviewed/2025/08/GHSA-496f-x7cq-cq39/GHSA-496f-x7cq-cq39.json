@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-496f-x7cq-cq39",
-  "modified": "2025-08-29T14:49:41Z",
+  "modified": "2025-08-29T21:03:53Z",
   "published": "2025-08-29T14:49:41Z",
   "aliases": [
     "CVE-2025-54080"
@@ -41,6 +41,10 @@
       "url": "https://github.com/Exiv2/exiv2/security/advisories/GHSA-496f-x7cq-cq39"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-54080"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/Exiv2/exiv2/commit/e737332427711f15bcdc4e903203d6b7493eaec0"
     },
@@ -56,6 +60,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-08-29T14:49:41Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-08-29T15:15:35Z"
   }
 }
