@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrq2-m5w8-p5wg",
-  "modified": "2025-08-26T09:30:28Z",
+  "modified": "2025-08-31T00:30:25Z",
   "published": "2025-07-08T15:32:03Z",
   "aliases": [
     "CVE-2025-7345"
@@ -42,6 +42,26 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:14576"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:14585"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:14618"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:14646"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:14647"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:14683"
     },
     {
       "type": "WEB",
