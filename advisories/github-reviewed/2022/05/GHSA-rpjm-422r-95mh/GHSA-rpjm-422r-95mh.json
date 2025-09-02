@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpjm-422r-95mh",
-  "modified": "2023-08-24T20:27:39Z",
+  "modified": "2025-09-02T22:23:08Z",
   "published": "2022-05-17T00:00:37Z",
   "aliases": [
     "CVE-2022-30126"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tika:tika"
+        "name": "org.apache.tika:tika-core"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tika:tika"
+        "name": "org.apache.tika:tika-core"
       },
       "ranges": [
         {
