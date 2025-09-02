@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jwwr-fjgh-cv2x",
-  "modified": "2022-07-07T22:43:25Z",
+  "modified": "2025-09-02T20:31:31Z",
   "published": "2022-05-13T01:05:37Z",
   "aliases": [
     "CVE-2014-3004"
@@ -28,12 +28,35 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.castor:castor"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.0"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-3004"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/castor-data-binding/castor"
     },
     {
       "type": "WEB",
