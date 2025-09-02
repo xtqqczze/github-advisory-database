@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w3j5-q8f2-3cqq",
-  "modified": "2024-02-22T21:29:35Z",
+  "modified": "2025-09-02T22:30:26Z",
   "published": "2022-05-14T01:10:16Z",
   "aliases": [
     "CVE-2016-8745"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat"
+        "name": "org.apache.tomcat:tomcat-util"
       },
       "ranges": [
         {
@@ -40,7 +40,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat"
+        "name": "org.apache.tomcat:tomcat-util"
       },
       "ranges": [
         {
@@ -62,14 +62,14 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat"
+        "name": "org.apache.tomcat:tomcat-util"
       },
       "ranges": [
         {
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "8.0.0RC1"
+              "introduced": "8.0.0-RC1"
             },
             {
               "fixed": "8.0.41"
@@ -81,7 +81,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat"
+        "name": "org.apache.tomcat:tomcat-util"
       },
       "ranges": [
         {
@@ -100,7 +100,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat"
+        "name": "org.apache.tomcat:tomcat-util"
       },
       "ranges": [
         {
