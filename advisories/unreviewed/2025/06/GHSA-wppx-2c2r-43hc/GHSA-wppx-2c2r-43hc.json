@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wppx-2c2r-43hc",
-  "modified": "2025-06-20T21:32:06Z",
+  "modified": "2025-09-02T21:30:56Z",
   "published": "2025-06-20T21:32:06Z",
   "aliases": [
     "CVE-2025-6193"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6193"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/trustyai-explainability/trustyai-service-operator/pull/504"
     },
     {
       "type": "WEB",

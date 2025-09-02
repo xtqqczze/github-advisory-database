@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2667-9fwp-8c25",
-  "modified": "2024-04-19T15:30:47Z",
+  "modified": "2025-09-02T21:30:55Z",
   "published": "2024-04-19T15:30:47Z",
   "aliases": [
     "CVE-2024-3470"
   ],
-  "details": "An Improper Privilege Management vulnerability was identified in GitHub Enterprise Server that allowed an attacker to use a deploy key pertaining to an organization to bypass an organization ruleset. An attacker would require access to a valid deploy key for a repository in the organization as well as repository administrator access. This vulnerability affected versions of GitHub Enterprise Server 3.11 to 3.12 and was fixed in versions 3.11.8 and 3.12.2. This vulnerability was reported via the GitHub Bug Bounty program.\n\n",
+  "details": "An Improper Privilege Management vulnerability was identified in GitHub Enterprise Server that allowed an attacker to use a deploy key pertaining to an organization to bypass an organization ruleset. An attacker would require access to a valid deploy key for a repository in the organization as well as repository administrator access. This vulnerability affected versions of GitHub Enterprise Server 3.11 to 3.12 and was fixed in versions 3.11.8 and 3.12.2. This vulnerability was reported via the GitHub Bug Bounty program.",
   "severity": [
     {
       "type": "CVSS_V3",
