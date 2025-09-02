@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g5ww-5jh7-63cx",
-  "modified": "2025-08-20T22:56:03Z",
+  "modified": "2025-09-02T19:35:38Z",
   "published": "2022-12-12T15:30:33Z",
   "aliases": [
     "CVE-2022-3509"
@@ -25,17 +25,14 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "3.0.0"
             },
             {
               "fixed": "3.16.3"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 3.0.0"
-      }
+      ]
     },
     {
       "package": {
@@ -104,47 +101,6 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
-            },
-            {
-              "fixed": "3.16.3"
-            }
-          ]
-        }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "< 3.0.0"
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "com.google.protobuf:protobuf-javalite"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.17.0"
-            },
-            {
-              "fixed": "3.19.6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "com.google.protobuf:protobuf-javalite"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
               "introduced": "3.20.0"
             },
             {
@@ -168,6 +124,25 @@
             },
             {
               "fixed": "3.21.7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.google.protobuf:protobuf-javalite"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "3.0.0"
+            },
+            {
+              "fixed": "3.16.3"
             }
           ]
         }
@@ -182,6 +157,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/protocolbuffers/protobuf/commit/a3888f53317a8018e7a439bac4abeb8f3425d5e9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/protocolbuffers/protobuf/blob/v2.6.1/java/core/src/main/java/com/google/protobuf/MessageReflection.java"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/protocolbuffers/protobuf/blob/v3.0.0/java/core/src/main/java/com/google/protobuf/MessageReflection.java"
     },
     {
       "type": "PACKAGE",
