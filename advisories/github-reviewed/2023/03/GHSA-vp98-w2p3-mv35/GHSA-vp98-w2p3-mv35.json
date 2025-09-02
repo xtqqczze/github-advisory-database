@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vp98-w2p3-mv35",
-  "modified": "2025-02-13T18:41:46Z",
+  "modified": "2025-09-02T22:25:25Z",
   "published": "2023-03-10T15:30:43Z",
   "aliases": [
     "CVE-2023-26464"
@@ -19,6 +19,25 @@
       "package": {
         "ecosystem": "Maven",
         "name": "org.apache.logging.log4j:log4j-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "1.0.4"
+            },
+            {
+              "fixed": "2.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "log4j:log4j"
       },
       "ranges": [
         {
