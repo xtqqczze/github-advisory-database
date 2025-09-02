@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95h4-w6j8-2rp8",
-  "modified": "2025-09-02T15:31:08Z",
+  "modified": "2025-09-02T20:54:27Z",
   "published": "2025-09-02T15:31:08Z",
   "aliases": [
     "CVE-2025-9784"
   ],
+  "summary": "Undertow MadeYouReset HTTP/2 DDoS Vulnerability",
   "details": "A flaw was found in Undertow where malformed client requests can trigger server-side stream resets without triggering abuse counters. This issue, referred to as the \"MadeYouReset\" attack, allows malicious clients to induce excessive server workload by repeatedly causing server-side stream aborts. While not a protocol bug, this highlights a common implementation weakness that can be exploited to cause a denial of service (DoS).",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.undertow:undertow-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "2.3.18.Final"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -26,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2392306"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/undertow-io/undertow"
     }
   ],
   "database_specific": {
@@ -33,8 +58,8 @@
       "CWE-404"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2025-09-02T20:54:27Z",
     "nvd_published_at": "2025-09-02T14:15:36Z"
   }
 }
