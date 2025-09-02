@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-735f-pc8j-v9w8",
-  "modified": "2025-04-23T14:35:53Z",
+  "modified": "2025-09-02T16:51:06Z",
   "published": "2024-09-19T16:06:03Z",
   "aliases": [
     "CVE-2024-7254"
@@ -162,7 +162,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.0.0.rc.1"
+              "introduced": "4.0.0-RC1"
             },
             {
               "fixed": "4.27.5"
@@ -181,7 +181,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.28.0.rc.1"
+              "introduced": "4.28.0-RC1"
             },
             {
               "fixed": "4.28.2"
@@ -200,7 +200,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.0.0.rc.1"
+              "introduced": "4.0.0-RC1"
             },
             {
               "fixed": "4.27.5"
@@ -219,7 +219,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.28.0.rc.1"
+              "introduced": "4.28.0-RC1"
             },
             {
               "fixed": "4.28.2"
@@ -238,7 +238,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.0.0.rc.1"
+              "introduced": "4.0.0-RC1"
             },
             {
               "fixed": "4.27.5"
@@ -257,7 +257,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.28.0.rc.1"
+              "introduced": "4.28.0-RC1"
             },
             {
               "fixed": "4.28.2"
@@ -276,7 +276,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.0.0.rc.1"
+              "introduced": "4.0.0-RC1"
             },
             {
               "fixed": "4.27.5"
@@ -295,7 +295,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "4.28.0.rc.1"
+              "introduced": "4.28.0-RC1"
             },
             {
               "fixed": "4.28.2"
