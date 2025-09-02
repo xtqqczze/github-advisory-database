@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vcc-86wm-547q",
-  "modified": "2024-07-05T14:52:51Z",
+  "modified": "2025-09-02T15:26:12Z",
   "published": "2024-03-16T09:30:35Z",
   "aliases": [
     "CVE-2024-22513"
   ],
   "summary": "Improper Privilege Management in djangorestframework-simplejwt",
-  "details": "djangorestframework-simplejwt version 5.3.1 and before is vulnerable to information disclosure. A user can access web application resources even after their account has been disabled due to missing user validation checks via the for_user method.",
+  "details": "djangorestframework-simplejwt before version 5.5.1 is vulnerable to information disclosure. A user can access web application resources even after their account has been disabled due to missing user validation checks via the for_user method.",
   "severity": [],
   "affected": [
     {
@@ -23,7 +23,7 @@
               "introduced": "0"
             },
             {
-              "last_affected": "5.3.1"
+              "fixed": "5.5.1"
             }
           ]
         }
@@ -34,6 +34,34 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-22513"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jazzband/djangorestframework-simplejwt/issues/779"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jazzband/djangorestframework-simplejwt/pull/872"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jazzband/djangorestframework-simplejwt/pull/873"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jazzband/djangorestframework-simplejwt/pull/891"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jazzband/djangorestframework-simplejwt/commit/14e8b2cf5fa0df954af82ff3926fa6d6c4ecf13e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jazzband/djangorestframework-simplejwt/commit/1ad763bfe73936515aa4756263338c63866364c9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jazzband/djangorestframework-simplejwt/commit/a2d0a0201b6123536ecf76cd4d0ec7389317d0a7"
     },
     {
       "type": "WEB",
