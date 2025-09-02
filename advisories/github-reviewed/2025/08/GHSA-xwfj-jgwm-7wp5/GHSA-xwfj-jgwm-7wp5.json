@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwfj-jgwm-7wp5",
-  "modified": "2025-09-01T20:05:43Z",
+  "modified": "2025-09-02T16:35:51Z",
   "published": "2025-08-29T20:33:56Z",
   "aliases": [
     "CVE-2025-58160"
@@ -47,6 +47,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/tokio-rs/tracing"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2025-0055.html"
     }
   ],
   "database_specific": {
