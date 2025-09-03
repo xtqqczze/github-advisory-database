@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw36-7c6c-q4q2",
-  "modified": "2022-02-08T22:03:00Z",
+  "modified": "2025-09-03T15:04:44Z",
   "published": "2020-11-16T20:07:59Z",
   "aliases": [
     "CVE-2020-26217"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "1.4.14-jdk7"
+              "fixed": "1.4.14-java7"
             }
           ]
         }
