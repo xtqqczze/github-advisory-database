@@ -1,13 +1,17 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v5vr-r7j6-q2w6",
-  "modified": "2025-08-05T21:31:37Z",
+  "modified": "2025-09-03T15:30:33Z",
   "published": "2025-08-05T21:31:37Z",
   "aliases": [
     "CVE-2012-10023"
   ],
   "details": "A stack-based buffer overflow vulnerability exists in FreeFloat FTP Server version 1.0.0. The server fails to properly validate input passed to the USER command, allowing remote attackers to overwrite memory and potentially execute arbitrary code. The flaw is triggered by sending an overly long username string, which overflows the buffer allocated for user authentication.",
   "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    },
     {
       "type": "CVSS_V4",
       "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
