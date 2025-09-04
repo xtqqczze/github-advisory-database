@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-pc6w-59fv-rh23",
+  "modified": "2025-09-04T12:30:42Z",
+  "published": "2025-09-04T12:30:42Z",
+  "aliases": [
+    "CVE-2025-6984"
+  ],
+  "details": "The langchain-ai/langchain project, specifically the EverNoteLoader component, is vulnerable to XML External Entity (XXE) attacks due to insecure XML parsing. The affected version is 0.3.63. The vulnerability arises from the use of etree.iterparse() without disabling external entity references, which can lead to sensitive information disclosure. An attacker could exploit this by crafting a malicious XML payload that references local files, potentially exposing sensitive data such as /etc/passwd.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6984"
+    },
+    {
+      "type": "WEB",
+      "url": "https://huntr.com/bounties/a6b521cf-258c-41c0-9edb-d8ef976abb2a"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-200"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-04T10:42:33Z"
+  }
+}
