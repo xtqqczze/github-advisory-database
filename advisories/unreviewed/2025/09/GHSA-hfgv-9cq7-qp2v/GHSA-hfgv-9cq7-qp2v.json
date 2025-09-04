@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hfgv-9cq7-qp2v",
-  "modified": "2025-09-04T12:30:42Z",
+  "modified": "2025-09-04T15:30:28Z",
   "published": "2025-09-04T12:30:42Z",
   "aliases": [
     "CVE-2025-36907"
   ],
   "details": "In draw_surface_image() of abl/android/lib/draw/draw.c, there is a possible out of bounds write due to a heap buffer overflow. This could lead to local escalation of privilege via USB fastboot, after a bootloader unlock, with no additional execution privileges needed. User interaction is needed for exploitation.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-122"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2025-09-04T10:42:31Z"
