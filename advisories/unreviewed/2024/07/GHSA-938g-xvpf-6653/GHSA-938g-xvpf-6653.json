@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-938g-xvpf-6653",
-  "modified": "2025-04-11T15:32:22Z",
+  "modified": "2025-09-04T03:30:33Z",
   "published": "2024-07-11T18:31:13Z",
   "aliases": [
     "CVE-2024-39550"
