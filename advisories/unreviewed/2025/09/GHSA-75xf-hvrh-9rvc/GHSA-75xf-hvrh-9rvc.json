@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-75xf-hvrh-9rvc",
+  "modified": "2025-09-04T21:31:38Z",
+  "published": "2025-09-04T21:31:38Z",
+  "aliases": [
+    "CVE-2025-48562"
+  ],
+  "details": "In writeContent of RemotePrintDocument.java, there is a possible information disclosure due to a logic error. This could lead to local information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-48562"
+    },
+    {
+      "type": "WEB",
+      "url": "https://android.googlesource.com/platform/frameworks/base/+/252efec89b01a89b4d394c500e9dae2b6c08dbae"
+    },
+    {
+      "type": "WEB",
+      "url": "https://source.android.com/security/bulletin/2025-09-01"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-04T19:15:43Z"
+  }
+}
