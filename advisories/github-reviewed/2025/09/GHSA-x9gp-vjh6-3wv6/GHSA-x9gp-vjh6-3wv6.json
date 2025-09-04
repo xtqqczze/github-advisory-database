@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x9gp-vjh6-3wv6",
-  "modified": "2025-09-03T18:03:20Z",
+  "modified": "2025-09-04T13:51:52Z",
   "published": "2025-09-03T18:03:20Z",
   "aliases": [
     "CVE-2025-58064"
@@ -98,6 +98,10 @@
       "url": "https://github.com/ckeditor/ckeditor5/security/advisories/GHSA-x9gp-vjh6-3wv6"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-58064"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ckeditor/ckeditor5/commit/b210e90c6cf84e662ef6c7daf93a92355a961bf2"
     },
@@ -113,6 +117,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2025-09-03T18:03:20Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2025-09-04T10:42:32Z"
   }
 }
