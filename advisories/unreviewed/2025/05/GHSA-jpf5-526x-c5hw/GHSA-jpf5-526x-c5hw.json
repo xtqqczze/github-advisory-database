@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jpf5-526x-c5hw",
-  "modified": "2025-06-03T06:31:13Z",
+  "modified": "2025-09-05T15:31:07Z",
   "published": "2025-05-30T15:30:30Z",
   "aliases": [
     "CVE-2025-40909"
@@ -78,7 +78,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-362"
+      "CWE-362",
+      "CWE-426"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

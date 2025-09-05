@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3hm-j3wc-jcg9",
-  "modified": "2025-05-12T18:31:20Z",
+  "modified": "2025-09-05T15:31:06Z",
   "published": "2025-03-28T03:30:24Z",
   "aliases": [
     "CVE-2025-1860"
@@ -34,6 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-331",
       "CWE-338"
     ],
     "severity": "HIGH",
