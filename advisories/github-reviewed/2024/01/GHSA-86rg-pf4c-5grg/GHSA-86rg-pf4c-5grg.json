@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-86rg-pf4c-5grg",
-  "modified": "2024-02-05T17:59:41Z",
+  "modified": "2025-09-05T16:12:40Z",
   "published": "2024-01-04T12:30:20Z",
   "aliases": [
     "CVE-2023-6944"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/backstage/backstage/commit/0382db60f6c8e8715a702bde6408ad10a48d8e11"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHBA-2024:5869"
     },
     {
       "type": "WEB",
