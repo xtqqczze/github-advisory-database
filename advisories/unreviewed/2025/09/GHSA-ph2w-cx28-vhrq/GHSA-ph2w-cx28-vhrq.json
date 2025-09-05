@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-ph2w-cx28-vhrq",
+  "modified": "2025-09-05T06:30:29Z",
+  "published": "2025-09-05T06:30:29Z",
+  "aliases": [
+    "CVE-2025-55671"
+  ],
+  "details": "Uncontrolled search path element issue exists in TkEasyGUI versions prior to v1.0.22. If this vulnerability is exploited, arbitrary code may be executed with the privilege of running the program.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-55671"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/kujirahand/tkeasygui-python/releases/tag/v1.0.22"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jvn.jp/en/jp/JVN48739895"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-427"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2025-09-05T06:15:32Z"
+  }
+}
