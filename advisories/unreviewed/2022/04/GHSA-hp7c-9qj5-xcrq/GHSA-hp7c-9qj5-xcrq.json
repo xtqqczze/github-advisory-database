@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hp7c-9qj5-xcrq",
-  "modified": "2022-04-13T00:00:43Z",
+  "modified": "2025-09-05T18:31:09Z",
   "published": "2022-04-06T00:01:33Z",
   "aliases": [
     "CVE-2022-25356"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://www.swascan.com/security-blog"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tinextacyber.com/security-advisory-alt-n-security-gataway-cve-2022-25356"
     }
   ],
   "database_specific": {
