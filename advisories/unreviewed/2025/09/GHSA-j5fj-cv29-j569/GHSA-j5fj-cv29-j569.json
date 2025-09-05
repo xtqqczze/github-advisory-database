@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j5fj-cv29-j569",
-  "modified": "2025-09-05T18:31:26Z",
+  "modified": "2025-09-05T21:32:37Z",
   "published": "2025-09-05T18:31:26Z",
   "aliases": [
     "CVE-2025-35451"
@@ -34,6 +34,14 @@
     {
       "type": "WEB",
       "url": "https://www.cve.org/CVERecord?id=CVE-2025-35451"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.greynoise.io/blog/greynoise-intelligence-discovers-zero-day-vulnerabilities-in-live-streaming-cameras-with-the-help-of-ai"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.labs.greynoise.io/grimoire/2024-10-31-sift-0-day-rce"
     }
   ],
   "database_specific": {

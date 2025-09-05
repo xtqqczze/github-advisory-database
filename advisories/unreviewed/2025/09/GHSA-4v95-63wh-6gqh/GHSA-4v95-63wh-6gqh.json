@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v95-63wh-6gqh",
-  "modified": "2025-09-05T15:31:07Z",
+  "modified": "2025-09-05T21:32:37Z",
   "published": "2025-09-05T15:31:07Z",
   "aliases": [
     "CVE-2025-10011"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/marcelomulder/CVE/blob/main/i-educar/CVE-2025-10011.md"
     },
     {
       "type": "WEB",

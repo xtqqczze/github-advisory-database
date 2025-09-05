@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jq6q-c5mf-gjcv",
-  "modified": "2022-05-17T03:45:52Z",
+  "modified": "2025-09-05T21:32:35Z",
   "published": "2022-05-17T03:45:52Z",
   "aliases": [
     "CVE-2014-9196"
@@ -20,11 +20,21 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-15-006-01"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.eaton.com/cybersecurity"
+    },
+    {
+      "type": "WEB",
       "url": "http://www.securityfocus.com/bid/75936"
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-342"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
