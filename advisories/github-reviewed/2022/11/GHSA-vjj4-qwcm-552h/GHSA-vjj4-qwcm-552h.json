@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjj4-qwcm-552h",
-  "modified": "2022-11-21T23:49:32Z",
+  "modified": "2025-09-05T19:04:02Z",
   "published": "2022-11-15T12:00:16Z",
   "aliases": [
     "CVE-2022-42124"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://portal.liferay.dev/learn/security/known-vulnerabilities/-/asset_publisher/HbL5mxmVrnXW/content/cve-2022-42124"
+    },
+    {
+      "type": "WEB",
+      "url": "http://liferay.com"
     }
   ],
   "database_specific": {

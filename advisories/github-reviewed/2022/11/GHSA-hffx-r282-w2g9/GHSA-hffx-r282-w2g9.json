@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hffx-r282-w2g9",
-  "modified": "2022-11-21T23:50:32Z",
+  "modified": "2025-09-05T19:03:57Z",
   "published": "2022-11-15T12:00:16Z",
   "aliases": [
     "CVE-2022-42123"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://portal.liferay.dev/learn/security/known-vulnerabilities/-/asset_publisher/HbL5mxmVrnXW/content/cve-2022-42123"
+    },
+    {
+      "type": "WEB",
+      "url": "http://liferay.com"
     }
   ],
   "database_specific": {

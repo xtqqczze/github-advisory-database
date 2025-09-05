@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r5fj-j449-vqw2",
-  "modified": "2025-07-15T20:40:29Z",
+  "modified": "2025-09-05T19:04:19Z",
   "published": "2022-11-15T12:00:16Z",
   "aliases": [
     "CVE-2022-42120"
@@ -89,6 +89,10 @@
     {
       "type": "WEB",
       "url": "https://issues.liferay.com/browse/LPE-17513"
+    },
+    {
+      "type": "WEB",
+      "url": "https://portal.liferay.dev/learn/security/known-vulnerabilities/-/asset_publisher/HbL5mxmVrnXW/content/cve-2022-42120"
     },
     {
       "type": "WEB",
