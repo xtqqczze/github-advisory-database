@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-378x-6p4f-8jgm",
-  "modified": "2025-08-08T16:29:15Z",
+  "modified": "2025-09-05T16:09:26Z",
   "published": "2025-08-07T16:42:54Z",
   "aliases": [
     "CVE-2025-54886"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/skops-dev/skops/commit/29d61ea8a92f2bde6830e8f32cc72a1a87211cda"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/io-no/CVE-Reports/tree/main/CVE-2025-54886"
     },
     {
       "type": "PACKAGE",
